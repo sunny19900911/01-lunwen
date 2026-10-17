@@ -1,0 +1,132 @@
+{
+  "time_Asia_Shanghai": "2026-10-17T09:22:37.730922+08:00",
+  "python_version": "3.13.15",
+  "script_sha256": "f28656375e052b2da42a9fa6f8691748ef0c1b4a3ec5f77ce281c1159ab0b3bd",
+  "exact_weighted_square_identity_cases": [
+    {
+      "alpha": "1/10",
+      "gamma": "1/100",
+      "weighted_square_integral": "255/26"
+    },
+    {
+      "alpha": "1/10",
+      "gamma": "1",
+      "weighted_square_integral": "2010/401"
+    },
+    {
+      "alpha": "1/10",
+      "gamma": "100",
+      "weighted_square_integral": "20000010/4000001"
+    },
+    {
+      "alpha": "1",
+      "gamma": "1/100",
+      "weighted_square_integral": "5001/5002"
+    },
+    {
+      "alpha": "1",
+      "gamma": "1",
+      "weighted_square_integral": "3/5"
+    },
+    {
+      "alpha": "1",
+      "gamma": "100",
+      "weighted_square_integral": "20001/40001"
+    },
+    {
+      "alpha": "10",
+      "gamma": "1/100",
+      "weighted_square_integral": "500001/5000020"
+    },
+    {
+      "alpha": "10",
+      "gamma": "1",
+      "weighted_square_integral": "51/520"
+    },
+    {
+      "alpha": "10",
+      "gamma": "100",
+      "weighted_square_integral": "201/4010"
+    }
+  ],
+  "closed_kernel_examples": [
+    {
+      "alpha": 1,
+      "beta": 1.000001,
+      "TV_closed": 0.7357587597164511,
+      "branch": "under"
+    },
+    {
+      "alpha": 1,
+      "beta": 1.01,
+      "TV_closed": 0.734537294148603,
+      "branch": "under"
+    },
+    {
+      "alpha": 1,
+      "beta": 2.0,
+      "TV_closed": 0.6739164544697352,
+      "branch": "under"
+    },
+    {
+      "alpha": 1,
+      "beta": 101.0,
+      "TV_closed": 0.6371819912514909,
+      "branch": "under"
+    },
+    {
+      "alpha": 1,
+      "beta": 10001.0,
+      "TV_closed": 0.6366254231273211,
+      "branch": "under"
+    },
+    {
+      "alpha": 1,
+      "beta": 1.0,
+      "TV_closed": 0.7357588823428847,
+      "branch": "critical"
+    },
+    {
+      "alpha": 1,
+      "beta": 0.99,
+      "TV_closed": 0.7369898721925501,
+      "branch": "over"
+    },
+    {
+      "alpha": 1,
+      "beta": 0.5,
+      "TV_closed": 0.8132394312246743,
+      "branch": "over"
+    },
+    {
+      "alpha": 1,
+      "beta": 0.1,
+      "TV_closed": 0.9301855986017458,
+      "branch": "over"
+    },
+    {
+      "alpha": 1,
+      "beta": 0.01,
+      "TV_closed": 0.9875087946213692,
+      "branch": "over"
+    },
+    {
+      "alpha": 1,
+      "beta": 0.0001,
+      "TV_closed": 0.9997600952307719,
+      "branch": "over"
+    },
+    {
+      "alpha": 1,
+      "beta": 1e-08,
+      "TV_closed": 0.999999952982563,
+      "branch": "over"
+    }
+  ],
+  "kappa_exact": "8/5",
+  "new_bound_exact": "539/80",
+  "new_bound": 6.7375,
+  "old_bound_exact": "85/4",
+  "old_bound": 21.25,
+  "scope": "Finite examples supplement the analytic proof in round-005.md; no numerical proof, peak search, or ETABS result."
+}

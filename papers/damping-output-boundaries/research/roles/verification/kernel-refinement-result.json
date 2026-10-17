@@ -1,0 +1,286 @@
+{
+  "run_time_utc": "2026-10-17T01:22:21.140906+00:00",
+  "script_sha256": "7695d16c3b22c8011407d89213a049f1fa17cf6af29bb0d79f9eab762a34922c",
+  "input_proof_sha256": "b52f5040ae530bb2e00700061b9d11c5fb8b692f55957f5a7257ebf29d8d9d00",
+  "scalar_closed_form_checks": [
+    {
+      "alpha_over_sqrt_beta": 1e-08,
+      "alpha_times_TV_closed": 0.6366197723675814,
+      "underdamped_proof_upper": 1.0
+    },
+    {
+      "alpha_over_sqrt_beta": 1.7782794100389228e-08,
+      "alpha_times_TV_closed": 0.6366197723675815,
+      "underdamped_proof_upper": 1.0
+    },
+    {
+      "alpha_over_sqrt_beta": 3.162277660168379e-08,
+      "alpha_times_TV_closed": 0.6366197723675814,
+      "underdamped_proof_upper": 0.9999999999999998
+    },
+    {
+      "alpha_over_sqrt_beta": 5.6234132519034905e-08,
+      "alpha_times_TV_closed": 0.6366197723675816,
+      "underdamped_proof_upper": 0.9999999999999996
+    },
+    {
+      "alpha_over_sqrt_beta": 1e-07,
+      "alpha_times_TV_closed": 0.6366197723675819,
+      "underdamped_proof_upper": 0.9999999999999983
+    },
+    {
+      "alpha_over_sqrt_beta": 1.7782794100389227e-07,
+      "alpha_times_TV_closed": 0.6366197723675832,
+      "underdamped_proof_upper": 0.9999999999999948
+    },
+    {
+      "alpha_over_sqrt_beta": 3.162277660168379e-07,
+      "alpha_times_TV_closed": 0.636619772367587,
+      "underdamped_proof_upper": 0.9999999999999832
+    },
+    {
+      "alpha_over_sqrt_beta": 5.62341325190349e-07,
+      "alpha_times_TV_closed": 0.6366197723675993,
+      "underdamped_proof_upper": 0.9999999999999473
+    },
+    {
+      "alpha_over_sqrt_beta": 1e-06,
+      "alpha_times_TV_closed": 0.6366197723676379,
+      "underdamped_proof_upper": 0.9999999999998334
+    },
+    {
+      "alpha_over_sqrt_beta": 1.778279410038923e-06,
+      "alpha_times_TV_closed": 0.6366197723677601,
+      "underdamped_proof_upper": 0.999999999999473
+    },
+    {
+      "alpha_over_sqrt_beta": 3.162277660168379e-06,
+      "alpha_times_TV_closed": 0.6366197723681466,
+      "underdamped_proof_upper": 0.9999999999983332
+    },
+    {
+      "alpha_over_sqrt_beta": 5.623413251903491e-06,
+      "alpha_times_TV_closed": 0.6366197723693684,
+      "underdamped_proof_upper": 0.9999999999947295
+    },
+    {
+      "alpha_over_sqrt_beta": 1e-05,
+      "alpha_times_TV_closed": 0.6366197723732324,
+      "underdamped_proof_upper": 0.9999999999833332
+    },
+    {
+      "alpha_over_sqrt_beta": 1.778279410038923e-05,
+      "alpha_times_TV_closed": 0.6366197723854516,
+      "underdamped_proof_upper": 0.9999999999472954
+    },
+    {
+      "alpha_over_sqrt_beta": 3.1622776601683795e-05,
+      "alpha_times_TV_closed": 0.636619772424092,
+      "underdamped_proof_upper": 0.9999999998333333
+    },
+    {
+      "alpha_over_sqrt_beta": 5.623413251903491e-05,
+      "alpha_times_TV_closed": 0.6366197725462831,
+      "underdamped_proof_upper": 0.9999999994729538
+    },
+    {
+      "alpha_over_sqrt_beta": 0.0001,
+      "alpha_times_TV_closed": 0.6366197729326863,
+      "underdamped_proof_upper": 0.9999999983333334
+    },
+    {
+      "alpha_over_sqrt_beta": 0.00017782794100389227,
+      "alpha_times_TV_closed": 0.6366197741546004,
+      "underdamped_proof_upper": 0.9999999947295373
+    },
+    {
+      "alpha_over_sqrt_beta": 0.00031622776601683794,
+      "alpha_times_TV_closed": 0.6366197780186315,
+      "underdamped_proof_upper": 0.9999999833333336
+    },
+    {
+      "alpha_over_sqrt_beta": 0.0005623413251903491,
+      "alpha_times_TV_closed": 0.6366197902377728,
+      "underdamped_proof_upper": 0.9999999472953743
+    },
+    {
+      "alpha_over_sqrt_beta": 0.001,
+      "alpha_times_TV_closed": 0.6366198288781073,
+      "underdamped_proof_upper": 0.9999998333333527
+    },
+    {
+      "alpha_over_sqrt_beta": 0.0017782794100389228,
+      "alpha_times_TV_closed": 0.636619951069743,
+      "underdamped_proof_upper": 0.9999994729539178
+    },
+    {
+      "alpha_over_sqrt_beta": 0.0031622776601683794,
+      "alpha_times_TV_closed": 0.6366203374753151,
+      "underdamped_proof_upper": 0.9999983333352778
+    },
+    {
+      "alpha_over_sqrt_beta": 0.005623413251903491,
+      "alpha_times_TV_closed": 0.6366215594139469,
+      "underdamped_proof_upper": 0.9999947295566775
+    },
+    {
+      "alpha_over_sqrt_beta": 0.01,
+      "alpha_times_TV_closed": 0.6366254236924246,
+      "underdamped_proof_upper": 0.9999833335277757
+    },
+    {
+      "alpha_over_sqrt_beta": 0.01778279410038923,
+      "alpha_times_TV_closed": 0.6366376453065831,
+      "underdamped_proof_upper": 0.9999472973167103
+    },
+    {
+      "alpha_over_sqrt_beta": 0.03162277660168379,
+      "alpha_times_TV_closed": 0.6366763103786902,
+      "underdamped_proof_upper": 0.9998333527757278
+    },
+    {
+      "alpha_over_sqrt_beta": 0.05623413251903491,
+      "alpha_times_TV_closed": 0.63679874967632,
+      "underdamped_proof_upper": 0.9994731481029356
+    },
+    {
+      "alpha_over_sqrt_beta": 0.1,
+      "alpha_times_TV_closed": 0.6371876409372438,
+      "underdamped_proof_upper": 0.998335275729611
+    },
+    {
+      "alpha_over_sqrt_beta": 0.1778279410038923,
+      "alpha_times_TV_closed": 0.6384347271960954,
+      "underdamped_proof_upper": 0.9947489170517536
+    },
+    {
+      "alpha_over_sqrt_beta": 0.31622776601683794,
+      "alpha_times_TV_closed": 0.6425600840880841,
+      "underdamped_proof_upper": 0.9835257483006858
+    },
+    {
+      "alpha_over_sqrt_beta": 0.5623413251903491,
+      "alpha_times_TV_closed": 0.6577415111756434,
+      "underdamped_proof_upper": 0.9491770162105209
+    },
+    {
+      "alpha_over_sqrt_beta": 0.999999999999,
+      "alpha_times_TV_closed": 0.7357588823426394,
+      "underdamped_proof_upper": 0.8509181282395879
+    },
+    {
+      "alpha_over_sqrt_beta": 1.0,
+      "alpha_times_TV_closed": 0.7357588823428847
+    },
+    {
+      "alpha_over_sqrt_beta": 1.000000000001,
+      "alpha_times_TV_closed": 0.7357588823438656
+    },
+    {
+      "alpha_over_sqrt_beta": 1.7782794100389228,
+      "alpha_times_TV_closed": 0.855455180804408
+    },
+    {
+      "alpha_over_sqrt_beta": 3.1622776601683795,
+      "alpha_times_TV_closed": 0.9301855986017457
+    },
+    {
+      "alpha_over_sqrt_beta": 5.623413251903491,
+      "alpha_times_TV_closed": 0.9694112683104723
+    },
+    {
+      "alpha_over_sqrt_beta": 10.0,
+      "alpha_times_TV_closed": 0.9875087946213691
+    },
+    {
+      "alpha_over_sqrt_beta": 17.78279410038923,
+      "alpha_times_TV_closed": 0.9951443167999385
+    },
+    {
+      "alpha_over_sqrt_beta": 31.622776601683793,
+      "alpha_times_TV_closed": 0.9981768141276914
+    },
+    {
+      "alpha_over_sqrt_beta": 56.23413251903491,
+      "alpha_times_TV_closed": 0.9993324047519538
+    },
+    {
+      "alpha_over_sqrt_beta": 100.0,
+      "alpha_times_TV_closed": 0.9997600952307717
+    },
+    {
+      "alpha_over_sqrt_beta": 177.82794100389228,
+      "alpha_times_TV_closed": 0.9999150318001403
+    },
+    {
+      "alpha_over_sqrt_beta": 316.22776601683796,
+      "alpha_times_TV_closed": 0.9999702521729232
+    },
+    {
+      "alpha_over_sqrt_beta": 562.341325190349,
+      "alpha_times_TV_closed": 0.9999896826931342
+    },
+    {
+      "alpha_over_sqrt_beta": 1000.0,
+      "alpha_times_TV_closed": 0.9999964495524416
+    },
+    {
+      "alpha_over_sqrt_beta": 1778.2794100389228,
+      "alpha_times_TV_closed": 0.9999987862315236
+    },
+    {
+      "alpha_over_sqrt_beta": 3162.2776601683795,
+      "alpha_times_TV_closed": 0.9999995873903041
+    },
+    {
+      "alpha_over_sqrt_beta": 5623.413251903491,
+      "alpha_times_TV_closed": 0.9999998604195801
+    },
+    {
+      "alpha_over_sqrt_beta": 10000.0,
+      "alpha_times_TV_closed": 0.9999999529825632
+    },
+    {
+      "alpha_over_sqrt_beta": 17782.794100389227,
+      "alpha_times_TV_closed": 0.9999999842216041
+    },
+    {
+      "alpha_over_sqrt_beta": 31622.776601683792,
+      "alpha_times_TV_closed": 0.9999999947226099
+    },
+    {
+      "alpha_over_sqrt_beta": 56234.13251903491,
+      "alpha_times_TV_closed": 0.999999998240125
+    },
+    {
+      "alpha_over_sqrt_beta": 100000.0,
+      "alpha_times_TV_closed": 0.9999999994146963
+    },
+    {
+      "alpha_over_sqrt_beta": 177827.94100389228,
+      "alpha_times_TV_closed": 0.9999999998058091
+    },
+    {
+      "alpha_over_sqrt_beta": 316227.7660168379,
+      "alpha_times_TV_closed": 0.9999999999357132
+    },
+    {
+      "alpha_over_sqrt_beta": 562341.3251903491,
+      "alpha_times_TV_closed": 0.9999999999787604
+    },
+    {
+      "alpha_over_sqrt_beta": 1000000.0,
+      "alpha_times_TV_closed": 0.9999999999929957
+    }
+  ],
+  "critical_alpha_times_TV_exact": "2/e",
+  "sharp_limit": "alpha/sqrt(beta)->infinity gives alpha*TV->1; beta stays positive along the sequence",
+  "new_B_at_kappa_8_5_exact": "539/80",
+  "new_B_at_kappa_8_5": 6.7375,
+  "old_B_at_kappa_8_5": 21.25,
+  "limitations": [
+    "Finite closed-form checks supplement the analytic proof, not a universal proof.",
+    "Sharpness refers only to the scalar 1/alpha coefficient, not the multiplied two-mode peak constant.",
+    "No ETABS or input peak optimization."
+  ]
+}

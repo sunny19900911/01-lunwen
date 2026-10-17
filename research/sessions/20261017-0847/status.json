@@ -18,7 +18,7 @@
     "status": "ACTIVE"
   },
   "last_verified_push": {
-    "commit": "f43f8cba96b6591bd0fc63be13b4b1e348146f61",
+    "commit": "045739d2bd1dba51c47c6a21c4622ebe578240e6",
     "branch": "main",
     "remote": "origin",
     "verified_by": "proxy-scoped git ls-remote origin refs/heads/main"
@@ -31,34 +31,34 @@
   "role_cursors": [
     {
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
-      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:2",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:5",
       "status": "inProgress"
     },
     {
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:2",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:4",
       "status": "inProgress"
     },
     {
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:2",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:5",
       "status": "inProgress"
     },
     {
       "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
-      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:2",
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:5",
       "status": "inProgress"
     },
     {
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:2",
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:4",
       "status": "inProgress"
     }
   ],
-  "next_checkpoint": "Review fresh outputs and plots; continue bounded research until 10:47 cutoff.",
-  "recorded_at": "2026-10-17T09:21:05+08:00",
+  "next_checkpoint": "Collect frozen E004 review, physical-residue audit, manuscript v004 and rendered figures. All five roles already active; no duplicate dispatch.",
+  "recorded_at": "2026-10-17T09:31:52+08:00",
   "pending_push": null,
-  "latest_round": "R003.md",
+  "latest_round": "R004.md",
   "git_transport": {
     "proxy": "http://127.0.0.1:17890",
     "source": "existing Windows system proxy, host/port only",

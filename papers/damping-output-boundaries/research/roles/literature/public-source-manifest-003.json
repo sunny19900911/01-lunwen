@@ -1,0 +1,69 @@
+{
+  "version": "003",
+  "checked_at": "2026-10-17T09:17:00+08:00",
+  "frozen_input_head": "f43f8cba96b6591bd0fc63be13b4b1e348146f61",
+  "sources": [
+    {
+      "id": "L030",
+      "title": "Ascoli-Arzela Theorem",
+      "author": "not stated in the PDF",
+      "date": "not stated in the PDF",
+      "source_url": "https://math.mit.edu/~rbm/18.100B/Ascoli-Arzela.pdf",
+      "local_cache_relative": "local-cache/L030-Ascoli-Arzela-MIT.pdf",
+      "sha256": "9f5e55753f508472c81e1da0ce3d488107cd33743ca2b449b01e8779c6768ef0",
+      "pdf_pages": 4,
+      "visually_checked_pdf_pages_1based": [1],
+      "status": "full-text-local"
+    },
+    {
+      "id": "L031",
+      "title": "Point-Set Topology, Chapter 3: Connected and compact spaces",
+      "author": "Romyar Sharifi",
+      "date": "not fixed by this inspection",
+      "source_url": "https://www.math.ucla.edu/~sharifi/notes/topology-ch03.html",
+      "local_cache_relative": "local-cache/L031-Sharifi-compactness.html",
+      "sha256": "d32e470eb7a173772207144d52756bdebf9316c4a7a9661bf884bc2eb1def43d",
+      "sections_checked": ["3.2 Proposition 3.2.9", "3.2 Theorem 3.2.10", "3.2 Corollary 3.2.11"],
+      "status": "public-html-read-and-cached"
+    },
+    {
+      "id": "L032",
+      "title": "Lectures on PDE",
+      "author": "Leon Simon",
+      "date": "not fixed by this inspection",
+      "source_url": "https://math.stanford.edu/~lms/lecs-on-pde.pdf",
+      "local_cache_relative": "local-cache/L032-Simon-PDE.pdf",
+      "sha256": "e1f1b2f51d2558aa467a8c064fe82e7b9e157ad28c9c75f01e38596cde656870",
+      "pdf_pages": 118,
+      "format": "two printed pages per PDF page",
+      "visually_checked_pdf_pages_1based": [27],
+      "printed_pages_checked": [48, 49],
+      "locations": ["Lecture 5 Lemma 4 (Rellich's Theorem)", "p48 formula (c)", "p49 formula (f)"],
+      "status": "full-text-local; garbled text layer, critical formulas visually checked"
+    },
+    {
+      "id": "L019-addendum",
+      "source_file": "local-cache/linfty-bruna-2016.pdf",
+      "sha256": "0DBEA90B2053579BF1E23254EFF8C0C020033F7B408C975C6EBC063788290EFB",
+      "visually_checked_pdf_pages_1based_added": [40, 41],
+      "printed_pages": [39, 40],
+      "locations": ["uniqueness paragraph following (4.2)", "Theorem 16", "Theorem 17 (Plancherel)"],
+      "source_manifest": "linfty-background-001.md"
+    }
+  ],
+  "retrieval": "Selected public primary-source URLs via Invoke-WebRequest with normal OS TLS validation; PDFs, HTML, and renderings remain in ignored local-cache",
+  "failed_paths": [
+    {
+      "url": "https://math.mit.edu/~choiks/18152/Lecture%20notes%20May%209.pdf",
+      "result": "404 Not Found; no full text downloaded; search-cache theorem not adopted as the inspected source"
+    }
+  ],
+  "input_sha256": {
+    "verification/round-004.md": "0EA7C8496E32F34C1BF1B4B9F0AE5AE049B81260B66D018A2F9F12BFC3E25C83",
+    "verification/addendum-V004-scaling.md": "37EC59A60B3553D70E31E5D67B47AB6261B40744FFBAD825235D78E2FA0F36BB",
+    "ideation/round-003.md": "5DBF7068083A83FC838057805106362D4164FCA116633E741FB0669B3FFC3E64",
+    "verification/reply-I005.md": "EEBDD523E057FE2F334713A895FAF57C822B7EBB732D9785536682EF4E04B30E",
+    "verification/round-005.md": "8DE9CF27808B07A2A491B4EA3CA6103DE3B3AFDB31062C98D71BE98346881352",
+    "ideation/round-004.md": "16F1548DF4BC5563B0282E2A3E3EB278C73B9926F1F3B5927DD926775B45C991"
+  }
+}

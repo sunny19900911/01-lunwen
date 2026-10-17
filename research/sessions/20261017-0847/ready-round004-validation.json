@@ -1,0 +1,116 @@
+{
+  "recorded_at": "2026-10-17T09:31:52+08:00",
+  "checks": [
+    "all selected files read",
+    "JSON parsed",
+    "Python AST parsed",
+    "frozen selections only; active roles excluded"
+  ],
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/research/claims.md",
+      "bytes": 5873,
+      "sha256": "a6bcdd1a91378b5c2a9f10bba214e9419a2abd10d6c8ca3868f5d1bf6074a289"
+    },
+    {
+      "path": "research/sessions/20261017-0847/status.json",
+      "bytes": 2379,
+      "sha256": "6a7b993210173a171e425120d26d4c15a9cd24b5b34a6d2f604a206cd0074a51"
+    },
+    {
+      "path": "research/sessions/20261017-0847/R004.md",
+      "bytes": 2551,
+      "sha256": "d62bd26a7d0d466d3447ceb10a7ef1d581d58794557baf19089dbf2a0fbc1094"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/T001.md",
+      "bytes": 1820,
+      "sha256": "1c50ab424f2f5d6e12b2f86fcf039b953d33be1b6a21ac1266f46d4dc4a75ba1"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/history/T001/v004.md",
+      "bytes": 1820,
+      "sha256": "1c50ab424f2f5d6e12b2f86fcf039b953d33be1b6a21ac1266f46d4dc4a75ba1"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/events.md",
+      "bytes": 1308,
+      "sha256": "09f927f392036cf658091daf695bcaf24383ed6146558f47719629fa5bc8ffdc"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/round-005.md",
+      "bytes": 5882,
+      "sha256": "fa044d1728b045202fef4332d81d6331aa7ea090d645e9d0964afb106e04cb20"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/verify_sharper_kernel.py",
+      "bytes": 2644,
+      "sha256": "f28656375e052b2da42a9fa6f8691748ef0c1b4a3ec5f77ce281c1159ab0b3bd"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/sharper-kernel-result.json",
+      "bytes": 2942,
+      "sha256": "5c60a267a28878164553ac60ff720391342639beb641f7f0ec976660bccabf0b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/round-006.md",
+      "bytes": 5708,
+      "sha256": "6a9e9758d4f9b07d0d57cbbff80bd8b8b15349c155c4ff504724c2c1defaad60"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/reply-C006-refinement.md",
+      "bytes": 1917,
+      "sha256": "1c162770f413d3e56f2f32fea52608ef0746d10ac97cb431462d2f8aa9867e3a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/helper-kernel-refinement.md",
+      "bytes": 6514,
+      "sha256": "d09f04b85ea781d766bbf09b1ab5e0dec4c52147168f1e19c78db0e2fc3b3172"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/kernel-refinement-result.json",
+      "bytes": 9302,
+      "sha256": "e0eedac6da395df93ebd7a61d97ed7825fbfa54313ed1762f392b96332c74d87"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/verify_kernel_refinement.py",
+      "bytes": 2435,
+      "sha256": "7695d16c3b22c8011407d89213a049f1fa17cf6af29bb0d79f9eab762a34922c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/reply-EEXP003.md",
+      "bytes": 6978,
+      "sha256": "616eaa426d38746300761d41125eade38976cf04545f33e61f53cc13f4c23b1f"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/round-003.md",
+      "bytes": 7745,
+      "sha256": "ea76353fdda3d9befeb02ea325232cdd6349efd32b547c9ce93b884ebf4769df"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/c001-c006-targeted-search-001.md",
+      "bytes": 13472,
+      "sha256": "017cb7497ed04414c9ad1f0acbab24c6312bc1dc27f6d0ceb7d5d4a5fd7e4f06"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/compactness-mapping-audit.md",
+      "bytes": 6349,
+      "sha256": "a0709d467f18084a649f5e903afcbf755e5fd5b4e02222dcf179f71128018b53"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/compactness-primary-background-001.md",
+      "bytes": 5991,
+      "sha256": "b620823c68db4428e178dd0109be9084c29e6aba11232e8cff84c80a11c88cfe"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/public-source-manifest-003.json",
+      "bytes": 3397,
+      "sha256": "086a2c88690ff49833dba15f76a34dd2a547a66fd5ccab2f02abb2e41788b761"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/support-bandwidth-background-001.md",
+      "bytes": 10696,
+      "sha256": "324a7cb4196334060d88dfe9ee72bef78646601f4accace996e8460fbbf9eece"
+    }
+  ]
+}
