@@ -18,11 +18,11 @@
     "status": "ACTIVE"
   },
   "last_verified_push": {
-    "commit": "07c5ad5fe43195f3a9fc4604a8de012a2a5a2e92",
+    "commit": "e922dd537edf7bcf0225d790e7d9090985662349",
     "branch": "main",
     "remote": "origin",
     "verified_by": "proxy-scoped git ls-remote origin refs/heads/main",
-    "verified_at": "2026-10-17T10:35:18.501385+08:00"
+    "verified_at": "2026-10-17T10:43:28.383189+08:00"
   },
   "git_identity": {
     "name": "Codex Paper Lab",
@@ -57,7 +57,7 @@
     }
   ],
   "next_checkpoint": "At10:47:23: no new work; finish final-summary actual cutoff/scheduler/push state, pause git via automation_update preserving actual config, normal final push then remote verify. Final v009 frozen; no pending substantive revisions. Do not restart role tasks from historical next-task entries.",
-  "recorded_at": "2026-10-17T10:41:59.728131+08:00",
+  "recorded_at": "2026-10-17T10:43:28.383189+08:00",
   "pending_push": null,
   "latest_round": "R010.md",
   "git_transport": {
@@ -73,8 +73,8 @@
       "reason": "unknown provenance; metadata only; not read, not deleted, never staged"
     }
   ],
-  "checkpoint_open": true,
-  "prepared_publication": "R010 final reviews and frozen handoffs",
+  "checkpoint_open": false,
+  "prepared_publication": null,
   "in_flight_tasks": {},
   "last_snapshot_note": "All five actual idle/completed, no reported errors; two handoff files per owner frozen with SHA."
 }
