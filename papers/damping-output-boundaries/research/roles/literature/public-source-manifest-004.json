@@ -1,0 +1,123 @@
+{
+  "version": "004",
+  "checked_at": "2026-10-17T09:38:46+08:00",
+  "frozen_input_head": "045739d2bd1dba51c47c6a21c4622ebe578240e6",
+  "scope": "Literature role; no novelty adjudication; full texts remain ignored local cache",
+  "sources": [
+    {
+      "id": "L026",
+      "title": "Decoupling approximation design using the peak to peak gain",
+      "DOI": "10.1016/j.ymssp.2012.10.007",
+      "PII": "S0888327012003809",
+      "status": "insufficient-text; bibliographic registration verified",
+      "metadata_file": "sultan2013-crossref-metadata-001.json",
+      "metadata_sha256": "13bb90a3972c5843e43529499c67ea6703f62571cf6275144ee67e6855e02ea9",
+      "author_publications_url": "https://www.aoe.vt.edu/people/faculty/sultan/personal-page/publications.html",
+      "author_html_sha256": "af28c8318b38b495df4cc0454a3cd09a60a6995bfb310ba0aae81ff03aab86a2",
+      "publisher_resource_url": "https://linkinghub.elsevier.com/retrieve/pii/S0888327012003809",
+      "publisher_resource_result": "web tool not accessible; no HTTP status",
+      "registered_xml_url": "https://api.elsevier.com/content/article/PII:S0888327012003809?httpAccept=text/xml",
+      "xml_result": "one unauthenticated Node fetch failed; no HTTP response status",
+      "full_text_sha256": null,
+      "official_2017_seminar_url": "https://www.mathematics.pitt.edu/seminar-colloquia-event/decoupling-approximation-design-using-operator-norms",
+      "seminar_scope": "HTML abstract directly read by literature root; topic only; not 2013 full text"
+    },
+    {
+      "id": "L033",
+      "title": "Linear Controller Design: Limits of Performance",
+      "authors": [
+        "Stephen Boyd",
+        "Craig Barratt"
+      ],
+      "year": 1991,
+      "source_url": "https://web.stanford.edu/~boyd/lcdbook/lcdbook.pdf",
+      "status": "full-text-local; author-published book",
+      "local_cache_relative": "local-cache/kernel-boyd-barratt-1991.pdf",
+      "sha256": "7287e1ee59e6155976bd1afc19e9be799f7b5be359e497b15ce121b3c054dd18",
+      "pdf_pages": 426,
+      "visually_checked_pdf_pages_1based": [
+        106,
+        107,
+        108,
+        127
+      ],
+      "printed_pages_checked": [
+        97,
+        98,
+        99,
+        118
+      ],
+      "locations": [
+        "5.2.5 equations 5.4-5.6",
+        "p98 step response total variation",
+        "equations 5.9-5.10",
+        "5.5.1 equation 5.33"
+      ]
+    },
+    {
+      "id": "L034",
+      "title": "BIBO stability integral (L-infinity-gain) for second-order systems with numerator dynamics",
+      "authors": [
+        "K.H. You",
+        "E.B. Lee"
+      ],
+      "year": 2000,
+      "DOI": "10.1016/S0005-1098(00)00075-3",
+      "status": "insufficient-text; Crossref and IFAC bibliography verified",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0005109800000753",
+      "access_result": "publisher page and unauthenticated Article API each HTTP429; no repeat to evade limit",
+      "full_text_sha256": null
+    },
+    {
+      "id": "L035",
+      "title": "On Evaluating the bounded-input-bounded-output stability integral for second-order systems",
+      "authors": [
+        "E.B. Lee",
+        "J.C. Luo"
+      ],
+      "year": 2000,
+      "DOI": "10.1109/9.839956",
+      "status": "insufficient-text; Crossref bibliography verified",
+      "publisher_url": "https://ieeexplore.ieee.org/document/839956",
+      "access_result": "tool not accessible; no HTTP status",
+      "full_text_sha256": null
+    }
+  ],
+  "shared_bibliography_cache": {
+    "file": "local-cache/kernel-crossref-metadata.json",
+    "sha256": "29a6431f32e79760979b80003395a9da7a4fcbec4bf87f2146713ba213af98fc",
+    "scope": "L034 L035 and unnumbered Rutland1995 metadata; no full texts"
+  },
+  "team_inputs": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/round-002.md",
+      "sha256": "b52f5040ae530bb2e00700061b9d11c5fb8b692f55957f5a7257ebf29d8d9d00"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/round-006.md",
+      "sha256": "6a9e9758d4f9b07d0d57cbbff80bd8b8b15349c155c4ff504724c2c1defaad60"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/verify_kernel_refinement.py",
+      "sha256": "7695d16c3b22c8011407d89213a049f1fa17cf6af29bb0d79f9eab762a34922c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/kernel-refinement-result.json",
+      "sha256": "e0eedac6da395df93ebd7a61d97ed7825fbfa54313ed1762f392b96332c74d87"
+    }
+  ],
+  "attachment_fingerprints": [
+    {
+      "file": "sultan2013-followup-001.md",
+      "sha256": "c0d7ae36a8c396c7e9863eda34b76b75471a6b039d29ea3a5a509d166bcdaaa6"
+    },
+    {
+      "file": "kernel-norm-prior-art-001.md",
+      "sha256": "77ab68ee435354b596d7640bf2b798b3b646b23d7ea6cf9d01cce7af21c9154f"
+    },
+    {
+      "file": "contribution-positioning-001.md",
+      "sha256": "fde784c5b17dae78c203888a9c0b190c0917eb561b995a87971d83f2e2955baf"
+    }
+  ]
+}

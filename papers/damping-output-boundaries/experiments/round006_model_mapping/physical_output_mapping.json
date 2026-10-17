@@ -1,0 +1,270 @@
+{
+  "evidence_id": "E-EXP-006",
+  "finished_utc": "2026-10-17T01:36:26.801501+00:00",
+  "elapsed_seconds": 0.0011405000041122548,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "code_sha256": "66c237053d06fc05e81bb5805bec818c1b27753a1f8062a44d69eb0a6d78b8d6",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round002\\frequency_refinement.json",
+      "sha256": "a04746a9329ac2b270b07bc15bd4fcb804e39778fbc8582898d9563ca8e210d0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round002\\extended_frequency_check.json",
+      "sha256": "144d846113990169cefcfa5717a339c85bdc1eb5b37d8a1d9074079fec46827e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\round-006.md",
+      "sha256": "5c57d1fc82510866d19de4aca6b20f94c4926b63219c717c3e02ba3d0b8902ec"
+    }
+  ],
+  "model": {
+    "M": [
+      [
+        3.16630758924983,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.1573292663444899,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.5455882700836031
+      ]
+    ],
+    "K": [
+      [
+        0.31069807050341625,
+        -0.16119995051536037,
+        0.0
+      ],
+      [
+        -0.16119995051536037,
+        6.522538224483913,
+        -6.361338273968553
+      ],
+      [
+        0.0,
+        -6.361338273968553,
+        6.361338273968553
+      ]
+    ],
+    "b": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ell_cut3": [
+      0.0,
+      -6.361338273968553,
+      6.361338273968553
+    ],
+    "phi": [
+      [
+        0.48942232681728254,
+        0.27620000824689644,
+        0.002151157014366201
+      ],
+      [
+        0.5847637077577396,
+        -1.018818811342616,
+        -2.2307299570060826
+      ],
+      [
+        0.5866402984458099,
+        -1.044430806692171,
+        0.6307942853520253
+      ]
+    ],
+    "phase_convention": "Each Gamma positive; rho unchanged by any modal column sign reversal"
+  },
+  "equations": {
+    "actual_a": "M u_dd + C u_d + K u = -M b a",
+    "chosen_f": "f=-a, M u_dd + C u_d + K u = M b f",
+    "output": "y=ell^T u=k3*(u3-u2)=(Ku)_3, elastic output only",
+    "rho": "rho_i=(ell^T phi_i)*Gamma_i, Gamma_i=phi_i^T M b",
+    "actual_acceleration_residues": "r_i=-rho_i"
+  },
+  "signed_modal_map": [
+    {
+      "mode": 1,
+      "lambda_omega_squared": 0.037297620857799925,
+      "omega_rad_s": 0.1931259196943795,
+      "Gamma_f_minus_a": 1.9617261384666593,
+      "ell_T_phi": 0.011937628168595005,
+      "rho_for_f_minus_a": 0.023418357209628697,
+      "r_for_actual_a": -0.023418357209628697
+    },
+    {
+      "mode": 2,
+      "lambda_omega_squared": 0.2859217588966523,
+      "omega_rad_s": 0.5347165219970786,
+      "Gamma_f_minus_a": 0.14441496909131113,
+      "ell_T_phi": -0.16292656628982893,
+      "rho_for_f_minus_a": -0.023529035034899098,
+      "r_for_actual_a": 0.023529035034899098
+    },
+    {
+      "mode": 3,
+      "lambda_omega_squared": 52.892384356562204,
+      "omega_rad_s": 7.272715060867035,
+      "Gamma_f_minus_a": 6.080155647458785e-06,
+      "ell_T_phi": 18.203123684801497,
+      "rho_for_f_minus_a": 0.00011067782527353659,
+      "r_for_actual_a": -0.00011067782527353659
+    }
+  ],
+  "moments": [
+    {
+      "name": "mu0",
+      "lambda_power": 0,
+      "modal_terms": [
+        0.023418357209628697,
+        -0.023529035034899098,
+        0.00011067782527353659
+      ],
+      "spectral_sum": 3.135959916224229e-15,
+      "direct_matrix_rhs": 0.0,
+      "physical_expected": 0.0,
+      "abs_difference": 3.135959916224229e-15,
+      "scaled_error": 6.664021519736474e-14
+    },
+    {
+      "name": "mu1",
+      "lambda_power": 1,
+      "modal_terms": [
+        0.0008734490083172565,
+        -0.0067274630823193045,
+        0.005854014074116331
+      ],
+      "spectral_sum": 1.1428358259735205e-13,
+      "direct_matrix_rhs": 0.0,
+      "physical_expected": 0.0,
+      "abs_difference": 1.1428358259735205e-13,
+      "scaled_error": 8.493809716825818e-12
+    },
+    {
+      "name": "mu_minus1",
+      "lambda_power": -1,
+      "modal_terms": [
+        0.6278780434525034,
+        -0.08229186587860833,
+        2.092509661266672e-06
+      ],
+      "spectral_sum": 0.5455882700835563,
+      "direct_matrix_rhs": 0.5455882700836128,
+      "physical_expected": 0.5455882700836031,
+      "abs_difference": 5.651035195342047e-14,
+      "scaled_error": 7.957276801527667e-14
+    }
+  ],
+  "rho_reconstructed_from_moments": [
+    0.023418357209630855,
+    -0.023529035034902245,
+    0.00011067782527139138
+  ],
+  "column_sign_checks": [
+    {
+      "column_signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "max_rho_change": 0.0
+    },
+    {
+      "column_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "max_rho_change": 0.0
+    },
+    {
+      "column_signs": [
+        1,
+        -1,
+        1
+      ],
+      "max_rho_change": 0.0
+    }
+  ],
+  "classical_C_checks": [
+    {
+      "zeta": 0.05,
+      "phi_T_C_phi_diagonal_error": 1.1102230246251565e-16,
+      "C_min_eigenvalue": 0.01251233646893193,
+      "C13": -0.015363125496463407
+    },
+    {
+      "zeta": 0.08,
+      "phi_T_C_phi_diagonal_error": 2.220446049250313e-16,
+      "C_min_eigenvalue": 0.02001973835029114,
+      "C13": -0.024581000794341445
+    }
+  ],
+  "independent_input_sign_checks": [
+    {
+      "zeta": 0.05,
+      "test_s": [
+        1.0,
+        0.5
+      ],
+      "Hf_direct": [
+        -0.00012517139745105155,
+        -0.003377984063392514
+      ],
+      "Hf_modal": [
+        -0.00012517139745027033,
+        -0.003377984063392359
+      ],
+      "Ha_direct": [
+        0.00012517139745105155,
+        0.003377984063392514
+      ],
+      "modal_direct_absolute_error": 7.964157904650298e-16,
+      "Ha_plus_Hf_absolute_error": 0.0
+    },
+    {
+      "zeta": 0.08,
+      "test_s": [
+        1.0,
+        0.5
+      ],
+      "Hf_direct": [
+        1.7106336482441975e-05,
+        -0.0035210713943429894
+      ],
+      "Hf_modal": [
+        1.7106336482927203e-05,
+        -0.003521071394343797
+      ],
+      "Ha_direct": [
+        -1.7106336482441975e-05,
+        0.0035210713943429894
+      ],
+      "modal_direct_absolute_error": 9.420852522786188e-16,
+      "Ha_plus_Hf_absolute_error": 0.0
+    }
+  ],
+  "checks": {
+    "complete_mass_orthonormality": true,
+    "complete_eigen_equations": true,
+    "input_reconstructed_from_modes": true,
+    "physical_moments_match_below_1e-11": true,
+    "independent_moment_residues_match_below_1e-10": true,
+    "frozen_actual_a_residues_equal_negative_rho": true,
+    "all_column_sign_flips_leave_rho_unchanged": true,
+    "both_C_classical_in_same_mass_basis": true,
+    "C1_is_1p6_times_C0": true,
+    "C13_nonzero_excludes_adjacent_story_dashpot_topology": true,
+    "f_minus_a_sign_independent_matrix_check": true,
+    "runtime_below_600s": true
+  },
+  "boundary": "One specified synthetic physical cut and complete three-mode basis. C is classical SPD, but C13 != 0 excludes the same-chain adjacent-story dashpot topology. No mapping from arbitrary residues to engineering sections is asserted."
+}

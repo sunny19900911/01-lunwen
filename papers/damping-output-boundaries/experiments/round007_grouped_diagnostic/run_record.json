@@ -1,0 +1,22 @@
+{
+  "commands": [
+    "& 'C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' 'papers/damping-output-boundaries/experiments/round007_grouped_diagnostic.py' --freeze-only",
+    "& 'C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' 'papers/damping-output-boundaries/experiments/round007_grouped_diagnostic.py' --run"
+  ],
+  "exit_codes": [
+    0,
+    0
+  ],
+  "cwd": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen",
+  "python_executable": "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "elapsed_seconds": 0.018462699998053722,
+  "script_sha256": "389a058787ef48c6af27a213a9da1e636a93ac1a08b1f8af7f653dcb36be7a75",
+  "protocol_sha256": "da6f6bf7bc1861b8e10c60c99ea317e8a04ddc8e6b378825df2d7eb2c72ae136",
+  "result_sha256": "3274a862fe2d98b250eb0b9a624b32604f0a5ddd9b9770ad0991f68807c145dd",
+  "all_8_checks_passed": true,
+  "n_event_groups": 7,
+  "n_oof_rows": 1008,
+  "no_post_result_model_changes": true
+}

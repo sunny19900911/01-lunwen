@@ -1,6 +1,6 @@
 # 增阻尼输出边界文献索引
 
-版本v003，更新：2026-10-17 09:20 +08:00。v001随提交`dacdc49`冻结，v002对应[round-002](../research/roles/literature/round-002.md)；本轮新增见[round-003](../research/roles/literature/round-003.md)，不改写旧轮次。索引存在不等于全文已核。公开全文保存在角色目录被Git忽略的local-cache或仅内存读取；指纹见[来源001](../research/roles/literature/public-source-manifest-001.json)、[002](../research/roles/literature/public-source-manifest-002.json)、[003](../research/roles/literature/public-source-manifest-003.json)及各附件。不上传原论文。
+版本v004，更新：2026-10-17 09:37 +08:00。v001随提交`dacdc49`冻结，v002/v003对应[round-002](../research/roles/literature/round-002.md)/[round-003](../research/roles/literature/round-003.md)；本轮新增见[round-004](../research/roles/literature/round-004.md)，不改写旧轮次。索引存在不等于全文已核。公开全文保存在角色目录被Git忽略的local-cache或仅内存读取；指纹见[来源001](../research/roles/literature/public-source-manifest-001.json)、[002](../research/roles/literature/public-source-manifest-002.json)、[003](../research/roles/literature/public-source-manifest-003.json)、[004](../research/roles/literature/public-source-manifest-004.json)及各附件。不上传原论文。
 
 ## 本轮一手原文与待核材料
 
@@ -56,7 +56,7 @@ L018–L020逐项支持范围、失败路径、缓存文件名见[linfty-backgro
 | L023 | **Steve Shkoller**，Notes on Lp and Sobolev Spaces，19 Mar2009，[UC Davis全文](https://www.math.ucdavis.edu/~hunter/m218a_09/Lp_and_Sobolev_notes.pdf) | 全文52页；D821AD5B8FEEBB81500E9C0F6DB2EBD137F4298D6C26EFE5E0F0FE21F294AA7A；作者不能按hunter托管目录误署 | p33微分乘子、p38 Theorem3.20 Plancherel，均看原页；相对谱矩为标准组合推论 |
 | L024 = L030 | Ascoli-Arzelà Theorem，MIT18.100B，[同一4页讲义](https://math.mit.edu/~rbm/18.100B/Ascoli-Arzela.pdf) | 两个独立复查路径取得同一SHA256：9F5E55753F508472C81E1DA0CE3D488107CD33743CA2B449B01E8779C6768EF0；**别名，不重复计文献** | p1未编号Theorem及式1。文件未署作者/日期；C010的经典紧性工具，不直接给结构峰值界 |
 | L025 | G.A. Papagiannopoulos、D.E. Beskos，Seismic Inelastic Design of Steel Structures by Spectrum Analysis and Equivalent Damping，14WCEE(2008)，[会议全文](https://www.iitk.ac.in/nicee/wcee/article/14_05-05-0038.PDF) | 全文8页，仅内存读取；85b72983a5ea9ea2cffab1c261bcd043f801d16f9f423fef3b165b629ef0ea19 | 看PDF3–4，式2.1–2.3；绝对加速度含直通项、频率曲线平滑，与C001相关非等价 |
-| L026 | Cornel Sultan，Decoupling Approximation Design Using the Peak to Peak Gain，MSSP36(2):582–603(2013)，[作者CV](https://www.aoe.vt.edu/content/aoe_vt_edu/en/people/faculty/sultan/personal-page/resume/_jcr_content/content/download/file.res/Short%20Resume_CornelSultan_2021.pdf) | 作者CV第4页Journals28核书目；论文全文未取，DOI候选未一手独立核；insufficient-text | 连续结构解耦/peak-to-peak的具体全文优先项，不能据题名判C006重复或新颖 |
+| L026 | Cornel Sultan，Decoupling Approximation Design Using the Peak to Peak Gain，MSSP36(2):582–603(2013)，[作者出版物页](https://www.aoe.vt.edu/people/faculty/sultan/personal-page/publications.html)，[DOI](https://doi.org/10.1016/j.ymssp.2012.10.007) | 作者CV第4页Journals28及出版物列表第22项核书目；Crossref已核DOI与正确PII S0888327012003809。作者页及VT仓储指定公开查询未得全文；insufficient-text | 2013页式/误差算子/常数依赖仍未核；2017官方讲座摘要仅主题旁证。准确路径与缺口见[Sultan跟进](../research/roles/literature/sultan2013-followup-001.md)，不能据题名判C006重复或新颖 |
 | L027 | Z. Tomljanović、C. Beattie、S. Gugercin，Damping Optimization of Parameter Dependent Mechanical Systems by Rational Interpolation，arXiv1707.01789v1，6 Jul2017，[作者大学全文](https://vtechworks.lib.vt.edu/server/api/core/bitstreams/f2f89fa1-d571-46cc-b97f-3db584535cee/content) | 预印本v1共25页，仅内存读取；7df1cbda2759b9ef7cfa5160771a3b0bb35e7dc0c0ca25ba2f82f900b40d661b | 亲看页3；式3及6–7，具体模型H2范数控制单位L2输入峰值，不是输出/输出κ-only界 |
 | L028 | J. Abedor、K. Nagpal、K. Poolla，A Linear Matrix Inequality Approach to Peak-to-Peak Gain Minimization，IJRNC6(9–10):899–927(1996)，[Wiley](https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291099-1239%28199611%296%3A9/10%3C899%3A%3AAID-RNC259%3E3.0.CO%3B2-G) | 仅出版社摘要/引文；insufficient-text | 可确认peak-to-peak/star-norm研究背景，不能据摘要核定理或裁定C006 |
 | L029 | S. Schuler、F. Allgöwer，ℓ∞-Gain Model Reduction for Discrete-Time Systems via LMIs，ACC2009:5701–5706，[会议全文](https://skoge.folk.ntnu.no/prost/proceedings/acc09/data/papers/0884.pdf) | 全文6页，仅内存读取；ca5a6791099a1b7271bde582a2734c41c585f59cf03440ee5295c538d7469a22 | 亲看5702/PDF2，Theorem1式4a,b、Remark1及式5；单离散模型LMI上界，非C006相同量词 |
@@ -65,4 +65,14 @@ L018–L020逐项支持范围、失败路径、缓存文件名见[linfty-backgro
 
 附件：[严格支撑/限带及相对约束](../research/roles/literature/support-bandwidth-background-001.md)、[紧性原文背景](../research/roles/literature/compactness-primary-background-001.md)、[映射校对](../research/roles/literature/compactness-mapping-audit.md)、[C001/C006专题查重](../research/roles/literature/c001-c006-targeted-search-001.md)。
 
-创新核查状态：未完成专题穷尽检索；已检查来源中的相似基础不等于完整重复，未查到等价式亦不代表首次。
+## 二阶核L1/峰值增益专题（v004）
+
+| L-ID | 一手来源与版本 | 可得程度与定位 | 对当前结果的支持范围 |
+|---|---|---|---|
+| L033 | Stephen Boyd、Craig Barratt，Linear Controller Design: Limits of Performance，Prentice-Hall1991，ISBN0-13-538687-X，[作者公开全书](https://web.stanford.edu/~boyd/lcdbook/)，[PDF](https://web.stanford.edu/~boyd/lcdbook/lcdbook.pdf) | 全文426页；SHA256 7287E1EE59E6155976BD1AFC19E9BE799F7B5BE359E497B15CE121B3C054DD18。已看p97/98/99/118，即PDF106/107/108/127；式5.4–5.6、5.9–5.10、5.33 | peak gain=冲激核L1=阶跃响应TV为经典工具；H∞/L2与peak gain分开。未据四页核查排除全书其他具体二阶式 |
+| L034 | K.H. You、E.B. Lee，BIBO stability integral (L∞-gain) for second-order systems with numerator dynamics，Automatica36(11):1693–1699(2000)，[DOI](https://doi.org/10.1016/S0005-1098(00)00075-3) | Crossref与IFAC官方目录核书目；出版社正文和公开Article API均429，未取得全文，insufficient-text | 高度相关的具体二阶核先例；未核纯s分子/欠临过阻尼/1/α界，不据题名断言重复，亦不把V006标量式称已确认新贡献 |
+| L035 | E.B. Lee、J.C. Luo，On “Evaluating the bounded-input-bounded-output stability integral for second-order systems”，IEEE TAC45(2):311–312(2000)，[DOI](https://doi.org/10.1109/9.839956) | Crossref核书目；IEEE正文工具不可访问、无可核HTTP码，insufficient-text | 二阶BIBO积分早期线索；没有已核公式或阻尼参数范围 |
+
+详情见[核范数先例复查](../research/roles/literature/kernel-norm-prior-art-001.md)、[C006贡献定位建议](../research/roles/literature/contribution-positioning-001.md)。当前数学界优先采用V006的(2κ−1)(3−2/κ)²，κ=8/5时6.7375；V002旧21.25仍是正确粗界。标量核系数锐性不推出整体乘积界锐性，数学审核不等于新颖性审核。H0^1/Rellich支线按主控要求待续。
+
+创新核查状态：未完成专题穷尽检索；已检查来源中的相似基础不等于完整重复，未查到等价式亦不代表首次。L034具体二阶式和L026连续结构peak-to-peak原文是当前准确缺口。

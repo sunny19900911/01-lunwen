@@ -1,0 +1,29 @@
+{
+  "role": "writing",
+  "round": "W-R005",
+  "frozen_at": "2026-10-17 09:41:53 +08:00",
+  "frozen_files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/working-draft-v005.md",
+      "sha256": "45d13203d0ce55d326a2d0cdd120e1283b703a03b59b931baa60ab775b8edfc3",
+      "bytes": 35838
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/figure-map-v005.json",
+      "sha256": "e31ae2067f93149165647a491efe73a959d045ec69075454c004335f386b08cd",
+      "bytes": 2660
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/round-005.md",
+      "sha256": "c227357c33c2ab76cd8601720ae360039a3b29a22860b04d3a0f7ec54abe3a66",
+      "bytes": 8822
+    }
+  ],
+  "predecessor": {
+    "path": "papers/damping-output-boundaries/manuscript/working-draft-v004.md",
+    "sha256": "04b44834b8bf4fd5646e693afe60bb3ae8c78a3feb21096ddaf0ccd1f04b1bba"
+  },
+  "scope": "C011 reviewed numerical witness with continuous numerical lower estimate, 3 frozen figures, corrected 164/1/3 acceleration counts; physical matrix claims pending; literature004 checked",
+  "encoding": "UTF-8 without BOM, LF",
+  "validation": "Numeric/caption/link/tag/source-number/frozen-image hashes/preserved-v004 checks passed; scoped git diff --check exit 0"
+}

@@ -1,0 +1,44 @@
+{
+  "source_id": "L026",
+  "checked_at": "2026-10-17T09:31:00+08:00",
+  "metadata_url": "https://api.crossref.org/works/10.1016/j.ymssp.2012.10.007",
+  "evidence_scope": "bibliographic registration only; not a full-text license or full-text inspection",
+  "DOI": "10.1016/j.ymssp.2012.10.007",
+  "title": [
+    "Decoupling approximation design using the peak to peak gain"
+  ],
+  "journal": [
+    "Mechanical Systems and Signal Processing"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2013,
+        4
+      ]
+    ]
+  },
+  "volume": "36",
+  "issue": "2",
+  "pages": "582-603",
+  "registered_links": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0888327012003809?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0888327012003809?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0888327012003809"
+    }
+  },
+  "license": null
+}

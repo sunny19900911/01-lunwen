@@ -1,0 +1,53 @@
+{
+  "time": "2026-10-17T09:44:15+08:00",
+  "scope": "one entry route and one focused evidence-boundaries reference; metadata unchanged",
+  "checks": [
+    "quick_validate.py actual exit 0 under python -X utf8",
+    "all Markdown reference targets exist",
+    "all 10 canonical/personal files byte-identical"
+  ],
+  "failed_attempt": "Plain Windows python used GBK default and failed decoding UTF-8; rerun with UTF-8 mode passed; research evidence was not altered.",
+  "behavioral_validation": "Existing initial-skill isolation tests retained; this narrow reference update received a role audit but no fresh independent behavioral replay. Proposed cases are not claimed executed.",
+  "files": [
+    {
+      "path": ".agents/skills/research-paper-lab/SKILL.md",
+      "sha256": "7e0bcfd6c4b7843435714a9c71ab6f538d8a9633631f3d657f5c80e0ab210f2b"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/agents/openai.yaml",
+      "sha256": "f76ba418e238aaf1fe78ca2e8791973edf82906fef5423ef1506ffb9fe3d7c5c"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/assets/research-plan.template.md",
+      "sha256": "1af6ae184048c1a5bc7b99b124f6801d374f32e197d3618b4c03288f8161e2a7"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/assets/topic-card.template.md",
+      "sha256": "4a78690993ab9a23455cc03e64d6669da70261a1eef9615ae219161eea12a540"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/references/collaboration-protocol.md",
+      "sha256": "9be611c2d8f6f0043d46fc8f3872d034d4560f9e750559305d0803caa98b6bb6"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/references/etabs-fitting.md",
+      "sha256": "b80470fbb01712ed627bdfdd39d18d9f600f322a582eca4fb8261b904069ac53"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/references/evidence-boundaries.md",
+      "sha256": "9cd3ebe98b067514f875de5b6cdfcbe27e1ac4562e057a7e29a90cc99d8a06ee"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/references/literature-review.md",
+      "sha256": "723191813c22462e80aa9d8c4cf3f0cf4aa561cc486095f6f44e870a0361a45f"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/references/paper-blueprint.md",
+      "sha256": "e322bbdb7c5b9f8f2a6952849e0a93b6104ad655915f28615848d5d6f5bb41ed"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/references/topic-cards.md",
+      "sha256": "7d980f84e68a6d09c36c57abd509ce9cb6c65f9ec89d176f4819058cdb03af44"
+    }
+  ]
+}

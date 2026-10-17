@@ -1,0 +1,74 @@
+{
+  "method": "Original two CSVs independently joined; pure Python pivoted 3x3 normal equations, not numpy least squares; train-only 7-record-group LOEO.",
+  "script_sha256": "9e662909a9fd5bd027e368edbeda6d0ab2b75c5430666d003d9f264aca664251",
+  "max_abs_prediction_difference": 3.019806626980426e-14,
+  "rows_verified": 1008,
+  "summary": [
+    {
+      "target": "net_difference_change_pct",
+      "model": "cut_proxy",
+      "n": 168,
+      "MAE_pp": 5.452795987181448,
+      "RMSE_pp": 7.572511219443064,
+      "TP": 0,
+      "FP": 0,
+      "FN": 1
+    },
+    {
+      "target": "net_difference_change_pct",
+      "model": "training_target_mean",
+      "n": 168,
+      "MAE_pp": 5.269213072007151,
+      "RMSE_pp": 6.725183616315231,
+      "TP": 0,
+      "FP": 0,
+      "FN": 1
+    },
+    {
+      "target": "net_difference_change_pct",
+      "model": "ols_intercept_cut_floor",
+      "n": 168,
+      "MAE_pp": 5.030943510314164,
+      "RMSE_pp": 6.05729311484904,
+      "TP": 0,
+      "FP": 0,
+      "FN": 1
+    },
+    {
+      "target": "spatial_acceleration_change_pct",
+      "model": "cut_proxy",
+      "n": 168,
+      "MAE_pp": 6.286430218353006,
+      "RMSE_pp": 8.375320717404787,
+      "TP": 0,
+      "FP": 0,
+      "FN": 3
+    },
+    {
+      "target": "spatial_acceleration_change_pct",
+      "model": "training_target_mean",
+      "n": 168,
+      "MAE_pp": 5.658639673080903,
+      "RMSE_pp": 7.3822930310778,
+      "TP": 0,
+      "FP": 0,
+      "FN": 3
+    },
+    {
+      "target": "spatial_acceleration_change_pct",
+      "model": "ols_intercept_cut_floor",
+      "n": 168,
+      "MAE_pp": 5.393904112031513,
+      "RMSE_pp": 6.34690197110624,
+      "TP": 0,
+      "FP": 0,
+      "FN": 3
+    }
+  ],
+  "limits": [
+    "Previously explored data, not fresh external confirmation.",
+    "Group prefixes not verified seismologically independent events.",
+    "Frozen join_audit denominator calls groups independent; this audit does not certify that word.",
+    "Test-event Bottom response already known; descriptive proxy diagnostic, not prior engineering forecast."
+  ]
+}

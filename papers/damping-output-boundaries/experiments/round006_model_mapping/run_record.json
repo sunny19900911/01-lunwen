@@ -1,0 +1,14 @@
+{
+  "command": "& 'C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' 'papers/damping-output-boundaries/experiments/round006_physical_output_mapping.py'",
+  "cwd": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen",
+  "python_executable": "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "exit_code": 0,
+  "elapsed_seconds": 0.0011405000041122548,
+  "script_sha256": "66c237053d06fc05e81bb5805bec818c1b27753a1f8062a44d69eb0a6d78b8d6",
+  "result_sha256": "7008c41746233a092cf21976366bda905c38d8362ba6e0c91b83df28e9773692",
+  "all_12_checks_passed": true,
+  "initial_attempt": {
+    "exit_code": 1,
+    "issue": "numpy bool failed JSON serialization; cast checks to builtin bool; no numerical algorithm changed"
+  }
+}

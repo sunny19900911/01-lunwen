@@ -1,0 +1,61 @@
+{
+  "evidence_id": "E-EXP-007",
+  "frozen_utc": "2026-10-17T01:41:41.142783+00:00",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round001\\story_cut_and_spatial_acceleration.csv",
+      "sha256": "e8fc28070333330e3f9525db54fb82d943f9e3f2244912ecae8c15f1b3fe9a31"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round001\\adjacent_cut_net.csv",
+      "sha256": "f7e0d666e539936b99005a6dadc5747c81e99186f00341a2a996d8842a792b77"
+    }
+  ],
+  "expected_events": [
+    "R1",
+    "RH4",
+    "SHW3",
+    "SHW4",
+    "SHW5",
+    "SHW6",
+    "SHW7"
+  ],
+  "join_keys": [
+    "record_event",
+    "direction",
+    "floor"
+  ],
+  "event_direction_floor_contract": [
+    7,
+    2,
+    12
+  ],
+  "feature_cut_change": "100*(cut_peak3/cut_peak0-1), percentage points",
+  "feature_floor": "z=(floor-1)/11, fixed range [0,1]",
+  "targets": [
+    "net_difference_change_pct",
+    "spatial_acceleration_change_pct"
+  ],
+  "models": [
+    "cut_proxy",
+    "training_target_mean",
+    "ols_intercept_cut_floor"
+  ],
+  "cut_proxy": "No parameters: predict target change equal to same-group Bottom cut change",
+  "training_target_mean": "Per target: mean target of training events only",
+  "ols_intercept_cut_floor": "Per target: OLS [1,cut_change_pct,z]; np.linalg.lstsq rcond=None; no interactions, tuning or selection",
+  "split": "7-fold leave-one-event-out; both directions and all 12 floors held out together",
+  "classification": "actual>0 and predicted>0; fixed threshold zero; exact zero is non-increase",
+  "metrics": [
+    "MAE_pp",
+    "RMSE_pp",
+    "TP",
+    "FP",
+    "FN",
+    "TN"
+  ],
+  "scope": "Previously explored 7-event dataset. Descriptive/group-transfer diagnostic, not external independent confirmation, mechanism, modal identification or engineering prediction guarantee.",
+  "seed": null,
+  "randomness": "none",
+  "code_sha256_at_freeze": "389a058787ef48c6af27a213a9da1e636a93ac1a08b1f8af7f653dcb36be7a75"
+}

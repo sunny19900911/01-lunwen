@@ -18,11 +18,11 @@
     "status": "ACTIVE"
   },
   "last_verified_push": {
-    "commit": "e380cb2f848b9a1b2d610e39aa5abaec1bf71369",
+    "commit": "b4ae85c9034d41233acf4b66a924c74601d41635",
     "branch": "main",
     "remote": "origin",
     "verified_by": "proxy-scoped git ls-remote origin refs/heads/main",
-    "verified_at": "2026-10-17T09:33:14+08:00"
+    "verified_at": "2026-10-17T09:39:44+08:00"
   },
   "git_identity": {
     "name": "Codex Paper Lab",
@@ -32,34 +32,34 @@
   "role_cursors": [
     {
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
-      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:5",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:6",
       "status": "inProgress"
     },
     {
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:4",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:5",
       "status": "inProgress"
     },
     {
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:5",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:6",
       "status": "inProgress"
     },
     {
       "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
-      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:5",
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:6",
       "status": "inProgress"
     },
     {
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:4",
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:5",
       "status": "inProgress"
     }
   ],
-  "next_checkpoint": "E002b finite-input bridge under independent analysis, E002b modal mapping, manuscript v005, literature004. Do not restart active roles.",
-  "recorded_at": "2026-10-17T09:37:30+08:00",
-  "pending_push": "R005 reviewed frozen files; validating before normal publication",
-  "latest_round": "R005.md",
+  "next_checkpoint": "Prepare R006 publication: frozen literature004, bridge I008/V009, physical mapping006, E007 grouped diagnostic independently checked, v005 frozen and v006 if declared, focused skill update. Exclude running figure/citation/draft writes.",
+  "recorded_at": "2026-10-17T09:47:58+08:00",
+  "pending_push": "R006 frozen publication validating",
+  "latest_round": "R006.md",
   "git_transport": {
     "proxy": "http://127.0.0.1:17890",
     "source": "existing Windows system proxy, host/port only",
@@ -74,5 +74,12 @@
     }
   ],
   "checkpoint_open": true,
-  "prepared_publication": "ready-round005-files.json"
+  "prepared_publication": null,
+  "in_flight_tasks": {
+    "ideation": "Audit reusable skill lessons; round007 finite-envelope bridge frozen awaiting V009",
+    "verification": "Independently review E002b bridge; V008 complete",
+    "literature": "Citation audit against frozen manuscript, no new search; round004 frozen",
+    "experiments": "Predeclared three-model 7-event LOEO fitting diagnostic; physical mapping006 frozen",
+    "writing": "Integrate v005 from reviewed C011/C012, figures and literature004; keep v004 frozen"
+  }
 }

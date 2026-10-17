@@ -1,0 +1,244 @@
+{
+  "recorded_at": "2026-10-17T09:47:58+08:00",
+  "checks": [
+    "selected files parsed",
+    "Python AST",
+    "JSON parsed",
+    "Markdown relative links",
+    "frozen manuscript005 hashes",
+    "E007 independent numerical audit actual exit0",
+    "skill quick_validate actual exit0 under UTF8"
+  ],
+  "files": [
+    {
+      "path": ".agents/skills/research-paper-lab/SKILL.md",
+      "bytes": 11385,
+      "sha256": "7e0bcfd6c4b7843435714a9c71ab6f538d8a9633631f3d657f5c80e0ab210f2b"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/references/evidence-boundaries.md",
+      "bytes": 4191,
+      "sha256": "9cd3ebe98b067514f875de5b6cdfcbe27e1ac4562e057a7e29a90cc99d8a06ee"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round006_model_mapping/physical_output_mapping.json",
+      "bytes": 7586,
+      "sha256": "7008c41746233a092cf21976366bda905c38d8362ba6e0c91b83df28e9773692"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round006_model_mapping/run_record.json",
+      "bytes": 860,
+      "sha256": "6f6e3f86c5b246e422de3f8d67593ba4cfca08e115976eccf617280947d43f06"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round006_model_mapping/signed_modal_map.csv",
+      "bytes": 480,
+      "sha256": "4ed01139bf9d1bde012a668262cc7d5c7a67f787aec5af00fe8db59889141570"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round006_physical_output_mapping.py",
+      "bytes": 6782,
+      "sha256": "66c237053d06fc05e81bb5805bec818c1b27753a1f8062a44d69eb0a6d78b8d6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round007_grouped_diagnostic.py",
+      "bytes": 12607,
+      "sha256": "389a058787ef48c6af27a213a9da1e636a93ac1a08b1f8af7f653dcb36be7a75"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round007_grouped_diagnostic/fold_metrics.csv",
+      "bytes": 4632,
+      "sha256": "04a4198a21452a6ab40236a09110fb4b4d31ee6df0510c0b49c35f94c59b0977"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round007_grouped_diagnostic/frozen_protocol.json",
+      "bytes": 2217,
+      "sha256": "da6f6bf7bc1861b8e10c60c99ea317e8a04ddc8e6b378825df2d7eb2c72ae136"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round007_grouped_diagnostic/grouped_diagnostic_result.json",
+      "bytes": 36835,
+      "sha256": "3274a862fe2d98b250eb0b9a624b32604f0a5ddd9b9770ad0991f68807c145dd"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round007_grouped_diagnostic/join_audit.json",
+      "bytes": 451,
+      "sha256": "9f10e412268565faecaf9a35f88a089356da4bfd755cc47c836070f6f010ca4e"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round007_grouped_diagnostic/oof_predictions.csv",
+      "bytes": 233037,
+      "sha256": "41112b3eddbfb0c281130184dbb7dcfca6526111068b2ce457645b0f70593535"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round007_grouped_diagnostic/run_record.json",
+      "bytes": 1145,
+      "sha256": "506800f9d820932a06c96468b382940a21eaedbf88b83272912ba2ea1f328548"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round007_grouped_diagnostic/strict_joined_dataset.csv",
+      "bytes": 15400,
+      "sha256": "2f6270541c759f688646230667882f37add14b2c1808ee63ba689b1763a556fe"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round007_grouped_diagnostic/summary_metrics.csv",
+      "bytes": 1166,
+      "sha256": "a3926499d8f33f5d47130cfac06543a15b659d6994630b880358407469c77753"
+    },
+    {
+      "path": "papers/damping-output-boundaries/literature/index.md",
+      "bytes": 18428,
+      "sha256": "adeb299037fa40789b61039b67a0954ed147f4e995d678c2d9831b5a04c4207b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/figure-map-v005.json",
+      "bytes": 2660,
+      "sha256": "e31ae2067f93149165647a491efe73a959d045ec69075454c004335f386b08cd"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/working-draft-v005.md",
+      "bytes": 35838,
+      "sha256": "45d13203d0ce55d326a2d0cdd120e1283b703a03b59b931baa60ab775b8edfc3"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/claims.md",
+      "bytes": 9184,
+      "sha256": "955871cfc50c79b8e84c10324b65125d01a4e53e4a648ae72827010e1612599e"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/round-006-physical-mapping.md",
+      "bytes": 4445,
+      "sha256": "1c6acee28480fd8ad527d599a002b4b69295c1ca12222363be81e378f206926d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/round-007-grouped-diagnostic.md",
+      "bytes": 5659,
+      "sha256": "967d2ec6791eb5278c7a41e0c1ec16c1bbf9a051f0e4d068a77dbaad931decee"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/bridge_physical_topcut.py",
+      "bytes": 5804,
+      "sha256": "59484b0ff80a2fc7619d805aa0cacd83a37751716f846b977a5b766d0a749d72"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/physical-topcut-bridge.json",
+      "bytes": 3242,
+      "sha256": "b1200b40b25d8a0fba19b399367f0c70f43d625921ac923b9a914276d6ef6130"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/round-007.md",
+      "bytes": 6675,
+      "sha256": "e568fdd2d80d3c36b8abd4a90e2c9b792c22b570dce21f870ba9e94b9e81eb03"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/skill-lessons-audit.md",
+      "bytes": 7104,
+      "sha256": "a60e1aebc46192a664afc4b4684f0041197497bf7e2d33babf9083313573105c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/contribution-positioning-001.md",
+      "bytes": 3960,
+      "sha256": "fde784c5b17dae78c203888a9c0b190c0917eb561b995a87971d83f2e2955baf"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/kernel-norm-prior-art-001.md",
+      "bytes": 8553,
+      "sha256": "77ab68ee435354b596d7640bf2b798b3b646b23d7ea6cf9d01cce7af21c9154f"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/public-source-manifest-004.json",
+      "bytes": 5135,
+      "sha256": "c29d7aefc55136c2b4c2a86145e5e70c259a4277a2cac2b2643c92ae038961d5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/round-004.md",
+      "bytes": 5580,
+      "sha256": "e730eef8e75ea74410690d2a12d1b7a0db35ae06e44396cfb30b42013ca41ec3"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/sultan2013-crossref-metadata-001.json",
+      "bytes": 1251,
+      "sha256": "13bb90a3972c5843e43529499c67ea6703f62571cf6275144ee67e6855e02ea9"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/sultan2013-followup-001.md",
+      "bytes": 9467,
+      "sha256": "c0d7ae36a8c396c7e9863eda34b76b75471a6b039d29ea3a5a509d166bcdaaa6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/writing-citation-audit-001.md",
+      "bytes": 5553,
+      "sha256": "6b6e6484be18bf866ca8b0c348a44a3efd1f5626debb88fac4a5e68ea2e7ba3d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/bridge-instance-audit.json",
+      "bytes": 3848,
+      "sha256": "d0efb3fc7786370283f0c657bd2560bab75ab3b1a410adb6137498ff29187b04"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/helper-harmonic-bridge.md",
+      "bytes": 6392,
+      "sha256": "d42a9398c720e2ecde76729dd66dc37a8f7553c023675ea5155f0e40045efd3c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/round-009.md",
+      "bytes": 5155,
+      "sha256": "1364c5d6facd0ee38406d61e86947aebbe40df1447fc56fee76f764094f0921d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/verify_bridge_instance.py",
+      "bytes": 3826,
+      "sha256": "7c46194e81c1f631bd0ffc63802056b7907f4f045adf89a2004b2b3341aef2f2"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/frozen-round005.json",
+      "bytes": 1280,
+      "sha256": "bbffbcd715519c926d0f4aa51378edd0dcb9beb1a43a7ea7d46abed4bde597c6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/round-005.md",
+      "bytes": 8822,
+      "sha256": "c227357c33c2ab76cd8601720ae360039a3b29a22860b04d3a0f7ec54abe3a66"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/T001.md",
+      "bytes": 2732,
+      "sha256": "8935601b6d7d8388057d65a3e8dde288ec6f8c046c5505d4c7f67d7d9ce6abfd"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/events.md",
+      "bytes": 1872,
+      "sha256": "45f7a0391adf1c183e5e64f1fdfadd5de10843dea6715d3ef5ce6d4d4774842a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/history/T001/v006.md",
+      "bytes": 2732,
+      "sha256": "8935601b6d7d8388057d65a3e8dde288ec6f8c046c5505d4c7f67d7d9ce6abfd"
+    },
+    {
+      "path": "research/sessions/20261017-0847/R006.md",
+      "bytes": 2840,
+      "sha256": "31a89ffde49878224787eb63ea1e82402265dce905d5f54af31ae90119a56fb0"
+    },
+    {
+      "path": "research/sessions/20261017-0847/audit_grouped_diagnostic.py",
+      "bytes": 4577,
+      "sha256": "9e662909a9fd5bd027e368edbeda6d0ab2b75c5430666d003d9f264aca664251"
+    },
+    {
+      "path": "research/sessions/20261017-0847/grouped-diagnostic-independent-audit.json",
+      "bytes": 2080,
+      "sha256": "7e4a2efca598925f1ab5ddc81037e80b1727a7384d06d3746a0662c904877278"
+    },
+    {
+      "path": "research/sessions/20261017-0847/skill-update-validation.json",
+      "bytes": 2447,
+      "sha256": "0ca0d46a988967e84a3263395778a8d55119fe0967aa97656a8ebddd4182241a"
+    },
+    {
+      "path": "research/sessions/20261017-0847/status.json",
+      "bytes": 3038,
+      "sha256": "102bc72f71a556e9df838067b5bc7161b4035aad0c51d0a49faac9f0644395f5"
+    }
+  ]
+}
