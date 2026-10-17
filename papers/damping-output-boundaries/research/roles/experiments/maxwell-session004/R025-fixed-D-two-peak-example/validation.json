@@ -1,0 +1,16 @@
+{
+  "started_at": "2026-10-18T04:44:33+08:00",
+  "finished_utc": "2026-10-17T20:47:17.225279+00:00",
+  "status": "candidate_waiting_independent_static_review",
+  "two_preselected_cases_only": true,
+  "both_feasible": true,
+  "exact_duration_D_W_endpoint_and_delta_identities": true,
+  "nonnegative_durations_proved_analytically": true,
+  "terminal_delta_free_and_values_explicit": true,
+  "initial_delta_zero_is_coordinate_origin": true,
+  "bounds_measurable_velocity_AC_force_delta": true,
+  "sources_unchanged": true,
+  "no_ODE_numpy_arrays_Excel_fitting_or_figures": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "code_sha256": "d534a736a868b8e50c5c496d151cd3d475722dbb5b94b7dff6df26666f619315"
+}

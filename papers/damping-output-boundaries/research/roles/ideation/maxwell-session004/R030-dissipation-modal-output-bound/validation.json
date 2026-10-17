@@ -1,0 +1,56 @@
+{
+  "status": "frozen classical conditional bound candidate; independent audit pending",
+  "start": "2026-10-18T04:48:41+08:00",
+  "completed_at": "2026-10-18T04:53:57.640756+08:00",
+  "elapsed_seconds": 316.641,
+  "within_8_minutes": true,
+  "overall_deadline_unchanged": "2026-10-18T07:09:45+08:00",
+  "source_checks": [
+    {
+      "path": "research/sessions/20261017-2109/dissipation-modal-output-bound-protocol-v001.md",
+      "sha256": "5fc2acc6a426dcac2b509c7e151e2f1982cb2205dee270fc5ea0416332b76833",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/report.md",
+      "sha256": "9d037f1409d384d5a86d41b608971669890a22309574f05940459548c16ad0d6",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R010/device-to-building-review.md",
+      "sha256": "b703b4f7eae39e1dc4c923bff9bdf9860d4d3cb59955bb1006fba10f8901c864",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R022-force-target-interface/report.md",
+      "sha256": "2e00ac175aac7beff172b2ac1a40b88d35023d3d7dcd0eeb7a71194254c4e203",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R022-force-target-interface/minimum-fields.json",
+      "sha256": "a5c3736abacdd045f461af109b471a3cb1e8a64adbe22911af8e36f0012dfb55",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R030-force-target-interface-review/report.md",
+      "sha256": "70a7504fa6901051b325db2ee707b7c6fcbb75e22f8ce30781811f113a28ccb5",
+      "unchanged": true
+    }
+  ],
+  "checks_all_passed": true,
+  "QA": "UTF8/LF, final newline, trailing whitespace, JSON parse and normalized local Markdown links passed.",
+  "files_checked_before_validation": [
+    "author-crosscheck.json",
+    "checks.json",
+    "checks.py",
+    "report.md",
+    "source-freeze.json"
+  ],
+  "scope": "Only this new R030 directory written. No ODE, forward closed-loop implementation, arrays/NPZ, new engineering data, parameter sweep, external search, original table, or old/shared/manuscript/Git changes.",
+  "limits": [
+    "Physical bare K0 and complete true F only; residual force cannot be substituted using D.",
+    "Target linear displacement/relative displacement only.",
+    "Finite H bound; infinity requires actual kernel and energy integrability evidence.",
+    "No guaranteed reduction, phase, layout ranking, sharp building attainability, actual parameter/data certification or novelty priority."
+  ]
+}

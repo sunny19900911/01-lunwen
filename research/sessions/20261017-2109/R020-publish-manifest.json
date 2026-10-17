@@ -1,0 +1,303 @@
+{
+  "at": "2026-10-18T04:42:42.265117+08:00",
+  "expected_head": "0fd3cd482e871e08e69677cb7713731eea2389c1",
+  "checks_passed": true,
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/maxwell-finite-observation-appendix-v001.md",
+      "bytes": 6700,
+      "sha256": "d55f09c509c2da354eb009567b3516afdb995d7127b03a0a69877a5725720752"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R029-fixed-dissipation-peak-inverse/artifact-manifest.json",
+      "bytes": 968,
+      "sha256": "816bc25937e5a04814ff51c3b0697170a157685ed1af52ccc8f9d7c3b1fbd8d4"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R029-fixed-dissipation-peak-inverse/author-crosscheck.json",
+      "bytes": 1652,
+      "sha256": "6a433177bfcf4b0d60d2e2f894118cff2d0c5620624eecafffc7ad1b184bb594"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R029-fixed-dissipation-peak-inverse/checks.json",
+      "bytes": 1061,
+      "sha256": "5a5aca7e57d5a5ef0297c6dc64934c1ea27c3ea72fde1970c9a4b0a3dd75cafc"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R029-fixed-dissipation-peak-inverse/checks.py",
+      "bytes": 2916,
+      "sha256": "3b900c752abaae52fcca100867c4f272f884b997c49ee37cfa1da161df2ad67d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R029-fixed-dissipation-peak-inverse/report.md",
+      "bytes": 7186,
+      "sha256": "c6cc612de443a58642a20d7cdb10a054fb00d051d827a33f2f44b1ac0fcdc910"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R029-fixed-dissipation-peak-inverse/source-freeze.json",
+      "bytes": 1809,
+      "sha256": "90e6ac6e7a10475a6ff8a2a2f74272c44fcd3f02d841ee65e06ddb30a53e92c3"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R029-fixed-dissipation-peak-inverse/validation.json",
+      "bytes": 2681,
+      "sha256": "9194099a80ecaec5aeeafdbd0edab2c040254908557a9479821f12100e42fdef"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R027-nonzero-terminal-dissipation-prior-art/freeze-R027.json",
+      "bytes": 2690,
+      "sha256": "35d852d8de7b8c77eacf37bad577cca97c013e39651f8aee5e4a558eaba8a429"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R027-nonzero-terminal-dissipation-prior-art/freeze_R027.py",
+      "bytes": 4867,
+      "sha256": "d2315ffb73ef77b5f612d665687e9a510bfc24c9f4cfb7cfc551d4c38f226a9d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R027-nonzero-terminal-dissipation-prior-art/input-rules-R027.json",
+      "bytes": 2003,
+      "sha256": "1f19929933d1be06d1f418e350760d23ca5f73679bb1de90d4ae0b11c1047442"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R027-nonzero-terminal-dissipation-prior-art/report.md",
+      "bytes": 8439,
+      "sha256": "bde5eb1cc53c372ddcfbd8179ab1e84da06f11adde8e50d0e36354e5a1733645"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R027-nonzero-terminal-dissipation-prior-art/search-log-R027.json",
+      "bytes": 2493,
+      "sha256": "c7e09d64fcae9fb44b1619d886bc954ef673736b9cafa1545200f18ba4c04bf2"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R027-nonzero-terminal-dissipation-prior-art/source-manifest-R027.json",
+      "bytes": 3394,
+      "sha256": "057ccfcc3096956c09cc6fa2e90e1f2646fa6ac9796aadf741e84a5556f0f8d3"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R027-nonzero-terminal-dissipation-prior-art/validation-R027.json",
+      "bytes": 3511,
+      "sha256": "9ae8cffb2059b6985d80cd4e57e6837ea1b384796c1b3fb60b09e5a336aa1e54"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R024-finite-observation-appendix-review/input-freeze.json",
+      "bytes": 5150,
+      "sha256": "88db0f21fd302ea4e15564b9892f6a1c4283351e7cd37d4cc6575db75c8cd02e"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R024-finite-observation-appendix-review/report.md",
+      "bytes": 5622,
+      "sha256": "bff81bfa5951b2cbb94e2f949240cc2f00691bd672574800e22495cd0f10b8fe"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R024-finite-observation-appendix-review/validation.json",
+      "bytes": 2085,
+      "sha256": "2588374f659b07f1688b335d21e3af6f31f105848b2ffa0e1ecab448a642bf11"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/checks.json",
+      "bytes": 704,
+      "sha256": "1119cfa3e9fbc3f68f9aff93d5b241c95c0b5311dcada3a819abab1bf4b15c16"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/checks.py",
+      "bytes": 3379,
+      "sha256": "db9b065eec164c26c74b10ebf27fcbfb42f9fd0970d59a8fd230e6860a1fc6bd"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/closure_checks.json",
+      "bytes": 500,
+      "sha256": "8d2eb042150258811b050fe73eb87400cbadc2492ca7bda6511e8772abef0247"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/freeze_protocol.py",
+      "bytes": 859,
+      "sha256": "005fe950bbf2d2a19b611744d5c6e1f81ecb6ad6d2c113eef0b1159989752458"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/freeze_review.py",
+      "bytes": 3569,
+      "sha256": "790dc14bc745383bd6a66c0827fa021dfb9d486e2c0fb648f3f64f7eb8b3b15f"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/post-freeze-comparison/compare_author.py",
+      "bytes": 3504,
+      "sha256": "0d9333f07fab8ee9f31c1f54a8ca186386a3780192fb520e195d2f8353aa3b4b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/post-freeze-comparison/comparison-freeze.json",
+      "bytes": 1785,
+      "sha256": "dc4fba48a1aebbb52b0d9998bf8bb1cd8a5ff4bf200643d028a0ca79c48737de"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/post-freeze-comparison/comparison.json",
+      "bytes": 3619,
+      "sha256": "42aca8343a711f3073bf9d469f4908b831dcf2d8e0faa0ba6d2e0b86068dc580"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/post-freeze-comparison/report.md",
+      "bytes": 3004,
+      "sha256": "a611a5a884ee127a230740e48b33a5a9bde161ee45d5cf5d417eadb5266b04cd"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/protocol-freeze.json",
+      "bytes": 617,
+      "sha256": "3063a9f6d4a40245f7484e791ddf438a2d59c2fa08b65d461d468108558cc7c4"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/report.md",
+      "bytes": 6494,
+      "sha256": "3773b2bb6f8556af5f49dd1ec945f6d929a9e938fd692b7417e220a26d8c5294"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/source-freeze.json",
+      "bytes": 1916,
+      "sha256": "830d529f65cb141af5a6fe750716a35df07385b914da02a532071b7ef39eab83"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/validation.json",
+      "bytes": 10677,
+      "sha256": "7afa29be7d15d5deb0ce02eddee95b4b09e664f6de7d2cdba22b0c69d72c7a29"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/finite-observation-appendix-v001/evidence-map.json",
+      "bytes": 4545,
+      "sha256": "5016e4243390c9516c8ac847b64659ef3706d846f1e00a5ccbc4ed8d384b2fd4"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/finite-observation-appendix-v001/freeze.json",
+      "bytes": 2165,
+      "sha256": "71a791d42ce5ce9582e9dec6c0be63c47d8a86eb67cd0e389eb2892ba1c4f207"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/finite-observation-appendix-v001/input-freeze.json",
+      "bytes": 13796,
+      "sha256": "ff93bb928ac5a3ed11223964d97d7d3e9fdb155b799828981535f2fcf8df5d2b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/finite-observation-appendix-v001/report.md",
+      "bytes": 1187,
+      "sha256": "b59ebe9cdf7efe342712cc779638d8097eba91cf23c031ea465f59f9b2c04fd5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/finite-observation-appendix-v001/validation.json",
+      "bytes": 2626,
+      "sha256": "b89c00ff96f9cad630f96d0d3043311d03cef5c6fd735a755163106ddfec76d9"
+    },
+    {
+      "path": "research/sessions/20261017-2109/claims.md",
+      "bytes": 30164,
+      "sha256": "babbcb06551aabf561f51197ba055887f44ae451f96101b4ed6a34ce83753787"
+    },
+    {
+      "path": "research/sessions/20261017-2109/fixed-dissipation-peak-inverse-protocol-v001.md",
+      "bytes": 2114,
+      "sha256": "6d25d547c2b34bf1b207508190e24baaf0a54c5b615e7c67f0cdcfecc1a284f7"
+    },
+    {
+      "path": "research/sessions/20261017-2109/plan.md",
+      "bytes": 14186,
+      "sha256": "c6c3f2f179eea6972712773bc62e7f2c073bd21b55effcab5cc469485bfb8fdd"
+    },
+    {
+      "path": "research/sessions/20261017-2109/prepare_R020_publish.py",
+      "bytes": 4700,
+      "sha256": "3cdc71baab65b27de44be480350c5350649092997f34ef277a8bc3428f10673e"
+    },
+    {
+      "path": "research/sessions/20261017-2109/publish_R020.py",
+      "bytes": 3777,
+      "sha256": "aed8d9ae98601612a56ce224aa2b74691e03aaa3697eff0714028ea6a4a9ae4d"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R019-after-push-snapshot.json",
+      "bytes": 6958,
+      "sha256": "ae6e44e8440b94fc2e2f947487c4f10d61635d5c29ee22349ace6979f3e1639f"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R019-index-qa.json",
+      "bytes": 7754,
+      "sha256": "ac4fa12c701db64af4fc78d083a27398cb1d94e2af4c464addad5c7daa7e0d67"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R019-late-handoff.md",
+      "bytes": 6398,
+      "sha256": "70caf9ad04e7557741952c62fbe1dcf00b720688b31791c09cad10f334922c7d"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R019-publish-manifest.json",
+      "bytes": 17863,
+      "sha256": "01ccbc708be8b939d4dcbdde111ffb7ada48b13a5e001916cbbfa30ef7edb422"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R019-push.json",
+      "bytes": 482,
+      "sha256": "9fda7683da4a896cc8334377aa787119463a2f69f879349d714b27515a42a8e4"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R020-adoption.json",
+      "bytes": 16771,
+      "sha256": "883382f03b912bbbdcb23e6d0f0bdb0c6930a15ce019d7ad15e73f659aad3ada"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R020-C038-adoption.json",
+      "bytes": 16179,
+      "sha256": "2f05dc396df4e1fd803b8d10f177b05bf370435ee3ec30ce9f704cf0ce221785"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R020-core-root-review.json",
+      "bytes": 16337,
+      "sha256": "7ab3cc72f18ef6c68b48ea4e60378460a83d5355e314a2eb4251467c854c7b0b"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R020-prior-art-root-review.json",
+      "bytes": 1364,
+      "sha256": "d8a39933f83c5b64d6904cc99f0de6e7b02ce29f267d8506f5ee9d5e9fc37009"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R020-role-snapshot.json",
+      "bytes": 7466,
+      "sha256": "7993a361bcb3dfff75639ef755450c126cf51878491ce8fad2df3cdf0e249898"
+    },
+    {
+      "path": "research/sessions/20261017-2109/review_R020_integrations.py",
+      "bytes": 5358,
+      "sha256": "b0b8487d3ef183aa6cd2bd6d418b8e19adb23023c01bfaae30482ea911be1ff3"
+    },
+    {
+      "path": "research/sessions/20261017-2109/rounds/R019.md",
+      "bytes": 3493,
+      "sha256": "cd5b5cc62836eb35f4cf3805ca57fa88e0ddffe828a537f33e2f06a7fd176c33"
+    },
+    {
+      "path": "research/sessions/20261017-2109/rounds/R020.md",
+      "bytes": 2147,
+      "sha256": "e535a0ad98e95ab6140acad66b1716930b1c02733c124f34e93b89dee2122002"
+    },
+    {
+      "path": "research/sessions/20261017-2109/runs.md",
+      "bytes": 21031,
+      "sha256": "078f25cfafb3e5a5885414f67ed7ae4a3a9c792a1ea4dc6bb935679d0da54c4e"
+    },
+    {
+      "path": "research/sessions/20261017-2109/status.json",
+      "bytes": 48044,
+      "sha256": "ea487e425c8369b160f64168d46ba717c9f37a4597ec72da9febae961e38512e"
+    },
+    {
+      "path": "research/sessions/20261017-2109/topic-cards/events.md",
+      "bytes": 5152,
+      "sha256": "d220b9bf3320b6f8c6060f1b271f2d20e4b51000fbedde355e146ea054a77ba5"
+    },
+    {
+      "path": "research/sessions/20261017-2109/topic-cards/T-M001-v017.md",
+      "bytes": 1359,
+      "sha256": "89f774120eb25c05aca2868e3deb2892862415ce7ad9e2fd04c2d2453d63db1e"
+    }
+  ],
+  "file_count": 58,
+  "total_bytes": 369270,
+  "markdown_tables_checked": 9,
+  "explicit_format_exceptions": [],
+  "scope": "Reviewed fixed-D analytic inverse, C037 appendix integration and bounded prior-art positioning; routine master receipts. Active new fixed-D manuscript excluded.",
+  "exclusions": "Primary originals/page images/excerpts, raw engineering/array data, active packages and all old dirty/unknown files."
+}

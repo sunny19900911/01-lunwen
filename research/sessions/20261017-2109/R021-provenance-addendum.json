@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-18T04:59:31.631285+08:00",
+  "affected_adoption_sha256": "2a8671a9c0196c48c4d2449a6263ebcf6a6650731fd6d4fe6385a2dd3c3fb2df",
+  "superseded_link": {
+    "path": "R021-root-review.json",
+    "sha256": "0fb4d8f811fc0bf103530652b7cb82c3e6e417a8c5abec5ffb895acba53dd8ca"
+  },
+  "current_root_review": {
+    "path": "R021-root-review.json",
+    "sha256": "5292509f40b46fba2ef57b1bf17be1807c92672a4c900ae894c2d700169fe91e"
+  },
+  "issue": "Root review output was updated to add R028 source checks after early illustration adoption had referenced the 54-identity version. The earlier root QA bytes are not available; cannot claim exact recovery.",
+  "preserved": "Early adoption bytes/old SHA reference retained as historical mismatch. Its 54 scientific source identities are all exact subset of 62 current reviewed identities and rechecked current bytes.",
+  "correction": "Final R021 adoption binds the current 62-identity review plus this addendum. Only the old root-review link is superseded; no frozen role sources, proof or manuscript changed.",
+  "downstream": "No new writer had been dispatched using the early illustration adoption. Use final R021-adoption.json for subsequent integration."
+}

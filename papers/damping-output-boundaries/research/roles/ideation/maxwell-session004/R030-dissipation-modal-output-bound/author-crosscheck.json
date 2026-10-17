@@ -1,0 +1,35 @@
+{
+  "status": "author-side only; independent role2 audit pending",
+  "reviews": [
+    {
+      "agent": "peak_bound_audit",
+      "result": "both Holder bounds, exponents, units and endpoint scopes correct",
+      "findings": [
+        "p=(1+alpha)/alpha and q=1+alpha conjugate for every positive finite alpha",
+        "Lp force norm equals c^(1/(1+alpha))*D^(alpha/(1+alpha))",
+        "finite-time convolution Holder then device-index Holder gives weighted total-energy kernel",
+        "D=0 implies zero force a.e. and AC force identically zero on positive finite window",
+        "nonzero device initial force already acts through true F; subject IC differences need homogeneous term",
+        "infinite window needs Lq kernels and finite D infinity; PSD C alone does not suffice"
+      ]
+    },
+    {
+      "agent": "spectral_zero_order",
+      "result": "conditional bridge and all applicability boundaries correct",
+      "findings": [
+        "complete physical reference and power-conjugate ports/target/normalization/actual C required",
+        "finite H and incomplete modes/devices retain explicit remainders",
+        "true viscous D differs from port work due to series spring energy",
+        "target projection scale multiplies true difference and bound while D remains unchanged",
+        "no reduction, phase/sign, actual-layout rank or building sharpness conclusion",
+        "true dissipation allocation itself changes with layout"
+      ]
+    }
+  ],
+  "master_addendum_incorporated": [
+    "bare K0 with complete physical F only",
+    "FNA residual Lp not fixed by true D; exact static counterexample added",
+    "small kernel influence may mean no useful target action, not improved placement",
+    "acceleration direct/distribution terms excluded"
+  ]
+}

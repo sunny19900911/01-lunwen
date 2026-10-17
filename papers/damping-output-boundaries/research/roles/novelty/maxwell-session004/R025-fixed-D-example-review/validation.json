@@ -1,0 +1,87 @@
+{
+  "started_at": "2026-10-18T04:49:01+08:00",
+  "completed_at": "2026-10-18T04:51:48.230998+08:00",
+  "elapsed_seconds": 167.230998,
+  "limit_minutes": 6,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Twofixedexamplesstaticauditpassed;freezeandstop",
+  "mustfix": 0,
+  "required_changes": 0,
+  "source_report_sha256": "d4bd8195ba41a47109752ec411d604a4290b74905f6702b9bc56a3b24ef9eb6b",
+  "sourcefreeze_sha256": "a07916dba9739ec4520d6401e04d90d04f6c850b67a8aa67f817ac28f1cbc274",
+  "input_files_checked": 11,
+  "input_changed": [],
+  "sourcefreeze_source_entries_checked": 5,
+  "sourcefreeze_output_entries_checked": 5,
+  "old_own_frozen_files_checked": 79,
+  "old_changed": [],
+  "parameters": {
+    "kappa": 1,
+    "c": 1,
+    "V": 1,
+    "alpha": 1,
+    "F0": 0,
+    "h": "1/2",
+    "T": 4,
+    "D": "1/4",
+    "M": [
+      "1/2",
+      "3/5"
+    ],
+    "terminal_total_delta": "free"
+  },
+  "independent_exact_fraction_identities": {
+    "M1_time_constant": true,
+    "M1_time_log": true,
+    "M1_D_constant": true,
+    "M1_D_log": true,
+    "M2_time_constant": true,
+    "M2_time_log": true,
+    "M2_D_constant": true,
+    "M2_D_log": true,
+    "W": true,
+    "M1_end_rise": true,
+    "M2_end_rise": true,
+    "M2_end_fall": true,
+    "M2_log_sum_argument": true,
+    "M2_log_difference_argument": true,
+    "M1_delta_constant": true,
+    "M1_delta_log": true,
+    "M2_delta_constant": true,
+    "M2_delta_up_log": true,
+    "M2_delta_down_log": true,
+    "M1_L_lower": true,
+    "M1_DminusL_lower": true,
+    "M2_L_lower": true,
+    "M2_DminusL_lower": true,
+    "M2_dwell_lower": true
+  },
+  "log_and_terminal_delta_analytic_checks": "Basicderivative identities andconvexity/positiveexpseries checkedinreport;not inferredfromdecimaldisplays",
+  "readonly_subreview": {
+    "agent": "/root/prior_work_audit",
+    "mustfix": 0,
+    "scope": "Fullsource report/checks.py/checks.json/protocolandoldR017targetsections;no execution/files/arrays;logboundsanddeltaDerivativeindependentchallengepassed"
+  },
+  "author_checks_py_executed": false,
+  "ODE_arrays_originaldata_numpy_or_parameter_scan": false,
+  "new_log_float_computation": false,
+  "C038_appendix_integration_reviewed": false,
+  "R029_R040_fullproof_reviewed": false,
+  "local_links_checked": 6,
+  "broken_links": [],
+  "UTF8_LF_whitespace_controls_passed": true,
+  "source_shared_or_git_modified": false,
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 4762,
+      "sha256": "6de2b6e8c232b267b844f75e020c73850261a44078c7aada274cd7db4773258a"
+    },
+    {
+      "file": "report.md",
+      "bytes": 4459,
+      "sha256": "6ef225b4642ad1fdb9ccb4c62710991f81568e2360abaf046b593abd092bf711"
+    }
+  ],
+  "validation_self_hash": "omitted intentionally"
+}

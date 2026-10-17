@@ -1,0 +1,46 @@
+{
+  "claim": "C038",
+  "current_mathematical_admission": "root-adopted; independent derivation and post-freeze comparison available",
+  "new_appendix_status": "author frozen pending independent integration review",
+  "notation_map": {
+    "appendix_and_R029": {
+      "D_min": "L(h)",
+      "D0": "U(h)",
+      "D_max": "L(M_T)"
+    },
+    "R040_independent_aliases": {
+      "D0": "L(h)",
+      "Dh": "U(h)",
+      "DT": "L(M_T)"
+    },
+    "warning": "The independent D0 is the appendix D_min, not the appendix D0."
+  },
+  "mapping": [
+    {
+      "section": "1 / equations 1-3",
+      "evidence": "M-C018 / nonzero-terminal R017; R029; R040",
+      "content": "Measurable bounded velocity, free terminal total displacement, signed terminal force, fixed-peak complete interval and self-contained functions."
+    },
+    {
+      "section": "2 / equation 4",
+      "evidence": "R029 and R040, checked by post-freeze comparison",
+      "content": "Derivative cancellation; U strictly increasing on closed J despite zero derivative at the right endpoint."
+    },
+    {
+      "section": "3 / equations 5-6 and condition table",
+      "evidence": "Root C038; R029 canonical labels; R040 alias map",
+      "content": "First exclude infeasible h,T,D; restricted inverses; full closed peak interval; endpoint and minimum-time singletons; strict interior width."
+    },
+    {
+      "section": "4 / equation 7",
+      "evidence": "M-C018; R029; R040",
+      "content": "Every peak attained by waiting / fastest rise / dwell / fastest fall; W must first subtract terminal elastic storage."
+    },
+    {
+      "section": "5",
+      "evidence": "R023 and R027 ending",
+      "content": "Classic tools, exact publication coverage unknown, no structural/floor/layout guarantee."
+    }
+  ],
+  "publication_scope": "Excluded from current in-flight R020; next checkpoint only. No edits to compact-v003, earlier appendices or shared records."
+}

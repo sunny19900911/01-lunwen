@@ -1,0 +1,24 @@
+{
+  "all_passed": true,
+  "arithmetic": "fractions.Fraction",
+  "exponent_and_unit_checks": [
+    {
+      "alpha": "3/10",
+      "p": "13/3",
+      "q": "13/10",
+      "c_exponent": "10/13",
+      "D_exponent": "3/13"
+    },
+    {
+      "alpha": "2",
+      "p": "3/2",
+      "q": "3",
+      "c_exponent": "1/3",
+      "D_exponent": "2/3"
+    }
+  ],
+  "abstract_cross_device_Holder_equality_algebra": true,
+  "target_scaling_check": true,
+  "physical_full_force_not_FNA_residual_counterexample": true,
+  "scope": "Isolated algebra only; no actual Green/Maxwell equality trajectory, time integration, arrays, new data or parameter sweep."
+}

@@ -1,0 +1,43 @@
+{
+  "task": "R028",
+  "frozen_at": "2026-10-18T04:52:26.670203+08:00",
+  "started_at": "2026-10-18T04:48:49+08:00",
+  "deadline": "2026-10-18T04:54:49+08:00",
+  "elapsed_seconds": 217.670203,
+  "within_deadline": true,
+  "decision": "classical tool source located, no candidate correctness/novelty certification",
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R028-convolution-holder-source\\input-rules-R028.json",
+      "bytes": 940,
+      "sha256": "18401f6e03eaf05614ea1be6dc87bb3d1c0805396a3de44de00c2c2e10cbcb05"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R028-convolution-holder-source\\search-log-R028.json",
+      "bytes": 612,
+      "sha256": "41ed3c82e9b771fcac6e8d66449a2b8e99e6b9d6ed4f54659f8afaf45f262251"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R028-convolution-holder-source\\source-manifest-R028.json",
+      "bytes": 2354,
+      "sha256": "7920c4375b231edafda7c6759fbd33cbb4095c3cfbb9b5a113f2deaaee36b299"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R028-convolution-holder-source\\report.md",
+      "bytes": 5726,
+      "sha256": "c97284110a78e1734009c29b028df65bed51a1fe6f9076a1a28dda02c0fc214e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R028-convolution-holder-source\\freeze_R028.py",
+      "bytes": 4771,
+      "sha256": "b07b35cfd0a4390f8bebe2ae9f094ecb482ada99f50df4c14e11e41b7b76531a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R028-convolution-holder-source\\validation-R028.json",
+      "bytes": 2431,
+      "sha256": "61ef699a728b3ce84dbac253213e1c188bce75551a2ad28c7d13467fc895a117"
+    }
+  ],
+  "cache_manifest": "source-manifest-R028.json",
+  "immutable_after_delivery": true
+}

@@ -1,0 +1,30 @@
+{
+  "required_changes": 0,
+  "review_type": "Static integration against admitted C038, not a new proof or numeric test",
+  "manual_semantic_checks": {
+    "seven_equations_transcribed_correctly": true,
+    "six_table_branches_cover_admitted_cases": true,
+    "self_contained_functions_and_admissible_class": true,
+    "canonical_D0_is_Uh_not_independent_Lh_alias": true,
+    "domain_empty_before_inverse": true,
+    "minimum_time_singleton_separate": true,
+    "restricted_inverse_images_and_parameter_clipping": true,
+    "zero_right_slope_strict_monotonicity": true,
+    "each_M_construction_and_degenerate_segments": true,
+    "W_subtract_terminal_storage": true,
+    "classic_and_publication_engineering_boundaries": true
+  },
+  "automated_static_checks": {
+    "seven_tags_1to7": true,
+    "six_table_rows_two_columns": true,
+    "seven_local_links_resolve": true,
+    "UTF8_LF_no_BOM_whitespace": true,
+    "fourteen_sources_frozen": true,
+    "writer_five_files_and_eight_direct_sources_unchanged": true,
+    "writer_22_old_manifests_unchanged": true,
+    "old_40_records_154_outputs_unchanged": true,
+    "R040_postcomparison_three_outputs_unchanged": true
+  },
+  "in_progress_R025_example_read": false,
+  "new_proof_numerics_trajectories_arrays_or_parameter_sweep": false
+}

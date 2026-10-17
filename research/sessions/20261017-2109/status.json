@@ -6,8 +6,8 @@
   "deadline": "2026-10-18T07:09:45+08:00",
   "master_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
   "checkpoint_open": true,
-  "current_round": "R020",
-  "latest_round": "rounds/R019.md",
+  "current_round": "R021",
+  "latest_round": "rounds/R020.md",
   "checkpoint_minutes": 15,
   "topic_card_minutes": 30,
   "scheduler": {
@@ -39,7 +39,7 @@
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "R029 fixedD exactpeak inverse candidate<=10m dispatched04:26 afteridle;own code/proof only",
+      "dispatch": "R030 classicC039 frozen and adopted; idle",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -48,18 +48,18 @@
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "R020 actual snapshot after 04:26 dispatch; frozen report is not entire turn completion.",
-      "observed_at_utc": "2026-10-17 20:32:13 UTC"
+      "snapshot_note": "R021 initial actual snapshot; role1/3/6 new dispatch occurred afterward.",
+      "observed_at_utc": "2026-10-17 20:47:08 UTC"
     },
     "verification": {
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
       "hostId": "local",
       "title": "论文角色②｜证明审核与反例",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:132",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:139",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "R040 samefixedD inverse independent derivation<=10m dispatched04:26 afteridle;notread role1 inprogress",
+      "dispatch": "R042 independent+postcomparison0must adopted C039, idle",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -69,39 +69,18 @@
         "type": "active",
         "activeFlags": []
       },
-      "snapshot_note": "R020 actual snapshot after 04:26 dispatch; frozen report is not entire turn completion.",
-      "observed_at_utc": "2026-10-17 20:32:13 UTC"
+      "snapshot_note": "R021 initial actual snapshot; role1/3/6 new dispatch occurred afterward.",
+      "observed_at_utc": "2026-10-17 20:47:08 UTC"
     },
     "literature": {
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
       "hostId": "local",
       "title": "论文角色③｜文献原文复查",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:85",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:87",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "R027 exactnonzeroFT fixedpeak dissipation interval priorart<=10m/2queries2primary docs dispatched04:26 afteridle",
-      "observed_at": "2026-10-18T01:49:22.701322+08:00",
-      "actual_status": {
-        "type": "idle"
-      },
-      "turn_status": "inProgress",
-      "actual_status_at_snapshot": {
-        "type": "active",
-        "activeFlags": []
-      },
-      "snapshot_note": "R020 actual snapshot after 04:26 dispatch; frozen report is not entire turn completion.",
-      "observed_at_utc": "2026-10-17 20:32:13 UTC"
-    },
-    "experiments": {
-      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
-      "hostId": "local",
-      "title": "论文角色④｜ETABS数据与拟合",
-      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:65",
-      "preflight_status": {
-        "type": "idle"
-      },
-      "dispatch": "R024 C025figureaudit frozen adopted;idle awaiting meaningful newdata/no repeatedexperiment",
+      "dispatch": "R028 MIT primary tool source frozen reviewed, idle",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -110,14 +89,35 @@
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "R020 actual snapshot after 04:26 dispatch; frozen report is not entire turn completion.",
-      "observed_at_utc": "2026-10-17 20:32:13 UTC"
+      "snapshot_note": "R021 initial actual snapshot; role1/3/6 new dispatch occurred afterward.",
+      "observed_at_utc": "2026-10-17 20:47:08 UTC"
+    },
+    "experiments": {
+      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+      "hostId": "local",
+      "title": "论文角色④｜ETABS数据与拟合",
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:67",
+      "preflight_status": {
+        "type": "idle"
+      },
+      "dispatch": "New R025 fixed-D two-peak example <=6m dispatched04:44; pre-fixed two peaks, no arrays/ODE; excluded R020",
+      "observed_at": "2026-10-18T01:49:22.701322+08:00",
+      "actual_status": {
+        "type": "idle"
+      },
+      "turn_status": "inProgress",
+      "actual_status_at_snapshot": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "snapshot_note": "R021 initial actual snapshot; role1/3/6 new dispatch occurred afterward.",
+      "observed_at_utc": "2026-10-17 20:47:08 UTC"
     },
     "writing": {
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
       "hostId": "local",
       "title": "论文角色⑤｜论文写作与论证",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:74",
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:83",
       "preflight_status": {
         "type": "notLoaded"
       },
@@ -126,24 +126,23 @@
       "actual_status": {
         "type": "idle"
       },
-      "turn_status": "inProgress",
+      "turn_status": "completed",
       "actual_status_at_snapshot": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "snapshot_note": "R020 actual snapshot after 04:26 dispatch; frozen report is not entire turn completion.",
-      "observed_at_utc": "2026-10-17 20:32:13 UTC"
+      "snapshot_note": "R021 initial actual snapshot; role1/3/6 new dispatch occurred afterward.",
+      "observed_at_utc": "2026-10-17 20:47:08 UTC"
     },
     "novelty": {
       "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
       "hostId": "local",
       "title": "创新性验证",
-      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:49",
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:53",
       "preflight_status": {
         "type": "active",
         "activeFlags": []
       },
-      "dispatch": "R023 contributiongrading frozen adoptedrecommendation;idleawait newpriorart/appendix forindependent review",
+      "dispatch": "R026 Gusev alternate primary channel <=8m dispatched04:53, notadopted norstaged",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -152,8 +151,8 @@
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "R020 actual snapshot after 04:26 dispatch; frozen report is not entire turn completion.",
-      "observed_at_utc": "2026-10-17 20:32:13 UTC"
+      "snapshot_note": "R021 initial actual snapshot; role1/3/6 new dispatch occurred afterward.",
+      "observed_at_utc": "2026-10-17 20:47:08 UTC"
     }
   },
   "git_authorization": "Verified direct human user messages in source thread; main master-only normal commit/push for this session whitelist",
@@ -630,7 +629,7 @@
       "scope": "Reviewed C025 explanatoryfigure and Correia primaryscope;conditional finiteobservation theoremC037;contributiongrade recommendation;compact-v003 minimal integration."
     }
   },
-  "checkpoint_started_at": "2026-10-18T04:32:41.710577+08:00",
+  "checkpoint_started_at": "2026-10-18T04:46:55.472606+08:00",
   "received_auxiliary_skill_increment": {
     "path": "C:/Users/mj528/.codex/skills/etabs-response-analysis/scripts/cache_coverage.py",
     "source_validation": "../W5-重燃双塔连体/research/maxwell-20261017/roles/verification/response-coverage/skill-validation.json",
@@ -647,8 +646,8 @@
     "sha256": "8ec39aeb7692b7745dbd7622b7364ef19d3dd20404755444626ec93358ec24b6",
     "status": "R003 published and verified; frozen stage manuscript only"
   },
-  "latest_role_snapshot": "R020-role-snapshot.json",
-  "latest_late_handoff": "R019-late-handoff.md",
+  "latest_role_snapshot": "R021-initial-snapshot.json",
+  "latest_late_handoff": "R020-late-handoff.md",
   "manuscript_stage_v002": {
     "sha256": "64f69a385155f0004113cd8e96e12ebbe0b86e07bb88ce56da7d6873324bbef5",
     "status": "root full text/hash reviewed; frozen. Local absolute image references unsuitable for GitHub portability; author v003 assigned to fix image paths and integrate reviewed R007 before independent integration audit."
@@ -675,7 +674,7 @@
     "status": "R008 published and remote verified;frozen stage only"
   },
   "next_git_eligible_at": "2026-10-18T02:52:22.348711+08:00",
-  "latest_topic_card": "topic-cards/T-M001-v017.md",
+  "latest_topic_card": "topic-cards/T-M001-v018.md",
   "manuscript_modal_interface_v001": {
     "path": "papers/damping-output-boundaries/manuscript/maxwell-modal-interface-v001.md",
     "sha256": "ae16c74eb8f3786b66f1787034ca67b64d86683b8cddde94a26f8a0761a91cc8",
@@ -703,7 +702,7 @@
     "sha256": "30d9ec2f61439f19820959f929041cd0c92cdf28bb0e2a029d4c2f98c0436067",
     "status": "R012 published withstatusaddenda andremoteSHAverified;stageonly"
   },
-  "next_git_eligible_after": "2026-10-18T04:39:12.281962+08:00",
+  "next_git_eligible_after": "2026-10-18T04:57:59.859255+08:00",
   "manuscript_compact_v002": {
     "status": "stage integration accepted: R019 source scope +R035 rest except M1 +v002 targeted repair R020 +root exact9lines;not reproof",
     "path": "papers/damping-output-boundaries/manuscript/maxwell-paper-compact-v002.md",
@@ -735,5 +734,22 @@
     "record": "R020-adoption.json",
     "sha256": "883382f03b912bbbdcb23e6d0f0bdb0c6930a15ce019d7ad15e73f659aad3ada",
     "scope": "Fixed-D exactpeak analytic corollary, C037 appendix integration, bounded prior-art positioning"
+  },
+  "last_push_R020": {
+    "commit": "5944d26345e6755dc9ad5e260cd558b1612edb4e",
+    "remote_verified": true,
+    "attempts": 1,
+    "file_count": 58,
+    "receipt": "R020-push.json"
+  },
+  "R021_review": {
+    "record": "R021-adoption.json",
+    "sha256": "4372ebec3613c4e5f7f9640c36633965c348ecbe50f27d4a33b883c6b769f530",
+    "scope": "C038 appendix/example; classic C039 conditional finite-window target displacement difference bound"
+  },
+  "manuscript_fixed_dissipation_peak_appendix_v001": {
+    "path": "papers/damping-output-boundaries/manuscript/maxwell-fixed-dissipation-peak-appendix-v001.md",
+    "sha256": "31f1d60317f94fc7b7b60a01e523f415b21c464682a5c6d4f77ebce1c2ea5741",
+    "status": "R041 integration0must+root54 scientific anchor/62 current QA accepted; publish pending"
   }
 }

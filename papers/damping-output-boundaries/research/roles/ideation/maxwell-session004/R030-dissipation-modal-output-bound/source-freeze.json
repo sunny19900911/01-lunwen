@@ -1,0 +1,42 @@
+{
+  "round": "R030-dissipation-modal-output-bound",
+  "start": "2026-10-18T04:48:41+08:00",
+  "deadline": "2026-10-18T04:56:41+08:00",
+  "overall_deadline": "2026-10-18T07:09:45+08:00",
+  "frozen_at": "2026-10-18T04:48:54.984339+08:00",
+  "sources": [
+    {
+      "path": "research/sessions/20261017-2109/dissipation-modal-output-bound-protocol-v001.md",
+      "bytes": 2908,
+      "sha256": "5fc2acc6a426dcac2b509c7e151e2f1982cb2205dee270fc5ea0416332b76833"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/report.md",
+      "bytes": 7693,
+      "sha256": "9d037f1409d384d5a86d41b608971669890a22309574f05940459548c16ad0d6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R010/device-to-building-review.md",
+      "bytes": 8366,
+      "sha256": "b703b4f7eae39e1dc4c923bff9bdf9860d4d3cb59955bb1006fba10f8901c864"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R022-force-target-interface/report.md",
+      "bytes": 10057,
+      "sha256": "2e00ac175aac7beff172b2ac1a40b88d35023d3d7dcd0eeb7a71194254c4e203"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R022-force-target-interface/minimum-fields.json",
+      "bytes": 2007,
+      "sha256": "a5c3736abacdd045f461af109b471a3cb1e8a64adbe22911af8e36f0012dfb55"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R030-force-target-interface-review/report.md",
+      "bytes": 8763,
+      "sha256": "70a7504fa6901051b325db2ee707b7c6fcbb75e22f8ce30781811f113a28ccb5"
+    }
+  ],
+  "scope": "Conditional classical convolution-Holder bound only; no ODE, arrays, new data, parameter sweep, new closed-loop solution, external search or old/shared/manuscript/Git changes.",
+  "required_sources_frozen_at": "2026-10-18T04:50:44.006887+08:00",
+  "master_addendum": "Physical bare K0 with complete true F only. FNA residual force Lp is not determined by true D; smaller kernel influence is not benefit/layout superiority; no acceleration direct-term extension."
+}

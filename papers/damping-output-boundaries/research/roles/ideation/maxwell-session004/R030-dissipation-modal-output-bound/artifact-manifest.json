@@ -1,0 +1,35 @@
+{
+  "round": "R030-dissipation-modal-output-bound",
+  "artifacts": [
+    {
+      "file": "author-crosscheck.json",
+      "bytes": 1778,
+      "sha256": "01a268f897f04330be6a5335add04bf67b99164d399db3b9ff0101ab6ea53ac7"
+    },
+    {
+      "file": "checks.json",
+      "bytes": 639,
+      "sha256": "b518c0a5e805d8e93f8052ca266d05422c6096425bda62f2ad889ad54815d0e1"
+    },
+    {
+      "file": "checks.py",
+      "bytes": 2428,
+      "sha256": "c023452f38e61c2314eae687aa20642b62f56c8ad4b3618a2a620c69af8de54c"
+    },
+    {
+      "file": "report.md",
+      "bytes": 7442,
+      "sha256": "78722bbbd78ffd8e3ad725cfec16648997d1548ab7e505754a7997733f45c288"
+    },
+    {
+      "file": "source-freeze.json",
+      "bytes": 2201,
+      "sha256": "ac8885d838afa189b2d5bdf549542cfddf191868219d05caac287761ee3968b6"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 2737,
+      "sha256": "7a55bcc8bddbf12d50a3e91d7dde5bb9fe7d6d0443386dbc2ce473638244f80f"
+    }
+  ]
+}

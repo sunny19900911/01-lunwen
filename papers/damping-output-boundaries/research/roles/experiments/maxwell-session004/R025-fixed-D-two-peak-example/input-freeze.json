@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-17T20:45:38.238461+00:00",
+  "started_at": "2026-10-18T04:44:33+08:00",
+  "deadline": "2026-10-18T04:50:33+08:00",
+  "parameters": {
+    "kappa": 1,
+    "c": 1,
+    "V": 1,
+    "alpha": 1,
+    "F0": 0,
+    "h": "1/2",
+    "T": 4,
+    "D": "1/4",
+    "M": [
+      "1/2",
+      "3/5"
+    ],
+    "terminal_total_delta": "free"
+  },
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\fixed-D-two-peak-example-protocol-v001.md",
+      "bytes": 1145,
+      "sha256": "00324ab9710357dc9e09b7cb12e25f70c471d8f4a46cc79247ee899a79994407"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R020-C038-adoption.json",
+      "bytes": 16179,
+      "sha256": "2f05dc396df4e1fd803b8d10f177b05bf370435ee3ec30ce9f704cf0ce221785"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\非零末力耗散峰力区间独审-R017.md",
+      "bytes": 7166,
+      "sha256": "5a3596a03e9508861ccfda513ee170addf62c29a35ef97e4ed9e33a3db4c5c6d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R029-fixed-dissipation-peak-inverse\\report.md",
+      "bytes": 7186,
+      "sha256": "c6cc612de443a58642a20d7cdb10a054fb00d051d827a33f2f44b1ac0fcdc910"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R040-fixed-D-inverse-independent\\report.md",
+      "bytes": 6494,
+      "sha256": "3773b2bb6f8556af5f49dd1ec945f6d929a9e938fd692b7417e220a26d8c5294"
+    }
+  ]
+}
