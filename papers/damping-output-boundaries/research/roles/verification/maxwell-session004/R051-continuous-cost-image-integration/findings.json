@@ -1,0 +1,19 @@
+{
+  "review_type": "manual mathematical transcription integration",
+  "must_fix": [],
+  "must_fix_count": 0,
+  "mathematical_conflict_count": 0,
+  "reviewed_obligations": {
+    "C042_used_only_as_endpoint_lemma": true,
+    "target_root_unique_not_globally_strict": true,
+    "compact_unique_root_continuity": true,
+    "original_path_endpoints_restored": true,
+    "each_path_exact_terminal_force": true,
+    "cost_continuity_and_each_d_IVT": true,
+    "three_time_branches": true,
+    "no_fixed_D_peak_or_added_constraints_extension": true
+  },
+  "existing_agent_transcription_reviews": 2,
+  "new_proof_or_ODE_numerics_arrays": false,
+  "static_pass_is_math_proof": false
+}

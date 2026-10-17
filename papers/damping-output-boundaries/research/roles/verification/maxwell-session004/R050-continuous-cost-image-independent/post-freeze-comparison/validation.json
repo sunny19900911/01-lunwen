@@ -1,0 +1,62 @@
+{
+  "started_at": "2026-10-18T06:28:04.163690+08:00",
+  "limit_seconds": 90,
+  "deadline": "2026-10-18T06:29:34.163690+08:00",
+  "frozen_at": "2026-10-18T06:28:48.620186+08:00",
+  "within_limit": true,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "author_report": {
+    "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R035-continuous-cost-image/report.md",
+    "bytes": 6790,
+    "sha256": "55d19dc282c64b4c68df43fe72cb94b126d6ca53479c96d84ce08aad9207a249",
+    "read_level": "current full text"
+  },
+  "root_candidate": {
+    "path": "research/sessions/20261017-2109/continuous-cost-image-root-candidate-v001.md",
+    "bytes": 3425,
+    "sha256": "04752fe70e372d238e1d0a41e84decfbd79ac51e208ae451e31ed84736638ae1",
+    "read_level": "current full text"
+  },
+  "original_R050_five_outputs": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R050-continuous-cost-image-independent/report.md",
+      "bytes": 6506,
+      "sha256": "0098f1650e5ccdb7c6ac7670caa28795debada72c144918080f9fbd92860ef80"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R050-continuous-cost-image-independent/closure_checks.json",
+      "bytes": 1356,
+      "sha256": "91724139b6129b6d65cadff564a9531f7640a8836c39bdcec5dc0f2c1b912fcd"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R050-continuous-cost-image-independent/freeze_review.py",
+      "bytes": 3472,
+      "sha256": "f10f8d69a79b03076f181e6a3b5a8ecec4375cb6c286b66c3fde362f7cc765ae"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R050-continuous-cost-image-independent/source-freeze.json",
+      "bytes": 1438,
+      "sha256": "29dfc2ae6c1119e100c13b2b77dab4d4cd55cdaae33fb6122edb2ffde9094955"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R050-continuous-cost-image-independent/validation.json",
+      "bytes": 1766,
+      "sha256": "0d60fde9d6ae9baf346223357e52956d2b6bd5faa98dfcd186ba1f7f467d6416"
+    }
+  ],
+  "original_R050_unchanged": true,
+  "must_fix_count": 0,
+  "mathematical_conflicts": 0,
+  "new_proof_ODE_numerics_arrays": false,
+  "new_files_only": [
+    "report.md",
+    "validation.json"
+  ],
+  "outputs": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R050-continuous-cost-image-independent/post-freeze-comparison/report.md",
+      "bytes": 2701,
+      "sha256": "f64e2a9c0d83c16530603f9bd75b3812f74e7c1c9c991a930bb3f91ee620c283"
+    }
+  ]
+}

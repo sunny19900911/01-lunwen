@@ -1,0 +1,45 @@
+{
+  "round": "R035-continuous-cost-image",
+  "start": "2026-10-18T06:24:36.688518+08:00",
+  "limit_seconds": 480,
+  "deadline": "2026-10-18T06:32:36.688518+08:00",
+  "overall_deadline": "2026-10-18T07:09:45+08:00",
+  "source_frozen_at": "2026-10-18T06:25:29.848278+08:00",
+  "sources": [
+    {
+      "path": "research/sessions/20261017-2109/continuous-velocity-cost-image-protocol-v001.md",
+      "bytes": 1720,
+      "sha256": "03b99bfe5aa33b54f9b7d96743cc4cb28489bf87549e475affe84300b4bb4779",
+      "read": "full text this round"
+    },
+    {
+      "path": "research/sessions/20261017-2109/C042-adoption-v001.json",
+      "bytes": 6490,
+      "sha256": "bd9d26f3bc7fa952d45a43d21055044981a263c11b3faaa791dbe94f9c9275ce",
+      "read": "full text this round"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/report.md",
+      "bytes": 7693,
+      "sha256": "9d037f1409d384d5a86d41b608971669890a22309574f05940459548c16ad0d6",
+      "read": "full text this round"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R034-continuous-velocity-endpoints/report.md",
+      "bytes": 7141,
+      "sha256": "f1fcbbb2f3e97c058b7e81c067f30b502520ccbd864140673668708af52dbe11",
+      "read": "full text this round"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R048-continuous-velocity-independent/report.md",
+      "bytes": 6525,
+      "sha256": "fb2868540d569662bf991a1147ff26f98b8022aae2c6d0730c66f4bf68287312",
+      "read": "full text this round"
+    }
+  ],
+  "unread": [
+    "verification/R050 current independent package",
+    "root current cost-image candidate"
+  ],
+  "scope": "Analytic image of continuous controls under exact terminal force only; no fixed-D peak inverse, numeric solve, array, search, old/shared/manuscript/Git mutation."
+}

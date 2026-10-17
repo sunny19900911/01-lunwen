@@ -1,0 +1,65 @@
+{
+  "time_field_forms": {
+    "recorded_at": 2,
+    "at": 23
+  },
+  "success_verification_field_forms": {
+    "status": 2,
+    "verified": 15,
+    "push_and_remote_verified": 5,
+    "pushed_and_verified": 3
+  },
+  "success_verification_distinct_forms": 4,
+  "attempt_container_forms": {
+    "attempts": 24,
+    "push_attempts": 1
+  },
+  "attempt_exit_field_forms_per_attempt": {
+    "exit_code": 18,
+    "returncode": 8
+  },
+  "remote_SHA_field_forms": {
+    "remote_commit": 22,
+    "remote_main": 3
+  },
+  "remote_query_objects": 3,
+  "attempt_remote_check_fields": 5,
+  "outcomes": {
+    "pushed_and_verified_as_recorded": 24,
+    "failed_pending_as_recorded": 1
+  },
+  "total_push_attempts": 26,
+  "zero_exit_attempts": 24,
+  "failed_exit_attempts": 2,
+  "missing_or_unparseable_times": [],
+  "all_receipt_adjacent_intervals_count": 24,
+  "all_receipt_interval_min": {
+    "from": "R022",
+    "to": "R023",
+    "seconds": 938.07558
+  },
+  "all_receipt_interval_max": {
+    "from": "R010",
+    "to": "R011",
+    "seconds": 2181.682702
+  },
+  "successful_receipt_intervals_count": 23,
+  "successful_receipt_interval_min": {
+    "from": "R022",
+    "to": "R023",
+    "seconds": 938.07558
+  },
+  "successful_receipt_interval_max": {
+    "from": "R006",
+    "to": "R008",
+    "seconds": 2685.523938
+  },
+  "all_adjacent_receipt_intervals_greater_than_15_minutes": true,
+  "can_claim_strict_every15minute_sync": false,
+  "first_receipt_time": "2026-10-17T21:37:11.242248+08:00",
+  "last_receipt_time": "2026-10-18T06:22:44.389694+08:00",
+  "R007_original_failure_preserved": true,
+  "R008_records_normal_push_including_R007_pending_parent": true,
+  "Git_or_remote_ancestry_independently_checked": false,
+  "mtime_used": false
+}

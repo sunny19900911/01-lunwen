@@ -1,0 +1,79 @@
+{
+  "round": "R035-continuous-cost-image",
+  "status": "frozen author candidate; independent role2 review pending",
+  "start": "2026-10-18T06:24:36.688518+08:00",
+  "end": "2026-10-18T06:26:54.197253+08:00",
+  "elapsed_seconds": 137.508735,
+  "elapsed_from_protocol_freeze_seconds": 144.595334,
+  "limit_seconds": 480,
+  "within_limit": true,
+  "overall_deadline": "2026-10-18T07:09:45+08:00",
+  "source_integrity": [
+    {
+      "path": "research/sessions/20261017-2109/continuous-velocity-cost-image-protocol-v001.md",
+      "unchanged": true,
+      "matched_C042_adoption_if_listed": false
+    },
+    {
+      "path": "research/sessions/20261017-2109/C042-adoption-v001.json",
+      "unchanged": true,
+      "matched_C042_adoption_if_listed": false
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/report.md",
+      "unchanged": true,
+      "matched_C042_adoption_if_listed": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R034-continuous-velocity-endpoints/report.md",
+      "unchanged": true,
+      "matched_C042_adoption_if_listed": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R048-continuous-velocity-independent/report.md",
+      "unchanged": true,
+      "matched_C042_adoption_if_listed": true
+    }
+  ],
+  "analytic_review": {
+    "result": "No counterexample found; target-level root uniqueness, compact-root continuity and exact-endpoint path prove missing intermediate attainability",
+    "obligations_explicit_in_report": [
+      "existence",
+      "target_root_uniqueness",
+      "parameter_continuity",
+      "original_endpoints",
+      "exact_terminal_every_path_control",
+      "cost_continuity_not_monotonicity",
+      "full_image",
+      "T_less_than_min",
+      "T_equals_min",
+      "global_saturated_plateaus_acknowledged",
+      "old_C042_lemma_explicit"
+    ],
+    "global_strict_bias_monotonicity_claimed": false,
+    "C042_sharp_approximating_families_used_as_prior_lemma": true,
+    "cost_path_monotonicity_assumed": false
+  },
+  "qa": {
+    "utf8_lf": true,
+    "trailing_whitespace": false,
+    "json_parse": true,
+    "analytic_proof_read": true
+  },
+  "scope": {
+    "verification_R050_or_current_root_candidate_read": false,
+    "new_ODE_or_time_integration": false,
+    "new_numerics_or_parameter_scan": false,
+    "data_arrays_read": false,
+    "external_search": false,
+    "continuous_fixed_D_peak_set_claim": false,
+    "engineering_or_novelty_claim": false,
+    "old_shared_manuscript_git_modified": false,
+    "created_only_in_new_role_directory": true
+  },
+  "report": {
+    "path": "report.md",
+    "bytes": 6790,
+    "sha256": "55d19dc282c64b4c68df43fe72cb94b126d6ca53479c96d84ce08aad9207a249"
+  }
+}

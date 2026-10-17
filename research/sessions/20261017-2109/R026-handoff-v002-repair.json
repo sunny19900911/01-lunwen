@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-18T06:30:55.811076+08:00",
+  "old_sha256": "e90ad7aa3faf7aae51886bd681465f7c120279f8a78cb7c33f1f063d6587f421",
+  "new_sha256": "90bc502040852e4473da6abd307899ef37ef881ee952f4a910cbcc10589ba205",
+  "diff_sha256": "3fe3895caf13a7cc7c9ce27b46235daf0ea4d1b47572ef8c8710f668d41b47a3",
+  "finding": "R031-M1 ETABS export, not physical measurement",
+  "other_changes": [
+    "C043 now locally reviewed, short supplement integration pending",
+    "reduced node export does not waive completeness/mapping/remainder or single-target scope",
+    "actual R001-R025 receipt history and root local ancestry limits"
+  ],
+  "original_preserved": true,
+  "status": "candidate awaiting limited independent diff review"
+}

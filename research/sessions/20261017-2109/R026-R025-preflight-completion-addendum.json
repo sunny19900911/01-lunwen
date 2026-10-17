@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-18T06:27:44.382828+08:00",
+  "prior_frozen_record": "R025-preflight-math-token-correction.json",
+  "prior_sha256": "356b749a82d224342187872d1ef2221a6ecfec1391a5074e600d9c0edc41c2e3",
+  "actual_preflight_invocations": 4,
+  "failures_before_success": [
+    {
+      "sequence": 1,
+      "exit": 1,
+      "cause": "Frozen R048 indented exp formula misread as Markdown link",
+      "stage_started": false
+    },
+    {
+      "sequence": 2,
+      "exit": 1,
+      "cause": "Frozen R049 Markdown table contains ASCII norm bars; source preserved with separate readable supplement",
+      "stage_started": false
+    },
+    {
+      "sequence": 3,
+      "exit": 1,
+      "cause": "Master appended the same bracket-parenthesis token to the nonfrozen runs.md explanation; reworded that explanation only",
+      "stage_started": false
+    }
+  ],
+  "sequence4": {
+    "exit": 0,
+    "files": 71,
+    "bytes": 405883,
+    "tables": 10
+  },
+  "publish_commit": "80d4bfab066a8399c0ffd2f4051495a7469c3632",
+  "network_attempts": 1,
+  "remote_verified": true,
+  "meaning": "Completes operational failure history; no frozen record or scientific source overwritten; preflight retries are not network push attempts"
+}

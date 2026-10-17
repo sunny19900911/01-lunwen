@@ -1,0 +1,86 @@
+{
+  "started_at": "2026-10-18T06:26:57+08:00",
+  "completed_at": "2026-10-18T06:29:28.447705+08:00",
+  "elapsed_seconds": 151.447705,
+  "limit_minutes": 6,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Finitehandoffscopereviewcomplete;one evidence-levelwordingfix;freezeandstop",
+  "mustfix": 1,
+  "required_changes": 1,
+  "candidate_sha256": "e90ad7aa3faf7aae51886bd681465f7c120279f8a78cb7c33f1f063d6587f421",
+  "candidate_line_count": 31,
+  "findings": [
+    {
+      "id": "R031-M1",
+      "priority": 2,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\最终交付说明-候选-v001.md",
+      "line": 27,
+      "wording": "给定实测力后的条件一致性检查",
+      "minimal_fix": "给定ETABS导出力后的条件一致性检查",
+      "reason": "Existingdataaresimulationexport/observedF,notphysicalmeasurement/experiment;do notupgradeevidence",
+      "original_modified": false
+    }
+  ],
+  "other_checks": "Threequestionsandfixedtargetdisplacementlimits;classictools/publicationunknown;source-modelmatchedbaseline;node-exportdoesnotremovemode/devicecompleteness;pendingR026notadopted;candidate-notdue-notshutdown/Gitsuccess;Aselectednotfinaltopic allpreserved",
+  "actual_read_levels": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\最终交付说明-候选-v001.md",
+      "level": "Fullcandidate31lines;no status/schedulerverification"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\下一次只补这些资料.md",
+      "level": "Fullplainrequestread"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\阶段结论-白话-v002.md",
+      "level": "Fullalreadyreviewedplainreread"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\同条件排重-结论表-v001.md",
+      "level": "Fullalreadyreviewedpriorarttableread"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\layout-input-templates-v001\\README.md",
+      "level": "Readrelevantgeometry/axis/modal/fairpairparagraphs;nottemplateCSV/data"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v002.md",
+      "level": "Targetedlines7/13/15/109/121/147/149/151/167-190;combinedrginitialoutputtruncated;priorfullreadreused"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R030-handoff-plain-and-priorart-review\\report.md",
+      "level": "Priorreviewcontextreused;no newprimaryreading"
+    }
+  ],
+  "initial_rg_output_truncated": "RelevantREADME69-76andnarrative167-182readexplicitlyafterward;notfullreproof",
+  "input_files_checked": 7,
+  "input_changed": [],
+  "old_own_frozen_files_checked": 98,
+  "old_changed": [],
+  "local_links_checked": 10,
+  "broken_links": [],
+  "UTF8_LF_whitespace_controls_passed": true,
+  "readonly_subreview": {
+    "agent": "/root/prior_work_audit",
+    "mustfix": 1,
+    "scope": "Fullcandidate31/needlist13lines;plain/priorartandtargetnarrativeparagraphs;no search/PDF/proof/arrays/files",
+    "same_finding": "实测力mustbereplacedbyETABS导出力;node/targetexportscopeacceptablewithlinkedconditions"
+  },
+  "pending_role1_role2_continuousD_work_read_or_interfered": false,
+  "scheduler_or_finalGit_status_verified_or_changed": false,
+  "whole_session_complete_or_formally_paused_claimed": false,
+  "newsearch_download_PDF_newproof_scientificprogram_arrays_originaldata_recompute_shared_Git": false,
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 3032,
+      "sha256": "8760ef1a1da5d3e7279995288ad03aa03cbcf2e706488d7560e4d86636d16351"
+    },
+    {
+      "file": "report.md",
+      "bytes": 4833,
+      "sha256": "da964cf73f4670e3d5b66804f969d841235a4902c2e9ae012439ac6281b7b97f"
+    }
+  ],
+  "validation_self_hash": "omitted intentionally"
+}

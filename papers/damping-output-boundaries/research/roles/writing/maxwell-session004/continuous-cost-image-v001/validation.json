@@ -1,0 +1,42 @@
+{
+  "validated_at": "2026-10-18T06:34:07.919763+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-continuous-cost-image-v001.md",
+    "bytes": 5875,
+    "sha256": "23acaade3bf7b6916f526a9182e7c669368e8888fec966d951ea601cd5173734"
+  },
+  "passed": true,
+  "scope": "Author static transcription/quantifier/link/hash QA only, not independent proof or integration review.",
+  "checks": {
+    "continuous_class_conditions": true,
+    "full_boundary_definitions": true,
+    "C042_borrowed_exact_terminal_sharp_not_full_image": true,
+    "clip_does_not_presume_terminal": true,
+    "existence_joint_continuity_strict_bracket": true,
+    "target_unique_not_global_strict": true,
+    "uniqueness_control_continuity_connected_time": true,
+    "root_continuity_compactness": true,
+    "endpoints_exactly_restored": true,
+    "path_cost_continuity": true,
+    "every_cost_IVT_exact": true,
+    "three_T_branches": true,
+    "no_fixedD_peak_or_building_or_priority": true,
+    "old_scope_new_review_distinct": true,
+    "5_displays_tags1to5_outside_aligned": true,
+    "4_sections_no_markdown_table_or_figure": true,
+    "all_local_links_resolve": true,
+    "6_small_source_identities_match": true,
+    "27_old_manifests161_entries_preserved": true,
+    "UTF8_LF_noBOM_no_trailing_whitespace": true
+  },
+  "check_count": 20,
+  "display_equations": 5,
+  "sections": 4,
+  "local_links": 4,
+  "direct_sources": 6,
+  "protected_manifests": 27,
+  "protected_entries": 161,
+  "han_characters": 1011,
+  "failed_attempt_retained": "Initial no-table regex rejected a displayed absolute-value math line. Corrected QA requires a Markdown header separator; source text unchanged by this correction.",
+  "no_scientific_computation_arrays_solver_search_Git_write_or_new_role_schedule": true
+}

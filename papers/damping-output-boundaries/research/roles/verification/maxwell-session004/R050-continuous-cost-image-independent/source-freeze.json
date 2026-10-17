@@ -1,0 +1,32 @@
+{
+  "started_at": "2026-10-18T06:24:37.286329+08:00",
+  "sources": [
+    {
+      "path": "research/sessions/20261017-2109/continuous-velocity-cost-image-protocol-v001.md",
+      "bytes": 1720,
+      "sha256": "03b99bfe5aa33b54f9b7d96743cc4cb28489bf87549e475affe84300b4bb4779",
+      "read_level": "current full protocol text"
+    },
+    {
+      "path": "research/sessions/20261017-2109/C042-adoption-v001.json",
+      "bytes": 6490,
+      "sha256": "bd9d26f3bc7fa952d45a43d21055044981a263c11b3faaa791dbe94f9c9275ce",
+      "read_level": "current complete adoption metadata; cited source list not recursively read"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R048-continuous-velocity-independent/report.md",
+      "bytes": 6525,
+      "sha256": "fb2868540d569662bf991a1147ff26f98b8022aae2c6d0730c66f4bf68287312",
+      "read_level": "current full old independent proof; C042 endpoint and continuity lemmas reused, not re-proved"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R048-continuous-velocity-independent/validation.json",
+      "bytes": 1440,
+      "sha256": "92de4674a3f5e1bd32c115f9f6d5374f1f1fb7160abc183816c921ffe04be19e",
+      "read_level": "current complete identity metadata"
+    }
+  ],
+  "finite_identity_count": 4,
+  "new_R035_or_root_candidate_read": false,
+  "recursive_history_scan": false
+}

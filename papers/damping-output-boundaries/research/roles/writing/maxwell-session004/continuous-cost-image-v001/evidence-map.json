@@ -1,0 +1,80 @@
+{
+  "claim": "M-C043",
+  "current_adoption": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\C043-adoption-v001.json",
+    "bytes": 5527,
+    "sha256": "ee534540fa4ffe6f818966f2dc543be57f4506277daa1be314792ffc8f71bddf"
+  },
+  "claim_status": "supported / analytic-derivation / reviewed per final C043 adoption",
+  "writing_status": "New supplement author-frozen pending independent integration review; live draft not authorized for Git.",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\C043-adoption-v001.json",
+      "bytes": 5527,
+      "sha256": "ee534540fa4ffe6f818966f2dc543be57f4506277daa1be314792ffc8f71bddf"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R035-continuous-cost-image\\report.md",
+      "bytes": 6790,
+      "sha256": "55d19dc282c64b4c68df43fe72cb94b126d6ca53479c96d84ce08aad9207a249"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R050-continuous-cost-image-independent\\report.md",
+      "bytes": 6506,
+      "sha256": "0098f1650e5ccdb7c6ac7670caa28795debada72c144918080f9fbd92860ef80"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R050-continuous-cost-image-independent\\post-freeze-comparison\\report.md",
+      "bytes": 2701,
+      "sha256": "f64e2a9c0d83c16530603f9bd75b3812f74e7c1c9c991a930bb3f91ee620c283"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\C042-adoption-v001.json",
+      "bytes": 6490,
+      "sha256": "bd9d26f3bc7fa952d45a43d21055044981a263c11b3faaa791dbe94f9c9275ce"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-continuous-velocity-endpoints-v001.md",
+      "bytes": 6594,
+      "sha256": "3de22587466e7546385db5c8109e1ab855fc8124c053e183c50f90e5925cf47f"
+    }
+  ],
+  "mapping": [
+    {
+      "section": 1,
+      "line": 7,
+      "equations": "1-2",
+      "source": "R035 section1; R050 section1; C042 source lemma",
+      "content": "Full continuous exact-terminal class and trueD; tau/Phi endpoint definitions, strict/sharp exact-terminal approximations only borrowed, not mistaken for full image."
+    },
+    {
+      "section": 2,
+      "line": 38,
+      "equation": 3,
+      "source": "R035 section3; R050 section2.1-2.2; postcomparison",
+      "content": "Clip bias calibration via strict +/-V bracket; root unique only at h, saturated platforms allowed; strict comparison and time continuity exclude duplicate target roots."
+    },
+    {
+      "section": 3,
+      "line": 56,
+      "equation": 4,
+      "source": "R035 sections2/4/5; R050 section2.3/3",
+      "content": "Compact root continuity; b0=b1=0 and exact endpoint restoration; all path controls exactFT=h. Cost continuous not necessarily monotone; C042 straddling controls and IVT attain every selected d."
+    },
+    {
+      "section": 4,
+      "line": 77,
+      "equation": 5,
+      "source": "R035 section6; R050 section4; root adopted scope",
+      "content": "Full time trichotomy; only constantV at minimum time, saturation root uniqueness not extended there; no fixedD peak class, added constraints, building or novelty extension."
+    }
+  ],
+  "notation": "Author C,w,u,H,b and independent Gamma; scalar bias parameter d in the norm inequality is distinct in context from selected cost d later.",
+  "no_new_scientific_derivation_or_numeric_result": true,
+  "old_endpoint_original_scope_retained": true,
+  "original_main_endpoint_plain_language_sources_shared_Git_not_written": true,
+  "write_whitelist": [
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-continuous-cost-image-v001.md",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\continuous-cost-image-v001"
+  ]
+}

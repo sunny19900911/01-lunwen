@@ -1,0 +1,50 @@
+{
+  "started_at": "2026-10-18T06:35:06.219497+08:00",
+  "sources": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/maxwell-continuous-cost-image-v001.md",
+      "bytes": 5875,
+      "sha256": "23acaade3bf7b6916f526a9182e7c669368e8888fec966d951ea601cd5173734",
+      "read_level": "current full supplement text"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/continuous-cost-image-v001/freeze.json",
+      "bytes": 2230,
+      "sha256": "30067f5395bb99218baad4b4e352dfd29f352032b64ef80e8be8b7ee5669434f",
+      "read_level": "current complete freeze metadata; other listed files not recursively read"
+    },
+    {
+      "path": "research/sessions/20261017-2109/C043-adoption-v001.json",
+      "bytes": 5527,
+      "sha256": "ee534540fa4ffe6f818966f2dc543be57f4506277daa1be314792ffc8f71bddf",
+      "read_level": "current complete adoption metadata; history not recursively read"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R050-continuous-cost-image-independent/report.md",
+      "bytes": 6506,
+      "sha256": "0098f1650e5ccdb7c6ac7670caa28795debada72c144918080f9fbd92860ef80",
+      "read_level": "current full old independent proof"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R050-continuous-cost-image-independent/validation.json",
+      "bytes": 1766,
+      "sha256": "0d60fde9d6ae9baf346223357e52956d2b6bd5faa98dfcd186ba1f7f467d6416",
+      "read_level": "current complete identity metadata"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R050-continuous-cost-image-independent/post-freeze-comparison/report.md",
+      "bytes": 2701,
+      "sha256": "f64e2a9c0d83c16530603f9bd75b3812f74e7c1c9c991a930bb3f91ee620c283",
+      "read_level": "current full old comparison report"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R050-continuous-cost-image-independent/post-freeze-comparison/validation.json",
+      "bytes": 2691,
+      "sha256": "b520c5322f67be08cb2b64ee8bd3272f34bfa8b6985448431070d597953a0230",
+      "read_level": "current complete identity metadata"
+    }
+  ],
+  "finite_identity_count": 7,
+  "adoption_identities_matched": 4,
+  "author_programs_or_historical_source_list_read": false
+}

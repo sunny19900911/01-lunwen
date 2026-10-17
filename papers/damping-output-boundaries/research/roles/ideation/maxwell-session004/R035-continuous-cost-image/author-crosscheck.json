@@ -1,0 +1,24 @@
+{
+  "kind": "author-side analytic challenges; not role2 independent review",
+  "agents": [
+    {
+      "agent": "/root/peak_bound_audit",
+      "challenge": "Existence, target-root uniqueness under clipping plateaus, parameter continuity and original path endpoints",
+      "result": "Passed. Global strict monotonicity is false at saturated plateaus; distinct roots at h force equal continuous clipped controls, then constant saturation, impossible since ±z(T) != h. Compact-root continuity and zero endpoint biases valid."
+    },
+    {
+      "agent": "/root/spectral_zero_order",
+      "challenge": "Path connectedness to exact full D image and time branches",
+      "result": "Passed. Exact endpoint-preserving path plus continuous cost and C042 sharp sequences gives every interior D by IVT. T=tmin singleton, T<tmin empty."
+    }
+  ],
+  "root_checks": [
+    "Continuous controls differing at even one time differ on a positive-measure interval",
+    "A continuous map into {-V,+V} is constant",
+    "Uniform bias compactness supports sequential continuity",
+    "No monotonicity of the path cost is required",
+    "C042 used as prior lemma, not reproved or upgraded without connectivity"
+  ],
+  "new_ODE_numerics_arrays_search": false,
+  "status": "candidate pending independent role2 review"
+}

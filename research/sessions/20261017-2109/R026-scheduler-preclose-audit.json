@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-18T06:34:30.169228+08:00",
+  "formal_views": "automation_update view git and automation-3 succeeded, rendered cards; no state change requested",
+  "actual_config_read": [
+    {
+      "id": "git",
+      "kind": "heartbeat",
+      "name": "论文研究主控｜Maxwell六角色15分钟循环",
+      "status": "ACTIVE",
+      "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261017T230945Z",
+      "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+      "notification_policy": null,
+      "updated_at": 1792243943932
+    },
+    {
+      "id": "automation-3",
+      "kind": "heartbeat",
+      "name": "Maxwell十小时研究｜07:09截止收束",
+      "status": "ACTIVE",
+      "rrule": "FREQ=DAILY;BYHOUR=7;BYMINUTE=9;BYSECOND=45;COUNT=1",
+      "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+      "notification_policy": null,
+      "updated_at": 1792243944202
+    }
+  ],
+  "hard_deadline": "2026-10-18T07:09:45+08:00",
+  "paused_now": false,
+  "deadline_not_extended": true,
+  "remaining_action": "At real deadline stop new tasks, collect/review, final-summary and scoped final checkpoint, then formal automation_update full-field preserve status PAUSED for both and verify saved actual configs",
+  "official_reference": "https://learn.chatgpt.com/codex/automations",
+  "official_source_scope": "Fetched original page: scheduled tasks inside an existing chat preserve context and prompt should say when to stop. Page not treated as a schema for heartbeat update arguments; actual tool contract/config used.",
+  "documentation_lookup_limit": "Initial docs search weak, official workflow page led to exact Scheduled tasks page. No scientific paper claim depends on this lookup."
+}

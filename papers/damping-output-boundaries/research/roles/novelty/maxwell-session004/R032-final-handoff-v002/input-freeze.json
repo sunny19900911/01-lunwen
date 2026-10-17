@@ -1,0 +1,56 @@
+{
+  "started_at": "2026-10-18T06:31:05+08:00",
+  "frozen_at": "2026-10-18T06:32:03.632510+08:00",
+  "limit_minutes": 4,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "scope": "Onlyfinitev001-v002repair/diff,formalC043adoptionscopeandR001-R025receiptreport/rootJSON;no newmath,originaldata,Git,search,PDF orold98filescan",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\最终交付说明-候选-v001.md",
+      "bytes": 4674,
+      "sha256": "e90ad7aa3faf7aae51886bd681465f7c120279f8a78cb7c33f1f063d6587f421"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\最终交付说明-候选-v002.md",
+      "bytes": 5950,
+      "sha256": "90bc502040852e4473da6abd307899ef37ef881ee952f4a910cbcc10589ba205"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\最终交付说明-候选-v002.diff",
+      "bytes": 5560,
+      "sha256": "3fe3895caf13a7cc7c9ce27b46235daf0ea4d1b47572ef8c8710f668d41b47a3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R026-handoff-v002-repair.json",
+      "bytes": 722,
+      "sha256": "62fbb9c97f580985b9f2cfd5653e5009e1de8e831ba6c603e02ab67f822cca90"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\C043-adoption-v001.json",
+      "bytes": 5527,
+      "sha256": "ee534540fa4ffe6f818966f2dc543be57f4506277daa1be314792ffc8f71bddf"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R028-session-receipt-audit\\report.md",
+      "bytes": 2891,
+      "sha256": "2fcfff0cffb56d98b80778fd655863c2016ebf8e2363a7ff48d81dd135eb7d8d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R026-receipt-root-audit-v001.json",
+      "bytes": 12362,
+      "sha256": "2f7cbbe69d94379019a0fc7e497f37e4f2674ee13c7291d42b047cfa0b581780"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R031-final-handoff-scope\\report.md",
+      "bytes": 4833,
+      "sha256": "da964cf73f4670e3d5b66804f969d841235a4902c2e9ae012439ac6281b7b97f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R031-final-handoff-scope\\validation.json",
+      "bytes": 4525,
+      "sha256": "ed9e90d3f3e025a31a00664994c300240cf6425c971728867d87ad2932f5292f"
+    }
+  ],
+  "actual_diff_matches": true,
+  "read_levels": "Fulltwohandoffcandidates,diff,repair,C043adoptionandrole4receipt report;rootreceiptJSON structuredsummary plus fields only,initialcombineddisplaytruncated;not25source receipts orproofs reread"
+}

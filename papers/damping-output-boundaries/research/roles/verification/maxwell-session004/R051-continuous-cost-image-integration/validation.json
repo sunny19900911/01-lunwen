@@ -1,0 +1,52 @@
+{
+  "round": "R051",
+  "started_at": "2026-10-18T06:35:06.219497+08:00",
+  "limit_seconds": 240,
+  "task_deadline": "2026-10-18T06:39:06.219497+08:00",
+  "frozen_at": "2026-10-18T06:36:43.932121+08:00",
+  "within_limit": true,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "finite_sources_unchanged": true,
+  "finite_identity_count": 7,
+  "adoption_identities_matched": 4,
+  "must_fix_count": 0,
+  "math_review": "manual transcription and scope integration; static QA ancillary only",
+  "static_QA": {
+    "sections": 4,
+    "equation_tags": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "local_links_exist": 4,
+    "utf8_LF": true,
+    "report_table_columns": 3,
+    "table_norm_Unicode": true
+  },
+  "new_proof_ODE_numerics_data_arrays": false,
+  "old_shared_manuscript_Git_modified": false,
+  "outputs": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R051-continuous-cost-image-integration/report.md",
+      "bytes": 3490,
+      "sha256": "e5b6621b5cb113c387d89f684a56d2c09130a62dc97512fdddb05e8bf5742473"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R051-continuous-cost-image-integration/findings.json",
+      "bytes": 675,
+      "sha256": "efafa028c666d70ccf0e0637beaa987b71f8af1d1ca00af6293a9a82ed5cb675"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R051-continuous-cost-image-integration/freeze_review.py",
+      "bytes": 4495,
+      "sha256": "d6d82f2780ad62c05b88070fa43a1ed3a0635e069bda4c2b025d09b983a310d0"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R051-continuous-cost-image-integration/source-freeze.json",
+      "bytes": 2432,
+      "sha256": "a9a0c3d92dc89a013db53dbebd25f4acdf77781107a4927d01b04062d68f4d08"
+    }
+  ]
+}

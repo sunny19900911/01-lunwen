@@ -1,0 +1,345 @@
+{
+  "at": "2026-10-18T06:28:40.149195+08:00",
+  "current_head": "80d4bfab066a8399c0ffd2f4051495a7469c3632",
+  "current_head_remote_verification": "R025-push.json prior actual ls-remote receipt, not new network request",
+  "inputs": [
+    {
+      "round": "R001",
+      "at": "2026-10-17T21:37:11.242248+08:00",
+      "commit": "f03affd7ab71443c5c6e3c319c18ae59009801bd",
+      "remote_as_recorded": "f03affd7ab71443c5c6e3c319c18ae59009801bd",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "8450efff85d9f4f6249a2ba16350855ab8b4fe8711c78818feac461f7e8e790d"
+    },
+    {
+      "round": "R002",
+      "at": "2026-10-17T21:57:10.757454+08:00",
+      "commit": "58367a9758b2bcd90762043497a2833043286654",
+      "remote_as_recorded": "58367a9758b2bcd90762043497a2833043286654",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "56d5c5bdc490f05724d84c640fddb55d382fcfeaa334dd95473e5a2dc27ab80e"
+    },
+    {
+      "round": "R003",
+      "at": "2026-10-17T22:32:19.488236+08:00",
+      "commit": "a11d17ff416a1f09ce1676c519ed02299cfc0e7a",
+      "remote_as_recorded": "a11d17ff416a1f09ce1676c519ed02299cfc0e7a",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "e9f8adfd30f18f95b5b99df0c3190f6c3b444fe1dca3de90f7134e6b4c5062a7"
+    },
+    {
+      "round": "R004",
+      "at": "2026-10-17T22:48:35.236441+08:00",
+      "commit": "5f495efe997e01dd76373e898bb2a85cd14a406d",
+      "remote_as_recorded": "5f495efe997e01dd76373e898bb2a85cd14a406d",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "ac4dfc365d2a62b90e1758392bffb4e951129883dd33ddcaf902b8f15e744744"
+    },
+    {
+      "round": "R005",
+      "at": "2026-10-17T23:07:19.388884+08:00",
+      "commit": "829b337a992490293cde25f3e3cc3d49a561a420",
+      "remote_as_recorded": "829b337a992490293cde25f3e3cc3d49a561a420",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "7a5a91fc0df500555df440c9b4864c6a010b0c7c1d4b8920a99702d5fe65f6fc"
+    },
+    {
+      "round": "R006",
+      "at": "2026-10-17T23:33:24.578791+08:00",
+      "commit": "5735eea120d29175cfa1252239cbc4d245b097fd",
+      "remote_as_recorded": "5735eea120d29175cfa1252239cbc4d245b097fd",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "19752fddb30702a18a6f7c63b47ae460ad3fe04888d61de6b146a65ee5554f70"
+    },
+    {
+      "round": "R007",
+      "at": "2026-10-17T23:55:50.414093+08:00",
+      "commit": "4ed99b204201e75fe223333bcc7919c1c3e108ea",
+      "remote_as_recorded": "5735eea120d29175cfa1252239cbc4d245b097fd",
+      "verified_as_recorded": false,
+      "exits": [
+        128,
+        128
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "9fd0e12232c007102fc994a9e77702c7d88ecc4010ccd3da4348163e7401f927"
+    },
+    {
+      "round": "R008",
+      "at": "2026-10-18T00:18:10.102729+08:00",
+      "commit": "9495702cabca56080b513efe0936074c7abb617c",
+      "remote_as_recorded": "9495702cabca56080b513efe0936074c7abb617c",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "65c5a772411e09533f307a6e0483c2551ea6b776acde649cc08feffdd2a6a601"
+    },
+    {
+      "round": "R009",
+      "at": "2026-10-18T00:46:49.259212+08:00",
+      "commit": "8da9846975e34fcab16370c47a452a9d4d072fa8",
+      "remote_as_recorded": "8da9846975e34fcab16370c47a452a9d4d072fa8",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "619b4abaa7f5f1fce22fb6a563efc420455a7dcb34b419f7ceb97634cc9989fc"
+    },
+    {
+      "round": "R010",
+      "at": "2026-10-18T01:20:33.767125+08:00",
+      "commit": "d6a4aa6938dc790ac3ded9b8906807fb1959b6bc",
+      "remote_as_recorded": "d6a4aa6938dc790ac3ded9b8906807fb1959b6bc",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "94284c781e67a11975f9f262b60e282e723e095578c17a451639a7fc1ad4f9be"
+    },
+    {
+      "round": "R011",
+      "at": "2026-10-18T01:56:55.449827+08:00",
+      "commit": "c2ffd1bc339f1b4803d905fc5bd3a8461a0b4407",
+      "remote_as_recorded": "c2ffd1bc339f1b4803d905fc5bd3a8461a0b4407",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "ddcf5cbefff9fa1559a7b43726626ef6e65e868bc74e1dcce4654d50033be0c6"
+    },
+    {
+      "round": "R012",
+      "at": "2026-10-18T02:15:39.413253+08:00",
+      "commit": "4815d450a7124c0a0b65931bbfa69989041917e3",
+      "remote_as_recorded": "4815d450a7124c0a0b65931bbfa69989041917e3",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "56cbbed608d3ffca46c3b003b64940cfd62409ef0b129cad651e2cbc17642fba"
+    },
+    {
+      "round": "R013",
+      "at": "2026-10-18T02:37:22.348711+08:00",
+      "commit": "ec76a71839a4bc28ec3d1e0f549e0f240cb0ad58",
+      "remote_as_recorded": "ec76a71839a4bc28ec3d1e0f549e0f240cb0ad58",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "696490669470de5fec452784cbe5d6e9ad202dc5eabdbe118852350f66831e71"
+    },
+    {
+      "round": "R014",
+      "at": "2026-10-18T03:00:01.927215+08:00",
+      "commit": "ca9c2f82382da1c7c63759f93e3b51dd61c6d830",
+      "remote_as_recorded": "ca9c2f82382da1c7c63759f93e3b51dd61c6d830",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "755ed58f2b60358571c6e566dd35e5ae852a6b55201c563d01e60f0d7220d120"
+    },
+    {
+      "round": "R015",
+      "at": "2026-10-18T03:16:17.918031+08:00",
+      "commit": "bb0eac387db195b39d0e9dc257faa4a98d27cdd0",
+      "remote_as_recorded": "bb0eac387db195b39d0e9dc257faa4a98d27cdd0",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "ca249efc42285f032421c109ef12ae1b074808fbc1eec963636b5b623630a4f5"
+    },
+    {
+      "round": "R016",
+      "at": "2026-10-18T03:33:18.690179+08:00",
+      "commit": "b62314a4c519160ed43ce1f439552b7b4d501a42",
+      "remote_as_recorded": "b62314a4c519160ed43ce1f439552b7b4d501a42",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "096f7b9f8eaea19f1b166b54f93e593ac9f6ad7708a979a3ae45e46d24cd9888"
+    },
+    {
+      "round": "R017",
+      "at": "2026-10-18T03:48:57.508542+08:00",
+      "commit": "31d4520fe8463d755d415250518f990983847c45",
+      "remote_as_recorded": "31d4520fe8463d755d415250518f990983847c45",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "8f4ccd6c2f0c4ba56231507c90e96cd93e6f2c03a6f128972ede9e4398013a4c"
+    },
+    {
+      "round": "R018",
+      "at": "2026-10-18T04:06:36.317050+08:00",
+      "commit": "b80475bc6255c97b43d106e276a8efbe74b8ade1",
+      "remote_as_recorded": "b80475bc6255c97b43d106e276a8efbe74b8ade1",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "642b1e3c5f0041f8e46cc036c9adcb64432e2d81415b7c3d65a091503a42d271"
+    },
+    {
+      "round": "R019",
+      "at": "2026-10-18T04:24:12.281962+08:00",
+      "commit": "0fd3cd482e871e08e69677cb7713731eea2389c1",
+      "remote_as_recorded": "0fd3cd482e871e08e69677cb7713731eea2389c1",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "9fda7683da4a896cc8334377aa787119463a2f69f879349d714b27515a42a8e4"
+    },
+    {
+      "round": "R020",
+      "at": "2026-10-18T04:42:59.859255+08:00",
+      "commit": "5944d26345e6755dc9ad5e260cd558b1612edb4e",
+      "remote_as_recorded": "5944d26345e6755dc9ad5e260cd558b1612edb4e",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "faed00e7d703d93c1b1c5de900cf188b859d10794e387c91c8319c7c40b46eb9"
+    },
+    {
+      "round": "R021",
+      "at": "2026-10-18T05:01:08.833372+08:00",
+      "commit": "8ed8966c3526ec8bb7923e0d916b13c309b55d40",
+      "remote_as_recorded": "8ed8966c3526ec8bb7923e0d916b13c309b55d40",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "7b5f01f224b6c2044f52e4d136243ccc36d45da87cdf9aa738f07c29beb2c702"
+    },
+    {
+      "round": "R022",
+      "at": "2026-10-18T05:23:22.180463+08:00",
+      "commit": "fa302ee040925391a04c8a3f7b895f5d3f2a8e0e",
+      "remote_as_recorded": "fa302ee040925391a04c8a3f7b895f5d3f2a8e0e",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "570f3b99161ebbfa65a9d18237b6bf7562fcb8450d1b0203e2db7a82ce052718"
+    },
+    {
+      "round": "R023",
+      "at": "2026-10-18T05:39:00.256043+08:00",
+      "commit": "ef9ad7012cf531bd10a5441897cbf1fce36a12c4",
+      "remote_as_recorded": "ef9ad7012cf531bd10a5441897cbf1fce36a12c4",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "5f2d67814e2094f4528fd2ba42eada3eee5d1126075487c79e7de61ba0b32509"
+    },
+    {
+      "round": "R024",
+      "at": "2026-10-18T05:55:43.664120+08:00",
+      "commit": "bdb7828fc43cef94fba05fea1c683de099201931",
+      "remote_as_recorded": "bdb7828fc43cef94fba05fea1c683de099201931",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "06c5c1c297b61c3972f147537cba4ca5a0f65d7f20d10810f9074983923fa92e"
+    },
+    {
+      "round": "R025",
+      "at": "2026-10-18T06:22:44.389694+08:00",
+      "commit": "80d4bfab066a8399c0ffd2f4051495a7469c3632",
+      "remote_as_recorded": "80d4bfab066a8399c0ffd2f4051495a7469c3632",
+      "verified_as_recorded": true,
+      "exits": [
+        0
+      ],
+      "is_ancestor_of_current_locally_remote_verified_head": true,
+      "source_sha256": "3480ead744c1a7d753e3709616131ca3a8a4206acdeecf4c7c65dcf5dac83ff9"
+    }
+  ],
+  "push_attempts": 26,
+  "zero_exit": 24,
+  "failed_exit128": 2,
+  "all_receipt_gaps": {
+    "count": 24,
+    "min": {
+      "from": "R022",
+      "to": "R023",
+      "microseconds": 938075580
+    },
+    "max": {
+      "from": "R010",
+      "to": "R011",
+      "microseconds": 2181682702
+    },
+    "all_over_15m": true
+  },
+  "successful_receipt_gaps": {
+    "count": 23,
+    "min": {
+      "from": "R022",
+      "to": "R023",
+      "microseconds": 938075580
+    },
+    "max": {
+      "from": "R006",
+      "to": "R008",
+      "microseconds": 2685523938
+    },
+    "all_over_15m": true
+  },
+  "all_25_commits_are_local_ancestors_of_remote_verified_R025_HEAD": true,
+  "independent_method": "Own receipt normalization and exact integer-microsecond datetime differences; did not execute role4 audit code; local Git merge-base ancestry only",
+  "scientific_evidence": false,
+  "strict_15minute_sync_claim": false,
+  "full_10h_record_covered": false,
+  "R007_failure_preserved": true
+}
