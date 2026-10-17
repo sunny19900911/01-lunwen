@@ -1,0 +1,83 @@
+{
+  "task": "Rath2025 nearest source check",
+  "session": "20261017-1219",
+  "temporary_source_label": "Rath2025; formal L-ID pending master",
+  "review_status": "insufficient-text / candidate source positioning",
+  "started_at": "2026-10-17T13:17:11+08:00",
+  "closed_at": "2026-10-17T13:20:12.558436+08:00",
+  "budget_minutes": 6,
+  "queries_budget": 3,
+  "queries_used": 3,
+  "queries": [
+    "\"10.1115/1.4067639\" pdf",
+    "\"Non-minimum Phase Zeros of Multi-DoF Damped Flexible Systems\"",
+    "\"1.4067639\" -site:researchgate.net -site:citedrive.com"
+  ],
+  "primary_bibliographic_source": {
+    "url": "https://psdl.engin.umich.edu/publications.php",
+    "location": "Journal Papers item2",
+    "authors_as_printed": [
+      "Rath, S.",
+      "Radgolchin, M.",
+      "Maheshwari, A.",
+      "Awtar, S."
+    ],
+    "title_as_printed": "Non-minimum Phase Zeros of Multi-DoF Damped Flexible Systems",
+    "year_as_printed": 2025,
+    "journal_as_printed": "Journal of Vibration and Acoustics",
+    "pages_as_printed": "1-27; final pagination not verified",
+    "doi_as_printed": "10.1115/1.4067639",
+    "only_target_link": "DOI; no author full-text attachment",
+    "source_byte_sha256": null,
+    "byte_sha_reason": "successful web HTML rendering, no local byte snapshot saved"
+  },
+  "availability_only_source": {
+    "url": "https://www.researchgate.net/publication/387993513_Nonminimum_Phase_Zeros_of_Multi-Degrees-of-Freedom_Damped_Flexible_Systems",
+    "read_scope": "header, abstract and No full-text available status only",
+    "author_uploaded_fulltext": false,
+    "fulltext_requested": false,
+    "used_for_theorem_or_novelty": false,
+    "title_variant": "Nonminimum Phase Zeros of Multi-Degrees-of-Freedom Damped Flexible Systems"
+  },
+  "new_requests": [
+    {
+      "url": "https://api.crossref.org/works/10.1115%2F1.4067639",
+      "result": "tool Internal Error; no HTTP code/content"
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1115/1.4067639",
+      "result": "tool inaccessible; locator only, no metadata obtained"
+    },
+    {
+      "url": "https://asmedigitalcollection.asme.org/vibrationacoustics/article-lookup/doi/10.1115/1.4067639",
+      "result": "tool inaccessible; no canonical article long URL or content obtained"
+    }
+  ],
+  "prior_failed_short_doi": {
+    "url": "https://doi.org/10.1115/1.4067639",
+    "actor": "master report, not independently repeated",
+    "result": "Internal Error; no metadata/body",
+    "reopened_by_this_role": false
+  },
+  "secondary_sources_not_read_for_fulltext": [
+    "Scribd PDF search hit, author permission not established",
+    "CiteDrive and OUCI abstract/metadata aggregations"
+  ],
+  "paper_pdf_obtained": false,
+  "paper_pdf_sha256": null,
+  "paper_version_established": false,
+  "equation_or_theorem_pages_read": false,
+  "model_class_or_proportional_damping_formula_verified": false,
+  "same_condition_coverage_decided": false,
+  "new_downloads": 0,
+  "failed_endpoints_retried": false,
+  "claims_manuscript_or_formal_reference_edits": false,
+  "new_L_ID_registered": false,
+  "subagents": false,
+  "limits": [
+    "abstract does not establish modal damping formula or zero theorem conditions",
+    "no title-based novelty inference",
+    "full text remains a high-priority gap",
+    "no lookup retries, account access or author contact"
+  ]
+}

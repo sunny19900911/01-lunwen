@@ -26,17 +26,17 @@
   "role_cursors": [
     {
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
-      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:23",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:27",
       "status": "active"
     },
     {
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:23",
-      "status": "idle"
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:26",
+      "status": "active"
     },
     {
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:21",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:23",
       "status": "active"
     },
     {
@@ -46,8 +46,8 @@
     },
     {
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:20",
-      "status": "idle"
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:22",
+      "status": "active"
     }
   ],
   "subagents": {
@@ -55,8 +55,8 @@
     "detuning_bound_round1": "completed both independent finite-envelope and classical-norm reviews; frozen, no live child task",
     "theory_manuscript_round1": "completed; frozen outputs handed to original roles; no live child task remains"
   },
-  "latest_round": "R004.md",
-  "checkpoint_open": true,
+  "latest_round": "R005.md",
+  "checkpoint_open": false,
   "pending_push": null,
   "git_transport": {
     "proxy": "http://127.0.0.1:17890",
@@ -65,20 +65,24 @@
     "global_config_changed": false
   },
   "last_verified_push": {
-    "commit": "277493bbb21ddbc68cd45ac9d345cf9260646b5f",
+    "commit": "8ea485f344f95f9611b7a3220b87f64fa9345bba",
     "branch": "main",
     "remote": "origin",
-    "verified_by": "actual push exit0 + ls-remote exact match, known command-scoped proxy",
-    "verified_at": "2026-10-17T13:06:53.182859+08:00"
+    "verified_at": "2026-10-17T13:22:56.875052+08:00",
+    "verified_by": "normal push retry exit0 + ls-remote exact HEAD match; first attempt schannel TLS handshake failed, one retry only"
   },
-  "recorded_at": "2026-10-17T13:20:08.470153+08:00",
-  "next_checkpoint": "R004 publish explicit frozen list then close. Next R005 first collect C029 independent reviewer (still active) and closest2025 source check (literature active); root full read before promotion. C028 reviewed, v005 accepted84820aa5 and explicit excluded C028/C029. Any future v006 needs deliberate scope after closest-source assessment; do not launch automatic version churn. Ideation/experiments/writer idle, no live child. Deadline14:19:08.",
+  "recorded_at": "2026-10-17T13:36:25.816190+08:00",
+  "next_checkpoint": "R005 prepared, normal push pending; next collect C030 independent review/Rayleigh scope/remaining-source/v006 freeze without duplicate tasks. Hard cutoff14:19:08.",
   "role_work": {
-    "ideation": "v005 integration review frozen4cbde226/accepted, idle",
-    "verification": "Independent prescribed-baseline C029 threshold review <=8min active",
-    "literature": "Freeze thesis source gap then bounded closest 2025 Rath primary-source check; root DOI shortlink failed once, avoid duplicate",
+    "ideation": "C030 frozen and under independent review; now <=5min Rayleigh/common-zeta scope comparison only",
+    "verification": "C030 exact fixed-time cross-model scaling independent review <=5min",
+    "literature": "L038 public original body model/zeros read; <=5min same-page remaining-scope followup, no search",
     "experiments": "E3 and E4 accepted/reviewed within recorded bounds; idle, no new response task",
-    "writing": "v005 accepted; idle, no unauthorized new draft"
+    "writing": "Actual v006 authorized <=10min, C028/C029 only; not yet frozen or accepted"
   },
-  "prepared_publication": "R004 explicit26 frozen files: C028 reviewed, C029 candidate/testing, v005 integrated/root+different-author review accepted; thesis source-gap frozen, 2025 primary check remains active/excluded"
+  "prepared_publication": {
+    "round": "R005",
+    "scope": "C029 reviewed; C030 testing; new public primary2025 text and scope; v006 in progress excluded",
+    "validation": "20 explicit files plus R005-validation.json; frozen v001-v005 and map35 matched; JSON/AST/links passed"
+  }
 }

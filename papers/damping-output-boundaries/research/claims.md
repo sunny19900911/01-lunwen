@@ -82,8 +82,15 @@ L035这轮新增公开作者PDF两页的文本定位（并非原页公式已视�
 
 2026-10-17T13:11:11.006697+08:00：C028经主控通读独审后接纳；文献范围定位已全文读，Rath2023 p7式14已有阻尼阈值/零点机制，经典AM–GM/Jacobi/连续性不称新原理，未排除一般分类等价覆盖。新‘预先固定ζ0的跨模型统一峰界’三分法已派有限candidate推导，尚无审核/结论。v005冻结scope仍不纳C028，后续稿件取舍另定。
 
-| C029 v1 | 预给ζ0=z>0及κ>1，跨全部正三层真实topcut的完整峰统一有限界存在 iff z>sqrt(2/27)；等号每模型有限但跨模型无界，严格以上有显式39M(z,κ)界 | testing | ideation/theory-session002/prescribed-damping-uniform-bound-candidate.md SHA82fb5aa189567e4e4d9caa95ddd0cd787d2c80914b67d4291cfe83ea24e4167b；主控全文读/三段分母权重/稳定商39倍手核，独立验证在途 | candidate未入v005，须不同作者核三段显式常数和z=U用C020序列下界；不称κ-only/工程安全阈值/建议阻尼或首创 |
+| C029 v1 | 预给ζ0=z>0及κ>1，跨全部正三层真实topcut的完整峰统一有限界存在 iff z>sqrt(2/27)；等号每模型有限但跨模型无界，严格以上有显式39M(z,κ)界 | supported | ideation/theory-session002/prescribed-damping-uniform-bound-candidate.md SHA82fb5aa189567e4e4d9caa95ddd0cd787d2c80914b67d4291cfe83ea24e4167b；verification/theory-session002/prescribed-damping-uniform-bound-review.md SHA8caa090fc5f02f83aecc2db1f2987431dbab4018deed18b894c823e60f38c9eb；异作者独审及主控全文/三段分母权重/稳定商39倍复核，mathematical-proof/reviewed | 未入v005，z>0及κ>1；z=U用C020序列下界，↑只作趋近记号不认路径单调；不称κ-only/工程安全阈值/建议阻尼或首创 |
 
 2026-10-17T13:16:38.895597+08:00：新文献线索Rath等2025《Non-minimum Phase Zeros of Multi-DoF Damped Flexible Systems》由作者大学列表发现，DOI10.1115/1.4067639，优先同条件核。主控仅open DOI短链返回Internal Error，未得正文/元数据，不重试；文献角色改查已见大学作者长链接/合法公开稿，尚未判重合或不重合。数学supported不等于先例排除，当前v005不据此增新引用。
 
 2026-10-17T13:20:08.470153+08:00：主控全文读取v005整合独审4cbde226b245c33ea48759a1bb59e79c42fec2f5b327e4bbc4bad4704ef36d2c并结合实际全diff/四文件SHA核准，接纳冻结theory-draft-v005.md SHA84820aa5f5bd6b38b40190acd54f327b179a96a0a92f6ae56bde910344622e8b；此整合审阅者为C026原作者，不替代不同作者核心证明审核。C028/C029明确不在稿中，不能由主张更新倒改冻结稿范围。
+
+2026-10-17T13:22:56.875052+08:00（R004暂存后回报，留下一检查点提交）：主控全文读C029独审并接纳，三段常数及39M、正阻尼域/边界序列量词无实质错误。审核者为C024原作者，此次不替代C024已有另一作者独审。z=0不纳正阻尼定理；不把阈值称工程安全或建议阻尼。新最近2025原文仍未得，首创判断不升级。
+
+2026-10-17T13:35:03.088843+08:00（R005）：最近文献L038已取得公开原件正文文本，不再只有摘要。主控实际open正文首页及原印021007-2–4，核式(2)两系数Rayleigh C=2c_M M+2c_K K、式(4)模态分母、式(6)代换和式(12)含虚轴等号条件。网页OCR/未取得PDF及图像、后续未逐页核完的限制保留；三异频共同正模态阻尼与该族的区别交不同作者独核，不据适用范围不同宣称新颖性。详见roles/literature/theory-session002/Rath2025-public-preview-check-001.md。
+
+| C030 v1 | 固定任意物理输入半时长Tfix>0后，全正m/k三层真实topcut类的最优完整峰比上确界与不限有限支撑时长的跨模型上确界相等；因而z>0、κ>1时有限 iff z>sqrt(2/27) | testing | ideation/theory-session002/fixed-physical-duration-scaling-candidate.md SHA2c1f5db9eb62646b20485b35986d9670415965d5df2cec8df9bb34dfb213167a；analytic-derivation candidate，主控全文读并另核时域因子，已派异作者独审 | K→σ²K、C→σC、真实ell→σ²ell，fσ=f(σt)、uσ=σ^-2u(σt)，全尾峰不变；每条见证可选不同有限模型，不称同一固定模型固定T无界，不外推带宽/导数/参数盒；未入v006 |
+

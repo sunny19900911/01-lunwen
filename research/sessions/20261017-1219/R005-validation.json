@@ -1,0 +1,112 @@
+{
+  "checked_at": "2026-10-17T13:36:25.896235+08:00",
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/literature/index.md",
+      "bytes": 19406,
+      "sha256": "892e3a79b75913dce34c1b4668c388aab8d3a60821265ca49fd2a22dd9ecb4ab"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/claims.md",
+      "bytes": 26181,
+      "sha256": "d47527dfb4833aaeb296ad6feef3918de74be79a0c46e2a0b15ad8251690ee2d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/T001.md",
+      "bytes": 2870,
+      "sha256": "9dddcbcf5094be1719d8f680614967f69fe119fb26cbfec5f71f1abcf64715c8"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/events.md",
+      "bytes": 5269,
+      "sha256": "d23720928d391958afba1ad1169262ab3e20006348a41b58193299690b87f5ea"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/history/T001/v017.md",
+      "bytes": 2888,
+      "sha256": "886146e6fe17c6fde8d36f23040c56e6bcef39af293b9068aa70daaa0c1d18b1"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-session002/prescribed-damping-uniform-bound-review.md",
+      "bytes": 6441,
+      "sha256": "8caa090fc5f02f83aecc2db1f2987431dbab4018deed18b894c823e60f38c9eb"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/theory-session002/fixed-physical-duration-scaling-candidate.md",
+      "bytes": 9244,
+      "sha256": "2c1f5db9eb62646b20485b35986d9670415965d5df2cec8df9bb34dfb213167a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/theory-session002/Rath2025-nearest-source-check-001.md",
+      "bytes": 4869,
+      "sha256": "c9ab5c38bb542617b343a31c60f8e6f0df0d1b3cc74be2ae9df7c793d4174df4"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/theory-session002/Rath2025-source-manifest-001.json",
+      "bytes": 3362,
+      "sha256": "bfe213fa9348a186de57bb44cfb2b22a40b8617728e6e4319918f3cbde7424a0"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/theory-session002/Rath2025-public-preview-check-001.md",
+      "bytes": 3875,
+      "sha256": "75ab09b3d718f2a56bfad77e12d62f475b9d255060b6a72c869c460519872b40"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/theory-session002/Rath2025-public-preview-source-manifest-001.json",
+      "bytes": 1831,
+      "sha256": "b8773746da1e304c2286ba8b27e1cad353fa473c614e3ec702d2c6ae2a975534"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v006-scope-plan.md",
+      "bytes": 9635,
+      "sha256": "1a7c7aab64d5332384f4e49674c675b65f95201934e36c66321ae830a01abd2f"
+    },
+    {
+      "path": "research/sessions/20261017-1219/R004-push.json",
+      "bytes": 671,
+      "sha256": "1402d3f686a9792292b6418cad35db5414dc2bfb277a33df1eb3f8cc20298424"
+    },
+    {
+      "path": "research/sessions/20261017-1219/R005.md",
+      "bytes": 2337,
+      "sha256": "e084f619489555ae4cbe1ed3f27d001a25d800e06a1a663ee2d0b4c9b23fc883"
+    },
+    {
+      "path": "research/sessions/20261017-1219/status.json",
+      "bytes": 3786,
+      "sha256": "150235c1e7f32399f691740695c726f89956d8c95045653b23016bf20fe0b96b"
+    },
+    {
+      "path": "research/sessions/20261017-1219/role-snapshot-R005.json",
+      "bytes": 5544,
+      "sha256": "5005d1f50064d6d06fb7b8b9136da334b1fd32f207b41a82439a17f334d73750"
+    },
+    {
+      "path": "research/sessions/20261017-1219/root-audit-R005.md",
+      "bytes": 1943,
+      "sha256": "acb22a52e062ecabaa6b1b6a047f43b2dd0c8bd5f56995ad130f06a26f6e1c55"
+    },
+    {
+      "path": "research/sessions/20261017-1219/prepare_R005.py",
+      "bytes": 7139,
+      "sha256": "b7bbdba3f03bccd8fe785dae1422a4efc3a4abda8238f88a88c71ac2b3e687ac"
+    },
+    {
+      "path": "research/sessions/20261017-1219/checkpoint_check_R005.py",
+      "bytes": 4666,
+      "sha256": "4d6419cb9881bf836ac5f5bb295911b403abbe7cc4a907115e287c01518a66db"
+    },
+    {
+      "path": "research/sessions/20261017-1219/ready-R005-files.json",
+      "bytes": 1606,
+      "sha256": "dd81a934564ec3847fad9224fcd2368f45212a3b66e23b18f2dbe78981e49f38"
+    }
+  ],
+  "v005_mapping_identity_entries_matched": 36,
+  "writing_frozen_manifests_match": true,
+  "experiment_run_hashes_match": true,
+  "R005_core_scope": "C029 accepted after R004 freeze; C030 testing; public2025 body conditions read; v006 active excluded",
+  "E3_independent_arithmetic": "audit_envelope_constants.py actual exit0; Machin pi, max relative difference7.87e-90; no source rerun",
+  "independent_Q_audit": "actual exit0, eight rows, max relative component difference4.67e-84",
+  "scope": "JSON/AST/local references/frozen hashes/staged bytes, not formal proof or novelty certification"
+}

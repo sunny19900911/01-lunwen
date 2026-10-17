@@ -76,3 +76,11 @@ L018–L020逐项支持范围、失败路径、缓存文件名见[linfty-backgro
 详情见[核范数先例复查](../research/roles/literature/kernel-norm-prior-art-001.md)、[C006贡献定位建议](../research/roles/literature/contribution-positioning-001.md)。当前数学界优先采用V006的(2κ−1)(3−2/κ)²，κ=8/5时6.7375；V002旧21.25仍是正确粗界。标量核系数锐性不推出整体乘积界锐性，数学审核不等于新颖性审核。H0^1/Rellich支线按主控要求待续。
 
 创新核查状态：未完成专题穷尽检索；已检查来源中的相似基础不等于完整重复，未查到等价式亦不代表首次。L034具体二阶式和L026连续结构peak-to-peak原文是当前准确缺口。
+
+## 最近零点先例：公开正文增补（2026-10-17 13:28，v005）
+
+本节增补不改写上述历史核查状态。L036、L037 已被角色报告占用，故新条目采用 L038。
+
+| L-ID | 一手内容身份与公开载体 | 已核范围及限制 |
+|---|---|---|
+| L038 | S. Rath、M. Radgolchin、A. Maheshwari、S. Awtar，Nonminimum Phase Zeros of Multi-Degrees-of-Freedom Damped Flexible Systems，[DOI](https://doi.org/10.1115/1.4067639)，[公开正文载体](https://www.scribd.com/document/1047691279/AZZcMhvQzWZwDaN374Hx) | 正文首页核作者、题名、DOI；原印 Vol.147、April 2025、article 021007。已读原印 021007-2–4 模型/式 (2)(4)(6)(12)(17)(19)，为 C=2c_M M+2c_K K 的零点条件；后续正文未逐页读完。正式页码未核，未取得 PDF 字节或核原页图像，不据本次读文裁定新颖性。见[核查报告](../research/roles/literature/theory-session002/Rath2025-public-preview-check-001.md)及其来源清单 |
