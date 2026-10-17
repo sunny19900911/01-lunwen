@@ -1,0 +1,18 @@
+{
+  "purpose": "Preregistered finite diagnostic: same structure/input and zero initial state, no device versus adding a passive nonlinear Maxwell device; fixed u1 output. Failure is retained without parameter tuning.",
+  "scope": "dimensionless two grounded masses with a coupling spring, not a standard two-story shear chain, real ETABS geometry, safety limit, or novelty assertion",
+  "M": [[1, 0], [0, 1]],
+  "K": [[2, -1], [-1, 2]],
+  "C": "0.1*positive_symmetric_sqrt(K); bare classical modal damping 0.05 for both modes",
+  "Maxwell": {"kappa": 8, "c": 10, "alpha": "3/10", "B": [0, 1], "equation": "Fdot=kappa*(B*v-sign(F)*(abs(F)/c)^(10/3))"},
+  "forcing": {"b": [1, 1], "omega": "sqrt(2)", "T": "20*pi/sqrt(2)", "f": "b*sin(omega*t) on [0,T], zero afterwards"},
+  "initial": "u=v=F=0",
+  "branches": ["U:no device; F identically zero", "D:one specified device; B=(0,1)"],
+  "output": "fixed physical u1, maximum absolute value on [0,6T] with witness times; also report both u components, terminal full energy, device dissipation, and balance diagnostic",
+  "integrator": "four independent classical RK4 runs, U/D each at N=8192 and N=16384 steps per T, forcing switches exactly at grid node T; no adaptive parameter/threshold/layout changes",
+  "diagnostic_success": "Both grids show D fixed-u1 finite peak exceeding U finite peak; report actual margins, no invented universal tolerance or continuous/all-tail certificate",
+  "failure": "If not, retain negative result and end. No search for a favorable input/frequency/parameters in this task.",
+  "budget_minutes": 10,
+  "role_scope": "experiments/maxwell-session004/R016-addition-local-peak-synthetic; small code/protocol/results only; any histories local-only; no solver/raw Excel/new original engineering arrays",
+  "deadline": "2026-10-18T07:09:45+08:00"
+}

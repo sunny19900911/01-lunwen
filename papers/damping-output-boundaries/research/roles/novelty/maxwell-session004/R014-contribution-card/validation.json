@@ -1,0 +1,47 @@
+{
+  "started_at": "2026-10-18T02:16:46+08:00",
+  "completed_at": "2026-10-18T02:21:20.228889+08:00",
+  "time_limit_minutes": 8,
+  "elapsed_seconds": 274.228889,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Contribution card frozen; stop after delivery",
+  "scope": "Known tools/phenomena vs reproducible example/data increment vs unresolved publication coverage",
+  "C025_status": "accepted under frozen model and machine contract",
+  "C026_status": "accepted per root R012 adoption and R027; per-common-d pair only",
+  "addition_strict_comparison": "pending per root R012 adoption; R028 results not read or assumed",
+  "search_queries": 0,
+  "new_primary_accesses": 0,
+  "failed_fetch_retries": 0,
+  "new_proof_or_ODE": false,
+  "raw_excel_or_array_read": false,
+  "shared_or_manuscript_or_git_modified": false,
+  "independent_readonly_contribution_review": true,
+  "reviewer_source_sha256": "30d9ec2f61439f19820959f929041cd0c92cdf28bb0e2a029d4c2f98c0436067",
+  "reviewer_created_files": false,
+  "input_files_checked": 16,
+  "input_changed": [],
+  "old_frozen_files_checked": 57,
+  "old_changed": [],
+  "local_links_checked": 9,
+  "broken_links": [],
+  "trailing_whitespace": [],
+  "control_characters": [],
+  "malformed_table_rows": [],
+  "outputs_exactly": [
+    "report.md",
+    "input-freeze.json",
+    "validation.json"
+  ],
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 5332,
+      "sha256": "f4d50bb78066732dcbf54a14527d394e241d0ddc4e0978fea3e21494e644f366"
+    },
+    {
+      "file": "report.md",
+      "bytes": 12485,
+      "sha256": "3c684d160a315e611f950c3e4300116cfef007658f6690f75d8beb4a07a7d87f"
+    }
+  ]
+}

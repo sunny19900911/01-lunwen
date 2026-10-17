@@ -1,0 +1,33 @@
+{
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R017-addition-witness-certificate\\enclose_addition_witness.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 2.2971344999969006,
+  "finished_utc": "2026-10-17T18:09:15.779976+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy_decoder": "2.3.5",
+  "code_sha256": "7d696a7e9f95f007a1bb2ac4cea40b00c464bf100b4ba3ef7ed0783d83f6a9aa",
+  "summary_sha256": "1b0454f443d1c27466e00bd40ece92deb6e259edf7ea82da38cd25e1708e4d7c",
+  "helper_sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd",
+  "IEEE_contract": {
+    "radix": 2,
+    "mant_dig": 53,
+    "max_exp": 1024,
+    "rounds": 1
+  },
+  "checks": {
+    "fixed_index_and_signed_value_identity_gate_passed": true,
+    "all_initial_stored_states_exact_zero": true,
+    "only_D_state_columns_and_exact_rebuilt_grid_used": true,
+    "all16529_prefix_segments_outward_evaluated": true,
+    "new_K_C_B_kappa_and_2_1_3_weights_used": true,
+    "global_2h_sqrt2_input_term_retained_after_T": true,
+    "upward_sum_every_segment": true,
+    "all_source_and_protocol_SHA_unchanged": true,
+    "runtime_below480seconds": true
+  }
+}

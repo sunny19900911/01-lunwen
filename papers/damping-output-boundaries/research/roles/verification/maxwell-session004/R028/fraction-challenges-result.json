@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "elapsed_seconds": 0.09542110000620596,
+  "independent_method": "Exact Fraction interval arithmetic with independently bounded Machin pi, Taylor sine, and rational root bisection; frozen R025 pure arithmetic definitions reused, no outward helper imported.",
+  "selected_residual_challenges": [
+    {
+      "residual": "r_u1",
+      "segment": 16114,
+      "independent_exact_rational_interval_contained": true
+    },
+    {
+      "residual": "r_u2",
+      "segment": 14505,
+      "independent_exact_rational_interval_contained": true
+    },
+    {
+      "residual": "r_v1",
+      "segment": 15671,
+      "independent_exact_rational_interval_contained": true
+    },
+    {
+      "residual": "r_v2",
+      "segment": 527,
+      "independent_exact_rational_interval_contained": true
+    },
+    {
+      "residual": "r_F",
+      "segment": 14474,
+      "independent_exact_rational_interval_contained": true
+    }
+  ],
+  "eight_parameter_time_intervals_contained": true,
+  "prefix_Lg_global_upper_challenged": true,
+  "exact_final_direction_checks_passed": true,
+  "U_exact_coefficients_amplitudes_passed": true,
+  "full_16529_segment_replay_equal": true,
+  "prefix_csv_byte_identical": true,
+  "replay_is_independent_algorithm": false,
+  "decoded_array": "D_N16384 entire 98305x9 member; only first J+1 five-state columns used in budget",
+  "exact_initial_states_zero": true,
+  "candidate_witness_bounds": {
+    "status": "candidate_pending_new_math_implementation_and_U_fulltime_review",
+    "I_J_upper_candidate": 0.7158806611970266,
+    "exact_stored_abs_u1_J": 5.064996249099213,
+    "D_fixed_witness_lower_candidate": 4.349115587902186,
+    "U_candidate_threshold_exact": "241/100",
+    "U_threshold_outward_interval": [
+      2.4099999999999997,
+      2.41
+    ],
+    "gap_lower_candidate_against_U_threshold_hi": 1.9391155879021855,
+    "witness_candidate_exceeds_U_candidate": true,
+    "not_true_D_peak_claim": true,
+    "not_D_tail_end_claim": true,
+    "not_proof_without_U_R020_and_reviews": true
+  },
+  "scope": "Selected exact challenges complement whole-code and theorem review; neither replay nor finite challenges replace the helper and machine contract."
+}

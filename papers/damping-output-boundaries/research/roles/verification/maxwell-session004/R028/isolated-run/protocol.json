@@ -1,0 +1,49 @@
+{
+  "evidence_id": "M-EXP-R017",
+  "status": "candidate_prefix_witness_enclosure_pending_math_implementation_and_U_bound_review",
+  "frozen_utc": "2026-10-17T18:07:13.265715+00:00",
+  "refs": {
+    "witness_protocol": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-witness-certificate-protocol-v001.md",
+      "bytes": 3575,
+      "sha256": "a441e76d76457f8ffe268a16bf1629f7c8bd2bcdc108adbab25dc0db299c3d68"
+    },
+    "addition_model": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-local-peak-protocol-v001.json",
+      "bytes": 1822,
+      "sha256": "122375ce3d1e934fffabef2c11c4c9ddd7bfb2c58215543911906fc03c4fb89c"
+    },
+    "helper": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v002.py",
+      "bytes": 10360,
+      "sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd"
+    },
+    "four_run_small_CSV": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\four_actual_runs_r016.csv",
+      "bytes": 4172,
+      "sha256": "a1653733a6769a7887774b60446b23efa619e034598365d402b9692cdbef02cc"
+    },
+    "R016_summary": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\summary_r016.json",
+      "bytes": 12416,
+      "sha256": "e482bef6151efa6e0e22cce15f95299f448d5f536c755c0bc0b8ba1857543e4d"
+    },
+    "local_cache": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+      "bytes": 12938185,
+      "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+    }
+  },
+  "fixed_N": 16384,
+  "fixed_J": 16529,
+  "cache_array": "D_N16384",
+  "identity_gate": "Verify summary/CSV firstpeak signedvalue/time, cachedfirstargmaxu1 indexJ andsamewitness; mismatchstop, nootherpoint. Cachedt onlyidentitynottruegrid.",
+  "state_inputs": "Onlystatecolumns u1/u2/v1/v2/F, exactbinaryfloatPLnodes; noW/Db/Dd oroldODEfunctions. NoODE/noarrayoutput.",
+  "true_grid": "h=20PI/(sqrt2*N), truewitnessJh, allinsideI. Inputmid exactsin_pi_ratio(20n+10,N) n<N else0.",
+  "true_model": "M=I,Kdiag2,Koff-1,Cdiag=(1+sqrt3)/20,Coff=(1-sqrt3)/20,B=e2,kappa8,c10,alpha3/10,gsgnpower10/3; noold1.001/kappa/time reused.",
+  "budget": "Allfullru/rv/rF inI withstoredendpointaverages; everysegment h*(2norm1ru+norm1rv+3absrF)+h/4*(2norm1Dv+norm1(CDv+KDu+e2DF)+2h*sqrt2+3(absDv2+LgabsDF)), includingglobalinputLipschitzterm afterT; sumupper=up(prev+stephi).",
+  "witness": "Candidate lower=down(abs(exactstored_u1_J)-I_J_upper). CompareonlyUcandidate241/100 usingI.rational upperendpoint forconservativegap; noDtailortruepeakclaim.",
+  "review_gate": "Rootdesignatedreviewedhelperv002, samecompletebinary64contract andbuiltinint2/3; newmath/modelimplementation andUanalytic2.41 gate stillpending, no automaticproof/engineeringclaim.",
+  "outputs": "Smallnewcode/manifest/protocol/blocks/JSON/report/run only; sourceNPZstayslocal, nonewODE/historycache.",
+  "runtime_limit_seconds": 480
+}

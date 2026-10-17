@@ -1,0 +1,45 @@
+{
+  "evidence_id": "M-EXP-R017",
+  "status": "candidate_pending_new_math_implementation_and_U_fulltime_reviews",
+  "completed_utc": "2026-10-17T18:10:24.894685+00:00",
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R017-addition-witness-certificate\\enclose_addition_witness.py"
+  ],
+  "exit_code": 0,
+  "delivery_QA": "Source/output/helperSHA, fixedJ identity, twoCSVblocks totaling16529, UTF8/compilation and noarrayfiles/allfilesunder1MB checked. No repeat enclosure/ODE or changedwitness.",
+  "files": [
+    {
+      "name": "enclose_addition_witness.py",
+      "bytes": 13625,
+      "sha256": "7d696a7e9f95f007a1bb2ac4cea40b00c464bf100b4ba3ef7ed0783d83f6a9aa"
+    },
+    {
+      "name": "prefix_outward_blocks.csv",
+      "bytes": 727,
+      "sha256": "826ea9d136302b77ae7d21b98463fb7a26420bb64b1154d795dc36b6d34d489f"
+    },
+    {
+      "name": "protocol.json",
+      "bytes": 3737,
+      "sha256": "18c6fd3916fd9fb74e181ec7b89f6000f197c707fe980897502cc6885c0bf371"
+    },
+    {
+      "name": "report.md",
+      "bytes": 2289,
+      "sha256": "d60c835db9e08f980f40203ae66f9bbc766a545398f3d27045bbec8f47fb890a"
+    },
+    {
+      "name": "run_record_r017.json",
+      "bytes": 1502,
+      "sha256": "debe4423f77514020a08966870a637efb72a28990590c0f6e8e1e2c246256fd6"
+    },
+    {
+      "name": "summary_r017.json",
+      "bytes": 9101,
+      "sha256": "1b0454f443d1c27466e00bd40ece92deb6e259edf7ea82da38cd25e1708e4d7c"
+    }
+  ]
+}

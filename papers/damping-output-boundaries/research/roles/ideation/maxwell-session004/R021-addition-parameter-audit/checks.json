@@ -1,0 +1,55 @@
+{
+  "scope": "Only parameter/time/helper and comparison-direction audit. No NPZ, ODE, cumulative residual or U proof replay.",
+  "C_square_exact": {
+    "diag": "1/50",
+    "off": "-1/100",
+    "equals": "K/100"
+  },
+  "K_spectrum": [
+    1,
+    3
+  ],
+  "safe_norm_weights": [
+    2,
+    1,
+    3
+  ],
+  "output_compliance": "2/3",
+  "rational_interval_checks": "sqrt2/sqrt3/C/h/T/tJ passed",
+  "J_minus_N": 145,
+  "phase_identity": "omega*(n+1/2)*h=pi*(20n+10)/N",
+  "threshold_encloses_exact_241_over_100": true,
+  "explicit_root_calls": [
+    "helper.root(I.point(3), 2)",
+    "helper.root(TWO, 2)"
+  ],
+  "g_scalar_cases": 5,
+  "g_crosszero_interval_case": true,
+  "g_derivative_upper_cases": 6,
+  "post_numpy_runtime": {
+    "at": "2026-10-18T02:16:46.134435+08:00",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "executable": "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "float_info": [
+      2,
+      53,
+      1024,
+      1
+    ],
+    "probes": {
+      "minsub_exact": true,
+      "sub_add": true,
+      "sub_mul": true,
+      "sub_div": true,
+      "normal_to_subnormal": true,
+      "tie_even_down": true,
+      "tie_even_up": true,
+      "negative_tie_even": true,
+      "nextafter_zero": true
+    },
+    "limit": "Finite process-time snapshot, not permanent or historical hardware mode proof."
+  },
+  "all_small_source_sha_unchanged": true,
+  "I_J_or_final_claim_certified": false
+}

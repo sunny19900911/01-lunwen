@@ -1,0 +1,30 @@
+{
+  "round": "R020",
+  "status": "Author-side U analytic proof; pending independent review",
+  "U_claim": "sup_{t>=0}|u1_U|<2.41",
+  "tail_claim": "all t>=T: |u1_U(t)|<1.7625",
+  "proof_components": [
+    "symmetric modal reduction",
+    "exact particular and initial homogeneous coefficients",
+    "Ap²=50/51 and R²40000/20349",
+    "cutoff state negative identity",
+    "exact free-tail representation and decay",
+    "uniform constants justify strict supremum"
+  ],
+  "candidate_failure_found": false,
+  "D_witness_logic": {
+    "example_fixed_existing_node": "T, nodeN=16384",
+    "sufficient_condition": "certified true |u1_D(T)| lower>2.41",
+    "condition_evaluated": false,
+    "D_strict_increase_certified": false,
+    "D_fulltail_upper_needed_for_counterexample": false
+  },
+  "not_done": [
+    "R016 numeric outputs or largecache read",
+    "ODE",
+    "D state-error certification",
+    "new engineering/novelty assertion"
+  ],
+  "model_scope": "dimensionless individually grounded masses coupled by spring; not ordinary shear-building geometry",
+  "sources_mutated": false
+}

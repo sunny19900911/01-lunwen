@@ -1,0 +1,235 @@
+{
+  "evidence_id": "M-EXP-R017",
+  "status": "candidate_only_pending_protocol_and_full_implementation_independent_reviews",
+  "finished_utc": "2026-10-17T18:17:34.600732+00:00",
+  "elapsed_seconds": 2.1888830000098096,
+  "protocol_sha256": "18c6fd3916fd9fb74e181ec7b89f6000f197c707fe980897502cc6885c0bf371",
+  "code_sha256": "7d696a7e9f95f007a1bb2ac4cea40b00c464bf100b4ba3ef7ed0783d83f6a9aa",
+  "source_refs": {
+    "witness_protocol": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-witness-certificate-protocol-v001.md",
+      "bytes": 3575,
+      "sha256": "a441e76d76457f8ffe268a16bf1629f7c8bd2bcdc108adbab25dc0db299c3d68"
+    },
+    "addition_model": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-local-peak-protocol-v001.json",
+      "bytes": 1822,
+      "sha256": "122375ce3d1e934fffabef2c11c4c9ddd7bfb2c58215543911906fc03c4fb89c"
+    },
+    "helper": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v002.py",
+      "bytes": 10360,
+      "sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd"
+    },
+    "four_run_small_CSV": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\four_actual_runs_r016.csv",
+      "bytes": 4172,
+      "sha256": "a1653733a6769a7887774b60446b23efa619e034598365d402b9692cdbef02cc"
+    },
+    "R016_summary": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\summary_r016.json",
+      "bytes": 12416,
+      "sha256": "e482bef6151efa6e0e22cce15f95299f448d5f536c755c0bc0b8ba1857543e4d"
+    },
+    "local_cache": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+      "bytes": 12938185,
+      "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+    }
+  },
+  "actual_loaded_helper_file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v002.py",
+  "actual_loaded_helper_sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd",
+  "helper_root_degree_contract": "Explicitsqrt builtinint2, g/Lg internalcuberoot builtinint3; v002 guarded APIs; helper root-designated reviewed, no new helper certification asserted",
+  "identity_gate": {
+    "fixed_J": 16529,
+    "cache_first_abs_u1_argmax": 16529,
+    "signed_stored_u1_at_J": -5.064996249099213,
+    "absolute_stored_u1_at_J": 5.064996249099213,
+    "cached_time_identity_only": 44.822028860363545,
+    "summary_CSV_cache_exact_match": true,
+    "no_reselection": true,
+    "cache_W_Db_Dd_unused": true
+  },
+  "model_and_time_intervals": {
+    "N": 16384,
+    "J": 16529,
+    "true_h_interval": [
+      0.002711720543309548,
+      0.002711720543309552
+    ],
+    "true_T_interval": [
+      44.428829381583625,
+      44.428829381583704
+    ],
+    "true_witness_time_interval": [
+      44.82202886036351,
+      44.82202886036359
+    ],
+    "PI_interval": [
+      3.141592653589793,
+      3.1415926535897936
+    ],
+    "sqrt2_input_omega_interval": [
+      1.414213562373095,
+      1.4142135623730951
+    ],
+    "sqrt3_interval": [
+      1.7320508075688772,
+      1.7320508075688774
+    ],
+    "Kdiag": [
+      2.0,
+      2.0
+    ],
+    "Koff": [
+      -1.0,
+      -1.0
+    ],
+    "Cdiag": [
+      0.1366025403784438,
+      0.13660254037844397
+    ],
+    "Coff": [
+      -0.03660254037844389,
+      -0.03660254037844384
+    ],
+    "kappa": [
+      8.0,
+      8.0
+    ],
+    "c": [
+      10.0,
+      10.0
+    ],
+    "alpha_exact": "3/10",
+    "q_exact": "10/3",
+    "B": [
+      0,
+      1
+    ],
+    "residual_norm_weights": [
+      2,
+      1,
+      3
+    ],
+    "S_K_exact": "2/3",
+    "output_error_coefficient_conservatively_used": 1
+  },
+  "candidate_witness_bounds": {
+    "status": "candidate_pending_new_math_implementation_and_U_fulltime_review",
+    "I_J_upper_candidate": 0.7158806611970266,
+    "exact_stored_abs_u1_J": 5.064996249099213,
+    "D_fixed_witness_lower_candidate": 4.349115587902186,
+    "U_candidate_threshold_exact": "241/100",
+    "U_threshold_outward_interval": [
+      2.4099999999999997,
+      2.41
+    ],
+    "gap_lower_candidate_against_U_threshold_hi": 1.9391155879021855,
+    "witness_candidate_exceeds_U_candidate": true,
+    "not_true_D_peak_claim": true,
+    "not_D_tail_end_claim": true,
+    "not_proof_without_U_R020_and_reviews": true
+  },
+  "residual_upper_diagnostics": {
+    "r_u1": {
+      "abs_upper": 8.664577287653687e-06,
+      "segment": 16114,
+      "interval": [
+        -8.664577287653687e-06,
+        -8.664577265449223e-06
+      ]
+    },
+    "r_u2": {
+      "abs_upper": 1.1842931791905544e-06,
+      "segment": 14505,
+      "interval": [
+        -1.1842931791905544e-06,
+        -1.1842931765260187e-06
+      ]
+    },
+    "r_v1": {
+      "abs_upper": 1.1435045210006491e-05,
+      "segment": 15671,
+      "interval": [
+        -1.1435045210006491e-05,
+        -1.143504516432081e-05
+      ]
+    },
+    "r_v2": {
+      "abs_upper": 4.406858821748295e-06,
+      "segment": 527,
+      "interval": [
+        -4.406858821748295e-06,
+        -4.4068588159751334e-06
+      ]
+    },
+    "r_F": {
+      "abs_upper": 1.1130110635841457e-06,
+      "segment": 14474,
+      "interval": [
+        -1.1130110635841457e-06,
+        -1.1130110605830736e-06
+      ]
+    }
+  },
+  "maximum_Lg_upper": 0.05624778304998202,
+  "maximum_step_budget_upper": 6.284247863954887e-05,
+  "blocks": [
+    {
+      "first_segment": 0,
+      "last_segment": 16383,
+      "n_segments": 16384,
+      "before_or_after_input_stop": "input_active",
+      "midpoint_budget_upper": 0.000810831885382838,
+      "variation_budget_upper": 0.7071079190717727,
+      "block_total_upper": 0.7079187509571594,
+      "prefix_I_upper": 0.7079187509571594,
+      "max_abs_upper_r_u1": 8.664577287653687e-06,
+      "max_abs_upper_r_u2": 1.1842931791905544e-06,
+      "max_abs_upper_r_v1": 1.1435045210006491e-05,
+      "max_abs_upper_r_v2": 4.406858821748295e-06,
+      "max_abs_upper_r_F": 1.1130110635841457e-06,
+      "global_Lipschitz_term_retained": true
+    },
+    {
+      "first_segment": 16384,
+      "last_segment": 16528,
+      "n_segments": 145,
+      "before_or_after_input_stop": "post_input_stop",
+      "midpoint_budget_upper": 7.772687116736392e-06,
+      "variation_budget_upper": 0.007954137552734337,
+      "block_total_upper": 0.007961910239851076,
+      "prefix_I_upper": 0.7158806611970266,
+      "max_abs_upper_r_u1": 3.6051412952708976e-06,
+      "max_abs_upper_r_u2": 8.09826041364703e-07,
+      "max_abs_upper_r_v1": 1.1343784028117202e-05,
+      "max_abs_upper_r_v2": 2.0607665929262006e-06,
+      "max_abs_upper_r_F": 1.0859028156673391e-06,
+      "global_Lipschitz_term_retained": true
+    }
+  ],
+  "checks": {
+    "fixed_index_and_signed_value_identity_gate_passed": true,
+    "all_initial_stored_states_exact_zero": true,
+    "only_D_state_columns_and_exact_rebuilt_grid_used": true,
+    "all16529_prefix_segments_outward_evaluated": true,
+    "new_K_C_B_kappa_and_2_1_3_weights_used": true,
+    "global_2h_sqrt2_input_term_retained_after_T": true,
+    "upward_sum_every_segment": true,
+    "all_source_and_protocol_SHA_unchanged": true,
+    "runtime_below480seconds": true
+  },
+  "contracts": {
+    "trajectory": "Exact binary64 states from fixedcache, PL onrebuilttruegrid; nointernalODEFm oroldbudgets",
+    "input": "sin_pi_ratio(20n+10,N) beforeN,exact0 after; 2h*omega globalLipschitzvariation retained allJ segments",
+    "model": "ExactM/K/kappa/c and intervalsqrt3C; B=e2; nolegacy1.001or7<kappa<8 assumption",
+    "residual": "Fullru/rv/rF plusallh/h4terms inI; g/Lg byfrozenhelperv002; noenergybalance substitute",
+    "sum_and_witness": "Everysegmentup(prev+stephi); lowerdown(absstored-Ihi), exactrational2.41 upperendpoint forcomparison",
+    "review_gate": "Newprotocolmath and implementation audit plusUfulltimeboundR020/independentreview required. Candidate notproof/engineeringresult."
+  },
+  "outputs": {
+    "prefix_outward_blocks.csv": "826ea9d136302b77ae7d21b98463fb7a26420bb64b1154d795dc36b6d34d489f",
+    "report.md": "d60c835db9e08f980f40203ae66f9bbc766a545398f3d27045bbec8f47fb890a"
+  }
+}

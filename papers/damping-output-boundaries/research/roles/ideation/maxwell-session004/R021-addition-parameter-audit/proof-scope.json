@@ -1,0 +1,24 @@
+{
+  "round": "R021",
+  "verdict": "Pass targeted new-model parameters, time, special-function/helper domain and threshold direction under declared machine contract; no new MUSTFIX",
+  "included": [
+    "M/K and positive C with C²=.01K",
+    "kappa8 c10 q10/3 B=e2 and safe2/1/3 weights",
+    "sqrt2/sqrt3 C h T tJ interval directions",
+    "J16529=N+145, true midpoint phase and conservative post-stop Lipschitz term",
+    "rational/point semantics and builtinint root degrees",
+    "signedg and Lg interval directions",
+    "exact241/100 upper-end comparison direction",
+    "finite post-NumPy runtime snapshot"
+  ],
+  "excluded": [
+    "NPZ identity/data gate",
+    "all16529 residual segment evaluation or totalI",
+    "full true witness lower certification",
+    "U analytic proof replay",
+    "whole peak-increase conclusion",
+    "permanent/historical hardware-mode proof"
+  ],
+  "division_of_work": "R028 overall math, U proof, cumulative implementation and final combination",
+  "physical_scope": "dimensionless individually grounded masses; not ordinary shear chain, actual477/500000 or engineering recommendation"
+}

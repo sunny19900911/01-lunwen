@@ -1,0 +1,45 @@
+{"stage": "fixed_prefix_outward", "n": 0, "I_upper_so_far": 0.0, "elapsed_s": 0.06038300000363961}
+{"stage": "fixed_prefix_outward", "n": 4096, "I_upper_so_far": 0.09940887520912929, "elapsed_s": 0.590578600007575}
+{"stage": "fixed_prefix_outward", "n": 8192, "I_upper_so_far": 0.27765207578387546, "elapsed_s": 1.116248700011056}
+{"stage": "fixed_prefix_outward", "n": 12288, "I_upper_so_far": 0.4880457047906538, "elapsed_s": 1.639535700000124}
+{"stage": "fixed_prefix_outward", "n": 16384, "I_upper_so_far": 0.7079187509571594, "elapsed_s": 2.163980299999821}
+{
+  "elapsed_seconds": 2.1888830000098096,
+  "identity_gate": {
+    "fixed_J": 16529,
+    "cache_first_abs_u1_argmax": 16529,
+    "signed_stored_u1_at_J": -5.064996249099213,
+    "absolute_stored_u1_at_J": 5.064996249099213,
+    "cached_time_identity_only": 44.822028860363545,
+    "summary_CSV_cache_exact_match": true,
+    "no_reselection": true,
+    "cache_W_Db_Dd_unused": true
+  },
+  "candidate_witness_bounds": {
+    "status": "candidate_pending_new_math_implementation_and_U_fulltime_review",
+    "I_J_upper_candidate": 0.7158806611970266,
+    "exact_stored_abs_u1_J": 5.064996249099213,
+    "D_fixed_witness_lower_candidate": 4.349115587902186,
+    "U_candidate_threshold_exact": "241/100",
+    "U_threshold_outward_interval": [
+      2.4099999999999997,
+      2.41
+    ],
+    "gap_lower_candidate_against_U_threshold_hi": 1.9391155879021855,
+    "witness_candidate_exceeds_U_candidate": true,
+    "not_true_D_peak_claim": true,
+    "not_D_tail_end_claim": true,
+    "not_proof_without_U_R020_and_reviews": true
+  },
+  "checks": {
+    "fixed_index_and_signed_value_identity_gate_passed": true,
+    "all_initial_stored_states_exact_zero": true,
+    "only_D_state_columns_and_exact_rebuilt_grid_used": true,
+    "all16529_prefix_segments_outward_evaluated": true,
+    "new_K_C_B_kappa_and_2_1_3_weights_used": true,
+    "global_2h_sqrt2_input_term_retained_after_T": true,
+    "upward_sum_every_segment": true,
+    "all_source_and_protocol_SHA_unchanged": true,
+    "runtime_below480seconds": true
+  }
+}

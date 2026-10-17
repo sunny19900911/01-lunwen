@@ -1,0 +1,17 @@
+{
+  "scope": "Exact Fraction coefficient/initial state/amplitude algebra only; no ODE or D experiment reads.",
+  "particular_sine_cosine_equations": true,
+  "zero_initial_u_v": true,
+  "particular_amplitude_squared": "50/51",
+  "homogeneous_radius_squared": "40000/20349",
+  "R_squared_gap_to_1.41_squared": "4558469/203490000",
+  "cutoff_particular_state_is_negative_homogeneous_initial_state": true,
+  "tail_exact_identity": "x(T+tau)=-xh(tau)+xh(T+tau)",
+  "tail_safe_upper": "1.7625 strict",
+  "U_fulltime_safe_upper": "2.41 strict",
+  "D_node_for_conditional_example": "T, already-frozen N=16384 grid node N",
+  "D_certified_lower_available": false,
+  "D_strict_increase_proved": false,
+  "output_compliance_new_K": "2/3",
+  "source_sha_unchanged": true
+}

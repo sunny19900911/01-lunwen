@@ -1,0 +1,36 @@
+{
+  "round": "R021",
+  "frozen_at": "2026-10-18T02:18:12.714072+08:00",
+  "elapsed_seconds": 273.714072,
+  "within_8_minute_limit": true,
+  "all_frozen_small_sources_sha_unchanged": true,
+  "source_protocol_summary_run_helper_identities": "passed",
+  "exact_Fraction_matrix_time_root_g_threshold_checks": "passed",
+  "post_numpy_finite_runtime_probes": 9,
+  "probe_failures": 0,
+  "internal_author_side_checks": 2,
+  "UTF8_JSON_links_QA": "passed",
+  "relative_links": [
+    {
+      "source": "report.md",
+      "target": "../../../novelty/maxwell-session004/R013/report.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "input-freeze.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "checks.py",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "checks.json",
+      "exists": true
+    }
+  ],
+  "write_scope": "Only own new R021 directory; no NPZ, ODE, full16529 replay, source/other/shared/Git mutation."
+}
