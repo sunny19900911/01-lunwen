@@ -1,0 +1,36 @@
+{
+  "task": "R033-Goetz-unread-pages",
+  "status": "frozen; stop; main and role6 independently review",
+  "started_at": "2026-10-18T06:42:24+08:00",
+  "frozen_at": "2026-10-18T06:44:27.895387+08:00",
+  "deadline": "2026-10-18T06:48:24+08:00",
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "artifacts": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R033-Goetz-unread-pages\\report.md",
+      "bytes": 8026,
+      "sha256": "f60a44dc2f7aef89a7794fa761521fdae4b53e58e4822af4028dcb42abc5920f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R033-Goetz-unread-pages\\source-manifest.json",
+      "bytes": 5870,
+      "sha256": "bb3998d579cad8b4c5a32a4a690dc4ede02da90ad5363d5c60e2e296ec076c96"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R033-Goetz-unread-pages\\validation.json",
+      "bytes": 903,
+      "sha256": "edea4f89502961b039b6e18241b6a2d4204fbd542807b91cd00645d5ae4e790c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R033-Goetz-unread-pages\\prepare_R033.py",
+      "bytes": 1113,
+      "sha256": "2ecc54df1e8ffb145016d4d7aa49bb00e647498c1c6d571ca9719fb0287ac6e8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R033-Goetz-unread-pages\\freeze_R033.py",
+      "bytes": 3143,
+      "sha256": "8f9c9e587e5d37c3d1974b50d74abc24a3092983741f92ee4995e08e165637bc"
+    }
+  ],
+  "raw_cache_policy": "Only local-cache, never publish original PDF/text/images"
+}

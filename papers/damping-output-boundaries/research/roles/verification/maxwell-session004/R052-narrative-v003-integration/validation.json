@@ -1,0 +1,51 @@
+{
+  "round": "R052",
+  "started_at": "2026-10-18T06:47:59.387173+08:00",
+  "limit_seconds": 180,
+  "task_deadline": "2026-10-18T06:50:59.387173+08:00",
+  "frozen_at": "2026-10-18T06:49:40.567105+08:00",
+  "within_limit": true,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "must_fix_count": 0,
+  "finite_identity_count": 9,
+  "sources_unchanged": true,
+  "actual_diff_opcodes": [
+    [
+      "replace",
+      2,
+      3,
+      2,
+      3
+    ],
+    [
+      "insert",
+      106,
+      106,
+      106,
+      108
+    ]
+  ],
+  "reverse_recovery_byte_exact": true,
+  "formula_tags_unchanged": true,
+  "new_links_exist": 2,
+  "math_review": "manual scope integration; diff/static checks ancillary",
+  "new_ODE_numerics_data_arrays": false,
+  "old_shared_manuscript_Git_modified": false,
+  "outputs": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R052-narrative-v003-integration/report.md",
+      "bytes": 2621,
+      "sha256": "1f2d43f52d5d3bfe4127d1dad31a97db95fb612ec4d5236dac1f12f72394455b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R052-narrative-v003-integration/independent-diff-from-v002.patch",
+      "bytes": 1700,
+      "sha256": "6fb6567e340adb75d8b88b8e133475fed31f0865f5d551725ec44dd88e0dd5f6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R052-narrative-v003-integration/freeze.json",
+      "bytes": 2903,
+      "sha256": "c79cc515fe0db6305471e293071be6b491a78316748103e1bd5ed98c189cbec8"
+    }
+  ]
+}

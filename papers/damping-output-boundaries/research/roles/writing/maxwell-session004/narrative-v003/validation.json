@@ -1,0 +1,59 @@
+{
+  "validated_at": "2026-10-18T06:46:57.869115+08:00",
+  "passed": true,
+  "scope": "Limited author diff/identity/link QA only; not new proof or independent integration review.",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v003.md",
+    "bytes": 16457,
+    "sha256": "12d9df37e5b281599b8f84e76853aa7413e951aad378f53a95b4706e968279a9"
+  },
+  "checks": {
+    "five_small_inputs_SHA_match": true,
+    "only_version_identity_and_one_paragraph_changed": true,
+    "paragraph_Han_le180": true,
+    "paragraph_before_section3": true,
+    "reverse_recovers_v002_exact_bytes_SHA": true,
+    "10_display_equations_exact": true,
+    "all_existing_table_bytes_exact": true,
+    "image_reference_exact": true,
+    "abstract_exact": true,
+    "discussion_exact": true,
+    "section3_to_end_exact": true,
+    "all_headings_exact": true,
+    "old_numbers_machine_input_contracts_exact_via_reverse": true,
+    "two_added_local_links_resolve": true,
+    "scope_exact_positive_terminal_continuous_class": true,
+    "fixedD_continuous_peak_not_claimed": true,
+    "building_novelty_not_upgraded": true,
+    "real_diff_matches_files": true,
+    "UTF8_LF_noBOM_whitespace_pass": true,
+    "no_history_scan_or_old_Git_write": true
+  },
+  "check_count": 20,
+  "source_count": 5,
+  "old_lines": 190,
+  "new_lines": 192,
+  "paragraph_line": 107,
+  "paragraph_Han_characters": 71,
+  "paragraph_visible_characters": 128,
+  "display_equations": 10,
+  "existing_tables": 1,
+  "table_data_rows": [
+    4
+  ],
+  "images": 1,
+  "reverse_sha256": "af496eafe3996eb73f48be5be5722ebfa895265fd4965af204ab30f9c58d5911",
+  "eq_hashes": [
+    "a2d9937ced3b45b1e6573da76806bc55d2fae45dd6cea8742872796de7a1d846",
+    "447c571eefdd87644a0d37b62ce3fc7e55cb89a61b4ba3b04b0425c114d70d45",
+    "ac32b0eb93cf88d2de515fe7777a50e47ed8d27c275241165095979f9b7a8568",
+    "05d2b31a2c6a87718d6b65ad9738d941bd74e3d2124919aef2b6695c03ae6b3f",
+    "7cc13a83affc26789f70d6085b055f6e02a9a813161dbb90144f2325f9a3481c",
+    "41c7943726ff61292456dd6b314ea7e042d9302dc9bc56db19ccc727f0fd8e0a",
+    "b2894b5bf8d78bdb81b4306d85d69b54e92388d9a89326fc294084a0c8448f21",
+    "710ef0da42ba071c020883f3171634873a0d9312c2b46574f56dbbac40d2af36",
+    "fe300cbc9c5b3f8171a8491bee9c985535f6f75f108a180dc8d96ef824283047",
+    "df0d038bfd0deb72e9c0e41b9daa19cfa917d7fa4da2d787ad24a9cdcf34ed2e"
+  ],
+  "historical161_not_scanned": true
+}

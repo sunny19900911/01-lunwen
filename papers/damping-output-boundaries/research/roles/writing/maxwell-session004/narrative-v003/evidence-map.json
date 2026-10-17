@@ -1,0 +1,51 @@
+{
+  "status": "Narrative-v003 author frozen pending root and role2 limited integration review; not staged/published.",
+  "base": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v002.md",
+    "bytes": 16067,
+    "sha256": "af496eafe3996eb73f48be5be5722ebfa895265fd4965af204ab30f9c58d5911"
+  },
+  "new_draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v003.md",
+    "bytes": 16457,
+    "sha256": "12d9df37e5b281599b8f84e76853aa7413e951aad378f53a95b4706e968279a9"
+  },
+  "only_changes": [
+    {
+      "line": 3,
+      "content": "Version v002 to v003 only"
+    },
+    {
+      "line": 107,
+      "Han_characters": 71,
+      "visible_characters": 128,
+      "content": "对同一器件，若0<α≤1、T>t_min，v连续保幅、F(T)=h精确、末总δ自由且端点速度/加速度不限，则D_min、D_max不取到，而整个(D_min,D_max)可达，见端点补充与耗散值域补充。连续类固定D峰集合仍未解；建筑实现与新颖性结论不升级。",
+      "sources": [
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-continuous-velocity-endpoints-v001.md",
+          "bytes": 6594,
+          "sha256": "3de22587466e7546385db5c8109e1ab855fc8124c053e183c50f90e5925cf47f"
+        },
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-continuous-cost-image-v001.md",
+          "bytes": 5875,
+          "sha256": "23acaade3bf7b6916f526a9182e7c669368e8888fec966d951ea601cd5173734"
+        },
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\C042-adoption-v001.json",
+          "bytes": 6490,
+          "sha256": "bd9d26f3bc7fa952d45a43d21055044981a263c11b3faaa791dbe94f9c9275ce"
+        },
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\C043-adoption-v001.json",
+          "bytes": 5527,
+          "sha256": "ee534540fa4ffe6f818966f2dc543be57f4506277daa1be314792ffc8f71bddf"
+        }
+      ]
+    }
+  ],
+  "class_note": "Positive terminal h explicitly, inherited initialF=0 and device/velocity bound. Added continuity with no endpointv/acceleration condition and free terminaldelta. C042 endpoint nonattainment and C043 full interiorD image do not transfer measurable fixedD peakset to continuous class.",
+  "reproduction": "Original v002 reproduction appendix link remains unchanged as required; old numerical/input/machine contracts inherited byte-exact.",
+  "history_scan": false,
+  "old_main_appendices_plain_language_sources_shared_Git_not_written": true
+}

@@ -6,8 +6,8 @@
   "deadline": "2026-10-18T07:09:45+08:00",
   "master_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
   "checkpoint_open": true,
-  "current_round": "R026",
-  "latest_round": "rounds/R025.md",
+  "current_round": "R027",
+  "latest_round": "rounds/R026.md",
   "checkpoint_minutes": 15,
   "topic_card_minutes": 30,
   "scheduler": {
@@ -39,7 +39,7 @@
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "Completed and frozen; no further new task dispatched",
+      "dispatch": "Frozen work completed; no further new task. Await real cutoff and final closure only.",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -48,18 +48,18 @@
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "R026 actual prepublish allsix completed idle",
-      "observed_at_utc": "2026-10-17 22:38:28 UTC"
+      "snapshot_note": "R027 actual allsix completed idle before publish",
+      "observed_at_utc": "2026-10-17 22:51:47 UTC"
     },
     "verification": {
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
       "hostId": "local",
       "title": "论文角色②｜证明审核与反例",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:167",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:170",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "Completed and frozen; no further new task dispatched",
+      "dispatch": "Frozen work completed; no further new task. Await real cutoff and final closure only.",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -68,18 +68,18 @@
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "R026 actual prepublish allsix completed idle",
-      "observed_at_utc": "2026-10-17 22:38:28 UTC"
+      "snapshot_note": "R027 actual allsix completed idle before publish",
+      "observed_at_utc": "2026-10-17 22:51:47 UTC"
     },
     "literature": {
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
       "hostId": "local",
       "title": "论文角色③｜文献原文复查",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:97",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:98",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "Completed and frozen; no further new task dispatched",
+      "dispatch": "Frozen work completed; no further new task. Await real cutoff and final closure only.",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -88,8 +88,8 @@
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "R026 actual prepublish allsix completed idle",
-      "observed_at_utc": "2026-10-17 22:38:28 UTC"
+      "snapshot_note": "R027 actual allsix completed idle before publish",
+      "observed_at_utc": "2026-10-17 22:51:47 UTC"
     },
     "experiments": {
       "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
@@ -99,7 +99,7 @@
       "preflight_status": {
         "type": "idle"
       },
-      "dispatch": "Completed and frozen; no further new task dispatched",
+      "dispatch": "Frozen work completed; no further new task. Await real cutoff and final closure only.",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -108,18 +108,18 @@
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "R026 actual prepublish allsix completed idle",
-      "observed_at_utc": "2026-10-17 22:38:28 UTC"
+      "snapshot_note": "R027 actual allsix completed idle before publish",
+      "observed_at_utc": "2026-10-17 22:51:47 UTC"
     },
     "writing": {
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
       "hostId": "local",
       "title": "论文角色⑤｜论文写作与论证",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:109",
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:111",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "Completed and frozen; no further new task dispatched",
+      "dispatch": "Frozen work completed; no further new task. Await real cutoff and final closure only.",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -128,19 +128,19 @@
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "R026 actual prepublish allsix completed idle",
-      "observed_at_utc": "2026-10-17 22:38:28 UTC"
+      "snapshot_note": "R027 actual allsix completed idle before publish",
+      "observed_at_utc": "2026-10-17 22:51:47 UTC"
     },
     "novelty": {
       "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
       "hostId": "local",
       "title": "创新性验证",
-      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:73",
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:75",
       "preflight_status": {
         "type": "active",
         "activeFlags": []
       },
-      "dispatch": "Completed and frozen; no further new task dispatched",
+      "dispatch": "Frozen work completed; no further new task. Await real cutoff and final closure only.",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -149,8 +149,8 @@
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "R026 actual prepublish allsix completed idle",
-      "observed_at_utc": "2026-10-17 22:38:28 UTC"
+      "snapshot_note": "R027 actual allsix completed idle before publish",
+      "observed_at_utc": "2026-10-17 22:51:47 UTC"
     }
   },
   "git_authorization": "Verified direct human user messages in source thread; main master-only normal commit/push for this session whitelist",
@@ -627,7 +627,7 @@
       "scope": "Reviewed C025 explanatoryfigure and Correia primaryscope;conditional finiteobservation theoremC037;contributiongrade recommendation;compact-v003 minimal integration."
     }
   },
-  "checkpoint_started_at": "2026-10-18T06:24:29.601919+08:00",
+  "checkpoint_started_at": "2026-10-18T06:42:13.670723+08:00",
   "received_auxiliary_skill_increment": {
     "path": "C:/Users/mj528/.codex/skills/etabs-response-analysis/scripts/cache_coverage.py",
     "source_validation": "../W5-重燃双塔连体/research/maxwell-20261017/roles/verification/response-coverage/skill-validation.json",
@@ -700,7 +700,7 @@
     "sha256": "30d9ec2f61439f19820959f929041cd0c92cdf28bb0e2a029d4c2f98c0436067",
     "status": "R012 published withstatusaddenda andremoteSHAverified;stageonly"
   },
-  "next_git_eligible_after": "2026-10-18T06:37:44.389694+08:00",
+  "next_git_eligible_after": "2026-10-18T06:53:49.267336+08:00",
   "manuscript_compact_v002": {
     "status": "stage integration accepted: R019 source scope +R035 rest except M1 +v002 targeted repair R020 +root exact9lines;not reproof",
     "path": "papers/damping-output-boundaries/manuscript/maxwell-paper-compact-v002.md",
@@ -872,7 +872,7 @@
     "sha256": "3de22587466e7546385db5c8109e1ab855fc8124c053e183c50f90e5925cf47f",
     "status": "R025 published remote verified; root+R049 integration accepted, stage only"
   },
-  "last_closed_at": "2026-10-18T06:23:31.343719+08:00",
+  "last_closed_at": "2026-10-18T06:39:39.033395+08:00",
   "last_push_R025": {
     "commit": "80d4bfab066a8399c0ffd2f4051495a7469c3632",
     "remote_verified": true,
@@ -891,7 +891,7 @@
   "C043_local_adoption": {
     "record": "C043-adoption-v001.json",
     "sha256": "ee534540fa4ffe6f818966f2dc543be57f4506277daa1be314792ffc8f71bddf",
-    "published": false,
+    "published": true,
     "scope": "0<alpha<=1, kappa,c,V>0, 0<h<cV^alpha, F0=0, exact FT=h, end total deformation free, continuous |v|<=V, no endpoint velocity/acceleration/structural feedback restrictions. For T>tmin full true viscous D image=(Dmin,Dmax); T=tmin singleton, T<tmin empty."
   },
   "R026_review": {
@@ -903,7 +903,30 @@
   "manuscript_continuous_cost_image_v001": {
     "path": "papers/damping-output-boundaries/manuscript/maxwell-continuous-cost-image-v001.md",
     "sha256": "23acaade3bf7b6916f526a9182e7c669368e8888fec966d951ea601cd5173734",
-    "status": "root +R051 faithful integration accepted, publication pending"
+    "status": "R026 published and remote verified; root +R051 faithful integration accepted, stage only"
   },
-  "remaining_window_mode": "Finalize handoff/actual closure; no duplicate experiments or searches. Hard deadline unchanged; no new budget."
+  "remaining_window_mode": "Finalize handoff/actual closure; no duplicate experiments or searches. Hard deadline unchanged; no new budget.",
+  "last_push_R026": {
+    "commit": "e114b51678c922277a9de759bc804f56274cd802",
+    "remote_verified": true,
+    "attempts": 1,
+    "file_count": 71,
+    "receipt": "R026-push.json"
+  },
+  "active_post_R026_tasks": {
+    "literature": "completed and frozen; actual compact snapshot to be refreshed before Git",
+    "novelty": "completed and frozen; actual compact snapshot to be refreshed before Git",
+    "writing": "completed and frozen; actual compact snapshot to be refreshed before Git",
+    "verification": "completed and frozen; actual compact snapshot to be refreshed before Git"
+  },
+  "R027_review": {
+    "record": "R027-adoption.json",
+    "sha256": "d0ba725423cc14cb169b99002dccb0a7a7008815de3bca3139e6523e522040fd",
+    "scope": "Source review expands actual original-page reading only, exact same-condition publication coverage stays unresolved. v003 only version and one71-Han paragraph; original10formulas/actual one4-data-row table/image/old numbers/input-machine contracts unchanged by exact reverse. No engineering or novelty upgrade; checkpoint still before actual budget close."
+  },
+  "manuscript_narrative_v003": {
+    "path": "papers/damping-output-boundaries/manuscript/maxwell-paper-narrative-v003.md",
+    "sha256": "12d9df37e5b281599b8f84e76853aa7413e951aad378f53a95b4706e968279a9",
+    "status": "root+R052 finite integration accepted, publication pending"
+  }
 }
