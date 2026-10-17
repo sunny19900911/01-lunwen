@@ -1,0 +1,579 @@
+{
+  "kind": "author integration static QA; not independent proof review",
+  "checks": [
+    {
+      "check": "five main sections",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "3.1-3.4 and 4.1-4.3 structure",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "85 unique ordered tags",
+      "pass": true,
+      "detail": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "G9",
+        "G10",
+        "G11",
+        "G12",
+        "G13",
+        "G14"
+      ]
+    },
+    {
+      "check": "two original images unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no new Markdown tables",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A-F retained except planned own-main references",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entire fourth section retained except main numbering",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "core 3.1 unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "main1-10 retained and former11-13 renumbered only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "U correct square root and strict positive domains",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full class and specified-family uniqueness remain separate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "endpoint pointwise finite and nonuniform distinction",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "range construction and connected IVT present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "three explicit positive branch constants correct",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "19-to-39 strictproper stable tool conditions present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "old M U_kappa and time certificate retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "seven refs only Boyd p118 positioning appended",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Rath2025 actual acquisition status and comparison limits",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "parenthesized main equation refs resolve",
+      "pass": true,
+      "detail": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "2",
+        "3",
+        "4",
+        "6",
+        "7",
+        "8",
+        "9",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A7",
+        "A8",
+        "A9",
+        "B13",
+        "B2",
+        "C2",
+        "E11",
+        "E13",
+        "E14",
+        "E2",
+        "E4",
+        "F3",
+        "F7",
+        "F9",
+        "G2"
+      ]
+    },
+    {
+      "check": "Rath external Result3 equation11 preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "display math paired",
+      "pass": true,
+      "detail": 190
+    },
+    {
+      "check": "math environment pmatrix",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "math environment cases",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "14 citation tokens 20 expanded uses seven refs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Hoagg7 Boyd6 remain correct",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all local links exist",
+      "pass": true,
+      "detail": 14
+    },
+    {
+      "check": "4 figure assets and39 evidence identities",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "map draft precursor plan base match",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "22 precursor frozen files unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "morning v009 unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no C027 C030 or numeric evidence added",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "UTF8 LF whitespace theory-draft-v006.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "UTF8 LF whitespace theory-figure-evidence-map-v006.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "scoped git diff --check",
+      "pass": true,
+      "detail": {
+        "exit": 0,
+        "out": "",
+        "err": ""
+      }
+    },
+    {
+      "check": "endpoint sequence explicitly enters C020 local domain",
+      "pass": true,
+      "detail": "0<delta_t<=eta_kappa for sufficiently large t"
+    }
+  ],
+  "draft": {
+    "path": "papers/damping-output-boundaries/manuscript/theory-draft-v006.md",
+    "sha256": "7c40bc8f602293b8e1d9789a6ad7cb71fd67e2fbe7776ad26379ce160c50b9f1",
+    "bytes": 74511
+  },
+  "map": {
+    "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v006.json",
+    "sha256": "cdacfca9fb202e40e019771c5b4968a219705c33f5240650de296f2f73e82802",
+    "bytes": 21886
+  },
+  "citation_locations": [
+    {
+      "line": 17,
+      "token": "[1–3]",
+      "references": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "line": 17,
+      "token": "[4–6]",
+      "references": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "line": 17,
+      "token": "[7]",
+      "references": [
+        7
+      ]
+    },
+    {
+      "line": 218,
+      "token": "[1]",
+      "references": [
+        1
+      ]
+    },
+    {
+      "line": 218,
+      "token": "[2]",
+      "references": [
+        2
+      ]
+    },
+    {
+      "line": 218,
+      "token": "[3]",
+      "references": [
+        3
+      ]
+    },
+    {
+      "line": 218,
+      "token": "[7]",
+      "references": [
+        7
+      ]
+    },
+    {
+      "line": 220,
+      "token": "[4–6]",
+      "references": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "line": 277,
+      "token": "[6]",
+      "references": [
+        6
+      ]
+    },
+    {
+      "line": 331,
+      "token": "[4]",
+      "references": [
+        4
+      ]
+    },
+    {
+      "line": 331,
+      "token": "[5]",
+      "references": [
+        5
+      ]
+    },
+    {
+      "line": 360,
+      "token": "[2]",
+      "references": [
+        2
+      ]
+    },
+    {
+      "line": 360,
+      "token": "[3]",
+      "references": [
+        3
+      ]
+    },
+    {
+      "line": 819,
+      "token": "[6]",
+      "references": [
+        6
+      ]
+    }
+  ],
+  "local_links": [
+    {
+      "target": "E:/11-工作/001-workbuddy spaceV1/001-workbuddy space/109-论文写作/01-lunwen/papers/damping-output-boundaries/experiments/figures/fig04_peak_bound_comparison.png",
+      "exists": true
+    },
+    {
+      "target": "../experiments/figures/fig04_peak_bound_comparison.svg",
+      "exists": true
+    },
+    {
+      "target": "../research/roles/verification/saved-peak-audit.json",
+      "exists": true
+    },
+    {
+      "target": "../research/roles/verification/EEXP004-bound-audit.json",
+      "exists": true
+    },
+    {
+      "target": "../research/roles/experiments/round-010-unit-topcut-envelopes.md",
+      "exists": true
+    },
+    {
+      "target": "../experiments/round010_unit_topcut_envelopes/six_envelope_sampled_peaks.csv",
+      "exists": true
+    },
+    {
+      "target": "E:/11-工作/001-workbuddy spaceV1/001-workbuddy space/109-论文写作/01-lunwen/papers/damping-output-boundaries/experiments/figures-physical-topcut/fig08_physical_topcut_envelope_peaks.png",
+      "exists": true
+    },
+    {
+      "target": "../experiments/figures-physical-topcut/fig08_physical_topcut_envelope_peaks.svg",
+      "exists": true
+    },
+    {
+      "target": "../research/roles/literature/fulltext-request-list.md",
+      "exists": true
+    },
+    {
+      "target": "../research/roles/literature/theory-round001/prior-art-note.md",
+      "exists": true
+    },
+    {
+      "target": "../research/roles/literature/theory-session002/L026-comparison-001.md",
+      "exists": true
+    },
+    {
+      "target": "../research/roles/literature/theory-session002/Rath2025-public-preview-check-001.md",
+      "exists": true
+    },
+    {
+      "target": "working-draft-v009.md",
+      "exists": true
+    },
+    {
+      "target": "../research/roles/verification/network-realizability-proof.md",
+      "exists": true
+    }
+  ],
+  "predecessor_frozen_files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v001.md",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v001.json",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-round001/build_theory_draft.py",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-round001/verify_and_freeze.py",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-round001/validation.json",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-round001/report.md",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v002.md",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v002.json",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v002-citation-audit.json",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v002-report.md",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v003.md",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v003.json",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v003-report.md",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v003-validation.json",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v004.md",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v004.json",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v004-report.md",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v004-validation.json",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v005.md",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v005.json",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v005-report.md",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v005-validation.json",
+      "pass": true
+    }
+  ],
+  "primary_visual_page": {
+    "path": "papers/damping-output-boundaries/research/roles/literature/local-cache/kernel-boyd-p118.png",
+    "sha256": "cb52012745773a33eac633c0cdc37acf54ad9fe63ce40727ad42401be7f0e911",
+    "bytes": 131757
+  },
+  "primary_visual_page_actually_viewed": true,
+  "main_bytes": {
+    "v005": 27625,
+    "v006": 30757
+  },
+  "result": "PASS",
+  "checked_at": "2026-10-17 13:39:50 +08:00"
+}

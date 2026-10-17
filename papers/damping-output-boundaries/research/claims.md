@@ -92,5 +92,15 @@ L035这轮新增公开作者PDF两页的文本定位（并非原页公式已视�
 
 2026-10-17T13:35:03.088843+08:00（R005）：最近文献L038已取得公开原件正文文本，不再只有摘要。主控实际open正文首页及原印021007-2–4，核式(2)两系数Rayleigh C=2c_M M+2c_K K、式(4)模态分母、式(6)代换和式(12)含虚轴等号条件。网页OCR/未取得PDF及图像、后续未逐页核完的限制保留；三异频共同正模态阻尼与该族的区别交不同作者独核，不据适用范围不同宣称新颖性。详见roles/literature/theory-session002/Rath2025-public-preview-check-001.md。
 
-| C030 v1 | 固定任意物理输入半时长Tfix>0后，全正m/k三层真实topcut类的最优完整峰比上确界与不限有限支撑时长的跨模型上确界相等；因而z>0、κ>1时有限 iff z>sqrt(2/27) | testing | ideation/theory-session002/fixed-physical-duration-scaling-candidate.md SHA2c1f5db9eb62646b20485b35986d9670415965d5df2cec8df9bb34dfb213167a；analytic-derivation candidate，主控全文读并另核时域因子，已派异作者独审 | K→σ²K、C→σC、真实ell→σ²ell，fσ=f(σt)、uσ=σ^-2u(σt)，全尾峰不变；每条见证可选不同有限模型，不称同一固定模型固定T无界，不外推带宽/导数/参数盒；未入v006 |
+| C030 v1 | 固定任意物理输入半时长Tfix>0后，全正m/k三层真实topcut类的最优完整峰比上确界与不限有限支撑时长的跨模型上确界相等；因而z>0、κ>1时有限 iff z>sqrt(2/27) | supported | ideation/theory-session002/fixed-physical-duration-scaling-candidate.md SHA2c1f5db9eb62646b20485b35986d9670415965d5df2cec8df9bb34dfb213167a；verification/theory-session002/fixed-physical-duration-scaling-review.md SHAf24fa3dc82fd9101ff2952f2c05d5d215765c961c4af26102ef8d1244c27367d；异作者独审与主控全文/模态-卷积路径复核，mathematical-proof/reviewed | K→σ²K、C→σC、真实ell→σ²ell，fσ=f(σt)、uσ=σ^-2u(σt)，全尾峰不变；每条见证可选不同有限模型，不称同一固定模型固定T无界，不外推带宽/导数/参数盒；未入v006 |
 
+
+2026-10-17T13:37:22.728837+08:00（R005暂存/提交后）：主控通读C030完整独审f24fa3dc并接纳；不同于C025原作者的既有独审链保持，今回只审新缩放接口。C030候选及独审的时域/模态两路一致，固定时长跨模型上确界相等，未入v006。此本地裁决留下一检查点Git，不追改R005冻结testing状态。
+
+2026-10-17T13:38:28.263416+08:00（R005提交后续交接）：主控全文读Rayleigh/common-modal独核cd8fe523及L038后半部定向核查2d22be10，源身份匹配。三异正频共同ζ不能落入两系数族；两异正频共同ζ反可用正系数精确实现，不能误排C006。原文后半部仍两系数，且已有阻尼优化/近虚轴边界，Table3非比例仅数值。‘零点移动/阈值概念新’不成立；物理类完整峰量词与范围是否有实质贡献仍需定位，未宣布首创。作者获此必要补充但C030不扩v006。新增紧参数盒能否恢复固定时长统一界的单项候选任务，仅解析可行性，不提前认定结果。
+
+| C031 v1 | 固定正m/k参数紧盒、预给z>0/κ>1、输入支撑[0,2Tfix]，跨盒内真实三层topcut存在统一有限完整峰比界 | supported | ideation/theory-session002/compact-parameter-box-duration-candidate.md SHAc2dbf3c0b9f72b12b4cafe1bb2d4dd6370af99d200e874179029b21aded5cb18；experiments/theory-session002/compact-parameter-box-duration-review.md SHAd606a24d298790cbc4237357b00da852be72ea4c3e96bd86fbf8e329804d9c2e；不同作者独审及主控全文/关键分母-核-Gramian-Lyapunov-全尾接口复核，mathematical-proof/reviewed | 不能直接max逐点常数；z≤U用固定z改写/73/81及紧族包络，z>U调用C029。常数仅存在量，无认证数值/工程安全意义；若盒含临界模型仍不能删除输入时长限制；未入v006 |
+
+2026-10-17T13:47:09.033031+08:00：主控通读theory-v006-integration-review.md SHA76fb818df15ee719337d2aed85c28d67fba833ad56e85f5f0448616a87ecc68f，结合自身全差异及audit_v006.py实际退出0接纳v006数学整合。稿SHA7c40bc8f602293b8e1d9789a6ad7cb71fd67e2fbe7776ad26379ce160c50b9f1，C028/C029已入，C027/C030/C031未入。47映射身份/85有序式号/原13公式体/旧A—F仅指向变化均核准。后到文献状态附记与数学接纳分别记录，不倒改冻结稿。贡献边界卡002 SHA4908e9776b4ae606919ec77fff4db04a7a40ba660019fd3e00ec35be5eae8274已全文diff核准，001保留但不当当前定位。
+
+2026-10-17T13:48:51.985214+08:00：主控通读C031完整独审d606a24d并接纳，正紧盒/固定zκTfix/全部实L1/全尾，常数只存在量。非原作者通过不替换任何旧C025独审；此新紧族证明重建r域外核界，不直接max逐点常数。v007范围实际锁定C030/C031及已核2025来源状态，作者获≤8分钟另存；正式[8]只用已核首页书目/文章号，不伪造页码，不改原1–7编号。

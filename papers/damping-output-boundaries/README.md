@@ -2,7 +2,7 @@
 
 用户已选择集中理论主线，第二轮时段12:19:08—14:19:08。题目/期刊/署名未最终确定；旧工程与拟合证据完整保留。
 
-- [当前理论稿v005](manuscript/theory-draft-v005.md)：五主节/两原图；统一固定时长与失谐边界，主控全增量及不同于正文作者的整合审阅均无必修问题。C028范围另已审核，C029新三分法仍待独审，不在本冻结稿内。
+- [当前理论稿v006](manuscript/theory-draft-v006.md)：五主节/两原图；新增全物理类临界阻尼范围及预给基准阻尼的跨模型分类，主控全增量与独立整合审阅均无数学必修问题。后到文献状态另见[冻结后附记](research/roles/writing/theory-session002/v006-postfreeze-literature-note.md)；新缩放与参数盒结果尚未整合。
 - [原混合工作稿v009](manuscript/working-draft-v009.md)：保留原生工程、代理诊断及旧支线证据。
 - [当前选题卡](research/topic-cards/T001.md)与[演变记录](research/topic-cards/events.md)：为什么从初始判据问题推进到统一界、物理反例及失谐边界。
 - [A理论稿/C分层结合稿两版蓝图](research/roles/ideation/topic-options-final-candidate.md)、[待用户决策](research/decisions-pending.md)。
