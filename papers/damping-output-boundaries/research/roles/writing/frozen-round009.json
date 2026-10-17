@@ -1,0 +1,29 @@
+{
+  "role": "writing",
+  "round": "W-R009",
+  "frozen_at": "2026-10-17 10:21:54 +08:00",
+  "frozen_files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/working-draft-v009.md",
+      "sha256": "76dc25e88faae9c95ea411cee58d56371d526eee9f00b59e7d7ef3f0ff3ba028",
+      "bytes": 57170
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/figure-map-v009.json",
+      "sha256": "b65e18196826b65d36caf6376b0ca53b31053a28475e9ea665626691c8e6577a",
+      "bytes": 3025
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/round-009.md",
+      "sha256": "4c4cf704f2d1892ecdddf62d0e07585955248b6e9b3ce6c305d4afc6f6502f35",
+      "bytes": 9174
+    }
+  ],
+  "predecessor": {
+    "path": "papers/damping-output-boundaries/manuscript/working-draft-v008.md",
+    "sha256": "9607ba02e8519dc1972d141b49b1a072b87bc3ea64befa69057eea2522cb179f"
+  },
+  "scope": "C018 fixed detuning bound plus Appendix F; E010 unit six-T sampled table and physical Fig2 replacing E004 plot; C019 exact positive six-branch network for M=I/K(L) with common moving base; Hoagg prior-art boundary and ref8; previous core, IVT and engineering preserved",
+  "encoding": "UTF-8 without BOM, LF",
+  "validation": "Two actual diff reviews, viewed new PNG and L036 pages6/8, links/math/tags/all frozen hashes/six CSV rows/selected and prior figure hashes/PDF hash passed; scoped git diff --check exit 0"
+}

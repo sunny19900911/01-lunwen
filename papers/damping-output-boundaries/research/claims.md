@@ -24,6 +24,7 @@
 | C016 v2 | 对每组固定正m/k标准三层真实topcut，ζ*=sqrt(D/(4S³))且每个固定κ>1，存在固定阻尼对ζ*/κζ*的有限有界共同输入族，使完整峰比无界；同类统一保证的最少有效模态为3 | supported | I009一般完整谱矩/系数、V011一般扩展独审及≤2的V006，root已读全稿并代数核对；mathematical-proof/reviewed | 每状态各阶同一ζ路径；不是任意预定ζ0/逐阶不同阻尼/固定记录/固定时长/仅邻层器件；每层1DOF完整剪切链才可称最少3层，绝对峰BIBO有界 |
 | C017 v1 | 存在固定L*∈(1,20000)，M=I/k=(1,1,L*)真实topcut在各阶共同ζ0=.05、ζ1=.08间有有限有界输入族的完整峰比无界 | supported | I010严格谱压缩/Rayleigh端点、连续性/紧根集IVT定义，V011低阻尼附录双子审，root已读全稿并核方向；mathematical-proof/reviewed | 未求L*小数/唯一或最小刚度；原unit仍.26→.417，新模型不变输入族T变化；一般稠密经典C、非原生工程/天然波/绝对需求发散/邻层器件结论 |
 | C018 v1 | 固定正m/k三层topcut/κ>1/共同ζ路径，ζ0≠ζ*时每个固定对有模型相关有限完整峰界；靠近ζ*的参数族可有任意大有限比，精确ζ*才有该固定对无界输入族 | supported | Routh/显式虚轴条件、proper商与稳定双边核、公共根及同频渐近，ideation便条与verification独审，root已读完整证明；analytic-derivation/reviewed | 机械极点始终稳定；不是同一截断窗/最优界/工程误差容限，不把逐点有限升级为近临界集合统一有界，κ1另为Q=1 |
+| C019 v1 | M=I/k=(1,1,L),∀有限L>0的Cζ=2ζsqrtK可由三对楼层支路及三个接同一移动基底的严格正黏滞系数精确实现，含1↔3，增ζ时系数同比增加 | supported | 独立network-realizability-proof的显式正resolvent/收敛谱积分/六支路恒等式/共同基底坐标，两子审，root已读全稿核余子式与积分；mathematical-proof/reviewed | 适用IVT定义L*而无其系数小数；理想网络非施工/最少器件/仅邻层拓扑，不推广非对角M，topcut仍只弹性部分 |
 
 证据审核状态另记candidate/reviewed/invalidated；数学证明、数值试验、原生ETABS结果和模型预测分别登记。所有反例必须满足原命题前提。
 

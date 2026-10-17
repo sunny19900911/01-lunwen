@@ -1,0 +1,146 @@
+{
+  "round": "R009",
+  "frozen_source_hash_checks": [
+    "papers/damping-output-boundaries/manuscript/working-draft-v008.md",
+    "papers/damping-output-boundaries/manuscript/figure-map-v008.json",
+    "papers/damping-output-boundaries/research/roles/writing/round-008.md",
+    "papers/damping-output-boundaries/manuscript/working-draft-v007.md",
+    "papers/damping-output-boundaries/manuscript/working-draft-v009.md",
+    "papers/damping-output-boundaries/manuscript/figure-map-v009.json",
+    "papers/damping-output-boundaries/research/roles/writing/round-009.md",
+    "papers/damping-output-boundaries/manuscript/working-draft-v008.md",
+    "papers/damping-output-boundaries/experiments/figures/fig04_peak_bound_comparison.png",
+    "papers/damping-output-boundaries/experiments/figures/fig04_peak_bound_comparison.svg",
+    "papers/damping-output-boundaries/experiments/figures-physical-topcut/fig08_physical_topcut_envelope_peaks.png",
+    "papers/damping-output-boundaries/experiments/figures-physical-topcut/fig08_physical_topcut_envelope_peaks.svg",
+    "papers/damping-output-boundaries/experiments/figures/fig01_native_output_changes.png",
+    "papers/damping-output-boundaries/experiments/figures/fig01_native_output_changes.svg"
+  ],
+  "E012_code_and_sources_match": true,
+  "E012_checks": 12,
+  "E012_actual_record_reviewed_not_rerun": true,
+  "E012_trace_and_exact_decimal_width_checked": true,
+  "scope": "JSON/AST/hash/byte checks, not formal mathematical or directed interval certification",
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/experiments/round012_low_damping_bisection.py",
+      "bytes": 11537,
+      "sha256": "6fc6376695d09a81c3816c94205f5efa0a4e109a29662bf2825df67a60d6cd6f"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round012_low_damping_bisection/low_damping_bisection.json",
+      "bytes": 29355,
+      "sha256": "c5bd28e9ede43e4cd9d5f343dca9f57f02aabd1b41d0b713fae7013357a90f88"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round012_low_damping_bisection/run_record.json",
+      "bytes": 1023,
+      "sha256": "e06d60c44491792feb82cc471b04860e7c88600c734fdd34194134c2adf6b8a5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/figure-map-v008.json",
+      "bytes": 2660,
+      "sha256": "4af345dfa66e9ee0cd30ed465c20875a98b2032a2343aa343359af2fa15ff779"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/figure-map-v009.json",
+      "bytes": 3025,
+      "sha256": "b65e18196826b65d36caf6376b0ca53b31053a28475e9ea665626691c8e6577a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/working-draft-v008.md",
+      "bytes": 50049,
+      "sha256": "9607ba02e8519dc1972d141b49b1a072b87bc3ea64befa69057eea2522cb179f"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/working-draft-v009.md",
+      "bytes": 57170,
+      "sha256": "76dc25e88faae9c95ea411cee58d56371d526eee9f00b59e7d7ef3f0ff3ba028"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/claims.md",
+      "bytes": 11941,
+      "sha256": "74e4db463118a21d5eaabdd3a606365cfc55d8957c5d3cb1e418bec80fae9515"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/decisions-pending.md",
+      "bytes": 1523,
+      "sha256": "6c682a0872160a7104f21ba29da9af48293e35ad65c9843857bee9a9b13f8cec"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/round-012-low-damping-bisection.md",
+      "bytes": 4604,
+      "sha256": "082f00dfd15934bb60637b90206c8637615c4be80a6f0fb980fe193cb30951d6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/topic-options-final-candidate.md",
+      "bytes": 6069,
+      "sha256": "7aa1b94b634b06f8110ec81687f86dfc58c12de445d3a29066a17591198ead78"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/contribution-audit-v008.md",
+      "bytes": 5027,
+      "sha256": "431888bf7bb0ffbc59d7f4384ce13788a288965b9d4bcd82985612ecbe57e372"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/manuscript-review-v008.md",
+      "bytes": 3657,
+      "sha256": "8f83290ff2f60c37de5ebd9807141487d591b2bfcd9cd42d0ae2a9cb29d33c67"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/network-realizability-proof.md",
+      "bytes": 4609,
+      "sha256": "e9740e2e4786b163cdc5db8c825c2c7fbdd7cc4b206f0656731444bcbbc2e125"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/frozen-round008.json",
+      "bytes": 1400,
+      "sha256": "18b2e5a3d663f5e46a5ea1f80ba8b3b8e67fed5f6d55370136de76ef9e47ba72"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/frozen-round009.json",
+      "bytes": 1431,
+      "sha256": "729669eadf2c3c245ac055dae67550eb1def5cd37bd98429f6ed433fae8af8a7"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/round-008.md",
+      "bytes": 5474,
+      "sha256": "975eebf9182777abeb36b3670270d459307eefd0ef9c112942c2430915e5987c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/round-009.md",
+      "bytes": 9174,
+      "sha256": "4c4cf704f2d1892ecdddf62d0e07585955248b6e9b3ce6c305d4afc6f6502f35"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/T001.md",
+      "bytes": 2784,
+      "sha256": "75e414bbe156e773f5ac538fdc5d3a4bf9a89d7e6c8ce8aa0cb9de406448ff55"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/events.md",
+      "bytes": 2704,
+      "sha256": "a55855484e49f74274ca18f75ff57c8b4803b92d628180e1f923fb19c64a1eee"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/history/T001/v009.md",
+      "bytes": 2784,
+      "sha256": "75e414bbe156e773f5ac538fdc5d3a4bf9a89d7e6c8ce8aa0cb9de406448ff55"
+    },
+    {
+      "path": "research/sessions/20261017-0847/R009.md",
+      "bytes": 2240,
+      "sha256": "d1d01cf30dd65d3e2fcbd3f70eb0927250abb58694a5687901454db6df290764"
+    },
+    {
+      "path": "research/sessions/20261017-0847/prepare_round009.py",
+      "bytes": 4621,
+      "sha256": "813060733fe5ee7abea1511cc631d70f8cdd1a422e8de7bf289c2d6bb4f35b9a"
+    },
+    {
+      "path": "research/sessions/20261017-0847/status.json",
+      "bytes": 3130,
+      "sha256": "8757a7400da8747ce22da1d29f6502292ecfccecc1dac3d3209396ede6452d12"
+    }
+  ]
+}

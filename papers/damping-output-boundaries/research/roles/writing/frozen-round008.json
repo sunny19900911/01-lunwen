@@ -1,0 +1,29 @@
+{
+  "role": "writing",
+  "round": "W-R008",
+  "frozen_at": "2026-10-17 10:11:14 +08:00",
+  "frozen_files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/working-draft-v008.md",
+      "sha256": "9607ba02e8519dc1972d141b49b1a072b87bc3ea64befa69057eea2522cb179f",
+      "bytes": 50049
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/figure-map-v008.json",
+      "sha256": "4af345dfa66e9ee0cd30ed465c20875a98b2032a2343aa343359af2fa15ff779",
+      "bytes": 2660
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/round-008.md",
+      "sha256": "975eebf9182777abeb36b3670270d459307eefd0ef9c112942c2430915e5987c",
+      "bytes": 5474
+    }
+  ],
+  "predecessor": {
+    "path": "papers/damping-output-boundaries/manuscript/working-draft-v007.md",
+    "sha256": "9124235fb7fd66b482eb6d3e4492c30917908378a1d1baaa5a067ee12ecdf74e"
+  },
+  "scope": "C017 exact 5%-to-8% physical topcut existence corollary and Appendix E IVT proof; C016 v2/unit display/engineering/E007/old appendices and figures preserved; L* only defined as interval root-set minimum, not numerically located or engineering design",
+  "encoding": "UTF-8 without BOM, LF",
+  "validation": "Full sources plus mathematical actual diff and full-manuscript scope reviews; links/math/tags/frozen hashes/A-D/unit/engineering/figure checks passed; git diff --check exit 0"
+}

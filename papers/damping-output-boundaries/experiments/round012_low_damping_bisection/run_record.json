@@ -1,0 +1,27 @@
+{
+  "evidence_id": "E-EXP-012",
+  "recorded_utc": "2026-10-17T02:13:32.913573+00:00",
+  "original_execution": {
+    "exit_code": 0,
+    "finished_utc": "2026-10-17T02:12:58.211814+00:00",
+    "elapsed_seconds": 0.031093400000827387,
+    "python": "3.12.14",
+    "checks_passed": 12,
+    "checks_total": 12
+  },
+  "files": [
+    {
+      "file": "papers/damping-output-boundaries/experiments/round012_low_damping_bisection.py",
+      "bytes": 11537,
+      "sha256": "6fc6376695d09a81c3816c94205f5efa0a4e109a29662bf2825df67a60d6cd6f"
+    },
+    {
+      "file": "papers/damping-output-boundaries/experiments/round012_low_damping_bisection/low_damping_bisection.json",
+      "bytes": 29355,
+      "sha256": "c5bd28e9ede43e4cd9d5f343dca9f57f02aabd1b41d0b713fae7013357a90f88"
+    }
+  ],
+  "source_hashes_match": true,
+  "no_experiment_rerun_for_record": true,
+  "precision_scope": "90/120 working digits; exactly 80 bisections, final interval width about 1.65e-20; not directed-rounding certification."
+}
