@@ -1,0 +1,75 @@
+{
+  "time_Asia_Shanghai": "2026-10-17T09:07:07.408479+08:00",
+  "python_version": "3.13.15",
+  "script_sha256": "65c8e8023e06805a7842111137020fc84f38da7da8dcbfc177ae47e9b7ee5153",
+  "polynomial_helper_sha256": "a1f6c4d811740e1ddea7e28f50f2f56ee443154ac139244b57e2314a574e70e2",
+  "omega": [
+    "1",
+    "2",
+    "3"
+  ],
+  "residues": [
+    "1",
+    "-2",
+    "1"
+  ],
+  "checks": [
+    {
+      "zeta": "1/2",
+      "numerator_ascending": [
+        "22",
+        "12"
+      ],
+      "denominator_ascending": [
+        "36",
+        "66",
+        "85",
+        "54",
+        "25",
+        "6",
+        "1"
+      ],
+      "kernel_right_derivatives_0_to_7": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "12",
+        "-50",
+        "0",
+        "602"
+      ],
+      "relative_degree": 5
+    },
+    {
+      "zeta": "4/5",
+      "numerator_ascending": [
+        "22",
+        "96/5",
+        "78/25"
+      ],
+      "denominator_ascending": [
+        "36",
+        "528/5",
+        "3529/25",
+        "12672/125",
+        "1054/25",
+        "48/5",
+        "1"
+      ],
+      "kernel_right_derivatives_0_to_7": [
+        "0",
+        "0",
+        "0",
+        "78/25",
+        "-1344/125",
+        "-158/25",
+        "123552/625",
+        "-15339562/15625"
+      ],
+      "relative_degree": 4
+    }
+  ],
+  "asymptotic_peak_ratio_coefficient_exact": "13/50",
+  "scope": "Exact algebra only; uniform integration-by-parts argument is in round-003.md. No finite-pulse integration or fixed-record prediction."
+}

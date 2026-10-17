@@ -1,0 +1,124 @@
+{
+  "kind": "independent-exact-polynomial-audit",
+  "run_time_utc": "2026-10-17T00:59:00.666970+00:00",
+  "source_result_sha256": "9ddb78b9becbb7029ee08c737801df1531acd930dedbf4d4e3227f7fb0ad8984",
+  "script_sha256": "d7e92a3a895390e4f243c33e7e60277b753b8a86d0a162db13ba20dfb88d16eb",
+  "frozen_parameters": {
+    "omega": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Omega": 2,
+    "zeta0": "1/20",
+    "zeta1": "2/25",
+    "normalization": "divide raw residues by their maximum absolute value"
+  },
+  "input_raw_residues": [
+    112157750093,
+    856059634,
+    1200202832136,
+    -14884497077588,
+    21794258378750
+  ],
+  "base_numerator_coefficients_ascending": [
+    "2695923403770000",
+    "473728436334720",
+    "12423939126483252/5",
+    "1745896188406464/5",
+    "4342379607649251/5",
+    "428827685139432/5",
+    "2736709125148563/20",
+    "35098443598104/5",
+    "8222977943025"
+  ],
+  "quotient_after_s2plus4_squared": [
+    "168495212735625",
+    "29608027270920",
+    "1421032654264563/20",
+    "35098443598104/5",
+    "8222977943025"
+  ],
+  "factor_remainder": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "quotient_at_2i": [
+    "79281644855562/5",
+    "15292723924368/5"
+  ],
+  "new_numerator_at_2i": [
+    "18531535356014616/3125",
+    "1086073979747328/625"
+  ],
+  "independent_H1": {
+    "real_exact": "-913587513300/416768604484467859",
+    "imag_exact": "191407728404504439/1687079310953125893232",
+    "abs": 0.00011347626068412992
+  },
+  "independent_moment_upper_bounds": {
+    "m0_order2": 161.74353319162083,
+    "m1_order1": 4.053916070804957
+  },
+  "sin4_global_derivative_upper": {
+    "a_prime": 2.356194490192345,
+    "a_second": 9.869604401089358
+  },
+  "improved_analytic_lower_bounds": [
+    {
+      "T": 10000,
+      "P0_upper": 7.981723435178818e-06,
+      "P1_lower": -0.0008417052102891539,
+      "ratio_lower_when_positive": 0.0
+    },
+    {
+      "T": 100000,
+      "P0_upper": 7.981723435178818e-08,
+      "P1_lower": 1.7958113586801538e-05,
+      "ratio_lower_when_positive": 224.99042634893317
+    },
+    {
+      "T": 1000000,
+      "P0_upper": 7.981723435178818e-10,
+      "P1_lower": 0.00010392444597439708,
+      "ratio_lower_when_positive": 130203.0154494683
+    }
+  ],
+  "improper_Q_witness": {
+    "omega": [
+      1,
+      2,
+      3
+    ],
+    "residues": [
+      1,
+      -2,
+      1
+    ],
+    "zeta": [
+      "1/2",
+      "4/5"
+    ],
+    "N0_coefficients_ascending": [
+      "22",
+      "12"
+    ],
+    "N1_coefficients_ascending": [
+      "22",
+      "96/5",
+      "78/25"
+    ],
+    "Q_asymptotic": "13*s/50",
+    "scope": "Shows Q properness must be checked; no pulse peak experiment executed for this witness."
+  },
+  "limitations": [
+    "Exact algebra confirms this witness, not minimum modal dimension.",
+    "No ETABS identification or finite-pulse time integration.",
+    "Only raw integer residues inherited; H1 and moment upper bounds independently recomputed.",
+    "Peak lower bounds describe an input family with active duration 2T; no matching O(T^2) upper bound is proved."
+  ]
+}

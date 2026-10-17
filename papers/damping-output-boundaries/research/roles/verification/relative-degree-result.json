@@ -1,0 +1,57 @@
+{
+  "run_time_utc": "2026-10-17T01:06:32.879936+00:00",
+  "script_sha256": "380802aaecad18fe169aa8765953c9a2f39276e3d87a624bcc55cd2f5258b8bd",
+  "parameters": {
+    "omega": [
+      1,
+      2,
+      3
+    ],
+    "residues": [
+      1,
+      -2,
+      1
+    ],
+    "zeta": [
+      "1/2",
+      "4/5"
+    ]
+  },
+  "base_right_derivatives_orders_0_to_7": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "12",
+    "-50",
+    "0",
+    "602"
+  ],
+  "new_right_derivatives_orders_0_to_7": [
+    "0",
+    "0",
+    "0",
+    "78/25",
+    "-1344/125",
+    "-158/25",
+    "123552/625",
+    "-15339562/15625"
+  ],
+  "base_derivative_L1_upper_orders_0_to_5": [
+    "145/36",
+    "35/6",
+    "10",
+    "20",
+    "45",
+    "110"
+  ],
+  "new_derivative_L1_upper_orders_0_to_5": [
+    "725/216",
+    "175/36",
+    "25/3",
+    "50/3",
+    "75/2",
+    "275/3"
+  ],
+  "scope": "Verifies the right-derivative inputs and integrable derivative bounds of the analytic integration-by-parts proof; no high-frequency pulse time integration."
+}

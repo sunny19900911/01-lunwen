@@ -1,0 +1,387 @@
+{
+  "evidence_id": "E-EXP-002",
+  "finished_utc": "2026-10-17T01:01:49.277063+00:00",
+  "elapsed_seconds": 0.07521209999686107,
+  "code_sha256": "605b01b4d7e822f6ea4a863313ecd4328d92e34497202f1e84773f31a83df3f5",
+  "source_model": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\理论解析突破-20261016\\physical_three_story_search.json",
+  "source_model_sha256": "0d8069ae0b11b4ae1ea1dde426bdd0f95bbb7b6d6bd2f0bcd104ac794e16a5cd",
+  "source_search_script_sha256": "d386a6d027549ab98dd975453839f09530bb7ae3e7065cbcf94f4d1c3bc26316",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "python_executable": "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "model": {
+    "mass": [
+      3.16630758924983,
+      0.1573292663444899,
+      0.5455882700836031
+    ],
+    "stiffness": [
+      0.14949811998805587,
+      0.16119995051536037,
+      6.361338273968553
+    ],
+    "M": [
+      [
+        3.16630758924983,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.1573292663444899,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.5455882700836031
+      ]
+    ],
+    "K": [
+      [
+        0.31069807050341625,
+        -0.16119995051536037,
+        0.0
+      ],
+      [
+        -0.16119995051536037,
+        6.522538224483913,
+        -6.361338273968553
+      ],
+      [
+        0.0,
+        -6.361338273968553,
+        6.361338273968553
+      ]
+    ],
+    "B": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        1.0
+      ]
+    ],
+    "omega": [
+      0.1931259196943795,
+      0.5347165219970786,
+      7.272715060867035
+    ],
+    "residues": [
+      [
+        -0.14353502438126026,
+        -0.005963093651454467,
+        -1.9553411463148264e-09
+      ],
+      [
+        -0.030149819810532115,
+        0.03014763131733174,
+        2.1884932003245307e-06
+      ],
+      [
+        -0.02341835720962864,
+        0.02352903503489912,
+        -0.00011067782527353659
+      ],
+      [
+        -0.11338520457072812,
+        -0.03611072496878621,
+        -2.1904485414708457e-06
+      ],
+      [
+        -0.0067314626009037405,
+        0.00661859628243257,
+        0.00011286631847386112
+      ],
+      [
+        -0.02341835720962864,
+        0.02352903503489912,
+        -0.00011067782527353659
+      ]
+    ],
+    "zeta0": 0.05,
+    "zeta1": 0.08,
+    "C0": [
+      [
+        0.08730764278780662,
+        -0.0064807346935703385,
+        -0.015363125496463407
+      ],
+      [
+        -0.006480734693570338,
+        0.09111700521655357,
+        -0.08239006871385636
+      ],
+      [
+        -0.015363125496463403,
+        -0.08239006871385637,
+        0.10548038646161477
+      ]
+    ],
+    "C1": [
+      [
+        0.13969222846049056,
+        -0.010369175509712539,
+        -0.024581000794341445
+      ],
+      [
+        -0.010369175509712539,
+        0.1457872083464857,
+        -0.1318241099421702
+      ],
+      [
+        -0.024581000794341445,
+        -0.13182410994217023,
+        0.16876861833858361
+      ]
+    ],
+    "added_C_eigenvalues": [
+      0.0075074018813591145,
+      0.053923055162422545,
+      0.10891256363580326
+    ]
+  },
+  "archive_reproduction": {
+    "frequency_rad_s": 3.4134209281098196,
+    "ratio_archived": 1.5993149629327474,
+    "ratio_recomputed_modal": 1.5993149629327161,
+    "ratio_recomputed_physical": 1.5993149629327594,
+    "H0_abs_archived": 6.22496211331712e-06,
+    "H1_abs_archived": 9.955675051517527e-06,
+    "H0_abs_physical": 6.224962113304591e-06,
+    "H1_abs_physical": 9.955675051497564e-06,
+    "residue_max_abs_difference": 3.0913721018807627e-15
+  },
+  "frequency_domain_rad_s": [
+    0.13518814378606564,
+    10.909072591300552
+  ],
+  "dense_grid_n": 200001,
+  "maxima": [
+    {
+      "output": "cut1",
+      "coarse360_max_ratio": 1.084143854354755,
+      "coarse360_peak_frequency_rad_s": 0.5127414155432204,
+      "dense200001_max_ratio": 1.084506179390241,
+      "refined_ratio": 1.0845061838774794,
+      "refined_frequency_rad_s": 0.5114187151820346,
+      "physical_ratio": 1.0845061838774874,
+      "H0_abs": 0.5512194259370387,
+      "H1_abs": 0.5978008761021171,
+      "H0_complex_relative_discrepancy": 5.868929627783926e-14,
+      "H1_complex_relative_discrepancy": 4.351907457987181e-14,
+      "physical_solve_relative_residual": 4.220945481699922e-15,
+      "baseline_chi": 1.0,
+      "kappa_over_chi": 1.5999999999999999,
+      "residue_signs": "-,-,-",
+      "found_local_maxima": 1
+    },
+    {
+      "output": "cut2",
+      "coarse360_max_ratio": 1.4365464753649928,
+      "coarse360_peak_frequency_rad_s": 10.90907259130055,
+      "dense200001_max_ratio": 1.4365464753649928,
+      "refined_ratio": 1.4365464753649928,
+      "refined_frequency_rad_s": 10.90907259130055,
+      "physical_ratio": 1.4365464753641297,
+      "H0_abs": 9.672650259878131e-07,
+      "H1_abs": 1.3895211638257862e-06,
+      "H0_complex_relative_discrepancy": 9.070810833243716e-13,
+      "H1_complex_relative_discrepancy": 1.312390067635927e-13,
+      "physical_solve_relative_residual": 2.7839005125845517e-16,
+      "baseline_chi": 0.0019063673441289991,
+      "kappa_over_chi": 839.2925974773369,
+      "residue_signs": "-,+,+",
+      "found_local_maxima": 2
+    },
+    {
+      "output": "cut3",
+      "coarse360_max_ratio": 1.4118928702611697,
+      "coarse360_peak_frequency_rad_s": 10.90907259130055,
+      "dense200001_max_ratio": 1.4118928702611697,
+      "refined_ratio": 1.4118928702611697,
+      "refined_frequency_rad_s": 10.90907259130055,
+      "physical_ratio": 1.411892870250776,
+      "H0_abs": 5.277372770642854e-07,
+      "H1_abs": 7.451084988526229e-07,
+      "H0_complex_relative_discrepancy": 1.996788138591976e-11,
+      "H1_complex_relative_discrepancy": 7.039588131147024e-11,
+      "physical_solve_relative_residual": 2.7839005125845517e-16,
+      "baseline_chi": 0.0013303999521944567,
+      "kappa_over_chi": 1202.6458640206997,
+      "residue_signs": "-,+,-",
+      "found_local_maxima": 2
+    },
+    {
+      "output": "net1",
+      "coarse360_max_ratio": 1.4360048771341007,
+      "coarse360_peak_frequency_rad_s": 0.47067105791966696,
+      "dense200001_max_ratio": 1.4406934878469777,
+      "refined_ratio": 1.440693493328875,
+      "refined_frequency_rad_s": 0.4729884567563263,
+      "physical_ratio": 1.4406934933289,
+      "H0_abs": 0.25641498658885414,
+      "H1_abs": 0.3694154027705793,
+      "H0_complex_relative_discrepancy": 4.688189880396589e-13,
+      "H1_complex_relative_discrepancy": 2.821466720831283e-13,
+      "physical_solve_relative_residual": 4.52599818102226e-15,
+      "baseline_chi": 1.0,
+      "kappa_over_chi": 1.5999999999999999,
+      "residue_signs": "-,-,-",
+      "found_local_maxima": 2
+    },
+    {
+      "output": "net2",
+      "coarse360_max_ratio": 1.5993149629327157,
+      "coarse360_peak_frequency_rad_s": 3.4134209281098395,
+      "dense200001_max_ratio": 1.5993161160874139,
+      "refined_ratio": 1.5993161171262424,
+      "refined_frequency_rad_s": 3.4144244582908976,
+      "physical_ratio": 1.59931611712264,
+      "H0_abs": 6.2196351471786725e-06,
+      "H1_abs": 9.947162733505294e-06,
+      "H0_complex_relative_discrepancy": 3.536308891408756e-11,
+      "H1_complex_relative_discrepancy": 1.0554245097037154e-11,
+      "physical_solve_relative_residual": 1.423013040345834e-16,
+      "baseline_chi": 0.005369018993298972,
+      "kappa_over_chi": 298.00602344617266,
+      "residue_signs": "-,+,+",
+      "found_local_maxima": 2
+    },
+    {
+      "output": "net3",
+      "coarse360_max_ratio": 1.4118928702611697,
+      "coarse360_peak_frequency_rad_s": 10.90907259130055,
+      "dense200001_max_ratio": 1.4118928702611697,
+      "refined_ratio": 1.4118928702611697,
+      "refined_frequency_rad_s": 10.90907259130055,
+      "physical_ratio": 1.411892870250776,
+      "H0_abs": 5.277372770642854e-07,
+      "H1_abs": 7.451084988526229e-07,
+      "H0_complex_relative_discrepancy": 1.9988814172416474e-11,
+      "H1_complex_relative_discrepancy": 7.040627251060737e-11,
+      "physical_solve_relative_residual": 2.7839005125845517e-16,
+      "baseline_chi": 0.0013303999521944567,
+      "kappa_over_chi": 1202.6458640206997,
+      "residue_signs": "-,+,-",
+      "found_local_maxima": 2
+    }
+  ],
+  "local_candidates": [
+    {
+      "output": "cut1",
+      "bracket_lo_rad_s": 0.5114122494523569,
+      "bracket_hi_rad_s": 0.511434704433988,
+      "frequency_rad_s": 0.5114187151820346,
+      "modal_ratio": 1.0845061838774794
+    },
+    {
+      "output": "cut2",
+      "bracket_lo_rad_s": 0.32434842458260243,
+      "bracket_hi_rad_s": 0.3243626660051024,
+      "frequency_rad_s": 0.32435762423023695,
+      "modal_ratio": 0.9880095702034047
+    },
+    {
+      "output": "cut2",
+      "bracket_lo_rad_s": 6.894655217797857,
+      "bracket_hi_rad_s": 6.894957946870995,
+      "frequency_rad_s": 6.894833405903366,
+      "modal_ratio": 1.3442910020743744
+    },
+    {
+      "output": "cut3",
+      "bracket_lo_rad_s": 0.3243128237619011,
+      "bracket_hi_rad_s": 0.3243270636212477,
+      "frequency_rad_s": 0.3243206535827447,
+      "modal_ratio": 0.9879973343288759
+    },
+    {
+      "output": "cut3",
+      "bracket_lo_rad_s": 3.9801457438277223,
+      "bracket_hi_rad_s": 3.980320503231045,
+      "frequency_rad_s": 3.9802231121976903,
+      "modal_ratio": 1.0906071980171668
+    },
+    {
+      "output": "net1",
+      "bracket_lo_rad_s": 0.472975607982117,
+      "bracket_hi_rad_s": 0.4729963752957677,
+      "frequency_rad_s": 0.4729884567563263,
+      "modal_ratio": 1.440693493328875
+    },
+    {
+      "output": "net1",
+      "bracket_lo_rad_s": 7.030845693097367,
+      "bracket_hi_rad_s": 7.031154401993288,
+      "frequency_rad_s": 7.030953567182054,
+      "modal_ratio": 1.0000150376624775
+    },
+    {
+      "output": "net2",
+      "bracket_lo_rad_s": 0.3244837433459897,
+      "bracket_hi_rad_s": 0.3244979907100375,
+      "frequency_rad_s": 0.3244896019259245,
+      "modal_ratio": 0.9880528033697897
+    },
+    {
+      "output": "net2",
+      "bracket_lo_rad_s": 3.4143795786114657,
+      "bracket_hi_rad_s": 3.414529496472841,
+      "frequency_rad_s": 3.4144244582908976,
+      "modal_ratio": 1.5993161171262424
+    },
+    {
+      "output": "net3",
+      "bracket_lo_rad_s": 0.3243128237619011,
+      "bracket_hi_rad_s": 0.3243270636212477,
+      "frequency_rad_s": 0.3243206564115719,
+      "modal_ratio": 0.9879973343288759
+    },
+    {
+      "output": "net3",
+      "bracket_lo_rad_s": 3.9801457438277223,
+      "bracket_hi_rad_s": 3.980320503231045,
+      "frequency_rad_s": 3.980223112212115,
+      "modal_ratio": 1.090607198017169
+    }
+  ],
+  "checks": {
+    "M_K_positive_definite": true,
+    "C0_and_added_C_positive_definite": true,
+    "modal_mass_orthonormal_below_1e-12": true,
+    "archive_ratio_reproduced_below_1e-10": true,
+    "all_refined_modal_physical_complex_matches_below_1e-8": true,
+    "all_direct_solve_residuals_below_1e-12": true,
+    "net_output_is_adjacent_cut_difference": true,
+    "elapsed_below_300_seconds": true
+  },
+  "largest_refined": {
+    "output": "net2",
+    "coarse360_max_ratio": 1.5993149629327157,
+    "coarse360_peak_frequency_rad_s": 3.4134209281098395,
+    "dense200001_max_ratio": 1.5993161160874139,
+    "refined_ratio": 1.5993161171262424,
+    "refined_frequency_rad_s": 3.4144244582908976,
+    "physical_ratio": 1.59931611712264,
+    "H0_abs": 6.2196351471786725e-06,
+    "H1_abs": 9.947162733505294e-06,
+    "H0_complex_relative_discrepancy": 3.536308891408756e-11,
+    "H1_complex_relative_discrepancy": 1.0554245097037154e-11,
+    "physical_solve_relative_residual": 1.423013040345834e-16,
+    "baseline_chi": 0.005369018993298972,
+    "kappa_over_chi": 298.00602344617266,
+    "residue_signs": "-,+,+",
+    "found_local_maxima": 2
+  },
+  "boundary": "One fixed model and a finite frequency interval. Dense scan plus local golden refinement is not a certified global upper bound. Harmonic amplitude ratios do not establish finite-record or all-input peak ratios."
+}

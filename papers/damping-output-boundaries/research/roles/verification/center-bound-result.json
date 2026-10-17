@@ -1,0 +1,50 @@
+{
+  "run_time_utc": "2026-10-17T01:03:55.103271+00:00",
+  "input_sha256": "3e822bc55adbb994a74801b619b170f96057a2d42fa60f04951de41c4150e63c",
+  "script_sha256": "d33a572a939685bcb308fa3ceca69fc7ba219be9219a8896ddf0339640952dfd",
+  "m02_rational_upper": "38023249452603100/234907234509519",
+  "m12_rational_upper": "1188226545393846875/30007869251652864",
+  "m02_upper_approx": 161.86495716913439,
+  "m12_upper_approx": 39.597164844631486,
+  "safe_outer_bounds": {
+    "m02": 162,
+    "m12": 40,
+    "pi_squared_upper": 10,
+    "H1_abs_lower": "113/1000000"
+  },
+  "rows": [
+    {
+      "T": 1920,
+      "support_duration": 3840,
+      "P0_upper_exact": "9/40960",
+      "P1_lower_exact": "16919/288000000",
+      "ratio_lower_exact": "67676/253125",
+      "ratio_lower_approx": 0.267361975308642
+    },
+    {
+      "T": 3000,
+      "support_duration": 6000,
+      "P0_upper_exact": "9/100000",
+      "P1_lower_exact": "817/9000000",
+      "ratio_lower_exact": "817/810",
+      "ratio_lower_approx": 1.008641975308642
+    },
+    {
+      "T": 4800,
+      "support_duration": 9600,
+      "P0_upper_exact": "9/256000",
+      "P1_lower_exact": "7511/72000000",
+      "ratio_lower_exact": "30044/10125",
+      "ratio_lower_approx": 2.9673086419753085
+    },
+    {
+      "T": 10000,
+      "support_duration": 20000,
+      "P0_upper_exact": "81/10000000",
+      "P1_lower_exact": "111/1000000",
+      "ratio_lower_exact": "370/27",
+      "ratio_lower_approx": 13.703703703703704
+    }
+  ],
+  "scope": "Analytic lower bounds for a varying-duration sin^4 input family; no time-history integration, no matching upper growth rate, no ETABS result."
+}

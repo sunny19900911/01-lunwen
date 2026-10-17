@@ -1,0 +1,198 @@
+{
+  "run_time_utc": "2026-10-17T01:01:00.035433+00:00",
+  "input_sha256": "c27ba79e4330f4a717c434188222a5f0ea7d0187cc374f5fa9e7dc5025f52671",
+  "script_sha256": "d7bbe5c8426fe801a03a5cb448e8e66a4750412bd395c41369b3cceb788a5a06",
+  "positive_beta_kernel_checks": [
+    {
+      "alpha": 1e-07,
+      "beta": 0.01,
+      "TV_closed": 6366197.723676379,
+      "alpha_times_TV": 0.6366197723676379
+    },
+    {
+      "alpha": 0.0001,
+      "beta": 0.01,
+      "TV_closed": 6366.198288781073,
+      "alpha_times_TV": 0.6366198288781073
+    },
+    {
+      "alpha": 0.005000000000000001,
+      "beta": 0.01,
+      "TV_closed": 127.35224413917703,
+      "alpha_times_TV": 0.6367612206958853
+    },
+    {
+      "alpha": 0.05,
+      "beta": 0.01,
+      "TV_closed": 13.054119575917436,
+      "alpha_times_TV": 0.6527059787958719
+    },
+    {
+      "alpha": 0.0999999,
+      "beta": 0.01,
+      "TV_closed": 7.357593728491168,
+      "alpha_times_TV": 0.735758637089744
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.01,
+      "TV_closed": 7.357588823428846,
+      "alpha_times_TV": 0.7357588823428847
+    },
+    {
+      "alpha": 0.1000001,
+      "beta": 0.01,
+      "TV_closed": 7.357583918372682,
+      "alpha_times_TV": 0.73575912759566
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.01,
+      "TV_closed": 4.371211845958518,
+      "alpha_times_TV": 0.8742423691917036
+    },
+    {
+      "alpha": 1.0,
+      "beta": 0.01,
+      "TV_closed": 0.9875087946213692,
+      "alpha_times_TV": 0.9875087946213692
+    },
+    {
+      "alpha": 100.0,
+      "beta": 0.01,
+      "TV_closed": 0.009999964495524415,
+      "alpha_times_TV": 0.9999964495524415
+    },
+    {
+      "alpha": 1e-06,
+      "beta": 1.0,
+      "TV_closed": 636619.772367638,
+      "alpha_times_TV": 0.6366197723676379
+    },
+    {
+      "alpha": 0.001,
+      "beta": 1.0,
+      "TV_closed": 636.6198288781073,
+      "alpha_times_TV": 0.6366198288781073
+    },
+    {
+      "alpha": 0.05,
+      "beta": 1.0,
+      "TV_closed": 12.735224413917706,
+      "alpha_times_TV": 0.6367612206958854
+    },
+    {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "TV_closed": 1.3054119575917438,
+      "alpha_times_TV": 0.6527059787958719
+    },
+    {
+      "alpha": 0.999999,
+      "beta": 1.0,
+      "TV_closed": 0.7357593728491169,
+      "alpha_times_TV": 0.735758637089744
+    },
+    {
+      "alpha": 1.0,
+      "beta": 1.0,
+      "TV_closed": 0.7357588823428847,
+      "alpha_times_TV": 0.7357588823428847
+    },
+    {
+      "alpha": 1.000001,
+      "beta": 1.0,
+      "TV_closed": 0.7357583918372753,
+      "alpha_times_TV": 0.7357591275956671
+    },
+    {
+      "alpha": 2.0,
+      "beta": 1.0,
+      "TV_closed": 0.4371211845958518,
+      "alpha_times_TV": 0.8742423691917036
+    },
+    {
+      "alpha": 10.0,
+      "beta": 1.0,
+      "TV_closed": 0.09875087946213691,
+      "alpha_times_TV": 0.9875087946213691
+    },
+    {
+      "alpha": 1000.0,
+      "beta": 1.0,
+      "TV_closed": 0.0009999964495524415,
+      "alpha_times_TV": 0.9999964495524415
+    },
+    {
+      "alpha": 9.999999999999999e-06,
+      "beta": 100.0,
+      "TV_closed": 63661.9772367638,
+      "alpha_times_TV": 0.6366197723676379
+    },
+    {
+      "alpha": 0.01,
+      "beta": 100.0,
+      "TV_closed": 63.66198288781072,
+      "alpha_times_TV": 0.6366198288781072
+    },
+    {
+      "alpha": 0.5,
+      "beta": 100.0,
+      "TV_closed": 1.2735224413917707,
+      "alpha_times_TV": 0.6367612206958854
+    },
+    {
+      "alpha": 5.0,
+      "beta": 100.0,
+      "TV_closed": 0.1305411957591744,
+      "alpha_times_TV": 0.652705978795872
+    },
+    {
+      "alpha": 9.99999,
+      "beta": 100.0,
+      "TV_closed": 0.07357593728491169,
+      "alpha_times_TV": 0.735758637089744
+    },
+    {
+      "alpha": 10.0,
+      "beta": 100.0,
+      "TV_closed": 0.07357588823428847,
+      "alpha_times_TV": 0.7357588823428847
+    },
+    {
+      "alpha": 10.00001,
+      "beta": 100.0,
+      "TV_closed": 0.07357583918372558,
+      "alpha_times_TV": 0.7357591275956477
+    },
+    {
+      "alpha": 20.0,
+      "beta": 100.0,
+      "TV_closed": 0.04371211845958518,
+      "alpha_times_TV": 0.8742423691917035
+    },
+    {
+      "alpha": 100.0,
+      "beta": 100.0,
+      "TV_closed": 0.009875087946213692,
+      "alpha_times_TV": 0.9875087946213692
+    },
+    {
+      "alpha": 10000.0,
+      "beta": 100.0,
+      "TV_closed": 9.999964495524413e-05,
+      "alpha_times_TV": 0.9999964495524414
+    }
+  ],
+  "two_mode_exact_identity_checks": 240,
+  "branches_covered": [
+    "a=0",
+    "ac<0",
+    "ac>0",
+    "b=0",
+    "c=0"
+  ],
+  "opposite_pole_exact_partial_fraction_checks": 15,
+  "B_at_kappa_1_6": 21.250000000000004,
+  "scope": "Boundary checks supplement the analytic proof in round-002.md; no numerical scan is a universal proof; no ETABS data."
+}

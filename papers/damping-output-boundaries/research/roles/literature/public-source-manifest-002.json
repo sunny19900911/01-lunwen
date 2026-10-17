@@ -1,0 +1,55 @@
+{
+  "version": "002",
+  "checked_at": "2026-10-17T09:08:00+08:00",
+  "frozen_prior_manifest": "public-source-manifest-001.json",
+  "sources": [
+    {
+      "id": "L015",
+      "title": "Non-minimum Phase Zeros of Two-DoF Damped Flexible Systems",
+      "authors": ["Siddharth Rath", "Shorya Awtar"],
+      "publication": "IFAC-PapersOnLine 54(20) (2021), 579-585",
+      "doi": "10.1016/j.ifacol.2021.11.234",
+      "source_url": "https://psdl.engin.umich.edu/pdf/C46.pdf",
+      "local_cache_relative": "local-cache/L015-RathAwtar2021.pdf",
+      "version": "author-hosted manuscript; no printed journal page numbers in PDF",
+      "sha256": "5ff0ae1f328473ee293bf094a70f2cec4d770251c69455bfefbb1d5c0618b12a",
+      "bytes": 303805,
+      "pdf_pages": 7,
+      "visually_checked_pdf_pages_1based": [4, 5],
+      "text_read_pdf_pages_1based": [1, 2, 3, 4, 5, 6],
+      "retrieval": "Invoke-WebRequest; normal OS TLS validation; public author institution; 2026-10-17",
+      "status": "full-text-local"
+    },
+    {
+      "id": "L016",
+      "title": "On the zeros of three-DoF damped flexible systems",
+      "authors": ["Siddharth Rath", "Shorya Awtar"],
+      "publication": "Journal of Sound and Vibration 560 (2023), 117698",
+      "doi": "10.1016/j.jsv.2023.117698",
+      "source_url": "https://par.nsf.gov/servlets/purl/10451384",
+      "local_cache_relative": "local-cache/L016-RathAwtar2023.pdf",
+      "version": "published journal PDF; available online 11 April 2023",
+      "sha256": "26d61b5fc57d1bd9c3884156aecaef724753a8443ad6f5259dcf0ce49b338bcd",
+      "bytes": 1343092,
+      "pdf_pages": 15,
+      "visually_checked_pdf_pages_1based": [3, 4],
+      "text_read_pdf_pages_1based": [1, 2, 3, 4, 14],
+      "retrieval": "Invoke-WebRequest; normal OS TLS validation; NSF Public Access Repository; 2026-10-17",
+      "status": "full-text-local"
+    },
+    {
+      "id": "L004-addendum",
+      "source_manifest": "public-source-manifest-001.json",
+      "visually_checked_pdf_pages_1based_added": [7],
+      "printed_page": 530,
+      "correction": "round-001 mistakenly called the printed page 7; PDF page 7 is printed page 530"
+    }
+  ],
+  "failed_paths": [
+    {
+      "url": "https://psdl-dev.engin.umich.edu/wp-content/uploads/sites/561/2022/02/J41.pdf",
+      "result": "web open returned HTTP 403; native download TLS failure; no full text obtained",
+      "version_warning": "lab webpage lists J41 as a 2021 in-review manuscript; do not silently substitute the 2023 published article as the identical text"
+    }
+  ]
+}

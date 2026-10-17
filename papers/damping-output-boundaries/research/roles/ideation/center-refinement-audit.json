@@ -1,0 +1,61 @@
+{
+  "time_Asia_Shanghai": "2026-10-17T09:05:14.761845+08:00",
+  "python_version": "3.13.15",
+  "source": "double-zero-result.json",
+  "source_sha256": "9ddb78b9becbb7029ee08c737801df1531acd930dedbf4d4e3227f7fb0ad8984",
+  "script_sha256": "057ef1458f1e1baf26ab542885ef28a1a46e790253a08437a9f8ec74e04d8e63",
+  "m02_rational_upper": "38023249452603100/234907234509519",
+  "m12_rational_upper": "1188226545393846875/30007869251652864",
+  "m02_upper_approx": 161.86495716913439,
+  "m12_upper_approx": 39.597164844631486,
+  "H1_imag_exact": "191407728404504439/1687079310953125893232",
+  "curvature_factor_values": [
+    "0",
+    "9/16",
+    "-1"
+  ],
+  "first_integer_T_guaranteeing_ratio_above_one_under_outer_bounds": 2990,
+  "rows": [
+    {
+      "T_s": 1920,
+      "input_duration_s": 3840,
+      "P0_strict_upper": "9/40960",
+      "P1_strict_lower": "16919/288000000",
+      "ratio_strict_lower": "67676/253125",
+      "ratio_approx": 0.267361975308642
+    },
+    {
+      "T_s": 2990,
+      "input_duration_s": 5980,
+      "P0_strict_upper": "81/894010",
+      "P1_strict_lower": "8102313/89401000000",
+      "ratio_strict_lower": "900257/900000",
+      "ratio_approx": 1.0002855555555556
+    },
+    {
+      "T_s": 3000,
+      "input_duration_s": 6000,
+      "P0_strict_upper": "9/100000",
+      "P1_strict_lower": "817/9000000",
+      "ratio_strict_lower": "817/810",
+      "ratio_approx": 1.008641975308642
+    },
+    {
+      "T_s": 4800,
+      "input_duration_s": 9600,
+      "P0_strict_upper": "9/256000",
+      "P1_strict_lower": "7511/72000000",
+      "ratio_strict_lower": "30044/10125",
+      "ratio_approx": 2.9673086419753085
+    },
+    {
+      "T_s": 10000,
+      "input_duration_s": 20000,
+      "P0_strict_upper": "81/10000000",
+      "P1_strict_lower": "111/1000000",
+      "ratio_strict_lower": "370/27",
+      "ratio_approx": 13.703703703703704
+    }
+  ],
+  "scope": "Exact arithmetic audit of an analytic varying-input-family bound; no time integration or engineering prediction."
+}

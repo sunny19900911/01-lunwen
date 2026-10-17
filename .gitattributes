@@ -1,0 +1,6 @@
+# Evidence manifests hash exact file bytes; avoid CRLF/LF conversion on transfer.
+papers/** -text
+research/** -text
+# Preserve frozen EOF layout while still checking ordinary trailing whitespace.
+papers/** whitespace=-blank-at-eof,blank-at-eol,space-before-tab,cr-at-eol
+research/** whitespace=-blank-at-eof,blank-at-eol,space-before-tab,cr-at-eol

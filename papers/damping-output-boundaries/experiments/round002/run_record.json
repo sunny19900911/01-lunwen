@@ -1,0 +1,30 @@
+{
+  "cwd": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen",
+  "python_executable": "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "runs": [
+    {
+      "command": "& 'C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' 'papers/damping-output-boundaries/experiments/round002_frequency_refinement.py'",
+      "exit_code": 0,
+      "elapsed_seconds": 0.07521209999686107,
+      "finished_utc": "2026-10-17T01:01:49.277063+00:00",
+      "script_sha256": "605b01b4d7e822f6ea4a863313ecd4328d92e34497202f1e84773f31a83df3f5",
+      "result_sha256": "a04746a9329ac2b270b07bc15bd4fcb804e39778fbc8582898d9563ca8e210d0",
+      "n_checks": 8,
+      "all_checks_passed": true
+    },
+    {
+      "command": "& 'C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' 'papers/damping-output-boundaries/experiments/round002_extended_frequency_check.py'",
+      "exit_code": 0,
+      "elapsed_seconds": 0.07039169999916339,
+      "finished_utc": "2026-10-17T01:05:12.925304+00:00",
+      "script_sha256": "22231c8ec3aa347e19385671a5cc4f4832053c9ed7c414c5ba46bfe0db4e69cc",
+      "result_sha256": "144d846113990169cefcfa5717a339c85bdc1eb5b37d8a1d9074079fec46827e",
+      "n_checks": 7,
+      "all_checks_passed": true
+    }
+  ],
+  "frozen_round001_checks": {
+    "round001_result_matches_frozen_run_record": true,
+    "round001_script_matches_frozen_run_record": true
+  }
+}
