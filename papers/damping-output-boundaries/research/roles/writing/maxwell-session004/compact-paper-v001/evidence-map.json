@@ -1,0 +1,97 @@
+{
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v001.md",
+    "bytes": 9409,
+    "sha256": "560d950d3ede543a3ddb78b937803ad750dec1d685a9d16d62ea8a8c90be6d78"
+  },
+  "input_freeze": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\compact-paper-v001\\input-freeze.json",
+    "bytes": 13495,
+    "sha256": "a9e13c9436d95fdfd5a79850a7e76f9380637ade614baea3cfd209a80e0c4007"
+  },
+  "current_authorities": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R014-adoption.json",
+      "bytes": 52012,
+      "sha256": "f18681bd9105561bcc76dc42c6e7a89017f9572c93645ed119636cf4873968d8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R015-adoption.json",
+      "bytes": 21815,
+      "sha256": "dd53e05f424b7b854edda30b256653af55ca6211e45a517245723d46fd306e5a"
+    }
+  ],
+  "mapping": [
+    {
+      "section": "1/2/3 andTable1",
+      "sources": [
+        "papers/damping-output-boundaries/manuscript/maxwell-engineering-draft-v010.md",
+        "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R014-contribution-card/report.md"
+      ],
+      "scope": "Singlecontrolledmodel,sixcasesfromthreewavefamilies;nativeenergy/reference5percent,193completecombinations/shared32and192conditionalfit,negativebias/sparseDriftandmicroomission scale;notprediction/actualparameters."
+    },
+    {
+      "section": "4/Table2 andcertificateconditions",
+      "sources": [
+        "papers/damping-output-boundaries/manuscript/maxwell-engineering-draft-v010.md",
+        "research/sessions/20261017-2109/R011-nonlinear-certificate-adoption.json",
+        "research/sessions/20261017-2109/R012-adoption.json",
+        "research/sessions/20261017-2109/R013-addition-certificate-adoption.json"
+      ],
+      "scope": "Distinctswapandadditionmodels;safeoutwarddecimals/fullmachinecontract/privateNPZ;fixedoutput/alltimeversusfixedtruepoint;notglobalsuperiority oractualengineering."
+    },
+    {
+      "section": "4/C028",
+      "sources": [
+        "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R016-mechanism-contribution-boundary/report.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R029-modal-sign-corollary/report.md"
+      ],
+      "scope": "AbsoluteDmodalcoordinates atsamefixedtruepoint,continuouscumulativework andtotalpassivity;notdifferenceq/newmechanism."
+    },
+    {
+      "section": "4/equation2 C029",
+      "sources": [
+        "papers/damping-output-boundaries/manuscript/maxwell-force-response-interface-v001.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R030-force-target-interface-review/report.md"
+      ],
+      "scope": "KnowntruecompleteDforce classicalconditionaldisplacementdifference;referencepairing,actualFNAandremaindersgates."
+    },
+    {
+      "section": "4/equation3 C030",
+      "sources": [
+        "research/sessions/20261017-2109/R015-adoption.json",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R032-target-peak-decision-review/report.md"
+      ],
+      "scope": "Finitewindow uniformreference/contribution/remaindererror;certifiedcenterpeakintervals;strictseparation sufficient,overlapinconclusive;samplinggap gate."
+    },
+    {
+      "section": "4/C031",
+      "sources": [
+        "research/sessions/20261017-2109/R015-adoption.json",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R031-force-replay-review/report.md",
+        "research/sessions/20261017-2109/R014-force-replay-FFT/report.md",
+        "research/sessions/20261017-2109/R014-force-replay-FFT/summary.json",
+        "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R020-force-replay-FFT-review/R020-force-replay-FFT-review.md"
+      ],
+      "scope": "Finite same-sourceforceimplementationdiagnostic;FFTtraversed98305againstD;betweenalgorithmcomparison exactly4stats+8fixedpointvalues,notcompletepredictionpointwisecomparison."
+    },
+    {
+      "section": "5",
+      "sources": [
+        "papers/damping-output-boundaries/manuscript/maxwell-force-response-interface-v001.md",
+        "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R014-contribution-card/report.md",
+        "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R016-mechanism-contribution-boundary/report.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R032-target-peak-decision-review/report.md"
+      ],
+      "scope": "Knownmethods/specificauditandbenchmarkincrements/unknownpublicationcoverage;realdesignvalue requirespredefinedfairpairvalidation."
+    }
+  ],
+  "history_vs_current": "R014/R016 contribution cards pending C027 orR019 labels arehistorical;current numerical admission follows laterrootR013/R015. Originalrecords unchanged.",
+  "excluded": [
+    "R024 feedback closure",
+    "R025 asymmetric neighborhood",
+    "R033 notadopted",
+    "RH4X single-stream filter notadopted"
+  ],
+  "no_diff": "Firstcompactversion;no previous version,so no fabricated diff."
+}

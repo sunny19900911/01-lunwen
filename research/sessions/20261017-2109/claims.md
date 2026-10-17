@@ -133,3 +133,6 @@ M-C009 proposed/analytic-derivation candidate：在已知单轴Maxwell本构、�
 
 
 2026-10-18T03:30:45.058175+08:00 R016：M-C032 supported/analytic-derivation reviewed，R024/R033与根全文/源身份准入经典全端口反馈Volterra条件等价，保留交叉核、尺度、非零初态和正则性；未证明算法收敛或实际接口可跑。M-C033 supported/analytic-derivation+继承validated-numerics reviewed：R025/R034+根完整推导与62小文件身份/精确有理检查准入固定一维|a|≤1e−6族A全峰<1.35/B固定T>8.80/gap>7.45。H完整状态半径来自原三角式sqrt上端+I而非输出尾；固定物理C0不重设每阶5%，非零a不保能量/器件同史，仅排除峰差限精确对称孤立点，不是工程容差或有限精度能量非辨识。RH4X导出筛选经角色3独审及根代码/小CSV计数准入网格派生清单，P-I/P-J各33完整、U1 65完整，需补P55/Keff路线U1 23，原双键仍unknown需预览。M-C034 proposed/analytic-derivation candidate为经典BE端口步/离散能量合同；M-C035 testing/numerical-test candidate为仅模型输入的两档前向BE小试，作者报预设细档u1误差门未过，根实现审与独审未完成，不作真实精度或实际建筑结论。
+
+
+2026-10-18T03:45:59.051668+08:00 R017：M-C034经R026/R036及根全文准入经典BE精确每步合同，交叉端口/强凸唯一/三项数值耗散和残差功符号保持；非连续收敛/浮点全窗精度。M-C035仅finite numerical-test与静态/小输出审核范围接纳，细全节点u1 max=.1568431881>.1失败、u2=.02020955669通过。根及独审未重算全时程max/RMS；实现的identity余差含未分出运动学舍入功，不称三类残差逐项认证。compact-v001原输入未截断mustfix历史保留；v002经R020+根全文9行差异/92小源身份接纳阶段整合，3式/数字不变。M-C036中点另冻同模型/两档/同.1门候选，不调BE门，未审不采用。

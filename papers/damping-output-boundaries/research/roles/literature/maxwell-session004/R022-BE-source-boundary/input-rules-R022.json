@@ -1,0 +1,44 @@
+{
+  "task": "R022 BE literature and source boundary, not math/implementation review",
+  "started_at": "2026-10-18T03:26:08+08:00",
+  "deadline": "2026-10-18T03:34:08+08:00",
+  "input_frozen_at": "2026-10-18T03:27:34.577188+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\forward-BE-synthetic-protocol-v001.md",
+      "bytes": 3338,
+      "sha256": "b893b191d9915d5bb7d7c8aaf75f646275c79ace845a6633838c48d0cf729140"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\R017-FNA-reference-force-scope.md",
+      "bytes": 8765,
+      "sha256": "a33c2080171356a5bc6255b3b2a2a443d42b478531be035814c7c5c3f43a3994"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R012\\incremental-source-review.md",
+      "bytes": 7828,
+      "sha256": "c5ddd0989da0edc8f14272144c9034e75663784917815c7445501990162ff9b9"
+    }
+  ],
+  "source_policy": "exactly2 selected authorhosted full PDFs; downloads local-cache only; no retry on failure; no third fulltext; no originalExcel/NPZ/timeintegration/ETABS/Git",
+  "download_records": [
+    {
+      "url": "https://www.unige.ch/~hairer/preprints/gradientflow.pdf",
+      "status": "success",
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\local-cache\\Hairer-Lubich-gradientflow-2013.pdf",
+        "bytes": 118031,
+        "sha256": "945c37369f01c2c87a12aa9ef3c834688933bc92fec27acfcdbd9b77e4a793e8"
+      }
+    },
+    {
+      "url": "https://web.stanford.edu/~boyd/papers/pdf/prox_algs.pdf",
+      "status": "success",
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\local-cache\\Parikh-Boyd-ProximalAlgorithms-2014.pdf",
+        "bytes": 978151,
+        "sha256": "c261d62dab183f5afe765907f94da12e528542dd9e2dba4751ac2bc1a9e5cc7b"
+      }
+    }
+  ]
+}

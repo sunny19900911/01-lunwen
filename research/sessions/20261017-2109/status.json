@@ -6,8 +6,8 @@
   "deadline": "2026-10-18T07:09:45+08:00",
   "master_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
   "checkpoint_open": true,
-  "current_round": "R016",
-  "latest_round": "rounds/R016.md",
+  "current_round": "R017",
+  "latest_round": "rounds/R017.md",
   "checkpoint_minutes": 15,
   "topic_card_minutes": 30,
   "scheduler": {
@@ -35,73 +35,32 @@
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
       "hostId": "local",
       "title": "论文角色①｜猜想与理论突破",
-      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:85",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:87",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "R026 classical BE port-step/energy contract<=10m justdispatched;R025 frozenunderR034",
+      "dispatch": "R027 midpoint math froze03:45:52 as directreported;underR037;await lateractualsnapshot",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
       },
       "turn_status": "completed",
       "actual_status_at_snapshot": {
-        "type": "idle"
+        "type": "active",
+        "activeFlags": []
       },
-      "snapshot_note": "Actual R015 postpush snapshot; task dispatches below occurred afterward",
-      "observed_at_utc": "2026-10-17 19:19:45 UTC"
+      "snapshot_note": "Actual postpushR016 snapshot; new dispatches below occurred afterward",
+      "observed_at_utc": "2026-10-17 19:46:11 UTC"
     },
     "verification": {
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
       "hostId": "local",
       "title": "论文角色②｜证明审核与反例",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:121",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:125",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "R034 asymmetric-neighborhood independent proof/state source audit<=10m dispatched afterpostpushidle;R033 frozenrootreviewpending",
-      "observed_at": "2026-10-18T01:49:22.701322+08:00",
-      "actual_status": {
-        "type": "idle"
-      },
-      "turn_status": "inProgress",
-      "actual_status_at_snapshot": {
-        "type": "active",
-        "activeFlags": []
-      },
-      "snapshot_note": "Actual R015 postpush snapshot; task dispatches below occurred afterward",
-      "observed_at_utc": "2026-10-17 19:19:45 UTC"
-    },
-    "literature": {
-      "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
-      "hostId": "local",
-      "title": "论文角色③｜文献原文复查",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:72",
-      "preflight_status": {
-        "type": "notLoaded"
-      },
-      "dispatch": "R021 RH4X export-filter-list independent smallCSV review<=8m dispatchedafterpostpushidle",
-      "observed_at": "2026-10-18T01:49:22.701322+08:00",
-      "actual_status": {
-        "type": "idle"
-      },
-      "turn_status": "inProgress",
-      "actual_status_at_snapshot": {
-        "type": "active",
-        "activeFlags": []
-      },
-      "snapshot_note": "Actual R015 postpush snapshot; task dispatches below occurred afterward",
-      "observed_at_utc": "2026-10-17 19:19:45 UTC"
-    },
-    "experiments": {
-      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
-      "hostId": "local",
-      "title": "论文角色④｜ETABS数据与拟合",
-      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:61",
-      "preflight_status": {
-        "type": "idle"
-      },
-      "dispatch": "R022 input-only forward BE synthetic prototype<=10m justdispatched;R021 exports frozenunder sourceaudit",
+      "dispatch": "R037 midpoint step math independent<=8m dispatched03:46 afteridle;R036 frozen accepted",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -110,51 +69,89 @@
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "Actual R015 postpush snapshot; task dispatches below occurred afterward",
-      "observed_at_utc": "2026-10-17 19:19:45 UTC"
+      "snapshot_note": "Actual postpushR016 snapshot; new dispatches below occurred afterward",
+      "observed_at_utc": "2026-10-17 19:34:23 UTC"
+    },
+    "literature": {
+      "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+      "hostId": "local",
+      "title": "论文角色③｜文献原文复查",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:76",
+      "preflight_status": {
+        "type": "notLoaded"
+      },
+      "dispatch": "R024 midpoint implementation/small output audit<=9m dispatched03:46 afteridle;R023 BE frozen accepted limitedscope",
+      "observed_at": "2026-10-18T01:49:22.701322+08:00",
+      "actual_status": {
+        "type": "idle"
+      },
+      "turn_status": "completed",
+      "actual_status_at_snapshot": {
+        "type": "idle"
+      },
+      "snapshot_note": "Actual postpushR016 snapshot; new dispatches below occurred afterward",
+      "observed_at_utc": "2026-10-17 19:46:11 UTC"
+    },
+    "experiments": {
+      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+      "hostId": "local",
+      "title": "论文角色④｜ETABS数据与拟合",
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:63",
+      "preflight_status": {
+        "type": "idle"
+      },
+      "dispatch": "R023 midpoint forward candidate frozen03:44:51;observed idle;underR024",
+      "observed_at": "2026-10-18T01:49:22.701322+08:00",
+      "actual_status": {
+        "type": "idle"
+      },
+      "turn_status": "completed",
+      "actual_status_at_snapshot": {
+        "type": "idle"
+      },
+      "snapshot_note": "Actual postpushR016 snapshot; new dispatches below occurred afterward",
+      "observed_at_utc": "2026-10-17 19:46:11 UTC"
     },
     "writing": {
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
       "hostId": "local",
       "title": "论文角色⑤｜论文写作与论证",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:66",
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:68",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "compact-paper-v001 newfive-section stage<=12m dispatchedafterpostpushidle;oldv010/interface/templates untouched",
+      "dispatch": "paired engineering validation plan v001 dispatched<=9m;v002 frozen acceptedstage",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
       },
-      "turn_status": "inProgress",
+      "turn_status": "completed",
       "actual_status_at_snapshot": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "snapshot_note": "Actual R015 postpush snapshot; task dispatches below occurred afterward",
-      "observed_at_utc": "2026-10-17 19:19:45 UTC"
+      "snapshot_note": "Actual postpushR016 snapshot; new dispatches below occurred afterward",
+      "observed_at_utc": "2026-10-17 19:34:23 UTC"
     },
     "novelty": {
       "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
       "hostId": "local",
       "title": "创新性验证",
-      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:39",
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:43",
       "preflight_status": {
         "type": "active",
         "activeFlags": []
       },
-      "dispatch": "R018 asymmetric contribution boundary<=8m dispatchedafterpostpushidle",
+      "dispatch": "R020 v002 repair0must frozen idle;await validation plan for independent integration",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
       },
-      "turn_status": "inProgress",
+      "turn_status": "completed",
       "actual_status_at_snapshot": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "snapshot_note": "Actual R015 postpush snapshot; task dispatches below occurred afterward",
-      "observed_at_utc": "2026-10-17 19:19:45 UTC"
+      "snapshot_note": "Actual postpushR016 snapshot; new dispatches below occurred afterward",
+      "observed_at_utc": "2026-10-17 19:34:23 UTC"
     }
   },
   "git_authorization": "Verified direct human user messages in source thread; main master-only normal commit/push for this session whitelist",
@@ -164,18 +161,15 @@
   "source_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
   "core_cache": "../W5-重燃双塔连体/research/maxwell-20261017/experiments/R001/core-cache",
   "pending_review": [
-    "R024 feedback closure + R033 frozen rootfullreport/SHA review",
-    "R025 asymmetry author frozen + R034 independent audit active",
-    "R021 RH4X export lists author frozen + literatureR021 independent audit active",
-    "noveltyR018 asymmetry contribution active",
-    "compact-paper-v001 active then independent integration review"
+    "M-C036 separate fixed-protocol midpoint math/forward candidate;not adopted",
+    "Engineering paired validation plan drafting;not a performed test"
   ],
-  "recorded_at": "2026-10-18T03:30:45.058175+08:00",
-  "checkpoint_status": "core-reviewed;Git-timegate03:31:17.918;compact/BE pending",
-  "next_task": "R015 closed: read latehandoff,rootfullread R024/R033 and R025 afterR034;collect RH4X filter review and compact manuscript;no new Git before03:31:17.918+08. Hardcutoff07:09:45 unchanged.",
-  "last_commit": "bb0eac387db195b39d0e9dc257faa4a98d27cdd0",
-  "last_remote_commit": "bb0eac387db195b39d0e9dc257faa4a98d27cdd0",
-  "last_push_receipt": "R015-push.json",
+  "recorded_at": "2026-10-18T03:47:41.353583+08:00",
+  "checkpoint_status": "reviewing",
+  "next_task": "Finish R017 normal publish no earlier03:48:18.690179+08;collect R037/R024 and writing engineeringvalidationplan afterward. Candidate midpoint results not in this Git.",
+  "last_commit": "b62314a4c519160ed43ce1f439552b7b4d501a42",
+  "last_remote_commit": "b62314a4c519160ed43ce1f439552b7b4d501a42",
+  "last_push_receipt": "R016-push.json",
   "accepted_evidence": {
     "energy_R001": {
       "review": "原生能量证据独审-R001.md",
@@ -611,9 +605,14 @@
       "record": "R016-adoption.json",
       "sha256": "aa17fdc2e6a3350aa7e9aff98676c58c5291e1101b27f0355d36a78b4c8ae518",
       "scope": "C032 conditional feedback equivalence,C033 fixedoneparameter asymmetry,reviewed RH4X export lists"
+    },
+    "R017": {
+      "record": "R017-adoption.json",
+      "sha256": "db2e76fb82f5731ecf836290764e095d39da7e0473835568f94510f8550d521e",
+      "scope": "Classical BE exact-step math;finite numerical diagnostic with failed accuracy gate;compact-v002 repaired stage integration"
     }
   },
-  "checkpoint_started_at": "2026-10-18T02:24:43.064367+08:00",
+  "checkpoint_started_at": "2026-10-18T03:41:03.998047+08:00",
   "received_auxiliary_skill_increment": {
     "path": "C:/Users/mj528/.codex/skills/etabs-response-analysis/scripts/cache_coverage.py",
     "source_validation": "../W5-重燃双塔连体/research/maxwell-20261017/roles/verification/response-coverage/skill-validation.json",
@@ -630,8 +629,8 @@
     "sha256": "8ec39aeb7692b7745dbd7622b7364ef19d3dd20404755444626ec93358ec24b6",
     "status": "R003 published and verified; frozen stage manuscript only"
   },
-  "latest_role_snapshot": "R013-after-push-snapshot.json",
-  "latest_late_handoff": "R013-late-evidence.md",
+  "latest_role_snapshot": "R017-midpoint-handoff-snapshot.json",
+  "latest_late_handoff": "R016-late-handoff.md",
   "manuscript_stage_v002": {
     "sha256": "64f69a385155f0004113cd8e96e12ebbe0b86e07bb88ce56da7d6873324bbef5",
     "status": "root full text/hash reviewed; frozen. Local absolute image references unsuitable for GitHub portability; author v003 assigned to fix image paths and integrate reviewed R007 before independent integration audit."
@@ -686,5 +685,11 @@
     "sha256": "30d9ec2f61439f19820959f929041cd0c92cdf28bb0e2a029d4c2f98c0436067",
     "status": "R012 published withstatusaddenda andremoteSHAverified;stageonly"
   },
-  "next_git_eligible_after": "2026-10-18T03:31:17.918031+08:00"
+  "next_git_eligible_after": "2026-10-18T03:48:18.690179+08:00",
+  "manuscript_compact_v002": {
+    "status": "stage integration accepted: R019 source scope +R035 rest except M1 +v002 targeted repair R020 +root exact9lines;not reproof",
+    "path": "papers/damping-output-boundaries/manuscript/maxwell-paper-compact-v002.md",
+    "sha256": "02ae657ba2d49cf270cacd2a0860fc8d44d041d8dd5b7a643d0efd47caeaa890",
+    "v001_status": "historical hold not endorsed unchanged;published only with explicit failure and repair lineage"
+  }
 }

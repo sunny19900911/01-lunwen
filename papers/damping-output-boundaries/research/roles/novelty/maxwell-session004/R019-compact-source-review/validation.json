@@ -1,0 +1,168 @@
+{
+  "started_at": "2026-10-18T03:25:23+08:00",
+  "completed_at": "2026-10-18T03:30:28.940422+08:00",
+  "limit_minutes": 8,
+  "elapsed_seconds": 305.940422,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Compact source/model/contribution review passed in stated scope;freeze then stop",
+  "mustfix": 0,
+  "required_changes": 0,
+  "R035_mathematical_review": "Separate;not read or substituted",
+  "manuscript_sha256": "560d950d3ede543a3ddb78b937803ad750dec1d685a9d16d62ea8a8c90be6d78",
+  "input_files_checked": 22,
+  "input_changed": [],
+  "author_direct_sources_checked": 16,
+  "direct_source_changed": [],
+  "author_package_files_checked": 5,
+  "author_package_changed": [],
+  "protected_old_manifests": [
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\force-response-interface-v001\\freeze.json",
+      "files": 5,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v001.json",
+      "files": 6,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v002.json",
+      "files": 6,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v003.json",
+      "files": 6,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v004.json",
+      "files": 7,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v005.json",
+      "files": 6,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v006.json",
+      "files": 6,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v007.json",
+      "files": 7,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v008.json",
+      "files": 6,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v009-status-addendum.json",
+      "files": 1,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v009.json",
+      "files": 7,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v010.json",
+      "files": 8,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-modal-interface-v001.json",
+      "files": 6,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-theory-appendix-v001.json",
+      "files": 6,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-theory-appendix-v002.json",
+      "files": 6,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\layout-input-templates-v001\\freeze.json",
+      "files": 4,
+      "changed": []
+    }
+  ],
+  "old_novelty_frozen_files_checked": 67,
+  "old_changed": [],
+  "tables": 2,
+  "table_columns": [
+    [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  ],
+  "formula_blocks": 3,
+  "formula_tags": [
+    "1",
+    "2",
+    "3"
+  ],
+  "manuscript_local_links_checked": 6,
+  "manuscript_broken_links": [],
+  "report_local_links_checked": 4,
+  "report_broken_links": [],
+  "engineering_scope": "Three wave families/six cases;shared32 is intersection,notpercase32;conditionalF/estimatedparameters/tinyomission only",
+  "C028_scope": "AbsoluteDq at fixedtruepoint;continuous cumulativework,totalpassivity,notinstantaneous/alltimephase",
+  "C031_scope": "FFTvsD98305nodes;betweenalgorithms4stats+8fixedpointvalues only;notfullpointwisepredictioncomparison",
+  "Hu_scope": "v010 Section1 and reference1 support prior energy-plus-stiffness/damping replacement recomputation;no new primary access",
+  "historical_status": "R014/R016 historicalpending doesnot supersede later rootsR013/R014/R015",
+  "candidate_exclusion": [
+    "new R024 feedback",
+    "R025 asymmetry",
+    "R033",
+    "new RH4X single-stream filter"
+  ],
+  "nonblocking_suggestions": [
+    "Direct Hu reference link",
+    "Clarify cumulative E column versus deltaE endpoint increment;notation verdict left to R035"
+  ],
+  "readonly_subreview": 1,
+  "subreview_mustfix": 0,
+  "subreview_files_created": false,
+  "new_queries": 0,
+  "arrays_or_original_Excel_read": false,
+  "new_proof_ODE_or_certificate_run": false,
+  "author_shared_or_git_modified": false,
+  "trailing_whitespace": [],
+  "control_characters": [],
+  "malformed_report_tables": [],
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 7442,
+      "sha256": "9e0b9e4ad1d0380d50fb2191f149d266761d1a1f8c3edd76075dcfa6988a54df"
+    },
+    {
+      "file": "report.md",
+      "bytes": 7627,
+      "sha256": "52f2026b8a580880c6e08e420bc413f571400ffe19c5a57c9a18ff70530cfd72"
+    }
+  ]
+}

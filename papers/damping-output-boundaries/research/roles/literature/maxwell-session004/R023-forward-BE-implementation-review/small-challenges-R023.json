@@ -1,0 +1,607 @@
+{
+  "scope": "small-file transcriptions and six independent scalar roots/two 2x2 matrices only; no target execution, NPZ stat/read/hash/decode, or all-time recomputation",
+  "checked_at": "2026-10-18T03:40:18.568625+08:00",
+  "checks": [
+    {
+      "name": "input_unchanged:forward-BE-synthetic-protocol-v001.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input_unchanged:forward_be.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input_unchanged:protocol.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input_unchanged:pre_run_freeze.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input_unchanged:prediction_summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input_unchanged:prediction_freeze.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input_unchanged:reference_read_order.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input_unchanged:prediction_fixed_snapshots.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input_unchanged:comparison_fixed_snapshots.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input_unchanged:summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input_unchanged:report.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input_unchanged:run_record.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input_unchanged:delivery_manifest.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_binding:comparison_fixed_snapshots.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_binding:forward_be.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_binding:pre_run_freeze.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_binding:prediction_fixed_snapshots.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_binding:prediction_freeze.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_binding:prediction_summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_binding:protocol.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_binding:reference_read_order.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_binding:report.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_binding:run_record.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_binding:summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pre_run_binding:forward-BE-synthetic-protocol-v001.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pre_run_binding:protocol.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pre_run_binding:forward_be.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prediction_summary_preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prediction_freeze:code_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prediction_freeze:protocol_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prediction_freeze:prediction_summary_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prediction_freeze:fixed_snapshots_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memory_sha_records_only:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memory_sha_records_only:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "event_clock_nondecreasing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "event_list_order",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prediction_reference_flags",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "seven_snapshots",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_snapshot:8192:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reference_index:8192:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:8192:0:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:8192:0:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:8192:0:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_energy:8192:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_balance:8192:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_snapshot:8192:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reference_index:8192:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:8192:8192:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:8192:8192:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:8192:8192:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_energy:8192:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_balance:8192:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_snapshot:8192:49152",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reference_index:8192:49152",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:8192:49152:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:8192:49152:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:8192:49152:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_energy:8192:49152",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_balance:8192:49152",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_snapshot:16384:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reference_index:16384:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:16384:0:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:16384:0:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:16384:0:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_energy:16384:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_balance:16384:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_snapshot:16384:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reference_index:16384:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:16384:16384:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:16384:16384:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:16384:16384:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_energy:16384:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_balance:16384:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_snapshot:16384:16529",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reference_index:16384:16529",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:16384:16529:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:16384:16529:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:16384:16529:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_energy:16384:16529",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_balance:16384:16529",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_snapshot:16384:98304",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reference_index:16384:98304",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:16384:98304:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:16384:98304:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_error:16384:98304:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_energy:16384:98304",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_balance:16384:98304",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_indices:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_indices:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "J_only_fine",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "improvement_boolean:u1:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "improvement_boolean:u1:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "improvement_boolean:u2:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "improvement_boolean:u2:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "improvement_boolean:F:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "improvement_boolean:F:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_point1_gate:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_point1_gate:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_gate_fail_retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inverse_eigenvalues:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "scalar_bracket_gate:8192:-0.7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "scalar_bracket_gate:8192:0.0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "scalar_bracket_gate:8192:0.7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inverse_eigenvalues:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "scalar_bracket_gate:16384:-0.7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "scalar_bracket_gate:16384:0.0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "scalar_bracket_gate:16384:0.7",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "check_count": 107,
+  "failed_checks": [],
+  "scalar_challenges": [
+    {
+      "N": 8192,
+      "b": -0.7,
+      "root": -5.592432878705521,
+      "residual": 1.1102230246251565e-16,
+      "bracket_signs": [
+        -0.0007844429244173723,
+        0.7
+      ]
+    },
+    {
+      "N": 8192,
+      "b": 0.0,
+      "root": 0.0,
+      "residual": 0.0,
+      "bracket_signs": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "N": 8192,
+      "b": 0.7,
+      "root": 5.592432878705523,
+      "residual": 1.1102230246251565e-16,
+      "bracket_signs": [
+        -0.7,
+        0.0007844429244173723
+      ]
+    },
+    {
+      "N": 16384,
+      "b": -0.7,
+      "root": -5.596537133374053,
+      "residual": 1.1102230246251565e-16,
+      "bracket_signs": [
+        -0.0003924520136652232,
+        0.7
+      ]
+    },
+    {
+      "N": 16384,
+      "b": 0.0,
+      "root": 0.0,
+      "residual": 0.0,
+      "bracket_signs": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "N": 16384,
+      "b": 0.7,
+      "root": 5.596537133374055,
+      "residual": 1.1102230246251565e-16,
+      "bracket_signs": [
+        -0.7,
+        0.0003924520136652232
+      ]
+    }
+  ],
+  "reference_identity": "Inherited declared SHA; no array identity reverified",
+  "whole_time_statistics": "Transcription/control-flow only, not independently recomputed"
+}

@@ -1,0 +1,37 @@
+{
+  "task": "R023",
+  "frozen_at": "2026-10-18T03:41:34.530603+08:00",
+  "started_at": "2026-10-18T03:35:27+08:00",
+  "deadline": "2026-10-18T03:45:27+08:00",
+  "elapsed_seconds": 367.530603,
+  "files": [
+    {
+      "name": "input-rules-R023.json",
+      "bytes": 5276,
+      "sha256": "389be66bfc1f2cfdad3937c9b7249148e8b6b2dd218160dd333ad35a04a1bd5e"
+    },
+    {
+      "name": "small-challenges-R023.json",
+      "bytes": 13034,
+      "sha256": "507addf7bf2fb2ceca6aa053603901e9a46273078d7191e633dfc826e9d01ebb"
+    },
+    {
+      "name": "review_small_R023.py",
+      "bytes": 6674,
+      "sha256": "532c6d38db9eede8382125cedef66ef3305691f7caa7327428deff5789f1d247"
+    },
+    {
+      "name": "report.md",
+      "bytes": 7811,
+      "sha256": "7225fd192a5a667089f5de6a0e111a4a586c1988d08bd2e3682155513fbd0d2d"
+    },
+    {
+      "name": "validation-R023.json",
+      "bytes": 6330,
+      "sha256": "c4efef2c7483d273408b9416997e2700a30a3bc18537c4ac42bd41b8938ef628"
+    }
+  ],
+  "immutable_after_delivery": true,
+  "scope": "implementation and small-output review only; R036 math independent",
+  "decision": "0 must; u1 fixed .1 gate failed retained; identity residual scope explicit"
+}

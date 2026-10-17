@@ -1,0 +1,35 @@
+{
+  "round": "R026-forward-BE-contract",
+  "artifacts": [
+    {
+      "file": "author-crosscheck.json",
+      "bytes": 1467,
+      "sha256": "6ddb9c0794da4e60817eb1eee56f070f180a804b8e5257b54e61f9f6e918986d"
+    },
+    {
+      "file": "checks.json",
+      "bytes": 681,
+      "sha256": "17d8adaa52676ba1aacd084a7e1d0251768db50955167dd86bfdbe668ce1e1f7"
+    },
+    {
+      "file": "checks.py",
+      "bytes": 4029,
+      "sha256": "c7c15d4bcda484b7a37d95704f08e8e6e66c6aebbf0e4d262450fa9283c3f99f"
+    },
+    {
+      "file": "report.md",
+      "bytes": 5847,
+      "sha256": "7ef3ba03dd24edd6a23ea4dfac8332f21398019e80826821b4999d6c0ad28c78"
+    },
+    {
+      "file": "source-freeze.json",
+      "bytes": 657,
+      "sha256": "1fbcc08e0e8cee92f94a744a92128a4997fee2e3fbcb34569fc396821364984f"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 1447,
+      "sha256": "cca62935259c8f8d0ee6850b9994deda50a1e52f4cf4948b506fc3099568ccc5"
+    }
+  ]
+}

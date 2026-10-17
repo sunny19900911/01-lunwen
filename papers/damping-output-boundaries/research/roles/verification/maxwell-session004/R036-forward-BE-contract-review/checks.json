@@ -1,0 +1,47 @@
+{
+  "required_changes": 0,
+  "scope": "Two fixed exact alpha=1 BE algebra substitutions with non-diagonal M, singular PSD C and two ports; no time integration/root iteration or source program executed.",
+  "cases": [
+    {
+      "case": "full_rank",
+      "C_PSD_singular": true,
+      "Q_SPD_with_full_cross_terms": true,
+      "exact_block_equals_elimination": true,
+      "nonzero_E0_energy_identity": true,
+      "all_three_nonzero_residual_work_plus_signs": true
+    },
+    {
+      "case": "rank_deficient",
+      "C_PSD_singular": true,
+      "Q_SPD_with_full_cross_terms": true,
+      "exact_block_equals_elimination": true,
+      "nonzero_E0_energy_identity": true,
+      "all_three_nonzero_residual_work_plus_signs": true
+    }
+  ],
+  "coupled_scalar_sign_bound_counterexample": {
+    "b": [
+      "1",
+      "4"
+    ],
+    "F": [
+      "-1/8",
+      "11/8"
+    ],
+    "Q": "I+positive-semidefinite all-ones matrix",
+    "g": "identity",
+    "h": "1"
+  },
+  "exact_initial_energy": "612863/330750",
+  "reported_fine_u1_failure_preserved": true,
+  "reported_gate_not_independently_recomputed": true,
+  "source_count": 14,
+  "sources_unchanged": true,
+  "NPZ_arrays_ODE_source_execution_PDF_or_full_statistics_audit": false,
+  "not_established": [
+    "general theorem by finite cases",
+    "floating bisection success",
+    "time-continuous convergence/order/accuracy",
+    "engineering or independent physical validation"
+  ]
+}

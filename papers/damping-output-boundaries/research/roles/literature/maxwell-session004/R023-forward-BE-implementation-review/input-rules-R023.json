@@ -1,0 +1,81 @@
+{
+  "task": "R023 forwardBE implementation/smalloutput only; mathcontract separateR036",
+  "started_at": "2026-10-18T03:35:27+08:00",
+  "deadline": "2026-10-18T03:45:27+08:00",
+  "input_frozen_at": "2026-10-18T03:36:04.229174+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\forward-BE-synthetic-protocol-v001.md",
+      "bytes": 3338,
+      "sha256": "b893b191d9915d5bb7d7c8aaf75f646275c79ace845a6633838c48d0cf729140"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\forward_be.py",
+      "bytes": 17288,
+      "sha256": "c9572c64cd9257aebd5b020f180d639f5657abe23edd146d52af75c1b70b1ed1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\protocol.json",
+      "bytes": 1302,
+      "sha256": "38dbdb5967c811a8c13c996d10a53cd287b864438ee41e77d46aa276950a08e9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\pre_run_freeze.json",
+      "bytes": 1112,
+      "sha256": "50d27c27b9d3020785e913214296cc934be626c31976f28db0fa901abde5208b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\prediction_summary.json",
+      "bytes": 7347,
+      "sha256": "c0356ef7e87fca001e65286f1d9f9ffddfd49e1252baff0f3118199ed4a70b97"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\prediction_freeze.json",
+      "bytes": 702,
+      "sha256": "9a119699adff54968979a0c893e7c34ccc4e67d6b6d1fe3ce0b9bae6815c76c9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\reference_read_order.json",
+      "bytes": 2002,
+      "sha256": "8d834ac8d159a65758d056caa0521cab07cdcd7fea0cd2fcc274de26b4d07137"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\prediction_fixed_snapshots.csv",
+      "bytes": 1844,
+      "sha256": "a9108391b1892759b8e97c2382a2466aab3b5a9cc144cd216537e050ceca4f45"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\comparison_fixed_snapshots.csv",
+      "bytes": 2623,
+      "sha256": "e0407c3aa0f67c781bbca9efb90c880ecb158575313e117b1272945bd5f9ccf5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\summary.json",
+      "bytes": 11658,
+      "sha256": "53a9f0d899188e674ceae1446ffd73884ab082c972af9be3a0c9c4eb31325567"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\report.md",
+      "bytes": 2950,
+      "sha256": "efa8ca4b79be3e76b7d972bb262a6c453bcc1018efa51f18582bed70fa6a5f38"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\run_record.json",
+      "bytes": 671,
+      "sha256": "4b84cd251914de9da527e4630699c8e33a7c5e551ed8cb44bc0c228f3009f5de"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\delivery_manifest.json",
+      "bytes": 4054,
+      "sha256": "e6c4b4eced0afe41f379b750c5d8c7a464f0214677fa54cbb3b591c9664d52b8"
+    }
+  ],
+  "constraints": [
+    "no NPZ/rawExcel open/hash/decode/stat",
+    "no authorprogram/fullwindow/ODE run",
+    "only tiny scalar or single-step challenges permitted",
+    "reference identity inherited; no alltime errorstats independently recomputed",
+    "preserve .1 gate fail u1/trueu2; no numerical tweak",
+    "no actualETABS/FNA inference; ownnewdir only source/shared/Git unchanged"
+  ]
+}

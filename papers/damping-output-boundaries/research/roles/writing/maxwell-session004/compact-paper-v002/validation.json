@@ -1,0 +1,70 @@
+{
+  "validated_at": "2026-10-18T03:38:02.148652+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v002.md",
+    "bytes": 9871,
+    "sha256": "02ae657ba2d49cf270cacd2a0860fc8d44d041d8dd5b7a643d0efd47caeaa890"
+  },
+  "passed": true,
+  "scope": "Author targetedM1/C1/C2 correctionQA only;not independent scientificadmission.",
+  "checks": {
+    "v001_original_SHA_unchanged": true,
+    "v002_author_SHA": true,
+    "exactly9_authorized_lines_changed": true,
+    "all_other_lines_byte_identical": true,
+    "all3_formulas_byte_identical": true,
+    "two_tables_table1_exact": true,
+    "all_table2_numeric_tokens_unchanged": true,
+    "abstract_and_five_sections_unchanged": true,
+    "M1_nominal_sine_truncated": true,
+    "M1_alpha1_C025_zeroIC_commonforce": true,
+    "M1_C026_s0_plus_d": true,
+    "M1_d_support_closed_L1": true,
+    "M1_same_d_AB_and_components": true,
+    "C1_absolute_header": true,
+    "C1_B_C025_absolute": true,
+    "C1_B_C026_absolute": true,
+    "C1_D_C027_absolute": true,
+    "C2_native_terminal_sum": true,
+    "untruncated_C026_phrase_removed": true,
+    "no_new_C032_C033_BE_filter": true,
+    "R035_one_mustfix_two_clarifications_preserved": true,
+    "v001_author_passed_historical_not_erased": true,
+    "all17_old_manifests98_file_entries_unchanged": true,
+    "all8_local_links_resolve_indicator_not_false_link": true,
+    "both_tables3columns4rows_no_unescaped_pipes": true,
+    "git_diff_whitespace_clean": true,
+    "body_under3500_CJK": true
+  },
+  "changed_lines_1based": [
+    3,
+    43,
+    47,
+    51,
+    53,
+    54,
+    55,
+    56,
+    58
+  ],
+  "body_CJK_characters": 1998,
+  "body_limit": 3500,
+  "table_widths": [
+    {
+      "columns": 3,
+      "data_rows": 4,
+      "max_cell_characters": 27
+    },
+    {
+      "columns": 3,
+      "data_rows": 4,
+      "max_cell_characters": 35
+    }
+  ],
+  "links": 8,
+  "direct_sources": 11,
+  "protected_manifests": 17,
+  "protected_file_entries": 98,
+  "prior_failure_preserved": true,
+  "limits": "No newproof,rawdata/arrays,solver,replay,figure,shared/Git mutation;v001authorpassed andR035failure originalbytes preserved."
+}

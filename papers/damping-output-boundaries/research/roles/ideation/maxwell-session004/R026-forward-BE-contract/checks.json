@@ -1,0 +1,22 @@
+{
+  "all_passed": true,
+  "arithmetic": "fractions.Fraction",
+  "cases": [
+    {
+      "S_singular": false,
+      "Q_positive_definite": true,
+      "full_cross_port_elimination": true,
+      "exact_energy_identity": true,
+      "residual_work_signs": true
+    },
+    {
+      "S_singular": true,
+      "Q_positive_definite": true,
+      "full_cross_port_elimination": true,
+      "exact_energy_identity": true,
+      "residual_work_signs": true
+    }
+  ],
+  "nonzero_kinematic_residual_work_checked": true,
+  "scope": "Manufactured algebraic substitutions only; existence proof is in report; no trajectory, root iteration, continuous convergence or engineering accuracy tested."
+}

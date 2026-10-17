@@ -1,0 +1,34 @@
+{
+  "required_changes": 1,
+  "recommendations": 2,
+  "mustfixes": [
+    {
+      "id": "M1",
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v001.md",
+      "line": 58,
+      "category": "mathematical input/quantifier transcription",
+      "original": "C026令外力(1,1)ᵀ[sin(t)+d(t)]，d连续、支撑于[0,20π]且∫|d|≤2；A/B及两个输入分量共享同一d。同史只在该d内部配对成立。预算2为名义绝对面积40的5%，不是PGA或地震强度的5%。",
+      "problem": "Only d is time-supported; sin(t) is left running after T, so displayed input differs from adopted C026 and its stop-tail/area40 premise.",
+      "minimal_replacement": "令s0(t)=sin(t)·1_[0,20π](t)。C026的外力为(1,1)ᵀ[s0(t)+d(t)]，其中d连续、支撑于[0,20π]且∫_0^{20π}|d(t)|dt≤2；A/B及两个输入分量共享同一d。",
+      "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v010.md",
+      "source_line": 285
+    }
+  ],
+  "clarifications": [
+    {
+      "id": "C1",
+      "line": 51,
+      "scope": "Table2 lines54-56",
+      "kind": "quantity-definition clarification; caption already supports amplitude interpretation, not counted as certain scientific error",
+      "minimal_replacement": "表头改为“固定u1的绝对峰/固定点绝对幅值界”，并把B固定T/D固定真点写为|u1,B(T)|/|u1,D(t*)|的下界。"
+    },
+    {
+      "id": "C2",
+      "line": 43,
+      "kind": "native-source terminology clarification, not counted as measured device-energy claim",
+      "minimal_replacement": "能量账目保留206个微小负Link增量及非零的导出末动能与势能之和；……",
+      "reason": "Source is native end kinetic+potential, not authenticated actual Maxwell F_T²/(2κ) with unknown κ."
+    }
+  ],
+  "unchanged_frozen_v001": true
+}

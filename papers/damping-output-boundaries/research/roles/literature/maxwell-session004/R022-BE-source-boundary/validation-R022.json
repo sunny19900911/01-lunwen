@@ -1,0 +1,53 @@
+{
+  "task": "R022 sourceboundary only",
+  "frozen_at": "2026-10-18T03:32:15.636185+08:00",
+  "elapsed_seconds": 367.636185,
+  "within_8_minutes": true,
+  "status": "two author fulltexts located; classictool attribution supported; C027 math/implementation not certified",
+  "initial_sources_unchanged": true,
+  "downloaded_fulltexts_SHA_unchanged": true,
+  "new_queries": 2,
+  "fulltexts": 2,
+  "failures": 0,
+  "retries": 0,
+  "actual_visual_pages": [
+    "HairerPDF2/4",
+    "ParikhBoydPDF6/19/27/28"
+  ],
+  "text_only_proof_page": "ParikhBoydPDF20/print138",
+  "source_page_formula_guard": "Eq4.3 is forwardEuler; BE/prox equivalence on print145-146 is unnumbered",
+  "open_gaps": [
+    "No exact C027 fullmechanical BE dissipation assembly found/claimed",
+    "No general method novelty/priority determination",
+    "No author math or actual forward BE result evaluation",
+    "No continuousaccuracy or predictiveadvantage certification"
+  ],
+  "collaborators": {
+    "local_literature": "localindex only no readyBE locator; no network",
+    "weng2016_source": "localindex+protocol/FNA classification; then pypdf specifiedpages of exactly2 downloaded fulltexts; no images/sourcewriting"
+  },
+  "report_artifact_links_exist": true,
+  "UTF8_no_replacement": true,
+  "no_actions": [
+    "rawExcel/NPZ",
+    "timeintegration/solver/ETABS",
+    "thirdfulltext",
+    "failed-downloadretry",
+    "source/shared/Git mutation"
+  ],
+  "input_rules": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\input-rules-R022.json",
+    "bytes": 2540,
+    "sha256": "d5e4199bccbe7e4b97900ad4a4a4c44962314550e8395a61c66f50cdffd91ac9"
+  },
+  "source_manifest": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\source-manifest-R022.json",
+    "bytes": 5662,
+    "sha256": "fe5fae29f52100a05e56c90d6ab0e7176b28db2c5d1b95bb29a9d9af39ecd4ee"
+  },
+  "output_report": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\R022-BE-source-boundary.md",
+    "bytes": 6194,
+    "sha256": "337c96b8e0613624771118214c981288e62e8da6953ecf06744e9f53dc4b611a"
+  }
+}

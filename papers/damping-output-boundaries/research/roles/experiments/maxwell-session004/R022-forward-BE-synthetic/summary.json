@@ -1,0 +1,338 @@
+{
+  "task": "R022-forward-BE-synthetic",
+  "status": "candidate_math_author_and_independent_review_pending",
+  "finished_utc": "2026-10-17T19:25:08.284441+00:00",
+  "elapsed_seconds": 1.4200511999952141,
+  "predictions": [
+    {
+      "N": 8192,
+      "h": 0.005423441086619099,
+      "steps": 49152,
+      "nodes": 49153,
+      "elapsed_seconds": 0.44332410000788514,
+      "trajectory_columns": [
+        "t",
+        "u1",
+        "u2",
+        "v1",
+        "v2",
+        "F"
+      ],
+      "trajectory_dtype": "little-endian float64 C order",
+      "memory_trajectory_sha256": "d9b7f9adcdca8fd10bd9b51ab9d396c7e2be1b42cefcc4441fc9d6be96d203f7",
+      "trajectory_saved_to_disk": false,
+      "A_inverse": [
+        [
+          0.9992010075514367,
+          0.00022756134688312665
+        ],
+        [
+          0.00022756134688312665,
+          0.9992010075514367
+        ]
+      ],
+      "S_h": 0.9992010075514367,
+      "a": 0.12502939021188528,
+      "root_max_abs_residual": 9.999897394516455e-12,
+      "root_max_scaled_residual": 9.999897394516455e-12,
+      "root_gate": 1e-11,
+      "root_gate_pass": true,
+      "root_max_iterations": 35,
+      "root_mean_iterations": 28.551167805989582,
+      "root_stagnations": 0,
+      "all_roots_in_theoretical_bracket": true,
+      "energy_terminal": 2.601611602095621e-05,
+      "work_input": 121.42444501022072,
+      "physical_background_dissipation": 109.17399289273035,
+      "physical_device_dissipation": 3.380501881813153,
+      "numerical_dissipation_u": 4.086955025005362,
+      "numerical_dissipation_v": 4.521077820431369,
+      "numerical_dissipation_F": 0.2618913724379635,
+      "actual_terminal_balance": -1.6865016050360282e-09,
+      "max_abs_actual_step_balance": 4.396654199566308e-11,
+      "max_abs_actual_cumulative_balance": 1.6865016050360282e-09,
+      "max_abs_body_increment_residual": 3.3749045225128782e-15,
+      "max_abs_constitutive_increment_residual": 9.999897209227998e-12,
+      "max_abs_energy_identity_vs_equation_defects": 1.1727550104501619e-14,
+      "minimum_step_background_dissipation": 8.461476360593633e-20,
+      "minimum_step_device_dissipation": 9.407247950674064e-33,
+      "minimum_step_numerical_dissipation": 6.23786870194254e-17,
+      "sampled_peaks": {
+        "u1": {
+          "whole_window": {
+            "sampled_abs_peak": 4.7902369508090015,
+            "signed_value": -4.7902369508090015,
+            "node": 8261,
+            "time": 44.80304681656038
+          },
+          "strictly_after_T": {
+            "sampled_abs_peak": 4.7902369508090015,
+            "signed_value": -4.7902369508090015,
+            "node": 8261,
+            "time": 44.80304681656038
+          }
+        },
+        "u2": {
+          "whole_window": {
+            "sampled_abs_peak": 0.5558381513705662,
+            "signed_value": -0.5558381513705662,
+            "node": 8243,
+            "time": 44.705424877001235
+          },
+          "strictly_after_T": {
+            "sampled_abs_peak": 0.5558381513705662,
+            "signed_value": -0.5558381513705662,
+            "node": 8243,
+            "time": 44.705424877001235
+          }
+        },
+        "F": {
+          "whole_window": {
+            "sampled_abs_peak": 4.422456627830888,
+            "signed_value": -4.422456627830888,
+            "node": 7401,
+            "time": 40.13888748206795
+          },
+          "strictly_after_T": {
+            "sampled_abs_peak": 4.4214753089249985,
+            "signed_value": -4.4214753089249985,
+            "node": 8227,
+            "time": 44.61864981961533
+          }
+        }
+      },
+      "fixed_indices": [
+        0,
+        8192,
+        49152
+      ],
+      "coarse_J_not_on_grid_no_interpolation": true
+    },
+    {
+      "N": 16384,
+      "h": 0.0027117205433095496,
+      "steps": 98304,
+      "nodes": 98305,
+      "elapsed_seconds": 0.8919996000040555,
+      "trajectory_columns": [
+        "t",
+        "u1",
+        "u2",
+        "v1",
+        "v2",
+        "F"
+      ],
+      "trajectory_dtype": "little-endian float64 C order",
+      "memory_trajectory_sha256": "ebb9f2d83446471258adacdc20ab5c7d72e9428f830e3d4335a4342e8a4f8f42",
+      "trajectory_saved_to_disk": false,
+      "A_inverse": [
+        [
+          0.999615024852484,
+          0.00010652721972335665
+        ],
+        [
+          0.00010652721972335665,
+          0.999615024852484
+        ]
+      ],
+      "S_h": 0.999615024852484,
+      "a": 0.12500735059741785,
+      "root_max_abs_residual": 9.99997599917396e-12,
+      "root_max_scaled_residual": 9.99997599917396e-12,
+      "root_gate": 1e-11,
+      "root_gate_pass": true,
+      "root_max_iterations": 35,
+      "root_mean_iterations": 28.643625895182293,
+      "root_stagnations": 0,
+      "all_roots_in_theoretical_bracket": true,
+      "energy_terminal": 2.874435578113389e-05,
+      "work_input": 123.61412886351529,
+      "physical_background_dissipation": 115.18226676511347,
+      "physical_device_dissipation": 3.7543652009884654,
+      "numerical_dissipation_u": 2.1558717335892594,
+      "numerical_dissipation_v": 2.383679906301152,
+      "numerical_dissipation_F": 0.13791650933341557,
+      "actual_terminal_balance": -3.833747541648336e-09,
+      "max_abs_actual_step_balance": 4.461510457950957e-11,
+      "max_abs_actual_cumulative_balance": 3.833747541648336e-09,
+      "max_abs_body_increment_residual": 2.7478019859472624e-15,
+      "max_abs_constitutive_increment_residual": 9.999975861742864e-12,
+      "max_abs_energy_identity_vs_equation_defects": 1.406858365786253e-14,
+      "minimum_step_background_dissipation": 1.2637131518812442e-19,
+      "minimum_step_device_dissipation": 1.9797867671076696e-35,
+      "minimum_step_numerical_dissipation": 5.067231109553303e-17,
+      "sampled_peaks": {
+        "u1": {
+          "whole_window": {
+            "sampled_abs_peak": 4.92446484237481,
+            "signed_value": -4.92446484237481,
+            "node": 16525,
+            "time": 44.811181978190305
+          },
+          "strictly_after_T": {
+            "sampled_abs_peak": 4.92446484237481,
+            "signed_value": -4.92446484237481,
+            "node": 16525,
+            "time": 44.811181978190305
+          }
+        },
+        "u2": {
+          "whole_window": {
+            "sampled_abs_peak": 0.5711330212257231,
+            "signed_value": -0.5711330212257231,
+            "node": 16493,
+            "time": 44.724406920804405
+          },
+          "strictly_after_T": {
+            "sampled_abs_peak": 0.5711330212257231,
+            "signed_value": -0.5711330212257231,
+            "node": 16493,
+            "time": 44.724406920804405
+          }
+        },
+        "F": {
+          "whole_window": {
+            "sampled_abs_peak": 4.539969250741896,
+            "signed_value": -4.539969250741896,
+            "node": 16460,
+            "time": 44.63492014287519
+          },
+          "strictly_after_T": {
+            "sampled_abs_peak": 4.539969250741896,
+            "signed_value": -4.539969250741896,
+            "node": 16460,
+            "time": 44.63492014287519
+          }
+        }
+      },
+      "fixed_indices": [
+        0,
+        16384,
+        16529,
+        98304
+      ],
+      "coarse_J_not_on_grid_no_interpolation": false
+    }
+  ],
+  "comparison": {
+    "coarse_vs_reference_on_49153_common_nodes": {
+      "u1": {
+        "max_abs_error": 0.3063975150256155,
+        "RMS_error": 0.08354586765923314,
+        "max_error_witness_node_in_comparison": 8323,
+        "time": 45.13930016393076,
+        "signed_error": 0.3063975150256155
+      },
+      "u2": {
+        "max_abs_error": 0.03936081912904438,
+        "RMS_error": 0.010784935776071534,
+        "max_error_witness_node_in_comparison": 8352,
+        "time": 45.296579955442716,
+        "signed_error": 0.03936081912904438
+      },
+      "F": {
+        "max_abs_error": 0.30387336291911726,
+        "RMS_error": 0.08228582023630467,
+        "max_error_witness_node_in_comparison": 9147,
+        "time": 49.6082156193049,
+        "signed_error": 0.30387336291911726
+      }
+    },
+    "fine_vs_reference_on_49153_common_nodes": {
+      "u1": {
+        "max_abs_error": 0.15684318810743214,
+        "RMS_error": 0.042931439299816604,
+        "max_error_witness_node_in_comparison": 8324,
+        "time": 45.14472360501738,
+        "signed_error": 0.15684318810743214
+      },
+      "u2": {
+        "max_abs_error": 0.020209554043266964,
+        "RMS_error": 0.0055518533471034335,
+        "max_error_witness_node_in_comparison": 8354,
+        "time": 45.30742683761596,
+        "signed_error": 0.020209554043266964
+      },
+      "F": {
+        "max_abs_error": 0.15583177763479394,
+        "RMS_error": 0.042311718066903606,
+        "max_error_witness_node_in_comparison": 9147,
+        "time": 49.6082156193049,
+        "signed_error": 0.15583177763479394
+      }
+    },
+    "fine_vs_reference_on_98305_all_nodes": {
+      "u1": {
+        "max_abs_error": 0.15684318810743214,
+        "RMS_error": 0.04293165765615657,
+        "max_error_witness_node_in_comparison": 16648,
+        "time": 45.14472360501738,
+        "signed_error": 0.15684318810743214
+      },
+      "u2": {
+        "max_abs_error": 0.020209556694524344,
+        "RMS_error": 0.005551881540412806,
+        "max_error_witness_node_in_comparison": 16709,
+        "time": 45.31013855815927,
+        "signed_error": 0.020209556694524344
+      },
+      "F": {
+        "max_abs_error": 0.15583177763479394,
+        "RMS_error": 0.04231193325902209,
+        "max_error_witness_node_in_comparison": 18294,
+        "time": 49.6082156193049,
+        "signed_error": 0.15583177763479394
+      }
+    },
+    "coarse_vs_fine_prediction_on_49153_common_nodes": {
+      "u1": {
+        "max_abs_error": 0.14956652450047603,
+        "RMS_error": 0.04062316846629516,
+        "max_error_witness_node_in_comparison": 8322,
+        "time": 45.13387672284414,
+        "signed_error": 0.14956652450047603
+      },
+      "u2": {
+        "max_abs_error": 0.019161535656398554,
+        "RMS_error": 0.00523466967177956,
+        "max_error_witness_node_in_comparison": 7927,
+        "time": 42.9916174936296,
+        "signed_error": -0.019161535656398554
+      },
+      "F": {
+        "max_abs_error": 0.1480450637376527,
+        "RMS_error": 0.03998478317086813,
+        "max_error_witness_node_in_comparison": 9146,
+        "time": 49.60279217821828,
+        "signed_error": 0.1480450637376527
+      }
+    }
+  },
+  "coarse_to_fine_improvement_on_common_grid": {
+    "u1": {
+      "max_abs_error": true,
+      "RMS_error": true
+    },
+    "u2": {
+      "max_abs_error": true,
+      "RMS_error": true
+    },
+    "F": {
+      "max_abs_error": true,
+      "RMS_error": true
+    }
+  },
+  "fine_u1_u2_maxerror_below_point1": {
+    "u1": false,
+    "u2": true
+  },
+  "reference_sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62",
+  "reference_member_read": "D_N16384 only",
+  "J_fine_index": 16529,
+  "J_coarse_index": null,
+  "J_coarse_grid_coordinate": 8264.5,
+  "reference_used_in_prediction": false,
+  "source_code_protocol_unchanged": true,
+  "large_trajectory_outputs_saved": false,
+  "limits": "Same synthetic model numerical comparison; not blind, new method, physical external validation, rigorous convergence/order bound, continuous-peak or engineering certification"
+}

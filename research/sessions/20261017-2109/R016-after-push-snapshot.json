@@ -1,0 +1,223 @@
+{
+  "at": {
+    "current_time": "2026-10-17 19:34:23 UTC"
+  },
+  "polls": [
+    {
+      "schemaVersion": 1,
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:86",
+      "revision": 86,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b50-c918-73a3-945c-e56b995f9491",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792264948,
+        "completedAt": 1792265150,
+        "durationMs": 202285
+      },
+      "latestAssistantMessageId": "msg_0fdbbf9b10a3adb0016ad3cbbde96c8195bf13f9838936fe0f",
+      "latestAssistantMessage": {
+        "id": "msg_0fdbbf9b10a3adb0016ad3cbbde96c8195bf13f9838936fe0f",
+        "turnId": "01a14b50-c918-73a3-945c-e56b995f9491",
+        "phase": "final_answer",
+        "text": "R026 已冻结并交主控，等待独审。 报告确认了端口消元、每步存在唯一性，以及含三项数值耗散的能量恒等式。Fraction代数检查全部通过。 未实现时间求解或读取参考数组；结论不代表连续收敛或工程精度认证。本轮已停止。"
+      },
+      "latestToolMarkerId": "exec-b8385594-9f48-4896-b45b-a85950d4363f",
+      "latestToolMarker": {
+        "id": "exec-b8385594-9f48-4896-b45b-a85950d4363f",
+        "turnId": "01a14b50-c918-73a3-945c-e56b995f9491",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:124",
+      "revision": 124,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7fe0-75f3-8671-bcd59e413052",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b52-b94e-7cd3-a1ea-261d52e0012e",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792265075,
+        "completedAt": 1792265524,
+        "durationMs": 449618
+      },
+      "latestAssistantMessageId": "msg_058500d59acbf314016ad3cd33f538819696d05a471e57f011",
+      "latestAssistantMessage": {
+        "id": "msg_058500d59acbf314016ad3cd33f538819696d05a471e57f011",
+        "turnId": "01a14b52-b94e-7cd3-a1ea-261d52e0012e",
+        "phase": "final_answer",
+        "text": "R035 已冻结并回传主控，发现 1 项必须修订：第58行须明确 C026 的名义正弦在 (20\\pi) 后归零，否则不是已审输入族。 另建议明确表2的固定点下界为绝对幅值，并将“非零末储能”改为来源中的“导出末动能与势能之和”。原稿未改。 查看审查报告。已停笔。"
+      },
+      "latestToolMarkerId": "exec-d697754a-1fdb-4e7d-a03f-3e5cd0a728b3",
+      "latestToolMarker": {
+        "id": "exec-d697754a-1fdb-4e7d-a03f-3e5cd0a728b3",
+        "turnId": "01a14b52-b94e-7cd3-a1ea-261d52e0012e",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:74",
+      "revision": 74,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b53-f94f-7e13-8e8a-279f8056c1b4",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792265156,
+        "completedAt": 1792265584,
+        "durationMs": 427878
+      },
+      "latestAssistantMessageId": "msg_01c40afd2e9956f9016ad3cd6f5a5c8190890acc4ea0e6d723",
+      "latestAssistantMessage": {
+        "id": "msg_01c40afd2e9956f9016ad3cd6f5a5c8190890acc4ea0e6d723",
+        "turnId": "01a14b53-f94f-7e13-8e8a-279f8056c1b4",
+        "phase": "final_answer",
+        "text": "R022已冻结并回报主控。一手全文支持 BE/prox 的经典归属；C027具体装配与连续精度仍须独审。 查看来源定位报告"
+      },
+      "latestToolMarkerId": "exec-49b0c36c-0e6c-4642-a139-fa3bfa53e793",
+      "latestToolMarker": {
+        "id": "exec-49b0c36c-0e6c-4642-a139-fa3bfa53e793",
+        "turnId": "01a14b53-f94f-7e13-8e8a-279f8056c1b4",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:62",
+      "revision": 62,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8805-7a42-b910-ae973f55d73e",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b50-cacf-7583-81e5-c7fcddd9222a",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792264948,
+        "completedAt": 1792265175,
+        "durationMs": 226911
+      },
+      "latestAssistantMessageId": "msg_09fe3e55758f973c016ad3cbd7177c819390192e94288d46d0",
+      "latestAssistantMessage": {
+        "id": "msg_09fe3e55758f973c016ad3cbd7177c819390192e94288d46d0",
+        "turnId": "01a14b50-cacf-7583-81e5-c7fcddd9222a",
+        "phase": "final_answer",
+        "text": "R022已冻结并回报主线程，状态为 candidate。 两档均通过根残差门；细档0.1位移门：u1误差0.156843，未通过；u2误差0.020210，通过。结果原样保留，未调参。 检验报告 待数学与独立审查，当前批次已停止。"
+      },
+      "latestToolMarkerId": "exec-40d9442b-3a36-44f2-bfab-e075d42e68bd",
+      "latestToolMarker": {
+        "id": "exec-40d9442b-3a36-44f2-bfab-e075d42e68bd",
+        "turnId": "01a14b50-cacf-7583-81e5-c7fcddd9222a",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:67",
+      "revision": 67,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b4c-9a7a-73f3-9b1b-8329906b32e8",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792264673,
+        "completedAt": 1792264957,
+        "durationMs": 283708
+      },
+      "latestAssistantMessageId": "msg_09505bd600c2eded016ad3cafdd2308190a80ae93f32bb0455",
+      "latestAssistantMessage": {
+        "id": "msg_09505bd600c2eded016ad3cafdd2308190a80ae93f32bb0455",
+        "turnId": "01a14b4c-9a7a-73f3-9b1b-8329906b32e8",
+        "phase": "final_answer",
+        "text": "已完成并冻结紧凑论文阶段稿v001。 正文1950汉字，含五节、两张汇总表和3个公式块。静态检查通过，旧稿与冻结包保持原样；已交主控，待独立整合审查。"
+      },
+      "latestToolMarkerId": "exec-3be6f460-d153-41e5-b8fd-3402ef40bef6",
+      "latestToolMarker": {
+        "id": "exec-3be6f460-d153-41e5-b8fd-3402ef40bef6",
+        "turnId": "01a14b4c-9a7a-73f3-9b1b-8329906b32e8",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:41",
+      "revision": 41,
+      "changed": true,
+      "thread": {
+        "id": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b53-5b65-72a0-9622-e9b29ad06a01",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792265116,
+        "completedAt": 1792265439,
+        "durationMs": 323145
+      },
+      "latestAssistantMessageId": "msg_0d8e1b978b923a60016ad3ccdecfa481979e8b04f51c2249a0",
+      "latestAssistantMessage": {
+        "id": "msg_0d8e1b978b923a60016ad3ccdecfa481979e8b04f51c2249a0",
+        "turnId": "01a14b53-5b65-72a0-9622-e9b29ad06a01",
+        "phase": "final_answer",
+        "text": "R019 已冻结，来源与语义审查0项必须修改：审查报告。 16项来源身份匹配；工程交集、C028累计功、C031有限比较范围及历史状态均表述准确。数学转录另由R035裁定，报告留有两项非阻断建议。 旧件未变，已停止。 报告 SHA-256：52f2026b8a580880c6e08e420bc413f571400ffe19c5a57c9a18ff70530cfd72"
+      },
+      "latestToolMarkerId": "exec-3dde64bc-9160-4526-a27d-fce2c917fd35",
+      "latestToolMarker": {
+        "id": "exec-3dde64bc-9160-4526-a27d-fce2c917fd35",
+        "turnId": "01a14b53-5b65-72a0-9622-e9b29ad06a01",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    }
+  ]
+}

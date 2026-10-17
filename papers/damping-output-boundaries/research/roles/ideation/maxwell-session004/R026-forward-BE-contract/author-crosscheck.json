@@ -1,0 +1,32 @@
+{
+  "status": "author-side only; independent role2 review pending",
+  "reviews": [
+    {
+      "agent": "peak_bound_audit",
+      "result": "elimination and strong-monotone convex-potential existence/uniqueness correct",
+      "findings": [
+        "A_h SPD and Q_h >= K_s inverse SPD; S_h invertibility and B full row rank unnecessary",
+        "continuous monotone g and C1 coercive strongly convex potential work for alpha>1 without Picard",
+        "scalar same-sign and magnitude bound do not extend componentwise to coupled ports",
+        "per-step existence does not imply continuous convergence or floating success"
+      ]
+    },
+    {
+      "agent": "spectral_zero_order",
+      "result": "exact BE energy and all three residual-work signs correct",
+      "findings": [
+        "three numerical dissipation terms have coefficient one half",
+        "residual-work contributions h(u+^T K r_u+v+^T r_v+F+^T r_F) have indefinite sign",
+        "nonzero initial complete E0 retained and port compatibility defined",
+        "passive power needs F^T g(F)>=0, supplied here by independent odd laws with g(0)=0",
+        "prescribed support motion needs additional external power",
+        "numerical dissipation separate from physical background/device dissipation"
+      ]
+    }
+  ],
+  "actions": [
+    "explicit scalar-only root bounds",
+    "explicit same-b_n single-step residual qualification",
+    "explicit prescribed-support input-power condition"
+  ]
+}

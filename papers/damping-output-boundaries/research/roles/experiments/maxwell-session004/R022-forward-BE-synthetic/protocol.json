@@ -1,0 +1,23 @@
+{
+  "task": "R022-forward-BE-synthetic",
+  "status": "candidate",
+  "started_at": "2026-10-18T03:22:34+08:00",
+  "deadline": "2026-10-18T03:32:34+08:00",
+  "root_protocol": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\forward-BE-synthetic-protocol-v001.md",
+    "bytes": 3338,
+    "sha256": "b893b191d9915d5bb7d7c8aaf75f646275c79ace845a6633838c48d0cf729140"
+  },
+  "N": [
+    8192,
+    16384
+  ],
+  "max_bisections": 60,
+  "root_relative_gate": 1e-11,
+  "fine_displacement_maxerror_gate": 0.1,
+  "model": "M=I;K=[[2,-1],[-1,2]];C=.1sqrt(K);B=(0,1);kappa8;c10;alpha3/10;zero state;right endpoint input",
+  "reference_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+  "reference_sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62",
+  "reference_access_rule": "No reference read or hash until both predictions and trajectory hashes saved; D_N16384 only",
+  "allowed_outputs": "small code/JSON/7-point CSV/run record only; no trajectories/NPZ/plots"
+}

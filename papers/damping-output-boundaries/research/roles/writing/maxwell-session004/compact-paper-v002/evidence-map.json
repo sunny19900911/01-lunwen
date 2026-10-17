@@ -1,0 +1,80 @@
+{
+  "version": "v002",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v002.md",
+    "bytes": 9871,
+    "sha256": "02ae657ba2d49cf270cacd2a0860fc8d44d041d8dd5b7a643d0efd47caeaa890"
+  },
+  "predecessor": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v001.md",
+    "bytes": 9409,
+    "sha256": "560d950d3ede543a3ddb78b937803ad750dec1d685a9d16d62ea8a8c90be6d78"
+  },
+  "input_freeze": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\compact-paper-v002\\input-freeze.json",
+    "bytes": 12098,
+    "sha256": "259c0a77ff41359f82a6b4ffb8c857f96e069f0988847a4960946c3e17f81d8f"
+  },
+  "diff": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\compact-paper-v002\\v001-to-v002.diff",
+    "bytes": 5099,
+    "sha256": "d805e850f0fdd387ce91b14a4e2d48e604ce24db7991863fdefff803de0c6eeb"
+  },
+  "corrections": [
+    {
+      "id": "M1",
+      "lines": [
+        47,
+        58
+      ],
+      "source": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R035-compact-math-review\\report.md",
+        "bytes": 5547,
+        "sha256": "cf171cdee88e63a50a7457a18846d21517e127762a62c35fce5b834fa30b4840"
+      },
+      "findings": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R035-compact-math-review\\findings.json",
+        "bytes": 2045,
+        "sha256": "95bcce0ea5f481cf7be44db2e332d538e95b6f5a5be0e00fbbfa08114cb524b7"
+      },
+      "change": "Explicit compact-supports0 nominal input foralpha1/C025 ands0+d forC026;continuity/support/windowL1<=2/sharedABcomponents unchanged."
+    },
+    {
+      "id": "C1",
+      "lines": [
+        51,
+        53,
+        54,
+        55,
+        56
+      ],
+      "change": "Absolutepeak/absoluteamplitude labels;allnumbers unchanged,no unescapedpipe."
+    },
+    {
+      "id": "C2",
+      "lines": [
+        43
+      ],
+      "change": "Native exported terminalkinetic+potentialsum;not actualdeviceF^2/(2kappa) certification."
+    }
+  ],
+  "changed_lines_1based": [
+    3,
+    43,
+    47,
+    51,
+    53,
+    54,
+    55,
+    56,
+    58
+  ],
+  "unchanged": "Every otherline,abstract,fiveheadings,table1,all3formulas andtable2numbers byteidentical.",
+  "history": {
+    "v001_author_static_QA": "passed asfrozen;not erased;doesnot replace independent review",
+    "v001_independent_R035": "one M1mustfix;v001held/notpublished",
+    "v001_source_R019": "source/semantic0mustfix;doesnot override mathfailure",
+    "v002": "Author targeted correctionQApassed;await independentrecheck,not automatically admitted."
+  },
+  "new_science_or_inflight_adoption": false
+}

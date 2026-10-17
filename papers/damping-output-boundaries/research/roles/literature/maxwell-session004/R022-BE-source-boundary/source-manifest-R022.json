@@ -1,0 +1,104 @@
+{
+  "task": "R022 primarysource page locators and boundaries",
+  "at": "2026-10-18T03:32:15.636185+08:00",
+  "new_queries": 2,
+  "new_readable_fulltexts": 2,
+  "downloads": 2,
+  "download_failures": 0,
+  "no_third_fulltext_or_retries": true,
+  "sources": {
+    "Hairer-Lubich": {
+      "title": "Energy-diminishing integration of gradient systems",
+      "version": "16 May2013 author preprint",
+      "url": "https://www.unige.ch/~hairer/preprints/gradientflow.pdf",
+      "pdf_identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\local-cache\\Hairer-Lubich-gradientflow-2013.pdf",
+        "bytes": 118031,
+        "sha256": "945c37369f01c2c87a12aa9ef3c834688933bc92fec27acfcdbd9b77e4a793e8"
+      },
+      "pages": 9,
+      "read_text_pages": [
+        2,
+        4
+      ],
+      "actually_viewed_pages": [
+        2,
+        4
+      ],
+      "locators": [
+        "PDF/printed2 Eq1.3 implicitEuler minimization and firstorder statement",
+        "PDF/printed4 Remark2.1 Hessian/stepsize qualifications"
+      ],
+      "direct_scope": "gradientflow implicitEuler/minimization, energy-reduction background and qualifications",
+      "not_covered": "not the C027 secondorder Maxwell full-coupling BE energy identity or solver/continuous accuracy certificate",
+      "actual_viewed_images": [
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\local-cache\\Hairer-p2.png",
+          "bytes": 275106,
+          "sha256": "6c803068f8d4cc1d7835e796c416437bc6181e86d5745d48798ab63b4b387490"
+        },
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\local-cache\\Hairer-p4.png",
+          "bytes": 283633,
+          "sha256": "8fca31d1326a1fecd162b525cbf9c1503933882b38e0bb4133a0e238d37900c1"
+        }
+      ]
+    },
+    "Parikh-Boyd": {
+      "title": "Proximal Algorithms",
+      "authors": "Neal Parikh,Stephen Boyd",
+      "bibliography": "Foundations and Trends in Optimization1(3):123–231,2014;authorhosted monograph",
+      "url": "https://web.stanford.edu/~boyd/papers/pdf/prox_algs.pdf",
+      "pdf_identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\local-cache\\Parikh-Boyd-ProximalAlgorithms-2014.pdf",
+        "bytes": 978151,
+        "sha256": "c261d62dab183f5afe765907f94da12e528542dd9e2dba4751ac2bc1a9e5cc7b"
+      },
+      "pages": 113,
+      "read_text_pages": [
+        6,
+        19,
+        20,
+        27,
+        28
+      ],
+      "actually_viewed_pages": [
+        6,
+        19,
+        27,
+        28
+      ],
+      "locators": [
+        "printed124/PDF6 Eq1.1,1.2 closedproperconvex prox, stronglyconvex objective/unique minimizer",
+        "printed137/PDF19 Eq3.4 resolvent;printed138/PDF20 proof read as text",
+        "printed145–146/PDF27–28 unnumbered backwardEuler and proximal equivalence;Eq4.3 is forwardEuler"
+      ],
+      "direct_scope": "prox/strongconvexity/resolvent and BE interpretation for gradientflows",
+      "not_covered": "not arbitrary secondorder mechanicalstate=Euclideangradientflow, nor C027 Ah/Schur/energy/floatroot proof",
+      "actual_viewed_images": [
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\local-cache\\Parikh-Boyd-p6.png",
+          "bytes": 197570,
+          "sha256": "22c9c06e58ffe7d3a223ae5db954dbc582382d3cf6b66278228a10d1e045f1b8"
+        },
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\local-cache\\Parikh-Boyd-p19.png",
+          "bytes": 218410,
+          "sha256": "2bfbfca31d703fc05286723f17c3896740d363aa93a2efb20f6450bd98a65af9"
+        },
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\local-cache\\Parikh-Boyd-p27.png",
+          "bytes": 207499,
+          "sha256": "a5cd9e65fc610ac85557f04fb38cbfe3f4e0765f50912676a6ae42285a0624ce"
+        },
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R022-BE-source-boundary\\local-cache\\Parikh-Boyd-p28.png",
+          "bytes": 217202,
+          "sha256": "992f68ec0acda44346d787b8d507fc002c320954dedcb17f16862d0a6a333278"
+        }
+      ]
+    }
+  },
+  "local_only": "PDFs/pageimages/text remain ownlocal-cache; nested local-cache ignored by existing session gitignore; no Git operation",
+  "existing_local_index_result": "No ready BE/prox page locator found in inspected local indices; not a claim no prior literature exists."
+}

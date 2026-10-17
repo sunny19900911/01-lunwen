@@ -1,0 +1,102 @@
+{
+  "validated_at": "2026-10-18T03:21:54.777626+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v001.md",
+    "bytes": 9409,
+    "sha256": "560d950d3ede543a3ddb78b937803ad750dec1d685a9d16d62ea8a8c90be6d78"
+  },
+  "passed": true,
+  "checks": {
+    "16_finite_direct_sources_SHA_match_current_authorities": true,
+    "root_review_bindings_match": true,
+    "16_old_frozen_manifests_and93_file_entries_preserved": true,
+    "old_theory_v007_SHA_preserved": true,
+    "five_requested_sections": true,
+    "body_CJK_at_most3500": true,
+    "at_most_two_small_tables": true,
+    "both_tables3columns4rows_bounded_width": true,
+    "only3_necessary_formula_blocks": true,
+    "no_old_figures_copied": true,
+    "all_local_links_resolve": true,
+    "sixcases_threewavefamilies": true,
+    "shared32_notpercase32": true,
+    "singlemodel_parameters_background_unknown": true,
+    "conditional_fit_notprediction": true,
+    "energy_ratio_nottruezeta": true,
+    "C025_history_and_globalmax_scope": true,
+    "C026_same_d_allcomponents": true,
+    "C027_new_model_not_samework": true,
+    "D_witness_not_truepeak_tailend": true,
+    "allresiduals_PL_machine_contract": true,
+    "machine_gradual_nextafter_Fraction_decode": true,
+    "private_NPZ_rebuild_identity": true,
+    "C028_absoluteD_notdifferenceq": true,
+    "C028_fixedpoint_continuouswork": true,
+    "C029_knownforce_signed_massbasis": true,
+    "K0_fullF_Keff_residual": true,
+    "actualFNA_uncertified": true,
+    "C030_reference_contribution_remainder_errors": true,
+    "C030_centerPeaks_defined": true,
+    "C030_strictseparation_only": true,
+    "C030_continuous_sampling_gate": true,
+    "C031_fourstats_eightvalues_notfullpointwise": true,
+    "C031_ordinary_float_notcontinuousproof": true,
+    "engineering_fairpair_gate": true,
+    "known_tools_priority_unknown": true,
+    "no_unaccepted_R024_R025_R033_RH4Xfilter_facts": true,
+    "C030_etaU_retained_D_interval": true,
+    "negative_conditional_convolution_sign": true,
+    "safe_decimals_exact_Fraction_match": true
+  },
+  "body_CJK_characters": 1950,
+  "body_limit_CJK": 3500,
+  "abstract_excluded_from_count": true,
+  "section_headings": [
+    [
+      "1",
+      "问题"
+    ],
+    [
+      "2",
+      "模型与评价口径"
+    ],
+    [
+      "3",
+      "工程审计结果"
+    ],
+    [
+      "4",
+      "合成边界与条件力接口"
+    ],
+    [
+      "5",
+      "讨论与结论"
+    ]
+  ],
+  "table_width_checks": [
+    {
+      "columns": 3,
+      "data_rows": 4,
+      "max_cell_characters": 27
+    },
+    {
+      "columns": 3,
+      "data_rows": 4,
+      "max_cell_characters": 28
+    }
+  ],
+  "formula_blocks": 3,
+  "local_links_checked": 6,
+  "direct_sources": 16,
+  "protected_prior_manifests": 16,
+  "protected_prior_file_entries": 93,
+  "exact_directed_decimal_checks": {
+    "C025_upper_lt1_325": true,
+    "C025_fixed_lower_gt8_809": true,
+    "C025_gap_gt7_485": true,
+    "C027_lower_gt4_349": true,
+    "C027_gap_gt1_939": true,
+    "C026_gap1_824": true
+  },
+  "limits": "Author static integration/transcription/symbol/width/link/identity QA only;not independentproof/newscientificvalidation. No rawdata,array,solver,forcehistoryreplay,newfigures orshared/Git mutations."
+}
