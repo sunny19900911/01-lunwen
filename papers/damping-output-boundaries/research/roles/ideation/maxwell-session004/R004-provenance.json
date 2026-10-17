@@ -1,0 +1,39 @@
+{
+  "frozen_at": "2026-10-17T22:32:53+08:00",
+  "main_thread": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+  "scope": "classical layout screening interface, not placement optimization or new theorem",
+  "actual_inputs": "Synthetic endpoint coordinates and motions encoded explicitly in example script; no real workbook or full-node data read",
+  "background_source": {
+    "relative_path": "../../novelty/maxwell-session004/R001-reusable-formulas.md",
+    "sha256": "90ed4d02f7c7f31c5e7b44ed6df27341fa3fc9608e058db55e6dd12f8381ca32"
+  },
+  "R003_unchanged": true,
+  "independent_role2_review": "pending",
+  "artifacts": [
+    {
+      "path": "R004-layout-screening-interface.md",
+      "bytes": 9979,
+      "sha256": "27c7841d12f9844a7a41b6232f5e4fc30a16c3c593f2a55a7dbe19a7a5b1520b"
+    },
+    {
+      "path": "R004_layout_example.py",
+      "bytes": 4279,
+      "sha256": "f4c5607f22a8c32790263f2c7f42b570f4eaa3cbfb133e83838001d4c373519e"
+    },
+    {
+      "path": "R004-synthetic-layout/synthetic_layout.csv",
+      "bytes": 493,
+      "sha256": "5f73c4b34b8e27faaa0d859745b067db0cf8c2e7c499f0442d9cdc7790a5f6ab"
+    },
+    {
+      "path": "R004-synthetic-layout/run_record.json",
+      "bytes": 3103,
+      "sha256": "302bd599b186c33240e7b7b55bff481048f98d9f8d0ace7e31ea406a90508748"
+    },
+    {
+      "path": "R004-validation.json",
+      "bytes": 1187,
+      "sha256": "c3e2ec89101c55fdfff269841decd839348aaaae8d1c67efca8d96ae29fdd891"
+    }
+  ]
+}

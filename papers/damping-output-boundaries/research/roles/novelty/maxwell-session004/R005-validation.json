@@ -1,0 +1,63 @@
+{
+  "started_at": "2026-10-17T22:28:43+08:00",
+  "completed_at": "2026-10-17T22:34:36+08:00",
+  "search_query_limit": 4,
+  "search_query_count": 4,
+  "queries": [
+    {
+      "owner": "root",
+      "q": "\"parallel RC\" \"minimum\" \"Joule\" charging current"
+    },
+    {
+      "owner": "root",
+      "q": "\"leaky integrator\" \"minimum energy\" \"bounded\" current threshold"
+    },
+    {
+      "owner": "maxwell_primary_sources",
+      "q": "\"leakage\" \"capacitor\" \"minimum energy\" \"charging\""
+    },
+    {
+      "owner": "maxwell_primary_sources",
+      "q": "\"parallel RC\" \"optimal\" \"charging\""
+    }
+  ],
+  "result": "exact same-claim publication coverage unresolved; RC linear analogy and same-port fixed-endpoint energy equivalence retained; no novelty-first claim",
+  "alpha_scope": "alpha=1 ordinary linear RC; no automatic all-alpha coverage",
+  "old_frozen_files_checked": 15,
+  "old_changed": [],
+  "candidate_sha256": "0509ce63722190ad5b726088ceb1b1060b3824508b82f41fe96778981ae6fe3f",
+  "candidate_matches_frozen": true,
+  "local_links_checked": 4,
+  "broken_links": [],
+  "trailing_whitespace": [],
+  "primary_fulltext": {
+    "title": "An Electro-Thermal Model based fast optimal charging strategy for Li-ion batteries",
+    "authors": "Saad Jarid; Manohar Das",
+    "year": 2021,
+    "doi": "10.3934/energy.2021043",
+    "url": "https://www.aimspress.com/aimspress-data/aimse/2021/5/PDF/energy-09-05-043.pdf",
+    "pages": 19,
+    "read": "child pp920-924/PDF6-10; root opened PDF and independently read p923-924 section4.1/constraints11-12",
+    "relation": "related-not-equivalent; time minimization with temperature/SOC constraints",
+    "visual_qa": "text read; no pixel validation claimed"
+  },
+  "not_accessible": [
+    {
+      "doi": "10.1016/j.jpowsour.2025.238846",
+      "owner": "root",
+      "result": "non-retryable redirect fetch failure; not retried or used for theorem comparison"
+    }
+  ],
+  "files": [
+    {
+      "file": "R005.md",
+      "bytes": 8001,
+      "sha256": "579ab21d063a1835851947e611477bd8b858a54bbab00a393246e0ca69241364"
+    },
+    {
+      "file": "R005-RC-source-check.md",
+      "bytes": 7842,
+      "sha256": "00b4d096b751792e87fe203af5dd3b4933bb3dc621e6662280738c01fd74aec8"
+    }
+  ]
+}

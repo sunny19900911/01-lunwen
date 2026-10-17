@@ -1,0 +1,253 @@
+{
+  "evidence_id": "M-EXP-R003",
+  "review_status": "candidate",
+  "finished_utc": "2026-10-17T14:12:09.560839+00:00",
+  "elapsed_seconds": 3.522921199997654,
+  "protocol_sha256": "84fe57efb19cf7dbbeb8b8ef5deb0f432eee3dacf41e0f21c29a5cc89d620fae",
+  "code_sha256": "874bb04077fae5f3acdb2275773d3b796deac909ca3b6e6a9adb02cbbed867db",
+  "fixed_parameters": {
+    "alpha": "0.30",
+    "a_m_per_kN": "2.0006042528243313e-06",
+    "b_m_per_s_kN_power_inverse_alpha": "1.1798190016520894e-09"
+  },
+  "training_summary_sha256": "3186dae098c025673eb565390f4273760b5765c1095f6948ab3c051caf3e3f02",
+  "raw_source": "E:\\!!!!!!!!TO HOME\\有控.xlsx",
+  "raw_source_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "actually_rehashed_this_run": true,
+  "source_before": {
+    "bytes": 635525054,
+    "mtime_ns": 1792242471202687700
+  },
+  "source_after": {
+    "bytes": 635525054,
+    "mtime_ns": 1792242471202687700
+  },
+  "target_read_audit": [
+    {
+      "sheet": "Element Forces - Links",
+      "last_scanned_source_row": 59795,
+      "selected_numeric_rows": 22588,
+      "skipped_non_target_rows": 37204,
+      "duplicates": 0,
+      "units": "kN",
+      "stopped_after_targets_complete": true,
+      "global_extra_row_check_inherited_from_same_source_R001": true
+    },
+    {
+      "sheet": "Element Deformations - Links",
+      "last_scanned_source_row": 29899,
+      "selected_numeric_rows": 11294,
+      "skipped_non_target_rows": 18602,
+      "duplicates": 0,
+      "units": "mm",
+      "stopped_after_targets_complete": true,
+      "global_extra_row_check_inherited_from_same_source_R001": true
+    }
+  ],
+  "target_input_QA": [
+    {
+      "Link": "K2",
+      "Case": "SHW4X",
+      "n": 2951,
+      "t0": 0.0,
+      "t1": 59.0,
+      "I_J_identical": true,
+      "time_matches_cached_full_grid": true,
+      "source_rows_increasing": true,
+      "P_units": "kN",
+      "U_raw_units": "mm",
+      "mm_to_m_divisor": 1000
+    },
+    {
+      "Link": "K2",
+      "Case": "SHW7X",
+      "n": 2696,
+      "t0": 0.0,
+      "t1": 53.9,
+      "I_J_identical": true,
+      "time_matches_cached_full_grid": true,
+      "source_rows_increasing": true,
+      "P_units": "kN",
+      "U_raw_units": "mm",
+      "mm_to_m_divisor": 1000
+    },
+    {
+      "Link": "K5",
+      "Case": "SHW4X",
+      "n": 2951,
+      "t0": 0.0,
+      "t1": 59.0,
+      "I_J_identical": true,
+      "time_matches_cached_full_grid": true,
+      "source_rows_increasing": true,
+      "P_units": "kN",
+      "U_raw_units": "mm",
+      "mm_to_m_divisor": 1000
+    },
+    {
+      "Link": "K5",
+      "Case": "SHW7X",
+      "n": 2696,
+      "t0": 0.0,
+      "t1": 53.9,
+      "I_J_identical": true,
+      "time_matches_cached_full_grid": true,
+      "source_rows_increasing": true,
+      "P_units": "kN",
+      "U_raw_units": "mm",
+      "mm_to_m_divisor": 1000
+    }
+  ],
+  "metrics": [
+    {
+      "Link": "K2",
+      "Case": "SHW4X",
+      "n": 2951,
+      "alpha_fixed": 0.3,
+      "a_fixed": 2.0006042528243313e-06,
+      "b_fixed": 1.1798190016520894e-09,
+      "F0_kN_observed": 0.0,
+      "d0_m_observed": 0.0,
+      "zero_force_points_retained": 1,
+      "max_abs_force_kN": 108.68699066497567,
+      "RMSE_m": 3.8292369539725893e-07,
+      "RMSE_mm": 0.00038292369539725895,
+      "MAE_m": 2.16625284694921e-07,
+      "max_abs_residual_m": 3.490028271240894e-06,
+      "mean_residual_m": 9.120247249168515e-08,
+      "end_residual_m": 2.7942636828807608e-08,
+      "delta_d_RMS_m": 0.0002547183531501819,
+      "RMSE_over_delta_d_RMS": 0.001503321965855704
+    },
+    {
+      "Link": "K2",
+      "Case": "SHW7X",
+      "n": 2696,
+      "alpha_fixed": 0.3,
+      "a_fixed": 2.0006042528243313e-06,
+      "b_fixed": 1.1798190016520894e-09,
+      "F0_kN_observed": 0.0,
+      "d0_m_observed": 0.0,
+      "zero_force_points_retained": 1,
+      "max_abs_force_kN": 114.01123756052242,
+      "RMSE_m": 6.379937444850694e-07,
+      "RMSE_mm": 0.0006379937444850694,
+      "MAE_m": 4.557217050888998e-07,
+      "max_abs_residual_m": 5.269226225893724e-06,
+      "mean_residual_m": -3.2003672202129104e-07,
+      "end_residual_m": -5.99361162088997e-07,
+      "delta_d_RMS_m": 0.00037350028306724025,
+      "RMSE_over_delta_d_RMS": 0.0017081479543891354
+    },
+    {
+      "Link": "K5",
+      "Case": "SHW4X",
+      "n": 2951,
+      "alpha_fixed": 0.3,
+      "a_fixed": 2.0006042528243313e-06,
+      "b_fixed": 1.1798190016520894e-09,
+      "F0_kN_observed": 0.0,
+      "d0_m_observed": 0.0,
+      "zero_force_points_retained": 1,
+      "max_abs_force_kN": 27.160004178574876,
+      "RMSE_m": 1.4210215573575843e-07,
+      "RMSE_mm": 0.00014210215573575843,
+      "MAE_m": 1.2547171507505816e-07,
+      "max_abs_residual_m": 2.731251231885662e-07,
+      "mean_residual_m": -1.2541417428465043e-07,
+      "end_residual_m": -1.4765657667845932e-07,
+      "delta_d_RMS_m": 1.203528287344056e-05,
+      "RMSE_over_delta_d_RMS": 0.011807130520326132
+    },
+    {
+      "Link": "K5",
+      "Case": "SHW7X",
+      "n": 2696,
+      "alpha_fixed": 0.3,
+      "a_fixed": 2.0006042528243313e-06,
+      "b_fixed": 1.1798190016520894e-09,
+      "F0_kN_observed": 0.0,
+      "d0_m_observed": 0.0,
+      "zero_force_points_retained": 1,
+      "max_abs_force_kN": 29.35557397958036,
+      "RMSE_m": 1.3673076780144916e-07,
+      "RMSE_mm": 0.00013673076780144916,
+      "MAE_m": 1.2120465625657203e-07,
+      "max_abs_residual_m": 2.4212944332410355e-07,
+      "mean_residual_m": -7.172899963584125e-08,
+      "end_residual_m": -2.0542698668238799e-07,
+      "delta_d_RMS_m": 1.794460491529534e-05,
+      "RMSE_over_delta_d_RMS": 0.007619603131240005
+    }
+  ],
+  "checks": {
+    "four_and_only_four_targets": true,
+    "all_11294_original_target_points_retained": true,
+    "units_IJ_and_coverage_verified_before_prediction": true,
+    "fixed_RH4X_parameters_no_refit": true,
+    "no_Y_numeric_histories_extracted": true,
+    "source_same_version_actually_rehashed": true,
+    "source_size_mtime_stable": true,
+    "all_frozen_source_files_unchanged": true,
+    "runtime_below_480_seconds": true
+  },
+  "outputs": [
+    {
+      "file": "local_input_K2_SHW4X_r003.csv",
+      "bytes": 424222,
+      "sha256": "bc66eeee48ad3b4799dc030364f671a846037332770283fbc5acae9ae77e8602"
+    },
+    {
+      "file": "local_input_K2_SHW7X_r003.csv",
+      "bytes": 392366,
+      "sha256": "9a3c1c852212c1adbe72350cd98e148e126f3de38a60fd876fcc6f7ecddace1a"
+    },
+    {
+      "file": "local_input_K5_SHW4X_r003.csv",
+      "bytes": 435246,
+      "sha256": "b9357e44c3d40dc76fa15fa29a3be393bf318642308d956e5f85990313464242"
+    },
+    {
+      "file": "local_input_K5_SHW7X_r003.csv",
+      "bytes": 397015,
+      "sha256": "6bcaa162f6ea25a88a6a8f036314db62d900ed6aad0390c3bb711cddb79d4ef2"
+    },
+    {
+      "file": "transfer_metrics_r003.csv",
+      "bytes": 1316,
+      "sha256": "2dbe27bdf9cb0770c6956d70fd1f53a6657ae62a775b29dcc1933d180dedb687"
+    },
+    {
+      "file": "local_all_residuals_r003.csv",
+      "bytes": 2426234,
+      "sha256": "3555ebcbebca8729e9aa8e19ae40269f3d28a0e112b20132882ff07c06a4dcbd"
+    },
+    {
+      "file": "worst_points_r003.csv",
+      "bytes": 4435,
+      "sha256": "c3fe0c1a082f458b5dda1ffae13856f67d9c672e16491ce457a80e07639b14cf"
+    }
+  ],
+  "source_documents": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\fit_summary_r002.json",
+      "sha256": "3186dae098c025673eb565390f4273760b5765c1095f6948ab3c051caf3e3f02"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\link_case_coverage_r001.csv",
+      "sha256": "b2e41e8c4ee8f6654efe98b582a1e7c39f3f89f0a4a66a4c7277621008ba6fe8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R003-link-force-deformation-port-check.md",
+      "sha256": "6c7b18c48965531e9d8606be2210df7ddbd384e4d28c9f0dcdc4eee78279ceca"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\条件积分回归独审-R004.md",
+      "sha256": "5724925f94f1761e7d05ebfb1f3657577e0d287c4d401b2707544c5ec51bc3e1"
+    }
+  ],
+  "core_grid_manifest_sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4",
+  "core_grid_cache_sha256": "01912309f7a79a3eed36cb850e803aa40ca52c43f79d9e896118296f07e7e5e6",
+  "interpretation": "Fixed constitutive-integral relation transfer conditional on native force history and P/U1 mapping; not forward prediction from ground motion, independent-event validation, true attribute certification, all88 consistency or energy closure.",
+  "local_files_policy": "Four full input CSVs and full residual CSV are local review evidence. Master decides each Git whitelist; no NPZ was made."
+}

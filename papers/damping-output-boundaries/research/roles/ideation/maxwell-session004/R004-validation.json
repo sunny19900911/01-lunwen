@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-17T22:32:13+08:00",
+  "status": "classical-interface-author-check-pending-independent-review",
+  "passed": true,
+  "no_real_Excel_full_nodes_solver_or_search": true,
+  "example_checks": {
+    "five_rows": true,
+    "max_projection_expected_error": 4.336808689942018e-19,
+    "max_directional_derivative_error_m": 2.1404406025382627e-13,
+    "exact_rigid_rotation_chord_error_m": 0.0
+  },
+  "files": [
+    {
+      "path": "R004-layout-screening-interface.md",
+      "bytes": 9979,
+      "sha256": "27c7841d12f9844a7a41b6232f5e4fc30a16c3c593f2a55a7dbe19a7a5b1520b",
+      "errors": []
+    },
+    {
+      "path": "R004_layout_example.py",
+      "bytes": 4279,
+      "sha256": "f4c5607f22a8c32790263f2c7f42b570f4eaa3cbfb133e83838001d4c373519e",
+      "errors": []
+    },
+    {
+      "path": "R004-synthetic-layout/synthetic_layout.csv",
+      "bytes": 493,
+      "sha256": "5f73c4b34b8e27faaa0d859745b067db0cf8c2e7c499f0442d9cdc7790a5f6ab",
+      "errors": []
+    },
+    {
+      "path": "R004-synthetic-layout/run_record.json",
+      "bytes": 3103,
+      "sha256": "302bd599b186c33240e7b7b55bff481048f98d9f8d0ace7e31ea406a90508748",
+      "errors": []
+    }
+  ]
+}

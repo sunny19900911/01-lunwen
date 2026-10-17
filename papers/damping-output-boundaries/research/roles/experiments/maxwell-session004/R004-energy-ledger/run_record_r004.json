@@ -1,0 +1,52 @@
+{
+  "evidence_id": "M-EXP-R004",
+  "review_status": "candidate",
+  "command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R004-energy-ledger\\check_discrete_ledger.py"
+  ],
+  "finished_utc": "2026-10-17T14:25:35.941346+00:00",
+  "elapsed_seconds": 0.2340639000030933,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "exit_code_after_checks": 0,
+  "protocol_last_write_utc": "2026-10-17T14:23:53.149333+00:00",
+  "code_sha256": "57d320564788cea5363667102bf7e0ce022be2059b7f0e535ca1faaf9ac8e17f",
+  "summary_sha256": "16f80834f7ea0cfef2474d4ec28780f8a1762bb042e28aa38a0da61e227f1109",
+  "input_refs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\paired_K2_RH4X_r001.csv",
+      "sha256": "9def6dbd1c2c412554d4f07f2f01a3afa00d2cbc3e0c255bd86763e2a838101f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\paired_K5_RH4X_r001.csv",
+      "sha256": "edd380b14e1954d20202312e2435b22d381e56e13dc9742a3f30880d223233c6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K2_SHW4X_r003.csv",
+      "sha256": "bc66eeee48ad3b4799dc030364f671a846037332770283fbc5acae9ae77e8602"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K2_SHW7X_r003.csv",
+      "sha256": "9a3c1c852212c1adbe72350cd98e148e126f3de38a60fd876fcc6f7ecddace1a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K5_SHW4X_r003.csv",
+      "sha256": "b9357e44c3d40dc76fa15fa29a3be393bf318642308d956e5f85990313464242"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K5_SHW7X_r003.csv",
+      "sha256": "6bcaa162f6ea25a88a6a8f036314db62d900ed6aad0390c3bb711cddb79d4ef2"
+    }
+  ],
+  "checks": {
+    "six_prespecified_records_only": true,
+    "all_16290_intervals_retained": true,
+    "all_326_fixed_windows_including_partial_tail": true,
+    "all_discrete_identity_checks_within_floating_tolerance": true,
+    "nonnegative_product_terms_without_clipping": true,
+    "all_input_and_parameter_hashes_unchanged": true,
+    "protocol_unchanged": true,
+    "runtime_below_480_seconds": true
+  }
+}

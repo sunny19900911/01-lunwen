@@ -1,0 +1,120 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R004 FNA effective properties and local modal/Ritz basis",
+  "started_at": "2026-10-17T22:28:55+08:00",
+  "frozen_at": "2026-10-17T22:35:25.063731+08:00",
+  "task_limit_minutes": 10,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "candidate literature, frozen for controller review",
+  "primary_pdf": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\csi-analysis-reference-2016.pdf",
+    "url": "https://docs.csiamerica.com/manuals/etabs/Analysis%20Reference.pdf",
+    "edition": "July2016 Rev15",
+    "sha256": "7f6f6890afee2e1890d33f5d34d53d8e23f60850890bd230848642b50a6291ac",
+    "text_read": [
+      "pp277-280/PDF299-302 effective stiffness/damping and actual Maxwell property",
+      "pp451-455/PDF473-477 FNA equilibrium, modal forces, local basis, background damping"
+    ],
+    "visual_read": [
+      {
+        "printed": 278,
+        "pdf_page": 300,
+        "path": "local-cache/R004-CSI2016-PDFpage-300.png",
+        "sha256": "46737cf141832565a7f928564857d183dee00b46f81b7211541f711d5b19bfb0",
+        "inspection": "rendered and actually viewed with view_image in this task"
+      },
+      {
+        "printed": 279,
+        "pdf_page": 301,
+        "path": "local-cache/R004-CSI2016-PDFpage-301.png",
+        "sha256": "c9d3674f1e561b8895d0a3146a7b1ddf8fba2024f0d30843128e496a014cd360",
+        "inspection": "rendered and actually viewed with view_image in this task"
+      },
+      {
+        "printed": 452,
+        "pdf_page": 474,
+        "path": "local-cache/R004-CSI2016-PDFpage-474.png",
+        "sha256": "e052e66dc78f78f91e9d0d7cce1d9fcd843e4bb9b8700b04bc999524ac71268a",
+        "inspection": "rendered and actually viewed with view_image in this task"
+      },
+      {
+        "printed": 453,
+        "pdf_page": 475,
+        "path": "local-cache/R004-CSI2016-PDFpage-475.png",
+        "sha256": "dd3630ca2373b3d1086c1d9658b19c134e3342593fce1aa642fc717b3d267603",
+        "inspection": "rendered and actually viewed with view_image in this task"
+      },
+      {
+        "printed": 454,
+        "pdf_page": 476,
+        "path": "local-cache/R004-CSI2016-PDFpage-476.png",
+        "sha256": "00a353b076fb8ac14694f0da6b1cc9aa97bea84da847006109b9844fee6dd37b",
+        "inspection": "rendered and actually viewed with view_image in this task"
+      },
+      {
+        "printed": 455,
+        "pdf_page": 477,
+        "path": "local-cache/R004-CSI2016-PDFpage-477.png",
+        "sha256": "104359327a8ca4cbe3dcde413b4252d068bca77c5dfec11d0d20f5fae394296f",
+        "inspection": "rendered and actually viewed with view_image in this task"
+      }
+    ]
+  },
+  "input_basis": {
+    "screenshot": "parameters relayed by main controller; original image not directly viewed by this role",
+    "relayed_setting": "U1 exponential Maxwell, linear effective stiffness/damping zero, nonlinear FNA",
+    "native_model_verified": false
+  },
+  "independent_check": {
+    "agent": "weng2016_source",
+    "bounded_minutes": 3,
+    "scope": "read-only CSI text pp277-279/PDF299-301 and pp452-455/PDF474-477; zero effective values, global KN caveat, full Eigen exception, modal damping basis",
+    "network": false,
+    "file_writes": false
+  },
+  "findings": [
+    "ke/ce are not actual nonlinear k/c; zero effective values do not prove inactive Maxwell",
+    "CSI usually recommends zero effective stiffness for dampers",
+    "FNA uses qN=Phi^T(rN-KN u); one U1 ke=0 does not imply global KN=0",
+    "zero-initial and nonlinear-end-state modal stiffness paths must be distinguished",
+    "all independent nonlinear deformation loads and sufficient local mass/inertia/basis coverage required; all possible Eigen modes is the stated exception to Ritz recommendation",
+    "global mass or local load participation is not a response/energy error percentage",
+    "background case/material modal damping and actual damper dissipation have different definitions"
+  ],
+  "unresolved": [
+    "native actual k/c/exponent/units/nonlinear activation and case references",
+    "modal type, stiffness initial state, achieved mode count/frequency band",
+    "starting loads, cycles, local mass and constraints",
+    "case/material damping, overrides and initial state",
+    "internal time step/tolerance/output sampling and actual three-basis response convergence"
+  ],
+  "next_test": "Export actual Modal Case and starting loads, verify one controlling Link U1 load; compare three enriched bases with model/constitutive/effective properties/background damping/input/initial state fixed. Refine internal step separately.",
+  "actions": {
+    "new_network_searches": 0,
+    "new_downloads": 0,
+    "solver_runs": 0,
+    "raw_workbook_reads": 0,
+    "large_array_reads": 0,
+    "git_operations": 0,
+    "shared_or_previous_report_edits": 0
+  },
+  "preservation_checks": {
+    "old_frozen_files": {
+      "R001-energy-source-check.md": "f458e27cc0f7f236fdbcceb949e49f32ab6d094cdf3849108cab2a316528f5d1",
+      "R001-modal-load-participation-check.md": "6e4c1383d56ffbc045a5c9e9cdf4bac2210e5678bab9146000ea9666ade19f56",
+      "source-manifest-R001.json": "7d87547de66197734abb45cbb38dad5b2deeb6c01d17eb50024b55200aaf05b2",
+      "next-task.md": "6228a4da8e6094f0ffecb79c36d697490252a32cc9a8631c2e4203963e51fd56",
+      "R002-story-response-definition-check.md": "14374788b472614090a8581dd70cc1acac693ae35b980cd3a4796d54cf84d04d",
+      "source-manifest-R002.json": "d1af0c73bf019bb9e5c220b41991a201b0c0156db36bdd222f7fa7f704b686a1",
+      "R003-link-force-deformation-port-check.md": "6c7b18c48965531e9d8606be2210df7ddbd384e4d28c9f0dcdc4eee78279ceca",
+      "source-manifest-R003.json": "b71a56664806066a568b8718003732a43548c71e7abaeb90a597df6e2b1146ff"
+    },
+    "all_hashes_match": true,
+    "source_pdf_unchanged": true
+  },
+  "report": {
+    "path": "R004-FNA-effective-properties-and-local-basis.md",
+    "sha256": "7e7c17837a94f4d7793677010c13cd040eba80cc72b850f0b4fcf0560256d398"
+  }
+}

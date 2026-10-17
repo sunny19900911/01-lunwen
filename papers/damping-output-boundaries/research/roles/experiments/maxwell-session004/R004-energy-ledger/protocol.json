@@ -1,0 +1,35 @@
+{
+  "evidence_id": "M-EXP-R004",
+  "review_status": "candidate",
+  "stage": "frozen before energy arithmetic",
+  "fixed_parameter_summary": "../R002-integral-regression/fit_summary_r002.json",
+  "parameter_summary_sha256": "3186dae098c025673eb565390f4273760b5765c1095f6948ab3c051caf3e3f02",
+  "parameters": {"alpha": "0.30", "a_m_per_kN": "2.0006042528243313e-06", "b_m_per_s_kN_power_inverse_alpha": "1.1798190016520894e-09", "k": "1/a"},
+  "inputs": [
+    {"Link": "K2", "Case": "RH4X", "path": "../paired_K2_RH4X_r001.csv", "sha256": "9def6dbd1c2c412554d4f07f2f01a3afa00d2cbc3e0c255bd86763e2a838101f"},
+    {"Link": "K5", "Case": "RH4X", "path": "../paired_K5_RH4X_r001.csv", "sha256": "edd380b14e1954d20202312e2435b22d381e56e13dc9742a3f30880d223233c6"},
+    {"Link": "K2", "Case": "SHW4X", "path": "../R003-cross-case-transfer/local_input_K2_SHW4X_r003.csv", "sha256": "bc66eeee48ad3b4799dc030364f671a846037332770283fbc5acae9ae77e8602"},
+    {"Link": "K2", "Case": "SHW7X", "path": "../R003-cross-case-transfer/local_input_K2_SHW7X_r003.csv", "sha256": "9a3c1c852212c1adbe72350cd98e148e126f3de38a60fd876fcc6f7ecddace1a"},
+    {"Link": "K5", "Case": "SHW4X", "path": "../R003-cross-case-transfer/local_input_K5_SHW4X_r003.csv", "sha256": "b9357e44c3d40dc76fa15fa29a3be393bf318642308d956e5f85990313464242"},
+    {"Link": "K5", "Case": "SHW7X", "path": "../R003-cross-case-transfer/local_input_K5_SHW7X_r003.csv", "sha256": "6bcaa162f6ea25a88a6a8f036314db62d900ed6aad0390c3bb711cddb79d4ef2"}
+  ],
+  "force_and_units": "Use native P_I once in kN, verify P_J duplicate; deformation U1_m with frozen mm/1000 check; time s. No force sign flip, re-fit, Excel read or new record.",
+  "definitions": {
+    "h": "sign(F)*abs(F)^(1/alpha)",
+    "predicted_delta_d": "a*(F-F0)+b*cumulative_trapezoid(h)",
+    "r": "predicted_delta_d-(d-d0), equivalent to d_pred-d_obs with known d0",
+    "Wtrap": "sum Favg*Delta d_obs",
+    "Delta_Us": "a*(Fend^2-F0^2)/2; conditional spring storage using fitted k",
+    "Dport": "Wtrap-Delta_Us",
+    "Dforce_trap": "b*sum dt*avg(F*h)",
+    "product_term": "(b/4)*sum dt*Delta F*Delta h",
+    "residual_work": "sum Favg*Delta r",
+    "identity": "Dforce_trap-Dport=product_term+residual_work"
+  },
+  "outputs": "Every record separately: total terms, cumulative maximum discrepancy/time, signed negative Dport interval count/min, all interval identity residuals. Keep full local interval ledger; lightweight summaries and worst windows for handoff. Never sum across records/devices as full88 energy.",
+  "worst_periods": "Partition each original time axis into fixed disjoint 1.00s windows anchored at 0; retain final partial window. Save all windows and top3 per record by absolute signed energy discrepancy Dforce-Dport; also top3 original intervals per record. No posthoc window length selection.",
+  "arithmetic_checks": "Both per-interval identity and independently summed endpoint-storage total identity, tolerances only floating arithmetic checks, not continuous error bounds. Product term should be nonnegative for alpha>0; do not clip negative Dport increments.",
+  "limits": "Classical discrete product/storage bookkeeping, not new theory. Same fixed constitutive model underlies Dforce and r; agreement is not independent physical validation. Native port/version and true properties remain conditional. The terms are not certified continuous-integration error bounds or full88 viscous dissipation.",
+  "runtime_limit_seconds": 480,
+  "no_screenshot_parameter_comparison_in_this_run": true
+}

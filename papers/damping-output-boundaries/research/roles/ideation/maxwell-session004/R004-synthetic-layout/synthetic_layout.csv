@@ -1,0 +1,6 @@
+scenario,chord_length_m,nx,ny,nz,dux_m,duy_m,duz_m,axial_first_order_m,expected_m,length_derivative_check_m
+A_common_X_translation,5.0,0.8,0.0,0.6,0.0,0.0,0,0.0,0,0.0
+B_upper_X_translation,5.0,0.8,0.0,0.6,0.01,0.0,0.0,0.008,0.008,0.007999999999785956
+C_centerline_upper_torsion,5.0,0.8,0.0,0.6,0.0,0.004,0.0,0.0,0,0.0
+D_offset_upper_torsion,5.0,0.8,0.0,0.6,-0.003,0.004,0.0,-0.0024000000000000002,-0.0024,-0.0024000000000690136
+E_same_rigid_floor,4.0,1.0,0.0,0.0,0.0,0.004,0.0,0.0,0,0.0

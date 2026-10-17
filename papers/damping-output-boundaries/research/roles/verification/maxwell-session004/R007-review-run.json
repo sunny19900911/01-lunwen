@@ -1,0 +1,83 @@
+{
+  "session": "20261017-2109",
+  "role": "verification",
+  "review": "R007",
+  "started_at": "2026-10-17T22:28:53+08:00",
+  "numerical_completed_at": "2026-10-17T22:31:37.753055+08:00",
+  "qa_completed_at": "2026-10-17T22:36:10.191604+08:00",
+  "interpreter": "C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "python_version": "3.12.14",
+  "script": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_fixed_transfer_R007.py",
+  "arguments": [
+    "--experiment",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004",
+    "--out",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R007-transfer-review"
+  ],
+  "execution_exit_code": 0,
+  "reproduction_requires_new_empty_output_directory": true,
+  "all_point_residuals_checked": 11294,
+  "worst_points_checked": 20,
+  "required_corrections": 0,
+  "maximum_residual_difference_m": 6.505213034913027e-19,
+  "source_inputs_sha_rechecked": 13,
+  "additional_source_documents_sha_rechecked": 4,
+  "script_ast_valid": true,
+  "utf8_lf_no_trailing_whitespace": true,
+  "frozen_R001_R006": [
+    {
+      "run_file": "R001-review-run.json",
+      "sha256": "7d43f7e3fb4b754edce7e44f9c57908314ec27172e6c5a25e97163573dac499f",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R002-review-run.json",
+      "sha256": "f14346e51b39b32ce421433be671a1ddc67a2cb89995652c45aba0514fb6a028",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R003-review-run.json",
+      "sha256": "db8c3ce055d9ba45250a5c59c4444c880eadf12acb4236c6de5e545295054a69",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R004-review-run.json",
+      "sha256": "d2800774203b57330f6da953081f25771161f5e1df84423f2782ee85248e8252",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R005-review-run.json",
+      "sha256": "8043b9282527e3480165a636cb6de44cbd4afe3739b1dff80daa9802e7b82163",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R006-review-validation.json",
+      "sha256": "bac733cf858eca6cb3548e556db765e9ba950eba5c1c8e0c713e674b1a532fcd",
+      "outputs_verified": 1
+    }
+  ],
+  "read_only_collaborator": "r006_sharp_challenge: code/scope audit only; no CSV point arrays or numerical duplication; 0 substantive issues.",
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\固定参数跨工况迁移独审-R007.md",
+      "bytes": 6822,
+      "sha256": "c1cf505cf1c9fe7f8c40a2e5b658a91b05471f16dfb5d37901f9bb5596504494"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_fixed_transfer_R007.py",
+      "bytes": 9094,
+      "sha256": "22176d42758e666fc82bc0dbdec719c5bee93d59e1c99d4d5cc402967a3743cb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R007-transfer-review\\review_summary.json",
+      "bytes": 16809,
+      "sha256": "68316077698295bb6a33c36df894cea04004f34ee8f74ba3e0317bdb0c0750d7"
+    }
+  ],
+  "limits": [
+    "Given-native-force conditional constitutive transfer, not earthquake-input forward response prediction.",
+    "Input/event independence, actual database port/mass mapping and all88 uniform parameters not certified.",
+    "No independent raw-XLSX extraction repeated; only frozen local inputs checked.",
+    "Full arrays remain local, no output time-history arrays written."
+  ]
+}

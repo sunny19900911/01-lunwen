@@ -1,0 +1,105 @@
+{
+  "recorded_in": "R003 closure",
+  "note": "Actual compact snapshots taken before latest finite dispatches and late freeze reports; status_at_snapshot is historical, use next wait with cursor for live state. See R003-late-evidence.md.",
+  "polls": [
+    {
+      "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:42",
+      "status_at_snapshot": {
+        "type": "idle"
+      },
+      "latestTurn": {
+        "id": "01a14a2a-61ca-7491-9da8-6802c3930ca6",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792245653,
+        "completedAt": 1792245962,
+        "durationMs": 308419
+      },
+      "latest_text": "R003作者侧核查完成：两个候选界均成立，积分界在给定条件下可取等；无统一速度上界时，固定真实耗散不能控制器件峰力。 推导与适用边界已交主控和角色6，保持 candidate，待独审与查重，不外推楼层力。"
+    },
+    {
+      "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:42",
+      "status_at_snapshot": {
+        "type": "idle"
+      },
+      "latestTurn": {
+        "id": "01a14a37-3655-7c01-8c2c-1552e79dc0c6",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792246494,
+        "completedAt": 1792246976,
+        "durationMs": 482022
+      },
+      "latest_text": "R006 数学独审通过，必修问题 0。结论限于原假设；不认证创新性、真实参数或楼体响应保证。 查看审核报告"
+    },
+    {
+      "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:36",
+      "status_at_snapshot": {
+        "type": "idle"
+      },
+      "latestTurn": {
+        "id": "01a14a22-cb4a-7a61-b0a0-2d8a7d271c30",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792245156,
+        "completedAt": 1792245751,
+        "durationMs": 595095
+      },
+      "latest_text": "R003 接口报告及来源清单已冻结并回报主控。 已列明 P/U1 正号、I/J 同值与节点集中质量的原页证据；LinkJointForce 的作用对象、坐标及惯性项仍保留 unknown，交原生单元验证。检查通过，R001/R002 未改，未运行 ETABS 或操作 Git。"
+    },
+    {
+      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:30",
+      "status_at_snapshot": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "latestTurn": {
+        "id": "01a14a3d-6cb5-7203-a534-c80b16efd0e5",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792246902,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latest_text": "我会只读取已冻结的六条记录，用固定参数核对离散能量账，并把差额拆成梯形乘积差与残差做功两项。结果先保持 candidate；这项恒等式核对不会替代独立物理验证，也不汇总为全88只装置耗散。"
+    },
+    {
+      "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:38",
+      "status_at_snapshot": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "latestTurn": {
+        "id": "01a14a3d-6943-7a13-903c-2901b7ae99f4",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792246901,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latest_text": "我会从 v001 另存 v002，把正文重点转到已审覆盖和条件本构识别结果，移出长散列与协作流水。先核对识别误差、P/U1 接口和两幅已接纳图；同一 RH4X 下的器件迁移会与跨记录验证明确区分。"
+    },
+    {
+      "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:8",
+      "status_at_snapshot": {
+        "type": "idle"
+      },
+      "latestTurn": {
+        "id": "01a14a2e-e2f2-7050-b70e-dcf5948e8edb",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792245949,
+        "completedAt": 1792246447,
+        "durationMs": 497833
+      },
+      "latest_text": "R004 有限查重已完成：经典方法覆盖已说明，精确 Φ 的同条件发表先例仍未定，不作首创判断。 候选指纹一致，13份旧冻结文件未变；本轮已收束。"
+    }
+  ]
+}
+

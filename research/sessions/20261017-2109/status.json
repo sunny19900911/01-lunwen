@@ -6,8 +6,8 @@
   "deadline": "2026-10-18T07:09:45+08:00",
   "master_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
   "checkpoint_open": true,
-  "current_round": "R003",
-  "latest_round": "rounds/R002.md",
+  "current_round": "R004",
+  "latest_round": "rounds/R003.md",
   "checkpoint_minutes": 15,
   "topic_card_minutes": 30,
   "scheduler": {
@@ -35,7 +35,7 @@
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
       "hostId": "local",
       "title": "论文角色①｜猜想与理论突破",
-      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:41",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:42",
       "preflight_status": {
         "type": "notLoaded"
       },
@@ -48,13 +48,14 @@
       "turn_status": "completed",
       "actual_status_at_snapshot": {
         "type": "idle"
-      }
+      },
+      "snapshot_note": "historical R003-role-snapshot; later dispatch/freeze reports exist, poll live before any task"
     },
     "verification": {
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
       "hostId": "local",
       "title": "论文角色②｜证明审核与反例",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:40",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:42",
       "preflight_status": {
         "type": "notLoaded"
       },
@@ -68,13 +69,14 @@
       "actual_status_at_snapshot": {
         "type": "active",
         "activeFlags": []
-      }
+      },
+      "snapshot_note": "historical R003-role-snapshot; later dispatch/freeze reports exist, poll live before any task"
     },
     "literature": {
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
       "hostId": "local",
       "title": "论文角色③｜文献原文复查",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:35",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:36",
       "preflight_status": {
         "type": "notLoaded"
       },
@@ -87,13 +89,14 @@
       "turn_status": "completed",
       "actual_status_at_snapshot": {
         "type": "idle"
-      }
+      },
+      "snapshot_note": "historical R003-role-snapshot; later dispatch/freeze reports exist, poll live before any task"
     },
     "experiments": {
       "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
       "hostId": "local",
       "title": "论文角色④｜ETABS数据与拟合",
-      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:25",
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:30",
       "preflight_status": {
         "type": "idle"
       },
@@ -107,13 +110,14 @@
       "actual_status_at_snapshot": {
         "type": "active",
         "activeFlags": []
-      }
+      },
+      "snapshot_note": "historical R003-role-snapshot; later dispatch/freeze reports exist, poll live before any task"
     },
     "writing": {
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
       "hostId": "local",
       "title": "论文角色⑤｜论文写作与论证",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:36",
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:38",
       "preflight_status": {
         "type": "notLoaded"
       },
@@ -127,13 +131,14 @@
       "actual_status_at_snapshot": {
         "type": "active",
         "activeFlags": []
-      }
+      },
+      "snapshot_note": "historical R003-role-snapshot; later dispatch/freeze reports exist, poll live before any task"
     },
     "novelty": {
       "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
       "hostId": "local",
       "title": "创新性验证",
-      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:6",
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:8",
       "preflight_status": {
         "type": "active",
         "activeFlags": []
@@ -144,7 +149,8 @@
         "type": "idle"
       },
       "turn_status": "completed",
-      "actual_status_at_snapshot": "inProgress, candidate peak-bound novelty check; 2003 prior task closure to inspect"
+      "actual_status_at_snapshot": "inProgress, candidate peak-bound novelty check; 2003 prior task closure to inspect",
+      "snapshot_note": "historical R003-role-snapshot; later dispatch/freeze reports exist, poll live before any task"
     }
   },
   "git_authorization": "Verified direct human user messages in source thread; main master-only normal commit/push for this session whitelist",
@@ -154,19 +160,17 @@
   "source_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
   "core_cache": "../W5-重燃双塔连体/research/maxwell-20261017/experiments/R001/core-cache",
   "pending_review": [
-    "role4 R003 fixed-parameter cross-case transfer: root full read, R007 independent arithmetic review dispatched",
-    "role4 R004 discrete energy ledger: candidate frozen, root/independent review pending",
-    "new manuscript v002: author in progress, freeze/review before publication",
-    "role1 R004 geometry/modal relative-motion interface and role3 R004 FNA source check dispatched",
-    "role6 R005 alpha=1 RC equivalent prior check dispatched",
-    "W5 auxiliary Base-row/storage/return-force/skill packages remain unaccepted except two adopted figures"
+    "R005 floor descriptors root intro read; R009 independent review running",
+    "v003 new manuscript with R007 and relative image paths in progress; independent integration pending",
+    "R006 complete32-device force/work subset finite extraction dispatched",
+    "W5 88-device XLSX minimal-data template and other auxiliary packages not root reviewed"
   ],
-  "recorded_at": "2026-10-17T22:31:19.096562+08:00",
-  "checkpoint_status": "R003 frozen-reviewed whitelist preflight; not yet committed/pushed",
-  "next_task": "Next scheduled checkpoint: collect R005 manuscript audit, role4 cross-case transfer, ideation R003 energy+velocity peak bound, novelty closest2003 status. Root source images reviewed; energy/coverage/conditional-fit calculations accepted within scope. Publish only frozen reviewed late packet and verified new stage manuscript; retain unknown settings/geometry. Check Base auxiliary interpretation before treating as input identity.",
-  "last_commit": "58367a9758b2bcd90762043497a2833043286654",
-  "last_remote_commit": "58367a9758b2bcd90762043497a2833043286654",
-  "last_push_receipt": "R002-push.json",
+  "recorded_at": "2026-10-17T22:47:31.370201+08:00",
+  "checkpoint_status": "R004 preparing frozen-reviewed whitelist; prior published a11d17f",
+  "next_task": "Continue open R004: R008 energy ledger independent review running; writer v003 assigned relative GitHub figure paths and reviewed R007 transfers, old drafts immutable; independent integration review only after freeze. Role4 R005 floor-control profile running, next high-value task complete32-device subset force/work descriptors only if finite and source reuse justified. No whole-building geometry or fair baseline invented. Cutoff unchanged.",
+  "last_commit": "a11d17ff416a1f09ce1676c519ed02299cfc0e7a",
+  "last_remote_commit": "a11d17ff416a1f09ce1676c519ed02299cfc0e7a",
+  "last_push_receipt": "R003-push.json",
   "accepted_evidence": {
     "energy_R001": {
       "review": "原生能量证据独审-R001.md",
@@ -234,9 +238,41 @@
       "candidate_sha256": "0509ce63722190ad5b726088ceb1b1060b3824508b82f41fe96778981ae6fe3f",
       "scope": "mathematics reviewed under original zero-initial-force/continuous total speed bound/finite T/terminal-force-free assumptions; novelty unresolved, engineering not certified",
       "accepted_at": "2026-10-17T22:31:19.096562+08:00"
+    },
+    "cross_case_R007": {
+      "accepted_at": "2026-10-17T22:39:07.180687+08:00",
+      "report_sha256": "c1cf505cf1c9fe7f8c40a2e5b658a91b05471f16dfb5d37901f9bb5596504494",
+      "checked_files": {
+        "papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\固定参数跨工况迁移独审-R007.md": "c1cf505cf1c9fe7f8c40a2e5b658a91b05471f16dfb5d37901f9bb5596504494",
+        "papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_fixed_transfer_R007.py": "22176d42758e666fc82bc0dbdec719c5bee93d59e1c99d4d5cc402967a3743cb",
+        "papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R007-transfer-review\\review_summary.json": "68316077698295bb6a33c36df894cea04004f34ee8f74ba3e0317bdb0c0750d7",
+        "papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R007-review-run.json": "1d794223541ae4cd5b2fc46e03850b641192281956a545daeabded4e9b76fc08"
+      },
+      "scope": "four full frozen transfers,11294 points arithmetic reviewed; given F constitutive consistency, not earthquake forward prediction/independent event/general model truth"
+    },
+    "CSI_FNA_R004": {
+      "report_sha256": "7e7c17837a94f4d7793677010c13cd040eba80cc72b850f0b4fcf0560256d398",
+      "scope": "manual definition, root full report plus actual page images300/475/476 read; no actual model settings/convergence validation",
+      "root_visual_read_at": "2026-10-17T22:41:18.955192+08:00"
+    },
+    "geometry_interface_R004": {
+      "report_sha256": "27c7841d12f9844a7a41b6232f5e4fc30a16c3c593f2a55a7dbe19a7a5b1520b",
+      "scope": "classic small-displacement axial projection and rigid-diaphragm kinematics independently rederived by root; no actual layout ranking or mode completeness certification",
+      "status": "root analytic review; separate role2 review not claimed",
+      "accepted_at": "2026-10-17T22:41:18.955192+08:00"
+    },
+    "discrete_ledger_R008": {
+      "accepted_at": "2026-10-17T22:47:31.370201+08:00",
+      "checked_files": {
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/六记录离散能量账本独审-R008.md": "d0d84b43591894b73e80099d145cddb9dca6443baf19b28acff3171785761c78",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/review_energy_ledger_R008.py": "2cac4417c7df8fe69764a102e4da5cf87be49e07fef0c5986663298e2b77ad62",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R008-energy-review/review_summary.json": "800432a0d922ef9c3bd5d1325dff267b68ff3e802f7c4c75a910dca83899bc04",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R008-review-run.json": "1925e4649afa3131ae9fd9b26cd3a1ad89d943f72a8706826095cdb8da946428"
+      },
+      "scope": "six given traces,16290 intervals,326 windows,discrete product and summation-by-parts arithmetic reviewed; not continuous integral error bounds or true dissipation certification"
     }
   },
-  "checkpoint_started_at": "2026-10-17T22:12:39.142049+08:00",
+  "checkpoint_started_at": "2026-10-17T22:39:07.180687+08:00",
   "received_auxiliary_skill_increment": {
     "path": "C:/Users/mj528/.codex/skills/etabs-response-analysis/scripts/cache_coverage.py",
     "source_validation": "../W5-重燃双塔连体/research/maxwell-20261017/roles/verification/response-coverage/skill-validation.json",
@@ -251,6 +287,12 @@
   "manuscript_stage_v001": {
     "path": "papers/damping-output-boundaries/manuscript/maxwell-engineering-draft-v001.md",
     "sha256": "8ec39aeb7692b7745dbd7622b7364ef19d3dd20404755444626ec93358ec24b6",
-    "status": "root full text plus R005 integration reviewed; selected for R003 publication, no push claim yet"
+    "status": "R003 published and verified; frozen stage manuscript only"
+  },
+  "latest_role_snapshot": "R003-role-snapshot.json",
+  "latest_late_handoff": "R003-late-evidence.md",
+  "manuscript_stage_v002": {
+    "sha256": "64f69a385155f0004113cd8e96e12ebbe0b86e07bb88ce56da7d6873324bbef5",
+    "status": "root full text/hash reviewed; frozen. Local absolute image references unsuitable for GitHub portability; author v003 assigned to fix image paths and integrate reviewed R007 before independent integration audit."
   }
 }

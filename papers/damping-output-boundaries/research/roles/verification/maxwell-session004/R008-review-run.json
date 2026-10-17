@@ -1,0 +1,90 @@
+{
+  "session": "20261017-2109",
+  "role": "verification",
+  "review": "R008",
+  "started_at": "2026-10-17T22:38:21+08:00",
+  "numerical_completed_at": "2026-10-17T22:41:16.071092+08:00",
+  "qa_completed_at": "2026-10-17T22:43:54.188522+08:00",
+  "interpreter": "C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "python_version": "3.12.14",
+  "script": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_energy_ledger_R008.py",
+  "arguments": [
+    "--source",
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R004-energy-ledger",
+    "--out",
+    "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R008-energy-review"
+  ],
+  "execution_exit_code": 0,
+  "reproduction_requires_new_output_json": true,
+  "intervals_checked": 16290,
+  "windows_checked": 326,
+  "worst_windows_checked": 18,
+  "worst_intervals_checked": 18,
+  "required_corrections": 0,
+  "summation_by_parts_checked": "six complete records, all prefixes, all 16290 intervals and all 326 windows",
+  "source_files_sha_rechecked": 17,
+  "script_ast_valid": true,
+  "utf8_lf_no_trailing_whitespace": true,
+  "report_numeric_cells_checked": 84,
+  "frozen_R001_R007": [
+    {
+      "run_file": "R001-review-run.json",
+      "sha256": "7d43f7e3fb4b754edce7e44f9c57908314ec27172e6c5a25e97163573dac499f",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R002-review-run.json",
+      "sha256": "f14346e51b39b32ce421433be671a1ddc67a2cb89995652c45aba0514fb6a028",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R003-review-run.json",
+      "sha256": "db8c3ce055d9ba45250a5c59c4444c880eadf12acb4236c6de5e545295054a69",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R004-review-run.json",
+      "sha256": "d2800774203b57330f6da953081f25771161f5e1df84423f2782ee85248e8252",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R005-review-run.json",
+      "sha256": "8043b9282527e3480165a636cb6de44cbd4afe3739b1dff80daa9802e7b82163",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R006-review-validation.json",
+      "sha256": "bac733cf858eca6cb3548e556db765e9ba950eba5c1c8e0c713e674b1a532fcd",
+      "outputs_verified": 1
+    },
+    {
+      "run_file": "R007-review-run.json",
+      "sha256": "1d794223541ae4cd5b2fc46e03850b641192281956a545daeabded4e9b76fc08",
+      "outputs_verified": 3
+    }
+  ],
+  "read_only_collaborator": "r006_sharp_challenge: four source documents, no CSV arrays/numerical recomputation/files; 0 required changes.",
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\六记录离散能量账本独审-R008.md",
+      "bytes": 8808,
+      "sha256": "d0d84b43591894b73e80099d145cddb9dca6443baf19b28acff3171785761c78"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_energy_ledger_R008.py",
+      "bytes": 12884,
+      "sha256": "2cac4417c7df8fe69764a102e4da5cf87be49e07fef0c5986663298e2b77ad62"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R008-energy-review\\review_summary.json",
+      "bytes": 48095,
+      "sha256": "800432a0d922ef9c3bd5d1325dff267b68ff3e802f7c4c75a910dca83899bc04"
+    }
+  ],
+  "limits": [
+    "Conditional model arithmetic only; no true dissipation, all88, engineering reduction or innovation certification.",
+    "Summation by parts is a classical discrete identity, not a continuous quadrature error bound.",
+    "Small displacement RMSE alone does not imply small residual work; signed cancellation retained.",
+    "Full interval arrays read locally; no new full-array outputs or uploads."
+  ]
+}

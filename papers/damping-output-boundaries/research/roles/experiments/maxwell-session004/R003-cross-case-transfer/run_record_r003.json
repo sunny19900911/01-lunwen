@@ -1,0 +1,28 @@
+{
+  "evidence_id": "M-EXP-R003",
+  "review_status": "candidate",
+  "command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\check_fixed_transfer.py"
+  ],
+  "finished_utc": "2026-10-17T14:12:09.560839+00:00",
+  "elapsed_seconds": 3.522921199997654,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "exit_code_after_checks": 0,
+  "reader_module_sha256": "8592f97ce74f024906909d2647caecc426fca77760d82f0964c24194732a6c15",
+  "protocol_last_write_utc": "2026-10-17T14:09:53.722492+00:00",
+  "code_sha256": "874bb04077fae5f3acdb2275773d3b796deac909ca3b6e6a9adb02cbbed867db",
+  "summary_sha256": "13a955378a4e30f5920dd332f9e748a9a82ceb6321484f1d6ade28452fda1395",
+  "checks": {
+    "four_and_only_four_targets": true,
+    "all_11294_original_target_points_retained": true,
+    "units_IJ_and_coverage_verified_before_prediction": true,
+    "fixed_RH4X_parameters_no_refit": true,
+    "no_Y_numeric_histories_extracted": true,
+    "source_same_version_actually_rehashed": true,
+    "source_size_mtime_stable": true,
+    "all_frozen_source_files_unchanged": true,
+    "runtime_below_480_seconds": true
+  }
+}

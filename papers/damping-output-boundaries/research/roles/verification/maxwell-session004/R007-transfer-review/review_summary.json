@@ -1,0 +1,435 @@
+{
+  "recorded_at": "2026-10-17T22:31:37.753055+08:00",
+  "checks_passed": true,
+  "script_sha256": "22176d42758e666fc82bc0dbdec719c5bee93d59e1c99d4d5cc402967a3743cb",
+  "python": "3.12.14",
+  "method": "Independent standard-library scalar signed power, Kahan cumulative trapezoid, math.fsum metrics; no fit/NumPy/source script invocation.",
+  "fixed_parameters": {
+    "alpha": 0.3,
+    "a": 2.0006042528243313e-06,
+    "b": 1.1798190016520894e-09
+  },
+  "all_point_residuals_checked": 11294,
+  "worst_points_checked": 20,
+  "maximum_residual_difference_m": 6.505213034913027e-19,
+  "groups": [
+    {
+      "metrics": {
+        "Link": "K2",
+        "Case": "SHW4X",
+        "n": 2951,
+        "alpha_fixed": 0.3,
+        "a_fixed": 2.0006042528243313e-06,
+        "b_fixed": 1.1798190016520894e-09,
+        "F0_kN_observed": 0.0,
+        "d0_m_observed": 0.0,
+        "zero_force_points_retained": 1,
+        "max_abs_force_kN": 108.68699066497567,
+        "RMSE_m": 3.8292369539732357e-07,
+        "RMSE_mm": 0.00038292369539732357,
+        "MAE_m": 2.1662528469505945e-07,
+        "max_abs_residual_m": 3.4900282712407177e-06,
+        "mean_residual_m": 9.120247249186748e-08,
+        "end_residual_m": 2.7942636829143033e-08,
+        "delta_d_RMS_m": 0.0002547183531501819,
+        "RMSE_over_delta_d_RMS": 0.0015033219658559577
+      },
+      "unit_conversion_max_error_m": 0.0,
+      "max_prediction_difference_from_source_m": 5.421010862427522e-19,
+      "max_residual_difference_from_source_m": 5.421010862427522e-19,
+      "worst_five": [
+        {
+          "t_s": 20.34,
+          "residual_m": -3.4900282712407177e-06,
+          "P_I_kN": -87.5473298150659,
+          "observed_delta_d_m": -8.393009584303939e-05,
+          "predicted_delta_d_m": -8.74201241142801e-05,
+          "P_I_cell": "I12042",
+          "U1_cell": "H6023"
+        },
+        {
+          "t_s": 29.400000000000002,
+          "residual_m": 3.3244550141710055e-06,
+          "P_I_kN": 84.72168357442862,
+          "observed_delta_d_m": -0.0001260567924255453,
+          "predicted_delta_d_m": -0.0001227323374113743,
+          "P_I_cell": "I12948",
+          "U1_cell": "H6476"
+        },
+        {
+          "t_s": 20.32,
+          "residual_m": -3.159347074599406e-06,
+          "P_I_kN": -68.19394386607613,
+          "observed_delta_d_m": 4.896632056728475e-06,
+          "predicted_delta_d_m": 1.7372849821290686e-06,
+          "P_I_cell": "I12040",
+          "U1_cell": "H6022"
+        },
+        {
+          "t_s": 29.38,
+          "residual_m": 3.0527167308377087e-06,
+          "P_I_kN": 68.78160218598467,
+          "observed_delta_d_m": -0.00020491577199026255,
+          "predicted_delta_d_m": -0.00020186305525942485,
+          "P_I_cell": "I12946",
+          "U1_cell": "H6475"
+        },
+        {
+          "t_s": 26.02,
+          "residual_m": -2.8928088337956746e-06,
+          "P_I_kN": -69.90604033268464,
+          "observed_delta_d_m": -0.0002845602119406242,
+          "predicted_delta_d_m": -0.00028745302077441985,
+          "P_I_cell": "I12610",
+          "U1_cell": "H6307"
+        }
+      ],
+      "source_row_ranges": {
+        "force_I_row": [
+          10008,
+          15908
+        ],
+        "force_J_row": [
+          10009,
+          15909
+        ],
+        "deformation_row": [
+          5006,
+          7956
+        ]
+      }
+    },
+    {
+      "metrics": {
+        "Link": "K2",
+        "Case": "SHW7X",
+        "n": 2696,
+        "alpha_fixed": 0.3,
+        "a_fixed": 2.0006042528243313e-06,
+        "b_fixed": 1.1798190016520894e-09,
+        "F0_kN_observed": 0.0,
+        "d0_m_observed": 0.0,
+        "zero_force_points_retained": 1,
+        "max_abs_force_kN": 114.01123756052242,
+        "RMSE_m": 6.379937444850016e-07,
+        "RMSE_mm": 0.0006379937444850015,
+        "MAE_m": 4.5572170508883634e-07,
+        "max_abs_residual_m": 5.269226225893832e-06,
+        "mean_residual_m": -3.20036722021204e-07,
+        "end_residual_m": -5.993611620890918e-07,
+        "delta_d_RMS_m": 0.0003735002830672402,
+        "RMSE_over_delta_d_RMS": 0.0017081479543889539
+      },
+      "unit_conversion_max_error_m": 0.0,
+      "max_prediction_difference_from_source_m": 6.505213034913027e-19,
+      "max_residual_difference_from_source_m": 6.505213034913027e-19,
+      "worst_five": [
+        {
+          "t_s": 17.32,
+          "residual_m": 5.269226225893832e-06,
+          "P_I_kN": 71.8408971760022,
+          "observed_delta_d_m": -0.000352772345294069,
+          "predicted_delta_d_m": -0.00034750311906817517,
+          "P_I_cell": "I23544",
+          "U1_cell": "H11774"
+        },
+        {
+          "t_s": 17.64,
+          "residual_m": -3.632402356712125e-06,
+          "P_I_kN": -78.0451026092315,
+          "observed_delta_d_m": 0.0006003022665607983,
+          "predicted_delta_d_m": 0.0005966698642040862,
+          "P_I_cell": "I23576",
+          "U1_cell": "H11790"
+        },
+        {
+          "t_s": 17.5,
+          "residual_m": -3.569505332207102e-06,
+          "P_I_kN": 97.19935524272034,
+          "observed_delta_d_m": 0.0008396925240789311,
+          "predicted_delta_d_m": 0.000836123018746724,
+          "P_I_cell": "I23562",
+          "U1_cell": "H11783"
+        },
+        {
+          "t_s": 17.34,
+          "residual_m": 3.495481644968896e-06,
+          "P_I_kN": 94.29898891076948,
+          "observed_delta_d_m": -0.000242853146720925,
+          "predicted_delta_d_m": -0.0002393576650759561,
+          "P_I_cell": "I23546",
+          "U1_cell": "H11775"
+        },
+        {
+          "t_s": 17.52,
+          "residual_m": -3.4301388041650064e-06,
+          "P_I_kN": 83.1886806436757,
+          "observed_delta_d_m": 0.0008909886553569435,
+          "predicted_delta_d_m": 0.0008875585165527785,
+          "P_I_cell": "I23564",
+          "U1_cell": "H11784"
+        }
+      ],
+      "source_row_ranges": {
+        "force_I_row": [
+          21812,
+          27202
+        ],
+        "force_J_row": [
+          21813,
+          27203
+        ],
+        "deformation_row": [
+          10908,
+          13603
+        ]
+      }
+    },
+    {
+      "metrics": {
+        "Link": "K5",
+        "Case": "SHW4X",
+        "n": 2951,
+        "alpha_fixed": 0.3,
+        "a_fixed": 2.0006042528243313e-06,
+        "b_fixed": 1.1798190016520894e-09,
+        "F0_kN_observed": 0.0,
+        "d0_m_observed": 0.0,
+        "zero_force_points_retained": 1,
+        "max_abs_force_kN": 27.160004178574876,
+        "RMSE_m": 1.4210215573575462e-07,
+        "RMSE_mm": 0.00014210215573575463,
+        "MAE_m": 1.254717150750544e-07,
+        "max_abs_residual_m": 2.731251231885662e-07,
+        "mean_residual_m": -1.2541417428464668e-07,
+        "end_residual_m": -1.47656576678439e-07,
+        "delta_d_RMS_m": 1.203528287344056e-05,
+        "RMSE_over_delta_d_RMS": 0.011807130520325816
+      },
+      "unit_conversion_max_error_m": 0.0,
+      "max_prediction_difference_from_source_m": 2.1175823681357508e-20,
+      "max_residual_difference_from_source_m": 2.1175823681357508e-20,
+      "worst_five": [
+        {
+          "t_s": 26.04,
+          "residual_m": -2.731251231885662e-07,
+          "P_I_kN": -21.339327432857754,
+          "observed_delta_d_m": -4.324310458891e-05,
+          "predicted_delta_d_m": -4.351622971209857e-05,
+          "P_I_cell": "I45204",
+          "U1_cell": "H22604"
+        },
+        {
+          "t_s": 26.060000000000002,
+          "residual_m": -2.678529587258084e-07,
+          "P_I_kN": -21.464647794061758,
+          "observed_delta_d_m": -4.4141347303342426e-05,
+          "predicted_delta_d_m": -4.4409200262068235e-05,
+          "P_I_cell": "I45206",
+          "U1_cell": "H22605"
+        },
+        {
+          "t_s": 23.5,
+          "residual_m": -2.655869214325318e-07,
+          "P_I_kN": -0.5403133518630467,
+          "observed_delta_d_m": 8.064737334123959e-07,
+          "predicted_delta_d_m": 5.408868119798641e-07,
+          "P_I_cell": "I44950",
+          "U1_cell": "H22477"
+        },
+        {
+          "t_s": 25.98,
+          "residual_m": -2.632075226227033e-07,
+          "P_I_kN": -18.103255027646192,
+          "observed_delta_d_m": -3.5110590134200385e-05,
+          "predicted_delta_d_m": -3.537379765682309e-05,
+          "P_I_cell": "I45198",
+          "U1_cell": "H22601"
+        },
+        {
+          "t_s": 23.46,
+          "residual_m": -2.610874905306908e-07,
+          "P_I_kN": -1.5621744476311232,
+          "observed_delta_d_m": -1.24229470887184e-06,
+          "predicted_delta_d_m": -1.5033821994025308e-06,
+          "P_I_cell": "I44946",
+          "U1_cell": "H22475"
+        }
+      ],
+      "source_row_ranges": {
+        "force_I_row": [
+          42600,
+          48500
+        ],
+        "force_J_row": [
+          42601,
+          48501
+        ],
+        "deformation_row": [
+          21302,
+          24252
+        ]
+      }
+    },
+    {
+      "metrics": {
+        "Link": "K5",
+        "Case": "SHW7X",
+        "n": 2696,
+        "alpha_fixed": 0.3,
+        "a_fixed": 2.0006042528243313e-06,
+        "b_fixed": 1.1798190016520894e-09,
+        "F0_kN_observed": 0.0,
+        "d0_m_observed": 0.0,
+        "zero_force_points_retained": 1,
+        "max_abs_force_kN": 29.35557397958036,
+        "RMSE_m": 1.3673076780144448e-07,
+        "RMSE_mm": 0.00013673076780144447,
+        "MAE_m": 1.2120465625656843e-07,
+        "max_abs_residual_m": 2.4212944332410355e-07,
+        "mean_residual_m": -7.172899963583769e-08,
+        "end_residual_m": -2.0542698668237613e-07,
+        "delta_d_RMS_m": 1.794460491529534e-05,
+        "RMSE_over_delta_d_RMS": 0.007619603131239744
+      },
+      "unit_conversion_max_error_m": 0.0,
+      "max_prediction_difference_from_source_m": 1.6940658945086007e-20,
+      "max_residual_difference_from_source_m": 1.6940658945086007e-20,
+      "worst_five": [
+        {
+          "t_s": 17.34,
+          "residual_m": 2.4212944332410355e-07,
+          "P_I_kN": 22.5583913179968,
+          "observed_delta_d_m": 4.610020655651931e-05,
+          "predicted_delta_d_m": 4.634233599984341e-05,
+          "P_I_cell": "I56138",
+          "U1_cell": "H28071"
+        },
+        {
+          "t_s": 14.9,
+          "residual_m": 2.3236163491699622e-07,
+          "P_I_kN": -4.722013417433086,
+          "observed_delta_d_m": -9.720458053921714e-06,
+          "predicted_delta_d_m": -9.488096419004718e-06,
+          "P_I_cell": "I55894",
+          "U1_cell": "H27949"
+        },
+        {
+          "t_s": 17.42,
+          "residual_m": 2.308118239924056e-07,
+          "P_I_kN": 20.47665103047214,
+          "observed_delta_d_m": 4.511913518858086e-05,
+          "predicted_delta_d_m": 4.534994701257327e-05,
+          "P_I_cell": "I56146",
+          "U1_cell": "H28075"
+        },
+        {
+          "t_s": 14.88,
+          "residual_m": 2.2899758613074227e-07,
+          "P_I_kN": -6.341967669383624,
+          "observed_delta_d_m": -1.2950326814180005e-05,
+          "predicted_delta_d_m": -1.2721329228049263e-05,
+          "P_I_cell": "I55892",
+          "U1_cell": "H27948"
+        },
+        {
+          "t_s": 47.68,
+          "residual_m": -2.2796025244876695e-07,
+          "P_I_kN": -4.762902370839176,
+          "observed_delta_d_m": -1.791807938989432e-05,
+          "predicted_delta_d_m": -1.8146039642343087e-05,
+          "P_I_cell": "I59172",
+          "U1_cell": "H29588"
+        }
+      ],
+      "source_row_ranges": {
+        "force_I_row": [
+          54404,
+          59794
+        ],
+        "force_J_row": [
+          54405,
+          59795
+        ],
+        "deformation_row": [
+          27204,
+          29899
+        ]
+      }
+    }
+  ],
+  "source_workbook_sha256_inherited_not_rehashed": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K2_SHW4X_r003.csv",
+      "bytes": 424222,
+      "sha256": "bc66eeee48ad3b4799dc030364f671a846037332770283fbc5acae9ae77e8602"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K2_SHW7X_r003.csv",
+      "bytes": 392366,
+      "sha256": "9a3c1c852212c1adbe72350cd98e148e126f3de38a60fd876fcc6f7ecddace1a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K5_SHW4X_r003.csv",
+      "bytes": 435246,
+      "sha256": "b9357e44c3d40dc76fa15fa29a3be393bf318642308d956e5f85990313464242"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K5_SHW7X_r003.csv",
+      "bytes": 397015,
+      "sha256": "6bcaa162f6ea25a88a6a8f036314db62d900ed6aad0390c3bb711cddb79d4ef2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\protocol.json",
+      "bytes": 2931,
+      "sha256": "84fe57efb19cf7dbbeb8b8ef5deb0f432eee3dacf41e0f21c29a5cc89d620fae"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\transfer_summary_r003.json",
+      "bytes": 9426,
+      "sha256": "13a955378a4e30f5920dd332f9e748a9a82ceb6321484f1d6ade28452fda1395"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\check_fixed_transfer.py",
+      "bytes": 12868,
+      "sha256": "874bb04077fae5f3acdb2275773d3b796deac909ca3b6e6a9adb02cbbed867db"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\run_record_r003.json",
+      "bytes": 1449,
+      "sha256": "349385bc5b2a02b66e8e1caaf608f77419c4394bc5fb309e7de372f9eea1b41f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\transfer_metrics_r003.csv",
+      "bytes": 1316,
+      "sha256": "2dbe27bdf9cb0770c6956d70fd1f53a6657ae62a775b29dcc1933d180dedb687"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_all_residuals_r003.csv",
+      "bytes": 2426234,
+      "sha256": "3555ebcbebca8729e9aa8e19ae40269f3d28a0e112b20132882ff07c06a4dcbd"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\worst_points_r003.csv",
+      "bytes": 4435,
+      "sha256": "c3fe0c1a082f458b5dda1ffae13856f67d9c672e16491ce457a80e07639b14cf"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-固定参数跨工况迁移.md",
+      "bytes": 6063,
+      "sha256": "5dabed7279e94b5a56325e32fd428c2d1a380071b1996171b9caf5b887031547"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\fit_summary_r002.json",
+      "bytes": 5923,
+      "sha256": "3186dae098c025673eb565390f4273760b5765c1095f6948ab3c051caf3e3f02"
+    }
+  ],
+  "limits": [
+    "Given-native-force conditional constitutive transfer, not earthquake-input forward response prediction.",
+    "Input/event independence, actual database port/mass mapping and all88 uniform parameters not certified.",
+    "No independent raw-XLSX extraction repeated; only frozen local inputs checked.",
+    "Full arrays remain local, no output time-history arrays written."
+  ]
+}
