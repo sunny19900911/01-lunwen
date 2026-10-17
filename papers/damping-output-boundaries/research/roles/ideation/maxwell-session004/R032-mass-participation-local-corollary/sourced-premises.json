@@ -1,0 +1,24 @@
+{
+  "C028_adoption": {
+    "work_status": "supported",
+    "evidence_type": [
+      "analytic-derivation",
+      "validated-numerics"
+    ],
+    "review": "reviewed",
+    "scope": "C027 fixed true J modal signs q+<-3.27,q-<-2.75, abs(u2)<1.302; exact continuous work W-dev>363/32,W+dev<-363/32 by modal energy and overall passivity. Inherits all C027 machine/model contracts; classical explanation not new theory or engineering values.",
+    "authority": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R029-modal-sign-corollary/report.md"
+  },
+  "C027_status": "supported,reviewed conditional analytic derivation plus validated numerics",
+  "witness": {
+    "N": 16384,
+    "J": 16529,
+    "post_stop_steps": 145,
+    "true_time": "J*20*pi/(sqrt(2)*N)",
+    "not_true_D_peak_or_tail_end": true
+  },
+  "machine_contract_verbatim": "IEEE binary64 nearest,gradualunderflow,noFTZ/DAZ,correctnextafter,Fraction,PythonNumPyfloat64decoding andstablemode;finiteprobes/replay not universal historical formalproof",
+  "physical_scope": "M=I,K=[[2,-1],[-1,2]],C=.1sqrtK,oneMaxwellkappa8/c10/alpha3/10atport2 versusno-device,sameexternalforcingandinitialbody;dimensionlesscoupledgroundedmasses,notstandard2storyshearchain orrealETABS",
+  "inheritance": "All original C027/C028 model, numerical/helper/machine and decoding/mode conditions are inherited by reference to frozen authority; no recertification, no new machine probes or arrays.",
+  "only_numerical_inequality_used": "q_minus(t_star)<-11/4 in the frozen phi_minus orientation."
+}

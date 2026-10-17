@@ -1,0 +1,58 @@
+{
+  "status": "frozen classical reuse corollary candidate; independent audit pending",
+  "start": "2026-10-18T05:25:50.718195+08:00",
+  "first_observed_clock": "2026-10-18T05:26:02+08:00",
+  "completed_at": "2026-10-18T05:31:09.309702+08:00",
+  "elapsed_seconds": 318.592,
+  "within_8_minutes_from_earlier_protocol_start": true,
+  "overall_deadline_unchanged": "2026-10-18T07:09:45+08:00",
+  "source_checks": [
+    {
+      "path": "research/sessions/20261017-2109/input-budget-dissipation-corollary-protocol-v001.md",
+      "sha256": "9b230a1663c854e61af6390a014f6757c6f514d95aa09a7d5b2cc403dfc9f8c1",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R010-system-energy-interface/report.md",
+      "sha256": "676f41e6b0826e0dd0a358568c0f212458738d952d041b5c630be0386894f3e3",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/主体Maxwell位移能量界接口独审-R018.md",
+      "sha256": "a0a424774778106551a0523b90ab27900d731664e63c84eb87db98d65f238287",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R030-dissipation-modal-output-bound/report.md",
+      "sha256": "78722bbbd78ffd8e3ad725cfec16648997d1548ab7e505754a7997733f45c288",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R042-dissipation-modal-bound-independent/report.md",
+      "sha256": "c92dc64f6157bd4035961723fdbcd5c0d06cdcbf507ff25ee8b83e1f062ea604",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R042-dissipation-modal-bound-independent/post-freeze-comparison/report.md",
+      "sha256": "4a353c0a918cc264740101ab50de8cd00ee04830f1896026bb16b9cda47cd5f5",
+      "unchanged": true
+    }
+  ],
+  "checks_all_passed": true,
+  "QA": "UTF8/LF, final newline, trailing whitespace, JSON parse and normalized local Markdown links passed.",
+  "files_checked_before_validation": [
+    "author-crosscheck.json",
+    "checks.json",
+    "checks.py",
+    "report.md",
+    "source-freeze.json"
+  ],
+  "scope": "Only own new R033 directory written. No opposite new package, data/arrays/NPZ, ODE, large-data work, parameter scan, new literature/search, old/shared/manuscript/Git changes.",
+  "limits": [
+    "Input budgets control J and hence both E and Dtot; not numerical data or ratios.",
+    "PSD pseudoinverse uses a.e. Range(C) and finite weighted norm.",
+    "Complete initial energy, physical K0, full true forces and all external work retained.",
+    "Same direct PUbar gives no improvement after adding a nonnegative error term.",
+    "No new method, novelty, engineering value or layout/peak ordering follows."
+  ]
+}

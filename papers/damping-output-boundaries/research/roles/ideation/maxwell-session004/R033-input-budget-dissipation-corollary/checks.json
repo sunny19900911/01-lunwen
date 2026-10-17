@@ -1,0 +1,10 @@
+{
+  "all_passed": true,
+  "arithmetic": "fractions.Fraction",
+  "PSD_range_complete_square_identity": true,
+  "no_range_pseudoinverse_counterexample": true,
+  "L1_radius_factor_and_zero_point": true,
+  "same_direct_reference_bound_is_redundant": true,
+  "smaller_reference_alone_does_not_ensure_improvement": true,
+  "scope": "Exact algebra/branch examples only; no input data, trajectories, ODE, arrays, parameter scan, opposite candidate or performance claim."
+}

@@ -1,0 +1,32 @@
+{
+  "status": "author-side only; independent same-protocol freeze/comparison pending",
+  "reviews": [
+    {
+      "agent": "peak_bound_audit",
+      "result": "J budgets and Range/zero-point conditions correct",
+      "findings": [
+        "J=E+Dtot>=E, J0=complete E0 and Jprime=vf-vCv",
+        "Range(C) gate gives full PSD completion-square identity and B2 controls J",
+        "L1 must regularize sqrt(J+eps), not infer D from an E-only bound",
+        "both legal finite budgets may be minimized",
+        "nonzero initial device spring energy retained; support power cannot be omitted",
+        "old R018 undamped-input counterexample applies to J as D=0 there"
+      ]
+    },
+    {
+      "agent": "spectral_zero_order",
+      "result": "C039 substitution, units, direct bound and redundancy statements correct",
+      "findings": [
+        "common-alpha Dtot<=budget plugs into already reviewed total Holder kernel",
+        "PD <= min(direct energy bound, independently valid PUbar+spatial error)",
+        "same direct PUbar makes added nonnegative error redundant",
+        "U body initial energy <= D complete E0, common conservative budget valid",
+        "more accurate U bound only possibly helps, after actual bound comparison",
+        "layout-only B changes do not change coarse budget/direct stiffness bound when full E0 same",
+        "input stop extends direct passive-energy tail, not finite kernel norm to infinity"
+      ]
+    }
+  ],
+  "reuse_status": "Old R010/R018 provide the classical energy identity, Range condition, zero regularization and direct output conversion; this is cumulative-dissipation bookkeeping and C039 reuse, no new-method claim.",
+  "independence": "No opposite current input-budget candidate was read."
+}

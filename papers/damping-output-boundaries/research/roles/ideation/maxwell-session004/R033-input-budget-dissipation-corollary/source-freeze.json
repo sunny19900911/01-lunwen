@@ -1,0 +1,43 @@
+{
+  "round": "R033-input-budget-dissipation-corollary",
+  "start": "2026-10-18T05:25:50.718195+08:00",
+  "first_observed_clock": "2026-10-18T05:26:02+08:00",
+  "deadline": "2026-10-18T05:33:50.718195+08:00",
+  "overall_deadline": "2026-10-18T07:09:45+08:00",
+  "frozen_at": "2026-10-18T05:26:19.850096+08:00",
+  "sources": [
+    {
+      "path": "research/sessions/20261017-2109/input-budget-dissipation-corollary-protocol-v001.md",
+      "bytes": 2097,
+      "sha256": "9b230a1663c854e61af6390a014f6757c6f514d95aa09a7d5b2cc403dfc9f8c1"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R010-system-energy-interface/report.md",
+      "bytes": 10586,
+      "sha256": "676f41e6b0826e0dd0a358568c0f212458738d952d041b5c630be0386894f3e3"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/主体Maxwell位移能量界接口独审-R018.md",
+      "bytes": 9140,
+      "sha256": "a0a424774778106551a0523b90ab27900d731664e63c84eb87db98d65f238287"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R030-dissipation-modal-output-bound/report.md",
+      "bytes": 7442,
+      "sha256": "78722bbbd78ffd8e3ad725cfec16648997d1548ab7e505754a7997733f45c288"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R042-dissipation-modal-bound-independent/report.md",
+      "bytes": 6458,
+      "sha256": "c92dc64f6157bd4035961723fdbcd5c0d06cdcbf507ff25ee8b83e1f062ea604"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R042-dissipation-modal-bound-independent/post-freeze-comparison/report.md",
+      "bytes": 2506,
+      "sha256": "4a353c0a918cc264740101ab50de8cd00ee04830f1896026bb16b9cda47cd5f5"
+    }
+  ],
+  "scope": "Classic analytic input-energy budget plus already reviewed C039 only. No opposite current input-budget package, arrays/data, ODE, external search or old/shared/manuscript/Git changes.",
+  "old_sources_added_at": "2026-10-18T05:28:55.919884+08:00",
+  "independence": "Only old reviewed source packages; no opposite new input-budget candidate read."
+}

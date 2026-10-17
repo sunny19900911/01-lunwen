@@ -1,0 +1,17 @@
+{
+  "all_passed": true,
+  "arithmetic": "fractions.Fraction and exact integers",
+  "eigenvalues_1_and_3": true,
+  "directional_mass_fractions": [
+    "1",
+    "0"
+  ],
+  "port_antisymmetric_projection_nonzero": true,
+  "antisymmetric_threshold": "11/4",
+  "relative_threshold_square_margin": "353/5000",
+  "max_node_threshold_square_margin": "353/20000",
+  "best_common_value_geometry": true,
+  "fixed_u1_universal_lower_bound_counterexample": true,
+  "new_R032_candidate_read": false,
+  "scope": "Tiny exact modal/threshold algebra only; certified true q-minus premise inherited unchanged. No state reconstruction, numerical integration, ODE, arrays, NPZ, parameter scan or new literature."
+}

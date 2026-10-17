@@ -1,0 +1,284 @@
+{
+  "review": "R045",
+  "session": "20261017-2109",
+  "started_at": "2026-10-18T05:26:02.880167+08:00",
+  "protocol_started_at": "2026-10-18T05:25:50.718195+08:00",
+  "frozen_at": "2026-10-18T05:29:50.939430+08:00",
+  "conservative_deadline": "2026-10-18T05:33:50+08:00",
+  "global_deadline_unchanged": "2026-10-18T07:09:45+08:00",
+  "root_candidate_required_changes": 0,
+  "status": "independent classical input-budget corollary frozen before author comparison",
+  "author_candidate_reviewed": false,
+  "accepted_scope": "Joint E+Dtot L2/Range and L1 budgets with complete E0, conditional C039 substitution, direct versus reference-plus-error minimum with explicit redundancy. Old tools reused; no novelty/engineering or layout-order admission.",
+  "source_records_verified": 9,
+  "frozen_prior_records_verified": 44,
+  "frozen_prior_small_outputs_verified": 180,
+  "frozen_R001_R044": [
+    {
+      "run_file": "R001-review-run.json",
+      "sha256": "7d43f7e3fb4b754edce7e44f9c57908314ec27172e6c5a25e97163573dac499f",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R002-review-run.json",
+      "sha256": "f14346e51b39b32ce421433be671a1ddc67a2cb89995652c45aba0514fb6a028",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R003-review-run.json",
+      "sha256": "db8c3ce055d9ba45250a5c59c4444c880eadf12acb4236c6de5e545295054a69",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R004-review-run.json",
+      "sha256": "d2800774203b57330f6da953081f25771161f5e1df84423f2782ee85248e8252",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R005-review-run.json",
+      "sha256": "8043b9282527e3480165a636cb6de44cbd4afe3739b1dff80daa9802e7b82163",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R006-review-validation.json",
+      "sha256": "bac733cf858eca6cb3548e556db765e9ba950eba5c1c8e0c713e674b1a532fcd",
+      "outputs_verified": 1
+    },
+    {
+      "run_file": "R007-review-run.json",
+      "sha256": "1d794223541ae4cd5b2fc46e03850b641192281956a545daeabded4e9b76fc08",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R008-review-run.json",
+      "sha256": "1925e4649afa3131ae9fd9b26cd3a1ad89d943f72a8706826095cdb8da946428",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R009-review-run.json",
+      "sha256": "1d78f89de0ff567e9d7b914b2ebe0ffd970481a7bbd3f219dae96d8e435bf23f",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R010-review-run.json",
+      "sha256": "6447cd6f4c5b157f4dbcd93d7d2b9441af349da0de029af9774541499f0dfbc9",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R011-review-run.json",
+      "sha256": "6edaf37bbe65be8747b63d3014cf7d9f0bb4cb6071f19e8f19d22091026cc530",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R012-review-run.json",
+      "sha256": "d4e7b662a375a3d24d6e1a775effb2606fd53e5db0617f525bdeab708e264bfb",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R013-review-run.json",
+      "sha256": "7c32de97083d4d4a9769bfb76000323622b4679bc1aa9afa689f661719b37bfe",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R014-review-validation.json",
+      "sha256": "a0f9299b40060c5e301306fa7fcd4d033ba899756880858dee3def619b92d577",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R015-review-identity.json",
+      "sha256": "62b4cb32d040b05f4d5a436b15462504429a2975752734b6683b4c6f67dea709",
+      "outputs_verified": 1
+    },
+    {
+      "run_file": "R016-review-validation.json",
+      "sha256": "dddc52beb83f1c1cb18fd80c7f5ede2e074715165a797358db9d67a259b5e935",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R017-review-validation.json",
+      "sha256": "c64f8824e8febbae6cf222c75e6c96bda608c9b10c18ba157444b1db819e7ef4",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R018-review-validation.json",
+      "sha256": "b65bbad5c1974b13ab41ff2d6972cff22ea522ed52075396774d6dc819a8aa5a",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R019-review-validation.json",
+      "sha256": "b7f0e961bd18cf53fc798366776abc09b86e889da707e15eb3c692dce4ea7a72",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R020-review-validation.json",
+      "sha256": "3041509a3aaf7bcdc84a1babee5b69839085af79a015766ef4e4616717a511f6",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R021-review-validation.json",
+      "sha256": "8a292928589085830062da34ba57cde1943dd9ec4ddab04e1d6cc54d8886ef37",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R022-review-validation.json",
+      "sha256": "856ba186f111bdaee61170f1edeb6ca9494c9e544e49eb2fceb17102b5c74262",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R023-review-validation.json",
+      "sha256": "75d6766fcaccb3e4f61f0e1b0cd3494fa97d6bfe2ecc8d93f0584a78d6be513f",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R024-review-validation.json",
+      "sha256": "25aa3eea4951e690d67208cbfac6c4fb781ffa93787485e6b4cca2e650cdf7ba",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R025/R025-review-validation.json",
+      "sha256": "cfd79abb9989837009a4df7fbcf871b708f3cf87d1c54933c9502cff9991ed4d",
+      "outputs_verified": 12
+    },
+    {
+      "run_file": "R026/R026-review-validation.json",
+      "sha256": "8bbbcd826253bbaaddb83051af27e9596af3feaadae27b37778bca0c1a4606ea",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R027/R027-review-validation.json",
+      "sha256": "66e7235daaf8dd061f512bb61687bb10d4c0d4c7b36db2dbd5974b5620989917",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R028/R028-review-validation.json",
+      "sha256": "3d1e8b8fc71457f14015c4cb980f31bb97f45e488be592c96e667e1481f8348d",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R029-modal-sign-corollary/validation.json",
+      "sha256": "dd6535373ad0ce6a8356b03734ec6b12963f4827e34d6013a0922b618714c291",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R030-force-target-interface-review/validation.json",
+      "sha256": "26559abd4a51d2d0fee7a96452d6c38cc18de8295209d667be458aadf632a4da",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R031-force-replay-review/validation.json",
+      "sha256": "33d41c7219c5a6fb1adf329b849e98c69c3608126b2b32b5614a59acf110d864",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R032-target-peak-decision-review/validation.json",
+      "sha256": "c912491ec0635bde23eee2120a771d218c83b4f4b5de40cc3078d7251a6e5b74",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R033-force-feedback-closure-review/validation.json",
+      "sha256": "3bfd9e9865afd913fc4cf6b6147d956783ed8a2c259cbedbc2034e093b36b3f3",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R034-asymmetric-neighborhood-review/validation.json",
+      "sha256": "f6be5daa1dd85abcc8ceda164a5d8660397fbb3641c6de9e2f7b4026a01d7311",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R035-compact-math-review/validation.json",
+      "sha256": "846af33000b29e1449e0863107b99b7b37b0c0c05d62a2d5ea18cbc5a43587fe",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R036-forward-BE-contract-review/validation.json",
+      "sha256": "96bb8f34ea01f87f0a6d547852b45c1f0416e28a28082313f247f4908f5ec58c",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R037-forward-midpoint-contract-review/validation.json",
+      "sha256": "47ef691b257a67137bee45ead48a78169540f284f2c9363759c435b544af3013",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R038-midpoint-independent-fine-replay/validation.json",
+      "sha256": "bffab13414c3c2013c963c22d2b611243ca29969e80def052a99cb809af9e2e9",
+      "outputs_verified": 13
+    },
+    {
+      "run_file": "R039-finite-observation-neighbor-review/validation.json",
+      "sha256": "2a5017b5d6cfef3671a6db46754e364dd98898eb8532d2dec19efaeff37b1708",
+      "outputs_verified": 6
+    },
+    {
+      "run_file": "R040-fixed-D-inverse-independent/validation.json",
+      "sha256": "7afa29be7d15d5deb0ce02eddee95b4b09e664f6de7d2cdba22b0c69d72c7a29",
+      "outputs_verified": 8
+    },
+    {
+      "run_file": "R041-fixed-D-appendix-integration/validation.json",
+      "sha256": "37e86200be88f9ec01db54da96caf17023c1c259ede4c52cf8ebc7881105f69a",
+      "outputs_verified": 7
+    },
+    {
+      "run_file": "R042-dissipation-modal-bound-independent/validation.json",
+      "sha256": "e7aa95c6c3980998ab2975e1fcffbe91ffdeee83995a3eb84666005e90d840cd",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R043-compact-v004-math-integration/validation.json",
+      "sha256": "18f47c4a1a6300d64cdffd3619003e2354a2325dee885cd0e087497e7aac5624",
+      "outputs_verified": 8
+    },
+    {
+      "run_file": "R044-mass-participation-independent/validation.json",
+      "sha256": "252e903ce853260691973d6d3949098b23861f66d6269d56b114b70baf9ae2f0",
+      "outputs_verified": 6
+    }
+  ],
+  "additional_postcomparison_freezes": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R040-fixed-D-inverse-independent\\post-freeze-comparison\\comparison-freeze.json",
+      "bytes": 1785,
+      "sha256": "dc4fba48a1aebbb52b0d9998bf8bb1cd8a5ff4bf200643d028a0ca79c48737de"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R042-dissipation-modal-bound-independent\\post-freeze-comparison\\comparison-freeze.json",
+      "bytes": 1695,
+      "sha256": "f2b6ba8a612c3d42d7cef61843aedf34e9b96917839847313d6e2cba9920f31a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R044-mass-participation-independent\\post-freeze-comparison\\comparison-freeze.json",
+      "bytes": 1666,
+      "sha256": "9efefae63b2298d2428f41f008884cc094fbc452d0e25d039e4aeb70211e6b87"
+    }
+  ],
+  "additional_postcomparison_outputs_verified": 9,
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R045-input-budget-dissipation-independent\\closure_checks.json",
+      "bytes": 722,
+      "sha256": "86d265f81379928ab35bc40e594e15630bfc9099849dfff9377f3a210961ba86"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R045-input-budget-dissipation-independent\\freeze_inputs.py",
+      "bytes": 1852,
+      "sha256": "eba57abaf0fffe5eccd95c800210da0acbdfcfce6d1c1bf285b32d089953717b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R045-input-budget-dissipation-independent\\freeze_review.py",
+      "bytes": 4043,
+      "sha256": "f1a9231333fb3cdc734bba420fdb152a22788f8fb1680e7ddc434697279bb7d6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R045-input-budget-dissipation-independent\\report.md",
+      "bytes": 6170,
+      "sha256": "0754eb8b7a055f185a01b389264418413b14af14c1e797ac4371b334b58e5f5c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R045-input-budget-dissipation-independent\\source-freeze.json",
+      "bytes": 3572,
+      "sha256": "b136cafa613bf7ef97fc79e4417ca53a8f5c7248335ee43d1e34b6fd507d4c95"
+    }
+  ],
+  "output_count": 5
+}

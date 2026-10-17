@@ -1,0 +1,57 @@
+{
+  "status": "frozen exact explanatory corollary candidate; independent audit pending",
+  "start": "2026-10-18T05:11:49+08:00",
+  "completed_at": "2026-10-18T05:15:26.655539+08:00",
+  "elapsed_seconds": 217.656,
+  "within_7_minutes": true,
+  "overall_deadline_unchanged": "2026-10-18T07:09:45+08:00",
+  "source_checks": [
+    {
+      "path": "research/sessions/20261017-2109/mass-participation-local-corollary-protocol-v001.md",
+      "sha256": "b2b50e8a3386046d922877f27486bb3dde7399d8f8db759a5da738e90472c747",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/report.md",
+      "sha256": "9d037f1409d384d5a86d41b608971669890a22309574f05940459548c16ad0d6",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R017-FNA-reference-force-scope/R017-FNA-reference-force-scope.md",
+      "sha256": "a33c2080171356a5bc6255b3b2a2a443d42b478531be035814c7c5c3f43a3994",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R029-modal-sign-corollary/report.md",
+      "sha256": "c47f6e6f4d1f8ed9b13a7aead1738e2c4f9fd6c56995de3aebfd16751e440219",
+      "unchanged": true
+    },
+    {
+      "path": "research/sessions/20261017-2109/R014-adoption.json",
+      "sha256": "f18681bd9105561bcc76dc42c6e7a89017f9572c93645ed119636cf4873968d8",
+      "unchanged": true
+    },
+    {
+      "path": "research/sessions/20261017-2109/R013-addition-certificate-adoption.json",
+      "sha256": "836a0d6e8e551dd594770fe1421f49780636cdb2d9d2c8cdbd2fd878cc2b729f",
+      "unchanged": true
+    }
+  ],
+  "checks_all_passed": true,
+  "QA": "UTF8/LF, final newline, trailing whitespace, JSON parse and normalized local Markdown links passed.",
+  "files_checked_before_validation": [
+    "author-crosscheck.json",
+    "checks.json",
+    "checks.py",
+    "report.md",
+    "source-freeze.json",
+    "sourced-premises.json"
+  ],
+  "scope": "Only own new R032 directory written. No new original source pages, NPZ/array reads or hashes, ODE, solver/software experiment, parameter sweep, engineering data, old/shared/manuscript/Git changes.",
+  "inherited_numerics": "Only old reviewed q_minus(t_star)<-11/4 at frozen J/N is used. All original C027/C028 model and machine contracts retained by reference.",
+  "quantifier_limits": [
+    "At least one node has error; fixed u1 can be matched by a same-space reconstruction.",
+    "Fixed-time output error and its sup are not differences of individual response peaks.",
+    "Not actual FNA/300-mode failure, standard two-story model, new mechanism, all-time phase relation or first-claim."
+  ]
+}

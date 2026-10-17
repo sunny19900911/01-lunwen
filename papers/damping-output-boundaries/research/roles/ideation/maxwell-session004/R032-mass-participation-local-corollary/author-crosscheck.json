@@ -1,0 +1,30 @@
+{
+  "status": "author-side corollary only; independent audit pending",
+  "reviews": [
+    {
+      "agent": "peak_bound_audit",
+      "result": "modal mass, eigenfrequencies, port and all three conditional error inequalities correct",
+      "findings": [
+        "effective masses 2 and 0 divided by total direction mass 2 give fractions 1 and 0",
+        "frequencies are 1 and sqrt3, not their ratio",
+        "port beta_minus is -1/sqrt2 nonzero",
+        "any symmetric-space reconstruction has zero antisymmetric projection and relative displacement",
+        "exact squares 121/8>(97/25)^2 and 121/32>(97/50)^2 verify thresholds",
+        "fixed u1 cannot have universal lower error: common amplitude can match it",
+        "pointwise error does not become difference of two peak scalars"
+      ]
+    },
+    {
+      "agent": "spectral_zero_order",
+      "result": "classical-source and software/engineering boundaries correctly limited",
+      "findings": [
+        "directional 100 percent input mass does not represent nonlinear feedback loads",
+        "CSI independent nonlinear-DOF deformation starting loads and sufficient Ritz are conditions, not this numerical example",
+        "actual FNA Kref/residual is not the fixed physical bare K0 basis",
+        "no actual 300-mode failure, standard two-story building or new mechanism follows",
+        "only fixed old true witness used; no full-time phase or new numerical certification"
+      ]
+    }
+  ],
+  "machine_inheritance": "Full original C027/C028 contracts inherited by reference and recorded in sourced-premises, no new array check or IEEE recertification."
+}

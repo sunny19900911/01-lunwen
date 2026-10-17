@@ -1,0 +1,42 @@
+{
+  "round": "R032-mass-participation-local-corollary",
+  "start": "2026-10-18T05:11:49+08:00",
+  "deadline": "2026-10-18T05:18:49+08:00",
+  "overall_deadline": "2026-10-18T07:09:45+08:00",
+  "frozen_at": "2026-10-18T05:12:01.260284+08:00",
+  "sources": [
+    {
+      "path": "research/sessions/20261017-2109/mass-participation-local-corollary-protocol-v001.md",
+      "bytes": 2569,
+      "sha256": "b2b50e8a3386046d922877f27486bb3dde7399d8f8db759a5da738e90472c747"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/report.md",
+      "bytes": 7693,
+      "sha256": "9d037f1409d384d5a86d41b608971669890a22309574f05940459548c16ad0d6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R017-FNA-reference-force-scope/R017-FNA-reference-force-scope.md",
+      "bytes": 8765,
+      "sha256": "a33c2080171356a5bc6255b3b2a2a443d42b478531be035814c7c5c3f43a3994"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R029-modal-sign-corollary/report.md",
+      "bytes": 5440,
+      "sha256": "c47f6e6f4d1f8ed9b13a7aead1738e2c4f9fd6c56995de3aebfd16751e440219"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R014-adoption.json",
+      "bytes": 52012,
+      "sha256": "f18681bd9105561bcc76dc42c6e7a89017f9572c93645ed119636cf4873968d8"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R013-addition-certificate-adoption.json",
+      "bytes": 10512,
+      "sha256": "836a0d6e8e551dd594770fe1421f49780636cdb2d9d2c8cdbd2fd878cc2b729f"
+    }
+  ],
+  "scope": "Exact explanatory corollary of existing C027/C028 only; inherit machine contract. No new original source/array/ODE/parameter scan/software experiment or old/shared/manuscript/Git changes.",
+  "additional_sources_frozen_at": "2026-10-18T05:13:39.149214+08:00",
+  "root_json_read_scope": "Target accepted M-C028/authority and C027 status/witness/machine/physical scope parsed; identity manifest used only for bound small files, never opened NPZ or all referenced files."
+}
