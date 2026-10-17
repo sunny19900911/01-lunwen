@@ -1,0 +1,201 @@
+{
+  "evidence_id": "M-EXP-R008",
+  "review_outcome": "0 required corrections within stated domain",
+  "finished_utc": "2026-10-17T15:33:33.629886+00:00",
+  "elapsed_seconds": 0.7878498999925796,
+  "protocol_sha256": "ade73742a5a12eaaa29096e09b4ab574b578913c43273e08083b0435ce52fe22",
+  "code_sha256": "a82ffa3a224db94f299bd6c7026141332e5debea3d3809858b58d89b1e0686c2",
+  "source_report_sha256": "3c944253cc953deb019bf268c4a55a3d32e7c735daf1fe5af90ff020294355c5",
+  "records": 192,
+  "groups": 24,
+  "pairs": 672,
+  "port_inversions": 38,
+  "force_inversions": 38,
+  "inverse_groups": 17,
+  "same_inverse_pair_sets": true,
+  "actual_peak_ties": 0,
+  "actual_Dport_ties": 0,
+  "actual_Dforce_ties": 0,
+  "tau_range_s": [
+    0.47407108467178305,
+    5.90663780185974
+  ],
+  "max_abs_log_identity_residual": 1.1999949645069563e-15,
+  "max_abs_force_identity_residual_kNm": 3.552713678800501e-15,
+  "source_max_abs_numeric_differences": {
+    "own_Dforce_identity": 3.552713678800501e-15,
+    "source_tau": 8.881784197001252e-16,
+    "source_Dforce": 4.618527782440651e-14,
+    "source_Dport": 0.0,
+    "source_q": 2.220446049250313e-15,
+    "source_W_native": 0.0,
+    "pair_log_amplitude": 0.0,
+    "pair_log_duration": 5.551115123125783e-16,
+    "pair_log_q_conditional": 1.0011522860731148e-15,
+    "pair_log_Dport_ratio": 0.0
+  },
+  "synthetic_algorithm_semantics": {
+    "all_zero_peak": true,
+    "constant_force_tau_equals_T": true,
+    "peak_tie_not_strict_inverse": true,
+    "all_quantities_tied_zero_logs": true,
+    "energy_tie_not_inverse": true,
+    "nonpositive_Dport_log_undefined": true
+  },
+  "examples": [
+    {
+      "Case": "RH4X",
+      "Story": "Story8",
+      "first": {
+        "Link": "K10",
+        "Case": "RH4X",
+        "Story": "Story8",
+        "peak": 133.1349401234096,
+        "tau": 4.378722562591308,
+        "T": 50.0,
+        "tau_over_T": 0.08757445125182617,
+        "W_native": 8.271793804284055,
+        "DeltaUs_conditional": 4.72434817301212e-05,
+        "Dport": 8.271746560802326,
+        "Dforce": 8.287591832634794,
+        "Dforce_peak_duration": 8.287591832634794,
+        "q_conditional": 0.9980880728500561,
+        "peak_controllers_json": "[{\"t_s\":11.48,\"signed_P_kN\":133.1349401234096,\"P_I_cell\":\"I783360\",\"P_J_cell\":\"I783361\"}]"
+      },
+      "second": {
+        "Link": "K92",
+        "Case": "RH4X",
+        "Story": "Story8",
+        "peak": 133.08720884372408,
+        "tau": 4.657250333638118,
+        "T": 50.0,
+        "tau_over_T": 0.09314500667276236,
+        "W_native": 8.785501027066072,
+        "DeltaUs_conditional": 0.0001561465105661538,
+        "Dport": 8.785344880555506,
+        "Dforce": 8.801074064935687,
+        "Dforce_peak_duration": 8.801074064935687,
+        "q_conditional": 0.9982128108155746,
+        "peak_controllers_json": "[{\"t_s\":11.5,\"signed_P_kN\":133.08720884372408,\"P_I_cell\":\"I978914\",\"P_J_cell\":\"I978915\"}]"
+      },
+      "log_terms": [
+        0.0015538567945802982,
+        -0.06166818735300139,
+        -0.00012496910330651886,
+        -0.060239299661728064,
+        -4.508383683737849e-16
+      ]
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story11",
+      "first": {
+        "Link": "K6",
+        "Case": "SHW7Y",
+        "Story": "Story11",
+        "peak": 129.23732958600206,
+        "tau": 1.8718780659260534,
+        "T": 53.9,
+        "tau_over_T": 0.03472872107469487,
+        "W_native": 3.1038029535204155,
+        "DeltaUs_conditional": 0.0015338936795750559,
+        "Dport": 3.1022690598408404,
+        "Dforce": 3.1148765299024537,
+        "Dforce_peak_duration": 3.114876529902454,
+        "q_conditional": 0.9959524976542142,
+        "peak_controllers_json": "[{\"t_s\":17.42,\"signed_P_kN\":129.23732958600206,\"P_I_cell\":\"I94130\",\"P_J_cell\":\"I94131\"}]"
+      },
+      "second": {
+        "Link": "K5",
+        "Case": "SHW7Y",
+        "Story": "Story11",
+        "peak": 126.88997197506528,
+        "tau": 4.168103623875866,
+        "T": 53.9,
+        "tau_over_T": 0.07733030842070253,
+        "W_native": 6.389402603994111,
+        "DeltaUs_conditional": 0.00024205757569712978,
+        "Dport": 6.389160546418414,
+        "Dforce": 6.406274352067453,
+        "Dforce_peak_duration": 6.406274352067453,
+        "q_conditional": 0.9973285868340128,
+        "peak_controllers_json": "[{\"t_s\":37.86,\"signed_P_kN\":126.88997197506528,\"P_I_cell\":\"I63582\",\"P_J_cell\":\"I63583\"}]"
+      },
+      "log_terms": [
+        0.07943056225931001,
+        -0.8005189257057421,
+        -0.0013807278954514827,
+        -0.7224690913418836,
+        -3.404394821604484e-17
+      ]
+    }
+  ],
+  "max_same_group_top2_Dport_peak_omission_fraction": 0.0003585180542482469,
+  "checks": {
+    "192_direct_force_duration_recomputed": true,
+    "24_groups_672_all_pairs": true,
+    "38_same_inverse_pairs_in_17_groups": true,
+    "all_source_pair_values_flags_and_peak_locators_match": true,
+    "six_degenerate_semantics_cases_pass": true,
+    "log_three_terms_and_force_identity_pass": true,
+    "all_input_SHA_unchanged": true,
+    "runtime_below_360_seconds": true
+  },
+  "source_refs": {
+    "W5_report": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-duration-analysis\\峰力与条件耗能排序的持续时间分解.md",
+      "bytes": 5093,
+      "sha256": "3c944253cc953deb019bf268c4a55a3d32e7c735daf1fe5af90ff020294355c5"
+    },
+    "W5_validation": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-duration-analysis\\validation.json",
+      "bytes": 2194,
+      "sha256": "5e1a8393d8935ea228f6767e44b414e018255f720a02c63f8dd68557a6b4fe61"
+    },
+    "W5_script_read_only": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-duration-analysis\\analyze_force_duration.py",
+      "bytes": 6913,
+      "sha256": "f224b4b391785660774a3eb3f7bbf28e6f83801fee1a0f158ecbe19bc0daef48"
+    },
+    "W5_devices": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-duration-analysis\\device_force_duration_192.csv",
+      "bytes": 50852,
+      "sha256": "a0003e9535cb490bb55a8c0a39bb20c7a3787661fb2daa3d250c596fd511c4e5"
+    },
+    "W5_pairs": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-duration-analysis\\all_within_story_pairs_672.csv",
+      "bytes": 172212,
+      "sha256": "4d6ef0f95323aaf715a62d4712a75ea753dfc90b8b8da7986410e9b8aa046b5c"
+    },
+    "W5_inversions": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-duration-analysis\\conditional_port_rank_inversions.csv",
+      "bytes": 10167,
+      "sha256": "1743c1dc4651104fbdb07151c143f75c0358bb84552bad9a0edaad841c15be29"
+    },
+    "NPZ": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\local_paired_histories_r006.npz",
+      "bytes": 18459935,
+      "sha256": "65be34f8125e5e7f2aee90ebe5a4b2612cfe717d84abf0886789a1bc75709340"
+    },
+    "array_manifest": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\local_history_manifest_r006.json",
+      "bytes": 69507,
+      "sha256": "c0b661271ac78e5450849a6bdae4e4a797fa4846608b6256ca0db4b6c7fba392"
+    },
+    "R006_summary_CSV": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\device_record_summary_r006.csv",
+      "bytes": 97108,
+      "sha256": "8d359f9c86b544aaa6c573618a375eef7beb8f02070dc223f2802ce3fe31864d"
+    },
+    "R002_fit": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\fit_summary_r002.json",
+      "bytes": 5923,
+      "sha256": "3186dae098c025673eb565390f4273760b5765c1095f6948ab3c051caf3e3f02"
+    }
+  },
+  "outputs": {
+    "independent_devices_192_r008.csv": "a78872615036722b9df102437895135bc193c9e8027c6518dbf4ad4cf5088e64",
+    "independent_pairs_672_r008.csv": "1898d2cd483b4e45e59227a09dbbdce08449471557a739ef27d79a14bf485d7d",
+    "report.md": "a585d5b2a89d814efda859f8b3d07f4d462c25b24ea95d24655a0ca1cbc810fd"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "frozen_at": "2026-10-17T23:47:29+08:00",
+  "status": "author_proof_candidate_pending_role2_and_role6",
+  "passed": true,
+  "proof_basis": "single-excursion capacity and countable superadditivity; no compressed-time AC assumption",
+  "scope": "closed-peak reachability only, not dissipation feasible set",
+  "R007_unchanged": true,
+  "internal_crosschecks": 2,
+  "files": [
+    {
+      "path": "scope.json",
+      "sha256": "09cb9972e5f87cff5216ecb267b50ae70231231f9037877e6aa1657149ac2d8e",
+      "bytes": 1125,
+      "errors": []
+    },
+    {
+      "path": "report.md",
+      "sha256": "19fd7e7f400f2cf56b06d5af83d88e8e13067bce43b2da8357efa92b513e9aaa",
+      "bytes": 8299,
+      "errors": []
+    },
+    {
+      "path": "alpha1_sanity.json",
+      "sha256": "5d8c2760b12bae80d727016b3d1957754e320c00033f5d54d5723c3241656636",
+      "bytes": 666,
+      "errors": []
+    }
+  ]
+}

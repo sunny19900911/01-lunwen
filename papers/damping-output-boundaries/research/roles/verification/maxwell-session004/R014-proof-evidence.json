@@ -1,0 +1,82 @@
+{
+  "recorded_at": "2026-10-17T23:43:17.434596+08:00",
+  "review": "R014",
+  "started_at": "2026-10-17T23:35:40+08:00",
+  "declared_limit_minutes": 12,
+  "source": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-return-candidate\\力回零Maxwell耗散峰力可行区间-作者候选.md",
+    "bytes": 6014,
+    "sha256": "1b4d4888b5181eafb9accf2f7a19330bd88b8d0427c4fd2ffd846a2c42a1b446"
+  },
+  "source_locators": [
+    {
+      "line": 59,
+      "text": "设z↑从零按v=+V加载；设z↓(s)是从状态x按v=−V最快回到零所需时间τ↓(x)的反函数，在不超过M的范围内考虑。任意满足峰值M和两端力回零的轨迹，逐点都满足"
+    },
+    {
+      "line": 61,
+      "text": "    r(t) ≤ min{M, z↑(t), z↓(T−t)}."
+    },
+    {
+      "line": 63,
+      "text": "前向不等式由标量比较得到。后向不等式由−(τ↓(r))_dot≤1从t积到T得到，不需要在大状态上延拓反向解。反函数只在[0,M]使用，避免q>1时无限状态反向有限时爆破的问题。"
+    }
+  ],
+  "conclusion": "One required definition repair; mathematical conclusions valid after explicitly saturating the backward local inverse.",
+  "required_change": {
+    "id": "R014-01",
+    "definition": "b_M(s)=(tau_down restricted to [0,M])^(-1)(min(s,tau_down(M))), for all s>=0; b_0=0.",
+    "reason": "The expression z_down(T-t) is undefined beyond the local inverse domain. For q>1, even a global nonnegative inverse can fail to exist."
+  },
+  "minimal_undefined_expression_example": {
+    "k": 1,
+    "c": 1,
+    "V": 1,
+    "alpha_exact": "1/2",
+    "q": 2,
+    "a": 1,
+    "B": 1,
+    "M_exact": "1/2",
+    "T": 2,
+    "tau_up_exact": "atanh(1/2)",
+    "tau_down_exact": "atan(1/2)",
+    "tau_up": 0.5493061443340549,
+    "tau_down": 0.4636476090008061,
+    "tau": 1.012953753334861,
+    "legal_hold_time": 0.9870462466651388,
+    "tau_down_global_range_upper_exact": "pi/2",
+    "tau_down_global_range_upper": 1.5707963267948966,
+    "invalid_expression": "At t=0 the original formula requires z_down(2), outside [0,atan(1/2)] and also beyond the global inverse range [0,pi/2).",
+    "all_numeric_comparisons_passed": true,
+    "counterexample_scope": "Undefined displayed envelope, not a counterexample to repaired feasible-dissipation theorem."
+  },
+  "analytic_checks": {
+    "existence_via_integrated_measurable_forcing_and_continuous_state_drift": true,
+    "uniqueness_via_monotonicity_energy_for_all_q_positive": true,
+    "AC_absolute_value_zero_level_derivative": true,
+    "finite_time_strict_B_forward_barrier": true,
+    "nonmonotone_sign_changing_minimum_time_and_dissipation": true,
+    "saturated_backward_envelope_and_attainability": true,
+    "all_intermediate_D_by_hold_wait_allocation": true,
+    "L_U_restricted_monotonicity_and_inverse_endpoints": true,
+    "M_zero_D_zero_tau_equals_T": true,
+    "linear_closed_forms_and_asymptotics": true,
+    "measurable_switches_vs_continuous_controls": true,
+    "force_return_not_displacement_return": true
+  },
+  "proof_not_empirical": "General claims established by monotone-drift uniqueness, AC chain inequalities, pointwise envelope and inverse monotonicity; one standard-library analytic domain witness only.",
+  "nine_author_synthetic_cases_used_as_proof": false,
+  "ODE_simulation_rerun": false,
+  "Excel_or_NPZ_read": false,
+  "independent_read_only_auditors": [
+    "r006_sharp_challenge: nonmonotone envelope/inverses; same missing saturation identified",
+    "kernel_sharp_audit: q<1/zero set/control/endpoints; same missing saturation identified",
+    "audit_double_mode: alpha1 closed forms/asymptotics/units; no required change"
+  ],
+  "limits": [
+    "Candidate mathematical correctness review only, conditional on repair; source status and content unchanged.",
+    "No novelty/engineering V/measured force-return/physical parameters/mass/whole-building interpretation certification.",
+    "A required displacement-return, continuous-speed or acceleration-constrained problem needs separate analysis.",
+    "Stop after frozen report; no further expansion."
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "session": "20261017-2109",
+  "role": "verification",
+  "review": "R013",
+  "started_at": "2026-10-17T23:26:59+08:00",
+  "rules_frozen_at": "2026-10-17T23:27:47.376238+08:00",
+  "numerical_completed_at": "2026-10-17T23:29:43.509442+08:00",
+  "qa_completed_at": "2026-10-17T23:32:46.725140+08:00",
+  "interpreter": "C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "python_version": "3.12.14",
+  "script": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_all_integrals_R013.py",
+  "arguments": [
+    "--source",
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R007-integral-all-devices",
+    "--review-protocol",
+    "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R013-review-protocol.json",
+    "--out",
+    "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R013-integral-review"
+  ],
+  "execution_exit_code": 0,
+  "execution_wall_time_seconds_reported_by_shell": 1.3154016,
+  "reproduction_requires_new_output_json": true,
+  "required_corrections": 0,
+  "numerical_failures": 0,
+  "source_files_sha_rechecked": 23,
+  "groups_checked": 192,
+  "paired_points_checked": 521472,
+  "metrics_rows_checked": 192,
+  "worst_rows_checked": 12,
+  "six_CSV_points_checked": 16296,
+  "old_and_review_crosschecks": 12,
+  "undefined_ratios_observed": 0,
+  "exact_max_residual_tie_groups_observed": 0,
+  "worst_cutoff_expansion_cases_observed": 0,
+  "synthetic_zero_denominator_and_ranking_tie_checks": true,
+  "own_report_case_rows_checked": 6,
+  "own_report_worst_rows_checked": 12,
+  "script_ast_valid": true,
+  "utf8_lf_no_BOM_or_trailing_whitespace": true,
+  "frozen_R001_R012": [
+    {
+      "run_file": "R001-review-run.json",
+      "sha256": "7d43f7e3fb4b754edce7e44f9c57908314ec27172e6c5a25e97163573dac499f",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R002-review-run.json",
+      "sha256": "f14346e51b39b32ce421433be671a1ddc67a2cb89995652c45aba0514fb6a028",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R003-review-run.json",
+      "sha256": "db8c3ce055d9ba45250a5c59c4444c880eadf12acb4236c6de5e545295054a69",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R004-review-run.json",
+      "sha256": "d2800774203b57330f6da953081f25771161f5e1df84423f2782ee85248e8252",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R005-review-run.json",
+      "sha256": "8043b9282527e3480165a636cb6de44cbd4afe3739b1dff80daa9802e7b82163",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R006-review-validation.json",
+      "sha256": "bac733cf858eca6cb3548e556db765e9ba950eba5c1c8e0c713e674b1a532fcd",
+      "outputs_verified": 1
+    },
+    {
+      "run_file": "R007-review-run.json",
+      "sha256": "1d794223541ae4cd5b2fc46e03850b641192281956a545daeabded4e9b76fc08",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R008-review-run.json",
+      "sha256": "1925e4649afa3131ae9fd9b26cd3a1ad89d943f72a8706826095cdb8da946428",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R009-review-run.json",
+      "sha256": "1d78f89de0ff567e9d7b914b2ebe0ffd970481a7bbd3f219dae96d8e435bf23f",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R010-review-run.json",
+      "sha256": "6447cd6f4c5b157f4dbcd93d7d2b9441af349da0de029af9774541499f0dfbc9",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R011-review-run.json",
+      "sha256": "6edaf37bbe65be8747b63d3014cf7d9f0bb4cb6071f19e8f19d22091026cc530",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R012-review-run.json",
+      "sha256": "d4e7b662a375a3d24d6e1a775effb2606fd53e5db0617f525bdeab708e264bfb",
+      "outputs_verified": 3
+    }
+  ],
+  "read_only_collaborator": "r006_sharp_challenge: five source documents only; no point arrays/recomputation/writes; 0 required changes.",
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\192组固定积分诊断独审-R013.md",
+      "bytes": 8314,
+      "sha256": "8513492e976abb50d2392dabf4468495fbdd6ee138aa131cad7c0d6246831c91"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_all_integrals_R013.py",
+      "bytes": 14662,
+      "sha256": "c31722cb95bfe3119d79fcdf26270b147eca414ab20a88047960e36e492ea695"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R013-review-protocol.json",
+      "bytes": 9737,
+      "sha256": "df8fc9c355c4ed4943827c80dd9b9f757789c1cb7ea1db3327e7e8b5bc2a06e2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R013-integral-review\\review_summary.json",
+      "bytes": 237541,
+      "sha256": "49ae16b9a19b63369fec48e2064bc40ac53e792ae7197cf451e3c21d0c18d00b"
+    }
+  ],
+  "limits": [
+    "Given observed force conditional integral check; not earthquake-input forward prediction or independent/unseen event validation.",
+    "Only K2/RH4X is training; all other191 same-model checks, including previously used records.",
+    "Absolute errors, RMS denominators, signed bias and failure/undefined states retained; no engineering acceptance threshold.",
+    "True parameters/port/mass/current software/whole88/convergence/physical energy/causal reduction remain uncertified; tail coverage inherits R001.",
+    "No original Excel/author script/refit/new full arrays/upload/shared/Git actions."
+  ]
+}

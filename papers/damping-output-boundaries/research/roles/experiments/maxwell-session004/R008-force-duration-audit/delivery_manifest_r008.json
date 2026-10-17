@@ -1,0 +1,51 @@
+{
+  "evidence_id": "M-EXP-R008",
+  "review_outcome": "0 required corrections within stated domain",
+  "completed_utc": "2026-10-17T15:34:26.466331+00:00",
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\audit_force_duration.py"
+  ],
+  "exit_code": 0,
+  "additional_source_pair_numeric_fields_checked": 4032,
+  "delivery_QA": "All4032 source pair magnitude/duration/conditional-energy fields also independently compared; CSV counts/outputSHA/sourceSHA/UTF-8/compilation checked. No rerun, full histories or Excel read.",
+  "files": [
+    {
+      "name": "audit_force_duration.py",
+      "bytes": 14698,
+      "sha256": "a82ffa3a224db94f299bd6c7026141332e5debea3d3809858b58d89b1e0686c2"
+    },
+    {
+      "name": "audit_summary_r008.json",
+      "bytes": 9311,
+      "sha256": "5676c855455c023956fa1f9bbfa48b00e33653caab8e6b57d0a18c380ebb984d"
+    },
+    {
+      "name": "independent_devices_192_r008.csv",
+      "bytes": 58834,
+      "sha256": "a78872615036722b9df102437895135bc193c9e8027c6518dbf4ad4cf5088e64"
+    },
+    {
+      "name": "independent_pairs_672_r008.csv",
+      "bytes": 103787,
+      "sha256": "1898d2cd483b4e45e59227a09dbbdce08449471557a739ef27d79a14bf485d7d"
+    },
+    {
+      "name": "protocol.json",
+      "bytes": 6241,
+      "sha256": "ade73742a5a12eaaa29096e09b4ab574b578913c43273e08083b0435ce52fe22"
+    },
+    {
+      "name": "report.md",
+      "bytes": 4020,
+      "sha256": "a585d5b2a89d814efda859f8b3d07f4d462c25b24ea95d24655a0ca1cbc810fd"
+    },
+    {
+      "name": "run_record_r008.json",
+      "bytes": 1147,
+      "sha256": "4ad6e9d52431c3ebe00c783114f0fa2c843d89693399dfbcf33d5b35a84222b2"
+    }
+  ]
+}

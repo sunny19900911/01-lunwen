@@ -1,0 +1,42 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R007 independent v005 source/transcription review; not role2 physical truth review",
+  "started_at": "2026-10-17T23:45:45+08:00",
+  "input_frozen_at": "2026-10-17T23:47:20.759641+08:00",
+  "frozen_at": "2026-10-17T23:51:31.715060+08:00",
+  "limit_minutes": 8,
+  "elapsed_seconds": 346.71506,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "candidate frozen, task stopped for main controller decision",
+  "required_corrections": 0,
+  "optional_editorial_suggestions": 1,
+  "scope": "Four previously accepted packages; small-table arithmetic and source transcription only. Does not admit unreviewed M-C015 theory.",
+  "outputs": {
+    "input-rules-R007.json": {
+      "bytes": 6483,
+      "sha256": "dcfbcc31f4d0aa868564ed547e70001bf40319a71fced8028a1383be13bb8c0e"
+    },
+    "R007-draft-v005-review.md": {
+      "bytes": 6630,
+      "sha256": "2586e404bac9b5150ffa28d4986f7c13aef69a26d845d1cf253b43123e6af3c2"
+    },
+    "validation-R007.json": {
+      "bytes": 7583,
+      "sha256": "dbd2024d8186c7efdbc238175f0b7818a4b6864a2a5c53b5d54897baff8fe350"
+    }
+  },
+  "inputs_17_and_images_3_unchanged": true,
+  "author_frozen_draft_unchanged": true,
+  "delegates": {
+    "weng2016_source": "read-only structure/frozen6/old11 tables/3 image links and map SHA/formulas checks passed",
+    "local_literature": "read-only examples/tau/LF/38of672 and17groups checks passed"
+  },
+  "operations": {
+    "Excel": 0,
+    "NPZ": 0,
+    "solver": 0,
+    "new_search": 0,
+    "source_author_shared_manuscript_Git_edits": 0
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "task": "R007 role3 independent source/transcription review, not role2 physics review",
+  "started_at": "2026-10-17T23:45:45+08:00",
+  "input_frozen_at": "2026-10-17T23:47:20.759641+08:00",
+  "limit_minutes": 8,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v005.md",
+      "sha256": "c427cfcf84828da620e465939397fe1365d8a1f7efb6e5d766ec9fb86f9bd508",
+      "bytes": 40762
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v004.md",
+      "sha256": "7403a532b8dd8714ffc1a8c49943397c804e7ca573ed3084089cf0e50bc75fe9",
+      "bytes": 32826
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v005.json",
+      "sha256": "a57c278655dc46b017200717b8038988bd31eeed2097fd2e6526d7cee299306f",
+      "bytes": 2569
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v005-evidence-map.json",
+      "sha256": "dc29039b58fffafd05e9e5f78c7cca1c6a8cc0afa841f27a62779b844cc7dc45",
+      "bytes": 47791
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v005-validation.json",
+      "sha256": "775ddf65aff39c61d09ce9902d4c7e9d15055cd4bde226df85fe4332c95e2240",
+      "bytes": 4363
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\192组固定积分诊断独审-R013.md",
+      "sha256": "8513492e976abb50d2392dabf4468495fbdd6ee138aa131cad7c0d6246831c91",
+      "bytes": 8314
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R013-integral-review\\review_summary.json",
+      "sha256": "49ae16b9a19b63369fec48e2064bc40ac53e792ae7197cf451e3c21d0c18d00b",
+      "bytes": 237541
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R007\\report.md",
+      "sha256": "bbc3c5d46202290b7b6283899ebbf9bac911952405cc9e467dfc6252cc577515",
+      "bytes": 6988
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R007\\recomputed.json",
+      "sha256": "afd7ee95b3868dc298635f762f6f1214356aff5f3a14b61ab765d36e549fd70a",
+      "bytes": 29352
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R006-shear-output-review\\R006-shear-output-review.md",
+      "sha256": "942cd55ad4e0036cd8723670e048f83e2f21d08201352c0cb092c54334bfb70b",
+      "bytes": 5555
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R006-shear-output-review\\validation-R006.json",
+      "sha256": "68cd8ccfae5217161e62cece4c2077176553b3e987c8d7d0d311e04bde3acb79",
+      "bytes": 9486
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R006-shear-output-review\\four-reversals-reviewed.csv",
+      "sha256": "7f3fd5eb2a71bd20512e609a72e11e5861b3d11a0f820c46bfc729c7abb93b6a",
+      "bytes": 1373
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R006-shear-output-review\\base-vs-story1-reviewed.csv",
+      "sha256": "94681013142e3764166e8a85976c158080bbdde51c3c23b8f15e01e12df7df58",
+      "bytes": 1054
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\report.md",
+      "sha256": "a585d5b2a89d814efda859f8b3d07f4d462c25b24ea95d24655a0ca1cbc810fd",
+      "bytes": 4020
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\audit_summary_r008.json",
+      "sha256": "5676c855455c023956fa1f9bbfa48b00e33653caab8e6b57d0a18c380ebb984d",
+      "bytes": 9311
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\independent_devices_192_r008.csv",
+      "sha256": "a78872615036722b9df102437895135bc193c9e8027c6518dbf4ad4cf5088e64",
+      "bytes": 58834
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\independent_pairs_672_r008.csv",
+      "sha256": "1898d2cd483b4e45e59227a09dbbdce08449471557a739ef27d79a14bf485d7d",
+      "bytes": 103787
+    }
+  ],
+  "rules": "Compare v005 additions against four reviewed packages; preserve old11 table bytes; check new tables/formulas/3image links/units/denominators/bias/SourceRow; no Excel/NPZ/solver/new search or author/source edits. Existing values known before freeze; bounded transcription audit."
+}

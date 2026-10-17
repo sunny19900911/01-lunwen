@@ -1,0 +1,3 @@
+method,Case,Story,Link,native_Ppeak_kN,group_Pmax_kN,selected_Pmax_kN,L_F,L_F_exact,is_global_max_controller,global_max_coverage_state,peak_top2_recall,native_force_peak_controllers_json
+conditional_Dport,RH4X,Story8,K10,133.1349401234096,133.13494012340959,133.08720884372408,0.00035851805424838459,596640996069/1664186751542620,True,none_covered,0.5,"[{""t_s"":11.48,""signed_P_kN"":133.1349401234096,""P_I_cell"":""I783360"",""P_J_cell"":""I783361""}]"
+native_Wtrap,RH4X,Story8,K10,133.1349401234096,133.13494012340959,133.08720884372408,0.00035851805424838459,596640996069/1664186751542620,True,none_covered,0.5,"[{""t_s"":11.48,""signed_P_kN"":133.1349401234096,""P_I_cell"":""I783360"",""P_J_cell"":""I783361""}]"

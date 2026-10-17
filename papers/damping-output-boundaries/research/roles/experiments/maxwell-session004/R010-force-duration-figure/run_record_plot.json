@@ -1,0 +1,32 @@
+{
+  "finished_utc": "2026-10-17T15:47:48.693362+00:00",
+  "elapsed_seconds": 0.1587615000025835,
+  "command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R010-force-duration-figure\\build_force_duration_figure.py"
+  ],
+  "exit_code": 0,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "reportlab": "4.4.9",
+  "numpy": "2.3.5",
+  "code_sha256": "832cb36818938a754b8f67839376833e79e12a6fb64c3b811946edc9bee835a9",
+  "protocol_sha256": "bf11760e48f122a3ca40314eadaf56611747a7cdb2d3a5632650676b2192324b",
+  "outputs": {
+    "force_duration_examples.svg": "0f66823ebc0bf2b5c1716251b2a0881a4c1e4fc40fdeee80c29d5dbe8ced4e8d",
+    "four_record_endvalues.csv": "c1691cbe3f172be8133349e3025670a11831076ff8782ea7156a33a45d3c6408",
+    "numeric_QA.json": "c986b02ce99d46bd92f6f640d2589393f830a992079e93b7fa32a686b9b1b37b",
+    "图注与使用范围.md": "254ea1d8c0e5960349afed5362fae1ca8c93fd2d6a066292d6544180cc3993c5"
+  },
+  "checks": {
+    "four_prespecified_full_windows": true,
+    "all10394_original_record_points_retained": true,
+    "eight_all_point_LinePlot_series": true,
+    "I_endpoint_matches_direct_tau_and_review": true,
+    "signed_native_force_and_monotone_I_no_clipping": true,
+    "no_normalization_by_tau": true,
+    "all_source_SHA_and_protocol_unchanged": true,
+    "runtime_below480seconds": true
+  }
+}

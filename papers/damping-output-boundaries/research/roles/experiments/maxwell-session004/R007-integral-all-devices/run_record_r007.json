@@ -1,0 +1,27 @@
+{
+  "command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R007-integral-all-devices\\check_all_device_integrals.py"
+  ],
+  "exit_code": 0,
+  "finished_utc": "2026-10-17T15:16:57.438104+00:00",
+  "elapsed_seconds": 0.381525300006615,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "code_sha256": "144d0713da468839f99548cc199b67844a9427338eead5cea95709c902238a5a",
+  "summary_sha256": "2b1d302453e8526ea919c45ba2f984c51eafe62ec321673f024fab2d0364b0f0",
+  "checks": {
+    "192_all_groups_retained": true,
+    "521472_all_original_points": true,
+    "sole_K2_RH4X_training_191_checks": true,
+    "all_units_time_and_I_J_checks_passed": true,
+    "all_six_CSVs_reproduce_frozen_arrays": true,
+    "R002_R003_R004_R007_metric_crosschecks": true,
+    "zero_denominators_explicit_not_filled": true,
+    "all_frozen_SHA_unchanged": true,
+    "NPZ_size_mtime_stable": true,
+    "runtime_below_480_seconds": true
+  }
+}

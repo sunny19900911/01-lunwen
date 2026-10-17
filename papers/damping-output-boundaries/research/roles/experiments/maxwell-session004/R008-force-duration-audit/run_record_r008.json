@@ -1,0 +1,24 @@
+{
+  "command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\audit_force_duration.py"
+  ],
+  "exit_code": 0,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy_decoder": "2.3.5",
+  "elapsed_seconds": 0.7878498999925796,
+  "code_sha256": "a82ffa3a224db94f299bd6c7026141332e5debea3d3809858b58d89b1e0686c2",
+  "summary_sha256": "5676c855455c023956fa1f9bbfa48b00e33653caab8e6b57d0a18c380ebb984d",
+  "checks": {
+    "192_direct_force_duration_recomputed": true,
+    "24_groups_672_all_pairs": true,
+    "38_same_inverse_pairs_in_17_groups": true,
+    "all_source_pair_values_flags_and_peak_locators_match": true,
+    "six_degenerate_semantics_cases_pass": true,
+    "log_three_terms_and_force_identity_pass": true,
+    "all_input_SHA_unchanged": true,
+    "runtime_below_360_seconds": true
+  }
+}

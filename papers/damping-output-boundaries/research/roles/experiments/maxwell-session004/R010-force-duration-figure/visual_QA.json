@@ -1,0 +1,32 @@
+{
+  "performed_utc": "2026-10-17T15:49:10.507740+00:00",
+  "method": "Actual generated PNG opened with functions.view_image; visible output resized2600x1702 to1952x1278",
+  "PNG_sha256": "3bdd1cb84a8f6ad618e27c28db26be452d3ede0c26ed3520fefe7a3974824550",
+  "dimensions": [
+    2600,
+    1702
+  ],
+  "checks": {
+    "all_four_panels_visible": true,
+    "four_device_legends_Pmax_tau_clear": true,
+    "same_device_color_and_dash_in_both_rows": true,
+    "full0_to50_and0_to53p9_time_axes_visible": true,
+    "signed_force_positive_negative_peaks_not_clipped": true,
+    "I_axis_seconds0_to5_clear": true,
+    "footer_and_caption_scope_present": true,
+    "no_overlapping_or_clipped_text": true
+  },
+  "issues_found": [],
+  "intentional_overlap": "RH4X force histories closely overlap; solid blue/dashed vermilion preserve separate device identity.",
+  "SVG_independently_counted_curve_vertices": [
+    2501,
+    2501,
+    2501,
+    2501,
+    2696,
+    2696,
+    2696,
+    2696
+  ],
+  "canonical_status": "pending master selection"
+}

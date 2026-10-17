@@ -1,0 +1,125 @@
+{
+  "review": "R015",
+  "session": "20261017-2109",
+  "started_at": "2026-10-17T23:45:22+08:00",
+  "limit_minutes": 6,
+  "frozen_at": "2026-10-17T23:48:46.466218+08:00",
+  "remaining_required_changes": 0,
+  "R014_required_definition_repair_resolved_in_combination": true,
+  "accepted_scope": "Original candidate plus R014 limitations plus v002 saturation and the explicit zero-peak/restricted-inverse conventions in R015; mathematical candidate only.",
+  "source_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-return-candidate\\力回零Maxwell耗散峰力可行区间-作者候选.md",
+      "bytes": 6014,
+      "sha256": "1b4d4888b5181eafb9accf2f7a19330bd88b8d0427c4fd2ffd846a2c42a1b446"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-return-candidate\\力回零候选-v002-饱和包络修订.md",
+      "bytes": 3631,
+      "sha256": "8748e0ad35e743ffccc2daa323ec7d947e44ef5c0661f1c669266d019fa8080e"
+    }
+  ],
+  "source_and_R014_unmodified": true,
+  "checks": {
+    "both_Z_defined_all_nonnegative_s": true,
+    "local_inverses_used_only_inside_domain": true,
+    "continuous_saturation_joins": true,
+    "R014_q_greater_than_one_domain_example_eliminated": true,
+    "AC_chain_integral_and_min_envelope": true,
+    "three_phase_envelope_and_control": true,
+    "tau_equals_T_point_hold": true,
+    "M_zero_separate_Z_zero_convention": true,
+    "L_U_inverse_restricted_0_MT_to_0_Dmax": true,
+    "D_zero_and_Dmax_endpoints": true,
+    "original_measurable_control_and_no_displacement_return_conditions_retained": true,
+    "UTF8_LF_no_BOM_or_trailing_whitespace": true
+  },
+  "numerical_simulations_rerun": false,
+  "whole_theorem_rereviewed": false,
+  "Excel_or_NPZ_read": false,
+  "read_only_collaborator": "r006_sharp_challenge: v002-only serial fix audit, zero remaining required changes; no numerical runs or file writes.",
+  "frozen_R001_R014": [
+    {
+      "run_file": "R001-review-run.json",
+      "sha256": "7d43f7e3fb4b754edce7e44f9c57908314ec27172e6c5a25e97163573dac499f",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R002-review-run.json",
+      "sha256": "f14346e51b39b32ce421433be671a1ddc67a2cb89995652c45aba0514fb6a028",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R003-review-run.json",
+      "sha256": "db8c3ce055d9ba45250a5c59c4444c880eadf12acb4236c6de5e545295054a69",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R004-review-run.json",
+      "sha256": "d2800774203b57330f6da953081f25771161f5e1df84423f2782ee85248e8252",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R005-review-run.json",
+      "sha256": "8043b9282527e3480165a636cb6de44cbd4afe3739b1dff80daa9802e7b82163",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R006-review-validation.json",
+      "sha256": "bac733cf858eca6cb3548e556db765e9ba950eba5c1c8e0c713e674b1a532fcd",
+      "outputs_verified": 1
+    },
+    {
+      "run_file": "R007-review-run.json",
+      "sha256": "1d794223541ae4cd5b2fc46e03850b641192281956a545daeabded4e9b76fc08",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R008-review-run.json",
+      "sha256": "1925e4649afa3131ae9fd9b26cd3a1ad89d943f72a8706826095cdb8da946428",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R009-review-run.json",
+      "sha256": "1d78f89de0ff567e9d7b914b2ebe0ffd970481a7bbd3f219dae96d8e435bf23f",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R010-review-run.json",
+      "sha256": "6447cd6f4c5b157f4dbcd93d7d2b9441af349da0de029af9774541499f0dfbc9",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R011-review-run.json",
+      "sha256": "6edaf37bbe65be8747b63d3014cf7d9f0bb4cb6071f19e8f19d22091026cc530",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R012-review-run.json",
+      "sha256": "d4e7b662a375a3d24d6e1a775effb2606fd53e5db0617f525bdeab708e264bfb",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R013-review-run.json",
+      "sha256": "7c32de97083d4d4a9769bfb76000323622b4679bc1aa9afa689f661719b37bfe",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R014-review-validation.json",
+      "sha256": "a0f9299b40060c5e301306fa7fcd4d033ba899756880858dee3def619b92d577",
+      "outputs_verified": 2
+    }
+  ],
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\饱和包络修订串行独审-R015.md",
+      "bytes": 4736,
+      "sha256": "388ee19558e1e7864b9261dc0fd598994e2018168e277eecabf79dbd085c83fc"
+    }
+  ],
+  "limits": [
+    "Do not cite the original candidate alone as repaired; R014 frozen finding remains unchanged.",
+    "No novelty, engineering V, observed terminal zero, physical parameter or engineering-performance certification.",
+    "No W5/source/shared/manuscript/Git writes; only new R015 report and identity JSON. Stop after frozen handoff."
+  ]
+}

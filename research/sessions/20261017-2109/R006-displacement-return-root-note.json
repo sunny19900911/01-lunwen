@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-17T23:43:58.111284+08:00",
+  "scope": "root independent analytic boundary and one exact synthetic point; original L/U dependent on pending R014 fix",
+  "report_sha256": "b1c88962309cc898c56827eae1f77ade06a3be9edbd0b9fac9bb08bf2b33421b",
+  "delta_identity": "deltaT-delta0=(FT-F0)/k+integral g(F); force zero endpoints imply signed flow integral",
+  "point": {
+    "k": 1,
+    "c": 1,
+    "V": 1,
+    "alpha": 1,
+    "M": 0.5,
+    "tau": 1.0986122886681098,
+    "L": 0.09861228866810978,
+    "single_lobe_delta": 0.2876820724517809,
+    "mirror_T": 2.1972245773362196,
+    "mirror_D": 0.19722457733621956,
+    "sine_T": 6.283185307179586,
+    "sine_D": 0.7853981633974483,
+    "sine_vmax": 0.7071067811865476
+  },
+  "accepted": "identity/single-lobe exclusion/mirror and sinusoidal examples independently rederived by root; not closed class exact set or independent role2 review",
+  "pending": "strict L<D<U follows conditional original envelope; corrected original theorem review still pending"
+}

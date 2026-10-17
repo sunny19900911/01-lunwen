@@ -1,0 +1,128 @@
+{
+  "session": "20261017-2109",
+  "role": "verification",
+  "review": "R014",
+  "started_at": "2026-10-17T23:35:40+08:00",
+  "declared_limit_minutes": 12,
+  "qa_completed_at": "2026-10-17T23:43:50.602190+08:00",
+  "required_definition_repairs": 1,
+  "theorem_counterexamples_found": 0,
+  "acceptance": "Conditional correctness after explicit saturation of local backward inverse; current source not approved unchanged.",
+  "source": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-return-candidate\\力回零Maxwell耗散峰力可行区间-作者候选.md",
+    "bytes": 6014,
+    "sha256": "1b4d4888b5181eafb9accf2f7a19330bd88b8d0427c4fd2ffd846a2c42a1b446"
+  },
+  "source_unchanged": true,
+  "source_lines_requiring_definition": [
+    59,
+    61,
+    63
+  ],
+  "general_proof_reviewed": {
+    "existence_via_integrated_measurable_forcing_and_continuous_state_drift": true,
+    "uniqueness_via_monotonicity_energy_for_all_q_positive": true,
+    "AC_absolute_value_zero_level_derivative": true,
+    "finite_time_strict_B_forward_barrier": true,
+    "nonmonotone_sign_changing_minimum_time_and_dissipation": true,
+    "saturated_backward_envelope_and_attainability": true,
+    "all_intermediate_D_by_hold_wait_allocation": true,
+    "L_U_restricted_monotonicity_and_inverse_endpoints": true,
+    "M_zero_D_zero_tau_equals_T": true,
+    "linear_closed_forms_and_asymptotics": true,
+    "measurable_switches_vs_continuous_controls": true,
+    "force_return_not_displacement_return": true
+  },
+  "finite_check_scope": "One standard-library atan/atanh domain witness only; no simulation or actual-data experiment.",
+  "three_read_only_collaborators": [
+    "r006_sharp_challenge: nonmonotone envelope/inverses; same missing saturation identified",
+    "kernel_sharp_audit: q<1/zero set/control/endpoints; same missing saturation identified",
+    "audit_double_mode: alpha1 closed forms/asymptotics/units; no required change"
+  ],
+  "utf8_lf_no_BOM_or_trailing_whitespace": true,
+  "frozen_R001_R013": [
+    {
+      "run_file": "R001-review-run.json",
+      "sha256": "7d43f7e3fb4b754edce7e44f9c57908314ec27172e6c5a25e97163573dac499f",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R002-review-run.json",
+      "sha256": "f14346e51b39b32ce421433be671a1ddc67a2cb89995652c45aba0514fb6a028",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R003-review-run.json",
+      "sha256": "db8c3ce055d9ba45250a5c59c4444c880eadf12acb4236c6de5e545295054a69",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R004-review-run.json",
+      "sha256": "d2800774203b57330f6da953081f25771161f5e1df84423f2782ee85248e8252",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R005-review-run.json",
+      "sha256": "8043b9282527e3480165a636cb6de44cbd4afe3739b1dff80daa9802e7b82163",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R006-review-validation.json",
+      "sha256": "bac733cf858eca6cb3548e556db765e9ba950eba5c1c8e0c713e674b1a532fcd",
+      "outputs_verified": 1
+    },
+    {
+      "run_file": "R007-review-run.json",
+      "sha256": "1d794223541ae4cd5b2fc46e03850b641192281956a545daeabded4e9b76fc08",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R008-review-run.json",
+      "sha256": "1925e4649afa3131ae9fd9b26cd3a1ad89d943f72a8706826095cdb8da946428",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R009-review-run.json",
+      "sha256": "1d78f89de0ff567e9d7b914b2ebe0ffd970481a7bbd3f219dae96d8e435bf23f",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R010-review-run.json",
+      "sha256": "6447cd6f4c5b157f4dbcd93d7d2b9441af349da0de029af9774541499f0dfbc9",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R011-review-run.json",
+      "sha256": "6edaf37bbe65be8747b63d3014cf7d9f0bb4cb6071f19e8f19d22091026cc530",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R012-review-run.json",
+      "sha256": "d4e7b662a375a3d24d6e1a775effb2606fd53e5db0617f525bdeab708e264bfb",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R013-review-run.json",
+      "sha256": "7c32de97083d4d4a9769bfb76000323622b4679bc1aa9afa689f661719b37bfe",
+      "outputs_verified": 4
+    }
+  ],
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\力回零耗散峰力可行域独审-R014.md",
+      "bytes": 7993,
+      "sha256": "7d91b07af19d7e21f1fa3850cbc4e58a2340ad42ded45de8a33017bcfb59ad04"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R014-proof-evidence.json",
+      "bytes": 4210,
+      "sha256": "819e11f2c4d6658d5899cb6bdaa528a715cdcf9ab76b4a8c8267abe7cbb243a1"
+    }
+  ],
+  "limits": [
+    "Candidate mathematical correctness review only, conditional on repair; source status and content unchanged.",
+    "No novelty/engineering V/measured force-return/physical parameters/mass/whole-building interpretation certification.",
+    "A required displacement-return, continuous-speed or acceleration-constrained problem needs separate analysis.",
+    "Stop after frozen report; no further expansion."
+  ]
+}

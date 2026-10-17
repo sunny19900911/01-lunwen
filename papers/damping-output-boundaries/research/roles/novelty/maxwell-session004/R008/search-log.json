@@ -1,0 +1,58 @@
+{
+  "started_at": "2026-10-17T23:35:35+08:00",
+  "logged_at": "2026-10-17T23:40:48+08:00",
+  "root_search_queries": 0,
+  "Maxwell_child_search_queries": 0,
+  "control_child_search_queries": 2,
+  "queries": [
+    {
+      "owner": "maxwell_primary_sources",
+      "q": "scalar optimal control state constraints integral cost bang singular bang"
+    },
+    {
+      "owner": "maxwell_primary_sources",
+      "q": "\"scalar\" \"reachable set\" \"cost\" \"integral\" control"
+    }
+  ],
+  "primary_opened": [
+    {
+      "title": "Calculus of Variations and Optimal Control Theory",
+      "author": "Daniel Liberzon",
+      "version": "2011-08-09 preliminary author copy",
+      "url": "https://liberzon.csl.illinois.edu/teaching/cvoc.pdf",
+      "root_read": "section4.2.1 p85/PDF95 equations4.5-4.7; section4.5 pp119-120/PDF129-130; section5.1.4 pp132-134/PDF142-144 equations5.20-5.24; text only; section3.3.1 p68/PDF78 regularity paragraphs from primary PDF text search",
+      "relation": "classical-tool, not Maxwell-specific exact interval"
+    },
+    {
+      "title": "Bang-Singular-Bang problem and turnpike",
+      "author": "Olivier Cots",
+      "version": "November2021 author teaching/computational page; not peer-reviewed theorem verified",
+      "url": "https://ct.gitlabpages.inria.fr/gallery/turnpike/1d/bsb_turnpike.html",
+      "root_and_child_read": "sectionI and beginningsectionII equations/endpoints/control structure; text only; no code executed",
+      "relation": "related-not-equivalent"
+    }
+  ],
+  "reused_local_primary": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\novelty\\evidence\\Conde2021-applsci-11-03089.pdf",
+      "sha256": "a7dd7754cb9840eefada8b698067a956a31cf392645979755cbfddadd78cadef",
+      "read": "child direct local PDF text; no new pixels"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\novelty\\evidence\\Londono2014-WRRO_81371.pdf",
+      "sha256": "cf7e469e0897cb095fa45274d5ff98c0269d68eb2084d128bc4c6775817a0a1d",
+      "read": "child direct local PDF text; no new pixels"
+    }
+  ],
+  "unopened_search_hits_not_used": [
+    "Gusev2017 DOI10.15826/umj.2017.1.003 (search layer only)",
+    "arXiv1107.0161 (search layer only)",
+    "DOI10.1016/j.automatica.2020.109240 (search layer only)"
+  ],
+  "failed_paths_retried": [],
+  "same_claim_located": false,
+  "novelty_first_claim": false,
+  "correctness_status": "pending R014; not reviewed here",
+  "engineering_certification": false,
+  "stop_rule": "read one useful scalar-control author source, reuse existing primary Maxwell PDFs, then stop; no broad expansion"
+}

@@ -70,3 +70,12 @@ M-C009 proposed/analytic-derivation candidate：在已知单轴Maxwell本构、�
 
 
 2026-10-17T23:31:24.337413+08:00 R006：M-C012上游R011已审；后处理仿射排名经R012全文及四SHA核，接纳analytic-derivation/reviewed，仅固定十进制观测系数下前后2集合区间，不能作为真实改k、参数置信或正耗散可行域。v004主控独立读新增全文/对v003差异并完成16项身份/转录/集合/图链检查通过；不是角色2另审。32只和目标层缺口限定不变。LF及全192重建误差候选另交独审；峰力幅值与持续量的经典恒等解释来自W5辅助，独审在途。
+
+
+2026-10-17T23:36:41.519147+08:00 R006后到准入：全文/实际SHA核过R013、创新R007、文献R006、实验R008。M-C001全192固定参数积分关系算术为fitted-model/reviewed，唯一训练K2/RH4X，其余191非独立事件，绝对误差与分母/偏置保留。M-C012筛选派生reviewed：1组最大缺口约.03585%，另4组LF0半召回，经典诊断无工程显著性认证。M-C013 supported/analytic-derivation+fitted-model reviewed：tau直接积分归一化力幂，38/672对、17/24组峰幅与条件功反序；经典恒等解释而非新理论/物理机制识别。M-C014 supported/observed-data reviewed：Base/Story1输出逐点重复、66相邻Bottom对4个空间峰反升及同刻差已核，不是加阻尼导致放大/装置贡献。力回零耗散可达区间作为M-C015 proposed/analytic-derivation candidate，R014正确性/角色6R008先例在途，零残余变形另题，不纳已审稿。
+
+
+2026-10-17T23:48:17.917304+08:00 R007：M-C015原力回零候选经R014发现1项逆函数越域定义缺口，原稿不原样准入；修复Z在M饱和的v002交R015，既有L/U表达不改但反函数需受限可达域。角色6R008经典控制框架来源已读，具体同条件发表仍unresolved。M-C016 proposed/analytic-derivation candidate：再加总变形回零，检验峰M可达当且仅当2tau(M)<=T，未审不纳正文。M-C017 supported/observed-data reviewed by root：192完整窗口初力全为0、末力无一精确0、净变形无一精确0，3648数值/1152源格根独核；不设后验容差、不将导出非零当工程显著或定理反例，不把净变形回零追加到M-C015前提。
+
+
+2026-10-17T23:52:20.280825+08:00 R015修补准入：主控全文及两SHA核过，M-C015 v2在原候选+R014+饱和v002+R015零峰/受限逆约定组合下为supported/analytic-derivation reviewed。原v1历史定义缺口保留；不认证首次、工程连续V/真实参数/末力零。R008闭合2tau候选已根全文读并交R016，仍candidate。M-C018 proposed/analytic-derivation candidate：固定非零FT的峰—耗散可行区间，以适应原窗余力问题，角色1R009在推导；没有因此认证现有模型可直接给工程上界。第四图已根实际看PNG及独核SVG全20788顶点，表达两例已审经典积分，不新增因果主张。

@@ -1,0 +1,354 @@
+{
+  "evidence_id": "M-EXP-R007",
+  "review_status": "candidate",
+  "finished_utc": "2026-10-17T15:16:57.438104+00:00",
+  "elapsed_seconds": 0.381525300006615,
+  "protocol_sha256": "8dd93c139aff83e515b8d7bc837cc33ca7bce4630452d52ecfa3cefff9d3e952",
+  "code_sha256": "144d0713da468839f99548cc199b67844a9427338eead5cea95709c902238a5a",
+  "n_group_rows": 192,
+  "n_worst_rows": 12,
+  "n_training": 1,
+  "n_conditional_check": 191,
+  "case_summaries": [
+    {
+      "Case": "RH4X",
+      "n_groups": 32,
+      "undefined_ratio_count": 0,
+      "relative_RMSE_min": 0.0006646007206537014,
+      "relative_RMSE_max": 0.025305176009948076,
+      "RMSE_m_min": 5.720478712497951e-08,
+      "RMSE_m_max": 2.145037428770989e-06,
+      "worst2_with_exact_ties": [
+        "K13",
+        "K15"
+      ]
+    },
+    {
+      "Case": "RH4Y",
+      "n_groups": 32,
+      "undefined_ratio_count": 0,
+      "relative_RMSE_min": 0.000700007744089154,
+      "relative_RMSE_max": 0.02250955940415893,
+      "RMSE_m_min": 1.5115406431898382e-07,
+      "RMSE_m_max": 2.3433863504994624e-06,
+      "worst2_with_exact_ties": [
+        "K102",
+        "K8"
+      ]
+    },
+    {
+      "Case": "SHW4X",
+      "n_groups": 32,
+      "undefined_ratio_count": 0,
+      "relative_RMSE_min": 0.0009767795040141792,
+      "relative_RMSE_max": 0.011807130520326132,
+      "RMSE_m_min": 4.254765909596448e-08,
+      "RMSE_m_max": 1.6404734520797552e-06,
+      "worst2_with_exact_ties": [
+        "K5",
+        "K15"
+      ]
+    },
+    {
+      "Case": "SHW4Y",
+      "n_groups": 32,
+      "undefined_ratio_count": 0,
+      "relative_RMSE_min": 0.0010561153425364107,
+      "relative_RMSE_max": 0.014166109005816592,
+      "RMSE_m_min": 6.04740486969934e-08,
+      "RMSE_m_max": 2.4906472038220384e-06,
+      "worst2_with_exact_ties": [
+        "K74",
+        "K103"
+      ]
+    },
+    {
+      "Case": "SHW7X",
+      "n_groups": 32,
+      "undefined_ratio_count": 0,
+      "relative_RMSE_min": 0.0008886537205131131,
+      "relative_RMSE_max": 0.022949288783681545,
+      "RMSE_m_min": 7.380089999774939e-08,
+      "RMSE_m_max": 3.2022876742214616e-06,
+      "worst2_with_exact_ties": [
+        "K15",
+        "K6"
+      ]
+    },
+    {
+      "Case": "SHW7Y",
+      "n_groups": 32,
+      "undefined_ratio_count": 0,
+      "relative_RMSE_min": 0.0011275350250554688,
+      "relative_RMSE_max": 0.015600956467099197,
+      "RMSE_m_min": 5.4901563821323155e-08,
+      "RMSE_m_max": 1.0634947680901276e-05,
+      "worst2_with_exact_ties": [
+        "K101",
+        "K91"
+      ]
+    }
+  ],
+  "six_CSV_input_crosschecks": [
+    {
+      "key": "K2__RH4X",
+      "n_rows": 2501,
+      "all_eight_columns_exact_equal": true
+    },
+    {
+      "key": "K5__RH4X",
+      "n_rows": 2501,
+      "all_eight_columns_exact_equal": true
+    },
+    {
+      "key": "K2__SHW4X",
+      "n_rows": 2951,
+      "all_eight_columns_exact_equal": true
+    },
+    {
+      "key": "K2__SHW7X",
+      "n_rows": 2696,
+      "all_eight_columns_exact_equal": true
+    },
+    {
+      "key": "K5__SHW4X",
+      "n_rows": 2951,
+      "all_eight_columns_exact_equal": true
+    },
+    {
+      "key": "K5__SHW7X",
+      "n_rows": 2696,
+      "all_eight_columns_exact_equal": true
+    }
+  ],
+  "old_and_review_metric_crosschecks": [
+    {
+      "reference": "R002_frozen_fit",
+      "Link": "K2",
+      "Case": "RH4X",
+      "numeric_differences": {
+        "RMSE_m": -5.293955920339377e-22,
+        "MAE_m": -2.117582368135751e-22,
+        "max_abs_residual_m": 0.0,
+        "mean_residual_m": -5.293955920339377e-23,
+        "end_residual_m": 5.293955920339377e-23,
+        "delta_d_RMS_m": 0.0,
+        "relative_RMSE": -1.734723475976807e-18
+      }
+    },
+    {
+      "reference": "R004_independent_review",
+      "Link": "K2",
+      "Case": "RH4X",
+      "numeric_differences": {
+        "RMSE_m": -3.596713652278573e-19,
+        "MAE_m": -4.595683134446613e-19,
+        "max_abs_residual_m": -5.421010862427522e-20,
+        "mean_residual_m": 5.000141366760542e-19,
+        "end_residual_m": 8.34750969519113e-19,
+        "delta_d_RMS_m": 0.0,
+        "relative_RMSE": -1.1763593571467723e-15
+      }
+    },
+    {
+      "reference": "R002_frozen_fit",
+      "Link": "K5",
+      "Case": "RH4X",
+      "numeric_differences": {
+        "RMSE_m": 0.0,
+        "MAE_m": 0.0,
+        "max_abs_residual_m": 0.0,
+        "mean_residual_m": -2.6469779601696886e-23,
+        "end_residual_m": 0.0,
+        "delta_d_RMS_m": 0.0,
+        "relative_RMSE": 0.0
+      }
+    },
+    {
+      "reference": "R004_independent_review",
+      "Link": "K5",
+      "Case": "RH4X",
+      "numeric_differences": {
+        "RMSE_m": 3.8381180422460484e-22,
+        "MAE_m": 8.735027268559972e-22,
+        "max_abs_residual_m": -2.0328790734103208e-20,
+        "mean_residual_m": 1.0323214044661785e-21,
+        "end_residual_m": 1.2705494208814505e-21,
+        "delta_d_RMS_m": 0.0,
+        "relative_RMSE": 2.7755575615628914e-17
+      }
+    },
+    {
+      "reference": "R003_frozen_transfer",
+      "Link": "K2",
+      "Case": "SHW4X",
+      "numeric_differences": {
+        "RMSE_m": 0.0,
+        "MAE_m": 0.0,
+        "max_abs_residual_m": 0.0,
+        "mean_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "delta_d_RMS_m": 0.0,
+        "relative_RMSE": 0.0
+      }
+    },
+    {
+      "reference": "R003_frozen_transfer",
+      "Link": "K2",
+      "Case": "SHW7X",
+      "numeric_differences": {
+        "RMSE_m": 0.0,
+        "MAE_m": 0.0,
+        "max_abs_residual_m": 0.0,
+        "mean_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "delta_d_RMS_m": 0.0,
+        "relative_RMSE": 0.0
+      }
+    },
+    {
+      "reference": "R003_frozen_transfer",
+      "Link": "K5",
+      "Case": "SHW4X",
+      "numeric_differences": {
+        "RMSE_m": 0.0,
+        "MAE_m": 0.0,
+        "max_abs_residual_m": 0.0,
+        "mean_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "delta_d_RMS_m": 0.0,
+        "relative_RMSE": 0.0
+      }
+    },
+    {
+      "reference": "R003_frozen_transfer",
+      "Link": "K5",
+      "Case": "SHW7X",
+      "numeric_differences": {
+        "RMSE_m": 0.0,
+        "MAE_m": 0.0,
+        "max_abs_residual_m": 0.0,
+        "mean_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "delta_d_RMS_m": 0.0,
+        "relative_RMSE": 0.0
+      }
+    },
+    {
+      "reference": "R007_independent_review",
+      "Link": "K2",
+      "Case": "SHW4X",
+      "numeric_differences": {
+        "RMSE_m": -6.46392017873438e-20,
+        "MAE_m": -1.384634170964764e-19,
+        "max_abs_residual_m": 1.7618285302889447e-19,
+        "mean_residual_m": -1.82337076786289e-19,
+        "end_residual_m": -3.3542504711270293e-19,
+        "delta_d_RMS_m": 0.0,
+        "relative_RMSE": -2.5370330836160804e-16
+      }
+    },
+    {
+      "reference": "R007_independent_review",
+      "Link": "K2",
+      "Case": "SHW7X",
+      "numeric_differences": {
+        "RMSE_m": 6.786851489875081e-20,
+        "MAE_m": 6.347453148486913e-20,
+        "max_abs_residual_m": -1.0842021724855044e-19,
+        "mean_residual_m": -8.703263533037936e-20,
+        "end_residual_m": 9.486769009248164e-20,
+        "delta_d_RMS_m": 5.421010862427522e-20,
+        "relative_RMSE": 1.8149544367407344e-16
+      }
+    },
+    {
+      "reference": "R007_independent_review",
+      "Link": "K5",
+      "Case": "SHW4X",
+      "numeric_differences": {
+        "RMSE_m": 3.8116482626443515e-21,
+        "MAE_m": 3.758708703440958e-21,
+        "max_abs_residual_m": 0.0,
+        "mean_residual_m": -3.758708703440958e-21,
+        "end_residual_m": -2.0328790734103208e-20,
+        "delta_d_RMS_m": 0.0,
+        "relative_RMSE": 3.157196726277789e-16
+      }
+    },
+    {
+      "reference": "R007_independent_review",
+      "Link": "K5",
+      "Case": "SHW7X",
+      "numeric_differences": {
+        "RMSE_m": 4.685150989500349e-21,
+        "MAE_m": 3.5998900258307764e-21,
+        "max_abs_residual_m": 0.0,
+        "mean_residual_m": -3.560185356428231e-21,
+        "end_residual_m": -1.1858461261560205e-20,
+        "delta_d_RMS_m": 0.0,
+        "relative_RMSE": 2.6107588313450947e-16
+      }
+    }
+  ],
+  "checks": {
+    "192_all_groups_retained": true,
+    "521472_all_original_points": true,
+    "sole_K2_RH4X_training_191_checks": true,
+    "all_units_time_and_I_J_checks_passed": true,
+    "all_six_CSVs_reproduce_frozen_arrays": true,
+    "R002_R003_R004_R007_metric_crosschecks": true,
+    "zero_denominators_explicit_not_filled": true,
+    "all_frozen_SHA_unchanged": true,
+    "NPZ_size_mtime_stable": true,
+    "runtime_below_480_seconds": true
+  },
+  "source_refs": {
+    "paired_npz": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\local_paired_histories_r006.npz",
+      "sha256": "65be34f8125e5e7f2aee90ebe5a4b2612cfe717d84abf0886789a1bc75709340",
+      "bytes": 18459935
+    },
+    "array_manifest": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\local_history_manifest_r006.json",
+      "sha256": "c0b661271ac78e5450849a6bdae4e4a797fa4846608b6256ca0db4b6c7fba392",
+      "bytes": 69507
+    },
+    "R006_summary": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\summary_r006.json",
+      "sha256": "853d92aa94e563c46c93e7f6b531dfc2a2bbfe73ccfdca2814b151f78a682da7",
+      "bytes": 5150
+    },
+    "R002_training": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\fit_summary_r002.json",
+      "sha256": "3186dae098c025673eb565390f4273760b5765c1095f6948ab3c051caf3e3f02",
+      "bytes": 5923
+    },
+    "R003_metrics": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\transfer_metrics_r003.csv",
+      "sha256": "2dbe27bdf9cb0770c6956d70fd1f53a6657ae62a775b29dcc1933d180dedb687",
+      "bytes": 1316
+    },
+    "R004_review_numbers": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R004-integral-review\\review_record.json",
+      "sha256": "d430f0967a96466d4955e1ed9aa10f29e1af3a89b6f407077ba2890c1b996f01",
+      "bytes": 7870
+    },
+    "R007_review_numbers": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R007-transfer-review\\review_summary.json",
+      "sha256": "68316077698295bb6a33c36df894cea04004f34ee8f74ba3e0317bdb0c0750d7",
+      "bytes": 16809
+    },
+    "R011_review_report": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\共同完整32装置分布独审-R011.md",
+      "sha256": "9a6fdd665f24cedff2810e2d920f8def8eb7aed301267ae46ebe6e18cc23b98a",
+      "bytes": 7992
+    }
+  },
+  "outputs": {
+    "all_device_integral_metrics_r007.csv": "9c41e4cd768e9d2ec03dd6e17edc4c7d8fc2bd4b351b94654d633eb1cf75fc72",
+    "worst2_by_case_r007.csv": "6fdaf759952cc87adf7b4c993e2a766f485ba8111a2b51d4fb3a46a4075d1b96",
+    "report.md": "c052f4e93d412fd667f2e14b14605874c64e407c4f6b910088ffae3a02c7a932",
+    "next-task.md": "7bce1050bf2be89667bf1d7ec23ce0f8bd67c47990f5d45fc79c9b9b63fd7426"
+  }
+}

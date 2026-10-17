@@ -1,0 +1,67 @@
+{
+  "evidence_id": "M-EXP-R007",
+  "review_status": "candidate",
+  "completed_utc": "2026-10-17T15:17:32.498169+00:00",
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R007-integral-all-devices\\check_all_device_integrals.py"
+  ],
+  "exit_code": 0,
+  "checks": {
+    "192_all_groups_retained": true,
+    "521472_all_original_points": true,
+    "sole_K2_RH4X_training_191_checks": true,
+    "all_units_time_and_I_J_checks_passed": true,
+    "all_six_CSVs_reproduce_frozen_arrays": true,
+    "R002_R003_R004_R007_metric_crosschecks": true,
+    "zero_denominators_explicit_not_filled": true,
+    "all_frozen_SHA_unchanged": true,
+    "NPZ_size_mtime_stable": true,
+    "runtime_below_480_seconds": true
+  },
+  "delivery_QA": "CSV counts, all output SHA, UTF-8 and source compilation checked; no repeated computation or original Excel read.",
+  "files": [
+    {
+      "name": "all_device_integral_metrics_r007.csv",
+      "bytes": 107614,
+      "sha256": "9c41e4cd768e9d2ec03dd6e17edc4c7d8fc2bd4b351b94654d633eb1cf75fc72"
+    },
+    {
+      "name": "check_all_device_integrals.py",
+      "bytes": 13281,
+      "sha256": "144d0713da468839f99548cc199b67844a9427338eead5cea95709c902238a5a"
+    },
+    {
+      "name": "next-task.md",
+      "bytes": 442,
+      "sha256": "7bce1050bf2be89667bf1d7ec23ce0f8bd67c47990f5d45fc79c9b9b63fd7426"
+    },
+    {
+      "name": "protocol.json",
+      "bytes": 8214,
+      "sha256": "8dd93c139aff83e515b8d7bc837cc33ca7bce4630452d52ecfa3cefff9d3e952"
+    },
+    {
+      "name": "report.md",
+      "bytes": 4581,
+      "sha256": "c052f4e93d412fd667f2e14b14605874c64e407c4f6b910088ffae3a02c7a932"
+    },
+    {
+      "name": "run_record_r007.json",
+      "bytes": 1260,
+      "sha256": "e7775b17dc62a69fe065850604649dd189c951d5f93478b820d82ed90aedc3a8"
+    },
+    {
+      "name": "summary_r007.json",
+      "bytes": 12346,
+      "sha256": "2b1d302453e8526ea919c45ba2f984c51eafe62ec321673f024fab2d0364b0f0"
+    },
+    {
+      "name": "worst2_by_case_r007.csv",
+      "bytes": 7039,
+      "sha256": "6fdaf759952cc87adf7b4c993e2a766f485ba8111a2b51d4fb3a46a4075d1b96"
+    }
+  ]
+}

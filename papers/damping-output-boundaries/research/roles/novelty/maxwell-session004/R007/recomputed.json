@@ -1,0 +1,1397 @@
+{
+  "computed_at": "2026-10-17T23:29:04+08:00",
+  "standard_library_only": true,
+  "author_code_read_or_executed": false,
+  "NPZ_or_Excel_read": false,
+  "synthetic_checks": 8,
+  "source_rows": 192,
+  "group_counts": {
+    "conditional_Dport": {
+      "groups": 24,
+      "positive_LF": 1,
+      "LF_zero_incomplete_recall": 4,
+      "full_recall": 19,
+      "undefined_LF": 0,
+      "energy_ties": 0,
+      "peak2_ties": 0,
+      "maximum_ties": 0,
+      "all_global_max_omitted": 1,
+      "any_global_max_omitted": 1
+    },
+    "native_Wtrap": {
+      "groups": 24,
+      "positive_LF": 1,
+      "LF_zero_incomplete_recall": 4,
+      "full_recall": 19,
+      "undefined_LF": 0,
+      "energy_ties": 0,
+      "peak2_ties": 0,
+      "maximum_ties": 0,
+      "all_global_max_omitted": 1,
+      "any_global_max_omitted": 1
+    }
+  },
+  "W_D_same_selected_groups": 24,
+  "omitted_peak_top2_rows": 10,
+  "omitted_global_max_rows": 2,
+  "max_scalar_display_absolute_error": "1/100000000000000",
+  "exact_LF_and_recall_comparison": true,
+  "input_changed": [],
+  "errors": [],
+  "results": [
+    {
+      "method": "conditional_Dport",
+      "Case": "RH4X",
+      "Story": "Story10",
+      "A": [
+        "K101",
+        "K75"
+      ],
+      "threshold": "202131816012673/50000000000000",
+      "B": [
+        "K101",
+        "K75"
+      ],
+      "Pmax": "2995660995030187/25000000000000",
+      "Psel": "2995660995030187/25000000000000",
+      "G": [
+        "K75"
+      ],
+      "covered": [
+        "K101",
+        "K75"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "RH4X",
+      "Story": "Story11",
+      "A": [
+        "K100",
+        "K74"
+      ],
+      "threshold": "4050294463560421/2500000000000000",
+      "B": [
+        "K100",
+        "K74"
+      ],
+      "Pmax": "132026561734739/1250000000000",
+      "Psel": "132026561734739/1250000000000",
+      "G": [
+        "K74"
+      ],
+      "covered": [
+        "K100",
+        "K74"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "RH4X",
+      "Story": "Story8",
+      "A": [
+        "K103",
+        "K92"
+      ],
+      "threshold": "8470800526231491/1000000000000000",
+      "B": [
+        "K10",
+        "K92"
+      ],
+      "Pmax": "83209337577131/625000000000",
+      "Psel": "1663590110546551/12500000000000",
+      "G": [
+        "K10"
+      ],
+      "covered": [
+        "K92"
+      ],
+      "LF": "596640996069/1664186751542620",
+      "recall": "1/2",
+      "omitted": [
+        "K10"
+      ],
+      "all_omitted": true,
+      "any_omitted": true
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "RH4X",
+      "Story": "Story9",
+      "A": [
+        "K102",
+        "K91"
+      ],
+      "threshold": "1753492516665917/250000000000000",
+      "B": [
+        "K102",
+        "K91"
+      ],
+      "Pmax": "2536716554317533/20000000000000",
+      "Psel": "2536716554317533/20000000000000",
+      "G": [
+        "K91"
+      ],
+      "covered": [
+        "K102",
+        "K91"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "RH4Y",
+      "Story": "Story10",
+      "A": [
+        "K13",
+        "K81"
+      ],
+      "threshold": "51317386358689/7812500000000",
+      "B": [
+        "K13",
+        "K81"
+      ],
+      "Pmax": "6547164833752447/50000000000000",
+      "Psel": "6547164833752447/50000000000000",
+      "G": [
+        "K81"
+      ],
+      "covered": [
+        "K13",
+        "K81"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "RH4Y",
+      "Story": "Story11",
+      "A": [
+        "K5",
+        "K80"
+      ],
+      "threshold": "37883503284494937/10000000000000000",
+      "B": [
+        "K5",
+        "K80"
+      ],
+      "Pmax": "585404573930439/5000000000000",
+      "Psel": "585404573930439/5000000000000",
+      "G": [
+        "K5"
+      ],
+      "covered": [
+        "K5",
+        "K80"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "RH4Y",
+      "Story": "Story8",
+      "A": [
+        "K27",
+        "K83"
+      ],
+      "threshold": "6215155775257039/500000000000000",
+      "B": [
+        "K27",
+        "K83"
+      ],
+      "Pmax": "3671205867433327/25000000000000",
+      "Psel": "3671205867433327/25000000000000",
+      "G": [
+        "K83"
+      ],
+      "covered": [
+        "K27",
+        "K83"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "RH4Y",
+      "Story": "Story9",
+      "A": [
+        "K20",
+        "K82"
+      ],
+      "threshold": "2514428238539161/250000000000000",
+      "B": [
+        "K20",
+        "K82"
+      ],
+      "Pmax": "13995423913389217/100000000000000",
+      "Psel": "13995423913389217/100000000000000",
+      "G": [
+        "K82"
+      ],
+      "covered": [
+        "K20",
+        "K82"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW4X",
+      "Story": "Story10",
+      "A": [
+        "K4",
+        "K75"
+      ],
+      "threshold": "37655614102341883/10000000000000000",
+      "B": [
+        "K4",
+        "K75"
+      ],
+      "Pmax": "1221207853997101/10000000000000",
+      "Psel": "1221207853997101/10000000000000",
+      "G": [
+        "K75"
+      ],
+      "covered": [
+        "K4",
+        "K75"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW4X",
+      "Story": "Story11",
+      "A": [
+        "K2",
+        "K74"
+      ],
+      "threshold": "15424041587652841/10000000000000000",
+      "B": [
+        "K2",
+        "K74"
+      ],
+      "Pmax": "10951259568876911/100000000000000",
+      "Psel": "10951259568876911/100000000000000",
+      "G": [
+        "K74"
+      ],
+      "covered": [
+        "K2",
+        "K74"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW4X",
+      "Story": "Story8",
+      "A": [
+        "K10",
+        "K92"
+      ],
+      "threshold": "3950731053382101/500000000000000",
+      "B": [
+        "K10",
+        "K61"
+      ],
+      "Pmax": "7153905295196951/50000000000000",
+      "Psel": "7153905295196951/50000000000000",
+      "G": [
+        "K10"
+      ],
+      "covered": [
+        "K10"
+      ],
+      "LF": "0",
+      "recall": "1/2",
+      "omitted": [
+        "K61"
+      ],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW4X",
+      "Story": "Story9",
+      "A": [
+        "K8",
+        "K91"
+      ],
+      "threshold": "1315816637738697/200000000000000",
+      "B": [
+        "K66",
+        "K8"
+      ],
+      "Pmax": "3451759950057523/25000000000000",
+      "Psel": "3451759950057523/25000000000000",
+      "G": [
+        "K8"
+      ],
+      "covered": [
+        "K8"
+      ],
+      "LF": "0",
+      "recall": "1/2",
+      "omitted": [
+        "K66"
+      ],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW4Y",
+      "Story": "Story10",
+      "A": [
+        "K13",
+        "K81"
+      ],
+      "threshold": "18994027611881/3125000000000",
+      "B": [
+        "K13",
+        "K81"
+      ],
+      "Pmax": "13571114856117987/100000000000000",
+      "Psel": "13571114856117987/100000000000000",
+      "G": [
+        "K81"
+      ],
+      "covered": [
+        "K13",
+        "K81"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW4Y",
+      "Story": "Story11",
+      "A": [
+        "K5",
+        "K80"
+      ],
+      "threshold": "17385617803502613/5000000000000000",
+      "B": [
+        "K6",
+        "K80"
+      ],
+      "Pmax": "6052943771254813/50000000000000",
+      "Psel": "6052943771254813/50000000000000",
+      "G": [
+        "K80"
+      ],
+      "covered": [
+        "K80"
+      ],
+      "LF": "0",
+      "recall": "1/2",
+      "omitted": [
+        "K6"
+      ],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW4Y",
+      "Story": "Story8",
+      "A": [
+        "K27",
+        "K83"
+      ],
+      "threshold": "228883354030417/20000000000000",
+      "B": [
+        "K27",
+        "K83"
+      ],
+      "Pmax": "3814526095657279/25000000000000",
+      "Psel": "3814526095657279/25000000000000",
+      "G": [
+        "K83"
+      ],
+      "covered": [
+        "K27",
+        "K83"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW4Y",
+      "Story": "Story9",
+      "A": [
+        "K20",
+        "K82"
+      ],
+      "threshold": "9302302333408031/1000000000000000",
+      "B": [
+        "K20",
+        "K82"
+      ],
+      "Pmax": "186005976157681/1250000000000",
+      "Psel": "186005976157681/1250000000000",
+      "G": [
+        "K82"
+      ],
+      "covered": [
+        "K20",
+        "K82"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW7X",
+      "Story": "Story10",
+      "A": [
+        "K101",
+        "K75"
+      ],
+      "threshold": "3546335599401021/500000000000000",
+      "B": [
+        "K101",
+        "K75"
+      ],
+      "Pmax": "6813290566128427/50000000000000",
+      "Psel": "6813290566128427/50000000000000",
+      "G": [
+        "K75"
+      ],
+      "covered": [
+        "K101",
+        "K75"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW7X",
+      "Story": "Story11",
+      "A": [
+        "K100",
+        "K74"
+      ],
+      "threshold": "2771231475257649/1000000000000000",
+      "B": [
+        "K100",
+        "K74"
+      ],
+      "Pmax": "5819639759881933/50000000000000",
+      "Psel": "5819639759881933/50000000000000",
+      "G": [
+        "K74"
+      ],
+      "covered": [
+        "K100",
+        "K74"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW7X",
+      "Story": "Story8",
+      "A": [
+        "K10",
+        "K92"
+      ],
+      "threshold": "7125872949721061/500000000000000",
+      "B": [
+        "K10",
+        "K92"
+      ],
+      "Pmax": "2879164743182003/20000000000000",
+      "Psel": "2879164743182003/20000000000000",
+      "G": [
+        "K92"
+      ],
+      "covered": [
+        "K10",
+        "K92"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW7X",
+      "Story": "Story9",
+      "A": [
+        "K8",
+        "K91"
+      ],
+      "threshold": "12284590906483277/1000000000000000",
+      "B": [
+        "K8",
+        "K91"
+      ],
+      "Pmax": "354242020562003/2500000000000",
+      "Psel": "354242020562003/2500000000000",
+      "G": [
+        "K8"
+      ],
+      "covered": [
+        "K8",
+        "K91"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW7Y",
+      "Story": "Story10",
+      "A": [
+        "K13",
+        "K81"
+      ],
+      "threshold": "175625686278717/15625000000000",
+      "B": [
+        "K13",
+        "K81"
+      ],
+      "Pmax": "14862736521319877/100000000000000",
+      "Psel": "14862736521319877/100000000000000",
+      "G": [
+        "K81"
+      ],
+      "covered": [
+        "K13",
+        "K81"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW7Y",
+      "Story": "Story11",
+      "A": [
+        "K5",
+        "K80"
+      ],
+      "threshold": "3194580273209207/500000000000000",
+      "B": [
+        "K6",
+        "K80"
+      ],
+      "Pmax": "5075694165803/39062500000",
+      "Psel": "5075694165803/39062500000",
+      "G": [
+        "K80"
+      ],
+      "covered": [
+        "K80"
+      ],
+      "LF": "0",
+      "recall": "1/2",
+      "omitted": [
+        "K6"
+      ],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW7Y",
+      "Story": "Story8",
+      "A": [
+        "K27",
+        "K83"
+      ],
+      "threshold": "20826764698892017/1000000000000000",
+      "B": [
+        "K27",
+        "K83"
+      ],
+      "Pmax": "7805584791615131/50000000000000",
+      "Psel": "7805584791615131/50000000000000",
+      "G": [
+        "K83"
+      ],
+      "covered": [
+        "K27",
+        "K83"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "conditional_Dport",
+      "Case": "SHW7Y",
+      "Story": "Story9",
+      "A": [
+        "K20",
+        "K82"
+      ],
+      "threshold": "4292567714787901/250000000000000",
+      "B": [
+        "K20",
+        "K82"
+      ],
+      "Pmax": "154195967738897/1000000000000",
+      "Psel": "154195967738897/1000000000000",
+      "G": [
+        "K82"
+      ],
+      "covered": [
+        "K20",
+        "K82"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "RH4X",
+      "Story": "Story10",
+      "A": [
+        "K101",
+        "K75"
+      ],
+      "threshold": "8085278559046067/2000000000000000",
+      "B": [
+        "K101",
+        "K75"
+      ],
+      "Pmax": "2995660995030187/25000000000000",
+      "Psel": "2995660995030187/25000000000000",
+      "G": [
+        "K75"
+      ],
+      "covered": [
+        "K101",
+        "K75"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "RH4X",
+      "Story": "Story11",
+      "A": [
+        "K100",
+        "K74"
+      ],
+      "threshold": "129610392802609/80000000000000",
+      "B": [
+        "K100",
+        "K74"
+      ],
+      "Pmax": "132026561734739/1250000000000",
+      "Psel": "132026561734739/1250000000000",
+      "G": [
+        "K74"
+      ],
+      "covered": [
+        "K100",
+        "K74"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "RH4X",
+      "Story": "Story8",
+      "A": [
+        "K103",
+        "K92"
+      ],
+      "threshold": "847094631892827/100000000000000",
+      "B": [
+        "K10",
+        "K92"
+      ],
+      "Pmax": "83209337577131/625000000000",
+      "Psel": "1663590110546551/12500000000000",
+      "G": [
+        "K10"
+      ],
+      "covered": [
+        "K92"
+      ],
+      "LF": "596640996069/1664186751542620",
+      "recall": "1/2",
+      "omitted": [
+        "K10"
+      ],
+      "all_omitted": true,
+      "any_omitted": true
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "RH4X",
+      "Story": "Story9",
+      "A": [
+        "K102",
+        "K91"
+      ],
+      "threshold": "3507014851151937/500000000000000",
+      "B": [
+        "K102",
+        "K91"
+      ],
+      "Pmax": "2536716554317533/20000000000000",
+      "Psel": "2536716554317533/20000000000000",
+      "G": [
+        "K91"
+      ],
+      "covered": [
+        "K102",
+        "K91"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "RH4Y",
+      "Story": "Story10",
+      "A": [
+        "K13",
+        "K81"
+      ],
+      "threshold": "821079274224799/125000000000000",
+      "B": [
+        "K13",
+        "K81"
+      ],
+      "Pmax": "6547164833752447/50000000000000",
+      "Psel": "6547164833752447/50000000000000",
+      "G": [
+        "K81"
+      ],
+      "covered": [
+        "K13",
+        "K81"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "RH4Y",
+      "Story": "Story11",
+      "A": [
+        "K5",
+        "K80"
+      ],
+      "threshold": "37883510507335343/10000000000000000",
+      "B": [
+        "K5",
+        "K80"
+      ],
+      "Pmax": "585404573930439/5000000000000",
+      "Psel": "585404573930439/5000000000000",
+      "G": [
+        "K5"
+      ],
+      "covered": [
+        "K5",
+        "K80"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "RH4Y",
+      "Story": "Story8",
+      "A": [
+        "K27",
+        "K83"
+      ],
+      "threshold": "2486063472350581/200000000000000",
+      "B": [
+        "K27",
+        "K83"
+      ],
+      "Pmax": "3671205867433327/25000000000000",
+      "Psel": "3671205867433327/25000000000000",
+      "G": [
+        "K83"
+      ],
+      "covered": [
+        "K27",
+        "K83"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "RH4Y",
+      "Story": "Story9",
+      "A": [
+        "K20",
+        "K82"
+      ],
+      "threshold": "10057735279386687/1000000000000000",
+      "B": [
+        "K20",
+        "K82"
+      ],
+      "Pmax": "13995423913389217/100000000000000",
+      "Psel": "13995423913389217/100000000000000",
+      "G": [
+        "K82"
+      ],
+      "covered": [
+        "K20",
+        "K82"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW4X",
+      "Story": "Story10",
+      "A": [
+        "K4",
+        "K75"
+      ],
+      "threshold": "37655614578532157/10000000000000000",
+      "B": [
+        "K4",
+        "K75"
+      ],
+      "Pmax": "1221207853997101/10000000000000",
+      "Psel": "1221207853997101/10000000000000",
+      "G": [
+        "K75"
+      ],
+      "covered": [
+        "K4",
+        "K75"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW4X",
+      "Story": "Story11",
+      "A": [
+        "K2",
+        "K74"
+      ],
+      "threshold": "3856400615555653/2500000000000000",
+      "B": [
+        "K2",
+        "K74"
+      ],
+      "Pmax": "10951259568876911/100000000000000",
+      "Psel": "10951259568876911/100000000000000",
+      "G": [
+        "K74"
+      ],
+      "covered": [
+        "K2",
+        "K74"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW4X",
+      "Story": "Story8",
+      "A": [
+        "K10",
+        "K92"
+      ],
+      "threshold": "15806759409481879/2000000000000000",
+      "B": [
+        "K10",
+        "K61"
+      ],
+      "Pmax": "7153905295196951/50000000000000",
+      "Psel": "7153905295196951/50000000000000",
+      "G": [
+        "K10"
+      ],
+      "covered": [
+        "K10"
+      ],
+      "LF": "0",
+      "recall": "1/2",
+      "omitted": [
+        "K61"
+      ],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW4X",
+      "Story": "Story9",
+      "A": [
+        "K8",
+        "K91"
+      ],
+      "threshold": "6580396477546687/1000000000000000",
+      "B": [
+        "K66",
+        "K8"
+      ],
+      "Pmax": "3451759950057523/25000000000000",
+      "Psel": "3451759950057523/25000000000000",
+      "G": [
+        "K8"
+      ],
+      "covered": [
+        "K8"
+      ],
+      "LF": "0",
+      "recall": "1/2",
+      "omitted": [
+        "K66"
+      ],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW4Y",
+      "Story": "Story10",
+      "A": [
+        "K13",
+        "K81"
+      ],
+      "threshold": "1519776997582141/250000000000000",
+      "B": [
+        "K13",
+        "K81"
+      ],
+      "Pmax": "13571114856117987/100000000000000",
+      "Psel": "13571114856117987/100000000000000",
+      "G": [
+        "K81"
+      ],
+      "covered": [
+        "K13",
+        "K81"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW4Y",
+      "Story": "Story11",
+      "A": [
+        "K5",
+        "K80"
+      ],
+      "threshold": "173860658005717/50000000000000",
+      "B": [
+        "K6",
+        "K80"
+      ],
+      "Pmax": "6052943771254813/50000000000000",
+      "Psel": "6052943771254813/50000000000000",
+      "G": [
+        "K80"
+      ],
+      "covered": [
+        "K80"
+      ],
+      "LF": "0",
+      "recall": "1/2",
+      "omitted": [
+        "K6"
+      ],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW4Y",
+      "Story": "Story8",
+      "A": [
+        "K27",
+        "K83"
+      ],
+      "threshold": "2861840899572289/250000000000000",
+      "B": [
+        "K27",
+        "K83"
+      ],
+      "Pmax": "3814526095657279/25000000000000",
+      "Psel": "3814526095657279/25000000000000",
+      "G": [
+        "K83"
+      ],
+      "covered": [
+        "K27",
+        "K83"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW4Y",
+      "Story": "Story9",
+      "A": [
+        "K20",
+        "K82"
+      ],
+      "threshold": "4652294980844691/500000000000000",
+      "B": [
+        "K20",
+        "K82"
+      ],
+      "Pmax": "186005976157681/1250000000000",
+      "Psel": "186005976157681/1250000000000",
+      "G": [
+        "K82"
+      ],
+      "covered": [
+        "K20",
+        "K82"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW7X",
+      "Story": "Story10",
+      "A": [
+        "K101",
+        "K75"
+      ],
+      "threshold": "7092811806738699/1000000000000000",
+      "B": [
+        "K101",
+        "K75"
+      ],
+      "Pmax": "6813290566128427/50000000000000",
+      "Psel": "6813290566128427/50000000000000",
+      "G": [
+        "K75"
+      ],
+      "covered": [
+        "K101",
+        "K75"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW7X",
+      "Story": "Story11",
+      "A": [
+        "K100",
+        "K74"
+      ],
+      "threshold": "2772461052430101/1000000000000000",
+      "B": [
+        "K100",
+        "K74"
+      ],
+      "Pmax": "5819639759881933/50000000000000",
+      "Psel": "5819639759881933/50000000000000",
+      "G": [
+        "K74"
+      ],
+      "covered": [
+        "K100",
+        "K74"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW7X",
+      "Story": "Story8",
+      "A": [
+        "K10",
+        "K92"
+      ],
+      "threshold": "14253542159772143/1000000000000000",
+      "B": [
+        "K10",
+        "K92"
+      ],
+      "Pmax": "2879164743182003/20000000000000",
+      "Psel": "2879164743182003/20000000000000",
+      "G": [
+        "K92"
+      ],
+      "covered": [
+        "K10",
+        "K92"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW7X",
+      "Story": "Story9",
+      "A": [
+        "K8",
+        "K91"
+      ],
+      "threshold": "6142913807459559/500000000000000",
+      "B": [
+        "K8",
+        "K91"
+      ],
+      "Pmax": "354242020562003/2500000000000",
+      "Psel": "354242020562003/2500000000000",
+      "G": [
+        "K8"
+      ],
+      "covered": [
+        "K8",
+        "K91"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW7Y",
+      "Story": "Story10",
+      "A": [
+        "K13",
+        "K81"
+      ],
+      "threshold": "11240405134165123/1000000000000000",
+      "B": [
+        "K13",
+        "K81"
+      ],
+      "Pmax": "14862736521319877/100000000000000",
+      "Psel": "14862736521319877/100000000000000",
+      "G": [
+        "K81"
+      ],
+      "covered": [
+        "K13",
+        "K81"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW7Y",
+      "Story": "Story11",
+      "A": [
+        "K5",
+        "K80"
+      ],
+      "threshold": "6389402603994111/1000000000000000",
+      "B": [
+        "K6",
+        "K80"
+      ],
+      "Pmax": "5075694165803/39062500000",
+      "Psel": "5075694165803/39062500000",
+      "G": [
+        "K80"
+      ],
+      "covered": [
+        "K80"
+      ],
+      "LF": "0",
+      "recall": "1/2",
+      "omitted": [
+        "K6"
+      ],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW7Y",
+      "Story": "Story8",
+      "A": [
+        "K27",
+        "K83"
+      ],
+      "threshold": "10414007889320269/500000000000000",
+      "B": [
+        "K27",
+        "K83"
+      ],
+      "Pmax": "7805584791615131/50000000000000",
+      "Psel": "7805584791615131/50000000000000",
+      "G": [
+        "K83"
+      ],
+      "covered": [
+        "K27",
+        "K83"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    },
+    {
+      "method": "native_Wtrap",
+      "Case": "SHW7Y",
+      "Story": "Story9",
+      "A": [
+        "K20",
+        "K82"
+      ],
+      "threshold": "2146399887803629/125000000000000",
+      "B": [
+        "K20",
+        "K82"
+      ],
+      "Pmax": "154195967738897/1000000000000",
+      "Psel": "154195967738897/1000000000000",
+      "G": [
+        "K82"
+      ],
+      "covered": [
+        "K20",
+        "K82"
+      ],
+      "LF": "0",
+      "recall": "1",
+      "omitted": [],
+      "all_omitted": false,
+      "any_omitted": false
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "evidence_id": "M-EXP-R010",
+  "review_status": "candidate_figure_actual_PNG_viewed",
+  "completed_utc": "2026-10-17T15:49:10.510100+00:00",
+  "plot_command": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R010-force-duration-figure\\build_force_duration_figure.py"
+  ],
+  "PNG_command": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R010-force-duration-figure\\render_png.cjs"
+  ],
+  "plot_exit_code": 0,
+  "PNG_exit_code": 0,
+  "SVG_curve_vertex_counts": [
+    2501,
+    2501,
+    2501,
+    2501,
+    2696,
+    2696,
+    2696,
+    2696
+  ],
+  "numeric_checks": {
+    "four_prespecified_full_windows": true,
+    "all10394_original_record_points_retained": true,
+    "eight_all_point_LinePlot_series": true,
+    "I_endpoint_matches_direct_tau_and_review": true,
+    "signed_native_force_and_monotone_I_no_clipping": true,
+    "no_normalization_by_tau": true,
+    "all_source_SHA_and_protocol_unchanged": true,
+    "runtime_below480seconds": true
+  },
+  "visual_checks": {
+    "all_four_panels_visible": true,
+    "four_device_legends_Pmax_tau_clear": true,
+    "same_device_color_and_dash_in_both_rows": true,
+    "full0_to50_and0_to53p9_time_axes_visible": true,
+    "signed_force_positive_negative_peaks_not_clipped": true,
+    "I_axis_seconds0_to5_clear": true,
+    "footer_and_caption_scope_present": true,
+    "no_overlapping_or_clipped_text": true
+  },
+  "files": [
+    {
+      "name": "build_force_duration_figure.py",
+      "bytes": 9693,
+      "sha256": "832cb36818938a754b8f67839376833e79e12a6fb64c3b811946edc9bee835a9"
+    },
+    {
+      "name": "force_duration_examples.png",
+      "bytes": 533940,
+      "sha256": "3bdd1cb84a8f6ad618e27c28db26be452d3ede0c26ed3520fefe7a3974824550"
+    },
+    {
+      "name": "force_duration_examples.svg",
+      "bytes": 407966,
+      "sha256": "0f66823ebc0bf2b5c1716251b2a0881a4c1e4fc40fdeee80c29d5dbe8ced4e8d"
+    },
+    {
+      "name": "four_record_endvalues.csv",
+      "bytes": 571,
+      "sha256": "c1691cbe3f172be8133349e3025670a11831076ff8782ea7156a33a45d3c6408"
+    },
+    {
+      "name": "numeric_QA.json",
+      "bytes": 4777,
+      "sha256": "c986b02ce99d46bd92f6f640d2589393f830a992079e93b7fa32a686b9b1b37b"
+    },
+    {
+      "name": "protocol.json",
+      "bytes": 3426,
+      "sha256": "bf11760e48f122a3ca40314eadaf56611747a7cdb2d3a5632650676b2192324b"
+    },
+    {
+      "name": "README.md",
+      "bytes": 685,
+      "sha256": "e0e54de6fe7c9fd80138263720a4ec5b6bbc4453147217fad86e08713604276f"
+    },
+    {
+      "name": "render_png.cjs",
+      "bytes": 1064,
+      "sha256": "13b4c617fd8fac981c0bb46b85b023c5cb4a7b3227d6b7cf2fdc9850e57b6578"
+    },
+    {
+      "name": "run_record_plot.json",
+      "bytes": 1651,
+      "sha256": "95be33f514cca203e4b25156cf7a2411f67869ec7b1e5f34c730475eda4aa169"
+    },
+    {
+      "name": "run_record_png.json",
+      "bytes": 1116,
+      "sha256": "6f538762326f6a23355e9515f47b26271b22392d8e3515f68c1ef642684f676b"
+    },
+    {
+      "name": "visual_QA.json",
+      "bytes": 1064,
+      "sha256": "fdc1e4433d6863ed8d872e5fc377b0fc759741ee7e1927f0c4e9cb5e760aa17e"
+    },
+    {
+      "name": "图注与使用范围.md",
+      "bytes": 922,
+      "sha256": "254ea1d8c0e5960349afed5362fae1ca8c93fd2d6a066292d6544180cc3993c5"
+    }
+  ]
+}

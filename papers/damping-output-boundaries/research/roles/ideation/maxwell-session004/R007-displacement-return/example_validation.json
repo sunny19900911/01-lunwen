@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-17T23:38:14+08:00",
+  "all_checks_passed": true,
+  "units": {
+    "force": "kN",
+    "length": "m",
+    "time": "s"
+  },
+  "synthetic_parameters": {
+    "k_kN_per_m": 1.0,
+    "c_kN_s_per_m": 1.0,
+    "V_m_per_s": 1.0,
+    "M_kN": 0.5,
+    "alpha": 1
+  },
+  "single_positive_lobe": {
+    "tau_s": 1.0986122886681096,
+    "residual_displacement_m": 0.2876820724517809,
+    "L_kNm": 0.09861228866810978,
+    "numerical_integral_g": 0.2876820724517809,
+    "numerical_integral_D": 0.09861228866811018
+  },
+  "mirrored_double_lobe": {
+    "total_time_s": 2.197224577336219,
+    "D_kNm": 0.19722457733621956,
+    "delta_residual_m": 2.7755575615628914e-17
+  },
+  "continuous_sine": {
+    "T_s": 6.283185307179586,
+    "maximum_speed_m_per_s": 0.7071067811865476,
+    "D_kNm": 0.7853981633974483,
+    "delta_residual_m": -1.2246467991473532e-16,
+    "endpoint_speed_m_per_s": 0.5
+  },
+  "script_sha256": "f24df72e200c5796d26592ec308ba5902fbcb481de0f38c7937962b9a3f78869",
+  "scope": "one analytic endpoint example; no new exact closed-state feasible set, no real data or sweep"
+}

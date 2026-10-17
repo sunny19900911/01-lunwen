@@ -1,0 +1,93 @@
+{
+  "evidence_id": "M-EXP-R008",
+  "review_status": "independent_audit_candidate",
+  "frozen_utc": "2026-10-17T15:31:43.178505+00:00",
+  "refs": {
+    "W5_report": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-duration-analysis\\峰力与条件耗能排序的持续时间分解.md",
+      "bytes": 5093,
+      "sha256": "3c944253cc953deb019bf268c4a55a3d32e7c735daf1fe5af90ff020294355c5"
+    },
+    "W5_validation": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-duration-analysis\\validation.json",
+      "bytes": 2194,
+      "sha256": "5e1a8393d8935ea228f6767e44b414e018255f720a02c63f8dd68557a6b4fe61"
+    },
+    "W5_script_read_only": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-duration-analysis\\analyze_force_duration.py",
+      "bytes": 6913,
+      "sha256": "f224b4b391785660774a3eb3f7bbf28e6f83801fee1a0f158ecbe19bc0daef48"
+    },
+    "W5_devices": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-duration-analysis\\device_force_duration_192.csv",
+      "bytes": 50852,
+      "sha256": "a0003e9535cb490bb55a8c0a39bb20c7a3787661fb2daa3d250c596fd511c4e5"
+    },
+    "W5_pairs": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-duration-analysis\\all_within_story_pairs_672.csv",
+      "bytes": 172212,
+      "sha256": "4d6ef0f95323aaf715a62d4712a75ea753dfc90b8b8da7986410e9b8aa046b5c"
+    },
+    "W5_inversions": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-duration-analysis\\conditional_port_rank_inversions.csv",
+      "bytes": 10167,
+      "sha256": "1743c1dc4651104fbdb07151c143f75c0358bb84552bad9a0edaad841c15be29"
+    },
+    "NPZ": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\local_paired_histories_r006.npz",
+      "bytes": 18459935,
+      "sha256": "65be34f8125e5e7f2aee90ebe5a4b2612cfe717d84abf0886789a1bc75709340"
+    },
+    "array_manifest": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\local_history_manifest_r006.json",
+      "bytes": 69507,
+      "sha256": "c0b661271ac78e5450849a6bdae4e4a797fa4846608b6256ca0db4b6c7fba392"
+    },
+    "R006_summary_CSV": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\device_record_summary_r006.csv",
+      "bytes": 97108,
+      "sha256": "8d359f9c86b544aaa6c573618a375eef7beb8f02070dc223f2802ce3fe31864d"
+    },
+    "R002_fit": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\fit_summary_r002.json",
+      "bytes": 5923,
+      "sha256": "3186dae098c025673eb565390f4273760b5765c1095f6948ab3c051caf3e3f02"
+    }
+  },
+  "alpha": 0.3,
+  "b": 1.1798190016520894e-09,
+  "a": 2.0006042528243313e-06,
+  "p": "1+1/alpha",
+  "method": "NumPy only decode NPZ to Python lists. Independent scalar normalized powers and math.fsum trapezoids for tau, independent unnormalized power integral for Dforce, independent W/endpoint storage for Dport. No W5 script import/execute.",
+  "tau": "For P=max|F|>0: sum dt/2*((absF_i/P)^p+(absF_j/P)^p), computed directly from force samples; never Dforce/(bP^p). tau units seconds, not threshold duration.",
+  "pair_scope": "All24 same Case/Story eight-device groups, all28 unordered pairs per group=672. Orient larger peak first, exact ties keep smaller numeric Link first. Strict inverse=(P_i>P_j and E_i<E_j); exact P/energy ties counted separately, no tuned tolerance.",
+  "log_identity": "For positive P,tau,Dforce,Dport: log(Dport_i/Dport_j)=p log(P_i/P_j)+log(tau_i/tau_j)+log((Dport_i/Dforce_i)/(Dport_j/Dforce_j)); undefined for nonpositive arguments.",
+  "expected_source_claims": {
+    "records": 192,
+    "groups": 24,
+    "pairs": 672,
+    "port_inversions": 38,
+    "port_inversion_groups": 17,
+    "force_inversions": 38,
+    "identical_inverse_pair_sets": true
+  },
+  "comparison_tolerance": "energy and tau numeric: abs1e-12+rel1e-10; logs abs1e-11; not engineering acceptance or continuous error bound. Controller text and counts exact.",
+  "semantics_checks": "Synthetic algorithm cases only: all-zero force => P=0, tau undefined not forced0, Dforce0; constant positive force => tau=T; exact peak ties with unequal energy not inversions; all three quantities tied => zero logs/no inversion; energy ties with unequal peak not inversions; Dport<=0 makes log decomposition undefined. Do not merge synthetic cases with192 data.",
+  "examples": [
+    [
+      "RH4X",
+      "Story8",
+      "K10",
+      "K92"
+    ],
+    [
+      "SHW7Y",
+      "Story11",
+      "K6",
+      "K5"
+    ]
+  ],
+  "outputs": "Small independent192 device rows/672 pair diagnostics, semantics results, source SHA/run/audit report; no repeated full histories.",
+  "limits": "Classical Lp and amplitude-duration identity; no new index, physical validation, design cause, high mode/transfer-path identification, full88 or input direction certification. W native, Dport fitted-storage conditional, Dforce model-derived.",
+  "runtime_limit_seconds": 360
+}

@@ -1,0 +1,41 @@
+{
+  "frozen_at": "2026-10-17T23:40:16+08:00",
+  "status": "author_boundary_candidate_pending_independent_review",
+  "scope": "new total-deformation endpoint constraint only; not re-audit full force-return candidate",
+  "passed": true,
+  "sources": [
+    {
+      "path": "..\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-return-candidate\\力回零Maxwell耗散峰力可行区间-作者候选.md",
+      "sha256": "1b4d4888b5181eafb9accf2f7a19330bd88b8d0427c4fd2ffd846a2c42a1b446",
+      "read_scope": "full candidate"
+    },
+    {
+      "path": "papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R006.md",
+      "sha256": "99e12b4d3d216ee3a13aa56daab9732b18a01e3f341fa66fd7215ce629c263e7",
+      "read_scope": "R006 known coverage reread conclusion; full earlier read"
+    }
+  ],
+  "internal_author_side_checks": "AC closure, mirrored bang paths, strict endpoint exclusion, alpha1 sine verified by two read-only collaborators; not role2/role6 review",
+  "no_real_data_solver_sweep_or_search": true,
+  "new_exact_closed_state_feasible_set_claimed": false,
+  "files": [
+    {
+      "path": "report.md",
+      "sha256": "b1c88962309cc898c56827eae1f77ade06a3be9edbd0b9fac9bb08bf2b33421b",
+      "bytes": 6758,
+      "errors": []
+    },
+    {
+      "path": "validate_examples.py",
+      "sha256": "f24df72e200c5796d26592ec308ba5902fbcb481de0f38c7937962b9a3f78869",
+      "bytes": 2866,
+      "errors": []
+    },
+    {
+      "path": "example_validation.json",
+      "sha256": "829fa376052bea3ed7f385551e9da54724bd77856fd9bf44972dfdd956a4db90",
+      "bytes": 1101,
+      "errors": []
+    }
+  ]
+}

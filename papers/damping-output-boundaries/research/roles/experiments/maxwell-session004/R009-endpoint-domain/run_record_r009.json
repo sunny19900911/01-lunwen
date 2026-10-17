@@ -1,0 +1,24 @@
+{
+  "command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R009-endpoint-domain\\check_endpoint_domain.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.33014650001132395,
+  "finished_utc": "2026-10-17T15:42:15.727592+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "code_sha256": "48f07b5f99ad74217b8272797d2aecf5adbc4f31e7897c0bc91b2f265e155934",
+  "summary_sha256": "02f253b5da1ed2e3685f829cdced7643c99588fc2c9a45cecbe881bbbaed6b01",
+  "checks": {
+    "192_original_complete_record_endpoints": true,
+    "all_I_J_and_mm_to_m_checks_pass": true,
+    "m_and_native_mm_net_zero_flags_agree": true,
+    "zero_denominators_explicit_undefined": true,
+    "frozen_input_SHA_and_protocol_unchanged": true,
+    "NPZ_size_mtime_stable": true,
+    "runtime_below_240_seconds": true
+  }
+}

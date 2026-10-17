@@ -1,0 +1,59 @@
+{
+  "started_at": "2026-10-17T23:35:35+08:00",
+  "completed_at": "2026-10-17T23:42:45+08:00",
+  "time_limit_minutes": 10,
+  "candidate_bytes": 6014,
+  "candidate_sha256": "1b4d4888b5181eafb9accf2f7a19330bd88b8d0427c4fd2ffd846a2c42a1b446",
+  "candidate_correctness": "pending R014; no proof or numerical verification run here",
+  "classification": "classical-tool application; exact same-condition publication coverage unresolved; no first or novelty claim",
+  "engineering_status": "continuous V, real parameters and terminal force unverified; no safety guarantee",
+  "search_query_count": 2,
+  "root_search_query_count": 0,
+  "primary_control_sources_read": 2,
+  "new_control_source_status": "Cots2021 author teaching example; not verified peer-reviewed theorem",
+  "reused_Maxwell_primary_PDFs": 2,
+  "new_downloads": 0,
+  "failed_paths_retried": [],
+  "engineer_arrays_or_excel_read": false,
+  "candidate_validation_script_run": false,
+  "input_files_checked": 4,
+  "input_changed": [],
+  "old_frozen_files_checked": 24,
+  "old_changed": [],
+  "local_links_checked": 6,
+  "broken_links": [],
+  "trailing_whitespace": [],
+  "control_characters": [],
+  "files": [
+    {
+      "file": "conditions.md",
+      "bytes": 2929,
+      "sha256": "765da05ededfedeb3e55fed07ac67835180c83a0e0151325d370a5bc81850d08"
+    },
+    {
+      "file": "control-source-review.md",
+      "bytes": 8156,
+      "sha256": "5cd2a46cc916d35764c4a33293d67633dde0ca905add9d087b7509658f16b4c0"
+    },
+    {
+      "file": "input-freeze.json",
+      "bytes": 1576,
+      "sha256": "4c6570140b8af87676f1a63aa45f54f087e44de626cda4f9737c4ecaf88097fb"
+    },
+    {
+      "file": "Maxwell-prior-scope.md",
+      "bytes": 7399,
+      "sha256": "0c7a947e4a24c2e6450ec9910053fd51a202b548bdb613fc631736491a777a0a"
+    },
+    {
+      "file": "report.md",
+      "bytes": 8811,
+      "sha256": "f4df7f42d4f8de40f76445a2f383b88405bfce92902e1b7fc5aea1b433388dae"
+    },
+    {
+      "file": "search-log.json",
+      "bytes": 2854,
+      "sha256": "fd316b9e410148a7401e363bf07de1ed04accabf1714cdb0a27ee0ad096d4ea1"
+    }
+  ]
+}

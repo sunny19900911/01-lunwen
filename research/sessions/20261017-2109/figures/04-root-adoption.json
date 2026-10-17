@@ -1,0 +1,39 @@
+{
+  "adopted_at": "2026-10-17T23:50:59.765379+08:00",
+  "source_manifest_sha256": "abde60c7b58ea74148b6b7e82ff857759f328212b546ccfa5120ae46d1ef924f",
+  "files": [
+    {
+      "source": "papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R010-force-duration-figure\\force_duration_examples.png",
+      "path": "research\\sessions\\20261017-2109\\figures\\04_force_duration_examples.png",
+      "sha256": "3bdd1cb84a8f6ad618e27c28db26be452d3ede0c26ed3520fefe7a3974824550"
+    },
+    {
+      "source": "papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R010-force-duration-figure\\force_duration_examples.svg",
+      "path": "research\\sessions\\20261017-2109\\figures\\04_force_duration_examples.svg",
+      "sha256": "0f66823ebc0bf2b5c1716251b2a0881a4c1e4fc40fdeee80c29d5dbe8ced4e8d"
+    },
+    {
+      "source": "papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R010-force-duration-figure\\four_record_endvalues.csv",
+      "path": "research\\sessions\\20261017-2109\\figures\\04_four_record_endvalues.csv",
+      "sha256": "c1691cbe3f172be8133349e3025670a11831076ff8782ea7156a33a45d3c6408"
+    },
+    {
+      "source": "papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R010-force-duration-figure\\图注与使用范围.md",
+      "path": "research\\sessions\\20261017-2109\\figures\\04_图注与使用范围.md",
+      "sha256": "254ea1d8c0e5960349afed5362fae1ca8c93fd2d6a066292d6544180cc3993c5"
+    }
+  ],
+  "root_actual_png_view": "2600x1702 viewed at1952x1278; all4panels/units/legends/caption legible,no clipping/overlap;RH4X force near-overlap genuine feature",
+  "root_svg_counts": [
+    2501,
+    2501,
+    2501,
+    2501,
+    2696,
+    2696,
+    2696,
+    2696
+  ],
+  "root_checks": "All4endvalues equal reviewed R008 per frozen figure records;20788SVGvertices retain4fulltime series twice;author algorithm inspected. Not independent re-render or new raw-data reader.",
+  "scope": "single-model signed P and cumulative normalized force-power integral,not actual energy/threshold duration/newmetric/causal response reduction"
+}

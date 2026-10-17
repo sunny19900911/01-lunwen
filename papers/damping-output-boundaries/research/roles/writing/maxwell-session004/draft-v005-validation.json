@@ -1,0 +1,93 @@
+{
+  "validated_at": "2026-10-17T23:44:12.067823+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v005.md",
+    "bytes": 40762,
+    "sha256": "c427cfcf84828da620e465939397fe1365d8a1f7efb6e5d766ec9fb86f9bd508"
+  },
+  "passed": true,
+  "checks": {
+    "all21_root_accepted_file_hashes_match": true,
+    "v001_v004_25files_and4manifests_unchanged": true,
+    "all_inherited_source_hashes_match": true,
+    "192records_521472points_one_training_191conditional": true,
+    "training_is_K2_RH4X": true,
+    "all_denominators_positive_and_no_undefined": true,
+    "relative_worst_K13_and_absolute_worst_K82": true,
+    "global_relative_range_rounded_matches": true,
+    "K82_denominator_bias_and_end_rounded_in_text": true,
+    "LF_only_one_positive_group_per_method": true,
+    "tiny_maximum_omission_scale_and_percent_correct": true,
+    "four_zero_gap_half_recall_per_method": true,
+    "672pairs_38inverse_17groups_same_two_definitions": true,
+    "four_example_P_tau_Dport_rounding_in_body": true,
+    "classic_amplitude_duration_identity_small_table_consistent": true,
+    "two_examples_positive_amplitude_negative_larger_tau_term": true,
+    "all11_previous_tables_preserved_exactly": true,
+    "new_review_tables_exactly_transcribed": true,
+    "small_tables_moved_to_appendices_body_only4": true,
+    "extreme_record_table_12numeric_cells_match_R013": true,
+    "table_columns_consistent": true,
+    "formula_tags_1to9": true,
+    "five_references_used_and_defined": true,
+    "three_relative_figures_resolve_and_now_tracked": true,
+    "existing_local_links_resolve": true,
+    "no_machine_paths_or_W5_links_in_manuscript": true,
+    "same_working_title_stage_status": true,
+    "tau_not_threshold_new_indicator_or_causal_path": true,
+    "38of672_not_independent_or_practical_gain": true,
+    "Base_Story1_duplicate_and_shear_only_same_time_algebra": true,
+    "no_unreviewed_force_return_theorem_or_zero_residual_boundary": true,
+    "UTF8_LF_noBOM_no_trailing_whitespace": true,
+    "git_diff_whitespace_check_clean": true
+  },
+  "table_count": 16,
+  "main_table_count": 4,
+  "all11_predecessor_tables_preserved": true,
+  "new_source_table_rows": [
+    6,
+    12,
+    4,
+    4
+  ],
+  "selected_extreme_table_numeric_cells": 12,
+  "figure_paths": [
+    {
+      "link": "../../../research/sessions/20261017-2109/figures/02_device_coverage_by_story.png",
+      "repo_relative": "research/sessions/20261017-2109/figures/02_device_coverage_by_story.png",
+      "tracked": true,
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\02_device_coverage_by_story.png",
+        "bytes": 104087,
+        "sha256": "5f27fc3780b0efdebfa595f2a1d11ca068f5ecf4df07f2bed7f885f2e2e3a0fa"
+      }
+    },
+    {
+      "link": "../../../research/sessions/20261017-2109/figures/01_native_energy_ratio.png",
+      "repo_relative": "research/sessions/20261017-2109/figures/01_native_energy_ratio.png",
+      "tracked": true,
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\01_native_energy_ratio.png",
+        "bytes": 87288,
+        "sha256": "fac821fca950ab796ff634053e768dd3020741ff63c117c884dad0ac4d8010d3"
+      }
+    },
+    {
+      "link": "../../../research/sessions/20261017-2109/figures/03_floor_record_peak_profiles.png",
+      "repo_relative": "research/sessions/20261017-2109/figures/03_floor_record_peak_profiles.png",
+      "tracked": true,
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\03_floor_record_peak_profiles.png",
+        "bytes": 302244,
+        "sha256": "f1a8ff0bba9ead35bfca4a5052333cf6171fcf69a9fa9104bb6459bcfab776c4"
+      }
+    }
+  ],
+  "git_check": {
+    "exit": 1,
+    "stdout": "",
+    "stderr": "",
+    "note": "--no-index content difference exit1,no whitespace diagnostics"
+  },
+  "limits": "Author static/transcription and small-reviewed-table QA,not next independent integration review.No fresh solver or original-data scientific test."
+}

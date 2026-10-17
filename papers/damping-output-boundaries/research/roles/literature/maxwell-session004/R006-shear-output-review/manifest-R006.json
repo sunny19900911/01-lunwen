@@ -1,0 +1,67 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R006 frozen independent same-cache shear-output arithmetic",
+  "started_at": "2026-10-17T23:26:52+08:00",
+  "protocol_frozen_at": "2026-10-17T23:28:11.511232+08:00",
+  "computed_at": "2026-10-17T23:29:17.697248+08:00",
+  "frozen_at": "2026-10-17T23:30:50.947737+08:00",
+  "task_limit_minutes": 10,
+  "elapsed_seconds": 238.947737,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "candidate, frozen for main controller; task stopped",
+  "outputs": {
+    "all66-pairs-reviewed.csv": {
+      "sha256": "a4730eb6b17e9904d9fa5a67a7ae9dc17101af542ee25644e2582400e88591e8",
+      "bytes": 15532
+    },
+    "audit_R006.py": {
+      "sha256": "bc63bd60799ab8aba334e50f67ac2aa2838498f4afc9d803f0da5b25a953ccc0",
+      "bytes": 9969
+    },
+    "base-vs-story1-reviewed.csv": {
+      "sha256": "94681013142e3764166e8a85976c158080bbdde51c3c23b8f15e01e12df7df58",
+      "bytes": 1054
+    },
+    "four-reversals-reviewed.csv": {
+      "sha256": "7f3fd5eb2a71bd20512e609a72e11e5861b3d11a0f820c46bfc729c7abb93b6a",
+      "bytes": 1373
+    },
+    "protocol-R006.json": {
+      "sha256": "b4e69be9d4f5944e00264b8dd7daf2989ae34402728630a66cd973724e7ae2a2",
+      "bytes": 5963
+    },
+    "R006-shear-output-review.md": {
+      "sha256": "942cd55ad4e0036cd8723670e048f83e2f21d08201352c0cb092c54334bfb70b",
+      "bytes": 5555
+    },
+    "validation-R006.json": {
+      "sha256": "68cd8ccfae5217161e62cece4c2077176553b3e987c8d7d0d311e04bde3acb79",
+      "bytes": 9486
+    }
+  },
+  "validation_summary": {
+    "groups_unique": true,
+    "finite_selected_arrays": true,
+    "strict_time_grids_exactly_equal": true,
+    "units_kN": true,
+    "base_component_histories": 12,
+    "component_samples": 32592,
+    "maximum_base_story1_difference_kN": 0.0,
+    "all_adjacent_pairs": 66,
+    "reversals": 4,
+    "all_upper_peak_ties_retained": true,
+    "same_time_inequality_checked": true
+  },
+  "all_source_csv_fields_exactly_match": true,
+  "all_10_source_inputs_unchanged": true,
+  "independent_subcheck": {
+    "agent": "weng2016_source",
+    "scope": "read-only source small CSV/JSON, all66 keys/counts, four same-time differences/sign inequalities/SourceRows,32592 count",
+    "result": "passed; correctly distinguishes peak gap lower bound from actual simultaneous net; did not read NPZ or claim raw-reader independence",
+    "file_writes": 0,
+    "network": 0
+  },
+  "scope": "Same-source cache arithmetic, no new raw Excel reader; no damping causal comparison, higher-mode identification or device-force attribution.",
+  "source_preservation": "Source W5/shared/manuscript/old role outputs/Git not modified."
+}

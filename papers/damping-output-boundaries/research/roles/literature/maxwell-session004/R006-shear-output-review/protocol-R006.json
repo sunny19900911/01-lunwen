@@ -1,0 +1,74 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R006 independent same-cache shear-output arithmetic review",
+  "started_at": "2026-10-17T23:26:52+08:00",
+  "protocol_frozen_at": "2026-10-17T23:28:11.511232+08:00",
+  "limit_minutes": 10,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "output_directory": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R006-shear-output-review",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "bytes": 193090,
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Base_Reactions.npz",
+      "bytes": 862303,
+      "sha256": "01912309f7a79a3eed36cb850e803aa40ca52c43f79d9e896118296f07e7e5e6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Forces.npz",
+      "bytes": 10443167,
+      "sha256": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Accelerations.npz",
+      "bytes": 10583004,
+      "sha256": "eb33aff5f57a022d3928aaf4fb202393a794f021c38de7900dc8a34a60862786"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\shear-output-consistency\\基底首层重复与相邻截面峰值反升核查.md",
+      "bytes": 3556,
+      "sha256": "ada3248fb333effad6680b7ebe475e325a3a6dce775e349904db25e54bb04057"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\shear-output-consistency\\base_vs_story1.csv",
+      "bytes": 1054,
+      "sha256": "94681013142e3764166e8a85976c158080bbdde51c3c23b8f15e01e12df7df58"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\shear-output-consistency\\all_66_adjacent_peak_order_pairs.csv",
+      "bytes": 14460,
+      "sha256": "a8e7be7cd475cf3e972f122b21b1b7d6419e7807eef21389d6b7d15b4b46fbd6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\shear-output-consistency\\observed_peak_order_reversals.csv",
+      "bytes": 1233,
+      "sha256": "f63d376764ea6ba48aad1f93db20e3602661d8184e665853ae6c63891da99c98"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\shear-output-consistency\\validation.json",
+      "bytes": 4836,
+      "sha256": "603569f76800e03b6d7c7c5350b157c93c2f3661e488a6ee55cdee95dd019da9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\shear-output-consistency\\audit_shear_outputs.py",
+      "bytes": 6562,
+      "sha256": "bfa47e5d81e24cfa642a9851e2413e31e4f4acbfed4c3d20ce87463286e34d35"
+    }
+  ],
+  "rules": [
+    "Source report and small CSVs were read before this protocol; confirmatory arithmetic review, not independent discovery or new raw reader.",
+    "Open only three specified NPZ caches after protocol freeze; map columns and keys from manifest. Require unique full group keys, finite data, strictly increasing unique Time, exact common time grids; no interpolation/rounding/inner join/zero fill.",
+    "For six NonModHist cases, compare Base FX/FY against Story1 Bottom VX/VY for both directions: 12 histories, exact signed array equality, n and max absolute delta; preserve peak SourceRows from both tables.",
+    "For each six cases use suffix X/Y solely as selected component and cross-check against nonzero horizontal Base acceleration; not original load-setting or absolute acceleration semantics certification.",
+    "For Story1 through12 Bottom compute all 11 adjacent pairs in chosen component (66 total). PA/PB are independent max(abs(history)); record own signed peaks/times/SourceRows and all exact ties. Strict PB>PA defines spatial peak reversal.",
+    "At every upper-peak index compute same-time N=A-B using common grid, lower/upper signed values and original SourceRows. Never subtract independent peaks and label as same-time force. Verify s*N <= PA-PB < 0 for reversal with declared numerical tolerance only for this algebraic inequality.",
+    "Compare recomputed 12 rows,66 pairs and4 expected reversals against all source CSV fields by exact parsed float/integer/string equality; report any discrepancies rather than modifying sources.",
+    "Input SHA before/after must match. Original workbook SHA inherited from manifest, not recomputed. No Excel extraction, fitting, solver, network, source/shared/manuscript edits or Git.",
+    "Conclusions limited to same-cache identities and current-state spatial peak ordering; no two independent validations, damping-caused amplification, identified higher modes, device-force contribution or pure inertia assignment."
+  ],
+  "inequality_roundoff_absolute_tolerance_kN": 1e-09
+}

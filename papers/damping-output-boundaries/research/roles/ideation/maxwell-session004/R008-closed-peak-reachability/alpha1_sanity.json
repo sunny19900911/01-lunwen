@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-17T23:45:44+08:00",
+  "status": "one analytic alpha1 sanity check, not universal proof or parameter sweep",
+  "k_c_V": 1,
+  "M": 0.5,
+  "m": 0.25,
+  "mirror_total_time": 2.197224577336219,
+  "unequal_negative_peak_hold": {
+    "holding_time": 0.8925742052568388,
+    "total_time": 2.5020121176909393
+  },
+  "capacity_identity_error": 1.1102230246251565e-16,
+  "three_bang_durations": [
+    0.6931471805599453,
+    1.0986122886681096,
+    0.4054651081081644
+  ],
+  "switch_forces": [
+    0.5,
+    -0.5,
+    0.0
+  ],
+  "delta_return_error": 1.1102230246251565e-16,
+  "closed_peak_formula": 0.49999999999999994,
+  "all_checks_passed": true
+}

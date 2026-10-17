@@ -1,0 +1,79 @@
+{
+  "started_at": "2026-10-17T23:26:52+08:00",
+  "completed_at": "2026-10-17T23:31:34+08:00",
+  "time_limit_minutes": 7,
+  "status": "independent_arithmetic_and_semantics_reviewed_in_frozen_summary_scope",
+  "must_fix_issues": 0,
+  "source_candidate_unchanged": true,
+  "input_files_checked": 10,
+  "input_changed": [],
+  "old_frozen_files_checked": 19,
+  "old_changed": [],
+  "source_rows": 192,
+  "groups_per_method": 24,
+  "methods": 2,
+  "exact_ratio_comparison": true,
+  "synthetic_boundary_checks": 8,
+  "standard_library_only": true,
+  "python_version": "3.12.14",
+  "author_code_read_or_executed": false,
+  "npz_or_excel_read": false,
+  "search_queries": 0,
+  "local_links_checked": 8,
+  "broken_links": [],
+  "trailing_whitespace": [],
+  "counts": {
+    "conditional_Dport": {
+      "groups": 24,
+      "positive_LF": 1,
+      "LF_zero_incomplete_recall": 4,
+      "full_recall": 19,
+      "undefined_LF": 0,
+      "energy_ties": 0,
+      "peak2_ties": 0,
+      "maximum_ties": 0,
+      "all_global_max_omitted": 1,
+      "any_global_max_omitted": 1
+    },
+    "native_Wtrap": {
+      "groups": 24,
+      "positive_LF": 1,
+      "LF_zero_incomplete_recall": 4,
+      "full_recall": 19,
+      "undefined_LF": 0,
+      "energy_ties": 0,
+      "peak2_ties": 0,
+      "maximum_ties": 0,
+      "all_global_max_omitted": 1,
+      "any_global_max_omitted": 1
+    }
+  },
+  "W_D_same_selected_groups": 24,
+  "files": [
+    {
+      "file": "independent_audit.py",
+      "bytes": 9985,
+      "sha256": "af441d5633fb246cbc0f4123a101dda58bcfce1a7f2f23d89485ed8b0ee59f7c"
+    },
+    {
+      "file": "input-freeze.json",
+      "bytes": 3766,
+      "sha256": "340e48fa0f82329f79732fecf837bccb28cd645cf4eecdd2c3a710be12418d91"
+    },
+    {
+      "file": "recomputed.json",
+      "bytes": 29352,
+      "sha256": "afd7ee95b3868dc298635f762f6f1214356aff5f3a14b61ab765d36e549fd70a"
+    },
+    {
+      "file": "report.md",
+      "bytes": 6988,
+      "sha256": "bbc3c5d46202290b7b6283899ebbf9bac911952405cc9e467dfc6252cc577515"
+    },
+    {
+      "file": "semantic-review.md",
+      "bytes": 8189,
+      "sha256": "45312d7c69c2d2e5d76a4e796da0865ab1664d68f0e236129045bff87f691e93"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-10-17T23:44:20+08:00",
+  "status": "author_mathematical_candidate_not_novelty_claim",
+  "question": "For a scalar Maxwell device with force and total-deformation endpoint closure, is specified nonzero force peak M reachable iff 2*tau(M)<=T?",
+  "quantifiers": "For every fixed k,c,alpha,V,T>0 and target M>0; v measurable with |v|<=V a.e.; F and delta absolutely continuous, ODE a.e.; F(0)=F(T)=0 and delta(T)=delta(0); exact max|F|=M. Finite horizon. M>=B=c*V**alpha excluded as unreachable.",
+  "method": "Try unequal peaks/multiple excursions/holding first; then use single-excursion signed-flow area capacity and countable superadditivity, avoiding compressed-time control construction.",
+  "not_in_scope": [
+    "complete dissipation feasible interval",
+    "engineering parameter certification",
+    "continuous-control sharp reachability",
+    "building or floor-force guarantee",
+    "prior-art or first theorem claim"
+  ],
+  "inputs": [
+    {
+      "path": "../R007-displacement-return/report.md",
+      "sha256": "b1c88962309cc898c56827eae1f77ade06a3be9edbd0b9fac9bb08bf2b33421b"
+    }
+  ]
+}

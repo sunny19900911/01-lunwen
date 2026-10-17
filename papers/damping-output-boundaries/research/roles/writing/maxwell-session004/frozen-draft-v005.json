@@ -1,0 +1,45 @@
+{
+  "frozen_at": "2026-10-17T23:44:12.067823+08:00",
+  "task_started": "2026-10-17T23:37:32+08:00",
+  "task_limit_minutes": 12,
+  "status": "Author integration QA passed;awaiting next independent manuscript integration review",
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v005.md",
+      "bytes": 40762,
+      "sha256": "c427cfcf84828da620e465939397fe1365d8a1f7efb6e5d766ec9fb86f9bd508"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v005-evidence-map.json",
+      "bytes": 47791,
+      "sha256": "dc29039b58fffafd05e9e5f78c7cca1c6a8cc0afa841f27a62779b844cc7dc45"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v005-validation.json",
+      "bytes": 4363,
+      "sha256": "775ddf65aff39c61d09ce9902d4c7e9d15055cd4bde226df85fe4332c95e2240"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v005-session-snapshot.json",
+      "bytes": 1366,
+      "sha256": "f20a5d759e5d889e302bf971a56877b490235f262b0d740a5c4a58342a53d078"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v005-report.md",
+      "bytes": 1147,
+      "sha256": "ca46225c01c38efef00b6645a4bf95062501a78bc4983419bdf179e6e3cb873b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v005-next-task.md",
+      "bytes": 342,
+      "sha256": "28301366a158157d8edcb148483a9731bcec3a684f36bdf152c197e41ca52277"
+    }
+  ],
+  "checks_count": 33,
+  "root_acceptance": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R006-late-root-acceptance.json",
+    "bytes": 4789,
+    "sha256": "8d1415a52b2956c5bd535af9f4d9ce8d732cfdceb722812ed21e5543290ba420"
+  },
+  "session_deadline": "2026-10-18T07:09:45+08:00"
+}

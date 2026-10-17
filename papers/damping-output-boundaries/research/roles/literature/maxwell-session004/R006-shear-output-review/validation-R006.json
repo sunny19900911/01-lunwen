@@ -1,0 +1,234 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "started_at": "2026-10-17T23:26:52+08:00",
+  "computed_at": "2026-10-17T23:29:17.697248+08:00",
+  "protocol_sha256": "b4e69be9d4f5944e00264b8dd7daf2989ae34402728630a66cd973724e7ae2a2",
+  "script_sha256": "bc63bd60799ab8aba334e50f67ac2aa2838498f4afc9d803f0da5b25a953ccc0",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "bytes": 193090,
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Base_Reactions.npz",
+      "bytes": 862303,
+      "sha256": "01912309f7a79a3eed36cb850e803aa40ca52c43f79d9e896118296f07e7e5e6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Forces.npz",
+      "bytes": 10443167,
+      "sha256": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Accelerations.npz",
+      "bytes": 10583004,
+      "sha256": "eb33aff5f57a022d3928aaf4fb202393a794f021c38de7900dc8a34a60862786"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\shear-output-consistency\\基底首层重复与相邻截面峰值反升核查.md",
+      "bytes": 3556,
+      "sha256": "ada3248fb333effad6680b7ebe475e325a3a6dce775e349904db25e54bb04057"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\shear-output-consistency\\base_vs_story1.csv",
+      "bytes": 1054,
+      "sha256": "94681013142e3764166e8a85976c158080bbdde51c3c23b8f15e01e12df7df58"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\shear-output-consistency\\all_66_adjacent_peak_order_pairs.csv",
+      "bytes": 14460,
+      "sha256": "a8e7be7cd475cf3e972f122b21b1b7d6419e7807eef21389d6b7d15b4b46fbd6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\shear-output-consistency\\observed_peak_order_reversals.csv",
+      "bytes": 1233,
+      "sha256": "f63d376764ea6ba48aad1f93db20e3602661d8184e665853ae6c63891da99c98"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\shear-output-consistency\\validation.json",
+      "bytes": 4836,
+      "sha256": "603569f76800e03b6d7c7c5350b157c93c2f3661e488a6ee55cdee95dd019da9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\shear-output-consistency\\audit_shear_outputs.py",
+      "bytes": 6562,
+      "sha256": "bfa47e5d81e24cfa642a9851e2413e31e4f4acbfed4c3d20ce87463286e34d35"
+    }
+  ],
+  "inputs_unchanged": true,
+  "source_sha_inherited_not_recomputed": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "checks": {
+    "groups_unique": true,
+    "finite_selected_arrays": true,
+    "strict_time_grids_exactly_equal": true,
+    "units_kN": true,
+    "base_component_histories": 12,
+    "component_samples": 32592,
+    "maximum_base_story1_difference_kN": 0.0,
+    "all_adjacent_pairs": 66,
+    "reversals": 4,
+    "all_upper_peak_ties_retained": true,
+    "same_time_inequality_checked": true
+  },
+  "direction_checks": [
+    {
+      "Case": "RH4X",
+      "selected_component": "X",
+      "Base_horizontal_component_abs_peaks": {
+        "X": 350.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "Case": "RH4Y",
+      "selected_component": "Y",
+      "Base_horizontal_component_abs_peaks": {
+        "X": 0.0,
+        "Y": 350.0
+      }
+    },
+    {
+      "Case": "SHW4X",
+      "selected_component": "X",
+      "Base_horizontal_component_abs_peaks": {
+        "X": 350.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "Case": "SHW4Y",
+      "selected_component": "Y",
+      "Base_horizontal_component_abs_peaks": {
+        "X": 0.0,
+        "Y": 350.0
+      }
+    },
+    {
+      "Case": "SHW7X",
+      "selected_component": "X",
+      "Base_horizontal_component_abs_peaks": {
+        "X": 350.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "Case": "SHW7Y",
+      "selected_component": "Y",
+      "Base_horizontal_component_abs_peaks": {
+        "X": 0.0,
+        "Y": 350.0
+      }
+    }
+  ],
+  "differences_vs_source_csvs": {
+    "base": [],
+    "pairs": [],
+    "reversals": []
+  },
+  "all_source_csv_fields_exactly_match": true,
+  "reversals": [
+    {
+      "Case": "SHW7X",
+      "CaseType": "NonModHist",
+      "Direction": "X",
+      "lower_Bottom": "Story5",
+      "upper_Bottom": "Story6",
+      "lower_abs_record_peak_kN": 7313.876654452164,
+      "upper_abs_record_peak_kN": 7375.337197092612,
+      "upper_peak_exceeds_lower": true,
+      "peak_gap_kN": 61.460542640447784,
+      "peak_gap_over_lower": 0.00840327852713171,
+      "upper_peak_time_s": 38.02,
+      "upper_peak_tie_count": 1,
+      "lower_signed_at_upper_peak_kN": -7091.739099537698,
+      "upper_signed_at_upper_peak_kN": -7375.337197092612,
+      "net_lower_minus_upper_at_upper_peak_kN": 283.5980975549137,
+      "upper_sign_times_net_kN": -283.5980975549137,
+      "lower_SourceRow_at_upper_peak": 126881,
+      "upper_SourceRow_at_upper_peak": 110585,
+      "lower_peak_time_s": 48.76,
+      "lower_peak_tie_count": 1,
+      "lower_SourceRow_at_own_peak": 127418
+    },
+    {
+      "Case": "SHW7X",
+      "CaseType": "NonModHist",
+      "Direction": "X",
+      "lower_Bottom": "Story6",
+      "upper_Bottom": "Story7",
+      "lower_abs_record_peak_kN": 7375.337197092612,
+      "upper_abs_record_peak_kN": 7402.245870617588,
+      "upper_peak_exceeds_lower": true,
+      "peak_gap_kN": 26.90867352497571,
+      "peak_gap_over_lower": 0.0036484668844135315,
+      "upper_peak_time_s": 38.06,
+      "upper_peak_tie_count": 1,
+      "lower_signed_at_upper_peak_kN": -7309.536099139609,
+      "upper_signed_at_upper_peak_kN": -7402.245870617588,
+      "net_lower_minus_upper_at_upper_peak_kN": 92.70977147797839,
+      "upper_sign_times_net_kN": -92.70977147797839,
+      "lower_SourceRow_at_upper_peak": 110587,
+      "upper_SourceRow_at_upper_peak": 94291,
+      "lower_peak_time_s": 38.02,
+      "lower_peak_tie_count": 1,
+      "lower_SourceRow_at_own_peak": 110585
+    },
+    {
+      "Case": "SHW7Y",
+      "CaseType": "NonModHist",
+      "Direction": "Y",
+      "lower_Bottom": "Story5",
+      "upper_Bottom": "Story6",
+      "lower_abs_record_peak_kN": 6566.707179542179,
+      "upper_abs_record_peak_kN": 6796.6056402857275,
+      "upper_peak_exceeds_lower": true,
+      "peak_gap_kN": 229.89846074354864,
+      "peak_gap_over_lower": 0.035009701888302686,
+      "upper_peak_time_s": 38.02,
+      "upper_peak_tie_count": 1,
+      "lower_signed_at_upper_peak_kN": -6424.847228270538,
+      "upper_signed_at_upper_peak_kN": -6796.6056402857275,
+      "net_lower_minus_upper_at_upper_peak_kN": 371.7584120151896,
+      "upper_sign_times_net_kN": -371.7584120151896,
+      "lower_SourceRow_at_upper_peak": 129577,
+      "upper_SourceRow_at_upper_peak": 113281,
+      "lower_peak_time_s": 48.800000000000004,
+      "lower_peak_tie_count": 1,
+      "lower_SourceRow_at_own_peak": 130116
+    },
+    {
+      "Case": "SHW7Y",
+      "CaseType": "NonModHist",
+      "Direction": "Y",
+      "lower_Bottom": "Story6",
+      "upper_Bottom": "Story7",
+      "lower_abs_record_peak_kN": 6796.6056402857275,
+      "upper_abs_record_peak_kN": 6941.397869096895,
+      "upper_peak_exceeds_lower": true,
+      "peak_gap_kN": 144.79222881116766,
+      "peak_gap_over_lower": 0.021303608959292307,
+      "upper_peak_time_s": 38.04,
+      "upper_peak_tie_count": 1,
+      "lower_signed_at_upper_peak_kN": -6790.587194553285,
+      "upper_signed_at_upper_peak_kN": -6941.397869096895,
+      "net_lower_minus_upper_at_upper_peak_kN": 150.81067454360982,
+      "upper_sign_times_net_kN": -150.81067454360982,
+      "lower_SourceRow_at_upper_peak": 113282,
+      "upper_SourceRow_at_upper_peak": 96986,
+      "lower_peak_time_s": 38.02,
+      "lower_peak_tie_count": 1,
+      "lower_SourceRow_at_own_peak": 113281
+    }
+  ],
+  "scope": "Independent arithmetic on same-source caches; not a new raw workbook reader, causal damping comparison, mode identification or device-force attribution.",
+  "operations": {
+    "Excel_reads": 0,
+    "NPZ_caches": 3,
+    "fits": 0,
+    "solver_runs": 0,
+    "network": 0,
+    "Git": 0
+  }
+}

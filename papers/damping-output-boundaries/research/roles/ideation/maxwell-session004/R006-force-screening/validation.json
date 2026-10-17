@@ -1,0 +1,82 @@
+{
+  "frozen_at": "2026-10-17T23:19:51+08:00",
+  "status": "author_derived_candidate_pending_independent_review",
+  "passed": true,
+  "counts": {
+    "conditional_Dport": {
+      "rows": 24,
+      "positive_LF_groups": 1,
+      "LF_zero_but_incomplete_recall": 4,
+      "full_peak_top2_recall_groups": 19,
+      "zero_peak_groups": 0,
+      "selected_count_values": [
+        2
+      ]
+    },
+    "native_Wtrap": {
+      "rows": 24,
+      "positive_LF_groups": 1,
+      "LF_zero_but_incomplete_recall": 4,
+      "full_peak_top2_recall_groups": 19,
+      "zero_peak_groups": 0,
+      "selected_count_values": [
+        2
+      ]
+    }
+  },
+  "group_rows_per_method": 24,
+  "omitted_peak_top2_rows": 10,
+  "omitted_global_max_rows": 2,
+  "W_D_same_selected_groups": 24,
+  "R005_unchanged": true,
+  "files": [
+    {
+      "path": "protocol.md",
+      "sha256": "eaa8eac1432e38f889d5112fa28a047d5dd2af81b65da8b18f99f2e43b3c1c87",
+      "bytes": 2525,
+      "errors": []
+    },
+    {
+      "path": "calculate.py",
+      "sha256": "a043b855b7c0f15fe23b34b204742ace6a929131ed5ae05b67852fff88abb43a",
+      "bytes": 7674,
+      "errors": []
+    },
+    {
+      "path": "report.md",
+      "sha256": "8138b850f8b7aeda3bcebc4974f84a3938c90f2184f624c90635bcfe98563e42",
+      "bytes": 6992,
+      "errors": []
+    },
+    {
+      "path": "results/conditional_Dport_groups.csv",
+      "sha256": "c49f63a8702bf4f81a4843e6a457a13e774810723f951b3a9a06992ece799ec4",
+      "bytes": 5845,
+      "errors": []
+    },
+    {
+      "path": "results/native_Wtrap_groups.csv",
+      "sha256": "b0ae0a9e13c4feda0214f095d0858d88a44a2f77cf51382fe6a618a98445f265",
+      "bytes": 5728,
+      "errors": []
+    },
+    {
+      "path": "results/omitted_global_max.csv",
+      "sha256": "3226842ed2765c7ccf09185e5e6734ad2adf25d9f0c12b780e35d6d4999b76a0",
+      "bytes": 723,
+      "errors": []
+    },
+    {
+      "path": "results/omitted_peak_top2.csv",
+      "sha256": "695ca51a1f58626f28b6dedf6cb878cd342250eed168e5494bcb59fe248615d4",
+      "bytes": 2517,
+      "errors": []
+    },
+    {
+      "path": "results/run_record.json",
+      "sha256": "4e92fd4776bf8e36e65d6ebcf1ce3febdb08f17a5d102c7f5375c6102bfa2c86",
+      "bytes": 1172,
+      "errors": []
+    }
+  ]
+}

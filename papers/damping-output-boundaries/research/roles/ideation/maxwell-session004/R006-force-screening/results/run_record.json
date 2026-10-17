@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-17T23:18:46+08:00",
+  "status": "author_derived_candidate_pending_independent_review",
+  "source_summary_sha256": "8d359f9c86b544aaa6c573618a375eef7beb8f02070dc223f2802ce3fe31864d",
+  "protocol_sha256": "eaa8eac1432e38f889d5112fa28a047d5dd2af81b65da8b18f99f2e43b3c1c87",
+  "script_sha256": "a043b855b7c0f15fe23b34b204742ace6a929131ed5ae05b67852fff88abb43a",
+  "synthetic_checks": {
+    "passed": true,
+    "checks": 6
+  },
+  "groups": 24,
+  "input_rows": 192,
+  "methods": {
+    "conditional_Dport": {
+      "rows": 24,
+      "positive_LF_groups": 1,
+      "LF_zero_but_incomplete_recall": 4,
+      "full_peak_top2_recall_groups": 19,
+      "zero_peak_groups": 0,
+      "selected_count_values": [
+        2
+      ]
+    },
+    "native_Wtrap": {
+      "rows": 24,
+      "positive_LF_groups": 1,
+      "LF_zero_but_incomplete_recall": 4,
+      "full_peak_top2_recall_groups": 19,
+      "zero_peak_groups": 0,
+      "selected_count_values": [
+        2
+      ]
+    }
+  },
+  "selection_sets_same_between_W_and_D_groups": 24,
+  "omitted_peak_top2_detail_rows": 10,
+  "omitted_global_max_detail_rows": 2,
+  "no_NPZ_Excel_fit_or_k_sensitivity": true
+}

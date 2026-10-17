@@ -1,0 +1,45 @@
+{
+  "evidence_id": "M-EXP-R009",
+  "review_status": "candidate",
+  "completed_utc": "2026-10-17T15:42:41.634347+00:00",
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R009-endpoint-domain\\check_endpoint_domain.py"
+  ],
+  "exit_code": 0,
+  "delivery_QA": "CSV192 counts and exact flags independently tallied, input/output SHA/UTF-8/compilation checked; no tolerance, window search or repeated arrays.",
+  "files": [
+    {
+      "name": "check_endpoint_domain.py",
+      "bytes": 9366,
+      "sha256": "48f07b5f99ad74217b8272797d2aecf5adbc4f31e7897c0bc91b2f265e155934"
+    },
+    {
+      "name": "endpoint_summary_192_r009.csv",
+      "bytes": 81328,
+      "sha256": "45fedbb8bfd95246d98ea981a434e2702e57bf6f6672b6899eed4dd14d694d39"
+    },
+    {
+      "name": "protocol.json",
+      "bytes": 2624,
+      "sha256": "13fc67b4ca09d87cbeafd2e6074524c42a9137eee9f9353e3b20489d9a3482ff"
+    },
+    {
+      "name": "report.md",
+      "bytes": 2845,
+      "sha256": "8874ce9483acc88814c0b36378a80efe22cd9783df7c9b2ef3d8c26641242a31"
+    },
+    {
+      "name": "run_record_r009.json",
+      "bytes": 1135,
+      "sha256": "2d5edeba90bc8855efb05a04dfbd9e2a2f20bed4a16fd6d0691cc87f8c77a3a6"
+    },
+    {
+      "name": "summary_r009.json",
+      "bytes": 5242,
+      "sha256": "02f253b5da1ed2e3685f829cdced7643c99588fc2c9a45cecbe881bbbaed6b01"
+    }
+  ]
+}

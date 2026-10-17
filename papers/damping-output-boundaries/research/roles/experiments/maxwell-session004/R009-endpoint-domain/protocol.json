@@ -1,0 +1,36 @@
+{
+  "evidence_id": "M-EXP-R009",
+  "review_status": "candidate",
+  "frozen_utc_before_array_read": "2026-10-17T15:41:00.142231+00:00",
+  "refs": {
+    "paired_npz": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\local_paired_histories_r006.npz",
+      "bytes": 18459935,
+      "sha256": "65be34f8125e5e7f2aee90ebe5a4b2612cfe717d84abf0886789a1bc75709340"
+    },
+    "array_manifest": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\local_history_manifest_r006.json",
+      "bytes": 69507,
+      "sha256": "c0b661271ac78e5450849a6bdae4e4a797fa4846608b6256ca0db4b6c7fba392"
+    },
+    "R006_protocol": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\protocol.json",
+      "bytes": 53679,
+      "sha256": "e26d983f153fc9cce3412d4334ff8c8d249360988b34ccfb6650d20190236e89"
+    }
+  },
+  "window_policy": "Only original complete exported windows, no extension/free tail, cut-window search, resampling, interpolation or posthoc tolerance.",
+  "columns": "Original NPZ t_s,P_I_kN,P_J_kN,U1_mm,U1_m,force_I_row,force_J_row,deformation_row. I and J duplicate, use I once.",
+  "exact_endpoint_tests": [
+    "F0==0",
+    "FT==0",
+    "F0==0 and FT==0",
+    "dT-d0==0"
+  ],
+  "force_ratio": "FT/Pmax signed and abs(FT)/Pmax; Pmax=max(abs(P_I)); zero denominator => undefined not0.",
+  "net_change_scale": "s=max_t abs(d(t)-d0), original window, unitsm/mm. Report signed (dT-d0)/s and abs(dT-d0)/s. If s==0, explicit undefined.",
+  "units": "Force kN; U1 originalmm and convertedm; time seconds. Preserve signed endpoints, net total deformation change and I/J/U1 source cells at both endpoints.",
+  "interpretation": "Exact exported equality only. Nonzero floating export is not engineering significance. Endpoint sample F0=FT=0 is at most numerical evidence for sample-boundary force precondition, not certification of continuous physical ports/parameters. No continuous V certified by sample differences, no Dport as true D, no delta-return requirement added.",
+  "no_operations": "No Excel read, fit, solver, extra histories, or shared/old-output/Git changes.",
+  "runtime_limit_seconds": 240
+}

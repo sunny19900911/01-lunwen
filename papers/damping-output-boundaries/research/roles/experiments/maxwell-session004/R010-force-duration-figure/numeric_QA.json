@@ -1,0 +1,153 @@
+{
+  "checks": {
+    "four_prespecified_full_windows": true,
+    "all10394_original_record_points_retained": true,
+    "eight_all_point_LinePlot_series": true,
+    "I_endpoint_matches_direct_tau_and_review": true,
+    "signed_native_force_and_monotone_I_no_clipping": true,
+    "no_normalization_by_tau": true,
+    "all_source_SHA_and_protocol_unchanged": true,
+    "runtime_below480seconds": true
+  },
+  "series_point_counts": [
+    {
+      "Case": "RH4X",
+      "Link": "K10",
+      "metric": "force",
+      "n_points": 2501
+    },
+    {
+      "Case": "RH4X",
+      "Link": "K92",
+      "metric": "force",
+      "n_points": 2501
+    },
+    {
+      "Case": "RH4X",
+      "Link": "K10",
+      "metric": "integral",
+      "n_points": 2501
+    },
+    {
+      "Case": "RH4X",
+      "Link": "K92",
+      "metric": "integral",
+      "n_points": 2501
+    },
+    {
+      "Case": "SHW7Y",
+      "Link": "K6",
+      "metric": "force",
+      "n_points": 2696
+    },
+    {
+      "Case": "SHW7Y",
+      "Link": "K5",
+      "metric": "force",
+      "n_points": 2696
+    },
+    {
+      "Case": "SHW7Y",
+      "Link": "K6",
+      "metric": "integral",
+      "n_points": 2696
+    },
+    {
+      "Case": "SHW7Y",
+      "Link": "K5",
+      "metric": "integral",
+      "n_points": 2696
+    }
+  ],
+  "four_endvalues": [
+    {
+      "Case": "RH4X",
+      "Story": "Story8",
+      "Link": "K10",
+      "n_original_points": 2501,
+      "t0_s": 0.0,
+      "T_s": 50.0,
+      "Pmax_native_kN": 133.1349401234096,
+      "tau_direct_integral_s": 4.378722562591308,
+      "I_T_plotted_s": 4.378722562591308,
+      "zero_force_points_retained": 1,
+      "R008_tau_difference_s": 0.0,
+      "local_array_key": "K10__RH4X"
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story8",
+      "Link": "K92",
+      "n_original_points": 2501,
+      "t0_s": 0.0,
+      "T_s": 50.0,
+      "Pmax_native_kN": 133.08720884372408,
+      "tau_direct_integral_s": 4.657250333638118,
+      "I_T_plotted_s": 4.657250333638118,
+      "zero_force_points_retained": 1,
+      "R008_tau_difference_s": 0.0,
+      "local_array_key": "K92__RH4X"
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story11",
+      "Link": "K6",
+      "n_original_points": 2696,
+      "t0_s": 0.0,
+      "T_s": 53.9,
+      "Pmax_native_kN": 129.23732958600206,
+      "tau_direct_integral_s": 1.8718780659260534,
+      "I_T_plotted_s": 1.8718780659260534,
+      "zero_force_points_retained": 1,
+      "R008_tau_difference_s": 0.0,
+      "local_array_key": "K6__SHW7Y"
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story11",
+      "Link": "K5",
+      "n_original_points": 2696,
+      "t0_s": 0.0,
+      "T_s": 53.9,
+      "Pmax_native_kN": 126.88997197506528,
+      "tau_direct_integral_s": 4.168103623875866,
+      "I_T_plotted_s": 4.168103623875866,
+      "zero_force_points_retained": 1,
+      "R008_tau_difference_s": 0.0,
+      "local_array_key": "K5__SHW7Y"
+    }
+  ],
+  "p": 4.333333333333334,
+  "force_y_limits": [
+    -160,
+    160
+  ],
+  "integral_y_limits": [
+    0,
+    5
+  ],
+  "curve_engine": "ReportLab LinePlot / renderSVG",
+  "source_refs": {
+    "NPZ": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\local_paired_histories_r006.npz",
+      "bytes": 18459935,
+      "sha256": "65be34f8125e5e7f2aee90ebe5a4b2612cfe717d84abf0886789a1bc75709340"
+    },
+    "manifest": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\local_history_manifest_r006.json",
+      "bytes": 69507,
+      "sha256": "c0b661271ac78e5450849a6bdae4e4a797fa4846608b6256ca0db4b6c7fba392"
+    },
+    "R008_audit": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\audit_summary_r008.json",
+      "bytes": 9311,
+      "sha256": "5676c855455c023956fa1f9bbfa48b00e33653caab8e6b57d0a18c380ebb984d"
+    },
+    "R008_report": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\report.md",
+      "bytes": 4020,
+      "sha256": "a585d5b2a89d814efda859f8b3d07f4d462c25b24ea95d24655a0ca1cbc810fd"
+    }
+  },
+  "no_duplicate_full_array_output": true
+}

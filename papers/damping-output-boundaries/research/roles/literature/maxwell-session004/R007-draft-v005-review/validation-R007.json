@@ -1,0 +1,218 @@
+{
+  "task": "R007 role3 source/transcription audit only",
+  "started_at": "2026-10-17T23:45:45+08:00",
+  "computed_at": "2026-10-17T23:48:57.591100+08:00",
+  "input_rules_sha256": "dcfbcc31f4d0aa868564ed547e70001bf40319a71fced8028a1383be13bb8c0e",
+  "input_count": 17,
+  "all_input_hashes_unchanged": true,
+  "author_frozen_files_checked": 6,
+  "draft_sha256": "c427cfcf84828da620e465939397fe1365d8a1f7efb6e5d766ec9fb86f9bd508",
+  "author_freeze_sha256": "a57c278655dc46b017200717b8038988bd31eeed2097fd2e6526d7cee299306f",
+  "old_table_count": 11,
+  "new_total_table_count": 16,
+  "old_table_indices_in_new": [
+    1,
+    2,
+    3,
+    4,
+    11,
+    7,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "old11_blocks_byte_exact_once": true,
+  "new_tables": "E2/E3/E4/F(unlabelled)/G1",
+  "R013_two_tables_byte_exact_in_draft": true,
+  "R006_four_witness_table_byte_exact_in_draft": true,
+  "R013_points": 521472,
+  "records_training_checks": [
+    192,
+    1,
+    191
+  ],
+  "all192_relative_denominators_positive_and_ratios_reconciled": true,
+  "two_extreme_rows_12_display_numbers_round_correctly": true,
+  "extreme_records": [
+    {
+      "identity": "K13/Story10/RH4X",
+      "delta_d_RMS_m": 2.110844566592479e-05,
+      "RMSE_m": 5.341529328726679e-07,
+      "max_abs_residual_m": 7.610012366354821e-07,
+      "mean_residual_m": 4.773827578356458e-07,
+      "end_residual_m": 6.763763965621198e-07,
+      "relative_RMSE_percent": 2.530517600994881,
+      "controller": [
+        {
+          "t_s": 36.92,
+          "signed_residual_m": 7.610012366354821e-07,
+          "observed_delta_d_m": 9.887279108094542e-06,
+          "predicted_delta_d_m": 1.0648280344730024e-05,
+          "P_I_kN": 4.501470360000155,
+          "U1_m": 9.887279108094542e-06,
+          "P_I_cell": "I297024",
+          "P_J_cell": "I297025",
+          "U1_cell": "H148514"
+        }
+      ]
+    },
+    {
+      "identity": "K82/Story9/SHW7Y",
+      "delta_d_RMS_m": 0.0015552776500936181,
+      "RMSE_m": 1.0634947680901984e-05,
+      "max_abs_residual_m": 1.997712241549876e-05,
+      "mean_residual_m": -8.417562736794037e-06,
+      "end_residual_m": -1.6233278583832806e-05,
+      "relative_RMSE_percent": 0.6837973708592692,
+      "controller": [
+        {
+          "t_s": 38.160000000000004,
+          "signed_residual_m": -1.997712241549876e-05,
+          "observed_delta_d_m": 0.005908902874917962,
+          "predicted_delta_d_m": 0.005888925752502463,
+          "P_I_kN": -77.31131026240509,
+          "U1_m": 0.005908902874917962,
+          "P_I_cell": "I715452",
+          "P_J_cell": "I715453",
+          "U1_cell": "H357728"
+        }
+      ]
+    }
+  ],
+  "denominator_range_m": [
+    1.2035282873440559e-05,
+    0.001906460209420632
+  ],
+  "images": [
+    {
+      "target": "../../../research/sessions/20261017-2109/figures/02_device_coverage_by_story.png",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\02_device_coverage_by_story.png",
+      "bytes": 104087,
+      "sha256": "5f27fc3780b0efdebfa595f2a1d11ca068f5ecf4df07f2bed7f885f2e2e3a0fa"
+    },
+    {
+      "target": "../../../research/sessions/20261017-2109/figures/01_native_energy_ratio.png",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\01_native_energy_ratio.png",
+      "bytes": 87288,
+      "sha256": "fac821fca950ab796ff634053e768dd3020741ff63c117c884dad0ac4d8010d3"
+    },
+    {
+      "target": "../../../research/sessions/20261017-2109/figures/03_floor_record_peak_profiles.png",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\03_floor_record_peak_profiles.png",
+      "bytes": 302244,
+      "sha256": "f1a8ff0bba9ead35bfca4a5052333cf6171fcf69a9fa9104bb6459bcfab776c4"
+    }
+  ],
+  "local_text_link_count": 13,
+  "all_local_text_links_exist": true,
+  "formula_tags": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "M_C015_absent": true,
+  "required_corrections": [],
+  "optional_edit": [
+    {
+      "section": "v005 Appendix F table header line418, insert caption after blank line417 in next version",
+      "issue": "No table number/caption",
+      "suggested_caption": "表F1 相邻Bottom截面空间峰值反升的同刻代数记录（力单位kN）",
+      "author_frozen_draft_modified": false
+    }
+  ],
+  "delegated_structure_check": "weng2016_source: frozen6,old11 byte blocks,3 image/map SHA,formula1-9 passed; no raw arrays or writes",
+  "delegated_examples_check": "local_literature: four R008 example rows/locators,LF exact percent and small gap,192/24/672/38/17 counts and positive domains passed; no raw arrays or writes",
+  "operations": {
+    "Excel_reads": 0,
+    "NPZ_reads": 0,
+    "solver": 0,
+    "new_search": 0,
+    "source_or_author_edits": 0,
+    "Git": 0
+  },
+  "scope_limits": "Not role2 physics truth review; inherits accepted source evidence and same-model conditional estimates; does not verify raw source or original parameters anew.",
+  "three_image_paths_bytes_sha_match_author_map": true,
+  "R008_small_csv_checks": {
+    "records": 192,
+    "groups": 24,
+    "pairs": 672,
+    "inversions_both_metrics": 38,
+    "inversion_groups": 17,
+    "pair_flag_disagreements": 0,
+    "all_positive_domains_and_tau_at_most_window": true,
+    "force_identity_small_table_reconciliation": true,
+    "log_decomposition_small_table_reconciliation": true,
+    "four_example_rows_16_display_values_and_source_cells": [
+      {
+        "Link": "K10",
+        "Case": "RH4X",
+        "Story": "Story8",
+        "peak": "133.1349401234096",
+        "tau": "4.378722562591308",
+        "W_native": "8.271793804284055",
+        "Dport": "8.271746560802326",
+        "controller": {
+          "t_s": 11.48,
+          "signed_P_kN": 133.1349401234096,
+          "P_I_cell": "I783360",
+          "P_J_cell": "I783361"
+        }
+      },
+      {
+        "Link": "K92",
+        "Case": "RH4X",
+        "Story": "Story8",
+        "peak": "133.08720884372408",
+        "tau": "4.657250333638118",
+        "W_native": "8.785501027066072",
+        "Dport": "8.785344880555506",
+        "controller": {
+          "t_s": 11.5,
+          "signed_P_kN": 133.08720884372408,
+          "P_I_cell": "I978914",
+          "P_J_cell": "I978915"
+        }
+      },
+      {
+        "Link": "K6",
+        "Case": "SHW7Y",
+        "Story": "Story11",
+        "peak": "129.23732958600206",
+        "tau": "1.8718780659260534",
+        "W_native": "3.1038029535204155",
+        "Dport": "3.1022690598408404",
+        "controller": {
+          "t_s": 17.42,
+          "signed_P_kN": 129.23732958600206,
+          "P_I_cell": "I94130",
+          "P_J_cell": "I94131"
+        }
+      },
+      {
+        "Link": "K5",
+        "Case": "SHW7Y",
+        "Story": "Story11",
+        "peak": "126.88997197506528",
+        "tau": "4.168103623875866",
+        "W_native": "6.389402603994111",
+        "Dport": "6.389160546418414",
+        "controller": {
+          "t_s": 37.86,
+          "signed_P_kN": 126.88997197506528,
+          "P_I_cell": "I63582",
+          "P_J_cell": "I63583"
+        }
+      }
+    ],
+    "LF_ratio_to_percent_100x_exact": true,
+    "raw_tau_integration_recomputed": false
+  }
+}
