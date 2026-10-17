@@ -1,0 +1,54 @@
+{
+  "started_at": "2026-10-18T06:01:51+08:00",
+  "completed_at": "2026-10-18T06:04:39.931428+08:00",
+  "elapsed_seconds": 168.931428,
+  "limit_minutes": 5,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Plainsemanticreviewcomplete;one material C042 scopeclarificationneeded;freezeandstop",
+  "mustfix": 1,
+  "required_changes": 1,
+  "summary_sha256": "63cce9c7daed2031fb6d67ea6a61a6e617a8539b23baee6d9e6aaf505df9e7fd",
+  "C042_adoption_sha256": "bd9d26f3bc7fa952d45a43d21055044981a263c11b3faaa791dbe94f9c9275ce",
+  "current_narrative_v002_sha256": "af496eafe3996eb73f48be5be5722ebfa895265fd4965af204ab30f9c58d5911",
+  "findings": [
+    {
+      "id": "R029-M1",
+      "priority": 2,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\阶段结论-白话-v001.md",
+      "line": 31,
+      "issue": "Undefined在规定范围内omitsexplicit0<alpha<=1 andleavesnondegeneratetimelabelunexplained;couldinheritnarrativegeneralalpha>0",
+      "minimal_fix": "State exponent>0and<=1;onlycontinuousvelocitywithinwindow,free terminaldelta,noextra endpointvelocityoracceleration;T>tminunattainedbounds,T=tminconstantspeedexception;fullcontinuousD/fixedDpeaksetsremainunproved",
+      "formula_or_existing_theorem_rejected": false
+    }
+  ],
+  "other_scope_checks": "Classicstorage/projection/Holderattribution;publicationunknown/notfirst;devicevsbuilding;actualauditlimits;Aselectednotfinaltopic;stage_nottenhourcompletion allpreserved",
+  "input_files_checked": 7,
+  "input_changed": [],
+  "old_own_frozen_files_checked": 94,
+  "old_changed": [],
+  "local_links_checked": 9,
+  "broken_links": [],
+  "UTF8_LF_whitespace_controlchecks_passed": true,
+  "readonly_subreview": {
+    "agent": "/root/prior_work_audit",
+    "mustfix": 1,
+    "scope": "Full43lineplainand41lineC042JSON,currentnarrative relevantconditions;no newsearch/proof/arrays/authorcheckorfiles",
+    "same_finding": "C042 exponentrangeomission andexplicit T>tmin/T=tminlanguage"
+  },
+  "newsearch_download_newproof_scientificcomputation_arrays_originaldata_authorcheck_shared_Git": false,
+  "original_summary_modified": false,
+  "technical_IDs_required_for_plaintext": false,
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 2584,
+      "sha256": "8d9b47c08d0396fac798ce9e49a64e8cc0fcbe8ffcede181a27bbadbb731ecbc"
+    },
+    {
+      "file": "report.md",
+      "bytes": 4742,
+      "sha256": "9a0b968050c128140f11d6d5ae59970a66f9db963a973218e6059f7572bcba10"
+    }
+  ],
+  "validation_self_hash": "omitted intentionally"
+}

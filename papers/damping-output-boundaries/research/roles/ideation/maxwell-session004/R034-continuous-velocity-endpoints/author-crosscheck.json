@@ -1,0 +1,14 @@
+{
+  "kind": "author-side internal analytic challenge; not role2 independent review",
+  "lower": {
+    "agent": "/root/spectral_zero_order",
+    "result": "Bracket, strict monotonic terminal map and exact endpoint calibration confirmed; signed primitive supplied to cover negative force in equality argument. T=t_min constant V separated."
+  },
+  "upper": {
+    "agent": "/root/peak_bound_audit",
+    "result": "Nonattainment and sharp supremum confirmed via continuous terminal map/strict comparison; shifted ramp construction valid; no endpoint velocity or acceleration constraints added."
+  },
+  "root_refinement": "Direct upper brackets s*=center±epsilon bound L1 distance by 3Vepsilon; signed lower primitive and nonzero-component argument incorporated.",
+  "status": "candidate pending external independent review",
+  "new_numerical_work": false
+}

@@ -1,0 +1,20 @@
+{
+  "review_type": "manual mathematical transcription and scope integration review",
+  "must_fix": [],
+  "must_fix_count": 0,
+  "mathematical_conflict_count": 0,
+  "formula_obligations": {
+    "1": "constitutive law, power and scope faithfully transferred",
+    "2": "old integral boundaries and strict monotonicity faithfully transferred",
+    "3": "signed primitive identity and zero/negative branch equality rigidity retained",
+    "4": "upper shortest-time equality and positive-sign necessity retained",
+    "5": "continuous amplitude-preserving ramps; parameter brackets and exact terminal IVT retained",
+    "6": "L1 force/cost estimates and sharp endpoint convergence retained"
+  },
+  "ramp_parameter_domain": "sufficiently small epsilon with all ramps inside [0,T] is sufficient for the stated full parameter brackets; no required clarification",
+  "minimal_time_exception": "retained",
+  "full_continuous_D_set_or_fixed_D_peak_claim": false,
+  "independent_transcription_reviews": 2,
+  "static_checks_are_math_proof": false,
+  "new_proof_or_numerics_or_ODE": false
+}

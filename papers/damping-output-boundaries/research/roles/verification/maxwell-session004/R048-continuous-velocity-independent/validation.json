@@ -1,0 +1,31 @@
+{
+  "round": "R048",
+  "frozen_at": "2026-10-18T05:52:30.376492+08:00",
+  "within_role_eight_minutes": true,
+  "sources_verified_unchanged": true,
+  "outputs": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R048-continuous-velocity-independent/report.md",
+      "bytes": 6525,
+      "sha256": "fb2868540d569662bf991a1147ff26f98b8022aae2c6d0730c66f4bf68287312"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R048-continuous-velocity-independent/freeze_review.py",
+      "bytes": 3390,
+      "sha256": "608039146816a3d05de9b95c933c64c5ab80bb109ba746e099929d12f4ab7909"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R048-continuous-velocity-independent/source-freeze.json",
+      "bytes": 944,
+      "sha256": "6c61fe1ce57eda7e2cdf68c7c523e828a793477df12d4634ec1203888972b17f"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R048-continuous-velocity-independent/closure_checks.json",
+      "bytes": 913,
+      "sha256": "2233109947adb5ec5e4510cfe11ccee75543cf2edbe0a533f4273fda5cbe6014"
+    }
+  ],
+  "old_files_modified": false,
+  "independent_before_official_comparison": true,
+  "conclusion": "Both endpoints are unattained but sharp for continuous bounded velocity when T>tmin; T=tmin is attained."
+}

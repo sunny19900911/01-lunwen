@@ -1,0 +1,41 @@
+{
+  "round": "R034-continuous-velocity-endpoints",
+  "start": "2026-10-18T05:44:38.077390+08:00",
+  "first_observed_clock": "2026-10-18T05:44:56+08:00",
+  "deadline": "2026-10-18T05:52:38.077390+08:00",
+  "overall_deadline": "2026-10-18T07:09:45+08:00",
+  "frozen_at": "2026-10-18T05:45:36.590361+08:00",
+  "sources": [
+    {
+      "path": "research/sessions/20261017-2109/continuous-velocity-endpoint-protocol-v001.md",
+      "bytes": 1438,
+      "sha256": "f35827742390ab05619900a422cdb7afc2fd1f83ce2c894b8ec628265549ab87"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/report.md",
+      "bytes": 7693,
+      "sha256": "9d037f1409d384d5a86d41b608971669890a22309574f05940459548c16ad0d6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R009-nonzero-terminal-force/report.md",
+      "bytes": 8485,
+      "sha256": "80eada1fa18980877fac82c0860224cff4ca2944655912c5ea2d696371fd9893"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/非零末力耗散峰力区间独审-R017.md",
+      "bytes": 7166,
+      "sha256": "5a3596a03e9508861ccfda513ee170addf62c29a35ef97e4ed9e33a3db4c5c6d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R029-fixed-dissipation-peak-inverse/report.md",
+      "bytes": 7186,
+      "sha256": "c6cc612de443a58642a20d7cdb10a054fb00d051d827a33f2f44b1ac0fcdc910"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/report.md",
+      "bytes": 6494,
+      "sha256": "3773b2bb6f8556af5f49dd1ec945f6d929a9e938fd692b7417e220a26d8c5294"
+    }
+  ],
+  "scope": "Continuous-velocity endpoint attainment/closure candidate only; no full D/peak feasible-set extension, arrays/data/ODE/numerics/scan/search, manuscript/shared/Git changes."
+}

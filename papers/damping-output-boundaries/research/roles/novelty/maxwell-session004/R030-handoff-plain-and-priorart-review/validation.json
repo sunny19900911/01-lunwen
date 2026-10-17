@@ -1,0 +1,52 @@
+{
+  "started_at": "2026-10-18T06:06:07+08:00",
+  "completed_at": "2026-10-18T06:08:23.376535+08:00",
+  "elapsed_seconds": 136.376535,
+  "limit_minutes": 4,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Finitehandoffplain/priorartintegrationpassed;R029fixclosedforv002;freezeandstop",
+  "mustfix": 0,
+  "required_changes": 0,
+  "summary_v002_sha256": "235f2a3ca00e36706f2cab97f14bcd6b943de6f400835af21c68d5fd40c7c521",
+  "priorart_table_sha256": "05983b3ba654375605c5c0fda69c987c8b6766c8bf3cbc700626ed2032beaa1d",
+  "actual_unified_diff_exact": true,
+  "changed_lines": [
+    31,
+    35
+  ],
+  "old_summary_v001_unchanged": true,
+  "old_R029_M1_repaired_in_v002": true,
+  "priorart_scope": "Classictoolsdirect;generalamplificationknown;specificsameconditionunknown;Goetzonlypreviouslycheckedparts;unreadGusev/Aalborgnotexcluded;C042notfirst/building",
+  "C042_table_timecondition_optional_note": "Publicationstatussummarynotstandalonetheorem;explicitqualifiedalphascopeandcompanionplainfulltimebranches;nondegeneratewordingoptionalnotmust",
+  "Aalborg_R032_attempts": 1,
+  "Aalborg403_only_tool_report_no_body_metadata_or_directHTTP": true,
+  "prior_Goetz_PDF_reading_not_repeated": true,
+  "newsource_readinglevel_not_inflated": true,
+  "input_files_checked": 13,
+  "input_changed": [],
+  "old_own_frozen_files_checked": 96,
+  "old_changed": [],
+  "local_links_checked": 16,
+  "broken_links": [],
+  "priorart_table_data_rows": 6,
+  "UTF8_LF_noBOM_whitespace_controlchecks_passed": true,
+  "readonly_subreview": {
+    "agent": "/root/prior_work_audit",
+    "mustfix": 0,
+    "scope": "Summaryv002/diff,priorarttable,oldR032report;no search/PDF/proof/array/authorcheck/files"
+  },
+  "newsearch_PDF_download_proof_scientificcalculation_arrays_originaldata_authorchecks_shared_Git": false,
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 4612,
+      "sha256": "247f22de06095d8013cd085bf98a12b1b4178c02b80be57b8dbb6ce78f6cd3d4"
+    },
+    {
+      "file": "report.md",
+      "bytes": 4699,
+      "sha256": "ad5c912c264eec947145213e5acb0aaf135ed0421d1bb1e9a56c0ed9fc501654"
+    }
+  ],
+  "validation_self_hash": "omitted intentionally"
+}

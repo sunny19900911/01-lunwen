@@ -6,8 +6,8 @@
   "deadline": "2026-10-18T07:09:45+08:00",
   "master_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
   "checkpoint_open": true,
-  "current_round": "R024",
-  "latest_round": "rounds/R023.md",
+  "current_round": "R025",
+  "latest_round": "rounds/R024.md",
   "checkpoint_minutes": 15,
   "topic_card_minutes": 30,
   "scheduler": {
@@ -629,7 +629,7 @@
       "scope": "Reviewed C025 explanatoryfigure and Correia primaryscope;conditional finiteobservation theoremC037;contributiongrade recommendation;compact-v003 minimal integration."
     }
   },
-  "checkpoint_started_at": "2026-10-18T05:45:18.085297+08:00",
+  "checkpoint_started_at": "2026-10-18T06:00:07.483006+08:00",
   "received_auxiliary_skill_increment": {
     "path": "C:/Users/mj528/.codex/skills/etabs-response-analysis/scripts/cache_coverage.py",
     "source_validation": "../W5-重燃双塔连体/research/maxwell-20261017/roles/verification/response-coverage/skill-validation.json",
@@ -646,8 +646,8 @@
     "sha256": "8ec39aeb7692b7745dbd7622b7364ef19d3dd20404755444626ec93358ec24b6",
     "status": "R003 published and verified; frozen stage manuscript only"
   },
-  "latest_role_snapshot": "R024-initial-snapshot.json",
-  "latest_late_handoff": "R023-late-handoff.md",
+  "latest_role_snapshot": "R025-initial-snapshot.json",
+  "latest_late_handoff": "R024-late-handoff.md",
   "manuscript_stage_v002": {
     "sha256": "64f69a385155f0004113cd8e96e12ebbe0b86e07bb88ce56da7d6873324bbef5",
     "status": "root full text/hash reviewed; frozen. Local absolute image references unsuitable for GitHub portability; author v003 assigned to fix image paths and integrate reviewed R007 before independent integration audit."
@@ -674,7 +674,7 @@
     "status": "R008 published and remote verified;frozen stage only"
   },
   "next_git_eligible_at": "2026-10-18T02:52:22.348711+08:00",
-  "latest_topic_card": "topic-cards/T-M001-v020.md",
+  "latest_topic_card": "topic-cards/T-M001-v021.md",
   "manuscript_modal_interface_v001": {
     "path": "papers/damping-output-boundaries/manuscript/maxwell-modal-interface-v001.md",
     "sha256": "ae16c74eb8f3786b66f1787034ca67b64d86683b8cddde94a26f8a0761a91cc8",
@@ -702,7 +702,7 @@
     "sha256": "30d9ec2f61439f19820959f929041cd0c92cdf28bb0e2a029d4c2f98c0436067",
     "status": "R012 published withstatusaddenda andremoteSHAverified;stageonly"
   },
-  "next_git_eligible_after": "2026-10-18T05:54:00.256043+08:00",
+  "next_git_eligible_after": "2026-10-18T06:10:43.664120+08:00",
   "manuscript_compact_v002": {
     "status": "stage integration accepted: R019 source scope +R035 rest except M1 +v002 targeted repair R020 +root exact9lines;not reproof",
     "path": "papers/damping-output-boundaries/manuscript/maxwell-paper-compact-v002.md",
@@ -769,7 +769,7 @@
     "sha256": "1c68afccee269708ac857adb74b98b94433deccbae6d972da4e239ac4191643b",
     "status": "R022 published and remoteSHA verified; reviewed stage integration only"
   },
-  "checkpoint_closed_at": "2026-10-18T05:40:28.656328+08:00",
+  "checkpoint_closed_at": "2026-10-18T05:57:46.250013+08:00",
   "last_push_R022": {
     "commit": "fa302ee040925391a04c8a3f7b895f5d3f2a8e0e",
     "remote_verified": true,
@@ -799,7 +799,7 @@
   "narrative_v001_pending": {
     "path": "papers/damping-output-boundaries/manuscript/maxwell-paper-narrative-v001.md",
     "sha256": "98de2905d9871dffa5a39b9ec61d5d9d84edc6607a7ea25c609dd6c61611b320",
-    "status": "Three reviews+root bound; held for one inverse-domain terminology mustfix. New v002 and fixedD appendix-v002 writer active; no unchanged adoption."
+    "status": "Historical failed-term v001 published only with original M1 reports, root erratum and corrected current v002; not endorsed unchanged"
   },
   "C038_terminology_erratum": {
     "record": "R023-C038-terminology-erratum-v001.md",
@@ -834,11 +834,44 @@
   "manuscript_narrative_v002": {
     "path": "papers/damping-output-boundaries/manuscript/maxwell-paper-narrative-v002.md",
     "sha256": "af496eafe3996eb73f48be5be5722ebfa895265fd4965af204ab30f9c58d5911",
-    "status": "root+original full reviews except M1+R047 limited repair accepted; stage only, publication pending"
+    "status": "R024 published and remoteSHA verified; reviewed stage integration, not final topic/priority/engineering claim"
   },
   "manuscript_fixed_dissipation_peak_appendix_v002": {
     "path": "papers/damping-output-boundaries/manuscript/maxwell-fixed-dissipation-peak-appendix-v002.md",
     "sha256": "c36bbd54984e119de7ca89b25f3bc651ce92e90bc13e3dcaf1c67d3cf6843f5f",
-    "status": "limited terminology repair reviewed, formulas unchanged, publication pending"
+    "status": "R024 published and remoteSHA verified; only terminology/version repaired, formulas unchanged"
+  },
+  "last_push_R024": {
+    "commit": "bdb7828fc43cef94fba05fea1c683de099201931",
+    "remote_verified": true,
+    "attempts": 1,
+    "file_count": 75,
+    "receipt": "R024-push.json"
+  },
+  "C042_local_adoption": {
+    "record": "C042-adoption-v001.json",
+    "sha256": "bd9d26f3bc7fa952d45a43d21055044981a263c11b3faaa791dbe94f9c9275ce",
+    "published": false,
+    "new_appendix": "Unique writer continuous-velocity-endpoints-v001 <=8min; freeze then limited independent integration"
+  },
+  "active_post_R024_tasks": {
+    "writing": "maxwell-continuous-velocity-endpoints-v001.md <=8m active, currentmainv002 frozen unchanged",
+    "verification": "R048/post frozen,awaitnew appendix",
+    "ideation": "R034 frozen and C042adopted, idle",
+    "literature": "R031 frozen2query/0newbody, exactcoverageunknown",
+    "experiments": "R026 frozen/idle",
+    "novelty": "R028 frozen/idle"
+  },
+  "R025_review": {
+    "record": "R025-adoption.json",
+    "sha256": "51371f5de54cb4ead986656f5e3852fb87ea5ad57b5fcae1835c68c46d3335ac",
+    "scope": "Reviewed C042 proof and faithful6equation appendix; old plain v001 held for omitted-alpha clarification, current v002 repaired and engineering/prior-art scope checked. Actual engineering and exact prior publication remain unresolved. No new dataset/ODE/solver."
+  },
+  "current_plain_summary": "阶段结论-白话-v002.md",
+  "priorart_status_table": "同条件排重-结论表-v001.md",
+  "manuscript_continuous_velocity_endpoints_v001": {
+    "path": "papers/damping-output-boundaries/manuscript/maxwell-continuous-velocity-endpoints-v001.md",
+    "sha256": "3de22587466e7546385db5c8109e1ab855fc8124c053e183c50f90e5925cf47f",
+    "status": "root +R049 integration accepted, stage only publication pending"
   }
 }

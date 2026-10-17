@@ -1,0 +1,51 @@
+{
+  "round": "R049",
+  "started_at": "2026-10-18T06:02:19.427055+08:00",
+  "limit_seconds": 360,
+  "task_deadline": "2026-10-18T06:08:19.427055+08:00",
+  "frozen_at": "2026-10-18T06:04:07.298457+08:00",
+  "within_limit": true,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "finite_source_identities": 12,
+  "finite_sources_unchanged": true,
+  "static_QA": {
+    "sections": 4,
+    "equation_tags": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "links_exist": 5,
+    "utf8_lf": true,
+    "trailing_whitespace": false
+  },
+  "math_review": "manual mathematical integration; static QA is only ancillary",
+  "must_fix_count": 0,
+  "new_ODE_numerics_arrays_sources": false,
+  "old_shared_manuscript_Git_modified": false,
+  "outputs": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R049-continuous-velocity-appendix-integration/report.md",
+      "bytes": 3956,
+      "sha256": "ac1a7f080880de0a1b04f1d40f972d6e8b40df008e9927a6cad48bd75f1a2888"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R049-continuous-velocity-appendix-integration/findings.json",
+      "bytes": 1077,
+      "sha256": "d009ba7f0b3cb010d4384863b69aa8b8e02f9f20d8933b48663a44d3c71bdec5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R049-continuous-velocity-appendix-integration/freeze_review.py",
+      "bytes": 4597,
+      "sha256": "fdf4cf883b7626ed46eefa2f3f4d87fb79914e8697031e2c0c0d85d3a64900f3"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R049-continuous-velocity-appendix-integration/source-freeze.json",
+      "bytes": 3918,
+      "sha256": "09b6d52895e1efaa5fab3b2d1bc1c818d122f26361f4d9b5638699b461eea3e9"
+    }
+  ]
+}

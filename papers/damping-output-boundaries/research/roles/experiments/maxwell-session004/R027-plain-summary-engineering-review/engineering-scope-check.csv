@@ -1,0 +1,12 @@
+﻿check,stage_line,result,engineering_scope
+stage_not_final,3,pass,明确窗口内阶段说明
+bound_not_peak_reduction,11,pass,较小上限不能单证真实峰下降
+no_force_relocation_forecast,11,pass,不搬用旧布置受力作预测
+old_elastic_5_8,17,pass,0/附加3非新Maxwell开关对照
+no_invented_damping_choice,19,pass,不假造档位优选
+actual_C_full_force_reference,19,pass,背景C/全力/匹配参考不能省略
+true_D_not_port_work,25,pass,不将端口功当真D
+193_and_common192,35,pass,193与32×6=192不混同
+three_families_six_cases,35,pass,非六独立事件
+conditional_fit_not_reduction,35,pass,条件拟合不升格减幅
+endpoint_projection_reduces_nodes,41,pass,减少全楼节点而非省略物理接口

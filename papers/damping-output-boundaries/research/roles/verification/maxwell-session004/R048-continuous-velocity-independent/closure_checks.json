@@ -1,0 +1,20 @@
+{
+  "method": "symbolic proof with three independent adversarial reviews; these booleans are a manual obligation ledger, not numerical tests",
+  "checks": {
+    "lower_equality_forces_internal_zero_to_V_jump": true,
+    "upper_equality_forces_internal_V_to_minus_V_jump": true,
+    "signed_endpoint_and_zero_set_cases_checked": true,
+    "ramps_preserve_velocity_bound_and_continuity": true,
+    "endpoint_parameter_maps_continuous_and_strictly_monotone": true,
+    "fixed_brackets_persist_by_uniform_L1_continuous_dependence": true,
+    "IVT_enforces_exact_terminal_force_for_each_ramp": true,
+    "parameter_roots_converge_to_old_switches": true,
+    "uniform_force_and_dissipation_convergence": true,
+    "minimal_time_attainment_exception": true,
+    "no_complete_continuous_D_range_or_fixed_D_peak_claim": true
+  },
+  "logical_gaps_found": 0,
+  "ode_runs": 0,
+  "data_arrays": 0,
+  "numerical_examples": 0
+}

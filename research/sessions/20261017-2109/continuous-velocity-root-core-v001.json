@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-18T05:51:39.634361+08:00",
+  "status": "Root full proof review passed within scope; independent R048 pending. Not adopted or in R024.",
+  "checked_small_file_identities": {
+    "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R034-continuous-velocity-endpoints/author-crosscheck.json": "f9cf8638c6b939357f28e90ad3ad49a395a216b9c507d93457cff3dc5d194ce9",
+    "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R034-continuous-velocity-endpoints/report.md": "f1fcbbb2f3e97c058b7e81c067f30b502520ccbd864140673668708af52dbe11",
+    "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R034-continuous-velocity-endpoints/source-freeze.json": "e292d79b78ee9d13406b9553b83771b5066acbefa103687e4d193ed59d80010b",
+    "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R034-continuous-velocity-endpoints/validation.json": "abf91709c0f9e89dcc3452ec1fd6ab038f8254a6782f26633ae9e6d8945f2f4c",
+    "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R034-continuous-velocity-endpoints/artifact-manifest.json": "094ca1682aee6987027713c624484a299ca6fa34612f6073e643d52d6aa942e1",
+    "research/sessions/20261017-2109/continuous-velocity-endpoint-protocol-v001.md": "f35827742390ab05619900a422cdb7afc2fd1f83ce2c894b8ec628265549ab87",
+    "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/report.md": "9d037f1409d384d5a86d41b608971669890a22309574f05940459548c16ad0d6",
+    "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R009-nonzero-terminal-force/report.md": "80eada1fa18980877fac82c0860224cff4ca2944655912c5ea2d696371fd9893",
+    "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/非零末力耗散峰力区间独审-R017.md": "5a3596a03e9508861ccfda513ee170addf62c29a35ef97e4ed9e33a3db4c5c6d",
+    "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R029-fixed-dissipation-peak-inverse/report.md": "c6cc612de443a58642a20d7cdb10a054fb00d051d827a33f2f44b1ac0fcdc910",
+    "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/report.md": "3773b2bb6f8556af5f49dd1ec945f6d929a9e938fd692b7417e220a26d8c5294",
+    "research/sessions/20261017-2109/continuous-velocity-root-candidate-v001.md": "83f66a7930073a74bb3dc21257e0bd4a54351b32e9d92271da273672ffb4f3ed"
+  },
+  "root_independent_notes_written_before_reading_R034": true,
+  "proof_review": [
+    "q>=1 makes g C1 with nonnegative secant bounded by qV/B. Variation of constants proves L1 contraction and strict terminal comparison; LP=(q+1)V correct.",
+    "Signed Psi exact D-Dmin identity includes negative force; equality requires v=V on all nonzero-force components, excludes negative components, forces a unique final fast positive branch and earlier zero force/control. Positive waiting time makes continuity impossible.",
+    "Dmax forces peakMT by strict U. Both radial shortest-time deficits sum to0, so each is0 a.e.; sign cannot switch along positive radial path and terminal+h selects positive sign. Internal V-to-minusV jump violates continuity.",
+    "Lower ramp location and upper centered-ramp location each strictly bracket exact final h at parameter endpoints. Continuous terminal map IVT yields calibrated parameter for EVERY epsilon, not merely limiting terminal force.",
+    "Lower/upper L1 ramp-plus-shift bounds2Veps/3Veps are valid triangle areas. Uniform force contraction and cost Lipschitz make costs converge to old endpoints.",
+    "T=tmin constantV remains feasible and continuous singleton; v0/vT, acceleration, full continuous D set, fixedD peak set, alpha>1 and actual building are not claimed."
+  ],
+  "comparison_to_root_notes": "Same independent result. Author signed primitive is cleaner than root positive-part argument. Root used loose8Veps for upper smoothing; author3Veps remains valid.",
+  "metadata_first_attempt": "Relative session Path.relative_to(absolute root) raised ValueError before writing output. Corrected session absolute path; no scientific source changed or scientific program run.",
+  "science_programs_arrays_or_ODE_executed": false,
+  "immutable_output": true
+}

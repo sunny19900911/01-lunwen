@@ -1,0 +1,80 @@
+{
+  "claim": "M-C042",
+  "admission_authority": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\C042-adoption-v001.json",
+    "bytes": 6490,
+    "sha256": "bd9d26f3bc7fa952d45a43d21055044981a263c11b3faaa791dbe94f9c9275ce"
+  },
+  "mathematical_status": "supported / analytic-derivation / reviewed, solely per C042-adoption-v001",
+  "writing_status": "Standalone appendix candidate author-frozen pending independent integration review; no main manuscript change.",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\C042-adoption-v001.json",
+      "bytes": 6490,
+      "sha256": "bd9d26f3bc7fa952d45a43d21055044981a263c11b3faaa791dbe94f9c9275ce"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R034-continuous-velocity-endpoints\\report.md",
+      "bytes": 7141,
+      "sha256": "f1fcbbb2f3e97c058b7e81c067f30b502520ccbd864140673668708af52dbe11"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R048-continuous-velocity-independent\\report.md",
+      "bytes": 6525,
+      "sha256": "fb2868540d569662bf991a1147ff26f98b8022aae2c6d0730c66f4bf68287312"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R048-continuous-velocity-independent\\post-freeze-comparison\\report.md",
+      "bytes": 2715,
+      "sha256": "da6306bca306e9bbf2ea69ef1d1353c601418b2d033068396cc975064fd4e268"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\continuous-velocity-endpoint-protocol-v001.md",
+      "bytes": 1438,
+      "sha256": "f35827742390ab05619900a422cdb7afc2fd1f83ce2c894b8ec628265549ab87"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-fixed-dissipation-peak-appendix-v002.md",
+      "bytes": 6768,
+      "sha256": "c36bbd54984e119de7ca89b25f3bc651ce92e90bc13e3dcaf1c67d3cf6843f5f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\非零末力耗散峰力区间独审-R017.md",
+      "bytes": 7166,
+      "sha256": "5a3596a03e9508861ccfda513ee170addf62c29a35ef97e4ed9e33a3db4c5c6d"
+    }
+  ],
+  "mapping": [
+    {
+      "section": 1,
+      "line": 5,
+      "equations": "1-2",
+      "content": "0<alpha<=1; continuous bounded v, AC states, F0=0/FT=h>0, free totaldelta, no endpointv/acceleration restriction; full old tau/Phi/Lh/U functions, Dmin/Dmax and strict U.",
+      "source": "Reviewed R034 section1, R048 section1; old M-C018 and fixed-D-v002"
+    },
+    {
+      "section": 2,
+      "line": 40,
+      "equations": "3-4",
+      "content": "Signed Psi lower identity, negative/zero-set equality rigidity; upper D equality locks MT and both time inequalities, forcing internal +/-V jump.",
+      "source": "R034 sections3/5; R048 sections2/3; post-freeze comparison items1/2"
+    },
+    {
+      "section": 3,
+      "line": 62,
+      "equations": "5-6",
+      "content": "Two amplitude-preserving ramp families, shrinking parameter brackets, strict terminal signs and IVT roots; each trajectory exactFT=h; author contraction/cost bound and L1<=2Veps/3Veps yield sharp inf/sup.",
+      "source": "R034 sections2/4/6, postcomparison items3-5; R048 independently uses a fixed bracket/exponential estimate with same conclusion. Only the reviewed author constants are transcribed."
+    },
+    {
+      "section": 4,
+      "line": 97,
+      "content": "T=tmin constantV attained; no full continuousD open interval/fixedD peakset, alpha>1, endpointv, acceleration, closure, building/FNA or priority claim.",
+      "source": "R034 section7; R048 section7; root adopted scope exclusions"
+    }
+  ],
+  "no_new_scientific_derivation_or_numeric_result": true,
+  "notation": "Reviewed author q/g/r/P/tauh/Lh/U,wstar,sstar; superscript-/+ distinguish lower/upper ramp families, not force sign. All formula coefficients inherited.",
+  "publication": "C042 local post-R024 admission was outside bdb7828. New appendix eligible only after independent integration review and next checkpoint.",
+  "old_source_candidate_labels": "Historical and unchanged; not used as current claim state."
+}

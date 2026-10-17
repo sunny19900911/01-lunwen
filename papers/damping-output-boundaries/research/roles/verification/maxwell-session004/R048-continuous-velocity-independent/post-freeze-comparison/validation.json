@@ -1,0 +1,26 @@
+{
+  "started_at": "2026-10-18T05:53:29.349391+08:00",
+  "limit_seconds": 90,
+  "deadline": "2026-10-18T05:54:59.349391+08:00",
+  "frozen_at": "2026-10-18T05:54:14.762042+08:00",
+  "within_limit": true,
+  "original_R048_and_author_unchanged": true,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "outputs": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R048-continuous-velocity-independent/post-freeze-comparison/report.md",
+      "bytes": 2715,
+      "sha256": "da6306bca306e9bbf2ea69ef1d1353c601418b2d033068396cc975064fd4e268"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R048-continuous-velocity-independent/post-freeze-comparison/compare_freeze.py",
+      "bytes": 2975,
+      "sha256": "7688782c283c6fa64b97537502d9df2881457dc34f840e07279d4eadd99d3353"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R048-continuous-velocity-independent/post-freeze-comparison/comparison_checks.json",
+      "bytes": 3397,
+      "sha256": "00eb293dc60fc4b75ec3481d755ef4529834731edcfc1fd4d997002e000c0dd6"
+    }
+  ]
+}
