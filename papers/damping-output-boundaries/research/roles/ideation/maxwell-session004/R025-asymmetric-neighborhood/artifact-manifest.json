@@ -1,0 +1,35 @@
+{
+  "round": "R025-asymmetric-neighborhood",
+  "artifacts": [
+    {
+      "file": "author-crosscheck.json",
+      "bytes": 1621,
+      "sha256": "f0fa79082fa8f006e32cc3f79fc535c61afa1204800e18708839f06af8cfacb2"
+    },
+    {
+      "file": "checks.json",
+      "bytes": 1049,
+      "sha256": "39bf057b74bb3d7688ce73166953ddbf6984365b71e076de423878689084761d"
+    },
+    {
+      "file": "checks.py",
+      "bytes": 3604,
+      "sha256": "978d504475fc83bf0548e81a5629b6440097d75cc6d7cf704bbf49db28aa4782"
+    },
+    {
+      "file": "report.md",
+      "bytes": 6653,
+      "sha256": "002da4c102b207a9f50fa9e8882142b231a27ef99e69c6dbab20db0e18944046"
+    },
+    {
+      "file": "source-freeze.json",
+      "bytes": 2860,
+      "sha256": "9f2bd5174c61579c2dafe3facde4eb40f47d6058b462607cd2ebc4693be699c5"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 3791,
+      "sha256": "de3f2ae380e1b2f4d1a40b8a8e48b225ec6b3b6bc2aeae791d0c636ebb161793"
+    }
+  ]
+}

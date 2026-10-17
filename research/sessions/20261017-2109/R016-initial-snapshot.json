@@ -1,0 +1,205 @@
+{
+  "at": {
+    "current_time": "2026-10-17 19:19:45 UTC"
+  },
+  "polls": [
+    {
+      "schemaVersion": 1,
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:85",
+      "revision": 85,
+      "changed": false,
+      "thread": {
+        "id": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b45-3e54-7b00-b5f1-4e4774fb316f",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792264191,
+        "completedAt": 1792264468,
+        "durationMs": 276908
+      },
+      "latestAssistantMessageId": "msg_0fdbbf9b10a3adb0016ad3c9143a648195b8f6aa649db2f438",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": "exec-3bce1e88-7ef1-4a29-a5e3-5855e9faec41",
+      "latestToolMarker": null
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:121",
+      "revision": 121,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7fe0-75f3-8671-bcd59e413052",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b4c-94e1-7011-a3bb-e29c98c8de31",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792264672,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_058500d59acbf314016ad3c9ecf87081969cfdc2765374e6e5",
+      "latestAssistantMessage": {
+        "id": "msg_058500d59acbf314016ad3c9ecf87081969cfdc2765374e6e5",
+        "turnId": "01a14b4c-94e1-7011-a3bb-e29c98c8de31",
+        "phase": "commentary",
+        "text": "我会在 R034 核查整个不对称参数邻域的证明，重点确认终态全状态界的来源、同布局误差估计和停载后的无限尾界。保留原阈值与 (C_0)，只做精确标量和小矩阵检查，不运行作者脚本或读取 NPZ。"
+      },
+      "latestToolMarkerId": "exec-9351e565-7a91-4cc1-b1c8-2481c5eb8154",
+      "latestToolMarker": {
+        "id": "exec-9351e565-7a91-4cc1-b1c8-2481c5eb8154",
+        "turnId": "01a14b4c-94e1-7011-a3bb-e29c98c8de31",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:72",
+      "revision": 72,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b4c-96a6-7a73-82d8-41dd881bfba8",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792264672,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_01c40afd2e9956f9016ad3c9edc3f08190a7a84cf0317a9bb4",
+      "latestAssistantMessage": {
+        "id": "msg_01c40afd2e9956f9016ad3c9edc3f08190a7a84cf0317a9bb4",
+        "turnId": "01a14b4c-96a6-7a73-82d8-41dd881bfba8",
+        "phase": "commentary",
+        "text": "我会逐流重算 RH4X 的 P-I、P-J 和 U1 缺口，核对88个 Name+Story 键、筛选清单及批次集合。不会用成对完整数推断单流覆盖；未保留的双键身份继续标作待核，并保留筛选预览要求。本轮只审导出清单，不读时程数组或推断物理精度。"
+      },
+      "latestToolMarkerId": "exec-9bd72151-6f80-4646-bd00-5caf650acd2a",
+      "latestToolMarker": {
+        "id": "exec-9bd72151-6f80-4646-bd00-5caf650acd2a",
+        "turnId": "01a14b4c-96a6-7a73-82d8-41dd881bfba8",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:61",
+      "revision": 61,
+      "changed": false,
+      "thread": {
+        "id": "01a14756-8805-7a42-b910-ae973f55d73e",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b46-eeae-75c1-adf8-0073253c9d7d",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792264302,
+        "completedAt": 1792264570,
+        "durationMs": 268711
+      },
+      "latestAssistantMessageId": "msg_09fe3e55758f973c016ad3c97a5e6c81938d79f3f87afe76f0",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": "exec-3500ad05-0f3a-4bca-8f1e-93a39188c5c1",
+      "latestToolMarker": null
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:66",
+      "revision": 66,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b4c-9a7a-73f3-9b1b-8329906b32e8",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792264673,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_09505bd600c2eded016ad3ca3d510881908d227301644e1aab",
+      "latestAssistantMessage": {
+        "id": "msg_09505bd600c2eded016ad3ca3d510881908d227301644e1aab",
+        "turnId": "01a14b4c-9a7a-73f3-9b1b-8329906b32e8",
+        "phase": "commentary",
+        "text": "新稿的主线已收束：工程审计报告“现有记录支持到哪里”，合成例说明“整体能量为何不能唯一确定固定局部峰”，再用条件力接口和带余项峰规则连接两者。C031只保留为有限实现诊断，明确两算法比较了4项统计和四点8值，避免写成整条预测时程逐点一致。"
+      },
+      "latestToolMarkerId": "exec-c4360b23-bece-49b1-87ff-519b08c4df97",
+      "latestToolMarker": {
+        "id": "exec-c4360b23-bece-49b1-87ff-519b08c4df97",
+        "turnId": "01a14b4c-9a7a-73f3-9b1b-8329906b32e8",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:39",
+      "revision": 39,
+      "changed": true,
+      "thread": {
+        "id": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b4c-98b1-7ee3-b754-c2c97f71ae3f",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792264673,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_0d8e1b978b923a60016ad3c9ed41a08197b27f6e02ee011cf2",
+      "latestAssistantMessage": {
+        "id": "msg_0d8e1b978b923a60016ad3c9ed41a08197b27f6e02ee011cf2",
+        "turnId": "01a14b4c-98b1-7ee3-b754-c2c97f71ae3f",
+        "phase": "commentary",
+        "text": "我会核对 R025 和冻结协议，评估非对称邻域扩展能回应哪些局限，并区分峰值分离、能量同史和观测容差三种主张。数学正确性留给 R034；本轮只写贡献边界及可用、禁止措辞，冻结后停止。"
+      },
+      "latestToolMarkerId": "exec-de4b346c-9bd9-4548-a5f2-eba1739e64cf",
+      "latestToolMarker": {
+        "id": "exec-de4b346c-9bd9-4548-a5f2-eba1739e64cf",
+        "turnId": "01a14b4c-98b1-7ee3-b754-c2c97f71ae3f",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "at": {
+    "current_time": "2026-10-17 19:17:03 UTC"
+  },
+  "polls": [
+    {
+      "schemaVersion": 1,
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:85",
+      "revision": 85,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b45-3e54-7b00-b5f1-4e4774fb316f",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792264191,
+        "completedAt": 1792264468,
+        "durationMs": 276908
+      },
+      "latestAssistantMessageId": "msg_0fdbbf9b10a3adb0016ad3c9143a648195b8f6aa649db2f438",
+      "latestAssistantMessage": {
+        "id": "msg_0fdbbf9b10a3adb0016ad3c9143a648195b8f6aa649db2f438",
+        "turnId": "01a14b45-3e54-7b00-b5f1-4e4774fb316f",
+        "phase": "final_answer",
+        "text": "R025 已冻结并交主控，等待独审。在原 C025 合同下，整个 (|a|\\le10^{-6}) 连续族通过原定阈值：A全时峰<1.35、B固定T幅值>8.80、峰差>7.45。 论证与验证报告已包含完整状态门、存在唯一性及无限尾推导。Fraction检查全部通过；未运行ODE或读取数组。本轮已停止。"
+      },
+      "latestToolMarkerId": "exec-3bce1e88-7ef1-4a29-a5e3-5855e9faec41",
+      "latestToolMarker": {
+        "id": "exec-3bce1e88-7ef1-4a29-a5e3-5855e9faec41",
+        "turnId": "01a14b45-3e54-7b00-b5f1-4e4774fb316f",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:120",
+      "revision": 120,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7fe0-75f3-8671-bcd59e413052",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b45-3cc5-71c2-8e9a-0e5217e85776",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792264191,
+        "completedAt": 1792264490,
+        "durationMs": 299359
+      },
+      "latestAssistantMessageId": "msg_058500d59acbf314016ad3c92870e88196808c908e315ff02f",
+      "latestAssistantMessage": {
+        "id": "msg_058500d59acbf314016ad3c92870e88196808c908e315ff02f",
+        "turnId": "01a14b45-3cc5-71c2-8e9a-0e5217e85776",
+        "phase": "final_answer",
+        "text": "R033 已冻结并回传主控，0 项必须修改。 闭合式、质量尺度、交叉核及非零初态补项核验通过，极小精确 Schur 挑战通过。结论限于条件等价，未证明存在唯一性、算法收敛或工程可运行性。 查看审查报告。已停笔。"
+      },
+      "latestToolMarkerId": "exec-363ace77-6023-4069-a6c0-ce89b5095c51",
+      "latestToolMarker": {
+        "id": "exec-363ace77-6023-4069-a6c0-ce89b5095c51",
+        "turnId": "01a14b45-3cc5-71c2-8e9a-0e5217e85776",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:71",
+      "revision": 71,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b40-9ca6-7c41-aeea-6ef54c192e74",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792263888,
+        "completedAt": 1792264350,
+        "durationMs": 462810
+      },
+      "latestAssistantMessageId": "msg_01c40afd2e9956f9016ad3c89e40708190a407a59bbed187fc",
+      "latestAssistantMessage": {
+        "id": "msg_01c40afd2e9956f9016ad3c89e40708190a407a59bbed187fc",
+        "turnId": "01a14b40-9ca6-7c41-aeea-6ef54c192e74",
+        "phase": "final_answer",
+        "text": "R020核查完成，0项必须修改，已冻结并回报主控。FOH权重、索引、补零及标量挑战均通过；未将全窗统计与四点一致性扩大为两条时程逐点一致。 查看报告"
+      },
+      "latestToolMarkerId": "exec-80fe4f40-3ea2-4d2c-96cc-69d6710d8480",
+      "latestToolMarker": {
+        "id": "exec-80fe4f40-3ea2-4d2c-96cc-69d6710d8480",
+        "turnId": "01a14b40-9ca6-7c41-aeea-6ef54c192e74",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:61",
+      "revision": 61,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8805-7a42-b910-ae973f55d73e",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b46-eeae-75c1-adf8-0073253c9d7d",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792264302,
+        "completedAt": 1792264570,
+        "durationMs": 268711
+      },
+      "latestAssistantMessageId": "msg_09fe3e55758f973c016ad3c97a5e6c81938d79f3f87afe76f0",
+      "latestAssistantMessage": {
+        "id": "msg_09fe3e55758f973c016ad3c97a5e6c81938d79f3f87afe76f0",
+        "turnId": "01a14b46-eeae-75c1-adf8-0073253c9d7d",
+        "phase": "final_answer",
+        "text": "R021已冻结并回报主线程：RH4X需补 55只P；若走Keff残余路线，另补 23只U1。88只总清单、筛选ID和分批计划已核验。 使用说明 逐器件原始键对照未保留，已明确标注；导出前须预览核对。未访问原Excel、NPZ或数组，当前批次已停止。"
+      },
+      "latestToolMarkerId": "exec-3500ad05-0f3a-4bca-8f1e-93a39188c5c1",
+      "latestToolMarker": {
+        "id": "exec-3500ad05-0f3a-4bca-8f1e-93a39188c5c1",
+        "turnId": "01a14b46-eeae-75c1-adf8-0073253c9d7d",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:65",
+      "revision": 65,
+      "changed": false,
+      "thread": {
+        "id": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b3a-4ffa-7613-967e-001fea8ee7c5",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792263475,
+        "completedAt": 1792263709,
+        "durationMs": 234069
+      },
+      "latestAssistantMessageId": "msg_09505bd600c2eded016ad3c61d647c8190b789b56344e595ce",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": "exec-8d632c1d-ed4d-4efd-b590-ce56f6de70d4",
+      "latestToolMarker": null
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:38",
+      "revision": 38,
+      "changed": false,
+      "thread": {
+        "id": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14b3e-541c-7fb3-90e5-00bde97553d2",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792263738,
+        "completedAt": 1792263925,
+        "durationMs": 186847
+      },
+      "latestAssistantMessageId": "msg_0d8e1b978b923a60016ad3c6f37a58819798da4fbbe8476d38",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": "exec-906288b1-5045-4725-94e4-915de3de31ee",
+      "latestToolMarker": null
+    }
+  ]
+}

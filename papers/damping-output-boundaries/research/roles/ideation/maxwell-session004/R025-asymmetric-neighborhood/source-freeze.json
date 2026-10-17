@@ -1,0 +1,60 @@
+{
+  "round": "R025-asymmetric-neighborhood",
+  "start": "2026-10-18T03:09:58+08:00",
+  "deadline": "2026-10-18T03:19:58+08:00",
+  "overall_deadline": "2026-10-18T07:09:45+08:00",
+  "frozen_at": "2026-10-18T03:10:58.119297+08:00",
+  "sources": [
+    {
+      "path": "research/sessions/20261017-2109/asymmetric-neighborhood-protocol-v001.md",
+      "bytes": 2532,
+      "sha256": "55e5906515e9dc0f4e069b3325e4acb46dbd61922a4c9019adb8255ef93f79f5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R016-mechanism-contribution-boundary/report.md",
+      "bytes": 11455,
+      "sha256": "c9f2a30e69cec3bb267f50c9851541ad15732e753e63888ab9b4f2704a4cbd6f"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R011-nonlinear-certificate-adoption.json",
+      "bytes": 4484,
+      "sha256": "cebfd63ace6e66e83a9d884e640043b6bdd2f547b618924d1f7d2a3d4e00dc99"
+    },
+    {
+      "path": "research/sessions/20261017-2109/layout-nonlinear03-protocol-v001.json",
+      "bytes": 2341,
+      "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R015-residual-certificate/report.md",
+      "bytes": 10391,
+      "sha256": "99dc012fea9d62b34f224bd24d626ec04cb54c8a6980110444ae1b522efa8ff9"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/全残差误差储能与中点预算独审-R024.md",
+      "bytes": 7124,
+      "sha256": "a9c2980a50f06577242582a416b7dbd1593b03bb9bf7c142f88795945253980e"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/非线性交换与条件尾能量独审-R023.md",
+      "bytes": 5477,
+      "sha256": "68c436540dd4747988f06f7e5bf2dd61ad61bda9395607e221850fa9a1b4c478"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R025/report.md",
+      "bytes": 7323,
+      "sha256": "66f510510a1f659a996920c14bb5c73e8211bd48c9c147806f3e829a6c704b85"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R015-outward-residual-certificate/v002-run/summary_r015.json",
+      "bytes": 7833,
+      "sha256": "c988d2eee1b6fce80b3838fc954a4cc8eaa3c5c3a7b61ef052f0df29bee57398"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R015-outward-residual-certificate/v002-run/enclose_residual_budget_v002.py",
+      "bytes": 14024,
+      "sha256": "e46c63bc85ed2a00828a5877b0ce3f7131c3e8b386368cdcc6b645a87bdd7942"
+    }
+  ],
+  "scope": "Analytic fixed continuous family only. No ODE, parameter sweep, solver, arrays/NPZ, original tables, external search, or edits outside this new directory."
+}

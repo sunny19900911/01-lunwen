@@ -1,0 +1,30 @@
+{
+  "all_passed": true,
+  "arithmetic": "fractions.Fraction",
+  "linear_special_case_only": true,
+  "cases": [
+    {
+      "s": "1/2",
+      "direct_equals_feedback": true,
+      "cross_port_kernel_nonzero": true
+    },
+    {
+      "s": "1",
+      "direct_equals_feedback": true,
+      "cross_port_kernel_nonzero": true
+    },
+    {
+      "s": "3",
+      "direct_equals_feedback": true,
+      "cross_port_kernel_nonzero": true
+    }
+  ],
+  "nonzero_initial_affine_signs": true,
+  "not_proved_by_samples": [
+    "nonlinear equivalence",
+    "rational function identity",
+    "existence/uniqueness",
+    "algorithm convergence",
+    "engineering model certification"
+  ]
+}

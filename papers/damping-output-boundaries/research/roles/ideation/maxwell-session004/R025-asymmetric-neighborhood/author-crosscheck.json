@@ -1,0 +1,31 @@
+{
+  "status": "author-side crosschecks only; role2 independent audit pending",
+  "reviews": [
+    {
+      "agent": "peak_bound_audit",
+      "result": "proof route and signs correct; no must-fix",
+      "findings": [
+        "error forcing is -a D u0 and instantaneous residual norm is |a| ||u0||",
+        "Ka gives correct difference-state energy; zero regularization yields R_e<=40sqrt2 |a|t",
+        "Ka<=(1+mu)K0 supports full-state tail conversion",
+        "full nominal state radius comes directly from complete terminal energy and error budget",
+        "positive definite storage plus locally Lipschitz g gives unique global solution for each parameter",
+        "fixed uniform early/tail/lower constants justify strict supremum conclusions",
+        "same-a symmetry histories not retained; exchange maps a to -a"
+      ]
+    },
+    {
+      "agent": "spectral_zero_order",
+      "result": "nominal complete-state gate and frozen thresholds pass",
+      "findings": [
+        "Fraction confirms original sqrt upper squared covers 2Eupper",
+        "exact binary64 sqrt upper plus I_total is below 1.098",
+        "summary and adoption SHA/binary64 hex identities agree",
+        "complete terminal state includes kinetic, physical spring and device spring energy",
+        "original machine/parameter/runtime contracts remain conditional",
+        "own slightly tighter sqrt(1+mu)<1+mu/2 gives same threshold verdict; final report conservatively uses 1.000001"
+      ]
+    }
+  ],
+  "implementation_scope": "No reviewer read arrays or ran ODE; only frozen reports, small summaries and exact rational checks."
+}

@@ -1,0 +1,29 @@
+{
+  "required_changes": 0,
+  "scope": "Exact frozen scalar/binary64 endpoint and symbolic 2x2 determinant identities only; no ODE, spectral scan or source script execution.",
+  "complete_terminal_energy_three_components_and_total_checked": true,
+  "sqrt_upper_square_margin_exact": "11417573964725601/5192296858534827628530496329220096",
+  "nominal_true_full_state_radius_bound_exact": "79088490536262609/72057594037927936",
+  "nominal_radius_lt_1_098": true,
+  "not_inferred_from_output_tail": true,
+  "root_C025_hex_and_source_identities_match": true,
+  "pi_upper_independently_enclosed_by_Machin_Fraction": true,
+  "mu_exact": "1/1000000",
+  "q_bounds_both_square_verified": true,
+  "rho_H_rational_upper": "3267/153125",
+  "rho_T_rational_upper": "1089/306250",
+  "uniform_constants_exact_decimal": {
+    "early": "1.34634002134",
+    "tail": "1.119342217341098",
+    "B_fixed_T_lower": "8.805443996444",
+    "gap_lower": "7.459103975104"
+  },
+  "fixed_thresholds_passed": true,
+  "all_parameter_SPD_and_norm_comparisons_by_symbolic_determinants": true,
+  "exchange_maps_a_to_minus_a_not_same_a_history": true,
+  "fixed_C0_not_reset_to_modal5percent": true,
+  "source_count": 17,
+  "sources_unchanged": true,
+  "NPZ_arrays_ODE_helper_source_execution_or_spectral_scan": false,
+  "inherited_contract": "All adopted C025 mathematical/model/parameter/helper/decoding/machine/runtime conditions remain required; no engineering tolerance or priority claim."
+}

@@ -1,0 +1,85 @@
+{
+  "task": "R021 bounded exportcoverage/collection audit",
+  "checks": {
+    "88_source_Name_Story_unique": true,
+    "88_output_Name_Story_property_and_source_rows": true,
+    "all88_stream_fields_source_transcription": true,
+    "all88_independent_stream_status": true,
+    "raw_key_unknown_retained_all88": true,
+    "RH4X_case_window_locked": true,
+    "33_33_65_from_each_stream": true,
+    "need55P23U1_from_each_stream": true,
+    "needed_P_zero_rows_both_ends": true,
+    "needed_U1_zero_rows": true,
+    "P_filter_TXT_and_expected_set_exact": true,
+    "P_filter_source_rows_Story_case": true,
+    "P_batch_partition_no_duplicates_or_gaps": true,
+    "P_batch_Story_count_rows_formula": true,
+    "U1_filter_TXT_and_expected_set_exact": true,
+    "U1_filter_source_rows_Story_case": true,
+    "U1_batch_partition_no_duplicates_or_gaps": true,
+    "U1_batch_Story_count_rows_formula": true,
+    "10_batches_7P3U1": true,
+    "source_manifest7files_identity_match": true,
+    "delivery_manifest10files_match": true
+  },
+  "stream_complete_counts": {
+    "I": 33,
+    "J": 33,
+    "U": 65
+  },
+  "needed_counts": {
+    "P": 55,
+    "U1": 23
+  },
+  "plans": {
+    "P": {
+      "needed": 55,
+      "batches": 7,
+      "total_conditional_rows": 275110,
+      "max_conditional_rows": 40016
+    },
+    "U1": {
+      "needed": 23,
+      "batches": 3,
+      "total_conditional_rows": 57523,
+      "max_conditional_rows": 20008
+    }
+  },
+  "P_U1_missing_set_overlap_expected": 23,
+  "P_I_J_union_count": 33,
+  "all88_transcribed_stream_fields_count": 1408,
+  "source_unique_Assignment_Name_Story_rows": 88,
+  "schema_preservation": "raw dualkey equality unknown_not_retained preserved; counts depend on inheritedcanonical grouping; preview required",
+  "scope": "smallCSV/dictionary/set arithmetic only; no arrays/workbook/author execution/solver",
+  "mustfix": [],
+  "status": "0 mustfix; passed static/independent smallCSV-set/source transcription audit only",
+  "frozen_at": "2026-10-18T03:21:34.223685+08:00",
+  "elapsed_seconds": 208.223685,
+  "within_8_minutes": true,
+  "all_initial_inputs_unchanged": true,
+  "all_additional_small_sources_unchanged": true,
+  "independent_perstream_criterion": "n2501 and eachstreammissing/extra/dup0 plus aggregateinvalid0; no paircount substitution",
+  "raw_key_scope": "all88 Name/Story/source-row matched, rawUniqueName/LinkElement unknown_not_retained preserved; preview required before selecting",
+  "batch_scope": "P2locations/U1one per element; current oneElementperDevice assumption explicit; rawmultiplicity and otherstreams not certified",
+  "collaborators": {
+    "weng2016_source": "0must; code and independent smallCSV/perstream/set/batch checks",
+    "local_literature": "0must; assignedsource keys/rows and allfilter/TXT/batch sets checked"
+  },
+  "prohibited_action_counts": {
+    "rawExcel_NPZ_timearrays_ProgramControlvalues": 0,
+    "author_program_extraction_solver": 0,
+    "network": 0,
+    "source_otherrole_shared_Git_writes": 0
+  },
+  "input_rules": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R021-RH4X-export-list-review\\input-rules-R021.json",
+    "bytes": 7000,
+    "sha256": "5a846c408367ae94a0a08bdad16b467dcec3e8969a95d4d293315e71b8d986f6"
+  },
+  "output_report": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R021-RH4X-export-list-review\\R021-RH4X-export-list-review.md",
+    "bytes": 6072,
+    "sha256": "1561b91a5794c9f4c2978f01a98c0beb212df5b3ae2e3bf1da845ccf2a37a30c"
+  }
+}

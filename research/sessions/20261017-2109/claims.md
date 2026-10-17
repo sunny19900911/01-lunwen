@@ -130,3 +130,6 @@ M-C009 proposed/analytic-derivation candidate：在已知单轴Maxwell本构、�
 
 
 2026-10-18T03:14:40.050350+08:00 R015：M-C030 supported/analytic-derivation reviewed，经R023/R032及根全文准入经典有限窗峰区间充分规则，保留共同U误差、PL断点并集/含端点Lipschitz门、未知余项不补零；区间重叠仅本规则无法裁决，不否定实际改善。M-C031 supported/numerical-test reviewed有限同源力重放：R031代码/低维审与根不同FFT算法实际98305点对D缓存复算、角色3R020源码/极小挑战通过；两算法仅4项max/RMS统计+四固定点8值比较，最大差1.92873495e−13，不能称两条预测时程逐点全窗已比较或真连续误差证书/外验/新布局预测。实际字段图由角色4R020独审，88共Link1/U1摘要和新300阶结果存在但参数明细0行，背景C/参考K/基/端口/全F仍缺，非工程认证。三式力接口附稿经R017+根全文/101小文件身份准入。新反馈闭环R024和小非对称候选均待审不升级。
+
+
+2026-10-18T03:30:45.058175+08:00 R016：M-C032 supported/analytic-derivation reviewed，R024/R033与根全文/源身份准入经典全端口反馈Volterra条件等价，保留交叉核、尺度、非零初态和正则性；未证明算法收敛或实际接口可跑。M-C033 supported/analytic-derivation+继承validated-numerics reviewed：R025/R034+根完整推导与62小文件身份/精确有理检查准入固定一维|a|≤1e−6族A全峰<1.35/B固定T>8.80/gap>7.45。H完整状态半径来自原三角式sqrt上端+I而非输出尾；固定物理C0不重设每阶5%，非零a不保能量/器件同史，仅排除峰差限精确对称孤立点，不是工程容差或有限精度能量非辨识。RH4X导出筛选经角色3独审及根代码/小CSV计数准入网格派生清单，P-I/P-J各33完整、U1 65完整，需补P55/Keff路线U1 23，原双键仍unknown需预览。M-C034 proposed/analytic-derivation candidate为经典BE端口步/离散能量合同；M-C035 testing/numerical-test candidate为仅模型输入的两档前向BE小试，作者报预设细档u1误差门未过，根实现审与独审未完成，不作真实精度或实际建筑结论。

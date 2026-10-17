@@ -1,0 +1,32 @@
+{
+  "status": "author-side only; independent role2 review pending",
+  "reviewers": [
+    {
+      "agent": "peak_bound_audit",
+      "result": "equations and signs correct under stated conditions",
+      "findings": [
+        "same nonzero body initial states enter u_U; device F0 enters integrated compatibility",
+        "different body initial states require bare homogeneous difference",
+        "no extra body initial-force homogeneous term",
+        "H_B inverse and full row rank of B not required",
+        "arbitrary dashpot initial displacement allowed with consistent reference"
+      ]
+    },
+    {
+      "agent": "spectral_zero_order",
+      "result": "closure and scope correct; all recommendations incorporated",
+      "findings": [
+        "forward needs full H_B and delta_U, target additionally y_U and target-port kernel",
+        "new B requires new coupled force solution",
+        "nonclassical C admits matrix impulse, incomplete Ritz needs residual",
+        "bare K/full F versus effective K/residual remain paired",
+        "same-source replay or closure agreement is not independent prediction validation"
+      ]
+    }
+  ],
+  "accepted_changes": [
+    "explicitly state no H_B invertibility requirement",
+    "make target reference response and target-port kernel inputs explicit",
+    "state same-source closure reproduction not independent external validation"
+  ]
+}

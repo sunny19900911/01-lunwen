@@ -1,0 +1,54 @@
+{
+  "started_at": "2026-10-18T03:18:06+08:00",
+  "completed_at": "2026-10-18T03:21:25.167562+08:00",
+  "time_limit_minutes": 8,
+  "elapsed_seconds": 199.167562,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Contribution boundary frozen;mathematics reserved for R034;stop after delivery",
+  "semantic_mustfix": 0,
+  "mathematical_verdict": "Not assessed;R034 work not read or prefilled",
+  "R025_status": "Frozen author candidate at reviewed snapshot",
+  "contribution": "Conditional one-dimensional tiny stiffness-asymmetry family for fixed-u1 full-peak separation;not new energy indistinguishability theorem",
+  "nonzero_a_same_history": "Not guaranteed/not claimed;not universal inequality of every history",
+  "finite_precision_energy_indistinguishability": "Not established;observation metric,noise/quantization/tolerance and certified energy-history difference missing",
+  "damping": "Physical C0 fixed;does not guarantee uniform modal 5percent after Ka change",
+  "mu": "Dimensionless frozen one-direction budget;not engineering tolerance",
+  "classical_source_locations": [
+    "Camlibel/van der Schaft arXiv2206.09139v1 PDF6 Eqs3.4-3.5,PDF23 Eqs7.1-7.3 Proposition7.1",
+    "Khalil Lecture21 PDF3-8;dissipation-integral scope only"
+  ],
+  "source_scope": "Frozen original-source locations reused;no invented continuous-dependence theorem page",
+  "publication_priority": "Unresolved;no first claim",
+  "input_files_checked": 13,
+  "input_changed": [],
+  "author_artifact_identities_checked": 6,
+  "author_artifact_changed": [],
+  "old_novelty_frozen_files_checked": 65,
+  "old_changed": [],
+  "R017_preserved": true,
+  "readonly_subreview": 1,
+  "subreview_files_created": false,
+  "new_queries": 0,
+  "downloads_or_failed_download_retries": 0,
+  "NPZ_Excel_or_arrays_read": false,
+  "ODE_or_certificate_recomputed": false,
+  "new_proof": false,
+  "author_shared_or_git_changed": false,
+  "local_links_checked": 6,
+  "broken_links": [],
+  "trailing_whitespace": [],
+  "control_characters": [],
+  "malformed_tables": [],
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 4665,
+      "sha256": "f701799c25e475381c94d6a6aaee747b467947e808136f67e1c7e8cc33b37a0e"
+    },
+    {
+      "file": "report.md",
+      "bytes": 9227,
+      "sha256": "66f1ce1430a7dbf2255c87e339f47c88dee9a658349f8efe8008b9c856f86e98"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "all_passed": true,
+  "arithmetic": "fractions.Fraction",
+  "source_sha_unchanged": true,
+  "adoption_matching_frozen_source_identities": true,
+  "sqrt_upper_squared_covers_twice_complete_Eupper": true,
+  "nominal_complete_state_radius_upper_exact": "79088490536262609/72057594037927936",
+  "nominal_state_radius_below_1_098": true,
+  "rho_H_rational_upper": "3267/153125",
+  "rho_T_rational_upper": "1089/306250",
+  "uniform_early_upper": "67317001067/50000000000",
+  "uniform_tail_upper": "559671108670549/500000000000000",
+  "uniform_fixed_T_lower": "2201360999111/250000000000",
+  "uniform_gap_lower": "116548499611/15625000000",
+  "strict_thresholds": {
+    "A_fullpeak_lt_1_35": true,
+    "B_fixed_T_gt_8_80": true,
+    "gap_gt_7_45": true
+  },
+  "not_executed": [
+    "ODE",
+    "parameter sweep",
+    "solver",
+    "helper import",
+    "NPZ/array read",
+    "external search"
+  ],
+  "inherited_scope": "Root C025 adoption and its original mathematical, parameter, machine, helper, decoding and runtime assumptions remain conditional."
+}
