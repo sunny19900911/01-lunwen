@@ -1,0 +1,31 @@
+{
+  "round": "R028-finite-observation-neighbor",
+  "start": "2026-10-18T04:05:44+08:00",
+  "deadline": "2026-10-18T04:15:44+08:00",
+  "overall_deadline": "2026-10-18T07:09:45+08:00",
+  "frozen_at": "2026-10-18T04:05:54.222677+08:00",
+  "sources": [
+    {
+      "path": "research/sessions/20261017-2109/finite-observation-neighbor-protocol-v001.md",
+      "bytes": 2167,
+      "sha256": "cbab6d483e835f05abe08d8468a7c89a9566dd5faa7eef8db5762b4ef472e0b4"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R025-asymmetric-neighborhood/report.md",
+      "bytes": 6653,
+      "sha256": "002da4c102b207a9f50fa9e8882142b231a27ef99e69c6dbab20db0e18944046"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R034-asymmetric-neighborhood-review/report.md",
+      "bytes": 6568,
+      "sha256": "7f4216a52c25b381ad5a21989e28f0388b39823013d172a68d99f1508e660013"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R018-asymmetry-contribution/report.md",
+      "bytes": 9227,
+      "sha256": "66f1ce1430a7dbf2255c87e339f47c88dee9a658349f8efe8008b9c856f86e98"
+    }
+  ],
+  "scope": "Classical finite-observation error-set candidate only. No time integration, arrays/NPZ, parameter sweep, external search or writes outside own new directory.",
+  "required_sources_added_at": "2026-10-18T04:07:48.103723+08:00"
+}

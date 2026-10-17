@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1200" height="840" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1200 840" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1200" height="840"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-840)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1200" height="840" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="339.0" y="793" style="font-family: SimHei; font-size: 29px;fill: rgb(9%,17%,25%); stroke:none;" transform="translate(0,1586) scale(1,-1)">同一耗能历史，固定位置的峰值仍可不同</text>
+			<text x="362.0" y="765" style="font-family: SimHei; font-size: 17px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,1530) scale(1,-1)">C025 · 无量纲双质量连接拓扑示意 · 不表示楼层或真实几何</text>
+			<text x="338.75" y="724" style="font-family: SimHei; font-size: 19px;fill: rgb(9%,17%,25%); stroke:none;" transform="translate(0,1448) scale(1,-1)">同一主体 M/K/C（物理C相同）  ·  同一器件 κ、c，α=0.3</text>
+			<text x="374.75" y="690" style="font-family: SimHei; font-size: 17px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,1380) scale(1,-1)">共同有限输入：0—20π为同向正弦，之后为0；全部初态为0</text>
+			<text x="415.5" y="650" style="font-family: SimHei; font-size: 18px;fill: rgb(64%,26%,23%); stroke:none;" transform="translate(0,1300) scale(1,-1)">固定目标始终是u1，只有Maxwell连接端口改变</text>
+			<rect x="25" y="256" width="550" height="365" rx="10" ry="10" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<text x="47" y="592" style="font-family: SimHei; font-size: 21px;fill: rgb(9%,17%,25%); stroke:none;" transform="translate(0,1184) scale(1,-1)">布局A：器件接质量1</text>
+			<rect x="131" y="500" width="68" height="44" rx="6" ry="6" style="stroke: rgb(64%,26%,23%); stroke-linecap: butt; stroke-width: 2.7; fill: rgb(100%,97%,96%); fill-rule: evenodd;"/>
+			<text x="143.75" y="515" style="font-family: SimHei; font-size: 17px;fill: rgb(9%,17%,25%); stroke:none;" transform="translate(0,1030) scale(1,-1)">质量1</text>
+			<text x="118.25" y="564" style="font-family: SimHei; font-size: 17px;fill: rgb(64%,26%,23%); stroke:none;" transform="translate(0,1128) scale(1,-1)">固定目标 u1</text>
+			<path d="M 165,500 L 165,480 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 165,480 L 193,480 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<polyline points="193 480, 193 470, 199 460.5, 187 451, 199 441.5, 187 432, 199 422.5, 187 413, 199 403.5, 187 394, 199 384.5, 193 375, 193 365" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<text x="165.0" y="340" style="font-family: SimHei; font-size: 14px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,680) scale(1,-1)">对地弹性</text>
+			<path d="M 165,480 L 137,480 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<polyline points="137 480, 137 470, 143 467.2, 131 464.4, 143 461.6, 131 458.8, 143 456, 131 453.2, 143 450.4, 131 447.6, 143 444.8, 137 442, 137 432" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5; fill: None; fill-rule: evenodd;"/>
+			<path d="M 137,432 L 137,420 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 127,420 L 147,420 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 127,420 L 127,394 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 147,420 L 147,394 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 130,400 L 144,400 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 137,400 L 137,383 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 137,383 L 137,365 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<text x="71.0" y="423" style="font-family: SimHei; font-size: 14px;fill: rgb(73%,41%,25%); stroke:none;" transform="translate(0,846) scale(1,-1)">Maxwell</text>
+			<rect x="411" y="500" width="68" height="44" rx="6" ry="6" style="stroke: rgb(21%,36%,47%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="423.75" y="515" style="font-family: SimHei; font-size: 17px;fill: rgb(9%,17%,25%); stroke:none;" transform="translate(0,1030) scale(1,-1)">质量2</text>
+			<text x="436.5" y="564" style="font-family: SimHei; font-size: 17px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,1128) scale(1,-1)">u2</text>
+			<path d="M 445,500 L 445,480 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 445,480 L 473,480 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<polyline points="473 480, 473 470, 479 460.5, 467 451, 479 441.5, 467 432, 479 422.5, 467 413, 479 403.5, 467 394, 479 384.5, 473 375, 473 365" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<text x="445.0" y="340" style="font-family: SimHei; font-size: 14px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,680) scale(1,-1)">对地弹性</text>
+			<polyline points="199 522, 211 522, 226.6667 528, 242.3333 516, 258 528, 273.6667 516, 289.3333 528, 305 516, 320.6667 528, 336.3333 516, 352 528, 367.6667 516, 383.3333 528, 399 522, 411 522" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<text x="248.75" y="544" style="font-family: SimHei; font-size: 15px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,1088) scale(1,-1)">正连接 ε=0.001</text>
+			<path d="M 90,365 L 520,365 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 95,365 L 89,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 108,365 L 102,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 121,365 L 115,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 134,365 L 128,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 147,365 L 141,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 160,365 L 154,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 173,365 L 167,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 186,365 L 180,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 199,365 L 193,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 212,365 L 206,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 225,365 L 219,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 238,365 L 232,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 251,365 L 245,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 264,365 L 258,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 277,365 L 271,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 290,365 L 284,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 303,365 L 297,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 316,365 L 310,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 329,365 L 323,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 342,365 L 336,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 355,365 L 349,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 368,365 L 362,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 381,365 L 375,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 394,365 L 388,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 407,365 L 401,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 420,365 L 414,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 433,365 L 427,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 446,365 L 440,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 459,365 L 453,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 472,365 L 466,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 485,365 L 479,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 498,365 L 492,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 511,365 L 505,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="275.0" y="318" style="font-family: SimHei; font-size: 12px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,636) scale(1,-1)">固定参考端</text>
+			<text x="241.25" y="294" style="font-family: SimHei; font-size: 15px;fill: rgb(21%,36%,47%); stroke:none;" transform="translate(0,588) scale(1,-1)">A：真实全时绝对峰</text>
+			<text x="257.75" y="265" style="font-family: SimHei; font-size: 27px;fill: rgb(21%,36%,47%); stroke:none;" transform="translate(0,530) scale(1,-1)">&lt; 1.325</text>
+			<rect x="625" y="256" width="550" height="365" rx="10" ry="10" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<text x="647" y="592" style="font-family: SimHei; font-size: 21px;fill: rgb(9%,17%,25%); stroke:none;" transform="translate(0,1184) scale(1,-1)">布局B：同一器件接质量2</text>
+			<rect x="731" y="500" width="68" height="44" rx="6" ry="6" style="stroke: rgb(64%,26%,23%); stroke-linecap: butt; stroke-width: 2.7; fill: rgb(100%,97%,96%); fill-rule: evenodd;"/>
+			<text x="743.75" y="515" style="font-family: SimHei; font-size: 17px;fill: rgb(9%,17%,25%); stroke:none;" transform="translate(0,1030) scale(1,-1)">质量1</text>
+			<text x="718.25" y="564" style="font-family: SimHei; font-size: 17px;fill: rgb(64%,26%,23%); stroke:none;" transform="translate(0,1128) scale(1,-1)">固定目标 u1</text>
+			<path d="M 765,500 L 765,480 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 765,480 L 793,480 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<polyline points="793 480, 793 470, 799 460.5, 787 451, 799 441.5, 787 432, 799 422.5, 787 413, 799 403.5, 787 394, 799 384.5, 793 375, 793 365" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<text x="765.0" y="340" style="font-family: SimHei; font-size: 14px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,680) scale(1,-1)">对地弹性</text>
+			<rect x="1011" y="500" width="68" height="44" rx="6" ry="6" style="stroke: rgb(21%,36%,47%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="1023.75" y="515" style="font-family: SimHei; font-size: 17px;fill: rgb(9%,17%,25%); stroke:none;" transform="translate(0,1030) scale(1,-1)">质量2</text>
+			<text x="1036.5" y="564" style="font-family: SimHei; font-size: 17px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,1128) scale(1,-1)">u2</text>
+			<path d="M 1045,500 L 1045,480 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 1045,480 L 1073,480 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<polyline points="1073 480, 1073 470, 1079 460.5, 1067 451, 1079 441.5, 1067 432, 1079 422.5, 1067 413, 1079 403.5, 1067 394, 1079 384.5, 1073 375, 1073 365" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<text x="1045.0" y="340" style="font-family: SimHei; font-size: 14px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,680) scale(1,-1)">对地弹性</text>
+			<path d="M 1045,480 L 1017,480 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<polyline points="1017 480, 1017 470, 1023 467.2, 1011 464.4, 1023 461.6, 1011 458.8, 1023 456, 1011 453.2, 1023 450.4, 1011 447.6, 1023 444.8, 1017 442, 1017 432" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5; fill: None; fill-rule: evenodd;"/>
+			<path d="M 1017,432 L 1017,420 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 1007,420 L 1027,420 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 1007,420 L 1007,394 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 1027,420 L 1027,394 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 1010,400 L 1024,400 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 1017,400 L 1017,383 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 1017,383 L 1017,365 Z" style="stroke: rgb(73%,41%,25%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<text x="951.0" y="423" style="font-family: SimHei; font-size: 14px;fill: rgb(73%,41%,25%); stroke:none;" transform="translate(0,846) scale(1,-1)">Maxwell</text>
+			<polyline points="799 522, 811 522, 826.6667 528, 842.3333 516, 858 528, 873.6667 516, 889.3333 528, 905 516, 920.6667 528, 936.3333 516, 952 528, 967.6667 516, 983.3333 528, 999 522, 1011 522" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<text x="848.75" y="544" style="font-family: SimHei; font-size: 15px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,1088) scale(1,-1)">正连接 ε=0.001</text>
+			<path d="M 690,365 L 1120,365 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 695,365 L 689,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 708,365 L 702,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 721,365 L 715,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 734,365 L 728,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 747,365 L 741,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 760,365 L 754,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 773,365 L 767,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 786,365 L 780,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 799,365 L 793,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 812,365 L 806,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 825,365 L 819,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 838,365 L 832,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 851,365 L 845,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 864,365 L 858,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 877,365 L 871,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 890,365 L 884,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 903,365 L 897,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 916,365 L 910,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 929,365 L 923,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 942,365 L 936,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 955,365 L 949,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 968,365 L 962,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 981,365 L 975,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 994,365 L 988,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 1007,365 L 1001,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 1020,365 L 1014,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 1033,365 L 1027,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 1046,365 L 1040,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 1059,365 L 1053,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 1072,365 L 1066,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 1085,365 L 1079,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 1098,365 L 1092,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 1111,365 L 1105,358 Z" style="stroke: rgb(29%,36%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="875.0" y="318" style="font-family: SimHei; font-size: 12px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,636) scale(1,-1)">固定参考端</text>
+			<text x="830.0" y="294" style="font-family: SimHei; font-size: 15px;fill: rgb(73%,41%,25%); stroke:none;" transform="translate(0,588) scale(1,-1)">B：真实固定T绝对幅值</text>
+			<text x="857.75" y="265" style="font-family: SimHei; font-size: 27px;fill: rgb(73%,41%,25%); stroke:none;" transform="translate(0,530) scale(1,-1)">&gt; 8.809</text>
+			<text x="402.0" y="225" style="font-family: SimHei; font-size: 22px;fill: rgb(9%,17%,25%); stroke:none;" transform="translate(0,450) scale(1,-1)">两布局的全时绝对峰差：B − A &gt; 7.485</text>
+			<text x="392.0" y="202" style="font-family: SimHei; font-size: 13px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,404) scale(1,-1)">仅显示认证界，不是实测峰；差额由原有向端点给出，不由显示小数相减</text>
+			<rect x="50" y="122" width="1100" height="61" rx="7" ry="7" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="320.99999999999994" y="159" style="font-family: SimHei; font-size: 18px;fill: rgb(21%,36%,47%); stroke:none;" transform="translate(0,318) scale(1,-1)">相同：所列整体储能、背景/器件耗散、输入功，以及器件F、总δ历史</text>
+			<text x="502.5" y="136" style="font-family: SimHei; font-size: 13px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,272) scale(1,-1)">同定义能量比仅在分母非零时相同</text>
+			<text x="397.5" y="98" style="font-family: SimHei; font-size: 18px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,196) scale(1,-1)">u2交换；两位置全局最大值相同。A并非整体更优。</text>
+			<text x="335.5" y="59" style="font-family: SimHei; font-size: 23px;fill: rgb(9%,17%,25%); stroke:none;" transform="translate(0,118) scale(1,-1)">整体耗能相同，不能唯一确定某一位置的最大反应。</text>
+			<text x="383.0" y="24" style="font-family: SimHei; font-size: 14px;fill: rgb(29%,36%,41%); stroke:none;" transform="translate(0,48) scale(1,-1)">经典构造 · 条件数值合同见C025采用记录 · 非真实建筑或布置建议</text>
+		</g>
+	</g>
+</svg>

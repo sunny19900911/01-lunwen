@@ -1,0 +1,47 @@
+{
+  "status": "frozen conditional mathematical candidate; independent role2 audit pending",
+  "start": "2026-10-18T04:05:44+08:00",
+  "completed_at": "2026-10-18T04:10:07.361736+08:00",
+  "elapsed_seconds": 263.362,
+  "within_10_minutes": true,
+  "overall_deadline_unchanged": "2026-10-18T07:09:45+08:00",
+  "source_checks": [
+    {
+      "path": "research/sessions/20261017-2109/finite-observation-neighbor-protocol-v001.md",
+      "sha256": "cbab6d483e835f05abe08d8468a7c89a9566dd5faa7eef8db5762b4ef472e0b4",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R025-asymmetric-neighborhood/report.md",
+      "sha256": "002da4c102b207a9f50fa9e8882142b231a27ef99e69c6dbab20db0e18944046",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R034-asymmetric-neighborhood-review/report.md",
+      "sha256": "7f4216a52c25b381ad5a21989e28f0388b39823013d172a68d99f1508e660013",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R018-asymmetry-contribution/report.md",
+      "sha256": "66f1ce1430a7dbf2255c87e339f47c88dee9a658349f8efe8008b9c856f86e98",
+      "unchanged": true
+    }
+  ],
+  "checks_all_passed": true,
+  "QA": "UTF8/LF, final newline, trailing whitespace, JSON parse and normalized local Markdown links passed.",
+  "files_checked_before_validation": [
+    "author-crosscheck.json",
+    "checks.json",
+    "checks.py",
+    "report.md",
+    "source-freeze.json"
+  ],
+  "scope": "Only own new R028 directory written. No time integration, trajectory/NPZ/array read, parameter sweep, new solver, external search, original engineering tables, or old/shared/manuscript/Git edits.",
+  "limits": [
+    "Original C025/C033 conditional model and arithmetic assumptions remain for inherited true-peak gap.",
+    "Six explicit finite-window bounds prove an error-ball overlap contract, not bitwise quantization identity.",
+    "The same nonzero parameter is used for both layouts, selected after finite H/scales/eta are fixed.",
+    "Estimator lower bound is at a common permissible record, with no actual spatial B identity given.",
+    "No infinite-window, all-noise-law, full-parameter-open-ball, engineering tolerance or publication-priority claim."
+  ]
+}

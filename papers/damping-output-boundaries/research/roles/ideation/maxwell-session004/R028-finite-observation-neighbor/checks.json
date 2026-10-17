@@ -1,0 +1,20 @@
+{
+  "all_passed": true,
+  "arithmetic": "fractions.Fraction",
+  "energy_metric_change_term_nonzero_and_correct": true,
+  "background_power_difference_identity": true,
+  "nonlinear_derivative_exponents_and_integral_factors": true,
+  "observation_min_branches": [
+    {
+      "active": "eta/Cobs",
+      "nonzero_a_and_common_error_ball": true
+    },
+    {
+      "active": "mu/2",
+      "nonzero_a_and_common_error_ball": true
+    }
+  ],
+  "two_point_triangle_example": true,
+  "quantization_boundary_counterexample": true,
+  "scope": "Isolated synthetic identities only. General inequalities and quantifiers are proved in report. No temporal integration, trajectory, NPZ/array read or model-parameter sweep."
+}

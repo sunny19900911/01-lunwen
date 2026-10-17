@@ -1,0 +1,8 @@
+{
+  "source_at_read": "research/sessions/20261017-2109/claims.md",
+  "sha256": "8140c0690e9195809cb3b1e2d718e48149bff92e5a0d824d66a99063517c3a30",
+  "historical_copy": "research/sessions/20261017-2109/R019-source-snapshots/claims-read-before-R019.md",
+  "source_commit": "b80475bc6255c97b43d106e276a8efbe74b8ade1",
+  "why": "R023 read live root ledger before R019 update;recover exact alreadycommitted prior bytes,not rewrite role23 or current ledger",
+  "scientific_anchors": "15 independent fixed proof/records unchanged"
+}

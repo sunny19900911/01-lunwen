@@ -1,0 +1,67 @@
+{
+  "validated_at": "2026-10-18T04:14:18.985033+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v003.md",
+    "bytes": 11264,
+    "sha256": "8c92fc07944df70491931733530902b7bd4e2d577b508fe5004741dcade06095"
+  },
+  "passed": true,
+  "scope": "Author minimalintegration QA only;awaitindependentreview.",
+  "checks": {
+    "v002_original_SHA_unchanged": true,
+    "reverse_only3_additions_plus_version_recovers_v002_exact": true,
+    "abstract_byte_identical": true,
+    "five_section_headings_identical": true,
+    "both_original_tables_byte_identical": true,
+    "all3_display_formulas_byte_identical": true,
+    "s0_support_shared_d_and_C031_scope_lines_exact": true,
+    "Correia_2024_author_extended_institution_identity": true,
+    "prior_indicator_increase_supported": true,
+    "units_synchronous_model_conditions_notclosed": true,
+    "not_first_or_complete_duplicate": true,
+    "no_invented_journal_DOI_peerreview_status": true,
+    "one_repo_relative_PNG_embed": true,
+    "inline_figure_has_scope_and_full_links": true,
+    "original_full_IEEE_contract_retained": true,
+    "ending_plan_link_not_test_pass": true,
+    "no_C036_R028_or_engineering_toygate_added": true,
+    "18_finite_direct_sources_SHA_bound": true,
+    "figurePNG_matches_current_root": true,
+    "figureSVG_matches_current_root": true,
+    "v002_plan_current_admission_identity": true,
+    "Correia_current_boundary_matches_root": true,
+    "R019_root_review_SHA_binding": true,
+    "20_old_manifests117_entries_unchanged": true,
+    "theoryv007_unchanged": true,
+    "all_repo_links_resolve": true,
+    "only_external_link_is_recorded_institution_primary": true,
+    "short_body_under3500_CJK": true,
+    "two_tables3columns4rows_unchanged_width": true,
+    "git_diff_whitespace_clean": true
+  },
+  "body_CJK_characters": 2277,
+  "formula_blocks": 3,
+  "tables": 2,
+  "table_widths": [
+    {
+      "columns": 3,
+      "data_rows": 4,
+      "max_cell_characters": 27
+    },
+    {
+      "columns": 3,
+      "data_rows": 4,
+      "max_cell_characters": 35
+    }
+  ],
+  "embedded_PNGs": 1,
+  "repo_links": 10,
+  "external_links": [
+    "https://fenix.tecnico.ulisboa.pt/downloadFile/3378094857519319/Extend_Paper_Dissipadores_Energia.pdf"
+  ],
+  "external_primary_network_opened": false,
+  "direct_sources": 18,
+  "protected_manifests": 20,
+  "protected_file_entries": 117,
+  "limits": "No newscientificproof,rawpaper/arrayread,replay,solver,figuregeneration orshared/Git mutation. ExistingPNG reused unchanged."
+}

@@ -1,0 +1,14 @@
+{
+  "all_passed": true,
+  "arithmetic": "fractions.Fraction",
+  "energy_explicit_metric_change_nonzero": true,
+  "background_power_polarization_identity": true,
+  "power_derivative_exponents": true,
+  "cumulative_integral_factor": true,
+  "both_min_branches_nonzero_and_common_midpoint_in_ball": true,
+  "same_finite_window_gap": "116548499611/15625000000",
+  "same_finite_window_half_gap": "116548499611/31250000000",
+  "quantization_boundary_counterexample": true,
+  "fixed_pair_small_radius_disjoint_counterexample": true,
+  "scope": "Tiny exact algebra only; general proof is in report. No trajectories, arrays, ODE, parameter sweep, author code execution, external search or NPZ."
+}

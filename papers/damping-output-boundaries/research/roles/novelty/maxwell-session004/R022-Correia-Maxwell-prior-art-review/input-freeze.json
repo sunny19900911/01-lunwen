@@ -1,0 +1,83 @@
+{
+  "started_at": "2026-10-18T04:01:23+08:00",
+  "frozen_at": "2026-10-18T04:04:47.758435+08:00",
+  "limit_minutes": 10,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "scope": "Independent local primary-page and printed-number prior-art audit only;no search/download/arrays/solver/manuscript/shared/Git",
+  "root_primary_read_levels": {
+    "images_actually_viewed": [
+      "soft-07.png",
+      "soft-08.png",
+      "soft-09.png"
+    ],
+    "PDF_direct_text": "pdftotext PDF7-9 to stdout",
+    "cached_text": "PDF1 title/date,PDF3 and5 context,PDF6 full section,PDF7-9 text;initial full-cache output truncated so not claim full ten-page proof review"
+  },
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\report.md",
+      "bytes": 7668,
+      "sha256": "a11833b4d3a5e55814185567d96ffcca2ff997b8d74f3c8988528be9cfa53fc0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\source-manifest-R025.json",
+      "bytes": 4850,
+      "sha256": "9e119700b59a3e3d560d0c8607503634fbd8688f9fd1fbb5295ec1d83dbb181a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\freeze-R025.json",
+      "bytes": 2372,
+      "sha256": "e64918fb1c351adbbe2313ab5413320eb412f6e8cc838e4d33b5fc71d09199d8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\soft_floors.pdf",
+      "bytes": 2083356,
+      "sha256": "b7caa4faf066bcd759d9f95a79f420c752f908d75889f5ece983e2bfd103f21f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\soft_floors.txt",
+      "bytes": 42559,
+      "sha256": "a3dbf6d49a3087afcc591235699dc9598715acecf368b519cfdc1195000a1170"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\soft-07.png",
+      "bytes": 599114,
+      "sha256": "67dd198ec0e98932b6d7889342d8a2af9504c774ef79698c493df6851e969abc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\soft-08.png",
+      "bytes": 527013,
+      "sha256": "dc5c7cb29e19ed6a3335936bd9b64c6e90544e52371c87d6663e866bc3458033"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\soft-09.png",
+      "bytes": 460037,
+      "sha256": "2ed1f5e5e66241c89b0a3ae3528cf71e639b054bd7cf7a84513b9a5011890d27"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R013\\report.md",
+      "bytes": 10440,
+      "sha256": "daf784f407ad41ff69e0239d516a8f549b8c8e51d5485f445cc7a771ccd333e3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R016-mechanism-contribution-boundary\\report.md",
+      "bytes": 11455,
+      "sha256": "c9f2a30e69cec3bb267f50c9851541ad15732e753e63888ab9b4f2704a4cbd6f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R013-addition-certificate-adoption.json",
+      "bytes": 10512,
+      "sha256": "836a0d6e8e551dd594770fe1421f49780636cdb2d9d2c8cdbd2fd878cc2b729f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R011-nonlinear-certificate-adoption.json",
+      "bytes": 4484,
+      "sha256": "cebfd63ace6e66e83a9d884e640043b6bdd2f547b618924d1f7d2a3d4e00dc99"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+      "bytes": 2341,
+      "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+    }
+  ]
+}

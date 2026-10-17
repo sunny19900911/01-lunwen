@@ -1,0 +1,31 @@
+{
+  "status": "author-side checks only; independent role2 audit pending",
+  "reviews": [
+    {
+      "agent": "peak_bound_audit",
+      "result": "all six proposed coefficient bounds and state/derivative premises correct",
+      "findings": [
+        "full-state R=40sqrt2 is from passivity/input L1, not output tail",
+        "energy same-Ka norm decomposition plus explicit a*u0^T D u0/2 is required and correct",
+        "background cumulative factor and device-power derivative Lp=13/3*c^-10/3*P^10/3 are correct",
+        "W difference uses input cutoff and weighted integral; force and total delta use nominal same-history only at a=0",
+        "AB coefficients equal the two within-layout budgets summed",
+        "geometric inverse-stiffness factor named chi to avoid conflict with power exponent"
+      ]
+    },
+    {
+      "agent": "spectral_zero_order",
+      "result": "observation-ball construction and single-value two-point lower bound correct with stated quantifiers",
+      "findings": [
+        "a depends on predeclared finite H/scales/eta; no fixed nonzero a for arbitrary precision/window",
+        "common midpoint record lies within eta/2 of both centers",
+        "existence of one common permissible record yields worst-case at-least-one-side error, not all records indistinguishable",
+        "only common auxiliary information is allowed; actual B/spatial layout label is excluded",
+        "extra noise laws/quantizers/physical restrictions require a new admissible-set contract",
+        "record can be continuous-time despite finite window and finite number of quantity types"
+      ]
+    }
+  ],
+  "edge_case": "C_obs is strictly positive by the chosen E coefficient and positive finite s_E, so eta/C_obs is defined. General zero-constant edge case is not invoked.",
+  "publication_boundary": "Classical tools, particular conditional-certificate increment; no new literature read or first-claim. Correia statement attributed only to frozen root protocol."
+}

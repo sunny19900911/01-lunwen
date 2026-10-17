@@ -1,0 +1,35 @@
+{
+  "round": "R028-finite-observation-neighbor",
+  "artifacts": [
+    {
+      "file": "author-crosscheck.json",
+      "bytes": 1988,
+      "sha256": "437cbdc1624a0a27a2e73426f1109c8ccbb718f778b674e79e4bfd6e927d665a"
+    },
+    {
+      "file": "checks.json",
+      "bytes": 710,
+      "sha256": "2b127f6754052390c341e7d9d286d965fd866e7fbd19eab87b7a36d0726521a3"
+    },
+    {
+      "file": "checks.py",
+      "bytes": 3027,
+      "sha256": "ea05076064a81a0006b1b72d08d2f2400a4803665e8402ae73afd488afff93eb"
+    },
+    {
+      "file": "report.md",
+      "bytes": 7760,
+      "sha256": "5b351b23bdc604a35ff3fbe102a394c18c1d83f79d40f1da4ce255dd6cb1629a"
+    },
+    {
+      "file": "source-freeze.json",
+      "bytes": 1460,
+      "sha256": "568a6827d05dac4ddb857a3edf7d84020a788cf35913b88a2bd9bb9f4b7f0965"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 2388,
+      "sha256": "ca1cf01bf218128d1aca0283bd9cf4ded9298d1b53880ba2ede6d3132b313099"
+    }
+  ]
+}

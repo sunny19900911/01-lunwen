@@ -1,0 +1,75 @@
+{
+  "version": "v003",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v003.md",
+    "bytes": 11264,
+    "sha256": "8c92fc07944df70491931733530902b7bd4e2d577b508fe5004741dcade06095"
+  },
+  "predecessor": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v002.md",
+    "bytes": 9871,
+    "sha256": "02ae657ba2d49cf270cacd2a0860fc8d44d041d8dd5b7a643d0efd47caeaa890"
+  },
+  "input_freeze": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\compact-paper-v003\\input-freeze.json",
+    "bytes": 16467,
+    "sha256": "8f235419cff95441cb400a5d1b2f81bd9307a8dc8bf208465279d2dc227b0194"
+  },
+  "diff": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\compact-paper-v003\\v002-to-v003.diff",
+    "bytes": 4919,
+    "sha256": "8e702be76c6665a343a997d32e63cd9590567b41822e270751921c37b9f1138b"
+  },
+  "changes": [
+    {
+      "section": "Version metadata",
+      "scope": "Newversionawaitsindependentintegration;v001failure/v002repair preserved."
+    },
+    {
+      "section": "1/newCorreia paragraph",
+      "sources": [
+        "research/sessions/20261017-2109/R019-core-adoption.json",
+        "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R025-nonlinear-displacement-prior-art/report.md",
+        "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R025-nonlinear-displacement-prior-art/source-manifest-R025.json",
+        "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R022-Correia-Maxwell-prior-art-review/report.md"
+      ],
+      "scope": "2024ISTauthor extended paper,broadnonlinearMaxwelldisplacement/driftindicatorincrease known;units/synchronouspeak/modelpairing notclosed;neitherfirst norcompletesameconditionduplicate. Nojournal,peerreviewstatusorDOI invented."
+    },
+    {
+      "section": "4/embeddedFigure1 andshortcaption",
+      "sources": [
+        "research/sessions/20261017-2109/R019-core-adoption.json",
+        "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/C025-layout-explanation-figure-v001/C025_layout_explanation.png",
+        "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/C025-layout-explanation-figure-v001/C025_layout_explanation.svg",
+        "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/C025-layout-explanation-figure-v001/caption.md",
+        "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/C025-layout-explanation-figure-v001/freeze.json",
+        "research/sessions/20261017-2109/R011-certificate-adoption.md",
+        "research/sessions/20261017-2109/R011-nonlinear-certificate-adoption.json",
+        "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R024-C025-figure-review/report.md"
+      ],
+      "scope": "RootR019currentadmittedillustration;fixedu1/deviceportswap/dimensionless topology;boundsnotmeasurements/globalmaxsame;fullcaptionandR011contractlinkedandoriginalfullmachinecontractretained."
+    },
+    {
+      "section": "5/newendingplan link",
+      "sources": [
+        "papers/damping-output-boundaries/manuscript/maxwell-engineering-validation-plan-v001.md",
+        "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/engineering-paired-validation-v001/freeze.json",
+        "research/sessions/20261017-2109/R018-adoption.json",
+        "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R021-engineering-validation-plan-review/report.md"
+      ],
+      "scope": "Independentlyreviewedplanonly;notperformed,actualtarget/tolerances/datarequired."
+    }
+  ],
+  "preservation": "Reverseonlythreeinsertionsandversionmetadatarecoversv002byteexact;abstract/headings/twotables/allnumbers/threeformula/s0andC031lines unchanged.",
+  "history": {
+    "figure_old_caption_pending": "Historical asofauthorfreeze;currentR019coreadoption admitsillustration. Originalcaptionnotrewritten.",
+    "R025_initial_prior_art_pending": "Historical initialsourcelevel;currentR019usesR025+R022+rootprimarypages.",
+    "v001_hold_v002_repair": "Original failure/repairlineage preserved.",
+    "v003": "AuthorQA only;awaitindependentintegrationbeforepublication."
+  },
+  "excluded": [
+    "C036 calculationbranch outsidecurrentedit",
+    "R028 candidate notadopted",
+    "smallmodelerrors asengineeringcriteria"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "task": "R026",
+  "frozen_at": "2026-10-18T04:21:15.117171+08:00",
+  "started_at": "2026-10-18T04:15:41+08:00",
+  "deadline": "2026-10-18T04:22:41+08:00",
+  "elapsed_seconds": 334.117171,
+  "within_deadline": true,
+  "decision": "0 must; independent delta integration review complete",
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R026-compact-v003-integration-review\\input-rules-R026.json",
+      "bytes": 13712,
+      "sha256": "f82bf3882ff5a782dcaf3c09c8289aeff1b87eb210db5a6c585a10d660d5bdff"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R026-compact-v003-integration-review\\review_R026.py",
+      "bytes": 6478,
+      "sha256": "fd2b16945dc90d25907946ee8c257954a46248668cc870aec0c13d0010e430fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R026-compact-v003-integration-review\\checks-R026.json",
+      "bytes": 26870,
+      "sha256": "5fc7fdd2d26256236ee09a507bb124689bb25617d99b1b51e4af17f68f206f63"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R026-compact-v003-integration-review\\report.md",
+      "bytes": 4813,
+      "sha256": "3499028c2bbb5563be38fe5e434c4aab74bf4cd5a2ee1d1e16ba77f1ed593594"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R026-compact-v003-integration-review\\validation-R026.json",
+      "bytes": 11977,
+      "sha256": "9a448199be445e562d16ffee3b9f66d5b3ad4fdc6e39325730df3ead12fd2587"
+    }
+  ],
+  "immutable_after_delivery": true
+}

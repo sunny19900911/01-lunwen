@@ -1,0 +1,161 @@
+{
+  "started_at": "2026-10-18T04:01:23+08:00",
+  "completed_at": "2026-10-18T04:08:16.437953+08:00",
+  "limit_minutes": 10,
+  "elapsed_seconds": 413.437953,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Complete independent local primary-page and exact printed-number review;freeze then stop",
+  "conclusion": "Correct broad accel/shear-only prior-art claim;reported nonlinear Maxwell displacement/drift-related increase confirmed;strict C027/C025 duplication and firstness remain unclosed",
+  "input_files_checked": 13,
+  "input_changed": [],
+  "Correia_manifest_cache_entries_checked": 5,
+  "Dong_cache_opened": false,
+  "old_frozen_files_checked": 73,
+  "old_changed": [],
+  "primary_images_actually_viewed": [
+    "soft-07.png",
+    "soft-08.png",
+    "soft-09.png"
+  ],
+  "PDF_direct_text_pages": [
+    7,
+    8,
+    9
+  ],
+  "cached_text_context": "PDF1 title/date;PDF3/5 model context;PDF6 full section;not full ten-page review",
+  "readonly_subreview": {
+    "agent": "/root/prior_work_audit",
+    "files_written": 0,
+    "read_levels": "R025 report,manifest,cached text;no images or independent percent arithmetic",
+    "agreement": "correct broad prior-art claim;Kparallel0 is not kappa0;units/synchronous peak/paired identity unclosed"
+  },
+  "printed_number_ratios": [
+    {
+      "label": "Table8_C125",
+      "baseline": ".0066986",
+      "controlled": ".00697439",
+      "ratio_exact": "697439/669860",
+      "increase_percent_exact": "137895/33493",
+      "increase_percent": 4.117128952318395,
+      "difference_exact": "27579/100000000"
+    },
+    {
+      "label": "UpperTable9_C125",
+      "baseline": ".00024392",
+      "controlled": ".00028529",
+      "ratio_exact": "28529/24392",
+      "increase_percent_exact": "103425/6098",
+      "increase_percent": 16.960478845523124,
+      "difference_exact": "4137/100000000"
+    },
+    {
+      "label": "UpperTable9_C2500",
+      "baseline": ".00024392",
+      "controlled": ".00045154",
+      "ratio_exact": "22577/12196",
+      "increase_percent_exact": "259525/3049",
+      "increase_percent": 85.11807149885209,
+      "difference_exact": "10381/50000000"
+    }
+  ],
+  "Table13_normalization": [
+    {
+      "row": "Acc1",
+      "d1": ".038182",
+      "dtop": ".044036",
+      "first_normalized_exact": "19091/2850000",
+      "first_normalized": 0.00669859649122807,
+      "cross_normalized_exact": "2927/12000000",
+      "cross_normalized": 0.00024391666666666667,
+      "printed_drift": ".000244",
+      "printed_minus_cross_exact": "1/12000000",
+      "within_half_last_display_unit": true
+    },
+    {
+      "row": "Acc2",
+      "d1": ".042556",
+      "dtop": ".048791",
+      "first_normalized_exact": "10639/1425000",
+      "first_normalized": 0.007465964912280702,
+      "cross_normalized_exact": "1247/4800000",
+      "cross_normalized": 0.0002597916666666667,
+      "printed_drift": ".00026",
+      "printed_minus_cross_exact": "1/4800000",
+      "within_half_last_display_unit": true
+    },
+    {
+      "row": "Acc3",
+      "d1": ".032995",
+      "dtop": ".039192",
+      "first_normalized_exact": "6599/1140000",
+      "first_normalized": 0.00578859649122807,
+      "cross_normalized_exact": "6197/24000000",
+      "cross_normalized": 0.0002582083333333333,
+      "printed_drift": ".000258",
+      "printed_minus_cross_exact": "-1/4800000",
+      "within_half_last_display_unit": true
+    },
+    {
+      "row": "Acc8",
+      "d1": ".044885",
+      "dtop": ".050794",
+      "first_normalized_exact": "8977/1140000",
+      "first_normalized": 0.007874561403508772,
+      "cross_normalized_exact": "5909/24000000",
+      "cross_normalized": 0.00024620833333333336,
+      "printed_drift": ".000246",
+      "printed_minus_cross_exact": "-1/4800000",
+      "within_half_last_display_unit": true
+    },
+    {
+      "row": "Average",
+      "d1": ".041938",
+      "dtop": ".04819",
+      "first_normalized_exact": "20969/2850000",
+      "first_normalized": 0.007357543859649123,
+      "cross_normalized_exact": "521/2000000",
+      "cross_normalized": 0.0002605,
+      "printed_drift": ".000261",
+      "printed_minus_cross_exact": "1/2000000",
+      "within_half_last_display_unit": true
+    },
+    {
+      "row": "Acc2x",
+      "d1": ".092666",
+      "dtop": ".10056",
+      "first_normalized_exact": "46333/2850000",
+      "first_normalized": 0.01625719298245614,
+      "cross_normalized_exact": "3947/12000000",
+      "cross_normalized": 0.00032891666666666665,
+      "printed_drift": ".000329",
+      "printed_minus_cross_exact": "1/12000000",
+      "within_half_last_display_unit": true
+    }
+  ],
+  "Table13_Acc1_matches": {
+    "Table8_first_residual_exact": "1/285000000",
+    "UpperTable9_cross_residual_exact": "1/300000000"
+  },
+  "local_links_checked": 5,
+  "broken_links": [],
+  "trailing_whitespace": [],
+  "control_characters": [],
+  "new_downloads_or_web_queries": 0,
+  "raw_source_assets_copied": 0,
+  "engineering_Excel_or_arrays_read": false,
+  "solver_ODE_or_new_proof_run": false,
+  "author_shared_or_git_modified": false,
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 5201,
+      "sha256": "5cfe1da7e99280deffab18eb3f457c10265c6d55b275853fbf195bc142f561f8"
+    },
+    {
+      "file": "report.md",
+      "bytes": 9698,
+      "sha256": "cce6bae471af594ed2a14c6f9bac7c632a13668633349310101396e6f33d4616"
+    }
+  ],
+  "validation_self_hash": "omitted intentionally"
+}

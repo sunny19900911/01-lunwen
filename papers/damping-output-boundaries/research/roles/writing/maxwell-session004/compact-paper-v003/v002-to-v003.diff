@@ -1,0 +1,36 @@
+--- papers/damping-output-boundaries/manuscript/maxwell-paper-compact-v002.md
++++ papers/damping-output-boundaries/manuscript/maxwell-paper-compact-v003.md
+@@ -1,6 +1,6 @@
+ # Maxwell能量指标与固定局部响应：工程审计与合成边界
+ 
+-阶段稿v002，2026年10月18日；按[R035数学审查](../research/roles/verification/maxwell-session004/R035-compact-math-review/report.md)及[R019来源审查](../research/roles/novelty/maxwell-session004/R019-compact-source-review/report.md)作最小修订，待复核；v001原样保留。详细数据和证明见[工程长稿v010](maxwell-engineering-draft-v010.md)及[力—响应接口附稿](maxwell-force-response-interface-v001.md)。
++阶段稿v003，2026年10月18日；在已审v002基础上补先例、图示与验证计划链接，待独立整合复审；v001/v002及其失败—修订记录原样保留。详细数据和证明见[工程长稿v010](maxwell-engineering-draft-v010.md)及[力—响应接口附稿](maxwell-force-response-interface-v001.md)。
+ 
+ ## 摘要
+ 
+@@ -11,6 +11,8 @@
+ 耗能指标回答记录窗内的整体分账，设计还关心装置峰力、连接需求和指定楼层响应。单个能量数能否替代这些目标，应通过相同模型身份与输出定义下的检验回答。本文先核记录口径，再检验这种替代推论的边界，而不从能量排序直接推荐布置。
+ 
+ 同轨迹耗散比标定、Maxwell串联储能、空间与模态装配均已有方法；Hu等已有能量标定结合刚度/阻尼替代重算的先例。本文的增量是可追溯的工程审计和特定合成证据，采用[已核贡献边界](../research/roles/novelty/maxwell-session004/R014-contribution-card/report.md)，不主张新公式、新理论或发表优先权。
++
++Correia的作者扩展论文（2024，IST机构提供），[Seismic Reinforcement of Buildings with Soft Floors with Viscous Dampers Systems](https://fenix.tecnico.ulisboa.pt/downloadFile/3378094857519319/Extend_Paper_Dissipadores_Energia.pdf)，已在非线性Maxwell语境中报告位移/漂移相关指标反升。该文主体含物理/几何非线性，与C025/C027的固定线性主体有别；单位/归一化、同步峰定义及装置配对条件尚未与C025/C027逐项闭合。已有广义反升先例，不能认领首次；严格同条件发表覆盖仍未知，也不能据此认定完全重复。
+ 
+ ## 2 模型与评价口径
+ 
+@@ -45,6 +47,10 @@
+ ## 4 合成边界与条件力接口
+ 
+ 第一类为近单位主体M=I、K=I+0.001[[1,−1],[−1,1]]、C=0.1√K。令s0(t)=sin(t)·1_{[0,20π]}(t)；α=1和C025均取零初态、共同外力(1,1)ᵀs0(t)与固定u1，A/B只换同器件端口。α=1有解析全尾基准，α=3/10的C025另有连续全时条件证书。所列整体储能、背景/器件耗散、输入功以及F/总δ历史配对内相同，能量比限分母非零处相同；u2交换、两位置全局最大不变，因此不是A整体优胜。
++
++![C025两布局：目标固定u1，器件仅换端口](../research/roles/writing/maxwell-session004/C025-layout-explanation-figure-v001/C025_layout_explanation.png)
++
++图1　无量纲双质量连接拓扑，目标始终为u1，只换同一器件端口；图中数值为条件证书的界，非实测峰。u2交换后两位置全局最大相同，不表示A整体更优。使用时保留[完整图注](../research/roles/writing/maxwell-session004/C025-layout-explanation-figure-v001/caption.md)及[R011采用与运算合同](../../../research/sessions/20261017-2109/R011-certificate-adoption.md)。
+ 
+ 表2列保守界；差指后者全峰减前者全峰的严格下界，固定点可给后者下界。均为无量纲结果，跨指数c数字相同不代表同物理器件。
+ 
+@@ -88,3 +94,5 @@
+ 工程审计给出可用子集、条件本构一致性和准确补导出位置；合成证据则表明，指定整体能量信息不普遍唯一辨识固定局部峰，被动加装也不保证该峰单调降低。二者共同要求把整体分账与目标响应分别验证，并不否定保守能量界或已公平验证的受限经验方法。
+ 
+ 条件力接口把问题推进到可核的有符号逐时贡献及误差预算，但力已知后的重构仍非预测。下一步应固定一个真实目标，闭合实际参数、端口、模态/背景和共同输入初态，再预设能量/统一阻尼基线、候选预测及容差，做身份匹配的成对验证。当前尚无真实工程设计优势、跨事件泛化、容量安全或全楼最优结论。经典工具的具体基准与数据审计是本阶段贡献，其同条件发表覆盖仍未知。
++
++具体执行见[真实工程三门验证计划](maxwell-engineering-validation-plan-v001.md)：区分同源力诊断、仅模型/输入闭环预测和真实布局对照。该计划尚未执行工程验证，目标ID、工程容差及配对资料仍须先落实，不表示工程已通过任何一门。

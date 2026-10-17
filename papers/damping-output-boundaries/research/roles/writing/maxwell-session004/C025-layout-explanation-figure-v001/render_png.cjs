@@ -1,0 +1,2 @@
+const fs=require('fs');const path=require('path');const sharp=require(process.argv[2]);
+(async()=>{const dir=process.argv[3]||__dirname;const out=path.join(dir,'C025_layout_explanation.png');if(fs.existsSync(out))throw Error('Refusing overwrite');await sharp(path.join(dir,'C025_layout_explanation.svg'),{density:144}).resize({width:2400}).png().toFile(out);const m=await sharp(out).metadata();console.log(JSON.stringify({width:m.width,height:m.height,format:m.format}));})().catch(e=>{console.error(e);process.exitCode=1;});

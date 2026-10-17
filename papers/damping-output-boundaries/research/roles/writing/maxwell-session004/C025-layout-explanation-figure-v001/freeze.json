@@ -1,0 +1,60 @@
+{
+  "frozen_at": "2026-10-18T04:03:37.010372+08:00",
+  "started_at": "2026-10-18T03:58:01+08:00",
+  "limit_minutes": 10,
+  "session_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Author figure frozen after actualPNGvisualQA;awaitmasterandindependentreview;stop",
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\C025-layout-explanation-figure-v001\\C025_layout_explanation.svg",
+      "bytes": 21471,
+      "sha256": "f770ccb7ef4af2baeecbb89c03b7421d128d585780c7603d14a5e93b7fe3bf6d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\C025-layout-explanation-figure-v001\\C025_layout_explanation.png",
+      "bytes": 297027,
+      "sha256": "34bfaf854d8d5415a0fa7ccdce907a81a6687da5584fd9c0e0aed3616f90f7a6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\C025-layout-explanation-figure-v001\\build_figure.py",
+      "bytes": 6562,
+      "sha256": "99bad770c15654f43d0387bf824e741c665bc9a3dd7f3ad210769ee23238bea9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\C025-layout-explanation-figure-v001\\render_png.cjs",
+      "bytes": 526,
+      "sha256": "de3581443519ca756bbde25700283ff7eb329e1d103203e2fcf0fc9ef47c7d82"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\C025-layout-explanation-figure-v001\\run-record.json",
+      "bytes": 3022,
+      "sha256": "0f7e9298bc4803d4417a81fce2e3330940ee024652e39cbfe5fa1d2293d0fc1e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\C025-layout-explanation-figure-v001\\caption.md",
+      "bytes": 2786,
+      "sha256": "257760d66dc9000965fe5f3db349ab748d2e6c240d988686254a3ff6f7d2d225"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\C025-layout-explanation-figure-v001\\source-SHA.json",
+      "bytes": 9999,
+      "sha256": "311647cfcdedfb133d4dd2e2fce82484946d7c66611e9fdbad523c18e6ed5c79"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\C025-layout-explanation-figure-v001\\validation.json",
+      "bytes": 3230,
+      "sha256": "2ce1ab1e7f1c595589e8957714708eb35fc571ad6aed38c26616bf10468882d7"
+    }
+  ],
+  "source_count": 6,
+  "SVG_count": 1,
+  "PNG_count": 1,
+  "PNG_actual_visual_review": true,
+  "encoding": {
+    "code_caption_JSON": "UTF8 noBOM LF no trailingwhitespace verified",
+    "SVG": "Native ReportLab Windows CRLF retained for exact renderer-byte reproducibility;UTF8 XML andnoBOM verified",
+    "PNG": "binary;actualvisualQApassed"
+  },
+  "no_manuscript_shared_Git_changes": true,
+  "scope": "C025 approved conditionalboundsandtopologyexplanation only;no measuredpeaks,newtimehistory,actualengineering orpriority."
+}
