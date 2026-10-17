@@ -2,7 +2,9 @@
 
 使用 Codex 协调猜想提出、独立证明与反例、文献原文复查、ETABS实验拟合、论文写作，并把研究依据和技能放在同一版本库中。主控每十分钟汇总检查点，记录选题演变，定期提交选题卡供用户最终决策。
 
-当前执行：[2026年10月17日两小时自主协作](research/sessions/20261017-0847/plan.md)，角色聊天见[线程登记](research/sessions/20261017-0847/threads.json)，待决事项见[独立清单](papers/damping-output-boundaries/research/decisions-pending.md)。本次常规提交/推送已由用户明确授权，截止后不自动续期。
+本次研究（已到两小时截止）：[2026年10月17日两小时自主协作](research/sessions/20261017-0847/plan.md)，角色聊天见[线程登记](research/sessions/20261017-0847/threads.json)，待决事项见[独立清单](papers/damping-output-boundaries/research/decisions-pending.md)。本次常规提交/推送已由用户明确授权，截止后不自动续期。
+
+[两小时最终总结](research/sessions/20261017-0847/final-summary.md)包含成果、反证、验证范围和待决事项。
 
 本次课题的[论文、核心图与证据审阅入口](papers/damping-output-boundaries/README.md)集中连接冻结稿、主张账本、两版选题方案及文献补件；[当前选题卡](papers/damping-output-boundaries/research/topic-cards/T001.md)保留实际演变与尚未解决的判断。
 
