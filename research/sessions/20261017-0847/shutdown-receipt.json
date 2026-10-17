@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-17T10:48:50.567662+08:00",
+  "deadline": "2026-10-17T10:47:23+08:00",
+  "research_stopped_at": "2026-10-17T10:47:39.927491+08:00",
+  "role_states": "All five idle/completed, no in-flight work; handoffs frozen",
+  "automation_update_results": [
+    {
+      "id": "git",
+      "status": "PAUSED",
+      "rrule": "FREQ=MINUTELY;INTERVAL=10;COUNT=12",
+      "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+      "verified_at": "2026-10-17T10:48:50.567662+08:00"
+    },
+    {
+      "id": "automation-3",
+      "status": "PAUSED",
+      "rrule": "FREQ=DAILY;BYHOUR=10;BYMINUTE=47;BYSECOND=23;COUNT=1",
+      "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+      "verified_at": "2026-10-17T10:48:50.567662+08:00"
+    }
+  ],
+  "research_and_cutoff_commit": "76ec077e2fe6151d8a38efd7350e25ff670a47bf",
+  "push_result": "success; origin/main ls-remote exact matched",
+  "receipt_scope": "This records the preceding verified research push. Receipt commit remote HEAD is confirmed in tool output; no self-referential hash is claimed.",
+  "new_research_after_cutoff": false,
+  "unresolved_science": "Novelty/fulltexts, engineering modal/output fields, final A/C choice unchanged"
+}
