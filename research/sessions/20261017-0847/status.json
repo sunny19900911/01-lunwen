@@ -1,0 +1,59 @@
+{
+  "session": "20261017-0847",
+  "phase": "running",
+  "started_at": "2026-10-17T08:47:23+08:00",
+  "deadline": "2026-10-17T10:47:23+08:00",
+  "master_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+  "scheduler": {
+    "id": "git",
+    "kind": "heartbeat",
+    "interval_minutes": 10,
+    "status": "ACTIVE",
+    "verified_in_app": true
+  },
+  "cutoff": {
+    "id": "automation-3",
+    "kind": "heartbeat",
+    "one_shot_at": "2026-10-17T10:47:23+08:00",
+    "status": "ACTIVE"
+  },
+  "last_verified_push": {
+    "commit": "57fae1c7097e0f61063592997ccd94a9a64b1923",
+    "branch": "main",
+    "remote": "origin",
+    "verified_by": "git ls-remote origin refs/heads/main"
+  },
+  "git_identity": {
+    "name": "Codex Paper Lab",
+    "email": "codex-paper-lab@localhost.invalid",
+    "scope": "command-only, not paper authorship"
+  },
+  "role_cursors": [
+    {
+      "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:2",
+      "status": "inProgress"
+    },
+    {
+      "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:2",
+      "status": "inProgress"
+    },
+    {
+      "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:2",
+      "status": "inProgress"
+    },
+    {
+      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:2",
+      "status": "inProgress"
+    },
+    {
+      "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:2",
+      "status": "inProgress"
+    }
+  ],
+  "next_checkpoint": "scheduled by heartbeat; collect real changes and do not duplicate active turns"
+}
