@@ -1,0 +1,25 @@
+{
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R019-force-output-replay-prototype\\replay_given_force_foh.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.7196700000058627,
+  "finished_utc": "2026-10-17T18:48:12.670659+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "code_sha256": "a503c5bc244999d641822bd8fea36543c87131700cb60d7adb92c08ac596dd88",
+  "summary_sha256": "d84bc3f9fe6225e4c1ec9a9dd82b4ca6fe0349455ae53b5bfe1e707d9047d29f",
+  "checks": {
+    "two_bare_modes_FOH_algebra_gate_passed": true,
+    "only_given_D_force_targets_used": true,
+    "analytic_U_R020_no_new_U_solution": true,
+    "98305_nodes_original_full_window_compared": true,
+    "four_fixed_snapshots_only": true,
+    "stored_force_retained_after_input_stop_no_unknown_tail_fill": true,
+    "all_source_and_protocol_SHA_unchanged": true,
+    "runtime_below480seconds": true
+  }
+}

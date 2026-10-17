@@ -1,0 +1,249 @@
+{
+  "evidence_id": "M-EXP-R019",
+  "status": "same_source_given_force_FOH_float_replay_candidate",
+  "finished_utc": "2026-10-17T18:48:12.670659+00:00",
+  "elapsed_seconds": 0.7196700000058627,
+  "protocol_sha256": "22278c170d95b36af6c5d63b6bd9c4921e6cc43cbd6ddd747d964405e6b91b9c",
+  "code_sha256": "a503c5bc244999d641822bd8fea36543c87131700cb60d7adb92c08ac596dd88",
+  "source_refs": {
+    "force_replay_protocol": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\force-replay-synthetic-protocol-v001.md",
+      "bytes": 2663,
+      "sha256": "81736f3388668fe3f1527d0d02c18fd8117de8e909e53df110f458813423c8b2"
+    },
+    "addition_model": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-local-peak-protocol-v001.json",
+      "bytes": 1822,
+      "sha256": "122375ce3d1e934fffabef2c11c4c9ddd7bfb2c58215543911906fc03c4fb89c"
+    },
+    "local_cache": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+      "bytes": 12938185,
+      "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+    },
+    "R016_summary": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\summary_r016.json",
+      "bytes": 12416,
+      "sha256": "e482bef6151efa6e0e22cce15f95299f448d5f536c755c0bc0b8ba1857543e4d"
+    },
+    "R020_analytic_U": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R020-addition-baseline-proof\\report.md",
+      "bytes": 6556,
+      "sha256": "5be93e50da1b8ea2612916819527984e8b81c7486c114b400b4e0c72eeaac633"
+    }
+  },
+  "N": 16384,
+  "T": 44.42882938158366,
+  "dt": 0.0027117205433095496,
+  "window_end": 266.572976289502,
+  "modal_coefficients": [
+    {
+      "source_type": "synthetic_exact_bare_reference_operator",
+      "mode": "+",
+      "omega": 1.0,
+      "zeta": 0.05,
+      "modal_mass": 1.0,
+      "beta": 0.7071067811865475,
+      "gamma_u1": 0.7071067811865475,
+      "gamma_u2": 0.7071067811865475
+    },
+    {
+      "source_type": "synthetic_exact_bare_reference_operator",
+      "mode": "-",
+      "omega": 1.7320508075688772,
+      "zeta": 0.05,
+      "modal_mass": 1.0,
+      "beta": -0.7071067811865475,
+      "gamma_u1": 0.7071067811865475,
+      "gamma_u2": -0.7071067811865475
+    }
+  ],
+  "FOH_algebra_checks": [
+    {
+      "mode": "+",
+      "A": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          -0.1
+        ]
+      ],
+      "Ainv": [
+        [
+          -0.1,
+          -1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "E": [
+        [
+          0.9999963236204186,
+          0.0027113495821708103
+        ],
+        [
+          -0.0027113495821708103,
+          0.9997251886622014
+        ]
+      ],
+      "J0": [
+        3.6763795815272717e-06,
+        0.0027113495821708103
+      ],
+      "J1": [
+        1.2254878530102616e-06,
+        0.0013557368920620507
+      ],
+      "W_left": [
+        2.45089172851701e-06,
+        0.0013556126901087596
+      ],
+      "W_right": [
+        1.2254878530102616e-06,
+        0.0013557368920620507
+      ],
+      "matrix_power_series_reference_terms": 13,
+      "residuals": {
+        "A_Ainv_minus_I": 0.0,
+        "E_closed_minus_series13": 0.0,
+        "J0_closed_minus_series13": 2.523734666344188e-18,
+        "J1_closed_minus_series13": 9.185360805297194e-16,
+        "A_J0_minus_EminusI_b": 0.0,
+        "A_J1_minus_J0overh_minus_b": 1.214306433183765e-17
+      },
+      "arithmetic_tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "mode": "-",
+      "A": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -2.9999999999999996,
+          -0.17320508075688773
+        ]
+      ],
+      "Ainv": [
+        [
+          -0.05773502691896259,
+          -0.33333333333333337
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "E": [
+        [
+          0.9999889716045062,
+          0.0027110738495591436
+        ],
+        [
+          -0.00813322154867743,
+          0.9995193998394555
+        ]
+      ],
+      "J0": [
+        3.676131831247263e-06,
+        0.0027110738495591436
+      ],
+      "J1": [
+        1.2254261384596917e-06,
+        0.0013556455292995304
+      ],
+      "W_left": [
+        2.4507056927875712e-06,
+        0.0013554283202596132
+      ],
+      "W_right": [
+        1.2254261384596917e-06,
+        0.0013556455292995304
+      ],
+      "matrix_power_series_reference_terms": 13,
+      "residuals": {
+        "A_Ainv_minus_I": 0.0,
+        "E_closed_minus_series13": 1.1102230246251565e-16,
+        "J0_closed_minus_series13": 7.143028844195515e-18,
+        "J1_closed_minus_series13": 2.626154502194389e-15,
+        "A_J0_minus_EminusI_b": 1.0842021724855044e-19,
+        "A_J1_minus_J0overh_minus_b": 4.4750444669339196e-17
+      },
+      "arithmetic_tolerance": 1e-11,
+      "passed": true
+    }
+  ],
+  "analytic_U_float_QA": {
+    "R020_coefficients": {
+      "A": -0.9803921568627451,
+      "B": -0.1386483884679505,
+      "C0": 0.1386483884679505,
+      "D0": 1.3951613471212017,
+      "decay": 0.05,
+      "nu": 0.998749217771909
+    },
+    "initial_u_float": 0.0,
+    "initial_v_float": 4.440892098500626e-16,
+    "cutoff_formula_continuity_difference_float": -4.551914400963142e-15,
+    "no_U_ODE_or_cache_used": true
+  },
+  "whole_window_error_metrics": {
+    "u1": {
+      "maximum_abs_error": 5.577410856716369e-06,
+      "RMS_error": 1.5016224585917835e-06,
+      "maximum_error_witness": {
+        "node": 15658,
+        "time_original_label": 42.46012026714093,
+        "signed_error": -5.577410856716369e-06,
+        "prediction": 4.973354797737528,
+        "cached_D": 4.973360375148385
+      },
+      "fixed_diagnostic_threshold": 0.01,
+      "max_error_below_point01": true
+    },
+    "u2": {
+      "maximum_abs_error": 1.8566998221114517e-06,
+      "RMS_error": 3.90201330902959e-07,
+      "maximum_error_witness": {
+        "node": 2949,
+        "time_original_label": 7.996863882219862,
+        "signed_error": 1.8566998221114517e-06,
+        "prediction": -0.1926108831251835,
+        "cached_D": -0.19261273982500562
+      },
+      "fixed_diagnostic_threshold": 0.01,
+      "max_error_below_point01": true
+    }
+  },
+  "both_fixed_diagnostic_gates_passed": true,
+  "force_window_scope": {
+    "last_recorded_F": 0.00899020001082768,
+    "max_abs_F_after_external_input_stop": 4.664567990029814,
+    "recorded_force_after_T_not_zeroed": true,
+    "no_output_beyond6T_or_unknown_F_extension": true
+  },
+  "checks": {
+    "two_bare_modes_FOH_algebra_gate_passed": true,
+    "only_given_D_force_targets_used": true,
+    "analytic_U_R020_no_new_U_solution": true,
+    "98305_nodes_original_full_window_compared": true,
+    "four_fixed_snapshots_only": true,
+    "stored_force_retained_after_input_stop_no_unknown_tail_fill": true,
+    "all_source_and_protocol_SHA_unchanged": true,
+    "runtime_below480seconds": true
+  },
+  "no_nonlinear_ODE_or_fullarray_output": true,
+  "outputs": {
+    "synthetic_modal_port_target_coefficients.csv": "40ac6d8dcc5fa0c7c7033a448b1af625b25874a172d2f5d617b6e8b0249f2988",
+    "foh_weight_algebra_checks.json": "cfeea5b9dcf7c4e2fa5afdfcacd7392f4240246cdba55734cc486f3be10ddeb0",
+    "four_fixed_point_replay.csv": "88e7f8472d194f68fffee2659eec4de9b41a05b9576f0d0e249127c4ea40f101",
+    "report.md": "c5f943140491a00166e00d6852288291a1a9cb903b1561ff67b3e852247fbc04"
+  }
+}

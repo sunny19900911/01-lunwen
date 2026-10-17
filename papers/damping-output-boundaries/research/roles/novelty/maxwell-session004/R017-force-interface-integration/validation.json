@@ -1,0 +1,77 @@
+{
+  "started_at": "2026-10-18T03:02:25+08:00",
+  "completed_at": "2026-10-18T03:05:13.305876+08:00",
+  "limit_minutes": 8,
+  "elapsed_seconds": 168.305876,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Independent companion-manuscript integration review passed in stated scope;freeze then stop",
+  "mustfix": 0,
+  "required_changes": 0,
+  "nonblocking_suggestion": "Optional explicit zero-initial-state D absolute bare-modal wording at C028 example;no frozen author file edited",
+  "scope": "Integration/transcription/source/scope review;not a new proof or actual engineering certification",
+  "manuscript_sha256": "32edbfb408e264c28b49e2cf07f31d622239972b085b9eb1c63fdfb3b22c2c68",
+  "input_files_checked": 21,
+  "input_changed": [],
+  "author_direct_sources_checked": 12,
+  "author_direct_source_changed": [],
+  "author_package_files_checked": 5,
+  "author_package_changed": [],
+  "protected_prior_packages": [
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v010.json",
+      "files": 8,
+      "changed": []
+    },
+    {
+      "manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\layout-input-templates-v001\\freeze.json",
+      "files": 4,
+      "changed": []
+    }
+  ],
+  "old_novelty_frozen_files_checked": 63,
+  "old_changed": [],
+  "formula_count": 3,
+  "formula_tags": [
+    "1",
+    "2",
+    "3"
+  ],
+  "manuscript_local_links_checked": 8,
+  "manuscript_broken_links": [],
+  "report_local_links_checked": 5,
+  "report_broken_links": [],
+  "template_CSVs": "Header-only;links and old package identities preserved",
+  "R016_prohibited_claims_checked": [
+    "active/newnegative-damping theory",
+    "fixedwitness-to-fulltime/truepeak extrapolation",
+    "cumulativework-vs-dissipation",
+    "absoluteq-vs-difference",
+    "givenF-to-layoutprediction"
+  ],
+  "C028_absolute_vs_difference": "No false equivalence;explicit optional clarification recorded",
+  "current_authority": "RootR014 accepted C028/C029;new manuscript independently reviewed here",
+  "inflight_new_R023_R024_experiment_R019_used": false,
+  "independent_readonly_subreview": 1,
+  "subreview_mustfix": 0,
+  "subreview_files_created": false,
+  "new_search": 0,
+  "original_PDF_or_arrays_read": false,
+  "ODE_or_certificate_run": false,
+  "new_proof": false,
+  "author_template_v010_shared_or_git_modified": false,
+  "report_trailing_whitespace": [],
+  "report_control_characters": [],
+  "malformed_report_tables": [],
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 7371,
+      "sha256": "4ddd37503158458dfb1e6d2f0f0cac2c01a1148536a036b0fdac3060983fc9e2"
+    },
+    {
+      "file": "report.md",
+      "bytes": 7172,
+      "sha256": "3246a943890ef158ac843ea6d80673e7fae4eca7d6806cef7dc20d3e1b5643b4"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "task": "R020-field-gap-crosscheck",
+  "started_at": "2026-10-18T03:02:41+08:00",
+  "frozen_at": "2026-10-18T03:09:28.392558+08:00",
+  "elapsed_seconds": 407.392558,
+  "must_fix_count": 0,
+  "scope": "definition and delivery QA; not actual engineering certification",
+  "source_fingerprints_match_and_unchanged": true,
+  "role3_freeze_entries_verified": 5,
+  "assignments": {
+    "count": 88,
+    "property_summary": "Link1 / Damper - Exponential / U1",
+    "summary_only": true
+  },
+  "exponential_definition_data_rows": 0,
+  "current_controlled_modal_result_rows": 300,
+  "modal_case": "Modal",
+  "mode_range": [
+    1,
+    300
+  ],
+  "Eigen_Ritz_normalization_actual_C_certified": false,
+  "seven_cache_table_names_verified": [
+    "Total Energy Components",
+    "Element NL Energy By Group",
+    "Base Reactions",
+    "Story Forces",
+    "Diaphragm CM Displacements",
+    "Story Accelerations",
+    "Story Drifts"
+  ],
+  "schema_fields": 38,
+  "schema_field_counts": {
+    "reference_manifest": 9,
+    "mode_rows": 6,
+    "target_rows": 4,
+    "port_rows": 6,
+    "force_rows": 8,
+    "remainder_manifest": 5
+  },
+  "field_map_rows": 25,
+  "schema_references_resolve": true,
+  "coverage_basis": "Frozen R001 report only: common six-case 32; RH4X 33 complete pairs; no time-series recount",
+  "initial_link_QA_preserved_with_later_delivery_addendum": true,
+  "raw_workbook_accessed": false,
+  "NPZ_or_NPY_opened_or_hashed": false,
+  "Program_Control_values_accessed": false,
+  "source_manifest_cache_paths_followed": false,
+  "full_time_series_coverage_recounted": false,
+  "technical_crosscheck": "R019 report, R022 report/schema, R030 review, original R003 port definitions, frozen R001 coverage report"
+}

@@ -1,0 +1,71 @@
+{
+  "task": "R019 actual-field-gap-map",
+  "status": "25field states /38schema fields mapped; actual closed engineering convolution not certified",
+  "frozen_at": "2026-10-18T03:00:16.380058+08:00",
+  "elapsed_seconds": 369.380058,
+  "within_10_minutes": true,
+  "checks": {
+    "88_assignments": true,
+    "all88_Link1": true,
+    "summary_U1_actual": true,
+    "Exp_parameter_data_rows_zero": true,
+    "current300_modal_results": true,
+    "actual_current_case_Modal": true,
+    "all_confirmed_table_names_exist_in_current_inventory": true,
+    "all38_schema_fields_have_valid_Fid": true,
+    "no_software_click_paths_in_report": true,
+    "only_current_small_metadata_not_oldmodel_fields": true
+  },
+  "field_row_count": 25,
+  "schema_fields_covered": 38,
+  "status_counts": {
+    "已拿到": 7,
+    "仅用户说明": 1,
+    "缺导出": 11,
+    "定义未认证": 6
+  },
+  "all_initial_inputs_unchanged": true,
+  "all_additional_report_inputs_unchanged": true,
+  "collaborators": {
+    "weng2016_source": "read-only R022/R030/R017 and current headers; minimum categories and unverified table-name boundaries",
+    "local_literature": "read-only actual current metadata; did not find manifest at their direct candidate paths; root read actual located manifest only"
+  },
+  "minimum_export_scope": "reuse existing88assignments/current300results/7table outputs; add1Link1detail byDirection+currentdefinitions; target+portlocal geometry/modes; first1case missingforcegroups; U1all only if residualneeded; absolutebaseline optional for absolute/peak outcomes",
+  "table_name_policy": "confirmed names from currentinventory only; missing definition/geometry/mode-shape names unverified; no invented clicks",
+  "preserved_scope": [
+    "missingexport not absentmodeldefinition",
+    "screenshotKE0 not all88/KNzero",
+    "same5percent not sameC",
+    "current300results not completeexactEigen/massnormalization",
+    "partialcommon32 not percaseexact32",
+    "R017history immutable",
+    "R022/R030 math acceptance not actual engineering certification"
+  ],
+  "delivery_QA": {
+    "UTF8_no_replacement": true,
+    "own_report_links_exist": false
+  },
+  "prohibited_action_counts": {
+    "original_workbook_reads_or_SHA": 0,
+    "node_or_other_arrays_NPZ_reads_or_SHA": 0,
+    "solver_or_extraction": 0,
+    "newPDF_read_download_search": 0,
+    "R017_or_history_edits": 0,
+    "other_source_shared_Git_writes": 0
+  },
+  "output_report": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R019-actual-field-gap-map\\R019-actual-field-gap-map.md",
+    "bytes": 14321,
+    "sha256": "072f499bbfadbcc41e26984ffd7819f5d87d8ae0e8786ab251cf7a790d71a79d"
+  },
+  "input_rules": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R019-actual-field-gap-map\\input-rules-R019.json",
+    "bytes": 4347,
+    "sha256": "1791794a7bee6d3a2f39193b8f3443561749881b94cf5856f32d37378813da1a"
+  },
+  "field_gap_map": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R019-actual-field-gap-map\\field-gap-map-R019.json",
+    "bytes": 25973,
+    "sha256": "9bb6c54eb76c55a5bbf58d85e3b77216d72122831a875d2e331150633b436f06"
+  }
+}

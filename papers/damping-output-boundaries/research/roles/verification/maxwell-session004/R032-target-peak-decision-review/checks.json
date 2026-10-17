@@ -1,0 +1,39 @@
+{
+  "required_changes": 0,
+  "scope": "Exact abstract real PL/function error-contract challenges; no mechanical realization, unknown 56-device residual, ODE or engineering decision claimed.",
+  "independent_robust_PL_families": [
+    {
+      "verdict": "decrease",
+      "exact_PL_error_corners": 512
+    },
+    {
+      "verdict": "increase",
+      "exact_PL_error_corners": 512
+    }
+  ],
+  "PL_breakpoint_union_peak": "7/6; using only reference knots gives 1/2",
+  "shared_reference_error_reverses_both_naive_orders": [
+    {
+      "wrong_if_U_error_removed": "increase",
+      "actual_order": "decrease",
+      "actual_U_peak": "11/5",
+      "actual_D_peak": "21/10"
+    },
+    {
+      "wrong_if_U_error_removed": "decrease",
+      "actual_order": "increase",
+      "actual_U_peak": "21/10",
+      "actual_D_peak": "11/5"
+    }
+  ],
+  "strict_equality_zero_peak_and_unclosed_remainder_cases_passed": true,
+  "same_center_same_eps_admits_both_orders": true,
+  "Lipschitz_nonuniform_grid_hidden_peak_attains_gap_half": true,
+  "omitting_window_endpoint_fails_gap_half_bound": true,
+  "nodal_error_lower_bound_subtraction_necessary": true,
+  "different_peak_times_challenge_passed": true,
+  "small_source_count": 12,
+  "sources_unchanged": true,
+  "author_script_ODE_arrays_or_NPZ_access": false,
+  "unknown56_remainder_assumed_zero": false
+}

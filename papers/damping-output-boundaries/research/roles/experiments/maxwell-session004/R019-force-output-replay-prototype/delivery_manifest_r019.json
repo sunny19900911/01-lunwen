@@ -1,0 +1,60 @@
+{
+  "evidence_id": "M-EXP-R019",
+  "status": "conditional_same_source_force_FOH_float_prototype_candidate",
+  "completed_utc": "2026-10-17T18:49:46.625219+00:00",
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R019-force-output-replay-prototype\\replay_given_force_foh.py"
+  ],
+  "exit_code": 0,
+  "delivery_QA": "Source/outputSHA, 2syntheticcoeffrows/4fixednodes, FOHalgebragate/errorgate, UTF8/compilation/noarrayfiles verified; replay not rerun.",
+  "files": [
+    {
+      "name": "foh_weight_algebra_checks.json",
+      "bytes": 2823,
+      "sha256": "cfeea5b9dcf7c4e2fa5afdfcacd7392f4240246cdba55734cc486f3be10ddeb0"
+    },
+    {
+      "name": "four_fixed_point_replay.csv",
+      "bytes": 1283,
+      "sha256": "88e7f8472d194f68fffee2659eec4de9b41a05b9576f0d0e249127c4ea40f101"
+    },
+    {
+      "name": "protocol.json",
+      "bytes": 3791,
+      "sha256": "22278c170d95b36af6c5d63b6bd9c4921e6cc43cbd6ddd747d964405e6b91b9c"
+    },
+    {
+      "name": "README.md",
+      "bytes": 709,
+      "sha256": "cad8e7d2e502346729a7383adf9961ca9f455e35d359ed2e9888a07fc7281635"
+    },
+    {
+      "name": "replay_given_force_foh.py",
+      "bytes": 12241,
+      "sha256": "a503c5bc244999d641822bd8fea36543c87131700cb60d7adb92c08ac596dd88"
+    },
+    {
+      "name": "report.md",
+      "bytes": 2603,
+      "sha256": "c5f943140491a00166e00d6852288291a1a9cb903b1561ff67b3e852247fbc04"
+    },
+    {
+      "name": "run_record_r019.json",
+      "bytes": 1232,
+      "sha256": "0f1acbef6eb05f465854a06e18b08c8ae2f71ba3e4346b4069d0ab7adacb2f8d"
+    },
+    {
+      "name": "summary_r019.json",
+      "bytes": 8243,
+      "sha256": "d84bc3f9fe6225e4c1ec9a9dd82b4ca6fe0349455ae53b5bfe1e707d9047d29f"
+    },
+    {
+      "name": "synthetic_modal_port_target_coefficients.csv",
+      "bytes": 306,
+      "sha256": "40ac6d8dcc5fa0c7c7033a448b1af625b25874a172d2f5d617b6e8b0249f2988"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "challenge_scope": "Only small scalar formulas/small JSON CSV; no target execution/import/fullwindow/ODE/NPZ",
+  "scalar_gate_preselected": 1e-12,
+  "weights": [
+    {
+      "stiffness": 1.0,
+      "h": 0.0027117205433095496,
+      "delay_m": 0,
+      "closed_vs_scalar_Simpson_maxabs": 2.6693735112950923e-16,
+      "closed_vs_60term_series_maxabs": 2.6693777464598285e-16,
+      "passed": true
+    },
+    {
+      "stiffness": 1.0,
+      "h": 0.0027117205433095496,
+      "delay_m": 1,
+      "closed_vs_scalar_Simpson_maxabs": 2.6687212959257064e-16,
+      "closed_vs_60term_series_maxabs": 2.6687212959257064e-16,
+      "passed": true
+    },
+    {
+      "stiffness": 1.0,
+      "h": 0.0027117205433095496,
+      "delay_m": 3,
+      "closed_vs_scalar_Simpson_maxabs": 2.667357572880627e-16,
+      "closed_vs_60term_series_maxabs": 2.667323691562737e-16,
+      "passed": true
+    },
+    {
+      "stiffness": 1.0,
+      "h": 0.125,
+      "delay_m": 0,
+      "closed_vs_scalar_Simpson_maxabs": 3.2612801348363973e-16,
+      "closed_vs_60term_series_maxabs": 3.2786273695961654e-16,
+      "passed": true
+    },
+    {
+      "stiffness": 1.0,
+      "h": 0.125,
+      "delay_m": 1,
+      "closed_vs_scalar_Simpson_maxabs": 3.157196726277789e-16,
+      "closed_vs_60term_series_maxabs": 3.191891195797325e-16,
+      "passed": true
+    },
+    {
+      "stiffness": 1.0,
+      "h": 0.125,
+      "delay_m": 3,
+      "closed_vs_scalar_Simpson_maxabs": 2.8796409701215e-16,
+      "closed_vs_60term_series_maxabs": 2.8796409701215e-16,
+      "passed": true
+    },
+    {
+      "stiffness": 1.0,
+      "h": 0.5,
+      "delay_m": 0,
+      "closed_vs_scalar_Simpson_maxabs": 4.3021142204224816e-16,
+      "closed_vs_60term_series_maxabs": 4.85722573273506e-16,
+      "passed": true
+    },
+    {
+      "stiffness": 1.0,
+      "h": 0.5,
+      "delay_m": 1,
+      "closed_vs_scalar_Simpson_maxabs": 3.885780586188048e-16,
+      "closed_vs_60term_series_maxabs": 3.885780586188048e-16,
+      "passed": true
+    },
+    {
+      "stiffness": 1.0,
+      "h": 0.5,
+      "delay_m": 3,
+      "closed_vs_scalar_Simpson_maxabs": 5.551115123125783e-17,
+      "closed_vs_60term_series_maxabs": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "stiffness": 3.0,
+      "h": 0.0027117205433095496,
+      "delay_m": 0,
+      "closed_vs_scalar_Simpson_maxabs": 3.992447445235782e-17,
+      "closed_vs_60term_series_maxabs": 3.992468621059463e-17,
+      "passed": true
+    },
+    {
+      "stiffness": 3.0,
+      "h": 0.0027117205433095496,
+      "delay_m": 1,
+      "closed_vs_scalar_Simpson_maxabs": 3.991558060641165e-17,
+      "closed_vs_60term_series_maxabs": 3.991558060641165e-17,
+      "passed": true
+    },
+    {
+      "stiffness": 3.0,
+      "h": 0.0027117205433095496,
+      "delay_m": 3,
+      "closed_vs_scalar_Simpson_maxabs": 3.9895251815677546e-17,
+      "closed_vs_60term_series_maxabs": 3.9895251815677546e-17,
+      "passed": true
+    },
+    {
+      "stiffness": 3.0,
+      "h": 0.125,
+      "delay_m": 0,
+      "closed_vs_scalar_Simpson_maxabs": 9.6710833785707e-17,
+      "closed_vs_60term_series_maxabs": 9.75781955236954e-17,
+      "passed": true
+    },
+    {
+      "stiffness": 3.0,
+      "h": 0.125,
+      "delay_m": 1,
+      "closed_vs_scalar_Simpson_maxabs": 9.8879238130678e-17,
+      "closed_vs_60term_series_maxabs": 9.8879238130678e-17,
+      "passed": true
+    },
+    {
+      "stiffness": 3.0,
+      "h": 0.125,
+      "delay_m": 3,
+      "closed_vs_scalar_Simpson_maxabs": 9.020562075079397e-17,
+      "closed_vs_60term_series_maxabs": 8.673617379884035e-17,
+      "passed": true
+    },
+    {
+      "stiffness": 3.0,
+      "h": 0.5,
+      "delay_m": 0,
+      "closed_vs_scalar_Simpson_maxabs": 1.6653345369377348e-16,
+      "closed_vs_60term_series_maxabs": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "stiffness": 3.0,
+      "h": 0.5,
+      "delay_m": 1,
+      "closed_vs_scalar_Simpson_maxabs": 2.7755575615628914e-17,
+      "closed_vs_60term_series_maxabs": 1.3877787807814457e-17,
+      "passed": true
+    },
+    {
+      "stiffness": 3.0,
+      "h": 0.5,
+      "delay_m": 3,
+      "closed_vs_scalar_Simpson_maxabs": 1.8041124150158794e-16,
+      "closed_vs_60term_series_maxabs": 4.8138576458356397e-17,
+      "passed": true
+    }
+  ],
+  "four_scalar_U_checks": [
+    {
+      "node_index": 0,
+      "independent_homogeneous_U": 0.0,
+      "root_stored_U": 0.0,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "node_index": 16384,
+      "independent_homogeneous_U": -0.06708579030074258,
+      "root_stored_U": -0.06708579030074258,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "node_index": 16529,
+      "independent_homogeneous_U": -0.5339513929567242,
+      "root_stored_U": -0.5339513929567206,
+      "difference": -3.6637359812630166e-15,
+      "passed": true
+    },
+    {
+      "node_index": 98304,
+      "independent_homogeneous_U": -1.7164753120956664e-05,
+      "root_stored_U": -1.7164753076753803e-05,
+      "difference": -4.4202861585861813e-14,
+      "passed": true
+    }
+  ],
+  "checks": {
+    "12_agreements_recomputed_from_small_outputs_exact": true,
+    "strict_preregistered_1e8_gates": true,
+    "fourpoints_CSV_summary_exact": true,
+    "root_freeze5files_match": true,
+    "actual12keys": true,
+    "zero_padding_262144_sufficient": true,
+    "kernel_zero_lag_1_matches_independent_series": true,
+    "kernel_zero_lag_3_matches_independent_series": true,
+    "scalar_weights_all_pass": true,
+    "four_scalar_baseline_checks_pass": true,
+    "zero_initial_displacement_and_velocity": true,
+    "report_transcription": true
+  },
+  "maximum_scalar_quadrature_difference": 4.3021142204224816e-16,
+  "maximum_scalar_series_difference": 4.85722573273506e-16,
+  "agreements_recomputed_from_small_outputs": {
+    "u1_max": 1.1723955140041653e-13,
+    "u1_RMS": 1.3384219591867008e-15,
+    "u2_max": 1.9287349495300532e-13,
+    "u2_RMS": 3.642856804401655e-14,
+    "u1_point_0": 0.0,
+    "u2_point_0": 0.0,
+    "u1_point_16384": 1.0658141036401503e-14,
+    "u2_point_16384": 1.5198953207118393e-13,
+    "u1_point_16529": 9.681144774731365e-14,
+    "u2_point_16529": 1.4421797089880783e-13,
+    "u1_point_98304": 4.4463998455368525e-14,
+    "u2_point_98304": 4.437856332417667e-14
+  },
+  "scalar_series_definition": "L=Im[e^(zmh)*sum z^k h^(k+1)/(k! (k+2))]/b;R=Im[e^(zmh)*sum z^k h^(k+1)/(k! (k+1)(k+2))]/b;60terms for tiny diagnostic only",
+  "quadrature_definition": "2048-panel Simpson on scalar0..h lag integrals, h in actual/.125/.5; no trajectory integration"
+}

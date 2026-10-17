@@ -1,0 +1,50 @@
+{
+  "evidence_id": "M-EXP-R019",
+  "status": "conditional_same_force_FOH_replay_float_prototype_candidate",
+  "frozen_utc": "2026-10-17T18:46:31.168613+00:00",
+  "refs": {
+    "force_replay_protocol": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\force-replay-synthetic-protocol-v001.md",
+      "bytes": 2663,
+      "sha256": "81736f3388668fe3f1527d0d02c18fd8117de8e909e53df110f458813423c8b2"
+    },
+    "addition_model": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-local-peak-protocol-v001.json",
+      "bytes": 1822,
+      "sha256": "122375ce3d1e934fffabef2c11c4c9ddd7bfb2c58215543911906fc03c4fb89c"
+    },
+    "local_cache": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+      "bytes": 12938185,
+      "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+    },
+    "R016_summary": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\summary_r016.json",
+      "bytes": 12416,
+      "sha256": "e482bef6151efa6e0e22cce15f95299f448d5f536c755c0bc0b8ba1857543e4d"
+    },
+    "R020_analytic_U": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R020-addition-baseline-proof\\report.md",
+      "bytes": 6556,
+      "sha256": "5be93e50da1b8ea2612916819527984e8b81c7486c114b400b4e0c72eeaac633"
+    }
+  },
+  "inputs": "OnlyD_N16384 F/tidentity/u1u2checking; noUcache/nootherDstate/historyoutput; no nonlinearODE.",
+  "fixed_indices": [
+    0,
+    16384,
+    16529,
+    98304
+  ],
+  "N": 16384,
+  "coefficients": "Syntheticbaremodeomega1/sqrt3,zeta.05,m1,beta+1/sqrt2/-1/sqrt2,gamma_u1+1/sqrt2/+1/sqrt2,gamma_u2+1/sqrt2/-1/sqrt2; no actualFNA assumption.",
+  "FOH": "A=[[0,1],[-omega²,-2zetaomega]],b=[0,1],E analyticdamped2x2exp;J0=Ainv(E-I)b;J1=Ainv²(E-I-Ah)b/h;next=E*x+(J0-J1)p0+J1p1,p=-betaF/m.",
+  "prior_algebra_gate": "CompareE/J0/J1 withindependentfixed k0..12 matrixseries, andA*J0=(E-I)b,A*J1=J0/h-b. Maxresidual<=1e-11*max(1,maxabsweights/E) beforeforce replay. Failurestop,preserve results,no parameter or gate tuning. This finite floating check not rigorousalgebra certificate.",
+  "baseline": "R020analyticxp=-50/51sin(sqrt2t)-5sqrt2/51cos(sqrt2t),xh=exp(-t/20)*(5sqrt2/51cos(nut)+67sqrt2/(68nu)sin(nut)),nu=sqrt399/400;loadingxp+xh,afterTxh(t)-xh(t-T).",
+  "output": "uDpred=(analyticU,analyticU)+sumgamma*qdiff, fixed0/N/J/6N signedcontributions andcacheerrors. Fullwindowmaxabs/RMSerror anderrorwitness times.",
+  "fixed_diagnostic_gate": "Eachofu1/u2 maxabs_error<.01; reportbothbooleans even failure, no search/newfrequency/device/threshold.",
+  "force_tail": "UseallstoredF across0..6T includingpostT; neverzerofillFafterinputstop or extrapolateunknownF beyond6T.",
+  "limits": "Same-sourceknownforceconditionedreplay, notnewinput/newlayoutprediction or independentphysicalvalidation; no unfairenergybaselinecomparison, nocontinuouscertificate ornewmethodclaim.",
+  "outputs": "Small2rowmodalcoeffCSV,4rowsnapshotCSV,weights/errorJSON/report/code/run/manifest. No largearrays/images/newcache/dependencies/rawengineering/solver/Git.",
+  "runtime_limit_seconds": 480
+}

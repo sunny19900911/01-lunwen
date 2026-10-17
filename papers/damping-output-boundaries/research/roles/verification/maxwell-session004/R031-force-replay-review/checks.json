@@ -1,0 +1,54 @@
+{
+  "required_changes": 0,
+  "scope": "Two rounded 2x2 FOH operators, exact nilpotent endpoint pulses, four scalar baseline/snapshot consistency checks, and small-file identities only.",
+  "independent_method": "Exact Fraction 40-term matrix/integrated-power series with rational infinity-norm tail majorants for frozen rounded A/h; no source-code execution or numpy import.",
+  "rounded_operator_weight_challenges": [
+    {
+      "mode": "+",
+      "E_difference_upper_float_display": 9.993920895349377e-17,
+      "J0_difference_upper_float_display": 2.5236437556711916e-18,
+      "J1_difference_upper_float_display": 9.185773575898115e-16,
+      "left_endpoint_pulse_difference_upper_float_display": 9.186073499782214e-16,
+      "right_endpoint_pulse_difference_upper_float_display": 9.185773575898115e-16,
+      "all_exact_differences_below_1e_minus11": true
+    },
+    {
+      "mode": "-",
+      "E_difference_upper_float_display": 6.517514991281501e-17,
+      "J0_difference_upper_float_display": 7.142800564788594e-18,
+      "J1_difference_upper_float_display": 2.6261796864751522e-15,
+      "left_endpoint_pulse_difference_upper_float_display": 2.626324416931716e-15,
+      "right_endpoint_pulse_difference_upper_float_display": 2.6261796864751522e-15,
+      "all_exact_differences_below_1e_minus11": true
+    }
+  ],
+  "exact_left_right_pulse_orientation_passed": true,
+  "baseline_complex_transfer_and_cutoff_state_propagation": [
+    {
+      "node": 0,
+      "independent_U_difference": 0.0
+    },
+    {
+      "node": 16384,
+      "independent_U_difference": 4.163336342344337e-17
+    },
+    {
+      "node": 16529,
+      "independent_U_difference": 3.4416913763379853e-15
+    },
+    {
+      "node": 98304,
+      "independent_U_difference": 4.743384504624082e-20
+    }
+  ],
+  "four_fixed_snapshot_scalar_assembly_passed": true,
+  "recorded_summary_error_gate_consistency_passed": true,
+  "recomputed_whole_window_max_or_RMS": false,
+  "NPZ_read_decode_or_rehash": false,
+  "nonlinear_ODE_or_author_replay_executed": false,
+  "full98305_data_certified": false,
+  "matrix_series_scope": "Rational tail checks concern these two frozen rounded low-dimensional operators only; they do not certify exact-model parameter rounding, input interpolation, recursive whole-window error, or original D accuracy.",
+  "small_source_count": 21,
+  "small_sources_unchanged": true,
+  "unknown_force_tail_not_extended": true
+}

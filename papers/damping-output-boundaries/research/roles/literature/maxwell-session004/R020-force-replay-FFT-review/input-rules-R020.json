@@ -1,0 +1,72 @@
+{
+  "task": "R020 root independent FFT replay static/smallchallenge review",
+  "started_at": "2026-10-18T03:04:56+08:00",
+  "deadline": "2026-10-18T03:12:56+08:00",
+  "input_frozen_at": "2026-10-18T03:07:42.846890+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\force-replay-independent-FFT-protocol-v001.md",
+      "bytes": 2180,
+      "sha256": "c5e855d7366d9caa0e47e1270df4b339c504517205d4f509fe309403f6783da1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\replay_force_via_fft.py",
+      "bytes": 8464,
+      "sha256": "4b9d2d4a64a47f6a3a786d564704e101dc9fe1ca99de8137adde10dbce1302d2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R014-force-replay-FFT\\summary.json",
+      "bytes": 5964,
+      "sha256": "b50083fae649be939f65dab63618d3150f951bf07591610a4e0ed17f529d277f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R014-force-replay-FFT\\four_points.csv",
+      "bytes": 677,
+      "sha256": "0937c3a3e9c72ca1ff08af03a2b1b9ad4cf32a1aa25a0d91b4033678f38ce400"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R014-force-replay-FFT\\report.md",
+      "bytes": 890,
+      "sha256": "19ffa30704e72f058fe4004ac7e984cae004722b88ae977ab18a9ece396b4ff0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R014-force-replay-FFT\\freeze.json",
+      "bytes": 1639,
+      "sha256": "8091e53cbca2cfdab379966c798c5906c12571472250cac772a908697ebe9620"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R031-force-replay-review\\report.md",
+      "bytes": 6589,
+      "sha256": "fa98e27e5fcf3a538bc9990fb25b8a4043554d75c871fbcec299dc3ec4bd2ccd"
+    }
+  ],
+  "scope": [
+    "complete code and smalloutputs only; root actualfull98305point replay not rerun",
+    "tiny scalar integral/series challenges permitted",
+    "no NPZ/rawExcel read/hash/decode/stat or target import/execute",
+    "no fullwindow/ODE/network or source/shared/Git edits",
+    "samegivenF numerical consistency only, nottrueFD/continuousbounds/physicalexternalvalidation/newlayoutprediction"
+  ],
+  "additional_nonNPZ_small_source_refs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\force-replay-independent-FFT-protocol-v001.md",
+      "bytes": 2180,
+      "sha256": "c5e855d7366d9caa0e47e1270df4b339c504517205d4f509fe309403f6783da1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R019-force-output-replay-prototype\\summary_r019.json",
+      "bytes": 8243,
+      "sha256": "d84bc3f9fe6225e4c1ec9a9dd82b4ca6fe0349455ae53b5bfe1e707d9047d29f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R019-force-output-replay-prototype\\four_fixed_point_replay.csv",
+      "bytes": 1283,
+      "sha256": "88e7f8472d194f68fffee2659eec4de9b41a05b9576f0d0e249127c4ea40f101"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\replay_force_via_fft.py",
+      "bytes": 8464,
+      "sha256": "4b9d2d4a64a47f6a3a786d564704e101dc9fe1ca99de8137adde10dbce1302d2"
+    }
+  ]
+}

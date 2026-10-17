@@ -1,0 +1,24 @@
+{
+  "task": "R020 artifact link/display QA clarification only; preserve original four files",
+  "at": "2026-10-18T03:12:10.939108+08:00",
+  "binds_report": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R020-force-replay-FFT-review\\R020-force-replay-FFT-review.md",
+    "bytes": 5998,
+    "sha256": "aa63dd62bfa6d695bb98a64a27c353f7cb1c3e37d78fe3c072a3325453279ac8"
+  },
+  "binds_validation": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R020-force-replay-FFT-review\\validation-R020.json",
+    "bytes": 3297,
+    "sha256": "29f55a9aeabed06e3dd8fd85db77eaaf08d484acaa70874fecb714ced9a86476"
+  },
+  "why_original_link_flag_false": "Broad link regex also matched the plain-text mathematical expression sum[k=0..n-1](L...+R...), treating its bracket-parenthesis as a relative link. No artifact is missing. Use the explicit actual artifact-link list here; original report/validation are preserved.",
+  "actual_artifact_links": {
+    "input-rules-R020.json": true,
+    "small-challenges-R020.json": true,
+    "validation-R020.json": true
+  },
+  "actual_artifact_links_all_exist": true,
+  "plain_formula_for_display": "q_n = -beta * sum_{k=0}^{n-1} (L_{n-1-k}*F_k + R_{n-1-k}*F_{k+1}); n>=1; q_0=0",
+  "no_scientific_scope_or_source_change": true,
+  "all_JSON_parse": true
+}

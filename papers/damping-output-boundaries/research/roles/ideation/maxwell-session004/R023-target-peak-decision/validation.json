@@ -1,0 +1,40 @@
+{
+  "round": "R023",
+  "frozen_at": "2026-10-18T02:58:46.776181+08:00",
+  "elapsed_seconds": 278.776181,
+  "within_10_minute_limit": true,
+  "all_frozen_sources_SHA_unchanged": true,
+  "exact_Fraction_functional_challenges": "passed",
+  "five_strict_or_touching_cases": 5,
+  "extra_challenges": [
+    "same information opposite orders",
+    "zero reference peak",
+    "reference and contribution errors",
+    "shared reference error false increase",
+    "different peak times",
+    "hidden interior peak"
+  ],
+  "internal_author_side_checks": 2,
+  "independent_review": "pending root dispatch",
+  "UTF8_JSON_links_QA": "passed",
+  "relative_links": [
+    {
+      "source": "report.md",
+      "target": "input-freeze.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "checks.py",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "checks.json",
+      "exists": true
+    }
+  ],
+  "main_argument_CJK_characters": 786,
+  "main_argument_lines": 58,
+  "write_scope": "Own new R023 directory only; no ODE, raw tables, large arrays, old/source/shared/Git mutation."
+}

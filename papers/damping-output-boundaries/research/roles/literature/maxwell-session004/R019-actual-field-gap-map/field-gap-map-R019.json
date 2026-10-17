@@ -1,0 +1,818 @@
+{
+  "task": "R019",
+  "status_categories": [
+    "已拿到",
+    "仅用户说明",
+    "缺导出",
+    "定义未认证"
+  ],
+  "current_workbook_identity_inherited": {
+    "path": "E:\\!!!!!!!!TO HOME\\有控.xlsx",
+    "bytes": 635525054,
+    "sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+    "original_workbook_not_accessed_this_task": true
+  },
+  "current24_sheet_names_excluding_ProgramControl_values": [
+    "Base Reactions",
+    "Diaphragm CM Displacements",
+    "Element Deformations - Links",
+    "Element Forces - Links",
+    "Element Joint Forces - Links",
+    "Element NL Energy By Group",
+    "Joint Accelerations - Absolute",
+    "Joint Velocities - Absolute",
+    "Link Assigns - Link Properties",
+    "Link Assigns - Local Axes",
+    "Link Assigns - Summary",
+    "Link Prop Def - Damper - Exp",
+    "Link Prop Def - Summary",
+    "Modal Direction Factors",
+    "Modal Load Participation Ratios",
+    "Modal Participating Mass Ratios",
+    "Modal Participation Factors",
+    "Modal Periods And Frequencies",
+    "Program Control",
+    "Story Accelerations",
+    "Story Drifts",
+    "Story Forces",
+    "Total Energy Components",
+    "Tributary Area and LLRF"
+  ],
+  "confirmed_table_name_policy": "Only names actually present in this current small inventory/headers are labeled confirmed; missing definition/shape/coordinate table names are explicitly unverified. No UI click paths.",
+  "field_map": [
+    {
+      "id": "F01",
+      "conditional_field": "当前源文件身份",
+      "status": "已拿到",
+      "current_actual_evidence": "既有清单记录有控.xlsx 635525054B及SHA9d999d…bf82c23",
+      "minimum_missing_evidence": "若后续导出来自变更模型，另给新模型/导出身份",
+      "confirmed_current_table_names": [],
+      "evidence_locator": [
+        "metadata_inventory.source/sha256/before",
+        "core-cache.manifest.source/sha256/bytes"
+      ],
+      "boundary": "本轮未访问原工作簿或重验其SHA；沿用冻结清单身份"
+    },
+    {
+      "id": "F02",
+      "conditional_field": "88只device→property指定",
+      "status": "已拿到",
+      "current_actual_evidence": "88条均Link1；Story1–11各8",
+      "minimum_missing_evidence": "当前模型若有更改，更新指定表",
+      "confirmed_current_table_names": [
+        "Link Assigns - Link Properties",
+        "Link Assigns - Summary"
+      ],
+      "evidence_locator": [
+        "controlled_small_tables:rows4–91"
+      ],
+      "boundary": "既有指定可复用，不要求重复88份相同属性定义"
+    },
+    {
+      "id": "F03",
+      "conditional_field": "属性类型及摘要DOF",
+      "status": "已拿到",
+      "current_actual_evidence": "Link1、Damper - Exponential、Degrees of Freedom=U1",
+      "minimum_missing_evidence": "运行工况实际引用/逐DOF开关另核",
+      "confirmed_current_table_names": [
+        "Link Prop Def - Summary"
+      ],
+      "evidence_locator": [
+        "controlled_small_tables:row4"
+      ],
+      "boundary": "这是摘要U1标记，不替代每DOF Fixed/非线性选项或工况激活身份"
+    },
+    {
+      "id": "F04",
+      "conditional_field": "逐DOF实际非线性/Fixed/选项",
+      "status": "缺导出",
+      "current_actual_evidence": "Exp明细表仅3行标题/字段/单位",
+      "minimum_missing_evidence": "补Link1按Direction的全部数据行、Fixed和相关选项",
+      "confirmed_current_table_names": [
+        "Link Prop Def - Damper - Exp"
+      ],
+      "evidence_locator": [
+        "controlled_small_tables:row2 fields;data_rows0"
+      ],
+      "boundary": "缺数据不等于软件模型没有定义；528参与率行不是528激活DOF"
+    },
+    {
+      "id": "F05",
+      "conditional_field": "参考有效ke/ce数值",
+      "status": "缺导出",
+      "current_actual_evidence": "Trans Linear KE/CE列和单位存在，值未导出",
+      "minimum_missing_evidence": "同一Link1版本各DOF的KE/CE实际值/选项",
+      "confirmed_current_table_names": [
+        "Link Prop Def - Damper - Exp"
+      ],
+      "evidence_locator": [
+        "controlled_small_tables:rows2–3"
+      ],
+      "boundary": "ke不等于串联κ；ce不等于真实c或背景ζ；不得推全局KN=0"
+    },
+    {
+      "id": "F06",
+      "conditional_field": "Link1截图有效参数0",
+      "status": "仅用户说明",
+      "current_actual_evidence": "旧R004/R017记录为主控转述，本角色未查看原截图",
+      "minimum_missing_evidence": "如用作证据需绑定当前模型/属性/DOF/工况；用原生数据行落实",
+      "confirmed_current_table_names": [],
+      "evidence_locator": [
+        "R017 current source scope;previousR004 screenshot limitation"
+      ],
+      "boundary": "单图不能据此认证全88运行设置；不伪称本次看过截图"
+    },
+    {
+      "id": "F07",
+      "conditional_field": "实际串联κ、黏壶c、α及单位",
+      "status": "缺导出",
+      "current_actual_evidence": "Trans NL Stiffness/Damping/Exponent列存在但无数据",
+      "minimum_missing_evidence": "补Link1逐DOF实际值、单位与串联选项",
+      "confirmed_current_table_names": [
+        "Link Prop Def - Damper - Exp"
+      ],
+      "evidence_locator": [
+        "controlled_small_tables:rows2–3"
+      ],
+      "boundary": "拟合训练参数不是属性真值；实际串联效应已在完整端口F中，不重复并入主体K"
+    },
+    {
+      "id": "F08",
+      "conditional_field": "属性质量/实际M及质量源",
+      "status": "定义未认证",
+      "current_actual_evidence": "Summary质量25kg已取得，但当前质量源/M未取得",
+      "minimum_missing_evidence": "当前质量源、是否含Link自质量、约束后质量身份",
+      "confirmed_current_table_names": [
+        "Link Prop Def - Summary"
+      ],
+      "evidence_locator": [
+        "controlled_small_tables:row4;metadata_report§1;R003§3"
+      ],
+      "boundary": "25kg属性不证明进入分析M；去器件不得无说明同时改变M"
+    },
+    {
+      "id": "F09",
+      "conditional_field": "Local Axes角度",
+      "status": "已拿到",
+      "current_actual_evidence": "88条Angle=0deg",
+      "minimum_missing_evidence": "默认轴/高级轴及端点几何另核",
+      "confirmed_current_table_names": [
+        "Link Assigns - Local Axes"
+      ],
+      "evidence_locator": [
+        "controlled_small_tables:rows4–91"
+      ],
+      "boundary": "Angle0不是全局X方向余弦；Defined Length1m不是I/J几何"
+    },
+    {
+      "id": "F10",
+      "conditional_field": "全88端口I/J、XYZ、轴、偏置/约束→B",
+      "status": "缺导出",
+      "current_actual_evidence": "JointForce结果有Joint列；指定表无I/J，局部轴表只有Angle",
+      "minimum_missing_evidence": "只补全部指定端口的I/J、轴或可复现几何、偏置/转角/刚臂/隔板约束",
+      "confirmed_current_table_names": [
+        "Element Joint Forces - Links",
+        "Link Assigns - Local Axes"
+      ],
+      "evidence_locator": [
+        "metadata_report§1/§4;headers"
+      ],
+      "boundary": "精确连接/坐标/约束导出表名在当前版本未认证；不猜点击路径或将局部Joint结果当完整拓扑"
+    },
+    {
+      "id": "F11",
+      "conditional_field": "P/U1结果列及单位",
+      "status": "已拿到",
+      "current_actual_evidence": "P(kN)、Location=I-End/J-End；U1(mm)等表头存在，原大表截断",
+      "minimum_missing_evidence": "保留组键/同刻/源行；缺组分批补导出",
+      "confirmed_current_table_names": [
+        "Element Forces - Links",
+        "Element Deformations - Links"
+      ],
+      "evidence_locator": [
+        "metadata_inventory.sheets.head/tail;headers"
+      ],
+      "boundary": "两个端P不加成2P；mm换m作功；U1是整器件相对变形不是某端节点位移"
+    },
+    {
+      "id": "F12",
+      "conditional_field": "当前软件列→功共轭完整F/总δ的符号映射",
+      "status": "定义未认证",
+      "current_actual_evidence": "R003给CSI Rev15 P=轴向内部力、U1端差定义，当前版本/端口绑定未闭合",
+      "minimum_missing_evidence": "先用一只完整Link核I/J/轴、变形重构、作用对象/符号/单位；必要Field Description或已知符号基准",
+      "confirmed_current_table_names": [
+        "Element Forces - Links",
+        "Element Deformations - Links"
+      ],
+      "evidence_locator": [
+        "R003§1–§5;R017/R022/R030"
+      ],
+      "boundary": "手册定义不是当前任意P列已认证；JointForce作用对象/惯性恢复仍unknown"
+    },
+    {
+      "id": "F13",
+      "conditional_field": "全部指定器件完整F_D时间史",
+      "status": "缺导出",
+      "current_actual_evidence": "已审六工况共同完整子集32/88；原力/变形表触行上限",
+      "minimum_missing_evidence": "按已有组完整性清单仅补缺失/截断组；先一工况、全88指定端口完整窗",
+      "confirmed_current_table_names": [
+        "Element Forces - Links",
+        "Element Deformations - Links"
+      ],
+      "evidence_locator": [
+        "R022/R030 partial32of88;metadata_inventory capped tables"
+      ],
+      "boundary": "共同32不是每工况恰好32；本轮不重新裁定数组覆盖，不按56固定补每工况、不补0"
+    },
+    {
+      "id": "F14",
+      "conditional_field": "当前七表/工况输出时间窗",
+      "status": "已拿到",
+      "current_actual_evidence": "七表小manifest列六工况、NonModHist、Step By Step、约0.02s输出窗",
+      "minimum_missing_evidence": "如果改窗/续算，提供新输出清单",
+      "confirmed_current_table_names": [
+        "Total Energy Components",
+        "Element NL Energy By Group",
+        "Base Reactions",
+        "Story Forces",
+        "Diaphragm CM Displacements",
+        "Story Accelerations",
+        "Story Drifts"
+      ],
+      "evidence_locator": [
+        "core-cache.manifest.tables.*.headers/groups"
+      ],
+      "boundary": "输出步不等于内部积分步，manifest.complete不等于88力完整或真实无限尾完整"
+    },
+    {
+      "id": "F15",
+      "conditional_field": "模态频率/阶次结果",
+      "status": "已拿到",
+      "current_actual_evidence": "当前有控自身Mode1–300，Case=Modal；CircFreq(rad/sec)等列存在",
+      "minimum_missing_evidence": "正确参考算子若不同，需对应已有模态结果/身份",
+      "confirmed_current_table_names": [
+        "Modal Periods And Frequencies"
+      ],
+      "evidence_locator": [
+        "controlled_small_tables:rows4–303"
+      ],
+      "boundary": "不是搬用旧300阶；300结果不证明全确切Eigen或实际基类型"
+    },
+    {
+      "id": "F16",
+      "conditional_field": "Eigen/Ritz、实际所得基、刚度来源/完整性",
+      "status": "缺导出",
+      "current_actual_evidence": "当前清单没有Modal定义，参与率结果不代替定义",
+      "minimum_missing_evidence": "Modal Case实际类型、建基初态/参考K、实际阶数频带、独立起始载荷/循环和完整性/余项",
+      "confirmed_current_table_names": [
+        "Modal Load Participation Ratios",
+        "Modal Participating Mass Ratios"
+      ],
+      "evidence_locator": [
+        "current24sheetinventory;R017/R022/R030"
+      ],
+      "boundary": "模态定义表当前精确名称未知；充分Ritz不自动等于本标量接口完整确切Eigen"
+    },
+    {
+      "id": "F17",
+      "conditional_field": "显示振型缩放、m或质量归一",
+      "status": "定义未认证",
+      "current_actual_evidence": "Modal Participation Factors有ModalMass/ModalStiff列与单位；无当前端点振型配套认证",
+      "minimum_missing_evidence": "同一缩放的目标/端点模态形状及mj，或质量归一证据",
+      "confirmed_current_table_names": [
+        "Modal Participation Factors"
+      ],
+      "evidence_locator": [
+        "controlled_small_tables:rows2–3;R022/R030"
+      ],
+      "boundary": "列名/数值不自动是公式所用mj，质量参与率不可代替有符号形状"
+    },
+    {
+      "id": "F18",
+      "conditional_field": "固定目标ell及signedγ",
+      "status": "缺导出",
+      "current_actual_evidence": "CM位移/Drift结果有目标类字段，尚未指定并绑定所需线性物理输出",
+      "minimum_missing_evidence": "先固定一处位移/相对位移目标，给其相关DOF和signedγ或所需少量节点振型",
+      "confirmed_current_table_names": [
+        "Diaphragm CM Displacements",
+        "Story Drifts"
+      ],
+      "evidence_locator": [
+        "headers;R022 minimum-fields.target_rows"
+      ],
+      "boundary": "Drift位置Label/XYZ不是完整UniqueName/模态目标；不把加速度/总层剪套位移式，当前振型表精确名未知"
+    },
+    {
+      "id": "F19",
+      "conditional_field": "全端口signedβ",
+      "status": "缺导出",
+      "current_actual_evidence": "当前频率/参与因子表没有逐端口有符号模态投影",
+      "minimum_missing_evidence": "全部指定DOF逐mode signedβ或实际端点模态形状+B映射",
+      "confirmed_current_table_names": [],
+      "evidence_locator": [
+        "R022 minimum-fields.port_rows;R030§4"
+      ],
+      "boundary": "可只给认证γ/β，不必交全楼其他节点；模态翻号/尺度须一致"
+    },
+    {
+      "id": "F20",
+      "conditional_field": "物理裸K0或FNA Kref及力配对",
+      "status": "定义未认证",
+      "current_actual_evidence": "CSI定义已审，当前全部ke/实际Modal来源未拿到",
+      "minimum_missing_evidence": "选裸K0+完整F或Kref+残余，明确参考U；必要裸U修正",
+      "confirmed_current_table_names": [
+        "Link Prop Def - Damper - Exp"
+      ],
+      "evidence_locator": [
+        "R017 source scope;R022/R030§3"
+      ],
+      "boundary": "KN不是实际κ；去支路不等于删整Link并改变线性DOF/质量/约束"
+    },
+    {
+      "id": "F21",
+      "conditional_field": "实际背景C/逐阶ζ及来源",
+      "status": "缺导出",
+      "current_actual_evidence": "当前结果表无工况/材料阻尼定义；5%只作既有参考标尺",
+      "minimum_missing_evidence": "当前工况阻尼、材料合成、逐阶覆盖、参考K及共同对角化证据",
+      "confirmed_current_table_names": [],
+      "evidence_locator": [
+        "metadata_report§3;R017/R030"
+      ],
+      "boundary": "同5%不证明同C；拆装/换K改变模态时须重核，ce0不证明背景0或5%；当前精确表名未知"
+    },
+    {
+      "id": "F22",
+      "conditional_field": "同外力记录/方向/倍率/时间移位",
+      "status": "缺导出",
+      "current_actual_evidence": "当前有输出工况名而无输入函数/工况定义",
+      "minimum_missing_evidence": "同记录/函数身份、方向、比例、时间移位/窗及case引用；既有波文件可用hash+配置绑定",
+      "confirmed_current_table_names": [],
+      "evidence_locator": [
+        "current24sheetinventory;R022/R030"
+      ],
+      "boundary": "同工况名/响应窗不认证同f，同f也不等于同输入功；差值计算不必另交输入modal participation factors"
+    },
+    {
+      "id": "F23",
+      "conditional_field": "主体初态/续算、器件初态、质量源case绑定",
+      "status": "缺导出",
+      "current_actual_evidence": "当前结果CaseType=NonModHist，不是初态/质量源定义",
+      "minimum_missing_evidence": "当前时程case配置及引用、主体u/v初态/续算、器件初态和质量源",
+      "confirmed_current_table_names": [],
+      "evidence_locator": [
+        "current24sheetinventory;R022/R030"
+      ],
+      "boundary": "旧session003 Unstressed/MsSrc1/旧300阶设置不能搬给当前新有控"
+    },
+    {
+      "id": "F24",
+      "conditional_field": "同M/K/C的去支路主体基线身份",
+      "status": "定义未认证",
+      "current_actual_evidence": "当前只有单有控状态，旧0/3模型尚非公平成对裸主体",
+      "minimum_missing_evidence": "参考主体定义/差异清单；若要绝对响应/峰，再交已存在且身份合格的yU或参考解依据",
+      "confirmed_current_table_names": [],
+      "evidence_locator": [
+        "R022/R030;metadata_report§4"
+      ],
+      "boundary": "只求条件差值不强制新增无控时程；没有既有合格基线时保留缺口，不安排新求解"
+    },
+    {
+      "id": "F25",
+      "conditional_field": "采样力重构/求积/缺模态和缺器件余项",
+      "status": "定义未认证",
+      "current_actual_evidence": "现有有限输出网格及缺组已知",
+      "minimum_missing_evidence": "声明插值/共同窗，未认证力误差和遗漏项单列；需要全时结论再补尾历史/证据",
+      "confirmed_current_table_names": [
+        "Element Forces - Links"
+      ],
+      "evidence_locator": [
+        "R022/R030§2"
+      ],
+      "boundary": "采样力卷积是重构力贡献，不是真力精确差；输入停止不等于器件力为0"
+    }
+  ],
+  "existing_seven_cache_tables": {
+    "Total Energy Components": {
+      "headers": [
+        "Output Case",
+        "Case Type",
+        "Step Type",
+        "Step Number",
+        "Input Energy",
+        "Kinetic Energy",
+        "Potential Energy",
+        "Global Damping Energy",
+        "Link Damper Energy",
+        "Link Hysteresis Energy",
+        "Energy Error"
+      ],
+      "key_columns": [
+        "Output Case",
+        "Case Type"
+      ],
+      "group_count": 6,
+      "cases": [
+        "RH4X",
+        "RH4Y",
+        "SHW4X",
+        "SHW4Y",
+        "SHW7X",
+        "SHW7Y"
+      ]
+    },
+    "Element NL Energy By Group": {
+      "headers": [
+        "Group",
+        "Output Case",
+        "Case Type",
+        "Step Type",
+        "Step Number",
+        "Internal Viscous Damping",
+        "Internal Hysteretic Damping",
+        "Support Viscous Damping",
+        "Support Hysteretic Damping"
+      ],
+      "key_columns": [
+        "Group",
+        "Output Case",
+        "Case Type"
+      ],
+      "group_count": 6,
+      "cases": [
+        "RH4X",
+        "RH4Y",
+        "SHW4X",
+        "SHW4Y",
+        "SHW7X",
+        "SHW7Y"
+      ]
+    },
+    "Base Reactions": {
+      "headers": [
+        "Output Case",
+        "Case Type",
+        "Step Type",
+        "Step Number",
+        "FX",
+        "FY",
+        "FZ",
+        "MX",
+        "MY",
+        "MZ",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "key_columns": [
+        "Output Case",
+        "Case Type"
+      ],
+      "group_count": 6,
+      "cases": [
+        "RH4X",
+        "RH4Y",
+        "SHW4X",
+        "SHW4Y",
+        "SHW7X",
+        "SHW7Y"
+      ]
+    },
+    "Story Forces": {
+      "headers": [
+        "Story",
+        "Output Case",
+        "Case Type",
+        "Step Type",
+        "Step Number",
+        "Location",
+        "P",
+        "VX",
+        "VY",
+        "T",
+        "MX",
+        "MY"
+      ],
+      "key_columns": [
+        "Story",
+        "Location",
+        "Output Case",
+        "Case Type"
+      ],
+      "group_count": 72,
+      "cases": [
+        "RH4X",
+        "RH4Y",
+        "SHW4X",
+        "SHW4Y",
+        "SHW7X",
+        "SHW7Y"
+      ]
+    },
+    "Diaphragm CM Displacements": {
+      "headers": [
+        "Story",
+        "Diaphragm",
+        "Output Case",
+        "Case Type",
+        "Step Type",
+        "Step Number",
+        "UX",
+        "UY",
+        "RZ"
+      ],
+      "key_columns": [
+        "Story",
+        "Diaphragm",
+        "Output Case",
+        "Case Type"
+      ],
+      "group_count": 108,
+      "cases": [
+        "RH4X",
+        "RH4Y",
+        "SHW4X",
+        "SHW4Y",
+        "SHW7X",
+        "SHW7Y"
+      ]
+    },
+    "Story Accelerations": {
+      "headers": [
+        "Story",
+        "Output Case",
+        "Case Type",
+        "Step Type",
+        "Step Number",
+        "UX",
+        "UY",
+        "UZ",
+        "RX",
+        "RY",
+        "RZ"
+      ],
+      "key_columns": [
+        "Story",
+        "Output Case",
+        "Case Type"
+      ],
+      "group_count": 78,
+      "cases": [
+        "RH4X",
+        "RH4Y",
+        "SHW4X",
+        "SHW4Y",
+        "SHW7X",
+        "SHW7Y"
+      ]
+    },
+    "Story Drifts": {
+      "headers": [
+        "Story",
+        "Output Case",
+        "Case Type",
+        "Step Type",
+        "Step Number",
+        "Direction",
+        "Drift",
+        "Drift/",
+        "Label",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "key_columns": [
+        "Story",
+        "Direction",
+        "Output Case",
+        "Case Type"
+      ],
+      "group_count": 144,
+      "cases": [
+        "RH4X",
+        "RH4Y",
+        "SHW4X",
+        "SHW4Y",
+        "SHW7X",
+        "SHW7Y"
+      ]
+    }
+  },
+  "current_output_windows": [
+    {
+      "Output Case": "RH4X",
+      "Case Type": "NonModHist",
+      "n": 2501,
+      "t0": 0.0,
+      "t1": 50.0
+    },
+    {
+      "Output Case": "RH4Y",
+      "Case Type": "NonModHist",
+      "n": 2501,
+      "t0": 0.0,
+      "t1": 50.0
+    },
+    {
+      "Output Case": "SHW4X",
+      "Case Type": "NonModHist",
+      "n": 2951,
+      "t0": 0.0,
+      "t1": 59.0
+    },
+    {
+      "Output Case": "SHW4Y",
+      "Case Type": "NonModHist",
+      "n": 2951,
+      "t0": 0.0,
+      "t1": 59.0
+    },
+    {
+      "Output Case": "SHW7X",
+      "Case Type": "NonModHist",
+      "n": 2696,
+      "t0": 0.0,
+      "t1": 53.9
+    },
+    {
+      "Output Case": "SHW7Y",
+      "Case Type": "NonModHist",
+      "n": 2696,
+      "t0": 0.0,
+      "t1": 53.9
+    }
+  ],
+  "capped_result_tables": [
+    "Element Deformations - Links",
+    "Element Forces - Links",
+    "Element Joint Forces - Links",
+    "Joint Accelerations - Absolute",
+    "Joint Velocities - Absolute"
+  ],
+  "R017_history_preservation": "No changes; R017/current scientific report used read-only, visual actor means role3 as clarified by historyrepair",
+  "R022_schema_coverage": {
+    "reference_manifest": {
+      "model_id_and_sha": [
+        "F01",
+        "F24"
+      ],
+      "constraint_dof_map_and_units": [
+        "F10",
+        "F12"
+      ],
+      "mass_source": [
+        "F08",
+        "F23"
+      ],
+      "K_physical_or_effective_and_state": [
+        "F16",
+        "F20"
+      ],
+      "actual_background_C_definition": [
+        "F21"
+      ],
+      "complete_exact_Eigen_and_common_damping_basis_evidence": [
+        "F16",
+        "F17",
+        "F21"
+      ],
+      "all_specified_device_ids": [
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "same_external_input_identity": [
+        "F22"
+      ],
+      "same_subject_initial_u_v_identity": [
+        "F23",
+        "F24"
+      ]
+    },
+    "mode_rows": {
+      "mode_id": [
+        "F15"
+      ],
+      "omega_rad_per_s": [
+        "F15"
+      ],
+      "actual_background_zeta": [
+        "F21"
+      ],
+      "modal_mass_or_mass_normalization_evidence": [
+        "F17"
+      ],
+      "shape_scale_and_common_phase": [
+        "F17",
+        "F19"
+      ],
+      "exact_Eigen_completeness_or_remainder_status": [
+        "F16",
+        "F25"
+      ]
+    },
+    "target_rows": {
+      "target_id": [
+        "F18"
+      ],
+      "fixed_ell_definition": [
+        "F18"
+      ],
+      "mode_id": [
+        "F15",
+        "F18"
+      ],
+      "signed_gamma_in_same_normalization": [
+        "F17",
+        "F18"
+      ]
+    },
+    "port_rows": {
+      "device_id_and_active_dof": [
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "mode_id": [
+        "F15",
+        "F19"
+      ],
+      "signed_beta_in_same_normalization": [
+        "F17",
+        "F19"
+      ],
+      "port_B_identity": [
+        "F10",
+        "F12"
+      ],
+      "actual_I_J_axis_offsets_rotations_constraints_if_beta_reconstructed": [
+        "F09",
+        "F10"
+      ],
+      "power_conjugate_force_and_sign_mapping": [
+        "F11",
+        "F12"
+      ]
+    },
+    "force_rows": {
+      "D_case_id": [
+        "F14",
+        "F23"
+      ],
+      "record_direction_scale_and_initial_case": [
+        "F22",
+        "F23"
+      ],
+      "device_id": [
+        "F02",
+        "F13"
+      ],
+      "time_s": [
+        "F13",
+        "F14"
+      ],
+      "true_conjugate_F_or_sample_reconstruction": [
+        "F12",
+        "F13",
+        "F25"
+      ],
+      "force_unit": [
+        "F11",
+        "F12"
+      ],
+      "source_column_sign_scale_mapping": [
+        "F11",
+        "F12",
+        "F20"
+      ],
+      "window_completeness_and_error_evidence": [
+        "F13",
+        "F14",
+        "F25"
+      ]
+    },
+    "remainder_manifest": {
+      "missing_mode_ids_and_evidence": [
+        "F16",
+        "F25"
+      ],
+      "missing_device_ids": [
+        "F13",
+        "F25"
+      ],
+      "force_sampling_and_quadrature_error": [
+        "F25"
+      ],
+      "unknown_initial_or_operator_mismatch_terms": [
+        "F20",
+        "F21",
+        "F22",
+        "F23",
+        "F24"
+      ],
+      "FNA_effective_K_and_residual_force_pairing": [
+        "F20"
+      ]
+    }
+  },
+  "schema_field_count": 38
+}

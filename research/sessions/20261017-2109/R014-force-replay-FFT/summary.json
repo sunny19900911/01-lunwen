@@ -1,0 +1,142 @@
+{
+  "at": "2026-10-18T03:04:14.668546+08:00",
+  "elapsed_seconds": 0.1728578999900492,
+  "status": "finite_same_source_force_replay_independent_algorithm_candidate",
+  "source_refs_checked": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\force-replay-independent-FFT-protocol-v001.md",
+      "bytes": 2180,
+      "sha256": "c5e855d7366d9caa0e47e1270df4b339c504517205d4f509fe309403f6783da1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+      "bytes": 12938185,
+      "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R019-force-output-replay-prototype\\summary_r019.json",
+      "bytes": 8243,
+      "sha256": "d84bc3f9fe6225e4c1ec9a9dd82b4ca6fe0349455ae53b5bfe1e707d9047d29f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R019-force-output-replay-prototype\\four_fixed_point_replay.csv",
+      "bytes": 1283,
+      "sha256": "88e7f8472d194f68fffee2659eec4de9b41a05b9576f0d0e249127c4ea40f101"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\replay_force_via_fft.py",
+      "bytes": 8464,
+      "sha256": "4b9d2d4a64a47f6a3a786d564704e101dc9fe1ca99de8137adde10dbce1302d2"
+    }
+  ],
+  "method": "Analytic complex-pole FOH displacement lag kernels and zero-padded FFT linear convolution; no R019 state recursion or author-code import.",
+  "N": 16384,
+  "nodes_compared": 98305,
+  "window_end_float": 266.572976289502,
+  "kernel_checks": [
+    {
+      "stiffness_exact_float": 1.0,
+      "beta": 0.7071067811865475,
+      "left_at_zero_lag": 2.4508917282222362e-06,
+      "right_at_zero_lag": 1.2254878531956503e-06,
+      "FFT_linear_padding_length": 262144
+    },
+    {
+      "stiffness_exact_float": 3.0,
+      "beta": -0.7071067811865475,
+      "left_at_zero_lag": 2.450705692981827e-06,
+      "right_at_zero_lag": 1.2254261383016152e-06,
+      "FFT_linear_padding_length": 262144
+    }
+  ],
+  "metrics_against_original_D_cache": {
+    "u1": {
+      "maximum_abs_error": 5.577410973955921e-06,
+      "RMS_error": 1.5016224572533615e-06,
+      "maximum_error_index": 15658,
+      "signed_error_at_maximum": -5.577410973955921e-06,
+      "max_error_below_point01": true
+    },
+    "u2": {
+      "maximum_abs_error": 1.8567000149849466e-06,
+      "RMS_error": 3.90201367331527e-07,
+      "maximum_error_index": 2949,
+      "signed_error_at_maximum": 1.8567000149849466e-06,
+      "max_error_below_point01": true
+    }
+  },
+  "agreement_differences": {
+    "u1_max": 1.1723955140041653e-13,
+    "u1_RMS": 1.3384219591867008e-15,
+    "u2_max": 1.9287349495300532e-13,
+    "u2_RMS": 3.642856804401655e-14,
+    "u1_point_0": 0.0,
+    "u2_point_0": 0.0,
+    "u1_point_16384": 1.0658141036401503e-14,
+    "u2_point_16384": 1.5198953207118393e-13,
+    "u1_point_16529": 9.681144774731365e-14,
+    "u2_point_16529": 1.4421797089880783e-13,
+    "u1_point_98304": 4.4463998455368525e-14,
+    "u2_point_98304": 4.437856332417667e-14
+  },
+  "fixed_agreement_gate": 1e-08,
+  "agreement_gate_passed": true,
+  "four_fixed_points": [
+    {
+      "node_index": 0,
+      "time_float": 0.0,
+      "analytic_U": 0.0,
+      "u1_FFT_replay": 0.0,
+      "u2_FFT_replay": 0.0,
+      "u1_D_cache": 0.0,
+      "u2_D_cache": 0.0,
+      "u1_FFT_minus_R019": 0.0,
+      "u2_FFT_minus_R019": 0.0
+    },
+    {
+      "node_index": 16384,
+      "time_float": 44.42882938158366,
+      "analytic_U": -0.06708579030074258,
+      "u1_FFT_replay": -4.329834918279847,
+      "u2_FFT_replay": -0.5433260225345623,
+      "u1_D_cache": -4.329840074235422,
+      "u2_D_cache": -0.5433266020038492,
+      "u1_FFT_minus_R019": 1.0658141036401503e-14,
+      "u2_FFT_minus_R019": 1.5198953207118393e-13
+    },
+    {
+      "node_index": 16529,
+      "time_float": 44.822028860363545,
+      "analytic_U": -0.5339513929567206,
+      "u1_FFT_replay": -5.064990792243171,
+      "u2_FFT_replay": -0.5851985666899516,
+      "u1_D_cache": -5.064996249099213,
+      "u2_D_cache": -0.5851985824180038,
+      "u1_FFT_minus_R019": 9.681144774731365e-14,
+      "u2_FFT_minus_R019": 1.4421797089880783e-13
+    },
+    {
+      "node_index": 98304,
+      "time_float": 266.572976289502,
+      "analytic_U": -1.7164753076753803e-05,
+      "u1_FFT_replay": -0.0029954027540454063,
+      "u2_FFT_replay": -0.005992587683582152,
+      "u1_D_cache": -0.0029954027426560793,
+      "u2_D_cache": -0.005992587673446424,
+      "u1_FFT_minus_R019": 4.4463998455368525e-14,
+      "u2_FFT_minus_R019": 4.437856332417667e-14
+    }
+  ],
+  "last_known_force": 0.00899020001082768,
+  "unknown_force_after_window_not_extended": true,
+  "limits": "Known same-source PL force only. Ordinary float/FFT errors and exact-model-vs-rounded parameters, true force interpolation, original D error and continuous extrema unbounded. No new-layout/input prediction, physical external validation or tail certificate.",
+  "command": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\replay_force_via_fft.py"
+  ],
+  "exit_code": 0,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5"
+}

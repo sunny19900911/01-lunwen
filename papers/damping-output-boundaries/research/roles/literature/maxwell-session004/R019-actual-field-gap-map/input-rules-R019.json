@@ -1,0 +1,72 @@
+{
+  "task": "R019 actual-field-gap-map current controlled model only",
+  "started_at": "2026-10-18T02:54:07+08:00",
+  "deadline": "2026-10-18T03:04:07+08:00",
+  "input_frozen_at": "2026-10-18T02:54:42.506495+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R022-force-target-interface\\report.md",
+      "bytes": 10057,
+      "sha256": "2e00ac175aac7beff172b2ac1a40b88d35023d3d7dcd0eeb7a71194254c4e203"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R022-force-target-interface\\minimum-fields.json",
+      "bytes": 2007,
+      "sha256": "a5c3736abacdd045f461af109b471a3cb1e8a64adbe22911af8e36f0012dfb55"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R022-force-target-interface\\proof-scope.json",
+      "bytes": 1406,
+      "sha256": "9f874f96f2b1c1b1b3f578d4747c56ae33a158063c45868b0d3c700f89a3cad4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R030-force-target-interface-review\\report.md",
+      "bytes": 8763,
+      "sha256": "70a7504fa6901051b325db2ee707b7c6fcbb75e22f8ce30781811f113a28ccb5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\R017-FNA-reference-force-scope.md",
+      "bytes": 8765,
+      "sha256": "a33c2080171356a5bc6255b3b2a2a443d42b478531be035814c7c5c3f43a3994"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\metadata_inventory.json",
+      "bytes": 35030,
+      "sha256": "67176fee744d772ab5241d6d3a2321ec933785a0764560ad225099961b140549"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "bytes": 493076,
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\元数据与完整性首轮复核.md",
+      "bytes": 8470,
+      "sha256": "33ad1b582e5f503ae282e5174517f078fb8abcb1dbe75bb0272c2ce9b5944ed7"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "bytes": 193090,
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\maxwell_headers_20261017.json",
+      "bytes": 16673,
+      "sha256": "d42ec83cfabbbe8cdf299476d169c634f72a94532bd4acea72b700d0d1b6c886"
+    }
+  ],
+  "constraints": [
+    "small existing headers/manifests/reports only",
+    "no raw workbook/arrays/NPZ/solver/extraction/download/search",
+    "no unverified UI click paths/table labels",
+    "separate current model from old300mode0/3 models",
+    "R017 and history immutable; own newR019 only writes; no shared/Git"
+  ],
+  "additional_small_report_inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R003-link-force-deformation-port-check.md",
+      "bytes": 8465,
+      "sha256": "6c7b18c48965531e9d8606be2210df7ddbd384e4d28c9f0dcdc4eee78279ceca"
+    }
+  ]
+}

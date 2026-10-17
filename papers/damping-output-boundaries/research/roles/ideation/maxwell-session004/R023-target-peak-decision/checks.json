@@ -1,0 +1,93 @@
+{
+  "scope": "Exact functional/PL information-contract tests only; no physical realizability, ODE or engineering data claim.",
+  "case_table": [
+    {
+      "name": "strict_decrease",
+      "U": [
+        "1",
+        "1"
+      ],
+      "D": [
+        "1/4",
+        "3/4"
+      ],
+      "decision": "decrease"
+    },
+    {
+      "name": "strict_increase",
+      "U": [
+        "1",
+        "1"
+      ],
+      "D": [
+        "5/4",
+        "7/4"
+      ],
+      "decision": "increase"
+    },
+    {
+      "name": "same_information_both_directions",
+      "U": [
+        "1",
+        "1"
+      ],
+      "D": [
+        "3/4",
+        "5/4"
+      ],
+      "decision": "inconclusive"
+    },
+    {
+      "name": "upper_touches_reference",
+      "U": [
+        "1",
+        "1"
+      ],
+      "D": [
+        "1/2",
+        "1"
+      ],
+      "decision": "inconclusive"
+    },
+    {
+      "name": "lower_touches_reference",
+      "U": [
+        "1",
+        "1"
+      ],
+      "D": [
+        "1",
+        "3/2"
+      ],
+      "decision": "inconclusive"
+    }
+  ],
+  "same_center_same_eps_admits_both_orders": true,
+  "zero_reference_peak_cases": "passed",
+  "approximate_reference_and_contribution_errors": "passed",
+  "shared_reference_error_false_increase_challenge": {
+    "actual_U_peak": "11/10",
+    "actual_D_peak": "21/20",
+    "correct_interval_decision": {
+      "U": [
+        "9/10",
+        "11/10"
+      ],
+      "D": [
+        "21/20",
+        "5/4"
+      ],
+      "decision": "inconclusive"
+    }
+  },
+  "different_peak_times_not_peak_of_difference": true,
+  "hidden_between_node_triangle": {
+    "node_peak": "0",
+    "true_peak": "1",
+    "certified_L": "2",
+    "gap": "1",
+    "upper_with_L_gap_half": "1"
+  },
+  "missing_56_remainder_bound": "unknown must not be replaced by zero; no numerical engineering verdict",
+  "all_frozen_source_sha_unchanged": true
+}

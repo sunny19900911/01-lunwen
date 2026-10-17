@@ -1,0 +1,66 @@
+{
+  "version": "v001",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-force-response-interface-v001.md",
+    "bytes": 6693,
+    "sha256": "32edbfb408e264c28b49e2cf07f31d622239972b085b9eb1c63fdfb3b22c2c68"
+  },
+  "input_freeze": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\force-response-interface-v001\\input-freeze.json",
+    "bytes": 6633,
+    "sha256": "ad741f3d4adf53148e092d86493cd6f66b1752dc15b3bac15a9d22f9f1b0c9d4"
+  },
+  "direct_source_count": 12,
+  "mapping": [
+    {
+      "section": "Opening;1/equations1-2",
+      "claim": "M-C029",
+      "sources": [
+        "research/sessions/20261017-2109/R014-adoption.json",
+        "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R022-force-target-interface/report.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R030-force-target-interface-review/report.md"
+      ],
+      "scope": "Classical fixedsameM/K/C/constraints/input/bodyIC;complete exact common Eigen andclassicalC;fullknownDforce;fixeddisplacementdifference only;massconsistent signedgamma/beta."
+    },
+    {
+      "section": "2/equation3",
+      "claim": "M-C029",
+      "sources": [
+        "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R022-force-target-interface/report.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R030-force-target-interface-review/report.md",
+        "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R017-FNA-reference-force-scope/R017-FNA-reference-force-scope.md"
+      ],
+      "scope": "K0 fullF;Keff residual andUeff;physicalU0 needs compensation;actualFNA/C/sourceP notcertified."
+    },
+    {
+      "section": "3/table andCSVlinks",
+      "sources": [
+        "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R022-force-target-interface/minimum-fields.json",
+        "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/layout-input-templates-v001/device_locations.csv",
+        "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/layout-input-templates-v001/link_properties.csv",
+        "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/layout-input-templates-v001/README.md",
+        "research/sessions/20261017-2109/阻尼器布置最小数据清单.md"
+      ],
+      "scope": "Minimumcapture requirements;actualfields notpopulated/certified;partial32of88 andsampling/tailremainders retained."
+    },
+    {
+      "section": "3/shortC028example",
+      "claim": "M-C028",
+      "sources": [
+        "research/sessions/20261017-2109/R014-adoption.json",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R029-modal-sign-corollary/report.md",
+        "research/sessions/20261017-2109/R013-addition-certificate-adoption.json"
+      ],
+      "scope": "C027 samefixedtruewitness;baremodal signs andcontinuouscumulativework underinheritedmachinecontract;notnewmechanism orrealengineering."
+    }
+  ],
+  "current_status": "C028/C029 adopted per root R014;this new manuscript awaits independent integration review.",
+  "historical_status": "Original R022 candidate label remains;rootadoption determines current source status.",
+  "excluded": [
+    "R019 newFOH replay",
+    "R023 peak criterion",
+    "actual-gap/R016 in-flight material"
+  ],
+  "source_provenance": "Role3 CSI primary-page review reused;writer didnotvisit orverifyprimarypages anew.",
+  "no_predecessor_diff": "New standalone companion manuscript;no previous version,diff not fabricated."
+}

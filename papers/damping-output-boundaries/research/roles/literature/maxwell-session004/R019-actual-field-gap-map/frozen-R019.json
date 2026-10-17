@@ -1,0 +1,36 @@
+{
+  "task": "R019 final delivery freeze including immutable initial four files and later link QA addendum",
+  "frozen_at": "2026-10-18T03:00:49.696700+08:00",
+  "started_at": "2026-10-18T02:54:07+08:00",
+  "elapsed_seconds": 402.6967,
+  "within_10_minutes": true,
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R019-actual-field-gap-map\\delivery-QA-R019.json",
+      "bytes": 1515,
+      "sha256": "4ee900bc17228a5ef20e519285ba3bdb97bcd94d6d95253efa4844c097ba16f5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R019-actual-field-gap-map\\field-gap-map-R019.json",
+      "bytes": 25973,
+      "sha256": "9bb6c54eb76c55a5bbf58d85e3b77216d72122831a875d2e331150633b436f06"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R019-actual-field-gap-map\\input-rules-R019.json",
+      "bytes": 4347,
+      "sha256": "1791794a7bee6d3a2f39193b8f3443561749881b94cf5856f32d37378813da1a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R019-actual-field-gap-map\\R019-actual-field-gap-map.md",
+      "bytes": 14321,
+      "sha256": "072f499bbfadbcc41e26984ffd7819f5d87d8ae0e8786ab251cf7a790d71a79d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R019-actual-field-gap-map\\validation-R019.json",
+      "bytes": 3585,
+      "sha256": "daab5bf2422d05ddafccd973416446684158c54850c53fd27abe0dd36f646b27"
+    }
+  ],
+  "original_four_files_preserved": true,
+  "later_required_clarifications_newfile_only": true
+}

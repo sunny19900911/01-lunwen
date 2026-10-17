@@ -1,0 +1,66 @@
+{
+  "task": "R020",
+  "status": "0 mustfix in static/math-smallchallenge/smalloutput review; no own fullwindow replay",
+  "frozen_at": "2026-10-18T03:11:24.879521+08:00",
+  "elapsed_seconds": 388.879521,
+  "within_8_minutes": true,
+  "checks": {
+    "12_agreements_recomputed_from_small_outputs_exact": true,
+    "strict_preregistered_1e8_gates": true,
+    "fourpoints_CSV_summary_exact": true,
+    "root_freeze5files_match": true,
+    "actual12keys": true,
+    "zero_padding_262144_sufficient": true,
+    "kernel_zero_lag_1_matches_independent_series": true,
+    "kernel_zero_lag_3_matches_independent_series": true,
+    "scalar_weights_all_pass": true,
+    "four_scalar_baseline_checks_pass": true,
+    "zero_initial_displacement_and_velocity": true,
+    "report_transcription": true
+  },
+  "all_initial_sources_unchanged": true,
+  "all_additional_nonNPZ_refs_unchanged": true,
+  "mustfix": [],
+  "small_weight_cases": 18,
+  "max_scalar_quadrature_difference": 4.3021142204224816e-16,
+  "max_scalar_series_difference": 4.85722573273506e-16,
+  "max_four_scalar_U_difference": 4.4202861585861813e-14,
+  "agreement_comparisons": 12,
+  "agreement_comparison_scope": "4 fullwindow max/RMS statistics +8 fourpoint predictions; NOT entire prediction histories pointwise compared",
+  "scope_separation": {
+    "R031": "static+lowdimensional/fourpoint only",
+    "root_FFT": "recorded actual98305node replay versus originalD cache with independentFFTalgorithm",
+    "this_R020": "static/fullcode, smalloutputs,18scalarweightcases,4scalarU; no arrays or wholewindowstatistics recomputation"
+  },
+  "collaborators": {
+    "weng2016_source": "0must; FOH/index/sign/padding derivation and tiny scalar quadrature",
+    "local_literature": "0must; Ubaseline/12gates/4points/5sourcefreeze and scopes"
+  },
+  "no_actions": [
+    "NPZ/rawExcel open/read/hash/decode/stat",
+    "target/author program import/execution",
+    "fullwindow/ODE rerun",
+    "network",
+    "rootfrozen/source/shared/Git mutation"
+  ],
+  "delivery_QA": {
+    "report_links_exist": false,
+    "UTF8_no_replacement": true,
+    "display_math_balanced": true
+  },
+  "input_rules": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R020-force-replay-FFT-review\\input-rules-R020.json",
+    "bytes": 4183,
+    "sha256": "8993a32184dd24ff876be21739b922d0a91a69472ca019cdb1e39d0e84d24045"
+  },
+  "small_challenges": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R020-force-replay-FFT-review\\small-challenges-R020.json",
+    "bytes": 6764,
+    "sha256": "b503b856baf388cfee2ffd24e98c1e985d504e6a8115c47845b995991e8ae102"
+  },
+  "output_report": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R020-force-replay-FFT-review\\R020-force-replay-FFT-review.md",
+    "bytes": 5998,
+    "sha256": "aa63dd62bfa6d695bb98a64a27c353f7cb1c3e37d78fe3c072a3325453279ac8"
+  }
+}

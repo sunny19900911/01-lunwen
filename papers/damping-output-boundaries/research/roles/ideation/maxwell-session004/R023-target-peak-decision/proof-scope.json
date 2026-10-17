@@ -1,0 +1,26 @@
+{
+  "round": "R023",
+  "status": "author-side classical sufficient decision rule; independent review pending",
+  "domain": "same fixed linear displacement/relative displacement, input/reference/initial identity, finite window[0,H]",
+  "identity": "yD=yU+c+r with certified uniform ||r||<=epsilon",
+  "errors": "etaU and etaC are full-window uniform bounds; delta=etaU+etaC+epsilon",
+  "verdicts": {
+    "strict_reduction": "D upper < U lower",
+    "strict_increase": "D lower > U upper",
+    "otherwise": "This conservative rule cannot decide strict direction; not equality or absence of real improvement",
+    "no_finite_residual_bound": "remainder unclosed; not a negative performance verdict"
+  },
+  "sampling": "exact PL center uses union of knots, true error separate; otherwise certified derivative/Lipschitz or interpolation bound and node error required",
+  "not_claimed": [
+    "56 missing forces have zero residual",
+    "peak times identical",
+    "peak difference equals peak of change",
+    "infinite-tail conclusion",
+    "ODE realizability of functional test curves",
+    "new-layout unknown force prediction or optimization",
+    "new theory or actual engineering result"
+  ],
+  "main_argument_CJK_characters": 786,
+  "main_argument_lines": 58,
+  "numeric_engineering_decision_made": false
+}
