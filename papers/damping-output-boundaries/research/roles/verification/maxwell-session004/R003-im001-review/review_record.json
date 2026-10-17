@@ -1,0 +1,147 @@
+{
+  "recorded_at": "2026-10-17T21:51:02.559033+08:00",
+  "checks_passed": true,
+  "script_sha256": "5139dfa75f21372545691eef32dfd55169c556c746520c21e56a33ba1d3979ac",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "verdict": "not_testable_no_eligible_match",
+  "window_count": 12,
+  "pair_count": 18,
+  "eligible_window_count": 8,
+  "eligible_pair_count": 7,
+  "energy_matched_pair_count": 0,
+  "witness_count": 0,
+  "all_window_and_pair_fields_checked": true,
+  "cases": [
+    {
+      "case": "RH4X",
+      "groups": {
+        "energy": "g0",
+        "Story1": "g66",
+        "Story2": "g60"
+      },
+      "common_points": 2501,
+      "total_delta_EG_0_50": 295.4355711779474,
+      "total_delta_EL_0_50": 344.5504094236793,
+      "negative_EL_increments_preserved": 54,
+      "negative_EG_increments": 0,
+      "peak_tie_counts": {
+        "10-20": 1,
+        "20-30": 1,
+        "30-40": 1,
+        "40-50": 1
+      }
+    },
+    {
+      "case": "SHW4X",
+      "groups": {
+        "energy": "g2",
+        "Story1": "g68",
+        "Story2": "g62"
+      },
+      "common_points": 2501,
+      "total_delta_EG_0_50": 355.9969552382346,
+      "total_delta_EL_0_50": 306.28870211855894,
+      "negative_EL_increments_preserved": 11,
+      "negative_EG_increments": 0,
+      "peak_tie_counts": {
+        "10-20": 1,
+        "20-30": 1,
+        "30-40": 1,
+        "40-50": 1
+      }
+    },
+    {
+      "case": "SHW7X",
+      "groups": {
+        "energy": "g4",
+        "Story1": "g70",
+        "Story2": "g64"
+      },
+      "common_points": 2501,
+      "total_delta_EG_0_50": 647.5433982594913,
+      "total_delta_EL_0_50": 510.6912408528043,
+      "negative_EL_increments_preserved": 51,
+      "negative_EG_increments": 0,
+      "peak_tie_counts": {
+        "10-20": 1,
+        "20-30": 1,
+        "30-40": 1,
+        "40-50": 1
+      }
+    }
+  ],
+  "nearest_eligible_pair": {
+    "case": "RH4X",
+    "window_u": "10-20",
+    "window_v": "20-30",
+    "eligible": true,
+    "R_u": 1.1225239834536627,
+    "R_v": 1.054493107938627,
+    "eta_u": 0.14408350684743812,
+    "eta_v": 0.05385514651948879,
+    "delta_R_relative": 0.0624991652881578,
+    "delta_eta": 0.09022836032794933,
+    "energy_matched": false,
+    "witness": false,
+    "failure_reason": "R_not_matched_5pct"
+  },
+  "source_workbook_sha256_inherited": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "no_raw_XLSX_Y_or_IM002": true,
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R001-energy-force-candidates.md",
+      "bytes": 8378,
+      "sha256": "cfe32266bf3bdaef16709594fda40acef8024af26c179ec189bc5512303d1833"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "bytes": 193090,
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Total_Energy_Components.npz",
+      "bytes": 835446,
+      "sha256": "3614b98aa57bb52ba7e18ceaac98f221ebcf6f15d13777b0ead7be268d857b4e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Forces.npz",
+      "bytes": 10443167,
+      "sha256": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R002_im001_firstcalc.py",
+      "bytes": 11269,
+      "sha256": "8b8187f50c392bf70f5cfdbcae6d9c0036b4f0b0a07c27d9f69b1c696d0efaf9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R002-im001-results.md",
+      "bytes": 3496,
+      "sha256": "8fa739528350f39ee24751233a506f3535a5300bff7cb08e2b0a2aab935cdb99"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R002-im001-firstcalc\\windows.csv",
+      "bytes": 5499,
+      "sha256": "dd63d274d992b59e6de698d5aeefa50a9c3fb7e3249e6a876f3bf9458000df7e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R002-im001-firstcalc\\pairs.csv",
+      "bytes": 3421,
+      "sha256": "3be4300f2319bc50cb70c5e4724a57a1e61b079477a2fad926b159b9b161cbd4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R002-im001-firstcalc\\run_record.json",
+      "bytes": 4953,
+      "sha256": "4586b21f6987001148e30f282a2f5a80cf5cae4ceb1fcc25b0023ca092b87111"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R002-validation.json",
+      "bytes": 1603,
+      "sha256": "5b1016b4ce7e911713f21e59deb4b8b562462ec19ab872d11f3e270998725e1b"
+    }
+  ],
+  "limits": [
+    "Frozen operational diagnostic, not novel theory or fair-equivalent-model falsification.",
+    "No official section sign/composition or P/U1/25kg inertial interface certification."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "started_at": "2026-10-17T21:53:03+08:00",
+  "completed_at": "2026-10-17T21:58:46+08:00",
+  "result": "insufficient-text; official metadata/abstract only; no author public manuscript located within bounded search",
+  "old_frozen_files_checked": 11,
+  "old_changed": [],
+  "new_local_links_checked": 2,
+  "broken_local_links": [],
+  "trailing_whitespace": [],
+  "publisher_attempt": {
+    "url": "https://ascelibrary.org/doi/10.1061/%28ASCE%290733-9399%282003%29129%3A3%28273%29",
+    "result": "HTTP 403 Forbidden; not retried"
+  },
+  "new_download_count": 0,
+  "files": [
+    {
+      "file": "R003.md",
+      "bytes": 5322,
+      "sha256": "3c2430b144f408c8a3b2187ef6d7b88e8bb33bf50964dea0fd2fabecc881ecad"
+    },
+    {
+      "file": "R003-author-access-check.md",
+      "bytes": 4030,
+      "sha256": "95c125f67e810b859f2be1b1da5ce913005c9caa9f2410f34f0ade6eb88307c7"
+    }
+  ]
+}

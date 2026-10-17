@@ -1,0 +1,99 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R003 link axial signs, lumped mass, and power ports",
+  "started_at": "2026-10-17T21:53:10+08:00",
+  "frozen_at": "2026-10-17T22:01:18.216367+08:00",
+  "task_limit_minutes": 10,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "primary_pdf": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\csi-analysis-reference-2016.pdf",
+    "url": "https://docs.csiamerica.com/manuals/etabs/Analysis%20Reference.pdf",
+    "edition": "July2016 Rev15",
+    "sha256": "7f6f6890afee2e1890d33f5d34d53d8e23f60850890bd230848642b50a6291ac",
+    "text_read": [
+      "p144/PDF166 force face signs",
+      "pp254-261/PDF276-283 local axes/deformations",
+      "pp266-267/PDF288-289 internal forces and Eqn1",
+      "pp271-273/PDF293-295 mass/output labels",
+      "pp334-335/PDF356-357 Mass Source",
+      "pp279-280/PDF301-302 Maxwell context"
+    ],
+    "visual_read": [
+      {
+        "printed": 261,
+        "pdf_page": 283,
+        "path": "local-cache/R003-CSI2016-PDFpage-283.png",
+        "sha256": "30c1614afafba1422e6c7a7b113075adc76ec52262059237f50324d5a0f80bc5"
+      },
+      {
+        "printed": 266,
+        "pdf_page": 288,
+        "path": "local-cache/R003-CSI2016-PDFpage-288.png",
+        "sha256": "6b6ffede5ba3e39345acfddaa2739553f98634f63ab8ddd5736da20d735a7078"
+      },
+      {
+        "printed": 267,
+        "pdf_page": 289,
+        "path": "local-cache/R003-CSI2016-PDFpage-289.png",
+        "sha256": "4ec70413961a56cdba5f3f3a8041c0164c614130e326ca54ed90d2064838472c"
+      },
+      {
+        "printed": 271,
+        "pdf_page": 293,
+        "path": "local-cache/R003-CSI2016-PDFpage-293.png",
+        "sha256": "3197abad8b2a1b75ab8b5c282c6c318f40958fc43a8151052a45d6379ddf03fe"
+      },
+      {
+        "printed": 273,
+        "pdf_page": 295,
+        "path": "local-cache/R003-CSI2016-PDFpage-295.png",
+        "sha256": "bfc61f6ff0119e5947a7fbe3b21ad7c6f647babfee09ffb58e6b4522c5fdfd31"
+      }
+    ]
+  },
+  "official_api": [
+    {
+      "method": "LinkForce",
+      "url": "https://docs.csiamerica.com/help-files/etabs-api-2016/html/948a79a2-904f-21f2-eb6d-00a209dfc3eb.htm",
+      "read": "HTML method signature/types; parameter explanations empty"
+    },
+    {
+      "method": "LinkJointForce",
+      "url": "https://docs.csiamerica.com/help-files/etabs-api-2016/html/4500bd02-6a4f-2728-6de4-433a5ce2aaa0.htm",
+      "read": "HTML method signature/types; parameter explanations empty"
+    },
+    {
+      "method": "LinkDeformation",
+      "url": "https://docs.csiamerica.com/help-files/etabs-api-2016/html/bb15d4bf-e983-61ef-25f2-993bdbeb82e3.htm",
+      "read": "HTML method signature/types; parameter explanations empty"
+    }
+  ],
+  "bounded_assistant": {
+    "name": "weng2016_source",
+    "time_limit_minutes": 3,
+    "file_writes": false,
+    "query": "site:docs.csiamerica.com \"LinkJointForce\" \"forces\"",
+    "query_count": 1,
+    "outcome": "Only2015member page/2016index; no extra inertia or force-action definition",
+    "failures": 0
+  },
+  "direct_new_broad_searches": 0,
+  "new_downloads": 0,
+  "new_renders": 5,
+  "render_cache_ignored": true,
+  "original_pdf_uploaded_or_copied": false,
+  "unknowns": [
+    "Current I/J Location to PointElm mapping",
+    "Current table software-version recovery mapping",
+    "LinkJointForce coordinate and action object",
+    "LinkJointForce inclusion/exclusion of lumped nodal inertia",
+    "Actual Mass Source inclusion and assembled current nodal M",
+    "Current nonaxial linear channels and Maxwell parameters"
+  ],
+  "own_interpretation_boundary": "Virtual-work port signs explicitly defined by this report, not attributed to blank API parameter documentation",
+  "no_positive_area_or_fit_sign_inference": true,
+  "no_solver_or_raw_large_table_read": true,
+  "no_git_shared_or_old_evidence_writes": true,
+  "next_test": "Native complete single-link connectivity/local-axis and U1 reconstruction, then signed end-port versus inertia-aware nodal balance"
+}

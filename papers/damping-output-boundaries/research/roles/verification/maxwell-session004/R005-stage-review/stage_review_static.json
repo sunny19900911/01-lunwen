@@ -1,0 +1,194 @@
+{
+  "recorded_at": "2026-10-17T22:09:13.459469+08:00",
+  "checks_passed": true,
+  "scope": "Independent manuscript integration and transcription checks; not another native-reader or science rerun.",
+  "script_sha256": "aef4a4242e9de7c5d81ce3524c7bd3b6f03ee2c4ec8705d642b647e83ebfafd0",
+  "freeze_time": "2026-10-17 21:54:22 +08:00",
+  "two_six_row_numeric_tables_exact_to_display_precision": true,
+  "numeric_cells_checked": 60,
+  "formula_tags": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "local_links": [
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\原生能量证据独审-R001.md",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R001-review-data\\energy_review_summary.csv",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v001-evidence-map.json",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R001.md",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R001-reusable-formulas.md"
+  ],
+  "source_states": [
+    {
+      "name": "plan",
+      "read_sha256": "cbdc121fa4c0928debb65f0723052085f873f030fadbb2d0554d068b162d28df",
+      "current_sha256": "cbdc121fa4c0928debb65f0723052085f873f030fadbb2d0554d068b162d28df",
+      "mutable_session_document": true,
+      "matches_read_version": true
+    },
+    {
+      "name": "claims",
+      "read_sha256": "cfa7f20f04c057b78f99eb24cdac0c59def30a2a745165cf8cbaa84d176487d2",
+      "current_sha256": "5ee912cebffe59f80f785f4bf9e737f9312f3dd257dff58f956d15ca8444f6ba",
+      "mutable_session_document": true,
+      "matches_read_version": false
+    },
+    {
+      "name": "handoff",
+      "read_sha256": "5801c4457f1ec8aa9e100dbdd908e46406dadaf796ded72387a351334b01c3fb",
+      "current_sha256": "5801c4457f1ec8aa9e100dbdd908e46406dadaf796ded72387a351334b01c3fb",
+      "mutable_session_document": true,
+      "matches_read_version": true
+    },
+    {
+      "name": "energy_review",
+      "read_sha256": "9434080b59bc23d7ec686dc9d0f32518e5e87869fe566f515f08892af7b08bae",
+      "current_sha256": "9434080b59bc23d7ec686dc9d0f32518e5e87869fe566f515f08892af7b08bae",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "energy_review_csv",
+      "read_sha256": "1d7f654920a1aa78510adfac23898d12b2448d800e8debc9a8f9e1b9aa36b224",
+      "current_sha256": "1d7f654920a1aa78510adfac23898d12b2448d800e8debc9a8f9e1b9aa36b224",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "energy_review_json",
+      "read_sha256": "23e903d5310d6721466b4cf2ac3f239b372a5031eb4c0fd6864bcb73eb060509",
+      "current_sha256": "23e903d5310d6721466b4cf2ac3f239b372a5031eb4c0fd6864bcb73eb060509",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "master_energy_run",
+      "read_sha256": "03cb21bffae7e19b8bdeef32a7578b32d2db5d9984561ff5b0afd21821f81699",
+      "current_sha256": "03cb21bffae7e19b8bdeef32a7578b32d2db5d9984561ff5b0afd21821f81699",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "metadata_audit",
+      "read_sha256": "33ad1b582e5f503ae282e5174517f078fb8abcb1dbe75bb0272c2ce9b5944ed7",
+      "current_sha256": "33ad1b582e5f503ae282e5174517f078fb8abcb1dbe75bb0272c2ce9b5944ed7",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "energy_method_audit",
+      "read_sha256": "3bfc4628772839592e3f781cde1b50ff27558e416c37488f06e33dc565ee17cc",
+      "current_sha256": "3bfc4628772839592e3f781cde1b50ff27558e416c37488f06e33dc565ee17cc",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "coverage_aux",
+      "read_sha256": "2ed6b1666c0dd97a85ff1b94fe38adb27c925082820b54c6995aa69962fcd8b0",
+      "current_sha256": "2ed6b1666c0dd97a85ff1b94fe38adb27c925082820b54c6995aa69962fcd8b0",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "novelty_package",
+      "read_sha256": "ab3bf3761696663219b3b1257a32f61abc18895462288cb54bb9d1d8396dafd4",
+      "current_sha256": "ab3bf3761696663219b3b1257a32f61abc18895462288cb54bb9d1d8396dafd4",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "formula_conditions",
+      "read_sha256": "90ed4d02f7c7f31c5e7b44ed6df27341fa3fc9608e058db55e6dd12f8381ca32",
+      "current_sha256": "90ed4d02f7c7f31c5e7b44ed6df27341fa3fc9608e058db55e6dd12f8381ca32",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "energy_sources",
+      "read_sha256": "63f11020c7d3a73f7aff411fafdd704213aef242bef33b3d9767eef7b00e32eb",
+      "current_sha256": "63f11020c7d3a73f7aff411fafdd704213aef242bef33b3d9767eef7b00e32eb",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "Lan_scope",
+      "read_sha256": "65332f116f2e36b2c7a17a0bab47e8c6b3bc297da194bd4bd3b8bde6a940b282",
+      "current_sha256": "65332f116f2e36b2c7a17a0bab47e8c6b3bc297da194bd4bd3b8bde6a940b282",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "Maxwell_primary",
+      "read_sha256": "e0306f805e2f7aae24625d65fbf779718cac8c5715f4e68bb70192b4d52a310d",
+      "current_sha256": "e0306f805e2f7aae24625d65fbf779718cac8c5715f4e68bb70192b4d52a310d",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "CSI_force_sources",
+      "read_sha256": "620d8bbb6f5c2988acb56f2dfc587eb3f3c3fb57eeabaf1ffdbdf5a8c20a4a2d",
+      "current_sha256": "620d8bbb6f5c2988acb56f2dfc587eb3f3c3fb57eeabaf1ffdbdf5a8c20a4a2d",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "writing_skeleton",
+      "read_sha256": "1eabf5f3d54623dd27bbe8afc5fa06634270e9723ff9cf451d6f816a17f2b154",
+      "current_sha256": "1eabf5f3d54623dd27bbe8afc5fa06634270e9723ff9cf451d6f816a17f2b154",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    },
+    {
+      "name": "writing_late_addendum",
+      "read_sha256": "cfa4fcfb5c25041a40982d014306443dd176d4205c875a6e3fb01f1dbd20c273",
+      "current_sha256": "cfa4fcfb5c25041a40982d014306443dd176d4205c875a6e3fb01f1dbd20c273",
+      "mutable_session_document": false,
+      "matches_read_version": true
+    }
+  ],
+  "session_snapshot_text_hashes_valid": true,
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v001.md",
+      "bytes": 18963,
+      "sha256": "8ec39aeb7692b7745dbd7622b7364ef19d3dd20404755444626ec93358ec24b6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v001-evidence-map.json",
+      "bytes": 11282,
+      "sha256": "24e0af7b4cb6b20641ddad156fcb4fd631ba698bbeed2851f1d3be1d46552c3c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v001.json",
+      "bytes": 2652,
+      "sha256": "8f3d3fd831beae77a1e5de7fa66b5eff5e54613590da49c45bee6434f3035bde"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v001-report.md",
+      "bytes": 3462,
+      "sha256": "69d1655b3e5da15d4130c8926ce300c5ca48bf8587b86760d7918724248c9ddf"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v001-validation.json",
+      "bytes": 7135,
+      "sha256": "3f1ca2bec1a57048ce4590ab7c0b983eab1e4130b9a69ac06229eda04ef5d4cc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v001-session-snapshot.json",
+      "bytes": 14883,
+      "sha256": "94f959575e2083ed4df77e34df29585e3c81fb661012d9870d36fe19b8ee4ae2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R001-review-data\\energy_review_summary.csv",
+      "bytes": 2887,
+      "sha256": "1d7f654920a1aa78510adfac23898d12b2448d800e8debc9a8f9e1b9aa36b224"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\原生能量证据独审-R001.md",
+      "bytes": 9399,
+      "sha256": "9434080b59bc23d7ec686dc9d0f32518e5e87869fe566f515f08892af7b08bae"
+    }
+  ]
+}

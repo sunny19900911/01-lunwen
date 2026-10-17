@@ -1,0 +1,166 @@
+{
+  "recorded_at": "2026-10-17T22:00:30.956653+08:00",
+  "checks_passed": true,
+  "method": "Python scalar signed power; compensated cumulative trapezoid; analytical 2x2 scaled Gram NNLS active sets; singular values via stable Gram eigenvalues. No NumPy/lstsq/SVD solver reused.",
+  "python": "3.12.14",
+  "script_sha256": "fd799f0e80c47948a535363892023cb2449dba461a067b83c2677c376a35380b",
+  "alpha_count": 91,
+  "selected_by": "K2 SSE only; K5 coefficients never refit",
+  "best_grid_row": {
+    "alpha": 0.3,
+    "a_m_per_kN": 2.00060425282433e-06,
+    "b_m_per_s_kN_power_inverse_alpha": 1.1798190016520894e-09,
+    "k_kN_per_m": 499848.982420317,
+    "c_kN_s_per_m_power_alpha": 476.930815552916,
+    "strictly_positive_finite_parameters": true,
+    "active_set": "interior",
+    "unconstrained_a": 2.00060425282433e-06,
+    "unconstrained_b": 1.1798190016520894e-09,
+    "K2_raw_rank": 2,
+    "K2_scaled_rank": 2,
+    "K2_raw_smax": 12660380.294819543,
+    "K2_raw_smin": 1863.1959057375375,
+    "K2_raw_condition": 6794.980740260907,
+    "K2_scaled_smax": 1.0142780593513265,
+    "K2_scaled_smin": 0.985515103039272,
+    "K2_scaled_condition": 1.0291857082893516,
+    "K2_column1_norm": 1863.9669428152233,
+    "K2_column2_norm": 12660380.294706048,
+    "K2_RMSE_m": 4.97446421877527e-07,
+    "K2_RMSE_mm": 0.000497446421877527,
+    "K2_MAE_m": 3.836778422578101e-07,
+    "K2_max_abs_residual_m": 3.2191739968108805e-06,
+    "K2_mean_residual_m": -2.7336881321072555e-07,
+    "K2_end_residual_m": -3.9271476818143796e-07,
+    "K2_y_RMS_m": 0.000305759253637904,
+    "K2_RMSE_over_y_RMS": 0.0016269218869386336,
+    "K2_SSE_m2": 6.188798095395254e-10,
+    "K5_transfer_RMSE_m": 8.092760010867738e-08,
+    "K5_transfer_RMSE_mm": 8.092760010867738e-05,
+    "K5_transfer_MAE_m": 6.333215320083606e-08,
+    "K5_transfer_max_abs_residual_m": 2.251287339517708e-07,
+    "K5_transfer_mean_residual_m": 6.054607938194023e-08,
+    "K5_transfer_end_residual_m": 3.2428002031379856e-08,
+    "K5_transfer_y_RMS_m": 1.3895773416121488e-05,
+    "K5_transfer_RMSE_over_y_RMS": 0.005823900382168541,
+    "K5_transfer_SSE_m2": 1.6379740424834348e-11,
+    "K5_design_raw_rank": 2,
+    "K5_design_scaled_rank": 2,
+    "K5_design_raw_smax": 111637.0065326738,
+    "K5_design_raw_smin": 344.39783307416945,
+    "K5_design_raw_condition": 324.15130355547757,
+    "K5_design_scaled_smax": 1.0272815150203851,
+    "K5_design_scaled_smin": 0.9719530281332646,
+    "K5_design_scaled_condition": 1.056925062513962,
+    "K5_design_column1_norm": 344.92578866527776,
+    "K5_design_column2_norm": 111637.0049026934
+  },
+  "descriptive_sets": {
+    "0.01": [
+      0.3
+    ],
+    "0.05": [
+      0.3
+    ],
+    "0.1": [
+      0.3
+    ]
+  },
+  "all_profile_fields_checked": true,
+  "all_point_rows_checked": 5002,
+  "point_max_absolute_difference_m": {
+    "K2": 1.1926223897340549e-18,
+    "K5": 3.3881317890172014e-20
+  },
+  "maximum_relative_profile_numeric_difference": 2.125456177334399e-12,
+  "maximum_absolute_profile_numeric_difference_mixed_units": 1.52587890625e-05,
+  "unit_conversion_max_error_m": {
+    "K2": 0.0,
+    "K5": 0.0
+  },
+  "zero_force_rows_retained": {
+    "K2": 1,
+    "K5": 1
+  },
+  "screenshot_conditional_metrics": {
+    "K2": {
+      "RMSE_m": 5.182838064475258e-07,
+      "RMSE_mm": 0.0005182838064475259,
+      "MAE_m": 3.946189330886992e-07,
+      "max_abs_residual_m": 3.363549649749802e-06,
+      "mean_residual_m": -2.7046605561954155e-07,
+      "end_residual_m": -3.919149943845528e-07,
+      "y_RMS_m": 0.000305759253637904,
+      "RMSE_over_y_RMS": 0.001695071531870314,
+      "SSE_m2": 6.718138781683669e-10
+    },
+    "K5": {
+      "RMSE_m": 8.033806786883884e-08,
+      "RMSE_mm": 8.033806786883883e-05,
+      "MAE_m": 6.274709134675477e-08,
+      "max_abs_residual_m": 2.3178948361127924e-07,
+      "mean_residual_m": 5.988092597124523e-08,
+      "end_residual_m": 3.173474152431146e-08,
+      "y_RMS_m": 1.3895773416121488e-05,
+      "RMSE_over_y_RMS": 0.005781475090521616,
+      "SSE_m2": 1.6141967077394288e-11
+    }
+  },
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\paired_K2_RH4X_r001.csv",
+      "bytes": 342875,
+      "sha256": "9def6dbd1c2c412554d4f07f2f01a3afa00d2cbc3e0c255bd86763e2a838101f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\paired_K5_RH4X_r001.csv",
+      "bytes": 366205,
+      "sha256": "edd380b14e1954d20202312e2435b22d381e56e13dc9742a3f30880d223233c6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-条件积分回归诊断.md",
+      "bytes": 5771,
+      "sha256": "08c4b9e5f9c9c44d88a344565bd2e34f53fe9f39f2b63beb6892d13f5b1adaeb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\protocol.json",
+      "bytes": 2528,
+      "sha256": "8c7e2733c30a9090a442d3861193c3e27ef7f7ba5688542c2afc8597ff364719"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\fit_integral_model.py",
+      "bytes": 9184,
+      "sha256": "47d41dac69952d67382ce70841e23b03a8d885a625467f67097e7a94afe48c53"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\fit_summary_r002.json",
+      "bytes": 5923,
+      "sha256": "3186dae098c025673eb565390f4273760b5765c1095f6948ab3c051caf3e3f02"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\run_record_r002.json",
+      "bytes": 2457,
+      "sha256": "c5615217062809a4ce52b2f29dc17302a871301d4f027e7947d9a2713bfb5244"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\alpha_profile_r002.csv",
+      "bytes": 77675,
+      "sha256": "03ade5d9d2f322720a5eefd74f705612f6d122c1455ad9c7610d13cfd0791b5f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\all_point_residuals_r002.csv",
+      "bytes": 748280,
+      "sha256": "6faaf4fa0ac4a281227e293c57bff62b1d916c707f1225c52e2141709687db6d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\screenshot_conditional_residuals_r002.csv",
+      "bytes": 645,
+      "sha256": "ba217d4d3f9d09ce4d847213a583e36cf33efaddfc733e0b75b73da757096c59"
+    }
+  ],
+  "limits": [
+    "Conditional native-P integral relation; force conjugacy/mass interface not certified.",
+    "Same RH4X other device is not independent-earthquake validation.",
+    "Finite alpha-grid minimum and fixed-alpha rank do not prove true or globally unique physical parameters."
+  ]
+}

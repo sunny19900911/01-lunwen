@@ -1,0 +1,166 @@
+{
+  "evidence_id": "M-EXP-R002",
+  "review_status": "candidate",
+  "finished_utc": "2026-10-17T13:50:18.952348+00:00",
+  "elapsed_seconds": 0.09917750000022352,
+  "code_sha256": "47d41dac69952d67382ce70841e23b03a8d885a625467f67097e7a94afe48c53",
+  "protocol_sha256": "8c7e2733c30a9090a442d3861193c3e27ef7f7ba5688542c2afc8597ff364719",
+  "selected_by": "K2 SSE only; K5 never used for selection",
+  "best_grid_row": {
+    "alpha": 0.3,
+    "a_m_per_kN": 2.0006042528243313e-06,
+    "b_m_per_s_kN_power_inverse_alpha": 1.1798190016520894e-09,
+    "k_kN_per_m": 499848.98242031666,
+    "c_kN_s_per_m_power_alpha": 476.930815552916,
+    "strictly_positive_finite_parameters": true,
+    "active_set": "interior",
+    "unconstrained_a": 2.0006042528243313e-06,
+    "unconstrained_b": 1.1798190016520894e-09,
+    "K2_raw_rank": 2,
+    "K2_scaled_rank": 2,
+    "K2_raw_smax": 12660380.294819536,
+    "K2_raw_smin": 1863.1959057375382,
+    "K2_raw_condition": 6794.9807402609,
+    "K2_scaled_smax": 1.0142780593513256,
+    "K2_scaled_smin": 0.9855151030392714,
+    "K2_scaled_condition": 1.0291857082893514,
+    "K2_column1_norm": 1863.9669428152238,
+    "K2_column2_norm": 12660380.294706063,
+    "K2_RMSE_m": 4.974464218771679e-07,
+    "K2_RMSE_mm": 0.0004974464218771679,
+    "K2_MAE_m": 3.8367784225735075e-07,
+    "K2_max_abs_residual_m": 3.2191739968108262e-06,
+    "K2_mean_residual_m": -2.733688132102255e-07,
+    "K2_end_residual_m": -3.9271476818060327e-07,
+    "K2_y_RMS_m": 0.000305759253637904,
+    "K2_RMSE_over_y_RMS": 0.001626921886937459,
+    "K2_SSE_m2": 6.188798095386318e-10,
+    "K5_transfer_RMSE_m": 8.092760010867777e-08,
+    "K5_transfer_RMSE_mm": 8.092760010867776e-05,
+    "K5_transfer_MAE_m": 6.333215320083694e-08,
+    "K5_transfer_max_abs_residual_m": 2.2512873395175048e-07,
+    "K5_transfer_mean_residual_m": 6.054607938194129e-08,
+    "K5_transfer_end_residual_m": 3.2428002031381126e-08,
+    "K5_transfer_y_RMS_m": 1.3895773416121488e-05,
+    "K5_transfer_RMSE_over_y_RMS": 0.005823900382168568,
+    "K5_transfer_SSE_m2": 1.63797404248345e-11,
+    "K5_design_raw_rank": 2,
+    "K5_design_scaled_rank": 2,
+    "K5_design_raw_smax": 111637.00653267387,
+    "K5_design_raw_smin": 344.3978330741694,
+    "K5_design_raw_condition": 324.15130355547785,
+    "K5_design_scaled_smax": 1.027281515020385,
+    "K5_design_scaled_smin": 0.971953028133264,
+    "K5_design_scaled_condition": 1.0569250625139621,
+    "K5_design_column1_norm": 344.9257886652782,
+    "K5_design_column2_norm": 111637.00490269333
+  },
+  "descriptive_profile_sets": {
+    "0.01": {
+      "alpha_values": [
+        0.3
+      ],
+      "alpha_min": 0.3,
+      "alpha_max": 0.3,
+      "span": 0.0,
+      "a_range": [
+        2.0006042528243313e-06,
+        2.0006042528243313e-06
+      ],
+      "b_range": [
+        1.1798190016520894e-09,
+        1.1798190016520894e-09
+      ]
+    },
+    "0.05": {
+      "alpha_values": [
+        0.3
+      ],
+      "alpha_min": 0.3,
+      "alpha_max": 0.3,
+      "span": 0.0,
+      "a_range": [
+        2.0006042528243313e-06,
+        2.0006042528243313e-06
+      ],
+      "b_range": [
+        1.1798190016520894e-09,
+        1.1798190016520894e-09
+      ]
+    },
+    "0.1": {
+      "alpha_values": [
+        0.3
+      ],
+      "alpha_min": 0.3,
+      "alpha_max": 0.3,
+      "span": 0.0,
+      "a_range": [
+        2.0006042528243313e-06,
+        2.0006042528243313e-06
+      ],
+      "b_range": [
+        1.1798190016520894e-09,
+        1.1798190016520894e-09
+      ]
+    }
+  },
+  "broad_5pct_set_by_prespecified_span_rule": false,
+  "alpha_grid_boundary_selected": false,
+  "active_set_counts": {
+    "interior": 91
+  },
+  "screenshot_conditional_metrics": [
+    {
+      "device": "K2",
+      "assumed_k_kN_per_m": 500000,
+      "assumed_c": 477,
+      "assumed_alpha": 0.3,
+      "units_are_conditional_not_verified_property": true,
+      "RMSE_m": 5.182838064471789e-07,
+      "RMSE_mm": 0.0005182838064471788,
+      "MAE_m": 3.946189330882416e-07,
+      "max_abs_residual_m": 3.3635496497496937e-06,
+      "mean_residual_m": -2.704660556190425e-07,
+      "end_residual_m": -3.919149943837206e-07,
+      "y_RMS_m": 0.000305759253637904,
+      "RMSE_over_y_RMS": 0.0016950715318691794,
+      "SSE_m2": 6.718138781674675e-10
+    },
+    {
+      "device": "K5",
+      "assumed_k_kN_per_m": 500000,
+      "assumed_c": 477,
+      "assumed_alpha": 0.3,
+      "units_are_conditional_not_verified_property": true,
+      "RMSE_m": 8.033806786883933e-08,
+      "RMSE_mm": 8.033806786883932e-05,
+      "MAE_m": 6.274709134675579e-08,
+      "max_abs_residual_m": 2.3178948361127924e-07,
+      "mean_residual_m": 5.988092597124629e-08,
+      "end_residual_m": 3.173474152431252e-08,
+      "y_RMS_m": 1.3895773416121488e-05,
+      "RMSE_over_y_RMS": 0.005781475090521651,
+      "SSE_m2": 1.6141967077394492e-11
+    }
+  ],
+  "checks": {
+    "all_91_prespecified_alphas": true,
+    "all_5002_input_points_retained": true,
+    "all_constrained_coefficients_nonnegative": true,
+    "both_designs_full_scaled_rank_every_alpha": true,
+    "all_profile_metrics_finite": true,
+    "input_and_protocol_hashes_unchanged": true,
+    "runtime_below_480_seconds": true
+  },
+  "input_sizes": {
+    "K2": 2501,
+    "K5": 2501
+  },
+  "zero_force_samples": {
+    "K2": 1,
+    "K5": 1
+  },
+  "no_time_differentiation_no_sign_flip_no_Excel_read": true,
+  "interpretation": "Nonnegative closure NNLS; boundary solutions do not identify finite positive k/c. Profile sets are descriptive, not confidence intervals. Full linear rank is conditional on alpha and does not establish unique physical nonlinear parameters. Force conjugacy and attached-mass effects remain independent conditions. K5 is same-wave other-device checking, not independent-earthquake validation."
+}

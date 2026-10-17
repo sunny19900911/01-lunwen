@@ -1,0 +1,23 @@
+{
+  "records": [
+    {
+      "file": "01_native_energy_ratio.png",
+      "width": 2000,
+      "height": 1035,
+      "sha256": "fac821fca950ab796ff634053e768dd3020741ff63c117c884dad0ac4d8010d3"
+    },
+    {
+      "file": "02_device_coverage_by_story.png",
+      "width": 2000,
+      "height": 1120,
+      "sha256": "5f27fc3780b0efdebfa595f2a1d11ca068f5ecf4df07f2bed7f885f2e2e3a0fa"
+    }
+  ],
+  "rendered": true,
+  "visual_review": {
+    "performed": true,
+    "method": "Both actual PNGs opened with view_image; titles, labels, values, notes and bounds inspected",
+    "recorded_at_utc": "2026-10-17T14:06:12.173903+00:00",
+    "issues_found": []
+  }
+}

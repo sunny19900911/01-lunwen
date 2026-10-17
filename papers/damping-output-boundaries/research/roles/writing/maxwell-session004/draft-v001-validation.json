@@ -1,0 +1,319 @@
+{
+  "kind": "author writing integration QA,not numerical recomputation or independent proof review",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v001.md",
+    "sha256": "8ec39aeb7692b7745dbd7622b7364ef19d3dd20404755444626ec93358ec24b6",
+    "bytes": 18963
+  },
+  "map": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v001-evidence-map.json",
+    "sha256": "24e0af7b4cb6b20641ddad156fcb4fd631ba698bbeed2851f1d3be1d46552c3c",
+    "bytes": 11282
+  },
+  "checks": [
+    {
+      "check": "six populated main sections",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "five unique ordered method equations",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "display math paired",
+      "pass": true,
+      "detail": 10
+    },
+    {
+      "check": "no fabricated figures or empty placeholder links",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "six reviewed rows and conditional background false",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "display data exact rounding RH4X",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "display data exact rounding RH4Y",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "display data exact rounding SHW4X",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "display data exact rounding SHW4Y",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "display data exact rounding SHW7X",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "display data exact rounding SHW7Y",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "negative increments sum206",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "actual native source row ranges preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "right Error sign and finite-tail scope explicit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "standard Maxwell parameter/mass assumptions explicit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all required output constraints preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no causal reduction/performance result invented",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "five real bibliography entries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all bibliography used,no invalid IDs",
+      "pass": true,
+      "detail": [
+        {
+          "line": 13,
+          "token": "[1]",
+          "references": [
+            1
+          ]
+        },
+        {
+          "line": 13,
+          "token": "[2]",
+          "references": [
+            2
+          ]
+        },
+        {
+          "line": 15,
+          "token": "[3,4]",
+          "references": [
+            3,
+            4
+          ]
+        },
+        {
+          "line": 15,
+          "token": "[4,5]",
+          "references": [
+            4,
+            5
+          ]
+        },
+        {
+          "line": 67,
+          "token": "[1,2]",
+          "references": [
+            1,
+            2
+          ]
+        },
+        {
+          "line": 67,
+          "token": "[3]",
+          "references": [
+            3
+          ]
+        },
+        {
+          "line": 79,
+          "token": "[3,4]",
+          "references": [
+            3,
+            4
+          ]
+        },
+        {
+          "line": 142,
+          "token": "[5]",
+          "references": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "check": "all local links exist",
+      "pass": true,
+      "detail": 5
+    },
+    {
+      "check": "18source identities match",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "source manuscript identity matches",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "UTF8 LF whitespace maxwell-engineering-draft-v001.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "UTF8 LF whitespace draft-v001-evidence-map.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "old theoryv007 frozen files unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "scoped git diff --check",
+      "pass": true,
+      "detail": {
+        "exit": 0,
+        "output": "",
+        "error": ""
+      }
+    }
+  ],
+  "citations": [
+    {
+      "line": 13,
+      "token": "[1]",
+      "references": [
+        1
+      ]
+    },
+    {
+      "line": 13,
+      "token": "[2]",
+      "references": [
+        2
+      ]
+    },
+    {
+      "line": 15,
+      "token": "[3,4]",
+      "references": [
+        3,
+        4
+      ]
+    },
+    {
+      "line": 15,
+      "token": "[4,5]",
+      "references": [
+        4,
+        5
+      ]
+    },
+    {
+      "line": 67,
+      "token": "[1,2]",
+      "references": [
+        1,
+        2
+      ]
+    },
+    {
+      "line": 67,
+      "token": "[3]",
+      "references": [
+        3
+      ]
+    },
+    {
+      "line": 79,
+      "token": "[3,4]",
+      "references": [
+        3,
+        4
+      ]
+    },
+    {
+      "line": 142,
+      "token": "[5]",
+      "references": [
+        5
+      ]
+    }
+  ],
+  "local_links": [
+    {
+      "target": "../research/roles/verification/maxwell-session004/原生能量证据独审-R001.md",
+      "exists": true
+    },
+    {
+      "target": "../research/roles/verification/maxwell-session004/R001-review-data/energy_review_summary.csv",
+      "exists": true
+    },
+    {
+      "target": "../research/roles/writing/maxwell-session004/draft-v001-evidence-map.json",
+      "exists": true
+    },
+    {
+      "target": "../research/roles/novelty/maxwell-session004/R001.md",
+      "exists": true
+    },
+    {
+      "target": "../research/roles/novelty/maxwell-session004/R001-reusable-formulas.md",
+      "exists": true
+    }
+  ],
+  "old_frozen_files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v007.md",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v007.json",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v007-report.md",
+      "pass": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v007-validation.json",
+      "pass": true
+    }
+  ],
+  "result": "PASS",
+  "checked_at": "2026-10-17 21:54:22 +08:00",
+  "session_snapshot": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v001-session-snapshot.json",
+    "sha256": "94f959575e2083ed4df77e34df29585e3c81fb661012d9870d36fe19b8ee4ae2",
+    "bytes": 14883
+  }
+}

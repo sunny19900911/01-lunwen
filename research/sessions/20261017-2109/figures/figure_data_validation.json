@@ -1,0 +1,19 @@
+{
+  "inputs": {
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R001-energy-audit\\energy_summary.csv": "79b532a2db8a0bf6335ef35fc0ff7c5ba55a8a9e180fbefd555e3e3ec0be4d0e",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\link_case_coverage_r001.csv": "b2e41e8c4ee8f6654efe98b582a1e7c39f3f89f0a4a66a4c7277621008ba6fe8"
+  },
+  "script_sha256": "41b2cb9a858164b48078967f215804e38d1540140d15de7a15f6921871eea778",
+  "checks": {
+    "six_ratios_recomputed": true,
+    "528_unique_device_cases": true,
+    "88_devices_eight_per_story": true,
+    "193_complete_one_partial": true,
+    "input_hashes_unchanged": true
+  },
+  "svg": {
+    "01_native_energy_ratio.svg": "fc8f1bd263206cc6392eef4846e5b8e5d527497c3fef51f058a796ad76342140",
+    "02_device_coverage_by_story.svg": "1a893e6644e547056c29e99acdd782c7ec8c356f40fea6c58f7332d4c47b7527"
+  },
+  "scope": "Native energy ratio and output coverage only; no damping calibration, new fit, response-reduction claim or novelty inference."
+}

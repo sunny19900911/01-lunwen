@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-17T22:17:28.839188+08:00",
+  "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\figures",
+  "source_script_sha256": "41b2cb9a858164b48078967f215804e38d1540140d15de7a15f6921871eea778",
+  "published_script_sha256": "47728d349cefe435a1136617c8bd01e43a3cdebc21706253e739d088f097db11",
+  "modification": "CLI --repo and required new --out; no frozen output overwrite; original source script untouched",
+  "root_visual_review": "Both actual PNGs opened and inspected in current main thread; no clipping/overlap",
+  "numeric_inputs_sha_checked": true,
+  "reproduction_exit": 0,
+  "reproduced_svg_hashes_identical": {
+    "01_native_energy_ratio.svg": true,
+    "02_device_coverage_by_story.svg": true
+  },
+  "small_csv_bytes_identical": true,
+  "png_sha_verified": [
+    {
+      "file": "01_native_energy_ratio.png",
+      "width": 2000,
+      "height": 1035,
+      "sha256": "fac821fca950ab796ff634053e768dd3020741ff63c117c884dad0ac4d8010d3"
+    },
+    {
+      "file": "02_device_coverage_by_story.png",
+      "width": 2000,
+      "height": 1120,
+      "sha256": "5f27fc3780b0efdebfa595f2a1d11ca068f5ecf4df07f2bed7f885f2e2e3a0fa"
+    }
+  ],
+  "scope": "Native finite-window energy ratios and export completeness; no 5% assumption, response-reduction, or novelty claim"
+}

@@ -1,0 +1,56 @@
+{
+  "started_at": "2026-10-17T22:06:26+08:00",
+  "completed_at": "2026-10-17T22:13:48+08:00",
+  "scope": "only frozen Maxwell energy-peak candidate; no correctness proof repeated; no novelty-first claim",
+  "previous_2003_task": {
+    "start": "2026-10-17T21:53:03+08:00",
+    "end": "2026-10-17T21:58:46+08:00",
+    "status": "complete with insufficient-text; no further retries"
+  },
+  "candidate_input": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R003-maxwell-energy-peak-bound.md",
+  "candidate_sha256": "0509ce63722190ad5b726088ceb1b1060b3824508b82f41fe96778981ae6fe3f",
+  "candidate_matches_delegation": true,
+  "old_frozen_files_checked": 13,
+  "old_changed": [],
+  "new_local_links_checked": 4,
+  "broken_links": [],
+  "trailing_whitespace": [],
+  "primary_method_source": {
+    "url": "https://liberzon.csl.illinois.edu/teaching/cvoc.pdf",
+    "version": "author preliminary copy, cover letter 2011-08-09, 200 PDF pages",
+    "read": "printed pp132-134 / PDF142-144, 5.1.4 Eqs5.20-5.24; printed pp110-112 / PDF119-121",
+    "state": "text read; not pixel verified; same method only"
+  },
+  "excluded_or_limited_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1812.04281",
+      "version": "v1 2018-12-11",
+      "state": "read pp1-3; not used to certify derivative-Linfinity endpoint or sharp constant"
+    },
+    {
+      "url": "https://homes.esat.kuleuven.be/~jwillems/Articles/JournalArticles/1972.1.pdf",
+      "state": "31-page scanned PDF, no text; not read or cited as supporting a theorem"
+    }
+  ],
+  "root_search_queries": [
+    "\"Maxwell\" \"dissipated energy\" \"maximum force\" \"velocity\" bound",
+    "\"sharp\" \"Lipschitz\" \"L^p\" \"supremum\" inequality derivative",
+    "\"minimum\" \"integral\" \"state\" \"bounded control\" \"first order\" optimal control",
+    "\"Gagliardo\" \"Nirenberg\" \"one-dimensional\" \"infinity\" derivative sharp constant",
+    "\"bounded\" \"input\" \"minimum\" \"state energy\" \"first order\"",
+    "\"minimum dissipation\" \"Maxwell\" velocity force",
+    "\"Detailed Proof of Classical Gagliardo-Nirenberg\" arxiv"
+  ],
+  "files": [
+    {
+      "file": "R004.md",
+      "bytes": 8274,
+      "sha256": "e168fe76c5c70f8df9d714c727585965c7e7d09f12cefc1b135a78767d70d086"
+    },
+    {
+      "file": "R004-Maxwell-specific-prior.md",
+      "bytes": 8787,
+      "sha256": "e3f3c8fc4fbd8555fb5791cc000972b96fa904bc949fdff152acc02f40d0e9cd"
+    }
+  ]
+}

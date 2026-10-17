@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-10-17T22:05:23+08:00",
+  "passed": true,
+  "scope": "author-side mathematical crosscheck, alpha=1 closed form vs Simpson quadrature, UTF8/LF/links/hashes; not role2 independent review",
+  "no_real_arrays": true,
+  "alpha1_sanity": [
+    {
+      "x": 0.1,
+      "J1_quadrature": 0.0003605156578263013,
+      "J1_closed": 0.0003605156578263026,
+      "absolute_error": 1.3010426069826053e-18,
+      "above_weak_bound": true
+    },
+    {
+      "x": 0.5,
+      "J1_quadrature": 0.06814718055994533,
+      "J1_closed": 0.06814718055994529,
+      "absolute_error": 4.163336342344337e-17,
+      "above_weak_bound": true
+    },
+    {
+      "x": 0.9,
+      "J1_quadrature": 0.997585092994068,
+      "J1_closed": 0.997585092994046,
+      "absolute_error": 2.19824158875781e-14,
+      "above_weak_bound": true
+    }
+  ],
+  "files": [
+    {
+      "path": "R003-maxwell-energy-peak-bound.md",
+      "sha256": "0509ce63722190ad5b726088ceb1b1060b3824508b82f41fe96778981ae6fe3f",
+      "bytes": 8804,
+      "errors": []
+    },
+    {
+      "path": "R003-provenance.json",
+      "sha256": "73044cb7de497ad8d089c97abb5f2723d2cd9f8e3d28958347444ec4d36aeae5",
+      "bytes": 1245,
+      "errors": []
+    }
+  ]
+}

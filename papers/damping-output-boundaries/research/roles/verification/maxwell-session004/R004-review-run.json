@@ -1,0 +1,45 @@
+{
+  "started_at": "2026-10-17T21:57:24+08:00",
+  "recomputed_at": "2026-10-17T22:00:30.956653+08:00",
+  "qa_completed_at": "2026-10-17T22:04:41.751366+08:00",
+  "exit_code": 0,
+  "all_ten_input_hashes_checked": true,
+  "R001_R002_R003_frozen_outputs_unchanged": true,
+  "late_math_interface_source": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R003-link-force-deformation-port-check.md",
+    "sha256": "6c7b18c48965531e9d8606be2210df7ddbd384e4d28c9f0dcdc4eee78279ceca",
+    "scope": "Read page/formula map and review power/inertia mathematics; no independent primary-page visual audit."
+  },
+  "command_arguments": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_integral_regression_R004.py",
+    "--experiment",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004",
+    "--out",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R004-integral-review"
+  ],
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\条件积分回归独审-R004.md",
+      "bytes": 9168,
+      "sha256": "5724925f94f1761e7d05ebfb1f3657577e0d287c4d401b2707544c5ec51bc3e1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_integral_regression_R004.py",
+      "bytes": 11432,
+      "sha256": "fd799f0e80c47948a535363892023cb2449dba461a067b83c2677c376a35380b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R004-integral-review\\review_record.json",
+      "bytes": 7870,
+      "sha256": "d430f0967a96466d4955e1ed9aa10f29e1af3a89b6f407077ba2890c1b996f01"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R004-integral-review\\review_alpha_profile.csv",
+      "bytes": 77689,
+      "sha256": "7421b888d3256fdafd69f5836d08ef0bb3cd6c3d8cf0aae615ef47d12a683bfe"
+    }
+  ]
+}

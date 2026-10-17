@@ -1,0 +1,24 @@
+{
+  "evidence_id": "M-EXP-R002",
+  "review_status": "candidate",
+  "stage": "frozen before fitting",
+  "inputs": [
+    {"role": "train", "device": "K2", "path": "../paired_K2_RH4X_r001.csv", "sha256": "9def6dbd1c2c412554d4f07f2f01a3afa00d2cbc3e0c255bd86763e2a838101f"},
+    {"role": "same_record_other_device_check", "device": "K5", "path": "../paired_K5_RH4X_r001.csv", "sha256": "edd380b14e1954d20202312e2435b22d381e56e13dc9742a3f30880d223233c6"}
+  ],
+  "force": "native P_I_kN only, no sign flip; native P/U1 conjugate sign remains an external condition",
+  "deformation": "U1_m; y=d-d0; force column F-F0; no intercept",
+  "model": "d-d0 = a*(F-F0) + b*integral_0^t sign(F)*abs(F)^(1/alpha) dt; a=1/k>0; b=c^(-1/alpha)>0",
+  "alpha_grid": {"start_exact": "0.20", "end_exact": "2.00", "step_exact": "0.02", "count": 91, "construction": "integer i/50 for i=10,...,100"},
+  "integration": "Cumulative trapezoid on every original output time; sign(0)=0; no resampling, smoothing or time differentiation",
+  "linear_solver": "2-column least squares after positive column 2-norm scaling; enumerate feasible unconstrained interior, a-only, b-only and zero NNLS active sets; nonnegative boundaries retained and labelled, not treated as finite physical k/c",
+  "selection": "Minimum K2 full-grid SSE only; deterministic first alpha on exact ties; no K5 tuning",
+  "profile": "Save all 91 alpha rows, unconstrained a/b, constrained active set, rank and raw/scaled singular values/condition number, K2 errors and K5 transferred-parameter errors in m and mm",
+  "descriptive_profile_ranges": "Save alpha sets within 1%,5%,10% of minimum K2 RMSE; descriptive only, not confidence intervals. A 5%-set span >=0.20 is labelled broad; a sharp grid minimum still does not prove unique physical parameters.",
+  "residuals": "Keep all 2501 times for each device including zeros and small/difficult points; no trimming or response-wise normalization",
+  "optional_screenshot_check": {"k_assumed_kN_per_m": 500000, "c_assumed_kN_s_over_m_power_alpha": 477, "alpha": 0.3, "interpretation": "Conditional on these units only; not exported true properties or fit constraints"},
+  "no_reverse_sign_diagnostic_in_R002": true,
+  "limits": "K5 is the same RH4X record on another device, not independent-earthquake validation. Fit cannot prove force sign, attached-mass identity, Maxwell model completeness, physical parameter uniqueness or all-device energy closure.",
+  "runtime_limit_seconds": 480,
+  "no_Excel_no_new_record_no_R001_overwrite": true
+}

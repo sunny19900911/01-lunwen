@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-10-17T22:04:39+08:00",
+  "status": "author-derived-candidate-pending-independent-review-and-prior-art-audit",
+  "scope": "Scalar Maxwell constitutive dynamics only; no building force guarantee; no actual-array calculations",
+  "main_thread": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+  "assumptions": [
+    "k,c,alpha positive constants",
+    "F0=0",
+    "finite T",
+    "total-deformation velocity measurable and essentially bounded by V",
+    "true dashpot dissipation D, not port work"
+  ],
+  "classical_tools": [
+    "scalar comparison",
+    "AC chain rule",
+    "spring energy identity",
+    "maximum-rate final loading",
+    "triangular constitutive counterexample without common velocity bound"
+  ],
+  "supporting_background": [
+    {
+      "path": "../../novelty/maxwell-session004/R001-reusable-formulas.md",
+      "sha256": "90ed4d02f7c7f31c5e7b44ed6df27341fa3fc9608e058db55e6dd12f8381ca32"
+    }
+  ],
+  "artifact": {
+    "path": "R003-maxwell-energy-peak-bound.md",
+    "sha256": "0509ce63722190ad5b726088ceb1b1060b3824508b82f41fe96778981ae6fe3f",
+    "bytes": 8804
+  },
+  "internal_crosscheck": "Two read-only author-side agents; not independent role2/role6 review",
+  "real_arrays_or_ETABS_or_search": false
+}

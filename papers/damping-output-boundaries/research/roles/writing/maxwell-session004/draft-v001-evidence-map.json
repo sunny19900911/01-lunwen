@@ -1,0 +1,230 @@
+{
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v001.md",
+    "sha256": "8ec39aeb7692b7745dbd7622b7364ef19d3dd20404755444626ec93358ec24b6",
+    "bytes": 18963
+  },
+  "stage": "frozen stage manuscript awaiting independent integration review;not submission-ready",
+  "source_workbook": {
+    "basename": "有控.xlsx",
+    "bytes": 635525054,
+    "sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+    "identity_inherited_from_handoff": "writer did not reread or rehash635MBworkbook"
+  },
+  "sources": {
+    "plan": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\plan.md",
+      "sha256": "cbdc121fa4c0928debb65f0723052085f873f030fadbb2d0554d068b162d28df",
+      "bytes": 6338
+    },
+    "claims": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\claims.md",
+      "sha256": "cfa7f20f04c057b78f99eb24cdac0c59def30a2a745165cf8cbaa84d176487d2",
+      "bytes": 3870
+    },
+    "handoff": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\handoff.json",
+      "sha256": "5801c4457f1ec8aa9e100dbdd908e46406dadaf796ded72387a351334b01c3fb",
+      "bytes": 2142
+    },
+    "energy_review": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\原生能量证据独审-R001.md",
+      "sha256": "9434080b59bc23d7ec686dc9d0f32518e5e87869fe566f515f08892af7b08bae",
+      "bytes": 9399
+    },
+    "energy_review_csv": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R001-review-data\\energy_review_summary.csv",
+      "sha256": "1d7f654920a1aa78510adfac23898d12b2448d800e8debc9a8f9e1b9aa36b224",
+      "bytes": 2887
+    },
+    "energy_review_json": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R001-review-data\\energy_review.json",
+      "sha256": "23e903d5310d6721466b4cf2ac3f239b372a5031eb4c0fd6864bcb73eb060509",
+      "bytes": 18251
+    },
+    "master_energy_run": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R001-energy-audit\\run_record.json",
+      "sha256": "03cb21bffae7e19b8bdeef32a7578b32d2db5d9984561ff5b0afd21821f81699",
+      "bytes": 7751
+    },
+    "metadata_audit": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\辅助元数据完整性审核-R001.md",
+      "sha256": "33ad1b582e5f503ae282e5174517f078fb8abcb1dbe75bb0272c2ce9b5944ed7",
+      "bytes": 8470
+    },
+    "energy_method_audit": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\辅助独立能量方法审核-R001.md",
+      "sha256": "3bfc4628772839592e3f781cde1b50ff27558e416c37488f06e33dc565ee17cc",
+      "bytes": 12200
+    },
+    "coverage_aux": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\response-coverage\\楼层响应定义与覆盖补充核查.md",
+      "sha256": "2ed6b1666c0dd97a85ff1b94fe38adb27c925082820b54c6995aa69962fcd8b0",
+      "bytes": 4349
+    },
+    "novelty_package": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R001.md",
+      "sha256": "ab3bf3761696663219b3b1257a32f61abc18895462288cb54bb9d1d8396dafd4",
+      "bytes": 10925
+    },
+    "formula_conditions": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R001-reusable-formulas.md",
+      "sha256": "90ed4d02f7c7f31c5e7b44ed6df27341fa3fc9608e058db55e6dd12f8381ca32",
+      "bytes": 5844
+    },
+    "energy_sources": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R001-energy-sources.md",
+      "sha256": "63f11020c7d3a73f7aff411fafdd704213aef242bef33b3d9767eef7b00e32eb",
+      "bytes": 6487
+    },
+    "Lan_scope": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R001-Lan2024-scope-check.md",
+      "sha256": "65332f116f2e36b2c7a17a0bab47e8c6b3bc297da194bd4bd3b8bde6a940b282",
+      "bytes": 7926
+    },
+    "Maxwell_primary": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R001-maxwell-primary.md",
+      "sha256": "e0306f805e2f7aae24625d65fbf779718cac8c5715f4e68bb70192b4d52a310d",
+      "bytes": 11616
+    },
+    "CSI_force_sources": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R001-CSI-and-force-sources.md",
+      "sha256": "620d8bbb6f5c2988acb56f2dfc587eb3f3c3fb57eeabaf1ffdbdf5a8c20a4a2d",
+      "bytes": 7038
+    },
+    "writing_skeleton": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\paper-skeleton-and-claim-map.md",
+      "sha256": "1eabf5f3d54623dd27bbe8afc5fa06634270e9723ff9cf451d6f816a17f2b154",
+      "bytes": 12667
+    },
+    "writing_late_addendum": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\R001-reviewed-energy-and-output-boundaries-addendum.md",
+      "sha256": "cfa4fcfb5c25041a40982d014306443dd176d4205c875a6e3fb01f1dbd20c273",
+      "bytes": 2961
+    }
+  },
+  "claims": [
+    {
+      "claim": "M-C005",
+      "locations": "abstract;sections3.3/3.4;Tables1/2;conclusion1/2",
+      "status": "master accepted reviewed six-case native energy/numeric ratios/finite-window closure only",
+      "primary_review": "energy_review",
+      "raw_rows": [
+        {
+          "case": "RH4X",
+          "n": "2501",
+          "T_s": "50.0",
+          "source_start_row": "4",
+          "source_end_row": "2504"
+        },
+        {
+          "case": "RH4Y",
+          "n": "2501",
+          "T_s": "50.0",
+          "source_start_row": "2505",
+          "source_end_row": "5005"
+        },
+        {
+          "case": "SHW4X",
+          "n": "2951",
+          "T_s": "59.0",
+          "source_start_row": "5006",
+          "source_end_row": "7956"
+        },
+        {
+          "case": "SHW4Y",
+          "n": "2951",
+          "T_s": "59.0",
+          "source_start_row": "7957",
+          "source_end_row": "10907"
+        },
+        {
+          "case": "SHW7X",
+          "n": "2696",
+          "T_s": "53.9",
+          "source_start_row": "10908",
+          "source_end_row": "13603"
+        },
+        {
+          "case": "SHW7Y",
+          "n": "2696",
+          "T_s": "53.9",
+          "source_start_row": "13604",
+          "source_end_row": "16299"
+        }
+      ]
+    },
+    {
+      "claim": "M-C006/data identity",
+      "locations": "section2",
+      "status": "metadata facts from auxiliary audit and user identity;performance/model equivalence not established",
+      "source": "metadata_audit"
+    },
+    {
+      "claim": "M-C002",
+      "locations": "section1;3.1;Table1",
+      "status": "known formula;conditional5% reference arithmetic reviewed;actual background/modewise interpretation not certified",
+      "sources": [
+        "energy_sources",
+        "Lan_scope",
+        "formula_conditions",
+        "energy_review"
+      ]
+    },
+    {
+      "claim": "M-C001",
+      "locations": "section3.2;4",
+      "status": "standard conditional method only;actual device constitutive/port-energy closure still testing;25kg inertia/source and k/c/alpha missing",
+      "sources": [
+        "energy_method_audit",
+        "formula_conditions"
+      ]
+    },
+    {
+      "claim": "M-C003/M-C004",
+      "locations": "sections1/4/5/6",
+      "status": "general mechanism known;engineering local budget and multiobjective paired effect not yet produced/refuted",
+      "sources": [
+        "novelty_package",
+        "Maxwell_primary",
+        "CSI_force_sources"
+      ]
+    },
+    {
+      "claim": "response coverage scope",
+      "locations": "section2.3;4/5",
+      "status": "auxiliary findings used conservatively;role2 coverage review and CSI output definitions pending at scope lock",
+      "source": "coverage_aux"
+    }
+  ],
+  "read_limits": {
+    "original_workbook": "not opened by writer",
+    "raw_arrays": "not loaded;table reproduction from reviewed lightweight CSV only",
+    "primary_literature": "used original-source audit records;writer did not claim independent full-PDF reading",
+    "energy_review_json": "only header/input identity overview read;full numeric basis is CSV+full review report",
+    "energy_sources": "targeted first85lines;Maxwell_primary first68lines;CSI_force_sources first35lines"
+  },
+  "figures": [],
+  "numeric_tables": {
+    "table1": "six reviewed energy rows with conditional5%percent and same-windowend",
+    "table2": "reviewed closure/error/negative increments/end storage,not solve-convergence certification"
+  },
+  "not_claimed": [
+    "actual5%background",
+    "uniform modewise added damping",
+    "full free tail",
+    "all88device constitutive closure",
+    "matched baseline reduction rate",
+    "completed local force budget",
+    "Maxwell surrogate error or novelty",
+    "RMS/phase of sparse drift",
+    "same-floorTop-Bottom data",
+    "CM-vs-Story acceleration localF=ma"
+  ],
+  "mutable_session_sources_frozen_snapshot": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v001-session-snapshot.json",
+    "sha256": "94f959575e2083ed4df77e34df29585e3c81fb661012d9870d36fe19b8ee4ae2",
+    "bytes": 14883
+  },
+  "note_on_mutable_sources": "sources.plan/claims/handoff identities record original read;session snapshot captures freeze-time master text for later traceability,not adoption of new unreviewed scope."
+}

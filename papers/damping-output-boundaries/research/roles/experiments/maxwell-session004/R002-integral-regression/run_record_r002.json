@@ -1,0 +1,69 @@
+{
+  "evidence_id": "M-EXP-R002",
+  "review_status": "candidate",
+  "command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\fit_integral_model.py"
+  ],
+  "finished_utc": "2026-10-17T13:50:18.952348+00:00",
+  "elapsed_seconds": 0.09917750000022352,
+  "exit_code_after_checks": 0,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "protocol_file_last_write_utc": "2026-10-17T13:48:33.459285+00:00",
+  "inputs": [
+    {
+      "role": "train",
+      "device": "K2",
+      "path": "../paired_K2_RH4X_r001.csv",
+      "sha256": "9def6dbd1c2c412554d4f07f2f01a3afa00d2cbc3e0c255bd86763e2a838101f"
+    },
+    {
+      "role": "same_record_other_device_check",
+      "device": "K5",
+      "path": "../paired_K5_RH4X_r001.csv",
+      "sha256": "edd380b14e1954d20202312e2435b22d381e56e13dc9742a3f30880d223233c6"
+    }
+  ],
+  "files": [
+    {
+      "file": "fit_integral_model.py",
+      "bytes": 9184,
+      "sha256": "47d41dac69952d67382ce70841e23b03a8d885a625467f67097e7a94afe48c53"
+    },
+    {
+      "file": "protocol.json",
+      "bytes": 2528,
+      "sha256": "8c7e2733c30a9090a442d3861193c3e27ef7f7ba5688542c2afc8597ff364719"
+    },
+    {
+      "file": "fit_summary_r002.json",
+      "bytes": 5923,
+      "sha256": "3186dae098c025673eb565390f4273760b5765c1095f6948ab3c051caf3e3f02"
+    },
+    {
+      "file": "alpha_profile_r002.csv",
+      "bytes": 77675,
+      "sha256": "03ade5d9d2f322720a5eefd74f705612f6d122c1455ad9c7610d13cfd0791b5f"
+    },
+    {
+      "file": "all_point_residuals_r002.csv",
+      "bytes": 748280,
+      "sha256": "6faaf4fa0ac4a281227e293c57bff62b1d916c707f1225c52e2141709687db6d"
+    },
+    {
+      "file": "screenshot_conditional_residuals_r002.csv",
+      "bytes": 645,
+      "sha256": "ba217d4d3f9d09ce4d847213a583e36cf33efaddfc733e0b75b73da757096c59"
+    }
+  ],
+  "checks": {
+    "all_91_prespecified_alphas": true,
+    "all_5002_input_points_retained": true,
+    "all_constrained_coefficients_nonnegative": true,
+    "both_designs_full_scaled_rank_every_alpha": true,
+    "all_profile_metrics_finite": true,
+    "input_and_protocol_hashes_unchanged": true,
+    "runtime_below_480_seconds": true
+  }
+}
