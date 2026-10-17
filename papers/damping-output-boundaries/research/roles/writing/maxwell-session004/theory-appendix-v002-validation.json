@@ -1,0 +1,42 @@
+{
+  "validated_at": "2026-10-18T00:50:56.922519+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-theory-appendix-v002.md",
+    "bytes": 16090,
+    "sha256": "5d52e3917c7db6e8794f6c0afee1904853ff9710114957c255b49830b1231e3d"
+  },
+  "passed": true,
+  "checks": {
+    "exactly4_allowed_lines_changed": true,
+    "required_full_replacement_line_exact": true,
+    "optional_signed_amplitude_wording_only": true,
+    "all_other_body_lines_identical": true,
+    "all14_display_formulas_byte_identical": true,
+    "formula6_and14_byte_identical": true,
+    "all_tables_byte_identical": true,
+    "tags1to14_order_and_cases_unchanged": true,
+    "correct_atan_range_inverse_domain_terms": true,
+    "v001_retained_and_R010_fix_status_explicit": true,
+    "three_existing_packages18files3manifests_unchanged": true,
+    "protected_engineering_v006_and_old_theory_v007_SHA_match": true,
+    "all21_previous_repository_sources_unchanged": true,
+    "existing_local_links_resolve": true,
+    "UTF8_LF_no_BOM_or_trailing_whitespace": true,
+    "git_diff_whitespace_check_clean": true
+  },
+  "changed_lines_1based": [
+    3,
+    58,
+    160,
+    188
+  ],
+  "required_line": 58,
+  "optional_line": 160,
+  "formula_count": 14,
+  "diff": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\theory-appendix-v002.diff",
+    "bytes": 5037,
+    "sha256": "464f301139e55202168ad39da2dbab2cf0046ed5376a36220aa38c59c890ef53"
+  },
+  "limits": "Targeted editorial QA only;no new theorem/proof or numerical validation. Mustfix applied,role3 verification pending."
+}

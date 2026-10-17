@@ -1,0 +1,241 @@
+{
+  "at": "2026-10-18T00:57:36.641972+08:00",
+  "snapshots": [
+    {
+      "timedOut": false,
+      "wake": {
+        "reason": "turnCompleted",
+        "turnId": "01a14ac4-4882-7df2-937f-c4aef2442ae8",
+        "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
+        "hostId": "local"
+      },
+      "polls": [
+        {
+          "schemaVersion": 1,
+          "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:64",
+          "revision": 64,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+            "hostId": "local",
+            "status": {
+              "type": "active",
+              "activeFlags": []
+            }
+          },
+          "latestTurn": {
+            "id": "01a14ac5-9121-7c90-888a-987dcd969763",
+            "status": "inProgress",
+            "error": null,
+            "startedAt": 1792255824,
+            "completedAt": null,
+            "durationMs": null
+          },
+          "latestAssistantMessageId": "msg_0fdbbf9b10a3adb0016ad3a7bd05fc81958be0247177d85ce1",
+          "latestAssistantMessage": {
+            "id": "msg_0fdbbf9b10a3adb0016ad3a7bd05fc81958be0247177d85ce1",
+            "turnId": "01a14ac5-9121-7c90-888a-987dcd969763",
+            "phase": "commentary",
+            "text": "非线性力方程在 (F=0) 处仍局部 Lipschitz；正定总储能可排除有限时间爆破，因此交换对称关系成立，包括器件 (F) 与总变形历史。停载后总能量不增，但这不保证位移逐点下降；RK4 的浮点末能量、能量余额和两步长差异也都不能单独认证未来峰值上界。"
+          },
+          "latestToolMarkerId": "exec-80a86b8a-60aa-4832-9252-81573d6b3c39",
+          "latestToolMarker": {
+            "id": "exec-80a86b8a-60aa-4832-9252-81573d6b3c39",
+            "turnId": "01a14ac5-9121-7c90-888a-987dcd969763",
+            "type": "commandExecution",
+            "name": "commandExecution",
+            "status": "completed"
+          }
+        },
+        {
+          "schemaVersion": 1,
+          "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:99",
+          "revision": 99,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-7fe0-75f3-8671-bcd59e413052",
+            "hostId": "local",
+            "status": {
+              "type": "idle"
+            }
+          },
+          "latestTurn": {
+            "id": "01a14ac4-4882-7df2-937f-c4aef2442ae8",
+            "status": "completed",
+            "error": null,
+            "startedAt": 1792255740,
+            "completedAt": 1792256036,
+            "durationMs": 296269
+          },
+          "latestAssistantMessageId": "msg_058500d59acbf314016ad3a823cbb88196845cba7902fbef2e",
+          "latestAssistantMessage": {
+            "id": "msg_058500d59acbf314016ad3a823cbb88196845cba7902fbef2e",
+            "turnId": "01a14ac4-4882-7df2-937f-c4aef2442ae8",
+            "phase": "final_answer",
+            "text": "R022 整合核通过，0 项必须修改。冻结稿的 6 式、3 表及 CSI 参与列分支转录正确，关键适用条件均保留。 已冻结独审报告及证据，旧 58 项产物散列核验通过。已交接主控并停止；未认证实际字段、工程数字或布局排序。"
+          },
+          "latestToolMarkerId": "exec-3f51f48f-5e73-4409-bc33-4ccee5bef506",
+          "latestToolMarker": {
+            "id": "exec-3f51f48f-5e73-4409-bc33-4ccee5bef506",
+            "turnId": "01a14ac4-4882-7df2-937f-c4aef2442ae8",
+            "type": "mcpToolCall",
+            "name": "send_message_to_thread",
+            "status": "completed"
+          }
+        },
+        {
+          "schemaVersion": 1,
+          "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:52",
+          "revision": 52,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+            "hostId": "local",
+            "status": {
+              "type": "active",
+              "activeFlags": []
+            }
+          },
+          "latestTurn": {
+            "id": "01a14ac7-aba7-7833-ae8b-74c92298be5f",
+            "status": "inProgress",
+            "error": null,
+            "startedAt": 1792255962,
+            "completedAt": null,
+            "durationMs": null
+          },
+          "latestAssistantMessageId": "msg_01c40afd2e9956f9016ad3a7e1e1248190a13309212b8eb394",
+          "latestAssistantMessage": {
+            "id": "msg_01c40afd2e9956f9016ad3a7e1e1248190a13309212b8eb394",
+            "turnId": "01a14ac7-aba7-7833-ae8b-74c92298be5f",
+            "phase": "commentary",
+            "text": "我会定点核对 v002 的四处差异，确认第58行落实 R010 替换、第160行只改措辞，并检查14个公式、表格及其余正文原字节不变。只生成新的差异审核记录，不重开理论审查或修改稿件。"
+          },
+          "latestToolMarkerId": "exec-7b480ee2-28a2-4fc9-97da-26c0ffd912a6",
+          "latestToolMarker": {
+            "id": "exec-7b480ee2-28a2-4fc9-97da-26c0ffd912a6",
+            "turnId": "01a14ac7-aba7-7833-ae8b-74c92298be5f",
+            "type": "commandExecution",
+            "name": "commandExecution",
+            "status": "completed"
+          }
+        }
+      ]
+    },
+    {
+      "timedOut": false,
+      "wake": {
+        "reason": "turnCompleted",
+        "turnId": "01a14ac4-a166-7a02-b2d3-4766544a4c22",
+        "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+        "hostId": "local"
+      },
+      "polls": [
+        {
+          "schemaVersion": 1,
+          "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:44",
+          "revision": 44,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-8805-7a42-b910-ae973f55d73e",
+            "hostId": "local",
+            "status": {
+              "type": "active",
+              "activeFlags": []
+            }
+          },
+          "latestTurn": {
+            "id": "01a14ac5-9280-7e62-b2cb-52cb96121594",
+            "status": "inProgress",
+            "error": null,
+            "startedAt": 1792255824,
+            "completedAt": null,
+            "durationMs": null
+          },
+          "latestAssistantMessageId": "msg_09fe3e55758f973c016ad3a7e7914c8193882526cb970901d2",
+          "latestAssistantMessage": {
+            "id": "msg_09fe3e55758f973c016ad3a7e7914c8193882526cb970901d2",
+            "turnId": "01a14ac5-9280-7e62-b2cb-52cb96121594",
+            "phase": "commentary",
+            "text": "四次非线性积分均完成，无溢出或裁剪。细步长下，A、B 的 u1 采样绝对峰约为 0.308153 和 9.566224；置换后的 8 状态残差为零，各能量轨迹仅有浮点差异。正在核对非线性耗散率、末储能和步长比较，并保留“浮点末能不是严格上包络”的限制。"
+          },
+          "latestToolMarkerId": "exec-e11720e4-b2a2-4776-b445-1478b087bbb4",
+          "latestToolMarker": {
+            "id": "exec-e11720e4-b2a2-4776-b445-1478b087bbb4",
+            "turnId": "01a14ac5-9280-7e62-b2cb-52cb96121594",
+            "type": "commandExecution",
+            "name": "commandExecution",
+            "status": "completed"
+          }
+        },
+        {
+          "schemaVersion": 1,
+          "cursor": "d696c220-255b-466e-b993-5ca97a48496e:54",
+          "revision": 54,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+            "hostId": "local",
+            "status": {
+              "type": "idle"
+            }
+          },
+          "latestTurn": {
+            "id": "01a14ac4-a166-7a02-b2d3-4766544a4c22",
+            "status": "completed",
+            "error": null,
+            "startedAt": 1792255762,
+            "completedAt": 1792255930,
+            "durationMs": 167953
+          },
+          "latestAssistantMessageId": "msg_09505bd600c2eded016ad3a7b9692c81908aafde26ba1d10e7",
+          "latestAssistantMessage": {
+            "id": "msg_09505bd600c2eded016ad3a7b9692c81908aafde26ba1d10e7",
+            "turnId": "01a14ac4-a166-7a02-b2d3-4766544a4c22",
+            "phase": "final_answer",
+            "text": "已完成并冻结理论附录v002。 修正逆函数定义域术语及加载/卸载措辞。14个公式、表格和其他正文保持不变，v001原样保留。16项作者检查通过，已交主控安排角色3定点复核。"
+          },
+          "latestToolMarkerId": "exec-7dc67a63-c72c-480a-b59d-26ba788acd45",
+          "latestToolMarker": {
+            "id": "exec-7dc67a63-c72c-480a-b59d-26ba788acd45",
+            "turnId": "01a14ac4-a166-7a02-b2d3-4766544a4c22",
+            "type": "mcpToolCall",
+            "name": "send_message_to_thread",
+            "status": "completed"
+          }
+        }
+      ]
+    },
+    {
+      "timedOut": false,
+      "wake": null,
+      "polls": [
+        {
+          "schemaVersion": 1,
+          "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:28",
+          "revision": 28,
+          "changed": false,
+          "thread": {
+            "id": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+            "hostId": "local",
+            "status": {
+              "type": "idle"
+            }
+          },
+          "latestTurn": {
+            "id": "01a14aba-96a1-7f92-985b-1881796881ba",
+            "status": "completed",
+            "error": null,
+            "startedAt": 1792255104,
+            "completedAt": 1792255466,
+            "durationMs": 361500
+          },
+          "latestAssistantMessageId": "msg_0d8e1b978b923a60016ad3a5e8ea488197a5ff4309a7601211",
+          "latestAssistantMessage": null,
+          "latestToolMarkerId": "exec-d62002bb-35ec-47f8-b1d2-19161ed8f25d",
+          "latestToolMarker": null
+        }
+      ]
+    }
+  ]
+}

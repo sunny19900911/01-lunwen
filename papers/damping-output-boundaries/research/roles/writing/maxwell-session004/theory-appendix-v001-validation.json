@@ -1,0 +1,37 @@
+{
+  "validated_at": "2026-10-18T00:17:56.215745+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-theory-appendix-v001.md",
+    "bytes": 15972,
+    "sha256": "be8535fef719b77d5e8b8d1f4ea6dc25d884c1834f0fcf3521359d7c00e759c8"
+  },
+  "passed": true,
+  "checks": {
+    "R015_R016_R017_review_outputs_match_frozen_SHA": true,
+    "role1_R008_R009_source_bundles_match_review_evidence": true,
+    "R015_combination_not_original_alone": true,
+    "engineering_v001_v006_37files_6manifests_unchanged": true,
+    "fourteen_formula_tags_once_ordered": true,
+    "two_cases_environments_and_four_valid_row_separators": true,
+    "display_math_delimiters_balanced": true,
+    "true_parameters_and_continuous_time_total_speed_explicit": true,
+    "A_inverse_domain_and_zero_D_explicit": true,
+    "B_countable_lobes_and_zero_set_time_retained": true,
+    "B_three_bang_and_no_fixed_D_claim": true,
+    "C_positive_backward_shift_and_interval_construction": true,
+    "edge_cases_M0_Mh_Ttau_hB_V0_and_q_lt1": true,
+    "no_continuous_velocity_exact_boundary_upgrade": true,
+    "no_building_realizability_or_engineering_reduction_upgrade": true,
+    "prior_reviews_and_unresolved_publication_explicit": true,
+    "no_unreviewed_R010_R011_bridge_results_adopted": true,
+    "all_existing_local_links_resolve": true,
+    "no_machine_or_W5_file_link": true,
+    "UTF8_LF_noBOM_no_trailing_whitespace": true,
+    "reviewed_inverse_domain_counterexample_scalar_check": true,
+    "linear_closure_and_nonzero_endpoint_scalar_checks": true,
+    "scoped_git_diff_check_clean": true
+  },
+  "formula_tags": 14,
+  "math_typesetting_repair_before_freeze": "Four cases row separators restored;no frozen file changed.",
+  "limits": "Author source/transcription/logic checklist plus limited reviewed scalar arithmetic,not independent proof review or general numerical verification."
+}

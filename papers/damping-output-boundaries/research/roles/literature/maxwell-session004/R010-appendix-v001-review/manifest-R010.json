@@ -1,0 +1,47 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R010 appendix-v001 integration/source/condition transcription",
+  "started_at": "2026-10-18T00:36:27+08:00",
+  "input_frozen_at": "2026-10-18T00:37:35.660925+08:00",
+  "frozen_at": "2026-10-18T00:42:19.856517+08:00",
+  "limit_minutes": 8,
+  "elapsed_seconds": 352.856517,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "frozen, stopped; one required terminology correction reported to main; source and manuscript not edited",
+  "original_draft_sha256": "be8535fef719b77d5e8b8d1f4ea6dc25d884c1834f0fcf3521359d7c00e759c8",
+  "required_corrections": 1,
+  "optional_edits": 1,
+  "formula_transcriptions_checked": 14,
+  "mapped_sources_21_hashes_match": true,
+  "author_frozen_files_6_hashes_match": true,
+  "all_input_hashes_unchanged": true,
+  "protected_previous_drafts_unchanged": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v006.md",
+      "bytes": 42202,
+      "sha256": "c04370712b9adc73064872e1d2cc79a5c6a7783e191d5ca8dc4e754d80ae604b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\theory-draft-v007.md",
+      "bytes": 83889,
+      "sha256": "93fca22d3807d5a59e4a9db6750dce876a65ca974ee1889dbe415f16de8bd323"
+    }
+  ],
+  "outputs": {
+    "input-rules-R010.json": {
+      "bytes": 4569,
+      "sha256": "45a5cb58e1cb1ef5f6cd02939eb44e3deed1451fd441501f55a9568d9107b3a3"
+    },
+    "R010-appendix-v001-review.md": {
+      "bytes": 6910,
+      "sha256": "1e51cbb16f2ffeb3e9d6ecd348b6b5971d318f659428abfd58e29795e15cafd9"
+    },
+    "validation-R010.json": {
+      "bytes": 8476,
+      "sha256": "1102f7af1134bb3b4e5ed51c8a34551db782efb6a577079a93315209f78012ff"
+    }
+  },
+  "required_action": "Next version: at appendix original line58 replace inverse-image-limit phrase with tau_down image limit/inverse domain limit. Full original and replacement line in validation-R010.json. Preserve old SHA.",
+  "scope": "No new theory, physical validation or originality ruling. No alteration of engineering v006, old theory v007, source reports or shared state."
+}

@@ -1,0 +1,60 @@
+{
+  "started_at": "2026-10-18T00:38:47+08:00",
+  "completed_at": "2026-10-18T00:44:14+08:00",
+  "time_limit_minutes": 8,
+  "status": "source-and-contribution-boundary review only",
+  "R013_report_sha256": "7c36b9b06c9602fb2683069d7ab607edc4959bf5005e027cd03701f2fadff91f",
+  "protocol_sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e",
+  "R021": "not read or replaced; candidate mathematics not certified here",
+  "publication_priority": "specific connected all-tail certificate unresolved; no first claim",
+  "known_principles": "coordinate/input/output transformations; port-modal projection; exchange-invariant global quantities need not determine fixed local output",
+  "scope": "synthetic alpha1 fixed-reference ports; A not globally better; worst-coordinate peak invariant; device delta/F equality conditional on candidate conjugacy",
+  "real_paired_layout_evidence": false,
+  "input_files_checked": 7,
+  "input_changed": [],
+  "old_frozen_files_checked": 41,
+  "old_changed": [],
+  "readable_primary_sources": 2,
+  "new_queries": 1,
+  "new_fulltext_files": 0,
+  "failed_entry_retried": false,
+  "author_code_executed": false,
+  "proof_or_new_simulation": false,
+  "real_arrays_or_excel": false,
+  "local_links_checked": 6,
+  "broken_links": [],
+  "trailing_whitespace": [],
+  "control_characters": [],
+  "files": [
+    {
+      "file": "classical-projection-source.md",
+      "bytes": 5581,
+      "sha256": "8bd71e11533284894827da3537c8e047f65a7d8e98d9d5daf03c3771a969607e"
+    },
+    {
+      "file": "damper-layout-prior.md",
+      "bytes": 7202,
+      "sha256": "748df635b206122ec46fc7dc42252640bb5a64f43986e0785f0adae2dc7d0540"
+    },
+    {
+      "file": "input-freeze.json",
+      "bytes": 2595,
+      "sha256": "783d191b7de6216df8120ad917e5cc8706c90bedbce122affb4f4c4d12d2452a"
+    },
+    {
+      "file": "report.md",
+      "bytes": 8759,
+      "sha256": "e0e5c74329e5cf98b7d34710d30647a84b547d0166afa8548b001c004225357f"
+    },
+    {
+      "file": "scope-steering.txt",
+      "bytes": 628,
+      "sha256": "4a99ad16b37ca0b4c373afebb017cadb1cdf2a7a359a7c0ec569bd0537d702fc"
+    },
+    {
+      "file": "source-log.json",
+      "bytes": 2410,
+      "sha256": "46c32cd246d595937917f18260d2aa65164358dfd463a7cc00194cb703e3913e"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R011 narrow v002 targeted diff verification",
+  "started_at": "2026-10-18T00:52:57+08:00",
+  "checked_at": "2026-10-18T00:53:51.812363+08:00",
+  "limit_minutes": 4,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-theory-appendix-v001.md",
+      "bytes": 15972,
+      "sha256": "be8535fef719b77d5e8b8d1f4ea6dc25d884c1834f0fcf3521359d7c00e759c8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-theory-appendix-v002.md",
+      "bytes": 16090,
+      "sha256": "5d52e3917c7db6e8794f6c0afee1904853ff9710114957c255b49830b1231e3d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-theory-appendix-v002.json",
+      "bytes": 2297,
+      "sha256": "741dead9c9ea1670f4ab9608b0ff2522de14ca050a6f72a72056eaa3c9089080"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R010-appendix-v001-review\\validation-R010.json",
+      "bytes": 8476,
+      "sha256": "1102f7af1134bb3b4e5ed51c8a34551db782efb6a577079a93315209f78012ff"
+    }
+  ],
+  "inputs_unchanged": true,
+  "checks": {
+    "same_line_count": 188,
+    "only_changed_lines": [
+      3,
+      58,
+      160,
+      188
+    ],
+    "line58_exact_R010_replacement": true,
+    "line160_only_loading_unloading_word_replacements": true,
+    "line3_only_version_and_revision_scope": true,
+    "line188_only_evidence_map_version_link": true,
+    "formula_count": 14,
+    "all14_formula_blocks_byte_identical": true,
+    "formula_tags_1to14_once": true,
+    "table_count": 1,
+    "all_tables_byte_identical": true,
+    "all_other_body_lines_byte_identical": true,
+    "author_frozen_files_SHA_bytes_match": 6,
+    "new_evidence_link_exists": true
+  },
+  "diff_syntax_note": {
+    "provided_diff_sha256": "464f301139e55202168ad39da2dbab2cf0046ed5376a36220aa38c59c890ef53",
+    "single_space_context_blank_lines": 12,
+    "interpretation": "leading single space on a blank context line is unified-diff syntax, not manuscript trailing whitespace; diff was not subjected to prose whitespace QA"
+  },
+  "required_corrections": [],
+  "optional_edits": [],
+  "scope": "Only closes R010 text correction. Does not reopen full theorem/source/engineering review. v001 remains frozen and R010 finding history is preserved.",
+  "operations": {
+    "source_or_manuscript_or_shared_edits": 0,
+    "Git": 0,
+    "new_theory": 0,
+    "network": 0,
+    "Excel_NPZ_PDF_solver": 0
+  },
+  "frozen_at": "2026-10-18T00:55:03.967795+08:00",
+  "elapsed_seconds": 126.967795,
+  "status": "targeted correction passes; frozen and task stopped for main controller",
+  "report": {
+    "path": "R011-appendix-v002-diff-review.md",
+    "bytes": 1951,
+    "sha256": "a238c7f985b4e46a1f4f476332ac599ee6a893fb6c4f1d4b6172d2aba40040b4"
+  },
+  "formula_block_SHA256_old_equals_new": [
+    "9240444d6dd7cbc4b9ea657e414a96669e65d5a28a7e8b9cafab06f68d31bcdd",
+    "4ab6f9e26798ad885a8c931acd1ced15813fa1710591c795dbe43705ead86e8b",
+    "a9d7d065a12c55b660fba5c6b2ff1b30326ebc0eea3fb9056ec78f8eab54c90b",
+    "3ee5d0d0bdc03579b266126fc70ffe0e914969eebd25f7f9940a4394e175ddbf",
+    "5313abc335e2ead77ac0acaf0ec43f3fd8cb5b95d10f0b2fe4b992ae89192c90",
+    "9e2963350473be1055fcdbeca7f10280a9a82e70c190e0489f96bd525780c197",
+    "748563aba929b9304d3d95930559bf6d15914f58c21d9e38d604d27c68635e4e",
+    "445bddf33c3b7601971bc005031f3f2aea70146bdc9f68180f31b3daf6e6afcc",
+    "f3dd6ce0080fcfd403d56639550a6744391a1bf2bb2e84cbeffb0ddc88554ab0",
+    "fdf6c690b54124396b34a98d9bbd06500318ca11f8d40e4d38ebf37509a4f911",
+    "33a5c12082bf8bd8b640c027810fe4bba73ac92bd772b8faf15390c3b1250c7f",
+    "10544108abebf4aad31488a288961d2d85f492e6564757f8a8c894ed2df12bea",
+    "75a78a0cae8da2376216faf9bffa92a68c64f8b6b6252e06a86a0c4f91618ea8",
+    "d5afb3c55334ab0666f16dd0052d44991593cf166015e5e2c5d74588ae0c6721"
+  ],
+  "independent_read_only_check": {
+    "agent": "local_literature",
+    "result": "line58 exact required replacement and line160 exact two wording replacements; no other changes in those lines",
+    "file_writes": 0,
+    "network": 0
+  }
+}

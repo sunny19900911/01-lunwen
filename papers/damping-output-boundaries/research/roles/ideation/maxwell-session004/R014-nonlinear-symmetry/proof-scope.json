@@ -1,0 +1,32 @@
+{
+  "round": "R014",
+  "protocol_sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8",
+  "author_side_analytic_candidates": [
+    "local uniqueness via C1 psi, global extension via coercive energy bound",
+    "all-time exact permutation and device F/totaldelta histories",
+    "specified global energy/power/cumulative identities",
+    "conditional future-output certificate for s>=T with certified E(s) upper bound"
+  ],
+  "conditional_certificate": {
+    "output": "u1",
+    "compliance_exact": "1001/1002",
+    "formula": "sup_{t>=s}|u1(t)| <= sqrt(2*Ebar(s)*1001/1002)",
+    "requires": "true E(s)<=Ebar(s); no further input work after s>=T",
+    "coarse_pure_analytic_energy_upper": "50*pi",
+    "using_smaller_RK4_terminal_energy": "requires certified state-error/roundoff upper bound; raw float energy is insufficient"
+  },
+  "not_established": [
+    "alpha0.3 full-time fixedoutput peak separation",
+    "validated ODE errors",
+    "continuous-time early-peak bounds",
+    "actual engineering or dimensional damper matching",
+    "new classical method"
+  ],
+  "numerical_work": "none",
+  "exact_algebra_checks": {
+    "q_plus_one": "13/3",
+    "u1_compliance": "1001/1002",
+    "kappa_lower_gt_7": true,
+    "coarse_energy_pi_coefficient": 50
+  }
+}

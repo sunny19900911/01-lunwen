@@ -1,0 +1,257 @@
+{
+  "version": "theory-appendix-v002",
+  "created_at": "2026-10-18T00:50:56.922519+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-theory-appendix-v002.md",
+    "bytes": 16090,
+    "sha256": "5d52e3917c7db6e8794f6c0afee1904853ff9710114957c255b49830b1231e3d"
+  },
+  "scope": "Master-accepted mathematical statements in bounded measurable total-velocity/AC-state class;new integrated stage document awaiting independent integration review,not novelty/engineering certification.",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\力回零耗散峰力可行域独审-R014.md",
+      "bytes": 7993,
+      "sha256": "7d91b07af19d7e21f1fa3850cbc4e58a2340ad42ded45de8a33017bcfb59ad04",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/力回零耗散峰力可行域独审-R014.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R014-proof-evidence.json",
+      "bytes": 4210,
+      "sha256": "819e11f2c4d6658d5899cb6bdaa528a715cdcf9ab76b4a8c8267abe7cbb243a1",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R014-proof-evidence.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R014-review-validation.json",
+      "bytes": 5436,
+      "sha256": "a0f9299b40060c5e301306fa7fcd4d033ba899756880858dee3def619b92d577",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R014-review-validation.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\饱和包络修订串行独审-R015.md",
+      "bytes": 4736,
+      "sha256": "388ee19558e1e7864b9261dc0fd598994e2018168e277eecabf79dbd085c83fc",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/饱和包络修订串行独审-R015.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R015-review-identity.json",
+      "bytes": 5212,
+      "sha256": "62b4cb32d040b05f4d5a436b15462504429a2975752734b6683b4c6f67dea709",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R015-review-identity.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\双回零指定峰最短可达时间独审-R016.md",
+      "bytes": 7021,
+      "sha256": "69abdc8d72a47b2a8c3e3f8abd7aa62509dbfee8141fba0dc5a0711929861e71",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/双回零指定峰最短可达时间独审-R016.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R016-proof-evidence.json",
+      "bytes": 4564,
+      "sha256": "2aca38919409dd58d6b7cd4f475f53d5d2eaae877459af908c971564a408013c",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R016-proof-evidence.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R016-review-validation.json",
+      "bytes": 3772,
+      "sha256": "dddc52beb83f1c1cb18fd80c7f5ede2e074715165a797358db9d67a259b5e935",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R016-review-validation.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\非零末力耗散峰力区间独审-R017.md",
+      "bytes": 7166,
+      "sha256": "5a3596a03e9508861ccfda513ee170addf62c29a35ef97e4ed9e33a3db4c5c6d",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/非零末力耗散峰力区间独审-R017.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R017-proof-evidence.json",
+      "bytes": 5475,
+      "sha256": "814b492b4c5f43f6f3cecd0e82143193bc8abb57394996e4f67dbd930c5d78a5",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R017-proof-evidence.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R017-review-validation.json",
+      "bytes": 4023,
+      "sha256": "c64f8824e8febbae6cf222c75e6c96bda608c9b10c18ba157444b1db819e7ef4",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R017-review-validation.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R008-closed-peak-reachability\\report.md",
+      "bytes": 8299,
+      "sha256": "19fd7e7f400f2cf56b06d5af83d88e8e13067bce43b2da8357efa92b513e9aaa",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R008-closed-peak-reachability/report.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R008-closed-peak-reachability\\scope.json",
+      "bytes": 1125,
+      "sha256": "09cb9972e5f87cff5216ecb267b50ae70231231f9037877e6aa1657149ac2d8e",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R008-closed-peak-reachability/scope.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R008-closed-peak-reachability\\validation.json",
+      "bytes": 884,
+      "sha256": "64fd1e125adbf7b26b1c86912b5184edc2d687696bbce3e7918d12fda8549f70",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R008-closed-peak-reachability/validation.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R009-nonzero-terminal-force\\report.md",
+      "bytes": 8485,
+      "sha256": "80eada1fa18980877fac82c0860224cff4ca2944655912c5ea2d696371fd9893",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R009-nonzero-terminal-force/report.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R009-nonzero-terminal-force\\scope.json",
+      "bytes": 1184,
+      "sha256": "bda68c6a357f089032c5c2c704eda9543b0dbf8f70a8267de8b942721e806b85",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R009-nonzero-terminal-force/scope.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R009-nonzero-terminal-force\\validation.json",
+      "bytes": 1370,
+      "sha256": "794a9db639f288f475c178f9ea49f1cfd6389784756f75e21cbb0196ca2ebc17",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R009-nonzero-terminal-force/validation.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R008\\report.md",
+      "bytes": 8811,
+      "sha256": "f4df7f42d4f8de40f76445a2f383b88405bfce92902e1b7fc5aea1b433388dae",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R008/report.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R008\\validation.json",
+      "bytes": 2139,
+      "sha256": "8109f4bb62ef3d8ae7b360eed4bd859676dacb66340861ac50f798019841adaf",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R008/validation.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R009\\report.md",
+      "bytes": 6414,
+      "sha256": "61b5fb107a2a7b92bb3a4c9f316ad5847464723b368469ebf0c96fadac26b407",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R009/report.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R009\\validation.json",
+      "bytes": 2086,
+      "sha256": "498da85bf1dc92c775749907451e96ba721896b549ecee00523729a8c7863463",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R009/validation.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R010-appendix-v001-review\\R010-appendix-v001-review.md",
+      "bytes": 6910,
+      "sha256": "1e51cbb16f2ffeb3e9d6ecd348b6b5971d318f659428abfd58e29795e15cafd9",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R010-appendix-v001-review/R010-appendix-v001-review.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R010-appendix-v001-review\\validation-R010.json",
+      "bytes": 8476,
+      "sha256": "1102f7af1134bb3b4e5ed51c8a34551db782efb6a577079a93315209f78012ff",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R010-appendix-v001-review/validation-R010.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R010-appendix-v001-review\\input-rules-R010.json",
+      "bytes": 4569,
+      "sha256": "45a5cb58e1cb1ef5f6cd02939eb44e3deed1451fd441501f55a9568d9107b3a3",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R010-appendix-v001-review/input-rules-R010.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R010-appendix-v001-review\\manifest-R010.json",
+      "bytes": 2334,
+      "sha256": "88f2d24501715467fbaf9b6750ee0c156238b7c2b4a545eed777bf57033504a7",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R010-appendix-v001-review/manifest-R010.json"
+    }
+  ],
+  "symbol_mapping": {
+    "appendix_beta": "review a=c^(-1/alpha),not engineering regression a=1/k",
+    "Q_A": "flow deformation,length;not D or L energy",
+    "M": "exact absolute force maximum,not just cap",
+    "V": "continuous-time bound on total serial velocity,not internal dashpot velocity or sample finite difference"
+  },
+  "mapping": [
+    {
+      "section": "1/2",
+      "support": "R014/R015/R016/R017 models,AC/zero-level/monotone uniqueness and capped inverse rules",
+      "limits": "true fixed parameters,measurable v,not continuous-control exact attainability"
+    },
+    {
+      "section": "3",
+      "support": "R015 combination +R014 reconstructed proof",
+      "limits": "force closure only,terminal total deformation free;all inverses restricted;M0/D0 separate"
+    },
+    {
+      "section": "4",
+      "support": "role1R008 +R016",
+      "limits": "double closure,2tau minimum;Q/A flow capacity,countable signs;no fixed-D feasible interval claim"
+    },
+    {
+      "section": "5",
+      "support": "role1R009 +R017",
+      "limits": "FT=sigma*h,terminal deformation free;positive backward shift and capped inverses;no delta closure or fixed-D inverse"
+    },
+    {
+      "section": "6/7",
+      "support": "R015/R016/R017 regularity limits +noveltyR008/R009 source coverage",
+      "limits": "classic methods,publication coverage unresolved;not building trajectory or response reduction"
+    }
+  ],
+  "inherited_external_identity_only": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-return-candidate\\力回零Maxwell耗散峰力可行区间-作者候选.md",
+      "bytes": 6014,
+      "sha256": "1b4d4888b5181eafb9accf2f7a19330bd88b8d0427c4fd2ffd846a2c42a1b446"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\force-return-candidate\\力回零候选-v002-饱和包络修订.md",
+      "bytes": 3631,
+      "sha256": "8748e0ad35e743ffccc2daa323ec7d947e44ef5c0661f1c669266d019fa8080e"
+    }
+  ],
+  "external_inputs_read_or_hashed_this_task": false,
+  "R014_original_error_preserved": true,
+  "scalar_checks": {
+    "q2_inverse_domain": {
+      "tau_half": 1.012953753334861,
+      "pi_over2": 1.5707963267948966,
+      "invalid_argument": 2
+    },
+    "alpha1": {
+      "tau_half": 1.0986122886681098,
+      "double_closure_minimum_time": 2.1972245773362196,
+      "tauh_half_quarter": 0.8754687373538999,
+      "Lh": 0.09421873735389985,
+      "Uh_T2": 0.3753515530154249
+    },
+    "not_used_as_proof": true
+  },
+  "snapshot": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\theory-appendix-v002-session-snapshot.json",
+    "bytes": 863,
+    "sha256": "bf450ecfaa112e036db16b686c1e0133531c24afe433182329e2c19a4e3f22bb"
+  },
+  "predecessor": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-theory-appendix-v001.md",
+    "bytes": 15972,
+    "sha256": "be8535fef719b77d5e8b8d1f4ea6dc25d884c1834f0fcf3521359d7c00e759c8"
+  },
+  "predecessor_freeze": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-theory-appendix-v001.json",
+    "bytes": 2319,
+    "sha256": "ae2eb8507adc4b8fb94dd2a672715b8e13573cef62312c963074ad329c43cced"
+  },
+  "targeted_R010_resolution": {
+    "required_original_full_line": "**必须保留的修订。** R014发现原稿把仅在[0,τ↓(M)]有定义的局部逆写作z↓(T−t)，外层min不能补救内部未定义。其例k=c=V=1、α=1/2、M=1/2、T=2中，τ↓(x)=atan x，所需z↓(2)甚至超出全非负反向逆的像域上限π/2。R015确认以式（6）两端饱和后消除该缺口。本文只引用“原候选＋R014限制＋v002饱和修订＋R015受限逆/零峰约定”的组合，不能把原候选单独视为已修正版本。",
+    "required_replacement_full_line": "**必须保留的修订。** R014发现原稿把仅在[0,τ↓(M)]有定义的局部逆写作z↓(T−t)，外层min不能补救内部未定义。其例k=c=V=1、α=1/2、M=1/2、T=2中，τ↓(x)=atan x，参数2甚至超过τ↓在全非负力域上的值域上限π/2（即相应逆函数的定义域上限）。R015确认以式（6）两端饱和后消除该缺口。本文只引用“原候选＋R014限制＋v002饱和修订＋R015受限逆/零峰约定”的组合，不能把原候选单独视为已修正版本。",
+    "optional_original_full_line": "设Δ=T−τh≥0，任取ℓ∈[0,Δ]。依次零力等待Δ−ℓ，以v=σV升至σM，以v=σβM^q驻留ℓ，再以v=−σV降至σh。最后一段用时τ↓(M)−τ↓(h)，控制合法、总时长为T、终力符号正确且峰恰为M，耗散为Lh+βM^pℓ，取满整个闭区间。δ由v积分得到，末值自由，没有隐藏的变形闭合条件。",
+    "optional_replacement_full_line": "设Δ=T−τh≥0，任取ℓ∈[0,Δ]。依次零力等待Δ−ℓ，以v=σV加载至σM，以v=σβM^q驻留ℓ，再以v=−σV卸载至σh。最后一段用时τ↓(M)−τ↓(h)，控制合法、总时长为T、终力符号正确且峰恰为M，耗散为Lh+βM^pℓ，取满整个闭区间。δ由v积分得到，末值自由，没有隐藏的变形闭合条件。",
+    "source_review_report": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R010-appendix-v001-review\\R010-appendix-v001-review.md",
+      "bytes": 6910,
+      "sha256": "1e51cbb16f2ffeb3e9d6ecd348b6b5971d318f659428abfd58e29795e15cafd9"
+    },
+    "status": "applied by author;awaiting role3 targeted verification"
+  },
+  "diff": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\theory-appendix-v002.diff",
+    "bytes": 5037,
+    "sha256": "464f301139e55202168ad39da2dbab2cf0046ed5376a36220aa38c59c890ef53"
+  },
+  "unchanged_scope": "All14formulas,one table and every otherbody line byte-identical;only4allowed lines changed. No new proofs/numerics or result expansion."
+}

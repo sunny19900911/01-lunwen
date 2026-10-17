@@ -1,0 +1,38 @@
+{
+  "validated_at": "2026-10-18T00:46:44.203743+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-modal-interface-v001.md",
+    "bytes": 13220,
+    "sha256": "ae16c74eb8f3786b66f1787034ca67b64d86683b8cddde94a26f8a0761a91cc8"
+  },
+  "passed": true,
+  "checks": {
+    "R018_R020_review_reports_and_evidence_hashes_match": true,
+    "engineering_v006_and_single_device_appendix12files2manifests_unchanged": true,
+    "six_formula_tags_once": true,
+    "ordinary_use_before_formulas": true,
+    "endpoint_small_table_signed_LGH_common_input": true,
+    "actual_background_and_input_norms_not_damping_percent_only": true,
+    "complete_energy_once_support_power_and_AC": true,
+    "quarter_L2_and_L1_budget_coefficients": true,
+    "PSD_range_gates": true,
+    "eta_no_frequency_denominator_and_complete_mass_only": true,
+    "nonzero_initial_force_and_strict_bound_separate": true,
+    "complete_common_basis_and_nonclassical_gate": true,
+    "tail_contract_certified_totals_and_all_omitted_lowerbounds": true,
+    "Ritz_negative_residual_directed_safety_gates": true,
+    "CSI_inertial_sign_no_rescale_and_unknown_fields": true,
+    "CSI_alternative_conversion_branches": true,
+    "classic_Khalil_CSI_source_locators_and_no_novelty_claim": true,
+    "layout_not_ranked_and_no_unreviewed_synthetic_results": true,
+    "fixed_displacement_not_acceleration_or_damper_shear": true,
+    "local_links_resolve": true,
+    "no_machine_or_W5_links_or_images": true,
+    "three_small_tables_columns_consistent": true,
+    "UTF8_LF_noBOM_or_trailing_whitespace": true,
+    "scoped_git_whitespace_check_clean": true
+  },
+  "formula_tags": 6,
+  "small_tables": 3,
+  "limits": "Author source/transcription/condition checklist only;no fresh mathematical theorem proof,numeric experiment or actual software-field certification."
+}

@@ -1,0 +1,55 @@
+{
+  "evidence_id": "M-EXP-R013",
+  "review_status": "nondimensional_synthetic_finite_sampled_candidate",
+  "completed_utc": "2026-10-17T16:53:48.313509+00:00",
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\verify_layout_nonlinear03.py"
+  ],
+  "exit_code": 0,
+  "delivery_QA": "Fouractualruns/twoconvergence rows; nonlinearFdot/Dd formula read; originalR012/root/outputSHA/UTF8/compilation/noarrayfiles verified; integration not rerun, no parameter adjustments.",
+  "files": [
+    {
+      "name": "four_actual_runs_r013.csv",
+      "bytes": 2899,
+      "sha256": "1bfe6601f5f31b5f60e5e7757bb36d908430a3bf26506cec575ada0b9c78e2e8"
+    },
+    {
+      "name": "protocol.json",
+      "bytes": 2596,
+      "sha256": "423db0556154dd3e3653c7784b5f61464686489083722e83efd4d4cbec4ca73e"
+    },
+    {
+      "name": "report.md",
+      "bytes": 4152,
+      "sha256": "555483c49a17b206f9a917e1d81e8f00686b54c66e2ccbc7e4fc288ca8ff2edf"
+    },
+    {
+      "name": "run_record_r013.json",
+      "bytes": 1193,
+      "sha256": "f6ae8c18cf1dde6e8408a7bbd76f47ce4dce88d4f9b8bc90cd5f65a7bf00c038"
+    },
+    {
+      "name": "scope_notes.md",
+      "bytes": 919,
+      "sha256": "b0d1139ee97d3a7417f6ce549440cf3e2c7bd9e0972e901805266e0ad971d8f4"
+    },
+    {
+      "name": "step_convergence_r013.csv",
+      "bytes": 1181,
+      "sha256": "8ac2ba63a1a08035fa2e6e5d93d0a4e183f46d72a3e9de25df1b4022b74da03f"
+    },
+    {
+      "name": "summary_r013.json",
+      "bytes": 11545,
+      "sha256": "5ed7827fee6f781792ccc0b798543db7f62bbfd87f12defff18a43f86faf38cd"
+    },
+    {
+      "name": "verify_layout_nonlinear03.py",
+      "bytes": 13720,
+      "sha256": "c8ced0036a2e15a1494c647c30b22cacbce9de824b8e727f6763896f19a7b8ae"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "task": "R012 static code/source/transcription review, not independent ODE solution",
+  "started_at": "2026-10-18T01:03:11+08:00",
+  "frozen_at": "2026-10-18T01:04:36.802820+08:00",
+  "limit_minutes": 6,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\delivery_manifest_r013.json",
+      "bytes": 2089,
+      "sha256": "f878551c6ab8e776d00d3a742f4e6449653a222384c7986d70a3f2ef412f4cbf"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\four_actual_runs_r013.csv",
+      "bytes": 2899,
+      "sha256": "1bfe6601f5f31b5f60e5e7757bb36d908430a3bf26506cec575ada0b9c78e2e8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\protocol.json",
+      "bytes": 2596,
+      "sha256": "423db0556154dd3e3653c7784b5f61464686489083722e83efd4d4cbec4ca73e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\report.md",
+      "bytes": 4152,
+      "sha256": "555483c49a17b206f9a917e1d81e8f00686b54c66e2ccbc7e4fc288ca8ff2edf"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\run_record_r013.json",
+      "bytes": 1193,
+      "sha256": "f6ae8c18cf1dde6e8408a7bbd76f47ce4dce88d4f9b8bc90cd5f65a7bf00c038"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\scope_notes.md",
+      "bytes": 919,
+      "sha256": "b0d1139ee97d3a7417f6ce549440cf3e2c7bd9e0972e901805266e0ad971d8f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\step_convergence_r013.csv",
+      "bytes": 1181,
+      "sha256": "8ac2ba63a1a08035fa2e6e5d93d0a4e183f46d72a3e9de25df1b4022b74da03f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\summary_r013.json",
+      "bytes": 11545,
+      "sha256": "5ed7827fee6f781792ccc0b798543db7f62bbfd87f12defff18a43f86faf38cd"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\verify_layout_nonlinear03.py",
+      "bytes": 13720,
+      "sha256": "c8ced0036a2e15a1494c647c30b22cacbce9de824b8e727f6763896f19a7b8ae"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+      "bytes": 2341,
+      "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\verify_layout_symmetry.py",
+      "bytes": 12442,
+      "sha256": "e8effb66a928ef4b72ac4a89ec9907d736e14ea43b6bdf438442c941c95c87df"
+    }
+  ],
+  "rules": "No ODE import/execution or full arrays. Root/code change review and small CSV/JSON/report reconciliation only; eight delivery SHA and root6551 identity; no strict numerical error or real-parameter certification."
+}

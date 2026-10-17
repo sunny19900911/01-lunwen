@@ -1,0 +1,24 @@
+{
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\verify_layout_nonlinear03.py"
+  ],
+  "exit_code": 0,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "elapsed_seconds": 1.5734128000040073,
+  "finished_utc": "2026-10-17T16:52:32.204477+00:00",
+  "code_sha256": "c8ced0036a2e15a1494c647c30b22cacbce9de824b8e727f6763896f19a7b8ae",
+  "summary_sha256": "5ed7827fee6f781792ccc0b798543db7f62bbfd87f12defff18a43f86faf38cd",
+  "checks": {
+    "four_independent_actual_RK4_runs": true,
+    "root_parameters_unchanged_positive": true,
+    "bare_system_exact5percent_by_construction": true,
+    "all_states_finite_no_clipping": true,
+    "permutation_and_energy_trajectory_residuals_in_arithmetic_tolerance": true,
+    "root_and_own_protocol_SHA_unchanged": true,
+    "runtime_below360seconds": true
+  }
+}

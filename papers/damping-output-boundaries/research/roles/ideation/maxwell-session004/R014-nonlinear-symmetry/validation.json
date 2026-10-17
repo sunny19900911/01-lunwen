@@ -1,0 +1,47 @@
+{
+  "round": "R014",
+  "frozen_at": "2026-10-18T00:53:55.927021+08:00",
+  "elapsed_seconds": 203.927021,
+  "within_8_minute_limit": true,
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R011\\report.md",
+      "sha256_unchanged": true,
+      "sha256": "e0e5c74329e5cf98b7d34710d30647a84b547d0166afa8548b001c004225357f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+      "sha256_unchanged": true,
+      "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+    }
+  ],
+  "protocol_copy_byte_identical": true,
+  "json_parse": true,
+  "markdown_utf8_lf_no_trailing_space": true,
+  "relative_links": [
+    {
+      "source": "report.md",
+      "target": "../../../novelty/maxwell-session004/R011/report.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "input-freeze.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "protocol-copy.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "cross-checks.md",
+      "exists": true
+    }
+  ],
+  "exact_algebra_checks": "passed; no ODE integration",
+  "internal_author_side_checks": 2,
+  "independent_role2_audit": "pending",
+  "work_scope": "Only this new R014 directory written. No ODE, arrays, search, retuning, old/shared or Git mutation."
+}

@@ -1,0 +1,60 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R012 static nonlinear code and source/transcription review only",
+  "started_at": "2026-10-18T01:03:11+08:00",
+  "checked_at": "2026-10-18T01:06:18.555173+08:00",
+  "inputs_frozen_SHA_all_unchanged": true,
+  "delivery_files_SHA_bytes_checked": 8,
+  "root_protocol_sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8",
+  "own_protocol_sha256": "423db0556154dd3e3653c7784b5f61464686489083722e83efd4d4cbec4ca73e",
+  "old_R012_code_sha256": "e8effb66a928ef4b72ac4a89ec9907d736e14ea43b6bdf438442c941c95c87df",
+  "static_code_checks": {
+    "AST_parsed_without_import_or_execution": true,
+    "nonlinear_Fdot": true,
+    "nonlinear_Dd_rate": true,
+    "spring_F_squared_over_2kappa": true,
+    "a_device_only_construction_name_not_linear_rate": true,
+    "two_layouts_each_call_integrate_at_two_prespecified_steps": true,
+    "permutation_only_postrun_comparison": true,
+    "zero_initial_and_exact_input_cutoff_T_then_to_6T": true,
+    "no_force_energy_clipping_or_third_grid": true,
+    "finite_scalar_model_constants_match_root": true
+  },
+  "small_output_checks": {
+    "four_actual_rows": 4,
+    "convergence_rows": 2,
+    "all_CSV_fields_match_summary": true,
+    "run_record_code_summary_time_command_identity_match": true,
+    "all_report_peak_sign_time_dt_and_energy_table_display_values_match": true,
+    "step_peak_and_terminal_differences_recomputed_from_small_rows": true,
+    "terminal_storage_components_sum_to_E": true
+  },
+  "required_corrections": [],
+  "limits": [
+    "No ODE functions imported or executed; not an independent numerical solution or observation of original run",
+    "No full trajectories, Excel,NPZ or original engineering table read",
+    "Cannot independently recompute whole-grid peaks/balances/permutation/common-grid differences from summaries",
+    "Balance diagnostic is not a state-error bound, two-grid changes not rigorous time-continuous peak or tail certificate",
+    "a_device=r^3 is construction label, not nonlinear relaxation coefficient",
+    "Nondimensional alpha=.3 pair only; same numeric c across alpha is not same physical device; actual477/500000 not certified"
+  ],
+  "delegate": "local_literature independently reconciled report four rows/two convergence rows/symmetry/limits with CSV and JSON; no execution/writes",
+  "operations": {
+    "ODE_runs": 0,
+    "source_code_imports": 0,
+    "Excel_NPZ_full_trajectory_reads": 0,
+    "network": 0,
+    "source_shared_manuscript_Git_edits": 0
+  },
+  "frozen_at": "2026-10-18T01:07:46.789712+08:00",
+  "elapsed_seconds": 275.789712,
+  "status": "candidate static/source/transcription audit frozen; no required correction; task stopped",
+  "report": {
+    "path": "R012-nonlinear-output-review.md",
+    "bytes": 4824,
+    "sha256": "cb9ce538995ea44ff8adde7bd69692196717f77479c00b59c0cd2fc4752c225f"
+  },
+  "input_rules_sha256": "e1b0d660fac406e4a3e861b67113c0d78375285deff5ecd403a3e8764f3c86c2",
+  "input_count": 11
+}

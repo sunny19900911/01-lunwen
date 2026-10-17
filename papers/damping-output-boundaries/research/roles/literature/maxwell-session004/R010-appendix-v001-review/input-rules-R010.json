@@ -1,0 +1,70 @@
+{
+  "task": "R010 appendix integration/source/condition transcription, no new theorem proof",
+  "started_at": "2026-10-18T00:36:27+08:00",
+  "frozen_at": "2026-10-18T00:37:35.660925+08:00",
+  "limit_minutes": 8,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-theory-appendix-v001.md",
+      "bytes": 15972,
+      "sha256": "be8535fef719b77d5e8b8d1f4ea6dc25d884c1834f0fcf3521359d7c00e759c8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\theory-appendix-v001-evidence-map.json",
+      "bytes": 13660,
+      "sha256": "9eb915309de788f2990a4954c2f4373594edb031747381e712a814c8cd333d4b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-theory-appendix-v001.json",
+      "bytes": 2319,
+      "sha256": "ae2eb8507adc4b8fb94dd2a672715b8e13573cef62312c963074ad329c43cced"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\theory-appendix-v001-validation.json",
+      "bytes": 1983,
+      "sha256": "adb6f5a61b891e595542b3634d16f18ede06428889ba9fd50dfb7a612f139469"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\饱和包络修订串行独审-R015.md",
+      "bytes": 4736,
+      "sha256": "388ee19558e1e7864b9261dc0fd598994e2018168e277eecabf79dbd085c83fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\双回零指定峰最短可达时间独审-R016.md",
+      "bytes": 7021,
+      "sha256": "69abdc8d72a47b2a8c3e3f8abd7aa62509dbfee8141fba0dc5a0711929861e71"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\非零末力耗散峰力区间独审-R017.md",
+      "bytes": 7166,
+      "sha256": "5a3596a03e9508861ccfda513ee170addf62c29a35ef97e4ed9e33a3db4c5c6d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\力回零耗散峰力可行域独审-R014.md",
+      "bytes": 7993,
+      "sha256": "7d91b07af19d7e21f1fa3850cbc4e58a2340ad42ded45de8a33017bcfb59ad04"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R008\\report.md",
+      "bytes": 8811,
+      "sha256": "f4df7f42d4f8de40f76445a2f383b88405bfce92902e1b7fc5aea1b433388dae"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R009\\report.md",
+      "bytes": 6414,
+      "sha256": "61b5fb107a2a7b92bb3a4c9f316ad5847464723b368469ebf0c96fadac26b407"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v006.md",
+      "bytes": 42202,
+      "sha256": "c04370712b9adc73064872e1d2cc79a5c6a7783e191d5ca8dc4e754d80ae604b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\theory-draft-v007.md",
+      "bytes": 83889,
+      "sha256": "93fca22d3807d5a59e4a9db6750dce876a65ca974ee1889dbe415f16de8bd323"
+    }
+  ],
+  "rules": "Fourteen formulas against R015 combination/R016/R017; distinguish a->beta from fitting a=1/k, restricted inverse/saturation/zero cases, time/dissipation classes; no new theory/download/Excel/NPZ/solver/source/shared/manuscript/Git edits."
+}

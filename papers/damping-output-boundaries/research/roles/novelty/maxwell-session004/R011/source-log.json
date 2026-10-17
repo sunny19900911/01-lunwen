@@ -1,0 +1,43 @@
+{
+  "started_at": "2026-10-18T00:38:47+08:00",
+  "logged_at": "2026-10-18T00:43:43+08:00",
+  "root_search_queries": 0,
+  "child_search_queries": 1,
+  "total_queries": 1,
+  "query": "site:stanford.edu Boyd \"state-space\" \"coordinate transformation\" output",
+  "readable_primary_sources": 2,
+  "sources": [
+    {
+      "title": "Linear Matrix Inequalities in System and Control Theory",
+      "authors": "Boyd; El Ghaoui; Feron; Balakrishnan",
+      "year": 1994,
+      "url": "https://web.stanford.edu/~boyd/lmibook/lmibook.pdf",
+      "read": "root and child section10.7 print148/PDF160 equations10.13-10.14; child also section5.1.1 print65/PDF77",
+      "status": "author official 205-page PDF text; not locally saved; no pixel claim",
+      "scope": "classical coordinate/input/output rule; discrete display, not continuous mechanical certificate"
+    },
+    {
+      "title": "Supporting brace sizing in structures with added linear viscous fluid dampers: A filter design solution",
+      "authors": "Londono; Wagg; Neild",
+      "year": 2014,
+      "doi": "10.1002/eqe.2433",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/81371/1/WRRO_81371.pdf",
+      "local_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\novelty\\evidence\\Londono2014-WRRO_81371.pdf",
+      "sha256": "cf7e469e0897cb095fa45274d5ff98c0269d68eb2084d128bc4c6775817a0a1d",
+      "read": "child local primary text print2004-2005/PDF7-8 equations10-15 and print2010-2011/PDF13-14; root reused child positioning",
+      "scope": "known port/modal projection and multi-output evaluation; no same exact counterexample established"
+    }
+  ],
+  "failed_once_not_retried": [
+    {
+      "url": "https://web.stanford.edu/~boyd/lcdbook/lcdbook.pdf",
+      "result": "child400/timeout, accompanying find no readable text; not relied on and not retried"
+    }
+  ],
+  "fulltexts_newly_saved": 0,
+  "old_failed_downloads_retried": false,
+  "R021_correctness": "not read/reviewed; pending as supplied",
+  "specific_certificate_priority": "unresolved; no first claim",
+  "scope_supplement": "A not globally better; worst-coordinate peak permutation invariant; conditional single-device delta/F histories also same",
+  "source_code": "author analytic_constants.py fingerprint only, not executed/copied"
+}

@@ -1,0 +1,282 @@
+{
+  "evidence_id": "M-EXP-R013",
+  "status": "synthetic finite_sampled_support_only",
+  "finished_utc": "2026-10-17T16:52:32.204477+00:00",
+  "elapsed_seconds": 1.5734128000040073,
+  "root_protocol": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+    "bytes": 2341,
+    "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+  },
+  "own_protocol_sha256": "423db0556154dd3e3653c7784b5f61464686489083722e83efd4d4cbec4ca73e",
+  "code_sha256": "c8ced0036a2e15a1494c647c30b22cacbce9de824b8e727f6763896f19a7b8ae",
+  "parameters": {
+    "synthetic_alpha": 0.3,
+    "inverse_exponent_q": 3.3333333333333335,
+    "epsilon": 0.001,
+    "M": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "K": [
+      [
+        1.001,
+        -0.001
+      ],
+      [
+        -0.001,
+        1.001
+      ]
+    ],
+    "Rayleigh_aR": 0.05002497503120632,
+    "Rayleigh_bR": 0.049975024968793684,
+    "C": [
+      [
+        0.10004997502496879,
+        -4.9975024968793683e-05
+      ],
+      [
+        -4.9975024968793683e-05,
+        0.10004997502496879
+      ]
+    ],
+    "bare_modal_omega": [
+      1,
+      1.000999500499376
+    ],
+    "bare_modal_zeta": [
+      0.049999999999999996,
+      0.049999999999999996
+    ],
+    "r": 1.7151372034229122,
+    "cubic_residual": 3.608224830031759e-16,
+    "a_device": 5.0454116102687365,
+    "kappa": 7.32054571866923,
+    "c_device": 1.4509313182238688,
+    "T": 62.83185307179586,
+    "end_time_6T": 376.99111843077515
+  },
+  "four_runs": [
+    {
+      "layout": "A",
+      "N_steps_per_T": 8192,
+      "dt": 0.007669903939428206,
+      "actual_steps": 49152,
+      "sampled_u1_abs_peak": 0.3081508468591559,
+      "u1_peak_controllers_json": "[{\"t\": 2.4390294527381693, \"signed_value\": 0.3081508468591559}]",
+      "sampled_u2_abs_peak": 9.566170144592014,
+      "u2_peak_controllers_json": "[{\"t\": 62.816513263917, \"signed_value\": -9.566170144592014}]",
+      "sampled_device_force_abs_peak": 0.8872865118572091,
+      "force_peak_controllers_json": "[{\"t\": 4.985437560628334, \"signed_value\": -0.8872865118572091}]",
+      "E_at_T": 45.83832976038303,
+      "W_at_T": 223.7654022122491,
+      "Db_at_T": 172.72993276793412,
+      "Dd_at_T": 5.197139699757398,
+      "E_terminal_6T": 0.0033367685384246186,
+      "Ekin_terminal": 1.1848117180771543e-09,
+      "Ephysical_elastic_terminal": 0.002935431369703141,
+      "Edevice_spring_terminal": 0.0004013359839097596,
+      "W_terminal": 223.7654022122491,
+      "Db_terminal": 218.53971837080456,
+      "Dd_terminal": 5.2223470921464505,
+      "max_abs_energy_balance_0_6T": 1.9250522953484506e-08,
+      "terminal_energy_balance": 1.924031867162057e-08,
+      "max_abs_normalized_energy_balance": 8.602991345545966e-11,
+      "min_stored_energy_unclipped": 0.0,
+      "run_elapsed_seconds": 0.2411143999925116
+    },
+    {
+      "layout": "B",
+      "N_steps_per_T": 8192,
+      "dt": 0.007669903939428206,
+      "actual_steps": 49152,
+      "sampled_u1_abs_peak": 9.566170144592014,
+      "u1_peak_controllers_json": "[{\"t\": 62.816513263917, \"signed_value\": -9.566170144592014}]",
+      "sampled_u2_abs_peak": 0.3081508468591559,
+      "u2_peak_controllers_json": "[{\"t\": 2.4390294527381693, \"signed_value\": 0.3081508468591559}]",
+      "sampled_device_force_abs_peak": 0.8872865118572091,
+      "force_peak_controllers_json": "[{\"t\": 4.985437560628334, \"signed_value\": -0.8872865118572091}]",
+      "E_at_T": 45.83832976038303,
+      "W_at_T": 223.7654022122491,
+      "Db_at_T": 172.72993276793412,
+      "Dd_at_T": 5.197139699757398,
+      "E_terminal_6T": 0.0033367685384246186,
+      "Ekin_terminal": 1.1848117180771543e-09,
+      "Ephysical_elastic_terminal": 0.002935431369703141,
+      "Edevice_spring_terminal": 0.0004013359839097596,
+      "W_terminal": 223.7654022122491,
+      "Db_terminal": 218.53971837080456,
+      "Dd_terminal": 5.2223470921464505,
+      "max_abs_energy_balance_0_6T": 1.9250522953484506e-08,
+      "terminal_energy_balance": 1.924031867162057e-08,
+      "max_abs_normalized_energy_balance": 8.602991345545966e-11,
+      "min_stored_energy_unclipped": 0.0,
+      "run_elapsed_seconds": 0.24750530000892468
+    },
+    {
+      "layout": "A",
+      "N_steps_per_T": 16384,
+      "dt": 0.003834951969714103,
+      "actual_steps": 98304,
+      "sampled_u1_abs_peak": 0.30815262454114284,
+      "u1_peak_controllers_json": "[{\"t\": 2.4428644047078834, \"signed_value\": 0.30815262454114284}]",
+      "sampled_u2_abs_peak": 9.56622377009097,
+      "u2_peak_controllers_json": "[{\"t\": 62.82034821588672, \"signed_value\": -9.56622377009097}]",
+      "sampled_device_force_abs_peak": 0.8872870524237011,
+      "force_peak_controllers_json": "[{\"t\": 4.98160260865862, \"signed_value\": -0.8872870524237011}]",
+      "E_at_T": 45.838329755879826,
+      "W_at_T": 223.76540220753165,
+      "Db_at_T": 172.72993276050266,
+      "Dd_at_T": 5.197139692158756,
+      "E_terminal_6T": 0.0033367685448422806,
+      "Ekin_terminal": 1.1848117256213476e-09,
+      "Ephysical_elastic_terminal": 0.0029354313753489816,
+      "Edevice_spring_terminal": 0.00040133598468157326,
+      "W_terminal": 223.76540220753165,
+      "Db_terminal": 218.5397183559117,
+      "Dd_terminal": 5.2223470843037845,
+      "max_abs_energy_balance_0_6T": 1.2353664757824845e-09,
+      "terminal_energy_balance": 1.2286776041037228e-09,
+      "max_abs_normalized_energy_balance": 5.520809551843936e-12,
+      "min_stored_energy_unclipped": 0.0,
+      "run_elapsed_seconds": 0.4828847000026144
+    },
+    {
+      "layout": "B",
+      "N_steps_per_T": 16384,
+      "dt": 0.003834951969714103,
+      "actual_steps": 98304,
+      "sampled_u1_abs_peak": 9.56622377009097,
+      "u1_peak_controllers_json": "[{\"t\": 62.82034821588672, \"signed_value\": -9.56622377009097}]",
+      "sampled_u2_abs_peak": 0.30815262454114284,
+      "u2_peak_controllers_json": "[{\"t\": 2.4428644047078834, \"signed_value\": 0.30815262454114284}]",
+      "sampled_device_force_abs_peak": 0.8872870524237011,
+      "force_peak_controllers_json": "[{\"t\": 4.98160260865862, \"signed_value\": -0.8872870524237011}]",
+      "E_at_T": 45.838329755879826,
+      "W_at_T": 223.76540220753165,
+      "Db_at_T": 172.72993276050266,
+      "Dd_at_T": 5.197139692158756,
+      "E_terminal_6T": 0.0033367685448422806,
+      "Ekin_terminal": 1.1848117256213476e-09,
+      "Ephysical_elastic_terminal": 0.0029354313753489816,
+      "Edevice_spring_terminal": 0.00040133598468157326,
+      "W_terminal": 223.76540220753165,
+      "Db_terminal": 218.5397183559117,
+      "Dd_terminal": 5.2223470843037845,
+      "max_abs_energy_balance_0_6T": 1.2353664757824845e-09,
+      "terminal_energy_balance": 1.2286776041037228e-09,
+      "max_abs_normalized_energy_balance": 5.520809551843936e-12,
+      "min_stored_energy_unclipped": 0.0,
+      "run_elapsed_seconds": 0.4822623000072781
+    }
+  ],
+  "symmetry_checks": [
+    {
+      "N": 8192,
+      "max_permuted_state_residual_by_component": {
+        "u1": 0.0,
+        "u2": 0.0,
+        "v1": 0.0,
+        "v2": 0.0,
+        "F": 0.0,
+        "W_input": 0.0,
+        "D_background": 0.0,
+        "D_device": 0.0
+      },
+      "max_energy_trajectory_difference": {
+        "kinetic": 0.0,
+        "physical_elastic": 3.469446951953614e-18,
+        "device_spring": 0.0,
+        "total": 1.734723475976807e-18
+      },
+      "max_inputwork_difference": 0.0,
+      "max_background_dissipation_difference": 0.0,
+      "max_device_dissipation_difference": 0.0,
+      "arithmetic_tolerance": 2.2376545762133187e-08
+    },
+    {
+      "N": 16384,
+      "max_permuted_state_residual_by_component": {
+        "u1": 0.0,
+        "u2": 0.0,
+        "v1": 0.0,
+        "v2": 0.0,
+        "F": 0.0,
+        "W_input": 0.0,
+        "D_background": 0.0,
+        "D_device": 0.0
+      },
+      "max_energy_trajectory_difference": {
+        "kinetic": 0.0,
+        "physical_elastic": 2.220446049250313e-16,
+        "device_spring": 0.0,
+        "total": 4.440892098500626e-16
+      },
+      "max_inputwork_difference": 0.0,
+      "max_background_dissipation_difference": 0.0,
+      "max_device_dissipation_difference": 0.0,
+      "arithmetic_tolerance": 2.2376545761660543e-08
+    }
+  ],
+  "step_convergence": [
+    {
+      "layout": "A",
+      "max_common_grid_difference_u1": 1.3402677023766074e-09,
+      "max_common_grid_difference_u2": 4.491531147010619e-09,
+      "max_common_grid_difference_v1": 3.5557165649346967e-09,
+      "max_common_grid_difference_v2": 4.503561079616247e-09,
+      "max_common_grid_difference_F": 9.187053853776384e-09,
+      "max_common_grid_difference_W_input": 4.7321577767434064e-09,
+      "max_common_grid_difference_D_background": 1.4911591961208615e-08,
+      "max_common_grid_difference_D_device": 7.85305953598936e-09,
+      "max_common_grid_total_energy_difference": 8.491817027334037e-09,
+      "fine_minus_coarse_u1_sampled_peak": 1.7776819869474991e-06,
+      "fine_minus_coarse_device_sampled_peak": 5.405664920132836e-07,
+      "fine_minus_coarse_terminal_E": 6.417661974761346e-12,
+      "fine_minus_coarse_terminal_W": -4.7174637529678876e-09,
+      "fine_minus_coarse_terminal_Db": -1.4892862054693978e-08,
+      "fine_minus_coarse_terminal_Dd": -7.842666072122029e-09
+    },
+    {
+      "layout": "B",
+      "max_common_grid_difference_u1": 4.491531147010619e-09,
+      "max_common_grid_difference_u2": 1.3402677023766074e-09,
+      "max_common_grid_difference_v1": 4.503561079616247e-09,
+      "max_common_grid_difference_v2": 3.5557165649346967e-09,
+      "max_common_grid_difference_F": 9.187053853776384e-09,
+      "max_common_grid_difference_W_input": 4.7321577767434064e-09,
+      "max_common_grid_difference_D_background": 1.4911591961208615e-08,
+      "max_common_grid_difference_D_device": 7.85305953598936e-09,
+      "max_common_grid_total_energy_difference": 8.491817027334037e-09,
+      "fine_minus_coarse_u1_sampled_peak": 5.362549895515656e-05,
+      "fine_minus_coarse_device_sampled_peak": 5.405664920132836e-07,
+      "fine_minus_coarse_terminal_E": 6.417661974761346e-12,
+      "fine_minus_coarse_terminal_W": -4.7174637529678876e-09,
+      "fine_minus_coarse_terminal_Db": -1.4892862054693978e-08,
+      "fine_minus_coarse_terminal_Dd": -7.842666072122029e-09
+    }
+  ],
+  "checks": {
+    "four_independent_actual_RK4_runs": true,
+    "root_parameters_unchanged_positive": true,
+    "bare_system_exact5percent_by_construction": true,
+    "all_states_finite_no_clipping": true,
+    "permutation_and_energy_trajectory_residuals_in_arithmetic_tolerance": true,
+    "root_and_own_protocol_SHA_unchanged": true,
+    "runtime_below360seconds": true
+  },
+  "not_fulltail_or_fullpeak_proof": true,
+  "no_full_time_state_array_files_written": true,
+  "nondimensional_synthetic_alpha_point3_not_actual_engineering": true,
+  "outputs": {
+    "four_actual_runs_r013.csv": "1bfe6601f5f31b5f60e5e7757bb36d908430a3bf26506cec575ada0b9c78e2e8",
+    "step_convergence_r013.csv": "8ac2ba63a1a08035fa2e6e5d93d0a4e183f46d72a3e9de25df1b4022b74da03f",
+    "report.md": "555483c49a17b206f9a917e1d81e8f00686b54c66e2ccbc7e4fc288ca8ff2edf"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "evidence_id": "M-EXP-R013",
+  "status": "nondimensional_synthetic_candidate",
+  "frozen_utc": "2026-10-17T16:51:41.555889+00:00",
+  "root_protocol": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+    "bytes": 2341,
+    "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+  },
+  "style_reference_old_R012": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\verify_layout_symmetry.py",
+    "sha256": "e8effb66a928ef4b72ac4a89ec9907d736e14ea43b6bdf438442c941c95c87df"
+  },
+  "alpha": "3/10",
+  "q": "10/3",
+  "rhs": "Fdot=kappa*(Bv-sign(F)*(abs(F)/c)^q); Dd_dot=abs(F)*(abs(F)/c)^q; Espring=F^2/(2kappa). No F^2/c nonlinear dissipative substitution.",
+  "parameters": "Other nondimensional M/K/C/epsilon/r/kappa/c/input/zero initial conditions exactly root; numericc acrossalphas is not same dimensionaldamper. Only compare currentalpha.3 A/B.",
+  "algorithm": "Four actual standardRK4 runs: A/e1 andB/e2, each dt=T/8192 andT/16384, to6T; inputcutoffN exactly; own run perlayout, no swapped-result generation. W/Db/Dd integratedas augmentedstates.",
+  "comparison": "Sampled signed absolute localu1/u2/deviceF peaks andtimes. Fullmatching-grid statepermutation residuals, eachkinetic/physicalelastic/deviceelastic/totalenergy andW/Db/Dd history differences. Common-grid fine-vscoarse errors for8states/energy, sampledpeak changes separately.",
+  "energy": "Report E(T),complete terminal kinetic/physicalelastic/deviceelastic storage, terminalW/Db/Dd, fulltime max|E-W+Db+Dd|; nevercliporzero terminalenergy. Normalize diagnostic bymax(1,maxabsW,maxE) only.",
+  "failure": "Overflow/nonfinite failure recorded andstop, no clipping, parameter/window change, or thirdstep. Preserve completed summaries andfailure context.",
+  "tolerance": "Permutation arithmetic tolerance1e-10*max(1,maxabscomparedstates); no posthoc engineeringacceptance or rigorousODE error claim.",
+  "limits": "All nondimensionalalpha.3 synthetic, not actualc477/k500000 or realETABS; no linearHD/1.7/8.8 transfer. Finite6T grid andfloatingE are not fulltail/fullpeak proofs or certifiedenergyupperbounds.",
+  "outputs": "Newcode/protocol/fourrun smallCSV/convergenceCSV/JSON/report only; nofullarrays/newplot/dependency/Excel/ETABS/Git.",
+  "runtime_limit_seconds": 360
+}
