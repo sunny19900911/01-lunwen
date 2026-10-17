@@ -1,0 +1,64 @@
+{
+  "validated_at": "2026-10-17T22:48:49.282804+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v003.md",
+    "sha256": "b38d81a6f8b3caf469fe30c6fb8f05bace2f78b15cd0a553178ca2e5788b96b6",
+    "bytes": 19566
+  },
+  "passed": true,
+  "checks": {
+    "v001_v002_12files_2manifests_unchanged": true,
+    "inherited_source_hashes_match": true,
+    "prior_four_tables_identical": true,
+    "table_columns_consistent": true,
+    "formula_tags_1_6": true,
+    "references_1_5_complete": true,
+    "two_repo_relative_images": true,
+    "two_images_tracked": true,
+    "no_machine_absolute_path": true,
+    "existing_local_links": true,
+    "master_accepted_R007_SHA": true,
+    "four_records_11294_points": true,
+    "all_fixed_parameters_match_training": true,
+    "protocol_fixed_parameters_match": true,
+    "table4_24_numeric_cells_match": true,
+    "independent_metrics_match_frozen_CSV": true,
+    "four_percentages_match_master": true,
+    "negative_K5_bias_retained": true,
+    "native_force_not_forward_or_independent_event": true,
+    "no_refit_or_bias_correction": true,
+    "unaccepted_candidates_excluded": true,
+    "no_long_SHA_in_manuscript": true,
+    "UTF8_LF_no_BOM_or_trailing_whitespace": true,
+    "git_diff_whitespace_check_clean": true
+  },
+  "figure_paths": [
+    {
+      "link": "../../../research/sessions/20261017-2109/figures/02_device_coverage_by_story.png",
+      "repo_relative": "research/sessions/20261017-2109/figures/02_device_coverage_by_story.png",
+      "tracked": true,
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\02_device_coverage_by_story.png",
+        "sha256": "5f27fc3780b0efdebfa595f2a1d11ca068f5ecf4df07f2bed7f885f2e2e3a0fa",
+        "bytes": 104087
+      }
+    },
+    {
+      "link": "../../../research/sessions/20261017-2109/figures/01_native_energy_ratio.png",
+      "repo_relative": "research/sessions/20261017-2109/figures/01_native_energy_ratio.png",
+      "tracked": true,
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\01_native_energy_ratio.png",
+        "sha256": "fac821fca950ab796ff634053e768dd3020741ff63c117c884dad0ac4d8010d3",
+        "bytes": 87288
+      }
+    }
+  ],
+  "git_diff_check": {
+    "exit": 1,
+    "stdout": "",
+    "stderr": "",
+    "note": "Relative repository paths honor .gitattributes;--no-index implies content difference exit1. No whitespace diagnostics."
+  },
+  "limits": "Author static/transcription QA, not new independent scientific review. GitHub relationship verified against tracked repository tree, no remote preview."
+}

@@ -1,0 +1,14 @@
+{
+  "validated_at": "2026-10-17T23:00:39.243365+08:00",
+  "checks": {
+    "specified_two_source_hashes_match_both_runs": true,
+    "matplotlib_absent_both_environments": true,
+    "plotly_absent_both_environments": true,
+    "kaleido_absent_both_environments": true,
+    "script_AST_valid": true,
+    "existing_output_rejected_without_change": true,
+    "no_PNG_SVG_misrepresented": true
+  },
+  "passed": true,
+  "validation_scope": "Dependency/source-identity/isolated-output audit only, not figure or numerical normalization validation."
+}

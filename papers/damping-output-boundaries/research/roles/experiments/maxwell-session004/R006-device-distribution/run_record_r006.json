@@ -1,0 +1,27 @@
+{
+  "command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\summarize_device_distribution.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 57.49858729999687,
+  "finished_utc": "2026-10-17T14:50:17.390600+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "code_sha256": "d6ad04300f5ec79f17c54315e082d43deef0dd7c6ccb996179299130341b0153",
+  "summary_sha256": "853d92aa94e563c46c93e7f6b531dfc2a2bbfe73ccfdca2814b151f78a682da7",
+  "checks": {
+    "192_prespecified_groups": true,
+    "32_common_complete_devices": true,
+    "all_three_streams_and_units_verified": true,
+    "P_I_J_equal_counted_once": true,
+    "all_six_frozen_CSVs_exactly_reproduced": true,
+    "all_discrete_identity_checks_pass": true,
+    "no_negative_increment_clipping": true,
+    "source_SHA_and_stat_stable": true,
+    "frozen_refs_and_protocol_unchanged": true,
+    "runtime_below_480_seconds": true
+  }
+}

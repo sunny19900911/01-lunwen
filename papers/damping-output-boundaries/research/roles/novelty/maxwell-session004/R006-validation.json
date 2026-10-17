@@ -1,0 +1,33 @@
+{
+  "started_at": "2026-10-17T22:55:27+08:00",
+  "completed_at": "2026-10-17T23:03:13+08:00",
+  "time_limit_minutes": 8,
+  "search_query_limit": 2,
+  "search_query_count": 0,
+  "queries": [],
+  "old_frozen_files_checked": 17,
+  "old_changed": [],
+  "input_report_sha256": "dcc918095f28780f3810cdce51a984d638677379f7e43dad2369f4e284211b38",
+  "input_status": "candidate; not independently numerically verified",
+  "local_links_checked": 2,
+  "broken_links": [],
+  "trailing_whitespace": [],
+  "engineering_arrays_read": false,
+  "source_excel_read": false,
+  "protocol_read": "metadata only; tool output truncated; not full verification",
+  "numerical_work": "none; no ranking, stiffness scan, fit or structural reanalysis executed",
+  "primary_sources": "Conde2021 and Londono2014 reused local primary fulltext text layers; Hu2019 publisher PDF section4.3 reread; no new pixel validation claimed",
+  "contribution": "traceable engineering screening diagnostic; fixed-observation stiffness sensitivity is conditional energy accounting, not physical stiffness counterfactual; specific ranking novelty unresolved",
+  "files": [
+    {
+      "file": "R006.md",
+      "bytes": 10017,
+      "sha256": "99e12b4d3d216ee3a13aa56daab9732b18a01e3f341fa66fd7215ce629c263e7"
+    },
+    {
+      "file": "R006-Conde-Londono-scope.md",
+      "bytes": 9649,
+      "sha256": "499f892a32732c6696a81c52b851cbf3a8c69359397998768b6a89c73af2c9cf"
+    }
+  ]
+}

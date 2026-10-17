@@ -1,0 +1,46 @@
+{
+  "validated_at": "2026-10-17T22:31:55.920842+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v002.md",
+    "sha256": "64f69a385155f0004113cd8e96e12ebbe0b86e07bb88ce56da7d6873324bbef5",
+    "bytes": 17417
+  },
+  "checks": {
+    "six_v001_frozen_files_unchanged": true,
+    "v001_freeze_manifest_unchanged": true,
+    "prior_map_theory_v007_matches": true,
+    "all_existing_local_links_resolve": true,
+    "six_ordered_formula_tags": true,
+    "references_1_to_5_used_and_defined": true,
+    "no_long_SHA_in_main_text": true,
+    "two_accepted_png_figures": true,
+    "accepted_PNG_hashes_match": true,
+    "accepted_SVG_hashes_match": true,
+    "table1_36_numeric_cells_match_reviewed_csv": true,
+    "coverage_528_193_32_recomputed": true,
+    "fit_parameters_rounded_match": true,
+    "table3_eight_error_scale_values_match": true,
+    "relative_RMSE_percent_match": true,
+    "same_RH4X_transfer_scope_stated": true,
+    "Hu_surrogate_prior_acknowledged": true,
+    "no_cross_case_candidate_results": true,
+    "UTF8_no_BOM_LF": true,
+    "no_trailing_whitespace": true,
+    "markdown_table_column_consistency": true
+  },
+  "details": {
+    "theory_v007_prior_map_comparison": [],
+    "local_links": [
+      {
+        "target": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\02_device_coverage_by_story.png",
+        "exists": true
+      },
+      {
+        "target": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\01_native_energy_ratio.png",
+        "exists": true
+      }
+    ]
+  },
+  "passed": true,
+  "limits": "Author integration/static transcription QA only, not independent scientific review; no Excel extraction or ETABS execution"
+}

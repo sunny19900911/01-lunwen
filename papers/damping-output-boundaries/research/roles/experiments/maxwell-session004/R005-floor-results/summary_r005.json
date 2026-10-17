@@ -1,0 +1,149 @@
+{
+  "evidence_id": "M-EXP-R005",
+  "review_status": "candidate",
+  "finished_utc": "2026-10-17T14:42:06.925526+00:00",
+  "elapsed_seconds": 0.23341549999895506,
+  "protocol_sha256": "c22487c9550eb6c3b06c9daef89737eda405ace2cf6c0688757e92bbec23e73c",
+  "code_sha256": "7c97635c26f75c7dc0d6e0be2c1d38ac03bd4eb12167557514379bf8179ff324",
+  "source_refs": {
+    "Story Forces": {
+      "file": "Story_Forces.npz",
+      "sha256": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d"
+    },
+    "Diaphragm CM Displacements": {
+      "file": "Diaphragm_CM_Displacements.npz",
+      "sha256": "586f68d2b6b802979d42e3e83bf6f51d8af0144dde1f499e63929fe47f9dd17a"
+    },
+    "Story Drifts": {
+      "file": "Story_Drifts.npz",
+      "sha256": "df2c83a862f083f3301ee4467b9184ab62ce0cf1e47e90ce55da77454aa73d73"
+    }
+  },
+  "coverage_manifest": {
+    "file": "manifest.json",
+    "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+  },
+  "row_counts": {
+    "floor_record_peaks_r005.csv": 72,
+    "diaphragm_record_peaks_r005.csv": 108,
+    "mapped_group_coverage_r005.csv": 252,
+    "top3_floor_ranks_r005.csv": 54,
+    "main_metric_comparison_r005.csv": 6
+  },
+  "comparisons": [
+    {
+      "Case": "RH4X",
+      "main_comparison_eligible": true,
+      "shear_top3_including_ties_json": "[\"Story1\",\"Story2\",\"Story3\"]",
+      "cm_top3_including_ties_json": "[\"Story12\",\"Story11\",\"Story10\"]",
+      "intersection_json": "[]",
+      "intersection_n": 0,
+      "shear_max_floor_set_json": "[\"Story1\"]",
+      "cm_max_floor_set_json": "[\"Story12\"]",
+      "max_floor_absolute_index_gaps_json": "[11]",
+      "drift_top3_separate_sparse_json": "[\"Story5\",\"Story6\",\"Story4\"]"
+    },
+    {
+      "Case": "RH4Y",
+      "main_comparison_eligible": true,
+      "shear_top3_including_ties_json": "[\"Story1\",\"Story2\",\"Story3\"]",
+      "cm_top3_including_ties_json": "[\"Story12\",\"Story11\",\"Story10\"]",
+      "intersection_json": "[]",
+      "intersection_n": 0,
+      "shear_max_floor_set_json": "[\"Story1\"]",
+      "cm_max_floor_set_json": "[\"Story12\"]",
+      "max_floor_absolute_index_gaps_json": "[11]",
+      "drift_top3_separate_sparse_json": "[\"Story4\",\"Story5\",\"Story6\"]"
+    },
+    {
+      "Case": "SHW4X",
+      "main_comparison_eligible": true,
+      "shear_top3_including_ties_json": "[\"Story1\",\"Story2\",\"Story3\"]",
+      "cm_top3_including_ties_json": "[\"Story12\",\"Story11\",\"Story10\"]",
+      "intersection_json": "[]",
+      "intersection_n": 0,
+      "shear_max_floor_set_json": "[\"Story1\"]",
+      "cm_max_floor_set_json": "[\"Story12\"]",
+      "max_floor_absolute_index_gaps_json": "[11]",
+      "drift_top3_separate_sparse_json": "[\"Story5\",\"Story4\",\"Story6\"]"
+    },
+    {
+      "Case": "SHW4Y",
+      "main_comparison_eligible": true,
+      "shear_top3_including_ties_json": "[\"Story1\",\"Story2\",\"Story3\"]",
+      "cm_top3_including_ties_json": "[\"Story12\",\"Story11\",\"Story10\"]",
+      "intersection_json": "[]",
+      "intersection_n": 0,
+      "shear_max_floor_set_json": "[\"Story1\"]",
+      "cm_max_floor_set_json": "[\"Story12\"]",
+      "max_floor_absolute_index_gaps_json": "[11]",
+      "drift_top3_separate_sparse_json": "[\"Story5\",\"Story4\",\"Story6\"]"
+    },
+    {
+      "Case": "SHW7X",
+      "main_comparison_eligible": true,
+      "shear_top3_including_ties_json": "[\"Story1\",\"Story2\",\"Story3\"]",
+      "cm_top3_including_ties_json": "[\"Story12\",\"Story11\",\"Story10\"]",
+      "intersection_json": "[]",
+      "intersection_n": 0,
+      "shear_max_floor_set_json": "[\"Story1\"]",
+      "cm_max_floor_set_json": "[\"Story12\"]",
+      "max_floor_absolute_index_gaps_json": "[11]",
+      "drift_top3_separate_sparse_json": "[\"Story7\",\"Story5\",\"Story6\"]"
+    },
+    {
+      "Case": "SHW7Y",
+      "main_comparison_eligible": true,
+      "shear_top3_including_ties_json": "[\"Story1\",\"Story2\",\"Story3\"]",
+      "cm_top3_including_ties_json": "[\"Story12\",\"Story11\",\"Story10\"]",
+      "intersection_json": "[]",
+      "intersection_n": 0,
+      "shear_max_floor_set_json": "[\"Story1\"]",
+      "cm_max_floor_set_json": "[\"Story12\"]",
+      "max_floor_absolute_index_gaps_json": "[11]",
+      "drift_top3_separate_sparse_json": "[\"Story7\",\"Story8\",\"Story6\"]"
+    }
+  ],
+  "checks": {
+    "72_floor_rows": true,
+    "108_separate_CM_groups": true,
+    "72_bottom_shear_groups": true,
+    "72_mapped_drift_groups": true,
+    "all_selected_values_finite": true,
+    "all_shear_and_CM_complete": true,
+    "all_source_hashes_unchanged": true,
+    "protocol_unchanged": true,
+    "runtime_below_480s": true
+  },
+  "drift_missing_grid_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    18,
+    21
+  ],
+  "drift_complete_groups": 0,
+  "drift_metadata_not_preserved": [
+    "Label",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "output_sha256": {
+    "floor_record_peaks_r005.csv": "de4c9be0f190c4fdfac261e59c8f46bd312dd0b122e3d4253d07941c0ce4b9ad",
+    "diaphragm_record_peaks_r005.csv": "e6a27851b56215accbbb607419095475bf1c00296dd4ce18b04e9164ff8db2df",
+    "mapped_group_coverage_r005.csv": "d32d02c6c85aae63217f9caa64e8d469e6f32ab279377b4bb824148ce7c90a20",
+    "top3_floor_ranks_r005.csv": "7ebec3ea66e73830b16e595639736c800aaaecee4f2bbe267e1c9aa3ae64873a",
+    "main_metric_comparison_r005.csv": "2b884ded98367a6c7882b756a0e79554c29b66c2b4b2e1b0c747ac31161997f6"
+  }
+}

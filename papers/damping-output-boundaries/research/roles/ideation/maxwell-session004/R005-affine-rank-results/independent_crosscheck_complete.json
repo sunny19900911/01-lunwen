@@ -1,0 +1,1423 @@
+{
+  "passed": true,
+  "method": "strict cross-boundary affine inequalities, independent of root-cell merging",
+  "full_W_vs_hat_order_same_count": 24,
+  "groups": [
+    {
+      "Case": "RH4X",
+      "Story": "Story10",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K75"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K81"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K13"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K75"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K81"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K13"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story11",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K74"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K80"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K5"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K74"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K80"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K5"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story8",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K92"
+        ],
+        [
+          "K103"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K83"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K92"
+        ],
+        [
+          "K103"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K83"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story9",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K91"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K8"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K82"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K20"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K91"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K8"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K82"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K20"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story10",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K81"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K75"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K101"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K81"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K75"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K101"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story11",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K80"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K74"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K80"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K74"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story8",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K103"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K103"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story9",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K82"
+        ],
+        [
+          "K20"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K8"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K82"
+        ],
+        [
+          "K20"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K8"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story10",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K75"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K81"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K13"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K75"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K81"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K13"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story11",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K74"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K80"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K74"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K80"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story8",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K103"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K83"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K27"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K103"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K83"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K27"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story9",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K8"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K82"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K20"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K8"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K82"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K20"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW4Y",
+      "Story": "Story10",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K81"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K75"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K4"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K81"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K75"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K4"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW4Y",
+      "Story": "Story11",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K80"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K74"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K80"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K74"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW4Y",
+      "Story": "Story8",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K103"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K103"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW4Y",
+      "Story": "Story9",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K82"
+        ],
+        [
+          "K20"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K8"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K82"
+        ],
+        [
+          "K20"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K8"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW7X",
+      "Story": "Story10",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K75"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K81"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K15"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K75"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K81"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K15"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW7X",
+      "Story": "Story11",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K74"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K80"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K74"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K80"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW7X",
+      "Story": "Story8",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K103"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K103"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW7X",
+      "Story": "Story9",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K91"
+        ],
+        [
+          "K8"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K82"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K20"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K91"
+        ],
+        [
+          "K8"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K82"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K20"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story10",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K81"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K75"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K68"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K81"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K75"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K68"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story11",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K80"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K74"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K80"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K74"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story8",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K103"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K103"
+        ]
+      ],
+      "full_order_same": true
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story9",
+      "matched_exact_bounds": true,
+      "strict_constraints": 24,
+      "W_full_weak_order": [
+        [
+          "K82"
+        ],
+        [
+          "K20"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K8"
+        ]
+      ],
+      "hat_full_weak_order": [
+        [
+          "K82"
+        ],
+        [
+          "K20"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K8"
+        ]
+      ],
+      "full_order_same": true
+    }
+  ]
+}

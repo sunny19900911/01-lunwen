@@ -1,0 +1,1824 @@
+{
+  "evidence_id": "M-EXP-R006",
+  "review_status": "candidate",
+  "frozen_utc": "2026-10-17T14:47:46.444523+00:00",
+  "inventory": "No full P/U1 cache found in current Maxwell role outputs or W5 Maxwell core-cache. Core contains seven global/story tables only; reusable Link inputs cover six K2/K5 records, not 192.",
+  "source": "E:/!!!!!!!!TO HOME/有控.xlsx",
+  "source_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "source_bytes": 635525054,
+  "coverage_ref": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\link_case_coverage_r001.csv",
+    "sha256": "b2e41e8c4ee8f6654efe98b582a1e7c39f3f89f0a4a66a4c7277621008ba6fe8"
+  },
+  "training_ref": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\fit_summary_r002.json",
+    "sha256": "3186dae098c025673eb565390f4273760b5765c1095f6948ab3c051caf3e3f02"
+  },
+  "fixed_parameters": {
+    "alpha": 0.3,
+    "a_m_per_kN": 2.0006042528243313e-06,
+    "b": 1.1798190016520894e-09
+  },
+  "cases": [
+    "RH4X",
+    "RH4Y",
+    "SHW4X",
+    "SHW4Y",
+    "SHW7X",
+    "SHW7Y"
+  ],
+  "stories": [
+    "Story8",
+    "Story9",
+    "Story10",
+    "Story11"
+  ],
+  "targets": [
+    {
+      "Link": "K2",
+      "Story": "Story11",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[4, 5004]",
+      "P_J_source_rows": "[5, 5005]",
+      "U_source_rows": "[4, 2504]"
+    },
+    {
+      "Link": "K2",
+      "Story": "Story11",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[5006, 10006]",
+      "P_J_source_rows": "[5007, 10007]",
+      "U_source_rows": "[2505, 5005]"
+    },
+    {
+      "Link": "K2",
+      "Story": "Story11",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[10008, 15908]",
+      "P_J_source_rows": "[10009, 15909]",
+      "U_source_rows": "[5006, 7956]"
+    },
+    {
+      "Link": "K2",
+      "Story": "Story11",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[15910, 21810]",
+      "P_J_source_rows": "[15911, 21811]",
+      "U_source_rows": "[7957, 10907]"
+    },
+    {
+      "Link": "K2",
+      "Story": "Story11",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[21812, 27202]",
+      "P_J_source_rows": "[21813, 27203]",
+      "U_source_rows": "[10908, 13603]"
+    },
+    {
+      "Link": "K2",
+      "Story": "Story11",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[27204, 32594]",
+      "P_J_source_rows": "[27205, 32595]",
+      "U_source_rows": "[13604, 16299]"
+    },
+    {
+      "Link": "K4",
+      "Story": "Story10",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[260740, 265740]",
+      "P_J_source_rows": "[260741, 265741]",
+      "U_source_rows": "[130372, 132872]"
+    },
+    {
+      "Link": "K4",
+      "Story": "Story10",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[265742, 270742]",
+      "P_J_source_rows": "[265743, 270743]",
+      "U_source_rows": "[132873, 135373]"
+    },
+    {
+      "Link": "K4",
+      "Story": "Story10",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[270744, 276644]",
+      "P_J_source_rows": "[270745, 276645]",
+      "U_source_rows": "[135374, 138324]"
+    },
+    {
+      "Link": "K4",
+      "Story": "Story10",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[276646, 282546]",
+      "P_J_source_rows": "[276647, 282547]",
+      "U_source_rows": "[138325, 141275]"
+    },
+    {
+      "Link": "K4",
+      "Story": "Story10",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[282548, 287938]",
+      "P_J_source_rows": "[282549, 287939]",
+      "U_source_rows": "[141276, 143971]"
+    },
+    {
+      "Link": "K4",
+      "Story": "Story10",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[287940, 293330]",
+      "P_J_source_rows": "[287941, 293331]",
+      "U_source_rows": "[143972, 146667]"
+    },
+    {
+      "Link": "K5",
+      "Story": "Story11",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[32596, 37596]",
+      "P_J_source_rows": "[32597, 37597]",
+      "U_source_rows": "[16300, 18800]"
+    },
+    {
+      "Link": "K5",
+      "Story": "Story11",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[37598, 42598]",
+      "P_J_source_rows": "[37599, 42599]",
+      "U_source_rows": "[18801, 21301]"
+    },
+    {
+      "Link": "K5",
+      "Story": "Story11",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[42600, 48500]",
+      "P_J_source_rows": "[42601, 48501]",
+      "U_source_rows": "[21302, 24252]"
+    },
+    {
+      "Link": "K5",
+      "Story": "Story11",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[48502, 54402]",
+      "P_J_source_rows": "[48503, 54403]",
+      "U_source_rows": "[24253, 27203]"
+    },
+    {
+      "Link": "K5",
+      "Story": "Story11",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[54404, 59794]",
+      "P_J_source_rows": "[54405, 59795]",
+      "U_source_rows": "[27204, 29899]"
+    },
+    {
+      "Link": "K5",
+      "Story": "Story11",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[59796, 65186]",
+      "P_J_source_rows": "[59797, 65187]",
+      "U_source_rows": "[29900, 32595]"
+    },
+    {
+      "Link": "K6",
+      "Story": "Story11",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[65188, 70188]",
+      "P_J_source_rows": "[65189, 70189]",
+      "U_source_rows": "[32596, 35096]"
+    },
+    {
+      "Link": "K6",
+      "Story": "Story11",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[70190, 75190]",
+      "P_J_source_rows": "[70191, 75191]",
+      "U_source_rows": "[35097, 37597]"
+    },
+    {
+      "Link": "K6",
+      "Story": "Story11",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[75192, 81092]",
+      "P_J_source_rows": "[75193, 81093]",
+      "U_source_rows": "[37598, 40548]"
+    },
+    {
+      "Link": "K6",
+      "Story": "Story11",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[81094, 86994]",
+      "P_J_source_rows": "[81095, 86995]",
+      "U_source_rows": "[40549, 43499]"
+    },
+    {
+      "Link": "K6",
+      "Story": "Story11",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[86996, 92386]",
+      "P_J_source_rows": "[86997, 92387]",
+      "U_source_rows": "[43500, 46195]"
+    },
+    {
+      "Link": "K6",
+      "Story": "Story11",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[92388, 97778]",
+      "P_J_source_rows": "[92389, 97779]",
+      "U_source_rows": "[46196, 48891]"
+    },
+    {
+      "Link": "K7",
+      "Story": "Story11",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[97780, 102780]",
+      "P_J_source_rows": "[97781, 102781]",
+      "U_source_rows": "[48892, 51392]"
+    },
+    {
+      "Link": "K7",
+      "Story": "Story11",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[102782, 107782]",
+      "P_J_source_rows": "[102783, 107783]",
+      "U_source_rows": "[51393, 53893]"
+    },
+    {
+      "Link": "K7",
+      "Story": "Story11",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[107784, 113684]",
+      "P_J_source_rows": "[107785, 113685]",
+      "U_source_rows": "[53894, 56844]"
+    },
+    {
+      "Link": "K7",
+      "Story": "Story11",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[113686, 119586]",
+      "P_J_source_rows": "[113687, 119587]",
+      "U_source_rows": "[56845, 59795]"
+    },
+    {
+      "Link": "K7",
+      "Story": "Story11",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[119588, 124978]",
+      "P_J_source_rows": "[119589, 124979]",
+      "U_source_rows": "[59796, 62491]"
+    },
+    {
+      "Link": "K7",
+      "Story": "Story11",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[124980, 130370]",
+      "P_J_source_rows": "[124981, 130371]",
+      "U_source_rows": "[62492, 65187]"
+    },
+    {
+      "Link": "K8",
+      "Story": "Story9",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[521476, 526476]",
+      "P_J_source_rows": "[521477, 526477]",
+      "U_source_rows": "[260740, 263240]"
+    },
+    {
+      "Link": "K8",
+      "Story": "Story9",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[526478, 531478]",
+      "P_J_source_rows": "[526479, 531479]",
+      "U_source_rows": "[263241, 265741]"
+    },
+    {
+      "Link": "K8",
+      "Story": "Story9",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[531480, 537380]",
+      "P_J_source_rows": "[531481, 537381]",
+      "U_source_rows": "[265742, 268692]"
+    },
+    {
+      "Link": "K8",
+      "Story": "Story9",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[537382, 543282]",
+      "P_J_source_rows": "[537383, 543283]",
+      "U_source_rows": "[268693, 271643]"
+    },
+    {
+      "Link": "K8",
+      "Story": "Story9",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[543284, 548674]",
+      "P_J_source_rows": "[543285, 548675]",
+      "U_source_rows": "[271644, 274339]"
+    },
+    {
+      "Link": "K8",
+      "Story": "Story9",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[548676, 554066]",
+      "P_J_source_rows": "[548677, 554067]",
+      "U_source_rows": "[274340, 277035]"
+    },
+    {
+      "Link": "K10",
+      "Story": "Story8",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[782212, 787212]",
+      "P_J_source_rows": "[782213, 787213]",
+      "U_source_rows": "[391108, 393608]"
+    },
+    {
+      "Link": "K10",
+      "Story": "Story8",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[787214, 792214]",
+      "P_J_source_rows": "[787215, 792215]",
+      "U_source_rows": "[393609, 396109]"
+    },
+    {
+      "Link": "K10",
+      "Story": "Story8",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[792216, 798116]",
+      "P_J_source_rows": "[792217, 798117]",
+      "U_source_rows": "[396110, 399060]"
+    },
+    {
+      "Link": "K10",
+      "Story": "Story8",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[798118, 804018]",
+      "P_J_source_rows": "[798119, 804019]",
+      "U_source_rows": "[399061, 402011]"
+    },
+    {
+      "Link": "K10",
+      "Story": "Story8",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[804020, 809410]",
+      "P_J_source_rows": "[804021, 809411]",
+      "U_source_rows": "[402012, 404707]"
+    },
+    {
+      "Link": "K10",
+      "Story": "Story8",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[809412, 814802]",
+      "P_J_source_rows": "[809413, 814803]",
+      "U_source_rows": "[404708, 407403]"
+    },
+    {
+      "Link": "K13",
+      "Story": "Story10",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[293332, 298332]",
+      "P_J_source_rows": "[293333, 298333]",
+      "U_source_rows": "[146668, 149168]"
+    },
+    {
+      "Link": "K13",
+      "Story": "Story10",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[298334, 303334]",
+      "P_J_source_rows": "[298335, 303335]",
+      "U_source_rows": "[149169, 151669]"
+    },
+    {
+      "Link": "K13",
+      "Story": "Story10",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[303336, 309236]",
+      "P_J_source_rows": "[303337, 309237]",
+      "U_source_rows": "[151670, 154620]"
+    },
+    {
+      "Link": "K13",
+      "Story": "Story10",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[309238, 315138]",
+      "P_J_source_rows": "[309239, 315139]",
+      "U_source_rows": "[154621, 157571]"
+    },
+    {
+      "Link": "K13",
+      "Story": "Story10",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[315140, 320530]",
+      "P_J_source_rows": "[315141, 320531]",
+      "U_source_rows": "[157572, 160267]"
+    },
+    {
+      "Link": "K13",
+      "Story": "Story10",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[320532, 325922]",
+      "P_J_source_rows": "[320533, 325923]",
+      "U_source_rows": "[160268, 162963]"
+    },
+    {
+      "Link": "K14",
+      "Story": "Story10",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[325924, 330924]",
+      "P_J_source_rows": "[325925, 330925]",
+      "U_source_rows": "[162964, 165464]"
+    },
+    {
+      "Link": "K14",
+      "Story": "Story10",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[330926, 335926]",
+      "P_J_source_rows": "[330927, 335927]",
+      "U_source_rows": "[165465, 167965]"
+    },
+    {
+      "Link": "K14",
+      "Story": "Story10",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[335928, 341828]",
+      "P_J_source_rows": "[335929, 341829]",
+      "U_source_rows": "[167966, 170916]"
+    },
+    {
+      "Link": "K14",
+      "Story": "Story10",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[341830, 347730]",
+      "P_J_source_rows": "[341831, 347731]",
+      "U_source_rows": "[170917, 173867]"
+    },
+    {
+      "Link": "K14",
+      "Story": "Story10",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[347732, 353122]",
+      "P_J_source_rows": "[347733, 353123]",
+      "U_source_rows": "[173868, 176563]"
+    },
+    {
+      "Link": "K14",
+      "Story": "Story10",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[353124, 358514]",
+      "P_J_source_rows": "[353125, 358515]",
+      "U_source_rows": "[176564, 179259]"
+    },
+    {
+      "Link": "K15",
+      "Story": "Story10",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[358516, 363516]",
+      "P_J_source_rows": "[358517, 363517]",
+      "U_source_rows": "[179260, 181760]"
+    },
+    {
+      "Link": "K15",
+      "Story": "Story10",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[363518, 368518]",
+      "P_J_source_rows": "[363519, 368519]",
+      "U_source_rows": "[181761, 184261]"
+    },
+    {
+      "Link": "K15",
+      "Story": "Story10",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[368520, 374420]",
+      "P_J_source_rows": "[368521, 374421]",
+      "U_source_rows": "[184262, 187212]"
+    },
+    {
+      "Link": "K15",
+      "Story": "Story10",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[374422, 380322]",
+      "P_J_source_rows": "[374423, 380323]",
+      "U_source_rows": "[187213, 190163]"
+    },
+    {
+      "Link": "K15",
+      "Story": "Story10",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[380324, 385714]",
+      "P_J_source_rows": "[380325, 385715]",
+      "U_source_rows": "[190164, 192859]"
+    },
+    {
+      "Link": "K15",
+      "Story": "Story10",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[385716, 391106]",
+      "P_J_source_rows": "[385717, 391107]",
+      "U_source_rows": "[192860, 195555]"
+    },
+    {
+      "Link": "K20",
+      "Story": "Story9",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[554068, 559068]",
+      "P_J_source_rows": "[554069, 559069]",
+      "U_source_rows": "[277036, 279536]"
+    },
+    {
+      "Link": "K20",
+      "Story": "Story9",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[559070, 564070]",
+      "P_J_source_rows": "[559071, 564071]",
+      "U_source_rows": "[279537, 282037]"
+    },
+    {
+      "Link": "K20",
+      "Story": "Story9",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[564072, 569972]",
+      "P_J_source_rows": "[564073, 569973]",
+      "U_source_rows": "[282038, 284988]"
+    },
+    {
+      "Link": "K20",
+      "Story": "Story9",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[569974, 575874]",
+      "P_J_source_rows": "[569975, 575875]",
+      "U_source_rows": "[284989, 287939]"
+    },
+    {
+      "Link": "K20",
+      "Story": "Story9",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[575876, 581266]",
+      "P_J_source_rows": "[575877, 581267]",
+      "U_source_rows": "[287940, 290635]"
+    },
+    {
+      "Link": "K20",
+      "Story": "Story9",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[581268, 586658]",
+      "P_J_source_rows": "[581269, 586659]",
+      "U_source_rows": "[290636, 293331]"
+    },
+    {
+      "Link": "K21",
+      "Story": "Story9",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[586660, 591660]",
+      "P_J_source_rows": "[586661, 591661]",
+      "U_source_rows": "[293332, 295832]"
+    },
+    {
+      "Link": "K21",
+      "Story": "Story9",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[591662, 596662]",
+      "P_J_source_rows": "[591663, 596663]",
+      "U_source_rows": "[295833, 298333]"
+    },
+    {
+      "Link": "K21",
+      "Story": "Story9",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[596664, 602564]",
+      "P_J_source_rows": "[596665, 602565]",
+      "U_source_rows": "[298334, 301284]"
+    },
+    {
+      "Link": "K21",
+      "Story": "Story9",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[602566, 608466]",
+      "P_J_source_rows": "[602567, 608467]",
+      "U_source_rows": "[301285, 304235]"
+    },
+    {
+      "Link": "K21",
+      "Story": "Story9",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[608468, 613858]",
+      "P_J_source_rows": "[608469, 613859]",
+      "U_source_rows": "[304236, 306931]"
+    },
+    {
+      "Link": "K21",
+      "Story": "Story9",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[613860, 619250]",
+      "P_J_source_rows": "[613861, 619251]",
+      "U_source_rows": "[306932, 309627]"
+    },
+    {
+      "Link": "K22",
+      "Story": "Story9",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[619252, 624252]",
+      "P_J_source_rows": "[619253, 624253]",
+      "U_source_rows": "[309628, 312128]"
+    },
+    {
+      "Link": "K22",
+      "Story": "Story9",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[624254, 629254]",
+      "P_J_source_rows": "[624255, 629255]",
+      "U_source_rows": "[312129, 314629]"
+    },
+    {
+      "Link": "K22",
+      "Story": "Story9",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[629256, 635156]",
+      "P_J_source_rows": "[629257, 635157]",
+      "U_source_rows": "[314630, 317580]"
+    },
+    {
+      "Link": "K22",
+      "Story": "Story9",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[635158, 641058]",
+      "P_J_source_rows": "[635159, 641059]",
+      "U_source_rows": "[317581, 320531]"
+    },
+    {
+      "Link": "K22",
+      "Story": "Story9",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[641060, 646450]",
+      "P_J_source_rows": "[641061, 646451]",
+      "U_source_rows": "[320532, 323227]"
+    },
+    {
+      "Link": "K22",
+      "Story": "Story9",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[646452, 651842]",
+      "P_J_source_rows": "[646453, 651843]",
+      "U_source_rows": "[323228, 325923]"
+    },
+    {
+      "Link": "K27",
+      "Story": "Story8",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[814804, 819804]",
+      "P_J_source_rows": "[814805, 819805]",
+      "U_source_rows": "[407404, 409904]"
+    },
+    {
+      "Link": "K27",
+      "Story": "Story8",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[819806, 824806]",
+      "P_J_source_rows": "[819807, 824807]",
+      "U_source_rows": "[409905, 412405]"
+    },
+    {
+      "Link": "K27",
+      "Story": "Story8",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[824808, 830708]",
+      "P_J_source_rows": "[824809, 830709]",
+      "U_source_rows": "[412406, 415356]"
+    },
+    {
+      "Link": "K27",
+      "Story": "Story8",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[830710, 836610]",
+      "P_J_source_rows": "[830711, 836611]",
+      "U_source_rows": "[415357, 418307]"
+    },
+    {
+      "Link": "K27",
+      "Story": "Story8",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[836612, 842002]",
+      "P_J_source_rows": "[836613, 842003]",
+      "U_source_rows": "[418308, 421003]"
+    },
+    {
+      "Link": "K27",
+      "Story": "Story8",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[842004, 847394]",
+      "P_J_source_rows": "[842005, 847395]",
+      "U_source_rows": "[421004, 423699]"
+    },
+    {
+      "Link": "K28",
+      "Story": "Story8",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[847396, 852396]",
+      "P_J_source_rows": "[847397, 852397]",
+      "U_source_rows": "[423700, 426200]"
+    },
+    {
+      "Link": "K28",
+      "Story": "Story8",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[852398, 857398]",
+      "P_J_source_rows": "[852399, 857399]",
+      "U_source_rows": "[426201, 428701]"
+    },
+    {
+      "Link": "K28",
+      "Story": "Story8",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[857400, 863300]",
+      "P_J_source_rows": "[857401, 863301]",
+      "U_source_rows": "[428702, 431652]"
+    },
+    {
+      "Link": "K28",
+      "Story": "Story8",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[863302, 869202]",
+      "P_J_source_rows": "[863303, 869203]",
+      "U_source_rows": "[431653, 434603]"
+    },
+    {
+      "Link": "K28",
+      "Story": "Story8",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[869204, 874594]",
+      "P_J_source_rows": "[869205, 874595]",
+      "U_source_rows": "[434604, 437299]"
+    },
+    {
+      "Link": "K28",
+      "Story": "Story8",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[874596, 879986]",
+      "P_J_source_rows": "[874597, 879987]",
+      "U_source_rows": "[437300, 439995]"
+    },
+    {
+      "Link": "K29",
+      "Story": "Story8",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[879988, 884988]",
+      "P_J_source_rows": "[879989, 884989]",
+      "U_source_rows": "[439996, 442496]"
+    },
+    {
+      "Link": "K29",
+      "Story": "Story8",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[884990, 889990]",
+      "P_J_source_rows": "[884991, 889991]",
+      "U_source_rows": "[442497, 444997]"
+    },
+    {
+      "Link": "K29",
+      "Story": "Story8",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[889992, 895892]",
+      "P_J_source_rows": "[889993, 895893]",
+      "U_source_rows": "[444998, 447948]"
+    },
+    {
+      "Link": "K29",
+      "Story": "Story8",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[895894, 901794]",
+      "P_J_source_rows": "[895895, 901795]",
+      "U_source_rows": "[447949, 450899]"
+    },
+    {
+      "Link": "K29",
+      "Story": "Story8",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[901796, 907186]",
+      "P_J_source_rows": "[901797, 907187]",
+      "U_source_rows": "[450900, 453595]"
+    },
+    {
+      "Link": "K29",
+      "Story": "Story8",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[907188, 912578]",
+      "P_J_source_rows": "[907189, 912579]",
+      "U_source_rows": "[453596, 456291]"
+    },
+    {
+      "Link": "K61",
+      "Story": "Story8",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[912580, 917580]",
+      "P_J_source_rows": "[912581, 917581]",
+      "U_source_rows": "[456292, 458792]"
+    },
+    {
+      "Link": "K61",
+      "Story": "Story8",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[917582, 922582]",
+      "P_J_source_rows": "[917583, 922583]",
+      "U_source_rows": "[458793, 461293]"
+    },
+    {
+      "Link": "K61",
+      "Story": "Story8",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[922584, 928484]",
+      "P_J_source_rows": "[922585, 928485]",
+      "U_source_rows": "[461294, 464244]"
+    },
+    {
+      "Link": "K61",
+      "Story": "Story8",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[928486, 934386]",
+      "P_J_source_rows": "[928487, 934387]",
+      "U_source_rows": "[464245, 467195]"
+    },
+    {
+      "Link": "K61",
+      "Story": "Story8",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[934388, 939778]",
+      "P_J_source_rows": "[934389, 939779]",
+      "U_source_rows": "[467196, 469891]"
+    },
+    {
+      "Link": "K61",
+      "Story": "Story8",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[939780, 945170]",
+      "P_J_source_rows": "[939781, 945171]",
+      "U_source_rows": "[469892, 472587]"
+    },
+    {
+      "Link": "K66",
+      "Story": "Story9",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[651844, 656844]",
+      "P_J_source_rows": "[651845, 656845]",
+      "U_source_rows": "[325924, 328424]"
+    },
+    {
+      "Link": "K66",
+      "Story": "Story9",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[656846, 661846]",
+      "P_J_source_rows": "[656847, 661847]",
+      "U_source_rows": "[328425, 330925]"
+    },
+    {
+      "Link": "K66",
+      "Story": "Story9",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[661848, 667748]",
+      "P_J_source_rows": "[661849, 667749]",
+      "U_source_rows": "[330926, 333876]"
+    },
+    {
+      "Link": "K66",
+      "Story": "Story9",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[667750, 673650]",
+      "P_J_source_rows": "[667751, 673651]",
+      "U_source_rows": "[333877, 336827]"
+    },
+    {
+      "Link": "K66",
+      "Story": "Story9",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[673652, 679042]",
+      "P_J_source_rows": "[673653, 679043]",
+      "U_source_rows": "[336828, 339523]"
+    },
+    {
+      "Link": "K66",
+      "Story": "Story9",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[679044, 684434]",
+      "P_J_source_rows": "[679045, 684435]",
+      "U_source_rows": "[339524, 342219]"
+    },
+    {
+      "Link": "K68",
+      "Story": "Story10",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[391108, 396108]",
+      "P_J_source_rows": "[391109, 396109]",
+      "U_source_rows": "[195556, 198056]"
+    },
+    {
+      "Link": "K68",
+      "Story": "Story10",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[396110, 401110]",
+      "P_J_source_rows": "[396111, 401111]",
+      "U_source_rows": "[198057, 200557]"
+    },
+    {
+      "Link": "K68",
+      "Story": "Story10",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[401112, 407012]",
+      "P_J_source_rows": "[401113, 407013]",
+      "U_source_rows": "[200558, 203508]"
+    },
+    {
+      "Link": "K68",
+      "Story": "Story10",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[407014, 412914]",
+      "P_J_source_rows": "[407015, 412915]",
+      "U_source_rows": "[203509, 206459]"
+    },
+    {
+      "Link": "K68",
+      "Story": "Story10",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[412916, 418306]",
+      "P_J_source_rows": "[412917, 418307]",
+      "U_source_rows": "[206460, 209155]"
+    },
+    {
+      "Link": "K68",
+      "Story": "Story10",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[418308, 423698]",
+      "P_J_source_rows": "[418309, 423699]",
+      "U_source_rows": "[209156, 211851]"
+    },
+    {
+      "Link": "K73",
+      "Story": "Story11",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[130372, 135372]",
+      "P_J_source_rows": "[130373, 135373]",
+      "U_source_rows": "[65188, 67688]"
+    },
+    {
+      "Link": "K73",
+      "Story": "Story11",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[135374, 140374]",
+      "P_J_source_rows": "[135375, 140375]",
+      "U_source_rows": "[67689, 70189]"
+    },
+    {
+      "Link": "K73",
+      "Story": "Story11",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[140376, 146276]",
+      "P_J_source_rows": "[140377, 146277]",
+      "U_source_rows": "[70190, 73140]"
+    },
+    {
+      "Link": "K73",
+      "Story": "Story11",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[146278, 152178]",
+      "P_J_source_rows": "[146279, 152179]",
+      "U_source_rows": "[73141, 76091]"
+    },
+    {
+      "Link": "K73",
+      "Story": "Story11",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[152180, 157570]",
+      "P_J_source_rows": "[152181, 157571]",
+      "U_source_rows": "[76092, 78787]"
+    },
+    {
+      "Link": "K73",
+      "Story": "Story11",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[157572, 162962]",
+      "P_J_source_rows": "[157573, 162963]",
+      "U_source_rows": "[78788, 81483]"
+    },
+    {
+      "Link": "K74",
+      "Story": "Story11",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[162964, 167964]",
+      "P_J_source_rows": "[162965, 167965]",
+      "U_source_rows": "[81484, 83984]"
+    },
+    {
+      "Link": "K74",
+      "Story": "Story11",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[167966, 172966]",
+      "P_J_source_rows": "[167967, 172967]",
+      "U_source_rows": "[83985, 86485]"
+    },
+    {
+      "Link": "K74",
+      "Story": "Story11",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[172968, 178868]",
+      "P_J_source_rows": "[172969, 178869]",
+      "U_source_rows": "[86486, 89436]"
+    },
+    {
+      "Link": "K74",
+      "Story": "Story11",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[178870, 184770]",
+      "P_J_source_rows": "[178871, 184771]",
+      "U_source_rows": "[89437, 92387]"
+    },
+    {
+      "Link": "K74",
+      "Story": "Story11",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[184772, 190162]",
+      "P_J_source_rows": "[184773, 190163]",
+      "U_source_rows": "[92388, 95083]"
+    },
+    {
+      "Link": "K74",
+      "Story": "Story11",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[190164, 195554]",
+      "P_J_source_rows": "[190165, 195555]",
+      "U_source_rows": "[95084, 97779]"
+    },
+    {
+      "Link": "K75",
+      "Story": "Story10",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[423700, 428700]",
+      "P_J_source_rows": "[423701, 428701]",
+      "U_source_rows": "[211852, 214352]"
+    },
+    {
+      "Link": "K75",
+      "Story": "Story10",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[428702, 433702]",
+      "P_J_source_rows": "[428703, 433703]",
+      "U_source_rows": "[214353, 216853]"
+    },
+    {
+      "Link": "K75",
+      "Story": "Story10",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[433704, 439604]",
+      "P_J_source_rows": "[433705, 439605]",
+      "U_source_rows": "[216854, 219804]"
+    },
+    {
+      "Link": "K75",
+      "Story": "Story10",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[439606, 445506]",
+      "P_J_source_rows": "[439607, 445507]",
+      "U_source_rows": "[219805, 222755]"
+    },
+    {
+      "Link": "K75",
+      "Story": "Story10",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[445508, 450898]",
+      "P_J_source_rows": "[445509, 450899]",
+      "U_source_rows": "[222756, 225451]"
+    },
+    {
+      "Link": "K75",
+      "Story": "Story10",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[450900, 456290]",
+      "P_J_source_rows": "[450901, 456291]",
+      "U_source_rows": "[225452, 228147]"
+    },
+    {
+      "Link": "K80",
+      "Story": "Story11",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[195556, 200556]",
+      "P_J_source_rows": "[195557, 200557]",
+      "U_source_rows": "[97780, 100280]"
+    },
+    {
+      "Link": "K80",
+      "Story": "Story11",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[200558, 205558]",
+      "P_J_source_rows": "[200559, 205559]",
+      "U_source_rows": "[100281, 102781]"
+    },
+    {
+      "Link": "K80",
+      "Story": "Story11",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[205560, 211460]",
+      "P_J_source_rows": "[205561, 211461]",
+      "U_source_rows": "[102782, 105732]"
+    },
+    {
+      "Link": "K80",
+      "Story": "Story11",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[211462, 217362]",
+      "P_J_source_rows": "[211463, 217363]",
+      "U_source_rows": "[105733, 108683]"
+    },
+    {
+      "Link": "K80",
+      "Story": "Story11",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[217364, 222754]",
+      "P_J_source_rows": "[217365, 222755]",
+      "U_source_rows": "[108684, 111379]"
+    },
+    {
+      "Link": "K80",
+      "Story": "Story11",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[222756, 228146]",
+      "P_J_source_rows": "[222757, 228147]",
+      "U_source_rows": "[111380, 114075]"
+    },
+    {
+      "Link": "K81",
+      "Story": "Story10",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[456292, 461292]",
+      "P_J_source_rows": "[456293, 461293]",
+      "U_source_rows": "[228148, 230648]"
+    },
+    {
+      "Link": "K81",
+      "Story": "Story10",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[461294, 466294]",
+      "P_J_source_rows": "[461295, 466295]",
+      "U_source_rows": "[230649, 233149]"
+    },
+    {
+      "Link": "K81",
+      "Story": "Story10",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[466296, 472196]",
+      "P_J_source_rows": "[466297, 472197]",
+      "U_source_rows": "[233150, 236100]"
+    },
+    {
+      "Link": "K81",
+      "Story": "Story10",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[472198, 478098]",
+      "P_J_source_rows": "[472199, 478099]",
+      "U_source_rows": "[236101, 239051]"
+    },
+    {
+      "Link": "K81",
+      "Story": "Story10",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[478100, 483490]",
+      "P_J_source_rows": "[478101, 483491]",
+      "U_source_rows": "[239052, 241747]"
+    },
+    {
+      "Link": "K81",
+      "Story": "Story10",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[483492, 488882]",
+      "P_J_source_rows": "[483493, 488883]",
+      "U_source_rows": "[241748, 244443]"
+    },
+    {
+      "Link": "K82",
+      "Story": "Story9",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[684436, 689436]",
+      "P_J_source_rows": "[684437, 689437]",
+      "U_source_rows": "[342220, 344720]"
+    },
+    {
+      "Link": "K82",
+      "Story": "Story9",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[689438, 694438]",
+      "P_J_source_rows": "[689439, 694439]",
+      "U_source_rows": "[344721, 347221]"
+    },
+    {
+      "Link": "K82",
+      "Story": "Story9",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[694440, 700340]",
+      "P_J_source_rows": "[694441, 700341]",
+      "U_source_rows": "[347222, 350172]"
+    },
+    {
+      "Link": "K82",
+      "Story": "Story9",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[700342, 706242]",
+      "P_J_source_rows": "[700343, 706243]",
+      "U_source_rows": "[350173, 353123]"
+    },
+    {
+      "Link": "K82",
+      "Story": "Story9",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[706244, 711634]",
+      "P_J_source_rows": "[706245, 711635]",
+      "U_source_rows": "[353124, 355819]"
+    },
+    {
+      "Link": "K82",
+      "Story": "Story9",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[711636, 717026]",
+      "P_J_source_rows": "[711637, 717027]",
+      "U_source_rows": "[355820, 358515]"
+    },
+    {
+      "Link": "K83",
+      "Story": "Story8",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[945172, 950172]",
+      "P_J_source_rows": "[945173, 950173]",
+      "U_source_rows": "[472588, 475088]"
+    },
+    {
+      "Link": "K83",
+      "Story": "Story8",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[950174, 955174]",
+      "P_J_source_rows": "[950175, 955175]",
+      "U_source_rows": "[475089, 477589]"
+    },
+    {
+      "Link": "K83",
+      "Story": "Story8",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[955176, 961076]",
+      "P_J_source_rows": "[955177, 961077]",
+      "U_source_rows": "[477590, 480540]"
+    },
+    {
+      "Link": "K83",
+      "Story": "Story8",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[961078, 966978]",
+      "P_J_source_rows": "[961079, 966979]",
+      "U_source_rows": "[480541, 483491]"
+    },
+    {
+      "Link": "K83",
+      "Story": "Story8",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[966980, 972370]",
+      "P_J_source_rows": "[966981, 972371]",
+      "U_source_rows": "[483492, 486187]"
+    },
+    {
+      "Link": "K83",
+      "Story": "Story8",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[972372, 977762]",
+      "P_J_source_rows": "[972373, 977763]",
+      "U_source_rows": "[486188, 488883]"
+    },
+    {
+      "Link": "K91",
+      "Story": "Story9",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[717028, 722028]",
+      "P_J_source_rows": "[717029, 722029]",
+      "U_source_rows": "[358516, 361016]"
+    },
+    {
+      "Link": "K91",
+      "Story": "Story9",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[722030, 727030]",
+      "P_J_source_rows": "[722031, 727031]",
+      "U_source_rows": "[361017, 363517]"
+    },
+    {
+      "Link": "K91",
+      "Story": "Story9",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[727032, 732932]",
+      "P_J_source_rows": "[727033, 732933]",
+      "U_source_rows": "[363518, 366468]"
+    },
+    {
+      "Link": "K91",
+      "Story": "Story9",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[732934, 738834]",
+      "P_J_source_rows": "[732935, 738835]",
+      "U_source_rows": "[366469, 369419]"
+    },
+    {
+      "Link": "K91",
+      "Story": "Story9",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[738836, 744226]",
+      "P_J_source_rows": "[738837, 744227]",
+      "U_source_rows": "[369420, 372115]"
+    },
+    {
+      "Link": "K91",
+      "Story": "Story9",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[744228, 749618]",
+      "P_J_source_rows": "[744229, 749619]",
+      "U_source_rows": "[372116, 374811]"
+    },
+    {
+      "Link": "K92",
+      "Story": "Story8",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[977764, 982764]",
+      "P_J_source_rows": "[977765, 982765]",
+      "U_source_rows": "[488884, 491384]"
+    },
+    {
+      "Link": "K92",
+      "Story": "Story8",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[982766, 987766]",
+      "P_J_source_rows": "[982767, 987767]",
+      "U_source_rows": "[491385, 493885]"
+    },
+    {
+      "Link": "K92",
+      "Story": "Story8",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[987768, 993668]",
+      "P_J_source_rows": "[987769, 993669]",
+      "U_source_rows": "[493886, 496836]"
+    },
+    {
+      "Link": "K92",
+      "Story": "Story8",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[993670, 999570]",
+      "P_J_source_rows": "[993671, 999571]",
+      "U_source_rows": "[496837, 499787]"
+    },
+    {
+      "Link": "K92",
+      "Story": "Story8",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[999572, 1004962]",
+      "P_J_source_rows": "[999573, 1004963]",
+      "U_source_rows": "[499788, 502483]"
+    },
+    {
+      "Link": "K92",
+      "Story": "Story8",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[1004964, 1010354]",
+      "P_J_source_rows": "[1004965, 1010355]",
+      "U_source_rows": "[502484, 505179]"
+    },
+    {
+      "Link": "K100",
+      "Story": "Story11",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[228148, 233148]",
+      "P_J_source_rows": "[228149, 233149]",
+      "U_source_rows": "[114076, 116576]"
+    },
+    {
+      "Link": "K100",
+      "Story": "Story11",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[233150, 238150]",
+      "P_J_source_rows": "[233151, 238151]",
+      "U_source_rows": "[116577, 119077]"
+    },
+    {
+      "Link": "K100",
+      "Story": "Story11",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[238152, 244052]",
+      "P_J_source_rows": "[238153, 244053]",
+      "U_source_rows": "[119078, 122028]"
+    },
+    {
+      "Link": "K100",
+      "Story": "Story11",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[244054, 249954]",
+      "P_J_source_rows": "[244055, 249955]",
+      "U_source_rows": "[122029, 124979]"
+    },
+    {
+      "Link": "K100",
+      "Story": "Story11",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[249956, 255346]",
+      "P_J_source_rows": "[249957, 255347]",
+      "U_source_rows": "[124980, 127675]"
+    },
+    {
+      "Link": "K100",
+      "Story": "Story11",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[255348, 260738]",
+      "P_J_source_rows": "[255349, 260739]",
+      "U_source_rows": "[127676, 130371]"
+    },
+    {
+      "Link": "K101",
+      "Story": "Story10",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[488884, 493884]",
+      "P_J_source_rows": "[488885, 493885]",
+      "U_source_rows": "[244444, 246944]"
+    },
+    {
+      "Link": "K101",
+      "Story": "Story10",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[493886, 498886]",
+      "P_J_source_rows": "[493887, 498887]",
+      "U_source_rows": "[246945, 249445]"
+    },
+    {
+      "Link": "K101",
+      "Story": "Story10",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[498888, 504788]",
+      "P_J_source_rows": "[498889, 504789]",
+      "U_source_rows": "[249446, 252396]"
+    },
+    {
+      "Link": "K101",
+      "Story": "Story10",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[504790, 510690]",
+      "P_J_source_rows": "[504791, 510691]",
+      "U_source_rows": "[252397, 255347]"
+    },
+    {
+      "Link": "K101",
+      "Story": "Story10",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[510692, 516082]",
+      "P_J_source_rows": "[510693, 516083]",
+      "U_source_rows": "[255348, 258043]"
+    },
+    {
+      "Link": "K101",
+      "Story": "Story10",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[516084, 521474]",
+      "P_J_source_rows": "[516085, 521475]",
+      "U_source_rows": "[258044, 260739]"
+    },
+    {
+      "Link": "K102",
+      "Story": "Story9",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[749620, 754620]",
+      "P_J_source_rows": "[749621, 754621]",
+      "U_source_rows": "[374812, 377312]"
+    },
+    {
+      "Link": "K102",
+      "Story": "Story9",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[754622, 759622]",
+      "P_J_source_rows": "[754623, 759623]",
+      "U_source_rows": "[377313, 379813]"
+    },
+    {
+      "Link": "K102",
+      "Story": "Story9",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[759624, 765524]",
+      "P_J_source_rows": "[759625, 765525]",
+      "U_source_rows": "[379814, 382764]"
+    },
+    {
+      "Link": "K102",
+      "Story": "Story9",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[765526, 771426]",
+      "P_J_source_rows": "[765527, 771427]",
+      "U_source_rows": "[382765, 385715]"
+    },
+    {
+      "Link": "K102",
+      "Story": "Story9",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[771428, 776818]",
+      "P_J_source_rows": "[771429, 776819]",
+      "U_source_rows": "[385716, 388411]"
+    },
+    {
+      "Link": "K102",
+      "Story": "Story9",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[776820, 782210]",
+      "P_J_source_rows": "[776821, 782211]",
+      "U_source_rows": "[388412, 391107]"
+    },
+    {
+      "Link": "K103",
+      "Story": "Story8",
+      "Case": "RH4X",
+      "expected_n": "2501",
+      "P_I_source_rows": "[1010356, 1015356]",
+      "P_J_source_rows": "[1010357, 1015357]",
+      "U_source_rows": "[505180, 507680]"
+    },
+    {
+      "Link": "K103",
+      "Story": "Story8",
+      "Case": "RH4Y",
+      "expected_n": "2501",
+      "P_I_source_rows": "[1015358, 1020358]",
+      "P_J_source_rows": "[1015359, 1020359]",
+      "U_source_rows": "[507681, 510181]"
+    },
+    {
+      "Link": "K103",
+      "Story": "Story8",
+      "Case": "SHW4X",
+      "expected_n": "2951",
+      "P_I_source_rows": "[1020360, 1026260]",
+      "P_J_source_rows": "[1020361, 1026261]",
+      "U_source_rows": "[510182, 513132]"
+    },
+    {
+      "Link": "K103",
+      "Story": "Story8",
+      "Case": "SHW4Y",
+      "expected_n": "2951",
+      "P_I_source_rows": "[1026262, 1032162]",
+      "P_J_source_rows": "[1026263, 1032163]",
+      "U_source_rows": "[513133, 516083]"
+    },
+    {
+      "Link": "K103",
+      "Story": "Story8",
+      "Case": "SHW7X",
+      "expected_n": "2696",
+      "P_I_source_rows": "[1032164, 1037554]",
+      "P_J_source_rows": "[1032165, 1037555]",
+      "U_source_rows": "[516084, 518779]"
+    },
+    {
+      "Link": "K103",
+      "Story": "Story8",
+      "Case": "SHW7Y",
+      "expected_n": "2696",
+      "P_I_source_rows": "[1037556, 1042946]",
+      "P_J_source_rows": "[1037557, 1042947]",
+      "U_source_rows": "[518780, 521475]"
+    }
+  ],
+  "excluded": "K12/Story7 singleton RH4X excluded by prespecified common-six-case complete-device subset, not by response values. All other non-common-complete devices excluded equally.",
+  "bounded_source_rows": {
+    "P": 1042947,
+    "U": 521475
+  },
+  "read_policy": "Only Element Forces - Links P and Element Deformations - Links U1 once each; target-filter only; no extraction of seven global tables. Stop on incomplete groups, no filling. Hash original once before and compare before/after stat.",
+  "units": "P kN, U1 mm divided by1000 to m, t seconds. P-I/J pointwise identical, count I once. Preserve all source rows in local paired NPZ, P cell column I, U1 cell column H.",
+  "paired_columns": [
+    "t_s",
+    "P_I_kN",
+    "P_J_kN",
+    "U1_mm",
+    "U1_m",
+    "force_I_row",
+    "force_J_row",
+    "deformation_row"
+  ],
+  "crosschecks": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\paired_K2_RH4X_r001.csv",
+      "sha256": "9def6dbd1c2c412554d4f07f2f01a3afa00d2cbc3e0c255bd86763e2a838101f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\paired_K5_RH4X_r001.csv",
+      "sha256": "edd380b14e1954d20202312e2435b22d381e56e13dc9742a3f30880d223233c6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K2_SHW4X_r003.csv",
+      "sha256": "bc66eeee48ad3b4799dc030364f671a846037332770283fbc5acae9ae77e8602"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K2_SHW7X_r003.csv",
+      "sha256": "9a3c1c852212c1adbe72350cd98e148e126f3de38a60fd876fcc6f7ecddace1a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K5_SHW4X_r003.csv",
+      "sha256": "b9357e44c3d40dc76fa15fa29a3be393bf318642308d956e5f85990313464242"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K5_SHW7X_r003.csv",
+      "sha256": "6bcaa162f6ea25a88a6a8f036314db62d900ed6aad0390c3bb711cddb79d4ef2"
+    }
+  ],
+  "definitions": {
+    "h": "sign(F)*abs(F)^(1/alpha)",
+    "Wtrap": "sum Favg*Delta d",
+    "DeltaUs": "a*(Fend^2-F0^2)/2",
+    "Dport": "Wtrap-DeltaUs conditional fitted storage",
+    "Dforce_trap": "b*sum dt*avg(F*h)",
+    "product": "b/4*sum dt*Delta F*Delta h",
+    "residual_work": "sum Favg*Delta r; r=a*(F-F0)+b*cumtrap(h)-(d-d0)",
+    "identity": "Dforce_trap-Dport=product+residual_work"
+  },
+  "rank_policy": "Within each Case/Story eight devices only, rank max abs native P and conditional Dport separately; top2 by second ordered value and bottom2 by seventh ordered descending value, include exact boundary ties. Report native W alongside conditional Dport; no tuned thresholds.",
+  "no_claims": "No physical property certification, independent validation, geometry/global direction inference, event independence from X/Y, full88 energy closure, causal reduction, optimal placement or good/bad label.",
+  "local_history_policy": "Complete paired NPZ local only, not upload or default Git whitelist. Main handoff 192 summary rows plus ranks and small metadata.",
+  "runtime_limit_seconds": 480,
+  "partial_policy": "Keep actual completed range if bounded timeout/failure; no extended reruns."
+}

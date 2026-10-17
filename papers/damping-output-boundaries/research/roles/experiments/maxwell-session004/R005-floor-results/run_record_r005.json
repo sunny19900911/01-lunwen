@@ -1,0 +1,24 @@
+{
+  "command_argv": [
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R005-floor-results/summarize_floor_results.py"
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "finished_utc": "2026-10-17T14:42:06.925526+00:00",
+  "elapsed_seconds": 0.23341549999895506,
+  "exit_code_after_checks": 0,
+  "protocol_sha256": "c22487c9550eb6c3b06c9daef89737eda405ace2cf6c0688757e92bbec23e73c",
+  "code_sha256": "7c97635c26f75c7dc0d6e0be2c1d38ac03bd4eb12167557514379bf8179ff324",
+  "summary_sha256": "1afcdbeff8f93da6e3bbd1e866633a3c4e290251973f31464822cc20e65b8733",
+  "checks": {
+    "72_floor_rows": true,
+    "108_separate_CM_groups": true,
+    "72_bottom_shear_groups": true,
+    "72_mapped_drift_groups": true,
+    "all_selected_values_finite": true,
+    "all_shear_and_CM_complete": true,
+    "all_source_hashes_unchanged": true,
+    "protocol_unchanged": true,
+    "runtime_below_480s": true
+  }
+}

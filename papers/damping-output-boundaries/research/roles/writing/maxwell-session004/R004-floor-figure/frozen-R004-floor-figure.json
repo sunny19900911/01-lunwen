@@ -1,0 +1,45 @@
+{
+  "frozen_at": "2026-10-17T23:00:39.243365+08:00",
+  "status": "limited_stop_dependency_missing; no figure delivered",
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\R004-floor-figure\\probe_plot_dependencies.py",
+      "sha256": "c7d0fe6cb2279f60819f51a03458151ef11b9db71e3ade373ab0357ed16c7480",
+      "bytes": 1971
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\R004-floor-figure\\bundled-probe\\dependency_record.json",
+      "sha256": "43a70b2d99a422c47f4381c752ee38f611d884de0bc80b6385e635c8d9fb8a7f",
+      "bytes": 1445
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\R004-floor-figure\\system-probe\\dependency_record.json",
+      "sha256": "b226ccd4fe4498a6fe399eb814ed2351545dfdc76fad476c6218c9928058a72b",
+      "bytes": 1438
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\R004-floor-figure\\有限停止说明.md",
+      "sha256": "90c088f7e283ac3735e2055abfcd7b286b4f72b8ce3a3d5d8f7c89331feb6763",
+      "bytes": 940
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\R004-floor-figure\\run_record.json",
+      "sha256": "a44c3bfd9c2681bb531e8f7b17e5876b35d8959359243d04592f03b0464b7926",
+      "bytes": 1691
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\R004-floor-figure\\validation.json",
+      "sha256": "aec96747472b2bec41f04070995b6f24496afef8653ea178353c57eb8d3bf1f6",
+      "bytes": 542
+    }
+  ],
+  "required_artifacts_not_created": [
+    "PNG",
+    "SVG",
+    "72-row plotting CSV",
+    "scientific plotting script",
+    "normalization numeric QA",
+    "visual PNG QA"
+  ],
+  "source_data_unchanged_by_this_task": true
+}

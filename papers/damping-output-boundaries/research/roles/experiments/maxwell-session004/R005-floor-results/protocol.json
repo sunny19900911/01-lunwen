@@ -1,0 +1,330 @@
+{
+  "evidence_id": "M-EXP-R005",
+  "review_status": "candidate",
+  "frozen_utc_before_numeric_arrays": "2026-10-17T14:40:50.382552+00:00",
+  "cache_dir": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache",
+  "source_xlsx_identity_inherited_only": {
+    "source": "E:\\!!!!!!!!TO HOME\\有控.xlsx",
+    "sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+    "bytes": 635525054
+  },
+  "inputs": {
+    "Story Forces": {
+      "file": "Story_Forces.npz",
+      "sha256": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d"
+    },
+    "Diaphragm CM Displacements": {
+      "file": "Diaphragm_CM_Displacements.npz",
+      "sha256": "586f68d2b6b802979d42e3e83bf6f51d8af0144dde1f499e63929fe47f9dd17a"
+    },
+    "Story Drifts": {
+      "file": "Story_Drifts.npz",
+      "sha256": "df2c83a862f083f3301ee4467b9184ab62ce0cf1e47e90ce55da77454aa73d73"
+    }
+  },
+  "coverage_manifest": {
+    "file": "manifest.json",
+    "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+  },
+  "schema_before_values": {
+    "Story Forces": {
+      "cache": "Story_Forces.npz",
+      "key_columns": [
+        "Story",
+        "Location",
+        "Output Case",
+        "Case Type"
+      ],
+      "columns": [
+        "Time",
+        "P",
+        "VX",
+        "VY",
+        "T",
+        "MX",
+        "MY",
+        "SourceRow"
+      ],
+      "headers": [
+        "Story",
+        "Output Case",
+        "Case Type",
+        "Step Type",
+        "Step Number",
+        "Location",
+        "P",
+        "VX",
+        "VY",
+        "T",
+        "MX",
+        "MY"
+      ],
+      "units": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "kN",
+        "kN",
+        "kN",
+        "kN-m",
+        "kN-m",
+        "kN-m"
+      ],
+      "key_values": {
+        "Story": [
+          "Story1",
+          "Story10",
+          "Story11",
+          "Story12",
+          "Story2",
+          "Story3",
+          "Story4",
+          "Story5",
+          "Story6",
+          "Story7",
+          "Story8",
+          "Story9"
+        ],
+        "Location": [
+          "Bottom"
+        ],
+        "Output Case": [
+          "RH4X",
+          "RH4Y",
+          "SHW4X",
+          "SHW4Y",
+          "SHW7X",
+          "SHW7Y"
+        ],
+        "Case Type": [
+          "NonModHist"
+        ]
+      }
+    },
+    "Diaphragm CM Displacements": {
+      "cache": "Diaphragm_CM_Displacements.npz",
+      "key_columns": [
+        "Story",
+        "Diaphragm",
+        "Output Case",
+        "Case Type"
+      ],
+      "columns": [
+        "Time",
+        "UX",
+        "UY",
+        "RZ",
+        "SourceRow"
+      ],
+      "headers": [
+        "Story",
+        "Diaphragm",
+        "Output Case",
+        "Case Type",
+        "Step Type",
+        "Step Number",
+        "UX",
+        "UY",
+        "RZ"
+      ],
+      "units": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "mm",
+        "mm",
+        "rad"
+      ],
+      "key_values": {
+        "Story": [
+          "Story1",
+          "Story10",
+          "Story11",
+          "Story12",
+          "Story2",
+          "Story3",
+          "Story4",
+          "Story5",
+          "Story6",
+          "Story7",
+          "Story8",
+          "Story9"
+        ],
+        "Diaphragm": [
+          "D1",
+          "D2"
+        ],
+        "Output Case": [
+          "RH4X",
+          "RH4Y",
+          "SHW4X",
+          "SHW4Y",
+          "SHW7X",
+          "SHW7Y"
+        ],
+        "Case Type": [
+          "NonModHist"
+        ]
+      }
+    },
+    "Story Drifts": {
+      "cache": "Story_Drifts.npz",
+      "key_columns": [
+        "Story",
+        "Direction",
+        "Output Case",
+        "Case Type"
+      ],
+      "columns": [
+        "Time",
+        "Drift",
+        "SourceRow"
+      ],
+      "headers": [
+        "Story",
+        "Output Case",
+        "Case Type",
+        "Step Type",
+        "Step Number",
+        "Direction",
+        "Drift",
+        "Drift/",
+        "Label",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "units": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "m",
+        "m",
+        "m"
+      ],
+      "key_values": {
+        "Story": [
+          "Story1",
+          "Story10",
+          "Story11",
+          "Story12",
+          "Story2",
+          "Story3",
+          "Story4",
+          "Story5",
+          "Story6",
+          "Story7",
+          "Story8",
+          "Story9"
+        ],
+        "Direction": [
+          "X",
+          "Y"
+        ],
+        "Output Case": [
+          "RH4X",
+          "RH4Y",
+          "SHW4X",
+          "SHW4Y",
+          "SHW7X",
+          "SHW7Y"
+        ],
+        "Case Type": [
+          "NonModHist"
+        ]
+      }
+    }
+  },
+  "cases": [
+    "RH4X",
+    "RH4Y",
+    "SHW4X",
+    "SHW4Y",
+    "SHW7X",
+    "SHW7Y"
+  ],
+  "stories": [
+    "Story1",
+    "Story2",
+    "Story3",
+    "Story4",
+    "Story5",
+    "Story6",
+    "Story7",
+    "Story8",
+    "Story9",
+    "Story10",
+    "Story11",
+    "Story12"
+  ],
+  "mapping": {
+    "X": {
+      "Story Forces": "VX",
+      "Diaphragm CM Displacements": "UX",
+      "Story Drifts": "X"
+    },
+    "Y": {
+      "Story Forces": "VY",
+      "Diaphragm CM Displacements": "UY",
+      "Story Drifts": "Y"
+    }
+  },
+  "direction_scope": "Case-name suffix is analysis convention only, not certified excitation direction. Unmatched fields remain missing; no alternate selection.",
+  "expected_grid": {
+    "RH4X": [
+      2501,
+      50.0
+    ],
+    "RH4Y": [
+      2501,
+      50.0
+    ],
+    "SHW4X": [
+      2951,
+      59.0
+    ],
+    "SHW4Y": [
+      2951,
+      59.0
+    ],
+    "SHW7X": [
+      2696,
+      53.9
+    ],
+    "SHW7Y": [
+      2696,
+      53.9
+    ]
+  },
+  "time_step_s": 0.02,
+  "grid_absolute_tolerance_s": 1e-10,
+  "force_selection": "Bottom only; preserve each group and all exact abs-peak ties with signed value/time/source row.",
+  "cm_selection": "Preserve each same-story diaphragm separately, then take maximum of their absolute record peaks; retain all exact controlling diaphragm/time/source-row ties.",
+  "drift_selection": "Only maximum absolute value among exported records in mapped direction; preserve signed value/time/source row; Label/X/Y/Z absent in cached columns, output explicit unavailable status, no raw extraction. Never call full-history peak or RMS.",
+  "rank_selection": "Within each case and metric order floor absolute record peaks descending. Include all floors equal to third ordered floor value exactly; ties use exact exported floating equality, not tuned tolerance. All tied peak controllers preserved. Missing values excluded with explicit coverage.",
+  "main_comparison": "Only if all12 floors have complete expected grid for shear and each available CM group. Compare top3 floor sets, intersection and max-controlling-floor sets descriptively, no statistics. Drift separate sparse coverage only.",
+  "missing_policy": "No fill, interpolation, sign flipping, response re-fit or row removal. Nonfinite values marked unavailable, no replacement.",
+  "no_claims": [
+    "uncontrolled reduction",
+    "between-wave damping benefit",
+    "optimal placement",
+    "true excitation direction",
+    "independent time-point samples",
+    "full drift time-history peak",
+    "device-force projection without geometry"
+  ],
+  "outputs": "72 floor rows; each diaphragm group retained; mapped group coverage; per-case per-metric rank rows including ties; six main-comparison rows; small source/summary/run metadata. No arrays or images.",
+  "runtime_limit_seconds": 480
+}

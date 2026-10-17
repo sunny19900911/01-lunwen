@@ -1,0 +1,104 @@
+{
+  "session": "20261017-2109",
+  "role": "verification",
+  "review": "R010",
+  "started_at": "2026-10-17T22:55:20+08:00",
+  "static_completed_at": "2026-10-17T23:01:54.537999+08:00",
+  "qa_completed_at": "2026-10-17T23:03:46.794449+08:00",
+  "interpreter": "C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "python_version": "3.12.14",
+  "script": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_draft_v003_R010.py",
+  "arguments": [
+    "--root",
+    ".",
+    "--out",
+    "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R010-draft-review"
+  ],
+  "final_execution_exit_code": 0,
+  "reproduction_requires_new_output_json": true,
+  "required_corrections": 0,
+  "diagnostic_checks_before_final_success": [
+    "Normalized snapshot text required reconstruction of original mixed CRLF/LF bytes.",
+    "Transfer manuscript uses independent R007 numbers; source CSV differs at last floating digits, so check source agreement separately from display rounding.",
+    "Drive-path regex corrected to avoid treating https:// as a Windows absolute path."
+  ],
+  "scientific_experiments_rerun": false,
+  "source_files_sha_rechecked": 57,
+  "numeric_cells_checked": 96,
+  "six_formulas_and_five_references_checked": true,
+  "PNG_local_relative_path_tracked_sha_checks": 2,
+  "GitHub_remote_rendering_tested": false,
+  "script_ast_valid": true,
+  "utf8_lf_no_BOM_or_trailing_whitespace": true,
+  "frozen_R001_R009": [
+    {
+      "run_file": "R001-review-run.json",
+      "sha256": "7d43f7e3fb4b754edce7e44f9c57908314ec27172e6c5a25e97163573dac499f",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R002-review-run.json",
+      "sha256": "f14346e51b39b32ce421433be671a1ddc67a2cb89995652c45aba0514fb6a028",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R003-review-run.json",
+      "sha256": "db8c3ce055d9ba45250a5c59c4444c880eadf12acb4236c6de5e545295054a69",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R004-review-run.json",
+      "sha256": "d2800774203b57330f6da953081f25771161f5e1df84423f2782ee85248e8252",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R005-review-run.json",
+      "sha256": "8043b9282527e3480165a636cb6de44cbd4afe3739b1dff80daa9802e7b82163",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R006-review-validation.json",
+      "sha256": "bac733cf858eca6cb3548e556db765e9ba950eba5c1c8e0c713e674b1a532fcd",
+      "outputs_verified": 1
+    },
+    {
+      "run_file": "R007-review-run.json",
+      "sha256": "1d794223541ae4cd5b2fc46e03850b641192281956a545daeabded4e9b76fc08",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R008-review-run.json",
+      "sha256": "1925e4649afa3131ae9fd9b26cd3a1ad89d943f72a8706826095cdb8da946428",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R009-review-run.json",
+      "sha256": "1d78f89de0ff567e9d7b914b2ebe0ffd970481a7bbd3f219dae96d8e435bf23f",
+      "outputs_verified": 3
+    }
+  ],
+  "read_only_collaborator": "r006_sharp_challenge: full draft/map/freeze semantic audit; no point arrays/recalculation/search/writes; 0 required changes.",
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\阶段稿v003整合独审-R010.md",
+      "bytes": 6332,
+      "sha256": "30213633ce3b53f61e2759f1486a268d0afd1755fedb4c300db8d9d2e3e49e07"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_draft_v003_R010.py",
+      "bytes": 14096,
+      "sha256": "6b173bc4db91e4e424137a85c0c483bc824ce3eb9885b03975986de2e3d9ded9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R010-draft-review\\review_summary.json",
+      "bytes": 28469,
+      "sha256": "7bf82bfdde2fbf4568ca77b92cc3981d8a4214ec133a1b2c321bf331591085f4"
+    }
+  ],
+  "limits": [
+    "Stage manuscript reviewable only, not submission/novelty/physical parameters/fair reduction certification.",
+    "Frozen sources may retain candidate labels; acceptance traced to reviewed report and master snapshot.",
+    "Current master ledgers differ from historical frozen read versions; historical snapshots preserved.",
+    "Tracked local PNG paths and hashes verified; GitHub remote rendering not visited or certified."
+  ]
+}

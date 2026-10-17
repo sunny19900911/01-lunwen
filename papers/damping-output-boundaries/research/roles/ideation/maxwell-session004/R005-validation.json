@@ -1,0 +1,86 @@
+{
+  "frozen_at": "2026-10-17T23:02:03+08:00",
+  "status": "candidate_fixed_summary_only_pending_upstream_and_independent_review",
+  "passed": true,
+  "source_report_sha256": "dcc918095f28780f3810cdce51a984d638677379f7e43dad2369f4e284211b38",
+  "source_summary_sha256": "8d359f9c86b544aaa6c573618a375eef7beb8f02070dc223f2802ce3fe31864d",
+  "protocol_frozen_before_summary_numeric_read": true,
+  "counts": {
+    "groups": 24,
+    "pair_records": 672,
+    "valid_intervals": 24,
+    "baseline_rank_gate_failures": 0,
+    "W_both_sets_unchanged": 24,
+    "peak_top_mismatch_W": 5,
+    "peak_top_mismatch_hat": 5,
+    "upper_unbounded": 0,
+    "lower_zero": 24
+  },
+  "full_order_W_vs_hat_same_count": 24,
+  "independent_inequality_bounds_exact_matches": 24,
+  "common_upper_a_exact": "109364269142319412472415054009/4862139290568601250000000000000000",
+  "common_upper_a_decimal": "2.2493034980396427e-05",
+  "initial_crosscheck_command_path_typo": "one failed attempt referenced a nonexistent unused.csv before any source read/output; corrected command passed",
+  "files": [
+    {
+      "path": "R005-ranking-sensitivity.md",
+      "sha256": "984f4d57a29750028eeff4448892b3aa18293386fd9eb954194b70bafd5e9cc6",
+      "bytes": 6760,
+      "errors": []
+    },
+    {
+      "path": "R005-protocol.md",
+      "sha256": "04db606fccb9b318414f5a0967f11666137fa180a3fc90414344c1a458a57c8e",
+      "bytes": 3860,
+      "errors": []
+    },
+    {
+      "path": "R005_affine_rank.py",
+      "sha256": "555bb95efc7cc54c1b9555f4f1741299914930a201e02371ca3d006e6f4b5d25",
+      "bytes": 9724,
+      "errors": []
+    },
+    {
+      "path": "R005_interval_crosscheck.py",
+      "sha256": "38f83081b48e88f86602b0f71d8843eb0b1b6e54db86e39e122469b9f9d92df8",
+      "bytes": 3195,
+      "errors": []
+    },
+    {
+      "path": "R005-affine-rank-results/endpoint_events.csv",
+      "sha256": "80c6e08754650be47fae4d275c37a4b421f7a9bb79a7a2e43cdcf7304556ce91",
+      "bytes": 5775,
+      "errors": []
+    },
+    {
+      "path": "R005-affine-rank-results/independent_crosscheck_complete.json",
+      "sha256": "417856d3f6566ee435c9702b062442c6d408bbd45714f92bb946bc81b3ded9a0",
+      "bytes": 19998,
+      "errors": []
+    },
+    {
+      "path": "R005-affine-rank-results/inequality_crosscheck.json",
+      "sha256": "57a07965a11d7db0fb3e943b549082a3108d7536f004bf6566778c9fe3edfa1a",
+      "bytes": 3206,
+      "errors": []
+    },
+    {
+      "path": "R005-affine-rank-results/intervals.csv",
+      "sha256": "7c6a95c08d268a73e60a2c315ca1221fd7b137ae4d96329c5421e91b616b9242",
+      "bytes": 6567,
+      "errors": []
+    },
+    {
+      "path": "R005-affine-rank-results/pair_crossings.csv",
+      "sha256": "b53c3705dd29442a04c35af07469ace8acc0e39a33878e5eae98b8b7e7faf2bd",
+      "bytes": 135920,
+      "errors": []
+    },
+    {
+      "path": "R005-affine-rank-results/run_record.json",
+      "sha256": "17ceba4231fd4ca721400a4ad48f938ea6f885c1cedd75843686642943eeff47",
+      "bytes": 1257,
+      "errors": []
+    }
+  ]
+}

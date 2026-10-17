@@ -1,0 +1,117 @@
+{
+  "evidence_id": "M-EXP-R006",
+  "review_status": "candidate",
+  "finished_utc": "2026-10-17T14:50:17.390600+00:00",
+  "elapsed_seconds": 57.49858729999687,
+  "protocol_sha256": "e26d983f153fc9cce3412d4334ff8c8d249360988b34ccfb6650d20190236e89",
+  "code_sha256": "d6ad04300f5ec79f17c54315e082d43deef0dd7c6ccb996179299130341b0153",
+  "reader_sha256": "8592f97ce74f024906909d2647caecc426fca77760d82f0964c24194732a6c15",
+  "source_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "source_before": {
+    "bytes": 635525054,
+    "mtime_ns": 1792242471202687700
+  },
+  "source_after": {
+    "bytes": 635525054,
+    "mtime_ns": 1792242471202687700
+  },
+  "sheet_audits": [
+    {
+      "sheet": "Element Forces - Links",
+      "sheet_passes": 1,
+      "last_source_row": 1042947,
+      "frozen_source_bound": 1042947,
+      "selected_numeric_rows": 1042944,
+      "completed_all_targets": true
+    },
+    {
+      "sheet": "Element Deformations - Links",
+      "sheet_passes": 1,
+      "last_source_row": 521475,
+      "frozen_source_bound": 521475,
+      "selected_numeric_rows": 521472,
+      "completed_all_targets": true
+    }
+  ],
+  "group_count": 192,
+  "total_paired_points_local_only": 521472,
+  "rank_rows": 192,
+  "six_CSV_crosschecks": [
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\paired_K2_RH4X_r001.csv",
+      "sha256": "9def6dbd1c2c412554d4f07f2f01a3afa00d2cbc3e0c255bd86763e2a838101f",
+      "n_rows": 2501,
+      "all_eight_columns_exactly_equal": true
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\paired_K5_RH4X_r001.csv",
+      "sha256": "edd380b14e1954d20202312e2435b22d381e56e13dc9742a3f30880d223233c6",
+      "n_rows": 2501,
+      "all_eight_columns_exactly_equal": true
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K2_SHW4X_r003.csv",
+      "sha256": "bc66eeee48ad3b4799dc030364f671a846037332770283fbc5acae9ae77e8602",
+      "n_rows": 2951,
+      "all_eight_columns_exactly_equal": true
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K2_SHW7X_r003.csv",
+      "sha256": "9a3c1c852212c1adbe72350cd98e148e126f3de38a60fd876fcc6f7ecddace1a",
+      "n_rows": 2696,
+      "all_eight_columns_exactly_equal": true
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K5_SHW4X_r003.csv",
+      "sha256": "b9357e44c3d40dc76fa15fa29a3be393bf318642308d956e5f85990313464242",
+      "n_rows": 2951,
+      "all_eight_columns_exactly_equal": true
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\local_input_K5_SHW7X_r003.csv",
+      "sha256": "6bcaa162f6ea25a88a6a8f036314db62d900ed6aad0390c3bb711cddb79d4ef2",
+      "n_rows": 2696,
+      "all_eight_columns_exactly_equal": true
+    }
+  ],
+  "max_abs_total_identity_residual_kNm": 2.1441182163073336e-15,
+  "negative_increment_groups": 192,
+  "checks": {
+    "192_prespecified_groups": true,
+    "32_common_complete_devices": true,
+    "all_three_streams_and_units_verified": true,
+    "P_I_J_equal_counted_once": true,
+    "all_six_frozen_CSVs_exactly_reproduced": true,
+    "all_discrete_identity_checks_pass": true,
+    "no_negative_increment_clipping": true,
+    "source_SHA_and_stat_stable": true,
+    "frozen_refs_and_protocol_unchanged": true,
+    "runtime_below_480_seconds": true
+  },
+  "outputs": [
+    {
+      "file": "device_record_summary_r006.csv",
+      "bytes": 97108,
+      "sha256": "8d359f9c86b544aaa6c573618a375eef7beb8f02070dc223f2802ce3fe31864d",
+      "local_only": false
+    },
+    {
+      "file": "within_story_rank_extremes_r006.csv",
+      "bytes": 24058,
+      "sha256": "e67261072e1e3ae6cfe8cf7e9236afea9106d93c35a73cf579e1fbf9b8b21f35",
+      "local_only": false
+    },
+    {
+      "file": "local_paired_histories_r006.npz",
+      "bytes": 18459935,
+      "sha256": "65be34f8125e5e7f2aee90ebe5a4b2612cfe717d84abf0886789a1bc75709340",
+      "local_only": true
+    },
+    {
+      "file": "local_history_manifest_r006.json",
+      "bytes": 69507,
+      "sha256": "c0b661271ac78e5450849a6bdae4e4a797fa4846608b6256ca0db4b6c7fba392",
+      "local_only": true
+    }
+  ]
+}

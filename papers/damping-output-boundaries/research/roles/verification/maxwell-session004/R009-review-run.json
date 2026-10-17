@@ -1,0 +1,104 @@
+{
+  "session": "20261017-2109",
+  "role": "verification",
+  "review": "R009",
+  "started_at": "2026-10-17T22:46:29+08:00",
+  "numerical_completed_at": "2026-10-17T22:49:31.009870+08:00",
+  "qa_completed_at": "2026-10-17T22:52:14.184417+08:00",
+  "interpreter": "C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "python_version": "3.12.14",
+  "script": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_floor_results_R009.py",
+  "arguments": [
+    "--source",
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R005-floor-results",
+    "--out",
+    "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R009-floor-review"
+  ],
+  "execution_exit_code": 0,
+  "reproduction_requires_new_output_json": true,
+  "required_corrections": 0,
+  "source_files_sha_rechecked": 18,
+  "counts": {
+    "mapped_groups": 252,
+    "Bottom_shear_groups": 72,
+    "CM_groups": 108,
+    "mapped_Drift_groups": 72,
+    "selected_record_points": 683978,
+    "floor_rows": 72,
+    "top3_rows": 54,
+    "main_comparison_rows": 6,
+    "report_floor_numeric_cells": 216,
+    "report_global_locator_rows": 18
+  },
+  "script_ast_valid": true,
+  "utf8_lf_no_trailing_whitespace": true,
+  "own_report_comparison_rows_checked": 6,
+  "own_report_global_locator_rows_checked": 12,
+  "source_report_comparison_rows_checked": 6,
+  "frozen_R001_R008": [
+    {
+      "run_file": "R001-review-run.json",
+      "sha256": "7d43f7e3fb4b754edce7e44f9c57908314ec27172e6c5a25e97163573dac499f",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R002-review-run.json",
+      "sha256": "f14346e51b39b32ce421433be671a1ddc67a2cb89995652c45aba0514fb6a028",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R003-review-run.json",
+      "sha256": "db8c3ce055d9ba45250a5c59c4444c880eadf12acb4236c6de5e545295054a69",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R004-review-run.json",
+      "sha256": "d2800774203b57330f6da953081f25771161f5e1df84423f2782ee85248e8252",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R005-review-run.json",
+      "sha256": "8043b9282527e3480165a636cb6de44cbd4afe3739b1dff80daa9802e7b82163",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R006-review-validation.json",
+      "sha256": "bac733cf858eca6cb3548e556db765e9ba950eba5c1c8e0c713e674b1a532fcd",
+      "outputs_verified": 1
+    },
+    {
+      "run_file": "R007-review-run.json",
+      "sha256": "1d794223541ae4cd5b2fc46e03850b641192281956a545daeabded4e9b76fc08",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R008-review-run.json",
+      "sha256": "1925e4649afa3131ae9fd9b26cd3a1ad89d943f72a8706826095cdb8da946428",
+      "outputs_verified": 3
+    }
+  ],
+  "read_only_collaborator": "r006_sharp_challenge: six source documents; no NPZ/CSV arrays, numerical recomputation or writes; 0 required changes.",
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\楼层输出与控制位置独审-R009.md",
+      "bytes": 7691,
+      "sha256": "eb8b86079c8fc0ff05d466c2889db08f3456f29313540ec14ac7c50ac441af1e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_floor_results_R009.py",
+      "bytes": 15971,
+      "sha256": "bc0e91337cbf36af7cd5ae843db06dac7f63cef3c1b52a1d723ecc9cde8b4d6c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R009-floor-review\\review_summary.json",
+      "bytes": 23300,
+      "sha256": "0b341a5eb302e627189ba46863c2d7e4cd9aa3313151bee4aa7128c6776e1669"
+    }
+  ],
+  "limits": [
+    "Single-model descriptive output locations only, no reduction/layout superiority/innovation certification.",
+    "Case suffix is mapping convention, not certified excitation direction.",
+    "Drift is exported-record maximum only; 1-21 missing grid steps, unknown unit, Label/XYZ absent from cache.",
+    "Raw XLSX identity inherited from manifest, not reread or rehashed; no full-array outputs or uploads."
+  ]
+}

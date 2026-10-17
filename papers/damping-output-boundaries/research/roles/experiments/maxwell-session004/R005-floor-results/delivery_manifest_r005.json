@@ -1,0 +1,98 @@
+{
+  "evidence_id": "M-EXP-R005",
+  "review_status": "candidate",
+  "completed_utc": "2026-10-17T14:43:50.029451+00:00",
+  "actual_numeric_command": [
+    "C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R005-floor-results\\summarize_floor_results.py"
+  ],
+  "actual_report_command": [
+    "C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R005-floor-results\\write_report_r005.py"
+  ],
+  "numeric_exit_code": 0,
+  "report_exit_code": 0,
+  "checks": {
+    "72_floor_rows": true,
+    "108_separate_CM_groups": true,
+    "72_bottom_shear_groups": true,
+    "72_mapped_drift_groups": true,
+    "all_selected_values_finite": true,
+    "all_shear_and_CM_complete": true,
+    "all_source_hashes_unchanged": true,
+    "protocol_unchanged": true,
+    "runtime_below_480s": true
+  },
+  "delivery_qa": "hashes, CSV row counts, 6 report tables and UTF-8 checked; no rerun",
+  "files": [
+    {
+      "name": "diaphragm_record_peaks_r005.csv",
+      "bytes": 28868,
+      "sha256": "e6a27851b56215accbbb607419095475bf1c00296dd4ce18b04e9164ff8db2df"
+    },
+    {
+      "name": "floor_record_peaks_r005.csv",
+      "bytes": 42489,
+      "sha256": "de4c9be0f190c4fdfac261e59c8f46bd312dd0b122e3d4253d07941c0ce4b9ad"
+    },
+    {
+      "name": "floor_three_metric_table_r005.csv",
+      "bytes": 9517,
+      "sha256": "fc4ea0e6291be246e2c3c167176d09d2c06728cb51c34ccfd8a04c3ebee6cb2c"
+    },
+    {
+      "name": "main_metric_comparison_r005.csv",
+      "bytes": 1237,
+      "sha256": "2b884ded98367a6c7882b756a0e79554c29b66c2b4b2e1b0c747ac31161997f6"
+    },
+    {
+      "name": "mapped_group_coverage_r005.csv",
+      "bytes": 67546,
+      "sha256": "d32d02c6c85aae63217f9caa64e8d469e6f32ab279377b4bb824148ce7c90a20"
+    },
+    {
+      "name": "next-task.md",
+      "bytes": 542,
+      "sha256": "5fb096522b68257e6a1cbaa72488788ab9281fe602da3503721e86cc43192f69"
+    },
+    {
+      "name": "protocol.json",
+      "bytes": 8132,
+      "sha256": "c22487c9550eb6c3b06c9daef89737eda405ace2cf6c0688757e92bbec23e73c"
+    },
+    {
+      "name": "report.md",
+      "bytes": 10717,
+      "sha256": "7b93bbcfee088ecf1862835b2a2e12944c38b494865d0849ed8010d1c6335d37"
+    },
+    {
+      "name": "run_record_r005.json",
+      "bytes": 1010,
+      "sha256": "53d496fac16a8e92b9bc4e1d4fa90c2db99454554049edb6d9a1497bdf930ccb"
+    },
+    {
+      "name": "summarize_floor_results.py",
+      "bytes": 10300,
+      "sha256": "7c97635c26f75c7dc0d6e0be2c1d38ac03bd4eb12167557514379bf8179ff324"
+    },
+    {
+      "name": "summary_r005.json",
+      "bytes": 5626,
+      "sha256": "1afcdbeff8f93da6e3bbd1e866633a3c4e290251973f31464822cc20e65b8733"
+    },
+    {
+      "name": "top3_floor_ranks_r005.csv",
+      "bytes": 9312,
+      "sha256": "7ebec3ea66e73830b16e595639736c800aaaecee4f2bbe267e1c9aa3ae64873a"
+    },
+    {
+      "name": "write_report_r005.py",
+      "bytes": 7794,
+      "sha256": "f4e7bf1fd1f83b4e88e9fdb3ecf9c7b4c1e8300dd0e3fe947927751e63cdc227"
+    }
+  ]
+}
