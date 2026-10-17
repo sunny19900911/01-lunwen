@@ -1,0 +1,24 @@
+{
+  "role": "writing",
+  "round": "W-R004",
+  "frozen_at": "2026-10-17 09:33:13 +08:00",
+  "frozen_files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/working-draft-v004.md",
+      "sha256": "04b44834b8bf4fd5646e693afe60bb3ae8c78a3feb21096ddaf0ccd1f04b1bba",
+      "bytes": 29813
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/round-004.md",
+      "sha256": "790fc9772e0e9e97a7a1627d6544641a3fcb693f2b72d68dbb22e7d5785c3840",
+      "bytes": 8699
+    }
+  ],
+  "predecessor": {
+    "path": "papers/damping-output-boundaries/manuscript/working-draft-v003.md",
+    "sha256": "85c28137339f9dadb3e6e30d299753ff5557e3d522b9f1c5e499037edf706d02"
+  },
+  "scope": "C006 v2 core, minimal effective-mode classification, E-EXP-001 observation; C008/C009/C010 in boundary appendices; E-EXP-004 excluded pending review",
+  "encoding": "UTF-8 without BOM, LF",
+  "validation": "links/math/tags/refined constant/signal-L2 terminology/preserved predecessor passed; scoped git diff --check exit 0"
+}

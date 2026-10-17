@@ -4,3 +4,8 @@ research/** -text
 # Preserve frozen EOF layout while still checking ordinary trailing whitespace.
 papers/** whitespace=-blank-at-eof,blank-at-eol,space-before-tab,cr-at-eol
 research/** whitespace=-blank-at-eof,blank-at-eol,space-before-tab,cr-at-eol
+
+# Matplotlib SVG path coordinates retain generated spaces; preserve frozen hashes.
+papers/damping-output-boundaries/experiments/figures/*.svg whitespace=-blank-at-eof,-blank-at-eol,space-before-tab,cr-at-eol
+
+.gitattributes -text

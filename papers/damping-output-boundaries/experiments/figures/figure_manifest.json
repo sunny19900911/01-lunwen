@@ -1,0 +1,127 @@
+{
+  "finished_utc": "2026-10-17T01:31:11.614927+00:00",
+  "elapsed_seconds": 2.0091052999996464,
+  "script_sha256": "277a85c906ec6d54d0c292817da88388ae7e2c82dc014a4d6ddf405256e63284",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "matplotlib": "3.11.2",
+  "matplotlib_local_package_path": "C:\\Users\\mj528\\.codex\\tmp\\mechanism20261013-pydeps\\matplotlib\\__init__.py",
+  "backend": "Agg",
+  "font": "Arial; SVG text converted to paths",
+  "frozen_sources": {
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round001\\story_cut_and_spatial_acceleration.csv": {
+      "sha256": "e8fc28070333330e3f9525db54fb82d943f9e3f2244912ecae8c15f1b3fe9a31",
+      "bytes": 21146
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round001\\adjacent_cut_net.csv": {
+      "sha256": "f7e0d666e539936b99005a6dadc5747c81e99186f00341a2a996d8842a792b77",
+      "bytes": 24114
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round003\\T4_response_trace.csv": {
+      "sha256": "dbec7c11d49c58478af61628cf1a86683e8724d72c5103d18900beaa882fd9e8",
+      "bytes": 75113
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round003\\truncated_window_result.json": {
+      "sha256": "bdbf900389d91c06de99b4daed0fa0426d4be836b5b9ee3739c1e156a8cc9d9d",
+      "bytes": 32651
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round003\\window_peak_comparison.csv": {
+      "sha256": "d228c67821f60e2d7048bf56041fcd63fe48df60633a6d78206f5addce2b3664",
+      "bytes": 8617
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round004\\complete_peak_witness.json": {
+      "sha256": "0b74f1b6dfe7b36de1667e83b906ff67125bbffebe4ba9c53bea4b11978977ce",
+      "bytes": 4785
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round004\\witness_trace_decimated.csv": {
+      "sha256": "fb7ea8dafd7ee2a09e7deb7ce609cd48f67b07fb8a66b7c08b7e4e3e524587ba",
+      "bytes": 387399
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round004\\finite_input_witness.npz": {
+      "sha256": "e1bacdc2938750250eb829c54357eba17e4d3bee8694cc33a18f65c7647d859e",
+      "bytes": 4990769
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\figures\\plot-data\\fig03_input_plot.csv": {
+      "sha256": "c68bc7f05a7ef43992417d0f08fb92964cf3ec93aef3a2f58b88f36820d12a2c",
+      "bytes": 310216
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\round-002.md": {
+      "sha256": "b52f5040ae530bb2e00700061b9d11c5fb8b692f55957f5a7257ebf29d8d9d00",
+      "bytes": 6764
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\round-006.md": {
+      "sha256": "6a9e9758d4f9b07d0d57cbbff80bd8b8b15349c155c4ff504724c2c1defaad60",
+      "bytes": 5708
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\reply-C006-refinement.md": {
+      "sha256": "1c162770f413d3e56f2f32fea52608ef0746d10ac97cb431462d2f8aa9867e3a",
+      "bytes": 1917
+    }
+  },
+  "outputs": [
+    {
+      "file": "fig01_native_output_changes.png",
+      "sha256": "e9c21dc290c933a9f405ee95b7e4b6129f604de13f50e0f8cb2d5b7b024d2d71",
+      "bytes": 207725
+    },
+    {
+      "file": "fig01_native_output_changes.svg",
+      "sha256": "a99758c25c4b83670b1cfcaf0e88342779fe745e445a99562604c681346d3ea9",
+      "bytes": 144180
+    },
+    {
+      "file": "fig02_window_and_complete_peaks.png",
+      "sha256": "07ccbb2849191ed6d134f7cdea1fd15c7c55caedd95d5fbafbafac120fb42624",
+      "bytes": 272152
+    },
+    {
+      "file": "fig02_window_and_complete_peaks.svg",
+      "sha256": "71594a53c922d8a4ee1ea0980f840d2bbdafcada82c4f9e670644266d96b97ac",
+      "bytes": 116456
+    },
+    {
+      "file": "fig03_complete_peak_witness.png",
+      "sha256": "b64434e206be0965cc02e40bd79642e2809c13072c07766a551bbc4663c2bc91",
+      "bytes": 319556
+    },
+    {
+      "file": "fig03_complete_peak_witness.svg",
+      "sha256": "60e1bee9ed405c426bc620c0ffeccaeef9505e88538acd3d4069a472dcfd2e82",
+      "bytes": 135609
+    },
+    {
+      "file": "fig04_peak_bound_comparison.png",
+      "sha256": "8ca3ca636d4dfbf7d224b97ac72a5101f1fbf2c9f0fba88ffcb66a7f30315b51",
+      "bytes": 204059
+    },
+    {
+      "file": "fig04_peak_bound_comparison.svg",
+      "sha256": "fc7bfcf6109043956349a8a0f4b6da7a4f9af7a6d5e5d8845f72c45da457d83c",
+      "bytes": 81113
+    }
+  ],
+  "native_group_counts": [
+    {
+      "output": "(a) Bottom-cut shear",
+      "down": 168,
+      "equal": 0,
+      "up": 0,
+      "n": 168
+    },
+    {
+      "output": "(b) Net difference $N_j=V_j-V_{j+1}$",
+      "down": 167,
+      "equal": 0,
+      "up": 1,
+      "n": 168
+    },
+    {
+      "output": "(c) Spatial acceleration envelope",
+      "down": 164,
+      "equal": 1,
+      "up": 3,
+      "n": 168
+    }
+  ],
+  "local_witness_policy": "NPZ stays local; no Git commands run. Plot input cache is a decimated derivative, not a replacement witness."
+}

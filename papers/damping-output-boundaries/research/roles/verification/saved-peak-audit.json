@@ -1,0 +1,105 @@
+{
+  "evidence_id": "E-EXP-004-independent-saved-input-audit",
+  "finished_utc": "2026-10-17T01:29:20.658813+00:00",
+  "elapsed_seconds": 0.5402376999991247,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "script_sha256": "0c2666057e30a4bd427851a76285dbb3d41743ae28e2bb2a92fd7f20500bac0b",
+  "input_sha256": "e1bacdc2938750250eb829c54357eba17e4d3bee8694cc33a18f65c7647d859e",
+  "input_samples": 614401,
+  "input_dt": 0.0009765625,
+  "support": [
+    0.0,
+    600.0
+  ],
+  "endpoint_values": [
+    0.0,
+    0.0
+  ],
+  "max_abs_input": 1.0,
+  "same_readonly_saved_input_both_states": true,
+  "method": "Zero-initial piecewise-linear exact exponential recurrence; no FFT and no construction script import.",
+  "states": [
+    {
+      "zeta": 0.05,
+      "zero_initial_complex_states": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "active_sample_peak": 0.014360236444554031,
+      "active_sample_peak_time": 293.7138671875,
+      "tail_sample_peak": 1.9561093300850766e-17,
+      "tail_sample_peak_time": 602.033203125,
+      "complete_sample_peak": 0.014360236444554031,
+      "complete_sample_peak_time": 293.7138671875,
+      "tail_duration": 900.0,
+      "tail_samples": 921601,
+      "remaining_tail_bound_from_final_states": 5.920626834208998e-37,
+      "remaining_tail_bound_from_input_duration": 1.7196620710864732e-17,
+      "final_complex_states": [
+        [
+          -1.8531133036572836e-17,
+          9.128286432596096e-18
+        ],
+        [
+          8.797984264565936e-20,
+          4.25080665472537e-19
+        ]
+      ]
+    },
+    {
+      "zeta": 0.08,
+      "zero_initial_complex_states": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "active_sample_peak": 0.026018302123112624,
+      "active_sample_peak_time": 299.9990234375,
+      "tail_sample_peak": 9.583812396818192e-14,
+      "tail_sample_peak_time": 600.0,
+      "complete_sample_peak": 0.026018302123112624,
+      "complete_sample_peak_time": 299.9990234375,
+      "tail_duration": 900.0,
+      "tail_samples": 921601,
+      "remaining_tail_bound_from_final_states": 5.41939834929959e-45,
+      "remaining_tail_bound_from_input_duration": 3.238491503171967e-29,
+      "final_complex_states": [
+        [
+          3.090714867552853e-14,
+          -9.553066642577945e-14
+        ],
+        [
+          4.367978091182679e-20,
+          9.548696246020062e-20
+        ]
+      ]
+    }
+  ],
+  "complete_sample_ratio": 1.8118296466476214,
+  "reference_ratio": 1.8118296466501136,
+  "ratio_absolute_difference": 2.4922286456785514e-12,
+  "checks": {
+    "input_sha_matches": true,
+    "ratio_above_1p6": true,
+    "ratio_below_6p7375": true,
+    "reference_ratio_difference_below_1e-8": true,
+    "remaining_tail_smaller_than_peaks": true
+  },
+  "limits": [
+    "Sample peaks are not continuous-time extrema certification.",
+    "Exact recurrence means exact piecewise-linear formula evaluated in float64, not exact arithmetic.",
+    "One frozen synthetic input and output; no engineering interpretation or search."
+  ]
+}

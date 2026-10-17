@@ -1,0 +1,71 @@
+{
+  "checks": [
+    {
+      "file": "fig01_native_output_changes.png",
+      "pixels": [
+        3074,
+        1163
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "fig01_native_output_changes.svg",
+      "svg_parses": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "fig02_window_and_complete_peaks.png",
+      "pixels": [
+        2911,
+        1277
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "fig02_window_and_complete_peaks.svg",
+      "svg_parses": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "fig03_complete_peak_witness.png",
+      "pixels": [
+        2570,
+        1888
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "fig03_complete_peak_witness.svg",
+      "svg_parses": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "fig04_peak_bound_comparison.png",
+      "pixels": [
+        2360,
+        1289
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "fig04_peak_bound_comparison.svg",
+      "svg_parses": true,
+      "embedded_raster": false
+    }
+  ],
+  "all_source_and_output_fingerprints_match": true,
+  "visual_review": "Viewed all four PNGs; revised Fig02 annotation/legend and viewed final Fig02-04 again; no clipped labels observed.",
+  "exit_code": 0
+}

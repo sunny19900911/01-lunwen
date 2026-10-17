@@ -18,10 +18,11 @@
     "status": "ACTIVE"
   },
   "last_verified_push": {
-    "commit": "045739d2bd1dba51c47c6a21c4622ebe578240e6",
+    "commit": "e380cb2f848b9a1b2d610e39aa5abaec1bf71369",
     "branch": "main",
     "remote": "origin",
-    "verified_by": "proxy-scoped git ls-remote origin refs/heads/main"
+    "verified_by": "proxy-scoped git ls-remote origin refs/heads/main",
+    "verified_at": "2026-10-17T09:33:14+08:00"
   },
   "git_identity": {
     "name": "Codex Paper Lab",
@@ -55,10 +56,10 @@
       "status": "inProgress"
     }
   ],
-  "next_checkpoint": "Collect frozen E004 review, physical-residue audit, manuscript v004 and rendered figures. All five roles already active; no duplicate dispatch.",
-  "recorded_at": "2026-10-17T09:31:52+08:00",
-  "pending_push": null,
-  "latest_round": "R004.md",
+  "next_checkpoint": "E002b finite-input bridge under independent analysis, E002b modal mapping, manuscript v005, literature004. Do not restart active roles.",
+  "recorded_at": "2026-10-17T09:37:30+08:00",
+  "pending_push": "R005 reviewed frozen files; validating before normal publication",
+  "latest_round": "R005.md",
   "git_transport": {
     "proxy": "http://127.0.0.1:17890",
     "source": "existing Windows system proxy, host/port only",
@@ -71,5 +72,7 @@
       "size_bytes": 22,
       "reason": "unknown provenance; metadata only; not read, not deleted, never staged"
     }
-  ]
+  ],
+  "checkpoint_open": true,
+  "prepared_publication": "ready-round005-files.json"
 }

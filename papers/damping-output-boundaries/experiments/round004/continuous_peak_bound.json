@@ -1,0 +1,8 @@
+{
+  "formula": "M2=sum(abs(r_i)*(3+2*alpha_i/beta_i+omega_i^2/(alpha_i*beta_i))), using input max<=1 and zero initial",
+  "baseline_global_curvature_upper": 228.93920485657355,
+  "baseline_continuous_peak_numerical_upper": 0.014387528124502027,
+  "ratio_numerical_lower": 1.808392789781246,
+  "rounding_note": "Analytic bound evaluated in float64, not directed interval arithmetic",
+  "full_tail_bound": 1.7196620710864732e-17
+}

@@ -1,0 +1,127 @@
+{
+  "evidence_id": "E-EXP-004",
+  "finished_utc": "2026-10-17T01:20:27.769724+00:00",
+  "elapsed_seconds": 1.790720400000282,
+  "code_sha256": "bad9fbfd6dfe0cb5d5937261268655bd193003b4b235beb901c505361c2a46f3",
+  "params": {
+    "omega": [
+      1.0,
+      3.0
+    ],
+    "residues": [
+      1.0,
+      -8.9
+    ],
+    "zeta0": 0.05,
+    "zeta1": 0.08,
+    "target_support": [
+      -100.0,
+      100.0
+    ],
+    "target_positive_spike_sigma": 0.1,
+    "input_support": [
+      0,
+      600.0
+    ],
+    "input_taper_width": 20.0,
+    "zero_initial": true,
+    "same_input_both_states": true,
+    "tail_after_input": 900.0,
+    "generation_period": 1024.0,
+    "target_sign_tanh_scale": 0.002,
+    "target_base_gaussian_sigma": 0.05,
+    "forward_method": "Exact modal convolution weights for piecewise linear saved input; FFT only performs linear discrete convolution"
+  },
+  "Q_TV_numeric": 1.8895033392172904,
+  "inverse_polynomial": [
+    -0.12658227848101264,
+    -0.04117929818939272,
+    -1.2681471445463743
+  ],
+  "inverse_poles": [
+    -0.15588558597423846,
+    0.08120204167044098
+  ],
+  "inverse_residues": [
+    4.8349077272656675,
+    -4.892617994928526
+  ],
+  "runs": [
+    {
+      "power": 18,
+      "dt_s": 0.00390625,
+      "input_samples": 153601,
+      "input_duration_s": 600.0,
+      "normalizing_scale": 69.63673451708652,
+      "max_abs_input": 1.0,
+      "input_l1": 40.235300938664025,
+      "complete_P0": 0.014360236833878905,
+      "complete_P1": 0.026009160893807316,
+      "complete_ratio": 1.8111930321682495,
+      "baseline_peak_time_s": 298.79296875,
+      "new_peak_time_s": 300.0,
+      "baseline_peak_after_input_ends": false,
+      "new_peak_after_input_ends": false,
+      "tail0_bound_after_input_plus_900": 1.7196620710864732e-17,
+      "tail1_bound_after_input_plus_900": 3.238491503171967e-29,
+      "inverse_taper_and_omission_numeric_l1": 1.538734151259637e-09,
+      "ideal_inverse_truncation_l1_bound_unnormalized": 0.00033311932554685,
+      "generation_outer_edge_input_abs": 1.2397327788779276e-13
+    },
+    {
+      "power": 19,
+      "dt_s": 0.001953125,
+      "input_samples": 307201,
+      "input_duration_s": 600.0,
+      "normalizing_scale": 69.63673640487798,
+      "max_abs_input": 1.0,
+      "input_l1": 40.235290387381866,
+      "complete_P0": 0.014360236444540674,
+      "complete_P1": 0.02601467841816403,
+      "complete_ratio": 1.8115773036629925,
+      "baseline_peak_time_s": 293.505859375,
+      "new_peak_time_s": 300.0,
+      "baseline_peak_after_input_ends": false,
+      "new_peak_after_input_ends": false,
+      "tail0_bound_after_input_plus_900": 1.7196620710864732e-17,
+      "tail1_bound_after_input_plus_900": 3.238491503171967e-29,
+      "inverse_taper_and_omission_numeric_l1": 1.5702275645024042e-09,
+      "ideal_inverse_truncation_l1_bound_unnormalized": 0.00033311932554685,
+      "generation_outer_edge_input_abs": 2.76312450550679e-13
+    },
+    {
+      "power": 20,
+      "dt_s": 0.0009765625,
+      "input_samples": 614401,
+      "input_duration_s": 600.0,
+      "normalizing_scale": 69.63673640486638,
+      "max_abs_input": 1.0,
+      "input_l1": 40.23528751686282,
+      "complete_P0": 0.014360236444540753,
+      "complete_P1": 0.026018302123124358,
+      "complete_ratio": 1.8118296466501136,
+      "baseline_peak_time_s": 299.0029296875,
+      "new_peak_time_s": 299.9990234375,
+      "baseline_peak_after_input_ends": false,
+      "new_peak_after_input_ends": false,
+      "tail0_bound_after_input_plus_900": 1.7196620710864732e-17,
+      "tail1_bound_after_input_plus_900": 3.238491503171967e-29,
+      "inverse_taper_and_omission_numeric_l1": 1.696566272906015e-09,
+      "ideal_inverse_truncation_l1_bound_unnormalized": 0.00033311932554685,
+      "generation_outer_edge_input_abs": 1.2431222409187742e-12
+    }
+  ],
+  "ratio_absolute_grid_range": 0.0006366144818641395,
+  "checks": {
+    "Q_TV_above_kappa_only_used_as_guide": true,
+    "same_unit_amplitude_compact_input_for_both_states": true,
+    "all_forward_complete_ratios_above_1p6": true,
+    "all_forward_complete_ratios_below_B21p25": true,
+    "ratio_grid_range_below_1e-3": true,
+    "analytic_remaining_tails_below_1e-10_of_baseline_peak": true,
+    "input_endpoints_zero": true,
+    "elapsed_below_300_seconds": true
+  },
+  "witness_sha256": "e1bacdc2938750250eb829c54357eba17e4d3bee8694cc33a18f65c7647d859e",
+  "limits": "Finite saved input, causal zero-initial forward convolution and complete free-tail checks. FFT quadrature is numerical, not a certified continuous-time extremum proof; ratio convergence and tail bounds supplied. Synthetic fixed real-residue output, not engineering shear."
+}

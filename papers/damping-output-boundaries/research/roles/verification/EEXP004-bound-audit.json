@@ -1,0 +1,13 @@
+{
+  "run_time_utc": "2026-10-17T01:29:33.253424+00:00",
+  "source_sha256": "0b74f1b6dfe7b36de1667e83b906ff67125bbffebe4ba9c53bea4b11978977ce",
+  "script_sha256": "1a7dc091c1ffb1667e1a0ac0e76d029483f963be2b0f2a84572ddc7276654ca1",
+  "curvature_rational_upper": "1029421/4990",
+  "curvature_rational_upper_approx": 206.29679358717434,
+  "safe_curvature_integer": 207,
+  "sample_dt_exact": "1/1024",
+  "continuous_baseline_upper_conditional_on_sample": 0.014384912767477765,
+  "continuous_ratio_lower_conditional_on_samples": 1.8087215782043549,
+  "tail_after_Tplus900": 1.7196620710864732e-17,
+  "scope": "Analytic M2 upper is exact rational after a proven square-root lower bound. Peak envelope uses previously computed floating samples, so the full result remains independently reviewed numerical evidence, not directed-interval certification. No FFT or witness regeneration."
+}

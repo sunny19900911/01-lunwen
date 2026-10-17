@@ -1,0 +1,124 @@
+{
+  "evidence_id": "E-EXP-004",
+  "finished_utc": "2026-10-17T01:18:53.182714+00:00",
+  "elapsed_seconds": 0.8731967999992776,
+  "code_sha256": "8ba36cb8f5bacf6afb3214cb192cb697a867e0430c901cf8a0977024ca49dc19",
+  "params": {
+    "omega": [
+      1.0,
+      3.0
+    ],
+    "residues": [
+      1.0,
+      -8.9
+    ],
+    "zeta0": 0.05,
+    "zeta1": 0.08,
+    "target_support": [
+      -100.0,
+      100.0
+    ],
+    "target_positive_spike_sigma": 0.1,
+    "input_support": [
+      0,
+      600.0
+    ],
+    "input_taper_width": 20.0,
+    "zero_initial": true,
+    "same_input_both_states": true,
+    "tail_after_input": 900.0,
+    "generation_period": 1024.0
+  },
+  "Q_TV_numeric": 1.8895033392172904,
+  "inverse_polynomial": [
+    -0.12658227848101264,
+    -0.04117929818939272,
+    -1.2681471445463743
+  ],
+  "inverse_poles": [
+    -0.15588558597423846,
+    0.08120204167044098
+  ],
+  "inverse_residues": [
+    4.8349077272656675,
+    -4.892617994928526
+  ],
+  "runs": [
+    {
+      "power": 17,
+      "dt_s": 0.0078125,
+      "input_samples": 76801,
+      "input_duration_s": 600.0,
+      "normalizing_scale": 6872.0815630196685,
+      "max_abs_input": 1.0,
+      "input_l1": 1.5208797740806905,
+      "complete_P0": 0.00020202953834213161,
+      "complete_P1": 0.0002693061471592585,
+      "complete_ratio": 1.3330038239418027,
+      "baseline_peak_time_s": 298.375,
+      "new_peak_time_s": 300.0,
+      "baseline_peak_after_input_ends": false,
+      "new_peak_after_input_ends": false,
+      "tail0_bound_after_input_plus_900": 1.7196620710864732e-17,
+      "tail1_bound_after_input_plus_900": 3.238491503171967e-29,
+      "inverse_taper_and_omission_numeric_l1": 3.1615980895710754e-05,
+      "ideal_inverse_truncation_l1_bound_unnormalized": 0.00033311932554685,
+      "generation_outer_edge_input_abs": 1.0762124280198867e-08
+    },
+    {
+      "power": 18,
+      "dt_s": 0.00390625,
+      "input_samples": 153601,
+      "input_duration_s": 600.0,
+      "normalizing_scale": 27348.248576298218,
+      "max_abs_input": 1.0,
+      "input_l1": 0.44701686701846144,
+      "complete_P0": 5.071279171547184e-05,
+      "complete_P1": 6.767065867553453e-05,
+      "complete_ratio": 1.334390326117445,
+      "baseline_peak_time_s": 298.37890625,
+      "new_peak_time_s": 300.0,
+      "baseline_peak_after_input_ends": false,
+      "new_peak_after_input_ends": false,
+      "tail0_bound_after_input_plus_900": 1.7196620710864732e-17,
+      "tail1_bound_after_input_plus_900": 3.238491503171967e-29,
+      "inverse_taper_and_omission_numeric_l1": 2.2268251283645924e-07,
+      "ideal_inverse_truncation_l1_bound_unnormalized": 0.00033311932554685,
+      "generation_outer_edge_input_abs": 3.8684723934683e-10
+    },
+    {
+      "power": 19,
+      "dt_s": 0.001953125,
+      "input_samples": 307201,
+      "input_duration_s": 600.0,
+      "normalizing_scale": 109238.6704540005,
+      "max_abs_input": 1.0,
+      "input_l1": 0.14057258636839542,
+      "complete_P0": 1.2692374991184783e-05,
+      "complete_P1": 1.69420056099529e-05,
+      "complete_ratio": 1.3348176067693875,
+      "baseline_peak_time_s": 298.380859375,
+      "new_peak_time_s": 300.0,
+      "baseline_peak_after_input_ends": false,
+      "new_peak_after_input_ends": false,
+      "tail0_bound_after_input_plus_900": 1.7196620710864732e-17,
+      "tail1_bound_after_input_plus_900": 3.238491503171967e-29,
+      "inverse_taper_and_omission_numeric_l1": 1.8860855363321657e-06,
+      "ideal_inverse_truncation_l1_bound_unnormalized": 0.00033311932554685,
+      "generation_outer_edge_input_abs": 4.219408928228212e-10
+    }
+  ],
+  "ratio_absolute_grid_range": 0.00181378282758482,
+  "checks": {
+    "Q_TV_above_kappa_only_used_as_guide": true,
+    "same_unit_amplitude_compact_input_for_both_states": true,
+    "all_forward_complete_ratios_above_1p6": false,
+    "all_forward_complete_ratios_below_B21p25": true,
+    "ratio_grid_range_below_1e-3": false,
+    "analytic_remaining_tails_below_1e-12_of_baseline_peak": false,
+    "input_endpoints_zero": true,
+    "elapsed_below_300_seconds": true
+  },
+  "witness_sha256": "7aa0fe660697ef9c1ce6a11c4c14d2f5c744d9cd80d4c1c2ef59f07c12d99781",
+  "limits": "Finite saved input, causal zero-initial forward convolution and complete free-tail checks. FFT quadrature is numerical, not a certified continuous-time extremum proof; ratio convergence and tail bounds supplied. Synthetic fixed real-residue output, not engineering shear."
+}
