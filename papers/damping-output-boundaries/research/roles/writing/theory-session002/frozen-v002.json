@@ -1,0 +1,36 @@
+{
+  "session": "20261017-1219",
+  "frozen_at": "2026-10-17 12:30:13 +08:00",
+  "status": "author-self-checked; awaiting master independent citation review",
+  "scope": "Only two Hoagg references [6] to [7] plus v002 version marker; exact three-byte draft diff; no new claims or candidates promoted",
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v002.md",
+      "sha256": "00e9dd4b5f5fc61de905c98d9907b22916324b1173c1786f05b4ca81bda67940",
+      "bytes": 39830
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v002.json",
+      "sha256": "2e6319e7c1efd734eac8f75743b09e217cbde5be6712990569c3d17c750f1786",
+      "bytes": 5763
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v002-citation-audit.json",
+      "sha256": "37a13374515cdf9e36694e811c7ac53496575156cd4513c34c80b5e065b87665",
+      "bytes": 10395
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v002-report.md",
+      "sha256": "9d119286b7ad63bd7dc0dfdb1cf1d8bf00aef7b7e691e688328e750c36d73521",
+      "bytes": 3934
+    }
+  ],
+  "predecessor": {
+    "path": "papers/damping-output-boundaries/manuscript/theory-draft-v001.md",
+    "sha256": "fe04cd562b77991e8bf79b8b788c88bbb815ecd89d870169e77045a916d3eea5",
+    "freeze_path": "papers/damping-output-boundaries/research/roles/writing/theory-round001/frozen.json",
+    "freeze_sha256": "245942e0a8994679719086f42393b5f197d9797e3b27c90c2a31396daecdd9b7"
+  },
+  "validation": "Seven references, 13 tokens/19 expanded uses, 31 unchanged tags, five sections/two figures/11 local links, four assets/eight evidence sources, six parent frozen files; original external equation numbering unchanged; no old validation script rerun",
+  "encoding": "UTF-8 without BOM, LF"
+}

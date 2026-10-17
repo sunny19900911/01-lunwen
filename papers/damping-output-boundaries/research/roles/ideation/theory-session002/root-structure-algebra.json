@@ -1,0 +1,29 @@
+{
+  "status": "candidate; exact algebra checks only, independent proof review pending",
+  "executed_at": "2026-10-17T12:26:04.160841+08:00",
+  "python": "3.13.15",
+  "method": "stdlib Fraction, bivariate polynomial coefficients; no eigenvalue computation, no root search",
+  "script_sha256": "9364adf7b06427436a70b390a41b3bc534c5e0421e40c8a735fea5ef759fcf22",
+  "sources": {
+    "papers/damping-output-boundaries/research/roles/ideation/round-009.md": "886f37bd66938f3ec2c5a152588d7c6baade247d6fb034e39489dac31faa2b33",
+    "papers/damping-output-boundaries/research/roles/verification/appendix-V011-low-damping-IVT.md": "c6c2877aa7ad31922ecaa22c0406efcc75f7c6622fa89dfe4938065266b26ee0",
+    "papers/damping-output-boundaries/research/roles/experiments/round-012-low-damping-bisection.md": "082f00dfd15934bb60637b90206c8637615c4be80a6f0fb980fe193cb30951d6"
+  },
+  "checks": {
+    "transformed_quartic": true,
+    "derivative_numerator_identity": true,
+    "substitute_z_r_squared": true,
+    "negative_shift_coefficients": true,
+    "quadratic_endpoint": true,
+    "small_r_sign": true
+  },
+  "U_of_u_plus_one_third_ascending": [
+    "-455/324",
+    "-914/27",
+    "-116",
+    "-368/3",
+    "-32"
+  ],
+  "F_at_r_one_third_z_one_twelfth": "-203/1296",
+  "limitations": "Algebra checks do not establish trace ordering/implicit differentiation by themselves; see candidate proof. No directed rounding or E012 endpoint certificate."
+}

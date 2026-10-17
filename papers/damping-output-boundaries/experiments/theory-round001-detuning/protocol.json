@@ -1,0 +1,20 @@
+{
+  "session": "20261017-1219",
+  "evidence_id": "E-EXP-T002-001",
+  "review_status": "candidate",
+  "stage": "protocol frozen before numerical execution",
+  "model": {"M": "I3", "k": ["1", "1", "1"], "b": ["1", "1", "1"], "ell": ["0", "-1", "1"], "input_convention": "f=-a", "output": "elastic topcut u3-u2"},
+  "kappa": "1.6",
+  "spectral_parameters": "omega from complete 3x3 symmetric spectrum; S=sum omega; D=product pair sums; zeta_star=sqrt(D/(4*S^3)); Omega=S",
+  "r_values": ["0.9", "1.1", "0.99", "1.01", "0.999", "1.001", "0.9999", "1.0001"],
+  "damping": "zeta0=r*zeta_star; zeta1=kappa*zeta0; same physical M/K/b/ell",
+  "reported_quantities": ["complex H0 and H1", "complex Q=H1/H0", "abs Q", "abs(r-1)*abs Q", "physical-modal Q discrepancy", "eigen and physical equation residuals"],
+  "working_precision_digits": 90,
+  "methods": ["complete modal sum", "physical dynamic stiffness solve with C_zeta=2*zeta*sqrt(K)"],
+  "existing_helper": "../round012_low_damping_bisection.py",
+  "expected_helper_sha256": "6fc6376695d09a81c3816c94205f5efa0a4e109a29662bf2825df67a60d6cd6f",
+  "helper_reuse": "Read and compile only spectrum/add/sub/mul/div/magnitude/harmonic/stringify function ASTs. Do not import or execute its main, write pycache, or rerun bisection.",
+  "success_criteria": {"exactly_eight_prespecified_points": true, "working_precision_at_least_60_digits": true, "relative_Q_route_discrepancy_below": "1e-60", "physical_equation_absolute_residual_below": "1e-70", "runtime_limit_seconds": 300},
+  "not_allowed": ["extra r values or model grid", "time response", "fitting", "complete peak claim", "unboundedness inferred from harmonic samples", "changing morning frozen files", "Git or scheduler operations", "subtask dispatch"],
+  "evidence_boundary": "Eight harmonic checks provide candidate independent numerical consistency only. They do not certify a continuous parameter limit, a full peak gain, an optimal bound, or an unbounded ratio for any one fixed detuned pair."
+}

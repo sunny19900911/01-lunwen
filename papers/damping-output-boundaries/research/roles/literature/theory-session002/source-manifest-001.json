@@ -1,0 +1,70 @@
+{
+  "session": "20261017-1219",
+  "role": "literature",
+  "source_id": "L026",
+  "review_status": "candidate",
+  "started_at": "2026-10-17T12:23:34+08:00",
+  "closed_at": "2026-10-17T12:27:37.734636+08:00",
+  "global_deadline": "2026-10-17T14:19:08+08:00",
+  "search_budget": 4,
+  "queries_used": 2,
+  "queries": [
+    "\"Decoupling approximation design using the peak to peak gain\" filetype:pdf -site:vt.edu -site:researchgate.net",
+    "\"Decoupling approximation design using the peak to peak gain\" site:researchgate.net/publication/257271902"
+  ],
+  "source_url": "https://www.researchgate.net/publication/257271902_Decoupling_approximation_design_using_the_peak_to_peak_gain",
+  "source_type": "public author-uploaded full-text HTML rendering; key sections inspected, not every example",
+  "source_version": "author-uploaded manuscript; publication-version identity not established",
+  "source_content_type": "text/html",
+  "pdf_download_attempts": 1,
+  "pdf_download_result": "published Download full-text PDF button: tool Internal Error; no HTTP status supplied; not retried",
+  "pdf_downloaded": false,
+  "source_pdf_sha256": null,
+  "source_snapshot_saved": false,
+  "original_fulltext_saved": false,
+  "local_cache_pdf_added": false,
+  "inspected_manuscript_locations": [
+    "p7-8 equations 6-11",
+    "p9 equations 12-15",
+    "p10 equations 19-20",
+    "p12 equations 23-24",
+    "section 8 conclusion"
+  ],
+  "limits": [
+    "no visual PDF formula verification",
+    "no publisher pagination crosswalk",
+    "not an exhaustive equivalence or novelty adjudication",
+    "no retry of earlier failed VT or publisher endpoints",
+    "no account, paywall, author contact, Git writes, subagent dispatch, or claims edits"
+  ],
+  "inputs": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "e9c536b0e2903da2b44794e5cfcdf8a832940b7f1b598371d54e6c82443ff8c0"
+    },
+    {
+      "path": "research/sessions/20261017-1219/plan.md",
+      "sha256": "4b0fc5c57b8024786dc48ecec70009496ca2b783d43727ef1509e9565c0f1aaa"
+    },
+    {
+      "path": "research/sessions/20261017-1219/status.json",
+      "sha256": "5d0472c4495754f224257fdfe1d3c515d87fb0d5e66e864afa9aed6eb7b18cdf"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/claims.md",
+      "sha256": "f84b471b79965b040a698ce426b1e157a3e5f2f1427a0486dcc0eb56e5eae5b7"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/fulltext-request-list.md",
+      "sha256": "05edd2eaa62ac21c00053c806106bbabc4d9787156c520a18a9313c9b5352612"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/sultan2013-followup-001.md",
+      "sha256": "c0d7ae36a8c396c7e9863eda34b76b75471a6b039d29ea3a5a509d166bcdaaa6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/sultan2013-crossref-metadata-001.json",
+      "sha256": "13bb90a3972c5843e43529499c67ea6703f62571cf6275144ee67e6855e02ea9"
+    }
+  ]
+}

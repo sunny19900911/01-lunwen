@@ -39,3 +39,19 @@ V002报告的来源SHA affe…与运行JSON/当前源c27…差异已关闭：见
 核常数改进已由V006审核，当前工作稿优先采用C006 v2并保留v1历史。E-EXP-002b的合成三层谐波略超κ反例与E-EXP-003的截断窗示例已有独立限定范围审核，不与工程C004或C006完整峰界混淆。E-EXP-004经V007独立保存输入非FFT递推与曲率外包复核；主控已读完整报告和两份运行JSON，接纳为reviewed numerical-test，完整采样比1.81182964665、连续峰比保守数值下界1.80872158>1.6。样本运算仍float64，非严格区间认证；三网格各自重建候选，不能当同一输入纯积分收敛。标准剪切楼截面映射已由C012审核排除；这不是排除一般三维输出。
 
 2026-10-17 10:38 +08:00成稿交付复核：冻结working-draft-v009.md（SHA76dc25e88faae9c95ea411cee58d56371d526eee9f00b59e7d7ef3f0ff3ba028）已完成数学、数据/图表、引用和作者四项各自范围的终审，均无必修实质问题，报告分别见roles/verification/manuscript-review-v009.md、roles/experiments/manuscript-data-review-v009.md、roles/literature/manuscript-citation-review-v009.md及roles/writing/final-delivery-review-001.md。E012只作单支路近似补充，不改C017精确定义或C018失谐量词；此成稿审阅不提高新颖性、工程因果或浮点认证等级。
+
+## 第二会话理论攻坚（用户已选A）
+
+2026-10-17 12:27 +08:00，核心问题集中为统一峰界/物理三层失界/调谐敏感性；工程证据保留，不再承担新理论稿主线。
+
+| ID | 命题与范围 | 工作状态 | 证据与审核 | 下一步 |
+|---|---|---|---|---|
+| C020 v1 | 正三层物理topcut共同ζ路径，κ>1、δ=|ζ0/ζ*−1|足够小，最优完整峰比有仅依赖κ的显式双侧常数×1/δ，并有逐对可计算商核上界 | supported | verification/theory-round001/explicit-detuning-bound-candidate.md SHAeae981f394ed06dc1bc085dea34fd8bf4343a570128ae38efe483ac03b3b0d79；analytic-derivation/mathematical-proof reviewed，主控与独立验证者已读全推导 | 已核统一性/临界域/根退化；原L1桥接亦已主控核准，交作者v003整合；新颖性仍未核 |
+
+L035这轮新增公开作者PDF两页的文本定位（并非原页公式已视觉核）；L034仍缺全文。文献查新与数学真假继续分开，见roles/literature/theory-round001/prior-art-note.md。
+
+2026-10-17 12:31 +08:00裁决：主控全文读取C020候选及独立explicit-detuning-bound-review.md，另手算AM–GM谱形约束、根系数关系、留数/核常数及同频下界；接纳analytic-derivation/mathematical-proof reviewed。近临界域0<δ≤min{1/2,(κ−1)/(2κ)}，Lκ=(κ−1)(κ+3)/(10κ³)，Uκ=(3−2/κ)³[(κ+C0)/2+C1]，C0=36(κ−1)(1+3κ/2)/7、C1=236(κ−1)(1+9κ/4)/35。原候选K定义Cc1；上界对紧支撑L1亦成立、下界用其Cc1子类，验证者正在独立补写原L1输入类桥接，作者待该补充后明确入稿。未认定K=TV/系数最优/工程误差容限/首创。
+
+| C021 v1 | 固定M=I,k=(1,1,L)族，q(L)=D/(4S³)在L≥1严格下降，因而q=1/400在该半轴恰有一个根，与原区间最小根定义一致 | supported | ideation/theory-session002/low-damping-root-structure.md及verification/theory-round001/root-monotonicity-review.md；不同作者独审、标准库Fraction独立不变量/平移核对与主控全文/导数复核，mathematical-proof/reviewed | 不推广L>0全域；不将E012浮点符号升级定向区间或有限小数精确零点；不称最小工程刚度/新颖性已核 |
+
+2026-10-17 12:35 +08:00：C020-input-class-addendum.md（SHA462eca175cbc2de92c7cb82f946464c256c511edb8bb78d4050dbf7b4b851a55）已由主控全文核准，完整链Lκ/δ≤K_C1≤K_L1≤TV≤Uκ/δ，不声称K_C1=K_L1或K=TV。八点E-EXP-T002-001由主控另按精确三次分子恒等式×机械分母比复核，八行最大相对分量差4.67e-84，标reviewed numerical-test，仅谐波一致性不承担完整峰/普遍证明。

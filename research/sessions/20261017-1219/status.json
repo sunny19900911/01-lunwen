@@ -1,0 +1,83 @@
+{
+  "session": "20261017-1219",
+  "phase": "running",
+  "started_at": "2026-10-17T12:19:08+08:00",
+  "deadline": "2026-10-17T14:19:08+08:00",
+  "approved_direction": "A theory, direct user choice",
+  "master_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+  "scheduler": {
+    "id": "git",
+    "status": "ACTIVE",
+    "interval_minutes": 10,
+    "verified_in_app": true,
+    "rrule": "FREQ=MINUTELY;INTERVAL=10;UNTIL=20261017T061908Z",
+    "prompt_sha256": "e2795bd8df1f790ef03d2e489dded907c3d2acbd23bf3292a5ef0284c2d4a877",
+    "verified_at": "2026-10-17T12:27:57.036300+08:00"
+  },
+  "cutoff": {
+    "id": "automation-3",
+    "status": "ACTIVE",
+    "one_shot_at": "2026-10-17T14:19:08+08:00",
+    "verified_in_app": true,
+    "rrule": "FREQ=DAILY;BYHOUR=14;BYMINUTE=19;BYSECOND=8;COUNT=1",
+    "prompt_sha256": "a107954f9ae8b79c4b05765c260b5158ccf8150d4d3e5c856e4a4be704c57d73",
+    "verified_at": "2026-10-17T12:27:57.036536+08:00"
+  },
+  "role_cursors": [
+    {
+      "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:14",
+      "status": "idle"
+    },
+    {
+      "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:13",
+      "status": "active"
+    },
+    {
+      "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:15",
+      "status": "idle"
+    },
+    {
+      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:14",
+      "status": "idle"
+    },
+    {
+      "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:14",
+      "status": "active"
+    }
+  ],
+  "subagents": {
+    "theory_literature_round1": "completed; frozen outputs handed to original roles; no live child task remains",
+    "detuning_bound_round1": "completed; frozen outputs handed to original roles; no live child task remains",
+    "theory_manuscript_round1": "completed; frozen outputs handed to original roles; no live child task remains"
+  },
+  "latest_round": "R001.md",
+  "checkpoint_open": true,
+  "pending_push": null,
+  "git_transport": {
+    "proxy": "http://127.0.0.1:17890",
+    "source": "existing Windows system proxy, host/port only",
+    "scope": "command-only",
+    "global_config_changed": false
+  },
+  "last_verified_push": {
+    "commit": "23a36ad6d8a5fa2be1fd6437504b78bf4996da96",
+    "branch": "main",
+    "remote": "origin",
+    "source": "previous session verified shutdown receipt push"
+  },
+  "recorded_at": "2026-10-17T12:35:39.729551+08:00",
+  "next_checkpoint": "Collect actual five chat states with cursors. Review asymptotic candidate and input/plot/citation reports; integrate only reviewed claims into v003, independently audit frozen new draft. Never repeat first-round computations. Read owner-theory-session002 next-task; old morning files are history.",
+  "role_work": {
+    "ideation": "New low-damping asymptotic candidate completed; do not promote until independent review",
+    "verification": "Independent review of low-damping asymptotic; C020 and L1 bridge already master accepted",
+    "literature": "C020 related prior-art positioning bounded search",
+    "experiments": "Reuse eight points for explicit theoretical bounds table/optional plot; no new response calculation",
+    "writing": "Sole writer v003 with reviewed C020/C021/L1 bridge; v002 frozen and independently citation-checked"
+  },
+  "prepared_publication": "R001 explicit finished artifacts"
+}

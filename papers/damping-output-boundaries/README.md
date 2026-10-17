@@ -1,8 +1,9 @@
 # 增阻尼输出边界：审阅入口
 
-本课题承接W5既有材料，属于2026-10-17两小时自主研究的候选方向；题目、论文路线与投稿由用户最终决定。
+用户已选择集中理论主线，第二轮时段12:19:08—14:19:08。题目/期刊/署名未最终确定；旧工程与拟合证据完整保留。
 
-- [当前冻结论文v009](manuscript/working-draft-v009.md)：理论、原生工程观察、代理诊断与完整证明附录。
+- [当前理论稿v002](manuscript/theory-draft-v002.md)：五主节/两核心图；引用重排已独核，新理论增量正在另稿整合。
+- [原混合工作稿v009](manuscript/working-draft-v009.md)：保留原生工程、代理诊断及旧支线证据。
 - [当前选题卡](research/topic-cards/T001.md)与[演变记录](research/topic-cards/events.md)：为什么从初始判据问题推进到统一界、物理反例及失谐边界。
 - [A理论稿/C分层结合稿两版蓝图](research/roles/ideation/topic-options-final-candidate.md)、[待用户决策](research/decisions-pending.md)。
 - [主张账本](research/claims.md)：C-ID、前提、证据类型、反对证据及审核状态。

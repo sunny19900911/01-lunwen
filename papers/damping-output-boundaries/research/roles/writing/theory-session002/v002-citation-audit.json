@@ -1,0 +1,218 @@
+{
+  "status": "author validation passed; awaiting master independent citation review",
+  "scope": "Only two Hoagg citation corrections and version marker; no new mathematical or bibliographic claims",
+  "draft": {
+    "path": "papers/damping-output-boundaries/manuscript/theory-draft-v002.md",
+    "sha256": "00e9dd4b5f5fc61de905c98d9907b22916324b1173c1786f05b4ca81bda67940",
+    "bytes": 39830
+  },
+  "parent": {
+    "path": "papers/damping-output-boundaries/manuscript/theory-draft-v001.md",
+    "sha256": "fe04cd562b77991e8bf79b8b788c88bbb815ecd89d870169e77045a916d3eea5",
+    "bytes": 39830
+  },
+  "body_citation_tokens": 13,
+  "expanded_reference_uses": 19,
+  "references": [
+    {
+      "reference": 1,
+      "name": "Richiedei2022",
+      "L_ID": "L001",
+      "body_lines": [
+        17,
+        154
+      ],
+      "occurrences": 2
+    },
+    {
+      "reference": 2,
+      "name": "Rath/Awtar2021",
+      "L_ID": "L015",
+      "body_lines": [
+        17,
+        154,
+        294
+      ],
+      "occurrences": 3
+    },
+    {
+      "reference": 3,
+      "name": "Rath/Awtar2023",
+      "L_ID": "L016",
+      "body_lines": [
+        17,
+        154,
+        294
+      ],
+      "occurrences": 3
+    },
+    {
+      "reference": 4,
+      "name": "Bruna2016",
+      "L_ID": "L019",
+      "body_lines": [
+        17,
+        156,
+        265
+      ],
+      "occurrences": 3
+    },
+    {
+      "reference": 5,
+      "name": "Verwoerd2005",
+      "L_ID": "L020",
+      "body_lines": [
+        17,
+        156,
+        265
+      ],
+      "occurrences": 3
+    },
+    {
+      "reference": 6,
+      "name": "Boyd/Barratt1991",
+      "L_ID": "L033",
+      "body_lines": [
+        17,
+        156,
+        211
+      ],
+      "occurrences": 3
+    },
+    {
+      "reference": 7,
+      "name": "Hoagg2007",
+      "L_ID": "L036",
+      "body_lines": [
+        17,
+        154
+      ],
+      "occurrences": 2
+    }
+  ],
+  "actual_uses": [
+    {
+      "line": 17,
+      "citation": "[1–3]",
+      "references": [
+        1,
+        2,
+        3
+      ],
+      "sentence": "反共振与输出零点的已有研究为这一问题提供背景[1–3]，经典peak gain和卷积估计提供分析工具[4–6]。三质点非最小相位例子已有直接先例[7]。本文按模型、输出、阻尼路径与完整时间域给出正反两端结论，候选贡献的先例覆盖尚需继续核查。"
+    },
+    {
+      "line": 17,
+      "citation": "[4–6]",
+      "references": [
+        4,
+        5,
+        6
+      ],
+      "sentence": "反共振与输出零点的已有研究为这一问题提供背景[1–3]，经典peak gain和卷积估计提供分析工具[4–6]。三质点非最小相位例子已有直接先例[7]。本文按模型、输出、阻尼路径与完整时间域给出正反两端结论，候选贡献的先例覆盖尚需继续核查。"
+    },
+    {
+      "line": 17,
+      "citation": "[7]",
+      "references": [
+        7
+      ],
+      "sentence": "反共振与输出零点的已有研究为这一问题提供背景[1–3]，经典peak gain和卷积估计提供分析工具[4–6]。三质点非最小相位例子已有直接先例[7]。本文按模型、输出、阻尼路径与完整时间域给出正反两端结论，候选贡献的先例覆盖尚需继续核查。"
+    },
+    {
+      "line": 154,
+      "citation": "[1]",
+      "references": [
+        1
+      ],
+      "sentence": "Richiedei等讨论模态常数的符号和输入、测量点对反共振的影响[1]。Rath与Awtar的两自由度分类含本文共同阻尼所对应的参数特例[2]；其三自由度正式论文在相应分类中采用一个刚体模态和两个柔性模态[3]，与本文三正频率剪切链按各自前提对照。Hoagg等在三质点非共点力到位移传递中已有三次分子及复非最小相位零点例子；其正参数相邻弹簧/阻尼串联拓扑下，点力到单坐标位移的无闭右半平面零点定理，也须按输入、输出和拓扑原条件使用[7]。本文的分布基底输入、截面位移差输出及通常稠密的经典阻尼不等于上述专门拓扑。"
+    },
+    {
+      "line": 154,
+      "citation": "[2]",
+      "references": [
+        2
+      ],
+      "sentence": "Richiedei等讨论模态常数的符号和输入、测量点对反共振的影响[1]。Rath与Awtar的两自由度分类含本文共同阻尼所对应的参数特例[2]；其三自由度正式论文在相应分类中采用一个刚体模态和两个柔性模态[3]，与本文三正频率剪切链按各自前提对照。Hoagg等在三质点非共点力到位移传递中已有三次分子及复非最小相位零点例子；其正参数相邻弹簧/阻尼串联拓扑下，点力到单坐标位移的无闭右半平面零点定理，也须按输入、输出和拓扑原条件使用[7]。本文的分布基底输入、截面位移差输出及通常稠密的经典阻尼不等于上述专门拓扑。"
+    },
+    {
+      "line": 154,
+      "citation": "[3]",
+      "references": [
+        3
+      ],
+      "sentence": "Richiedei等讨论模态常数的符号和输入、测量点对反共振的影响[1]。Rath与Awtar的两自由度分类含本文共同阻尼所对应的参数特例[2]；其三自由度正式论文在相应分类中采用一个刚体模态和两个柔性模态[3]，与本文三正频率剪切链按各自前提对照。Hoagg等在三质点非共点力到位移传递中已有三次分子及复非最小相位零点例子；其正参数相邻弹簧/阻尼串联拓扑下，点力到单坐标位移的无闭右半平面零点定理，也须按输入、输出和拓扑原条件使用[7]。本文的分布基底输入、截面位移差输出及通常稠密的经典阻尼不等于上述专门拓扑。"
+    },
+    {
+      "line": 154,
+      "citation": "[7]",
+      "references": [
+        7
+      ],
+      "sentence": "Richiedei等讨论模态常数的符号和输入、测量点对反共振的影响[1]。Rath与Awtar的两自由度分类含本文共同阻尼所对应的参数特例[2]；其三自由度正式论文在相应分类中采用一个刚体模态和两个柔性模态[3]，与本文三正频率剪切链按各自前提对照。Hoagg等在三质点非共点力到位移传递中已有三次分子及复非最小相位零点例子；其正参数相邻弹簧/阻尼串联拓扑下，点力到单坐标位移的无闭右半平面零点定理，也须按输入、输出和拓扑原条件使用[7]。本文的分布基底输入、截面位移差输出及通常稠密的经典阻尼不等于上述专门拓扑。"
+    },
+    {
+      "line": 156,
+      "citation": "[4–6]",
+      "references": [
+        4,
+        5,
+        6
+      ],
+      "sentence": "卷积估计、peak gain、冲激核L1范数与稳定双边算子均为已有工具[4–6]。本文要比较的是同一结构两个阻尼状态的输出商，并进一步跨模型求仅依赖κ的保证；单模型输入/输出增益不自动完成该比较。三质点非最小相位或三次分子本身不能作为本稿的新颖性。最近相关文献L034、L026、L035的全文缺口及同条件覆盖仍未闭合，见[全文核对清单](../research/roles/literature/fulltext-request-list.md)；本文不使用“首次”或“最优”作为已核实结论。"
+    },
+    {
+      "line": 211,
+      "citation": "[6]",
+      "references": [
+        6
+      ],
+      "sentence": "采用经典peak gain/冲激核L1及阶跃响应总变差框架[6]，考虑 $R_{\\alpha,\\beta}(s)=s/(s^2+2\\alpha s+\\beta)$。当 $\\beta>0,\\alpha>0$，记位移因果核为 $g$，则 $R$的普通核为 $g'$。欠阻尼时，令 $\\omega=\\sqrt\\beta$、$\\gamma=\\sqrt{\\beta-\\alpha^2}$、$\\theta=\\arctan(\\gamma/\\alpha)$、$z=\\alpha/\\omega=\\cos\\theta$，有 $g=e^{-\\alpha t}\\sin(\\gamma t)/\\gamma$。第一个极值在 $t_* =\\theta/\\gamma$，其幅值为 $e^{-\\alpha t_*}/\\omega$；后续极值绝对值以 $\\rho=e^{-\\pi\\alpha/\\gamma}$ 递减。计入全部单调段得"
+    },
+    {
+      "line": 265,
+      "citation": "[4]",
+      "references": [
+        4
+      ],
+      "sentence": "此处使用经典卷积估计[4]，直通原子另计。与式（A7）合并得到式（A1）。稳定双边实现及其未来信息的作用可与文献[5]的算子框架对照；本证明的具体系数关系及统一常数由式（A2）—（A7）给出。"
+    },
+    {
+      "line": 265,
+      "citation": "[5]",
+      "references": [
+        5
+      ],
+      "sentence": "此处使用经典卷积估计[4]，直通原子另计。与式（A7）合并得到式（A1）。稳定双边实现及其未来信息的作用可与文献[5]的算子框架对照；本证明的具体系数关系及统一常数由式（A2）—（A7）给出。"
+    },
+    {
+      "line": 294,
+      "citation": "[2]",
+      "references": [
+        2
+      ],
+      "sentence": "Rath与Awtar的两自由度研究[2]已给同号留数和零点位置的分类，并在其Result3式（11）给模态阻尼比区间条件。本文各阶共同阻尼对应该文 $\\chi=1$ 的特例。其三自由度正式论文[3]在§3式（6）进入一个刚体模态与两个柔性模态的分类模型；第3.1节三正频率见证采用不同系统前提。两篇原文的输入/输出与刚体模态假设在引用处保留；本文的完整峰值比估计按式（A1）—（A8）给出。"
+    },
+    {
+      "line": 294,
+      "citation": "[3]",
+      "references": [
+        3
+      ],
+      "sentence": "Rath与Awtar的两自由度研究[2]已给同号留数和零点位置的分类，并在其Result3式（11）给模态阻尼比区间条件。本文各阶共同阻尼对应该文 $\\chi=1$ 的特例。其三自由度正式论文[3]在§3式（6）进入一个刚体模态与两个柔性模态的分类模型；第3.1节三正频率见证采用不同系统前提。两篇原文的输入/输出与刚体模态假设在引用处保留；本文的完整峰值比估计按式（A1）—（A8）给出。"
+    }
+  ],
+  "checks": {
+    "exact_three_byte_diff": true,
+    "five_main_sections": true,
+    "two_figures": true,
+    "seven_references_all_used": true,
+    "formula_tags_unchanged": 31,
+    "local_links_exist": 11,
+    "four_assets_match": true,
+    "all_evidence_sources_match": true,
+    "parent_frozen_files_unchanged": true,
+    "old_validation_not_rerun": true,
+    "new_quantitative_claims_added": false
+  }
+}

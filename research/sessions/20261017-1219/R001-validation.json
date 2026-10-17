@@ -1,0 +1,289 @@
+{
+  "checked_at": "2026-10-17T12:35:39.810150+08:00",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 6533,
+      "sha256": "e9c536b0e2903da2b44794e5cfcdf8a832940b7f1b598371d54e6c82443ff8c0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4780,
+      "sha256": "b60f7ee3910aa099359036a925d4c994f113a22ca1cd22871eb6a029cde1ac1c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/README.md",
+      "bytes": 4190,
+      "sha256": "66edb2c0aa2c7a8b777b158d95c751f4eed903281fa0b23828669dc5abbdc448"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/theory-round001-detuning/detuning_values.json",
+      "bytes": 37565,
+      "sha256": "7df5437996e7cf9a2f42d4dfc244ed481c96051236d1453861b03ae8ffeb9907"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/theory-round001-detuning/eight_harmonic_rows.csv",
+      "bytes": 10090,
+      "sha256": "668662586b10829103c10f1ec2de8e6d1439040aaa5155ccf41204648a1b5ece"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/theory-round001-detuning/protocol.json",
+      "bytes": 1997,
+      "sha256": "d78cddd9e48036c803be51ae50efcf43d49ed89cfce95e109a6cc329c3c640b8"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/theory-round001-detuning/run_detuning.py",
+      "bytes": 7838,
+      "sha256": "d2896f32f21c3c942a2f36364c5d91532f2c9de36b395075cabec6ef7dc55e4d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/theory-round001-detuning/run_record.json",
+      "bytes": 3605,
+      "sha256": "a243bc06cbd87251f0278bb16536411147fe5539dee0ff55b0f365b82ff69d28"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v001.md",
+      "bytes": 39830,
+      "sha256": "fe04cd562b77991e8bf79b8b788c88bbb815ecd89d870169e77045a916d3eea5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v002.md",
+      "bytes": 39830,
+      "sha256": "00e9dd4b5f5fc61de905c98d9907b22916324b1173c1786f05b4ca81bda67940"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v001.json",
+      "bytes": 5548,
+      "sha256": "75cce9f13e342b9cf9897085ad55a6042a8dee18c72da5215fc216824a42211b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v002.json",
+      "bytes": 5763,
+      "sha256": "2e6319e7c1efd734eac8f75743b09e217cbde5be6712990569c3d17c750f1786"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/claims.md",
+      "bytes": 15205,
+      "sha256": "54662234d60ad4952cae0d95a0a32d67935ef02a179592aee08b7f1d8296b71e"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/decisions-pending.md",
+      "bytes": 1473,
+      "sha256": "eef456571d51179eb5fdd794712d06993dba21913188d4c4a8c7efbcec14d485"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/plan.md",
+      "bytes": 920,
+      "sha256": "8969c9fe5c0047452acbcbb02a080d6e4dc582e17e6ddb22cfda1044207af605"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/theory-session002/round-001-detuning.md",
+      "bytes": 4847,
+      "sha256": "baec31d85cc2e919c9ae19266207532126a0b44e959093716a96446a3d5eb895"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/theory-session002/low-damping-root-structure.md",
+      "bytes": 6456,
+      "sha256": "5d9b7ef7e9209f0343a6bca5ffd05fb194b3a6573022aae17de4d317a798b9ac"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/theory-session002/root-structure-algebra.json",
+      "bytes": 1432,
+      "sha256": "93a00a9b82db5ab846f4f32ca2b04894b19761fa1b8d05cac9dd00ee9712589d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/theory-session002/verify_root_structure_algebra.py",
+      "bytes": 3891,
+      "sha256": "9364adf7b06427436a70b390a41b3bc534c5e0421e40c8a735fea5ef759fcf22"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/theory-round001/manifest.json",
+      "bytes": 3385,
+      "sha256": "1db967b408af783f5be7ddcbcf47b7748d2808a710fc815a86fbe9bea5baa9e9"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/theory-round001/prior-art-note.md",
+      "bytes": 5845,
+      "sha256": "1dcf7c03751af810ea922119354d3e7c48c52878f287931766ca1bf01a5ec7cf"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/theory-session002/L026-comparison-001.md",
+      "bytes": 3524,
+      "sha256": "4090821316acb0d4d0c4639fd1c8f3bbf55e09a0619522a9b231f807250a08f6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/theory-session002/source-manifest-001.json",
+      "bytes": 2959,
+      "sha256": "7cf59f8c3c43868aa5e1eb982aeaa01442d8389d5898f2c89abdbaf710f72a6e"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-round001/explicit-detuning-bound-candidate.md",
+      "bytes": 10823,
+      "sha256": "eae981f394ed06dc1bc085dea34fd8bf4343a570128ae38efe483ac03b3b0d79"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-round001/root-monotonicity-algebra-review.json",
+      "bytes": 1057,
+      "sha256": "10276b15ff2707742c6fcbdf9efb421e5343471770b9368c3236ef923dbc7f5b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-round001/root-monotonicity-review.md",
+      "bytes": 5433,
+      "sha256": "df30b7444492d0d280f720d64465f8e2cc8895fbeb9bb215418ad8e8ebc695ac"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-round001/run_record.json",
+      "bytes": 3143,
+      "sha256": "a1d3e2913b287ea0ee9a5394cdfcc530b79ccab3f6526aca556b3645db3e47f7"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-session002/C020-input-class-addendum.md",
+      "bytes": 2853,
+      "sha256": "462eca175cbc2de92c7cb82f946464c256c511edb8bb78d4050dbf7b4b851a55"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-session002/detuning-review-contract.md",
+      "bytes": 4759,
+      "sha256": "b9eb1d1cead7317df1751939ca61162a5461b2ed43f6b59c90468578501a2be7"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-session002/explicit-detuning-bound-review.md",
+      "bytes": 6727,
+      "sha256": "3ee1f68b91e22448f3e127a86207de52d7e3aba2eca5926377f3ccf10dace838"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-round001/build_theory_draft.py",
+      "bytes": 14869,
+      "sha256": "f56341d466f8bc5ed75999261be4607c5550cd6be825728c5d37fd4f807b8c64"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-round001/frozen.json",
+      "bytes": 1444,
+      "sha256": "245942e0a8994679719086f42393b5f197d9797e3b27c90c2a31396daecdd9b7"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-round001/report.md",
+      "bytes": 3592,
+      "sha256": "51ced277e9d7ef8013b02488075939248a5f02818a786d61c00465b40588ec17"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-round001/validation.json",
+      "bytes": 1591,
+      "sha256": "41ca382f5e4078578f66b3d4d112d3124c957d17eaf9e0071fc83d8e522fb220"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-round001/verify_and_freeze.py",
+      "bytes": 4387,
+      "sha256": "992717d194db35f77c4b32bcc65cbd9e9b274ae4d9230ae8322c1ed9f22fbe4f"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/frozen-v002.json",
+      "bytes": 1875,
+      "sha256": "1fb3cbc1df07083d9950a9fbd785ac84ae5334ea4b6777ae8610725890402deb"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/plain-language-story.md",
+      "bytes": 6469,
+      "sha256": "550fd7163767088544f706cc905d40633701f57603aa0e20820a8787654bbd9d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v002-citation-audit.json",
+      "bytes": 10395,
+      "sha256": "37a13374515cdf9e36694e811c7ac53496575156cd4513c34c80b5e065b87665"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v002-report.md",
+      "bytes": 3934,
+      "sha256": "9d119286b7ad63bd7dc0dfdb1cf1d8bf00aef7b7e691e688328e750c36d73521"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/T001.md",
+      "bytes": 3022,
+      "sha256": "5b1c6613a346500d7a1c417f4ed0f27ab5917bf9bbc5b9557f6863f0d4f286f2"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/events.md",
+      "bytes": 3643,
+      "sha256": "fd78e50ee775d8f8dfbdf59a8a43b0d895d6fc05f1302892290ac68a1e8a355a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/history/T001/v012.md",
+      "bytes": 2893,
+      "sha256": "73c96f16cebdcc303b541ee0ebd97be4270a3c31b6acabdf1860ea749acab8b5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/history/T001/v013.md",
+      "bytes": 3040,
+      "sha256": "babd4fce7cecbd337f58bc780660e08a0fdfea1998bc2c6d2679805e7a611b31"
+    },
+    {
+      "path": "research/active-session.json",
+      "bytes": 194,
+      "sha256": "5eb6b82fb7b1a910011addd49cea0b4cf3d18980d3e126c278465d45c92bb51c"
+    },
+    {
+      "path": "research/sessions/20261017-1219/R000.md",
+      "bytes": 1116,
+      "sha256": "17979da595f75880ef71c75615d00c712cce7165306a9461c053324dfd3eb1d2"
+    },
+    {
+      "path": "research/sessions/20261017-1219/R001.md",
+      "bytes": 2112,
+      "sha256": "8c7c3a971bff9e47e683c2f3d6d9ef773356a1e04dead60fd0a33b15dcb9c47d"
+    },
+    {
+      "path": "research/sessions/20261017-1219/audit_detuning_harmonics.py",
+      "bytes": 2703,
+      "sha256": "c857cd623920200e017c7b09da05b4a0acaa74c361290de2b3b76eb15bb51a28"
+    },
+    {
+      "path": "research/sessions/20261017-1219/checkpoint_check.py",
+      "bytes": 3277,
+      "sha256": "1d278c8edc32420ec463fb9abbd711689cd0c67ffc04c58ebe6392d57f0394e6"
+    },
+    {
+      "path": "research/sessions/20261017-1219/detuning-harmonic-independent-audit.json",
+      "bytes": 1919,
+      "sha256": "e7bb0aed40b196b422632fedb38b06049da93c16e135d24e19ea40adb6e1a1ad"
+    },
+    {
+      "path": "research/sessions/20261017-1219/plan.md",
+      "bytes": 4537,
+      "sha256": "4b0fc5c57b8024786dc48ecec70009496ca2b783d43727ef1509e9565c0f1aaa"
+    },
+    {
+      "path": "research/sessions/20261017-1219/ready-R001-files.json",
+      "bytes": 4546,
+      "sha256": "34f41161d7a535839e85a6059daf7579efaa264121c1b520f59dc4afd0eb5108"
+    },
+    {
+      "path": "research/sessions/20261017-1219/role-snapshot-R001.json",
+      "bytes": 7577,
+      "sha256": "1df61dfbe75337c9a3c4d8046b870d63b947e7641ac7bc8de006b8e061839dc0"
+    },
+    {
+      "path": "research/sessions/20261017-1219/root-audit-R001.md",
+      "bytes": 2984,
+      "sha256": "c451a33eee58f451515bc0d897d8b36e76fa68f643ba3c672679be4b654afa96"
+    },
+    {
+      "path": "research/sessions/20261017-1219/status.json",
+      "bytes": 3556,
+      "sha256": "9f30cb417ba4af36c23721100d0c16ee91ef16b32dcedcb360bb3abfb263b85c"
+    },
+    {
+      "path": "research/sessions/20261017-1219/threads.json",
+      "bytes": 1238,
+      "sha256": "7544c17ba89bff69931efc4ee868b278183f2d397f5e147d2b4950f973c2a7ea"
+    },
+    {
+      "path": "research/sessions/20261017-1219/v002-independent-citation-check.json",
+      "bytes": 495,
+      "sha256": "862339053d5cb888499f2bcf8b23b6a50d6741d2dd6d09d5f9e5780c445951f2"
+    }
+  ],
+  "writing_frozen_manifests_match": true,
+  "experiment_run_hashes_match": true,
+  "independent_Q_audit": "actual exit0, eight rows, max relative component difference4.67e-84",
+  "scope": "JSON/AST/local references/frozen hashes/staged bytes, not formal proof or novelty certification"
+}

@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-10-17T12:33:50.726557+08:00",
+  "source_sha256": "7df5437996e7cf9a2f42d4dfc244ed481c96051236d1453861b03ae8ffeb9907",
+  "code_sha256": "c857cd623920200e017c7b09da05b4a0acaa74c361290de2b3b76eb15bb51a28",
+  "method": "cubic numerator identity times three mechanical denominator ratios; no eigensolve, dynamic stiffness solve, time response or added parameter points",
+  "rows": [
+    {
+      "r": "0.9",
+      "max_relative_component_error": "1.81812809034943475917255691200821817752045493003361254116474218296425995038056691589597799E-87"
+    },
+    {
+      "r": "1.1",
+      "max_relative_component_error": "1.70773434988077785088643892771989590818876945501475341302154040647952400028649189602924592E-87"
+    },
+    {
+      "r": "0.99",
+      "max_relative_component_error": "3.71299298766488749325782524903438044882290699449047253490079656100385488386091132085352096E-86"
+    },
+    {
+      "r": "1.01",
+      "max_relative_component_error": "1.01510630135283138735091393377987588824029589825762845378747405651254883568374335121465929E-86"
+    },
+    {
+      "r": "0.999",
+      "max_relative_component_error": "2.87325582597543736739671755903501795997666803370294301870473131176898315407067256516697523E-85"
+    },
+    {
+      "r": "1.001",
+      "max_relative_component_error": "3.76516075983237359596704958570236022309033958759548424892064147349066650069006446755882502E-85"
+    },
+    {
+      "r": "0.9999",
+      "max_relative_component_error": "4.66633225217594504434278330749476496444046533863071776662339020977741388145973721924715088E-84"
+    },
+    {
+      "r": "1.0001",
+      "max_relative_component_error": "6.96103536352275332369743173770032116870286832220447078688120657253465823097462882999720739E-85"
+    }
+  ],
+  "all_passed": true,
+  "scope": "independent algebra organization using frozen spectrum; numerical review, not directed interval or continuous-peak certification"
+}

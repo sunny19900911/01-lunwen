@@ -1,0 +1,56 @@
+{
+  "session": "20261017-1219",
+  "role": "theory_literature_round1",
+  "recorded_at_shanghai": "2026-10-17T12:26:00+08:00",
+  "time_precision": "minute-level report timestamp, not exact request time",
+  "query_budget": 8,
+  "queries_used": 8,
+  "queries": [
+    "\"You\" \"Lee\" \"BIBO stability integral\" pdf",
+    "\"Lee\" \"Luo\" \"839956\" pdf",
+    "\"second-order systems with numerator dynamics\" filetype:pdf",
+    "\"Kwanho You\" \"BIBO\" pdf Minnesota",
+    "\"BIBO stability integral\" \"1693\" filetype:pdf",
+    "\"Lee\" \"Luo\" \"Evaluating\" \"stability integral\" pdf",
+    "\"Kwanho You\" \"BIBO\" site:umn.edu",
+    "\"Jiecai Luo\" \"stability integral\" filetype:pdf"
+  ],
+  "input_sha256": {
+    "AGENTS.md": "e9c536b0e2903da2b44794e5cfcdf8a832940b7f1b598371d54e6c82443ff8c0",
+    ".agents/skills/research-paper-lab/SKILL.md": "7e0bcfd6c4b7843435714a9c71ab6f538d8a9633631f3d657f5c80e0ab210f2b",
+    ".agents/skills/research-paper-lab/references/literature-review.md": "723191813c22462e80aa9d8c4cf3f0cf4aa561cc486095f6f44e870a0361a45f",
+    "papers/damping-output-boundaries/research/roles/literature/fulltext-request-list.md": "05edd2eaa62ac21c00053c806106bbabc4d9787156c520a18a9313c9b5352612",
+    "papers/damping-output-boundaries/research/roles/literature/kernel-norm-prior-art-001.md": "77ab68ee435354b596d7640bf2b798b3b646b23d7ea6cf9d01cce7af21c9154f",
+    "papers/damping-output-boundaries/research/roles/verification/round-006.md": "6a9e9758d4f9b07d0d57cbbff80bd8b8b15349c155c4ff504724c2c1defaad60"
+  },
+  "L035": {
+    "doi": "10.1109/9.839956",
+    "public_author_pdf": "https://www.researchgate.net/profile/Jiecai-Luo/publication/3023605_On_Evaluating_the_bounded-input-bounded-output_stability_integral_for_second-order_systems/links/55802f8008ae87edac4c900d/On-Evaluating-the-bounded-input-bounded-output-stability-integral-for-second-order-systems.pdf",
+    "author_upload_page": "https://www.researchgate.net/publication/3023605_On_Evaluating_the_bounded-input-bounded-output_stability_integral_for_second-order_systems",
+    "upload_attribution": "page states Jiecai Luo, Jun 16 2015",
+    "web_pdf_parse": "success; 2 pages; print 311-312",
+    "visual_review": "not completed; screenshots returned text placeholders without pixels",
+    "direct_download": "403; no saved file, bypass, or retry",
+    "pdf_sha256": null,
+    "sha_reason": "no local PDF bytes; parsed web result is not byte snapshot",
+    "locations": ["p.311 section II equation (1), output x1", "p.311 Proposition equation (3)", "p.312 continuation and conclusions"],
+    "relation": "related-not-equivalent for BIBO background; insufficient-text for exact velocity kernel bound and sharpness"
+  },
+  "L034": {
+    "doi": "10.1016/S0005-1098(00)00075-3",
+    "status": "insufficient-text",
+    "new_entry": "https://www.researchgate.net/publication/242505922_BIBO_stability_integral_L-gain_for_second-order_systems_with_numerator_dynamics",
+    "result": "search result states no full text; direct page Internal Error; prior publisher/API 429 routes not retried"
+  },
+  "constraints": {
+    "login": false,
+    "paid_access": false,
+    "contact_authors": false,
+    "upload_full_text": false,
+    "git_mutation": false,
+    "new_fulltext_cache_files": 0
+  },
+  "output_sha256": {
+    "prior-art-note.md": "1dcf7c03751af810ea922119354d3e7c48c52878f287931766ca1bf01a5ec7cf"
+  }
+}

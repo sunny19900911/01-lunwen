@@ -1,0 +1,79 @@
+{
+  "recorded_at": "2026-10-17T12:24:01.922151+08:00",
+  "evidence_status": "candidate; independent mathematical review pending",
+  "task_scope": "pure analytic detuning bound; no new model or numerical parameter scan",
+  "input_files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 6533,
+      "sha256": "e9c536b0e2903da2b44794e5cfcdf8a832940b7f1b598371d54e6c82443ff8c0"
+    },
+    {
+      "path": "docs/多角色论文研究框架.md",
+      "bytes": 15317,
+      "sha256": "f2ca1b17f8f7851e9a9b794fa2349f94929a8e393db73b17e384bcf22c0b379b"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/SKILL.md",
+      "bytes": 11385,
+      "sha256": "7e0bcfd6c4b7843435714a9c71ab6f538d8a9633631f3d657f5c80e0ab210f2b"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/references/evidence-boundaries.md",
+      "bytes": 4621,
+      "sha256": "f9c52c3a368c7653ab34db1efbfe9b4d8d104ac0cf529eefa508aacf0d9fa013"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/detuning-boundary-note.md",
+      "bytes": 4585,
+      "sha256": "ef58d94058f8a20fcdb1fe933495a273b2f879a3d8fde50ee7b2d5d43df198be"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/detuning-boundary-review.md",
+      "bytes": 5569,
+      "sha256": "d8b3077827b8ba0c8e0670ec3a6bcde80c7ff7c8769f47917e0c98cce2759866"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/addendum-V011-general-topcut.md",
+      "bytes": 5491,
+      "sha256": "9e411f53f706d2cb5489f7e559a4ba064a0ac8176dd0c57676a50f7865b1b70e"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/round-006.md",
+      "bytes": 5708,
+      "sha256": "6a9e9758d4f9b07d0d57cbbff80bd8b8b15349c155c4ff504724c2c1defaad60"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/working-draft-v009.md",
+      "bytes": 57170,
+      "sha256": "76dc25e88faae9c95ea411cee58d56371d526eee9f00b59e7d7ef3f0ff3ba028"
+    }
+  ],
+  "output_report": {
+    "path": "papers/damping-output-boundaries/research/roles/verification/theory-round001/explicit-detuning-bound-candidate.md",
+    "bytes": 10823,
+    "sha256": "eae981f394ed06dc1bc085dea34fd8bf4343a570128ae38efe483ac03b3b0d79"
+  },
+  "actual_actions": [
+    "Read listed source files and the personal skill copy; canonical repository skill is authoritative.",
+    "Derived cubic factor and residue estimates by hand.",
+    "Ran this Python standard-library UTF-8, link, whitespace, tag and SHA-256 check."
+  ],
+  "checks": {
+    "utf8_decodes": true,
+    "lf_only": true,
+    "no_trailing_whitespace": true,
+    "all_local_markdown_links_exist": true,
+    "formula_tags_unique": true
+  },
+  "numerical_experiments_run": false,
+  "formal_proof_assistant_run": false,
+  "literature_search_run": false,
+  "new_solver_run": false,
+  "git_index_or_commit_or_push_modified": false,
+  "limitations": [
+    "Static checks do not certify mathematical validity.",
+    "Constants intentionally conservative; no claim that total variation equals the optimal output peak ratio.",
+    "Novelty not investigated."
+  ]
+}

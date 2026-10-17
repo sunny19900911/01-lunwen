@@ -1,0 +1,72 @@
+{
+  "evidence_id": "E-EXP-T002-001",
+  "review_status": "candidate",
+  "finished_utc": "2026-10-17T04:26:00.862891+00:00",
+  "elapsed_seconds": 0.010267799996654503,
+  "command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\theory-round001-detuning\\run_detuning.py"
+  ],
+  "cwd": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen",
+  "python": "3.12.14",
+  "dependencies": "Python standard library only",
+  "exit_code_after_checks": 0,
+  "checks": {
+    "exactly_eight_prespecified_r_values": true,
+    "working_precision_at_least_60": true,
+    "fixed_complete_unit_spectrum_positive": true,
+    "fixed_topcut_projection_moments": true,
+    "eigen_equation_residual_below_1e_70": true,
+    "all_positive_detuned_H0_H1": true,
+    "Q_relative_routes_below_1e_60": true,
+    "physical_equation_residual_below_1e_70": true,
+    "all_recorded_sources_unchanged": true,
+    "runtime_below_300_seconds": true
+  },
+  "protocol_frozen_before_execution": true,
+  "protocol_file_last_write_utc": "2026-10-17T04:25:02.124374+00:00",
+  "sources": [
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\theory-round001-detuning\\protocol.json",
+      "sha256": "d78cddd9e48036c803be51ae50efcf43d49ed89cfce95e109a6cc329c3c640b8"
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round012_low_damping_bisection.py",
+      "sha256": "6fc6376695d09a81c3816c94205f5efa0a4e109a29662bf2825df67a60d6cd6f"
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round010_unit_topcut_envelopes\\unit_topcut_envelope_result.json",
+      "sha256": "9456e1b43d564d3116b2408cc7595134134318f576ef320ad0793b98e7db1103"
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\working-draft-v009.md",
+      "sha256": "76dc25e88faae9c95ea411cee58d56371d526eee9f00b59e7d7ef3f0ff3ba028"
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\questions.md",
+      "sha256": "c00221f25ff985e7ddf6fc0bb12056db79b70d8cf1d74282908eaaa6ef628911"
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\next-task.md",
+      "sha256": "718c95473b5a4922242fd46f6bac092549a7712da56449b9ce9bcc7b7938b941"
+    }
+  ],
+  "files": [
+    {
+      "file": "run_detuning.py",
+      "bytes": 7838,
+      "sha256": "d2896f32f21c3c942a2f36364c5d91532f2c9de36b395075cabec6ef7dc55e4d"
+    },
+    {
+      "file": "detuning_values.json",
+      "bytes": 37565,
+      "sha256": "7df5437996e7cf9a2f42d4dfc244ed481c96051236d1453861b03ae8ffeb9907"
+    },
+    {
+      "file": "eight_harmonic_rows.csv",
+      "bytes": 10090,
+      "sha256": "668662586b10829103c10f1ec2de8e6d1439040aaa5155ccf41204648a1b5ece"
+    }
+  ],
+  "no_time_response_no_fit_no_extra_grid": true
+}

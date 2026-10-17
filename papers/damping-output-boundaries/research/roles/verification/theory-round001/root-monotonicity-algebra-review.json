@@ -1,0 +1,34 @@
+{
+  "time": "2026-10-17T12:29:21.438019+08:00",
+  "method": "one independent stdlib Fraction algebra recomputation; determinant by permutation, shifted polynomial by Horner; no eigenvalues, q grid, bisection or experiment",
+  "inputs": {
+    "low-damping-root-structure.md": "5d9b7ef7e9209f0343a6bca5ffd05fb194b3a6573022aae17de4d317a798b9ac",
+    "verify_root_structure_algebra.py": "9364adf7b06427436a70b390a41b3bc534c5e0421e40c8a735fea5ef759fcf22",
+    "root-structure-algebra.json": "93a00a9b82db5ab846f4f32ca2b04894b19761fa1b8d05cac9dd00ee9712589d"
+  },
+  "checks": {
+    "spectral_trace": [
+      "3",
+      "2"
+    ],
+    "spectral_second_invariant": [
+      "1",
+      "5"
+    ],
+    "spectral_determinant": [
+      "0",
+      "1"
+    ],
+    "U_shift_Horner_coefficients": [
+      "-455/324",
+      "-914/27",
+      "-116",
+      "-368/3",
+      "-32"
+    ],
+    "F_endpoint": "-203/1296",
+    "all_checks_passed": true
+  },
+  "meaning": "finite exact algebra cross-check; structural proof manually reviewed separately",
+  "source_preserved": true
+}
