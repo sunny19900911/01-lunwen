@@ -1,0 +1,60 @@
+{
+  "started_at": "2026-10-18T04:33:32+08:00",
+  "completed_at": "2026-10-18T04:40:58.385602+08:00",
+  "elapsed_seconds": 446.385602,
+  "limit_minutes": 8,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Independentintegrationtranscriptionpassed;freezeandstop",
+  "mustfix": 0,
+  "required_changes": 0,
+  "manuscript_sha256": "d55f09c509c2da354eb009567b3516afdb995d7127b03a0a69877a5725720752",
+  "author_freeze_sha256": "71a791d42ce5ce9582e9dec6c0be63c47d8a86eb67cd0e389eb2892ba1c4f207",
+  "input_files_checked": 14,
+  "input_changed": [],
+  "author_frozen_files_checked": 5,
+  "author_direct_sources_checked": 12,
+  "protected_prior_manifest_identities_checked": 21,
+  "protected_prior_entries_not_opened": true,
+  "old_own_frozen_files_checked": 77,
+  "old_changed": [],
+  "display_equations": 6,
+  "Li_data_rows": 6,
+  "Li_exact": [
+    "R²[(1+θ)H+1]",
+    "2C*R²H²",
+    "Lp√κRH²",
+    "2R²T",
+    "2√κRH",
+    "2χRH"
+  ],
+  "gap": "7.459103975104",
+  "half_gap": "3.729551987552",
+  "arithmetic": "ExactFractionconstanttranscriptiononly",
+  "local_links_checked": 13,
+  "broken_links": [],
+  "readonly_subreview": {
+    "agent": "/root/prior_work_audit",
+    "mustfix": 0,
+    "scope": "6equations,6Li,quantifiers,realnonzeroa,unknownactualB,errorballs,Kaenergy,half-gap;no newproof,program,arraysorfiles"
+  },
+  "QA_notes": [
+    "First protectedentryscan halted atCSV guard beforeopeningCSV;only21manifestidentitiesfinalscope.",
+    "FirsttablecountmistookleadingLaTexabsolutevalueforrow;finaldetectionusesactualheader/separator;sourceunchanged."
+  ],
+  "R029_R040_read_or_adopted": false,
+  "new_proof_search_arrays_CSV_ODE_experiments": false,
+  "author_shared_oldmanuscript_git_modified": false,
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 5150,
+      "sha256": "88db0f21fd302ea4e15564b9892f6a1c4283351e7cd37d4cc6575db75c8cd02e"
+    },
+    {
+      "file": "report.md",
+      "bytes": 5622,
+      "sha256": "bff81bfa5951b2cbb94e2f949240cc2f00691bd672574800e22495cd0f10b8fe"
+    }
+  ],
+  "validation_self_hash": "omitted"
+}

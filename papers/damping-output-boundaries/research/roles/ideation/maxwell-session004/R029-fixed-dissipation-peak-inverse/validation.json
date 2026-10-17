@@ -1,0 +1,52 @@
+{
+  "status": "frozen fixed-D inverse candidate; independent role2 audit pending",
+  "start": "2026-10-18T04:26:59+08:00",
+  "completed_at": "2026-10-18T04:31:58.941956+08:00",
+  "elapsed_seconds": 299.942,
+  "within_10_minutes": true,
+  "overall_deadline_unchanged": "2026-10-18T07:09:45+08:00",
+  "source_checks": [
+    {
+      "path": "research/sessions/20261017-2109/fixed-dissipation-peak-inverse-protocol-v001.md",
+      "sha256": "6d25d547c2b34bf1b207508190e24baaf0a54c5b615e7c67f0cdcfecc1a284f7",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/input-freeze.json",
+      "sha256": "cc75cf518d2a83d3a1bcca00910219113a6cedfef6f5085c3b9863b8094f65d0",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/report.md",
+      "sha256": "9d037f1409d384d5a86d41b608971669890a22309574f05940459548c16ad0d6",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/非零末力耗散峰力区间独审-R017.md",
+      "sha256": "5a3596a03e9508861ccfda513ee170addf62c29a35ef97e4ed9e33a3db4c5c6d",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R009-nonzero-terminal-force/report.md",
+      "sha256": "80eada1fa18980877fac82c0860224cff4ca2944655912c5ea2d696371fd9893",
+      "unchanged": true
+    }
+  ],
+  "M_C018_independent_math_identity": "Confirmed against novelty R023 input-freeze id M-C018_independent_math; old verification nonzero-terminal-force R017, not FNA literature.",
+  "checks_all_passed": true,
+  "QA": "UTF8/LF, final newline, trailing whitespace, JSON parse and normalized local Markdown links passed.",
+  "files_checked_before_validation": [
+    "author-crosscheck.json",
+    "checks.json",
+    "checks.py",
+    "report.md",
+    "source-freeze.json"
+  ],
+  "scope": "Only own new R029 directory written. No current role2 artifacts, trajectories, time integration, array/NPZ read, parameter scan, original engineering tables, external search, or old/shared/manuscript/Git changes.",
+  "limits": [
+    "Exact attainable interval remains in old bounded measurable speed / AC state / free terminal total-delta class.",
+    "All domain-empty conditions are tested before restricted inverse notation is used.",
+    "Work is only D+h squared/(2 kappa); sigma sign shift does not change domain.",
+    "No true engineering parameter, continuous V, real D, building feasibility/output or novelty guarantee."
+  ]
+}

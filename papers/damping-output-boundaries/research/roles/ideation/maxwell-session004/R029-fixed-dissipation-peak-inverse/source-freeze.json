@@ -1,0 +1,37 @@
+{
+  "round": "R029-fixed-dissipation-peak-inverse",
+  "start": "2026-10-18T04:26:59+08:00",
+  "deadline": "2026-10-18T04:36:59+08:00",
+  "overall_deadline": "2026-10-18T07:09:45+08:00",
+  "frozen_at": "2026-10-18T04:27:10.973648+08:00",
+  "sources": [
+    {
+      "path": "research/sessions/20261017-2109/fixed-dissipation-peak-inverse-protocol-v001.md",
+      "bytes": 2114,
+      "sha256": "6d25d547c2b34bf1b207508190e24baaf0a54c5b615e7c67f0cdcfecc1a284f7"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/input-freeze.json",
+      "bytes": 7734,
+      "sha256": "cc75cf518d2a83d3a1bcca00910219113a6cedfef6f5085c3b9863b8094f65d0"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/report.md",
+      "bytes": 7693,
+      "sha256": "9d037f1409d384d5a86d41b608971669890a22309574f05940459548c16ad0d6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/非零末力耗散峰力区间独审-R017.md",
+      "bytes": 7166,
+      "sha256": "5a3596a03e9508861ccfda513ee170addf62c29a35ef97e4ed9e33a3db4c5c6d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R009-nonzero-terminal-force/report.md",
+      "bytes": 8485,
+      "sha256": "80eada1fa18980877fac82c0860224cff4ca2944655912c5ea2d696371fd9893"
+    }
+  ],
+  "scope": "Inverse fixed-D attainable-peak candidate, only frozen M-C018 sources and tiny exact checks. No opponent in-progress file, trajectories, arrays, scans, external search or old/shared/manuscript/Git changes.",
+  "M_C018_index_identity_confirmed": true,
+  "additional_sources_frozen_at": "2026-10-18T04:29:30.082600+08:00"
+}

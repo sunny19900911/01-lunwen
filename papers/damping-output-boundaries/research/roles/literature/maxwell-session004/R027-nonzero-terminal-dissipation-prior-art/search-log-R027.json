@@ -1,0 +1,55 @@
+{
+  "queries": [
+    "\"nonlinear drag\" \"optimal control\" \"state constraint\" energy",
+    "\"scalar\" \"attainable cost\" \"state constraint\" optimal control"
+  ],
+  "total_queries": 2,
+  "query_outcome": "No direct exact-condition primary hit; broad spacecraft/eco-driving/state-constraint noise not opened or used as evidence",
+  "reused_Cots_same_primary": true,
+  "new_Gusev_from_old_unopened_index": true,
+  "web_click_Gusev_PDF": "Internal Error with no PDF or HTTP status; subsequent landing retrieval to inspect advertised link had SSL handshake timeout; no body obtained; stopped without retry",
+  "retrievals": [
+    {
+      "name": "cots2021",
+      "url": "https://ct.gitlabpages.inria.fr/gallery/turnpike/1d/bsb_turnpike.html",
+      "status": 200,
+      "bytes": 125027,
+      "sha256": "4c4b91f63a0d092349ea7875bc90e141fadb8381d78746e9ce962db55d4bf9df",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R027-nonzero-terminal-dissipation-prior-art\\local-cache\\cots2021.html",
+      "PDF_candidate_links": []
+    },
+    {
+      "name": "gusev_landing",
+      "url": "https://umjuran.ru/index.php/umj/article/view/82",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "retried": false
+    },
+    {
+      "name": "Liberzon_preliminary_copy",
+      "url": "https://liberzon.csl.illinois.edu/teaching/cvoc.pdf",
+      "status": 200,
+      "bytes": 1589709,
+      "sha256": "06cd456e649a235b43b14de63b1192cd9f545422036d5c82d95c02e1a9590f7c",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R027-nonzero-terminal-dissipation-prior-art\\local-cache\\liberzon_cvoc.pdf",
+      "pages": 200,
+      "fulltext_obtained": true,
+      "read_scope_PDF_pages": [
+        95,
+        96,
+        120,
+        121,
+        122,
+        129,
+        130,
+        142,
+        143,
+        144
+      ]
+    }
+  ],
+  "prior_nowpublishers_mathrug_2003_RC_not_retried": true,
+  "Gusev_fulltext_obtained": false,
+  "fulltext_obtained_total": 2,
+  "new_primary_body_count": 0,
+  "note": "Gusev metadata success, PDF body unavailable; not classified from abstract; Liberzon reused already-read author copy as second full text"
+}

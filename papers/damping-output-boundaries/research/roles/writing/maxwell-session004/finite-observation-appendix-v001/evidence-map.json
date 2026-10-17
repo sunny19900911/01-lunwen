@@ -1,0 +1,74 @@
+{
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-finite-observation-appendix-v001.md",
+    "bytes": 6700,
+    "sha256": "d55f09c509c2da354eb009567b3516afdb995d7127b03a0a69877a5725720752"
+  },
+  "input_freeze": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\finite-observation-appendix-v001\\input-freeze.json",
+    "bytes": 13796,
+    "sha256": "ff93bb928ac5a3ed11223964d97d7d3e9fdb155b799828981535f2fcf8df5d2b"
+  },
+  "mapping": [
+    {
+      "section": "1/equation1",
+      "sources": [
+        "research/sessions/20261017-2109/R019-adoption.json",
+        "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R028-finite-observation-neighbor/report.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R039-finite-observation-neighbor-review/report.md",
+        "research/sessions/20261017-2109/layout-nonlinear03-protocol-v001.json",
+        "research/sessions/20261017-2109/finite-observation-neighbor-protocol-v001.md"
+      ],
+      "scope": "Samefixednonzeroa,physicalC0 unchanged,sixcontinuoushistories,finiteH>=6T andpositivefiniteperquantityscales;nonzeroa notexactsamehistory."
+    },
+    {
+      "section": "2/equations2-3/6Li table",
+      "sources": [
+        "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R028-finite-observation-neighbor/report.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R039-finite-observation-neighbor-review/report.md",
+        "research/sessions/20261017-2109/R019-C037-readable-table.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R034-asymmetric-neighborhood-review/report.md"
+      ],
+      "scope": "Fullstatepassiveenergy/inputarea;samelyoutnominaldifference;explicitKa storagechange;p derivativeandseparatecumulativeintegrals;6exactLi."
+    },
+    {
+      "section": "3/equation4",
+      "sources": [
+        "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R028-finite-observation-neighbor/report.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R039-finite-observation-neighbor-review/report.md"
+      ],
+      "scope": "forallfiniteH/scales/eta exists sameexactrealnonzeroa;deterministicerrorballs/commonmidpoint;actualspatialBidentityomitted."
+    },
+    {
+      "section": "4/equations5-6",
+      "sources": [
+        "research/sessions/20261017-2109/R019-adoption.json",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R039-finite-observation-neighbor-review/report.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R034-asymmetric-neighborhood-review/report.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R039-finite-observation-neighbor-review/closure_checks.json"
+      ],
+      "scope": "Inheritedsamewindowgap>=7.459103975104 andone-sideerror>=3.729551987552,HcontainsT,notsolelyunknownfuturetail."
+    },
+    {
+      "section": "5/contractandlimits",
+      "sources": [
+        "research/sessions/20261017-2109/R019-adoption.json",
+        "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R028-finite-observation-neighbor/report.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R039-finite-observation-neighbor-review/report.md",
+        "research/sessions/20261017-2109/R016-adoption.json",
+        "research/sessions/20261017-2109/R011-certificate-adoption.md",
+        "research/sessions/20261017-2109/R011-nonlinear-certificate-adoption.json"
+      ],
+      "scope": "C025machinecontract inherited;classicconditionalinference/coverageunknown;notprobability,quantization,infiniteH,known-Bforwardimpossibilityorengineeringtolerance."
+    }
+  ],
+  "current_status": "C037 adopted rootR019;newstandaloneappendixawaitsindependentintegrationreview.",
+  "history": "OriginalR028candidate/oldnoveltyfiniteprecisionpendinglabels untouched;currentrootadoptioncontrols.",
+  "excluded": [
+    "R029/R040 inverse candidates",
+    "noise/trajectory curves",
+    "nonzeroa exactsamehistory",
+    "changescompactv003/C025figure"
+  ],
+  "no_previous_version_diff": true
+}

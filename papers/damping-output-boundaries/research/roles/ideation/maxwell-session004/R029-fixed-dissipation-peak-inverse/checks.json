@@ -1,0 +1,37 @@
+{
+  "all_passed": true,
+  "arithmetic": "fractions.Fraction",
+  "derivative_sum_and_U_cancellation": true,
+  "positive_interior_zero_terminal_U_derivative": true,
+  "inverse_domain_branches": [
+    {
+      "D": "1",
+      "L_argument": "1",
+      "U_argument_after_clipping": "3",
+      "lower_is_h": true
+    },
+    {
+      "D": "3",
+      "L_argument": "3",
+      "U_argument_after_clipping": "3",
+      "lower_is_h": true
+    },
+    {
+      "D": "5",
+      "L_argument": "5",
+      "U_argument_after_clipping": "5",
+      "lower_is_h": false
+    },
+    {
+      "D": "7",
+      "L_argument": "7",
+      "U_argument_after_clipping": "7",
+      "lower_is_h": false
+    }
+  ],
+  "outside_D_domain_never_calls_inverse": true,
+  "naive_lower_U_inverse_counterexample": true,
+  "dwell_time_fill_and_endpoints": true,
+  "shortest_time_singleton_and_work_shift": true,
+  "scope": "Logical order labels and isolated algebra only. No Maxwell function values approximated, inverse numerically solved, trajectory/array read, time integration or model parameter sweep."
+}

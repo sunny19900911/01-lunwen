@@ -1,0 +1,85 @@
+{
+  "task": "R027",
+  "decision": "exact-condition publication/direct-complete-specialization unresolved; no first claim",
+  "validated_at": "2026-10-18T04:34:39.011329+08:00",
+  "elapsed_seconds": 454.011329,
+  "old_inputs_unchanged": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R023-contribution-grading\\input-freeze.json",
+      "bytes": 7734,
+      "sha256": "cc75cf518d2a83d3a1bcca00910219113a6cedfef6f5085c3b9863b8094f65d0",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\非零末力耗散峰力区间独审-R017.md",
+      "bytes": 7166,
+      "sha256": "5a3596a03e9508861ccfda513ee170addf62c29a35ef97e4ed9e33a3db4c5c6d",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R008\\control-source-review.md",
+      "bytes": 8156,
+      "sha256": "5cd2a46cc916d35764c4a33293d67633dde0ca905add9d087b7509658f16b4c0",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R009\\report.md",
+      "bytes": 6414,
+      "sha256": "61b5fb107a2a7b92bb3a4c9f316ad5847464723b368469ebf0c96fadac26b407",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R008-energy-bound-sources\\R008-energy-bound-sources.md",
+      "bytes": 8389,
+      "sha256": "3ec179aa7d73353fdb1e84c40fd819ac12158c005194b63d775b587d7ac90e0d",
+      "unchanged": true
+    }
+  ],
+  "new_queries": 2,
+  "readable_fulltexts": 2,
+  "both_reused_primary_sources": true,
+  "new_direct_samecondition_body_hits": 0,
+  "Gusev_body_unavailable": true,
+  "new_proof_or_cost_calculation": false,
+  "fixedD_inverse_adopted": false,
+  "mapping_scope": "original and previously verified variable/control/cost/endpoint correspondences only,not optimality proof",
+  "peer_reviews": [
+    "local_literature old notes,failures and target quantifiers only;no new primary",
+    "weng2016_source old alpha1 mapping and same Liberzon selected excerpt;no proof/calculation/query"
+  ],
+  "actually_viewed": [
+    "Liberzon PDF142",
+    "Liberzon PDF143"
+  ],
+  "table_column_counts": [
+    [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
+  ],
+  "table_absolute_values_abs_not_pipe": true,
+  "no_arrays_excel_solver_shared_Git": true,
+  "no_old_failed_entry_retries": true,
+  "no_third_query_or_third_readable_fulltext": true,
+  "explicit_artifact_links": [
+    "input-rules-R027.json",
+    "search-log-R027.json",
+    "source-manifest-R027.json",
+    "report.md",
+    "freeze_R027.py",
+    "validation-R027.json",
+    "freeze-R027.json"
+  ],
+  "limits": "bounded positioning only; no whole-field priority certification, unread Gusev not excluded, no engineering conclusions"
+}

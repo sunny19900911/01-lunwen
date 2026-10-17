@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-18T04:34:39.011329+08:00",
+  "originals_cache_only": true,
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R027-nonzero-terminal-dissipation-prior-art\\local-cache\\cots2021.html",
+      "bytes": 125027,
+      "sha256": "4c4b91f63a0d092349ea7875bc90e141fadb8381d78746e9ce962db55d4bf9df"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R027-nonzero-terminal-dissipation-prior-art\\local-cache\\liberzon_cvoc.pdf",
+      "bytes": 1589709,
+      "sha256": "06cd456e649a235b43b14de63b1192cd9f545422036d5c82d95c02e1a9590f7c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R027-nonzero-terminal-dissipation-prior-art\\local-cache\\liberzon_selected_pages.txt",
+      "bytes": 28897,
+      "sha256": "b39a75bd3a41016191bb8bb6719a8a66c555eb849701a337a0966b5ac7d7ebea"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R027-nonzero-terminal-dissipation-prior-art\\local-cache\\liberzon-142.png",
+      "bytes": 349937,
+      "sha256": "edc7f5a42f9cdf7031480ea2b715ed445db97898dc8e3f223281f4d262f9c14a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R027-nonzero-terminal-dissipation-prior-art\\local-cache\\liberzon-143.png",
+      "bytes": 230843,
+      "sha256": "4de9012b94f8c09cd475a017864dba6e0ff891a3caf571176296b9bfbf07395d"
+    }
+  ],
+  "sources": [
+    {
+      "id": "Cots2021",
+      "url": "https://ct.gitlabpages.inria.fr/gallery/turnpike/1d/bsb_turnpike.html",
+      "version": "author date November2021",
+      "type": "author teaching/computational example, not verified peerreview theorem",
+      "read_scope": "sections I, II formulation, III original problem/multiple shooting; code not executed",
+      "previously_read_primary": true,
+      "target_relation": "structural neighbor only, no drag/exact peak/full cost interval established"
+    },
+    {
+      "id": "Liberzon2011",
+      "url": "https://liberzon.csl.illinois.edu/teaching/cvoc.pdf",
+      "version": "August9 2011 preliminary copy,200PDFpages,not publication page numbering",
+      "read_scope": "version note PDF1/2; selected text PDF95/96,120-122,129/130,142-144; actually viewed PDF142/143",
+      "previously_read_primary": true,
+      "target_relation": "classical augmentation/existence and global HJB sufficiency; no complete M-C018 specialization performed"
+    },
+    {
+      "id": "Gusev2017",
+      "doi": "10.15826/umj.2017.1.003",
+      "metadata_url": "https://umjuran.ru/index.php/umj/article/view/82",
+      "fulltext_obtained": false,
+      "body_SHA": null,
+      "read_scope": "publisher metadata only,not body-based coverage decision"
+    }
+  ]
+}

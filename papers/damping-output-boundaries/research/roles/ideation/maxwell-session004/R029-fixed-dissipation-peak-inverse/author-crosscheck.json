@@ -1,0 +1,31 @@
+{
+  "status": "author-side crosschecks only; independent role2 same-protocol derivation pending",
+  "reviews": [
+    {
+      "agent": "peak_bound_audit",
+      "result": "inverse theorem, monotonicity, endpoint guards and construction correct",
+      "findings": [
+        "tau derivative positive, L prime=P tau prime positive, U prime=P prime(T-tau)",
+        "U strictly increasing on closed feasible interval despite zero derivative at final endpoint",
+        "D domain exactly [L(h),L(MT)], D0=U(h)",
+        "lower endpoint h for D<=D0, otherwise restricted U inverse; upper restricted L inverse",
+        "positive P(M) permits dwell ell=(D-L)/P in [0,T-tau]",
+        "Dmin singleton h, Dmax singleton MT, shortest-time singleton handled separately",
+        "domain-empty guards precede all inverse calls"
+      ]
+    },
+    {
+      "agent": "spectral_zero_order",
+      "result": "complete domain and all attainable peaks follow from old fixed-peak fill theorem",
+      "findings": [
+        "h>=B or insufficient time gives empty set",
+        "all fixed-D interval points have actual admissible speed construction, not just necessary inequalities",
+        "D=D0 returns h at lower endpoint",
+        "all inverses restricted to [h,MT] and their exact images",
+        "sigma change leaves D/peak domain unchanged; W must subtract terminal spring storage first",
+        "bounded measurable speed and free terminal total delta are essential, no smoothing/closure added"
+      ]
+    }
+  ],
+  "independence_scope": "Internal author agents read only frozen protocol and old M-C018 material. No role2 current in-progress artifact was read."
+}

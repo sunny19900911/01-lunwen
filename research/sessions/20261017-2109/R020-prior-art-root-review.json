@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-18T04:42:28.189100+08:00",
+  "literature_report_sha256": "bde5eb1cc53c372ddcfbd8179ab1e84da06f11adde8e50d0e36354e5a1733645",
+  "root_full_report_read": true,
+  "primary_readings": [
+    {
+      "url": "https://ct.gitlabpages.inria.fr/gallery/turnpike/1d/bsb_turnpike.html",
+      "scope": "Root web-read original formulation and structural bang/hold example; no restoring drift or exact-peak total cost interval in this formulation"
+    },
+    {
+      "url": "https://liberzon.csl.illinois.edu/teaching/cvoc.pdf",
+      "scope": "Root web confirmed version/section plus actually viewed cached PDF142/143 (printed132/133), including all-state C1 HJB boundary condition and global comparison. Source legitimately provides sufficient optimality, not only PMP."
+    }
+  ],
+  "inference": "These inspected positions do not directly provide the specific forced exact-peak/full attainable-cost set. No whole-field nonexistence inference or exact-priority certification.",
+  "Gusev": "Unobtained original per role3; no coverage rejection by root, no repeated access.",
+  "source_limits": "Role3 two bounded queries and two reused readable primary texts. Originals, excerpt text and page images stay local; only self-written positioning enters Git.",
+  "new_claim_C038": "Classical inverse corollary, no new source theorem claimed."
+}

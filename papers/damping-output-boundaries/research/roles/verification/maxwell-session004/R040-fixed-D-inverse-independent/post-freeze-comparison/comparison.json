@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-18T04:34:11.267078+08:00",
+  "required_changes": 0,
+  "mathematically_equivalent": true,
+  "first_author_report_read_at": "2026-10-18T04:32:50+08:00",
+  "independent_freeze_precedes_author_first_read": true,
+  "independent_validation": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R040-fixed-D-inverse-independent\\validation.json",
+    "bytes": 10677,
+    "sha256": "7afa29be7d15d5deb0ce02eddee95b4b09e664f6de7d2cdba22b0c69d72c7a29"
+  },
+  "author_small_sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R029-fixed-dissipation-peak-inverse\\artifact-manifest.json",
+      "bytes": 968,
+      "sha256": "816bc25937e5a04814ff51c3b0697170a157685ed1af52ccc8f9d7c3b1fbd8d4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R029-fixed-dissipation-peak-inverse\\author-crosscheck.json",
+      "bytes": 1652,
+      "sha256": "6a433177bfcf4b0d60d2e2f894118cff2d0c5620624eecafffc7ad1b184bb594"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R029-fixed-dissipation-peak-inverse\\checks.json",
+      "bytes": 1061,
+      "sha256": "5a5aca7e57d5a5ef0297c6dc64934c1ea27c3ea72fde1970c9a4b0a3dd75cafc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R029-fixed-dissipation-peak-inverse\\checks.py",
+      "bytes": 2916,
+      "sha256": "3b900c752abaae52fcca100867c4f272f884b997c49ee37cfa1da161df2ad67d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R029-fixed-dissipation-peak-inverse\\report.md",
+      "bytes": 7186,
+      "sha256": "c6cc612de443a58642a20d7cdb10a054fb00d051d827a33f2f44b1ac0fcdc910"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R029-fixed-dissipation-peak-inverse\\source-freeze.json",
+      "bytes": 1809,
+      "sha256": "90e6ac6e7a10475a6ff8a2a2f74272c44fcd3f02d841ee65e06ddb30a53e92c3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R029-fixed-dissipation-peak-inverse\\validation.json",
+      "bytes": 2681,
+      "sha256": "9194099a80ecaec5aeeafdbd0edab2c040254908557a9479821f12100e42fdef"
+    }
+  ],
+  "all_author_manifest_and_source_SHA_verified": true,
+  "original_R040_eight_outputs_unchanged": true,
+  "old_39_records_146_outputs_unchanged": true,
+  "symbol_mapping": {
+    "independent_D0": "author_D_min = L(h)",
+    "independent_Dh": "author_D0 = U(h)",
+    "independent_DT": "author_D_max = L(M_T) = U(M_T)"
+  },
+  "numeric_rerun": false,
+  "scope": "Static finite comparison only; no arrays, trajectories, parameter sweep, external search, old/shared/manuscript/Git writes."
+}

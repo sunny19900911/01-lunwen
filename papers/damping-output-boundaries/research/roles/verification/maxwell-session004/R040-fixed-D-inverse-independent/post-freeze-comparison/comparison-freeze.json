@@ -1,0 +1,30 @@
+{
+  "frozen_at": "2026-10-18T04:34:11.267078+08:00",
+  "deadline": "2026-10-18T04:36:58+08:00",
+  "required_changes": 0,
+  "comparison_completed": true,
+  "original_independent_R040_validation": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R040-fixed-D-inverse-independent\\validation.json",
+    "bytes": 10677,
+    "sha256": "7afa29be7d15d5deb0ce02eddee95b4b09e664f6de7d2cdba22b0c69d72c7a29"
+  },
+  "original_R040_outputs_verified": 8,
+  "prior_39_small_outputs_verified": 146,
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R040-fixed-D-inverse-independent\\post-freeze-comparison\\compare_author.py",
+      "bytes": 3504,
+      "sha256": "0d9333f07fab8ee9f31c1f54a8ca186386a3780192fb520e195d2f8353aa3b4b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R040-fixed-D-inverse-independent\\post-freeze-comparison\\comparison.json",
+      "bytes": 3619,
+      "sha256": "42aca8343a711f3073bf9d469f4908b831dcf2d8e0faa0ba6d2e0b86068dc580"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R040-fixed-D-inverse-independent\\post-freeze-comparison\\report.md",
+      "bytes": 3004,
+      "sha256": "a611a5a884ee127a230740e48b33a5a9bde161ee45d5cf5d417eadb5266b04cd"
+    }
+  ]
+}

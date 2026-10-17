@@ -1,0 +1,15 @@
+{
+  "all_passed": true,
+  "arithmetic": "fractions.Fraction",
+  "tau_derivative_identity": true,
+  "L_prime_positive_and_U_prime_cancellation": true,
+  "U_prime_zero_at_time_endpoint": true,
+  "zero_endpoint_slope_compatible_with_strict_increase": true,
+  "restricted_inverse_clipping_boundary": true,
+  "actual_Maxwell_boundary_counterexample_Uh_minus_D0": "1/4",
+  "holding_time_exact_interval_attainment": true,
+  "zero_available_hold_time_no_Delta_division": true,
+  "work_storage_shift": true,
+  "new_role1_candidate_read": false,
+  "scope": "Tiny exact scalars only. General monotonicity and inverse proof in independent report. No trajectories, arrays, ODE, parameter sweep or external search."
+}
