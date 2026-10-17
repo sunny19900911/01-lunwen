@@ -1,0 +1,108 @@
+{
+  "session": "20261017-2109",
+  "role": "verification",
+  "review": "R011",
+  "started_at": "2026-10-17T23:05:11+08:00",
+  "numerical_completed_at": "2026-10-17T23:08:44.845390+08:00",
+  "qa_completed_at": "2026-10-17T23:11:33.336652+08:00",
+  "interpreter": "C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "python_version": "3.12.14",
+  "script": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_device_distribution_R011.py",
+  "arguments": [
+    "--source",
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R006-device-distribution",
+    "--out",
+    "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R011-device-review"
+  ],
+  "execution_exit_code": 0,
+  "execution_wall_time_seconds_reported_by_shell": 1.9151227,
+  "reproduction_requires_new_output_json": true,
+  "required_corrections": 0,
+  "source_files_sha_rechecked": 20,
+  "groups_checked": 192,
+  "paired_points_checked": 521472,
+  "intervals_checked": 521280,
+  "rank_rows_checked": 192,
+  "six_CSV_points_checked": 16296,
+  "source_report_distribution_rows_checked": 48,
+  "own_report_diagnostic_numeric_cells_checked": 36,
+  "own_report_rank_examples_checked": 2,
+  "script_ast_valid": true,
+  "utf8_lf_no_BOM_or_trailing_whitespace": true,
+  "frozen_R001_R010": [
+    {
+      "run_file": "R001-review-run.json",
+      "sha256": "7d43f7e3fb4b754edce7e44f9c57908314ec27172e6c5a25e97163573dac499f",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R002-review-run.json",
+      "sha256": "f14346e51b39b32ce421433be671a1ddc67a2cb89995652c45aba0514fb6a028",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R003-review-run.json",
+      "sha256": "db8c3ce055d9ba45250a5c59c4444c880eadf12acb4236c6de5e545295054a69",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R004-review-run.json",
+      "sha256": "d2800774203b57330f6da953081f25771161f5e1df84423f2782ee85248e8252",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R005-review-run.json",
+      "sha256": "8043b9282527e3480165a636cb6de44cbd4afe3739b1dff80daa9802e7b82163",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R006-review-validation.json",
+      "sha256": "bac733cf858eca6cb3548e556db765e9ba950eba5c1c8e0c713e674b1a532fcd",
+      "outputs_verified": 1
+    },
+    {
+      "run_file": "R007-review-run.json",
+      "sha256": "1d794223541ae4cd5b2fc46e03850b641192281956a545daeabded4e9b76fc08",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R008-review-run.json",
+      "sha256": "1925e4649afa3131ae9fd9b26cd3a1ad89d943f72a8706826095cdb8da946428",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R009-review-run.json",
+      "sha256": "1d78f89de0ff567e9d7b914b2ebe0ffd970481a7bbd3f219dae96d8e435bf23f",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R010-review-run.json",
+      "sha256": "6447cd6f4c5b157f4dbcd93d7d2b9441af349da0de029af9774541499f0dfbc9",
+      "outputs_verified": 3
+    }
+  ],
+  "read_only_collaborator": "r006_sharp_challenge: six source documents only; no NPZ/CSV point arrays/recomputation/writes; 0 required changes.",
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\共同完整32装置分布独审-R011.md",
+      "bytes": 7992,
+      "sha256": "9a6fdd665f24cedff2810e2d920f8def8eb7aed301267ae46ebe6e18cc23b98a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_device_distribution_R011.py",
+      "bytes": 15120,
+      "sha256": "b5796474a2b3ba50b26b8d9f1b7128830628e48da8a166040cb7bb16788b7151"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R011-device-review\\review_summary.json",
+      "bytes": 354667,
+      "sha256": "61b4456d24206f399d9f925f5e36f10f40efe37e1282d73201d915cc77cbedd2"
+    }
+  ],
+  "limits": [
+    "Frozen NPZ arithmetic review, not another original-sheet reader; tail extra/duplicate exclusions inherited from same-SHA R001.",
+    "Fixed fitted parameters and P/U1 physical port remain conditional; no true dissipation/all88/global direction/event/layout/reduction certification.",
+    "Classical discrete model identity does not bound continuous integration error or independently validate physics.",
+    "Source R006 candidate only; downstream affine intervals/manuscript not reviewed. Full histories local only; no new time-history arrays/upload."
+  ]
+}

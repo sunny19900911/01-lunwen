@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-17T23:29:06.423534+08:00",
+  "draft_sha256": "7403a532b8dd8714ffc1a8c49943397c804e7ca573ed3084089cf0e50bc75fe9",
+  "reviewer": "root, independent from author",
+  "checks": {
+    "draft_identity": true,
+    "freeze_7_files": true,
+    "sources_52_hashes": true,
+    "five_inherited_tables_exact": true,
+    "48_distribution_rows_exact": true,
+    "six_drift_three_budget_exact": true,
+    "six_ledger_rows_exact": true,
+    "5_of_24_sets_independent": true,
+    "521472_points": true,
+    "three_images_resolve": true,
+    "image03_identity": true,
+    "local_links_resolve": true,
+    "formula_tags_1_to_7": true,
+    "explicit_scope_and_exceptions": true,
+    "no_unreviewed_new_candidates": true,
+    "utf8_LF_no_trailing": true
+  },
+  "passed": true,
+  "scope": "Small-artifact identity, integration/transcription and 24-group selection arithmetic; full changed prose read separately by root. No raw Excel/NPZ or author script; no remote rendering/engineering/novelty certification.",
+  "ledger_review_keys": [
+    "K2/RH4X",
+    "K5/RH4X",
+    "K2/SHW4X",
+    "K2/SHW7X",
+    "K5/SHW4X",
+    "K5/SHW7X"
+  ],
+  "prior_run": "R006-v004-root-review.json retained: audit keyed several distinct ledger tables by same IDs and overwrote earlier rows; corrected to unique matching header. No draft or scientific value changed."
+}

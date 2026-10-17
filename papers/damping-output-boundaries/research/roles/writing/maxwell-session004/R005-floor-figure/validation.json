@@ -1,0 +1,39 @@
+{
+  "validated_at": "2026-10-17T23:07:12.427653+08:00",
+  "passed": true,
+  "checks": {
+    "72_rows_raw_and_plot": true,
+    "six_cases": true,
+    "independent_144_normalizations_and_144_raw_values_checked": true,
+    "twelve_series_have_exact_unit_maximum": true,
+    "source_SHA_still_matches": true,
+    "SVG_parses_and_all_six_case_labels_exist": true,
+    "english_non_simultaneous_note_present": true,
+    "sparse_Drift_not_in_plot_CSV": true,
+    "python_AST_and_node_syntax_valid": true,
+    "existing_output_directory_rejected": true,
+    "existing_PNG_rejected": true,
+    "existing_outputs_unchanged_after_rejection": true,
+    "v003_and_R004_stop_package_unchanged": true,
+    "actual_PNG_visual_QA_passed": true
+  },
+  "actual_numeric_QA": "Independent standard-library reread of source72 rows and plotting72 rows;144 raw values,144 ratios,12 denominators checked; no full histories",
+  "visual_QA": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\R005-floor-figure\\plot-v001\\visual_QA.json",
+    "bytes": 1016,
+    "sha256": "1cd40082267e54a4527dca488e05192a8c0d6e3c4f33ae14ebb4cb950eeebd9a"
+  },
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R005-floor-results\\floor_three_metric_table_r005.csv",
+      "bytes": 9517,
+      "sha256": "fc4ea0e6291be246e2c3c167176d09d2c06728cb51c34ccfd8a04c3ebee6cb2c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\楼层输出与控制位置独审-R009.md",
+      "bytes": 7691,
+      "sha256": "eb8b86079c8fc0ff05d466c2889db08f3456f29313540ec14ac7c50ac441af1e"
+    }
+  ],
+  "limits": "Author figure QA; source scientific independent review is R009. No model comparison or forward solver verification."
+}

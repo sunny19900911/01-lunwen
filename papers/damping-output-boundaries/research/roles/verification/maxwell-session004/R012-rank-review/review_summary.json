@@ -1,0 +1,2791 @@
+{
+  "recorded_at": "2026-10-17T23:18:38.391825+08:00",
+  "checks_passed": true,
+  "script_sha256": "e300f9b269a8b2ee1161e07db78f806281185b7fb4fd5a774b964c7f280f6b6a",
+  "method": "Independent Decimal-string Fraction coefficients and strict cross-member half-line intersection; no author code invocation/root-cell solver/grid approximation.",
+  "a_hat_exact": "20006042528243313/10000000000000000000000",
+  "H_definition": "stored DeltaUs divided by exact reported a_hat; no endpoint-force reconstruction",
+  "groups_checked": 24,
+  "source_summary_rows": 192,
+  "strict_inequalities_checked": 576,
+  "pair_records_checked": 672,
+  "endpoint_events_checked": 48,
+  "pair_classification": {
+    "positive_root": 506,
+    "negative_root": 166
+  },
+  "global_lower_exact": "0",
+  "global_upper_exact": "109364269142319412472415054009/4862139290568601250000000000000000",
+  "global_upper_decimal": "2.2493034980396427e-05",
+  "global_k_lower_exact": "4862139290568601250000000000000000/109364269142319412472415054009",
+  "global_k_lower_decimal": "44458.20676807464",
+  "limiting_case_story": [
+    "SHW4Y",
+    "Story9"
+  ],
+  "all_full_W_vs_hat_weak_orders_equal_count": 24,
+  "peak_top_mismatch_groups": [
+    {
+      "Case": "RH4X",
+      "Story": "Story8",
+      "peak_top": [
+        "K10",
+        "K92"
+      ],
+      "W_and_hat_top": [
+        "K103",
+        "K92"
+      ]
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story8",
+      "peak_top": [
+        "K10",
+        "K61"
+      ],
+      "W_and_hat_top": [
+        "K10",
+        "K92"
+      ]
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story9",
+      "peak_top": [
+        "K66",
+        "K8"
+      ],
+      "W_and_hat_top": [
+        "K8",
+        "K91"
+      ]
+    },
+    {
+      "Case": "SHW4Y",
+      "Story": "Story11",
+      "peak_top": [
+        "K6",
+        "K80"
+      ],
+      "W_and_hat_top": [
+        "K5",
+        "K80"
+      ]
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story11",
+      "peak_top": [
+        "K6",
+        "K80"
+      ],
+      "W_and_hat_top": [
+        "K5",
+        "K80"
+      ]
+    }
+  ],
+  "maximum_decimal_Dport_reconstruction_error_exact": "9071/5000000000000000000",
+  "maximum_decimal_Dport_reconstruction_error_kNm": 1.8142e-15,
+  "synthetic_implementation_checks": [
+    "internal_swap_does_not_shrink_interval",
+    "parallel_and_identical_selected_lines",
+    "finite_excluded_boundary",
+    "positive_lower_bound_unbounded_right",
+    "nonpersistent_cut_tie_rejected_by_unique_method",
+    "permanent_multi_member_cut_not_misclassified"
+  ],
+  "proof_scope": "Cross-member strict inequalities are necessary and sufficient only for actual unique-cut sets of size two. General degenerate cases audited via pairwise sign-cell theorem in report, not inferred from finite tests.",
+  "records": [
+    {
+      "Case": "RH4X",
+      "Story": "Story10",
+      "lower_exact": "0",
+      "upper_exact": "1711742478917594459184334643067/1154860999246005125000000000000000",
+      "upper_decimal": "0.001482206499340761",
+      "k_lower_exact": "1154860999246005125000000000000000/1711742478917594459184334643067",
+      "k_lower_decimal": "674.66982532107954",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K101",
+        "K75"
+      ],
+      "bottom_hat": [
+        "K13",
+        "K15"
+      ],
+      "full_W_weak_order": [
+        [
+          "K75"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K81"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K13"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K75"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K81"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K13"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K14",
+          "loser": "K15"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K101",
+            "K75"
+          ],
+          "bottom": [
+            "K13",
+            "K15"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K101",
+            "K75"
+          ],
+          "bottom": [
+            "K13",
+            "K14",
+            "K15"
+          ],
+          "pairs": [
+            [
+              "K14",
+              "K15"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story11",
+      "lower_exact": "0",
+      "upper_exact": "649240874456928770969735399086059/139018431625549422700000000000000000",
+      "upper_decimal": "0.0046701783847315995",
+      "k_lower_exact": "139018431625549422700000000000000000/649240874456928770969735399086059",
+      "k_lower_decimal": "214.12458317852264",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K100",
+        "K74"
+      ],
+      "bottom_hat": [
+        "K5",
+        "K6"
+      ],
+      "full_W_weak_order": [
+        [
+          "K74"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K80"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K5"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K74"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K80"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K5"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K7",
+          "loser": "K5"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K100",
+            "K74"
+          ],
+          "bottom": [
+            "K5",
+            "K6"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K100",
+            "K74"
+          ],
+          "bottom": [
+            "K5",
+            "K6",
+            "K7"
+          ],
+          "pairs": [
+            [
+              "K5",
+              "K7"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story8",
+      "lower_exact": "0",
+      "upper_exact": "133594820978795543268014900516829/69490703077332080000000000000000000",
+      "upper_decimal": "0.0019224848082214077",
+      "k_lower_exact": "69490703077332080000000000000000000/133594820978795543268014900516829",
+      "k_lower_decimal": "520.16015716927973",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K103",
+        "K92"
+      ],
+      "bottom_hat": [
+        "K27",
+        "K83"
+      ],
+      "full_W_weak_order": [
+        [
+          "K92"
+        ],
+        [
+          "K103"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K83"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K92"
+        ],
+        [
+          "K103"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K83"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K28",
+          "loser": "K27"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K103",
+            "K92"
+          ],
+          "bottom": [
+            "K27",
+            "K83"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K103",
+            "K92"
+          ],
+          "bottom": [
+            "K27",
+            "K28",
+            "K83"
+          ],
+          "pairs": [
+            [
+              "K27",
+              "K28"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story9",
+      "lower_exact": "0",
+      "upper_exact": "596706349783382998962545728933/1316833215327330000000000000000000",
+      "upper_decimal": "0.00045313737748865757",
+      "k_lower_exact": "1316833215327330000000000000000000/596706349783382998962545728933",
+      "k_lower_decimal": "2206.8362701442147",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K102",
+        "K91"
+      ],
+      "bottom_hat": [
+        "K20",
+        "K22"
+      ],
+      "full_W_weak_order": [
+        [
+          "K91"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K8"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K82"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K20"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K91"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K8"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K82"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K20"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K82",
+          "loser": "K22"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K102",
+            "K91"
+          ],
+          "bottom": [
+            "K20",
+            "K22"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K102",
+            "K91"
+          ],
+          "bottom": [
+            "K20",
+            "K22",
+            "K82"
+          ],
+          "pairs": [
+            [
+              "K22",
+              "K82"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story10",
+      "lower_exact": "0",
+      "upper_exact": "1218018466830716236003970622023/160517624472106375000000000000000",
+      "upper_decimal": "0.0075880668607974256",
+      "k_lower_exact": "160517624472106375000000000000000/1218018466830716236003970622023",
+      "k_lower_decimal": "131.7858709398497",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K13",
+        "K81"
+      ],
+      "bottom_hat": [
+        "K101",
+        "K68"
+      ],
+      "full_W_weak_order": [
+        [
+          "K81"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K75"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K101"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K81"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K75"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K101"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K75",
+          "loser": "K68"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K13",
+            "K81"
+          ],
+          "bottom": [
+            "K101",
+            "K68"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K13",
+            "K81"
+          ],
+          "bottom": [
+            "K101",
+            "K68",
+            "K75"
+          ],
+          "pairs": [
+            [
+              "K68",
+              "K75"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story11",
+      "lower_exact": "0",
+      "upper_exact": "9514562554093789227937972225599/1567548553863886000000000000000000",
+      "upper_decimal": "0.0060697083548966494",
+      "k_lower_exact": "1567548553863886000000000000000000/9514562554093789227937972225599",
+      "k_lower_decimal": "164.75256166027557",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K5",
+        "K80"
+      ],
+      "bottom_hat": [
+        "K73",
+        "K74"
+      ],
+      "full_W_weak_order": [
+        [
+          "K80"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K74"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K80"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K74"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K2",
+          "loser": "K73"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K5",
+            "K80"
+          ],
+          "bottom": [
+            "K73",
+            "K74"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K5",
+            "K80"
+          ],
+          "bottom": [
+            "K2",
+            "K73",
+            "K74"
+          ],
+          "pairs": [
+            [
+              "K2",
+              "K73"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story8",
+      "lower_exact": "0",
+      "upper_exact": "4207795544886601905600892809903/1665953232930860000000000000000000",
+      "upper_decimal": "0.0025257585037269967",
+      "k_lower_exact": "1665953232930860000000000000000000/4207795544886601905600892809903",
+      "k_lower_decimal": "395.92067037462408",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K27",
+        "K83"
+      ],
+      "bottom_hat": [
+        "K103",
+        "K61"
+      ],
+      "full_W_weak_order": [
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K103"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K103"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K10",
+          "loser": "K61"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K27",
+            "K83"
+          ],
+          "bottom": [
+            "K103",
+            "K61"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K27",
+            "K83"
+          ],
+          "bottom": [
+            "K10",
+            "K103",
+            "K61"
+          ],
+          "pairs": [
+            [
+              "K10",
+              "K61"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story9",
+      "lower_exact": "0",
+      "upper_exact": "43804260653485671748472765747769/113967059547361100000000000000000000",
+      "upper_decimal": "0.00038435896150573236",
+      "k_lower_exact": "113967059547361100000000000000000000/43804260653485671748472765747769",
+      "k_lower_decimal": "2601.7345766636586",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K20",
+        "K82"
+      ],
+      "bottom_hat": [
+        "K66",
+        "K8"
+      ],
+      "full_W_weak_order": [
+        [
+          "K82"
+        ],
+        [
+          "K20"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K8"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K82"
+        ],
+        [
+          "K20"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K8"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K102",
+          "loser": "K66"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K20",
+            "K82"
+          ],
+          "bottom": [
+            "K66",
+            "K8"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K20",
+            "K82"
+          ],
+          "bottom": [
+            "K102",
+            "K66",
+            "K8"
+          ],
+          "pairs": [
+            [
+              "K102",
+              "K66"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story10",
+      "lower_exact": "0",
+      "upper_exact": "14781125422359019949057093097099/60285638975064830000000000000000000",
+      "upper_decimal": "0.00024518485121262043",
+      "k_lower_exact": "60285638975064830000000000000000000/14781125422359019949057093097099",
+      "k_lower_decimal": "4078.555404439795",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K4",
+        "K75"
+      ],
+      "bottom_hat": [
+        "K13",
+        "K15"
+      ],
+      "full_W_weak_order": [
+        [
+          "K75"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K81"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K13"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K75"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K81"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K13"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K14",
+          "loser": "K13"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K4",
+            "K75"
+          ],
+          "bottom": [
+            "K13",
+            "K15"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K4",
+            "K75"
+          ],
+          "bottom": [
+            "K13",
+            "K14",
+            "K15"
+          ],
+          "pairs": [
+            [
+              "K13",
+              "K14"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story11",
+      "lower_exact": "0",
+      "upper_exact": "30500850658612831074991308491271/118041530010207612500000000000000000",
+      "upper_decimal": "0.00025839084478128399",
+      "k_lower_exact": "118041530010207612500000000000000000/30500850658612831074991308491271",
+      "k_lower_decimal": "3870.1061597072226",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K2",
+        "K74"
+      ],
+      "bottom_hat": [
+        "K5",
+        "K6"
+      ],
+      "full_W_weak_order": [
+        [
+          "K74"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K80"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K74"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K80"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K7",
+          "loser": "K5"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K2",
+            "K74"
+          ],
+          "bottom": [
+            "K5",
+            "K6"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K2",
+            "K74"
+          ],
+          "bottom": [
+            "K5",
+            "K6",
+            "K7"
+          ],
+          "pairs": [
+            [
+              "K5",
+              "K7"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story8",
+      "lower_exact": "0",
+      "upper_exact": "141769011684857481688134643533/53339520709532046875000000000000",
+      "upper_decimal": "0.0026578606218994882",
+      "k_lower_exact": "53339520709532046875000000000000/141769011684857481688134643533",
+      "k_lower_decimal": "376.24245295651804",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K10",
+        "K92"
+      ],
+      "bottom_hat": [
+        "K27",
+        "K29"
+      ],
+      "full_W_weak_order": [
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K103"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K83"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K27"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K103"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K83"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K27"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "top",
+          "winner": "K92",
+          "loser": "K61"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K10",
+            "K92"
+          ],
+          "bottom": [
+            "K27",
+            "K29"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K10",
+            "K61",
+            "K92"
+          ],
+          "bottom": [
+            "K27",
+            "K29"
+          ],
+          "pairs": [
+            [
+              "K61",
+              "K92"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story9",
+      "lower_exact": "0",
+      "upper_exact": "1722165257368704983143762044081/1095996937656242750000000000000000",
+      "upper_decimal": "0.0015713230559307079",
+      "k_lower_exact": "1095996937656242750000000000000000/1722165257368704983143762044081",
+      "k_lower_decimal": "636.40636864943826",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K8",
+        "K91"
+      ],
+      "bottom_hat": [
+        "K20",
+        "K21"
+      ],
+      "full_W_weak_order": [
+        [
+          "K8"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K82"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K20"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K8"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K82"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K20"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "top",
+          "winner": "K91",
+          "loser": "K66"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K8",
+            "K91"
+          ],
+          "bottom": [
+            "K20",
+            "K21"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K66",
+            "K8",
+            "K91"
+          ],
+          "bottom": [
+            "K20",
+            "K21"
+          ],
+          "pairs": [
+            [
+              "K66",
+              "K91"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW4Y",
+      "Story": "Story10",
+      "lower_exact": "0",
+      "upper_exact": "38577651191180457399472260545811/251836474530277790000000000000000000",
+      "upper_decimal": "0.00015318532100298419",
+      "k_lower_exact": "251836474530277790000000000000000000/38577651191180457399472260545811",
+      "k_lower_decimal": "6528.0406337400891",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K13",
+        "K81"
+      ],
+      "bottom_hat": [
+        "K4",
+        "K68"
+      ],
+      "full_W_weak_order": [
+        [
+          "K81"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K75"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K4"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K81"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K75"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K4"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K101",
+          "loser": "K4"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K13",
+            "K81"
+          ],
+          "bottom": [
+            "K4",
+            "K68"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K13",
+            "K81"
+          ],
+          "bottom": [
+            "K101",
+            "K4",
+            "K68"
+          ],
+          "pairs": [
+            [
+              "K101",
+              "K4"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW4Y",
+      "Story": "Story11",
+      "lower_exact": "0",
+      "upper_exact": "441134239054433730899379122487159/2466425775727372400000000000000000000",
+      "upper_decimal": "0.00017885567179670714",
+      "k_lower_exact": "2466425775727372400000000000000000000/441134239054433730899379122487159",
+      "k_lower_decimal": "5591.1002986622125",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K5",
+        "K80"
+      ],
+      "bottom_hat": [
+        "K2",
+        "K74"
+      ],
+      "full_W_weak_order": [
+        [
+          "K80"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K74"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K80"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K74"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K73",
+          "loser": "K74"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K5",
+            "K80"
+          ],
+          "bottom": [
+            "K2",
+            "K74"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K5",
+            "K80"
+          ],
+          "bottom": [
+            "K2",
+            "K73",
+            "K74"
+          ],
+          "pairs": [
+            [
+              "K73",
+              "K74"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW4Y",
+      "Story": "Story8",
+      "lower_exact": "0",
+      "upper_exact": "4153576473014188211845695679743/705886278723329350000000000000000",
+      "upper_decimal": "0.0058842006116429611",
+      "k_lower_exact": "705886278723329350000000000000000/4153576473014188211845695679743",
+      "k_lower_decimal": "169.94661909067446",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K27",
+        "K83"
+      ],
+      "bottom_hat": [
+        "K103",
+        "K61"
+      ],
+      "full_W_weak_order": [
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K103"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K103"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "top",
+          "winner": "K27",
+          "loser": "K28"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K27",
+            "K83"
+          ],
+          "bottom": [
+            "K103",
+            "K61"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K27",
+            "K28",
+            "K83"
+          ],
+          "bottom": [
+            "K103",
+            "K61"
+          ],
+          "pairs": [
+            [
+              "K27",
+              "K28"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW4Y",
+      "Story": "Story9",
+      "lower_exact": "0",
+      "upper_exact": "109364269142319412472415054009/4862139290568601250000000000000000",
+      "upper_decimal": "2.2493034980396427e-05",
+      "k_lower_exact": "4862139290568601250000000000000000/109364269142319412472415054009",
+      "k_lower_decimal": "44458.20676807464",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K20",
+        "K82"
+      ],
+      "bottom_hat": [
+        "K8",
+        "K91"
+      ],
+      "full_W_weak_order": [
+        [
+          "K82"
+        ],
+        [
+          "K20"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K8"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K82"
+        ],
+        [
+          "K20"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K8"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K66",
+          "loser": "K91"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K20",
+            "K82"
+          ],
+          "bottom": [
+            "K8",
+            "K91"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K20",
+            "K82"
+          ],
+          "bottom": [
+            "K66",
+            "K8",
+            "K91"
+          ],
+          "pairs": [
+            [
+              "K66",
+              "K91"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW7X",
+      "Story": "Story10",
+      "lower_exact": "0",
+      "upper_exact": "17339766919244833858716561687/5208859346413175000000000000000",
+      "upper_decimal": "0.0033288990479623934",
+      "k_lower_exact": "5208859346413175000000000000000/17339766919244833858716561687",
+      "k_lower_decimal": "300.39961728851353",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K101",
+        "K75"
+      ],
+      "bottom_hat": [
+        "K13",
+        "K15"
+      ],
+      "full_W_weak_order": [
+        [
+          "K75"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K81"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K15"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K75"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K68"
+        ],
+        [
+          "K81"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K15"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "top",
+          "winner": "K101",
+          "loser": "K4"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K101",
+            "K75"
+          ],
+          "bottom": [
+            "K13",
+            "K15"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K101",
+            "K4",
+            "K75"
+          ],
+          "bottom": [
+            "K13",
+            "K15"
+          ],
+          "pairs": [
+            [
+              "K101",
+              "K4"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW7X",
+      "Story": "Story11",
+      "lower_exact": "0",
+      "upper_exact": "42415613272395690627235562609928531/11609806145273203400000000000000000000",
+      "upper_decimal": "0.0036534299317017203",
+      "k_lower_exact": "11609806145273203400000000000000000000/42415613272395690627235562609928531",
+      "k_lower_decimal": "273.71539038500543",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K100",
+        "K74"
+      ],
+      "bottom_hat": [
+        "K5",
+        "K6"
+      ],
+      "full_W_weak_order": [
+        [
+          "K74"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K80"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K74"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K80"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K73",
+          "loser": "K5"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K100",
+            "K74"
+          ],
+          "bottom": [
+            "K5",
+            "K6"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K100",
+            "K74"
+          ],
+          "bottom": [
+            "K5",
+            "K6",
+            "K73"
+          ],
+          "pairs": [
+            [
+              "K5",
+              "K73"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW7X",
+      "Story": "Story8",
+      "lower_exact": "0",
+      "upper_exact": "9397197436831892951083883910099/4944056521161916720000000000000000",
+      "upper_decimal": "0.0019007059075092109",
+      "k_lower_exact": "4944056521161916720000000000000000/9397197436831892951083883910099",
+      "k_lower_decimal": "526.12031985024703",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K10",
+        "K92"
+      ],
+      "bottom_hat": [
+        "K27",
+        "K83"
+      ],
+      "full_W_weak_order": [
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K103"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K103"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K29",
+          "loser": "K83"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K10",
+            "K92"
+          ],
+          "bottom": [
+            "K27",
+            "K83"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K10",
+            "K92"
+          ],
+          "bottom": [
+            "K27",
+            "K29",
+            "K83"
+          ],
+          "pairs": [
+            [
+              "K29",
+              "K83"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW7X",
+      "Story": "Story9",
+      "lower_exact": "0",
+      "upper_exact": "6287637908386719075087800063163/6205381476189494000000000000000000",
+      "upper_decimal": "0.0010132556608345271",
+      "k_lower_exact": "6205381476189494000000000000000000/6287637908386719075087800063163",
+      "k_lower_decimal": "986.91775299472829",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K8",
+        "K91"
+      ],
+      "bottom_hat": [
+        "K20",
+        "K22"
+      ],
+      "full_W_weak_order": [
+        [
+          "K91"
+        ],
+        [
+          "K8"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K82"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K20"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K91"
+        ],
+        [
+          "K8"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K82"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K20"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K21",
+          "loser": "K22"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K8",
+            "K91"
+          ],
+          "bottom": [
+            "K20",
+            "K22"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K8",
+            "K91"
+          ],
+          "bottom": [
+            "K20",
+            "K21",
+            "K22"
+          ],
+          "pairs": [
+            [
+              "K21",
+              "K22"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story10",
+      "lower_exact": "0",
+      "upper_exact": "144853309878713997265648785717/258866021297889320000000000000000",
+      "upper_decimal": "0.00055956864926673584",
+      "k_lower_exact": "258866021297889320000000000000000/144853309878713997265648785717",
+      "k_lower_decimal": "1787.0908266758863",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K13",
+        "K81"
+      ],
+      "bottom_hat": [
+        "K101",
+        "K68"
+      ],
+      "full_W_weak_order": [
+        [
+          "K81"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K75"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K68"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K81"
+        ],
+        [
+          "K13"
+        ],
+        [
+          "K14"
+        ],
+        [
+          "K15"
+        ],
+        [
+          "K75"
+        ],
+        [
+          "K4"
+        ],
+        [
+          "K101"
+        ],
+        [
+          "K68"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K4",
+          "loser": "K101"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K13",
+            "K81"
+          ],
+          "bottom": [
+            "K101",
+            "K68"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K13",
+            "K81"
+          ],
+          "bottom": [
+            "K101",
+            "K4",
+            "K68"
+          ],
+          "pairs": [
+            [
+              "K101",
+              "K4"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story11",
+      "lower_exact": "0",
+      "upper_exact": "4805572634102408905741232667213/14970638645644364000000000000000000",
+      "upper_decimal": "0.00032099984161334139",
+      "k_lower_exact": "14970638645644364000000000000000000/4805572634102408905741232667213",
+      "k_lower_decimal": "3115.2663346312315",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K5",
+        "K80"
+      ],
+      "bottom_hat": [
+        "K2",
+        "K74"
+      ],
+      "full_W_weak_order": [
+        [
+          "K80"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K74"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K80"
+        ],
+        [
+          "K5"
+        ],
+        [
+          "K6"
+        ],
+        [
+          "K7"
+        ],
+        [
+          "K100"
+        ],
+        [
+          "K73"
+        ],
+        [
+          "K2"
+        ],
+        [
+          "K74"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K100",
+          "loser": "K2"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K5",
+            "K80"
+          ],
+          "bottom": [
+            "K2",
+            "K74"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K5",
+            "K80"
+          ],
+          "bottom": [
+            "K100",
+            "K2",
+            "K74"
+          ],
+          "pairs": [
+            [
+              "K100",
+              "K2"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story8",
+      "lower_exact": "0",
+      "upper_exact": "1152017440849066620288780412089/333947992958008437500000000000000",
+      "upper_decimal": "0.003449691164917181",
+      "k_lower_exact": "333947992958008437500000000000000/1152017440849066620288780412089",
+      "k_lower_decimal": "289.88102186359276",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K27",
+        "K83"
+      ],
+      "bottom_hat": [
+        "K103",
+        "K61"
+      ],
+      "full_W_weak_order": [
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K103"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K83"
+        ],
+        [
+          "K27"
+        ],
+        [
+          "K28"
+        ],
+        [
+          "K29"
+        ],
+        [
+          "K92"
+        ],
+        [
+          "K10"
+        ],
+        [
+          "K61"
+        ],
+        [
+          "K103"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K10",
+          "loser": "K103"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K27",
+            "K83"
+          ],
+          "bottom": [
+            "K103",
+            "K61"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K27",
+            "K83"
+          ],
+          "bottom": [
+            "K10",
+            "K103",
+            "K61"
+          ],
+          "pairs": [
+            [
+              "K10",
+              "K103"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story9",
+      "lower_exact": "0",
+      "upper_exact": "19131800729264746896689248916667/166000452186373546000000000000000000",
+      "upper_decimal": "0.0001152514976753492",
+      "k_lower_exact": "166000452186373546000000000000000000/19131800729264746896689248916667",
+      "k_lower_decimal": "8676.676834316635",
+      "strict_constraints": 24,
+      "top_hat": [
+        "K20",
+        "K82"
+      ],
+      "bottom_hat": [
+        "K102",
+        "K8"
+      ],
+      "full_W_weak_order": [
+        [
+          "K82"
+        ],
+        [
+          "K20"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K8"
+        ]
+      ],
+      "full_hat_weak_order": [
+        [
+          "K82"
+        ],
+        [
+          "K20"
+        ],
+        [
+          "K21"
+        ],
+        [
+          "K22"
+        ],
+        [
+          "K91"
+        ],
+        [
+          "K66"
+        ],
+        [
+          "K102"
+        ],
+        [
+          "K8"
+        ]
+      ],
+      "active_upper_constraints": [
+        {
+          "side": "bottom",
+          "winner": "K66",
+          "loser": "K8"
+        }
+      ],
+      "endpoint_events": {
+        "lower": {
+          "top": [
+            "K20",
+            "K82"
+          ],
+          "bottom": [
+            "K102",
+            "K8"
+          ],
+          "pairs": [],
+          "sets_same_as_hat": true
+        },
+        "upper": {
+          "top": [
+            "K20",
+            "K82"
+          ],
+          "bottom": [
+            "K102",
+            "K66",
+            "K8"
+          ],
+          "pairs": [
+            [
+              "K66",
+              "K8"
+            ]
+          ],
+          "sets_same_as_hat": false
+        }
+      }
+    }
+  ],
+  "inputs_before_and_after": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R005-validation.json",
+      "bytes": 2996,
+      "sha256": "a201220b3559c3628bbcfae62388cda6c4bb00e6251828159cae6cd10d0f6652"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\device_record_summary_r006.csv",
+      "bytes": 97108,
+      "sha256": "8d359f9c86b544aaa6c573618a375eef7beb8f02070dc223f2802ce3fe31864d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R005-ranking-sensitivity.md",
+      "bytes": 6760,
+      "sha256": "984f4d57a29750028eeff4448892b3aa18293386fd9eb954194b70bafd5e9cc6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R005-protocol.md",
+      "bytes": 3860,
+      "sha256": "04db606fccb9b318414f5a0967f11666137fa180a3fc90414344c1a458a57c8e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R005_affine_rank.py",
+      "bytes": 9724,
+      "sha256": "555bb95efc7cc54c1b9555f4f1741299914930a201e02371ca3d006e6f4b5d25"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R005_interval_crosscheck.py",
+      "bytes": 3195,
+      "sha256": "38f83081b48e88f86602b0f71d8843eb0b1b6e54db86e39e122469b9f9d92df8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R005-affine-rank-results\\endpoint_events.csv",
+      "bytes": 5775,
+      "sha256": "80c6e08754650be47fae4d275c37a4b421f7a9bb79a7a2e43cdcf7304556ce91"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R005-affine-rank-results\\independent_crosscheck_complete.json",
+      "bytes": 19998,
+      "sha256": "417856d3f6566ee435c9702b062442c6d408bbd45714f92bb946bc81b3ded9a0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R005-affine-rank-results\\inequality_crosscheck.json",
+      "bytes": 3206,
+      "sha256": "57a07965a11d7db0fb3e943b549082a3108d7536f004bf6566778c9fe3edfa1a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R005-affine-rank-results\\intervals.csv",
+      "bytes": 6567,
+      "sha256": "7c6a95c08d268a73e60a2c315ca1221fd7b137ae4d96329c5421e91b616b9242"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R005-affine-rank-results\\pair_crossings.csv",
+      "bytes": 135920,
+      "sha256": "b53c3705dd29442a04c35af07469ace8acc0e39a33878e5eae98b8b7e7faf2bd"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R005-affine-rank-results\\run_record.json",
+      "bytes": 1257,
+      "sha256": "17ceba4231fd4ca721400a4ad48f938ea6f885c1cedd75843686642943eeff47"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\report.md",
+      "bytes": 9030,
+      "sha256": "dcc918095f28780f3810cdce51a984d638677379f7e43dad2369f4e284211b38"
+    }
+  ],
+  "limits": [
+    "Exact statements concern frozen decimal summary coefficients only, not continuous physical values or independent force/port certification.",
+    "a/k intervals are not confidence/identification/positive-dissipation domains or guarantees for true changed-k trajectories.",
+    "Upstream R011 is an arithmetic review, not physical/novelty certification; source candidate labels preserved.",
+    "No NPZ/Excel/full histories, author-script calls, model changes, full-array outputs or uploads."
+  ]
+}

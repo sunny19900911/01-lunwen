@@ -1,0 +1,114 @@
+{
+  "session": "20261017-2109",
+  "role": "verification",
+  "review": "R012",
+  "started_at": "2026-10-17T23:14:28+08:00",
+  "numerical_completed_at": "2026-10-17T23:18:38.391825+08:00",
+  "qa_completed_at": "2026-10-17T23:22:57.915317+08:00",
+  "interpreter": "C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "python_version": "3.12.14",
+  "script": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_affine_ranks_R012.py",
+  "arguments": [
+    "--owner",
+    "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004",
+    "--summary",
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R006-device-distribution/device_record_summary_r006.csv",
+    "--out",
+    "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R012-rank-review"
+  ],
+  "execution_exit_code": 0,
+  "reproduction_requires_new_output_json": true,
+  "required_corrections": 0,
+  "source_files_sha_rechecked": 13,
+  "groups_checked": 24,
+  "strict_inequalities_checked": 576,
+  "pair_records_checked": 672,
+  "endpoint_events_checked": 48,
+  "own_report_bound_rows_checked": 24,
+  "own_report_mismatch_rows_checked": 5,
+  "synthetic_implementation_checks": 6,
+  "general_mathematics_reviewed": "Pairwise affine sign-cell theorem; exact root/adjacent-cell merge; degenerate ties not certified by unique-cut inequalities.",
+  "script_ast_valid": true,
+  "utf8_lf_no_BOM_or_trailing_whitespace": true,
+  "frozen_R001_R011": [
+    {
+      "run_file": "R001-review-run.json",
+      "sha256": "7d43f7e3fb4b754edce7e44f9c57908314ec27172e6c5a25e97163573dac499f",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R002-review-run.json",
+      "sha256": "f14346e51b39b32ce421433be671a1ddc67a2cb89995652c45aba0514fb6a028",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R003-review-run.json",
+      "sha256": "db8c3ce055d9ba45250a5c59c4444c880eadf12acb4236c6de5e545295054a69",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R004-review-run.json",
+      "sha256": "d2800774203b57330f6da953081f25771161f5e1df84423f2782ee85248e8252",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R005-review-run.json",
+      "sha256": "8043b9282527e3480165a636cb6de44cbd4afe3739b1dff80daa9802e7b82163",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R006-review-validation.json",
+      "sha256": "bac733cf858eca6cb3548e556db765e9ba950eba5c1c8e0c713e674b1a532fcd",
+      "outputs_verified": 1
+    },
+    {
+      "run_file": "R007-review-run.json",
+      "sha256": "1d794223541ae4cd5b2fc46e03850b641192281956a545daeabded4e9b76fc08",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R008-review-run.json",
+      "sha256": "1925e4649afa3131ae9fd9b26cd3a1ad89d943f72a8706826095cdb8da946428",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R009-review-run.json",
+      "sha256": "1d78f89de0ff567e9d7b914b2ebe0ffd970481a7bbd3f219dae96d8e435bf23f",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R010-review-run.json",
+      "sha256": "6447cd6f4c5b157f4dbcd93d7d2b9441af349da0de029af9774541499f0dfbc9",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R011-review-run.json",
+      "sha256": "6edaf37bbe65be8747b63d3014cf7d9f0bb4cb6071f19e8f19d22091026cc530",
+      "outputs_verified": 3
+    }
+  ],
+  "read_only_collaborator": "r006_sharp_challenge: general algorithm/math audit, no actual 24-group numerical recomputation or NPZ/Excel/writes; 0 required changes.",
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\仿射排名区间独审-R012.md",
+      "bytes": 7649,
+      "sha256": "7d41ee3f3f62d6c2385d77d0163417cd0045f2bcd6c8641dc8a7e0e6e936b2c6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_affine_ranks_R012.py",
+      "bytes": 14183,
+      "sha256": "e300f9b269a8b2ee1161e07db78f806281185b7fb4fd5a774b964c7f280f6b6a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R012-rank-review\\review_summary.json",
+      "bytes": 53892,
+      "sha256": "37fad3fef4c8ee81cf31a781db63e9120646b4be1a22807c682b7b19cb29efd8"
+    }
+  ],
+  "limits": [
+    "Exact statements concern frozen decimal summary coefficients only, not continuous physical values or independent force/port certification.",
+    "a/k intervals are not confidence/identification/positive-dissipation domains or guarantees for true changed-k trajectories.",
+    "Upstream R011 is an arithmetic review, not physical/novelty certification; source candidate labels preserved.",
+    "No NPZ/Excel/full histories, author-script calls, model changes, full-array outputs or uploads."
+  ]
+}

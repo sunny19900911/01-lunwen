@@ -1,0 +1,137 @@
+{
+  "checks": {
+    "72_unique_case_story_rows": true,
+    "six_cases_12_stories_each": true,
+    "complete_Bottom_and_CM_only": true,
+    "all_raw_values_positive_finite": true,
+    "per_case_per_metric_denominators": true,
+    "all_normalized_values_in_0_1": true,
+    "all_12_series_maxima_exactly_1": true,
+    "raw_kN_mm_values_retained": true,
+    "Top3_matches_reviewed_positions": true,
+    "all_data_curves_use_ReportLab_LinePlot": true,
+    "no_Drift_curve": true,
+    "sources_unchanged": true
+  },
+  "source_identity": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R005-floor-results\\floor_three_metric_table_r005.csv",
+      "bytes": 9517,
+      "sha256": "fc4ea0e6291be246e2c3c167176d09d2c06728cb51c34ccfd8a04c3ebee6cb2c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\楼层输出与控制位置独审-R009.md",
+      "bytes": 7691,
+      "sha256": "eb8b86079c8fc0ff05d466c2889db08f3456f29313540ec14ac7c50ac441af1e"
+    }
+  ],
+  "plot_rows": 72,
+  "series": 12,
+  "points_per_series": 12,
+  "normalization": "For each case and each metric separately divide its 12 floor absolute record peaks by their own maximum. Units never divided against one another.",
+  "top3": {
+    "RH4X_Bottom_shear": [
+      1,
+      2,
+      3
+    ],
+    "RH4X_CM": [
+      12,
+      11,
+      10
+    ],
+    "RH4Y_Bottom_shear": [
+      1,
+      2,
+      3
+    ],
+    "RH4Y_CM": [
+      12,
+      11,
+      10
+    ],
+    "SHW4X_Bottom_shear": [
+      1,
+      2,
+      3
+    ],
+    "SHW4X_CM": [
+      12,
+      11,
+      10
+    ],
+    "SHW4Y_Bottom_shear": [
+      1,
+      2,
+      3
+    ],
+    "SHW4Y_CM": [
+      12,
+      11,
+      10
+    ],
+    "SHW7X_Bottom_shear": [
+      1,
+      2,
+      3
+    ],
+    "SHW7X_CM": [
+      12,
+      11,
+      10
+    ],
+    "SHW7Y_Bottom_shear": [
+      1,
+      2,
+      3
+    ],
+    "SHW7Y_CM": [
+      12,
+      11,
+      10
+    ]
+  },
+  "styles_consistent_across_panels": [
+    {
+      "case": "RH4X",
+      "color": "#0072B2",
+      "dash": []
+    },
+    {
+      "case": "RH4Y",
+      "color": "#56B4E9",
+      "dash": [
+        5,
+        3
+      ]
+    },
+    {
+      "case": "SHW4X",
+      "color": "#D55E00",
+      "dash": []
+    },
+    {
+      "case": "SHW4Y",
+      "color": "#E69F00",
+      "dash": [
+        5,
+        3
+      ]
+    },
+    {
+      "case": "SHW7X",
+      "color": "#009E73",
+      "dash": []
+    },
+    {
+      "case": "SHW7Y",
+      "color": "#CC79A7",
+      "dash": [
+        5,
+        3
+      ]
+    }
+  ],
+  "not_simultaneous": true,
+  "no_model_comparison_or_reduction_rate": true
+}

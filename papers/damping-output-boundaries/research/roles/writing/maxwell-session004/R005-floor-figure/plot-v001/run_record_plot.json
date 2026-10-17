@@ -1,0 +1,50 @@
+{
+  "finished_at": "2026-10-17T23:05:23.660634+08:00",
+  "elapsed_seconds": 0.023220799994305708,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "reportlab": "4.4.9",
+  "plot_engine": "reportlab.graphics.charts.lineplots.LinePlot",
+  "svg_engine": "reportlab.graphics.renderSVG",
+  "script": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\R005-floor-figure\\build_floor_profiles.py",
+    "bytes": 8157,
+    "sha256": "7826ea31d2e0297191d7dc578e0c8826f740ff74f90573f1131c5a3efdbf071c"
+  },
+  "arguments": [
+    "--repo",
+    ".",
+    "--out",
+    "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/plot-v001"
+  ],
+  "source_identity": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R005-floor-results\\floor_three_metric_table_r005.csv",
+      "bytes": 9517,
+      "sha256": "fc4ea0e6291be246e2c3c167176d09d2c06728cb51c34ccfd8a04c3ebee6cb2c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\楼层输出与控制位置独审-R009.md",
+      "bytes": 7691,
+      "sha256": "eb8b86079c8fc0ff05d466c2889db08f3456f29313540ec14ac7c50ac441af1e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\R005-floor-figure\\plot-v001\\plot_floor_profiles_72rows.csv",
+      "bytes": 8549,
+      "sha256": "7154ea25606cc11ac68c019a8442b5b1de429e3ab2dfc36309042df1dda592be"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\R005-floor-figure\\plot-v001\\floor_record_peak_profiles.svg",
+      "bytes": 57335,
+      "sha256": "460f7d1e45a188cfdd402c8fde60b913ca3c713d2f63ddaef2fa032efbe0d9ab"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\R005-floor-figure\\plot-v001\\numeric_QA.json",
+      "bytes": 2857,
+      "sha256": "af74bb7a3c8ce387f78c1b03f84964ccce6f0dca3d0c079928dd0292c4e79f00"
+    }
+  ],
+  "exit_code": 0,
+  "PNG_render_and_visual_QA": "separate after SVG generation"
+}

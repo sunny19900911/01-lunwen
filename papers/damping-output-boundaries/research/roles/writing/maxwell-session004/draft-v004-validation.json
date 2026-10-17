@@ -1,0 +1,80 @@
+{
+  "validated_at": "2026-10-17T23:21:38.705910+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v004.md",
+    "bytes": 32826,
+    "sha256": "7403a532b8dd8714ffc1a8c49943397c804e7ca573ed3084089cf0e50bc75fe9"
+  },
+  "passed": true,
+  "checks": {
+    "v001_v003_18files_3manifests_unchanged": true,
+    "all_inherited_source_hashes_match": true,
+    "R011_four_identities_verified": true,
+    "literature_R005_master_SHA_matches": true,
+    "192_records_32_devices_521472_points": true,
+    "24_groups_5_set_differences_and_W_Dport_equal": true,
+    "five_previous_tables_byte_identical": true,
+    "both_24row_distribution_tables_transcribed_exactly": true,
+    "six_Drift_and_three_budget_rows_exact": true,
+    "six_record_discrete_ledger_exact": true,
+    "all_5_body_set_comparisons_match_independent_small_CSV": true,
+    "table_columns_consistent": true,
+    "formula_tags_1_to7": true,
+    "five_references_defined_and_used": true,
+    "three_images_relative_resolve_and_exist": true,
+    "figure03_png_svg_CSV_match_root_adoption": true,
+    "no_absolute_machine_paths_in_manuscript": true,
+    "existing_local_links_resolve": true,
+    "K12_exception_and_sparse_unit_boundaries_present": true,
+    "minimum_gap_is_export_not_resolve": true,
+    "title_explicitly_working": true,
+    "no_candidate_LF_affine_or_192_error_results": true,
+    "UTF8_noBOM_LF_no_trailing_whitespace": true,
+    "git_diff_whitespace_check_clean": true
+  },
+  "tables_total": 11,
+  "appendix_distribution_rows": 48,
+  "Drift_rows": 6,
+  "budget_rows": 3,
+  "ledger_rows": 6,
+  "rank_comparison_rows": 24,
+  "figure_paths": [
+    {
+      "link": "../../../research/sessions/20261017-2109/figures/02_device_coverage_by_story.png",
+      "repo_relative": "research/sessions/20261017-2109/figures/02_device_coverage_by_story.png",
+      "tracked_at_validation": true,
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\02_device_coverage_by_story.png",
+        "bytes": 104087,
+        "sha256": "5f27fc3780b0efdebfa595f2a1d11ca068f5ecf4df07f2bed7f885f2e2e3a0fa"
+      }
+    },
+    {
+      "link": "../../../research/sessions/20261017-2109/figures/01_native_energy_ratio.png",
+      "repo_relative": "research/sessions/20261017-2109/figures/01_native_energy_ratio.png",
+      "tracked_at_validation": true,
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\01_native_energy_ratio.png",
+        "bytes": 87288,
+        "sha256": "fac821fca950ab796ff634053e768dd3020741ff63c117c884dad0ac4d8010d3"
+      }
+    },
+    {
+      "link": "../../../research/sessions/20261017-2109/figures/03_floor_record_peak_profiles.png",
+      "repo_relative": "research/sessions/20261017-2109/figures/03_floor_record_peak_profiles.png",
+      "tracked_at_validation": false,
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\03_floor_record_peak_profiles.png",
+        "bytes": 302244,
+        "sha256": "f1a8ff0bba9ead35bfca4a5052333cf6171fcf69a9fa9104bb6459bcfab776c4"
+      }
+    }
+  ],
+  "git_check": {
+    "exit": 1,
+    "stdout": "",
+    "stderr": "",
+    "note": "--no-index difference exit1, no whitespace diagnostics"
+  },
+  "limits": "Author integration/transcription and small-table arithmetic QA, not R013 independent integration review; no raw Excel, NPZ or solver."
+}

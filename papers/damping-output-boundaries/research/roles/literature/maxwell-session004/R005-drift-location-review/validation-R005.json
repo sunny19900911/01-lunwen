@@ -1,0 +1,263 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R005 independent drift-location sidecar review",
+  "started_at": "2026-10-17T23:03:22+08:00",
+  "checked_at": "2026-10-17T23:07:10.632016+08:00",
+  "task_limit_minutes": 8,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "inputs": {
+    "sidecar": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\drift-location-sidecar\\drift_peak_locations_72.csv",
+      "sha256": "25e85618d78f82e02b3d9f1906fbedfc963fba9f3fdf5c75565c70fca8efab14",
+      "bytes": 11571
+    },
+    "governing": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\drift-location-sidecar\\six_governing_drift_locations_and_device_coverage.csv",
+      "sha256": "a64ad3c2a582b9623b5fb250cec801a4c54fda073a93c9914bed2e76ebdf1ece",
+      "bytes": 1133
+    },
+    "prior_validation": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\drift-location-sidecar\\join_validation.json",
+      "sha256": "4a6a8fc429f422763238ffaea55ed5e9cec43e8003c69db5ed534a5263439e9d",
+      "bytes": 1635
+    },
+    "sidecar_report": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\drift-location-sidecar\\漂移峰值定位与定点补件.md",
+      "sha256": "16e556d6343168548038e33520d58710c1185fe13d8753482bd72205a21e9d11",
+      "bytes": 4659
+    },
+    "sidecar_script": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\drift-location-sidecar\\join_existing_drift_locations.py",
+      "sha256": "7937b47f91aead8c26f1e2140f28fc64b22847baae0c1f59790bebcac17f3fe3",
+      "bytes": 4731
+    },
+    "raw_summary": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\response-coverage\\drift_raw_summary.csv",
+      "sha256": "60e23bbe7de311f08c6a823054c46a85709fb4097f26dc50999565eb59ef6eae",
+      "bytes": 15242
+    },
+    "raw_extraction_script": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\response-coverage\\audit_response_coverage.py",
+      "sha256": "a4a840a2e83c7d934227821070a89b4701a77130d9ad73d931d47b27120d304b",
+      "bytes": 5802
+    },
+    "response_audit": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\response-coverage\\response_coverage_audit.json",
+      "sha256": "3ba566975f7ce3823fd2ec4955da30f080eb5ab5331547b8f41a6e8e3c80f859",
+      "bytes": 1708
+    },
+    "floor_peaks": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R005-floor-results\\floor_record_peaks_r005.csv",
+      "sha256": "de4c9be0f190c4fdfac261e59c8f46bd312dd0b122e3d4253d07941c0ce4b9ad",
+      "bytes": 42489
+    },
+    "floor_script": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R005-floor-results\\summarize_floor_results.py",
+      "sha256": "7c97635c26f75c7dc0d6e0be2c1d38ac03bd4eb12167557514379bf8179ff324",
+      "bytes": 10300
+    },
+    "coverage": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\link_case_coverage_r001.csv",
+      "sha256": "b2e41e8c4ee8f6654efe98b582a1e7c39f3f89f0a4a66a4c7277621008ba6fe8",
+      "bytes": 69926
+    },
+    "stream_reader": {
+      "path": "C:\\Users\\mj528\\.codex\\skills\\etabs-response-analysis\\scripts\\stream_csi.py",
+      "sha256": "8592f97ce74f024906909d2647caecc426fca77760d82f0964c24194732a6c15",
+      "bytes": 3692
+    }
+  },
+  "checks": {
+    "raw_key_unique_144": true,
+    "floor_sidecar_same_unique_72_keys": true,
+    "coverage_Link_Case_unique_528": true,
+    "SourceRow_Time_Value_n_exact_decimal_match_72": true,
+    "Label_X_Y_Z_exact_string_preservation_72": true,
+    "sparse_and_blank_drift_units_preserved_72": true,
+    "device_counts_independently_recomputed_72": true,
+    "six_governing_unique_case_max_and_identical": true,
+    "six_governing_0of8_P_missing_U1_complete": true,
+    "prior_manifest_hashes_match": true,
+    "all_input_hashes_unchanged": true
+  },
+  "field_lineage": {
+    "Label": "d.get(Label) from Story Drifts extraction, not synthesized UniqueName; original numeric-text representation retained",
+    "XYZ": "d.get(X/Y/Z), no conversion; previous _m labels preserved, current original unit row not reread",
+    "SourceRow": "stream reader int(XML worksheet row r), local to Story Drifts; not point identifier",
+    "Direction": "explicit raw Direction joined to R005 case suffix field; not Link local axis or original load-setting certification",
+    "ties": "each cached mapped group has one controller; inspected floor script collects all exactly equal absolute peaks. Six Story maxima unique. No independent search in missing/raw records."
+  },
+  "case_expected_n": {
+    "RH4X": 2501,
+    "RH4Y": 2501,
+    "SHW4X": 2951,
+    "SHW4Y": 2951,
+    "SHW7X": 2696,
+    "SHW7Y": 2696
+  },
+  "complete_counts_by_case": {
+    "RH4X": 33,
+    "RH4Y": 32,
+    "SHW4X": 32,
+    "SHW4Y": 32,
+    "SHW7X": 32,
+    "SHW7Y": 32
+  },
+  "common_complete_devices_all6": 32,
+  "common_complete_story_counts": {
+    "Story9": 8,
+    "Story8": 8,
+    "Story10": 8,
+    "Story11": 8
+  },
+  "critical24_complete_case_rows_exception": [
+    {
+      "Link": "K12",
+      "Story": "Story7",
+      "Case": "RH4X",
+      "common_n": "2501"
+    }
+  ],
+  "governing": [
+    {
+      "Case": "RH4X",
+      "Story": "Story5",
+      "Direction": "X",
+      "drift_exported_record_peak": "0.0018287253365834272",
+      "t_s": "21.52",
+      "SourceRow": "136102",
+      "Label_as_exported": "565.0",
+      "X_m": "78.205",
+      "Y_m": "76.66",
+      "Z_m": "22.6",
+      "n_exported": "2493",
+      "coverage": "sparse_exported_records_only",
+      "devices_assigned_to_exported_Story": "8",
+      "complete_P_I_P_J_U1_at_Story_case": "0",
+      "join_status": "exact_row_time_value_and_count_match"
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story4",
+      "Direction": "Y",
+      "drift_exported_record_peak": "0.001724073971632062",
+      "t_s": "12.040000000000001",
+      "SourceRow": "157414",
+      "Label_as_exported": "566.0",
+      "X_m": "78.205",
+      "Y_m": "38.56",
+      "Z_m": "18.3",
+      "n_exported": "2488",
+      "coverage": "sparse_exported_records_only",
+      "devices_assigned_to_exported_Story": "8",
+      "complete_P_I_P_J_U1_at_Story_case": "0",
+      "join_status": "exact_row_time_value_and_count_match"
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story5",
+      "Direction": "X",
+      "drift_exported_record_peak": "0.002237150155793864",
+      "t_s": "29.900000000000002",
+      "SourceRow": "142761",
+      "Label_as_exported": "565.0",
+      "X_m": "78.205",
+      "Y_m": "76.66",
+      "Z_m": "22.6",
+      "n_exported": "2948",
+      "coverage": "sparse_exported_records_only",
+      "devices_assigned_to_exported_Story": "8",
+      "complete_P_I_P_J_U1_at_Story_case": "0",
+      "join_status": "exact_row_time_value_and_count_match"
+    },
+    {
+      "Case": "SHW4Y",
+      "Story": "Story5",
+      "Direction": "Y",
+      "drift_exported_record_peak": "0.0022951551444100556",
+      "t_s": "29.900000000000002",
+      "SourceRow": "146101",
+      "Label_as_exported": "566.0",
+      "X_m": "78.205",
+      "Y_m": "38.56",
+      "Z_m": "22.6",
+      "n_exported": "2947",
+      "coverage": "sparse_exported_records_only",
+      "devices_assigned_to_exported_Story": "8",
+      "complete_P_I_P_J_U1_at_Story_case": "0",
+      "join_status": "exact_row_time_value_and_count_match"
+    },
+    {
+      "Case": "SHW7X",
+      "Story": "Story7",
+      "Direction": "X",
+      "drift_exported_record_peak": "0.0018418041354706068",
+      "t_s": "38.06",
+      "SourceRow": "112437",
+      "Label_as_exported": "547.0",
+      "X_m": "142.005",
+      "Y_m": "54.56",
+      "Z_m": "31.2",
+      "n_exported": "2693",
+      "coverage": "sparse_exported_records_only",
+      "devices_assigned_to_exported_Story": "8",
+      "complete_P_I_P_J_U1_at_Story_case": "0",
+      "join_status": "exact_row_time_value_and_count_match"
+    },
+    {
+      "Case": "SHW7Y",
+      "Story": "Story7",
+      "Direction": "Y",
+      "drift_exported_record_peak": "0.0018972684010277018",
+      "t_s": "38.06",
+      "SourceRow": "115403",
+      "Label_as_exported": "565.0",
+      "X_m": "78.205",
+      "Y_m": "76.66",
+      "Z_m": "31.2",
+      "n_exported": "2692",
+      "coverage": "sparse_exported_records_only",
+      "devices_assigned_to_exported_Story": "8",
+      "complete_P_I_P_J_U1_at_Story_case": "0",
+      "join_status": "exact_row_time_value_and_count_match"
+    }
+  ],
+  "row_budgets": {
+    "target24_all6_P_two_ends": 782208,
+    "target24_all6_U1": 391104,
+    "all88_all6_P_two_ends": 2868096,
+    "all88_all6_U1": 1434048,
+    "all88_longest_case_P_two_ends": 519376,
+    "all88_longest_case_U1": 259688,
+    "excel_total_row_limit_used": 1048576
+  },
+  "rejected_overgeneralization": "An initial audit assertion that all 24 devices across all six cases are incomplete failed. Corrected scope: only six governing Story/Case pairs are 0/8; K12/Story7/RH4X is complete. No source/output files were changed by that failed read-only assertion.",
+  "independent_agent_check": {
+    "agent": "weng2016_source",
+    "scope": "read-only small-file join/hash/coverage/row arithmetic",
+    "result": "matches; independently identified K12 exception; no files/network/Excel/Git"
+  },
+  "boundaries": [
+    "sparse exported record peaks only; missing records not zero",
+    "Drift unit remains export_unit_blank; no new unit or full-history peak certification",
+    "Label is not UniqueName; no tower/topology/axis identification",
+    "0/8 means record completeness, not device absence or physical zero force",
+    "upper complete subset does not validate lower local transmission; upper influence not excluded",
+    "original settings remain unknown; suggested re-export of existing results, not solver rerun"
+  ],
+  "source_workbook_sha256_inherited_not_recomputed": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "operations": {
+    "excel_reads": 0,
+    "large_array_reads": 0,
+    "solver_runs": 0,
+    "network": 0,
+    "source_edits": 0,
+    "git": 0
+  },
+  "frozen_at": "2026-10-17T23:08:06.526016+08:00",
+  "report": {
+    "path": "R005-drift-location-review.md",
+    "sha256": "7331daaeaa0b06e341717b8f99d77115c42a495da716e79ffdd50c5c152b9f6f"
+  }
+}

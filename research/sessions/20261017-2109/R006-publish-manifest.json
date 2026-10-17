@@ -1,0 +1,272 @@
+{
+  "at": "2026-10-17T23:32:21.911050+08:00",
+  "expected_head": "829b337a992490293cde25f3e3cc3d49a561a420",
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/maxwell-engineering-draft-v004.md",
+      "bytes": 32826,
+      "sha256": "7403a532b8dd8714ffc1a8c49943397c804e7ca573ed3084089cf0e50bc75fe9"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R005-drift-location-review/R005-drift-location-review.md",
+      "bytes": 5755,
+      "sha256": "7331daaeaa0b06e341717b8f99d77115c42a495da716e79ffdd50c5c152b9f6f"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R005-drift-location-review/validation-R005.json",
+      "bytes": 11623,
+      "sha256": "3c570a69f66a1ca5470708ddc337f9f9f66d1d6a012be52ab03f297fe5cea62b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R011-device-review/review_summary.json",
+      "bytes": 354667,
+      "sha256": "61b4456d24206f399d9f925f5e36f10f40efe37e1282d73201d915cc77cbedd2"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R011-review-run.json",
+      "bytes": 4945,
+      "sha256": "6edaf37bbe65be8747b63d3014cf7d9f0bb4cb6071f19e8f19d22091026cc530"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R012-rank-review/review_summary.json",
+      "bytes": 53892,
+      "sha256": "37fad3fef4c8ee81cf31a781db63e9120646b4be1a22807c682b7b19cb29efd8"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R012-review-run.json",
+      "bytes": 5223,
+      "sha256": "d4e7b662a375a3d24d6e1a775effb2606fd53e5db0617f525bdeab708e264bfb"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/review_affine_ranks_R012.py",
+      "bytes": 14183,
+      "sha256": "e300f9b269a8b2ee1161e07db78f806281185b7fb4fd5a774b964c7f280f6b6a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/review_device_distribution_R011.py",
+      "bytes": 15120,
+      "sha256": "b5796474a2b3ba50b26b8d9f1b7128830628e48da8a166040cb7bb16788b7151"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/仿射排名区间独审-R012.md",
+      "bytes": 7649,
+      "sha256": "7d41ee3f3f62d6c2385d77d0163417cd0045f2bcd6c8641dc8a7e0e6e936b2c6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/共同完整32装置分布独审-R011.md",
+      "bytes": 7992,
+      "sha256": "9a6fdd665f24cedff2810e2d920f8def8eb7aed301267ae46ebe6e18cc23b98a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/README.md",
+      "bytes": 912,
+      "sha256": "bd25dd9b7ff242d22d93c8335623ae017e766ef068dfe397f25a9deb05716fe2"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/build_floor_profiles.py",
+      "bytes": 8157,
+      "sha256": "7826ea31d2e0297191d7dc578e0c8826f740ff74f90573f1131c5a3efdbf071c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/frozen-R005-floor-figure.json",
+      "bytes": 5738,
+      "sha256": "066d6af5f41ec5cd356ee62476063202e695262ec2bfa0836c328571da793e55"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/plot-v001/floor_record_peak_profiles.png",
+      "bytes": 302244,
+      "sha256": "f1a8ff0bba9ead35bfca4a5052333cf6171fcf69a9fa9104bb6459bcfab776c4"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/plot-v001/floor_record_peak_profiles.svg",
+      "bytes": 57335,
+      "sha256": "460f7d1e45a188cfdd402c8fde60b913ca3c713d2f63ddaef2fa032efbe0d9ab"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/plot-v001/numeric_QA.json",
+      "bytes": 2857,
+      "sha256": "af74bb7a3c8ce387f78c1b03f84964ccce6f0dca3d0c079928dd0292c4e79f00"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/plot-v001/plot_floor_profiles_72rows.csv",
+      "bytes": 8549,
+      "sha256": "7154ea25606cc11ac68c019a8442b5b1de429e3ab2dfc36309042df1dda592be"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/plot-v001/run_record_plot.json",
+      "bytes": 2746,
+      "sha256": "970095b923937456ac63e8df3ae135bcfc55c48561f77d7f3bf77ee9bca36ac7"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/plot-v001/run_record_png.json",
+      "bytes": 750,
+      "sha256": "a0953a9737ff72e231862085baab60d8077a63ada28369aad0b90a08e0d002a2"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/plot-v001/visual_QA.json",
+      "bytes": 1016,
+      "sha256": "1cd40082267e54a4527dca488e05192a8c0d6e3c4f33ae14ebb4cb950eeebd9a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/plot-v001/图注与使用范围.md",
+      "bytes": 1066,
+      "sha256": "7f7d4f73ba98cd8f23a2edaf5dd0fc9d123516743938441f7d90d3334fafe2e5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/render_png.cjs",
+      "bytes": 1047,
+      "sha256": "e9afcd090903e2f1a946c6c9c8d6ba6b7c1cfacc46acd54b9176268e0d155571"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/run_record.json",
+      "bytes": 906,
+      "sha256": "cae7fb6eb8dcd9a7e8bb87e87abfa94c63ec624c587b668d2c9106b4341da786"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/R005-floor-figure/validation.json",
+      "bytes": 2113,
+      "sha256": "e631a346f73274f438112f89c6933cc5d80a462f1cfed3d73a95a9e8e4fd8c12"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/draft-v004-evidence-map.json",
+      "bytes": 30473,
+      "sha256": "41d5cb11d58f7b132212f7450329869aebcdf44f8b7fb93515e849ee470d5ed0"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/draft-v004-next-task.md",
+      "bytes": 282,
+      "sha256": "6250cfd9477fc2786a42e725aa60122b9e30aa363b16ef4481acf59166b01ae2"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/draft-v004-rank-comparison-24groups.csv",
+      "bytes": 2138,
+      "sha256": "601bae1a262ae6cfd48532103a79edc85f9cf4ac5dc1486a0747a3b49408b77e"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/draft-v004-report.md",
+      "bytes": 1306,
+      "sha256": "42e08eb95e05ff1bbaa8255fa84998715fc1534e0d9dfcafb97834624be35a47"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/draft-v004-session-snapshot.json",
+      "bytes": 2544,
+      "sha256": "cf2089fb44afa5e8a8db25414bdd49f3eb99c795a9869825d9c72ca95bd81754"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/draft-v004-validation.json",
+      "bytes": 3744,
+      "sha256": "35913d4c2f8a09b524b227520ccc2d5d3126f19991039c9b3446089f3749997c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/frozen-draft-v004.json",
+      "bytes": 2958,
+      "sha256": "3eda099249ce349c962d93ba3b203ff8d85a9ca9f235bd02753188137789b833"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R005-index-qa.json",
+      "bytes": 245,
+      "sha256": "b6758085937267b721b684550efa302870dcdbaefa7cfba2d525cc099420405a"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R005-late-evidence.md",
+      "bytes": 2774,
+      "sha256": "45c8e1f04ca6fccd2794d17500c82c120acf030dffe0e8690fb7b04e38facf9a"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R005-push.json",
+      "bytes": 550,
+      "sha256": "7a5a91fc0df500555df440c9b4864c6a010b0c7c1d4b8920a99702d5fe65f6fc"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R005-role-snapshot.json",
+      "bytes": 4385,
+      "sha256": "f6f69420e7ef4c7c42c1f890b006da1cbb7689a86515a9878e8fd288cd90b945"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R006-role-snapshot.json",
+      "bytes": 7277,
+      "sha256": "e75bd22f4fbfb7b2cc15f363112e3ad4140c1914a90e95c55b91f18d9669b59c"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R006-v004-root-review-pass.json",
+      "bytes": 1388,
+      "sha256": "edb6191d66c4f46623807b3ca58200db1ede938f3c851166a16852b76273f260"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R006-v004-root-review.json",
+      "bytes": 1293,
+      "sha256": "cdafbc6fe5daa5822918b46fc137f15ed5c6b7a62e4446ea17af7eba47ee7f0e"
+    },
+    {
+      "path": "research/sessions/20261017-2109/claims.md",
+      "bytes": 9814,
+      "sha256": "a46335ae661aec217171b2728388c0cbdda3c31ada33c0473f57ee7d1f739d1b"
+    },
+    {
+      "path": "research/sessions/20261017-2109/figures/03-root-adoption.json",
+      "bytes": 1188,
+      "sha256": "0fc761bd757289f8d44290d8ecb9ae514122def29690f7f39105f1339a301966"
+    },
+    {
+      "path": "research/sessions/20261017-2109/figures/03_floor_record_peak_profiles.png",
+      "bytes": 302244,
+      "sha256": "f1a8ff0bba9ead35bfca4a5052333cf6171fcf69a9fa9104bb6459bcfab776c4"
+    },
+    {
+      "path": "research/sessions/20261017-2109/figures/03_floor_record_peak_profiles.svg",
+      "bytes": 57335,
+      "sha256": "460f7d1e45a188cfdd402c8fde60b913ca3c713d2f63ddaef2fa032efbe0d9ab"
+    },
+    {
+      "path": "research/sessions/20261017-2109/figures/03_图注与使用范围.md",
+      "bytes": 1066,
+      "sha256": "7f7d4f73ba98cd8f23a2edaf5dd0fc9d123516743938441f7d90d3334fafe2e5"
+    },
+    {
+      "path": "research/sessions/20261017-2109/figures/plot_floor_profiles_72rows.csv",
+      "bytes": 8549,
+      "sha256": "7154ea25606cc11ac68c019a8442b5b1de429e3ab2dfc36309042df1dda592be"
+    },
+    {
+      "path": "research/sessions/20261017-2109/review_v004_root_R006.py",
+      "bytes": 6384,
+      "sha256": "df6210bcc82430f9e9d511ea0a72131aed5a9a1b9d28f537d4da0a5e4a47c2f8"
+    },
+    {
+      "path": "research/sessions/20261017-2109/rounds/R006.md",
+      "bytes": 1625,
+      "sha256": "ca5488b57b56756c33423eadff5f56b605b443d11b9e9a6e6076118d3f61db83"
+    },
+    {
+      "path": "research/sessions/20261017-2109/runs.md",
+      "bytes": 5077,
+      "sha256": "5ddd08d53be11d7c3e242329ef2e489d33620041e6e3ed67ca8e316e186a5553"
+    },
+    {
+      "path": "research/sessions/20261017-2109/status.json",
+      "bytes": 22268,
+      "sha256": "ba4ea06441c3fe92d4c9b8cf82e160fa37668b0f6b464da5d338c52b85174427"
+    },
+    {
+      "path": "research/sessions/20261017-2109/topic-cards/T-M001-v005.md",
+      "bytes": 1938,
+      "sha256": "56d9aa13696ef8f9de39f194a5dbc12ac7aefcec2a81022116bd64c5fb610797"
+    },
+    {
+      "path": "research/sessions/20261017-2109/topic-cards/events.md",
+      "bytes": 1027,
+      "sha256": "de403ed9064d61e437bdf32ea085da59c860394fe6353d5759443da89098cf84"
+    },
+    {
+      "path": "research/sessions/20261017-2109/阻尼器布置最小数据清单.md",
+      "bytes": 4864,
+      "sha256": "4f29dfc8f040b717b0485fa82be538a5badac70222e21a503701691cd9e9ad7c"
+    }
+  ],
+  "file_count": 52,
+  "total_bytes": 1394047,
+  "scope": "completed reviewed small artifacts only; active R013/literatureR006/noveltyR007/experimentR008 excluded; v004 root-reviewed stage",
+  "per_file_limit": 1000000,
+  "size_exceptions": "R011 354667-byte 192-summary review and two302244-byte figure copies, not full arrays; explicit allowed",
+  "no_raw_data_or_old_dirty_files": true
+}

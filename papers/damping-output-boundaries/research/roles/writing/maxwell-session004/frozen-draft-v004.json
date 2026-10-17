@@ -1,0 +1,50 @@
+{
+  "frozen_at": "2026-10-17T23:21:38.705910+08:00",
+  "task_started": "2026-10-17T23:15:52+08:00",
+  "task_limit_minutes": 12,
+  "status": "Author integration QA passed;awaiting R013 independent integration review",
+  "checks_count": 24,
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v004.md",
+      "bytes": 32826,
+      "sha256": "7403a532b8dd8714ffc1a8c49943397c804e7ca573ed3084089cf0e50bc75fe9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v004-evidence-map.json",
+      "bytes": 30473,
+      "sha256": "41d5cb11d58f7b132212f7450329869aebcdf44f8b7fb93515e849ee470d5ed0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v004-validation.json",
+      "bytes": 3744,
+      "sha256": "35913d4c2f8a09b524b227520ccc2d5d3126f19991039c9b3446089f3749997c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v004-session-snapshot.json",
+      "bytes": 2544,
+      "sha256": "cf2089fb44afa5e8a8db25414bdd49f3eb99c795a9869825d9c72ca95bd81754"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v004-report.md",
+      "bytes": 1306,
+      "sha256": "42e08eb95e05ff1bbaa8255fa84998715fc1534e0d9dfcafb97834624be35a47"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v004-next-task.md",
+      "bytes": 282,
+      "sha256": "6250cfd9477fc2786a42e725aa60122b9e30aa363b16ef4481acf59166b01ae2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v004-rank-comparison-24groups.csv",
+      "bytes": 2138,
+      "sha256": "601bae1a262ae6cfd48532103a79edc85f9cf4ac5dc1486a0747a3b49408b77e"
+    }
+  ],
+  "source_R011": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\共同完整32装置分布独审-R011.md",
+    "bytes": 7992,
+    "sha256": "9a6fdd665f24cedff2810e2d920f8def8eb7aed301267ae46ebe6e18cc23b98a"
+  },
+  "session_deadline": "2026-10-18T07:09:45+08:00"
+}

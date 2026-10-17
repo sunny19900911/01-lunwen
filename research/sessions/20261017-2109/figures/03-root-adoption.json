@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-17T23:11:24.977574+08:00",
+  "root_numeric_checks": {
+    "rows": 72,
+    "raw_values": 144,
+    "normalized_ratios": 144,
+    "denominators": 12
+  },
+  "actual_root_visual_review": "PNG viewed2400x1493(rendered2006x1248),labels/legend/axes/notes clear,no clipping;series overlap reflects data",
+  "source_hashes": {
+    "floor_record_peak_profiles.png": "f1a8ff0bba9ead35bfca4a5052333cf6171fcf69a9fa9104bb6459bcfab776c4",
+    "floor_record_peak_profiles.svg": "460f7d1e45a188cfdd402c8fde60b913ca3c713d2f63ddaef2fa032efbe0d9ab",
+    "plot_floor_profiles_72rows.csv": "7154ea25606cc11ac68c019a8442b5b1de429e3ab2dfc36309042df1dda592be"
+  },
+  "canonical_copy_mapping": {
+    "floor_record_peak_profiles.png": "03_floor_record_peak_profiles.png",
+    "floor_record_peak_profiles.svg": "03_floor_record_peak_profiles.svg",
+    "plot_floor_profiles_72rows.csv": "plot_floor_profiles_72rows.csv",
+    "图注与使用范围.md": "03_图注与使用范围.md"
+  },
+  "standard_plotting_library": "ReportLab4.4.9 LinePlot/renderSVG;Sharp rasterization",
+  "scope": "single-model record peak profiles,not simultaneous/model reduction/causal comparison"
+}
