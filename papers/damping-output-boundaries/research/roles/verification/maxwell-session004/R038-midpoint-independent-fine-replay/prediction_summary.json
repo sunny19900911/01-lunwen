@@ -1,0 +1,64 @@
+{
+  "N": 16384,
+  "nodes": 98305,
+  "h": 0.0027117205433095496,
+  "T": 44.42882938158366,
+  "trajectory_columns": [
+    "t",
+    "u1",
+    "u2",
+    "v1",
+    "v2",
+    "F"
+  ],
+  "memory_trajectory_sha256": "8e8019a7431b56aa2679f0de4808d847f2eb4b54d23909cd603e0a808a97f2c4",
+  "array_saved": false,
+  "modal_coefficients": {
+    "lambda": [
+      1.0,
+      3.0
+    ],
+    "damping": [
+      0.1,
+      0.17320508075688773
+    ],
+    "beta": [
+      0.7071067811865475,
+      -0.7071067811865475
+    ],
+    "den": [
+      1.0001374243842418,
+      1.0002403569590759
+    ],
+    "S": 0.9998111476485668,
+    "af": 0.1250018380098982
+  },
+  "maximum_root_scaled_residual": 9.999965265572452e-14,
+  "maximum_root_iterations": 3,
+  "Newton_bisection_protections": 0,
+  "energy_diagnostics": {
+    "terminal_E": 3.198295310256822e-05,
+    "E0": 0.0,
+    "input_work": 125.85843443351928,
+    "background_dissipation": 121.67744040028522,
+    "device_dissipation": 4.180962050856755,
+    "terminal_balance": 5.757954113505548e-10,
+    "max_abs_step_balance": 5.10105846451836e-13,
+    "max_abs_cumulative_balance": 5.757954113505548e-10,
+    "max_abs_increment_residuals_ru1_ru2_rv1_rv2_rF": [
+      1.609823385706477e-15,
+      3.6526771191036644e-16,
+      4.649058915617843e-15,
+      3.0890004096284507e-15,
+      1.9999915430797387e-13
+    ],
+    "max_abs_three_residual_work_terms": [
+      1.3855813387871283e-14,
+      3.105181687992053e-14,
+      5.027811193041406e-13
+    ],
+    "max_abs_energy_minus_residual_work": 1.1732299485458607e-14
+  },
+  "prediction_completed_before_any_reference_or_author_results_read": true,
+  "completed_at": "2026-10-18T03:58:15.697184+08:00"
+}

@@ -1,0 +1,101 @@
+{
+  "task": "R025",
+  "checked_at": "2026-10-18T03:58:46.952519+08:00",
+  "started_at": "2026-10-18T03:51:44+08:00",
+  "deadline": "2026-10-18T04:01:44+08:00",
+  "elapsed_seconds": 422.952519,
+  "within_ten_minutes": true,
+  "old_note_inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R013\\report.md",
+      "bytes": 10440,
+      "sha256": "daf784f407ad41ff69e0239d516a8f549b8c8e51d5485f445cc7a771ccd333e3",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R013\\addition-primary-review.md",
+      "bytes": 7464,
+      "sha256": "b2b0d5241809a93cbd70ecf45f65c63bfa71ea298dff92ff296736d4be7b0e23",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R013\\existing-addition-scope.md",
+      "bytes": 7416,
+      "sha256": "3838fe92f8f64c0a87b309649106b40d8aa0a8d532907d8e09320b76329e80e4",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R013\\source-log.json",
+      "bytes": 3666,
+      "sha256": "26c328055771dd750b079812826077cca787ee1c8c6bf8bbe77fdeb16522ec1a",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R016-mechanism-contribution-boundary\\report.md",
+      "bytes": 11455,
+      "sha256": "c9f2a30e69cec3bb267f50c9851541ad15732e753e63888ab9b4f2704a4cbd6f",
+      "unchanged": true
+    }
+  ],
+  "new_queries": 2,
+  "query_limit": 2,
+  "new_fulltexts_obtained": 2,
+  "fulltext_limit": 2,
+  "exact_condition_matches": 0,
+  "substantive_new_neighbor": "Correia2024, alpha .15, reported displacement-related increases, pending role6/independent verification",
+  "failed_new_page_opens": [
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/13632469.2021.1911879",
+      "tool": "web.open",
+      "status": "403 Forbidden; no full text obtained, search snippet not evidence"
+    },
+    {
+      "url": "https://www.civilejournal.org/index.php/cej/article/view/5415",
+      "tool": "web.open",
+      "status": "502 Bad Gateway; no full text obtained, search snippet not evidence"
+    }
+  ],
+  "prior_403_not_retried": true,
+  "new_403_or502_not_retried": true,
+  "numeric_pairs_transcribed_and_visually_checked": [
+    {
+      "location": "Correia PDF7 Table8 Kparallel0 a1x",
+      "C0": 0.0066986,
+      "C125": 0.00697439,
+      "increased": true
+    },
+    {
+      "location": "Correia PDF8 upper Table9 Kparallel0 a1x top-minus-first",
+      "C0": 0.00024392,
+      "C125": 0.00028529,
+      "increased": true
+    }
+  ],
+  "normalization_hypothesis_only": {
+    "d1_over_h1": 0.00669859649122807,
+    "top_minus_first_over_height_difference": 0.0002439166666666666,
+    "not_a_certification_of_output_definition": true
+  },
+  "unresolved_conditions": [
+    "exact number and placement of branches",
+    "actual unchanged background C",
+    "zero structural and device initial states",
+    "series kappa used in tables8/9",
+    "Table8 unit/normalization and exact peak definition",
+    "top-first is not necessarily adjacent story drift or synchronous displacement-difference peak"
+  ],
+  "no_arrays_rawExcel_solver": true,
+  "no_new_search_after_two_queries": true,
+  "no_shared_oldfreeze_or_Git_mutation": true,
+  "priority_claim": false,
+  "primary_reading_not_full_original_model_replication": true,
+  "explicit_artifact_links": [
+    "input-rules-R025.json",
+    "search-log-R025.json",
+    "source-manifest-R025.json",
+    "report.md",
+    "validation-R025.json",
+    "freeze-R025.json"
+  ],
+  "next_authority": "main routes raw-source increment to role6/independent verifier; this report does not certify exact match"
+}

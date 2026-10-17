@@ -1,0 +1,55 @@
+{
+  "summary_keys": [
+    "task",
+    "status",
+    "finished_utc",
+    "elapsed_seconds",
+    "predictions",
+    "comparison",
+    "fine_u1_u2_maxerror_below_point1",
+    "coarse_to_fine_improvement_on_common_grid",
+    "BE_small_summary_comparison_only",
+    "BE_source_sha256",
+    "BE_trajectory_pointwise_comparison_performed",
+    "reference_sha256",
+    "reference_member",
+    "J_fine_index",
+    "J_coarse_index",
+    "J_coarse_grid_coordinate",
+    "model_input_only_predictions",
+    "sources_code_protocol_unchanged",
+    "no_large_arrays_saved",
+    "limits"
+  ],
+  "snapshot_headers": [
+    "﻿N",
+    "node",
+    "time",
+    "u1",
+    "u2",
+    "v1",
+    "v2",
+    "F",
+    "E",
+    "input_work",
+    "physical_background_dissipation",
+    "physical_device_dissipation",
+    "actual_cumulative_balance",
+    "kinematic_residual_work_sum",
+    "momentum_residual_work_sum",
+    "constitutive_residual_work_sum",
+    "scalar_root_residual"
+  ],
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\summary.json",
+      "bytes": 19581,
+      "sha256": "727a9fdc6cc94e4818d91d454467e321aa892d95bcc136d970360350f2ac3822"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\prediction_fixed_snapshots.csv",
+      "bytes": 2000,
+      "sha256": "554d34499a50d81d953fb57b8e1717ec57d7dcae04cdbcbe7643cfe9ad703a6f"
+    }
+  ]
+}

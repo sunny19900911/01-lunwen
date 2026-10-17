@@ -1,0 +1,62 @@
+{
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-validation-plan-v001.md",
+    "bytes": 6541,
+    "sha256": "688c5e5bb5f25a88d8845933bd10ace0091a51fbede0d19318931977430b3281"
+  },
+  "input_freeze": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\engineering-paired-validation-v001\\input-freeze.json",
+    "bytes": 13659,
+    "sha256": "cb85530b9c9288d2e26ca03d942962142ff1d1214d2c328f8c7ed596e57cc08d"
+  },
+  "mapping": [
+    {
+      "section": "Pilot/common identity gate",
+      "sources": [
+        "research/sessions/20261017-2109/下一次只补这些资料.md",
+        "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R020-field-gap-crosscheck/report.md",
+        "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R019-actual-field-gap-map/R019-actual-field-gap-map.md",
+        "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/layout-input-templates-v001/README.md"
+      ],
+      "scope": "SingleRH4X0..50spilot,targetIDpending,minimumdataonly;unknownactualC/reference/ports/baseline notcertified."
+    },
+    {
+      "section": "Gate1",
+      "sources": [
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R030-force-target-interface-review/report.md",
+        "research/sessions/20261017-2109/R014-adoption.json",
+        "research/sessions/20261017-2109/force-to-target-interface-protocol-v001.md",
+        "research/sessions/20261017-2109/force-replay-synthetic-protocol-v001.md"
+      ],
+      "scope": "C029 knownsameDforce conditionalgrid diagnostic;notclosedloopprediction ornewlayout."
+    },
+    {
+      "section": "Gate2",
+      "sources": [
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R033-force-feedback-closure-review/report.md",
+        "research/sessions/20261017-2109/R016-adoption.json"
+      ],
+      "scope": "C032 fullcrossedcompleteportMaxwellclosure underindependentscalardomain,compatibleIC/regularity;no existence/convergence/solverclaim."
+    },
+    {
+      "section": "Gate3/baseline/decisions",
+      "sources": [
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R030-force-target-interface-review/report.md",
+        "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R032-target-peak-decision-review/report.md",
+        "research/sessions/20261017-2109/R015-adoption.json",
+        "research/sessions/20261017-2109/下一次只补这些资料.md"
+      ],
+      "scope": "Fairphysicalpairandseparatesurrogatebaseline;C030 finitewindow uniformerrorandstrictpeakintervalrule;unknownremainder notzero;datafailures distinctfrommethodfailures."
+    }
+  ],
+  "author_choices": "One physical globalX displacement target,pending actualnodeID;primary existingD/U0 pair or predeclaredsame-resource relocation;absoluteengineering thresholds left unset.",
+  "user_decisions_count": 2,
+  "current_status": "Plan only;not performed;await independent plan review.",
+  "history": "Old writer next-task is historical;current explicit bounded task authorizes this newplan only. Old force-replay protocol toy tolerances notengineeringcriteria.",
+  "excluded": [
+    "active midpoint candidate/results",
+    "BE results asengineeringtolerance",
+    "newphysicalperformanceclaims"
+  ],
+  "no_previous_version_diff": true
+}

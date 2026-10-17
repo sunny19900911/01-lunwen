@@ -1,0 +1,42 @@
+{
+  "queries": [
+    "\"nonlinear Maxwell\" damper \"displacement\" \"increase\"",
+    "\"nonlinear viscous dampers\" \"displacement amplification\" spring"
+  ],
+  "total_queries": 2,
+  "failed_open_once_not_retried": [
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/13632469.2021.1911879",
+      "tool": "web.open",
+      "status": "403 Forbidden; no full text obtained, search snippet not evidence"
+    },
+    {
+      "url": "https://www.civilejournal.org/index.php/cej/article/view/5415",
+      "tool": "web.open",
+      "status": "502 Bad Gateway; no full text obtained, search snippet not evidence"
+    }
+  ],
+  "pdf_attempts": [
+    {
+      "name": "soft_floors",
+      "url": "https://fenix.tecnico.ulisboa.pt/downloadFile/3378094857519319/Extend_Paper_Dissipadores_Energia.pdf",
+      "status": 200,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\soft_floors.pdf",
+      "bytes": 2083356,
+      "sha256": "b7caa4faf066bcd759d9f95a79f420c752f908d75889f5ece983e2bfd103f21f",
+      "pages": 10,
+      "fulltext_obtained": true
+    },
+    {
+      "name": "dong_ricles2021",
+      "url": "https://par.nsf.gov/servlets/purl/10280084",
+      "status": 200,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\dong_ricles2021.pdf",
+      "bytes": 3816193,
+      "sha256": "3bc9709e3c2ba06581d8282933ff8b97cd4f48e6f7d3c30842788406429515de",
+      "pages": 17,
+      "fulltext_obtained": true
+    }
+  ],
+  "previous_failed_Patel_not_retried": true
+}

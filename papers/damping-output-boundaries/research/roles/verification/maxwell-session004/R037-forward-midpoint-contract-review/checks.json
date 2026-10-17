@@ -1,0 +1,44 @@
+{
+  "required_changes": 0,
+  "scope": "Two exact fixed alpha1 halfstep algebra cases and one arbitrary nonlinear stored/work-midpoint identity; no temporal loop or root iteration.",
+  "linear_cases": [
+    {
+      "case": "full_rank",
+      "halfstep_full_cross_elimination_and_block_equal": true,
+      "nonzero_E0_midpoint_balance": true,
+      "adding_BE_increment_losses_would_break_identity": true
+    },
+    {
+      "case": "rank_deficient",
+      "halfstep_full_cross_elimination_and_block_equal": true,
+      "nonzero_E0_midpoint_balance": true,
+      "adding_BE_increment_losses_would_break_identity": true
+    }
+  ],
+  "three_nonzero_increment_residual_work_signs": true,
+  "nonlinear_g_of_midpoint_not_endpoint_average": true,
+  "all_three_work_midpoint_corrections_nonzero": true,
+  "force_work_midpoint_different_and_nonlinear_g_evaluation_changed": true,
+  "work_midpoint_correction_plus_sign": true,
+  "Fmid_bracket_not_Fnext_bracket_counterexample": {
+    "Fmid": "1/3",
+    "Fm_bracket": [
+      "0",
+      "1/2"
+    ],
+    "Fprevious": "1",
+    "Fnext": "-1/3"
+  },
+  "pure_algebra_reuse": "Only selected frozen own R036 Fraction function definitions; its executable run and all author scripts not executed.",
+  "source_count": 11,
+  "sources_unchanged": true,
+  "NPZ_arrays_ODE_time_integration_author_execution_or_new_statistics_certified": false,
+  "not_claimed": [
+    "floating roots successful",
+    "continuous solution error/order",
+    "all-time numerical comparison",
+    "BE failure reversed",
+    "unique error mechanism",
+    "FNA/engineering/physical validation or novelty"
+  ]
+}

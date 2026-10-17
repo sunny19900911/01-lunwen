@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-18T03:58:15.024531+08:00",
+  "argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R038-midpoint-independent-fine-replay\\independent_modal_newton.py"
+  ],
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\independent-midpoint-fine-replay-protocol-v001.md",
+      "bytes": 2520,
+      "sha256": "0a294150fc9ca93be9dec70d798717e9f5dd35ce351d9145b3d3c2b00f44b361"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\protocol.json",
+      "bytes": 2250,
+      "sha256": "a752d72fd7a7273108954b652c969be3d03d3610229a549f29e824777ccc033a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R038-midpoint-independent-fine-replay\\independent_modal_newton.py",
+      "bytes": 11498,
+      "sha256": "4b96a5b06df6e4f70ddf61a03cf111af6e742985317ae6b2c27b2d552fe0c78a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R038-midpoint-independent-fine-replay\\run_protocol.json",
+      "bytes": 1675,
+      "sha256": "1bb1c1ec778ba00ba1ee9950fac430164a940c3008645e5bf81cf1198a581895"
+    }
+  ],
+  "reference_or_author_summary_snapshots_not_opened": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5"
+}

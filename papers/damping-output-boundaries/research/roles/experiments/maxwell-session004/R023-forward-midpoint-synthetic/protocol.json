@@ -1,0 +1,32 @@
+{
+  "task": "R023-forward-midpoint-synthetic",
+  "status": "candidate",
+  "started_at": "2026-10-18T03:42:34+08:00",
+  "deadline": "2026-10-18T03:52:34+08:00",
+  "root_protocol": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\forward-midpoint-synthetic-protocol-v001.md",
+    "bytes": 3267,
+    "sha256": "9fd6a8523bfaedbc4f67602140cd091c9669426cf77561a06be6062a519b092a"
+  },
+  "N": [
+    8192,
+    16384
+  ],
+  "root_gate": 1e-11,
+  "max_bisections": 60,
+  "fine_displacement_gate": 0.1,
+  "model": "C027 D: M=I;K=[[2,-1],[-1,2]];C=.1sqrt(K);B=(0,1);kappa8;c10;alpha3/10;zero state;forcing midpoint until T;window6T",
+  "reference_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+  "reference_sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62",
+  "reference_gate": "both predictions summaries/7snapshots/trajectorySHA on disk before reference hash/np.load;D_N16384 only",
+  "BE_summary_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\summary.json",
+  "BE_summary_sha256": "53a9f0d899188e674ceae1446ffd73884ab082c972af9be3a0c9c4eb31325567",
+  "residuals": "actual endpoint midpoint increments; ru=du-h*vbar;rp=dv+h*(Cvbar+Kubar+B^T*Fbar-fmid);rF=dF/kappa-h*(Bvbar-g(Fbar));work=Kubar.ru+vbar.rp+Fbar*rF",
+  "no_BE_numerical_dissipation": true,
+  "R014_idea_source": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R014-midpoint-residual-prototype\\midpoint_residual_prototype.py",
+    "bytes": 14383,
+    "sha256": "4cf6541b4588722b4e80feb48dfcfe93e613e9026180b661a6039cf1a6d99129"
+  },
+  "allowed_outputs": "small code/JSON/7snapshots/12blockstatistics/run record;no arrays/NPZ/plots"
+}

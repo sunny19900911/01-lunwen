@@ -1,0 +1,35 @@
+{
+  "round": "R027-forward-midpoint-contract",
+  "artifacts": [
+    {
+      "file": "author-crosscheck.json",
+      "bytes": 1504,
+      "sha256": "7a7d5e1d692c88c8f3a68ebfe980800380b31a553819804da2cbb281a80b6b1d"
+    },
+    {
+      "file": "checks.json",
+      "bytes": 706,
+      "sha256": "78018a5e2513cf88b7d4d11519715301d6eec782526a5a80b9976b53794ab751"
+    },
+    {
+      "file": "checks.py",
+      "bytes": 4455,
+      "sha256": "56a56d99fa7130a4e2dbf9ec3eb006885b7d657c5d27e940f30a70210314d6a8"
+    },
+    {
+      "file": "report.md",
+      "bytes": 5953,
+      "sha256": "5ffe4793d5f92e14d46c3e8c31e9cde8e8a3d237dc87b76d0e12153270c7e6f0"
+    },
+    {
+      "file": "source-freeze.json",
+      "bytes": 1293,
+      "sha256": "bc4162f0dbe9fe9b06e9b81d937703cfb968a4a97b7c0631c7fd76f6149b513e"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 2011,
+      "sha256": "b383e79056a0babbcba60ffe156f237083b43de19a98b9078946e1679e66e975"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "task": "R024",
+  "decision": "0 must within independent static implementation/small-output scope; R037 separate math admission",
+  "validation_time": "2026-10-18T03:50:12.533864+08:00",
+  "started_at": "2026-10-18T03:46:42+08:00",
+  "deadline": "2026-10-18T03:55:42+08:00",
+  "elapsed_seconds": 210.533864,
+  "within_nine_minutes": true,
+  "source_count": 16,
+  "sources_unchanged": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\forward_midpoint.py",
+      "bytes": 18965,
+      "sha256": "95e26724c99cb5279cdbcba3cab30189ecde9c0784b029cc29d307c1a11405fd",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\protocol.json",
+      "bytes": 2250,
+      "sha256": "a752d72fd7a7273108954b652c969be3d03d3610229a549f29e824777ccc033a",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\pre_run_freeze.json",
+      "bytes": 1867,
+      "sha256": "122fb17807a514bb8fa2e83b8d6aaefd7354a8e53ca428c70102920356030443",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\prediction_summary.json",
+      "bytes": 10670,
+      "sha256": "485c23d3b4cac5b4e2e6f1a0360ac967807fbb32b699599f70f081bd7efed263",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\prediction_freeze.json",
+      "bytes": 789,
+      "sha256": "01306cde38f82476bfc531d213773de47f35852776fd6ebb4d0995e4c1225e8e",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\reference_read_order.json",
+      "bytes": 1966,
+      "sha256": "402543d5bd91b29565ff4f30e9f62fe10c00cdc0e053071563aaf31fc2eb4395",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\prediction_fixed_snapshots.csv",
+      "bytes": 2000,
+      "sha256": "554d34499a50d81d953fb57b8e1717ec57d7dcae04cdbcbe7643cfe9ad703a6f",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\comparison_fixed_snapshots.csv",
+      "bytes": 2802,
+      "sha256": "84bd45f5e5600e5fa41deac89b7cb9b9d5e184b025ed74c561c537e3dd65902c",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\six_block_increment_residuals.csv",
+      "bytes": 3060,
+      "sha256": "fdd701cb7c29397532d038d7d1f87d378d1123b8490e5f9e043b8a7c14176d51",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\summary.json",
+      "bytes": 19581,
+      "sha256": "727a9fdc6cc94e4818d91d454467e321aa892d95bcc136d970360350f2ac3822",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\report.md",
+      "bytes": 3332,
+      "sha256": "4183dbebfbec1136bed69b1f06ce78b101ef43c7283a5eaee164601e02c3348b",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\run_record.json",
+      "bytes": 683,
+      "sha256": "ed5b93056d23164822a3915557575922f039ddeee5c8c9972c6370dded83c780",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\delivery_manifest.json",
+      "bytes": 4506,
+      "sha256": "ce3b5ce82a7ccd76ebe462491a7a8b1136a1eb0f4a4c38ae9bee1b39d5874f0c",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\forward-midpoint-synthetic-protocol-v001.md",
+      "bytes": 3267,
+      "sha256": "9fd6a8523bfaedbc4f67602140cd091c9669426cf77561a06be6062a519b092a",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R022-forward-BE-synthetic\\summary.json",
+      "bytes": 11658,
+      "sha256": "53a9f0d899188e674ceae1446ffd73884ab082c972af9be3a0c9c4eb31325567",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R014-midpoint-residual-prototype\\midpoint_residual_prototype.py",
+      "bytes": 14383,
+      "sha256": "4cf6541b4588722b4e80feb48dfcfe93e613e9026180b661a6039cf1a6d99129",
+      "unchanged": true
+    }
+  ],
+  "small_checks": {
+    "passed": 166,
+    "failed": 0,
+    "delivery_manifest_files": 12,
+    "snapshot_rows_each": 7,
+    "residual_block_rows": 12,
+    "BE_summary_statistics": 24
+  },
+  "independent_challenges": {
+    "two_by_two_inverse_checks": 2,
+    "isolated_scalar_roots": 6,
+    "arbitrary_endpoint_exact_fraction_energy_identities": 2,
+    "factor_two_exact_identities": 2,
+    "max_scalar_abs_residual": 1.1102230246251565e-16
+  },
+  "peer_reviews": [
+    "local_literature: complete source/small-package control-flow and transcription, 0 must",
+    "weng2016_source: complete endpoint residual and root/energy implementation plus tiny Fraction algebra, 0 must"
+  ],
+  "no_NPZ_read_hash_stat_decode": true,
+  "no_raw_excel": true,
+  "no_authorprogram_fullwindow_ODE_execution": true,
+  "alltime_max_RMS_independently_recomputed": false,
+  "reference_array_identity_reverified": false,
+  "BE_new_old_trajectory_pointwise_comparison": false,
+  "new_fine_displacement_point1_gate": {
+    "u1": true,
+    "u2": true
+  },
+  "old_BE_fine_displacement_point1_gate": {
+    "u1": false,
+    "u2": true
+  },
+  "full_endpoint_residuals": "ru(2),rp(2),rF(1), recomputed from final endpoints and endpoint averages; no BE numerical dissipation",
+  "root_scaling": "fixed reduced scalar residual gate unchanged; full rF approximately twice root residual, separate arithmetic mismatch retained",
+  "explicit_artifact_links": [
+    "input-rules-R024.json",
+    "review_small_R024.py",
+    "small-challenges-R024.json",
+    "report.md",
+    "validation-R024.json",
+    "freeze-R024.json"
+  ],
+  "limits": "No continuous error/order/independent physical or engineering/FNA certification; no unique-cause attribution; no new source search; own new files only"
+}

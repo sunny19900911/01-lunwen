@@ -1,0 +1,315 @@
+{
+  "status": "candidate_before_reference_access",
+  "reference_accessed": false,
+  "predictions": [
+    {
+      "N": 8192,
+      "h": 0.005423441086619099,
+      "steps": 49152,
+      "nodes": 49153,
+      "elapsed_seconds": 0.5288383000006434,
+      "a_half": 0.0027117205433095496,
+      "A_inverse": [
+        [
+          0.999615024852484,
+          0.00010652721972335665
+        ],
+        [
+          0.00010652721972335665,
+          0.999615024852484
+        ]
+      ],
+      "S_h": 0.999615024852484,
+      "a_F": 0.12500735059741785,
+      "memory_trajectory_sha256": "63efb29704d5667cbaa403c733c77bc280fa5d4a6f7479fd75380a0d37b7c885",
+      "trajectory_columns": [
+        "t",
+        "u1",
+        "u2",
+        "v1",
+        "v2",
+        "F"
+      ],
+      "trajectory_dtype": "little-endian float64 C-order",
+      "trajectory_saved": false,
+      "root_max_abs_residual": 9.999223671286472e-12,
+      "root_max_scaled_residual": 9.999223671286472e-12,
+      "root_gate_pass": true,
+      "root_max_iterations": 35,
+      "root_mean_iterations": 28.681966145833332,
+      "root_stagnations": 0,
+      "all_roots_in_theoretical_bracket": true,
+      "energy_terminal": 3.197375832603983e-05,
+      "input_work": 125.85449790838543,
+      "physical_background_dissipation": 121.67396877588409,
+      "physical_device_dissipation": 4.180497151680437,
+      "actual_terminal_balance": -7.062567419779953e-09,
+      "max_abs_actual_step_balance": 9.222370610240116e-11,
+      "max_abs_actual_cumulative_balance": 7.062567419779953e-09,
+      "complete_endpoint_increment_residuals": {
+        "r_u1_increment": {
+          "max_abs": 4.440892098500626e-16,
+          "signed_at_max": 4.440892098500626e-16,
+          "right_node_at_max": 5827,
+          "nonzero_count": 48305
+        },
+        "r_u2_increment": {
+          "max_abs": 5.551115123125783e-17,
+          "signed_at_max": 5.551115123125783e-17,
+          "right_node_at_max": 4494,
+          "nonzero_count": 48495
+        },
+        "r_p1_increment": {
+          "max_abs": 5.3550913703404035e-15,
+          "signed_at_max": 5.3550913703404035e-15,
+          "right_node_at_max": 8080,
+          "nonzero_count": 49012
+        },
+        "r_p2_increment": {
+          "max_abs": 6.570265165262157e-16,
+          "signed_at_max": 6.570265165262157e-16,
+          "right_node_at_max": 5522,
+          "nonzero_count": 49066
+        },
+        "r_F_compliance_increment": {
+          "max_abs": 1.9998630040803404e-11,
+          "signed_at_max": -1.9998630040803404e-11,
+          "right_node_at_max": 5758,
+          "nonzero_count": 49152
+        }
+      },
+      "residual_work_order": [
+        "kinematic_Ku_mid_dot_ru",
+        "momentum_v_mid_dot_rp",
+        "constitutive_F_mid_times_rF"
+      ],
+      "signed_residual_work_sums": [
+        1.010207405624838e-13,
+        -5.857580096299658e-11,
+        -7.004292784356119e-09
+      ],
+      "absolute_residual_work_sums": [
+        7.139253071194053e-12,
+        5.926723469566696e-11,
+        2.583463703489577e-07
+      ],
+      "max_abs_step_residual_works": [
+        4.3406681499412456e-15,
+        3.7815142714639274e-14,
+        9.222251811286149e-11
+      ],
+      "terminal_balance_minus_summed_residual_work": 2.001447985999091e-13,
+      "max_abs_step_energy_balance_minus_residual_works": 1.1995005815780761e-14,
+      "max_abs_half_constitutive_residual_minus_scalar_root_residual": 1.7596601259439737e-16,
+      "max_abs_endpoint_midpoint_minus_solved_midpoint": 4.440892098500626e-16,
+      "minimum_step_background_dissipation": 8.670936263912392e-19,
+      "minimum_step_device_dissipation": 3.959573534215339e-35,
+      "BE_numerical_dissipation_formula_used": false,
+      "dissipation_midpoints": "actual endpoint averages",
+      "sampled_peaks": {
+        "u1": {
+          "whole_window": {
+            "sampled_abs_peak": 5.06485325766663,
+            "signed_value": -5.06485325766663,
+            "node": 8265,
+            "time": 44.824740580906855
+          },
+          "strictly_after_T": {
+            "sampled_abs_peak": 5.06485325766663,
+            "signed_value": -5.06485325766663,
+            "node": 8265,
+            "time": 44.824740580906855
+          }
+        },
+        "u2": {
+          "whole_window": {
+            "sampled_abs_peak": 0.5872566346574608,
+            "signed_value": -0.5872566346574608,
+            "node": 8250,
+            "time": 44.74338896460757
+          },
+          "strictly_after_T": {
+            "sampled_abs_peak": 0.5872566346574608,
+            "signed_value": -0.5872566346574608,
+            "node": 8250,
+            "time": 44.74338896460757
+          }
+        },
+        "F": {
+          "whole_window": {
+            "sampled_abs_peak": 4.664383970046082,
+            "signed_value": -4.664383970046082,
+            "node": 8232,
+            "time": 44.64576702504843
+          },
+          "strictly_after_T": {
+            "sampled_abs_peak": 4.664383970046082,
+            "signed_value": -4.664383970046082,
+            "node": 8232,
+            "time": 44.64576702504843
+          }
+        }
+      },
+      "fixed_indices": [
+        0,
+        8192,
+        49152
+      ]
+    },
+    {
+      "N": 16384,
+      "h": 0.0027117205433095496,
+      "steps": 98304,
+      "nodes": 98305,
+      "elapsed_seconds": 1.070632700007991,
+      "a_half": 0.0013558602716547748,
+      "A_inverse": [
+        [
+          0.9998111476485672,
+          5.1446850057563194e-05
+        ],
+        [
+          5.1446850057563194e-05,
+          0.9998111476485672
+        ]
+      ],
+      "S_h": 0.9998111476485672,
+      "a_F": 0.1250018380098982,
+      "memory_trajectory_sha256": "7d5450b66adc77928f80359a2e613dc5258fc6ecd31fa3e284d51ef76c51fd6d",
+      "trajectory_columns": [
+        "t",
+        "u1",
+        "u2",
+        "v1",
+        "v2",
+        "F"
+      ],
+      "trajectory_dtype": "little-endian float64 C-order",
+      "trajectory_saved": false,
+      "root_max_abs_residual": 9.999899440948055e-12,
+      "root_max_scaled_residual": 9.999899440948055e-12,
+      "root_gate_pass": true,
+      "root_max_iterations": 35,
+      "root_mean_iterations": 28.7052001953125,
+      "root_stagnations": 0,
+      "all_roots_in_theoretical_bracket": true,
+      "energy_terminal": 3.1975960090988974e-05,
+      "input_work": 125.85843443366802,
+      "physical_background_dissipation": 121.67744039092793,
+      "physical_device_dissipation": 4.180962050582773,
+      "actual_terminal_balance": -1.6197233776438225e-08,
+      "max_abs_actual_step_balance": 9.28392850877563e-11,
+      "max_abs_actual_cumulative_balance": 1.6197233776438225e-08,
+      "complete_endpoint_increment_residuals": {
+        "r_u1_increment": {
+          "max_abs": 4.440892098500626e-16,
+          "signed_at_max": 4.440892098500626e-16,
+          "right_node_at_max": 7557,
+          "nonzero_count": 97309
+        },
+        "r_u2_increment": {
+          "max_abs": 5.551115123125783e-17,
+          "signed_at_max": -5.551115123125783e-17,
+          "right_node_at_max": 16355,
+          "nonzero_count": 97557
+        },
+        "r_p1_increment": {
+          "max_abs": 3.6056227448177935e-15,
+          "signed_at_max": 3.6056227448177935e-15,
+          "right_node_at_max": 5489,
+          "nonzero_count": 97932
+        },
+        "r_p2_increment": {
+          "max_abs": 4.298861613905025e-16,
+          "signed_at_max": 4.298861613905025e-16,
+          "right_node_at_max": 5436,
+          "nonzero_count": 98002
+        },
+        "r_F_compliance_increment": {
+          "max_abs": 1.999979889629567e-11,
+          "signed_at_max": 1.999979889629567e-11,
+          "right_node_at_max": 51963,
+          "nonzero_count": 98304
+        }
+      },
+      "residual_work_order": [
+        "kinematic_Ku_mid_dot_ru",
+        "momentum_v_mid_dot_rp",
+        "constitutive_F_mid_times_rF"
+      ],
+      "signed_residual_work_sums": [
+        -2.0586454486454728e-13,
+        2.1284591652143227e-11,
+        -1.6215331439114817e-08
+      ],
+      "absolute_residual_work_sums": [
+        1.4149728814542565e-11,
+        5.25819956195202e-11,
+        5.141757424395789e-07
+      ],
+      "max_abs_step_residual_works": [
+        4.387638757855705e-15,
+        2.3469335752721404e-14,
+        9.284460280424187e-11
+      ],
+      "terminal_balance_minus_summed_residual_work": -2.9810644306867524e-12,
+      "max_abs_step_energy_balance_minus_residual_works": 1.1587667583286809e-14,
+      "max_abs_half_constitutive_residual_minus_scalar_root_residual": 1.618713843520858e-16,
+      "max_abs_endpoint_midpoint_minus_solved_midpoint": 4.440892098500626e-16,
+      "minimum_step_background_dissipation": 4.555274772649445e-19,
+      "minimum_step_device_dissipation": 2.4008258868062406e-39,
+      "BE_numerical_dissipation_formula_used": false,
+      "dissipation_midpoints": "actual endpoint averages",
+      "sampled_peaks": {
+        "u1": {
+          "whole_window": {
+            "sampled_abs_peak": 5.064963459369758,
+            "signed_value": -5.064963459369758,
+            "node": 16529,
+            "time": 44.822028860363545
+          },
+          "strictly_after_T": {
+            "sampled_abs_peak": 5.064963459369758,
+            "signed_value": -5.064963459369758,
+            "node": 16529,
+            "time": 44.822028860363545
+          }
+        },
+        "u2": {
+          "whole_window": {
+            "sampled_abs_peak": 0.5872742642870197,
+            "signed_value": -0.5872742642870197,
+            "node": 16501,
+            "time": 44.74610068515088
+          },
+          "strictly_after_T": {
+            "sampled_abs_peak": 0.5872742642870197,
+            "signed_value": -0.5872742642870197,
+            "node": 16501,
+            "time": 44.74610068515088
+          }
+        },
+        "F": {
+          "whole_window": {
+            "sampled_abs_peak": 4.664525258770536,
+            "signed_value": -4.664525258770536,
+            "node": 16465,
+            "time": 44.64847874559173
+          },
+          "strictly_after_T": {
+            "sampled_abs_peak": 4.664525258770536,
+            "signed_value": -4.664525258770536,
+            "node": 16465,
+            "time": 44.64847874559173
+          }
+        }
+      },
+      "fixed_indices": [
+        0,
+        16384,
+        16529,
+        98304
+      ]
+    }
+  ]
+}

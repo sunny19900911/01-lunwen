@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-18T03:58:15.780387+08:00",
+  "error": "KeyError(\"Unknown author snapshot fields: ['\\\\ufeffN', 'node', 'time', 'u1', 'u2', 'v1', 'v2', 'F', 'E', 'input_work', 'physical_background_dissipation', 'physical_device_dissipation', 'actual_cumulative_balance', 'kinematic_residual_work_sum', 'momentum_residual_work_sum', 'constitutive_residual_work_sum', 'scalar_root_residual'] need ['N', 'N_steps_per_T']\")",
+  "context": {
+    "phase": "author_small_comparison",
+    "node": 94208,
+    "elapsed_seconds": 0.6419775999966078
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R038-midpoint-independent-fine-replay\\independent_modal_newton.py\", line 136, in <module>\n    try:main()\n        ^^^^^^\n  File \"E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R038-midpoint-independent-fine-replay\\independent_modal_newton.py\", line 125, in main\n    candidates=[r for r in authorrows if int(get(r,['N','N_steps_per_T']))==N and int(get(r,['node','node_index','index']))==own['node']]\n                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R038-midpoint-independent-fine-replay\\independent_modal_newton.py\", line 122, in get\n    raise KeyError(f'Unknown author snapshot fields: {list(row)} need {aliases}')\nKeyError: \"Unknown author snapshot fields: ['\\\\ufeffN', 'node', 'time', 'u1', 'u2', 'v1', 'v2', 'F', 'E', 'input_work', 'physical_background_dissipation', 'physical_device_dissipation', 'actual_cumulative_balance', 'kinematic_residual_work_sum', 'momentum_residual_work_sum', 'constitutive_residual_work_sum', 'scalar_root_residual'] need ['N', 'N_steps_per_T']\"\n",
+  "no_retry_or_retuning": true
+}

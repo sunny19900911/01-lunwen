@@ -1,0 +1,890 @@
+{
+  "checked_at": "2026-10-18T03:48:30.013378+08:00",
+  "scope": "only specified small files, six isolated scalar roots, two 2x2 inverse checks, two arbitrary-endpoint rational energy identities and two factor-two identities; target never executed",
+  "checks": [
+    {
+      "name": "input:R023-forward-midpoint-synthetic/forward_midpoint.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R023-forward-midpoint-synthetic/protocol.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R023-forward-midpoint-synthetic/pre_run_freeze.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R023-forward-midpoint-synthetic/prediction_summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R023-forward-midpoint-synthetic/prediction_freeze.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R023-forward-midpoint-synthetic/reference_read_order.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R023-forward-midpoint-synthetic/prediction_fixed_snapshots.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R023-forward-midpoint-synthetic/comparison_fixed_snapshots.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R023-forward-midpoint-synthetic/six_block_increment_residuals.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R023-forward-midpoint-synthetic/summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R023-forward-midpoint-synthetic/report.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R023-forward-midpoint-synthetic/run_record.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R023-forward-midpoint-synthetic/delivery_manifest.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:20261017-2109/forward-midpoint-synthetic-protocol-v001.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R022-forward-BE-synthetic/summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "input:R014-midpoint-residual-prototype/midpoint_residual_prototype.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:comparison_fixed_snapshots.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:forward_midpoint.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:pre_run_freeze.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:prediction_fixed_snapshots.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:prediction_freeze.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:prediction_summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:protocol.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:reference_read_order.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:report.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:run_record.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:six_block_increment_residuals.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prerun:forward-midpoint-synthetic-protocol-v001.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prerun:protocol.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prerun:forward_midpoint.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prerun:summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prerun:midpoint_residual_prototype.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "predictions_unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:code_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:protocol_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:prediction_summary_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:snapshots_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "freeze:residual_blocks_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "event_order",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "clock_nondecreasing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reference_flags",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "row_counts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_unchanged:8192:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "refnode:8192:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:8192:0:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:8192:0:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:8192:0:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "energy:8192:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "balance:8192:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_unchanged:8192:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "refnode:8192:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:8192:8192:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:8192:8192:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:8192:8192:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "energy:8192:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "balance:8192:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_unchanged:8192:49152",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "refnode:8192:49152",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:8192:49152:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:8192:49152:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:8192:49152:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "energy:8192:49152",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "balance:8192:49152",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_unchanged:16384:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "refnode:16384:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:16384:0:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:16384:0:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:16384:0:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "energy:16384:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "balance:16384:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_unchanged:16384:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "refnode:16384:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:16384:16384:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:16384:16384:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:16384:16384:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "energy:16384:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "balance:16384:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_unchanged:16384:16529",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "refnode:16384:16529",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:16384:16529:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:16384:16529:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:16384:16529:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "energy:16384:16529",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "balance:16384:16529",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_unchanged:16384:98304",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "refnode:16384:98304",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:16384:98304:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:16384:98304:u2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "error:16384:98304:F",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "energy:16384:98304",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "balance:16384:98304",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memory_SHA_record_only:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "indices:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "midpoint_semantics:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inverse_spectral:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "six_blocks:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_residual_max:8192:r_u1_increment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_residual_max:8192:r_u2_increment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_residual_max:8192:r_p1_increment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_residual_max:8192:r_p2_increment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_residual_max:8192:r_F_compliance_increment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_work_sum:8192:kinematic_residual_work_sum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_work_sum:8192:momentum_residual_work_sum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_work_sum:8192:constitutive_residual_work_sum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "balance_defect:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "root_vs_const_record:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "isolated_scalar_root:8192:-0.7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "isolated_scalar_root:8192:0.0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "isolated_scalar_root:8192:0.7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "exact_endpoint_energy_identity:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "exact_root_half_rF:8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memory_SHA_record_only:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "indices:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "midpoint_semantics:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inverse_spectral:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "six_blocks:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_residual_max:16384:r_u1_increment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_residual_max:16384:r_u2_increment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_residual_max:16384:r_p1_increment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_residual_max:16384:r_p2_increment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_residual_max:16384:r_F_compliance_increment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_work_sum:16384:kinematic_residual_work_sum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_work_sum:16384:momentum_residual_work_sum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "block_work_sum:16384:constitutive_residual_work_sum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "balance_defect:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "root_vs_const_record:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "isolated_scalar_root:16384:-0.7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "isolated_scalar_root:16384:0.0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "isolated_scalar_root:16384:0.7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "exact_endpoint_energy_identity:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "exact_root_half_rF:16384",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "J_not_faked",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "old_BE_fail_retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:coarse_vs_reference_on_49153_common_nodes:u1:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:coarse_vs_reference_on_49153_common_nodes:u1:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:coarse_vs_reference_on_49153_common_nodes:u2:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:coarse_vs_reference_on_49153_common_nodes:u2:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:coarse_vs_reference_on_49153_common_nodes:F:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:coarse_vs_reference_on_49153_common_nodes:F:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:fine_vs_reference_on_49153_common_nodes:u1:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:fine_vs_reference_on_49153_common_nodes:u1:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:fine_vs_reference_on_49153_common_nodes:u2:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:fine_vs_reference_on_49153_common_nodes:u2:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:fine_vs_reference_on_49153_common_nodes:F:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:fine_vs_reference_on_49153_common_nodes:F:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:fine_vs_reference_on_98305_all_nodes:u1:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:fine_vs_reference_on_98305_all_nodes:u1:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:fine_vs_reference_on_98305_all_nodes:u2:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:fine_vs_reference_on_98305_all_nodes:u2:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:fine_vs_reference_on_98305_all_nodes:F:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:fine_vs_reference_on_98305_all_nodes:F:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:coarse_vs_fine_prediction_on_49153_common_nodes:u1:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:coarse_vs_fine_prediction_on_49153_common_nodes:u1:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:coarse_vs_fine_prediction_on_49153_common_nodes:u2:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:coarse_vs_fine_prediction_on_49153_common_nodes:u2:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:coarse_vs_fine_prediction_on_49153_common_nodes:F:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BE_stats_only:coarse_vs_fine_prediction_on_49153_common_nodes:F:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "improvement:u1:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "improvement:u1:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "improvement:u2:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "improvement:u2:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "improvement:F:max_abs_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "improvement:F:RMS_error",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "gate:u1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "gate:u2",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "check_count": 166,
+  "failed_checks": [],
+  "scalar_challenges": [
+    {
+      "N": 8192,
+      "b": -0.7,
+      "root": -5.596537133374053,
+      "residual": 1.1102230246251565e-16
+    },
+    {
+      "N": 8192,
+      "b": 0.0,
+      "root": 0.0,
+      "residual": 0.0
+    },
+    {
+      "N": 8192,
+      "b": 0.7,
+      "root": 5.596537133374055,
+      "residual": 1.1102230246251565e-16
+    },
+    {
+      "N": 16384,
+      "b": -0.7,
+      "root": -5.598349108029284,
+      "residual": 1.1102230246251565e-16
+    },
+    {
+      "N": 16384,
+      "b": 0.0,
+      "root": 0.0,
+      "residual": 0.0
+    },
+    {
+      "N": 16384,
+      "b": 0.7,
+      "root": 5.598349108029286,
+      "residual": 1.1102230246251565e-16
+    }
+  ],
+  "exact_algebra_challenges": [
+    {
+      "N": 8192,
+      "arbitrary_endpoint_identity_exact": true,
+      "root_equals_half_rF_exact": true
+    },
+    {
+      "N": 16384,
+      "arbitrary_endpoint_identity_exact": true,
+      "root_equals_half_rF_exact": true
+    }
+  ],
+  "alltime_max_RMS_independently_recomputed": false,
+  "NPZ_array_identity_reverified": false
+}

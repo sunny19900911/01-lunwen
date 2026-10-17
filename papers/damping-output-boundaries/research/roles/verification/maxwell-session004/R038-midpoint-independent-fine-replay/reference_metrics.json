@@ -1,0 +1,48 @@
+{
+  "N": 16384,
+  "nodes": 98305,
+  "metrics": {
+    "u1": {
+      "max_abs_error": 0.00010223078384519191,
+      "RMS_error": 2.826286265940199e-05,
+      "max_witness": {
+        "node": 17027,
+        "time": 46.1724656909317,
+        "signed_error": -0.00010223078384519191,
+        "prediction": 1.04248199791688,
+        "reference": 1.0425842287007252
+      }
+    },
+    "u2": {
+      "max_abs_error": 1.4760550898940128e-05,
+      "RMS_error": 3.4644226666031854e-06,
+      "max_witness": {
+        "node": 19598,
+        "time": 53.144299207780556,
+        "signed_error": 1.4760550898940128e-05,
+        "prediction": -0.1267527742059773,
+        "reference": -0.12676753475687624
+      }
+    },
+    "F": {
+      "max_abs_error": 0.00012136941423102066,
+      "RMS_error": 2.8679087670829117e-05,
+      "max_witness": {
+        "node": 17075,
+        "time": 46.30262827701056,
+        "signed_error": -0.00012136941423102066,
+        "prediction": 1.8909106721747304,
+        "reference": 1.8910320415889614
+      }
+    }
+  },
+  "u1_u2_maxerror_below_point1": {
+    "u1": true,
+    "u2": true
+  },
+  "reference": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+    "bytes": 12938185,
+    "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+  }
+}

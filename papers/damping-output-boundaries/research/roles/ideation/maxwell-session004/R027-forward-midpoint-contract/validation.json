@@ -1,0 +1,41 @@
+{
+  "status": "frozen mathematical candidate; independent role2 audit pending",
+  "start": "2026-10-18T03:42:37+08:00",
+  "completed_at": "2026-10-18T03:45:52.839434+08:00",
+  "elapsed_seconds": 195.839,
+  "within_8_minutes": true,
+  "overall_deadline_unchanged": "2026-10-18T07:09:45+08:00",
+  "source_checks": [
+    {
+      "path": "research/sessions/20261017-2109/forward-midpoint-synthetic-protocol-v001.md",
+      "sha256": "9fd6a8523bfaedbc4f67602140cd091c9669426cf77561a06be6062a519b092a",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R036-forward-BE-contract-review/report.md",
+      "sha256": "987fbddddfcd4f031ffa13160df526114867f71a8bc98f6c96892b7d8f79fdf2",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R023-forward-BE-implementation-review/report.md",
+      "sha256": "7225fd192a5a667089f5de6a0e111a4a586c1988d08bd2e3682155513fbd0d2d",
+      "unchanged": true
+    }
+  ],
+  "checks_all_passed": true,
+  "QA": "UTF8/LF, final newline, trailing whitespace, JSON parse and normalized local Markdown links passed.",
+  "files_checked_before_validation": [
+    "author-crosscheck.json",
+    "checks.json",
+    "checks.py",
+    "report.md",
+    "source-freeze.json"
+  ],
+  "scope": "Only this new R027 directory written. No time integration or time-stepping solver, root iteration, array/NPZ/original table read, external search, old/shared/manuscript/Git edit.",
+  "preserved_boundaries": [
+    "BE fine u1 maxabs 0.15684318810743214 > 0.1 remains failure as recorded; not independently recomputed here.",
+    "R036 per-step mathematical review does not certify implementation/accuracy.",
+    "Role3 R023 finite code/small-output review does not independently reconstruct all trajectory statistics or NPZ identity.",
+    "New midpoint contract predicts no experimental success, accuracy/order, physical validation or novelty."
+  ]
+}

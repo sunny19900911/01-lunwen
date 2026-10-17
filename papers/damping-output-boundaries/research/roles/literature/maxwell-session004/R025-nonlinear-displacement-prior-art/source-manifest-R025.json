@@ -1,0 +1,79 @@
+{
+  "recorded_at": "2026-10-18T03:58:46.952519+08:00",
+  "cache_policy": "PDF, extracted text and rendered original pages remain only local-cache under existing ancestor ignore; no source excerpt/page images outside cache",
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\soft_floors.pdf",
+      "bytes": 2083356,
+      "sha256": "b7caa4faf066bcd759d9f95a79f420c752f908d75889f5ece983e2bfd103f21f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\soft_floors.txt",
+      "bytes": 42559,
+      "sha256": "a3dbf6d49a3087afcc591235699dc9598715acecf368b519cfdc1195000a1170"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\soft-07.png",
+      "bytes": 599114,
+      "sha256": "67dd198ec0e98932b6d7889342d8a2af9504c774ef79698c493df6851e969abc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\soft-08.png",
+      "bytes": 527013,
+      "sha256": "dc5c7cb29e19ed6a3335936bd9b64c6e90544e52371c87d6663e866bc3458033"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\soft-09.png",
+      "bytes": 460037,
+      "sha256": "2ed1f5e5e66241c89b0a3ae3528cf71e639b054bd7cf7a84513b9a5011890d27"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\dong_ricles2021.pdf",
+      "bytes": 3816193,
+      "sha256": "3bc9709e3c2ba06581d8282933ff8b97cd4f48e6f7d3c30842788406429515de"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\dong_ricles2021.txt",
+      "bytes": 70885,
+      "sha256": "44134eb464905bdf497d11d2f3eeb95ff6a8ffa78e508dafeca63dfa7a83a7c1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\dong-04.png",
+      "bytes": 573306,
+      "sha256": "b61d83720cf2e809272be0f1132bfdf78f752b02c9e371a03b139dcf1e188204"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R025-nonlinear-displacement-prior-art\\local-cache\\dong-05.png",
+      "bytes": 458497,
+      "sha256": "c340f3d88fb02ef08952ede4b80ce7c53e1556a9e0ae2717a0e8c40d8c9736f8"
+    }
+  ],
+  "primary_sources": [
+    {
+      "id": "Correia2024",
+      "url": "https://fenix.tecnico.ulisboa.pt/downloadFile/3378094857519319/Extend_Paper_Dissipadores_Energia.pdf",
+      "pdf_pages": 10,
+      "read_scope": "main text and targeted pages 6-9, main actually viewed PDF7/8/9; peer independently viewed PDF7/8",
+      "evidence_locations": [
+        "PDF7 Fig17, Tables5-8, section3.4",
+        "PDF8 upper Table9 and Fig20",
+        "PDF9 Table13 and discussion"
+      ],
+      "status": "new substantive displacement/drift reported-increase neighbor, exact target conditions unresolved"
+    },
+    {
+      "id": "DongRicles2021",
+      "url": "https://par.nsf.gov/servlets/purl/10280084",
+      "doi": "10.1016/j.jcsr.2021.106857",
+      "pdf_pages": 17,
+      "read_scope": "targeted source/model/comparison text; peer PDF2/4-9 targeted; main actually viewed PDF4/5",
+      "evidence_locations": [
+        "PDF4 section2.3 equations1-3",
+        "PDF5 section3.1 Fig4 Table1",
+        "PDF6 Table2",
+        "PDF8-9 section4.1"
+      ],
+      "status": "different structural design and multiple dampers; not target exact-condition match"
+    }
+  ]
+}

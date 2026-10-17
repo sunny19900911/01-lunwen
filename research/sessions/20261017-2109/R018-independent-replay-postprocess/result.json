@@ -1,0 +1,225 @@
+{
+  "at": "2026-10-18T04:03:07.585632+08:00",
+  "six_statistic_checks": [
+    {
+      "output": "u1",
+      "metric": "max_abs_error",
+      "independent": 0.00010223078384519191,
+      "author": 0.00010223022395683401,
+      "absolute_difference": 5.598883578983305e-10,
+      "passed": true
+    },
+    {
+      "output": "u1",
+      "metric": "RMS_error",
+      "independent": 2.826286265940199e-05,
+      "author": 2.826343413244894e-05,
+      "absolute_difference": 5.71473046950832e-10,
+      "passed": true
+    },
+    {
+      "output": "u2",
+      "metric": "max_abs_error",
+      "independent": 1.4760550898940128e-05,
+      "author": 1.4762356633502005e-05,
+      "absolute_difference": 1.8057345618771592e-09,
+      "passed": true
+    },
+    {
+      "output": "u2",
+      "metric": "RMS_error",
+      "independent": 3.4644226666031854e-06,
+      "author": 3.4822530118106122e-06,
+      "absolute_difference": 1.7830345207426857e-08,
+      "passed": true
+    },
+    {
+      "output": "F",
+      "metric": "max_abs_error",
+      "independent": 0.00012136941423102066,
+      "author": 0.00012137141708401522,
+      "absolute_difference": 2.002852994564819e-09,
+      "passed": true
+    },
+    {
+      "output": "F",
+      "metric": "RMS_error",
+      "independent": 2.8679087670829117e-05,
+      "author": 2.868387476032649e-05,
+      "absolute_difference": 4.787089497373942e-09,
+      "passed": true
+    }
+  ],
+  "twenty_snapshot_checks": [
+    {
+      "node": 0,
+      "state": "u1",
+      "independent": 0.0,
+      "author": 0.0,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "node": 0,
+      "state": "u2",
+      "independent": 0.0,
+      "author": 0.0,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "node": 0,
+      "state": "v1",
+      "independent": 0.0,
+      "author": 0.0,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "node": 0,
+      "state": "v2",
+      "independent": 0.0,
+      "author": 0.0,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "node": 0,
+      "state": "F",
+      "independent": 0.0,
+      "author": 0.0,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "node": 16384,
+      "state": "u1",
+      "independent": -4.3297612964341345,
+      "author": -4.329761295806087,
+      "absolute_difference": 6.280478359599329e-10,
+      "passed": true
+    },
+    {
+      "node": 16384,
+      "state": "u2",
+      "independent": -0.5433171717529615,
+      "author": -0.5433171705916683,
+      "absolute_difference": 1.1612931727356113e-09,
+      "passed": true
+    },
+    {
+      "node": 16384,
+      "state": "v1",
+      "independent": -3.6694941967395107,
+      "author": -3.6694941966773653,
+      "absolute_difference": 6.214539993720791e-11,
+      "passed": true
+    },
+    {
+      "node": 16384,
+      "state": "v2",
+      "independent": -0.29862015272384457,
+      "author": -0.2986201533551499,
+      "absolute_difference": 6.313053413364855e-10,
+      "passed": true
+    },
+    {
+      "node": 16384,
+      "state": "F",
+      "independent": -4.475001415211231,
+      "author": -4.475001417320052,
+      "absolute_difference": 2.108820673640821e-09,
+      "passed": true
+    },
+    {
+      "node": 16529,
+      "state": "u1",
+      "independent": -5.064963460006854,
+      "author": -5.064963459369758,
+      "absolute_difference": 6.37095709521418e-10,
+      "passed": true
+    },
+    {
+      "node": 16529,
+      "state": "u2",
+      "independent": -0.5851945864642148,
+      "author": -0.5851945854533874,
+      "absolute_difference": 1.0108274217657254e-09,
+      "passed": true
+    },
+    {
+      "node": 16529,
+      "state": "v1",
+      "independent": -0.00817629668371932,
+      "author": -0.00817629670885537,
+      "absolute_difference": 2.5136049491836232e-11,
+      "passed": true
+    },
+    {
+      "node": 16529,
+      "state": "v2",
+      "independent": 0.05367241658291316,
+      "author": 0.05367241651422917,
+      "absolute_difference": 6.868399599069264e-11,
+      "passed": true
+    },
+    {
+      "node": 16529,
+      "state": "F",
+      "independent": -4.570775797545506,
+      "author": -4.570775800145019,
+      "absolute_difference": 2.5995126051725492e-09,
+      "passed": true
+    },
+    {
+      "node": 98304,
+      "state": "u1",
+      "independent": -0.0029953163636122285,
+      "author": -0.002994988919221662,
+      "absolute_difference": 3.2744439056649893e-07,
+      "passed": true
+    },
+    {
+      "node": 98304,
+      "state": "u2",
+      "independent": -0.005992412676523236,
+      "author": -0.0059917575853448484,
+      "absolute_difference": 6.550911783873362e-07,
+      "passed": true
+    },
+    {
+      "node": 98304,
+      "state": "v1",
+      "independent": 4.529428325964072e-06,
+      "author": 4.531946708326073e-06,
+      "absolute_difference": 2.518382362001082e-09,
+      "passed": true
+    },
+    {
+      "node": 98304,
+      "state": "v2",
+      "independent": 5.387867131504593e-07,
+      "author": 5.439806196336089e-07,
+      "absolute_difference": 5.193906483149595e-09,
+      "passed": true
+    },
+    {
+      "node": 98304,
+      "state": "F",
+      "independent": 0.008989936278474973,
+      "author": 0.008988952918540065,
+      "absolute_difference": 9.83359934907807e-07,
+      "passed": true
+    }
+  ],
+  "all_six_pass": true,
+  "all_twenty_pass": true,
+  "maximum_statistic_difference": 1.7830345207426857e-08,
+  "maximum_snapshot_difference": 9.83359934907807e-07,
+  "original_gate": 1e-06,
+  "all_original_inputs_unchanged": true,
+  "old_R038_exit1_and_failure_preserved": true,
+  "scientific_solver_rerun": false,
+  "reference_arrays_opened": false,
+  "scope": "Small-output recovery completes originally missing checks only. Independent all-node reference metrics come from R038 earlier completed stage;no complete author-vs-independent predicted-trajectory pointwise comparison."
+}

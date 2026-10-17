@@ -1,0 +1,37 @@
+{
+  "task": "R024",
+  "frozen_at": "2026-10-18T03:50:12.538591+08:00",
+  "started_at": "2026-10-18T03:46:42+08:00",
+  "deadline": "2026-10-18T03:55:42+08:00",
+  "elapsed_seconds": 210.538591,
+  "within_deadline": true,
+  "files": [
+    {
+      "name": "input-rules-R024.json",
+      "bytes": 6445,
+      "sha256": "6b90d3439ac33b4a3bf4634bdff09e7b4fd5a22fb474af36883e4ee51aa1946b"
+    },
+    {
+      "name": "review_small_R024.py",
+      "bytes": 8539,
+      "sha256": "3be581dc5c57610ff1d66b15e229655328416cb3f26409c815fe1651ec7811af"
+    },
+    {
+      "name": "small-challenges-R024.json",
+      "bytes": 19946,
+      "sha256": "a90fe3817425c23e5899cc1ca049fdae1df7607123a20270e33688180179251d"
+    },
+    {
+      "name": "report.md",
+      "bytes": 9181,
+      "sha256": "4ac9781fb34ac9fa9b14d583002a1b58d84797fcf517817c04156b2f33144607"
+    },
+    {
+      "name": "validation-R024.json",
+      "bytes": 8429,
+      "sha256": "5b5b3df32dd38f11f76228228be52c4bb9ba8be64bbce3c3a19e5dc55e3fc21c"
+    }
+  ],
+  "immutable_after_delivery": true,
+  "decision": "0 must implementation changes; limited reference diagnostic only; R037 math independent"
+}

@@ -1,0 +1,22 @@
+{
+  "all_passed": true,
+  "arithmetic": "fractions.Fraction",
+  "cases": [
+    {
+      "S_singular": false,
+      "Q_SPD": true,
+      "mass_and_cross_port_elimination": true,
+      "nonzero_initial_energy_midpoint_balance": true
+    },
+    {
+      "S_singular": true,
+      "Q_SPD": true,
+      "mass_and_cross_port_elimination": true,
+      "nonzero_initial_energy_midpoint_balance": true
+    }
+  ],
+  "all_three_nonzero_increment_residual_work_signs": true,
+  "internal_midpoint_mismatch_correction": true,
+  "nonlinear_g_of_midpoint_not_average_of_g": true,
+  "scope": "Isolated exact substitutions only; no temporal loop, integration, nonlinear solve, arrays, accuracy result or convergence claim."
+}

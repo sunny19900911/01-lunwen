@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "event": "code_protocol_sources_verified_before_predictions",
+      "utc": "2026-10-17T19:44:49.860331+00:00",
+      "monotonic_ns": 122291781000000,
+      "code_sha256": "95e26724c99cb5279cdbcba3cab30189ecde9c0784b029cc29d307c1a11405fd",
+      "protocol_sha256": "a752d72fd7a7273108954b652c969be3d03d3610229a549f29e824777ccc033a"
+    },
+    {
+      "event": "prediction_complete",
+      "utc": "2026-10-17T19:44:50.388734+00:00",
+      "monotonic_ns": 122292312000000,
+      "N": 8192,
+      "trajectory_sha256": "63efb29704d5667cbaa403c733c77bc280fa5d4a6f7479fd75380a0d37b7c885"
+    },
+    {
+      "event": "prediction_complete",
+      "utc": "2026-10-17T19:44:51.459659+00:00",
+      "monotonic_ns": 122293375000000,
+      "N": 16384,
+      "trajectory_sha256": "7d5450b66adc77928f80359a2e613dc5258fc6ecd31fa3e284d51ef76c51fd6d"
+    },
+    {
+      "event": "both_prediction_summaries_snapshots_and_hashes_persisted",
+      "utc": "2026-10-17T19:44:51.466639+00:00",
+      "monotonic_ns": 122293390000000,
+      "prediction_freeze_sha256": "01306cde38f82476bfc531d213773de47f35852776fd6ebb4d0995e4c1225e8e"
+    },
+    {
+      "event": "reference_hash_access_start",
+      "utc": "2026-10-17T19:44:51.466639+00:00",
+      "monotonic_ns": 122293390000000
+    },
+    {
+      "event": "reference_hash_verified_np_load_next",
+      "utc": "2026-10-17T19:44:51.475183+00:00",
+      "monotonic_ns": 122293390000000,
+      "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+    },
+    {
+      "event": "D_N16384_reference_read_complete",
+      "utc": "2026-10-17T19:44:51.514860+00:00",
+      "monotonic_ns": 122293437000000
+    },
+    {
+      "event": "comparisons_complete",
+      "utc": "2026-10-17T19:44:51.549037+00:00",
+      "monotonic_ns": 122293468000000
+    }
+  ],
+  "not_a_blind_test": true,
+  "all_reference_access_after_two_prediction_freeze": true
+}

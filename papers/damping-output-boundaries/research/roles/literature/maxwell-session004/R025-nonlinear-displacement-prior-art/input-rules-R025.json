@@ -1,0 +1,40 @@
+{
+  "task": "R025 exact nonlinear-Maxwell fixed physical displacement/drift addition prior-art",
+  "started_at": "2026-10-18T03:51:44+08:00",
+  "deadline": "2026-10-18T04:01:44+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R013\\report.md",
+      "bytes": 10440,
+      "sha256": "daf784f407ad41ff69e0239d516a8f549b8c8e51d5485f445cc7a771ccd333e3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R013\\addition-primary-review.md",
+      "bytes": 7464,
+      "sha256": "b2b0d5241809a93cbd70ecf45f65c63bfa71ea298dff92ff296736d4be7b0e23"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R013\\existing-addition-scope.md",
+      "bytes": 7416,
+      "sha256": "3838fe92f8f64c0a87b309649106b40d8aa0a8d532907d8e09320b76329e80e4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R013\\source-log.json",
+      "bytes": 3666,
+      "sha256": "26c328055771dd750b079812826077cca787ee1c8c6bf8bbe77fdeb16522ec1a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R016-mechanism-contribution-boundary\\report.md",
+      "bytes": 11455,
+      "sha256": "c9f2a30e69cec3bb267f50c9851541ad15732e753e63888ab9b4f2704a4cbd6f"
+    }
+  ],
+  "query_limit": 2,
+  "fulltext_limit": 2,
+  "constraints": [
+    "no repeated papers/previous403 retries",
+    "no arrays/rawExcel/solver/shared/Git edits",
+    "all PDF/text/page images only local-cache",
+    "no priority or general nonexistence inference"
+  ]
+}

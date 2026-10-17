@@ -1,0 +1,26 @@
+{
+  "round": "R027-forward-midpoint-contract",
+  "start": "2026-10-18T03:42:37+08:00",
+  "deadline": "2026-10-18T03:50:37+08:00",
+  "overall_deadline": "2026-10-18T07:09:45+08:00",
+  "frozen_at": "2026-10-18T03:42:47.304270+08:00",
+  "sources": [
+    {
+      "path": "research/sessions/20261017-2109/forward-midpoint-synthetic-protocol-v001.md",
+      "bytes": 3267,
+      "sha256": "9fd6a8523bfaedbc4f67602140cd091c9669426cf77561a06be6062a519b092a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R036-forward-BE-contract-review/report.md",
+      "bytes": 6144,
+      "sha256": "987fbddddfcd4f031ffa13160df526114867f71a8bc98f6c96892b7d8f79fdf2"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R023-forward-BE-implementation-review/report.md",
+      "bytes": 7811,
+      "sha256": "7225fd192a5a667089f5de6a0e111a4a586c1988d08bd2e3682155513fbd0d2d"
+    }
+  ],
+  "scope": "Classical exact midpoint per-step algebra only; no integration, solver implementation, arrays/NPZ, original tables, external search, or changes outside this new directory. Preserve prior BE u1 fine-grid failure and review boundaries.",
+  "boundary_sources_added_at": "2026-10-18T03:44:06.472744+08:00"
+}

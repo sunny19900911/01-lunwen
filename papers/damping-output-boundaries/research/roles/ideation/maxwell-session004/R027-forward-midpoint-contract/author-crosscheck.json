@@ -1,0 +1,30 @@
+{
+  "status": "author-side only; independent role2 audit pending",
+  "reviews": [
+    {
+      "agent": "peak_bound_audit",
+      "result": "full midpoint elimination and convex-potential per-step proof correct; protocol SHA matched",
+      "findings": [
+        "halfstep a=h/2 gives a squared cross-port coefficient and true M v_n term",
+        "Q>=J>0, no S inverse or full rank B needed",
+        "continuous monotone g and C1 strongly convex coercive potential cover alpha>1 without Picard",
+        "single-port bracket applies to F_mid only; reconstructed F_next may change sign",
+        "g(F_mid) cannot be replaced by average of endpoint g",
+        "unique step and exact energy do not prove accuracy/order"
+      ]
+    },
+    {
+      "agent": "spectral_zero_order",
+      "result": "mechanical midpoint energy and three residual-work signs correct",
+      "findings": [
+        "no BE three quadratic increment losses",
+        "use true arithmetic midpoint of final stored endpoints",
+        "increment residual work has no extra h; rate residual work has h",
+        "retain complete nonzero E0 including device storage",
+        "discrete physical dissipation/input work not certified continuous integrals",
+        "support input and extra flexibility storage need separate terms"
+      ]
+    }
+  ],
+  "additional_author_derivation": "If internal working midpoints differ from stored-endpoint means, include sum (x_mid-x_work)^T H_x Delta x. Fraction check exercises this correction."
+}

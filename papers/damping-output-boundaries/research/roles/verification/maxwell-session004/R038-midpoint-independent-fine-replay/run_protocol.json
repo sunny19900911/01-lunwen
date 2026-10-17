@@ -1,0 +1,30 @@
+{
+  "N": 16384,
+  "steps": 98304,
+  "initial": "all zero",
+  "h": 0.0027117205433095496,
+  "T": 44.42882938158366,
+  "a": 0.0013558602716547748,
+  "model": "fixed C027 D physical K eigenvalues1/3, C=.1sqrtK, B=e2,kappa8,c10,alpha3/10",
+  "method": "mass-normalized symmetric/antisymmetric modal elimination; shared force; nonnegative magnitude safeguarded Newton",
+  "root_tolerance": 1e-13,
+  "root_max_iterations": 80,
+  "statistics_and_snapshot_absolute_difference_gate": 1e-06,
+  "displacement_gate": 0.1,
+  "deadline": "2026-10-18T04:05:02+08:00",
+  "source_root_protocol": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\independent-midpoint-fine-replay-protocol-v001.md",
+    "bytes": 2520,
+    "sha256": "0a294150fc9ca93be9dec70d798717e9f5dd35ce351d9145b3d3c2b00f44b361"
+  },
+  "author_protocol_path_identity": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R023-forward-midpoint-synthetic\\protocol.json",
+    "bytes": 2250,
+    "sha256": "a752d72fd7a7273108954b652c969be3d03d3610229a549f29e824777ccc033a"
+  },
+  "reference_declared_not_read": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+    "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+  },
+  "no_other_grid_or_tuning": true
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "event": "code_protocol_frozen_before_prediction",
+    "at": "2026-10-18T03:58:15.024531+08:00"
+  },
+  {
+    "event": "all98305_predictions_and_SHA_frozen",
+    "at": "2026-10-18T03:58:15.702198+08:00"
+  },
+  {
+    "event": "reference_hash_start",
+    "at": "2026-10-18T03:58:15.703198+08:00"
+  },
+  {
+    "event": "reference_D_N16384_only_decoded",
+    "at": "2026-10-18T03:58:15.759486+08:00",
+    "source": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+      "bytes": 12938185,
+      "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+    }
+  },
+  {
+    "event": "independent_full_reference_statistics_saved",
+    "at": "2026-10-18T03:58:15.777373+08:00"
+  }
+]
