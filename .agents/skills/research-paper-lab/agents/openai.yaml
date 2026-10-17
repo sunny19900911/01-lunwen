@@ -1,0 +1,4 @@
+interface:
+  display_name: "多角色论文研究室"
+  short_description: "协调猜想、验证、文献复查、ETABS拟合和写作，记录选题卡演变供最终决策"
+  default_prompt: "使用 $research-paper-lab，组织猜想、验证、文献复查、实验和写作，完成一轮研究并交付选题卡及演变记录。"
