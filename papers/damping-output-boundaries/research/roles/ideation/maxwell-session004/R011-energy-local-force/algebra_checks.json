@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-18T00:09:58+08:00",
+  "scope": "small synthetic algebra only; no actual arrays or force solve",
+  "M_diagonal": [
+    2,
+    1
+  ],
+  "B_row": [
+    -1,
+    1
+  ],
+  "eta_direct": 1.5,
+  "eta_complete_modal": 1.5,
+  "eta_first_mode_only": 0.5,
+  "Ebar": 2.0,
+  "k": 3.0,
+  "c": 0.5,
+  "alpha": 0.3,
+  "Vbar": 2.449489742783178,
+  "spring_storage_force_bound": 3.4641016151377544,
+  "velocity_threshold": 0.6541731153543581,
+  "zero_initial_weak_combined_bound": 0.6541731153543581,
+  "massless_counterexample": {
+    "M": "diag(1,0)",
+    "B": "(0,1)",
+    "v": "(0,R)",
+    "kinetic_energy": 0,
+    "pseudo_eta": 0,
+    "port_speed": "R"
+  },
+  "nonzero_initial_force_check": {
+    "initial_abs_force": 1.5,
+    "constant_total_velocity": 0,
+    "peak_at_time0": 1.5,
+    "zero_velocity_threshold": 0,
+    "energy_budget_requirement": 0.375
+  },
+  "passed": true
+}

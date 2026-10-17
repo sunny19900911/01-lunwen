@@ -1,0 +1,125 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R008 primary-source energy-bound tools, no replacement of role2 proof",
+  "started_at": "2026-10-17T23:59:16+08:00",
+  "frozen_at": "2026-10-18T00:05:23.531013+08:00",
+  "task_limit_minutes": 10,
+  "elapsed_seconds": 367.531013,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "candidate sources frozen; task stopped",
+  "sources": [
+    {
+      "id": "Khalil-lecture-14",
+      "url": "https://www.egr.msu.edu/~khalil/NonlinearSystems/Sample/Lect_14.pdf",
+      "type": "textbook author official publicly linked lecture PDF; not claimed original textbook page verification",
+      "path": "local-cache/Khalil-Lect-14.pdf",
+      "bytes": 81296,
+      "sha256": "57c1d6697465284c13f6ed56feac5e75568b9772856ba2b6f557e2cee48935e7",
+      "visual_pages": [
+        {
+          "pdf_page_1based": 14,
+          "png": "local-cache/Khalil-Lect-14-PDFpage-14.png",
+          "sha256": "a8dbec1fb888598e0c4804131c6356ab5a7d04336e4e838d09b9e0918af1ffaf",
+          "actually_viewed": true
+        }
+      ]
+    },
+    {
+      "id": "Khalil-lecture-21",
+      "url": "https://www.egr.msu.edu/~khalil/NonlinearSystems/Sample/Lect_21.pdf",
+      "type": "textbook author official publicly linked lecture PDF; not claimed original textbook page verification",
+      "path": "local-cache/Khalil-Lect-21.pdf",
+      "bytes": 65044,
+      "sha256": "5e77d45b831756f0f1a1cf0f449b97ca8fc4a9295907f9818ab152b701c516dd",
+      "visual_pages": [
+        {
+          "pdf_page_1based": 5,
+          "png": "local-cache/Khalil-Lect-21-PDFpage-5.png",
+          "sha256": "9b6229f5ac456b0f0f38706a2086e3e73f23bb74df5e0e51e75db029cbeebeee",
+          "actually_viewed": true
+        },
+        {
+          "pdf_page_1based": 8,
+          "png": "local-cache/Khalil-Lect-21-PDFpage-8.png",
+          "sha256": "d7e1e0156658dabc1d9ff012b7497155b530c12f8ea1f0d7f579ae5df0c8b716",
+          "actually_viewed": true
+        },
+        {
+          "pdf_page_1based": 12,
+          "png": "local-cache/Khalil-Lect-21-PDFpage-12.png",
+          "sha256": "9fb760171423f319ec1b71c33a9d4c551f6c151a6ce82a776cfb76a54158d259",
+          "actually_viewed": true
+        }
+      ]
+    },
+    {
+      "id": "CSI2016-reused",
+      "url": "https://docs.csiamerica.com/manuals/etabs/Analysis%20Reference.pdf",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\csi-analysis-reference-2016.pdf",
+      "sha256": "7f6f6890afee2e1890d33f5d34d53d8e23f60850890bd230848642b50a6291ac",
+      "locations": "printed279-280/PDF301-302 Figure67 and unnumbered constitutive equations",
+      "access": "existing local PDF, not downloaded again",
+      "independent_agent": "weng2016_source reread text and actually viewed PDF302; no writes/network"
+    }
+  ],
+  "author_identity_page": {
+    "url": "https://www.egr.msu.edu/~khalil/NonlinearSystems/",
+    "read": "Author, Nonlinear Systems third edition, Prentice Hall2002, ISBN0-13-067389-7 and author link to sample lectures verified"
+  },
+  "course_plan": {
+    "url": "https://www.egr.msu.edu/~khalil/NonlinearSystems/Sample/Plan.pdf",
+    "read": "Passivity lectures14-17 and L2 gain lecture21; chapter mapping only"
+  },
+  "searches": [
+    {
+      "q": "\"van der Schaft\" \"mechanical\" \"storage function\" \"energy balance\" filetype:pdf",
+      "purpose": "one precise primary-author storage-function query"
+    },
+    {
+      "q": "site:egr.msu.edu/~khalil \"passivity\" \"mechanical\"",
+      "purpose": "one precise textbook-author official-domain query"
+    }
+  ],
+  "search_query_count": 2,
+  "failed_access_once_only": [
+    {
+      "url": "https://www.nowpublishers.com/article/Details/SYS-002",
+      "result": "403 via web; no retry, no full-text claim"
+    },
+    {
+      "url": "https://www.math.rug.nl/~avdschaft/",
+      "result": "inaccessible via web; no retry, no full-text claim"
+    }
+  ],
+  "incidental_open": {
+    "url": "https://www.egr.msu.edu/~khalil/NonlinearSystems/Sample/Lect_22.pdf",
+    "result": "normal form, not used for claims or locally downloaded"
+  },
+  "primary_text_vs_inference": {
+    "direct": "Khalil storage passivity definition, forced L2 inequality including initial storage, output strict passivity lemma6.5 and oscillator example; CSI series constitutive law",
+    "not_direct_source_theorem": "full multi-Maxwell E/Edot, matrix one-quarter completion, linear displacement bound, semidefinite range/pseudoinverse branch, mass-weighted L1 alternative and full-modal sums; all marked mapping/candidate for role2",
+    "novelty": "classical tools, no first/new theorem claim; absence of exact combined formula in checked texts is not exhaustive exclusion"
+  },
+  "limits": [
+    "no full exact combined original formula obtained",
+    "locally Lipschitz premise in generic Khalil state-space lemma needs care for inverse signed power alpha>1",
+    "C semidefinite cannot be ordinarily inverted; range or projected-subspace conditions needed",
+    "truncated positive modal sums need certified tails, mass participation alone insufficient",
+    "initial storage includes damper springs; relative-coordinate seismic input norm and units must be specified",
+    "displacement linear output bound does not directly certify absolute acceleration peaks",
+    "no actual M/K/C/input/initial-state constants verified; bound may be conservative and insensitive to device placement"
+  ],
+  "report": {
+    "path": "R008-energy-bound-sources.md",
+    "sha256": "3ec179aa7d73353fdb1e84c40fd819ac12158c005194b63d775b587d7ac90e0d"
+  },
+  "operations": {
+    "new_public_small_PDF_downloads": 2,
+    "new_raster_page_renders": 4,
+    "Excel_reads": 0,
+    "NPZ_reads": 0,
+    "solver": 0,
+    "source_old_report_shared_manuscript_Git_edits": 0
+  }
+}

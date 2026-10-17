@@ -1,0 +1,64 @@
+{
+  "started_at": "2026-10-17T23:48:42+08:00",
+  "completed_at": "2026-10-17T23:54:39+08:00",
+  "time_limit_minutes": 8,
+  "input_files_checked": 3,
+  "input_changed": [],
+  "old_frozen_files_checked": 30,
+  "old_changed": [],
+  "unfinalized_ideation_files_read": false,
+  "candidate_file_hash": "not applicable: task text only; no candidate file opened",
+  "mapping": "reviewed algebraic and dimensional identity only",
+  "candidate_closed_form_correctness": "not reviewed",
+  "same_system_primary": "IntechOpen DOI10.5772/intechopen.103690 Appendix29-46",
+  "same_closed_form_publication_coverage": "unresolved; no novelty-first claim",
+  "root_queries": 1,
+  "child_queries": 1,
+  "total_queries": 2,
+  "primary_texts_read": 2,
+  "new_downloads": 0,
+  "failed_paths_retried": [],
+  "experiments": false,
+  "engineering_arrays_or_excel": false,
+  "local_links_checked": 7,
+  "broken_links": [],
+  "trailing_whitespace": [],
+  "control_characters": [],
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 1217,
+      "sha256": "945da584cbc9176456723c47ff9f289344e36e26b7607e7681a2a4fe47a879cd"
+    },
+    {
+      "file": "mapping-review.md",
+      "bytes": 4661,
+      "sha256": "9ed3f25306571103361a9f331b7968390388f6dc5070ad71d95223f1f80cad06"
+    },
+    {
+      "file": "R008-path-handoff.md",
+      "bytes": 727,
+      "sha256": "72f2985396acf7e91de1883ea1c8bec25a26f984239e4cbb1f142e4957928e35"
+    },
+    {
+      "file": "report.md",
+      "bytes": 6414,
+      "sha256": "61b5fb107a2a7b92bb3a4c9f316ad5847464723b368469ebf0c96fadac26b407"
+    },
+    {
+      "file": "search-log.json",
+      "bytes": 2039,
+      "sha256": "bdab6532016e20dc4be921004612d598b5a879ca4e9c2dfcda4c9254aa835768"
+    },
+    {
+      "file": "source-review.md",
+      "bytes": 6624,
+      "sha256": "9b56557039891ef8e63e984684b6fc8088da61edb71620a2720504c1e20e3d36"
+    },
+    {
+      "file": "task-spec.txt",
+      "bytes": 430,
+      "sha256": "49ffa34d4d7d30e7e1a10447e78dafcf4c6dda5e4b7173459b91550c08d24458"
+    }
+  ]
+}

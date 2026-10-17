@@ -1,0 +1,300 @@
+{
+  "at": "2026-10-18T00:17:11.967849+08:00",
+  "expected_head": "4ed99b204201e75fe223333bcc7919c1c3e108ea",
+  "pending_parent_commit": "4ed99b204201e75fe223333bcc7919c1c3e108ea",
+  "last_verified_remote": "5735eea120d29175cfa1252239cbc4d245b097fd",
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/maxwell-engineering-draft-v006.md",
+      "bytes": 42202,
+      "sha256": "c04370712b9adc73064872e1d2cc79a5c6a7783e191d5ca8dc4e754d80ae604b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R011-bound-coefficient-interface/delivery_manifest_r011.json",
+      "bytes": 626,
+      "sha256": "b799498821b270447048996bc94c7b63e3cc769268d4e6e4486edc8b599eda1b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R011-bound-coefficient-interface/report.md",
+      "bytes": 10068,
+      "sha256": "f7baeaa055749809548bdc30f626715b05f19c26462b19d14821c6c43ffcb0c9"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R011-bound-coefficient-interface/source_manifest.json",
+      "bytes": 3895,
+      "sha256": "9d5c0250267b3a44ddf99e6f408106827129b8d02be0d4ff16cd29e76ea5ed04"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R011-bound-coefficient-interface/validation.json",
+      "bytes": 1117,
+      "sha256": "0c2bbd2b928be06ba71996bf4b3a9a6bff1b2e483db2b1feaf9f5690b44fc783"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R009-nonzero-terminal-force/alpha1_sanity.json",
+      "bytes": 1209,
+      "sha256": "9afbfb0340b9b79c5584cd01944e3a203378239f4c573dea9204ce8b1496e4ec"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R009-nonzero-terminal-force/report.md",
+      "bytes": 8485,
+      "sha256": "80eada1fa18980877fac82c0860224cff4ca2944655912c5ea2d696371fd9893"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R009-nonzero-terminal-force/scope.json",
+      "bytes": 1184,
+      "sha256": "bda68c6a357f089032c5c2c704eda9543b0dbf8f70a8267de8b942721e806b85"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R009-nonzero-terminal-force/validation.json",
+      "bytes": 1370,
+      "sha256": "794a9db639f288f475c178f9ea49f1cfd6389784756f75e21cbb0196ca2ebc17"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R010-system-energy-interface/algebra_checks.json",
+      "bytes": 1028,
+      "sha256": "d01eca7c29f4176dd2003377734b1f9906e7a687dd9e18b9ee2c1b3e045791f4"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R010-system-energy-interface/report.md",
+      "bytes": 10586,
+      "sha256": "676f41e6b0826e0dd0a358568c0f212458738d952d041b5c630be0386894f3e3"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R010-system-energy-interface/scope.json",
+      "bytes": 1260,
+      "sha256": "80fdfc24507be863ce41f6e44b410b92f0d009b8c9bb4890bc53c243905768e2"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R010-system-energy-interface/validation.json",
+      "bytes": 992,
+      "sha256": "ad96c69d49f03a2b6d0d958ded8fe03cdbb7bfe5b1b6f252b0d8db766c4504bf"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R011-energy-local-force/algebra_checks.json",
+      "bytes": 893,
+      "sha256": "c0fe57d65241bebd5c00189ca07e0854b7935aa1b1981da740f5098abfa54683"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R011-energy-local-force/report.md",
+      "bytes": 8011,
+      "sha256": "5818129368de9f5f9f4360b29c3d8c81203484eb3c14f7c36c98e67287b76677"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R011-energy-local-force/scope.json",
+      "bytes": 1008,
+      "sha256": "e5a4566f451ef73ca7b3af14212df54d5ce807fdd3c0e8d73df6e275790201d6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R011-energy-local-force/validation.json",
+      "bytes": 892,
+      "sha256": "eecdee1a543ffb7aeda7058eac8102a82a43682af272e3aadeae21d60213ce05"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R008-energy-bound-sources/R008-energy-bound-sources.md",
+      "bytes": 8389,
+      "sha256": "3ec179aa7d73353fdb1e84c40fd819ac12158c005194b63d775b587d7ac90e0d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R008-energy-bound-sources/source-manifest-R008.json",
+      "bytes": 5997,
+      "sha256": "4ab304a156d5da0dd1db441bbc9801dda31e06f18f7379c56959d8cc4d14f3a6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R009/input-freeze.json",
+      "bytes": 1217,
+      "sha256": "945da584cbc9176456723c47ff9f289344e36e26b7607e7681a2a4fe47a879cd"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R009/mapping-review.md",
+      "bytes": 4661,
+      "sha256": "9ed3f25306571103361a9f331b7968390388f6dc5070ad71d95223f1f80cad06"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R009/R008-path-handoff.md",
+      "bytes": 727,
+      "sha256": "72f2985396acf7e91de1883ea1c8bec25a26f984239e4cbb1f142e4957928e35"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R009/report.md",
+      "bytes": 6414,
+      "sha256": "61b5fb107a2a7b92bb3a4c9f316ad5847464723b368469ebf0c96fadac26b407"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R009/search-log.json",
+      "bytes": 2039,
+      "sha256": "bdab6532016e20dc4be921004612d598b5a879ca4e9c2dfcda4c9254aa835768"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R009/source-review.md",
+      "bytes": 6624,
+      "sha256": "9b56557039891ef8e63e984684b6fc8088da61edb71620a2720504c1e20e3d36"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R009/task-spec.txt",
+      "bytes": 430,
+      "sha256": "49ffa34d4d7d30e7e1a10447e78dafcf4c6dda5e4b7173459b91550c08d24458"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R009/validation.json",
+      "bytes": 2086,
+      "sha256": "498da85bf1dc92c775749907451e96ba721896b549ecee00523729a8c7863463"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R016-proof-evidence.json",
+      "bytes": 4564,
+      "sha256": "2aca38919409dd58d6b7cd4f475f53d5d2eaae877459af908c971564a408013c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R016-review-validation.json",
+      "bytes": 3772,
+      "sha256": "dddc52beb83f1c1cb18fd80c7f5ede2e074715165a797358db9d67a259b5e935"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R017-proof-evidence.json",
+      "bytes": 5475,
+      "sha256": "814b492b4c5f43f6f3cecd0e82143193bc8abb57394996e4f67dbd930c5d78a5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R017-review-validation.json",
+      "bytes": 4023,
+      "sha256": "c64f8824e8febbae6cf222c75e6c96bda608c9b10c18ba157444b1db819e7ef4"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R018-proof-evidence.json",
+      "bytes": 7989,
+      "sha256": "f8885d25e0d7a53ba0907c75778251999fc02fcfdede805f14ffa6f4d038beaf"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R018-review-validation.json",
+      "bytes": 4258,
+      "sha256": "b65bbad5c1974b13ab41ff2d6972cff22ea522ed52075396774d6dc819a8aa5a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/主体Maxwell位移能量界接口独审-R018.md",
+      "bytes": 9140,
+      "sha256": "a0a424774778106551a0523b90ab27900d731664e63c84eb87db98d65f238287"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/双回零指定峰最短可达时间独审-R016.md",
+      "bytes": 7021,
+      "sha256": "69abdc8d72a47b2a8c3e3f8abd7aa62509dbfee8141fba0dc5a0711929861e71"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/非零末力耗散峰力区间独审-R017.md",
+      "bytes": 7166,
+      "sha256": "5a3596a03e9508861ccfda513ee170addf62c29a35ef97e4ed9e33a3db4c5c6d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/draft-v006-evidence-map.json",
+      "bytes": 52075,
+      "sha256": "1c0b53ff4fee1cbb9a9924a086a39decdfbbc32c160fa582f10e8c305ce8c664"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/draft-v006-next-task.md",
+      "bytes": 265,
+      "sha256": "508b149c754e2e91e70bbdfdcbcb8a651eec8bfd4bcaf7c7dd3df40fb47763f4"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/draft-v006-report.md",
+      "bytes": 1101,
+      "sha256": "8790523f0a0f9656df1f749b89f5249b4782e40b9ec774498f5804a463f196f9"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/draft-v006-session-snapshot.json",
+      "bytes": 3845,
+      "sha256": "8249a3f70206496b7d2ebe92fc8442d2cde11e821c41472c8a2ca17e076e720c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/draft-v006-validation.json",
+      "bytes": 4409,
+      "sha256": "a70dedc55a4e0f38a23ba21ece91a20bb9be2a027bd39d562ff127ee0c1392ed"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/frozen-draft-v006.json",
+      "bytes": 2266,
+      "sha256": "f0057c7aa42873b00645ea6eaf0a796f1703114e5751038d0bd20d074a16830e"
+    },
+    {
+      "path": "research/sessions/20261017-2109/claims.md",
+      "bytes": 14158,
+      "sha256": "3fe959cd0b9bbd32d7a82398cd79c0de1ae64c73a5fcebe0efd9ec2db86e544d"
+    },
+    {
+      "path": "research/sessions/20261017-2109/plan.md",
+      "bytes": 6808,
+      "sha256": "11dfb2c1f91d09a1aeeea64c9498ad041f767ccde6fd2e09100aaaa48d9c9810"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R007-0003-role-snapshot.json",
+      "bytes": 7508,
+      "sha256": "82dfe2ac2fc390ed1b19b122d950310ac035b5aacd5810f0107c85ad0c1a360c"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R007-after-push-role-snapshot.json",
+      "bytes": 8402,
+      "sha256": "a8acb3e85fa9422eddd037d57906ba482b1db29d44dcce5665d77844cdfa9a19"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R007-index-qa.json",
+      "bytes": 29029,
+      "sha256": "512b323681d1f0e0881257c8ebc733ed8f083e304e5f0bb77c3f9c7dea22d8c5"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R007-late-evidence.md",
+      "bytes": 2462,
+      "sha256": "230c22dec8041768376e05f47494c7c6ca243badd217b8b56a3e92870a16adf7"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R007-push.json",
+      "bytes": 821,
+      "sha256": "9fd0e12232c007102fc994a9e77702c7d88ecc4010ccd3da4348163e7401f927"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R007-v006-root-review.json",
+      "bytes": 673,
+      "sha256": "b8ad65fc0794dbb5269a769868a3d2500ca38e71bd2e1de437290f4e50cfe8ad"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R008-role-snapshot.json",
+      "bytes": 8922,
+      "sha256": "bace960a8a31bae5320800f1cd039485e96943d23553af8cc81afcad8940b2a7"
+    },
+    {
+      "path": "research/sessions/20261017-2109/rounds/R008.md",
+      "bytes": 1843,
+      "sha256": "eeacaa59d35b3475da1b3787a010f1ca1f5688d5c423b3ae995c533f20c29604"
+    },
+    {
+      "path": "research/sessions/20261017-2109/runs.md",
+      "bytes": 6588,
+      "sha256": "a654cedd16b3932cc551d0222b8a971b7101a14d8ad67d8c0c77dc3990e29458"
+    },
+    {
+      "path": "research/sessions/20261017-2109/status.json",
+      "bytes": 29805,
+      "sha256": "228aab988a13fbef5f0034d4b14881011778bb273d7fc2161c5fdacde2f2b0e9"
+    },
+    {
+      "path": "research/sessions/20261017-2109/topic-cards/events.md",
+      "bytes": 1581,
+      "sha256": "80f338dc99e11ae9a9361078e1651b16e708f57bf0e7ded2e36502a5b0503d80"
+    },
+    {
+      "path": "research/sessions/20261017-2109/topic-cards/T-M001-v007.md",
+      "bytes": 1809,
+      "sha256": "b170e288c02f9ec7e274cfba587a2e2c8f98f6ae7ccc8b0d0cf9d1e4d18602b6"
+    }
+  ],
+  "file_count": 56,
+  "total_bytes": 371188,
+  "scope": "Frozen small source/review/v006 artifacts;ideationR011 local bridge remains candidate awaitingR019;no theory appendix active files",
+  "active_excluded": [
+    "R019",
+    "ideationR012",
+    "literatureR009",
+    "noveltyR010",
+    "theory-appendix-v001"
+  ],
+  "local_only_sources_excluded": "KhalilPDF/sourcepagePNG/largearrays/rawExcel/old dirty files",
+  "per_file_limit": 1000000
+}

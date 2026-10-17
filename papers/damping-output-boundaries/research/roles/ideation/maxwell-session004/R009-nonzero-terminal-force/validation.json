@@ -1,0 +1,35 @@
+{
+  "frozen_at": "2026-10-17T23:55:25+08:00",
+  "status": "author_proof_candidate_pending_independent_review_and_prior_art",
+  "passed": true,
+  "prior_source": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R008\\report.md",
+    "bytes": 8811,
+    "sha256": "f4df7f42d4f8de40f76445a2f383b88405bfce92902e1b7fc5aea1b433388dae",
+    "read_scope": "full report, verified absolute path"
+  },
+  "initial_lookup_correction": "filename/root-level search missed the R008 directory; later absolute path resolved and full source read. Frozen scope preserves initial lookup history.",
+  "old_R008_unchanged": true,
+  "internal_read_only_math_checks": 2,
+  "no_real_data_solver_sweep_search_or_delta_closure_analysis": true,
+  "files": [
+    {
+      "path": "scope.json",
+      "bytes": 1184,
+      "sha256": "bda68c6a357f089032c5c2c704eda9543b0dbf8f70a8267de8b942721e806b85",
+      "errors": []
+    },
+    {
+      "path": "report.md",
+      "bytes": 8485,
+      "sha256": "80eada1fa18980877fac82c0860224cff4ca2944655912c5ea2d696371fd9893",
+      "errors": []
+    },
+    {
+      "path": "alpha1_sanity.json",
+      "bytes": 1209,
+      "sha256": "9afbfb0340b9b79c5584cd01944e3a203378239f4c573dea9204ce8b1496e4ec",
+      "errors": []
+    }
+  ]
+}

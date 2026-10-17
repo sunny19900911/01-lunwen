@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-18T00:00:42.797217+08:00",
+  "passed": true,
+  "draft_sha256": "c04370712b9adc73064872e1d2cc79a5c6a7783e191d5ca8dc4e754d80ae604b",
+  "root_checks": [
+    "6frozen identities",
+    "16tables byte-identical",
+    "nine formula tags unchanged",
+    "4 relative images resolve",
+    "fig04hash matchesrootview",
+    "no candidate theory introduced"
+  ],
+  "prior_check": "first quick check incorrectly assumed fig04 was last image; actual order02/01/04/03. Explicit filename check passes; no draft changed.",
+  "scope": "minor integration root review;full displayed diff read by root;not independent physical truth or novelty certification"
+}

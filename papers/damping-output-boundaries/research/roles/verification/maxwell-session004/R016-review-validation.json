@@ -1,0 +1,104 @@
+{
+  "review": "R016",
+  "session": "20261017-2109",
+  "started_at": "2026-10-17T23:50:33+08:00",
+  "frozen_at": "2026-10-17T23:56:39.220713+08:00",
+  "deadline": "2026-10-18T00:00:33+08:00",
+  "required_changes": 0,
+  "mathematical_scope_accepted": true,
+  "source_and_previous_author_R007_unchanged": true,
+  "frozen_prior_records_verified": 15,
+  "frozen_prior_outputs_verified": 46,
+  "frozen_R001_R015": [
+    {
+      "run_file": "R001-review-run.json",
+      "sha256": "7d43f7e3fb4b754edce7e44f9c57908314ec27172e6c5a25e97163573dac499f",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R002-review-run.json",
+      "sha256": "f14346e51b39b32ce421433be671a1ddc67a2cb89995652c45aba0514fb6a028",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R003-review-run.json",
+      "sha256": "db8c3ce055d9ba45250a5c59c4444c880eadf12acb4236c6de5e545295054a69",
+      "outputs_verified": 5
+    },
+    {
+      "run_file": "R004-review-run.json",
+      "sha256": "d2800774203b57330f6da953081f25771161f5e1df84423f2782ee85248e8252",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R005-review-run.json",
+      "sha256": "8043b9282527e3480165a636cb6de44cbd4afe3739b1dff80daa9802e7b82163",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R006-review-validation.json",
+      "sha256": "bac733cf858eca6cb3548e556db765e9ba950eba5c1c8e0c713e674b1a532fcd",
+      "outputs_verified": 1
+    },
+    {
+      "run_file": "R007-review-run.json",
+      "sha256": "1d794223541ae4cd5b2fc46e03850b641192281956a545daeabded4e9b76fc08",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R008-review-run.json",
+      "sha256": "1925e4649afa3131ae9fd9b26cd3a1ad89d943f72a8706826095cdb8da946428",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R009-review-run.json",
+      "sha256": "1d78f89de0ff567e9d7b914b2ebe0ffd970481a7bbd3f219dae96d8e435bf23f",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R010-review-run.json",
+      "sha256": "6447cd6f4c5b157f4dbcd93d7d2b9441af349da0de029af9774541499f0dfbc9",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R011-review-run.json",
+      "sha256": "6edaf37bbe65be8747b63d3014cf7d9f0bb4cb6071f19e8f19d22091026cc530",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R012-review-run.json",
+      "sha256": "d4e7b662a375a3d24d6e1a775effb2606fd53e5db0617f525bdeab708e264bfb",
+      "outputs_verified": 3
+    },
+    {
+      "run_file": "R013-review-run.json",
+      "sha256": "7c32de97083d4d4a9769bfb76000323622b4679bc1aa9afa689f661719b37bfe",
+      "outputs_verified": 4
+    },
+    {
+      "run_file": "R014-review-validation.json",
+      "sha256": "a0f9299b40060c5e301306fa7fcd4d033ba899756880858dee3def619b92d577",
+      "outputs_verified": 2
+    },
+    {
+      "run_file": "R015-review-identity.json",
+      "sha256": "62b4cb32d040b05f4d5a436b15462504429a2975752734b6683b4c6f67dea709",
+      "outputs_verified": 1
+    }
+  ],
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\双回零指定峰最短可达时间独审-R016.md",
+      "bytes": 7021,
+      "sha256": "69abdc8d72a47b2a8c3e3f8abd7aa62509dbfee8141fba0dc5a0711929861e71"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R016-proof-evidence.json",
+      "bytes": 4564,
+      "sha256": "2aca38919409dd58d6b7cd4f475f53d5d2eaae877459af908c971564a408013c"
+    }
+  ],
+  "UTF8_LF_no_BOM_or_trailing_whitespace": true,
+  "numerical_simulations_rerun": false,
+  "stopped_after_handoff": true
+}

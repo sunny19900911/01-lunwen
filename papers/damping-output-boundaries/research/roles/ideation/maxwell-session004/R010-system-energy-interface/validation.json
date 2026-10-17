@@ -1,0 +1,30 @@
+{
+  "frozen_at": "2026-10-18T00:05:23+08:00",
+  "status": "classical-energy-interface-author-check-pending-independent-review",
+  "passed": true,
+  "scope": "displacement energy bounds only, not layout optimization or real engineering certificate",
+  "old_R009_unchanged": true,
+  "internal_read_only_checks": 2,
+  "no_real_arrays_fits_solver_search_or_layout_optimization": true,
+  "primary_source_review": "parallel literature role; no unread primary source claimed",
+  "files": [
+    {
+      "path": "scope.json",
+      "sha256": "80fdfc24507be863ce41f6e44b410b92f0d009b8c9bb4890bc53c243905768e2",
+      "bytes": 1260,
+      "errors": []
+    },
+    {
+      "path": "report.md",
+      "sha256": "676f41e6b0826e0dd0a358568c0f212458738d952d041b5c630be0386894f3e3",
+      "bytes": 10586,
+      "errors": []
+    },
+    {
+      "path": "algebra_checks.json",
+      "sha256": "d01eca7c29f4176dd2003377734b1f9906e7a687dd9e18b9ee2c1b3e045791f4",
+      "bytes": 1028,
+      "errors": []
+    }
+  ]
+}

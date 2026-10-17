@@ -1,0 +1,24 @@
+{
+  "frozen_at": "2026-10-18T00:02:32+08:00",
+  "status": "classical energy-estimate engineering interface, author candidate pending independent review",
+  "assumptions": [
+    "finite-dimensional constant M,K symmetric positive definite after constraints",
+    "constant symmetric C positive semidefinite; positive definite for inverse estimate",
+    "fixed power-conjugate link rows B_j and full link forces; no omitted prescribed-support power",
+    "positive constant k_j,c_j,alpha_j; massless series Maxwell storage F_j^2/(2 k_j)",
+    "sufficient AC solution regularity; force input has stated weighted L2 or L1 norm"
+  ],
+  "outputs": "specified linear displacement y=ell^T u in the same coordinates, not direct acceleration or capacity guarantee",
+  "input": "f, or single support acceleration f=b a_g with verified b=-M r; initial body/device total energy",
+  "not_in_scope": [
+    "new theory or exact sharp bound",
+    "placement optimization",
+    "real Excel/NPZ/solver/fit",
+    "engineering parameter certification",
+    "modal truncation treated as complete certificate"
+  ],
+  "source_background": {
+    "path": "../R009-nonzero-terminal-force/report.md",
+    "sha256": "80eada1fa18980877fac82c0860224cff4ca2944655912c5ea2d696371fd9893"
+  }
+}

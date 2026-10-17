@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-10-17T23:53:39+08:00",
+  "status": "single analytic alpha1 sanity point and endpoint reductions, not a universal proof or sweep",
+  "parameters": {
+    "k": 1,
+    "c": 1,
+    "V": 1,
+    "M": 0.5,
+    "h": 0.25,
+    "T": 2.0
+  },
+  "tau_h": 0.8754687373538999,
+  "L_h": 0.0942187373538999,
+  "U_h": 0.37535155301542494,
+  "min_mid_max_paths": [
+    {
+      "wait": 1.1245312626461001,
+      "hold": 0,
+      "D_quadrature": 0.09421873735390035,
+      "D_exact_formula": 0.0942187373538999,
+      "terminal_force": 0.25,
+      "peak": 0.5
+    },
+    {
+      "wait": 0.5622656313230501,
+      "hold": 0.5622656313230501,
+      "D_quadrature": 0.23478514518466287,
+      "D_exact_formula": 0.23478514518466242,
+      "terminal_force": 0.25,
+      "peak": 0.5
+    },
+    {
+      "wait": 0.0,
+      "hold": 1.1245312626461001,
+      "D_quadrature": 0.3753515530154254,
+      "D_exact_formula": 0.37535155301542494,
+      "terminal_force": 0.25,
+      "peak": 0.5
+    }
+  ],
+  "M_equal_h_reduction_passed": true,
+  "h_zero_recovery_passed": true,
+  "opposite_peak_extra_time": 0.5108256237659907,
+  "opposite_peak_extra_min_dissipation": 0.010825623765990666,
+  "all_checks_passed": true
+}

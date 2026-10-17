@@ -1,0 +1,133 @@
+{
+  "review": "R018",
+  "session": "20261017-2109",
+  "started_at": "2026-10-18T00:07:14+08:00",
+  "deadline": "2026-10-18T00:17:14+08:00",
+  "recorded_at": "2026-10-18T00:12:34.274203+08:00",
+  "required_changes": 0,
+  "verdict": "Correct conditional classical displacement energy interface, not an engineering certificate or actual peak-reduction theorem.",
+  "source_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R010-system-energy-interface\\report.md",
+      "bytes": 10586,
+      "sha256": "676f41e6b0826e0dd0a358568c0f212458738d952d041b5c630be0386894f3e3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R010-system-energy-interface\\scope.json",
+      "bytes": 1260,
+      "sha256": "80fdfc24507be863ce41f6e44b410b92f0d009b8c9bb4890bc53c243905768e2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R010-system-energy-interface\\algebra_checks.json",
+      "bytes": 1028,
+      "sha256": "d01eca7c29f4176dd2003377734b1f9906e7a687dd9e18b9ee2c1b3e045791f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R010-system-energy-interface\\validation.json",
+      "bytes": 992,
+      "sha256": "ad96c69d49f03a2b6d0d958ded8fe03cdbb7bfe5b1b6f252b0d8db766c4504bf"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R008-energy-bound-sources\\R008-energy-bound-sources.md",
+      "bytes": 8389,
+      "sha256": "3ec179aa7d73353fdb1e84c40fd819ac12158c005194b63d775b587d7ac90e0d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R008-energy-bound-sources\\source-manifest-R008.json",
+      "bytes": 5997,
+      "sha256": "4ab304a156d5da0dd1db441bbc9801dda31e06f18f7379c56959d8cc4d14f3a6"
+    }
+  ],
+  "full_reports_read": [
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R010-system-energy-interface\\report.md",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R008-energy-bound-sources\\R008-energy-bound-sources.md"
+  ],
+  "primary_PDF_content_reverified": false,
+  "accepted_solution_domain": {
+    "structure": "Finite dimensional constant symmetric M,K positive definite after power-preserving constraints; constant symmetric C positive semidefinite; fixed finite port rows and transpose force assembly.",
+    "devices": "Finite positive constant k,c,alpha; massless series Maxwell with monotone continuous signed inverse-power restoring term; no double counted spring storage.",
+    "regularity": "Finite initial u,v,F; f locally L1; u prime equals v, v and branch forces locally AC, equations a.e.; stated weighted input norm finite on the interval.",
+    "L2_branch": "C positive definite, or C positive semidefinite with f(t) in Range(C) a.e. and finite pseudoinverse budget.",
+    "L1_branch": "Mass-weighted L1 input finite; C positive semidefinite and all device terms passive.",
+    "output": "Fixed linear displacement row in same coordinates; for PSD K, output lies in Range(K).",
+    "external_power": "All prescribed support, constraint and extra-port power included; current short identity assumes delta=B*u.",
+    "engineering": "Actual physical M/K/C, ports, input projections, full initial storage and input norms require independent certification."
+  },
+  "proof_checks": {
+    "power_conjugate_body_and_branch_terms_cancel": true,
+    "spring_storage_not_double_counted": true,
+    "initial_energy_includes_all_branch_forces": true,
+    "prescribed_extension_requires_F_times_dprime": true,
+    "analytic_omitted_support_work_counterexample": true,
+    "C_SPD_completion_coefficient_one_quarter": true,
+    "K_inner_product_displacement_factor_two": true,
+    "C_PSD_input_range_and_counterexample": true,
+    "K_PSD_output_range_and_arbitrary_rigid_offset_counterexample": true,
+    "L1_epsilon_chain_zero_energy_and_inverse_sqrt_two_factor": true,
+    "alpha_above_one_no_local_Lipschitz_lemma_needed": true,
+    "AC_energy_chain_and_monotone_difference_energy_uniqueness": true,
+    "local_existence_and_L1_energy_continuation_for_finite_initial_state": true,
+    "complete_mass_normalized_modal_inverse_formulas": true,
+    "nonclassical_modal_C_requires_full_inverse_with_cross_terms": true,
+    "modal_input_and_output_projections_have_no_extra_mass_factor": true,
+    "positive_truncated_sums_are_lower_estimates_not_certified_upper_constants": true,
+    "high_global_mass_participation_insufficient_for_local_output_tail": true,
+    "massless_DOF_DAE_requires_power_preserving_reduction": true,
+    "FNA_reference_effective_K_not_automatically_physical_energy_K": true,
+    "fixed_displacement_not_direct_absolute_acceleration_or_total_story_shear_bound": true,
+    "literature_story_shear_phrase_only_for_verified_fixed_displacement_mapping": true,
+    "pure_B_layout_change_same_certificate_if_other_data_and_E0_equal": true,
+    "certificate_order_does_not_order_actual_peak_response": true,
+    "original_source_tools_distinguished_from_current_algebra_mapping": true
+  },
+  "analytic_counterexamples": [
+    {
+      "failure": "Omitted prescribed support work",
+      "data": "Scalar M=K=C=k=c=alpha=B=1, u=v=0, d=t, f=F, F=1-exp(-t).",
+      "reason": "E=F^2/2 grows at order t^2; omitted-work one-quarter input budget is order t^3; actual missing power is F*dprime."
+    },
+    {
+      "failure": "Pseudoinverse without input range",
+      "data": "M=K=I2, C=diag(1,0), B=(1,0), f=e2, zero initial state.",
+      "reason": "E=1-cos(t), while f^T Cdagger f=0."
+    },
+    {
+      "failure": "Stiffness pseudoinverse without output range",
+      "data": "n in ker(K), ell^T*n nonzero, u=R*n, v=F=f=0.",
+      "reason": "E=0, but output is arbitrarily large as R varies."
+    }
+  ],
+  "read_only_collaborators": [
+    {
+      "agent": "kernel_sharp_audit",
+      "focus": "assembly, external power, initial storage and non-Lipschitz solution domain",
+      "required_changes": 0
+    },
+    {
+      "agent": "r006_sharp_challenge",
+      "focus": "SPD and PSD budgets, range counterexamples and epsilon regularization",
+      "required_changes": 0
+    },
+    {
+      "agent": "audit_double_mode",
+      "focus": "full modes, nonclassical damping, DAE/FNA and output/layout interpretation",
+      "required_changes": 0
+    }
+  ],
+  "real_arrays_read": false,
+  "solver_run": false,
+  "numeric_examples_rerun": false,
+  "new_large_experiments": false,
+  "external_search": false,
+  "novelty_adjudicated": false,
+  "actual_M_K_C_or_input_certified": false,
+  "actual_peak_reduction_claimed": false,
+  "author_literature_shared_manuscript_Git_writes": false,
+  "limits": [
+    "No direct absolute acceleration or total story shear certificate; verify actual output map and forcing feedthrough separately.",
+    "No real model parameter, continuous V, port, initial state or input-norm certification.",
+    "No inferred actual peak monotonicity or layout optimality.",
+    "No primary PDF page re-audit and no claim that Khalil states the exact combined formula.",
+    "Stop after frozen handoff."
+  ]
+}

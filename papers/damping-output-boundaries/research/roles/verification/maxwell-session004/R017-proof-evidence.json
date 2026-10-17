@@ -1,0 +1,99 @@
+{
+  "review": "R017",
+  "session": "20261017-2109",
+  "started_at": "2026-10-17T23:59:14+08:00",
+  "deadline": "2026-10-18T00:09:14+08:00",
+  "recorded_at": "2026-10-18T00:03:13.072371+08:00",
+  "required_changes": 0,
+  "verdict": "Mathematically correct in frozen bounded measurable velocity class, with fixed nonzero terminal force and unconstrained terminal total deformation.",
+  "accepted_conditions": "k,c,alpha,V,T>0; F0=0, FT=sigma*h, h>0, sigma=+-1; h<=M<B; AC states, bounded measurable v; peak M feasible iff tau_h<=T; D exactly in [L_h,U_Th].",
+  "source_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R009-nonzero-terminal-force\\report.md",
+      "bytes": 8485,
+      "sha256": "80eada1fa18980877fac82c0860224cff4ca2944655912c5ea2d696371fd9893"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R009-nonzero-terminal-force\\scope.json",
+      "bytes": 1184,
+      "sha256": "bda68c6a357f089032c5c2c704eda9543b0dbf8f70a8267de8b942721e806b85"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R009-nonzero-terminal-force\\alpha1_sanity.json",
+      "bytes": 1209,
+      "sha256": "9afbfb0340b9b79c5584cd01944e3a203378239f4c573dea9204ce8b1496e4ec"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R009-nonzero-terminal-force\\validation.json",
+      "bytes": 1370,
+      "sha256": "794a9db639f288f475c178f9ea49f1cfd6389784756f75e21cbb0196ca2ebc17"
+    }
+  ],
+  "author_prior_art_reference_identity_only": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R008\\report.md",
+    "bytes": 8811,
+    "sha256": "f4df7f42d4f8de40f76445a2f383b88405bfce92902e1b7fc5aea1b433388dae",
+    "read_scope": "full report, verified absolute path"
+  },
+  "proof_checks": {
+    "absolute_force_AC_and_admissible_scalar_inequalities_including_zero_set": true,
+    "opposite_peak_and_multiple_sign_changes_covered_by_absolute_force": true,
+    "peak_holding_time_loss_prevents_opposite_peak_upper_bound_improvement": true,
+    "nonmonotone_chain_rule_minimum_time_tauM_minus_taudownh": true,
+    "nonmonotone_chain_rule_minimum_dissipation_LM_minus_Phidownh": true,
+    "nonzero_terminal_backward_time_shift_plus_taudownh": true,
+    "both_inverse_arguments_nonnegative_and_capped_to_compact_image": true,
+    "q_greater_than_one_backward_blowup_domain_excluded": true,
+    "upper_envelope_fast_up_hold_and_down_to_h": true,
+    "same_terminal_sign_constructs_both_interval_endpoints": true,
+    "zero_wait_and_peak_hold_parameter_exactly_fill_energy_interval": true,
+    "terminal_delta_free_no_hidden_closure_constraint": true,
+    "q_less_than_one_C1_antiderivatives_valid": true,
+    "q_less_than_one_existence_by_direct_segment_integration_and_uniqueness_by_monotonicity": true,
+    "M_equals_h_degenerate_descent": true,
+    "minimum_T_degenerate_interval": true,
+    "h_zero_reduction_and_M_h_zero_separate_zero_trajectory": true,
+    "M_below_h_or_h_M_at_least_B_unreachable": true,
+    "V_zero_incompatible_with_nonzero_terminal_force": true,
+    "alpha1_tau_up_down_closed_forms": true,
+    "alpha1_Phi_up_down_closed_forms": true,
+    "alpha1_tau_h_L_h_and_U_h_closed_forms": true,
+    "dimensions_time_energy_power": true,
+    "net_port_work_W_equals_D_plus_h_squared_over_2k": true,
+    "measurable_control_exact_attainability_not_extended_to_continuous_velocity": true,
+    "opposite_peak_extra_time_tau_of_terminal_h_and_extra_transition_energy_L_of_terminal_h": true
+  },
+  "read_only_collaborators": [
+    {
+      "agent": "kernel_sharp_audit",
+      "focus": "absolute force, sign changes, necessary bounds, regularity and edges",
+      "required_changes": 0
+    },
+    {
+      "agent": "r006_sharp_challenge",
+      "focus": "capped envelopes, inverse domains and all intermediate energy attainability",
+      "required_changes": 0
+    },
+    {
+      "agent": "audit_double_mode",
+      "focus": "alpha=1 closed forms, dimensions and work-storage identity",
+      "required_changes": 0
+    }
+  ],
+  "numerical_examples_rerun": false,
+  "finite_samples_used_as_proof": false,
+  "real_arrays_read": false,
+  "external_search": false,
+  "novelty_adjudicated": false,
+  "fixed_D_inverse_solved": false,
+  "delta_closure_solved": false,
+  "new_experiments": false,
+  "engineering_parameters_or_V_certified": false,
+  "author_shared_manuscript_Git_writes": false,
+  "limits": [
+    "Terminal total deformation is unconstrained; force closure or delta closure is a different class.",
+    "Continuous velocity or acceleration bounds require a separate exact endpoint attainability analysis.",
+    "A nonzero observed terminal force does not certify physical parameters, continuous V, ports, floor output or engineering performance.",
+    "Prior-art reference identity was verified only; no novelty verdict. Stop after frozen handoff."
+  ]
+}

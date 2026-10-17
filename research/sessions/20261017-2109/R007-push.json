@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-17T23:55:50.414093+08:00",
+  "commit": "4ed99b204201e75fe223333bcc7919c1c3e108ea",
+  "remote_main": "5735eea120d29175cfa1252239cbc4d245b097fd",
+  "verified": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 128,
+      "stdout": "",
+      "stderr": "fatal: unable to access 'https://github.com/sunny19900911/01-lunwen.git/': schannel: failed to receive handshake, SSL/TLS connection failed\n"
+    },
+    {
+      "attempt": 2,
+      "exit_code": 128,
+      "stdout": "",
+      "stderr": "fatal: unable to access 'https://github.com/sunny19900911/01-lunwen.git/': schannel: failed to receive handshake, SSL/TLS connection failed\n"
+    }
+  ],
+  "verification_error": null,
+  "scope": "117 explicit completed artifact paths;not raw arrays/old dirty/active roles"
+}

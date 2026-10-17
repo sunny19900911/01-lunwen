@@ -1,0 +1,203 @@
+{
+  "actual_first_UTC": "2026-10-17T16:03:15Z",
+  "context": "early next wake;R007 remains closed,collect increments before Git due",
+  "polls": [
+    {
+      "schemaVersion": 1,
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:56",
+      "revision": 56,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14a96-962b-7421-a39f-373f3a66a3dd",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792252745,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_0fdbbf9b10a3adb0016ad39c4d0b448195942625e5272331ca",
+      "latestAssistantMessage": {
+        "id": "msg_0fdbbf9b10a3adb0016ad39c4d0b448195942625e5272331ca",
+        "turnId": "01a14a96-962b-7421-a39f-373f3a66a3dd",
+        "phase": "commentary",
+        "text": "核查通过：C 正定时，输入能量项的系数确为 1/4。C 仅半正定时，只有输入位于 Range(C) 内才可直接用伪逆；否则伪逆会漏掉未阻尼方向的输入功。对这种情形，输入 L1 后备界仍可用，零能量时刻也没有除零缺口。"
+      },
+      "latestToolMarkerId": "exec-cadf0831-93a6-4f51-9142-a80f1dd17865",
+      "latestToolMarker": {
+        "id": "exec-cadf0831-93a6-4f51-9142-a80f1dd17865",
+        "turnId": "01a14a96-962b-7421-a39f-373f3a66a3dd",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:79",
+      "revision": 79,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7fe0-75f3-8671-bcd59e413052",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14a96-92a1-7151-a069-2d0fc608b83e",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792252744,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_058500d59acbf314016ad39c3a29508196bda00ef1658f775c",
+      "latestAssistantMessage": {
+        "id": "msg_058500d59acbf314016ad39c3a29508196bda00ef1658f775c",
+        "turnId": "01a14a96-92a1-7151-a069-2d0fc608b83e",
+        "phase": "commentary",
+        "text": "R017 复核通过，0 项必须修改。α=1 的各闭式及 (W=D+h^2/(2k)) 均核对正确；零力等待与峰值驻留构造可取满所述耗散闭区间。旧 R001–R016 的 48 项产物散列核验通过，正在完成冻结交接。"
+      },
+      "latestToolMarkerId": "exec-10e18ecc-6741-4717-91a2-abd03b645084",
+      "latestToolMarker": {
+        "id": "exec-10e18ecc-6741-4717-91a2-abd03b645084",
+        "turnId": "01a14a96-92a1-7151-a069-2d0fc608b83e",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:43",
+      "revision": 43,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14a96-94d6-7cb0-a27b-6ba5d1b5e20e",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792252744,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_01c40afd2e9956f9016ad39be9920c8190935e826619b4df66",
+      "latestAssistantMessage": {
+        "id": "msg_01c40afd2e9956f9016ad39be9920c8190935e826619b4df66",
+        "turnId": "01a14a96-94d6-7cb0-a27b-6ba5d1b5e20e",
+        "phase": "commentary",
+        "text": "已找到 Khalil 作者公开讲义中的直接依据：被动系统的存储函数不等式，以及由耗散不等式得到有限 (L_2) 增益的经典结果。CSI 原文支持 Maxwell 串联本构，但完整系统机械能式和候选位移峰值界仍须标为映射与代数推论，不能写成原文直接定理。"
+      },
+      "latestToolMarkerId": "exec-92a07ba5-76ef-4580-af68-751ef217df06",
+      "latestToolMarker": {
+        "id": "exec-92a07ba5-76ef-4580-af68-751ef217df06",
+        "turnId": "01a14a96-94d6-7cb0-a27b-6ba5d1b5e20e",
+        "type": "webSearch",
+        "name": "webSearch",
+        "status": null
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:48",
+      "revision": 48,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14a91-d656-77e2-b670-6520b72607c2",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792252434,
+        "completedAt": 1792252739,
+        "durationMs": 305184
+      },
+      "latestAssistantMessageId": "msg_09505bd600c2eded016ad39b4144e881908ff41d5087bd9e9a",
+      "latestAssistantMessage": {
+        "id": "msg_09505bd600c2eded016ad39b4144e881908ff41d5087bd9e9a",
+        "turnId": "01a14a91-d656-77e2-b670-6520b72607c2",
+        "phase": "final_answer",
+        "text": "已完成并冻结 v006稿件。 仅补第四图、表F1编号及端点适用域说明；摘要、结论和16个表块未改。23项作者检查通过，旧稿保持不变，已交主控安排整合审核。"
+      },
+      "latestToolMarkerId": "exec-0a97073b-4252-4214-895d-9ff87bd33dfd",
+      "latestToolMarker": {
+        "id": "exec-0a97073b-4252-4214-895d-9ff87bd33dfd",
+        "turnId": "01a14a91-d656-77e2-b670-6520b72607c2",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:40",
+      "revision": 40,
+      "changed": false,
+      "thread": {
+        "id": "01a14756-8805-7a42-b910-ae973f55d73e",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14a89-5eb9-7af2-838c-a8177f96d8a6",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792251879,
+        "completedAt": 1792252241,
+        "durationMs": 362028
+      },
+      "latestAssistantMessageId": "msg_09fe3e55758f973c016ad39935ec848193bdce20c046da6b37",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": "exec-86db83a1-6975-48f8-8a49-01e4d37dc7db",
+      "latestToolMarker": null
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:25",
+      "revision": 25,
+      "changed": false,
+      "thread": {
+        "id": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14a94-208c-7220-96e2-85a40e0c61b0",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792252584,
+        "completedAt": 1792252597,
+        "durationMs": 13506
+      },
+      "latestAssistantMessageId": "msg_0d8e1b978b923a60016ad39ab653108197ad4f89a39f0f81e8",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": null,
+      "latestToolMarker": null
+    }
+  ]
+}

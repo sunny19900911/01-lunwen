@@ -1,0 +1,21 @@
+{
+  "frozen_at": "2026-10-18T00:09:58+08:00",
+  "status": "classical conservative engineering bridge, candidate pending independent review",
+  "conditions": "same constrained SPD M/K, passive scalar constant-parameter Maxwell ports and fixed power-conjugate B_j as R010; certified uniform complete energy E(t)<=Ebar on finite [0,T]",
+  "outputs": "certified local total deformation speed and device force demand bounds, not actual-response or layout ranking",
+  "initial_force_cases": [
+    "zero force with finite-horizon strict dynamic threshold when Vbar>0",
+    "nonzero force requires max(initial absolute force,dynamic threshold)",
+    "Vbar=0 handled separately"
+  ],
+  "not_in_scope": [
+    "sharper time-dependent force bound",
+    "modal-tail estimate",
+    "real matrices/arrays/solver",
+    "engineering certification or new theory"
+  ],
+  "source": {
+    "path": "../R010-system-energy-interface/report.md",
+    "sha256": "676f41e6b0826e0dd0a358568c0f212458738d952d041b5c630be0386894f3e3"
+  }
+}

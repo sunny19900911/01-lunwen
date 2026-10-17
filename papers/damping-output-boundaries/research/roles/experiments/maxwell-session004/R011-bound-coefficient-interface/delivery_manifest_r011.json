@@ -1,0 +1,22 @@
+{
+  "evidence_id": "M-EXP-R011",
+  "completed_utc": "2026-10-17T16:10:32.122072+00:00",
+  "review_status": "candidate_interface_audit",
+  "files": [
+    {
+      "name": "report.md",
+      "bytes": 10068,
+      "sha256": "f7baeaa055749809548bdc30f626715b05f19c26462b19d14821c6c43ffcb0c9"
+    },
+    {
+      "name": "source_manifest.json",
+      "bytes": 3895,
+      "sha256": "9d5c0250267b3a44ddf99e6f408106827129b8d02be0d4ff16cd29e76ea5ed04"
+    },
+    {
+      "name": "validation.json",
+      "bytes": 1117,
+      "sha256": "0c2bbd2b928be06ba71996bf4b3a9a6bff1b2e483db2b1feaf9f5690b44fc783"
+    }
+  ]
+}

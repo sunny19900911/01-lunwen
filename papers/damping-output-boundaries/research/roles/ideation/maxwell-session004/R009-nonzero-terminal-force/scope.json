@@ -1,0 +1,23 @@
+{
+  "frozen_at": "2026-10-17T23:51:40+08:00",
+  "status": "author_candidate_not_novelty_claim",
+  "quantifiers": "For all k,c,alpha,V,T>0, terminal sign sigma in {-1,+1}, h>0, target M>=h with M<B=c V**alpha; F0=0, FT=sigma*h; total deformation terminal value unconstrained; measurable v with |v|<=V a.e., AC F/delta, Maxwell ODE a.e.; exact peak max|F|=M and real dissipation D.",
+  "candidate": "tau_h=tau_up(M)+tau_down(M)-tau_down(h); L_h=L(M)-Phi_down(h); U_h=L_h+c**(-1/alpha)*M**(1+1/alpha)*(T-tau_h); feasible iff tau_h<=T and D in [L_h,U_h].",
+  "edge_cases": [
+    "M=h",
+    "h down to 0",
+    "h>=B or M>=B impossible finite time",
+    "M<h impossible",
+    "insufficient time",
+    "q<1 AC chain rule",
+    "q>1 backward inverse cutoff"
+  ],
+  "not_in_scope": [
+    "delta terminal closure",
+    "building motion constraints",
+    "real-array checks or V certification",
+    "continuous-control exact interval",
+    "prior-art novelty adjudication"
+  ],
+  "source_coverage_note": "Requested novelty R008 not present in canonical or W5 novelty at initial lookup; main notified, awaiting actual path. Previously read novelty R006 and Maxwell coverage remains inherited."
+}

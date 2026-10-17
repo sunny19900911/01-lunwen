@@ -1,0 +1,100 @@
+{
+  "validated_at": "2026-10-17T23:58:04.626249+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v006.md",
+    "bytes": 42202,
+    "sha256": "c04370712b9adc73064872e1d2cc79a5c6a7783e191d5ca8dc4e754d80ae604b"
+  },
+  "passed": true,
+  "checks": {
+    "v001_v005_31files_5manifests_unchanged": true,
+    "all_inherited_sources_match": true,
+    "accepted_v005_independent_review_SHA": true,
+    "four_canonical_and_source_asset_hashes_match_adoption": true,
+    "all20788_SVG_vertices_independently_counted": true,
+    "four_endvalues_match_accepted_R008_and_not_divided_by_tau": true,
+    "root_endpoint_report_and_table_SHA_match": true,
+    "192_exact_endpoint_counts_match_root": true,
+    "endpoint_scope_not_engineering_threshold_or_extra_condition": true,
+    "all16_tables_original_bytes_and_order_unchanged": true,
+    "formula_tags1to9_unchanged": true,
+    "abstract_and_conclusions_unchanged": true,
+    "same_working_title_and_stage": true,
+    "F1_number_and_caption_added_once": true,
+    "figure4_caption_definitions_units_style_and_classic_scope": true,
+    "four_relative_image_links_resolve": true,
+    "existing_local_links_resolve": true,
+    "no_absolute_machine_or_W5_links": true,
+    "five_references_defined_used": true,
+    "no_unreviewed_theorem_2tau_or_zero_residual_boundary": true,
+    "UTF8_LF_no_BOM_or_trailing_whitespace": true,
+    "git_whitespace_check_clean": true,
+    "actual_PNG_view_passed": true
+  },
+  "table_count": 16,
+  "SVG_vertices": [
+    2501,
+    2501,
+    2501,
+    2501,
+    2696,
+    2696,
+    2696,
+    2696
+  ],
+  "endpoints_counts": {
+    "F0_zero": 192,
+    "FT_zero": 0,
+    "both_zero": 0,
+    "net_delta_zero": 0
+  },
+  "figure_tracking": [
+    {
+      "link": "../../../research/sessions/20261017-2109/figures/02_device_coverage_by_story.png",
+      "repo_relative": "research/sessions/20261017-2109/figures/02_device_coverage_by_story.png",
+      "tracked_at_validation": true,
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\02_device_coverage_by_story.png",
+        "bytes": 104087,
+        "sha256": "5f27fc3780b0efdebfa595f2a1d11ca068f5ecf4df07f2bed7f885f2e2e3a0fa"
+      }
+    },
+    {
+      "link": "../../../research/sessions/20261017-2109/figures/01_native_energy_ratio.png",
+      "repo_relative": "research/sessions/20261017-2109/figures/01_native_energy_ratio.png",
+      "tracked_at_validation": true,
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\01_native_energy_ratio.png",
+        "bytes": 87288,
+        "sha256": "fac821fca950ab796ff634053e768dd3020741ff63c117c884dad0ac4d8010d3"
+      }
+    },
+    {
+      "link": "../../../research/sessions/20261017-2109/figures/04_force_duration_examples.png",
+      "repo_relative": "research/sessions/20261017-2109/figures/04_force_duration_examples.png",
+      "tracked_at_validation": true,
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\04_force_duration_examples.png",
+        "bytes": 533940,
+        "sha256": "3bdd1cb84a8f6ad618e27c28db26be452d3ede0c26ed3520fefe7a3974824550"
+      }
+    },
+    {
+      "link": "../../../research/sessions/20261017-2109/figures/03_floor_record_peak_profiles.png",
+      "repo_relative": "research/sessions/20261017-2109/figures/03_floor_record_peak_profiles.png",
+      "tracked_at_validation": true,
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\03_floor_record_peak_profiles.png",
+        "bytes": 302244,
+        "sha256": "f1a8ff0bba9ead35bfca4a5052333cf6171fcf69a9fa9104bb6459bcfab776c4"
+      }
+    }
+  ],
+  "git_check": {
+    "exit": 1,
+    "stdout": "",
+    "stderr": "",
+    "note": "--no-index content difference exit1;no whitespace diagnostics"
+  },
+  "limits": "Author finite integration/static and small-table QA;not new original-data/physics/theory validation or next independent manuscript review."
+}

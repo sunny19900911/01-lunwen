@@ -1,0 +1,86 @@
+{
+  "review": "R016",
+  "session": "20261017-2109",
+  "started_at": "2026-10-17T23:50:33+08:00",
+  "deadline": "2026-10-18T00:00:33+08:00",
+  "recorded_at": "2026-10-17T23:56:39.220713+08:00",
+  "verdict": "0 required changes in the frozen measurable-control mathematical scope",
+  "source_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R008-closed-peak-reachability\\report.md",
+      "bytes": 8299,
+      "sha256": "19fd7e7f400f2cf56b06d5af83d88e8e13067bce43b2da8357efa92b513e9aaa"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R008-closed-peak-reachability\\scope.json",
+      "bytes": 1125,
+      "sha256": "09cb9972e5f87cff5216ecb267b50ae70231231f9037877e6aa1657149ac2d8e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R008-closed-peak-reachability\\validation.json",
+      "bytes": 884,
+      "sha256": "64fd1e125adbf7b26b1c86912b5184edc2d687696bbce3e7918d12fda8549f70"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R008-closed-peak-reachability\\alpha1_sanity.json",
+      "bytes": 666,
+      "sha256": "5d8c2760b12bae80d727016b3d1957754e320c00033f5d54d5723c3241656636"
+    }
+  ],
+  "previous_author_R007_reference": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R007-displacement-return\\report.md",
+    "bytes": 6758,
+    "sha256": "b1c88962309cc898c56827eae1f77ade06a3be9edbd0b9fac9bb08bf2b33421b"
+  },
+  "proof_checks": {
+    "single_sign_excursion_time_at_least_tau": true,
+    "single_sign_flow_at_least_Q_using_C1_AC_chain_rules": true,
+    "Q_is_flow_deformation_not_dissipation": true,
+    "capped_backward_and_forward_inverse_domains_valid": true,
+    "fixed_duration_capacity_A_equals_Q_of_tau_inverse": true,
+    "A_derivative_h_of_tau_inverse_right_derivative_zero_at_origin": true,
+    "A_convex_and_superadditive": true,
+    "countable_sign_intervals_original_AC_restrictions": true,
+    "finite_superadditivity_then_continuity_and_monotone_convergence": true,
+    "positive_measure_zero_set_time_retained_no_compression": true,
+    "closure_gives_equal_positive_negative_flow": true,
+    "peak_containing_lobe_forces_each_sign_time_at_least_tau": true,
+    "unequal_peaks_holds_and_multiple_lobes_covered": true,
+    "q_less_than_one_needs_no_h_derivative_at_zero": true,
+    "finite_three_bang_construction_closes_force_and_total_deformation": true,
+    "equality_T_equals_two_tau_attained": true,
+    "alpha1_tau_Q_A_closed_peak_formulas_independently_derived": true,
+    "M_zero_and_V_zero_separate": true,
+    "continuous_control_boundary_attainability_not_asserted": true
+  },
+  "optional_clarification": "Outside-window rest extension is directly legal for measurable control; extra audit is needed if continuous joining is required. Not a mandatory correction.",
+  "read_only_collaborators": [
+    {
+      "agent": "r006_sharp_challenge",
+      "focus": "capacity, capped inverses, convexity and countable sign intervals",
+      "required_changes": 0
+    },
+    {
+      "agent": "kernel_sharp_audit",
+      "focus": "unequal peaks, holds, zero set, q<1 and degenerate/control boundaries",
+      "required_changes": 0
+    },
+    {
+      "agent": "audit_double_mode",
+      "focus": "three bang sufficiency, alpha=1 formulas and dimensions",
+      "required_changes": 0
+    }
+  ],
+  "numerical_examples_rerun": false,
+  "finite_examples_used_as_proof": false,
+  "Excel_or_NPZ_read": false,
+  "novelty_or_prior_art_verdict": false,
+  "full_dissipation_feasible_set_solved": false,
+  "engineering_certification": false,
+  "author_shared_manuscript_Git_writes": false,
+  "limits": [
+    "Fixed positive parameters and measurable bounded velocity, AC states, force and total-deformation closure only.",
+    "No continuous-velocity exact-boundary theorem; no engineering response or performance guarantee.",
+    "Stop after frozen handoff; no draft review or subsequent round implied."
+  ]
+}

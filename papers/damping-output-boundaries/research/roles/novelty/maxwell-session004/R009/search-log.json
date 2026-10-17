@@ -1,0 +1,48 @@
+{
+  "started_at": "2026-10-17T23:48:42+08:00",
+  "logged_at": "2026-10-17T23:54:12+08:00",
+  "query_limit": 2,
+  "query_count": 2,
+  "queries": [
+    {
+      "owner": "root",
+      "q": "\"double integrator\" \"linear drag\" \"time-optimal\"",
+      "result": "noise; no result used as primary evidence; no irrelevant page opened"
+    },
+    {
+      "owner": "maxwell_primary_sources",
+      "q": "\"damped double integrator\" \"time-optimal\"",
+      "result": "one readable same-system primary chapter obtained; stopped"
+    }
+  ],
+  "primary_read": [
+    {
+      "url": "https://www.intechopen.com/chapters/81321",
+      "doi": "10.5772/intechopen.103690",
+      "authors": "Hsuan-Cheng Liao; Han-Jung Chou; Jing-Sin Liu",
+      "published": "2022-04-16",
+      "type": "publisher-labeled peer-reviewed open chapter",
+      "read": "root and child HTML metadata, Appendix equations29-46; child also sections4.1/4.4; no PDF pages or pixels",
+      "relation": "same linear-drag state system; related but not equivalent nonzero-distance rest-to-rest task"
+    },
+    {
+      "url": "https://liberzon.csl.illinois.edu/teaching/cvoc.pdf",
+      "version": "2011-08-09 preliminary author copy",
+      "read": "root section4.4.2 print110-112/PDF120-122 equations4.51-4.56; text only",
+      "relation": "classical general point-to-point bounded linear-system bang and reachability framework; no same forced-peak zero-distance closed form"
+    }
+  ],
+  "unopened_hits_not_used": [
+    "arXiv2007.05155",
+    "institutional theses from child query",
+    "root differential-drag, UAV and secondary-topic noise"
+  ],
+  "new_external_downloads": 0,
+  "failed_paths_retried": [],
+  "unfinalized_ideation_files_read": false,
+  "claim_source": "task text only",
+  "mapping_review": "algebra and dimensional identity reviewed",
+  "candidate_closed_form_correctness": "not assessed",
+  "same_closed_form_publication_coverage": "unresolved; no first claim",
+  "experiments_or_engineering_arrays": false
+}

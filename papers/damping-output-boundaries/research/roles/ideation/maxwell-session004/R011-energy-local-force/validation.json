@@ -1,0 +1,29 @@
+{
+  "frozen_at": "2026-10-18T00:11:22+08:00",
+  "status": "classical engineering bridge author candidate pending review",
+  "passed": true,
+  "source_R010_sha256": "676f41e6b0826e0dd0a358568c0f212458738d952d041b5c630be0386894f3e3",
+  "old_R010_unchanged": true,
+  "internal_read_only_reviews": 2,
+  "no_real_arrays_solvers_fits_search_new_time_bound_or_tail_bound": true,
+  "files": [
+    {
+      "path": "scope.json",
+      "sha256": "e5a4566f451ef73ca7b3af14212df54d5ce807fdd3c0e8d73df6e275790201d6",
+      "bytes": 1008,
+      "errors": []
+    },
+    {
+      "path": "report.md",
+      "sha256": "5818129368de9f5f9f4360b29c3d8c81203484eb3c14f7c36c98e67287b76677",
+      "bytes": 8011,
+      "errors": []
+    },
+    {
+      "path": "algebra_checks.json",
+      "sha256": "c0fe57d65241bebd5c00189ca07e0854b7935aa1b1981da740f5098abfa54683",
+      "bytes": 893,
+      "errors": []
+    }
+  ]
+}

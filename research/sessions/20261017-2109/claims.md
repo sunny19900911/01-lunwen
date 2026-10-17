@@ -79,3 +79,12 @@ M-C009 proposed/analytic-derivation candidate：在已知单轴Maxwell本构、�
 
 
 2026-10-17T23:52:20.280825+08:00 R015修补准入：主控全文及两SHA核过，M-C015 v2在原候选+R014+饱和v002+R015零峰/受限逆约定组合下为supported/analytic-derivation reviewed。原v1历史定义缺口保留；不认证首次、工程连续V/真实参数/末力零。R008闭合2tau候选已根全文读并交R016，仍candidate。M-C018 proposed/analytic-derivation candidate：固定非零FT的峰—耗散可行区间，以适应原窗余力问题，角色1R009在推导；没有因此认证现有模型可直接给工程上界。第四图已根实际看PNG及独核SVG全20788顶点，表达两例已审经典积分，不新增因果主张。
+
+
+2026-10-18T00:02:00.947757+08:00 R007后到：R016全文/三SHA已核，M-C016在冻结可测速度、AC状态、力及总变形双回零条件下为supported/analytic-derivation reviewed：峰M可达iff2tau(M)<=T，线性tanh闭式通过；具体发表仍未闭合，不认证工程V或楼层保证。M-C018非零FT候选已根全文读，交R017独审。角色6R009同型有阻力二阶系统映射为经典，普通非零行程rest-to-rest来源不是强制峰的同闭式出处。v006小改根全文读/6freeze/16表/9式/4图检查通过，仍本地未提交。Git4ed99本地提交两次TLS握手失败，远端仍5735ee；不是研究数据丢失，不再重试本检查点。
+
+
+2026-10-18T00:08:44.936132+08:00 后到R017全文/三SHA核过，M-C018为supported/analytic-derivation reviewed：初力0、固定非零FT、末总变形自由时的时间条件及指定峰耗散全闭区间；仅条件数学，不认证实际V/参数/建筑运动。角色3R008源报告/manifest两SHA核过，Khalil原文仅给经典存储/L2工具，完整Maxwell机械能及1/4楼层界是映射推论，仍交R018。M-C019 proposed/analytic-derivation candidate：主体与被动Maxwell的能量预算到固定输出位移界，含SPD/PSD输入范围与完整模态/尾项门。M-C020 proposed candidate：统一能量到局部轴向总速度和器件峰力证书，角色1R011有限推导，不称新理论或布局最优。
+
+
+2026-10-18T00:16:17.893877+08:00 R018全文/三SHA核过，M-C019为supported/analytic-derivation reviewed，限定约束后SPD质量刚度、固定功共轭Maxwell、完整初能与输入范数及固定线性位移输出；半正定阻尼Range门/L1后备/模态尾项门全部保留，非加速度或总层剪/布局最优。实际常数未计算。实验R011源/模式契约全文核为接口说明，不认证实际M可逆/每阶阻尼/归一。M-C020局部桥接交R019；M-C021 proposed candidate为有谱/质量对偶残余证据时的有限模态上估，角色1R012在推导。

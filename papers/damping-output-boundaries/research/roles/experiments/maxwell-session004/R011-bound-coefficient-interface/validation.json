@@ -1,0 +1,22 @@
+{
+  "evidence_id": "M-EXP-R011",
+  "review_status": "candidate_interface_audit",
+  "started_local": "2026-10-18T00:05:25+08:00",
+  "completed_utc": "2026-10-17T16:10:32.122072+00:00",
+  "method": "Read frozen reports and metadata headers only. No original Excel or full response/cache arrays opened; no repeated scientific counts, solver, fitting, inverse evaluation or actual bound constants.",
+  "checks": {
+    "all9_frozen_report_metadata_SHA_unchanged": true,
+    "no_replacement_character": true,
+    "old_model_not_transferred": true,
+    "massless_DOF_gate_explicit": true,
+    "minimum_selected_point_modal_tables": true,
+    "all_three_coefficients_no_actual_computation": true,
+    "truncation_and_Ritz_scope_explicit": true,
+    "direct_C_inverse_not_promised_by_small_table": true
+  },
+  "source_manifest_sha256": "9d5c0250267b3a44ddf99e6f408106827129b8d02be0d4ff16cd29e76ea5ed04",
+  "report_sha256": "f7baeaa055749809548bdc30f626715b05f19c26462b19d14821c6c43ffcb0c9",
+  "report_bytes": 10068,
+  "actual_source_numeric_arrays_read": false,
+  "actual_coefficients_computed": false
+}

@@ -1,0 +1,54 @@
+{
+  "evidence_id": "M-EXP-R011",
+  "scope": "Read-only feasibility and smallest-extra-table contract, no new array counting/extraction, no actual bound coefficient computation",
+  "frozen_utc": "2026-10-17T16:08:29.640481+00:00",
+  "source_refs": {
+    "new_Maxwell_metadata_report": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\辅助元数据完整性审核-R001.md",
+      "bytes": 8470,
+      "sha256": "33ad1b582e5f503ae282e5174517f078fb8abcb1dbe75bb0272c2ce9b5944ed7"
+    },
+    "new_Maxwell_frozen_table_inventory": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\metadata_inventory.json",
+      "bytes": 35030,
+      "sha256": "67176fee744d772ab5241d6d3a2321ec933785a0764560ad225099961b140549"
+    },
+    "system_energy_interface": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R010-system-energy-interface\\report.md",
+      "bytes": 10586,
+      "sha256": "676f41e6b0826e0dd0a358568c0f212458738d952d041b5c630be0386894f3e3"
+    },
+    "energy_source_scope": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R008-energy-bound-sources\\R008-energy-bound-sources.md",
+      "bytes": 8389,
+      "sha256": "3ec179aa7d73353fdb1e84c40fd819ac12158c005194b63d775b587d7ac90e0d"
+    },
+    "geometry_contract_R004": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R004-layout-screening-interface.md",
+      "bytes": 9979,
+      "sha256": "27c7841d12f9844a7a41b6232f5e4fc30a16c3c593f2a55a7dbe19a7a5b1520b"
+    },
+    "FNA_basis_and_damping_R004": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R004-FNA-effective-properties-and-local-basis.md",
+      "bytes": 7880,
+      "sha256": "7e7c17837a94f4d7793677010c13cd040eba80cc72b850f0b4fcf0560256d398"
+    },
+    "old_model_modal_damping_audit_scope_only": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\verification-session003\\modal-damping-findings-v001.md",
+      "bytes": 10853,
+      "sha256": "076f9b0ebcf9a34e4f7bbb874f2934d5f25350fd6fb3db0b7a34bd2504d4bd8d"
+    },
+    "old_model_modal_interface_scope_only": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\verification-session003\\modal-interface-findings-v001.md",
+      "bytes": 7845,
+      "sha256": "12ed695c115fa1fb0ae4137b8b3210151d77012b024113160d5bbb632c43b38d"
+    },
+    "P_U1_port_and_mass_boundary": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R003-link-force-deformation-port-check.md",
+      "bytes": 8465,
+      "sha256": "6c7b18c48965531e9d8606be2210df7ddbd384e4d28c9f0dcdc4eee78279ceca"
+    }
+  },
+  "old_model_rule": "0/3 audits identify missing-definition categories only; never transfer their actual modal/mass/damping values to new Maxwell model.",
+  "status": "candidate_interface_audit"
+}

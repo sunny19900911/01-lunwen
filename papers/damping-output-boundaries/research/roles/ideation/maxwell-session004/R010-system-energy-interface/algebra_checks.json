@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-10-18T00:03:33+08:00",
+  "scope": "small synthetic algebra checks, not real matrices or a solver run",
+  "modal_example": {
+    "M_diagonal": [
+      2.0,
+      3.0
+    ],
+    "K_diagonal": [
+      8.0,
+      27.0
+    ],
+    "C_diagonal": [
+      0.4,
+      1.8000000000000003
+    ],
+    "omega": [
+      2.0,
+      3.0
+    ],
+    "zeta": [
+      0.05,
+      0.1
+    ],
+    "ell": [
+      1.0,
+      -1.0
+    ],
+    "b": [
+      2.0,
+      3.0
+    ],
+    "SK_direct": 0.16203703703703703,
+    "SK_complete_modal": 0.16203703703703703,
+    "SC_direct": 15.0,
+    "SC_complete_modal": 14.999999999999996,
+    "SM": 5.0
+  },
+  "Young_completion_error": 1.1102230246251565e-16,
+  "PSD_counterexample_at_t_pi": {
+    "M": "I2",
+    "K": "I2",
+    "C": "diag(1,0)",
+    "Link_B": "(1,0)",
+    "f": "e2",
+    "E": 2.0,
+    "f_Cdagger_f": 0
+  },
+  "rigid_static_counterexample": {
+    "K": 0,
+    "initial_u": 100,
+    "initial_v": 0,
+    "f": 0,
+    "E0": 0,
+    "ell_u": 100
+  },
+  "all_checks_passed": true
+}
