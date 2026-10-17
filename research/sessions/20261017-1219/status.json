@@ -26,27 +26,27 @@
   "role_cursors": [
     {
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
-      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:15",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:18",
       "status": "idle"
     },
     {
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:14",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:20",
       "status": "active"
     },
     {
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:16",
-      "status": "idle"
-    },
-    {
-      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
-      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:15",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:18",
       "status": "active"
     },
     {
+      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:17",
+      "status": "idle"
+    },
+    {
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:15",
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:17",
       "status": "active"
     }
   ],
@@ -55,7 +55,7 @@
     "detuning_bound_round1": "completed both independent finite-envelope and classical-norm reviews; frozen, no live child task",
     "theory_manuscript_round1": "completed; frozen outputs handed to original roles; no live child task remains"
   },
-  "latest_round": "R002.md",
+  "latest_round": "R003.md",
   "checkpoint_open": true,
   "pending_push": null,
   "git_transport": {
@@ -65,20 +65,20 @@
     "global_config_changed": false
   },
   "last_verified_push": {
-    "commit": "b7e62b3ee71c62ba8ab3ea74d90e536b140b3f15",
+    "commit": "fcc8d9a8d760ee81b473d9f7e3099eec908eac0e",
     "branch": "main",
     "remote": "origin",
-    "verified_by": "command-scoped proxy git ls-remote exact matched",
-    "verified_at": "2026-10-17T12:36:32.199424+08:00"
+    "verified_by": "actual command-scoped proxy push + ls-remote matched",
+    "verified_at": "2026-10-17T12:53:14.592258+08:00"
   },
-  "recorded_at": "2026-10-17T12:48:52.168507+08:00",
-  "next_checkpoint": "Finish open R002: read frozen v003 integration review, publish explicitly finished list; C022/C023/C024 accepted. Experiment time constants and fixed-duration upper remain in progress; no staging active files. Deadline14:19:08 and both schedulers active.",
+  "recorded_at": "2026-10-17T13:06:03.741142+08:00",
+  "next_checkpoint": "R003 publication in preparation; C025/C026/C027 and v004 accepted. Only explicit finished list, exclude active C028 reviews/new scope files. Next R004 collect independent C028 audit + limited prior-art note, read v005 scope and authorize coherent draft once reviewed. No duplicate role work; hard deadline14:19:08. No live in-chat child.",
   "role_work": {
-    "ideation": "v003 integration review frozen, 0 mandatory; idle pending next specific review",
-    "verification": "One <=8min fixed-duration full input class O(1+T) feasibility/counterexample task, no claim accepted yet",
-    "literature": "v003 wording review frozen, 0 mandatory; idle pending new evidence",
-    "experiments": "New bounded unit-model C023 sufficient-time constants only, frozen protocol first; no new response/r/fit",
-    "writing": "Sole author v004 in progress under approved frozen scope C022/C023; no new plot or C024 full proof"
+    "ideation": "C028 critical-damping attainable range candidate frozen2d2ee32e, idle; independent reviewer assigned",
+    "verification": "C026 accepted; bounded independent C028 range review now active, no duplicate task",
+    "literature": "Bounded <=3 new-query C028 nearest prior-art comparison now active",
+    "experiments": "E3 and E4 accepted/reviewed within recorded bounds; idle, no new response task",
+    "writing": "C025/C026 accepted; v005 narrative scope plan <=5min, no new draft yet"
   },
   "prepared_publication": null
 }

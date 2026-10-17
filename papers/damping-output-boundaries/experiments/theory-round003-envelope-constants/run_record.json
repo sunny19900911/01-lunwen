@@ -1,0 +1,64 @@
+{
+  "evidence_id": "E-EXP-T002-003",
+  "review_status": "candidate",
+  "finished_utc": "2026-10-17T04:49:31.875346+00:00",
+  "elapsed_seconds": 0.006128199995146133,
+  "command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\theory-round003-envelope-constants\\evaluate_constants.py"
+  ],
+  "cwd": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen",
+  "python": "3.12.14",
+  "dependencies": "standard library only",
+  "exit_code_after_checks": 0,
+  "checks": {
+    "rho_present_in_original_frozen_model": true,
+    "four_original_delta_values_only": true,
+    "positive_amplitude_and_time_constants": true,
+    "unit_interval_is_underdamped_and_gamma_equals_zeta_minus": true,
+    "all_original_deltas_within_eta": true,
+    "pi_known_prefix": true,
+    "T0_over_Tenv_equals_inverse_C_numerically": true,
+    "arithmetic_90_vs_110_relative_difference_below_1e_80": true,
+    "all_sources_and_protocol_unchanged": true,
+    "elapsed_under_420_seconds": true
+  },
+  "protocol_file_last_write_utc": "2026-10-17T04:48:36.569730+00:00",
+  "sources": [
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\theory-round003-envelope-constants\\protocol.json",
+      "sha256": "412ed81e06c892c75f35926f02df743f9536f1f626be12d342dcef025419cb84"
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\theory-round001-detuning\\detuning_values.json",
+      "sha256": "7df5437996e7cf9a2f42d4dfc244ed481c96051236d1453861b03ae8ffeb9907"
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\theory-session002\\finite-envelope-detuning-candidate.md",
+      "sha256": "ea99a02b167720490242edc396adc6da154dd617a55dfc8df26c28c2daf3b3db"
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\theory-round001\\finite-envelope-detuning-review.md",
+      "sha256": "216b63ac6a84d37fceb770cd1c42a77824b6e3618395fbbc0cfc05d53010977c"
+    }
+  ],
+  "files": [
+    {
+      "file": "evaluate_constants.py",
+      "bytes": 8867,
+      "sha256": "af661bad0ee51224623c52b4a538b25cba12e3fe6027d91a5a8a01f46eb4c374"
+    },
+    {
+      "file": "envelope_constants.json",
+      "bytes": 8163,
+      "sha256": "4da924405d0766f6108d53d67e42caa692b98230ea59516b1b94fc9f1ae7ac9b"
+    },
+    {
+      "file": "four_crossover_durations.csv",
+      "bytes": 2463,
+      "sha256": "0a422ab1a98db72af3a72cb4e80ef907dbad4e11f0db5ff1fa5cbd5b3ecf1e16"
+    }
+  ],
+  "source_rho_present_no_gap_filled_by_new_spectrum": true,
+  "no_new_response_r_spectrum_or_fit": true
+}

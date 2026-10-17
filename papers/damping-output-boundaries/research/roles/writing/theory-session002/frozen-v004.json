@@ -1,0 +1,40 @@
+{
+  "session": "20261017-1219",
+  "frozen_at": "2026-10-17 12:53:29 +08:00",
+  "status": "author integration checks passed; awaiting master independent v004 review",
+  "scope": "C022 specified-family target uniqueness and asymptotic stiffness ratio; C023 designed-envelope finite-duration joint lower bound; two optional literature clarifications. Five sections, two existing figures, seven unchanged references. C024 alternative deferred; no fixed-duration full-input upper bound or new numerical evidence.",
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v004.md",
+      "sha256": "db9fb2f8558e6cf9bda621f6d54c1d20476dd74ce47eda71fbeae5650a4347ee",
+      "bytes": 57250
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v004.json",
+      "sha256": "856446eda5385f933ff09729470bde31be9483a9206209c874f6030da9876336",
+      "bytes": 13134
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v004-report.md",
+      "sha256": "c8969489388b1498cd5d4fafaf4d23ffd6d28c342a991f4262f3ef3967cc8939",
+      "bytes": 4120
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v004-validation.json",
+      "sha256": "2468dba9edbdae09b1ffdf794e0c48dda93385978873781324ffaea5c286fa50",
+      "bytes": 9968
+    }
+  ],
+  "predecessor_freeze": {
+    "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/frozen-v003.json",
+    "sha256": "9f434cb040457fb7b3e8116a295740d176ed50d1d4a54d0cb5c1afacfc252970",
+    "bytes": 1657
+  },
+  "integration_plan": {
+    "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v004-scope-plan.md",
+    "sha256": "d38439aaddb42588e81c66abec4f71b36895701a88414a6f8bbcde2765918847",
+    "bytes": 8602
+  },
+  "validation": "30 static integration checks; 59 ordered unique tags; 4 assets and 23 evidence identities; 14 predecessor frozen files unchanged",
+  "encoding": "UTF-8 without BOM, LF"
+}

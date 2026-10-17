@@ -1,0 +1,171 @@
+{
+  "timedOut": false,
+  "wake": {
+    "reason": "turnCompleted",
+    "turnId": "01a14831-36ed-7b80-82d9-5fb9011d0f78",
+    "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+    "hostId": "local"
+  },
+  "polls": [
+    {
+      "schemaVersion": 1,
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:17",
+      "revision": 17,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14835-b820-78e1-93c6-38826c86d79a",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792212842,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_0fdbbf9b10a3adb0016ad2ff776d588195ab6ed7d0f8f7a073",
+      "latestAssistantMessage": {
+        "id": "msg_0fdbbf9b10a3adb0016ad2ff776d588195ab6ed7d0f8f7a073",
+        "turnId": "01a14835-b820-78e1-93c6-38826c86d79a",
+        "phase": "commentary",
+        "text": "我会先检查候选上界是否对完整尾段和整个参数区间成立，重点找临界商核、可观测性、尾段范数转换及时间单位中的缺口。不会用已有下界替它背书；只写独立审核和交接记录。"
+      },
+      "latestToolMarkerId": "exec-2e629496-1351-45fc-a694-c7648c4c6e56",
+      "latestToolMarker": {
+        "id": "exec-2e629496-1351-45fc-a694-c7648c4c6e56",
+        "turnId": "01a14835-b820-78e1-93c6-38826c86d79a",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:16",
+      "revision": 16,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7fe0-75f3-8671-bcd59e413052",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14835-f65d-7bf3-8b2c-8e52836b49a1",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792212858,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_058500d59acbf314016ad2ff8560908196bde9afc01e6efec9",
+      "latestAssistantMessage": {
+        "id": "msg_058500d59acbf314016ad2ff8560908196bde9afc01e6efec9",
+        "turnId": "01a14835-f65d-7bf3-8b2c-8e52836b49a1",
+        "phase": "commentary",
+        "text": "我会只审 v003→v004 的整合差异，重点核对 C022 的渐近系数与唯一性范围，以及 C023 的包络常数、相位、全尾段和“仅设计输入族下界”限定。另会检查是否夹带尚未接纳的固定时长上界或 C024 全路线，不重做已审定理，也不改稿。"
+      },
+      "latestToolMarkerId": "exec-b9ff142c-bbe8-4e63-885a-2354a6e2fca8",
+      "latestToolMarker": {
+        "id": "exec-b9ff142c-bbe8-4e63-885a-2354a6e2fca8",
+        "turnId": "01a14835-f65d-7bf3-8b2c-8e52836b49a1",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:17",
+      "revision": 17,
+      "changed": false,
+      "thread": {
+        "id": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a1482e-0bef-7811-9805-b8efd230da76",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792212339,
+        "completedAt": 1792212461,
+        "durationMs": 121605
+      },
+      "latestAssistantMessageId": "msg_01c40afd2e9956f9016ad2fdecfaf081908c73b8d5577815da",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": "exec-90593b08-8d42-4924-9645-e3fbbb3bbb84",
+      "latestToolMarker": null
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:16",
+      "revision": 16,
+      "changed": false,
+      "thread": {
+        "id": "01a14756-8805-7a42-b910-ae973f55d73e",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a1482f-5563-7ae2-873d-3788c5c3e8ad",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792212424,
+        "completedAt": 1792212706,
+        "durationMs": 282482
+      },
+      "latestAssistantMessageId": "msg_09fe3e55758f973c016ad2fee2a0e88193ac08c4ec94d19e7e",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": "exec-09800400-1b99-49a0-8baa-b88372cef2aa",
+      "latestToolMarker": null
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:16",
+      "revision": 16,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14831-36ed-7b80-82d9-5fb9011d0f78",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792212547,
+        "completedAt": 1792212836,
+        "durationMs": 289680
+      },
+      "latestAssistantMessageId": "msg_09505bd600c2eded016ad2ff6325548190a48c9aede87f39bf",
+      "latestAssistantMessage": {
+        "id": "msg_09505bd600c2eded016ad2ff6325548190a48c9aede87f39bf",
+        "turnId": "01a14831-36ed-7b80-82d9-5fb9011d0f78",
+        "phase": "final_answer",
+        "text": "理论稿 v004 已冻结并交主控独立复核。 已加入 C022、C023 及两处文献澄清，保留五节、两图、七条参考文献。30 项整合检查通过，前驱冻结文件未改。固定时长全类上界仍未纳入。"
+      },
+      "latestToolMarkerId": "exec-3102ff55-eaba-4371-b960-866a3f0e2a93",
+      "latestToolMarker": {
+        "id": "exec-3102ff55-eaba-4371-b960-866a3f0e2a93",
+        "turnId": "01a14831-36ed-7b80-82d9-5fb9011d0f78",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    }
+  ]
+}

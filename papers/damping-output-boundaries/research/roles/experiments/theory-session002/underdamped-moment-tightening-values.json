@@ -1,0 +1,66 @@
+{
+  "evidence_id": "E-EXP-T002-004",
+  "review_status": "candidate",
+  "evidence_type": "analytic-derivation / arithmetic-check",
+  "finished_utc": "2026-10-17T04:57:34.966486+00:00",
+  "elapsed_seconds": 0.0010285000025760382,
+  "code_sha256": "a9c5bafee3e2af2d4224f61c97589f5c138a4253714aac60e643bcae41126426",
+  "command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\theory-session002\\underdamped-moment-tightening-calc.py"
+  ],
+  "python": "3.12.14",
+  "dependencies": "standard library only",
+  "precision_digits": 90,
+  "arithmetic": "Decimal ROUND_HALF_EVEN; not directed interval certification",
+  "sources": [
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\theory-round001-detuning\\detuning_values.json",
+      "sha256": "7df5437996e7cf9a2f42d4dfc244ed481c96051236d1453861b03ae8ffeb9907"
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\theory-round003-envelope-constants\\envelope_constants.json",
+      "sha256": "4da924405d0766f6108d53d67e42caa692b98230ea59516b1b94fc9f1ae7ac9b"
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\theory-session002\\finite-envelope-detuning-candidate.md",
+      "sha256": "ea99a02b167720490242edc396adc6da154dd617a55dfc8df26c28c2daf3b3db"
+    }
+  ],
+  "values": {
+    "zeta_minus": "0.211783418330635182801565672439082141207931833754467399487227034083903309966821122115962631",
+    "zeta_plus": "0.495247378250100735166738187857545930209317518933523764954746295088512355614720162486558767",
+    "sqrt_1_minus_zeta_plus_squared": "0.868751998176926007629019489976281531746313874937826759593348004512317439033934267563341687",
+    "frozen_modal_absolute_sum": "2.99999999999999999999999999999999999999999999999999999999999999999999999999999999999999991",
+    "M_old": "631.648383248937527864871699296483749122640653744322474752008496948252828554822312860324445",
+    "M_alt": "76.9912783327121592336158596199685421660770827233360944561464323632565562614874348711668390",
+    "M_best_min": "76.9912783327121592336158596199685421660770827233360944561464323632565562614874348711668390",
+    "new_over_old_factor": "0.121889456815674772622871964582303819655802646782735929882718786949460893342781729432836990",
+    "old_over_new_improvement_factor": "8.20415502804506497212154153090452504701449105711613494623175511638080300805648605159113536",
+    "remaining_percent": "12.1889456815674772622871964582303819655802646782735929882718786949460893342781729432836990",
+    "ratio_from_cancelled_formula": "0.121889456815674772622871964582303819655802646782735929882718786949460893342781729432836990",
+    "E_old": "992.190960233366176561173738492956527461918308655348973245855028778164292232686568308579235",
+    "E_alt": "120.937617200267772196661373206799138859288988814128350363166557123749591209139714787512863",
+    "T0_old_half_s": "4369372.34795572026036572145072234249896283259881816470810659893789229457650204459897623785",
+    "T0_alt_half_s": "532580.422117752251047602476508440686499363162200078449524782014556468329293058134979829906",
+    "Tenv_old_s": "519981.424358316302378819220537609657524958544744566833654345691841304810610994200843172898",
+    "Tenv_alt_s": "63380.2533692760532544725282967687785871213798225316626031517343343240526897056115072874358",
+    "T0_alt_half_days": "6.16412525599250290564354718181065609374262919213053761024053257588505010755854322893321650",
+    "Tenv_alt_days": "0.733567747329583949704543151582971974387978933131153502351293221462083943167889022075086062",
+    "A_unchanged": "0.00190812770178815640535237139404401474855700993044614665438323701236055311128056651386910733",
+    "B_unchanged": "0.000454157202096808416883455449036150491431942850523664610629416662784924867330798041994900556",
+    "C_unchanged": "0.119005976819896754664802313426873178550402653912446968186131437330378464172072778975405984"
+  },
+  "checks": {
+    "strict_underdamped_compact_interval": true,
+    "same_original_omega_rho": true,
+    "unit_old_gamma_equals_zeta_minus": true,
+    "alternative_positive_and_smaller_here": true,
+    "direct_ratio_formula_matches_below_1e_80": true,
+    "E_T0_Tenv_scale_by_same_factor": true,
+    "sources_unchanged": true,
+    "elapsed_under_300_seconds": true
+  },
+  "exit_code_after_checks": 0,
+  "limits": "M_alt requires the whole common damping interval to satisfy 0<zeta_minus<=zeta_plus<1. Both valid upper bounds can be minimized; M_alt need not be better in every underdamped interval. No new response, spectrum, root, r, delta table, plot or fit. These are conservative sufficient-condition improvements, not necessary duration or measured peaks."
+}

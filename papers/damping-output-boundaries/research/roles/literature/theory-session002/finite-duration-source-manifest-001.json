@@ -1,0 +1,115 @@
+{
+  "session": "20261017-1219",
+  "task": "R003 finite-duration prior positioning",
+  "role": "literature",
+  "review_status": "candidate",
+  "started_at": "2026-10-17T12:56:29+08:00",
+  "closed_at": "2026-10-17T12:59:46.144928+08:00",
+  "budget_minutes": 6,
+  "queries_budget": 3,
+  "queries_used": 3,
+  "queries": [
+    "\"output-to-output\" \"finite duration\" gain",
+    "\"output-to-output\" \"peak\" gain finite horizon",
+    "\"finite horizon\" \"peak-to-peak\" \"observability\""
+  ],
+  "outcome": "no same-condition theorem located in inspected primary sources; not an exhaustive novelty search",
+  "sources": [
+    {
+      "file": "kernel-boyd-barratt-1991.pdf",
+      "url": "https://web.stanford.edu/~boyd/lcdbook/lcdbook.pdf",
+      "sha256": "7287e1ee59e6155976bd1afc19e9be799f7b5be359e497b15ce121b3c054dd18",
+      "pages_total": 426,
+      "locations": [
+        "printed p97 eq5.4-5.6",
+        "printed p118 eq5.33",
+        "printed p120 eq5.35-5.36"
+      ],
+      "new_download": false
+    },
+    {
+      "file": "C020-Teixeira-security-metrics-author.pdf",
+      "url": "https://www.andre-teixeira.eu/papers/Teixeira_Ch06_Springer2021.pdf",
+      "sha256": "030438aab1aacc0b544451a9c6d5e2738c2ecf22ce680142c0c4512050cc180d",
+      "pages_total": 23,
+      "locations": [
+        "p14 eq14-15",
+        "p16 Proposition2"
+      ],
+      "new_download": false
+    },
+    {
+      "file": "C020-Teixeira-CDC2019-author.pdf",
+      "url": "https://www.andre-teixeira.eu/papers/teixeira_CDC2019.pdf",
+      "sha256": "f673bc13adb5255ed65bf3dbdb3ff61fbac0b78649c84046c1ea2ce0b952e749",
+      "pages_total": 6,
+      "locations": [
+        "p4 eq11-12",
+        "p5 section VI.B eq14; visually checked this task"
+      ],
+      "new_download": false
+    },
+    {
+      "source": "L026 Sultan2013 public author text",
+      "url": "https://www.researchgate.net/publication/257271902_Decoupling_approximation_design_using_the_peak_to_peak_gain",
+      "sha256": null,
+      "locations": [
+        "manuscript p7-10 eq6-20 from prior primary read"
+      ],
+      "this_task": "reused earlier original-text inspection; reread local L026 comparison and manifest; no refetch",
+      "limits": "no PDF bytes or visual formula verification; remaining chapters not exhausted"
+    },
+    {
+      "title": "Reliable Evaluation of the Worst-Case Peak Gain Matrix in Multiple Precision",
+      "authors": [
+        "Anastasia Volkova",
+        "Thibault Hilaire",
+        "Christoph Lauter"
+      ],
+      "doi_from_first_page": "10.1109/ARITH.2015.14",
+      "url": "https://www.acsel-lab.com/arithmetic/arith22/papers/8664a096.pdf",
+      "pdf_pages": 8,
+      "locations": [
+        "print96-97/PDF1-2 section I eq2-5 Remark1"
+      ],
+      "retrieval": "web parsed public author-lab PDF",
+      "downloaded": false,
+      "sha256": null,
+      "visual_review": false,
+      "use": "neighboring input-output tool only; no formal reference entry added"
+    }
+  ],
+  "input_hashes_at_close": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-session002/fixed-duration-upper-feasibility.md",
+      "sha256": "d0b90a16a80a74d6db6d105e68df48bcbd75fe37489b9ab7d643275cdd44d8ac"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-session002/classical-norm-route-candidate.md",
+      "sha256": "a7ebeb92c03d59af08332560e178c68629e33c501a120e997e5cf2fbc49666be"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-round001/classical-norm-route-review.md",
+      "sha256": "afb8993b77364c6c3865ecb7748473f5ef4ba817d757c063a4e74e4c995bafd2"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/theory-session002/finite-envelope-detuning-candidate.md",
+      "sha256": "ea99a02b167720490242edc396adc6da154dd617a55dfc8df26c28c2daf3b3db"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-round001/finite-envelope-detuning-review.md",
+      "sha256": "216b63ac6a84d37fceb770cd1c42a77824b6e3618395fbbc0cfc05d53010977c"
+    }
+  ],
+  "new_fulltext_downloads": 0,
+  "failed_old_endpoints_retried": false,
+  "new_reference_entries": 0,
+  "claims_or_manuscript_edits": false,
+  "new_local_ignored_page_image": "finite-duration-Teixeira-CDC2019-p5.png",
+  "limits": [
+    "fixed-duration candidate is an input to this positioning, not adjudicated here",
+    "existing full-tail output-ratio and Gramian methods are acknowledged",
+    "physics restriction and search miss do not certify novelty",
+    "no accounting for all later sections of Sultan or all prior-art chains"
+  ]
+}

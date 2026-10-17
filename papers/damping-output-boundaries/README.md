@@ -2,7 +2,7 @@
 
 用户已选择集中理论主线，第二轮时段12:19:08—14:19:08。题目/期刊/署名未最终确定；旧工程与拟合证据完整保留。
 
-- [当前理论稿v003](manuscript/theory-draft-v003.md)：五主节/两核心图；已纳入失谐显式双侧界及限定族唯一根，整合与文献措辞审阅无必修问题；v004正在另存。
+- [当前理论稿v004](manuscript/theory-draft-v004.md)：五主节/两核心图；新增指定族低阻尼渐近及有限包络联合下界，独立整合审阅无必修。固定时长全输入上界已另获审核，后续整合另存版本。
 - [原混合工作稿v009](manuscript/working-draft-v009.md)：保留原生工程、代理诊断及旧支线证据。
 - [当前选题卡](research/topic-cards/T001.md)与[演变记录](research/topic-cards/events.md)：为什么从初始判据问题推进到统一界、物理反例及失谐边界。
 - [A理论稿/C分层结合稿两版蓝图](research/roles/ideation/topic-options-final-candidate.md)、[待用户决策](research/decisions-pending.md)。

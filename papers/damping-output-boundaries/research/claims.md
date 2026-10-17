@@ -63,3 +63,17 @@ L035这轮新增公开作者PDF两页的文本定位（并非原页公式已视�
 | C024 v1 | C020的经典范数替代上界：全正三层类、0<δ≤1/2，TV(q)≤351 M_ax(Q)≤351Mκ/δ，Mκ=κ/2+4(κ−1)(1+2κ)/3 | supported | verification/theory-session002/classical-norm-route-candidate.md SHAa7ebeb92c03d59af08332560e178c68629e33c501a120e997e5cf2fbc49666be；verification/theory-round001/classical-norm-route-review.md SHAafb8993b77364c6c3865ecb7748473f5ef4ba817d757c063a4e74e4c995bafd2；主控全文与反射阶数/分段常数复核，mathematical-proof/reviewed | 仅对稳定实因果strictproper G=F−κ采用Boyd 5.33端点，补直通与反因果/重根推导不归称原书；不稳定Q仅记轴上sup；较松常数不替C020锐化常数，不称新工具或首创 |
 
 2026-10-17 12:48 +08:00：E-EXP-T002-002主控核源/输出全部散列、脚本AST、八行原值与Fraction精确界常数，通过；PNG已实际查看。K_C1是理论上确界而非测得峰值，图不证明定理。上述C023/C024原件保留candidate标签作为历史，当前审核裁决以此账本及独审为准；尚未写入v003。固定输入时长是否允许全类O(1+T)上界已交验证者单独可行性分析，未提前登记为已证。
+
+2026-10-17 12:58 +08:00：E-EXP-T002-003常数/四时长表经主控另实现Machin π及100位Decimal算术复核，源/输出SHA匹配、实际退出0，最大相对差7.87e-90；接纳reviewed numerical-test，仅保守充分条件普通近似。T0半时长约50.57天、最小原δ完整支撑约329.77年，不能当实际/必要时长。更紧欠阻尼核矩单项候选正在核。fixed-duration-upper-feasibility.md尚待不同作者独审；v004整合尚待已派审核，均未提前升级。
+
+| C025 v1 | 固定正三层物理topcut及κ，r∈[1/2,3/2]含1，全部非零实L1且支撑[0,2T]的完整峰比K_T≤Aκ[κ+Mv(2T+Ctail)]；固定tref后为Cref(1+T/tref) | supported | verification/theory-session002/fixed-duration-upper-feasibility.md SHAd0b90a16a80a74d6db6d105e68df48bcbd75fe37489b9ab7d643275cdd44d8ac；ideation/theory-session002/fixed-duration-upper-independent-review.md SHAb13c0254d92429f789be2c788d5f0513d5a4b6d642f7d9fb1ad703343ca46030；异作者独审与主控全文/关键接口复核，mathematical-proof/reviewed | Mv为分子比普通核紧域L∞，Ctail来自固定模型可观测Gramian/指数尾；非跨模型κ-only时长常数，不截尾，不要求输入Lip，未数值认证Gramian/最优系数；联合双侧阶另作candidate |
+
+2026-10-17 12:58 +08:00：主控通读v004实际全部增量与verification/theory-session002/theory-v004-integration-review.md SHA7218f526c894c3967f747cbe7b813b64d1da5a3e24bb16160013bd7c7ac8ac90，0必修；接纳冻结theory-draft-v004.md（SHAdb9fb2f8558e6cf9bda621f6d54c1d20476dd74ce47eda71fbeae5650a4347ee）中C022/C023整合，未夹C025。C025另获主控接纳；与C023/C020可否组成固定模型联合匹配阶数已派有限候选任务，未提前登记为已证。
+
+| C026 v1 | 固定三层模型/κ，T≥T0及闭临界邻域，两个同支撑输入类的最优完整峰比被固定模型常数×min{τ,δ^-1}双侧夹住，τ=T/Tenv，含δ0 | supported | ideation/theory-session002/joint-duration-detuning-order-candidate.md SHA5b6d54f0db2b0191a1deff9b0af1dc2c072738a8c446e4c11a5e989cb1ac964e；verification/theory-session002/joint-duration-detuning-order-review.md SHA fad4f81ccd783e62c597a9be14053ac3ff80811077e9014a6b309157de6c17be；不同于组合作者的独审及主控全文/常数吸收复核，mathematical-proof/reviewed | 不在v004；核T≥T0吸常数、原L1类桥接及δ0不调用除零式，不把两K相等或模型常数变κ-only |
+
+| C027 v1 | 全共同阻尼域0<ζ−≤ζ≤ζ+<1时，一阶绝对矩另有Malt=Σ|ρ|/[ζ−²ω³sqrt(1−ζ+²)]，与原跨阻尼界取min；固定unit证书约改善8.204倍 | supported | experiments/theory-session002/underdamped-moment-tightening-candidate.md SHA5ef6c87252efbbbf7f15a9e4a6f5e922a5d11a48bcc1fd8e97fd03468c8a7a35；verification/theory-session002/underdamped-moment-tightening-review.md SHA6dc8e2238e5978992493b77167fc7591d99358bb9376e885484081fe002b3dfc；异作者解析/80位独立算术与主控全文/式核，analytic-derivation reviewed及E-EXP-T002-004 numerical-test reviewed | 不能用于ζ+≥1，不是所有欠阻尼域都更紧；只改善充分证书，原E3不覆，普通近似非定向区间/实际峰/最短时长/最优 |
+
+2026-10-17T13:02:52.344767+08:00：主控全文读矩改进独审并接纳C027；独立审阅覆盖候选代码/值和来源身份。文献有限时长对照07f2a78f已读，确认已读Teixeira全尾/Gramian及Boyd/Sultan经典工具与本题范数/输入域差别；这仅是有限原文定位，不宣布无等价覆盖或首次。
+
+2026-10-17T13:05:30.740751+08:00：主控全文读C026组合及独审，接纳固定模型/共同域/T≥T0的min型双侧阶。审核者是C025原作者，本次不替代C025已有另一作者独审；三源各自reviewed证据链保留。C028临界ζ*全类值域新候选仍待独审，未入本轮正式主张。
