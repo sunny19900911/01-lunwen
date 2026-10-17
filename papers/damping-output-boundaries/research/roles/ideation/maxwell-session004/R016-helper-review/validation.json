@@ -1,0 +1,55 @@
+{
+  "round": "R016",
+  "frozen_at": "2026-10-18T01:15:32.297107+08:00",
+  "elapsed_seconds": 360.297107,
+  "within_8_minute_limit": true,
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v001.py",
+      "sha256_unchanged": true,
+      "sha256": "539c60958ececa73b72c160b60a1da7f4925bbdae268f79acef07101cde64a4b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward-float-v001-selfcheck.json",
+      "sha256_unchanged": true,
+      "sha256": "58ae0eaa7c02f3d51b3ffcc4b881c1c44cd30b1598ad21429efe8648090983da"
+    }
+  ],
+  "original_selfcheck": 443,
+  "own_additional_success_counts": {
+    "basic_exact_checks": 713,
+    "safe_rejections": 46,
+    "root_exact_checks": 18,
+    "rational_conversion_checks": 7,
+    "nonlinear_exact_checks": 36,
+    "sine_known_value_checks": 24
+  },
+  "counterexample_reproduced": true,
+  "challenge_script_final_exit_code": 0,
+  "json_parse": true,
+  "own_markdown_utf8_lf_no_trailing_space": true,
+  "relative_links": [
+    {
+      "source": "report.md",
+      "target": "input-freeze.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "challenge_checks.py",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "challenge-results.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "cross-checks.md",
+      "exists": true
+    }
+  ],
+  "internal_author_side_checks": 2,
+  "scope": "Helper only; no ODE, real arrays, root-source/shared/Git edits; newer version not reviewed."
+}

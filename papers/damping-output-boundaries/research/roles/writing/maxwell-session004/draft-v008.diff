@@ -1,0 +1,28 @@
+--- papers/damping-output-boundaries/manuscript/maxwell-engineering-draft-v007.md
++++ papers/damping-output-boundaries/manuscript/maxwell-engineering-draft-v008.md
+@@ -1,6 +1,6 @@
+ # Maxwell能量评价与局部响应：工程记录核查及合成反例
+ 
+-工作标题；maxwell-engineering-draft-v007，2026年10月18日。阶段稿，非投稿定稿。
++工作标题；maxwell-engineering-draft-v008，2026年10月18日。阶段稿，非投稿定稿。R013允许类措辞已定点修文，待独立复核；v007原样保留。
+ 
+ ## 摘要
+ 
+@@ -272,7 +272,7 @@
+ 已有缓存中Base FX/FY与Story1 Bottom VX/VY在六工况的12条时程、32,592个分量样本上同号逐点相等，是重复输出，不能计作两份独立响应验证。66对相邻Bottom截面有4处上截面绝对记录峰更大，附录F只列共同网格上的同刻代数差N=A−B；各自峰值之差不是同刻力，N未分解为惯性、背景或装置贡献，不能据此写成阻尼导致放大。
+ 
+ 
+-前述器件/楼层记录只是本建筑的单状态观察；§5.5给的是独立合成类中的解析信息边界，不能把两者拼成真实布局的因果对照。[单器件理论附录v002](maxwell-theory-appendix-v002.md)保留三类端点和连续速度条件，[模态接口v001](maxwell-modal-interface-v001.md)保留完整能量、局部有符号投影及认证尾项的最小合同；此处只链接，不复制其证明。实际目标位置、端口/字段、共同输入、初态、背景与参数尚须认证，再进行公平成对模型/布局检验，才能回答本建筑目标响应是否改善。
++前述器件/楼层记录只是本建筑的单状态观察；§5.5给的是独立合成类中的解析信息边界，不能把两者拼成真实布局的因果对照。[单器件理论附录v002](maxwell-theory-appendix-v002.md)保留三类端点和有界可测总变形速度条件，[模态接口v001](maxwell-modal-interface-v001.md)保留完整能量、局部有符号投影及认证尾项的最小合同；此处只链接，不复制其证明。实际目标位置、端口/字段、共同输入、初态、背景与参数尚须认证，再进行公平成对模型/布局检验，才能回答本建筑目标响应是否改善。
+ 
+ ## 7 阶段结论
+ 
+@@ -289,7 +289,7 @@
+ 
+ ## 附录A 证据与复现范围
+ 
+-原始大表及全时程缓存保留本地。本版只整合已审输出并作转录、链接、单位与冻结身份检查，未重读原Excel、未运行ETABS。原始文件身份、源行、审核报告、识别协议、全部网格结果、图件散列和逐段映射见[证据映射](../research/roles/writing/maxwell-session004/draft-v007-evidence-map.json)；协作与验收过程保留于研究记录。
++原始大表及全时程缓存保留本地。本版只整合已审输出并作转录、链接、单位与冻结身份检查，未重读原Excel、未运行ETABS。原始文件身份、源行、审核报告、识别协议、全部网格结果、图件散列和逐段映射见[证据映射](../research/roles/writing/maxwell-session004/draft-v008-evidence-map.json)；协作与验收过程保留于研究记录。
+ 
+ 
+ 图3的[72行绘图小表](../../../research/sessions/20261017-2109/figures/plot_floor_profiles_72rows.csv)保留原kN/mm与每工况/指标分母；[矢量图](../../../research/sessions/20261017-2109/figures/03_floor_record_peak_profiles.svg)与PNG来自同一已审绘图包。

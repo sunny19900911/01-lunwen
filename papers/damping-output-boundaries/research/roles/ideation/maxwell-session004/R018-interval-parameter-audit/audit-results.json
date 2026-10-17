@@ -1,0 +1,48 @@
+{
+  "scope": "Scalar exact-rational and post-NumPy finite runtime probes; no NPZ access, ODE or all-segment budget replay.",
+  "r_polynomial_signs": [
+    "-70748925534256247311009011/1000000000000000000000000000000000000000",
+    "511759762435393083447967/1000000000000000000000000000000000000"
+  ],
+  "r_derivative_lower": "582508687969597876642873323/100000000000000000000000000",
+  "kappa_exact_endpoint_range": [
+    "73205457186691158413212866556247311009011/10000000000000000000000000000000000000000",
+    "73205457186700566727745434606916552033/10000000000000000000000000000000000000"
+  ],
+  "c_exact_endpoint_range": [
+    "73205457186700566727745434606916552033/50454116102695117597624353930834479670",
+    "73205457186691158413212866556247311009011/50454116102686292510744657437526889909890"
+  ],
+  "parameters_and_K_C_h_enclosures": "all exact Fraction checks passed",
+  "g_and_derivative_exact_cube_checks": 20,
+  "terminal_sqrt_encloses_2_reported_Ehi": true,
+  "terminal_Ehi_itself_audited": false,
+  "explicit_main_root_calls": [
+    "helper.root(I.rational(Fraction(501, 500)), 2)",
+    "helper.root(TWO * I.point(E.hi), 2)"
+  ],
+  "post_numpy_runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "numpy": "2.3.5",
+    "float_info": {
+      "radix": 2,
+      "mant_dig": 53,
+      "max_exp": 1024,
+      "rounds": 1
+    },
+    "finite_probes": {
+      "minimum_subnormal_exact": true,
+      "subnormal_add": true,
+      "subnormal_input_multiply": true,
+      "subnormal_input_divide": true,
+      "normal_product_to_subnormal": true,
+      "nearest_even_tie_down": true,
+      "nearest_even_tie_up": true,
+      "negative_nearest_even": true,
+      "nextafter_roundtrip": true
+    },
+    "limit": "Snapshot in this audit process. Does not prove permanent absence of FTZ/DAZ or historic runtime rounding-mode changes."
+  },
+  "source_and_small_input_sha_unchanged": true
+}

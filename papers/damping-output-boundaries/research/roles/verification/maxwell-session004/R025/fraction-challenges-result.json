@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "elapsed_seconds": 0.07965299999341369,
+  "method": "Independent Fraction interval arithmetic, independent Machin/Taylor rational bounds and verified rational root bisections; no outward helper import and no ODE.",
+  "selected_residual_challenges": [
+    {
+      "residual": "r_u1",
+      "segment": 486,
+      "independent_exact_rational_interval_contained": true
+    },
+    {
+      "residual": "r_u2",
+      "segment": 14863,
+      "independent_exact_rational_interval_contained": true
+    },
+    {
+      "residual": "r_v1",
+      "segment": 1710,
+      "independent_exact_rational_interval_contained": true
+    },
+    {
+      "residual": "r_v2",
+      "segment": 9350,
+      "independent_exact_rational_interval_contained": true
+    },
+    {
+      "residual": "r_F",
+      "segment": 6203,
+      "independent_exact_rational_interval_contained": true
+    }
+  ],
+  "terminal_component_enclosures_passed": 4,
+  "exact_final_direction_checks_passed": true,
+  "isolated_full_98304_segment_results_equal": true,
+  "six_block_csv_byte_identical": true,
+  "NPZ_only_endpoints_decoded": true,
+  "exact_initial_states_zero": true,
+  "final_bounds": {
+    "status": "candidate_only_pending_math_helper_implementation_reviews",
+    "I_prefix_T_upper_candidate": 0.7561184867635775,
+    "I_total_6T_upper_candidate": 1.0158817208017639,
+    "exact_stored_maxnode_abs_uh1": 0.3081526999791733,
+    "exact_stored_abs_uh2_N": 9.565549662913114,
+    "terminal_E_interval_candidate": [
+      0.0033367562147394885,
+      0.0033367562147395605
+    ],
+    "tail_sqrt_interval_candidate": [
+      0.08169156890083039,
+      0.08169156890083042
+    ],
+    "early_upper_candidate": 1.3240344207809374,
+    "tail_upper_candidate": 1.0975732897025945,
+    "fixed_T_lower_candidate": 8.809431176149534,
+    "gap_lower_candidate": 7.485396755368596,
+    "strict_gap_comparison": true,
+    "not_proof_until_three_reviews": true
+  },
+  "scope": "Selected exact challenges plus independent review; finite challenges are not a substitute for the general interval/helper proof."
+}

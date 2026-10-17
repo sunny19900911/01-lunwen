@@ -1,0 +1,36 @@
+{
+  "round": "R018",
+  "frozen_at": "2026-10-18T01:29:27.663081+08:00",
+  "artifacts": [
+    {
+      "name": "audit-results.json",
+      "bytes": 2055,
+      "sha256": "bdaa32b7329d8f8c11a1b60b3a67c45af4ccd762b88ef254df0fdc9b8eaaa3d0"
+    },
+    {
+      "name": "audit_checks.py",
+      "bytes": 4815,
+      "sha256": "97b22b9bbf168337655abfc9590b1167194708b68fe487bd0b14bf17a5abee7e"
+    },
+    {
+      "name": "input-freeze.json",
+      "bytes": 2320,
+      "sha256": "e96a2612c8feb8b776f975b2909606ebda05dfb67b2ffa0f54f5a8d1b07e35d6"
+    },
+    {
+      "name": "proof-scope.json",
+      "bytes": 1131,
+      "sha256": "cc9684281bdb0b2369413cf3e807917e31cc7808852b7485fe2781242233192b"
+    },
+    {
+      "name": "report.md",
+      "bytes": 6636,
+      "sha256": "b476bf37a7a3ff16463ef65f388132521d5fb4e5a93fdf7e82f3a158a7ce1dc8"
+    },
+    {
+      "name": "validation.json",
+      "bytes": 883,
+      "sha256": "5f617dcbd16b218943b7f14c7b7b0a4a8af09a82f75a581c59ac668afba90907"
+    }
+  ]
+}

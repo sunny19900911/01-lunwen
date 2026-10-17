@@ -1,0 +1,63 @@
+{
+  "evidence_id": "M-EXP-R014",
+  "status": "floating_prototype_not_certificate",
+  "completed_utc": "2026-10-17T17:06:24.477274+00:00",
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R014-midpoint-residual-prototype\\midpoint_residual_prototype.py"
+  ],
+  "exit_code": 0,
+  "delivery_QA": "Source/output/cacheSHA, scalarbudgetsum/cacheconsistency, shapes, smallCSV, UTF8 andcompilation checked. No rerun, intervalupperbounds or numericalcertificate.",
+  "files": [
+    {
+      "name": "midpoint_residual_prototype.py",
+      "bytes": 14383,
+      "sha256": "4cf6541b4588722b4e80feb48dfcfe93e613e9026180b661a6039cf1a6d99129",
+      "local_only_not_stage_or_upload": false
+    },
+    {
+      "name": "protocol.json",
+      "bytes": 2948,
+      "sha256": "68dd9a7f9d49a4a1d9285ca0918f1d75193bdc72a0b6b22db13489c6a8a5e927",
+      "local_only_not_stage_or_upload": false
+    },
+    {
+      "name": "report.md",
+      "bytes": 3101,
+      "sha256": "d570190cf07066ee49cd7a854080995d78a4e7ba9581c90edcaca6baf3e13771",
+      "local_only_not_stage_or_upload": false
+    },
+    {
+      "name": "representative_nonzero_residuals.csv",
+      "bytes": 4097,
+      "sha256": "eb34c29e7b8e1ff7a2a5795f0d085c52471bb232842dacaece1f59552521c492",
+      "local_only_not_stage_or_upload": false
+    },
+    {
+      "name": "run_record_r014.json",
+      "bytes": 1179,
+      "sha256": "c8448ae7bb4dae2a7b5de73427b34513318e6426f3d5fe86721a2224478e2ef5",
+      "local_only_not_stage_or_upload": false
+    },
+    {
+      "name": "six_block_budget_diagnostics.csv",
+      "bytes": 2470,
+      "sha256": "25f5aa32dd36a3c45332408de87a611197e295d9dab3cdc60e7c52bee490bd3d",
+      "local_only_not_stage_or_upload": false
+    },
+    {
+      "name": "summary_r014.json",
+      "bytes": 6845,
+      "sha256": "de479d933bdb2092554d56b947fc2a77ff80817de5e578e99449d341e940eb25",
+      "local_only_not_stage_or_upload": false
+    },
+    {
+      "name": "local-cache\\float_midpoint_endpoints_and_diagnostics.npz",
+      "bytes": 8723666,
+      "sha256": "7f0d5c179442897646d1a3d5073c7f1171ef9d6c9db0ad96d0e12aa9792ee903",
+      "local_only_not_stage_or_upload": true
+    }
+  ]
+}

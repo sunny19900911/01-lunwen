@@ -1,0 +1,194 @@
+{
+  "evidence_id": "M-EXP-R015",
+  "status": "candidate_outward_residual_enclosure_pending_three_reviews",
+  "finished_utc": "2026-10-17T17:27:45.211049+00:00",
+  "elapsed_seconds": 10.888333099996089,
+  "protocol_sha256": "2501ac448057cd453e562ca86af2397cfa5397a1b9bda8f9d1009a4b43ceefbd",
+  "code_sha256": "e46c63bc85ed2a00828a5877b0ce3f7131c3e8b386368cdcc6b645a87bdd7942",
+  "source_refs": {
+    "helper": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v002.py",
+      "bytes": 10360,
+      "sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd"
+    },
+    "nonlinear_root": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+      "bytes": 2341,
+      "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+    },
+    "proposal": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\nonlinear03-residual-certificate-proposal-v001.md",
+      "bytes": 4953,
+      "sha256": "c3036ff3bb65116c318374d1c0f06f54577e1b1bcaff08e243051056cc65a6b0"
+    },
+    "endpoint_cache": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R014-midpoint-residual-prototype\\local-cache\\float_midpoint_endpoints_and_diagnostics.npz",
+      "bytes": 8723666,
+      "sha256": "7f0d5c179442897646d1a3d5073c7f1171ef9d6c9db0ad96d0e12aa9792ee903"
+    },
+    "helper_authored_regression_record": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward-float-v002-selfcheck.json",
+      "bytes": 1227,
+      "sha256": "d2e23d683c9cab4c0e8e0d2b943965d7ca8db75fb406a81054fa9244d9d7903e"
+    }
+  },
+  "candidate_bounds": {
+    "status": "candidate_only_pending_math_helper_implementation_reviews",
+    "I_prefix_T_upper_candidate": 0.7561184867635775,
+    "I_total_6T_upper_candidate": 1.0158817208017639,
+    "exact_stored_maxnode_abs_uh1": 0.3081526999791733,
+    "exact_stored_abs_uh2_N": 9.565549662913114,
+    "terminal_E_interval_candidate": [
+      0.0033367562147394885,
+      0.0033367562147395605
+    ],
+    "tail_sqrt_interval_candidate": [
+      0.08169156890083039,
+      0.08169156890083042
+    ],
+    "early_upper_candidate": 1.3240344207809374,
+    "tail_upper_candidate": 1.0975732897025945,
+    "fixed_T_lower_candidate": 8.809431176149534,
+    "gap_lower_candidate": 7.485396755368596,
+    "strict_gap_comparison": true,
+    "not_proof_until_three_reviews": true
+  },
+  "parameter_enclosures": {
+    "N": 16384,
+    "n_segments": 98304,
+    "h_interval": [
+      0.0038349519697141025,
+      0.003834951969714104
+    ],
+    "PI_interval": [
+      3.141592653589793,
+      3.1415926535897936
+    ],
+    "r_rational_lower": "17151372034229/10000000000000",
+    "r_rational_upper": "1715137203423/1000000000000",
+    "cubic_lower_exact": "-70748925534256247311009011/1000000000000000000000000000000000000000",
+    "cubic_upper_exact": "511759762435393083447967/1000000000000000000000000000000000000",
+    "cubic_derivative_lower_exact": "582508687969597876642873323/100000000000000000000000000",
+    "r_interval": [
+      1.7151372034229,
+      1.7151372034230001
+    ],
+    "kappa_interval": [
+      7.32054571866902,
+      7.320545718670152
+    ],
+    "c_interval": [
+      1.4509313182236028,
+      1.4509313182240837
+    ],
+    "Kdiag_interval": [
+      1.001,
+      1.0010000000000001
+    ],
+    "Koff_interval": [
+      -0.001,
+      -0.0009999999999999998
+    ],
+    "sqrt501over500_interval": [
+      1.0009995004993757,
+      1.000999500499376
+    ],
+    "Cdiag_interval": [
+      0.10004997502496873,
+      0.10004997502496885
+    ],
+    "Coff_interval": [
+      -4.9975024968795825e-05,
+      -4.997502496878468e-05
+    ]
+  },
+  "residual_enclosure_diagnostics": {
+    "r_u1": {
+      "abs_upper": 7.410738689372921e-15,
+      "segment": 486,
+      "enclosure": [
+        -7.410738689372921e-15,
+        -7.022160630754114e-15
+      ]
+    },
+    "r_u2": {
+      "abs_upper": 2.380318164796336e-13,
+      "segment": 14863,
+      "enclosure": [
+        2.2559731860383178e-13,
+        2.380318164796336e-13
+      ]
+    },
+    "r_v1": {
+      "abs_upper": 5.823119764158947e-14,
+      "segment": 1710,
+      "enclosure": [
+        5.717648576819555e-14,
+        5.823119764158947e-14
+      ]
+    },
+    "r_v2": {
+      "abs_upper": 2.2777335573209716e-12,
+      "segment": 9350,
+      "enclosure": [
+        -2.2777335573209716e-12,
+        -2.2640778141180813e-12
+      ]
+    },
+    "r_F": {
+      "abs_upper": 5.9549309927575686e-12,
+      "segment": 6203,
+      "enclosure": [
+        -5.9549309927575686e-12,
+        -5.7703009037624034e-12
+      ]
+    }
+  },
+  "maximum_Lg_upper": 0.7292411059617248,
+  "maximum_segment_budget_upper": 6.973646474305669e-05,
+  "terminal_energy_component_intervals": {
+    "kinetic": [
+      1.184797512777618e-09,
+      1.1847975127776201e-09
+    ],
+    "physical_elastic": [
+      0.002935420528188111,
+      0.0029354205281881185
+    ],
+    "device_spring": [
+      0.0004013345017538657,
+      0.0004013345017539284
+    ],
+    "total": [
+      0.0033367562147394885,
+      0.0033367562147395605
+    ]
+  },
+  "contracts": {
+    "binary64": "helper round-to-nearest IEEEbinary64 assertion; finite basic operations widened bynextafter; external helperreview pending",
+    "trajectory": "np.load allow_pickleFalse, float64 u/v/F promoted to exactbinaryfloat points; cachet ignored, no oldFm/residual used",
+    "model": "rationalK; w exactsqrt enclosure; exactcubic signs/derivative plusrinterval; kappa/c interval expressions include paramdependence",
+    "pi_grid_sin": "helperMachin alternating rationalPI bounds; h=PI*20/N; exactintegerphase sin_pi_ratio for n<N, exactzero thereafter",
+    "g_and_Lg": "helper signed10/3 power via exactFraction-certified cube-root endpoints; endpointmaxF exact; helperg_derivative_upper",
+    "midpoint": "true arithmetic midpoint of exact storedendpoint floats enclosed inI; no relianceon internal root orroundedmethodmidpoint",
+    "residual_budget": "Every ru/rv/rF and h/h4norm term inI; abs spanszero handledwithoutdiscard; never preset residuals to0",
+    "sum": "total_hi=up(previous_hi+segment_budget.hi) everysegment; same prefixatN, no floatmath.fsum substitute",
+    "terminal": "trueK/kappa interval quadraticenergy, candidateEupper .hi; root(2Eupper,2) exactendpoint verification, candidate comparisons up/down",
+    "review_gate": "MathR024, helperR016 and independent implementation audit allrequired; thisrun doesnot declare theorem/fulltailproof."
+  },
+  "checks": {
+    "only_endpoints_decoded_no_cached_t_or_old_diagnostics_used": true,
+    "all_initial_stored_states_exact_zero": true,
+    "exact_Fraction_cubic_signs_and_monotonicity_passed": true,
+    "kappa_enclosed_strictly_between7and8": true,
+    "all98304_residual_segments_outward_evaluated": true,
+    "global_sum_every_step_upward": true,
+    "all_source_and_own_protocol_SHA_unchanged": true,
+    "runtime_below600seconds": true
+  },
+  "no_new_ODE_arrays_or_cache_files": true,
+  "outputs": {
+    "six_block_outward_budget.csv": "ba5a22a8b5f11fe059266931d1b3bee67237d9b14542838f767838acfeff7d92",
+    "report.md": "db7843b0cd1bcfbafd8b77f50a8bd39e7f97e4368d26c0bfbb09fc73e8a7fa39"
+  }
+}

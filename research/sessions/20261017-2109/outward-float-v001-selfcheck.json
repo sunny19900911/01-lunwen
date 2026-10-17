@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-18T01:07:36.983310+08:00",
+  "script_sha256": "539c60958ececa73b72c160b60a1da7f4925bbdae268f79acef07101cde64a4b",
+  "actual_command": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "research\\sessions\\20261017-2109\\outward_float_v001.py"
+  ],
+  "exit_code": 0,
+  "result": {
+    "passed": true,
+    "exact_rational_regression_checks": 443,
+    "pi_float_interval": [
+      3.141592653589793,
+      3.1415926535897936
+    ],
+    "basic_operation_contract": "round-to-nearest IEEE binary64; finite arithmetic, nextafter widening; unsupported/nonfinite operations fail closed",
+    "scope": "Helper regression only; endpoint powers and Taylor/alternating bounds explicit. Not an ODE residual implementation or a continuous/fulltail peak certificate."
+  },
+  "status": "helper source frozen;independent audit pending;not ODEcertificate"
+}

@@ -1,0 +1,70 @@
+{
+  "task": "R013 engineering v007 finite integration/diff/source review",
+  "started_at": "2026-10-18T01:11:19+08:00",
+  "frozen_at": "2026-10-18T01:12:33.766389+08:00",
+  "limit_minutes": 6,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v006.md",
+      "bytes": 42202,
+      "sha256": "c04370712b9adc73064872e1d2cc79a5c6a7783e191d5ca8dc4e754d80ae604b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v007.md",
+      "bytes": 47299,
+      "sha256": "7de5012ed420459cbf0c9d7de8f995552e0ec0fba87928ba5df30070e3a7d7a1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v007.json",
+      "bytes": 2585,
+      "sha256": "8a6c66baff1d51a49a923fc1b6bb425fb496209c0ccc2f38fc8ebf663d592f3e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v007-evidence-map.json",
+      "bytes": 59723,
+      "sha256": "d5bfabcddc829e642fc8a937864a753607ebd3f98a6e791aa869d13fce2d20a5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\布局交换反例全尾解析独审-R021.md",
+      "bytes": 8146,
+      "sha256": "2e76d2637a72ebe9b09e02bbefce9ee282c5fdc72776c33b827c98d9f2cadec5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R013-layout-symmetry-proof\\report.md",
+      "bytes": 8769,
+      "sha256": "7c36b9b06c9602fb2683069d7ab607edc4959bf5005e027cd03701f2fadff91f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\four_actual_runs_r012.csv",
+      "bytes": 2900,
+      "sha256": "21994dfe90ceeaf62601c2755a104353d6c720faff3ada866563e2358b209514"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\summary_r012.json",
+      "bytes": 11487,
+      "sha256": "987a974234737ef69e49f780eb071a33f0f88e8813c0e8e8c710a5eb15cd2d3a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R009-layout-numerical-root-review.json",
+      "bytes": 6155,
+      "sha256": "2a88a14f6c4748c509ab26dc03094e9f42420b253be2a1fff687bad8647cfbf9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-theory-appendix-v002.md",
+      "bytes": 16090,
+      "sha256": "5d52e3917c7db6e8794f6c0afee1904853ff9710114957c255b49830b1231e3d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-modal-interface-v001.md",
+      "bytes": 13220,
+      "sha256": "ae16c74eb8f3786b66f1787034ca67b64d86683b8cddde94a26f8a0761a91cc8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R011\\report.md",
+      "bytes": 8759,
+      "sha256": "e0e5c74329e5cf98b7d34710d30647a84b547d0166afa8548b001c004225357f"
+    }
+  ],
+  "rules": "Preserve old16 tables/9 formulas/sections2-5.4/appendices, verify new alpha1 source and four sampled peaks vs R012/rootLTI, do not confuse fulltail proof and numerics; bounded diff only, no ODE/real tables/search/author/shared/Git edits."
+}

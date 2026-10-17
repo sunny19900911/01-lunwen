@@ -1,0 +1,3 @@
+实际加载outward_float_v002.py，源码SHA为d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd；绝对加载路径、SHA及10次非法degree拒绝测试记于run_record。残差算术链显式平方根用builtin int 2，helper内部立方根用builtin int 3；2.0/3.0/Fraction2/string2/bool仅用于拒绝入口回归，不进入幂/根计算。根提供的453项有限回归记录已作为来源冻结，不冒称独立修复审。
+
+v001 public API反例是degree为float时Fraction指数运算可能退化、错误收缩根区间；旧版本与旧候选运行完整保留。v002候选标量与旧内部int路径数值相同，不等于恢复v001无约束合同。数学R024、helper独立修复审及本实现完整独审仍须分别完成，当前strictgap比较只是待审候选。

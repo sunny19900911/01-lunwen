@@ -1,0 +1,24 @@
+{
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R014-midpoint-residual-prototype\\midpoint_residual_prototype.py"
+  ],
+  "exit_code": 0,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "elapsed_seconds": 1.08126470001298,
+  "finished_utc": "2026-10-17T17:05:21.513667+00:00",
+  "code_sha256": "4cf6541b4588722b4e80feb48dfcfe93e613e9026180b661a6039cf1a6d99129",
+  "summary_sha256": "de479d933bdb2092554d56b947fc2a77ff80817de5e578e99449d341e940eb25",
+  "checks": {
+    "one_A_midpoint_98304_steps_only": true,
+    "all_float_values_finite": true,
+    "all_monotone_roots_accepted_actual_residuals_kept": true,
+    "all_midpoint_residuals_recomputed_from_endpoints": true,
+    "all_budget_terms_retained_nonnegative": true,
+    "all_source_and_protocol_SHA_unchanged": true,
+    "runtime_below600seconds": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "source_sha256": "539c60958ececa73b72c160b60a1da7f4925bbdae268f79acef07101cde64a4b",
+  "original_selfcheck": {
+    "passed": true,
+    "exact_rational_regression_checks": 443,
+    "pi_float_interval": [
+      3.141592653589793,
+      3.1415926535897936
+    ],
+    "basic_operation_contract": "round-to-nearest IEEE binary64; finite arithmetic, nextafter widening; unsupported/nonfinite operations fail closed",
+    "scope": "Helper regression only; endpoint powers and Taylor/alternating bounds explicit. Not an ODE residual implementation or a continuous/fulltail peak certificate."
+  },
+  "counts": {
+    "basic_exact_checks": 713,
+    "safe_rejections": 46,
+    "root_exact_checks": 18,
+    "rational_conversion_checks": 7,
+    "nonlinear_exact_checks": 36,
+    "sine_known_value_checks": 24
+  },
+  "mustfix": {
+    "call": "root_endpoint(0.1, 2.0)",
+    "returned": [
+      0.31622776601683794,
+      0.31622776601683794
+    ],
+    "exact_contains": false,
+    "exact_endpoint_square": "32451855365842674315458614234849/324518553658426726783156020576256",
+    "exact_input": "3602879701896397/36028797018963968",
+    "reason": "floating degree makes Fraction ** degree a floating operation; equality branch falsely certifies point",
+    "recommended_new_version": "require type(degree) is int and degree in (2,3), or explicitly canonicalize a validated degree to int"
+  },
+  "usage_boundary": {
+    "I.point(Fraction(1,10))_contains_original_rational": false,
+    "contract": "point denotes converted binary64 point; exact rationals must use I.rational"
+  },
+  "safe_availability_limitations": {
+    "unneeded_pow_square": "ArithmeticError",
+    "reciprocal_overflow_finite_quotient": "ArithmeticError"
+  },
+  "scope": "Finite regression only; no ODE, residual accumulation, full-time peak proof or source edits."
+}

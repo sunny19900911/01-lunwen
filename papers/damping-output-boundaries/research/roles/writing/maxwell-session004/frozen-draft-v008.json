@@ -1,0 +1,40 @@
+{
+  "frozen_at": "2026-10-18T01:18:57.587186+08:00",
+  "task_started": "2026-10-18T01:17:50+08:00",
+  "task_limit_minutes": 4,
+  "status": "R013 targeted author wording correction QA passed;awaiting role3 finite diff review",
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v008.md",
+      "bytes": 47388,
+      "sha256": "809b8a630d604cfc23cfd7e93b59312bb527a48ab3ed045862da24f6b6dd2cc0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v008-evidence-map.json",
+      "bytes": 63087,
+      "sha256": "a5ce8f83af01132b846d002470b7ca6c61ce52b4b667bbb8173955d4fc47799c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v008-validation.json",
+      "bytes": 2271,
+      "sha256": "30c114a2fbe289d718a0cc6ee545e85776348e44d8020ff4b7d346d2226eab5b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v008.diff",
+      "bytes": 3435,
+      "sha256": "f17d41079bf410260da395900212a731837dc43beb5b29c5c7795a20d5b37930"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v008-session-snapshot.json",
+      "bytes": 882,
+      "sha256": "2fd382a1226ca7503dfcee8c2e574a987bfa1a23909d0f7269fe91b1a7b5dd0b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v008-report.md",
+      "bytes": 705,
+      "sha256": "5d43630d4d44d2712744749d460381fa292ae5327411b84964550f8cdb1947ad"
+    }
+  ],
+  "checks_count": 15,
+  "session_deadline": "2026-10-18T07:09:45+08:00"
+}

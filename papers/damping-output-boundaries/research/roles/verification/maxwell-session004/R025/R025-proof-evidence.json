@@ -1,0 +1,200 @@
+{
+  "review": "R025",
+  "session": "20261017-2109",
+  "started_at": "2026-10-18T01:24:59+08:00",
+  "deadline": "2026-10-18T01:36:59+08:00",
+  "recorded_at": "2026-10-18T01:34:31.539006+08:00",
+  "implementation_required_changes": 0,
+  "verdict": "Implementation conforms to admitted R024; all-segment isolated replay and independent exact-rational challenges pass. Recommend this frozen synthetic alpha=.3 all-time separation certificate only after all bound mathematical/helper/runtime contracts are jointly admitted.",
+  "original_package_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\enclose_residual_budget_v002.py",
+      "bytes": 14024,
+      "sha256": "e46c63bc85ed2a00828a5877b0ce3f7131c3e8b386368cdcc6b645a87bdd7942"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\helper-revision-scope.md",
+      "bytes": 809,
+      "sha256": "8962efbbb78ad389144a3d68af366b428cc55c46f45dbe2b47966db10857e3e1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\protocol.json",
+      "bytes": 4143,
+      "sha256": "2501ac448057cd453e562ca86af2397cfa5397a1b9bda8f9d1009a4b43ceefbd"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\report.md",
+      "bytes": 2159,
+      "sha256": "db7843b0cd1bcfbafd8b77f50a8bd39e7f97e4368d26c0bfbb09fc73e8a7fa39"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\run_record_r015.json",
+      "bytes": 1837,
+      "sha256": "a3618dacb676e0aefa6abf8e0d53a7aea4b16c90557e827288b0726e230c9fad"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\six_block_outward_budget.csv",
+      "bytes": 1544,
+      "sha256": "ba5a22a8b5f11fe059266931d1b3bee67237d9b14542838f767838acfeff7d92"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\summary_r015.json",
+      "bytes": 7833,
+      "sha256": "c988d2eee1b6fce80b3838fc954a4cc8eaa3c5c3a7b61ef052f0df29bee57398"
+    }
+  ],
+  "source_refs": {
+    "helper": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v002.py",
+      "bytes": 10360,
+      "sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd"
+    },
+    "nonlinear_root": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+      "bytes": 2341,
+      "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+    },
+    "proposal": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\nonlinear03-residual-certificate-proposal-v001.md",
+      "bytes": 4953,
+      "sha256": "c3036ff3bb65116c318374d1c0f06f54577e1b1bcaff08e243051056cc65a6b0"
+    },
+    "endpoint_cache": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R014-midpoint-residual-prototype\\local-cache\\float_midpoint_endpoints_and_diagnostics.npz",
+      "bytes": 8723666,
+      "sha256": "7f0d5c179442897646d1a3d5073c7f1171ef9d6c9db0ad96d0e12aa9792ee903"
+    },
+    "helper_authored_regression_record": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward-float-v002-selfcheck.json",
+      "bytes": 1227,
+      "sha256": "d2e23d683c9cab4c0e8e0d2b943965d7ca8db75fb406a81054fa9244d9d7903e"
+    }
+  },
+  "R024_validation": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R024-review-validation.json",
+    "bytes": 5319,
+    "sha256": "25aa3eea4951e690d67208cbfac6c4fb781ffa93787485e6b4cca2e650cdf7ba"
+  },
+  "bound_code_sha256": "e46c63bc85ed2a00828a5877b0ce3f7131c3e8b386368cdcc6b645a87bdd7942",
+  "bound_summary_sha256": "c988d2eee1b6fce80b3838fc954a4cc8eaa3c5c3a7b61ef052f0df29bee57398",
+  "bound_helper_sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd",
+  "implementation_checks": {
+    "only_authorized_synthetic_endpoints_decoded": true,
+    "producer_column_order_t_u1_u2_v1_v2_F_confirmed": true,
+    "float64_98305_by_6_finite_states_and_initial_exact_zero": true,
+    "continuous_shared_endpoint_PL_no_jump_and_R0_zero": true,
+    "real_grid_h_20pi_over_N_not_cache_time": true,
+    "actual_endpoint_arithmetic_midpoints_and_differences": true,
+    "full_ru_rv_rF_not_reused_working_root_or_old_diagnostics": true,
+    "correct_B_e1_force_and_velocity_components": true,
+    "endpoint_force_max_covers_Lg_segment_including_zero_crossing": true,
+    "all_h_and_h_over_four_terms_and_input_variation_included": true,
+    "cutoff_n_less_than_N_phase_20n_plus_10_exact_integer_ratio": true,
+    "K_C_kappa_c_enclosures_match_frozen_parameters": true,
+    "nonnegative_root_and_builtin_int_degrees_call_contract": true,
+    "every_segment_total_up_and_prefix_after_exactly_N_segments": true,
+    "full_terminal_K_energy_and_F_squared_over_2kappa": true,
+    "sqrt_of_two_E_upper_root_contract": true,
+    "early_tail_up_fixed_T_and_gap_down": true,
+    "SK_at_most_one_conservative": true,
+    "positive_fixed_lower_no_need_explicit_zero_clamp_this_case": true,
+    "no_literal_node_peak_used_as_true_continuous_peak": true,
+    "B_fixed_point_uses_admitted_exact_swap": true,
+    "source_cache_helper_byte_hashes_unchanged": true
+  },
+  "isolated_replay": {
+    "directory": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R025\\isolated-run",
+    "code_copy_byte_identical": true,
+    "protocol_copy_byte_identical": true,
+    "exit_code": 0,
+    "n_segments": 98304,
+    "candidate_parameter_residual_and_energy_dicts_bit_equal": true,
+    "six_block_CSV_byte_equal": true,
+    "no_original_outputs_overwritten": true,
+    "no_ODE_rerun": true,
+    "run_record": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R025\\audit-launch-record.json",
+      "bytes": 1335,
+      "sha256": "b984a10f37be49e98e362514e430915d925b912b1e06d9a36a32385cc9d69a05"
+    }
+  },
+  "independent_fraction_challenges": {
+    "script": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R025\\fraction_challenges.py",
+      "bytes": 6448,
+      "sha256": "3b7e413048e0b30ff452383be486814898c7ac234bed2ae81a50c776bef6238c"
+    },
+    "result": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R025\\fraction-challenges-result.json",
+      "bytes": 2074,
+      "sha256": "a84187366801e026a316eb00a6da2ad8d05bb16e047e8f9934fd51dc583672a7"
+    },
+    "helper_imported": false,
+    "independent_Machin_Taylor_rational_bounds": true,
+    "independent_root_bisection_verified_exactly": true,
+    "five_residual_extremum_segments_contained": true,
+    "four_terminal_energy_components_contained": true,
+    "final_exact_rounding_directions_and_positive_gap_verified": true,
+    "finite_challenges_not_substitute_for_helper_general_proof": true
+  },
+  "accepted_numeric_bounds": {
+    "status": "candidate_only_pending_math_helper_implementation_reviews",
+    "I_prefix_T_upper_candidate": 0.7561184867635775,
+    "I_total_6T_upper_candidate": 1.0158817208017639,
+    "exact_stored_maxnode_abs_uh1": 0.3081526999791733,
+    "exact_stored_abs_uh2_N": 9.565549662913114,
+    "terminal_E_interval_candidate": [
+      0.0033367562147394885,
+      0.0033367562147395605
+    ],
+    "tail_sqrt_interval_candidate": [
+      0.08169156890083039,
+      0.08169156890083042
+    ],
+    "early_upper_candidate": 1.3240344207809374,
+    "tail_upper_candidate": 1.0975732897025945,
+    "fixed_T_lower_candidate": 8.809431176149534,
+    "gap_lower_candidate": 7.485396755368596,
+    "strict_gap_comparison": true,
+    "not_proof_until_three_reviews": true
+  },
+  "read_only_collaborators": [
+    {
+      "agent": "kernel_sharp_audit",
+      "focus": "all R024 segment formulas and cumulative/prefix implementation",
+      "required_changes": 0
+    },
+    {
+      "agent": "r006_sharp_challenge",
+      "focus": "authorized endpoint decode, exact Fraction terminal components and final rounding inequalities",
+      "required_changes": 0
+    },
+    {
+      "agent": "audit_double_mode",
+      "focus": "parameter/grid/helper call domain and h/4 arithmetic mapping",
+      "required_changes": 0
+    }
+  ],
+  "peer_parameter_phase_call_review_sha_as_received": "b476bf37a7a3ff16463ef65f388132521d5fb4e5a93fdf7e82f3a158a7ce1dc8",
+  "foundational_assumptions": [
+    "Finite basic arithmetic is IEEE binary64 round-to-nearest with gradual underflow and correct nextafter.",
+    "Fraction exact arithmetic and Python/NumPy float64 decoding contracts hold.",
+    "Bound v002 helper root/sine/signed-power/derivative contracts and actual parameter enclosures are separately admitted.",
+    "R024 error theorem and R023 exact nonlinear swap/passive tail are admitted for the same frozen model."
+  ],
+  "runtime_evidence_limits": "sys.float_info and finite same-version probes do not retroactively prove historical whole-run rounding mode, rule out all mode changes or FTZ, or constitute formal machine verification. No unconditional claim beyond these explicit contracts.",
+  "v001_unconstrained_degree_API_endorsed": false,
+  "unconditional_formal_certification_issued": false,
+  "real_engineering_data_read": false,
+  "old_diagnostic_arrays_decoded": false,
+  "new_time_array_or_cache_written": false,
+  "ODE_rerun": false,
+  "external_search": false,
+  "source_cache_helper_old_shared_manuscript_Git_writes": false,
+  "limits": [
+    "Only the frozen nondimensional synthetic alpha=.3 system and fixed output; no actual floor/477/500000/physical cross-exponent c or layout-optimality conclusion.",
+    "Main controller must combine all review gates before final certificate adoption.",
+    "No formal proof of the physical runtime or endorsement of v001 unconstrained public API.",
+    "Only new R025 files, including isolated raw replay outputs; stop after frozen handoff."
+  ]
+}

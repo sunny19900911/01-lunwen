@@ -1,0 +1,48 @@
+{
+  "validated_at": "2026-10-18T01:08:32.774670+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v007.md",
+    "bytes": 47299,
+    "sha256": "7de5012ed420459cbf0c9d7de8f995552e0ec0fba87928ba5df30070e3a7d7a1"
+  },
+  "passed": true,
+  "checks": {
+    "R021_root_adopted_three_hashes_match": true,
+    "root_protocol_frozen_SHA_matches": true,
+    "R012_all7_numeric_source_hashes_match_root_LTI_review": true,
+    "R021_reviewed_outputs_unchanged": true,
+    "author_R013_report_identity_matches_review": true,
+    "55_old_frozen_files9manifests_unchanged": true,
+    "old_theory_v007_unchanged": true,
+    "inherited_source_hashes_unchanged": true,
+    "all16_old_tables_original_bytes_once": true,
+    "all9_formula_blocks_original_bytes_order": true,
+    "engineering_sections2_to5point4_exact": true,
+    "all_old_appendix_content_unchanged_except_map_version": true,
+    "new_table4_sampled_peak_values_match_RK4_and_root_LTI": true,
+    "finite_vs_fulltail_evidence_separated": true,
+    "fulltail_fixed_u1_bounds_and_physical_target_preserved": true,
+    "same_subject_input_device_only_port_changes": true,
+    "F_total_delta_speed_and_listed_global_histories_identical": true,
+    "u2_swap_globalmax_equal_not_global_better": true,
+    "protocol_signed_erratum_retained": true,
+    "classic_method_publication_coverage_unresolved": true,
+    "alpha03_pending_work_not_adopted": true,
+    "two_reviewed_interface_docs_linked_not_copied": true,
+    "working_title_stage_and_no_actual_layout_claim": true,
+    "existing_local_links_resolve": true,
+    "table_columns_consistent": true,
+    "UTF8_LF_no_BOM_trailing_whitespace": true,
+    "git_diff_whitespace_check_clean": true
+  },
+  "tables_total": 17,
+  "preserved_tables": 16,
+  "new_tables": 1,
+  "preserved_formula_blocks": 9,
+  "diff": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v007.diff",
+    "bytes": 12634,
+    "sha256": "44e40bea2f480cdf89d77f6bba42f2205203e6f6b0a5beb2672cd267743fda5c"
+  },
+  "limits": "Author integration/source/transcription QA only;no fresh proof,ODErun/realmodeldata or engineeringvalidation."
+}

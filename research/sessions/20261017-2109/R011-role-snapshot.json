@@ -1,0 +1,256 @@
+{
+  "fetch_started_utc": "2026-10-17 17:49:21 UTC",
+  "fetch_ended_utc": "2026-10-17 17:49:22 UTC",
+  "snapshots": [
+    {
+      "timedOut": false,
+      "wake": {
+        "reason": "turnCompleted",
+        "turnId": "01a14ae5-125b-7622-a719-74a4a47641f5",
+        "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+        "hostId": "local"
+      },
+      "polls": [
+        {
+          "schemaVersion": 1,
+          "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:72",
+          "revision": 72,
+          "changed": false,
+          "thread": {
+            "id": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+            "hostId": "local",
+            "status": {
+              "type": "idle"
+            }
+          },
+          "latestTurn": {
+            "id": "01a14ae5-10f8-7c01-a666-1aad3b57c50e",
+            "status": "completed",
+            "error": null,
+            "startedAt": 1792257888,
+            "completedAt": 1792258190,
+            "durationMs": 302461
+          },
+          "latestAssistantMessageId": "msg_0fdbbf9b10a3adb0016ad3b08e30588195873dd628d724cf90",
+          "latestAssistantMessage": null,
+          "latestToolMarkerId": "exec-a813ee7d-4085-4674-88b3-dd3e25710faa",
+          "latestToolMarker": null
+        },
+        {
+          "schemaVersion": 1,
+          "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:57",
+          "revision": 57,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+            "hostId": "local",
+            "status": {
+              "type": "idle"
+            }
+          },
+          "latestTurn": {
+            "id": "01a14ae5-125b-7622-a719-74a4a47641f5",
+            "status": "completed",
+            "error": null,
+            "startedAt": 1792257888,
+            "completedAt": 1792258002,
+            "durationMs": 113147
+          },
+          "latestAssistantMessageId": "msg_01c40afd2e9956f9016ad3afd1861481909c0c649ab508f6aa",
+          "latestAssistantMessage": {
+            "id": "msg_01c40afd2e9956f9016ad3afd1861481909c0c649ab508f6aa",
+            "turnId": "01a14ae5-125b-7622-a719-74a4a47641f5",
+            "phase": "final_answer",
+            "text": "R014 已冻结并回报主控：v008 第275行逐字落实指定修正，0项剩余问题。17表、9式及其余正文原字节不变，旧 v007 保持冻结。 定点审核报告"
+          },
+          "latestToolMarkerId": "exec-82b12573-6ceb-42e4-be14-d81054d30d43",
+          "latestToolMarker": {
+            "id": "exec-82b12573-6ceb-42e4-be14-d81054d30d43",
+            "turnId": "01a14ae5-125b-7622-a719-74a4a47641f5",
+            "type": "mcpToolCall",
+            "name": "send_message_to_thread",
+            "status": "completed"
+          }
+        }
+      ]
+    },
+    {
+      "timedOut": false,
+      "wake": {
+        "reason": "turnCompleted",
+        "turnId": "01a14ae5-0f00-78d3-8e15-37e212f52990",
+        "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
+        "hostId": "local"
+      },
+      "polls": [
+        {
+          "schemaVersion": 1,
+          "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:105",
+          "revision": 105,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-7fe0-75f3-8671-bcd59e413052",
+            "hostId": "local",
+            "status": {
+              "type": "idle"
+            }
+          },
+          "latestTurn": {
+            "id": "01a14ae5-0f00-78d3-8e15-37e212f52990",
+            "status": "completed",
+            "error": null,
+            "startedAt": 1792257888,
+            "completedAt": 1792258522,
+            "durationMs": 634852
+          },
+          "latestAssistantMessageId": "msg_058500d59acbf314016ad3b1d9470881968d68b08f5073c2d4",
+          "latestAssistantMessage": {
+            "id": "msg_058500d59acbf314016ad3b1d9470881968d68b08f5073c2d4",
+            "turnId": "01a14ae5-0f00-78d3-8e15-37e212f52990",
+            "phase": "final_answer",
+            "text": "R025 实现独审通过，0 项必须修改。全段隔离复跑与独立 Fraction 挑战均通过，差额下界为 7.485396755368596 > 0。 证书准入仍须合并 R024、v002 helper 及明示的运行合同；不属于无条件形式化认证或实际工程结论。 已冻结报告与证据，旧 64 项产物及原缓存、helper 散列未变。已交接主控并停止。"
+          },
+          "latestToolMarkerId": "exec-36f506e4-507e-498c-a5cd-0cca7bcfb531",
+          "latestToolMarker": {
+            "id": "exec-36f506e4-507e-498c-a5cd-0cca7bcfb531",
+            "turnId": "01a14ae5-0f00-78d3-8e15-37e212f52990",
+            "type": "mcpToolCall",
+            "name": "send_message_to_thread",
+            "status": "completed"
+          }
+        }
+      ]
+    },
+    {
+      "timedOut": false,
+      "wake": {
+        "reason": "turnCompleted",
+        "turnId": "01a14ad6-fe6b-7733-a43e-1ac3fcc4bfcc",
+        "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+        "hostId": "local"
+      },
+      "polls": [
+        {
+          "schemaVersion": 1,
+          "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:49",
+          "revision": 49,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-8805-7a42-b910-ae973f55d73e",
+            "hostId": "local",
+            "status": {
+              "type": "idle"
+            }
+          },
+          "latestTurn": {
+            "id": "01a14ad6-fe6b-7733-a43e-1ac3fcc4bfcc",
+            "status": "completed",
+            "error": null,
+            "startedAt": 1792256966,
+            "completedAt": 1792257568,
+            "durationMs": 602004
+          },
+          "latestAssistantMessageId": "msg_09fe3e55758f973c016ad3ae1fa6b08193993860c157280f06",
+          "latestAssistantMessage": {
+            "id": "msg_09fe3e55758f973c016ad3ae1fa6b08193993860c157280f06",
+            "turnId": "01a14ad6-fe6b-7733-a43e-1ac3fcc4bfcc",
+            "phase": "final_answer",
+            "text": "R015 已切换 v002 重算并交主控。查看候选报告。 v001 历史及漏洞记录保留，未重跑 ODE。候选有正余量，但仍待数学、helper 修复和实现独审；本单项已停止。"
+          },
+          "latestToolMarkerId": "exec-82cb8f4b-f7a0-4230-b30d-d31349763649",
+          "latestToolMarker": {
+            "id": "exec-82cb8f4b-f7a0-4230-b30d-d31349763649",
+            "turnId": "01a14ad6-fe6b-7733-a43e-1ac3fcc4bfcc",
+            "type": "mcpToolCall",
+            "name": "send_message_to_thread",
+            "status": "completed"
+          }
+        }
+      ]
+    },
+    {
+      "timedOut": false,
+      "wake": {
+        "reason": "turnCompleted",
+        "turnId": "01a14ad0-54ca-7c42-ac62-9d3e91b18d03",
+        "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+        "hostId": "local"
+      },
+      "polls": [
+        {
+          "schemaVersion": 1,
+          "cursor": "d696c220-255b-466e-b993-5ca97a48496e:57",
+          "revision": 57,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+            "hostId": "local",
+            "status": {
+              "type": "active",
+              "activeFlags": []
+            }
+          },
+          "latestTurn": {
+            "id": "01a14af9-daff-7e42-8c3b-f8cf411ba128",
+            "status": "inProgress",
+            "error": null,
+            "startedAt": 1792259250,
+            "completedAt": null,
+            "durationMs": null
+          },
+          "latestAssistantMessageId": "msg_09505bd600c2eded016ad3b51a72e48190a42e9cef36e0f29a",
+          "latestAssistantMessage": {
+            "id": "msg_09505bd600c2eded016ad3b51a72e48190a42e9cef36e0f29a",
+            "turnId": "01a14af9-daff-7e42-8c3b-f8cf411ba128",
+            "phase": "commentary",
+            "text": "证书拼接点已核清：连续PL误差覆盖0—6T，真正被动尾界从6T延伸到无穷；运动学残差ru不能删除。表中会采用四个指定安全十进制，并说明gap由原有向端点直接比较得到，不能用已向外松弛的显示数相减重算。"
+          },
+          "latestToolMarkerId": "exec-e6375c72-42a1-4d8b-9693-6f290d8e5ca6",
+          "latestToolMarker": {
+            "id": "exec-e6375c72-42a1-4d8b-9693-6f290d8e5ca6",
+            "turnId": "01a14af9-daff-7e42-8c3b-f8cf411ba128",
+            "type": "commandExecution",
+            "name": "commandExecution",
+            "status": "completed"
+          }
+        },
+        {
+          "schemaVersion": 1,
+          "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:29",
+          "revision": 29,
+          "changed": true,
+          "thread": {
+            "id": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+            "hostId": "local",
+            "status": {
+              "type": "idle"
+            }
+          },
+          "latestTurn": {
+            "id": "01a14ad0-54ca-7c42-ac62-9d3e91b18d03",
+            "status": "completed",
+            "error": null,
+            "startedAt": 1792256529,
+            "completedAt": 1792256912,
+            "durationMs": 382589
+          },
+          "latestAssistantMessageId": "msg_0d8e1b978b923a60016ad3ab8f17208197968a0b86ef581809",
+          "latestAssistantMessage": {
+            "id": "msg_0d8e1b978b923a60016ad3ab8f17208197968a0b86ef581809",
+            "turnId": "01a14ad0-54ca-7c42-ac62-9d3e91b18d03",
+            "phase": "final_answer",
+            "text": "R012已冻结：报告。 已核增量耗散原文。一般被动性不能自动替代增量条件；具体残差装配、ρ积分、正则化及全尾门仍待独审。浮点 prototype 尚非严格证书，特定发表覆盖未确认。 2条查询、2项原文；47份旧冻结文件未变，已停止。 报告 SHA256：5859f6c0c122ef6f40b0ed39d81243e4f9bda3d0c1d8c87c2fb8c995ddc6a322"
+          },
+          "latestToolMarkerId": "exec-f71c388d-3668-4c43-bc0f-7eb2ad8955dc",
+          "latestToolMarker": {
+            "id": "exec-f71c388d-3668-4c43-bc0f-7eb2ad8955dc",
+            "turnId": "01a14ad0-54ca-7c42-ac62-9d3e91b18d03",
+            "type": "commandExecution",
+            "name": "commandExecution",
+            "status": "completed"
+          }
+        }
+      ]
+    }
+  ]
+}

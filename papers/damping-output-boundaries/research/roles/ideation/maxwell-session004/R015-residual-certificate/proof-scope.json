@@ -1,0 +1,34 @@
+{
+  "round": "R015",
+  "status": "Author-side mathematical candidate; independent role2 audit pending",
+  "proven_conditionally": [
+    "weighted residual-energy identity including r_u",
+    "monotonicity dissipation and regularized square-root bound with initial error",
+    "output error plus continuous PL reconstruction endpoint peak",
+    "true passive post-input infinite tail bound using certified complete approximate energy and residual integral",
+    "fixed T output lower bound via exact permutation",
+    "strict inequality contract combining early upper, future upper and fixed-point lower",
+    "implicit midpoint scalar elimination and unique root",
+    "per-segment one-norm h/4 residual budget"
+  ],
+  "necessary_qualifications": [
+    "continuous piecewiseAC states; add energy-norm jumps if discontinuous",
+    "true passive tail needs F*g(F)>=0, not merely monotonicity",
+    "midpoints and residuals belong to final endpoint reconstruction",
+    "all constants, residuals, nonlinear powers, time/input, sums, initial error and terminal energy require certified enclosures"
+  ],
+  "frozen_evaluation": {
+    "N_per_T": 16384,
+    "end": "6*T",
+    "lower_time": "T",
+    "target": "same physical u1",
+    "layout_for_prototype": "A only; exact permutation gives B relation"
+  },
+  "not_done": [
+    "ODE or floating prototype",
+    "numerical outward enclosure",
+    "certified I upper bound",
+    "certified alpha0.3 full-time peak separation",
+    "actual engineering or priority claim"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "validated_at": "2026-10-18T01:18:57.587186+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v008.md",
+    "bytes": 47388,
+    "sha256": "809b8a630d604cfc23cfd7e93b59312bb527a48ab3ed045862da24f6b6dd2cc0"
+  },
+  "passed": true,
+  "checks": {
+    "exactly3_authorized_lines_changed": true,
+    "line275_replacement_full_line_exact": true,
+    "only_requested_control_class_phrase_changed_at275": true,
+    "every_other_body_line_byte_identical": true,
+    "all9_formulas_byte_identical": true,
+    "all17_tables_byte_identical_order": true,
+    "formula_tags1to9_unchanged": true,
+    "title_abstract_conclusions_unchanged": true,
+    "new_status_and_v007_preserved_explicit": true,
+    "four_packages25files4manifests_unchanged": true,
+    "old_theory_v007_SHA_unchanged": true,
+    "all_previous_sources_SHA_unchanged": true,
+    "existing_local_links_resolve": true,
+    "UTF8_LF_no_BOM_trailing_whitespace": true,
+    "git_diff_whitespace_check_clean": true
+  },
+  "changed_lines_1based": [
+    3,
+    275,
+    292
+  ],
+  "required_replacement_line": "前述器件/楼层记录只是本建筑的单状态观察；§5.5给的是独立合成类中的解析信息边界，不能把两者拼成真实布局的因果对照。[单器件理论附录v002](maxwell-theory-appendix-v002.md)保留三类端点和有界可测总变形速度条件，[模态接口v001](maxwell-modal-interface-v001.md)保留完整能量、局部有符号投影及认证尾项的最小合同；此处只链接，不复制其证明。实际目标位置、端口/字段、共同输入、初态、背景与参数尚须认证，再进行公平成对模型/布局检验，才能回答本建筑目标响应是否改善。",
+  "diff": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v008.diff",
+    "bytes": 3435,
+    "sha256": "f17d41079bf410260da395900212a731837dc43beb5b29c5c7795a20d5b37930"
+  },
+  "limits": "Targeted wording/interface-class QA only;no new science,numerics or proof. Awaiting role3 recheck."
+}

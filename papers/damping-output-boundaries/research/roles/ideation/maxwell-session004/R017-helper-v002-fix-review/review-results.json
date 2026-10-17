@@ -1,0 +1,101 @@
+{
+  "round": "R017",
+  "start": "2026-10-18T01:18:01+08:00",
+  "frozen_input_at": "2026-10-18T01:18:42.631080+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v001.py",
+      "bytes": 9345,
+      "sha256": "539c60958ececa73b72c160b60a1da7f4925bbdae268f79acef07101cde64a4b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v002.py",
+      "bytes": 10360,
+      "sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd"
+    }
+  ],
+  "selfcheck": {
+    "passed": true,
+    "exact_rational_regression_checks": 453,
+    "pi_float_interval": [
+      3.141592653589793,
+      3.1415926535897936
+    ],
+    "basic_operation_contract": "round-to-nearest IEEE binary64; finite arithmetic, nextafter widening; unsupported/nonfinite operations fail closed",
+    "scope": "Helper regression only; endpoint powers and Taylor/alternating bounds explicit. Not an ODE residual implementation or a continuous/fulltail peak certificate."
+  },
+  "nonbuiltin_int_rejections": [
+    {
+      "entry": "root_endpoint",
+      "degree_repr": "2.0",
+      "exception": "TypeError"
+    },
+    {
+      "entry": "root",
+      "degree_repr": "2.0",
+      "exception": "TypeError"
+    },
+    {
+      "entry": "root_endpoint",
+      "degree_repr": "3.0",
+      "exception": "TypeError"
+    },
+    {
+      "entry": "root",
+      "degree_repr": "3.0",
+      "exception": "TypeError"
+    },
+    {
+      "entry": "root_endpoint",
+      "degree_repr": "Fraction(2, 1)",
+      "exception": "TypeError"
+    },
+    {
+      "entry": "root",
+      "degree_repr": "Fraction(2, 1)",
+      "exception": "TypeError"
+    },
+    {
+      "entry": "root_endpoint",
+      "degree_repr": "'2'",
+      "exception": "TypeError"
+    },
+    {
+      "entry": "root",
+      "degree_repr": "'2'",
+      "exception": "TypeError"
+    },
+    {
+      "entry": "root_endpoint",
+      "degree_repr": "True",
+      "exception": "TypeError"
+    },
+    {
+      "entry": "root",
+      "degree_repr": "True",
+      "exception": "TypeError"
+    }
+  ],
+  "integer_root_exact_checks": 20,
+  "root_endpoint_AST_unchanged_after_type_guard": true,
+  "root_AST_unchanged_after_new_guards": true,
+  "line_ending_note": {
+    "v001": "LF, CR=0 LF=262",
+    "v002": "CRLF, CR=277 LF=277",
+    "literal_raw_bytes_unchanged_claim": false,
+    "mathematical_body": "Identical text after EOL normalization and removing only new guards."
+  },
+  "scope": "Pinpoint fix review only; no ODE, v001/source/shared/Git modifications.",
+  "root_mathbody_text_identical_after_EOL_normalization_and_guard_removal": true,
+  "other_functions_AST_unchanged": [
+    "down",
+    "up",
+    "interval",
+    "atan_reciprocal_bounds",
+    "sin_pi_ratio",
+    "signed_power_10_3_endpoint",
+    "g_power_10_3",
+    "g_derivative_upper"
+  ],
+  "internal_author_side_independent_check": "spectral_zero_order independently confirmed guards, AST preservation and 453 selfcheck"
+}

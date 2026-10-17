@@ -109,3 +109,9 @@ M-C009 proposed/analytic-derivation candidate：在已知单轴Maxwell本构、�
 
 
 2026-10-18T01:14:26.173874+08:00 数值helper反对证据：R016中途独审发现v001的degree=2.0 API可令Fraction指数走浮点而误判端点相等；443有限自检漏掉该类型反例。v001冻结不改、不原样准入；根另作v002严格两入口builtinint守卫/10失败回归共453，仅作者修复待独审。内部真正int2/3调用尚无该失包反例，但不能以此豁免完整API/实现审。R015包络候选改用新SHA，尚未取得峰证明。
+
+
+2026-10-18T01:27:38.259723+08:00 M-C024由R024全文/三SHA及根自导合同核准supported/analytic-derivation reviewed，仅条件误差能量/PL早期+固定T+被动无限尾/逐段h4数学，非数值实现。helperv002经R017全文/报告及源SHA核，已定位浮点degree漏洞定点修复通过，v001失效历史保留，IEEEnearest/渐进下溢/运行模式/正确nextafter和Fraction合同仍需声明；v002CRLF不改。M-C025 proposed/validated-numerics+analytic-derivation candidate：冻结R015 v002-run结果I(T)up .7561184867635775、I(6T)up1.0158817208017639，A early1.3240344207809374/tail1.0975732897025945，B固定T lower8.809431176149534，gap lower7.485396755368596。根已读完整实现，角色2R025及角色1R018独立实现/参数门仍在审，不预称alpha.3全尾分离证明；非实际工程/优先权。
+
+
+2026-10-18T01:40:33.023125+08:00 M-C025 supported/analytic-derivation+validated-numerics reviewed：根完整读最终实现和R024/R017/R018/R025并核原包/来源/独审三SHA；合并明确IEEEnearest/渐进下溢/正确nextafter/Fraction/解码及运行模式合同，可对冻结无量纲alpha.3真实连续全程（含无限被动尾）准入A峰<1.325、B固定T幅值>8.809，严格间隙>7.485。十进制方向另以Fraction对原binary64界核过；不是无基础假设形式化机器证明或实际楼层/装置真参数/整体最优/首创。候选文件当时pending标签不改，后续裁决绑定R011-adoption。v001 degreefloat反例和修复历史保留。

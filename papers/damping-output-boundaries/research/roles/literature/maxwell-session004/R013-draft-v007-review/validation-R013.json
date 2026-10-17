@@ -1,0 +1,73 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R013 engineering v007 integration/source diff audit",
+  "started_at": "2026-10-18T01:11:19+08:00",
+  "checked_at": "2026-10-18T01:14:15.908953+08:00",
+  "original_draft_sha256": "7de5012ed420459cbf0c9d7de8f995552e0ec0fba87928ba5df30070e3a7d7a1",
+  "predecessor_sha256": "c04370712b9adc73064872e1d2cc79a5c6a7783e191d5ca8dc4e754d80ae604b",
+  "author_freeze_sha256": "8a6c66baff1d51a49a923fc1b6bb425fb496209c0ccc2f38fc8ebf663d592f3e",
+  "frozen_author_files_checked": 7,
+  "inputs_12_unchanged": true,
+  "checks": {
+    "old16_table_blocks_byte_exact_once": true,
+    "new17th_table": "section5.5 table4",
+    "display_formula_blocks_9_byte_exact": true,
+    "section2_through5_4_byte_exact_bytes": 18339,
+    "old_appendixB_to_EOF_byte_exact": true,
+    "appendixA_only_map_link_version_changed": true,
+    "all_local_links_exist": 22,
+    "two_reviewed_interface_links_exist": true,
+    "new_table4_sampled_peaks_4_display_values_match": true,
+    "signed_protocol_erratum_preserved": true,
+    "u2_swap_global_max_same_preserved": true,
+    "analytic_fulltail_vs_numerical_finite_grid_distinction_preserved": true,
+    "not_real_engineering_global_optimization_or_originality": true,
+    "no_alpha_point3_or_unreviewed_residual_numbers_admitted": true
+  },
+  "new_peak_sources": [
+    {
+      "layout": "A",
+      "N": 16384,
+      "RK4_sampled_u1_peak": "0.7056022919912945",
+      "root_LTI_sampled_u1_peak": 0.705602291988183,
+      "RK4_E_terminal": "1.0005317806549647e-12"
+    },
+    {
+      "layout": "B",
+      "N": 16384,
+      "RK4_sampled_u1_peak": "9.566232467655638",
+      "root_LTI_sampled_u1_peak": 9.566232467623847,
+      "RK4_E_terminal": "1.0005317806549647e-12"
+    }
+  ],
+  "source_binding": "R021 accepted analytic fulltail alpha1 statement and role1R013 identity; source RK4 experimentR012 and separate rootLTI floating finite-grid review. No rerun or new proof.",
+  "required_corrections": [
+    {
+      "priority": "P2",
+      "line": 275,
+      "kind": "allowed-control-class transcription",
+      "original_full_line": "前述器件/楼层记录只是本建筑的单状态观察；§5.5给的是独立合成类中的解析信息边界，不能把两者拼成真实布局的因果对照。[单器件理论附录v002](maxwell-theory-appendix-v002.md)保留三类端点和连续速度条件，[模态接口v001](maxwell-modal-interface-v001.md)保留完整能量、局部有符号投影及认证尾项的最小合同；此处只链接，不复制其证明。实际目标位置、端口/字段、共同输入、初态、背景与参数尚须认证，再进行公平成对模型/布局检验，才能回答本建筑目标响应是否改善。",
+      "replacement_full_line": "前述器件/楼层记录只是本建筑的单状态观察；§5.5给的是独立合成类中的解析信息边界，不能把两者拼成真实布局的因果对照。[单器件理论附录v002](maxwell-theory-appendix-v002.md)保留三类端点和有界可测总变形速度条件，[模态接口v001](maxwell-modal-interface-v001.md)保留完整能量、局部有符号投影及认证尾项的最小合同；此处只链接，不复制其证明。实际目标位置、端口/字段、共同输入、初态、背景与参数尚须认证，再进行公平成对模型/布局检验，才能回答本建筑目标响应是否改善。",
+      "reason": "linked appendix permits bounded measurable total deformation velocity in L-infinity and explicitly does not require velocity continuity. Continuous-time velocity bound differs from continuous velocity."
+    }
+  ],
+  "optional_edits": [],
+  "delegate": "weng2016_source independently confirmed old blocks/identities/scope and independently identified line275 control-class mismatch",
+  "operations": {
+    "ODE_runs": 0,
+    "real_tables_arrays_reads": 0,
+    "new_search": 0,
+    "new_theory": 0,
+    "author_source_shared_Git_edits": 0
+  },
+  "frozen_at": "2026-10-18T01:15:29.809981+08:00",
+  "elapsed_seconds": 250.809981,
+  "status": "frozen stopped; one required control-class transcription correction reported; no source/manuscript edits",
+  "report": {
+    "path": "R013-draft-v007-review.md",
+    "bytes": 4855,
+    "sha256": "aba1dafe3c7a2fa21c1b53219922e785413423b476c74bdb1629f4a803cdd298"
+  },
+  "input_rules_sha256": "1cf44a9f8e0cce3216655077c9830cb053db1c11a15cc0c1c5fef4ae245cd05c"
+}

@@ -1,0 +1,55 @@
+{
+  "started_at": "2026-10-18T01:02:32+08:00",
+  "completed_at": "2026-10-18T01:08:14+08:00",
+  "time_limit_minutes": 8,
+  "status": "source-and-contribution/evidence-boundary review only",
+  "proposal_sha256": "c3036ff3bb65116c318374d1c0f06f54577e1b1bcaff08e243051056cc65a6b0",
+  "protocol_sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8",
+  "primary_sources": 2,
+  "total_new_queries": 2,
+  "new_fulltext_or_image_files": 0,
+  "failed_paths_retried": [],
+  "method_attribution": "existing incremental/dissipative and residual-error tools; no first/new-method claim",
+  "source_scope": "quadratic difference storage and monotone relations directly supported; mechanical residual assembly/rho/sqrt/tail certificate not printed in checked sources",
+  "mathematical_proof_audited": false,
+  "numerical_implementation_audited": false,
+  "certified_Ibar_obtained": false,
+  "publication_coverage_of_specific_certificate": "unconfirmed",
+  "evidence_warning": "energy balance and two-step differences do not replace validated state residual/roundoff/terminal-energy enclosures",
+  "ODE_or_real_arrays_or_excel": false,
+  "input_files_checked": 6,
+  "input_changed": [],
+  "old_frozen_files_checked": 47,
+  "old_changed": [],
+  "local_links_checked": 3,
+  "broken_links": [],
+  "trailing_whitespace": [],
+  "control_characters": [],
+  "files": [
+    {
+      "file": "certificate-evidence-boundary.md",
+      "bytes": 7707,
+      "sha256": "ac6c37b19b2b94321ff3711d9a7cee66d45c390c9d6fe7df9c4fa02d92195460"
+    },
+    {
+      "file": "incremental-source-review.md",
+      "bytes": 7828,
+      "sha256": "c5ddd0989da0edc8f14272144c9034e75663784917815c7445501990162ff9b9"
+    },
+    {
+      "file": "input-freeze.json",
+      "bytes": 2296,
+      "sha256": "20c523970d4d6230c1c73f600be89ea4de2dcacc1fc9a2b62de7cfbfcfb6c4cb"
+    },
+    {
+      "file": "report.md",
+      "bytes": 9763,
+      "sha256": "5859f6c0c122ef6f40b0ed39d81243e4f9bda3d0c1d8c87c2fb8c995ddc6a322"
+    },
+    {
+      "file": "source-log.json",
+      "bytes": 2158,
+      "sha256": "4874d1765e843e1d1848f99402cd19f43f102552b829ec28a9e9c23763a53d81"
+    }
+  ]
+}

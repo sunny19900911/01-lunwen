@@ -1,0 +1,32 @@
+{
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\enclose_residual_budget.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 11.289705400005914,
+  "finished_utc": "2026-10-17T17:15:22.371962+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy_decoder": "2.3.5",
+  "IEEE_contract": {
+    "radix": 2,
+    "mant_dig": 53,
+    "max_exp": 1024,
+    "rounds": 1
+  },
+  "helper_sha256": "539c60958ececa73b72c160b60a1da7f4925bbdae268f79acef07101cde64a4b",
+  "code_sha256": "d96332a605f53d0291da0867320d71807f33fe6b4f7ee8c8bf1b2933448685e7",
+  "summary_sha256": "c83cef921f81548df012e96e882ce83ff2b8bff13c97949544c103fcd5221770",
+  "checks": {
+    "only_endpoints_decoded_no_cached_t_or_old_diagnostics_used": true,
+    "all_initial_stored_states_exact_zero": true,
+    "exact_Fraction_cubic_signs_and_monotonicity_passed": true,
+    "kappa_enclosed_strictly_between7and8": true,
+    "all98304_residual_segments_outward_evaluated": true,
+    "global_sum_every_step_upward": true,
+    "all_source_and_own_protocol_SHA_unchanged": true,
+    "runtime_below600seconds": true
+  }
+}

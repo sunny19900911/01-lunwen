@@ -1,0 +1,824 @@
+{
+  "version": "v007",
+  "created_at": "2026-10-18T01:08:32.774670+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v007.md",
+    "bytes": 47299,
+    "sha256": "7de5012ed420459cbf0c9d7de8f995552e0ec0fba87928ba5df30070e3a7d7a1"
+  },
+  "predecessor": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v006.md",
+    "bytes": 42202,
+    "sha256": "c04370712b9adc73064872e1d2cc79a5c6a7783e191d5ca8dc4e754d80ae604b"
+  },
+  "predecessor_freeze": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v006.json",
+    "bytes": 2266,
+    "sha256": "f0057c7aa42873b00645ea6eaf0a796f1703114e5751038d0bd20d074a16830e"
+  },
+  "scope": "Stage manuscript;master-accepted all192 fixed-integral arithmetic,LF exact-summary diagnostic,same-time shear algebra,classic direct-force amplitude-duration identity.Neither theory novelty nor true physical parameters/event forward prediction/layout/engineering gain.;plus accepted M-C022syntheticalpha1 fulltail fixed-output separation andfinite-grid support,not actualalpha.3,global dominance or priority.",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\原生能量证据独审-R001.md",
+      "sha256": "9434080b59bc23d7ec686dc9d0f32518e5e87869fe566f515f08892af7b08bae",
+      "bytes": 9399,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/原生能量证据独审-R001.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\响应定义与覆盖独审-R002.md",
+      "sha256": "e6d643df0075b55c63300a107550b6b52cd53c48fb60f46744d39598d2d4a5e9",
+      "bytes": 8590,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/响应定义与覆盖独审-R002.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\条件积分回归独审-R004.md",
+      "sha256": "5724925f94f1761e7d05ebfb1f3657577e0d287c4d401b2707544c5ec51bc3e1",
+      "bytes": 9168,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/条件积分回归独审-R004.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\阶段稿v001整合独审-R005.md",
+      "sha256": "30f7d1d3c66b35ee335dd3d3238395fcfa96f45be65ced88ab5694fab4ebc285",
+      "bytes": 8104,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/阶段稿v001整合独审-R005.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\I-M001独立复算审核-R003.md",
+      "sha256": "1fcb675b5b42f36bd5de47ffc66f9dbc0aebde86cc93fb6e048271fb8647db7f",
+      "bytes": 8838,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/I-M001独立复算审核-R003.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R001-P-U1覆盖与配对输入.md",
+      "sha256": "9bf1337463808356dac2ac1acb4824756cbd0cf1cb814641424105f83a7b16f8",
+      "bytes": 5452,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R001-P-U1覆盖与配对输入.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-条件积分回归诊断.md",
+      "sha256": "08c4b9e5f9c9c44d88a344565bd2e34f53fe9f39f2b63beb6892d13f5b1adaeb",
+      "bytes": 5771,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R002-条件积分回归诊断.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R003-link-force-deformation-port-check.md",
+      "sha256": "6c7b18c48965531e9d8606be2210df7ddbd384e4d28c9f0dcdc4eee78279ceca",
+      "bytes": 8465,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R003-link-force-deformation-port-check.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R001-review-data\\energy_review_summary.csv",
+      "sha256": "1d7f654920a1aa78510adfac23898d12b2448d800e8debc9a8f9e1b9aa36b224",
+      "bytes": 2887,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R001-review-data/energy_review_summary.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\link_case_coverage_r001.csv",
+      "sha256": "b2e41e8c4ee8f6654efe98b582a1e7c39f3f89f0a4a66a4c7277621008ba6fe8",
+      "bytes": 69926,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/link_case_coverage_r001.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\fit_summary_r002.json",
+      "sha256": "3186dae098c025673eb565390f4273760b5765c1095f6948ab3c051caf3e3f02",
+      "bytes": 5923,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R002-integral-regression/fit_summary_r002.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R002-integral-regression\\protocol.json",
+      "sha256": "8c7e2733c30a9090a442d3861193c3e27ef7f7ba5688542c2afc8597ff364719",
+      "bytes": 2528,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R002-integral-regression/protocol.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R002.md",
+      "sha256": "a9a6c3ad0ea202a7653b8f3bbbb1ecea222ce5bcc2dd139a8b898b01782026ce",
+      "bytes": 8265,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R002.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R002-Hu2019-SDOF-check.md",
+      "sha256": "c7df8d931be49252a9a4b6bc1d8eb3b901a370e31c7ded695683f5dcec3ac457",
+      "bytes": 5517,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R002-Hu2019-SDOF-check.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\01_native_energy_ratio.png",
+      "sha256": "fac821fca950ab796ff634053e768dd3020741ff63c117c884dad0ac4d8010d3",
+      "bytes": 87288,
+      "repo_relative": "research/sessions/20261017-2109/figures/01_native_energy_ratio.png"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\01_native_energy_ratio.svg",
+      "sha256": "fc8f1bd263206cc6392eef4846e5b8e5d527497c3fef51f058a796ad76342140",
+      "bytes": 9238,
+      "repo_relative": "research/sessions/20261017-2109/figures/01_native_energy_ratio.svg"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\02_device_coverage_by_story.png",
+      "sha256": "5f27fc3780b0efdebfa595f2a1d11ca068f5ecf4df07f2bed7f885f2e2e3a0fa",
+      "bytes": 104087,
+      "repo_relative": "research/sessions/20261017-2109/figures/02_device_coverage_by_story.png"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\02_device_coverage_by_story.svg",
+      "sha256": "1a893e6644e547056c29e99acdd782c7ec8c356f40fea6c58f7332d4c47b7527",
+      "bytes": 27279,
+      "repo_relative": "research/sessions/20261017-2109/figures/02_device_coverage_by_story.svg"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\build_native_energy_coverage.py",
+      "sha256": "47728d349cefe435a1136617c8bd01e43a3cdebc21706253e739d088f097db11",
+      "bytes": 7682,
+      "repo_relative": "research/sessions/20261017-2109/figures/build_native_energy_coverage.py"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\figure_data_validation.json",
+      "sha256": "bcfa753d30adde209cc757825b906738ef27828aff6645df68e695bdd4ae183e",
+      "bytes": 1207,
+      "repo_relative": "research/sessions/20261017-2109/figures/figure_data_validation.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\plot_energy_ratios.csv",
+      "sha256": "7532b459311c43ff14112a068cc3dcf5cc855e61e64b75bc6af9c61d07c7823e",
+      "bytes": 531,
+      "repo_relative": "research/sessions/20261017-2109/figures/plot_energy_ratios.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\plot_link_coverage_by_story.csv",
+      "sha256": "b581a33de2c783cccdcda4216d2b6a0602e1bffa6a8ba3abfca04b16ae543dd3",
+      "bytes": 1506,
+      "repo_relative": "research/sessions/20261017-2109/figures/plot_link_coverage_by_story.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\README.md",
+      "sha256": "9dbfa59f8de2519eecb11db1cbf4233e3871e552e002f3c1bd08d35e7089500e",
+      "bytes": 888,
+      "repo_relative": "research/sessions/20261017-2109/figures/README.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\rendering-verification.json",
+      "sha256": "8cbbd7180e7c04805cb09e5c6feba483acdfc848bf0472e75e60f3082eeb8e65",
+      "bytes": 676,
+      "repo_relative": "research/sessions/20261017-2109/figures/rendering-verification.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\render_png.cjs",
+      "sha256": "acd189b6cb0064416342ec7a7c3798f16641b743fc33501d8714a5d2216bfd5a",
+      "bytes": 984,
+      "repo_relative": "research/sessions/20261017-2109/figures/render_png.cjs"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\root-adoption-and-reproduction.json",
+      "sha256": "d7b8d538ca528dea8151be9d319fb27d2292175f7b1a8310e6373c0c3b5c06f4",
+      "bytes": 1411,
+      "repo_relative": "research/sessions/20261017-2109/figures/root-adoption-and-reproduction.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\图注与使用范围.md",
+      "sha256": "70f3f7f03ccf0921e58c3eba1eef30de7c6c6e33091aaf1194675f2dde3b85f5",
+      "bytes": 2795,
+      "repo_relative": "research/sessions/20261017-2109/figures/图注与使用范围.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\固定参数跨工况迁移独审-R007.md",
+      "sha256": "c1cf505cf1c9fe7f8c40a2e5b658a91b05471f16dfb5d37901f9bb5596504494",
+      "bytes": 6822,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/固定参数跨工况迁移独审-R007.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R007-transfer-review\\review_summary.json",
+      "sha256": "68316077698295bb6a33c36df894cea04004f34ee8f74ba3e0317bdb0c0750d7",
+      "bytes": 16809,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R007-transfer-review/review_summary.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R007-review-run.json",
+      "sha256": "1d794223541ae4cd5b2fc46e03850b641192281956a545daeabded4e9b76fc08",
+      "bytes": 4079,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R007-review-run.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-固定参数跨工况迁移.md",
+      "sha256": "5dabed7279e94b5a56325e32fd428c2d1a380071b1996171b9caf5b887031547",
+      "bytes": 6063,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R003-固定参数跨工况迁移.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\protocol.json",
+      "sha256": "84fe57efb19cf7dbbeb8b8ef5deb0f432eee3dacf41e0f21c29a5cc89d620fae",
+      "bytes": 2931,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R003-cross-case-transfer/protocol.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\transfer_summary_r003.json",
+      "sha256": "13a955378a4e30f5920dd332f9e748a9a82ceb6321484f1d6ade28452fda1395",
+      "bytes": 9426,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R003-cross-case-transfer/transfer_summary_r003.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R003-cross-case-transfer\\transfer_metrics_r003.csv",
+      "sha256": "2dbe27bdf9cb0770c6956d70fd1f53a6657ae62a775b29dcc1933d180dedb687",
+      "bytes": 1316,
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R003-cross-case-transfer/transfer_metrics_r003.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\共同完整32装置分布独审-R011.md",
+      "bytes": 7992,
+      "sha256": "9a6fdd665f24cedff2810e2d920f8def8eb7aed301267ae46ebe6e18cc23b98a",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/共同完整32装置分布独审-R011.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R011-review-run.json",
+      "bytes": 4945,
+      "sha256": "6edaf37bbe65be8747b63d3014cf7d9f0bb4cb6071f19e8f19d22091026cc530",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R011-review-run.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_device_distribution_R011.py",
+      "bytes": 15120,
+      "sha256": "b5796474a2b3ba50b26b8d9f1b7128830628e48da8a166040cb7bb16788b7151",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/review_device_distribution_R011.py"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R011-device-review\\review_summary.json",
+      "bytes": 354667,
+      "sha256": "61b4456d24206f399d9f925f5e36f10f40efe37e1282d73201d915cc77cbedd2",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R011-device-review/review_summary.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\阶段稿v003整合独审-R010.md",
+      "bytes": 6332,
+      "sha256": "30213633ce3b53f61e2759f1486a268d0afd1755fedb4c300db8d9d2e3e49e07",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/阶段稿v003整合独审-R010.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\楼层输出与控制位置独审-R009.md",
+      "bytes": 7691,
+      "sha256": "eb8b86079c8fc0ff05d466c2889db08f3456f29313540ec14ac7c50ac441af1e",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/楼层输出与控制位置独审-R009.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\六记录离散能量账本独审-R008.md",
+      "bytes": 8808,
+      "sha256": "d0d84b43591894b73e80099d145cddb9dca6443baf19b28acff3171785761c78",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/六记录离散能量账本独审-R008.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R005-drift-location-review\\R005-drift-location-review.md",
+      "bytes": 5755,
+      "sha256": "7331daaeaa0b06e341717b8f99d77115c42a495da716e79ffdd50c5c152b9f6f",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R005-drift-location-review/R005-drift-location-review.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R005-drift-location-review\\validation-R005.json",
+      "bytes": 11623,
+      "sha256": "3c570a69f66a1ca5470708ddc337f9f9f66d1d6a012be52ab03f297fe5cea62b",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R005-drift-location-review/validation-R005.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R005-root-rank-QA.json",
+      "bytes": 10203,
+      "sha256": "7c6fe73ef7b1b0f282c868ec4550cd65444a2043f9c9838656896c875402c253",
+      "repo_relative": "research/sessions/20261017-2109/R005-root-rank-QA.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\report.md",
+      "bytes": 9030,
+      "sha256": "dcc918095f28780f3810cdce51a984d638677379f7e43dad2369f4e284211b38",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R006-device-distribution/report.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\device_record_summary_r006.csv",
+      "bytes": 97108,
+      "sha256": "8d359f9c86b544aaa6c573618a375eef7beb8f02070dc223f2802ce3fe31864d",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R006-device-distribution/device_record_summary_r006.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\within_story_rank_extremes_r006.csv",
+      "bytes": 24058,
+      "sha256": "e67261072e1e3ae6cfe8cf7e9236afea9106d93c35a73cf579e1fbf9b8b21f35",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R006-device-distribution/within_story_rank_extremes_r006.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\03-root-adoption.json",
+      "bytes": 1188,
+      "sha256": "0fc761bd757289f8d44290d8ecb9ae514122def29690f7f39105f1339a301966",
+      "repo_relative": "research/sessions/20261017-2109/figures/03-root-adoption.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\03_floor_record_peak_profiles.png",
+      "bytes": 302244,
+      "sha256": "f1a8ff0bba9ead35bfca4a5052333cf6171fcf69a9fa9104bb6459bcfab776c4",
+      "repo_relative": "research/sessions/20261017-2109/figures/03_floor_record_peak_profiles.png"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\03_floor_record_peak_profiles.svg",
+      "bytes": 57335,
+      "sha256": "460f7d1e45a188cfdd402c8fde60b913ca3c713d2f63ddaef2fa032efbe0d9ab",
+      "repo_relative": "research/sessions/20261017-2109/figures/03_floor_record_peak_profiles.svg"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\plot_floor_profiles_72rows.csv",
+      "bytes": 8549,
+      "sha256": "7154ea25606cc11ac68c019a8442b5b1de429e3ab2dfc36309042df1dda592be",
+      "repo_relative": "research/sessions/20261017-2109/figures/plot_floor_profiles_72rows.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\03_图注与使用范围.md",
+      "bytes": 1066,
+      "sha256": "7f7d4f73ba98cd8f23a2edaf5dd0fc9d123516743938441f7d90d3334fafe2e5",
+      "repo_relative": "research/sessions/20261017-2109/figures/03_图注与使用范围.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\192组固定积分诊断独审-R013.md",
+      "bytes": 8314,
+      "sha256": "8513492e976abb50d2392dabf4468495fbdd6ee138aa131cad7c0d6246831c91",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/192组固定积分诊断独审-R013.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_all_integrals_R013.py",
+      "bytes": 14662,
+      "sha256": "c31722cb95bfe3119d79fcdf26270b147eca414ab20a88047960e36e492ea695",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/review_all_integrals_R013.py"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R013-review-protocol.json",
+      "bytes": 9737,
+      "sha256": "df8fc9c355c4ed4943827c80dd9b9f757789c1cb7ea1db3327e7e8b5bc2a06e2",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R013-review-protocol.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R013-integral-review\\review_summary.json",
+      "bytes": 237541,
+      "sha256": "49ae16b9a19b63369fec48e2064bc40ac53e792ae7197cf451e3c21d0c18d00b",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R013-integral-review/review_summary.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R013-review-run.json",
+      "bytes": 6023,
+      "sha256": "7c32de97083d4d4a9769bfb76000323622b4679bc1aa9afa689f661719b37bfe",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R013-review-run.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R007\\report.md",
+      "bytes": 6988,
+      "sha256": "bbc3c5d46202290b7b6283899ebbf9bac911952405cc9e467dfc6252cc577515",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R007/report.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R007\\independent_audit.py",
+      "bytes": 9985,
+      "sha256": "af441d5633fb246cbc0f4123a101dda58bcfce1a7f2f23d89485ed8b0ee59f7c",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R007/independent_audit.py"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R007\\input-freeze.json",
+      "bytes": 3766,
+      "sha256": "340e48fa0f82329f79732fecf837bccb28cd645cf4eecdd2c3a710be12418d91",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R007/input-freeze.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R007\\recomputed.json",
+      "bytes": 29352,
+      "sha256": "afd7ee95b3868dc298635f762f6f1214356aff5f3a14b61ab765d36e549fd70a",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R007/recomputed.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R007\\semantic-review.md",
+      "bytes": 8189,
+      "sha256": "45312d7c69c2d2e5d76a4e796da0865ab1664d68f0e236129045bff87f691e93",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R007/semantic-review.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R006-shear-output-review\\R006-shear-output-review.md",
+      "bytes": 5555,
+      "sha256": "942cd55ad4e0036cd8723670e048f83e2f21d08201352c0cb092c54334bfb70b",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R006-shear-output-review/R006-shear-output-review.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R006-shear-output-review\\validation-R006.json",
+      "bytes": 9486,
+      "sha256": "68cd8ccfae5217161e62cece4c2077176553b3e987c8d7d0d311e04bde3acb79",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R006-shear-output-review/validation-R006.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R006-shear-output-review\\manifest-R006.json",
+      "bytes": 2728,
+      "sha256": "4310053847de26b85fc04144b2002e22ee845bf398d16b51d4f144b99078ba68",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R006-shear-output-review/manifest-R006.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\report.md",
+      "bytes": 4020,
+      "sha256": "a585d5b2a89d814efda859f8b3d07f4d462c25b24ea95d24655a0ca1cbc810fd",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R008-force-duration-audit/report.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\delivery_manifest_r008.json",
+      "bytes": 1999,
+      "sha256": "78a8df5c73a3c56f2a8f83b62196243727315bbc79df82997ce56da6dce7f3f1",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R008-force-duration-audit/delivery_manifest_r008.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\audit_force_duration.py",
+      "bytes": 14698,
+      "sha256": "a82ffa3a224db94f299bd6c7026141332e5debea3d3809858b58d89b1e0686c2",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R008-force-duration-audit/audit_force_duration.py"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\audit_summary_r008.json",
+      "bytes": 9311,
+      "sha256": "5676c855455c023956fa1f9bbfa48b00e33653caab8e6b57d0a18c380ebb984d",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R008-force-duration-audit/audit_summary_r008.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\independent_devices_192_r008.csv",
+      "bytes": 58834,
+      "sha256": "a78872615036722b9df102437895135bc193c9e8027c6518dbf4ad4cf5088e64",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R008-force-duration-audit/independent_devices_192_r008.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\independent_pairs_672_r008.csv",
+      "bytes": 103787,
+      "sha256": "1898d2cd483b4e45e59227a09dbbdce08449471557a739ef27d79a14bf485d7d",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R008-force-duration-audit/independent_pairs_672_r008.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\protocol.json",
+      "bytes": 6241,
+      "sha256": "ade73742a5a12eaaa29096e09b4ab574b578913c43273e08083b0435ce52fe22",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R008-force-duration-audit/protocol.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R008-force-duration-audit\\run_record_r008.json",
+      "bytes": 1147,
+      "sha256": "4ad6e9d52431c3ebe00c783114f0fa2c843d89693399dfbcf33d5b35a84222b2",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R008-force-duration-audit/run_record_r008.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R006-late-root-acceptance.json",
+      "bytes": 4789,
+      "sha256": "8d1415a52b2956c5bd535af9f4d9ce8d732cfdceb722812ed21e5543290ba420",
+      "repo_relative": "research/sessions/20261017-2109/R006-late-root-acceptance.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R007-draft-v005-review\\R007-draft-v005-review.md",
+      "bytes": 6630,
+      "sha256": "2586e404bac9b5150ffa28d4986f7c13aef69a26d845d1cf253b43123e6af3c2",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R007-draft-v005-review/R007-draft-v005-review.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R007-draft-v005-review\\manifest-R007.json",
+      "bytes": 1627,
+      "sha256": "fb94ab32fefc7743dde06a18ce30a190afc4710158c55a9809396dc37eca23af",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R007-draft-v005-review/manifest-R007.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R007-draft-v005-review\\input-rules-R007.json",
+      "bytes": 6483,
+      "sha256": "dcfbcc31f4d0aa868564ed547e70001bf40319a71fced8028a1383be13bb8c0e",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R007-draft-v005-review/input-rules-R007.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R007-draft-v005-review\\validation-R007.json",
+      "bytes": 7583,
+      "sha256": "dbd2024d8186c7efdbc238175f0b7818a4b6864a2a5c53b5d54897baff8fe350",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R007-draft-v005-review/validation-R007.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\04-root-adoption.json",
+      "bytes": 2216,
+      "sha256": "368820c909d22ca460d2e67769859c134b66c89526472e66b7f7e800514bc5f1",
+      "repo_relative": "research/sessions/20261017-2109/figures/04-root-adoption.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R006-endpoints-root-review.json",
+      "bytes": 741,
+      "sha256": "96ef27fd37ad76c7f0df3004cbc5fad333346b650b4d5caee3f4f61d51ed8beb",
+      "repo_relative": "research/sessions/20261017-2109/R006-endpoints-root-review.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R009-endpoint-domain\\report.md",
+      "bytes": 2845,
+      "sha256": "8874ce9483acc88814c0b36378a80efe22cd9783df7c9b2ef3d8c26641242a31",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R009-endpoint-domain/report.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R009-endpoint-domain\\endpoint_summary_192_r009.csv",
+      "bytes": 81328,
+      "sha256": "45fedbb8bfd95246d98ea981a434e2702e57bf6f6672b6899eed4dd14d694d39",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R009-endpoint-domain/endpoint_summary_192_r009.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R009-endpoint-domain\\summary_r009.json",
+      "bytes": 5242,
+      "sha256": "02f253b5da1ed2e3685f829cdced7643c99588fc2c9a45cecbe881bbbaed6b01",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R009-endpoint-domain/summary_r009.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R009-endpoint-domain\\delivery_manifest_r009.json",
+      "bytes": 1674,
+      "sha256": "00eb07febd7764d2e4f6dbdc363705226c73c00297629b348aff71430fc80c0d",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R009-endpoint-domain/delivery_manifest_r009.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\04_force_duration_examples.png",
+      "bytes": 533940,
+      "sha256": "3bdd1cb84a8f6ad618e27c28db26be452d3ede0c26ed3520fefe7a3974824550",
+      "repo_relative": "research/sessions/20261017-2109/figures/04_force_duration_examples.png"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\04_force_duration_examples.svg",
+      "bytes": 407966,
+      "sha256": "0f66823ebc0bf2b5c1716251b2a0881a4c1e4fc40fdeee80c29d5dbe8ced4e8d",
+      "repo_relative": "research/sessions/20261017-2109/figures/04_force_duration_examples.svg"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\04_four_record_endvalues.csv",
+      "bytes": 571,
+      "sha256": "c1691cbe3f172be8133349e3025670a11831076ff8782ea7156a33a45d3c6408",
+      "repo_relative": "research/sessions/20261017-2109/figures/04_four_record_endvalues.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\04_图注与使用范围.md",
+      "bytes": 922,
+      "sha256": "254ea1d8c0e5960349afed5362fae1ca8c93fd2d6a066292d6544180cc3993c5",
+      "repo_relative": "research/sessions/20261017-2109/figures/04_图注与使用范围.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\布局交换反例全尾解析独审-R021.md",
+      "bytes": 8146,
+      "sha256": "2e76d2637a72ebe9b09e02bbefce9ee282c5fdc72776c33b827c98d9f2cadec5",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/布局交换反例全尾解析独审-R021.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R021-proof-evidence.json",
+      "bytes": 8401,
+      "sha256": "08e8f7e87015675b3152549c5731b6070fedd433e5e063334541149dbf92ceaa",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R021-proof-evidence.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R021-review-validation.json",
+      "bytes": 4879,
+      "sha256": "8a292928589085830062da34ba57cde1943dd9ec4ddab04e1d6cc54d8886ef37",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R021-review-validation.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R013-layout-symmetry-proof\\report.md",
+      "bytes": 8769,
+      "sha256": "7c36b9b06c9602fb2683069d7ab607edc4959bf5005e027cd03701f2fadff91f",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R013-layout-symmetry-proof/report.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R013-layout-symmetry-proof\\input-freeze.json",
+      "bytes": 860,
+      "sha256": "956bd434f63fc70842da88b6fe4b8fa0112fc8dc014834d9c40311b48093f441",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R013-layout-symmetry-proof/input-freeze.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R013-layout-symmetry-proof\\protocol-copy.json",
+      "bytes": 2985,
+      "sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R013-layout-symmetry-proof/protocol-copy.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\report.md",
+      "bytes": 3840,
+      "sha256": "058846db5338ad200fa50555532f41c84e2883137cd89fc25abc9c0f5cb0a471",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/report.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\four_actual_runs_r012.csv",
+      "bytes": 2900,
+      "sha256": "21994dfe90ceeaf62601c2755a104353d6c720faff3ada866563e2358b209514",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/four_actual_runs_r012.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\summary_r012.json",
+      "bytes": 11487,
+      "sha256": "987a974234737ef69e49f780eb071a33f0f88e8813c0e8e8c710a5eb15cd2d3a",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/summary_r012.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\protocol.json",
+      "bytes": 2457,
+      "sha256": "13b73b8306d09215b26fe96a4368e4d068900bd79669803b6a287e4b1e93119b",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/protocol.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\delivery_manifest_r012.json",
+      "bytes": 2125,
+      "sha256": "c6cb2ab90a1d882306d1b08597dd6b3f381738a58cd5a548b25fe79c274434ab",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/delivery_manifest_r012.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\run_record_r012.json",
+      "bytes": 1187,
+      "sha256": "b1fadbdfe0c40ee366d302dd55e325e945be35efdb51435bc658ab005269f5f9",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/run_record_r012.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\step_convergence_r012.csv",
+      "bytes": 1187,
+      "sha256": "7e389b297ebaf3bc65f507df5ecd0e744df050b0e231578da018b25b71671fed",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/step_convergence_r012.csv"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R009-layout-root-adoption.json",
+      "bytes": 1057,
+      "sha256": "ac979fe562a0cb86386b2f4b09e105ab5428018e4905b4113e86bee2d1438d6e",
+      "repo_relative": "research/sessions/20261017-2109/R009-layout-root-adoption.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R009-layout-numerical-root-review.json",
+      "bytes": 6155,
+      "sha256": "2a88a14f6c4748c509ab26dc03094e9f42420b253be2a1fff687bad8647cfbf9",
+      "repo_relative": "research/sessions/20261017-2109/R009-layout-numerical-root-review.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-symmetry-protocol-v001.json",
+      "bytes": 2985,
+      "sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e",
+      "repo_relative": "research/sessions/20261017-2109/layout-symmetry-protocol-v001.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R011\\report.md",
+      "bytes": 8759,
+      "sha256": "e0e5c74329e5cf98b7d34710d30647a84b547d0166afa8548b001c004225357f",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R011/report.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R011\\input-freeze.json",
+      "bytes": 2595,
+      "sha256": "783d191b7de6216df8120ad917e5cc8706c90bedbce122affb4f4c4d12d2452a",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R011/input-freeze.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R011\\validation.json",
+      "bytes": 2333,
+      "sha256": "94fd27af6d1a4d2812ab37435d9c26c8ac93cee3ab8b4e0dc6405dc5b6a21696",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R011/validation.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-theory-appendix-v002.md",
+      "bytes": 16090,
+      "sha256": "5d52e3917c7db6e8794f6c0afee1904853ff9710114957c255b49830b1231e3d",
+      "repo_relative": "papers/damping-output-boundaries/manuscript/maxwell-theory-appendix-v002.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-modal-interface-v001.md",
+      "bytes": 13220,
+      "sha256": "ae16c74eb8f3786b66f1787034ca67b64d86683b8cddde94a26f8a0761a91cc8",
+      "repo_relative": "papers/damping-output-boundaries/manuscript/maxwell-modal-interface-v001.md"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-theory-appendix-v002.json",
+      "bytes": 2297,
+      "sha256": "741dead9c9ea1670f4ab9608b0ff2522de14ca050a6f72a72056eaa3c9089080",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/frozen-theory-appendix-v002.json"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-modal-interface-v001.json",
+      "bytes": 2312,
+      "sha256": "3d11875182ae2b178ddfe5d5b397412f0eb7e30c2f01983d5904876a06eb07a7",
+      "repo_relative": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/frozen-modal-interface-v001.json"
+    }
+  ],
+  "mapping": [
+    {
+      "section": "2.1/2.2 and Figure1",
+      "support": "Native inventory, R001 P/U1 coverage and reviewed R002 response coverage",
+      "limits": "export grid only; no zero-fill or full-device constitutive closure"
+    },
+    {
+      "section": "2.3",
+      "support": "R003 CSI source review, primary pages viewed by master",
+      "limits": "internal P/U1 once-only work; lumped nodal mass separate; JointForce mapping unclosed"
+    },
+    {
+      "section": "3 tables1/2 and Figure2",
+      "support": "R001 energy review CSV; unchanged v001 audited 60-cell tables",
+      "limits": "finite windows; actual background5% unverified; no solver convergence"
+    },
+    {
+      "section": "4 and table3",
+      "support": "R002 protocol/fit summary and R004 independent calculation",
+      "limits": "K2 train/K5 same RH4X transfer; conditional fitted-model estimates, not exported properties or independent events"
+    },
+    {
+      "section": "1/5",
+      "support": "Novelty R002 Hu2019 direct text review",
+      "limits": "damping+stiffness surrogate/reanalysis prior acknowledged; no workflow novelty"
+    },
+    {
+      "section": "5 negative result",
+      "support": "I-M001 independent R003",
+      "limits": "no eligible match; untestable, not disproof"
+    },
+    {
+      "section": "Abstract;4.3/Table4;5;Conclusion3",
+      "support": "Master-accepted R007 independent review and source R003 frozen protocol/summary/metrics",
+      "numeric_QA": "24 cells,11294 points,4 records;alpha/a/b unchanged from R002",
+      "limits": "Given native F, not earthquake forward prediction/independent events/true properties/all88/energy closure;K5 negative bias retained"
+    },
+    {
+      "section": "Abstract;5.1/5.2;AppendixB;Conclusion4",
+      "support": "Accepted R011 and root rank QA; R006 two24row tables;192row summary/rank CSV",
+      "limits": "Native peak and conditional W/Dport;5of24top2membership differences;W/Dport top/bottom membership equal only in current data;not full rank equality, uniform efficacy or optimization"
+    },
+    {
+      "section": "5.3/Figure3",
+      "support": "R009 control positions and root-adopted canonical03 PNG/SVG/72row CSV",
+      "limits": "Per-case/per-metric normalization;not simultaneous/model reduction/independent events"
+    },
+    {
+      "section": "5.4/AppendixC/Conclusion5",
+      "support": "Accepted literatureR005 six controller joins and0/8;K12 exception",
+      "limits": "Sparse exported records,Drift unit unknown;missing force rows not zero force;minimum existing-result export gap,no resolve"
+    },
+    {
+      "section": "6/AppendixD",
+      "support": "Reviewed R008 six-record discrete ledger",
+      "limits": "Fixed conditional model arithmetic;not continuous error bound or true dissipation"
+    },
+    {
+      "section": "Abstract;4.3;AppendixE;Conclusion3",
+      "support": "Accepted verificationR013 report and independent192record summary",
+      "numbers": "1 training K2/RH4X,191 same-model conditional checks;relative worstK13 2.53052%;absolute worstK82/SHW7Y withdenominator,negative bias,end",
+      "limits": "Given nativeF,not independent/unseen events,forward response or true parameters"
+    },
+    {
+      "section": "5.2;AppendixG;Conclusion4",
+      "support": "Accepted noveltyR007 exact LF review + experimentalR008 direct-force audit",
+      "numbers": "RH4X/S8maximum omission.0358518054%,K6/K5tau1.871878/4.168104s,38of672fullpairs17groups",
+      "limits": "Classic normalizedLp identity,tau not threshold duration;neither new metric,cause,risk,independent frequency nor practical gain"
+    },
+    {
+      "section": "6;AppendixF",
+      "support": "Accepted literatureR006 shear review",
+      "limits": "Base/Story1 duplicate outputs;4adjacent witnesses are same-time algebra,Nnot identified force contribution;no damping-caused amplification"
+    },
+    {
+      "section": "5.2/Figure4;AppendixG links",
+      "support": "Root-adopted canonical04 assets,4endvalues matching reviewedR008;writer actual PNG view and20788SVGvertex count",
+      "limits": "Signed force and cumulative normalized-power integralI(t),I(T)=tau;no division bytau;classic conditional explanation,not energy/threshold duration/new causal metric"
+    },
+    {
+      "section": "AppendixF TableF1 caption",
+      "support": "Accepted literatureR007 v005 editorial recommendation",
+      "limits": "Caption only;16old tableblocks unchanged"
+    },
+    {
+      "section": "6 discussion endpoint paragraph",
+      "support": "R009 endpoint report/smallCSV and root R006-endpoints review",
+      "numbers": {
+        "F0_zero": 192,
+        "FT_zero": 0,
+        "both_zero": 0,
+        "net_delta_zero": 0
+      },
+      "limits": "Exact exported endpoint applicability only;nonzero not engineering significance;no extra net-zero requirement,nozero-filling/tail addition,no theorem adoption"
+    },
+    {
+      "section": "Abstract;1;5.5/newTable4;6;Conclusion6",
+      "support": "Role1R013 and independentR021,rootadoption,R012 plusindependentfloatingLTI,noveltyR011",
+      "analytic_result": "SameM/K/C,input,device;onlyBswap;listedglobalhistory,F,totaldelta/speedsame;fixedu1alltail A<1.7/B>8.8;u2swaps/globalmaxsame",
+      "finite_result": "0-6T,dt=T/8192andT/16384 RK4;newtablefinestgrid plusrootLTI floatingvalues;notfulltailproof",
+      "limits": "ConnectedtwoDOFseparatelygrounded,alpha1,fixedreferenceports,nottypicalshearbuilding/realalpha.3/layoutoptimum;classictools,publicationcoverageunresolved"
+    },
+    {
+      "section": "6 links",
+      "support": "Alreadyreviewed maxwell-theory-appendix-v002 andmaxwell-modal-interface-v001",
+      "limits": "Links only,no copiedproofs or actualengineeringconstants"
+    }
+  ],
+  "old_material_preservation": {
+    "tables": 16,
+    "display_formulas": 9,
+    "sections_2_to_5_4_exact": true,
+    "appendices_exact_except_map_version": true
+  },
+  "new_table_identity": "Table4 insection5.5;theonlynewtable",
+  "protocol_erratum": "abs(u_U(T))>9.5, signedu_U(T)<-9.5;root candidate signed shorthand retained as original evidence",
+  "excluded_pending_sources": [
+    "ideationR014 nonlinear symmetry",
+    "experimentR013 nonlinearalpha.3",
+    "residualproposal"
+  ],
+  "original_workbook_inherited_identity": {
+    "bytes": 635525054,
+    "sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+    "reread_this_task": false
+  },
+  "diff": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v007.diff",
+    "bytes": 12634,
+    "sha256": "44e40bea2f480cdf89d77f6bba42f2205203e6f6b0a5beb2672cd267743fda5c"
+  },
+  "snapshot": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v007-session-snapshot.json",
+    "bytes": 762,
+    "sha256": "b2b9c052c0b15b73d8f79ca5f16e0b7399ef8bc2b534b0162c12739af9b56ede"
+  }
+}

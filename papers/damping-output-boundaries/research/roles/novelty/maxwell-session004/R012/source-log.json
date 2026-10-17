@@ -1,0 +1,41 @@
+{
+  "started_at": "2026-10-18T01:02:32+08:00",
+  "logged_at": "2026-10-18T01:07:45+08:00",
+  "root_search_queries": 0,
+  "child_search_queries": 2,
+  "total_queries": 2,
+  "readable_primary_sources": 2,
+  "queries": [
+    "\"incrementally port-Hamiltonian\" monotone",
+    "\"incremental passivity\" \"monotone\" \"quadratic\" port Hamiltonian"
+  ],
+  "primary_sources": [
+    {
+      "title": "Port-Hamiltonian systems and monotonicity",
+      "authors": "M. Kanat Camlibel; Arjan J. van der Schaft",
+      "version": "arXiv2206.09139v1,18June2022;26pages",
+      "url": "https://arxiv.org/pdf/2206.09139v1",
+      "root_read": "section7 PDF23 equations7.1-7.3 and Proposition7.1; text only",
+      "child_read": "sections2-3/5/6.2/7 with monotonicity, shifted and incremental distinctions; exact pages in child report",
+      "direct": "monotone port relation plus quadratic-affine storage supports incremental difference storage",
+      "not_direct": "Maxwell three residuals, weighted rho, sqrt regularization, residual reconstruction/rounding or numerical full-tail certificate"
+    },
+    {
+      "title": "Khalil Lecture21 L2 Gain",
+      "url": "https://www.egr.msu.edu/~khalil/NonlinearSystems/Sample/Lect_21.pdf",
+      "version": "existing author lecture PDF",
+      "sha256": "5e77d45b831756f0f1a1cf0f449b97ca8fc4a9295907f9818ab152b701c516dd",
+      "root_read": "local PDF3-8 text; generic dissipative integral and initial-state term, Lemma6.5",
+      "direct": "one-trajectory dissipative integral tools",
+      "not_direct": "automatic incremental passivity or this mechanical residual identity"
+    }
+  ],
+  "failed_paths_retried": [],
+  "new_fulltexts_saved": 0,
+  "new_screenshots_saved": 0,
+  "unopened_formal_version": "DOI10.1137/22M1503749; not treated as same pagination/verified text",
+  "mathematical_and_numerical_correctness": "not audited here; role1R015 and subsequent role2",
+  "special_dimensionless_certificate_publication": "unconfirmed; no first/new-method claim",
+  "evidence_status": "contract only, no certified residual/roundoff envelope acquired",
+  "ODE_or_real_data": false
+}

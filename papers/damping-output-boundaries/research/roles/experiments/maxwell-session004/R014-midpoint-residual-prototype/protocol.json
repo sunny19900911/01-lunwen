@@ -1,0 +1,33 @@
+{
+  "evidence_id": "M-EXP-R014",
+  "status": "floating_prototype_not_certificate",
+  "frozen_utc": "2026-10-17T17:03:19.244202+00:00",
+  "refs": {
+    "proposal": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\nonlinear03-residual-certificate-proposal-v001.md",
+      "bytes": 4953,
+      "sha256": "c3036ff3bb65116c318374d1c0f06f54577e1b1bcaff08e243051056cc65a6b0"
+    },
+    "nonlinear_root": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+      "bytes": 2341,
+      "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+    },
+    "RK4_scalars": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\summary_r013.json",
+      "bytes": 11545,
+      "sha256": "5ed7827fee6f781792ccc0b798543db7f62bbfd87f12defff18a43f86faf38cd"
+    }
+  },
+  "layout": "A only B=(1,0)",
+  "grid": "N=16384 perT=20pi,6N steps to6T, fixed originalnondimensionalalpha3/10 model. Nootherstep or RK4rerun.",
+  "midpoint": "D=(2/h)I+C+(h/2)K;w=D^-1[(2/h)v-Ku+fmid];d=D^-1e1;Aroot=2/(kappa*h)+d1;Aroot*Fm+g(Fm)=w1+2Fn/(kappa*h);vm=w-dFm,unext=u+hvm,vnext=2vm-v,Fnext=2Fm-F.",
+  "root_solver": "Strictmonotone bracket between0 andRHS/Aroot, safeguardedNewton/bisection, atmost50iterations; acceptactualscalarresidual<=1e-13*max(1,absRHS). Keepactualnonzero root/midpointresiduals. Failure/overflow stop andretaincontext, noadjustment.",
+  "residuals": "Evaluate Du/h-(vnext+v)/2; Dv/h+Cvm+Kum+e1Fm-fmid; DF/(kappa*h)-vm1+g(Fm) fromactualendpointaverages, not declared zero.",
+  "Lg": "Float evaluation (10/3)*c^(-10/3)*max(absFn,absFnext)^(7/3), nominalsegmentderivative bound formula, not certified directed rounding.",
+  "budget": "Exact proposalformula h*(1.001 L1ru+L1rv+3absrF)+h/4*(1.001 L1Dv+L1(CDv+KDu+e1DF)+2h a_n+3(absDv1+Lg absDF));a_n=1 fori<N else0; math.fsum prefix/total.",
+  "candidate_floats": "early=maxnodes|uh1|+I_total;tail=sqrt(2E_end)+I_total;Tlower=absuh2(T)-I_prefix; compareTlower>maxearlytail. Noassertoutcome; allquantities floatingprototype, not intervalupperbounds or fulltailcertificate.",
+  "cache": "Single local-cache/float_midpoint_endpoints_and_diagnostics.npz, onlyoneendpointtrajectory pluspersegment actualresidual/Lg/budgetmetadata; local only notstage/upload/log. Smallpublicblockaggregates andrepresentativeactualresidualrows, no fullarrayCSV. Futureintervalreview canrecompute fromendpoints.",
+  "comparison": "Only originalR013 fineA scalarpeaks/E(T)/endcompleteenergy andbudgetdifferences; do notrerunRK4 or labelenergybalance asstateerror.",
+  "runtime_limit_seconds": 600
+}

@@ -1,0 +1,16 @@
+{
+  "round": "R017",
+  "frozen_at": "2026-10-18T01:20:03.850505+08:00",
+  "elapsed_seconds": 122.850505,
+  "within_4_minute_limit": true,
+  "sources_sha_unchanged": true,
+  "root_fix": "passed pinpoint review",
+  "original_counterexample_now": "TypeError in both entry points",
+  "selfcheck": 453,
+  "extra_integer_root_fraction_checks": 20,
+  "normalized_root_mathbody_text_unchanged": true,
+  "other_function_and_I_class_AST_unchanged": true,
+  "raw_line_ending_difference": "v001 LF to v002 CRLF; no literal entire-byte preservation claim",
+  "text_links_json_QA": "passed",
+  "scope": "Only this new R017 directory written; no ODE, source, R016, shared or Git mutations. Not a whole ODE/peak certificate."
+}

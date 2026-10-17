@@ -1,0 +1,31 @@
+{
+  "round": "R018",
+  "frozen_at": "2026-10-18T01:29:27.663081+08:00",
+  "elapsed_seconds": 269.663081,
+  "within_8_minute_limit": true,
+  "all_frozen_small_sources_sha_unchanged": true,
+  "code_protocol_summary_run_helper_identities": "passed",
+  "exact_fraction_parameter_special_function_checks": "passed",
+  "post_numpy_finite_runtime_probes": 9,
+  "probe_failures": 0,
+  "internal_author_side_checks": 2,
+  "json_utf8_links_QA": "passed",
+  "relative_links": [
+    {
+      "source": "report.md",
+      "target": "input-freeze.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "audit_checks.py",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "audit-results.json",
+      "exists": true
+    }
+  ],
+  "scope": "Only own new R018 directory written; no NPZ, ODE, all-segment budget, source/shared/Git mutation."
+}

@@ -1,0 +1,181 @@
+{
+  "evidence_id": "M-EXP-R014",
+  "status": "floating_prototype_not_certificate",
+  "finished_utc": "2026-10-17T17:05:21.513667+00:00",
+  "elapsed_seconds": 1.08126470001298,
+  "protocol_sha256": "68dd9a7f9d49a4a1d9285ca0918f1d75193bdc72a0b6b22db13489c6a8a5e927",
+  "code_sha256": "4cf6541b4588722b4e80feb48dfcfe93e613e9026180b661a6039cf1a6d99129",
+  "root_parameters_float": {
+    "r": 1.7151372034229122,
+    "kappa": 7.32054571866923,
+    "c": 1.4509313182238688,
+    "alpha": 0.3,
+    "q": 3.3333333333333335,
+    "h": 0.003834951969714103,
+    "N": 16384,
+    "steps": 98304,
+    "D_diag": 521.6208868920085,
+    "D_offdiag": -5.189250095365074e-05,
+    "root_linear_coefficient": 71.24235976288881
+  },
+  "candidate_float_diagnostics": {
+    "all_floating_not_certified": true,
+    "I_prefix_T_float_not_upper": 0.7561184867483092,
+    "I_total_6T_float_not_upper": 1.0158817207688768,
+    "fixed_T_abs_uh2": 9.565549662913114,
+    "fixed_T_signed_uh2": -9.565549662913114,
+    "all_node_max_abs_uh1": 0.3081526999791733,
+    "terminal_energy_float_not_upper": 0.0033367562147395436,
+    "candidate_early_upper_float": 1.3240344207480501,
+    "candidate_tail_upper_float": 1.097573289669707,
+    "candidate_T_lower_float": 8.809431176164804,
+    "candidate_nominal_margin": 7.485396755416754,
+    "candidate_nominal_separation": true
+  },
+  "residual_float_summary": {
+    "r_u1": {
+      "maximum_abs_float": 7.229893767002338e-15,
+      "nonzero_count": 97982,
+      "smallest_abs_nonzero_float": 1.3552527156068805e-20
+    },
+    "r_u2": {
+      "maximum_abs_float": 2.318145675417327e-13,
+      "nonzero_count": 97019,
+      "smallest_abs_nonzero_float": 3.1763735522036263e-22
+    },
+    "r_v1": {
+      "maximum_abs_float": 5.795364188543317e-14,
+      "nonzero_count": 75091,
+      "smallest_abs_nonzero_float": 1.734723475976807e-18
+    },
+    "r_v2": {
+      "maximum_abs_float": 2.2721824421978454e-12,
+      "nonzero_count": 97455,
+      "smallest_abs_nonzero_float": 1.3552527156068805e-20
+    },
+    "r_F": {
+      "maximum_abs_float": 5.8528737412189e-12,
+      "nonzero_count": 98289,
+      "smallest_abs_nonzero_float": 3.220828370897243e-20
+    },
+    "Lg_float_nominal": {
+      "maximum_abs_float": 0.729241105961278,
+      "nonzero_count": 98304,
+      "smallest_abs_nonzero_float": 4.815161957993748e-17
+    },
+    "scalar_root_residual": {
+      "maximum_abs_float": 5.8477667153056245e-12,
+      "nonzero_count": 61493,
+      "smallest_abs_nonzero_float": 8.131516293641283e-20
+    }
+  },
+  "root_iteration_histogram": {
+    "1": 4,
+    "2": 69497,
+    "3": 28787,
+    "4": 13,
+    "27": 1,
+    "29": 1,
+    "30": 1
+  },
+  "terminal_energy_float_components": {
+    "kinetic": 1.184797512777619e-09,
+    "physical_elastic": 0.002935420528188114,
+    "device_spring": 0.0004013345017539166,
+    "total": 0.0033367562147395436
+  },
+  "energy_T_float_components": {
+    "kinetic": 0.02743991650200586,
+    "physical_elastic": 45.810040405780505,
+    "device_spring": 0.0009121433675288838,
+    "total": 45.83839246565004
+  },
+  "additional_midpoint_work_balance_not_state_error": {
+    "W_T": 223.7653263827345,
+    "Db_T": 172.72978128717452,
+    "Dd_T": 5.197152629929406,
+    "W_terminal": 223.7653263827345,
+    "Db_terminal": 218.53962953171526,
+    "Dd_terminal": 5.222360094833992,
+    "max_abs_balance_float": 3.6201264208557404e-11
+  },
+  "comparison_to_frozen_RK4_scalars": {
+    "RK4_not_rerun": true,
+    "same_fixed_N_and_window": true,
+    "midpoint_sampled_u1_abs_peak": 0.3081526999791733,
+    "midpoint_u1_peak_time": 2.4428644047078834,
+    "midpoint_u1_peak_signed": 0.3081526999791733,
+    "midpoint_sampled_force_abs_peak": 0.8872860974469875,
+    "midpoint_force_peak_time": 4.98160260865862,
+    "midpoint_force_peak_signed": -0.8872860974469875,
+    "midpoint_minus_RK4_u1_peak": 7.543803043352781e-08,
+    "midpoint_minus_RK4_F_peak": -9.54976713596345e-07,
+    "midpoint_minus_RK4_E_T": 6.270977021216595e-05,
+    "midpoint_minus_RK4_terminal_E": -1.2330102737000831e-08
+  },
+  "checks": {
+    "one_A_midpoint_98304_steps_only": true,
+    "all_float_values_finite": true,
+    "all_monotone_roots_accepted_actual_residuals_kept": true,
+    "all_midpoint_residuals_recomputed_from_endpoints": true,
+    "all_budget_terms_retained_nonnegative": true,
+    "all_source_and_protocol_SHA_unchanged": true,
+    "runtime_below600seconds": true
+  },
+  "source_refs": {
+    "proposal": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\nonlinear03-residual-certificate-proposal-v001.md",
+      "bytes": 4953,
+      "sha256": "c3036ff3bb65116c318374d1c0f06f54577e1b1bcaff08e243051056cc65a6b0"
+    },
+    "nonlinear_root": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+      "bytes": 2341,
+      "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+    },
+    "RK4_scalars": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R013-layout-nonlinear03-synthetic\\summary_r013.json",
+      "bytes": 11545,
+      "sha256": "5ed7827fee6f781792ccc0b798543db7f62bbfd87f12defff18a43f86faf38cd"
+    }
+  },
+  "local_only_cache_not_stage_or_upload": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R014-midpoint-residual-prototype\\local-cache\\float_midpoint_endpoints_and_diagnostics.npz",
+    "bytes": 8723666,
+    "sha256": "7f0d5c179442897646d1a3d5073c7f1171ef9d6c9db0ad96d0e12aa9792ee903",
+    "endpoint_columns": [
+      "t",
+      "u1",
+      "u2",
+      "v1",
+      "v2",
+      "F"
+    ],
+    "endpoints_shape": [
+      98305,
+      6
+    ],
+    "segment_diagnostic_columns": [
+      "r_u1",
+      "r_u2",
+      "r_v1",
+      "r_v2",
+      "r_F",
+      "Lg_float_nominal",
+      "scalar_root_residual",
+      "budget_midpoint",
+      "budget_variation",
+      "budget_total",
+      "root_iterations"
+    ],
+    "segment_diagnostics_shape": [
+      98304,
+      11
+    ]
+  },
+  "outputs": {
+    "six_block_budget_diagnostics.csv": "25f5aa32dd36a3c45332408de87a611197e295d9dab3cdc60e7c52bee490bd3d",
+    "representative_nonzero_residuals.csv": "eb34c29e7b8e1ff7a2a5795f0d085c52471bb232842dacaece1f59552521c492",
+    "report.md": "d570190cf07066ee49cd7a854080995d78a4e7ba9581c90edcaca6baf3e13771"
+  }
+}

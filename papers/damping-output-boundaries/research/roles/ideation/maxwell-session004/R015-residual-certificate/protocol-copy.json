@@ -1,0 +1,19 @@
+{
+  "id": "M-SYN-LAYOUT-N03-001",
+  "frozen_at": "2026-10-18T00:50:23.871780+08:00",
+  "status": "candidate;not actual engineering or a fullpeak proof",
+  "object": "Test exact energy/per-device history invariance and finite-grid fixedoutput separation in the nonlinear alpha0.3 subclass,without claiming alpha1 analytic peak bounds transfer",
+  "source_protocol_sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e",
+  "mechanics": "M=I2;epsilon=.001;K=I+epsilon[[1,-1],[-1,1]];w=sqrt(1+2epsilon);C=.1*w/(1+w)*I+.1/(1+w)*K;two individuallygrounded masses linked bypositive coupling spring;device portsA=e1,B=e2 tosame fixedreference",
+  "device": "nondimensional generalized parameters:rootr in(1.7,1.73),r^3-3r+.1=0;kappa=3r^2-1-.1r^3;c=kappa/r^3;alpha=3/10,q=10/3;Fdot=kappa*(Bv-sign(F)*(abs(F)/c)^q)",
+  "input": "f=(1,1)sin(t) for0<=t<=T=20pi,zero thereafter;allinitialstateszero",
+  "fairness": "Onlycompare A and B within thisalpha0.3pair;retaining numeric c whilechanging alpha doesnotrepresent the same physical damper or same dimensional c acrossalphas. Noactual477/500000 calibration orunits/engineeringprediction",
+  "target": "samefixedu1;analytic work must separate exact invariance from any notyetproved full-time peak separation",
+  "numerics": {
+    "algorithm": "independent standardRK4 bothlayouts,dt=T/8192 andT/16384,to6T;inputcutoffexactstep;noETABS",
+    "states": "u1,u2,v1,v2,F,Win,Db,Dd;Dd_dot=abs(F)*(abs(F)/c)^q;Espring=F^2/(2kappa)",
+    "report": "fourrun sampledlocal/device peaks withtime/sign,permutation/history residuals,energybalance,step differences andnonzero terminalenergy;futuretailbounds only conditional oncertified energy upperbound,not label floatingE actualupper",
+    "no_posthoc": "Nochangedparameters/window/target/thirdstep onoutcomes;overflow/failure retained andstop,do not clip force/energy. No fullarray files ornewdependencies."
+  },
+  "analytic_task": "Read noveltyR011 first;prove nonlinear exact permutation/uniqueness forfixedalpha0.3,identity ofspecifiedglobalenergy anddeviceF/totaldelta histories;derive classic conditionaltailoutputbound afterinputstop usingpositiveM/K andenergy upperbound. Do nottransfer linearHD or1.7/8.8 bounds,prove numericalpeak separation orclaim newtheory;identify remainingnumericalerror/certificationgate."
+}

@@ -1,0 +1,35 @@
+{
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R025\\isolated-run\\enclose_residual_budget_v002.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 10.888333099996089,
+  "finished_utc": "2026-10-17T17:27:45.211049+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy_decoder": "2.3.5",
+  "IEEE_contract": {
+    "radix": 2,
+    "mant_dig": 53,
+    "max_exp": 1024,
+    "rounds": 1
+  },
+  "helper_sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd",
+  "actual_loaded_helper_file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v002.py",
+  "degree_guard_rejections_checked": 10,
+  "degree_contract": "All successful root calls pass v002 builtinint2/3 guards; no float/Fraction/string/bool degree in residual chain",
+  "code_sha256": "e46c63bc85ed2a00828a5877b0ce3f7131c3e8b386368cdcc6b645a87bdd7942",
+  "summary_sha256": "cf93733baa2bb02aad86eb40bf329a8cbb3b62c7e8ffd21c07ea502d502e1f58",
+  "checks": {
+    "only_endpoints_decoded_no_cached_t_or_old_diagnostics_used": true,
+    "all_initial_stored_states_exact_zero": true,
+    "exact_Fraction_cubic_signs_and_monotonicity_passed": true,
+    "kappa_enclosed_strictly_between7and8": true,
+    "all98304_residual_segments_outward_evaluated": true,
+    "global_sum_every_step_upward": true,
+    "all_source_and_own_protocol_SHA_unchanged": true,
+    "runtime_below600seconds": true
+  }
+}

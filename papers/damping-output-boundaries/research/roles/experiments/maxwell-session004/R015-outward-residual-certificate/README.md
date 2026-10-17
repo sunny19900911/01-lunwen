@@ -1,0 +1,1 @@
+当前交审入口：v002-run/report.md、summary_r015.json及实际run_record。根目录原protocol/script/report/summary是v001历史候选，存在已记录公共root degree类型API漏洞，不能作为v001整体证书接纳。见revision-notes.md。v002另冻新协议，在同一模型/同一缓存端点上重算残差包络，未ODE重算或改参数。所有结果仍待数学、helper修复及完整实现独审，不能自行称全尾证明。旧字节及缓存不改，无新完整数组。

@@ -1,0 +1,15 @@
+{
+  "round": "R016",
+  "reviewed_source_sha256": "539c60958ececa73b72c160b60a1da7f4925bbdae268f79acef07101cde64a4b",
+  "verdict": "MUSTFIX exposed floating-degree root API; no unconditional helper approval",
+  "confirmed_counterexample": "root_endpoint(.1,2.0) returns finite point not containing exact square root",
+  "recommended_new_version": "Require genuine integer degrees before Fraction exponentiation; regression-test both root entries",
+  "conditional_core_scope": "Finite legitimate binary64 inputs; exact rational input uses rational; integer degree2/3; nearest IEEE operations, gradual underflow, correct nextafter, exact Fraction semantics",
+  "not_reviewed": [
+    "any newer helper version",
+    "ODE residual interval implementation",
+    "certified I sum or terminal energy",
+    "continuous/fulltail peak certificate"
+  ],
+  "source_mutation": "none"
+}

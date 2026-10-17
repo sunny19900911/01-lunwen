@@ -1,0 +1,153 @@
+{
+  "review": "R024",
+  "session": "20261017-2109",
+  "started_at": "2026-10-18T01:09:48+08:00",
+  "deadline": "2026-10-18T01:19:48+08:00",
+  "recorded_at": "2026-10-18T01:15:10.594656+08:00",
+  "required_changes": 0,
+  "verdict": "Full residual error-storage theorem, PL output/tail merge, midpoint scalar elimination and h/4 segment bound are correct conditional mathematics. No numerical certificate or nonlinear full-peak separation has been admitted.",
+  "proposal": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\nonlinear03-residual-certificate-proposal-v001.md",
+    "bytes": 4953,
+    "sha256": "c3036ff3bb65116c318374d1c0f06f54577e1b1bcaff08e243051056cc65a6b0"
+  },
+  "protocol": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+    "bytes": 2341,
+    "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+  },
+  "author_source_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R015-residual-certificate\\algebra-checks.json",
+      "bytes": 411,
+      "sha256": "acdde04074f96809fbb949fbb576576c02e436daa7cc1012ccd91978f8a60c59"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R015-residual-certificate\\artifact-manifest.json",
+      "bytes": 1299,
+      "sha256": "6172a3f502e7308dd4f0b1796926f577b0561fe8a755e8934a3af8a7c58be010"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R015-residual-certificate\\cross-checks.md",
+      "bytes": 1995,
+      "sha256": "e75a45162e5c18fadf379b7e5ee01132d747202525db61373b4a185f4a10a9ec"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R015-residual-certificate\\input-freeze.json",
+      "bytes": 1247,
+      "sha256": "4fb56f20b6eb27f272b7ba69034b7ece14176530edaad52069f20e3c660269f7"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R015-residual-certificate\\proof-scope.json",
+      "bytes": 1515,
+      "sha256": "b94f92ad195d195d5eef65b1b60da1dc7c0c7ac3e31fbaa32ad835c5113ce533"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R015-residual-certificate\\proposal-copy.md",
+      "bytes": 4953,
+      "sha256": "c3036ff3bb65116c318374d1c0f06f54577e1b1bcaff08e243051056cc65a6b0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R015-residual-certificate\\protocol-copy.json",
+      "bytes": 2341,
+      "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R015-residual-certificate\\report.md",
+      "bytes": 10391,
+      "sha256": "99dc012fea9d62b34f224bd24d626ec04cb54c8a6980110444ae1b522efa8ff9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R015-residual-certificate\\validation.json",
+      "bytes": 2028,
+      "sha256": "d21ae11e5fe6160c7a3aeef9126026916989a394de95ae9635707d8742432474"
+    }
+  ],
+  "prototype_report_context_only": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R014-midpoint-residual-prototype\\report.md",
+    "bytes": 3101,
+    "sha256": "d570190cf07066ee49cd7a854080995d78a4e7ba9581c90edcaca6baf3e13771"
+  },
+  "accepted_domain": "Fixed SPD M/K, PSD C, positive kappa, fixed power-conjugate port and real monotone g along a legal true solution; finite continuous piecewise-AC reconstruction with integrable full residual, same true parameters/input and finite initial error. Frozen model q=10/3; passive tail additionally requires F*g(F)>=0 and no future external work.",
+  "proof_checks": {
+    "full_ru_rv_rF_against_true_input_and_parameters": true,
+    "error_equations_true_minus_approximate_all_signs": true,
+    "K_and_port_cross_terms_cancel": true,
+    "monotone_g_difference_dissipation_nonpositive": true,
+    "rho_squared_weights_K_Minverse_kappa": true,
+    "nonzero_initial_error_R0_retained": true,
+    "sqrt_regularization_at_zero_error_energy": true,
+    "continuous_finite_piecewise_AC_integrals_glue": true,
+    "state_jumps_require_H_norm_jump_sum": true,
+    "error_energy_not_energy_difference_or_global_balance": true,
+    "fixed_output_error_sqrt_SK_times_R0_plus_I": true,
+    "continuous_PL_absolute_max_at_nodes_for_approximate_output_only": true,
+    "I_s_true_monotonicity_covers_early_true_error_without_sampling_gap_guess": true,
+    "fixed_T_B_lower_from_exact_nonlinear_swap_and_nonnegative_truncation": true,
+    "passive_true_tail_requires_Fg_nonnegative_not_monotonicity_alone": true,
+    "full_terminal_device_storage_in_Ehat_upper": true,
+    "energy_triangle_combines_terminal_approximate_and_error_energy": true,
+    "strict_B_lower_exceeds_max_early_and_infinite_tail_A_upper": true,
+    "zero_initial_and_SK_at_most_one_reduces_to_proposal": true,
+    "midpoint_D_positive_definite_elimination": true,
+    "scalar_root_positive_linear_plus_continuous_monotone_g_unique_onto": true,
+    "updates_do_not_certify_float_root_or_linear_solve_residual_zero": true,
+    "actual_final_stored_endpoint_means_define_certified_PL_midpoints": true,
+    "whole_segment_ru_includes_minus_theta_Dv_even_if_midpoint_ru_zero": true,
+    "whole_segment_rv_includes_combined_linear_increment_and_true_input_variation": true,
+    "whole_segment_rF_includes_BDv_and_Lg_DF": true,
+    "Lg_endpoint_absolute_max_covers_whole_linear_F_segment_including_cross_zero": true,
+    "sqrtK_operator_below_1_001_and_sqrt_kappa_below_three": true,
+    "l1_residual_weight_three_not_inverse_sqrt_kappa": true,
+    "normalized_absolute_theta_integral_one_quarter": true,
+    "input_l1_factor_two_h_an_and_cutoff_segment_classification": true,
+    "complete_h_over_four_budget_and_all_midpoint_terms": true,
+    "all_envelopes_norms_and_sums_need_certification": true,
+    "ordinary_float_I_or_energy_balance_not_certified_Ibar": true,
+    "no_helper_code_or_ODE_run_reviewed": true
+  },
+  "four_nonnegotiable_contracts": [
+    "Continuous reconstruction, or add all state-jump H norms.",
+    "Retain the whole-segment ru contribution, not only its midpoint value.",
+    "True post-load tail needs F*g(F)>=0 and no omitted external work.",
+    "Evaluate residuals on final stored-endpoint reconstruction, or rigorously cover differences from internal working midpoints."
+  ],
+  "exact_scalar_checks": {
+    "one_point_001_squared_minus_Kmax": "1/1000000",
+    "kappa_upper_bound": "37437/5000",
+    "normalized_abs_theta_integral": "1/4"
+  },
+  "read_only_collaborators": [
+    {
+      "agent": "kernel_sharp_audit",
+      "focus": "full error theorem, monotonicity, initial/jump and output/tail merge",
+      "required_changes": 0
+    },
+    {
+      "agent": "r006_sharp_challenge",
+      "focus": "midpoint elimination, unique scalar root and final endpoint reconstruction",
+      "required_changes": 0
+    },
+    {
+      "agent": "audit_double_mode",
+      "focus": "h/4 L1 budget, conservative weights, full-segment Lg and tail passivity",
+      "required_changes": 0
+    }
+  ],
+  "helper_implementation_reviewed": false,
+  "prototype_runs_reverified": false,
+  "certified_numeric_envelopes_obtained": false,
+  "nonlinear_full_peak_order_certified": false,
+  "real_or_cached_arrays_read": false,
+  "ODE_or_solver_run": false,
+  "external_search": false,
+  "protocol_parameters_or_scale_changed": false,
+  "source_old_shared_manuscript_Git_writes": false,
+  "limits": [
+    "Mathematical conditions pass separately from any numerical implementation.",
+    "Current prototype float I, candidate positive margin, end energy, balance or step differences are not certification.",
+    "No outward helper code audit or trajectory computation in this round.",
+    "Exact true parameters/time/input, reconstruction, nonlinear values, norms, sums, initial error and outputs need independent outward certification.",
+    "No engineering or novelty claim; stop after frozen handoff."
+  ]
+}

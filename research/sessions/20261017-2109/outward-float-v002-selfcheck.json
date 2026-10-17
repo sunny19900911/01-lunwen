@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-18T01:13:54.302686+08:00",
+  "old_version_sha256": "539c60958ececa73b72c160b60a1da7f4925bbdae268f79acef07101cde64a4b",
+  "old_API_issue": "root_endpoint(.1,2.0) could usefloat Fraction exponent and falsely collapse enclosure;originalmodule preserved",
+  "new_version_sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd",
+  "actual_command": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "research\\sessions\\20261017-2109\\outward_float_v002.py"
+  ],
+  "exit_code": 0,
+  "result": {
+    "passed": true,
+    "exact_rational_regression_checks": 453,
+    "pi_float_interval": [
+      3.141592653589793,
+      3.1415926535897936
+    ],
+    "basic_operation_contract": "round-to-nearest IEEE binary64; finite arithmetic, nextafter widening; unsupported/nonfinite operations fail closed",
+    "scope": "Helper regression only; endpoint powers and Taylor/alternating bounds explicit. Not an ODE residual implementation or a continuous/fulltail peak certificate."
+  },
+  "status": "v002 authored repair and453finitechecks passed;independent fix review pending,not ODEcertificate"
+}

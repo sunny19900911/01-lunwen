@@ -1,0 +1,47 @@
+{
+  "evidence_id": "M-EXP-R015",
+  "status": "candidate_outward_residual_enclosure_pending_math_helper_implementation_reviews",
+  "frozen_utc": "2026-10-17T17:16:39.676257+00:00",
+  "refs": {
+    "helper": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v002.py",
+      "bytes": 10360,
+      "sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd"
+    },
+    "nonlinear_root": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+      "bytes": 2341,
+      "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+    },
+    "proposal": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\nonlinear03-residual-certificate-proposal-v001.md",
+      "bytes": 4953,
+      "sha256": "c3036ff3bb65116c318374d1c0f06f54577e1b1bcaff08e243051056cc65a6b0"
+    },
+    "endpoint_cache": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R014-midpoint-residual-prototype\\local-cache\\float_midpoint_endpoints_and_diagnostics.npz",
+      "bytes": 8723666,
+      "sha256": "7f0d5c179442897646d1a3d5073c7f1171ef9d6c9db0ad96d0e12aa9792ee903"
+    },
+    "helper_authored_regression_record": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward-float-v002-selfcheck.json",
+      "bytes": 1227,
+      "sha256": "d2e23d683c9cab4c0e8e0d2b943965d7ca8db75fb406a81054fa9244d9d7903e"
+    }
+  },
+  "trajectory": "Only endpoints array, exact storedbinary64 u/v/F values. Ignorecachedtime andsegmentdiagnostics; noODE rerun ornewarraycache.",
+  "model": "ExactKdiag1001/1000,Koff-1/1000;w=root(501/500,2);Cdiag=(1+w)/20,Coff=(1-w)/20;r rationalbracket1.7151372034229..1.7151372034230, exactFraction cubic signs/positive derivative; kappa=3r²-1-r³/10,c=kappa/r³ and7<kappa<8.",
+  "grid_input": "N=16384;h=20PI/N enclosed withhelper.PI;midinputsin(pi*(20n+10)/N) viahelper.sin_pi_ratio for n<N elseexact0. No useofcachedt asactualgrid.",
+  "residual": "Storedendpoint arithmeticmidpoint inI; I Du/Dv/DF; full ru,rv,rF withactualK/C/kappa/c,input. g_power_10_3 andg_derivative_upper onexactendpointmaxforce. NeverimportinternalFm orfloatresidual.",
+  "budget": "Allh/h4formula terms inI incl1.001=1001/1000; addglobalupperwithhelper.up(prev_hi+step_hi); saveprefixatN andtotalat6N,perTblocks andnonzero residualupperdiagnostics. No cancel/clip.",
+  "terminal": "EnergyIwithtrueK/kappa; sqrtcertifiedhelper.root. Exactstoredmaxabsuh1; lower=down(absuh2_N-I_prefix);early=up(maxuh1+I_total);tail=up(root(2Ehatupper).hi+I_total);gap=down(lower-maxearlytail).",
+  "review_gate": "Strict positive candidategap maybereported only asconditional candidate; no proof beforemathR024,helperR016 andimplementation independentreviews. Binary64rounding/helper/root/sin/power/sums/energycontracts recorded.",
+  "runtime_limit_seconds": 600,
+  "failure": "Any interval/helper/nonfinite/runtimefailure recorded andexit; noadjustments/retry ornewODE.",
+  "helper_revision": "v002; v001 public non-intdegree API counterexample retained; priorv001 run is historicalcandidate, notendorsedcertificate.",
+  "root_degree_calls": "Only builtinint2 explicit andbuiltinint3 internalcalls; v002 guards bothrootentrypoints. Actual10invaliddegree rejection prechecks included, not independenthelperproof.",
+  "prior_v001_protocol": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\protocol.json",
+    "sha256": "8543f34ae7f53aff461120600bee76bea944f012c8211fb88c09697f4429474f"
+  }
+}

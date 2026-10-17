@@ -1,0 +1,96 @@
+{
+  "evidence_id": "M-EXP-R015",
+  "status": "v002_candidate_pending_math_helper_implementation_reviews",
+  "completed_utc": "2026-10-17T17:18:20.916916+00:00",
+  "v001_history_preserved_not_general_certificate": true,
+  "actual_v002_command": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\enclose_residual_budget_v002.py"
+  ],
+  "v002_exit_code": 0,
+  "v002_elapsed_seconds": 11.070571799995378,
+  "v002_loaded_helper_file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v002.py",
+  "v002_loaded_helper_SHA": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd",
+  "invalid_degree_rejections": 10,
+  "candidate_numeric_bounds_same_as_v001_internal_int_path": true,
+  "delivery_QA": "All source/outputSHA, sixblockCSV, UTF8, compilation, loadedhelper identity/guards and noarrayfiles checked; no newODE/cache or posthocparameter changes.",
+  "files": [
+    {
+      "name": "enclose_residual_budget.py",
+      "bytes": 13261,
+      "sha256": "d96332a605f53d0291da0867320d71807f33fe6b4f7ee8c8bf1b2933448685e7"
+    },
+    {
+      "name": "protocol.json",
+      "bytes": 3111,
+      "sha256": "8543f34ae7f53aff461120600bee76bea944f012c8211fb88c09697f4429474f"
+    },
+    {
+      "name": "README.md",
+      "bytes": 505,
+      "sha256": "961067812c55b547177cc9a0b954f10dd693cff8daf3efa65e77433be1f548f7"
+    },
+    {
+      "name": "report.md",
+      "bytes": 2159,
+      "sha256": "db7843b0cd1bcfbafd8b77f50a8bd39e7f97e4368d26c0bfbb09fc73e8a7fa39"
+    },
+    {
+      "name": "revision-notes.md",
+      "bytes": 464,
+      "sha256": "d7b651a66e36ca14ac0dcf34df920072284e81c3e61f1750909b9b99d21a1e56"
+    },
+    {
+      "name": "run_record_r015.json",
+      "bytes": 1462,
+      "sha256": "9b4aa0151d0526f63c72cddad39f8d746464a7ad0004fb9b0513644088c5d02a"
+    },
+    {
+      "name": "six_block_outward_budget.csv",
+      "bytes": 1544,
+      "sha256": "ba5a22a8b5f11fe059266931d1b3bee67237d9b14542838f767838acfeff7d92"
+    },
+    {
+      "name": "summary_r015.json",
+      "bytes": 7499,
+      "sha256": "c83cef921f81548df012e96e882ce83ff2b8bff13c97949544c103fcd5221770"
+    },
+    {
+      "name": "v002-run\\enclose_residual_budget_v002.py",
+      "bytes": 14024,
+      "sha256": "e46c63bc85ed2a00828a5877b0ce3f7131c3e8b386368cdcc6b645a87bdd7942"
+    },
+    {
+      "name": "v002-run\\helper-revision-scope.md",
+      "bytes": 809,
+      "sha256": "8962efbbb78ad389144a3d68af366b428cc55c46f45dbe2b47966db10857e3e1"
+    },
+    {
+      "name": "v002-run\\protocol.json",
+      "bytes": 4143,
+      "sha256": "2501ac448057cd453e562ca86af2397cfa5397a1b9bda8f9d1009a4b43ceefbd"
+    },
+    {
+      "name": "v002-run\\report.md",
+      "bytes": 2159,
+      "sha256": "db7843b0cd1bcfbafd8b77f50a8bd39e7f97e4368d26c0bfbb09fc73e8a7fa39"
+    },
+    {
+      "name": "v002-run\\run_record_r015.json",
+      "bytes": 1837,
+      "sha256": "a3618dacb676e0aefa6abf8e0d53a7aea4b16c90557e827288b0726e230c9fad"
+    },
+    {
+      "name": "v002-run\\six_block_outward_budget.csv",
+      "bytes": 1544,
+      "sha256": "ba5a22a8b5f11fe059266931d1b3bee67237d9b14542838f767838acfeff7d92"
+    },
+    {
+      "name": "v002-run\\summary_r015.json",
+      "bytes": 7833,
+      "sha256": "c988d2eee1b6fce80b3838fc954a4cc8eaa3c5c3a7b61ef052f0df29bee57398"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "round": "R018",
+  "verdict": "Pass targeted parameter/time/special-function/constant/helper checks under explicit machine contract; no new MUSTFIX",
+  "included": [
+    "exact rational root bracket and uniqueness",
+    "kappa/c monotonic range enclosure",
+    "K/w/C identities and interval directions",
+    "true pi grid, integer sin phase and aligned cutoff",
+    "builtin int root degrees and rational/point semantics",
+    "signed g and derivative direction",
+    "sqrt of reported terminal energy upper endpoint",
+    "post-NumPy finite runtime probes"
+  ],
+  "excluded": [
+    "reading endpoint NPZ or actual arrays",
+    "ODE integration",
+    "98304 residual segments and total accumulation",
+    "certification of terminal Ehi itself",
+    "output comparison/fulltail peak certification",
+    "permanent or retrospective hardware-mode proof"
+  ],
+  "division_of_work": "R025 audits full residual implementation, sums and output combination. Two internal author-side checks do not replace it.",
+  "engineering_scope": "Nondimensional synthetic parameters only; not physical477/500000 or engineering recommendation."
+}

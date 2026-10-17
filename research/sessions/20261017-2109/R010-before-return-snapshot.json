@@ -1,0 +1,96 @@
+{
+  "fetch_started_utc": "2026-10-17 17:33:17 UTC",
+  "fetch_ended_utc": "2026-10-17 17:33:17 UTC",
+  "snapshots": [
+    {
+      "timedOut": false,
+      "wake": {
+        "reason": "turnCompleted",
+        "turnId": "01a14ae5-10f8-7c01-a666-1aad3b57c50e",
+        "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+        "hostId": "local"
+      },
+      "polls": [
+        {
+          "schemaVersion": 1,
+          "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:72",
+          "revision": 72,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+            "hostId": "local",
+            "status": {
+              "type": "idle"
+            }
+          },
+          "latestTurn": {
+            "id": "01a14ae5-10f8-7c01-a666-1aad3b57c50e",
+            "status": "completed",
+            "error": null,
+            "startedAt": 1792257888,
+            "completedAt": 1792258190,
+            "durationMs": 302461
+          },
+          "latestAssistantMessageId": "msg_0fdbbf9b10a3adb0016ad3b08e30588195873dd628d724cf90",
+          "latestAssistantMessage": {
+            "id": "msg_0fdbbf9b10a3adb0016ad3b08e30588195873dd628d724cf90",
+            "turnId": "01a14ae5-10f8-7c01-a666-1aad3b57c50e",
+            "phase": "final_answer",
+            "text": "R018已冻结并交主控：参数包络、时间相位、特殊函数及 helper 调用的限定复核通过，未发现新的必须修复问题。 导入 NumPy 后9项运行探针通过；完整残差累加、末能量及峰值证书仍由 R025 审核。 复核报告"
+          },
+          "latestToolMarkerId": "exec-a813ee7d-4085-4674-88b3-dd3e25710faa",
+          "latestToolMarker": {
+            "id": "exec-a813ee7d-4085-4674-88b3-dd3e25710faa",
+            "turnId": "01a14ae5-10f8-7c01-a666-1aad3b57c50e",
+            "type": "mcpToolCall",
+            "name": "send_message_to_thread",
+            "status": "completed"
+          }
+        }
+      ]
+    },
+    {
+      "timedOut": true,
+      "wake": null,
+      "polls": [
+        {
+          "schemaVersion": 1,
+          "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:104",
+          "revision": 104,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-7fe0-75f3-8671-bcd59e413052",
+            "hostId": "local",
+            "status": {
+              "type": "active",
+              "activeFlags": []
+            }
+          },
+          "latestTurn": {
+            "id": "01a14ae5-0f00-78d3-8e15-37e212f52990",
+            "status": "inProgress",
+            "error": null,
+            "startedAt": 1792257888,
+            "completedAt": null,
+            "durationMs": null
+          },
+          "latestAssistantMessageId": "msg_058500d59acbf314016ad3b0f3528c8196b11989d57c93c5eb",
+          "latestAssistantMessage": {
+            "id": "msg_058500d59acbf314016ad3b0f3528c8196b11989d57c93c5eb",
+            "turnId": "01a14ae5-0f00-78d3-8e15-37e212f52990",
+            "phase": "commentary",
+            "text": "隔离复跑完成，98,304 段预算的关键结果与冻结包逐位一致。我还用未导入 helper 的独立 Fraction 运算挑战了五类最大残差所在段、末能量及最终取整方向，均通过；未发现必须修改项。整体证书准入仍须合并 helper 与运行环境的另审结论。"
+          },
+          "latestToolMarkerId": "exec-84f42f3d-deb8-4bd6-ab30-2aef6ada655d",
+          "latestToolMarker": {
+            "id": "exec-84f42f3d-deb8-4bd6-ab30-2aef6ada655d",
+            "turnId": "01a14ae5-0f00-78d3-8e15-37e212f52990",
+            "type": "fileChange",
+            "name": "fileChange",
+            "status": "completed"
+          }
+        }
+      ]
+    }
+  ]
+}

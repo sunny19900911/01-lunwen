@@ -1,0 +1,66 @@
+{
+  "at": "2026-10-18T01:40:33.023125+08:00",
+  "claim": "M-C025",
+  "status": "reviewed conditional analytic derivation plus validated numerics;not formal unconditional machine certification",
+  "checked_sources": {
+    "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R025/report.md": "66f510510a1f659a996920c14bb5c73e8211bd48c9c147806f3e829a6c704b85",
+    "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R025/R025-proof-evidence.json": "c7cd15372cf31176c59f2f7ab68495ce468805ce1ca518e65c624e6825f9d014",
+    "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R025/R025-review-validation.json": "cfd79abb9989837009a4df7fbcf871b708f3cf87d1c54933c9502cff9991ed4d",
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R015-outward-residual-certificate/v002-run/enclose_residual_budget_v002.py": "e46c63bc85ed2a00828a5877b0ce3f7131c3e8b386368cdcc6b645a87bdd7942",
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R015-outward-residual-certificate/v002-run/summary_r015.json": "c988d2eee1b6fce80b3838fc954a4cc8eaa3c5c3a7b61ef052f0df29bee57398",
+    "research/sessions/20261017-2109/outward_float_v002.py": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd",
+    "research/sessions/20261017-2109/layout-nonlinear03-protocol-v001.json": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8",
+    "research/sessions/20261017-2109/nonlinear03-residual-certificate-proposal-v001.md": "c3036ff3bb65116c318374d1c0f06f54577e1b1bcaff08e243051056cc65a6b0",
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R014-midpoint-residual-prototype/local-cache/float_midpoint_endpoints_and_diagnostics.npz": "7f0d5c179442897646d1a3d5073c7f1171ef9d6c9db0ad96d0e12aa9792ee903",
+    "research/sessions/20261017-2109/outward-float-v002-selfcheck.json": "d2e23d683c9cab4c0e8e0d2b943965d7ca8db75fb406a81054fa9244d9d7903e"
+  },
+  "root_full_R024_R017_R018_R025_reports_and_entire_final_code_read": true,
+  "gates": [
+    "R024 fullresidual mathematics",
+    "R016 restricted integerhelper math andknownAPIfailure preserved",
+    "R017 v002 typeguardrepair",
+    "R018 exactparameter/time/helper call/runtime snapshot scope",
+    "R025 all98304segments implementation+isolated replay+independent Fraction challenges"
+  ],
+  "bound_binary64_hex": {
+    "I_prefix_T_upper_candidate": "0x1.8321f65919e4ep-1",
+    "I_total_6T_upper_candidate": "0x1.0410d30f72a1ap+0",
+    "early_upper_candidate": "0x1.52f3eb78084d4p+0",
+    "tail_upper_candidate": "0x1.18fa90283c5bep+0",
+    "fixed_T_lower_candidate": "0x1.19e6dc35bd9a2p+3",
+    "gap_lower_candidate": "0x1.df10bd8d7920ep+2"
+  },
+  "bound_values_as_binary64": {
+    "status": "candidate_only_pending_math_helper_implementation_reviews",
+    "I_prefix_T_upper_candidate": 0.7561184867635775,
+    "I_total_6T_upper_candidate": 1.0158817208017639,
+    "exact_stored_maxnode_abs_uh1": 0.3081526999791733,
+    "exact_stored_abs_uh2_N": 9.565549662913114,
+    "terminal_E_interval_candidate": [
+      0.0033367562147394885,
+      0.0033367562147395605
+    ],
+    "tail_sqrt_interval_candidate": [
+      0.08169156890083039,
+      0.08169156890083042
+    ],
+    "early_upper_candidate": 1.3240344207809374,
+    "tail_upper_candidate": 1.0975732897025945,
+    "fixed_T_lower_candidate": 8.809431176149534,
+    "gap_lower_candidate": 7.485396755368596,
+    "strict_gap_comparison": true,
+    "not_proof_until_three_reviews": true
+  },
+  "safe_decimal_statements": {
+    "A_fulltime_peak_upper": "1.325",
+    "A_tail_upper": "1.098",
+    "B_at_T_lower": "8.809",
+    "gap_lower": "7.485"
+  },
+  "decimal_directions_verified_by_exact_Fraction": true,
+  "machine_contract": "IEEEbinary64 nearest andgradualunderflow,correctnextafter,accurate Fraction semantics,correct Python/NumPy float64 decoding,stable runtime mode;finite probes are not universal/historical mode proofs",
+  "physical_scope": "frozen dimensionless alpha3/10 two grounded masses withpositive coupling andsame Maxwell movedports;not actualETABS/477/500000/standard shear chain orglobaloptimality",
+  "publication_priority": "classical tools;thisspecific certificate samecondition publication coverage unresolved;not firstclaim",
+  "frozen_candidate_artifacts_unchanged": true,
+  "nonshared_local_endpoint_NPZ": "sourcefingerprint andgenerator included;actual8.7MB arraynotuploaded"
+}

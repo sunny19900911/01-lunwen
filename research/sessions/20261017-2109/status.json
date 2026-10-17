@@ -6,8 +6,8 @@
   "deadline": "2026-10-18T07:09:45+08:00",
   "master_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
   "checkpoint_open": true,
-  "current_round": "R010",
-  "latest_round": "rounds/R010.md",
+  "current_round": "R011",
+  "latest_round": "rounds/R011.md",
   "checkpoint_minutes": 15,
   "topic_card_minutes": 30,
   "scheduler": {
@@ -35,17 +35,16 @@
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
       "hostId": "local",
       "title": "论文角色①｜猜想与理论突破",
-      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:69",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:72",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "R017 helperv002 limitedfix independentreview<=4m dispatchedafterR016freeze",
-      "observed_at": "2026-10-18T00:57:36.641972+08:00",
+      "dispatch": "R018 parameter/time/helper/runtime limitedaudit frozen01:29:27,rootfullreport/SHA accepted,idle",
+      "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "turn_status": "inProgress",
+      "turn_status": "completed",
       "actual_status_at_snapshot": {
         "type": "idle"
       },
@@ -55,12 +54,12 @@
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
       "hostId": "local",
       "title": "论文角色②｜证明审核与反例",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:100",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:105",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "R024 residualEe/PL budget independentproof<=10m dispatched01:09",
-      "observed_at": "2026-10-18T00:57:36.641972+08:00",
+      "dispatch": "R025 full interval residual implementation audit<=12m dispatched01:23",
+      "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
       },
@@ -75,52 +74,12 @@
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
       "hostId": "local",
       "title": "论文角色③｜文献原文复查",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:54",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:57",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "R013 engineeringv007 independentintegration<=6m dispatched01:11",
-      "observed_at": "2026-10-18T00:57:36.641972+08:00",
-      "actual_status": {
-        "type": "active",
-        "activeFlags": []
-      },
-      "turn_status": "inProgress",
-      "actual_status_at_snapshot": {
-        "type": "idle"
-      },
-      "snapshot_note": "actual after-push R005 live snapshot; poll using cursor before any new dispatch"
-    },
-    "experiments": {
-      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
-      "hostId": "local",
-      "title": "论文角色④｜ETABS数据与拟合",
-      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:47",
-      "preflight_status": {
-        "type": "idle"
-      },
-      "dispatch": "R015 fixedtrajectory outward residualcandidate<=12m dispatched01:09",
-      "observed_at": "2026-10-18T00:57:36.641972+08:00",
-      "actual_status": {
-        "type": "active",
-        "activeFlags": []
-      },
-      "turn_status": "inProgress",
-      "actual_status_at_snapshot": {
-        "type": "idle"
-      },
-      "snapshot_note": "actual after-push R005 live snapshot; poll using cursor before any new dispatch"
-    },
-    "writing": {
-      "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "hostId": "local",
-      "title": "论文角色⑤｜论文写作与论证",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:54",
-      "preflight_status": {
-        "type": "notLoaded"
-      },
-      "dispatch": "engineeringv008 v007P2conditionwording repair<=4m dispatchedafterR013finding",
-      "observed_at": "2026-10-18T00:57:36.641972+08:00",
+      "dispatch": "R014 v008 limiteddiff frozen/rootaccepted,idle",
+      "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
       },
@@ -130,17 +89,56 @@
       },
       "snapshot_note": "actual after-push R005 live snapshot; poll using cursor before any new dispatch"
     },
+    "experiments": {
+      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+      "hostId": "local",
+      "title": "论文角色④｜ETABS数据与拟合",
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:49",
+      "preflight_status": {
+        "type": "idle"
+      },
+      "dispatch": "R015 outwardv002run frozen01:18:20,candidate3bounds waitingR025/R018;idle",
+      "observed_at": "2026-10-18T01:49:22.701322+08:00",
+      "actual_status": {
+        "type": "idle"
+      },
+      "turn_status": "completed",
+      "actual_status_at_snapshot": {
+        "type": "idle"
+      },
+      "snapshot_note": "actual after-push R005 live snapshot; poll using cursor before any new dispatch"
+    },
+    "writing": {
+      "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+      "hostId": "local",
+      "title": "论文角色⑤｜论文写作与论证",
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:57",
+      "preflight_status": {
+        "type": "notLoaded"
+      },
+      "dispatch": "engineeringv009 reviewedC025 integration<=12m dispatchedafterR011adoption",
+      "observed_at": "2026-10-18T01:49:22.701322+08:00",
+      "actual_status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn_status": "inProgress",
+      "actual_status_at_snapshot": {
+        "type": "idle"
+      },
+      "snapshot_note": "actual after-push R005 live snapshot; poll using cursor before any new dispatch"
+    },
     "novelty": {
       "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
       "hostId": "local",
       "title": "创新性验证",
-      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:28",
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:29",
       "preflight_status": {
         "type": "active",
         "activeFlags": []
       },
-      "dispatch": "R012 classicalincremental/errorstorage primarysource<=8m dispatched2026-10-18T01:02:10.220442+08:00",
-      "observed_at": "2026-10-18T00:57:36.641972+08:00",
+      "dispatch": "R012 classic incremental sources frozen/rootreportaccepted,idle",
+      "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
       },
@@ -158,18 +156,16 @@
   "source_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
   "core_cache": "../W5-重燃双塔连体/research/maxwell-20261017/experiments/R001/core-cache",
   "pending_review": [
-    "engineeringv007R013 one conditionwording mustfix;writer v008 repair active,oldv007unchanged",
-    "R024 residualmath frozen,rootfullread/SHApending",
-    "helperv001 mustfix preserved;v002R017 limitedfixaudit active",
-    "R015 outwardresidual usingv002 candidate stillpending wholeimplementation audit",
-    "noveltyR012 source report frozen,rootfullreadpending"
+    "R011 publish whitelist/freeze/indexSHA checks inprogress,do not startsecondroot",
+    "authornewv009 integration maystart onlyreviewedcombinedC025;newpaper remainsstage",
+    "actualgeometry/background/modalnormalization/input/matchedengineeringpair stillmissing"
   ],
-  "recorded_at": "2026-10-18T01:19:44.597369+08:00",
+  "recorded_at": "2026-10-18T01:49:22.701322+08:00",
   "checkpoint_status": "open",
-  "next_task": "Continue single R010 normalcheckpoint;first frozen appendices/modalinterface & nonlinearproof/numerical packages reviewed;exclude active newbranches. Deadline07:09:45 unchanged.",
-  "last_commit": "8da9846975e34fcab16370c47a452a9d4d072fa8",
-  "last_remote_commit": "8da9846975e34fcab16370c47a452a9d4d072fa8",
-  "last_push_receipt": "R009-push.json",
+  "next_task": "Finish currentR011 checkpoint;combinedC025 acceptedwithinmachinecontract. Publish reviewedv008+newcertificate packages;nextstagev009 authoronly. Deadline07:09:45 unchanged.",
+  "last_commit": "d6a4aa6938dc790ac3ded9b8906807fb1959b6bc",
+  "last_remote_commit": "d6a4aa6938dc790ac3ded9b8906807fb1959b6bc",
+  "last_push_receipt": "R010-push.json",
   "accepted_evidence": {
     "energy_R001": {
       "review": "原生能量证据独审-R001.md",
@@ -528,9 +524,50 @@
         "input-rules-R012.json": "e1b0d660fac406e4a3e861b67113c0d78375285deff5ecd403a3e8764f3c86c2"
       },
       "scope": "staticcode/protocol andsame-source4CSV/2convergence toJSON/report only,not independent ODE solution orcertifiedstate error/fullpeak"
+    },
+    "residual_energy_math_R024": {
+      "accepted_at": "2026-10-18T01:27:38.259723+08:00",
+      "checked_files": {
+        "全残差误差储能与中点预算独审-R024.md": "a9c2980a50f06577242582a416b7dbd1593b03bb9bf7c142f88795945253980e",
+        "R024-proof-evidence.json": "e61a3a508f027d24c51be9f4b65464b5bcc129378738bdb10a0b08b4b55b6477",
+        "R024-review-validation.json": "25aa3eea4951e690d67208cbfac6c4fb781ffa93787485e6b4cca2e650cdf7ba"
+      },
+      "root_full_review_and_ownproposal_read": true,
+      "scope": "conditional error energy/PLcontinuousearly/fixedTlower/truepassivetail andmidpoint h4 residualbudget;not actual interval implementation ornonlinear peak result"
+    },
+    "helper_v002_targeted_fix_R017": {
+      "accepted_at": "2026-10-18T01:27:38.259723+08:00",
+      "report_sha256": "f93caea9fc1c523a3959d80f7075631144a37cb6672f814b8cb22e4f7c4cb491",
+      "root_full_report_read": true,
+      "helper_sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd",
+      "scope": "nonbuiltinintdegree rejected,old trueint math AST retained undernewline normalization;453 finite regressions and20exactinteger roots;IEEE nearest/gradualunderflow/nextafter/Fraction contract stillneeded,not ODEcert",
+      "byte_note": "v001LF, v002CRLF;different sourcebytes preserved,not reformatted"
+    },
+    "incremental_sources_novelty_R012": {
+      "accepted_at": "2026-10-18T01:27:38.259723+08:00",
+      "report_sha256": "5859f6c0c122ef6f40b0ed39d81243e4f9bda3d0c1d8c87c2fb8c995ddc6a322",
+      "root_full_report_read": true,
+      "scope": "classic incrementalpassivity/monotonicity source vs project rho/regularization/tail assembly;not directsameformula orpriority"
+    },
+    "engineering_v008_repaired_R014": {
+      "accepted_at": "2026-10-18T01:28:34.517412+08:00",
+      "manuscript_sha256": "809b8a630d604cfc23cfd7e93b59312bb527a48ab3ed045862da24f6b6dd2cc0",
+      "review_report_sha256": "edd7cc2e940ece1e090d2e41c054022f00a18cab44b423d899e4f1fc10e5749e",
+      "scope": "v007wholeintegration R013 exceptoneterm +v008targetedrepair R014 +rootfullchangedprose/3linediff/sixfreeze;alpha1 reviewedcase only,stagepaper noactualengineering/priority"
+    },
+    "interval_parameter_helper_contract_R018": {
+      "accepted_at": "2026-10-18T01:33:17.865850+08:00",
+      "root_full_report_read": true,
+      "report_sha256": "b476bf37a7a3ff16463ef65f388132521d5fb4e5a93fdf7e82f3a158a7ce1dc8",
+      "scope": "exactrational algebraicparameter/w/C/time/sinphase/introot/g/Lg directions and9finite NumPy-after runtime probes;not98304budget/Ehi orpermanent/historical hardware modeproof;explicitIEEEcontractretained"
+    },
+    "nonlinear_fullpeak_certificate_R025_combined": {
+      "accepted_at": "2026-10-18T01:40:33.023125+08:00",
+      "root_record": "R011-nonlinear-certificate-adoption.json",
+      "scope": "R024+R017+R018+R025 combined,IEEEconditional continuous wholeforcedwindow andinfinite passive tail,A<1.325/B>8.809 in frozen synthetic alpha.3;not formal oractualengineering/priority"
     }
   },
-  "checkpoint_started_at": "2026-10-18T01:02:10.220442+08:00",
+  "checkpoint_started_at": "2026-10-18T01:40:33.023125+08:00",
   "received_auxiliary_skill_increment": {
     "path": "C:/Users/mj528/.codex/skills/etabs-response-analysis/scripts/cache_coverage.py",
     "source_validation": "../W5-重燃双塔连体/research/maxwell-20261017/roles/verification/response-coverage/skill-validation.json",
@@ -547,8 +584,8 @@
     "sha256": "8ec39aeb7692b7745dbd7622b7364ef19d3dd20404755444626ec93358ec24b6",
     "status": "R003 published and verified; frozen stage manuscript only"
   },
-  "latest_role_snapshot": "R009-0054-role-snapshot.json",
-  "latest_late_handoff": "R010-late-evidence.md",
+  "latest_role_snapshot": "R011-role-snapshot.json",
+  "latest_late_handoff": "R011-late-evidence.md",
   "manuscript_stage_v002": {
     "sha256": "64f69a385155f0004113cd8e96e12ebbe0b86e07bb88ce56da7d6873324bbef5",
     "status": "root full text/hash reviewed; frozen. Local absolute image references unsuitable for GitHub portability; author v003 assigned to fix image paths and integrate reviewed R007 before independent integration audit."
@@ -574,8 +611,8 @@
     "sha256": "c04370712b9adc73064872e1d2cc79a5c6a7783e191d5ca8dc4e754d80ae604b",
     "status": "R008 published and remote verified;frozen stage only"
   },
-  "next_git_eligible_at": "2026-10-18T01:01:49.259212+08:00",
-  "latest_topic_card": "topic-cards/T-M001-v009.md",
+  "next_git_eligible_at": "2026-10-18T01:35:33.767125+08:00",
+  "latest_topic_card": "topic-cards/T-M001-v010.md",
   "manuscript_modal_interface_v001": {
     "path": "papers/damping-output-boundaries/manuscript/maxwell-modal-interface-v001.md",
     "sha256": "ae16c74eb8f3786b66f1787034ca67b64d86683b8cddde94a26f8a0761a91cc8",
@@ -591,6 +628,11 @@
     "v001_sha256": "539c60958ececa73b72c160b60a1da7f4925bbdae268f79acef07101cde64a4b",
     "mustfix": "root_endpoint(.1,2.0) Fraction exponent floatpath may falselycollapse interval;restricted trueint internalcalls notshown affected;v001 not unconditionally approved",
     "v002_sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd",
-    "status": "authoredrepair/finitetests only;independentR017 afterR016freeze"
+    "status": "R017 targetedv002fix andR018parameter/helpercall review accepted;v001generalAPI remainsknowninvalid;whole intervalcertificate stillpendingR025"
+  },
+  "manuscript_stage_v008": {
+    "path": "papers/damping-output-boundaries/manuscript/maxwell-engineering-draft-v008.md",
+    "sha256": "809b8a630d604cfc23cfd7e93b59312bb527a48ab3ed045862da24f6b6dd2cc0",
+    "status": "integration+pointrepair reviewed;local,awaitnexteligibleGit;no newalpha.3certificate adopted"
   }
 }

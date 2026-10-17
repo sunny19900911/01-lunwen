@@ -1,0 +1,63 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R014 narrow v008 targeted wording diff audit",
+  "started_at": "2026-10-18T01:25:35+08:00",
+  "checked_at": "2026-10-18T01:25:35.573452+08:00",
+  "limit_minutes": 3,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v007.md",
+      "sha256": "7de5012ed420459cbf0c9d7de8f995552e0ec0fba87928ba5df30070e3a7d7a1",
+      "bytes": 47299
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v008.md",
+      "sha256": "809b8a630d604cfc23cfd7e93b59312bb527a48ab3ed045862da24f6b6dd2cc0",
+      "bytes": 47388
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v008.json",
+      "sha256": "aa026a9d23b64038d17fecb3e52fff5dca19e72a1f61c66ad42496202999a9ff",
+      "bytes": 2261
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R013-draft-v007-review\\validation-R013.json",
+      "sha256": "284681f532ed0338b9f7738896350357d54920313fcd89b1b25393c516c7e984",
+      "bytes": 4480
+    }
+  ],
+  "all_inputs_unchanged": true,
+  "changed_lines": [
+    3,
+    275,
+    292
+  ],
+  "line275_exact_R013_required_replacement": true,
+  "line275_only_control_class_wording_replacement": true,
+  "line292_only_map_version_link": true,
+  "line3_new_version_and_pending_review_scope": "工作标题；maxwell-engineering-draft-v008，2026年10月18日。阶段稿，非投稿定稿。R013允许类措辞已定点修文，待独立复核；v007原样保留。",
+  "table_blocks_17_byte_identical": true,
+  "display_formula_blocks_9_byte_identical": true,
+  "all_other_lines_byte_identical": true,
+  "author_frozen_files_bytes_SHA_checked": 6,
+  "new_evidence_link_exists": true,
+  "required_corrections": [],
+  "optional_edits": [],
+  "scope": "Only closes R013 condition-transcription correction; no new full manuscript, theoretical or numerical review. v007 and old R013 findings preserved.",
+  "operations": {
+    "source_or_shared_or_manuscript_Git_edits": 0,
+    "ODE_real_tables_search": 0
+  },
+  "line3_only_version_and_exact_revision_scope": true,
+  "frozen_at": "2026-10-18T01:26:17.110292+08:00",
+  "elapsed_seconds": 42.110292,
+  "status": "targeted correction passes; frozen and stopped for main controller",
+  "report": {
+    "path": "R014-draft-v008-diff-review.md",
+    "bytes": 1517,
+    "sha256": "edd7cc2e940ece1e090d2e41c054022f00a18cab44b423d899e4f1fc10e5749e"
+  },
+  "independent_read_only_check": "local_literature confirmed line275 exact required replacement, no additional difference; no writes or other operations"
+}
