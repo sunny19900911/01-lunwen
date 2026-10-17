@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-10-18T01:57:44.843724+08:00",
+  "binds_evidence_map": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v009-evidence-map.json",
+    "bytes": 73278,
+    "sha256": "0bdb89f3cf6d2879e2733ac551605945869caf9f12bb252dddba91142e7ae6f1"
+  },
+  "binds_original_freeze": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v009.json",
+    "bytes": 2899,
+    "sha256": "73385aae1eb5f6f695134cae7aa6b42ec8798515b592535b2bdb8fcad5ebdd8c"
+  },
+  "correction": "The inherited excluded_pending_sources field is a historical v008 snapshot and is not the current v009 exclusion list. It should have been named inherited_v008_excluded_pending_sources. No frozen files are overwritten.",
+  "inherited_v008_excluded_pending_sources": [
+    "ideationR014 nonlinear symmetry",
+    "experimentR013 nonlinearalpha.3",
+    "residualproposal"
+  ],
+  "current_v009_status": "R023/R024/R016/R017/R018/R025 and root R011 adoption establish reviewed conditional C025 admission. New Table5 is included under that actual machine contract. Historical pending labels in original candidate artifacts remain unchanged.",
+  "current_authority": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R011-nonlinear-certificate-adoption.json",
+    "bytes": 4484,
+    "sha256": "cebfd63ace6e66e83a9d884e640043b6bdd2f547b618924d1f7d2a3d4e00dc99"
+  },
+  "protocol_erratum_scope": "The inherited signed u_U(T) >9.5 erratum belongs to the old alpha1 protocol only;it does not redefine alpha3/10 Table5 or its B fixedT lower bound.",
+  "effect_on_manuscript_or_bounds": "None;main text,mapping entry for5.6,decimal directions and source hashes unchanged.",
+  "author_package_status": "Frozen pending independent integration review;this addendum must accompany the original package."
+}

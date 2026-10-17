@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-18T02:00:46.316490+08:00",
+  "frozen_inputs": [
+    {
+      "path": "robust-input-protocol-v001.md",
+      "bytes": 1294,
+      "sha256": "7c7513d1e12b310b11e5a6ac036364af391c25297e8fdeb9b4fe7d22ea6f9ca5"
+    },
+    {
+      "path": "addition-local-peak-protocol-v001.json",
+      "bytes": 1822,
+      "sha256": "122375ce3d1e934fffabef2c11c4c9ddd7bfb2c58215543911906fc03c4fb89c"
+    },
+    {
+      "path": "addition-baseline-analytic-candidate-v001.md",
+      "bytes": 2013,
+      "sha256": "382ba0418fd804a7fe9a59551cd05cff4517d8c6b22c15a0d9491a3003483971"
+    }
+  ],
+  "baseline_radius2_fraction": "40000/20349",
+  "radius_below_1_41_by_exact_fraction": true,
+  "no_new_R016_outputs_read": true,
+  "status": "protocols frozen;baseline candidate not independently reviewed;no D numerical conclusions"
+}

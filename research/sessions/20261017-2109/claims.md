@@ -115,3 +115,9 @@ M-C009 proposed/analytic-derivation candidate：在已知单轴Maxwell本构、�
 
 
 2026-10-18T01:40:33.023125+08:00 M-C025 supported/analytic-derivation+validated-numerics reviewed：根完整读最终实现和R024/R017/R018/R025并核原包/来源/独审三SHA；合并明确IEEEnearest/渐进下溢/正确nextafter/Fraction/解码及运行模式合同，可对冻结无量纲alpha.3真实连续全程（含无限被动尾）准入A峰<1.325、B固定T幅值>8.809，严格间隙>7.485。十进制方向另以Fraction对原binary64界核过；不是无基础假设形式化机器证明或实际楼层/装置真参数/整体最优/首创。候选文件当时pending标签不改，后续裁决绑定R011-adoption。v001 degreefloat反例和修复历史保留。
+
+
+2026-10-18T02:07:25.016344+08:00 后到：v009由R026数学与角色3R015源/meta整合独审+根全文/6SHA/作者freeze准入，仅C025阶段稿整合，原包与状态补充须同行。M-C026 proposed/analytic-derivation candidate：共同L1输入扰动族保留全时峰分离，R019作者已根全文读/清单SHA核，R027独审在途。M-C027 proposed/numerical-test candidate：同主体同外力加κ8/c10/alpha.3 Maxwell后固定u1采样峰约5.065，无装置约1.942，R016四次预定RK4未调参；不是同输入功、普通二层剪切或严格连续峰比较。U解析全尾<2.41候选R020核、D固定J16529残差证书R017在途，独审前不升级。
+
+
+2026-10-18T02:14:44.874141+08:00 M-C026升级supported/analytic-derivation reviewed：R027全文/三SHA与根R019全文清单准入，共同连续L1≤2扰动族在C025条件下A全峰<4.155、B固定T>5.979、全峰差>1.824；零误差正则/全局存在/严格sup/无限尾/每个同d内部能量同史/面积5%非PGA均审过。M-C027有限部分由角色3R016静态+同源转录审与根代码全文核，仅numerical-test reviewed，严格真实峰反例仍candidate。R020作者U解析界与R017候选D下界4.3491155879已根全文/代码读，R028组合独审、R021参数门在途，未升级。角色6R013与根原文TableIV/V核：一般加装后局部加速度/剪力反升已知，不能充作当前固定位移同条件证明或首创。

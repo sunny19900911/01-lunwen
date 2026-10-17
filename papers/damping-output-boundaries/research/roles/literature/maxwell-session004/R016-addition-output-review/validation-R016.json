@@ -1,0 +1,91 @@
+{
+  "task": "R016",
+  "checks": {
+    "specified_root_protocol_SHA": true,
+    "specified_code_SHA": true,
+    "specified_report_SHA": true,
+    "AST_parse_only": true,
+    "csv_summary_all_cells_exact": true,
+    "all_report_numeric_rows_exact_formatted_transcription": true,
+    "two_margins_recomputed_from_small_csv": true,
+    "four_peak_or_terminal_fine_minus_coarse_per_branch": true,
+    "terminal_three_energy_components_and_actual_step_count": true,
+    "stored_peak_witness_internal_checks": true,
+    "summary_output_hashes": true,
+    "run_record_summary_and_code_hashes": true,
+    "all_nonlocal_manifest_bytes_SHA_match": true
+  },
+  "csv_row_counts": {
+    "four_actual_runs": 4,
+    "addition_margins": 2,
+    "step_convergence": 2
+  },
+  "csv_cells_compared": 146,
+  "formatted_report_rows_compared": 12,
+  "manifest_nonlocal_checks": {
+    "compare_passive_addition.py": true,
+    "fixed_u1_addition_margins.csv": true,
+    "four_actual_runs_r016.csv": true,
+    "protocol.json": true,
+    "report.md": true,
+    "run_record_r016.json": true,
+    "step_convergence_r016.csv": true,
+    "summary_r016.json": true
+  },
+  "NPZ_policy": "Not read, opened, decoded, stat-ed, or hashed; metadata quoted from already small summary only",
+  "reexecution_policy": "Experiment not imported or executed; no ODE/new physical solution. Only AST parsing and small-result scalar transcription arithmetic.",
+  "mustfix": [],
+  "status": "Passed bounded static/protocol/source-transcription review only; 0 mustfix; no independent physical solution or continuous certificate",
+  "frozen_at": "2026-10-18T02:10:44.695263+08:00",
+  "elapsed_seconds": 193.695263,
+  "within_7_minutes": true,
+  "derived_small_result_checks": [
+    {
+      "N": 8192,
+      "T": 44.42882938158366,
+      "D_u1_peak_time": 44.824740580906855,
+      "D_u1_signed_peak": -5.064982951704501,
+      "D_peak_witness_after_forcing_stop": true,
+      "D_peak_time_minus_T": 0.3959111993231943,
+      "D_U_sampled_peak_ratio_derived_from_small_results": 2.6084177697432254,
+      "same_forcing_not_equal_input_work": true
+    },
+    {
+      "N": 16384,
+      "T": 44.42882938158366,
+      "D_u1_peak_time": 44.822028860363545,
+      "D_u1_signed_peak": -5.064996249099213,
+      "D_peak_witness_after_forcing_stop": true,
+      "D_peak_time_minus_T": 0.39319947877988426,
+      "D_U_sampled_peak_ratio_derived_from_small_results": 2.6084165613094634,
+      "same_forcing_not_equal_input_work": true
+    }
+  ],
+  "all_initial_inputs_unchanged": true,
+  "collaborators": {
+    "/root/weng2016_source": "0 mustfix, read-only protocol/code; explicitly no poststop-only metric, peak witness requires small-output check",
+    "/root/local_literature": "0 mustfix, read-only CSV/JSON/report; stop-time/witness,146 fields and rounded rows consistent"
+  },
+  "output_report": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R016-addition-output-review\\R016-addition-output-review.md",
+    "bytes": 5676,
+    "sha256": "5a8aa0b87a6c42898dc888e465f1642336f7e8d1427888a3e5278d987f478628"
+  },
+  "input_rules": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R016-addition-output-review\\input-rules-R016.json",
+    "bytes": 4127,
+    "sha256": "9db3e620ee841b979d22dce898baa0723192a639d14da344f97e5d70db0edfbb"
+  },
+  "actions_not_performed": [
+    "NPZ open/stat/hash/decode",
+    "import/execute experiment",
+    "ODE rerun",
+    "external search",
+    "shared/manuscript/source/Git modifications"
+  ],
+  "delivery_QA": {
+    "utf8_json_parse": true,
+    "no_replacement_character": true,
+    "report_links_exist": true
+  }
+}

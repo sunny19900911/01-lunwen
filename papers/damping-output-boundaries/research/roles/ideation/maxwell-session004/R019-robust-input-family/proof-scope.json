@@ -1,0 +1,22 @@
+{
+  "round": "R019",
+  "status": "author-side analytic candidate; root to submit independent review",
+  "base": "Root-adopted C025 under its machine contract",
+  "family": "same continuous scalar d for both layouts and both b components, support[0,20pi], L1<=2, zero initial states",
+  "claims": {
+    "all_time_A_peak": "<4.155",
+    "B_fixed_T_magnitude": ">5.979",
+    "full_time_peak_difference": ">1.824",
+    "pairwise_global_and_device_histories": "equal for each fixed common d",
+    "perturbed_vs_nominal_histories": "not claimed equal"
+  },
+  "proof": "classical incremental storage, regularized norm, fixed-output compliance, reverse triangle at preset T, infinite-tail persistence",
+  "not_claimed": [
+    "new theory or priority",
+    "unconditional machine formal proof",
+    "5percent PGA/spectrum/amplitude",
+    "different independent layout/component disturbances",
+    "actual477/500000 or engineering recommendation"
+  ],
+  "no_new_ODE_or_arrays": true
+}

@@ -1,0 +1,49 @@
+{
+  "validated_at": "2026-10-18T01:57:06.510570+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v009.md",
+    "bytes": 54492,
+    "sha256": "30d9ec2f61439f19820959f929041cd0c92cdf28bb0e2a029d4c2f98c0436067"
+  },
+  "passed": true,
+  "checks": {
+    "v008_SHA": true,
+    "v009_SHA": true,
+    "old17_new18_tables": true,
+    "all_old_tables_byte_identical_in_order": true,
+    "nine_formulas_byte_identical": true,
+    "old_sections2_to5_5_exact": true,
+    "appendicesA_G_exact_except_maplink": true,
+    "references_exact": true,
+    "old_conclusions1_6_retained": true,
+    "four_images_unchanged": true,
+    "tail_start6T_and_T_to6T_continuous": true,
+    "full_ru_and_PL_gap_coverage": true,
+    "machine_contract_and_failure_cache_boundaries": true,
+    "within_alpha_only_and_globalmax_unchanged": true,
+    "all_exact_Fraction_directions": true,
+    "all114_prior_sources_unchanged": true,
+    "root_accepted_code_and_small_sources_SHA_match": true,
+    "all11_prior_manifests_and_files_unchanged": true,
+    "old_theory_v007_unchanged": true,
+    "git_whitespace_check_clean": true,
+    "all_local_links_resolve": true
+  },
+  "safe_decimal_exact_Fraction_checks": {
+    "A_fulltime_upper_lt1_325": true,
+    "A_tail_upper_lt1_098": true,
+    "B_fixedT_lower_gt8_809": true,
+    "gap_lower_gt7_485": true,
+    "original_gap_valid_from_directed_endpoints": true,
+    "coarse_display_subtraction7_484": true
+  },
+  "old_table_count": 17,
+  "new_table_count": 18,
+  "display_formula_count": 9,
+  "local_links_resolved": 37,
+  "verified_sources": 133,
+  "prior_manifest_count": 11,
+  "prior_frozen_file_entries": 68,
+  "raw_cache_read_or_hashed": false,
+  "limits": "Author static transcription/integration QA only;no solver/helper/selfcheck/replay or proof rerun;await independent integration review."
+}

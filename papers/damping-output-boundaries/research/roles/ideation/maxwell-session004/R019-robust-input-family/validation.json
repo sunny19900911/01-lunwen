@@ -1,0 +1,48 @@
+{
+  "round": "R019",
+  "frozen_at": "2026-10-18T02:03:08.699085+08:00",
+  "elapsed_seconds": 253.699085,
+  "within_8_minute_limit": true,
+  "inputs_sha_unchanged": true,
+  "protocol_copy_byte_identical": true,
+  "exact_hex_fraction_checks": "passed",
+  "sqrt_comparison_by_exact_squares": "passed",
+  "frozen_thresholds_changed": false,
+  "internal_author_side_checks": 2,
+  "independent_review": "pending root dispatch",
+  "UTF8_JSON_links_QA": "passed",
+  "relative_links": [
+    {
+      "source": "report.md",
+      "target": "../../../novelty/maxwell-session004/R012/report.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "protocol-copy.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "input-freeze.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "checks.py",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "checks.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "next-task.md",
+      "exists": true
+    }
+  ],
+  "write_scope": "Only new own R019 directory; no ODE, arrays, shared, source, author manuscript or Git mutation.",
+  "timing_note": "UTC start17:58:55 correctly converted to01:58:55+08; initial hour transcription corrected before handoff."
+}

@@ -1,0 +1,74 @@
+{
+  "started_at": "2026-10-18T01:59:02+08:00",
+  "logged_at": "2026-10-18T02:05:28+08:00",
+  "query_limit": 3,
+  "root_queries": 0,
+  "child_queries": 3,
+  "total_queries": 3,
+  "queries": [
+    "\"adding\" \"viscous dampers\" \"displacement\" \"increase\" \"response\"",
+    "\"passive damping\" \"displacement amplification\" \"transient\"",
+    "\"Maxwell\" \"damper\" \"increase\" \"displacement response\" \"peak\""
+  ],
+  "reused_primary": [
+    {
+      "name": "CEJ2018",
+      "root_read": "existing local PDF3/13/16, print116/126/129 model and Tables3/4; earlier11-16 batch output truncated, not claimed full verification",
+      "relation": "addition force-peak increase, displacement decrease, finite records, alpha1 and scanned nonlinearity, not specifiedu1 alpha.3 displacement"
+    },
+    {
+      "name": "Londono2014",
+      "root_read": "local PDF13-14 text and actually viewed existing PDF14 image; child same plus prior context",
+      "relation": "J1>1 implies at least one floor acceleration increase, unspecifiedfloor; J3 displacement ratios below1; pure dashpot and finite brace linearMaxwell both compared with uncontrolled"
+    },
+    {
+      "name": "Conde2021",
+      "child_read": "local PDF11-13/23-24",
+      "relation": "existing-device stiffness comparison; RB is rigid-brace device model, not no-device"
+    }
+  ],
+  "local_primary_hashes": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\novelty\\evidence\\Londono2014-WRRO_81371.pdf",
+      "sha256": "cf7e469e0897cb095fa45274d5ff98c0269d68eb2084d128bc4c6775817a0a1d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\novelty\\evidence\\Conde2021-applsci-11-03089.pdf",
+      "sha256": "a7dd7754cb9840eefada8b698067a956a31cf392645979755cbfddadd78cadef"
+    }
+  ],
+  "existing_image": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\novelty\\evidence\\londono-14.png",
+    "sha256": "78055c198b1b8173d77af23737c72a7cbcf9a13f2563d23449886e27fcf7a9c8",
+    "root_actually_viewed": true,
+    "content": "print2011/PDF14 TableIV/V definitions and values; no chart digitization"
+  },
+  "new_primary": {
+    "author": "C.C.Patel",
+    "title": "Seismic Response Control of Similar Adjacent Structures Connected by Maxwell Dampers",
+    "year": 2022,
+    "published_online": "2022-12-19",
+    "doi": "10.38208/acp.v1.693",
+    "url": "https://mail.asps-journals.com/index.php/acp/article/download/693/247/2655",
+    "read": "child seven-page publisher PDF text; root metadata/model and table1/response discussion/conclusion text",
+    "relation": "linear adjacent structures finite earthquakes; no fixedu1 displacement amplification established; figure3 pixel comparison remains unresolved"
+  },
+  "failed_once_not_retried": [
+    {
+      "owner": "child",
+      "action": "same Patel PDF memory requests for rendering",
+      "result": "403; no pixels/fulltext saved, no retry or alternate route"
+    }
+  ],
+  "unopened_search_hits_not_used": [
+    "Scribd snippet",
+    "Scipedia material",
+    "PEER report snippet",
+    "isolation paper leads"
+  ],
+  "experiment_results_read": false,
+  "diagnostic_success": "not assessed; no margin/result filled",
+  "new_PDF_or_screenshot_files": 0,
+  "same_condition_publication": "unresolved, no first claim",
+  "no_new_proof_or_simulation": true
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "Exact Fraction/hex and scalar algebra only, not new numerical dynamics.",
+  "nominal_upper_direction": true,
+  "nominal_fixed_T_lower_direction": true,
+  "S_K": "1001/1002",
+  "perturbation_radius_squared_at_area2": "4004/501",
+  "sqrt8_lt_2.83_verified_by_squares": true,
+  "safe_error_cap": "283/100",
+  "A_fulltime_upper": "831/200",
+  "B_fixed_T_lower": "5979/1000",
+  "fulltime_gap_lower": "228/125",
+  "thresholds_are_strict": true,
+  "base_abs_area": 40,
+  "disturbance_abs_area_budget": 2,
+  "ratio_is_L1_area_only": "1/20",
+  "nominal_machine_contract": "IEEEbinary64 nearest andgradualunderflow,correctnextafter,accurate Fraction semantics,correct Python/NumPy float64 decoding,stable runtime mode;finite probes are not universal/historical mode proofs",
+  "all_frozen_source_sha_unchanged": true
+}

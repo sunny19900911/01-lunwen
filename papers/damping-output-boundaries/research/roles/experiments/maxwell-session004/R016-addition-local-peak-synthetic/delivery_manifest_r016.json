@@ -1,0 +1,69 @@
+{
+  "evidence_id": "M-EXP-R016",
+  "status": "nondimensional_finite_sampled_candidate",
+  "completed_utc": "2026-10-17T18:02:37.145710+00:00",
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\compare_passive_addition.py"
+  ],
+  "exit_code": 0,
+  "delivery_QA": "Fourrun/twomargin/twoconvergenceCSV counts, source/output/localhistorySHA and cachedpeaks, Uzero definition, UTF8/compilation checked. Integration notrerun; no continuousfulltailclaim.",
+  "files": [
+    {
+      "name": "compare_passive_addition.py",
+      "bytes": 13395,
+      "sha256": "f95871441511a3a7240ba50cdf73996650d8009e2d3505a3dd667593c7873138",
+      "local_only_not_stage_upload": false
+    },
+    {
+      "name": "fixed_u1_addition_margins.csv",
+      "bytes": 250,
+      "sha256": "7a6213670c79b047962510fd6222c8fe39d73ccccb52346ca1e44efb55b189a8",
+      "local_only_not_stage_upload": false
+    },
+    {
+      "name": "four_actual_runs_r016.csv",
+      "bytes": 4172,
+      "sha256": "a1653733a6769a7887774b60446b23efa619e034598365d402b9692cdbef02cc",
+      "local_only_not_stage_upload": false
+    },
+    {
+      "name": "local-cache\\four_actual_RK4_histories.npz",
+      "bytes": 12938185,
+      "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62",
+      "local_only_not_stage_upload": true
+    },
+    {
+      "name": "protocol.json",
+      "bytes": 2003,
+      "sha256": "fecfc5804181d97fbe10a3c9014f1590c74c3986f82ded05007fb16a170afc66",
+      "local_only_not_stage_upload": false
+    },
+    {
+      "name": "report.md",
+      "bytes": 3790,
+      "sha256": "d599869d98c7cc9262332c81a20c408952d1a03be5061a15602406b8f01a27d4",
+      "local_only_not_stage_upload": false
+    },
+    {
+      "name": "run_record_r016.json",
+      "bytes": 1177,
+      "sha256": "4f44f99b44ac84ca9f5462df8f59480eaeb663c7d94eb2e4e885940f0c33c41c",
+      "local_only_not_stage_upload": false
+    },
+    {
+      "name": "step_convergence_r016.csv",
+      "bytes": 982,
+      "sha256": "75f575d16927a9e9c369b7e3ae71b1ddf5038def74337e7d7a05bf35d0fd2743",
+      "local_only_not_stage_upload": false
+    },
+    {
+      "name": "summary_r016.json",
+      "bytes": 12416,
+      "sha256": "e482bef6151efa6e0e22cce15f95299f448d5f536c755c0bc0b8ba1857543e4d",
+      "local_only_not_stage_upload": false
+    }
+  ]
+}

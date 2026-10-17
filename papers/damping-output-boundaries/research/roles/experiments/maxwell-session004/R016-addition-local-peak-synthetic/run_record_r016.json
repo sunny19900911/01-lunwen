@@ -1,0 +1,24 @@
+{
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\compare_passive_addition.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 2.059788099999423,
+  "finished_utc": "2026-10-17T18:01:57.667733+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "code_sha256": "f95871441511a3a7240ba50cdf73996650d8009e2d3505a3dd667593c7873138",
+  "summary_sha256": "e482bef6151efa6e0e22cce15f95299f448d5f536c755c0bc0b8ba1857543e4d",
+  "checks": {
+    "four_actual_independent_RK4_runs": true,
+    "same_M_K_C_input_initial_state_prespecified": true,
+    "all_states_finite_no_clipping": true,
+    "U_no_device_force_dissipation_exact_zero": true,
+    "positive_Maxwell_parameters_and_bare5percent": true,
+    "root_and_own_protocol_SHA_unchanged": true,
+    "runtime_below480seconds": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "evidence_id": "M-EXP-R016",
+  "status": "nondimensional_finite_sampled_candidate",
+  "frozen_utc": "2026-10-17T18:00:08.035096+00:00",
+  "root_protocol": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-local-peak-protocol-v001.json",
+    "bytes": 1822,
+    "sha256": "122375ce3d1e934fffabef2c11c4c9ddd7bfb2c58215543911906fc03c4fb89c"
+  },
+  "model": "Exactly rootM/K/C andspecifiedMaxwell; positive symmetric sqrtK from eigenvalues1,3 soCdiag=(1+sqrt3)/20,Coff=(1-sqrt3)/20. Baremodalzeta.05. BranchU no device F=0, D B=(0,1),kappa8,c10,alpha3/10,q10/3.",
+  "runs": "Four independent classicalRK4 integrations U/D ×N8192/16384,6N steps, T=20pi/sqrt2; forcing sin(sqrt2*t) untilN exactly then0; stage endpointT mathematical0. No use ofswapped/copiedstate asotherbranch.",
+  "energy": "E=0.5v²+0.5u^TKu+(F²/16 ifD else0); augmentedWin,Db,Dd; Dd_rate=absF*(absF/10)^(10/3) ifD else0. No clipping/zeroingterminalenergy.",
+  "output": "u1/u2 sampledabspeaks with signedwitness/time, deviceF peak/degenerateallzeroU tag, terminalcompleteenergy/W/Db/Dd andfullbalance; originalgrids only,nointerpolation.",
+  "comparison": "For eachN margin=maxabsu1_D-maxabsu1_U and booleanmargin>0; retain negativeorzerooutcome. Common-grid fine-vscoarse8state/E differences and independent sampledpeak changes. Noengineeringtolerance orposthocparameterchange.",
+  "local_history": "Singlelocal-cache/four_actual_RK4_histories.npz with four trajectories, localonly notstage/upload/log. Mainoutputs smallCSV/report/protocol/code/JSON.",
+  "scope": "Two groundedcoupledmasses, notordinarytwo-storyshearchain orrealETABS. Allnondimensional. Finite0..6T sampling andtwostep agreement notcontinuous/alltailproof,newmetric,safetylimit ornoveltyclaim.",
+  "runtime_limit_seconds": 480,
+  "failure": "Overflow/nonfinite/runtimefailure recorded withcompletedranges; nofrequency/parameter/thirdstepsearch."
+}

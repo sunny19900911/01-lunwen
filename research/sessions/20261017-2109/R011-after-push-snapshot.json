@@ -1,0 +1,172 @@
+{
+  "start": {
+    "current_time": "2026-10-17 17:57:05 UTC"
+  },
+  "end": {
+    "current_time": "2026-10-17 17:57:20 UTC"
+  },
+  "polls": [
+    {
+      "schemaVersion": 1,
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:72",
+      "revision": 72,
+      "changed": false,
+      "thread": {
+        "id": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14ae5-10f8-7c01-a666-1aad3b57c50e",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792257888,
+        "completedAt": 1792258190,
+        "durationMs": 302461
+      },
+      "latestAssistantMessageId": "msg_0fdbbf9b10a3adb0016ad3b08e30588195873dd628d724cf90",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": "exec-a813ee7d-4085-4674-88b3-dd3e25710faa",
+      "latestToolMarker": null
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:105",
+      "revision": 105,
+      "changed": false,
+      "thread": {
+        "id": "01a14756-7fe0-75f3-8671-bcd59e413052",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14ae5-0f00-78d3-8e15-37e212f52990",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792257888,
+        "completedAt": 1792258522,
+        "durationMs": 634852
+      },
+      "latestAssistantMessageId": "msg_058500d59acbf314016ad3b1d9470881968d68b08f5073c2d4",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": "exec-36f506e4-507e-498c-a5cd-0cca7bcfb531",
+      "latestToolMarker": null
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:57",
+      "revision": 57,
+      "changed": false,
+      "thread": {
+        "id": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14ae5-125b-7622-a719-74a4a47641f5",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792257888,
+        "completedAt": 1792258002,
+        "durationMs": 113147
+      },
+      "latestAssistantMessageId": "msg_01c40afd2e9956f9016ad3afd1861481909c0c649ab508f6aa",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": "exec-82b12573-6ceb-42e4-be14-d81054d30d43",
+      "latestToolMarker": null
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:49",
+      "revision": 49,
+      "changed": false,
+      "thread": {
+        "id": "01a14756-8805-7a42-b910-ae973f55d73e",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14ad6-fe6b-7733-a43e-1ac3fcc4bfcc",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792256966,
+        "completedAt": 1792257568,
+        "durationMs": 602004
+      },
+      "latestAssistantMessageId": "msg_09fe3e55758f973c016ad3ae1fa6b08193993860c157280f06",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": "exec-82cb8f4b-f7a0-4230-b30d-d31349763649",
+      "latestToolMarker": null
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:58",
+      "revision": 58,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14af9-daff-7e42-8c3b-f8cf411ba128",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792259250,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_09505bd600c2eded016ad3b668cc608190b689716dcee6b6d3",
+      "latestAssistantMessage": {
+        "id": "msg_09505bd600c2eded016ad3b668cc608190b689716dcee6b6d3",
+        "turnId": "01a14af9-daff-7e42-8c3b-f8cf411ba128",
+        "phase": "commentary",
+        "text": "v009正文已完成，新增表单列了四个安全界值，并将无限尾的起点明确为6T。接下来核对十进制方向、旧表与公式的保留情况，以及来源和冻结包；完成后交主控复审并停止改稿。"
+      },
+      "latestToolMarkerId": "exec-11836119-fefc-4c30-abe2-aaa480dcfd64",
+      "latestToolMarker": {
+        "id": "exec-11836119-fefc-4c30-abe2-aaa480dcfd64",
+        "turnId": "01a14af9-daff-7e42-8c3b-f8cf411ba128",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:29",
+      "revision": 29,
+      "changed": false,
+      "thread": {
+        "id": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14ad0-54ca-7c42-ac62-9d3e91b18d03",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792256529,
+        "completedAt": 1792256912,
+        "durationMs": 382589
+      },
+      "latestAssistantMessageId": "msg_0d8e1b978b923a60016ad3ab8f17208197968a0b86ef581809",
+      "latestAssistantMessage": null,
+      "latestToolMarkerId": "exec-f71c388d-3668-4c43-bc0f-7eb2ad8955dc",
+      "latestToolMarker": null
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "R015 v008 to v009 history/source/author metadata only",
+  "started_at": "2026-10-18T01:59:28+08:00",
+  "input_frozen_at": "2026-10-18T02:02:03.696826+08:00",
+  "deadline": "2026-10-18T02:07:28+08:00",
+  "scope": [
+    "no mathematical proof review; role2 separately",
+    "no NPZ or Excel read/hash; no new search/ODE/Git",
+    "write only own R015 directory"
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v008.md",
+      "bytes": 47388,
+      "sha256": "809b8a630d604cfc23cfd7e93b59312bb527a48ab3ed045862da24f6b6dd2cc0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v009.md",
+      "bytes": 54492,
+      "sha256": "30d9ec2f61439f19820959f929041cd0c92cdf28bb0e2a029d4c2f98c0436067"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v009.diff",
+      "bytes": 14926,
+      "sha256": "abd2ead03a2881da28706a67d03cc22cc510889d5ce24b07fdee0091162b7f7c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v009-report.md",
+      "bytes": 894,
+      "sha256": "62df56142f1b0c4d0b70ba3d58627ceab0b2ae1b3d3ea0d70da98d90af364a83"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v009-evidence-map.json",
+      "bytes": 73278,
+      "sha256": "0bdb89f3cf6d2879e2733ac551605945869caf9f12bb252dddba91142e7ae6f1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v009-evidence-map-status-addendum.json",
+      "bytes": 2133,
+      "sha256": "f5abea3cb3fe38fd1f201f58a23cf8bafe88354cce3ad44abcfaad754128efa8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v009.json",
+      "bytes": 2899,
+      "sha256": "73385aae1eb5f6f695134cae7aa6b42ec8798515b592535b2bdb8fcad5ebdd8c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v009-status-addendum.json",
+      "bytes": 843,
+      "sha256": "54169f9b38d30d0dd42192df7ab0833f92f44a367805b08043e3051c6be2c206"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\frozen-draft-v008.json",
+      "bytes": 2261,
+      "sha256": "aa026a9d23b64038d17fecb3e52fff5dca19e72a1f61c66ad42496202999a9ff"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R011-nonlinear-certificate-adoption.json",
+      "bytes": 4484,
+      "sha256": "cebfd63ace6e66e83a9d884e640043b6bdd2f547b618924d1f7d2a3d4e00dc99"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R011-certificate-adoption.md",
+      "bytes": 4525,
+      "sha256": "7e6ba75b719ea71d9cb1ec3b5aaa0e4ef3432048b6e558c13eb66bbbaa7e8e8d"
+    }
+  ],
+  "additional_new_small_source_inputs": [
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R025\\report.md",
+        "bytes": 7323,
+        "sha256": "66f510510a1f659a996920c14bb5c73e8211bd48c9c147806f3e829a6c704b85"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R025\\R025-proof-evidence.json",
+        "bytes": 11912,
+        "sha256": "c7cd15372cf31176c59f2f7ab68495ce468805ce1ca518e65c624e6825f9d014"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R025\\R025-review-validation.json",
+        "bytes": 9023,
+        "sha256": "cfd79abb9989837009a4df7fbcf871b708f3cf87d1c54933c9502cff9991ed4d"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\enclose_residual_budget_v002.py",
+        "bytes": 14024,
+        "sha256": "e46c63bc85ed2a00828a5877b0ce3f7131c3e8b386368cdcc6b645a87bdd7942"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\summary_r015.json",
+        "bytes": 7833,
+        "sha256": "c988d2eee1b6fce80b3838fc954a4cc8eaa3c5c3a7b61ef052f0df29bee57398"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v002.py",
+        "bytes": 10360,
+        "sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+        "bytes": 2341,
+        "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\nonlinear03-residual-certificate-proposal-v001.md",
+        "bytes": 4953,
+        "sha256": "c3036ff3bb65116c318374d1c0f06f54577e1b1bcaff08e243051056cc65a6b0"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward-float-v002-selfcheck.json",
+        "bytes": 1227,
+        "sha256": "d2e23d683c9cab4c0e8e0d2b943965d7ca8db75fb406a81054fa9244d9d7903e"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R011-nonlinear-certificate-adoption.json",
+        "bytes": 4484,
+        "sha256": "cebfd63ace6e66e83a9d884e640043b6bdd2f547b618924d1f7d2a3d4e00dc99"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R011-certificate-adoption.md",
+        "bytes": 4525,
+        "sha256": "7e6ba75b719ea71d9cb1ec3b5aaa0e4ef3432048b6e558c13eb66bbbaa7e8e8d"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\非线性交换与条件尾能量独审-R023.md",
+        "bytes": 5477,
+        "sha256": "68c436540dd4747988f06f7e5bf2dd61ad61bda9395607e221850fa9a1b4c478"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\全残差误差储能与中点预算独审-R024.md",
+        "bytes": 7124,
+        "sha256": "a9c2980a50f06577242582a416b7dbd1593b03bb9bf7c142f88795945253980e"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R016-helper-review\\report.md",
+        "bytes": 7213,
+        "sha256": "fbd80a0eb245e3f76a657eda951d6e32b1bc1cd128f844689469e640ab20e8b3"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R017-helper-v002-fix-review\\report.md",
+        "bytes": 2308,
+        "sha256": "f93caea9fc1c523a3959d80f7075631144a37cb6672f814b8cb22e4f7c4cb491"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R018-interval-parameter-audit\\report.md",
+        "bytes": 6636,
+        "sha256": "b476bf37a7a3ff16463ef65f388132521d5fb4e5a93fdf7e82f3a158a7ce1dc8"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\report.md",
+        "bytes": 2159,
+        "sha256": "db7843b0cd1bcfbafd8b77f50a8bd39e7f97e4368d26c0bfbb09fc73e8a7fa39"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\run_record_r015.json",
+        "bytes": 1837,
+        "sha256": "a3618dacb676e0aefa6abf8e0d53a7aea4b16c90557e827288b0726e230c9fad"
+      },
+      "map_matches": true
+    },
+    {
+      "identity": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R014-midpoint-residual-prototype\\run_record_r014.json",
+        "bytes": 1179,
+        "sha256": "c8448ae7bb4dae2a7b5de73427b34513318e6426f3d5fe86721a2224478e2ef5"
+      },
+      "map_matches": true
+    }
+  ],
+  "additional_source_freeze_at": "2026-10-18T02:02:49.959253+08:00",
+  "additional_metadata_inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v008-evidence-map.json",
+      "bytes": 63087,
+      "sha256": "a5ce8f83af01132b846d002470b7ca6c61ce52b4b667bbb8173955d4fc47799c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R025\\report.md",
+      "bytes": 7323,
+      "sha256": "66f510510a1f659a996920c14bb5c73e8211bd48c9c147806f3e829a6c704b85"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R025\\R025-proof-evidence.json",
+      "bytes": 11912,
+      "sha256": "c7cd15372cf31176c59f2f7ab68495ce468805ce1ca518e65c624e6825f9d014"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R025\\R025-review-validation.json",
+      "bytes": 9023,
+      "sha256": "cfd79abb9989837009a4df7fbcf871b708f3cf87d1c54933c9502cff9991ed4d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\enclose_residual_budget_v002.py",
+      "bytes": 14024,
+      "sha256": "e46c63bc85ed2a00828a5877b0ce3f7131c3e8b386368cdcc6b645a87bdd7942"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R015-outward-residual-certificate\\v002-run\\summary_r015.json",
+      "bytes": 7833,
+      "sha256": "c988d2eee1b6fce80b3838fc954a4cc8eaa3c5c3a7b61ef052f0df29bee57398"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward_float_v002.py",
+      "bytes": 10360,
+      "sha256": "d4c8443436a48c7ed96194d58ad6795633a8365c415bc539042cd52acc396fcd"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-nonlinear03-protocol-v001.json",
+      "bytes": 2341,
+      "sha256": "6551e24d81adb7f1f869a8253f07e39d8d0d142e10fce6a116aba0e6fbdebdb8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\nonlinear03-residual-certificate-proposal-v001.md",
+      "bytes": 4953,
+      "sha256": "c3036ff3bb65116c318374d1c0f06f54577e1b1bcaff08e243051056cc65a6b0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\outward-float-v002-selfcheck.json",
+      "bytes": 1227,
+      "sha256": "d2e23d683c9cab4c0e8e0d2b943965d7ca8db75fb406a81054fa9244d9d7903e"
+    }
+  ],
+  "cache_identity_policy": "NPZ SHA inherited from root only; neither read nor hashed in R015"
+}
