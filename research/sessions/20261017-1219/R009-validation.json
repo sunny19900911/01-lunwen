@@ -1,0 +1,107 @@
+{
+  "checked_at": "2026-10-17T14:21:07.993585+08:00",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4926,
+      "sha256": "eede195125ebc8e551de28985ade81e921b42c2a8f9c1624e9434a2e90e9aa0a"
+    },
+    {
+      "path": "research/active-session.json",
+      "bytes": 331,
+      "sha256": "a640d636e0651e3501d395e772031329322497a67637198caee43ce0807ed5db"
+    },
+    {
+      "path": "papers/damping-output-boundaries/README.md",
+      "bytes": 5095,
+      "sha256": "d68fe5765e2c55b2896d93413d9bfc9ac09d10af6aa7a930e56d8664f690c833"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/claims.md",
+      "bytes": 30518,
+      "sha256": "d7156e2e3931d97e2f0345d540b561666dcd2870c97819e74618b25cd9b8260e"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/decisions-pending.md",
+      "bytes": 1664,
+      "sha256": "3cfb0ac3c84bbb9120cf8a6f212addb3713e77821f4c23b530ab5f456d8b19c9"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/T001.md",
+      "bytes": 1856,
+      "sha256": "78329c1eea9e2e149264fc38d191b1c38d6164bcc05a6f7002762e4e34544a29"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/events.md",
+      "bytes": 6345,
+      "sha256": "295e39e7c097fcaa0a162b94477baff7621d1a439ae61fa8d11ca1e8fbfc6cf6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/history/T001/v020.md",
+      "bytes": 1886,
+      "sha256": "710222d714766b1d44683cd368a8284928fce63b6ffa0407872a1533df838f1c"
+    },
+    {
+      "path": "research/sessions/20261017-1219/R008-push.json",
+      "bytes": 562,
+      "sha256": "e612e9aefd4351fbdd534194403fb2387d4f2ddb737128acbfb1c771b4455da2"
+    },
+    {
+      "path": "research/sessions/20261017-1219/R009.md",
+      "bytes": 1113,
+      "sha256": "a62388f78df685696ddb2fbea9571d3f3762e73ae67ec7f9771888d1b52bee87"
+    },
+    {
+      "path": "research/sessions/20261017-1219/final-summary.md",
+      "bytes": 5234,
+      "sha256": "527e82ab678f4d8c9aaf3395a36ed011d410b82736d1fc33bf40b214ec87d7a8"
+    },
+    {
+      "path": "research/sessions/20261017-1219/status.json",
+      "bytes": 4926,
+      "sha256": "1608cdf97a29fec0886a3b5cac78706b2d64f4e660f7516563e944e51f008981"
+    },
+    {
+      "path": "research/sessions/20261017-1219/automation-pause-confirmation.json",
+      "bytes": 440,
+      "sha256": "cf85d1ecd206046723f4e432a52afffd0542a78272c8c1b295261cd25ccc48ac"
+    },
+    {
+      "path": "research/sessions/20261017-1219/local-handoff-inventory.json",
+      "bytes": 3627,
+      "sha256": "0f043fc7ba50e4cb4153b8ec7c9224b126291ecf334a4331960f0806b14bb7fe"
+    },
+    {
+      "path": "research/sessions/20261017-1219/role-snapshot-final.json",
+      "bytes": 3230,
+      "sha256": "a3a0f103525aca952704df90f6ea2d67552098f90e47ccc090c9b49e1e687e9a"
+    },
+    {
+      "path": "research/sessions/20261017-1219/close_session.py",
+      "bytes": 14172,
+      "sha256": "20edfa128cfde67dfeba586c3bd4c79ebc4e167fe97c4409058f0b7556981220"
+    },
+    {
+      "path": "research/sessions/20261017-1219/root-audit-R009.md",
+      "bytes": 1316,
+      "sha256": "c7f498268e33225f8558f2fdec3847f41c84c078e86cf9bbe6b0fa8622c8b1cf"
+    },
+    {
+      "path": "research/sessions/20261017-1219/checkpoint_check_R009.py",
+      "bytes": 4783,
+      "sha256": "23e01cd22e87f96af9916f523e12857585e5f9a047977eb0922dd9ee5f0f9258"
+    },
+    {
+      "path": "research/sessions/20261017-1219/ready-R009-files.json",
+      "bytes": 1072,
+      "sha256": "d821d1363041f63ba386089b17d34253498bfa20588f94e2ed26e88586ff785b"
+    }
+  ],
+  "v007_mapping_identity_entries_matched": 56,
+  "writing_frozen_manifests_match": true,
+  "experiment_run_hashes_match": true,
+  "R009_core_scope": "Budget closure/final summary/plain decisions/topic snapshot; frozen v007 and guide unchanged; scheduler status verified through official tool",
+  "E3_independent_arithmetic": "audit_envelope_constants.py actual exit0; Machin pi, max relative difference7.87e-90; no source rerun",
+  "independent_Q_audit": "actual exit0, eight rows, max relative component difference4.67e-84",
+  "scope": "JSON/AST/local references/frozen hashes/staged bytes, not formal proof or novelty certification"
+}
