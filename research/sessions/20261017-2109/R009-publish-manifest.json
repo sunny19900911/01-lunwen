@@ -1,0 +1,292 @@
+{
+  "at": "2026-10-18T00:45:54.160682+08:00",
+  "expected_head": "9495702cabca56080b513efe0936074c7abb617c",
+  "last_verified_remote": "9495702cabca56080b513efe0936074c7abb617c",
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/delivery_manifest_r012.json",
+      "bytes": 2125,
+      "sha256": "c6cb2ab90a1d882306d1b08597dd6b3f381738a58cd5a548b25fe79c274434ab"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/four_actual_runs_r012.csv",
+      "bytes": 2900,
+      "sha256": "21994dfe90ceeaf62601c2755a104353d6c720faff3ada866563e2358b209514"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/protocol.json",
+      "bytes": 2457,
+      "sha256": "13b73b8306d09215b26fe96a4368e4d068900bd79669803b6a287e4b1e93119b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/report.md",
+      "bytes": 3840,
+      "sha256": "058846db5338ad200fa50555532f41c84e2883137cd89fc25abc9c0f5cb0a471"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/run_record_r012.json",
+      "bytes": 1187,
+      "sha256": "b1fadbdfe0c40ee366d302dd55e325e945be35efdb51435bc658ab005269f5f9"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/step_convergence_r012.csv",
+      "bytes": 1187,
+      "sha256": "7e389b297ebaf3bc65f507df5ecd0e744df050b0e231578da018b25b71671fed"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/summary_r012.json",
+      "bytes": 11487,
+      "sha256": "987a974234737ef69e49f780eb071a33f0f88e8813c0e8e8c710a5eb15cd2d3a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R012-layout-symmetry-synthetic/verify_layout_symmetry.py",
+      "bytes": 12442,
+      "sha256": "e8effb66a928ef4b72ac4a89ec9907d736e14ea43b6bdf438442c941c95c87df"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R012-finite-modal-certificate/report.md",
+      "bytes": 9160,
+      "sha256": "7e7c9a962cfa0e572c632e765cf25b9c1f21011c94e4b8dbe62d58217dcb85d8"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R012-finite-modal-certificate/scope.json",
+      "bytes": 1028,
+      "sha256": "b60bf5b0c64eb33062be6537c5ee16f75dd5dc3daaccf235041e88342fa744db"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R012-finite-modal-certificate/validation.json",
+      "bytes": 894,
+      "sha256": "177ba743278beec59f8d5a8a22b7d0bf2aec0b22bbf10184d0fd7988bd4973d9"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R013-layout-symmetry-proof/analytic-checks.json",
+      "bytes": 1096,
+      "sha256": "1b1b7af0a84329d44c6e2717acff48048d8560ca13cc9dad4eec9ffcd179c118"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R013-layout-symmetry-proof/analytic_constants.py",
+      "bytes": 2408,
+      "sha256": "f2289d97b3964a5042e3020a038e76a91e734c7a996626a1dbbd59c1556cfc06"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R013-layout-symmetry-proof/artifact-manifest.json",
+      "bytes": 1153,
+      "sha256": "7d1d88996a1092722a5b83d725241019afadb15d21bd34d8c8829b5497b2b1c7"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R013-layout-symmetry-proof/cross-checks.md",
+      "bytes": 1676,
+      "sha256": "4db0cfacf5028d921fd6619495870c59fc5178bd09a5ed29030da2e73f98a90a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R013-layout-symmetry-proof/input-freeze.json",
+      "bytes": 860,
+      "sha256": "956bd434f63fc70842da88b6fe4b8fa0112fc8dc014834d9c40311b48093f441"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R013-layout-symmetry-proof/protocol-copy.json",
+      "bytes": 2985,
+      "sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R013-layout-symmetry-proof/report.md",
+      "bytes": 8769,
+      "sha256": "7c36b9b06c9602fb2683069d7ab607edc4959bf5005e027cd03701f2fadff91f"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/maxwell-session004/R013-layout-symmetry-proof/validation.json",
+      "bytes": 1749,
+      "sha256": "f20ee59b088755b7088ad67956d658e70201d4e0b0debd742015c4bf90d0ad8d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R009-modal-normalization-interface/R009-modal-normalization-interface.md",
+      "bytes": 7792,
+      "sha256": "06504d34be1652f22536a0649e15aa1650b71706c165d57c2f54b027c78c644c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R009-modal-normalization-interface/source-manifest-R009.json",
+      "bytes": 5822,
+      "sha256": "7a9728daf0115a23112635b3f1d90aa7bf98a0a7d690a13bf292d8dff6610e96"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R010/device-to-building-review.md",
+      "bytes": 8366,
+      "sha256": "b703b4f7eae39e1dc4c923bff9bdf9860d4d3cb59955bb1006fba10f8901c864"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R010/input-freeze.json",
+      "bytes": 4846,
+      "sha256": "ee79ea737d12ae2914a4ef330bd62a89248c96beb45e86ae8d011680307461c5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R010/report.md",
+      "bytes": 10728,
+      "sha256": "7a9182eb9efd5761d9a84cc50254272610602262d0e71fc12cd53042aecf90f3"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R010/system-bound-scope-review.md",
+      "bytes": 8414,
+      "sha256": "3803f351393bedb0d14a665dc1936c0eb87c62449b3beccf6841b944e43021e5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R010/validation.json",
+      "bytes": 1994,
+      "sha256": "583f8c39d9374b68bf030cefe7b2a9675274e521081583e76ae9f6a4af6eb0bb"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R019-proof-evidence.json",
+      "bytes": 6826,
+      "sha256": "1e8494d2b300ed68d0ab5812815b9f69e8d07b8cb1e20dc52b06672050deb057"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R019-review-validation.json",
+      "bytes": 4429,
+      "sha256": "b7f0e961bd18cf53fc798366776abc09b86e889da707e15eb3c692dce4ea7a72"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R020-proof-evidence.json",
+      "bytes": 7139,
+      "sha256": "9c5707b36486356b6b9f85a681d6a349e9d8e70bfc5c2ad34a2c8db557dfb673"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R020-review-validation.json",
+      "bytes": 4571,
+      "sha256": "3041509a3aaf7bcdc84a1babee5b69839085af79a015766ef4e4616717a511f6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R021-proof-evidence.json",
+      "bytes": 8401,
+      "sha256": "08e8f7e87015675b3152549c5731b6070fedd433e5e063334541149dbf92ceaa"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R021-review-validation.json",
+      "bytes": 4879,
+      "sha256": "8a292928589085830062da34ba57cde1943dd9ec4ddab04e1d6cc54d8886ef37"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/布局交换反例全尾解析独审-R021.md",
+      "bytes": 8146,
+      "sha256": "2e76d2637a72ebe9b09e02bbefce9ee282c5fdc72776c33b827c98d9f2cadec5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/有限模态残余谱证书独审-R020.md",
+      "bytes": 7857,
+      "sha256": "cafe7f64147f5353d019ebe64101d88ed3d33741a7363aad2f2fa8718388209a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/能量至局部速度与器件力桥接独审-R019.md",
+      "bytes": 6918,
+      "sha256": "46d6f9f7c4ab734ab860e0ed963305104a36edff2d11da62c17f11344679dcb1"
+    },
+    {
+      "path": "research/sessions/20261017-2109/claims.md",
+      "bytes": 16100,
+      "sha256": "a536b9842ad074ce5bc42b6c6c264f4e1685c77dd60e8090bde2c97dd0f7f157"
+    },
+    {
+      "path": "research/sessions/20261017-2109/layout-symmetry-protocol-v001.json",
+      "bytes": 2985,
+      "sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e"
+    },
+    {
+      "path": "research/sessions/20261017-2109/plan.md",
+      "bytes": 7225,
+      "sha256": "1a7658f31cf0b58d7ef37fb1c97b9ef1ab54bfad40ed6f2ef2d4dd4ffc2d3fa8"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R008-after-push-role-snapshot.json",
+      "bytes": 8692,
+      "sha256": "5df5a80d5fbf29ce0dd329bd93f9b254be0881f7768e31006f0c38d30ee2061c"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R008-index-qa.json",
+      "bytes": 13634,
+      "sha256": "6d79e199569ed968c7b0452695abe9bf19835d47e7f11d5e56e97a544d486c4a"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R008-late-evidence.md",
+      "bytes": 2576,
+      "sha256": "1c085181d6d24fec38f93af0f164c2fecd9668f57c8a45695c49fe939bfe396d"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R008-push.json",
+      "bytes": 723,
+      "sha256": "65c5a772411e09533f307a6e0483c2551ea6b776acde649cc08feffdd2a6a601"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R009-appendix-root-review.json",
+      "bytes": 2735,
+      "sha256": "b1be8bf8029d17b08d38fb83ab89759d421b295238f9c30801f01a6956a2f971"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R009-layout-numerical-root-review.json",
+      "bytes": 6155,
+      "sha256": "2a88a14f6c4748c509ab26dc03094e9f42420b253be2a1fff687bad8647cfbf9"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R009-layout-root-adoption.json",
+      "bytes": 1057,
+      "sha256": "ac979fe562a0cb86386b2f4b09e105ab5428018e4905b4113e86bee2d1438d6e"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R009-mathematics-root-acceptance.json",
+      "bytes": 812,
+      "sha256": "bbc25b5cd717056e50b5551c0d60b1071308c9511feb3f9a6c51ff6c8526905d"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R009-role-snapshot.json",
+      "bytes": 10387,
+      "sha256": "714b4ceeaf945713d731dd2fdf6d51902690325b5e4349e16bac55425c2d17fd"
+    },
+    {
+      "path": "research/sessions/20261017-2109/review_layout_linear_R012_root.py",
+      "bytes": 6055,
+      "sha256": "385156afb2ba744a5903db9c4a42cf664873e7ecd6939368a69d20d47eddd6e7"
+    },
+    {
+      "path": "research/sessions/20261017-2109/rounds/R009.md",
+      "bytes": 2503,
+      "sha256": "50a86820619fbb946e38ef57979b018dc00aaa627176c36e04fbe8929b0888f4"
+    },
+    {
+      "path": "research/sessions/20261017-2109/runs.md",
+      "bytes": 7256,
+      "sha256": "8bc2ed255542f2cd16af3495b9a249c91e0c21c40f073085b5920d073aaf3459"
+    },
+    {
+      "path": "research/sessions/20261017-2109/status.json",
+      "bytes": 33828,
+      "sha256": "12d641e59ffa6cee375722965215e6b95dc6705b1def6d24e8bebf3fd56231d1"
+    },
+    {
+      "path": "research/sessions/20261017-2109/topic-cards/events.md",
+      "bytes": 1944,
+      "sha256": "3d52a18e61c377f9409acec201e10cf7551cc3dd0ee2543802acd7bbc3c56c16"
+    },
+    {
+      "path": "research/sessions/20261017-2109/topic-cards/T-M001-v008.md",
+      "bytes": 2375,
+      "sha256": "117316e4d6f62865a151b136a4d25b4fda6d700d2630e29ed14ac86b831868a7"
+    },
+    {
+      "path": "research/sessions/20261017-2109/同样耗能为什么布置效果还能不同.md",
+      "bytes": 4618,
+      "sha256": "95ad5611d57773f187b6b8b9d0e90cfce15b0524db1868254ade4b01e4b83ff1"
+    }
+  ],
+  "file_count": 54,
+  "total_bytes": 308191,
+  "scope": "frozen small evidence,root independent synthetic audit andplainlanguage;R01920 reviewedmath,R021 reviewedclassic synthetic withsignerratum;not realengineering orpriority",
+  "active_excluded": [
+    "modal-interface-v001",
+    "noveltyR011"
+  ],
+  "known_mustfix_excluded": [
+    "theoryappendixv001",
+    "literatureR010repairfinding until v002 pair"
+  ],
+  "local_only_sources_excluded": "source PDFs/PNGs/arrays/rawExcel/old dirty files/unknown5E-07",
+  "per_file_limit": 1000000,
+  "links_resolve_locally": true,
+  "JSON_CSV_AST_UTF8_smallfile_checks": true
+}

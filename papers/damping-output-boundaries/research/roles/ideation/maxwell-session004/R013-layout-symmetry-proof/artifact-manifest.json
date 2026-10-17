@@ -1,0 +1,41 @@
+{
+  "round": "R013",
+  "frozen_at": "2026-10-18T00:35:34.392651+08:00",
+  "artifacts": [
+    {
+      "name": "analytic-checks.json",
+      "bytes": 1096,
+      "sha256": "1b1b7af0a84329d44c6e2717acff48048d8560ca13cc9dad4eec9ffcd179c118"
+    },
+    {
+      "name": "analytic_constants.py",
+      "bytes": 2408,
+      "sha256": "f2289d97b3964a5042e3020a038e76a91e734c7a996626a1dbbd59c1556cfc06"
+    },
+    {
+      "name": "cross-checks.md",
+      "bytes": 1676,
+      "sha256": "4db0cfacf5028d921fd6619495870c59fc5178bd09a5ed29030da2e73f98a90a"
+    },
+    {
+      "name": "input-freeze.json",
+      "bytes": 860,
+      "sha256": "956bd434f63fc70842da88b6fe4b8fa0112fc8dc014834d9c40311b48093f441"
+    },
+    {
+      "name": "protocol-copy.json",
+      "bytes": 2985,
+      "sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e"
+    },
+    {
+      "name": "report.md",
+      "bytes": 8769,
+      "sha256": "7c36b9b06c9602fb2683069d7ab607edc4959bf5005e027cd03701f2fadff91f"
+    },
+    {
+      "name": "validation.json",
+      "bytes": 1749,
+      "sha256": "f20ee59b088755b7088ad67956d658e70201d4e0b0debd742015c4bf90d0ad8d"
+    }
+  ]
+}

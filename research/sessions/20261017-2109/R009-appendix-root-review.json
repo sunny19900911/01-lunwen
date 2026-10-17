@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-18T00:41:11.179701+08:00",
+  "root_fulltext_read": true,
+  "freeze_manifest_sha256": "ae2eb8507adc4b8fb94dd2a672715b8e13573cef62312c963074ad329c43cced",
+  "six_frozen_files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/maxwell-theory-appendix-v001.md",
+      "sha256": "be8535fef719b77d5e8b8d1f4ea6dc25d884c1834f0fcf3521359d7c00e759c8"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/theory-appendix-v001-evidence-map.json",
+      "sha256": "9eb915309de788f2990a4954c2f4373594edb031747381e712a814c8cd333d4b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/theory-appendix-v001-validation.json",
+      "sha256": "adb6f5a61b891e595542b3634d16f18ede06428889ba9fd50dfb7a612f139469"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/theory-appendix-v001-session-snapshot.json",
+      "sha256": "7a148a47f93c6181a6c96ca915d70258dd8e3205471200f56867e78212905f56"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/theory-appendix-v001-report.md",
+      "sha256": "1cf767457b87602da9f38224d3209ea64f6c43c9ded152ff7efca699f83034a7"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/theory-appendix-v001-next-task.md",
+      "sha256": "049a3b568a035496274b1e9bc813f68b3d140730f280abf6d095c100e753b8ec"
+    }
+  ],
+  "formula_tags_1_to_14_once": true,
+  "all_local_links_resolve": [
+    "../research/roles/novelty/maxwell-session004/R008/report.md",
+    "../research/roles/novelty/maxwell-session004/R009/report.md",
+    "../research/roles/verification/maxwell-session004/饱和包络修订串行独审-R015.md",
+    "../research/roles/verification/maxwell-session004/力回零耗散峰力可行域独审-R014.md",
+    "../research/roles/ideation/maxwell-session004/R008-closed-peak-reachability/report.md",
+    "../research/roles/verification/maxwell-session004/双回零指定峰最短可达时间独审-R016.md",
+    "../research/roles/ideation/maxwell-session004/R009-nonzero-terminal-force/report.md",
+    "../research/roles/verification/maxwell-session004/非零末力耗散峰力区间独审-R017.md",
+    "../research/roles/writing/maxwell-session004/theory-appendix-v001-evidence-map.json"
+  ],
+  "v007_unchanged": true,
+  "status": "Root content/integration read and integrity passed;independent literature R010 integration review pending",
+  "scope": "reviewed mathematics R015/R016/R017 organized only;not actual V/parameter/device-building realization or scientific priority"
+}

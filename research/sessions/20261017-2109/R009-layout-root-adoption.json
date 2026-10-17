@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-18T00:44:46.493807+08:00",
+  "reviewed_proof": {
+    "布局交换反例全尾解析独审-R021.md": "2e76d2637a72ebe9b09e02bbefce9ee282c5fdc72776c33b827c98d9f2cadec5",
+    "R021-proof-evidence.json": "08e8f7e87015675b3152549c5731b6070fedd433e5e063334541149dbf92ceaa",
+    "R021-review-validation.json": "8a292928589085830062da34ba57cde1943dd9ec4ddab04e1d6cc54d8886ef37"
+  },
+  "protocol_sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e",
+  "protocol_erratum": "abs(u_U(T))>9.5, signedu_U(T)<-9.5;root candidate signed shorthand retained as original evidence",
+  "direct_root_corollaries": [
+    "delta_B=B_B u_B=B_B P u_A=B_A u_A=delta_A,so total device deformation/speed histories also equal",
+    "globalmax over both positions unchanged by permutation;fixed-output improvement is not global dominance"
+  ],
+  "scientific_limits": "syntheticlinearalpha1,classic symmetry,not actualbuildingalpha0.3 orpriority",
+  "R012_numerical_independent_record": "R009-layout-numerical-root-review.json"
+}

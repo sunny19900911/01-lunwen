@@ -1,0 +1,118 @@
+{
+  "review": "R019",
+  "session": "20261017-2109",
+  "started_at": "2026-10-18T00:15:04+08:00",
+  "deadline": "2026-10-18T00:22:04+08:00",
+  "recorded_at": "2026-10-18T00:18:43.599027+08:00",
+  "required_changes": 0,
+  "verdict": "Correct local conservative bridge from certified full uniform energy to port speed and device-force demand, with explicit initial-force and mass-completeness gates.",
+  "source_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R011-energy-local-force\\report.md",
+      "bytes": 8011,
+      "sha256": "5818129368de9f5f9f4360b29c3d8c81203484eb3c14f7c36c98e67287b76677"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R011-energy-local-force\\scope.json",
+      "bytes": 1008,
+      "sha256": "e5a4566f451ef73ca7b3af14212df54d5ce807fdd3c0e8d73df6e275790201d6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R011-energy-local-force\\algebra_checks.json",
+      "bytes": 893,
+      "sha256": "c0fe57d65241bebd5c00189ca07e0854b7935aa1b1981da740f5098abfa54683"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R011-energy-local-force\\validation.json",
+      "bytes": 892,
+      "sha256": "eecdee1a543ffb7aeda7058eac8102a82a43682af272e3aadeae21d60213ce05"
+    }
+  ],
+  "upstream_author_identity": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R010-system-energy-interface\\report.md",
+    "bytes": 10586,
+    "sha256": "676f41e6b0826e0dd0a358568c0f212458738d952d041b5c630be0386894f3e3"
+  },
+  "inherited_R018_report": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\主体Maxwell位移能量界接口独审-R018.md",
+    "bytes": 9140,
+    "sha256": "a0a424774778106551a0523b90ab27900d731664e63c84eb87db98d65f238287"
+  },
+  "upstream_entire_proof_rereviewed": false,
+  "accepted_domain": "Fixed constrained SPD mass and inherited passive finite-dimensional energy model; fixed true port delta=B*u, finite positive constant k,c,alpha, full uniform E(t)<=Ebar over finite window, full initial storage, certified complete eta or a verified upper estimate; stated initial-force cases.",
+  "proof_checks": {
+    "full_uniform_energy_not_just_body_or_kinetic_budget": true,
+    "kinetic_budget_alone_only_supports_speed_not_branch_storage_bound": true,
+    "mass_dual_eta_B_M_inverse_B_transpose_nonnegative": true,
+    "port_speed_squared_at_most_two_Ebar_eta": true,
+    "bound_is_total_port_velocity_not_internal_dashpot_velocity": true,
+    "branch_storage_force_bound_sqrt_two_k_Ebar": true,
+    "zero_initial_force_scalar_threshold_c_Vbar_power_alpha": true,
+    "combined_non_strict_min_bound": true,
+    "finite_horizon_strictness_only_for_beta_with_Vbar_positive_and_zero_initial_force": true,
+    "Vbar_zero_zero_initial_force_gives_zero_force_no_strict_negative_bound": true,
+    "Ebar_zero_includes_all_initial_internal_energy": true,
+    "nonzero_initial_force_requires_max_r0_beta": true,
+    "initial_storage_requires_A_at_least_r0": true,
+    "zero_port_velocity_nonzero_initial_force_relaxation_counterexample": true,
+    "q_less_than_one_monotone_comparison_valid": true,
+    "complete_mass_normalized_modal_eta_sum_without_frequency_denominator": true,
+    "endpoint_projection_and_rigid_arm_geometry_must_match_coordinates": true,
+    "modal_truncation_eta_underestimates_speed_threshold": true,
+    "global_mass_participation_not_local_B_tail_certificate": true,
+    "rigid_modes_not_deleted_without_port_annihilation": true,
+    "local_mass_identity_does_not_bypass_upstream_K_output_gate": true,
+    "prescribed_support_speed_and_external_power_both_require_updates": true,
+    "mass_zero_DOF_unconditional_pseudoinverse_counterexample": true,
+    "PSD_mass_port_annihilation_needed_for_pseudoinverse_algebra": true,
+    "DAE_needs_consistency_and_power_preserving_constraint_handling": true,
+    "force_and_velocity_dimensions_and_alpha_dependent_c_units": true,
+    "layout_B_change_may_change_local_certificate_but_not_actual_peak_order": true,
+    "no_actual_full_model_SPD_or_engineering_bound_certification": true
+  },
+  "analytic_counterexamples": [
+    {
+      "failure": "Zero-initial-force threshold used with residual initial force",
+      "data": "Port speed identically zero with r0>0.",
+      "reason": "Force relaxes but window maximum is r0, whereas c*0^alpha=0."
+    },
+    {
+      "failure": "Mass pseudoinverse used without nullspace condition",
+      "data": "M=diag(1,0), B=(0,1), v=(0,R).",
+      "reason": "Kinetic quadratic form is zero and B*Mdagger*Btranspose=0, but port velocity is arbitrary R; a kinematic counterexample, not a claimed arbitrary DAE trajectory."
+    }
+  ],
+  "read_only_collaborators": [
+    {
+      "agent": "kernel_sharp_audit",
+      "focus": "uniform energy, initial force, zero speed and finite-horizon scalar comparison",
+      "required_changes": 0
+    },
+    {
+      "agent": "r006_sharp_challenge",
+      "focus": "mass duality, modal completeness, support power and DAE/nullspace gates",
+      "required_changes": 0
+    },
+    {
+      "agent": "audit_double_mode",
+      "focus": "units, storage vs kinetic budget, modal sum and layout interpretation",
+      "required_changes": 0
+    }
+  ],
+  "real_arrays_read": false,
+  "solver_run": false,
+  "synthetic_numeric_example_rerun": false,
+  "external_search": false,
+  "new_exact_time_formula": false,
+  "new_modal_tail_formula": false,
+  "engineering_certified": false,
+  "actual_peak_ranking_claimed": false,
+  "author_old_shared_manuscript_Git_writes": false,
+  "limits": [
+    "Actual full models with massless DOFs are not assumed SPD; verify a consistent power-preserving reduced model.",
+    "Extra prescribed support velocity also changes the upstream external-power budget.",
+    "Complete certified Ebar and eta are required; truncated or conditional inputs do not become engineering certificates.",
+    "No real force reduction, floor-response guarantee, installation capacity or layout optimality conclusion.",
+    "No new exact time or tail formula; stop after frozen handoff."
+  ]
+}

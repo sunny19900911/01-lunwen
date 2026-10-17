@@ -1,0 +1,21 @@
+{
+  "evidence_id": "M-EXP-R012",
+  "review_status": "synthetic_candidate",
+  "frozen_utc_before_calculation": "2026-10-17T16:30:44.092970+00:00",
+  "root_protocol": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-symmetry-protocol-v001.json",
+    "bytes": 2985,
+    "sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e"
+  },
+  "parameters": "Exactly root frozen protocol; r by bisection of cubic on[1.7,1.73], no fit; K/C/Rayleigh/kappa/c generated from definitions.",
+  "algorithm": "Independent standard explicit RK4 for augmented states [u1,u2,v1,v2,F,W_input,D_background,D_device]; four actual runs: layoutsA andB each N8192 and16384 steps perT, total6N. No trajectory produced by swapping another run.",
+  "forcing": "sin(t) on0<=t<T=20pi; endpointT set exactly mathematical0, then0. Stage times use step indices/half indices rather than accumulated clock; cutoff atN exactly.",
+  "stored_energy": "E=0.5(v1²+v2²)+0.5*u^T K u+F²/(2kappa), E0=0; backgroundC excludes Maxwell spring; Wdot=(v1+v2)f, Db_dot=v^TCv, Dd_dot=F²/c. Integrals are augmented RK4 states, no clipping.",
+  "comparison": "Sampled absolute peak at original grid points with signed value and all exact tied peak times. Report no peak interpolation/threshold. Compare B to P*A at every matching time; F and allthree integrated budgets unchanged underP. Compare each kinetic/physicalelastic/deviceelastic/total energy trajectory.",
+  "step_convergence": "Compare fine every2nd point against coarse at allcommon times for all8states and totalE; report changes in sampled peaks and terminalbudgets, no posthoc pass threshold or parameter adjustment.",
+  "balance": "Max over full0..6T of E-W+Db+Dd; also values atT/end and terminalstoredenergy. Normalized diagnostic divide by max(1,maxabsW,maxE), arithmetic only.",
+  "symmetry_arithmetic_tolerance": "1e-10*max(1,maxabscomparedvalues), diagnostic only, not a rigorous ODE/globalpeak error bound. Keepactualfailures.",
+  "tail_scope": "Finite sampled0..6T support only; fulltail/fullpeak proof belongs to role1R013. This is syntheticalpha1, not useralpha.3, realETABS or newindicator.",
+  "outputs": "Small four-run summaryCSV, convergenceCSV, protocol/script/JSON/report; no full state/time arrays written or uploaded, no graph dependencies/Excel/solver.",
+  "runtime_limit_seconds": 360
+}

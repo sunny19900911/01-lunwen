@@ -1,0 +1,30 @@
+{
+  "scope": "Analytic constants only; floating values illustrative; exact rational gates asserted separately. No ODE, time arrays or sampled extrema.",
+  "protocol_sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e",
+  "exact_gates": {
+    "q": "21/10000",
+    "22q": "231/5000",
+    "position_error_upper": "3003/4769",
+    "position_error_lt_0.64": true,
+    "A_bound_lt_1.7": true,
+    "B_lower_gt_8.8": true,
+    "exp_3.1_partial_sum_gt_22": true,
+    "exp_0.157_partial_sum_gt_7_over_6": true,
+    "kappa_lower_gt_7": true
+  },
+  "illustrative_scalar_values": {
+    "r": 1.7151372034229122,
+    "lambda": 5.0454116102687365,
+    "kappa": 7.320545718669232,
+    "c": 1.450931318223869,
+    "w": 1.000999500499376,
+    "deltaC_inf": 9.995004993759161e-05,
+    "hU_L1": 12.74267191838879,
+    "hU_velocity_L1_upper": 20.63713359591944,
+    "hD_velocity_L1_upper_r": 1.7151372034229122,
+    "state_bound": 23.065632208010065,
+    "position_error_upper": 0.6296917592786748,
+    "baseline_abs_T_lower": 9.56731962844309,
+    "baseline_signed_T": -9.570893070708914
+  }
+}

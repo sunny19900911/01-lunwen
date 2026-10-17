@@ -1,0 +1,51 @@
+{
+  "evidence_id": "M-EXP-R012",
+  "review_status": "synthetic_finite_sampled_candidate",
+  "completed_utc": "2026-10-17T16:33:33.864702+00:00",
+  "actual_command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\verify_layout_symmetry.py"
+  ],
+  "exit_code": 0,
+  "convergence_interpretation": "Common-grid trajectory difference and each-run sampled peak difference are distinct; finer peak grid also adds intermediate sample candidates. Neither establishes fulltail/globalpeak or a rigorous ODE error bound.",
+  "delivery_QA": "4actualrun rows/2convergence rows, all output/root SHA, UTF-8, compilation and no full-array/image outputs checked. Numeric integration not rerun.",
+  "files": [
+    {
+      "name": "four_actual_runs_r012.csv",
+      "bytes": 2900,
+      "sha256": "21994dfe90ceeaf62601c2755a104353d6c720faff3ada866563e2358b209514"
+    },
+    {
+      "name": "protocol.json",
+      "bytes": 2457,
+      "sha256": "13b73b8306d09215b26fe96a4368e4d068900bd79669803b6a287e4b1e93119b"
+    },
+    {
+      "name": "report.md",
+      "bytes": 3840,
+      "sha256": "058846db5338ad200fa50555532f41c84e2883137cd89fc25abc9c0f5cb0a471"
+    },
+    {
+      "name": "run_record_r012.json",
+      "bytes": 1187,
+      "sha256": "b1fadbdfe0c40ee366d302dd55e325e945be35efdb51435bc658ab005269f5f9"
+    },
+    {
+      "name": "step_convergence_r012.csv",
+      "bytes": 1187,
+      "sha256": "7e389b297ebaf3bc65f507df5ecd0e744df050b0e231578da018b25b71671fed"
+    },
+    {
+      "name": "summary_r012.json",
+      "bytes": 11487,
+      "sha256": "987a974234737ef69e49f780eb071a33f0f88e8813c0e8e8c710a5eb15cd2d3a"
+    },
+    {
+      "name": "verify_layout_symmetry.py",
+      "bytes": 12442,
+      "sha256": "e8effb66a928ef4b72ac4a89ec9907d736e14ea43b6bdf438442c941c95c87df"
+    }
+  ]
+}

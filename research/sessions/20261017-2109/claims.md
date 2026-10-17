@@ -88,3 +88,12 @@ M-C009 proposed/analytic-derivation candidate：在已知单轴Maxwell本构、�
 
 
 2026-10-18T00:16:17.893877+08:00 R018全文/三SHA核过，M-C019为supported/analytic-derivation reviewed，限定约束后SPD质量刚度、固定功共轭Maxwell、完整初能与输入范数及固定线性位移输出；半正定阻尼Range门/L1后备/模态尾项门全部保留，非加速度或总层剪/布局最优。实际常数未计算。实验R011源/模式契约全文核为接口说明，不认证实际M可逆/每阶阻尼/归一。M-C020局部桥接交R019；M-C021 proposed candidate为有谱/质量对偶残余证据时的有限模态上估，角色1R012在推导。
+
+
+2026-10-18T00:36:17.724486+08:00 M-C022 proposed/analytic-derivation+numerical-test candidate：冻结M-SYN-LAYOUT-001，正连接两自由度主体/5%本体阻尼/同一有限支撑输入/一只相同线性Maxwell仅换端口，试证所有全局能量历程相同而固定u1完整尾段峰不同。经典交换对称性构造，不称真实α0.3/楼层方案或新颖性。角色1R013作者证明在途；角色4R012已实际四次独立RK4到6T，小结果仅有限采样支持，根未独审。协议SHA 5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e。
+
+
+2026-10-18T00:37:31.342212+08:00 R019/R020根全文/三SHA逐项通过：M-C020、M-C021升级supported/analytic-derivation reviewed，仅条件数学。局部桥接仍需完整能量预算、端口、约束质量与初态证据；有限模态上估仍需确切共同Eigen基、总量上界、全部尾谱正下界及严格数值安全，不将Ritz/参与率/低频截断认作证书。CSI R009明确若参与因子按单位Acceleration Load已含负号，不可再乘负号或√mass；当前列映射未认证。新附录根全文读，独立整合R010在途，不预称整合通过。
+
+
+2026-10-18T00:44:46.493807+08:00 M-C022 supported/analytic-derivation reviewed：角色2R021及根全文/三SHA核过，冻结正连接alpha1合成例全尾固定u1峰A<1.7/B>8.8，所列全局能量历史同一；原protocol signed简写有显式幅值勘误，不能单独引用。根直接由BBP=BA得器件总变形也同一，所有位置最大值交换不变，不能说整体更优。实验R012 finite numerical-test reviewed仅四次冻结RK4小结果，根不同LTI特征分解/二次积分独算最大差1.57e-8，不是严格ODE误差界/全尾证明。经典构造/非实际alpha.3/非成对真实布局/先例未闭合。独立整合R010发现附录v001第58行逆函数定义域/像域术语错误，14式无转录差，原稿保留等v002修订。

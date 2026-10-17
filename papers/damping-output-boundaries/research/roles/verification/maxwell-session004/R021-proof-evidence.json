@@ -1,0 +1,148 @@
+{
+  "review": "R021",
+  "session": "20261017-2109",
+  "started_at": "2026-10-18T00:36:44+08:00",
+  "deadline": "2026-10-18T00:46:44+08:00",
+  "recorded_at": "2026-10-18T00:42:02.580027+08:00",
+  "unresolved_required_changes": 0,
+  "verdict": "Frozen connected synthetic alpha=1 layout counterexample passes analytic all-time proof review with an explicit immutable-protocol sign erratum.",
+  "protocol": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-symmetry-protocol-v001.json",
+    "bytes": 2985,
+    "sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e"
+  },
+  "author_source_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R013-layout-symmetry-proof\\analytic-checks.json",
+      "bytes": 1096,
+      "sha256": "1b1b7af0a84329d44c6e2717acff48048d8560ca13cc9dad4eec9ffcd179c118"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R013-layout-symmetry-proof\\analytic_constants.py",
+      "bytes": 2408,
+      "sha256": "f2289d97b3964a5042e3020a038e76a91e734c7a996626a1dbbd59c1556cfc06"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R013-layout-symmetry-proof\\artifact-manifest.json",
+      "bytes": 1153,
+      "sha256": "7d1d88996a1092722a5b83d725241019afadb15d21bd34d8c8829b5497b2b1c7"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R013-layout-symmetry-proof\\cross-checks.md",
+      "bytes": 1676,
+      "sha256": "4db0cfacf5028d921fd6619495870c59fc5178bd09a5ed29030da2e73f98a90a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R013-layout-symmetry-proof\\input-freeze.json",
+      "bytes": 860,
+      "sha256": "956bd434f63fc70842da88b6fe4b8fa0112fc8dc014834d9c40311b48093f441"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R013-layout-symmetry-proof\\protocol-copy.json",
+      "bytes": 2985,
+      "sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R013-layout-symmetry-proof\\report.md",
+      "bytes": 8769,
+      "sha256": "7c36b9b06c9602fb2683069d7ab607edc4959bf5005e027cd03701f2fadff91f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R013-layout-symmetry-proof\\validation.json",
+      "bytes": 1749,
+      "sha256": "f20ee59b088755b7088ad67956d658e70201d4e0b0debd742015c4bf90d0ad8d"
+    }
+  ],
+  "experiment_report_read_only_context": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R012-layout-symmetry-synthetic\\report.md",
+    "bytes": 3840,
+    "sha256": "058846db5338ad200fa50555532f41c84e2883137cd89fc25abc9c0f5cb0a471"
+  },
+  "protocol_sign_erratum": {
+    "literal_signed_baseline_lower_bound_valid": false,
+    "corrected_absolute_statement": "abs(u_U(T))>9.5",
+    "corrected_signed_statement": "u_U(T)<-9.5",
+    "author_explicit_erratum_present": true,
+    "frozen_protocol_modified": false,
+    "must_accompany_protocol_reuse": true,
+    "target_already_absolute_peak": true
+  },
+  "analytic_proof_checks": {
+    "positive_connected_two_grounded_oscillators_not_standard_shear_chain": true,
+    "physical_K_excludes_Maxwell_spring": true,
+    "positive_constant_kappa_c_lambda_and_alpha_one_same_device_resources": true,
+    "background_Rayleigh_gives_exactly_five_percent_bare_modes": true,
+    "common_fixed_input_initial_state_and_same_physical_u1_output": true,
+    "permutation_commutation_and_BB_P_equals_BA": true,
+    "linear_uniqueness_gives_permuted_state_and_same_F_all_time": true,
+    "listed_global_storage_dissipation_and_input_work_histories_equal": true,
+    "same_formula_window_ratios_equal_only_when_defined": true,
+    "HD_triple_pole_transfer_function_coefficients": true,
+    "HD_positive_impulse_kernel_L1_equals_one": true,
+    "HD_unimodal_total_variation_velocity_L1_less_than_two": true,
+    "HU_position_absolute_kernel_L1_less_than_thirteen": true,
+    "HU_velocity_kernel_L1_less_than_twenty_two": true,
+    "no_hidden_feedthrough_in_velocity_kernels": true,
+    "diagonal_reference_maxnorm_gain_no_extra_dimension_factor": true,
+    "DeltaK_and_DeltaC_row_sum_norms": true,
+    "finite_H_linear_existence_before_small_gain_inequality": true,
+    "uniform_finite_H_bound_then_all_time_limit_no_circular_boundedness": true,
+    "position_deviation_3003_over_4769_less_than_point_64": true,
+    "exact_U_forced_solution_initial_conditions_and_T_negative_sign": true,
+    "T_remainder_less_than_half_using_rational_Taylor_lower_bound": true,
+    "A_all_time_absolute_u1_peak_less_than_1_64_hence_1_7": true,
+    "B_absolute_T_value_above_8_86_hence_all_time_peak_above_8_8": true,
+    "global_quadratic_histories_lose_antisymmetric_sign_fixed_output_retains_it": true,
+    "all_time_proof_separate_from_finite_6T_RK4_report": true
+  },
+  "independent_exact_rational_checks": {
+    "root_polynomial_at_17_over_10": "-87/1000",
+    "root_polynomial_at_173_over_100": "87717/1000000",
+    "kappa_lower_bound": "71522283/10000000",
+    "exp_157_over_1000_second_order_gap_above_7_over_6": "15947/6000000",
+    "exp_31_over_10_Taylor_0_through_8_lower_bound": "89082980315921/4032000000000",
+    "small_gain_q": "21/10000",
+    "one_minus_22q": "4769/5000",
+    "position_deviation_upper_fraction": "3003/4769",
+    "comparison_cross_products": [
+      75075,
+      76304
+    ]
+  },
+  "read_only_collaborators": [
+    {
+      "agent": "kernel_sharp_audit",
+      "focus": "transfer functions, positive and velocity kernel norms, exact constants",
+      "unresolved_required_changes": 0
+    },
+    {
+      "agent": "r006_sharp_challenge",
+      "focus": "maxnorm small gain, infinite-tail limit and terminal absolute lower bound",
+      "unresolved_required_changes": 0
+    },
+    {
+      "agent": "audit_double_mode",
+      "focus": "physical connected assembly, symmetry, bare five percent damping and contribution limits",
+      "unresolved_required_changes": 0
+    }
+  ],
+  "initial_experiment_lookup_note": "Singular experiment path absent; rg located plural experiments directory and only its report was read.",
+  "experiment_runs_independently_reverified": false,
+  "real_arrays_read": false,
+  "ODE_or_solver_run": false,
+  "author_numeric_scripts_rerun": false,
+  "exact_fraction_arithmetic_only": true,
+  "external_search": false,
+  "parameter_or_target_tuning": false,
+  "actual_alpha_point_three_or_building_certified": false,
+  "novelty_or_optimality_claimed": false,
+  "source_protocol_old_shared_manuscript_Git_writes": false,
+  "limits": [
+    "Synthetic linear alpha=1 branch to fixed reference; connected grounded oscillators are not a conventional two-story shear chain.",
+    "Equality covers listed global histories and defined same-formula ratios, not arbitrary asymmetric metrics or controlled modal damping ratios.",
+    "Full-tail theorem is analytic; independent finite sampled experiment report is context, not proof.",
+    "Immutable protocol signed baseline sentence must be cited with the explicit absolute-amplitude correction.",
+    "No actual building performance, alpha=.3 extrapolation, layout optimum or novelty certification.",
+    "Stop after frozen handoff."
+  ]
+}

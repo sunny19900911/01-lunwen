@@ -1,0 +1,143 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "task": "R009 modal normalization and participation column semantic interface",
+  "started_at": "2026-10-18T00:15:09+08:00",
+  "frozen_at": "2026-10-18T00:20:53.977113+08:00",
+  "task_limit_minutes": 8,
+  "elapsed_seconds": 344.977113,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "candidate source/transform note frozen; task stopped",
+  "manual": {
+    "url": "https://docs.csiamerica.com/manuals/etabs/Analysis%20Reference.pdf",
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\csi-analysis-reference-2016.pdf",
+    "edition": "July2016 Rev15",
+    "sha256": "7f6f6890afee2e1890d33f5d34d53d8e23f60850890bd230848642b50a6291ac",
+    "text_pages_1based": [
+      359,
+      360,
+      361,
+      388,
+      389,
+      394,
+      397,
+      398,
+      399
+    ],
+    "visual_pages": [
+      {
+        "printed": 339,
+        "pdf_page": 361,
+        "path": "local-cache/CSI2016-PDFpage-361.png",
+        "sha256": "9c2f09741e2ec7b9b3009b98b4e11f0b60dbc5146545cd947897bea6858c10be",
+        "actually_viewed": true
+      },
+      {
+        "printed": 372,
+        "pdf_page": 394,
+        "path": "local-cache/CSI2016-PDFpage-394.png",
+        "sha256": "38a81a7d3ed48fc0caa0152a6fb07337c44248a4578d35a4469a1373e619dd5c",
+        "actually_viewed": true
+      },
+      {
+        "printed": 375,
+        "pdf_page": 397,
+        "path": "local-cache/CSI2016-PDFpage-397.png",
+        "sha256": "1b8e6f2be9ef7a22b5b915e512865b39c5358c043eae8246a632ef0652c91056",
+        "actually_viewed": true
+      },
+      {
+        "printed": 376,
+        "pdf_page": 398,
+        "path": "local-cache/CSI2016-PDFpage-398.png",
+        "sha256": "6b05279b25f3bee87dbedd89ba7ab2f7bab2f0e0b287ea5b8858e9b7cae0c0bb",
+        "actually_viewed": true
+      }
+    ],
+    "direct_facts": [
+      "printed375 output scope covers Eigen and final Ritz",
+      "printed376 f=phiT m_acc and phiT M phi=1; angular frequency 2pi/T",
+      "printed338-339 acceleration loads are inertial, containing negative mass sign",
+      "printed372 generated Ritz starting vectors differ from orthogonalized final Ritz modes",
+      "printed377 participating mass ratios are square factors divided by total unrestrained directional mass, not ModalMass field dictionary"
+    ]
+  },
+  "official_search": {
+    "q": "site:docs.csiamerica.com \"ModalParticipationFactors\" \"ModalMass\" \"ModalStiff\"",
+    "query_count": 1,
+    "api_opened_full": "https://docs.csiamerica.com/help-files/etabs-api-2016/html/eeed62fb-02ee-ccc7-294e-801669425bf0.htm",
+    "api_version": "ETABS2016.dll16.0.0.0",
+    "result": "Signature and data types only; no field formula/units/scaling for ModalMass/ModalStiff; raw HTML not retained, no local HTML hash claimed",
+    "2015_hit": "returned by search, not used to infer current version"
+  },
+  "synthetic_algebra_checks": {
+    "type": "three rescalings of a made-up 2DOF diagonal-mass example, not engineering data",
+    "results": [
+      {
+        "scale_s": 1.0,
+        "m": 11.0,
+        "Gamma_unscaled_definition": 0.09090909090909091,
+        "Q_inertial": -1.0,
+        "G": -0.30151134457776363,
+        "CSI_mass_normalized_inertial_factor": -0.30151134457776363,
+        "L": 0.6030226891555273,
+        "H": -0.9045340337332909,
+        "L_times_G": -0.18181818181818182,
+        "H_times_G": 0.27272727272727276
+      },
+      {
+        "scale_s": 2.0,
+        "m": 44.0,
+        "Gamma_unscaled_definition": 0.045454545454545456,
+        "Q_inertial": -2.0,
+        "G": -0.30151134457776363,
+        "CSI_mass_normalized_inertial_factor": -0.30151134457776363,
+        "L": 0.6030226891555273,
+        "H": -0.9045340337332909,
+        "L_times_G": -0.18181818181818182,
+        "H_times_G": 0.27272727272727276
+      },
+      {
+        "scale_s": -3.0,
+        "m": 99.0,
+        "Gamma_unscaled_definition": -0.030303030303030304,
+        "Q_inertial": 3.0,
+        "G": 0.30151134457776363,
+        "CSI_mass_normalized_inertial_factor": 0.30151134457776363,
+        "L": -0.6030226891555273,
+        "H": 0.9045340337332909,
+        "L_times_G": -0.18181818181818182,
+        "H_times_G": 0.27272727272727276
+      }
+    ],
+    "branches": "Gamma conventional -> -sqrt(m)Gamma; raw inertial Q -> Q/sqrt(m); mass-normalized CSI inertial factor -> direct G",
+    "common_sign_and_products_preserved": true,
+    "zero_mass": "report explicitly prohibits divide/sqrt; no artificial zero substitution"
+  },
+  "independent_agent": {
+    "name": "weng2016_source",
+    "read_only_text": "Eigen p366-367; Ritz372; shared output375-376; ratios377-381; FNA453 cross-reference",
+    "result": "confirms modal versus starting Ritz distinction, mass normalization, and missing concrete table-field mapping",
+    "network": 0,
+    "file_writes": 0
+  },
+  "unresolved": [
+    "current actual software version and table Field Description",
+    "ModalMass/ModalStiff formula and units for the exact exported table",
+    "shape output scaling consistency with participation columns",
+    "actual modal-case mass source/stiffness state, coordinate/input direction and endpoint mapping",
+    "zero/rigid/static-correction mode statuses and retained-basis completeness"
+  ],
+  "report": {
+    "path": "R009-modal-normalization-interface.md",
+    "sha256": "06504d34be1652f22536a0649e15aa1650b71706c165d57c2f54b027c78c644c"
+  },
+  "operations": {
+    "new_PDF_downloads": 0,
+    "existing_manual_page_renders": 4,
+    "Excel": 0,
+    "NPZ": 0,
+    "solver": 0,
+    "source_shared_manuscript_Git_edits": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "frozen_at": "2026-10-18T00:17:42+08:00",
+  "status": "classical residual spectral estimate, author candidate pending independent review",
+  "conditions": [
+    "same constrained M,K SPD system as R010",
+    "retained modes are exact mutually M-orthonormal Eigen modes, not arbitrary Ritz vectors",
+    "C inverse version uses common full diagonalizing basis, retained d_r>0 and omitted d_r>=d_tail>0",
+    "all omitted omega>=Omega>0 certified",
+    "L0 and G0 are certified upper bounds on ell^T M^-1 ell and b^T M^-1 b; b is force-pattern vector"
+  ],
+  "result": "SK<=SK_ret+(L0-sum_ret Lr^2)/Omega^2, SC<=SC_ret+(G0-sum_ret Gr^2)/d_tail",
+  "forbidden_shortcuts": [
+    "negative residual clipped to zero",
+    "fabricated tail cutoff or damping floor",
+    "global mass participation used for local output norm",
+    "Ritz invariance presumed",
+    "zero/rigid modes silently deleted"
+  ],
+  "not_in_scope": [
+    "actual model numbers",
+    "eta refined tail",
+    "layout optimization",
+    "new method claim"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "review": "R020",
+  "session": "20261017-2109",
+  "started_at": "2026-10-18T00:21:07+08:00",
+  "deadline": "2026-10-18T00:29:07+08:00",
+  "recorded_at": "2026-10-18T00:25:17.989233+08:00",
+  "required_changes": 0,
+  "verdict": "Both modal residual spectral coefficient bounds are correct under certified exact retained eigenspaces, complete omitted spectral floors and matching classical background damping basis.",
+  "source_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R012-finite-modal-certificate\\report.md",
+      "bytes": 9160,
+      "sha256": "7e7c9a962cfa0e572c632e765cf25b9c1f21011c94e4b8dbe62d58217dcb85d8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R012-finite-modal-certificate\\scope.json",
+      "bytes": 1028,
+      "sha256": "b60bf5b0c64eb33062be6537c5ee16f75dd5dc3daaccf235041e88342fa744db"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R012-finite-modal-certificate\\validation.json",
+      "bytes": 894,
+      "sha256": "177ba743278beec59f8d5a8a22b7d0bf2aec0b22bbf10184d0fd7988bd4973d9"
+    }
+  ],
+  "upstream_author_identity": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R010-system-energy-interface\\report.md",
+    "bytes": 10586,
+    "sha256": "676f41e6b0826e0dd0a358568c0f212458738d952d041b5c630be0386894f3e3"
+  },
+  "inherited_R018_report": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\主体Maxwell位移能量界接口独审-R018.md",
+    "bytes": 9140,
+    "sha256": "a0a424774778106551a0523b90ab27900d731664e63c84eb87db98d65f238287"
+  },
+  "accepted_domain": "Constrained finite dimensional constant SPD M and K; complete real mass-orthonormal exact eigenbasis; retained exact eigen subset; C coefficient uses the same full diagonalizing basis with all retained d positive and all omitted d at least positive dtail; certified L0 and G0 upper bounds of corresponding full mass-dual norms; certified frequency floor for every omitted mode; actual force-pattern b and fixed output ell in identical coordinates.",
+  "proof_checks": {
+    "complete_Parseval_mass_dual_identities": true,
+    "L0_G0_upper_not_exact_values_still_safe": true,
+    "residual_equals_actual_tail_square_sum_plus_total_bound_slack": true,
+    "residual_is_upper_not_necessarily_exact_tail": true,
+    "all_omitted_frequencies_and_damping_denominators_covered": true,
+    "SK_tail_at_most_Rell_over_Omega_squared": true,
+    "SC_tail_at_most_Rb_over_dtail": true,
+    "nonnegative_coefficient_replacement_in_upstream_displacement_bound_safe": true,
+    "exact_retained_eigen_subspace_not_arbitrary_orthonormal_Ritz": true,
+    "first_m_exact_order_allows_Omega_omega_m_including_repeated_roots": true,
+    "arbitrary_retained_high_frequency_not_omitted_floor": true,
+    "ordinary_Rayleigh_Ritz_upper_spectral_estimate_not_certified_lower_floor": true,
+    "background_Rayleigh_nonnegative_coefficients_give_positive_dtail_if_certified": true,
+    "repeated_stiffness_roots_require_actual_C_common_diagonalizing_basis": true,
+    "nonnegative_residual_not_sufficient_condition": true,
+    "negative_residual_not_clipped_to_zero": true,
+    "floating_residual_upper_uses_retained_square_lower_envelope": true,
+    "weighted_retained_contribution_uses_upper_envelope_and_spectral_floors_lower": true,
+    "directed_rounding_not_cure_for_approximate_eigenspace_noninvariance": true,
+    "force_pattern_b_not_bare_support_influence_r": true,
+    "input_mass_participation_only_for_same_input_and_normalization": true,
+    "input_participation_not_local_output_residual": true,
+    "full_basis_m_equals_n_omit_tail_terms": true,
+    "empty_retained_set_requires_global_certified_spectral_floors": true,
+    "zero_residual_not_permission_to_bypass_SPD_or_range_gates": true,
+    "PSD_C_or_rigid_output_requires_separate_R018_range_contract": true,
+    "no_eta_tail_layout_optimization_or_engineering_numbers": true
+  },
+  "analytic_failure_examples": [
+    {
+      "id": "A",
+      "data": "M=I, K=diag(1,4), psi=ell=(1,1)/sqrt(2), normalized Ritz but not eigen.",
+      "true": "5/8",
+      "invalid_certificate": "2/5",
+      "reason": "Inverse spectral diagonal decomposition fails despite zero residual and valid global Omega=1."
+    },
+    {
+      "id": "B",
+      "data": "K=diag(1,4), retain e2, ell=e1, use Omega=2 without tail proof.",
+      "true": "1",
+      "invalid_certificate": "1/4",
+      "reason": "Omitted frequency is 1, not the retained high frequency."
+    },
+    {
+      "id": "C",
+      "data": "K=diag(1,4), C=diag(1,epsilon), retain e1, b=e2.",
+      "true": "1/epsilon",
+      "reason": "Fixed frequency and retained damping do not give a uniform positive omitted damping floor."
+    },
+    {
+      "id": "D",
+      "data": "M=K=I, C=diag(1,4), psi=b=(1,1)/sqrt(2), stiffness eigen but not C eigen.",
+      "true": "5/8",
+      "invalid_certificate": "2/5",
+      "reason": "A stiffness repeated-root basis is not automatically the damping joint basis."
+    }
+  ],
+  "read_only_collaborators": [
+    {
+      "agent": "kernel_sharp_audit",
+      "focus": "upper total-norm slack, residual proof, exact eigenspace and spectral floor direction",
+      "required_changes": 0
+    },
+    {
+      "agent": "r006_sharp_challenge",
+      "focus": "common damping basis, repeated roots, positive-definite contract and input/output participation",
+      "required_changes": 0
+    },
+    {
+      "agent": "audit_double_mode",
+      "focus": "four exact failure cases, bound substitution, rounding direction and empty/full basis cases",
+      "required_changes": 0
+    }
+  ],
+  "real_arrays_read": false,
+  "solver_run": false,
+  "finite_numeric_examples_rerun": false,
+  "external_search": false,
+  "eta_refined_tail_derived": false,
+  "layout_optimization": false,
+  "novelty_certified": false,
+  "engineering_spectral_or_residual_data_certified": false,
+  "author_old_shared_manuscript_Git_writes": false,
+  "limits": [
+    "Only SK and SC coefficient certificates; upstream energy input/initial-state/assembly gates still required for displacement output.",
+    "Exact eigen and common damping basis hypotheses cannot be replaced by ordinary software Ritz lists or unvalidated approximate eigenvectors.",
+    "Missing real spectral and residual evidence means no engineering numeric certificate.",
+    "No extension to PSD background or rigid outputs without separate range proofs.",
+    "No innovation, eta-tail refinement or layout claim; stop after frozen handoff."
+  ]
+}

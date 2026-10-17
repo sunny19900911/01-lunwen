@@ -1,0 +1,57 @@
+{
+  "round": "R013",
+  "frozen_at": "2026-10-18T00:35:34.392651+08:00",
+  "elapsed_seconds": 372.392651,
+  "within_12_minute_limit": true,
+  "input_sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\layout-symmetry-protocol-v001.json",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R010\\report.md",
+      "sha256_unchanged": true
+    }
+  ],
+  "protocol_copy_byte_identical": true,
+  "json_parse": true,
+  "own_markdown_utf8_lf_no_trailing_space": true,
+  "relative_links": [
+    {
+      "source": "report.md",
+      "target": "input-freeze.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "protocol-copy.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "../../../novelty/maxwell-session004/R010/report.md",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "analytic_constants.py",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "analytic-checks.json",
+      "exists": true
+    },
+    {
+      "source": "report.md",
+      "target": "cross-checks.md",
+      "exists": true
+    }
+  ],
+  "analytic_constants_script_pass": true,
+  "internal_author_side_checks": 2,
+  "independent_role2_audit": "pending",
+  "independent_RK4": "not performed by role1; separate experiment-role task",
+  "no_real_arrays_solver_search_parameter_tuning_git_or_shared_edits": true,
+  "proof_scope": "All t>=0 absolute u1 peak; no sampled-tail proof"
+}

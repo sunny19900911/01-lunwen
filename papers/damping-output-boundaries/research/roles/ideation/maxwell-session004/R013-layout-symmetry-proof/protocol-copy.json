@@ -1,0 +1,26 @@
+{
+  "id": "M-SYN-LAYOUT-001",
+  "status": "frozen candidate, proof and independent synthetic computation required",
+  "object": "Two connected positive mechanical DOFs, identical common base-force input, one linear Maxwell device moved between ports; not the real ETABS model or alpha0.3 validation",
+  "M": [[1, 0], [0, 1]],
+  "epsilon": 0.001,
+  "K": "I+epsilon*[[1,-1],[-1,1]]",
+  "background": "w=sqrt(1+2epsilon); Rayleigh aR=0.1*w/(1+w), bR=0.1/(1+w); C=aR*I+bR*K=0.1*sqrt(K), giving exactly5percent modal damping in the bare physical system",
+  "r": "unique root in(1.7,1.73) of r^3-3r+0.1=0",
+  "device": "alpha=1; a_device=r^3; kappa=3r^2-1-0.1r^3>0; c_device=kappa/a_device>0; generalized Maxwell force Fdot=kappa*(B*v-F/c_device)",
+  "ports": {"layout_A": [1, 0], "layout_B": [0, 1]},
+  "input": "f(t)=[1,1]*sin(t) for0<=t<=T=20pi, andzero for t>T; allinitial u/v/Fzero",
+  "target": "fixed physical output u1, full0<=t<infinity absolute displacement peak",
+  "candidate_symmetry": "P swaps DOFs; layoutB trajectories are P times layoutA. Total kinetic/physicalelastic/deviceelastic/backgrounddissipation/devicedissipation/inputwork histories identical, hence any same-window totalenergyratio identical wherever denominatornonzero",
+  "candidate_baseline": "epsilon0 controlled scalar H_D(s)=(s+a_device)/(s+r)^3, impulse h_D=exp(-rt)*(t+(a_device-r)t^2/2)>=0, L1gain1. Uncontrolled scalar H_U=1/(s^2+0.1s+1): positionL1<13,velocityL1<22;controlledvelocityL1<2",
+  "candidate_connected_bound": "DeltaK infnorm=2epsilon;DeltaC infnorm<=0.1epsilon. State(u,v) maxnormgain<=22,feedbackstrength q=2.1epsilon. State<=22/(1-22q), positiondeviation fromepsilon0<=13*q*22/(1-22q)<0.64. BaselineU(T)>=10-exp(-pi)*sqrt(100+(0.5/sqrt(0.9975))^2)>9.5. Candidate fullpeak layoutA u1<1.7, layoutB u1>8.8. These bounds require independent proof; no sampled peak treated as fulltailproof",
+  "physical_limits": "Generalized scalar port may be realized by same-angle brace with consistently projected k/c; linearalpha1 is a valid Maxwell subclass, not the screenshotalpha0.3. BackgroundK excludes the Maxwell spring. No actualbuilding performance or optimality claim. Symmetry is a classical tool, not claimed newtheory",
+  "numerical_protocol": {
+    "algorithm": "independent standard RK4 on both layouts; no ETABS/paid solver",
+    "steps": "dt=T/8192 then T/16384; integrate to6T;inputcutoff exactly at step8192 or16384",
+    "states": "u1,u2,v1,v2,F plus separately accumulatedinputwork,backgrounddissipation,devicedissipation",
+    "report": "both-layout target/device peaks with times, permutation residuals, totalenergytrajectory differences, energybalance, timestepdifference; terminalstoredenergy retained; finite sampled support only",
+    "small_results_only": "scripts/config/smalltables/summary; no complete time-array upload, no forged realexperiment",
+    "no_posthoc": "do not change epsilon,device,input,T,target after seeing results; failures retained and returned"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "finished_at": "2026-10-18T00:39:05.465846+08:00",
+  "root_protocol_sha256": "5fbd02e556ec24a7b4431cef5a09e749596b47466b8a32a2990f47a76c2ce41e",
+  "source_manifest_sha256": "c6cb2ab90a1d882306d1b08597dd6b3f381738a58cd5a548b25fe79c274434ab",
+  "checked_source_files": {
+    "four_actual_runs_r012.csv": "21994dfe90ceeaf62601c2755a104353d6c720faff3ada866563e2358b209514",
+    "protocol.json": "13b73b8306d09215b26fe96a4368e4d068900bd79669803b6a287e4b1e93119b",
+    "report.md": "058846db5338ad200fa50555532f41c84e2883137cd89fc25abc9c0f5cb0a471",
+    "run_record_r012.json": "b1fadbdfe0c40ee366d302dd55e325e945be35efdb51435bc658ab005269f5f9",
+    "step_convergence_r012.csv": "7e389b297ebaf3bc65f507df5ecd0e744df050b0e231578da018b25b71671fed",
+    "summary_r012.json": "987a974234737ef69e49f780eb071a33f0f88e8813c0e8e8c710a5eb15cd2d3a",
+    "verify_layout_symmetry.py": "e8effb66a928ef4b72ac4a89ec9907d736e14ea43b6bdf438442c941c95c87df"
+  },
+  "code_sha256": "385156afb2ba744a5903db9c4a42cf664873e7ecd6939368a69d20d47eddd6e7",
+  "independent_algorithm": "LTI eigendecomposition plus exact-form floating quadratic integrals, no RK4",
+  "numpy": "2.3.5",
+  "four_run_checks": [
+    {
+      "layout": "A",
+      "N": 8192,
+      "analytic_floating_values": {
+        "sampled_u1_abs_peak": 0.7056000210233916,
+        "sampled_device_force_abs_peak": 0.9477956136557866,
+        "E_at_T": 46.01241478072424,
+        "E_terminal_6T": 1.0005317804197978e-12,
+        "W_terminal": 238.27417500927476,
+        "Db_terminal": 219.68592750892282,
+        "Dd_terminal": 18.58824750035076
+      },
+      "analytic_minus_frozen_RK4": {
+        "sampled_u1_abs_peak": -4.9821924363868675e-11,
+        "sampled_device_force_abs_peak": -3.6071912123958327e-10,
+        "E_at_T": -4.764309835536551e-09,
+        "E_terminal_6T": -3.7022407019371425e-21,
+        "W_terminal": -1.3820340427628253e-09,
+        "Db_terminal": -1.5695377442170866e-08,
+        "Dd_terminal": -2.210988725437346e-09
+      },
+      "energy_balance_terminal": -1.8474111129762605e-13,
+      "eigenvector_condition": [
+        882.0043301618183,
+        810.0886978813114
+      ],
+      "eigendecomposition_residual": [
+        3.713746225958557e-15,
+        3.713746225958557e-15
+      ],
+      "max_trajectory_imaginary_residual": 5.0697869688871056e-14
+    },
+    {
+      "layout": "B",
+      "N": 8192,
+      "analytic_floating_values": {
+        "sampled_u1_abs_peak": 9.566162784769833,
+        "sampled_device_force_abs_peak": 0.9477956136557882,
+        "E_at_T": 46.01241478072412,
+        "E_terminal_6T": 1.000531780419762e-12,
+        "W_terminal": 238.27417500927427,
+        "Db_terminal": 219.68592750892196,
+        "Dd_terminal": 18.588247500350718
+      },
+      "analytic_minus_frozen_RK4": {
+        "sampled_u1_abs_peak": -5.116067569588267e-10,
+        "sampled_device_force_abs_peak": -3.6071745590504634e-10,
+        "E_at_T": -4.76443062780163e-09,
+        "E_terminal_6T": -3.70227644680248e-21,
+        "W_terminal": -1.3825172118231421e-09,
+        "Db_terminal": -1.5696230093453778e-08,
+        "Dd_terminal": -2.2110313580014918e-09
+      },
+      "energy_balance_terminal": -5.968558980384842e-13,
+      "eigenvector_condition": [
+        882.0043301622774,
+        810.0886978817465
+      ],
+      "eigendecomposition_residual": [
+        3.0537440611031887e-15,
+        2.9847854999073283e-15
+      ],
+      "max_trajectory_imaginary_residual": 4.8353734225983255e-14
+    },
+    {
+      "layout": "A",
+      "N": 16384,
+      "analytic_floating_values": {
+        "sampled_u1_abs_peak": 0.705602291988183,
+        "sampled_device_force_abs_peak": 0.9477956136557866,
+        "E_at_T": 46.01241478072424,
+        "E_terminal_6T": 1.0005317804197978e-12,
+        "W_terminal": 238.27417500927476,
+        "Db_terminal": 219.68592750892282,
+        "Dd_terminal": 18.58824750035076
+      },
+      "analytic_minus_frozen_RK4": {
+        "sampled_u1_abs_peak": -3.1115110488144637e-12,
+        "sampled_device_force_abs_peak": -2.238931262610322e-11,
+        "E_at_T": -3.0669866646348964e-10,
+        "E_terminal_6T": -2.351668826933289e-22,
+        "W_terminal": -1.0109602044394705e-10,
+        "Db_terminal": -1.0032010777649703e-09,
+        "Dd_terminal": -1.353797074443719e-10
+      },
+      "energy_balance_terminal": -1.8474111129762605e-13,
+      "eigenvector_condition": [
+        882.0043301618183,
+        810.0886978813114
+      ],
+      "eigendecomposition_residual": [
+        3.713746225958557e-15,
+        3.713746225958557e-15
+      ],
+      "max_trajectory_imaginary_residual": 5.071310984868665e-14
+    },
+    {
+      "layout": "B",
+      "N": 16384,
+      "analytic_floating_values": {
+        "sampled_u1_abs_peak": 9.566232467623847,
+        "sampled_device_force_abs_peak": 0.9477956136557882,
+        "E_at_T": 46.01241478072412,
+        "E_terminal_6T": 1.000531780419762e-12,
+        "W_terminal": 238.27417500927427,
+        "Db_terminal": 219.68592750892196,
+        "Dd_terminal": 18.588247500350718
+      },
+      "analytic_minus_frozen_RK4": {
+        "sampled_u1_abs_peak": -3.179145835474628e-11,
+        "sampled_device_force_abs_peak": -2.2387647291566282e-11,
+        "E_at_T": -3.0681945872856886e-10,
+        "E_terminal_6T": -2.352026275586663e-22,
+        "W_terminal": -1.0157918950426392e-10,
+        "Db_terminal": -1.0040537290478824e-09,
+        "Dd_terminal": -1.354223400085175e-10
+      },
+      "energy_balance_terminal": -5.968558980384842e-13,
+      "eigenvector_condition": [
+        882.0043301622774,
+        810.0886978817465
+      ],
+      "eigendecomposition_residual": [
+        3.0537440611031887e-15,
+        2.9847854999073283e-15
+      ],
+      "max_trajectory_imaginary_residual": 4.850019107109034e-14
+    }
+  ],
+  "scope": "synthetic alpha1 finite-grid arithmetic independently checked; floating tolerances are diagnostic, not rigorous error bounds or fulltail proof; no real ETABS validation",
+  "passed": true,
+  "full_arrays_written": false
+}

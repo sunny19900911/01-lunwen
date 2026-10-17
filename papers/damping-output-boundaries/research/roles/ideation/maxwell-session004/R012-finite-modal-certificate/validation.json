@@ -1,0 +1,25 @@
+{
+  "frozen_at": "2026-10-18T00:19:25+08:00",
+  "status": "classical residual spectral certificate author candidate pending independent review",
+  "passed": true,
+  "upstream_R010_sha256": "676f41e6b0826e0dd0a358568c0f212458738d952d041b5c630be0386894f3e3",
+  "old_R011_unchanged": true,
+  "internal_read_only_reviews": 2,
+  "real_model_numbers_or_arrays_computed": false,
+  "proof_checks": "Parseval residual + positive-term denominator bounds; four exact synthetic counterexamples; no solver/sweep",
+  "no_eta_tail_or_layout_optimization": true,
+  "files": [
+    {
+      "path": "scope.json",
+      "sha256": "b60bf5b0c64eb33062be6537c5ee16f75dd5dc3daaccf235041e88342fa744db",
+      "bytes": 1028,
+      "errors": []
+    },
+    {
+      "path": "report.md",
+      "sha256": "7e7c9a962cfa0e572c632e765cf25b9c1f21011c94e4b8dbe62d58217dcb85d8",
+      "bytes": 9160,
+      "errors": []
+    }
+  ]
+}
