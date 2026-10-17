@@ -1,0 +1,46 @@
+{
+  "review_status": "candidate",
+  "recorded_utc": "2026-10-17T04:36:17.379560+00:00",
+  "actual_png_viewed_twice": true,
+  "final_visual_review": "Title, legend, original markers and notes readable; hollow circles and plus signs preserve genuine nearly overlapping coordinates. No clipping or obstructive overlap observed.",
+  "first_view_correction": "Changed coefficients are not optimal to no optimality is claimed.",
+  "png_dimensions": [
+    2899,
+    1863
+  ],
+  "dpi": 300,
+  "svg_xml_parse_ok": true,
+  "svg_native_trailing_whitespace_lines_retained": 1507,
+  "original_eight_rows_and_abs_Q_strings_identical": true,
+  "source_and_output_hashes_match_manifest": true,
+  "new_response_or_r_or_fit": false,
+  "K_computed": false,
+  "actual_final_generation_exit_code": 0,
+  "elapsed_seconds": 0.6539467999973567,
+  "outputs": [
+    {
+      "file": "fig_detuning_theory_bounds_and_harmonic_witnesses.png",
+      "bytes": 337085,
+      "sha256": "50a34b7dc93764769e47166cafee7c8f25a5bf5f79bbcf6f86e6d3f6e03b7022"
+    },
+    {
+      "file": "fig_detuning_theory_bounds_and_harmonic_witnesses.svg",
+      "bytes": 109136,
+      "sha256": "be751e89500dc98aecf7684fa705e7f9b4e1759e7fc23a15894ad5dc67a7b72e"
+    },
+    {
+      "file": "eight_bound_comparisons.csv",
+      "bytes": 1335,
+      "sha256": "658d414a3a7271da424c2bef0b487fed252a93b6a9439dc1a5ccae44375401a0"
+    },
+    {
+      "file": "exact_constants.json",
+      "bytes": 602,
+      "sha256": "8b3fc9fea5b29918f090be8be424b3930511e0041f228561e9c05c391ab1b4a8"
+    }
+  ],
+  "command_argv": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\theory-round002-detuning-bounds\\build_bounds_comparison.py"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "evidence": "E-EXP-T002-002",
+  "master_audit": "passed",
+  "rows": 8,
+  "source_and_output_sha_match": true,
+  "exact_Fraction_bounds": [
+    "69/1024",
+    "528563/4000"
+  ],
+  "AST": "passed",
+  "actual_png_view": "root viewed in previous tool call; readable, no clipping",
+  "v003_frozen_hashes": "matched",
+  "new_response_runs": 0,
+  "limits": "K_C1 not measured; no directed numerical certificate; no formal proof/newness certification"
+}

@@ -1,0 +1,35 @@
+{
+  "session": "20261017-1219",
+  "frozen_at": "2026-10-17 12:40:28 +08:00",
+  "status": "author-self-checked; awaiting master independent manuscript review",
+  "scope": "Master-accepted C020 plus original compact real L1 bridge; C021 only for L>=1; narrow L026/L035 acquisition status; no new numerical evidence or novelty claim",
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v003.md",
+      "sha256": "a960e8cec744e131b2d1be8dfcf65332b461101e3b8babf10d55ff0573fc1f2c",
+      "bytes": 49008
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v003.json",
+      "sha256": "3e8e057b6cf6942c5ddd6401e4c5108aea0294c6a1c636d2015041cd02cae864",
+      "bytes": 9789
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v003-report.md",
+      "sha256": "28bf1cf64c76aa83a8e6c6d0e352157701b5e5b02ce22292af924898ac64834f",
+      "bytes": 2771
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v003-validation.json",
+      "sha256": "7934610d077f7be7bdb65ebfb7685f34c8477fcafec8ecddc40615fb6e7f84eb",
+      "bytes": 8400
+    }
+  ],
+  "predecessor_freeze": {
+    "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/frozen-v002.json",
+    "sha256": "1fb3cbc1df07083d9950a9fbd785ac84ae5334ea4b6777ae8610725890402deb",
+    "bytes": 1875
+  },
+  "validation": "v003-validation.json; 47 unique tags, 7 references, 13 tokens/19 expanded uses, 4 assets/17 evidence identities, predecessor immutability passed",
+  "encoding": "UTF-8 without BOM, LF"
+}

@@ -1,0 +1,240 @@
+{
+  "draft": {
+    "path": "papers/damping-output-boundaries/manuscript/theory-draft-v003.md",
+    "sha256": "a960e8cec744e131b2d1be8dfcf65332b461101e3b8babf10d55ff0573fc1f2c",
+    "bytes": 49008
+  },
+  "base": {
+    "path": "papers/damping-output-boundaries/manuscript/working-draft-v009.md",
+    "sha256": "76dc25e88faae9c95ea411cee58d56371d526eee9f00b59e7d7ef3f0ff3ba028",
+    "bytes": 57170
+  },
+  "selected_figures": [
+    {
+      "paper_figure": 1,
+      "source_base": "fig04_peak_bound_comparison",
+      "claim": "C006 v2 / C011",
+      "purpose": "精化完整峰界、历史粗界、κ参考与数值见证",
+      "sources": [
+        {
+          "path": "papers/damping-output-boundaries/experiments/figures/fig04_peak_bound_comparison.png",
+          "sha256": "8ca3ca636d4dfbf7d224b97ac72a5101f1fbf2c9f0fba88ffcb66a7f30315b51",
+          "bytes": 204059
+        },
+        {
+          "path": "papers/damping-output-boundaries/experiments/figures/fig04_peak_bound_comparison.svg",
+          "sha256": "fc7bfcf6109043956349a8a0f4b6da7a4f9af7a6d5e5d8845f72c45da457d83c",
+          "bytes": 81113
+        }
+      ],
+      "author_viewed_png": true
+    },
+    {
+      "paper_figure": 2,
+      "source_base": "fig08_physical_topcut_envelope_peaks",
+      "claim": "C016 v2 / E-EXP-010",
+      "purpose": "固定unit真topcut六个半时长的采样绝对峰和峰比，非L*5%-to-8%实例",
+      "sources": [
+        {
+          "path": "papers/damping-output-boundaries/experiments/figures-physical-topcut/fig08_physical_topcut_envelope_peaks.png",
+          "sha256": "c8e7715995851530e5e0fd1c02fa82b825aebbe4f8cccf3ad6ae407efcd2f580",
+          "bytes": 368421
+        },
+        {
+          "path": "papers/damping-output-boundaries/experiments/figures-physical-topcut/fig08_physical_topcut_envelope_peaks.svg",
+          "sha256": "adf16c898ce95744350ef69c8aaaea59333a3ec785f4c02952a4270ce5fef154",
+          "bytes": 136053
+        }
+      ],
+      "author_viewed_png": true
+    }
+  ],
+  "evidence_map": [
+    {
+      "claim": "C006-v2",
+      "location": "§2 / 附录A",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/verification/reply-C006-refinement.md",
+        "sha256": "1c162770f413d3e56f2f32fea52608ef0746d10ac97cb431462d2f8aa9867e3a",
+        "bytes": 1917
+      },
+      "status": "previously-reviewed; no new research promoted"
+    },
+    {
+      "claim": "C011",
+      "location": "§2 广义输出短段 / 图1",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/verification/EEXP004-bound-audit.json",
+        "sha256": "407c9c33f5d484688315ceeff637c3450c42893e1d135db37c45e1328d4bd8ae",
+        "bytes": 892
+      },
+      "status": "previously-reviewed; no new research promoted"
+    },
+    {
+      "claim": "C016-v2",
+      "location": "§3.1、3.3 / §4.2、表1、图2",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/verification/addendum-V011-general-topcut.md",
+        "sha256": "9e411f53f706d2cb5489f7e559a4ba064a0ac8176dd0c57676a50f7865b1b70e",
+        "bytes": 5491
+      },
+      "status": "previously-reviewed; no new research promoted"
+    },
+    {
+      "claim": "C017",
+      "location": "§3.2 / 附录B",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/verification/appendix-V011-low-damping-IVT.md",
+        "sha256": "c6c2877aa7ad31922ecaa22c0406efcc75f7c6622fa89dfe4938065266b26ee0",
+        "bytes": 5127
+      },
+      "status": "previously-reviewed; no new research promoted"
+    },
+    {
+      "claim": "C018",
+      "location": "§4.1 / 附录C",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/verification/detuning-boundary-review.md",
+        "sha256": "d8b3077827b8ba0c8e0670ec3a6bcde80c7ff7c8769f47917e0c98cce2759866",
+        "bytes": 5569
+      },
+      "status": "previously-reviewed; no new research promoted"
+    },
+    {
+      "claim": "C019",
+      "location": "§5.2 / 附录D",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/verification/network-realizability-proof.md",
+        "sha256": "e9740e2e4786b163cdc5db8c825c2c7fbdd7cc4b206f0656731444bcbbc2e125",
+        "bytes": 4609
+      },
+      "status": "previously-reviewed; no new research promoted"
+    },
+    {
+      "claim": "E010",
+      "location": "§4.2、表1、图2",
+      "source": {
+        "path": "papers/damping-output-boundaries/experiments/round010_unit_topcut_envelopes/six_envelope_sampled_peaks.csv",
+        "sha256": "d071160fa3a372b8379f67729524e807c7f18ebb5c7964d4c29e6b14ef61c989",
+        "bytes": 1584
+      },
+      "status": "previously-reviewed; no new research promoted"
+    },
+    {
+      "claim": "prior-art",
+      "location": "§1、5.1 / 参考文献",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/literature/manuscript-citation-review-v009.md",
+        "sha256": "d67c97cb3a77b77403a4b19163f3543310a1c1ac20637481528214150590757c",
+        "bytes": 6785
+      },
+      "status": "previously-reviewed; no new research promoted"
+    },
+    {
+      "claim": "C020",
+      "location": "摘要、§4.1、结论3、附录E",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/verification/theory-round001/explicit-detuning-bound-candidate.md",
+        "sha256": "eae981f394ed06dc1bc085dea34fd8bf4343a570128ae38efe483ac03b3b0d79",
+        "bytes": 10823
+      },
+      "status": "accepted analytic candidate; all positive physical three-layer topcut models, local domain only"
+    },
+    {
+      "claim": "C020-review",
+      "location": "附录E",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/verification/theory-session002/explicit-detuning-bound-review.md",
+        "sha256": "3ee1f68b91e22448f3e127a86207de52d7e3aba2eca5926377f3ccf10dace838",
+        "bytes": 6727
+      },
+      "status": "independent review, accepted by master"
+    },
+    {
+      "claim": "C020-input-class",
+      "location": "§4.1、附录E.3",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/verification/theory-session002/C020-input-class-addendum.md",
+        "sha256": "462eca175cbc2de92c7cb82f946464c256c511edb8bb78d4050dbf7b4b851a55",
+        "bytes": 2853
+      },
+      "status": "master accepted compact real L1 bridge; no equality of optimal constants or TV"
+    },
+    {
+      "claim": "C021",
+      "location": "摘要、§3.2、结论2、附录B.1",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/ideation/theory-session002/low-damping-root-structure.md",
+        "sha256": "5d9b7ef7e9209f0343a6bca5ffd05fb194b3a6573022aae17de4d317a798b9ac",
+        "bytes": 6456
+      },
+      "status": "accepted analytic result only for M=I, k=(1,1,L), L>=1"
+    },
+    {
+      "claim": "C021-review",
+      "location": "附录B.1",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/verification/theory-round001/root-monotonicity-review.md",
+        "sha256": "df30b7444492d0d280f720d64465f8e2cc8895fbeb9bb215418ad8e8ebc695ac",
+        "bytes": 5433
+      },
+      "status": "independent review, accepted by master"
+    },
+    {
+      "claim": "L035-acquisition",
+      "location": "§5.1",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/literature/theory-round001/prior-art-note.md",
+        "sha256": "1dcf7c03751af810ea922119354d3e7c48c52878f287931766ca1bf01a5ec7cf",
+        "bytes": 5845
+      },
+      "status": "acquisition/location status only; no exact formula or novelty conclusion"
+    },
+    {
+      "claim": "L035-acquisition-manifest",
+      "location": "§5.1",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/literature/theory-round001/manifest.json",
+        "sha256": "1db967b408af783f5be7ddcbcf47b7748d2808a710fc815a86fbe9bea5baa9e9",
+        "bytes": 3385
+      },
+      "status": "source traceability"
+    },
+    {
+      "claim": "L026-acquisition",
+      "location": "§5.1",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/literature/theory-session002/L026-comparison-001.md",
+        "sha256": "4090821316acb0d4d0c4639fd1c8f3bbf55e09a0619522a9b231f807250a08f6",
+        "bytes": 3524
+      },
+      "status": "author full-text web paragraphs available; exact visual formulas/version/equivalence remain open"
+    },
+    {
+      "claim": "L026-acquisition-manifest",
+      "location": "§5.1",
+      "source": {
+        "path": "papers/damping-output-boundaries/research/roles/literature/theory-session002/source-manifest-001.json",
+        "sha256": "7cf59f8c3c43868aa5e1eb982aeaa01442d8389d5898f2c89abdbaf710f72a6e",
+        "bytes": 2959
+      },
+      "status": "source traceability"
+    }
+  ],
+  "author_pngs_actually_viewed": true,
+  "excluded_from_theory_main": [
+    "native ETABS engineering observations C004",
+    "grouped proxy diagnostic C015",
+    "old high-frequency/input-rescaling/compactness branches",
+    "free generalized-output slow-envelope branch",
+    "new unreviewed claims, including low-damping asymptotic candidate",
+    "E012 approximate root values and E013 harmonic point table"
+  ],
+  "new_evidence_claimed": true,
+  "previous_theory_draft": {
+    "path": "papers/damping-output-boundaries/manuscript/theory-draft-v002.md",
+    "sha256": "00e9dd4b5f5fc61de905c98d9907b22916324b1173c1786f05b4ca81bda67940",
+    "bytes": 39830
+  },
+  "new_scope": "C020 and C021 accepted by master after independent review, including C020 compact real L1 input bridge; writing integration awaits independent manuscript review. No new experiment, figure, approximate root or novelty claim."
+}

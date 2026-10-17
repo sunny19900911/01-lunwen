@@ -1,0 +1,122 @@
+{
+  "session": "20261017-1219",
+  "task": "C020 same-condition prior positioning",
+  "role": "literature",
+  "review_status": "candidate",
+  "started_at": "2026-10-17T12:32:10+08:00",
+  "closed_at": "2026-10-17T12:36:14.001242+08:00",
+  "task_budget_minutes": 6,
+  "global_deadline": "2026-10-17T14:19:08+08:00",
+  "queries_budget": 4,
+  "queries_used": 4,
+  "queries": [
+    "\"three-story\" \"damping\" \"zeros\" \"peak\" shear",
+    "\"output-to-output\" \"gain\" \"infinity\" zeros",
+    "\"output-to-output\" \"L∞\" gain",
+    "\"peak-to-peak\" \"pole\" \"residue\" bound"
+  ],
+  "query_outcomes": [
+    "No matching physical-class theorem in inspected results; unrelated three-story MR-damper/model-monitoring papers excluded",
+    "Author OOG chapter, CDC2019 and KTH CDC2015 full-text links located; first two inspected, CDC2015 not followed",
+    "No same-norm same-quantifier theorem located in inspected primary material; secondary OOG overview not used",
+    "Electronics ripple/semiconductor false matches excluded; no same-condition result obtained"
+  ],
+  "sources": [
+    {
+      "filename": "C020-Teixeira-security-metrics-author.pdf",
+      "url": "https://www.andre-teixeira.eu/papers/Teixeira_Ch06_Springer2021.pdf",
+      "sha256": "030438aab1aacc0b544451a9c6d5e2738c2ecf22ce680142c0c4512050cc180d",
+      "bytes": 1293829,
+      "pdf_pages": 23,
+      "locations_inspected": [
+        "p14 eq14-15",
+        "p16 Proposition2"
+      ],
+      "local_page_images": [
+        "C020-Teixeira-security-p16.png"
+      ],
+      "new_download_http_status": 200,
+      "original_upload": false
+    },
+    {
+      "filename": "C020-Teixeira-CDC2019-author.pdf",
+      "url": "https://www.andre-teixeira.eu/papers/teixeira_CDC2019.pdf",
+      "sha256": "f673bc13adb5255ed65bf3dbdb3ff61fbac0b78649c84046c1ea2ce0b952e749",
+      "bytes": 372172,
+      "pdf_pages": 6,
+      "locations_inspected": [
+        "p4 section V eq11-12 Lemma2-3"
+      ],
+      "local_page_images": [
+        "C020-Teixeira-CDC2019-p4.png"
+      ],
+      "new_download_http_status": 200,
+      "original_upload": false
+    },
+    {
+      "filename": "kernel-boyd-barratt-1991.pdf",
+      "url": "https://web.stanford.edu/~boyd/lcdbook/",
+      "sha256": "7287e1ee59e6155976bd1afc19e9be799f7b5be359e497b15ce121b3c054dd18",
+      "bytes": 6147334,
+      "pdf_pages": 426,
+      "locations_inspected": [
+        "printed p97 eq5.4-5.6 PDF106",
+        "printed p118 eq5.33 PDF127"
+      ],
+      "local_page_images": [
+        "kernel-boyd-p97.png",
+        "kernel-boyd-p118.png"
+      ],
+      "new_download_http_status": null,
+      "original_upload": false
+    },
+    {
+      "filename": "linfty-verwoerd-2005.pdf",
+      "url": "https://ris.utwente.nl/ws/portalfiles/portal/6036402/thesis_Verwoerd.pdf",
+      "sha256": "836f38946e4067ec368de41ef1a7efdca8420b4fa86231a6df758cb77fd6e038",
+      "bytes": 2528422,
+      "pdf_pages": 175,
+      "locations_inspected": [
+        "printed p96-99 PDF112-115"
+      ],
+      "local_page_images": [
+        "linfty-verwoerd-p96.png",
+        "linfty-verwoerd-p97.png",
+        "linfty-verwoerd-p98.png",
+        "linfty-verwoerd-p99.png"
+      ],
+      "new_download_http_status": null,
+      "original_upload": false
+    }
+  ],
+  "cache_gitignored_verified": true,
+  "fulltexts_in_new_role_directory": false,
+  "new_fetch_failures": [],
+  "old_failed_endpoints_retried": false,
+  "new_l_ids_assigned": false,
+  "inputs_sha256_at_close": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-round001/explicit-detuning-bound-candidate.md",
+      "sha256": "eae981f394ed06dc1bc085dea34fd8bf4343a570128ae38efe483ac03b3b0d79"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-session002/explicit-detuning-bound-review.md",
+      "sha256": "3ee1f68b91e22448f3e127a86207de52d7e3aba2eca5926377f3ccf10dace838"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/detuning-boundary-review.md",
+      "sha256": "d8b3077827b8ba0c8e0670ec3a6bcde80c7ff7c8769f47917e0c98cce2759866"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/claims.md",
+      "sha256": "54662234d60ad4952cae0d95a0a32d67935ef02a179592aee08b7f1d8296b71e"
+    }
+  ],
+  "limits": [
+    "No novelty adjudication",
+    "Not exhaustive prior-art search",
+    "New primary OOG sources differ in norm and input class",
+    "Peak/Hinf fixed-order comparison may motivate another derivation but no such derivation completed here",
+    "No account, author contact, paywall, Git writes, subagent or scheduler operation"
+  ]
+}
