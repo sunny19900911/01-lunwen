@@ -1,0 +1,110 @@
+{
+  "run_time_Asia_Shanghai": "2026-10-17T08:57:33.587452+08:00",
+  "python_version": "3.13.15",
+  "script_sha256": "a1f6c4d811740e1ddea7e28f50f2f56ee443154ac139244b57e2314a574e70e2",
+  "parameters": {
+    "omega": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "Omega": "2",
+    "zeta0": "1/20",
+    "zeta1": "2/25"
+  },
+  "raw_integer_residues": [
+    112157750093,
+    856059634,
+    1200202832136,
+    -14884497077588,
+    21794258378750
+  ],
+  "max_abs_normalized_residues": [
+    "112157750093/21794258378750",
+    "428029817/10897129189375",
+    "2371942356/43071656875",
+    "-7442248538794/10897129189375",
+    "1"
+  ],
+  "checks": {
+    "rank_is_four": true,
+    "H0_is_exactly_zero": true,
+    "H0_prime_is_exactly_zero": true,
+    "H0_second_derivative_is_nonzero": true,
+    "H1_is_nonzero": true,
+    "numerator_divisible_by_s2_plus_4_squared": true
+  },
+  "H0": {
+    "real_exact": "0",
+    "imag_exact": "0",
+    "real": 0.0,
+    "imag": 0.0
+  },
+  "H0_prime": {
+    "real_exact": "0",
+    "imag_exact": "0",
+    "real": 0.0,
+    "imag": 0.0
+  },
+  "H0_second_derivative": {
+    "real_exact": "-11695153932/32091692275123",
+    "imag_exact": "628393798822761/40595990728030595",
+    "real": -0.0003644293305487635,
+    "imag": 0.015479208354160688
+  },
+  "H1": {
+    "real_exact": "-913587513300/416768604484467859",
+    "imag_exact": "191407728404504439/1687079310953125893232",
+    "real": -2.192073739407709e-06,
+    "imag": 0.00011345508605423385
+  },
+  "H1_abs": 0.00011347626068412992,
+  "baseline_numerator_quotient_after_dividing_by_s2_plus_4_squared": [
+    "168495212735625",
+    "29608027270920",
+    "1421032654264563/20",
+    "35098443598104/5",
+    "8222977943025"
+  ],
+  "remaining_quartic_checks": {
+    "all_coefficients_positive": true,
+    "hurwitz2_positive": true,
+    "hurwitz3_positive": false,
+    "hurwitz3_exact": "-3720088930988856820798560743143962178608/5",
+    "interpretation": "The remaining quartic is not Hurwitz; do not claim a matching O(T^2) causal-window upper bound from this witness."
+  },
+  "moment_upper_bounds": {
+    "m0_order2": 161.74353319162083,
+    "m1_order1": 4.053916070804957
+  },
+  "conservative_peak_ratio_lower_bounds": [
+    {
+      "T": 10000,
+      "active_duration": 20000,
+      "P0_upper": 3.192689374071527e-05,
+      "P1_lower": -0.0024336743285779602,
+      "ratio_lower_if_positive": 0.0
+    },
+    {
+      "T": 100000,
+      "active_duration": 200000,
+      "P0_upper": 3.1926893740715273e-07,
+      "P1_lower": -0.00014123879824207912,
+      "ratio_lower_if_positive": 0.0
+    },
+    {
+      "T": 1000000,
+      "active_duration": 2000000,
+      "P0_upper": 3.1926893740715273e-09,
+      "P1_lower": 8.800475479150902e-05,
+      "ratio_lower_if_positive": 27564.45882465527
+    }
+  ],
+  "limitations": [
+    "Exact algebra supports this witness only; no minimum-mode claim.",
+    "No finite-pulse time integration was run.",
+    "Peak estimates depend on the analytic envelope argument; independent review pending."
+  ]
+}

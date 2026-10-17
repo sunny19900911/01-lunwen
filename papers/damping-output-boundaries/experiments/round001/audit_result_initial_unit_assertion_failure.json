@@ -1,0 +1,274 @@
+{
+  "evidence_id": "E-EXP-001",
+  "utc_finished": "2026-10-17T00:56:12.596914+00:00",
+  "elapsed_seconds": 64.89520829999674,
+  "inputs": [
+    {
+      "source": "E:\\!!!!!!!!TO HOME\\小震阻尼0.xlsx",
+      "sha256": "c14e71ab0e1d244d3e13d72108ebf85cd6d603eef9a41992f979f35e23e3216d",
+      "bytes": 218138409,
+      "cache_files": [
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Forces.npz",
+          "sha256": "fb11e299f62682d0bf3a68644cdae474ca8a6ce96863838e02117431f72caf8d"
+        },
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Accelerations.npz",
+          "sha256": "eaa4c931f79b9b2e27e6e2e3882772d99ac91678e4361c12e3ba47fcd59a7439"
+        },
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Base_Reactions.npz",
+          "sha256": "952c52a75df3a385d2defd74ca42bff382740092f0fc223d234eeb8d3bef5c98"
+        }
+      ]
+    },
+    {
+      "source": "E:\\!!!!!!!!TO HOME\\20261016附加阻尼3.xlsx",
+      "sha256": "c21073336ae48383a7e18375ebdcb63d5e9c3a0ca4bb83bb3d2d44af8b923d24",
+      "bytes": 619327468,
+      "cache_files": [
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\Story_Forces.npz",
+          "sha256": "f80493976395634c1e03b3591ae64bce329c5b9af72729e3d2d18c719ac792e0"
+        },
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\Story_Accelerations.npz",
+          "sha256": "8cbe895b5bfc7a8a5deb79417e097e20c3d9d17c71ed7d757a486141a9045b01"
+        },
+        {
+          "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\Base_Reactions.npz",
+          "sha256": "09582c82189d98a406051154c7ef45e8b088c799b2ff19eed2bd6de9bd200268"
+        }
+      ]
+    }
+  ],
+  "code_sha256": "0dcffc0444733166ec9693ed94dac9d60d98d3fa69dbe038b699d281fb5126c6",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "checks": {
+    "sources_stable": true,
+    "raw_engineering_cells_exact": false,
+    "mass_and_rigidity_centers_equal_raw": true,
+    "solver_and_input_case_fields_equal_raw": true,
+    "omega_relative_difference_below_1e-7": true,
+    "one_adjacent_cut_net_increase": true,
+    "all_168_cut_peaks_decrease": true,
+    "three_spatial_acceleration_increases": true,
+    "telescope_residual_below_1e-9_kN": true
+  },
+  "n_records": 7,
+  "n_direction_cases": 14,
+  "n_story_pairs": 168,
+  "omega_max_relative_difference": 5.002685987687272e-08,
+  "max_telescope_residual_kN": 3.637978807091713e-12,
+  "net_increases": [
+    {
+      "case": "SHW6X",
+      "lower_cut": "Story1/Bottom",
+      "upper_cut": "Story2/Bottom",
+      "peak0_kN": 1129.168234451202,
+      "peak3_kN": 1192.0760490358666,
+      "increase_ratio": 0.05571164036087062,
+      "t0_s": 20.6,
+      "t3_s": 20.6,
+      "fixed_old_peak_change_kN": 62.90781458466472,
+      "repeak_recovery_kN": 0.0,
+      "budget_residual_kN": 0.0
+    }
+  ],
+  "spatial_acceleration_increases": [
+    {
+      "case": "SHW3Y",
+      "story": "Story1",
+      "cut_peak0_kN": 12253.148393199288,
+      "cut_peak3_kN": 10998.02760839945,
+      "cut_reduction": 0.1024325132221896,
+      "spatial_accel_peak0_mm_s2": 314.9303490732758,
+      "spatial_accel_peak3_mm_s2": 318.97318894335166,
+      "spatial_accel_increase_ratio": 0.012837250782506082
+    },
+    {
+      "case": "SHW6X",
+      "story": "Story1",
+      "cut_peak0_kN": 10705.064804316806,
+      "cut_peak3_kN": 9147.7007767928,
+      "cut_reduction": 0.14547917793977294,
+      "spatial_accel_peak0_mm_s2": 308.84693182614,
+      "spatial_accel_peak3_mm_s2": 325.82568489078346,
+      "spatial_accel_increase_ratio": 0.05497465350959474
+    },
+    {
+      "case": "SHW7X",
+      "story": "Story1",
+      "cut_peak0_kN": 12827.079816281523,
+      "cut_peak3_kN": 9607.84048515297,
+      "cut_reduction": 0.25097211346906445,
+      "spatial_accel_peak0_mm_s2": 315.9725953349555,
+      "spatial_accel_peak3_mm_s2": 322.3314818533744,
+      "spatial_accel_increase_ratio": 0.020124803898508903
+    }
+  ],
+  "selected_raw_cells": [
+    {
+      "sheet": "Story Forces",
+      "row": 412484,
+      "value_col": 7,
+      "case": "SHW6X",
+      "story": "Story2",
+      "time_s": 20.6,
+      "value": -1726.910041010588,
+      "unit": "kN",
+      "source": "E:\\!!!!!!!!TO HOME\\小震阻尼0.xlsx",
+      "state": 0,
+      "column": "VX",
+      "source_cell": "H412484",
+      "actual": -1726.910041010588,
+      "exact_match": true
+    },
+    {
+      "sheet": "Story Forces",
+      "row": 451020,
+      "value_col": 7,
+      "case": "SHW6X",
+      "story": "Story1",
+      "time_s": 20.6,
+      "value": -2856.07827546179,
+      "unit": "kN",
+      "source": "E:\\!!!!!!!!TO HOME\\小震阻尼0.xlsx",
+      "state": 0,
+      "column": "VX",
+      "source_cell": "H451020",
+      "actual": -2856.07827546179,
+      "exact_match": true
+    },
+    {
+      "sheet": "Story Accelerations",
+      "row": 437334,
+      "value_col": 6,
+      "case": "SHW3Y",
+      "story": "Story1",
+      "time_s": 15.22,
+      "value": 314.9303490732758,
+      "unit": "mm/sec2",
+      "source": "E:\\!!!!!!!!TO HOME\\小震阻尼0.xlsx",
+      "state": 0,
+      "column": "UY",
+      "source_cell": "G437334",
+      "actual": 314.9303490732758,
+      "exact_match": false
+    },
+    {
+      "sheet": "Story Accelerations",
+      "row": 450998,
+      "value_col": 5,
+      "case": "SHW6X",
+      "story": "Story1",
+      "time_s": 20.6,
+      "value": -308.84693182614,
+      "unit": "mm/sec2",
+      "source": "E:\\!!!!!!!!TO HOME\\小震阻尼0.xlsx",
+      "state": 0,
+      "column": "UX",
+      "source_cell": "F450998",
+      "actual": -308.84693182614,
+      "exact_match": false
+    },
+    {
+      "sheet": "Story Accelerations",
+      "row": 457867,
+      "value_col": 5,
+      "case": "SHW7X",
+      "story": "Story1",
+      "time_s": 16.94,
+      "value": -315.9725953349555,
+      "unit": "mm/sec2",
+      "source": "E:\\!!!!!!!!TO HOME\\小震阻尼0.xlsx",
+      "state": 0,
+      "column": "UX",
+      "source_cell": "F457867",
+      "actual": -315.9725953349555,
+      "exact_match": false
+    },
+    {
+      "sheet": "Story Forces",
+      "row": 412484,
+      "value_col": 7,
+      "case": "SHW6X",
+      "story": "Story2",
+      "time_s": 20.6,
+      "value": -2360.736600420551,
+      "unit": "kN",
+      "source": "E:\\!!!!!!!!TO HOME\\20261016附加阻尼3.xlsx",
+      "state": 1,
+      "column": "VX",
+      "source_cell": "H412484",
+      "actual": -2360.736600420551,
+      "exact_match": true
+    },
+    {
+      "sheet": "Story Forces",
+      "row": 451020,
+      "value_col": 7,
+      "case": "SHW6X",
+      "story": "Story1",
+      "time_s": 20.6,
+      "value": -3552.8126494564176,
+      "unit": "kN",
+      "source": "E:\\!!!!!!!!TO HOME\\20261016附加阻尼3.xlsx",
+      "state": 1,
+      "column": "VX",
+      "source_cell": "H451020",
+      "actual": -3552.8126494564176,
+      "exact_match": true
+    },
+    {
+      "sheet": "Story Accelerations",
+      "row": 437334,
+      "value_col": 6,
+      "case": "SHW3Y",
+      "story": "Story1",
+      "time_s": 15.22,
+      "value": 318.97318894335166,
+      "unit": "mm/sec2",
+      "source": "E:\\!!!!!!!!TO HOME\\20261016附加阻尼3.xlsx",
+      "state": 1,
+      "column": "UY",
+      "source_cell": "G437334",
+      "actual": 318.97318894335166,
+      "exact_match": false
+    },
+    {
+      "sheet": "Story Accelerations",
+      "row": 450998,
+      "value_col": 5,
+      "case": "SHW6X",
+      "story": "Story1",
+      "time_s": 20.6,
+      "value": -325.82568489078346,
+      "unit": "mm/sec2",
+      "source": "E:\\!!!!!!!!TO HOME\\20261016附加阻尼3.xlsx",
+      "state": 1,
+      "column": "UX",
+      "source_cell": "F450998",
+      "actual": -325.82568489078346,
+      "exact_match": false
+    },
+    {
+      "sheet": "Story Accelerations",
+      "row": 457867,
+      "value_col": 5,
+      "case": "SHW7X",
+      "story": "Story1",
+      "time_s": 16.94,
+      "value": -322.3314818533744,
+      "unit": "mm/sec2",
+      "source": "E:\\!!!!!!!!TO HOME\\20261016附加阻尼3.xlsx",
+      "state": 1,
+      "column": "UX",
+      "source_cell": "F457867",
+      "actual": -322.3314818533744,
+      "exact_match": false
+    }
+  ],
+  "boundary": "Cached full exported windows audited; raw selected cells and small metadata re-read. No continuous-time extrema or floor inertia identity established."
+}

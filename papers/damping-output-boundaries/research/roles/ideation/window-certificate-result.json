@@ -1,0 +1,90 @@
+{
+  "run_time_Asia_Shanghai": "2026-10-17T08:56:23.706730+08:00",
+  "python_version": "3.13.15",
+  "script_sha256": "87077f083c3aafb9dd84ff0eb1a707fd577b6971da13db14c42aa8f3d9927447",
+  "input": "Historical equal-unit-mass/equal-unit-story-stiffness two-story model; bottom elastic shear output",
+  "zeta": [
+    0.05,
+    0.08
+  ],
+  "omega": [
+    0.6180339887498948,
+    1.618033988749895
+  ],
+  "quotient_direct_term": 1,
+  "quotient_poles": [
+    {
+      "re": -0.0670820393249937,
+      "im": -1.4126216761751889
+    },
+    {
+      "re": -0.0670820393249937,
+      "im": 1.4126216761751889
+    },
+    {
+      "re": -0.04944271909999159,
+      "im": -0.6160531054853181
+    },
+    {
+      "re": -0.04944271909999159,
+      "im": 0.6160531054853181
+    },
+    {
+      "re": -0.12944271909999158,
+      "im": -1.612847969035487
+    },
+    {
+      "re": -0.12944271909999158,
+      "im": 1.612847969035487
+    }
+  ],
+  "quotient_residues": [
+    {
+      "re": 0.03882859774779828,
+      "im": 0.005398303547596947
+    },
+    {
+      "re": 0.038828597747798295,
+      "im": -0.005398303547596949
+    },
+    {
+      "re": -0.018530363062636886,
+      "im": 0.0015601585709220248
+    },
+    {
+      "re": -0.01853036306263689,
+      "im": -0.0015601585709220252
+    },
+    {
+      "re": -0.04713105041515892,
+      "im": -0.004711642150357948
+    },
+    {
+      "re": -0.047131050415158915,
+      "im": 0.004711642150357944
+    }
+  ],
+  "partial_fraction_check_max_abs_error": 2.0402737607636687e-16,
+  "all_poles_strictly_left_half_plane": true,
+  "finite_window_upper_bounds": [
+    {
+      "T": 5,
+      "B_modal_triangle_upper": 1.8465281452745692
+    },
+    {
+      "T": 20,
+      "B_modal_triangle_upper": 3.012512934655956
+    },
+    {
+      "T": 60,
+      "B_modal_triangle_upper": 3.592930843414436
+    }
+  ],
+  "B_infinity_modal_triangle_upper": 3.652845218258011,
+  "scope": "Any same locally bounded input with zero prehistory; theoretical continuous-time window peaks",
+  "limitations": [
+    "Bounds use floating-point roots/residues; no interval arithmetic certification.",
+    "This is not a tight extremal peak ratio or an engineering-record prediction.",
+    "No time-domain input search was run."
+  ]
+}

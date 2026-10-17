@@ -1,0 +1,226 @@
+{
+  "kind": "synthetic-analytic-response-audit",
+  "timestamp_utc": "2026-10-17T00:55:13.853245+00:00",
+  "input_source_sha256": "c549f3841dbc20c3076201c87f109003eaff490e2aa4ece153b1e82f9d488c88",
+  "script_sha256": "5ecb6831effdbc733dac1637c800b8d09a574756b10aa56346b62194b526b8eb",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "parameters": {
+    "omega": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "residues_raw": [
+      565.0,
+      -14.0,
+      951.0
+    ],
+    "residue_normalization": "Euclidean norm",
+    "zeta": [
+      0.05,
+      0.08
+    ],
+    "input": "sin(pi*t/(2*T))**2 * cos(2*t+phase), 0<=t<=2*T",
+    "phase": "-2*T-arg(H1(2))",
+    "tail_seconds": 400
+  },
+  "base_zero_exact_rational": {
+    "real": "0",
+    "imag": "0"
+  },
+  "H1_abs": 0.03012284107775596,
+  "moment_upper": [
+    217.93192876405683,
+    85.2965681476723
+  ],
+  "rows": [
+    {
+      "T": 60.0,
+      "support_duration": 120.0,
+      "dt": 0.02,
+      "states": [
+        {
+          "peak_sampled": 0.01631078433524604,
+          "peak_time_sampled": 34.84,
+          "unobserved_tail_upper": 7.171397767003317e-13
+        },
+        {
+          "peak_sampled": 0.03515081817071433,
+          "peak_time_sampled": 47.44,
+          "unobserved_tail_upper": 4.352336753919859e-18
+        }
+      ],
+      "ratio_sampled": 2.155066086843953
+    },
+    {
+      "T": 120.0,
+      "support_duration": 240.0,
+      "dt": 0.02,
+      "states": [
+        {
+          "peak_sampled": 0.00858861341055769,
+          "peak_time_sampled": 184.38,
+          "unobserved_tail_upper": 1.7298514366451434e-13
+        },
+        {
+          "peak_sampled": 0.031573737411759964,
+          "peak_time_sampled": 105.86,
+          "unobserved_tail_upper": 1.0509197092450878e-18
+        }
+      ],
+      "ratio_sampled": 3.676232227771184
+    },
+    {
+      "T": 240.0,
+      "support_duration": 480.0,
+      "dt": 0.02,
+      "states": [
+        {
+          "peak_sampled": 0.004367482752003231,
+          "peak_time_sampled": 125.32000000000001,
+          "unobserved_tail_upper": 4.580051880021215e-14
+        },
+        {
+          "peak_sampled": 0.030500357742729182,
+          "peak_time_sampled": 225.86,
+          "unobserved_tail_upper": 2.7972058420061144e-19
+        }
+      ],
+      "ratio_sampled": 6.983509603727593
+    },
+    {
+      "T": 480.0,
+      "support_duration": 960.0,
+      "dt": 0.02,
+      "states": [
+        {
+          "peak_sampled": 0.00219344125767051,
+          "peak_time_sampled": 244.36,
+          "unobserved_tail_upper": 1.0933354383620382e-14
+        },
+        {
+          "peak_sampled": 0.03021782603680806,
+          "peak_time_sampled": 465.86,
+          "unobserved_tail_upper": 6.675825099934711e-20
+        }
+      ],
+      "ratio_sampled": 13.776446454235185
+    },
+    {
+      "T": 960.0,
+      "support_duration": 1920.0,
+      "dt": 0.02,
+      "states": [
+        {
+          "peak_sampled": 0.0010979720917136454,
+          "peak_time_sampled": 1445.3600000000001,
+          "unobserved_tail_upper": 2.8266056369440223e-15
+        },
+        {
+          "peak_sampled": 0.030146505030587793,
+          "peak_time_sampled": 942.72,
+          "unobserved_tail_upper": 1.7127326194183572e-20
+        }
+      ],
+      "ratio_sampled": 27.456531234356817
+    },
+    {
+      "T": 1920.0,
+      "support_duration": 3840.0,
+      "dt": 0.02,
+      "states": [
+        {
+          "peak_sampled": 0.0005491391551804706,
+          "peak_time_sampled": 964.94,
+          "unobserved_tail_upper": 6.827882758585985e-16
+        },
+        {
+          "peak_sampled": 0.03012869327306761,
+          "peak_time_sampled": 1902.72,
+          "unobserved_tail_upper": 4.1397972485188355e-21
+        }
+      ],
+      "ratio_sampled": 54.86531599293085
+    }
+  ],
+  "fixed_input_observation_extension": [
+    {
+      "T_fixed": 240.0,
+      "support_duration_fixed": 480.0,
+      "tail_seconds": 100.0,
+      "states": [
+        {
+          "peak_sampled": 0.004367482752003231,
+          "peak_time_sampled": 125.32000000000001,
+          "unobserved_tail_upper": 1.6182889235882528e-07
+        },
+        {
+          "peak_sampled": 0.030500357742729182,
+          "peak_time_sampled": 225.86,
+          "unobserved_tail_upper": 7.416956447523554e-09
+        }
+      ],
+      "ratio_sampled": 6.983509603727593
+    },
+    {
+      "T_fixed": 240.0,
+      "support_duration_fixed": 480.0,
+      "tail_seconds": 200.0,
+      "states": [
+        {
+          "peak_sampled": 0.004367482752003231,
+          "peak_time_sampled": 125.32000000000001,
+          "unobserved_tail_upper": 1.0093729908716065e-09
+        },
+        {
+          "peak_sampled": 0.030500357742729182,
+          "peak_time_sampled": 225.86,
+          "unobserved_tail_upper": 2.485628859198167e-12
+        }
+      ],
+      "ratio_sampled": 6.983509603727593
+    },
+    {
+      "T_fixed": 240.0,
+      "support_duration_fixed": 480.0,
+      "tail_seconds": 400.0,
+      "states": [
+        {
+          "peak_sampled": 0.004367482752003231,
+          "peak_time_sampled": 125.32000000000001,
+          "unobserved_tail_upper": 4.580051880021215e-14
+        },
+        {
+          "peak_sampled": 0.030500357742729182,
+          "peak_time_sampled": 225.86,
+          "unobserved_tail_upper": 2.7972058420061144e-19
+        }
+      ],
+      "ratio_sampled": 6.983509603727593
+    }
+  ],
+  "refinement_T240_dt001": [
+    {
+      "peak_sampled": 0.0043674931755872115,
+      "peak_time_sampled": 125.31,
+      "unobserved_tail_upper": 4.580051880021215e-14
+    },
+    {
+      "peak_sampled": 0.03050126457732258,
+      "peak_time_sampled": 224.29,
+      "unobserved_tail_upper": 2.7972058420061144e-19
+    }
+  ],
+  "peak_relative_changes_under_refinement": [
+    2.38662856729716e-06,
+    2.973104905527501e-05
+  ],
+  "analytic_ratio_lower_T100000": 8.408052299829516,
+  "limitations": [
+    "sampled peaks are not certified continuous-time maxima",
+    "infinite-ratio statement comes from analytic convolution inequality, not finite scan",
+    "fixed system/output, varying input duration and phase",
+    "not a native ETABS model or engineering causal identification"
+  ]
+}

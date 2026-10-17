@@ -1,0 +1,53 @@
+[
+  {
+    "id": "L001-Richiedei2022",
+    "requested_url": "https://iris.univr.it/retrieve/46bbe105-6514-4eba-9877-e8d007960b69/s11831-021-09583-w.pdf",
+    "checked_at_utc": "2026-10-17T00:57:50.231018+00:00",
+    "retrieval_method": "cached public PDF previously fetched by Invoke-WebRequest; normal OS TLS validation",
+    "sha256": "715eb3878dc7c945cfd93bfe94f16275216d61bed67641952d6e78dcb9cb7fb5",
+    "bytes": 2719563,
+    "local_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\local-cache\\L001-Richiedei2022.pdf",
+    "status": "full-text-local",
+    "pdf_pages": 26,
+    "rendered_pdf_pages_1based": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "L002-Bonk-notes",
+    "requested_url": "https://www.math.ucla.edu/~mbonk/complana.pdf",
+    "checked_at_utc": "2026-10-17T00:57:50.231018+00:00",
+    "retrieval_method": "cached public PDF previously fetched by Invoke-WebRequest; normal OS TLS validation",
+    "sha256": "f403a267bd38a622dba8c28177191b074404bd0596cb45ab81dfe77808d13019",
+    "bytes": 733561,
+    "local_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\local-cache\\L002-Bonk-notes.pdf",
+    "status": "full-text-local",
+    "pdf_pages": 187,
+    "rendered_pdf_pages_1based": [
+      1,
+      108,
+      111
+    ]
+  },
+  {
+    "id": "L003-Skudrzyk",
+    "requested_url": "https://www.ioa.org.uk/system/files/publications/EJ%20SKUDRZYK%20UNDERSTANDING%20THE%20DYNAMIC%20BEHAVIOR%20OF%20COMPLEX%20VIBRATORS.pdf",
+    "checked_at_utc": "2026-10-17T00:57:50.231018+00:00",
+    "status": "fetch-or-inspection-failed",
+    "error": "RuntimeError: 请求被中止: 连接被意外关闭。"
+  },
+  {
+    "id": "L004-DeDomenico-REC2021",
+    "requested_url": "https://rec2021.unime.it/papers/REC2021-67.pdf",
+    "checked_at_utc": "2026-10-17T00:57:50.232014+00:00",
+    "retrieval_method": "cached public PDF previously fetched by Invoke-WebRequest; normal OS TLS validation",
+    "sha256": "2fdeab5d3b8d5d3d9ca42c7d342183cd1b313047fdac5a71e5484877c8deab47",
+    "bytes": 2638754,
+    "local_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\local-cache\\L004-DeDomenico-REC2021.pdf",
+    "status": "full-text-local",
+    "pdf_pages": 14,
+    "rendered_pdf_pages_1based": []
+  }
+]
