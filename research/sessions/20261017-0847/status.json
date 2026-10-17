@@ -55,5 +55,12 @@
       "status": "inProgress"
     }
   ],
-  "next_checkpoint": "scheduled by heartbeat; collect real changes and do not duplicate active turns"
+  "next_checkpoint": "scheduled by heartbeat; collect real changes and do not duplicate active turns",
+  "recorded_at": "2026-10-17T08:58:00+08:00",
+  "pending_push": {
+    "local_commit": "006a223",
+    "reason": "github.com:443 connection failed twice after initial successful push",
+    "next_action": "retry at next scheduled checkpoint; preserve commits and continue research"
+  },
+  "latest_round": "R001.md"
 }
