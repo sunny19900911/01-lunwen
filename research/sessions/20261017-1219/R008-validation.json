@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-10-17T14:07:17.292955+08:00",
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/README.md",
+      "bytes": 4889,
+      "sha256": "4d6d51d6cc31040e7efd0effb38f407ac9cc56fdbf662aa9638955b84691d1b8"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/claims.md",
+      "bytes": 30274,
+      "sha256": "8282f141b5cdcccc95e650a74d9133a36c7144275eec3a409b30d2b950b42519"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/topic-cards/T001.md",
+      "bytes": 3019,
+      "sha256": "bbde07bb3fa83cd470157dfaf2926db344dde21861d8d730c9b05ac008e6ff20"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/theory-session002/output-ratio-input-domain-audit.md",
+      "bytes": 7333,
+      "sha256": "6876d5f1c81bd8d0ff2388812e5de669517eff16bcfe5bec73a1f0aaf7355488"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/theory-session002/output-ratio-input-domain-source-check.md",
+      "bytes": 5930,
+      "sha256": "ed8d29eec78eedbde3ddef1e280ef2b1a868becba6b2a21646fe77daccc9e0af"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/theory-session002/output-ratio-input-domain-source-manifest.json",
+      "bytes": 2145,
+      "sha256": "c420eef4952395aaa71f56749f658f4233647f0a6f8c1f9066d5d16d0814a295"
+    },
+    {
+      "path": "research/sessions/20261017-1219/R007-push.json",
+      "bytes": 625,
+      "sha256": "5de2c3ec8b1ef5ec8d7ac84e85dbdc697f81083e233e5689e21c5e622faab1d5"
+    },
+    {
+      "path": "research/sessions/20261017-1219/R008.md",
+      "bytes": 1871,
+      "sha256": "6780cfce57f0a1bd021dca7658de6b5b892ede106f9402bef81b66569bf5003c"
+    },
+    {
+      "path": "research/sessions/20261017-1219/status.json",
+      "bytes": 5223,
+      "sha256": "3c816f1395a01c9f23efe0363cccabe5876ae5311611d2aca7dea2fb5ea9f172"
+    },
+    {
+      "path": "research/sessions/20261017-1219/role-snapshots-R008.json",
+      "bytes": 5346,
+      "sha256": "585238ae74cf8a33f0d6f78502416d29553b0d6061d1a0c81a4de961dca5b5c6"
+    },
+    {
+      "path": "research/sessions/20261017-1219/root-audit-R008.md",
+      "bytes": 1584,
+      "sha256": "27d8aab5809d22ffa2a82677e009ed584f1f52bb23e633b2d706fb33f209a187"
+    },
+    {
+      "path": "research/sessions/20261017-1219/checkpoint_check_R008.py",
+      "bytes": 4774,
+      "sha256": "6f1d221e79df548f1c55b9b84741546148e6ba567227612fff13f339f85d2d49"
+    },
+    {
+      "path": "research/sessions/20261017-1219/ready-R008-files.json",
+      "bytes": 932,
+      "sha256": "d686f308c5a2a7be82c8753ff8d39e3024b518ef1a80029121426e80115d586c"
+    }
+  ],
+  "v007_mapping_identity_entries_matched": 56,
+  "writing_frozen_manifests_match": true,
+  "experiment_run_hashes_match": true,
+  "R008_core_scope": "Three completed input-domain source/analytic notes; v007 and guide unchanged, all roles idle, no new mathematical core or experiment",
+  "E3_independent_arithmetic": "audit_envelope_constants.py actual exit0; Machin pi, max relative difference7.87e-90; no source rerun",
+  "independent_Q_audit": "actual exit0, eight rows, max relative component difference4.67e-84",
+  "scope": "JSON/AST/local references/frozen hashes/staged bytes, not formal proof or novelty certification"
+}

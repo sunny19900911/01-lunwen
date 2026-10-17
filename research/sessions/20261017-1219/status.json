@@ -1,6 +1,6 @@
 {
   "session": "20261017-1219",
-  "phase": "running",
+  "phase": "consolidating",
   "started_at": "2026-10-17T12:19:08+08:00",
   "deadline": "2026-10-17T14:19:08+08:00",
   "approved_direction": "A theory, direct user choice",
@@ -31,13 +31,13 @@
     },
     {
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:34",
-      "status": "active"
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:35",
+      "status": "idle"
     },
     {
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:31",
-      "status": "active"
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:32",
+      "status": "idle"
     },
     {
       "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
@@ -55,7 +55,7 @@
     "detuning_bound_round1": "completed both independent finite-envelope and classical-norm reviews; frozen, no live child task",
     "theory_manuscript_round1": "completed; frozen outputs handed to original roles; no live child task remains"
   },
-  "latest_round": "R007.md",
+  "latest_round": "R008.md",
   "checkpoint_open": false,
   "pending_push": null,
   "git_transport": {
@@ -65,25 +65,25 @@
     "global_config_changed": false
   },
   "last_verified_push": {
-    "commit": "744cd80895b57512c1f6c8990bba16cb93ea165e",
+    "commit": "4e7d10aeeaefa4b5a7a28b71b3906ba0c2a7cae9",
     "remote": "origin",
     "branch": "main",
-    "verified_at": "2026-10-17T13:50:45.390954+08:00",
-    "verified_by": "normal push exit0 and ls-remote/local HEAD exact match, one attempt"
+    "verified_at": "2026-10-17T14:03:54.321712+08:00",
+    "verified_by": "normal push exit0 + ls-remote/local HEAD exact match, first attempt"
   },
-  "recorded_at": "2026-10-17T14:03:17.342109+08:00",
-  "next_checkpoint": "R007 closed preparing normal push. Only verification/literature active final <=5min input-domain interface notes, stop14:07; no new manuscript. Next collect frozen notes then prepare final summary/decisions and final checkpoint at14:19:08, pause git+automation-3 officially. Do not restart tasks or extend.",
+  "recorded_at": "2026-10-17T14:07:17.162974+08:00",
+  "next_checkpoint": "R008 closed preparing normal push. All research tasks frozen and all five roles idle; no further research job or manuscript authorized for remaining budget. At14:19:08 collect final compact snapshot, write final-summary and plain true pending decisions, final normal push/verify and official pause git+automation-3. Do not mark novelty solved or extend.",
   "role_work": {
     "ideation": "Reader guide delta review002 accepted, idle; no new tasks",
-    "verification": "v007 accepted, final <=5min analytic nonstructural toy input-domain interface note, no formal new core or v008",
-    "literature": "v007 citation review accepted; final <=5min already-read Teixeira L2e domain source mapping, not new search/draft",
+    "verification": "Final input-domain toy frozen6876d5f1; root full-read and independently rederived core integrals/normalization; idle",
+    "literature": "Teixeira source-domain note ed8d29ee/manifestc420eef4 frozen; root full-read/hash checked; idle",
     "experiments": "C031 independent review d606a24d frozen/full-read/root accepted, idle; no experiments",
     "writing": "v007 accepted, frozen idle; no v008 authorized"
   },
   "prepared_publication": {
-    "round": "R007",
-    "scope": "accepted v007 and reader guide current5633d02a with independent math/citation/delta reviews; late input-domain notes active excluded",
-    "validation": "29 explicit files plus validation; frozen v001-v007/map56/99 equations/guide source versions checked"
+    "round": "R008",
+    "scope": "three finished source-domain records and entry/status; no manuscript changes",
+    "validation": "13 explicit files plus validation; all frozen writing identities/map56 preserved"
   },
   "latest_increment_receipt": {
     "recorded_at": "2026-10-17T13:40:00.621070+08:00",

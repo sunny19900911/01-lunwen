@@ -35,3 +35,5 @@
 ![原生三类输出分别排序；每类168组不是独立事件数](experiments/figures/fig01_native_output_changes.png)
 
 原始Excel/EDB、论文全文缓存和本地5MB冻结输入NPZ未上传；复现指纹、生成脚本和未共享条件见各轮记录。已有依赖和隔离输出要求见根[AGENTS.md](../../AGENTS.md)，不要直接重跑会覆盖冻结结果的脚本。新颖性仍未解决，agent审阅不等于形式化证明器认证。
+
+补充原文比对：[一般输出比的输入域](research/roles/literature/theory-session002/output-ratio-input-domain-source-check.md)与[非结构解析说明](research/roles/verification/theory-session002/output-ratio-input-domain-audit.md)。后到研究附记，不改冻结v007或提高新颖性等级。

@@ -1,0 +1,34 @@
+{
+  "session": "20261017-1219",
+  "started_at": "2026-10-17T14:01:44+08:00",
+  "source_reading_closed_at": "2026-10-17T14:02:45+08:00",
+  "stop_deadline": "2026-10-17T14:07:00+08:00",
+  "source": {
+    "author": "Andre M. H. Teixeira",
+    "title": "Security metrics for control systems",
+    "url": "https://www.andre-teixeira.eu/papers/Teixeira_Ch06_Springer2021.pdf",
+    "cache_path": "../local-cache/C020-Teixeira-security-metrics-author.pdf",
+    "sha256": "030438aab1aacc0b544451a9c6d5e2738c2ecf22ce680142c0c4512050cc180d",
+    "pdf_pages": 23,
+    "printed_page_equals_pdf_sequence_for_checked_pages": true,
+    "publication_metadata_independently_rechecked": false
+  },
+  "targeted_text_rechecked": ["p4 eq2-3 finite-horizon notation", "p6 Example1 and equations5-6", "p7 explicit L2e definition and eq7 contrast", "p8 nonvanishing input discussion", "p13-14 Example5 discussion", "p14 eq14-15", "p15 remarks and Proposition1", "p16 Proposition2", "p17 Example6 continuation"],
+  "visual_rechecked": {
+    "path": "../local-cache/C020-Teixeira-security-p16.png",
+    "sha256": "e87d05bbae7ce4279c01984ed84efb2f5a032173fd286d8559e2f404514ede88",
+    "printed_page": 16,
+    "actual_pixels_viewed_this_task": true
+  },
+  "p7_p14_p15_new_pixel_review": false,
+  "prior_report": {"path": "C020-prior-positioning-001.md", "sha256": "1a781070b34f130ed436f7a98e1c1af60fc5a95021b0ad3c840ab06739eebb82"},
+  "prior_manifest": {"path": "C020-query-manifest-001.json", "sha256": "8b5291c585cde6a5bc0aa8161c1dc021fc22f8d6a11ceb6e5a7fe2c8a24240ca"},
+  "network_queries": 0,
+  "network_opens": 0,
+  "downloads": 0,
+  "new_renders": 0,
+  "new_toy_or_structural_examples": false,
+  "limitations": ["Source-domain mapping only; no proof audit of Proposition2", "No independent normalization proof for every exponentially growing example", "No claim that noncompact growth is necessary for every unbounded case", "No automatic compact-input or L-infinity transfer theorem inferred", "No novelty adjudication or publication metadata inferred from PDF filename"],
+  "old_sources_shared_manuscript_v007_or_git_modified": false,
+  "subtasks_spawned": false
+}
