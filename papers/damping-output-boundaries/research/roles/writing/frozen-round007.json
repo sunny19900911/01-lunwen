@@ -1,0 +1,29 @@
+{
+  "role": "writing",
+  "round": "W-R007",
+  "frozen_at": "2026-10-17 10:05:52 +08:00",
+  "frozen_files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/working-draft-v007.md",
+      "sha256": "9124235fb7fd66b482eb6d3e4492c30917908378a1d1baaa5a067ee12ecdf74e",
+      "bytes": 46546
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/figure-map-v007.json",
+      "sha256": "e5be6c43268a28a2bf6a00af7ca88b8e05f824cdb86e3a1777a23d17c90c10b8",
+      "bytes": 2660
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/round-007.md",
+      "sha256": "a4514d1a3cca0a65db93c2edb422c7679935b018b3fca2a4716f1b34f02f2fd6",
+      "bytes": 9582
+    }
+  ],
+  "predecessor": {
+    "path": "papers/damping-output-boundaries/manuscript/working-draft-v006.md",
+    "sha256": "ec16d0c97a6e70fdc86e8fd00ef9e670c4d4e68f4f6820d8fa508c4b216a4794"
+  },
+  "scope": "C016 v2 general positive-mass/stiffness three-story physical topcut theorem for each fixed kappa>1 at model-defined zeta*, minimal three effective modes and one-DOF complete shear-chain stories; unit numerical display; old C005 preserved in Appendix D; E009 numerical network note only",
+  "encoding": "UTF-8 without BOM, LF",
+  "validation": "Full source read, independent actual diff review, links/math/tags/frozen hashes/figures/numeric display/A-B-C and E007 preservation checked; git diff --check exit 0"
+}

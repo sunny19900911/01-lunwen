@@ -1,0 +1,54 @@
+{
+  "evidence_id": "E-EXP-010",
+  "recorded_utc": "2026-10-17T02:02:59.987829+00:00",
+  "original_execution": {
+    "finished_utc": "2026-10-17T01:59:07.032977+00:00",
+    "exit_code": 0,
+    "elapsed_seconds": 0.46876589999737917,
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "checks_passed": 11,
+    "checks_total": 11
+  },
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/experiments/round010_unit_topcut_envelopes.py",
+      "bytes": 8563,
+      "sha256": "96c24ac91ecc11128c2ee47b1f3c143c290eada28f29f1eabb08af242e29b049"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round010_unit_topcut_envelopes/unit_topcut_envelope_result.json",
+      "bytes": 19174,
+      "sha256": "9456e1b43d564d3116b2408cc7595134134318f576ef320ad0793b98e7db1103"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round010_unit_topcut_envelopes/six_envelope_sampled_peaks.csv",
+      "bytes": 1584,
+      "sha256": "d071160fa3a372b8379f67729524e807c7f18ebb5c7964d4c29e6b14ef61c989"
+    },
+    {
+      "path": "papers/damping-output-boundaries/experiments/round010_unit_topcut_envelopes/T640_display_trace.csv",
+      "bytes": 609563,
+      "sha256": "1d9964647757fb189d7be52e523b16c31680698a6423d947111ba54bf67b2ea5"
+    }
+  ],
+  "source_hashes_match_frozen_result": true,
+  "six_row_csv_count_verified": 6,
+  "T640_relative_sampling_changes": {
+    "sampled_P0": 0.0,
+    "sampled_P1": 0.0,
+    "sampled_peak_ratio": 0.0
+  },
+  "independent_in_memory_cross_check": {
+    "T20_ratio": 5.39132918823989,
+    "T640_ratio": 454.7843627929124,
+    "T640_steps_s": [
+      0.01,
+      0.005
+    ],
+    "files_written": false,
+    "relative_ratio_difference_below": 1e-12
+  },
+  "limits": "Sampled peaks over full input plus 300s tail, with remaining analytic tail envelopes; not certified continuous-time extrema. Six values do not prove unboundedness; I009/V011 supplies the separate analytic argument. zeta is about .2607 to .4171, not .05 to .08.",
+  "no_experiment_rerun_during_record_creation": true
+}

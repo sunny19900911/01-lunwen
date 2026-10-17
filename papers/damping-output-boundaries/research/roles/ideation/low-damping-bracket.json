@@ -1,0 +1,26 @@
+{
+  "time_Asia_Shanghai": "2026-10-17T09:59:43.226591+08:00",
+  "python_version": "3.13.15",
+  "script_sha256": "8076229afe40e3667d629733af9f840116b8c3b78afd592b919e57145eebe4a1",
+  "model_family": "M=I3; k=(1,1,L); ell=(0,-L,L); f=-base_acceleration",
+  "only_endpoint_matrix_values_checked": [
+    1,
+    20000
+  ],
+  "characteristic_polynomial": "lambda^3-(3+2L)*lambda^2+(1+5L)*lambda-L",
+  "Ritz_generalized_characteristic_polynomial": "2*mu^2-5*mu+1",
+  "q_definition": "q(L)=zeta_crit(L)^2=D(L)/(4*S(L)^3)",
+  "lower_endpoint_q_strict_lower": "1/30",
+  "target_q": "1/400",
+  "upper_endpoint_rayleigh_exact": "80001/2",
+  "upper_endpoint_q_strict_upper": "1/400",
+  "IVT_root_open_bracket": [
+    1,
+    20000
+  ],
+  "L_star_definition": "smallest L in [1,20000] with q(L)=1/400; existence/continuity proved in round-009.md",
+  "zeta0_exact": "1/20",
+  "zeta1_exact": "2/25",
+  "new_numerator_factor_exact": "-39/25",
+  "scope": "Exact rational supporting checks only. No numerical L*, root search, model scan, eigenvalue approximation, time simulation, or engineering-instance claim."
+}

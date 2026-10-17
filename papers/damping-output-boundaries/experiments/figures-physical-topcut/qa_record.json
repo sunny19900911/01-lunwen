@@ -1,0 +1,38 @@
+{
+  "recorded_utc": "2026-10-17T02:08:02.610116+00:00",
+  "visual_review": {
+    "actual_png_viewed": true,
+    "views": 2,
+    "first_view_issue": "Moved red annotation clear of absolute-peak line and right-panel numeric labels clear of connecting line.",
+    "final_view": "Titles, legend, six points, labels and scope notes readable; no clipping or overlap observed.",
+    "png_width": 3437,
+    "png_height": 1919,
+    "dpi": 300
+  },
+  "checks": {
+    "all_six_frozen_T_values_retained": true,
+    "script_hash_matches": true,
+    "frozen_sources_unchanged": true,
+    "all_ten_prior_figure_files_unchanged": true,
+    "png_svg_hashes_match_manifest": true,
+    "svg_xml_parse_ok": true,
+    "new_response_computation": false,
+    "fit_or_extrapolation": false
+  },
+  "svg_native_bytes_preserved": true,
+  "svg_generator_trailing_whitespace_lines_retained": 1458,
+  "outputs": [
+    {
+      "file": "fig08_physical_topcut_envelope_peaks.png",
+      "sha256": "c8e7715995851530e5e0fd1c02fa82b825aebbe4f8cccf3ad6ae407efcd2f580",
+      "bytes": 368421
+    },
+    {
+      "file": "fig08_physical_topcut_envelope_peaks.svg",
+      "sha256": "adf16c898ce95744350ef69c8aaaea59333a3ec785f4c02952a4270ce5fef154",
+      "bytes": 136053
+    }
+  ],
+  "final_generation_exit_code": 0,
+  "final_generation_seconds": 0.6424114999972517
+}

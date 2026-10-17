@@ -21,6 +21,9 @@
 | C014 v1 | 冻结E002b正m/k合成topcut在Ω50的高精度正谐波裕度，配合C013与一阶矩上界，支持有限设计输入完整峰超κ的具体条件实例 | supported | E002b70位直接物理解、I00880位模态重构及V009独立标量/Fraction核查；numerical-test/reviewed，实例外包未定向舍入 | 充分半时长约1.38e16秒（4.38亿年）；选T2e16的输入支撑4e16秒，未模拟、不称最短/实际峰/工程风险或无界，C非逐层dashpot |
 | C015 v1 | 已探索E001的7个record-ID组LOEO中，三个预定代理/均值/OLS模型虽可降低部分平均误差，却全部漏掉净差1组和空间加速度3组实际正增幅 | supported | E-EXP-007冻结方案/42折指标/1008OOF；主控独立从原CSV连接并以标准库消元复算1008预测，最大差3.02e-14；fitted-model/numerical-test reviewed | 非新外部确认，record-ID不认证地震学独立；测试Bottom已知；不是所有模型不可预测，零阈值未调、precision未定义，168不是独立事件数 |
 | C016 v1 | 固定unit正m/k标准三层的真实topcut，在精确定义ζ*=sqrt(D/(4S³))及(8/5)ζ*两状态间，存在同一有界有限支撑基底输入族，使含全尾峰比无界 | supported | I009完整物理矩/差商/因子分解、V011独立resolvent/差商/adjugate与全t包络审核，主控已读全文并以Lagrange另核；mathematical-proof/reviewed | 固定系统输出和阻尼对，输入随T变化；约.2607→.4171、稠密经典C，非原生工程/天然波/绝对峰发散/只邻层dashpot；一般正m/k与每κ扩展另审 |
+| C016 v2 | 对每组固定正m/k标准三层真实topcut，ζ*=sqrt(D/(4S³))且每个固定κ>1，存在固定阻尼对ζ*/κζ*的有限有界共同输入族，使完整峰比无界；同类统一保证的最少有效模态为3 | supported | I009一般完整谱矩/系数、V011一般扩展独审及≤2的V006，root已读全稿并代数核对；mathematical-proof/reviewed | 每状态各阶同一ζ路径；不是任意预定ζ0/逐阶不同阻尼/固定记录/固定时长/仅邻层器件；每层1DOF完整剪切链才可称最少3层，绝对峰BIBO有界 |
+| C017 v1 | 存在固定L*∈(1,20000)，M=I/k=(1,1,L*)真实topcut在各阶共同ζ0=.05、ζ1=.08间有有限有界输入族的完整峰比无界 | supported | I010严格谱压缩/Rayleigh端点、连续性/紧根集IVT定义，V011低阻尼附录双子审，root已读全稿并核方向；mathematical-proof/reviewed | 未求L*小数/唯一或最小刚度；原unit仍.26→.417，新模型不变输入族T变化；一般稠密经典C、非原生工程/天然波/绝对需求发散/邻层器件结论 |
+| C018 v1 | 固定正m/k三层topcut/κ>1/共同ζ路径，ζ0≠ζ*时每个固定对有模型相关有限完整峰界；靠近ζ*的参数族可有任意大有限比，精确ζ*才有该固定对无界输入族 | supported | Routh/显式虚轴条件、proper商与稳定双边核、公共根及同频渐近，ideation便条与verification独审，root已读完整证明；analytic-derivation/reviewed | 机械极点始终稳定；不是同一截断窗/最优界/工程误差容限，不把逐点有限升级为近临界集合统一有界，κ1另为Q=1 |
 
 证据审核状态另记candidate/reviewed/invalidated；数学证明、数值试验、原生ETABS结果和模型预测分别登记。所有反例必须满足原命题前提。
 

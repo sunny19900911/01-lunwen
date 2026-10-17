@@ -1,0 +1,35 @@
+{
+  "role": "literature",
+  "frozen_at": "2026-10-17T10:00:58+08:00",
+  "scope": "C016 accepted unit three-story model and kappa=8/5 only; source conditions and reviewed physical formulas kept separate; no novelty adjudication",
+  "frozen_outputs": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/physical-topcut-prior-map.md",
+      "sha256": "a3df1f32a44b8d40168fc8483337612c912c7672f37a22d9573f1d47485a4360",
+      "bytes": 5375
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/physical-topcut-prior-map-unit-addendum.md",
+      "sha256": "43bb6bef61186c3ef238f285dcb3561869378c2db934f0103474940fe90eedb2",
+      "bytes": 4177
+    }
+  ],
+  "proof_inputs": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/ideation/round-008.md",
+      "sha256": "814e521e5a8e662061db072e8609b3d041af2b0e1a0f4549c4ab9a83d3257c2f",
+      "ownership": "external role input; unchanged by literature role"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/round-011.md",
+      "sha256": "1925d2f9615783af4b5238dff52d7487d0bd619a6b24f0b502ecb28634876655",
+      "ownership": "external role input; unchanged by literature role"
+    }
+  ],
+  "original_source_manifests": [
+    "public-source-manifest-001.json",
+    "public-source-manifest-002.json"
+  ],
+  "general_positive_mk_and_every_kappa": "not included in this accepted-scope mapping; separate controller review",
+  "validation": "old output unchanged; two proof input hashes match; six mapping rows; links and whitespace checked; no new search or numerical rerun"
+}

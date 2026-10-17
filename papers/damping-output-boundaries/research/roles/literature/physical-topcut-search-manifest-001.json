@@ -1,0 +1,132 @@
+{
+  "version": "001",
+  "checked_at": "2026-10-17T10:08:25+08:00",
+  "scope": "C016 v2 bounded prior-art search; novelty unresolved",
+  "comparison_input": {
+    "path": "papers/damping-output-boundaries/research/roles/verification/addendum-V011-general-topcut.md",
+    "sha256": "9e411f53f706d2cb5489f7e559a4ba064a0ac8176dd0c57676a50f7865b1b70e"
+  },
+  "search_query_count": 8,
+  "queries": [
+    {
+      "n": 1,
+      "owner": "root",
+      "q": "\"base excitation\" \"transmission zeros\" damping"
+    },
+    {
+      "n": 2,
+      "owner": "root",
+      "q": "\"base excitation\" \"shear force\" \"transmission zeros\""
+    },
+    {
+      "n": 3,
+      "owner": "root",
+      "q": "\"On Transmission Zeros of Mass-Dashpot-Spring Systems\""
+    },
+    {
+      "n": 4,
+      "owner": "root",
+      "q": "\"Transmission-zero bounds\" \"Williams\""
+    },
+    {
+      "n": 5,
+      "owner": "history_methods",
+      "q": "\"On the Zeros of Flexible Systems\" Rath 2023"
+    },
+    {
+      "n": 6,
+      "owner": "history_methods",
+      "q": "\"classical damping\" \"three\" \"zeros\" \"base\""
+    },
+    {
+      "n": 7,
+      "owner": "history_methods",
+      "q": "\"damping\" \"unbounded\" \"peak\" \"zero\""
+    },
+    {
+      "n": 8,
+      "owner": "history_methods",
+      "q": "\"modal damping\" \"antiresonance\" \"shear building\""
+    }
+  ],
+  "sources": [
+    {
+      "id": "L036",
+      "title": "On the Zeros, Initial Undershoot, and Relative Degree of Collinear Lumped-Parameter Structures",
+      "authors": [
+        "Jesse B. Hoagg",
+        "Jaganath Chandrasekar",
+        "Dennis S. Bernstein"
+      ],
+      "DOI": "10.1115/1.2719764",
+      "print_date": "2007-07-01",
+      "online_date": "2006-10-19",
+      "volume": "129",
+      "issue": "4",
+      "pages": "493-502",
+      "url": "https://public.websites.umich.edu/~dsbaero/library/ZerosUndershootASME2007.pdf",
+      "status": "full-text-local",
+      "pdf_pages": 10,
+      "cache_file": "local-cache/L036-Hoagg2007.pdf",
+      "sha256": "33581687cf34964f1497e8a7ca407b5d1090094b78705795f3705c15a317d893",
+      "visually_checked_pdf_pages_1based": [
+        6,
+        8
+      ],
+      "printed_pages": [
+        498,
+        500
+      ],
+      "locations": [
+        "section5 unnumbered cubic numerator and CNMP example",
+        "section9 equations9.5-9.6; Theorem9.1"
+      ],
+      "metadata_file": "local-cache/L036-Hoagg2007-Crossref.json",
+      "metadata_sha256": "7d74e6b39db384fe64d686a140f223abf3bf10399d8ff17ffa74b2f6a1d6cd64"
+    },
+    {
+      "id": "L037",
+      "author": "Trevor Williams",
+      "title": "Transmission-zero bounds for large space structures, with applications",
+      "year": 1989,
+      "url": "https://ntrs.nasa.gov/citations/19890035134",
+      "metadata_url": "https://ntrs.nasa.gov/api/citations/19890035134",
+      "status": "insufficient-text; official metadata and abstract only",
+      "cache_file": "local-cache/L037-Williams1989-NASA-metadata.json",
+      "sha256": "f63eea64addecbe5bdc903a48e2e430be0409184de1187c2f3f8b42530b4ba87",
+      "full_text_sha256": null
+    }
+  ],
+  "candidates": [
+    {
+      "id": "CAND-A",
+      "url": "https://psdl-dev.engin.umich.edu/wp-content/uploads/sites/561/2022/02/J41.pdf",
+      "status": "open HTTP502; old-draft version relation unresolved; no full text"
+    },
+    {
+      "id": "CAND-A-lab",
+      "url": "https://psdl-dev.engin.umich.edu/research/non-minimum-phase-zeros-of-flexible-systems/",
+      "status": "open HTTP502; search snippet only"
+    },
+    {
+      "id": "L016-publisher",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022460X23001475",
+      "status": "open HTTP403; used existing cached official PDF, no retry"
+    },
+    {
+      "id": "CAND-B",
+      "url": "https://nckur.lib.ncku.edu.tw/bitstream/987654321/80781/1/3010802303009.pdf",
+      "status": "web Internal Error, no HTTP code; search snippet about discrete-time context not adopted"
+    }
+  ],
+  "excluded_actions": [
+    "no extra search query",
+    "no failed L034 L026 L035 endpoint retry",
+    "no author contact or login or payment",
+    "no frozen table/addendum change"
+  ],
+  "report": {
+    "file": "physical-topcut-targeted-search-001.md",
+    "sha256": "cbcef97b480a210d7ba81470ef9fa6e210a5f83411f7722a1b75b85a18c3ad61"
+  }
+}
