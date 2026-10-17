@@ -1,0 +1,48 @@
+{
+  "evidence_id": "M-EXP-R001",
+  "review_status": "candidate",
+  "protocol": "Frozen input for a later no-differentiation Maxwell integral regression; no regression performed in R001",
+  "source_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "case": "RH4X",
+  "units": {
+    "time": "s",
+    "force": "kN",
+    "U1_raw": "mm",
+    "U1_regression": "m"
+  },
+  "inputs": [
+    {
+      "Link": "K2",
+      "file": "paired_K2_RH4X_r001.csv",
+      "n": 2501,
+      "sha256": "9def6dbd1c2c412554d4f07f2f01a3afa00d2cbc3e0c255bd86763e2a838101f",
+      "t0": 0.0,
+      "t1": 50.0,
+      "strict_time_increasing": true,
+      "I_source_rows_increasing": true,
+      "J_source_rows_increasing": true,
+      "U_source_rows_increasing": true,
+      "I_J_identical": true,
+      "unit_conversion_exact_float": true
+    },
+    {
+      "Link": "K5",
+      "file": "paired_K5_RH4X_r001.csv",
+      "n": 2501,
+      "sha256": "edd380b14e1954d20202312e2435b22d381e56e13dc9742a3f30880d223233c6",
+      "t0": 0.0,
+      "t1": 50.0,
+      "strict_time_increasing": true,
+      "I_source_rows_increasing": true,
+      "J_source_rows_increasing": true,
+      "U_source_rows_increasing": true,
+      "I_J_identical": true,
+      "unit_conversion_exact_float": true
+    }
+  ],
+  "force_choice": "Use one native P history only; I/J duplicate in selected RH4X records. Conjugate sign pending independent CSI/constitutive check; no sign flip applied.",
+  "parameters": "C,alpha,K are not exported truth. Screenshot 500000/477/.3 remain candidates, not constraints.",
+  "missing_handling": "No filling or interpolation. Partial/no-common groups are excluded and explicitly inventoried.",
+  "next_test": "Independently verify native P/U1 conjugate sign, then inspect no-differentiation Maxwell integral regression identifiability on these two complete device-records before parameter fitting or any storage/dissipation claim.",
+  "forbidden_inference": "These two input files cannot close all 88 devices total dissipated energy or establish old/new reduction rates."
+}

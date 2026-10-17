@@ -1,0 +1,206 @@
+{
+  "evidence_id": "M-EXP-R001",
+  "review_status": "candidate",
+  "finished_utc": "2026-10-17T13:38:55.302400+00:00",
+  "elapsed_seconds": 84.68623760000628,
+  "source": "E:\\!!!!!!!!TO HOME\\有控.xlsx",
+  "source_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "source_stable_size_mtime": true,
+  "core_manifest_sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4",
+  "base_cache_sha256": "01912309f7a79a3eed36cb850e803aa40ca52c43f79d9e896118296f07e7e5e6",
+  "metadata_sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc",
+  "reader_sha256": "8592f97ce74f024906909d2647caecc426fca77760d82f0964c24194732a6c15",
+  "code_sha256": "5e9b4e3bec6a62a6244dd4153e3075a8256ba032bad4a029b1bbfc9db185feb9",
+  "expected_devices": 88,
+  "cases": [
+    [
+      "RH4X",
+      "NonModHist",
+      "Step By Step"
+    ],
+    [
+      "RH4Y",
+      "NonModHist",
+      "Step By Step"
+    ],
+    [
+      "SHW4X",
+      "NonModHist",
+      "Step By Step"
+    ],
+    [
+      "SHW4Y",
+      "NonModHist",
+      "Step By Step"
+    ],
+    [
+      "SHW7X",
+      "NonModHist",
+      "Step By Step"
+    ],
+    [
+      "SHW7Y",
+      "NonModHist",
+      "Step By Step"
+    ]
+  ],
+  "expected_device_cases": 528,
+  "complete_P_I_J_U_device_cases": 193,
+  "complete_all_case_devices": [
+    "K10",
+    "K100",
+    "K101",
+    "K102",
+    "K103",
+    "K13",
+    "K14",
+    "K15",
+    "K2",
+    "K20",
+    "K21",
+    "K22",
+    "K27",
+    "K28",
+    "K29",
+    "K4",
+    "K5",
+    "K6",
+    "K61",
+    "K66",
+    "K68",
+    "K7",
+    "K73",
+    "K74",
+    "K75",
+    "K8",
+    "K80",
+    "K81",
+    "K82",
+    "K83",
+    "K91",
+    "K92"
+  ],
+  "paired_partial_device_cases": 1,
+  "no_common_device_cases": 334,
+  "selected_devices": [
+    "K2",
+    "K5"
+  ],
+  "selected_case": [
+    "RH4X",
+    "NonModHist",
+    "Step By Step"
+  ],
+  "selected_checks": [
+    {
+      "Link": "K2",
+      "Case": "RH4X",
+      "n": 2501,
+      "P_I_J_max_abs_difference_kN": 0.0,
+      "P_I_J_max_abs_sum_kN": 209.41877257888993,
+      "P_U_same_time": true,
+      "mm_to_m_divisor": 1000,
+      "P_I_min_kN": -104.70938628944496,
+      "P_I_max_kN": 95.15723640168905,
+      "U1_min_m": -0.0011726124256622673,
+      "U1_max_m": 0.0009704035321404212,
+      "raw_signed_trapezoid_PdU_kNm": 1.5968806664835702,
+      "work_interpretation": "Raw native signed total end-to-end work only; conjugate sign and spring-storage subtraction not yet established; not viscous dissipation."
+    },
+    {
+      "Link": "K5",
+      "Case": "RH4X",
+      "n": 2501,
+      "P_I_J_max_abs_difference_kN": 0.0,
+      "P_I_J_max_abs_sum_kN": 49.70711791495114,
+      "P_U_same_time": true,
+      "mm_to_m_divisor": 1000,
+      "P_I_min_kN": -22.177207095379806,
+      "P_I_max_kN": 24.85355895747557,
+      "U1_min_m": -4.2889775728957905e-05,
+      "U1_max_m": 5.596139046055428e-05,
+      "raw_signed_trapezoid_PdU_kNm": 0.0015380104769596047,
+      "work_interpretation": "Raw native signed total end-to-end work only; conjugate sign and spring-storage subtraction not yet established; not viscous dissipation."
+    }
+  ],
+  "sheet_counts": {
+    "Element Forces - Links": {
+      "data_rows": 1048573,
+      "last_source_row": 1048576
+    },
+    "Element Deformations - Links": {
+      "data_rows": 1048573,
+      "last_source_row": 1048576
+    }
+  },
+  "units": {
+    "P": "kN",
+    "U": "mm"
+  },
+  "first_data_examples": {
+    "Element Forces - Links": {
+      "row": 4,
+      "values": [
+        "Story11",
+        "K2",
+        "K2",
+        "RH4X",
+        "NonModHist",
+        "Step By Step",
+        0.0,
+        "I-End",
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Element Deformations - Links": {
+      "row": 4,
+      "values": [
+        "Story11",
+        "K2",
+        "K2",
+        "RH4X",
+        "NonModHist",
+        "Step By Step",
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "unknown_keys_or_locations": [],
+  "no_missing_zero_filling": true,
+  "no_full_88_energy_claim": true,
+  "parameter_truth": "C,alpha,K not exported; no candidate screenshot values used",
+  "limits": "Complete refers only to six cached exported windows, not unlimited free tail or full 88-device work. I/J must not be added as two dissipations. Sign/conjugacy and Maxwell parameters remain to be independently checked.",
+  "outputs": [
+    {
+      "file": "link_case_coverage_r001.csv",
+      "bytes": 69926,
+      "sha256": "b2e41e8c4ee8f6654efe98b582a1e7c39f3f89f0a4a66a4c7277621008ba6fe8"
+    },
+    {
+      "file": "paired_source_samples_r001.csv",
+      "bytes": 2782,
+      "sha256": "615612590d591a4cd16b84fa580c37f126f9df0ec01a18a43f48ebecd13bce42"
+    },
+    {
+      "file": "paired_K2_RH4X_r001.csv",
+      "bytes": 342875,
+      "sha256": "9def6dbd1c2c412554d4f07f2f01a3afa00d2cbc3e0c255bd86763e2a838101f"
+    },
+    {
+      "file": "paired_K5_RH4X_r001.csv",
+      "bytes": 366205,
+      "sha256": "edd380b14e1954d20202312e2435b22d381e56e13dc9742a3f30880d223233c6"
+    }
+  ]
+}

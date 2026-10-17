@@ -23,3 +23,5 @@
 - 正式git/automation-3已更新ACTIVE并读取TOML核实，新目标/时段/提示词hash见scheduler-verification.json；截止07:09:45不变。
 - 新来源openpyxl独立能量核对已完成，角色2改为审核现有独立实现，停止重复读取；当前数字仍候选，背景5%未认证。
 - Git首个白名单检查点待完成；旧脏文件保持，无全目录stage。
+
+2026-10-17T21:39:08.702444+08:00：首个接管Git检查点完成。commit f03affd7ab71443c5c6e3c319c18ae59009801bd，普通push成功且ls-remote main同SHA；21个显式白名单小文件，暂存blob与工作字节一致。旧脏文件/大表/PDF/活跃角色产物未提交。本地R001-push和最新cursor/status留下一检查点同步，避免自指提交散列。六角色继续有限任务，角色6R001完毕后接Hu2019适用域定点任务。

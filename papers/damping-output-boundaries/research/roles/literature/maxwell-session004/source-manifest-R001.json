@@ -1,0 +1,112 @@
+{
+  "session": "20261017-2109",
+  "role": 3,
+  "started_at": "2026-10-17T21:31:41+08:00",
+  "frozen_at": "2026-10-17T21:43:45.388161+08:00",
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "sources": [
+    {
+      "id": "L-M001",
+      "title": "兰香等2024",
+      "url": "https://cjournal.hep.com.cn/1671-9379/CN/10.13969/j.cnki.cn31-1893.2024.02.006",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\lan2024-energy-ratio.pdf",
+      "sha256": "2b7c76ef79f412417a3fe20d54db787ac24d09be7ad45885ea9030e127bdbc26",
+      "pages": 10,
+      "read": [
+        "p54 title",
+        "p57 equations7-8 and conditions",
+        "p63 reference11"
+      ],
+      "visual": [
+        "p57/PDF4"
+      ]
+    },
+    {
+      "id": "L-M002",
+      "title": "CSI Analysis Reference Manual July2016 Rev15",
+      "url": "https://docs.csiamerica.com/manuals/etabs/Analysis%20Reference.pdf",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\csi-analysis-reference-2016.pdf",
+      "sha256": "7f6f6890afee2e1890d33f5d34d53d8e23f60850890bd230848642b50a6291ac",
+      "read": [
+        "printed358-359/PDF380-381 Global Energy",
+        "printed304/PDF326 nonlinear deformation loads",
+        "printed373-375/PDF395-397 Ritz",
+        "printed379-381/PDF401-403 participation",
+        "printed450-455/PDF472-477 initial/FNA/damping"
+      ],
+      "visual": [
+        "printed379-381/PDF401-403"
+      ],
+      "current_software_version_mapping_verified": false
+    },
+    {
+      "id": "L-M003",
+      "title": "翁大根等2016",
+      "doi": "10.15951/j.tmgcxb.2016.s1.004",
+      "metadata_basis": "Lan2024 p63 reference11",
+      "full_text": false,
+      "failure": "DOI tool inaccessible once, no HTTP code; not retried",
+      "query": "10.15951/j.tmgcxb.2016.s1.004",
+      "queries": 1,
+      "subagent": "weng2016_source",
+      "secondary_Tongji_2026_page_not_used_as_original": true
+    },
+    {
+      "id": "L-M004",
+      "title": "Hu et al2019",
+      "doi": "10.1155/2019/8052413",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2019/8052413",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2019/8052413",
+      "access": "Publisher HTML and PDF text through web tool, no local PDF download",
+      "pages": 14,
+      "read": [
+        "p3 equations6-11",
+        "p4 equations12,14-15 and section2.3",
+        "HTML sections2.1-2.4"
+      ],
+      "visual": false,
+      "pdf_sha256": null,
+      "web_refs": [
+        "turn97view0",
+        "turn98view0",
+        "turn102view0",
+        "turn102view1"
+      ]
+    }
+  ],
+  "other_query": {
+    "q": "site:web.wiki.csiamerica.com \"dynamic load participation\" FNA",
+    "result": "empty; no repeat"
+  },
+  "source_rendering": {
+    "initial_fitz_import": "ModuleNotFoundError; no install",
+    "fallback": "existing Poppler pdftoppm; four local pages rendered and viewed",
+    "cache_ignored": true,
+    "images": [
+      {
+        "name": "CSI2016-401.png",
+        "sha256": "f1072436e667f84d3e88259bfd213e7d9f87f5659fccac887112928960ab8329"
+      },
+      {
+        "name": "CSI2016-402.png",
+        "sha256": "1faf9ee376e075325fc0844d3171f9f99d7de8fe2859062cc0ed22ab2c77f254"
+      },
+      {
+        "name": "CSI2016-403.png",
+        "sha256": "8a4bf2065c83c51aa7cacc3cdb651d145e398e6930ef33647360342189728ba8"
+      },
+      {
+        "name": "Lan2024-PDFpage-4.png",
+        "sha256": "9fd528a10db51257e43ec6b7d4a61c053b7942e43c49ad98c18c90232011006b"
+      }
+    ]
+  },
+  "no_etabs_solver": true,
+  "no_large_table_or_arrays_read": true,
+  "no_missing_zero_fill": true,
+  "no_response_reduction_claim": true,
+  "no_shared_or_old_files_modified": true,
+  "no_git_mutation": true,
+  "no_automation_or_user_owned_chat_created": true,
+  "next_test": "Check K110 U1 starting loads and mass DOFs, then same-case three-basis response convergence"
+}

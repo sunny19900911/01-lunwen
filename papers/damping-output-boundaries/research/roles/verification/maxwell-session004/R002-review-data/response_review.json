@@ -1,0 +1,205 @@
+{
+  "recorded_at": "2026-10-17T21:43:08.329643+08:00",
+  "script_sha256": "543914b5bbab63104497898d80700000883148e56b7fdad82395f7870a6cebd3",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "source_sha256_inherited_not_rehashed": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "checks_passed": true,
+  "grid_method": "Integer ticks with dt=0.02s, alignment error <1e-10s; no resampling or interpolation.",
+  "max_alignment_error_s": 0,
+  "table_coverage": {
+    "Story Forces": {
+      "groups": 72,
+      "groups_with_missing_times": 0,
+      "missing_times_total": 0,
+      "outside_times_total": 0,
+      "data_rows": 195552
+    },
+    "Diaphragm CM Displacements": {
+      "groups": 108,
+      "groups_with_missing_times": 0,
+      "missing_times_total": 0,
+      "outside_times_total": 0,
+      "data_rows": 293328
+    },
+    "Story Accelerations": {
+      "groups": 78,
+      "groups_with_missing_times": 0,
+      "missing_times_total": 0,
+      "outside_times_total": 0,
+      "data_rows": 211848
+    },
+    "Story Drifts": {
+      "groups": 144,
+      "groups_with_missing_times": 144,
+      "missing_times_total": 161802,
+      "outside_times_total": 0,
+      "data_rows": 229302
+    }
+  },
+  "story_force_locations": [
+    "Bottom"
+  ],
+  "diaphragms_by_story": {
+    "Story12": [
+      "D1"
+    ],
+    "Story11": [
+      "D1"
+    ],
+    "Story10": [
+      "D1"
+    ],
+    "Story9": [
+      "D1"
+    ],
+    "Story8": [
+      "D1",
+      "D2"
+    ],
+    "Story7": [
+      "D1",
+      "D2"
+    ],
+    "Story6": [
+      "D1",
+      "D2"
+    ],
+    "Story5": [
+      "D1",
+      "D2"
+    ],
+    "Story4": [
+      "D1",
+      "D2"
+    ],
+    "Story3": [
+      "D1",
+      "D2"
+    ],
+    "Story2": [
+      "D1"
+    ],
+    "Story1": [
+      "D1"
+    ]
+  },
+  "acceleration_stories": [
+    "Base",
+    "Story1",
+    "Story10",
+    "Story11",
+    "Story12",
+    "Story2",
+    "Story3",
+    "Story4",
+    "Story5",
+    "Story6",
+    "Story7",
+    "Story8",
+    "Story9"
+  ],
+  "drift_partition": {
+    "same_suffix_direction": {
+      "groups": 72,
+      "missing_min": 1,
+      "missing_max": 21,
+      "missing_sum": 454
+    },
+    "cross_suffix_direction": {
+      "groups": 72,
+      "missing_min": 1474,
+      "missing_max": 2661,
+      "missing_sum": 161348
+    }
+  },
+  "sparsest_drift": {
+    "table": "Story Drifts",
+    "Story": "Story3",
+    "Location": "",
+    "Diaphragm": "",
+    "Direction": "Y",
+    "Output Case": "SHW4X",
+    "Case Type": "NonModHist",
+    "rows": 290,
+    "reference_rows": 2951,
+    "missing_times": 2661,
+    "outside_reference": 0,
+    "t0": 1.56,
+    "t1": 58.88,
+    "first_source_row": 178708,
+    "last_source_row": 181861,
+    "record_peak": 0.00015096686305980127,
+    "peak_time": 32.660000000000004,
+    "peak_source_row": 180449,
+    "raw_summary_unique_labels": 14
+  },
+  "raw_summary_label_range": [
+    2,
+    16
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "bytes": 193090,
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Base_Reactions.npz",
+      "bytes": 862303,
+      "sha256": "01912309f7a79a3eed36cb850e803aa40ca52c43f79d9e896118296f07e7e5e6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Forces.npz",
+      "bytes": 10443167,
+      "sha256": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Diaphragm_CM_Displacements.npz",
+      "bytes": 8749533,
+      "sha256": "586f68d2b6b802979d42e3e83bf6f51d8af0144dde1f499e63929fe47f9dd17a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Accelerations.npz",
+      "bytes": 10583004,
+      "sha256": "eb33aff5f57a022d3928aaf4fb202393a794f021c38de7900dc8a34a60862786"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Drifts.npz",
+      "bytes": 3140449,
+      "sha256": "df2c83a862f083f3301ee4467b9184ab62ce0cf1e47e90ce55da77454aa73d73"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\response-coverage\\audit_response_coverage.py",
+      "bytes": 5802,
+      "sha256": "a4a840a2e83c7d934227821070a89b4701a77130d9ad73d931d47b27120d304b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\response-coverage\\楼层响应定义与覆盖补充核查.md",
+      "bytes": 4349,
+      "sha256": "2ed6b1666c0dd97a85ff1b94fe38adb27c925082820b54c6995aa69962fcd8b0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\response-coverage\\response_coverage_audit.json",
+      "bytes": 1708,
+      "sha256": "3ba566975f7ce3823fd2ec4955da30f080eb5ab5331547b8f41a6e8e3c80f859"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\response-coverage\\response_coverage.csv",
+      "bytes": 34309,
+      "sha256": "bf272a30fb8283540921ca192d217b6abf63d8db9cf03bc73baec947a70801fb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\response-coverage\\drift_raw_summary.csv",
+      "bytes": 15242,
+      "sha256": "60e23bbe7de311f08c6a823054c46a85709fb4097f26dc50999565eb59ef6eae"
+    }
+  ],
+  "limits": [
+    "No raw XLSX extraction repeated.",
+    "Label and coordinates are absent from caches; use audited auxiliary raw summary, not second native validation.",
+    "No omission-generation rule inferred.",
+    "No absolute/relative classification of Story Accelerations made.",
+    "Complete export grid does not certify continuous peak or complete free tail."
+  ]
+}

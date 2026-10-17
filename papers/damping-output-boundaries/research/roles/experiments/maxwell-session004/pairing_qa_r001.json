@@ -1,0 +1,84 @@
+{
+  "review_status": "candidate",
+  "coverage_rows": 528,
+  "complete_rows": 193,
+  "partial_rows": [
+    {
+      "Link": "K12",
+      "Story": "Story7",
+      "Case": "RH4Y",
+      "CaseType": "NonModHist",
+      "StepType": "Step By Step",
+      "expected_n": "2501",
+      "expected_t0_s": "0.0",
+      "expected_t1_s": "50.0",
+      "P_I_n": "314",
+      "P_J_n": "313",
+      "U1_n": "2501",
+      "common_n": "313",
+      "missing_I": "2187",
+      "missing_J": "2188",
+      "missing_U": "0",
+      "extra_I": "0",
+      "extra_J": "0",
+      "extra_U": "0",
+      "dup_I": "0",
+      "dup_J": "0",
+      "dup_U": "0",
+      "invalid_rows": "0",
+      "complete_export_grid": "False",
+      "P_I_source_rows": "[1047950, 1048576]",
+      "P_J_source_rows": "[1047951, 1048575]",
+      "U_source_rows": "[523977, 526477]"
+    }
+  ],
+  "complete_by_case": {
+    "RH4X": 33,
+    "RH4Y": 32,
+    "SHW4X": 32,
+    "SHW4Y": 32,
+    "SHW7X": 32,
+    "SHW7Y": 32
+  },
+  "complete_by_story": {
+    "Story8": 48,
+    "Story11": 48,
+    "Story10": 48,
+    "Story9": 48,
+    "Story7": 1
+  },
+  "complete_U1_rows": 386,
+  "unknown_keys_or_locations": [],
+  "selected_input_checks": [
+    {
+      "Link": "K2",
+      "file": "paired_K2_RH4X_r001.csv",
+      "n": 2501,
+      "sha256": "9def6dbd1c2c412554d4f07f2f01a3afa00d2cbc3e0c255bd86763e2a838101f",
+      "t0": 0.0,
+      "t1": 50.0,
+      "strict_time_increasing": true,
+      "I_source_rows_increasing": true,
+      "J_source_rows_increasing": true,
+      "U_source_rows_increasing": true,
+      "I_J_identical": true,
+      "unit_conversion_exact_float": true
+    },
+    {
+      "Link": "K5",
+      "file": "paired_K5_RH4X_r001.csv",
+      "n": 2501,
+      "sha256": "edd380b14e1954d20202312e2435b22d381e56e13dc9742a3f30880d223233c6",
+      "t0": 0.0,
+      "t1": 50.0,
+      "strict_time_increasing": true,
+      "I_source_rows_increasing": true,
+      "J_source_rows_increasing": true,
+      "U_source_rows_increasing": true,
+      "I_J_identical": true,
+      "unit_conversion_exact_float": true
+    }
+  ],
+  "only_export_grid_completeness": true,
+  "no_full_88_energy_closure": true
+}

@@ -1,0 +1,231 @@
+{
+  "polls": [
+    {
+      "role": "ideation",
+      "schemaVersion": 1,
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:40",
+      "revision": 40,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14a0d-8592-7ef3-aaab-247db1c7f7ba",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792243762,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_0fdbbf9b10a3adb0016ad37a09cb708195989b11af5ad112fc",
+      "latestAssistantMessage": {
+        "id": "msg_0fdbbf9b10a3adb0016ad37a09cb708195989b11af5ad112fc",
+        "turnId": "01a14a0d-8592-7ef3-aaab-247db1c7f7ba",
+        "phase": "commentary",
+        "text": "现有元数据支持在共同的 0–50 秒窗口内，比较固定楼层的同刻截面力；但缺少装置方向、刚度及完整输出，尚不能计算全楼装置力传递。我会据此锁定两个可检验候选，并写清“无匹配样本”与“候选被否定”的区别。"
+      },
+      "latestToolMarkerId": "exec-c974f75e-93fb-400c-958e-37e0306e375d",
+      "latestToolMarker": {
+        "id": "exec-c974f75e-93fb-400c-958e-37e0306e375d",
+        "turnId": "01a14a0d-8592-7ef3-aaab-247db1c7f7ba",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "role": "verification",
+      "schemaVersion": 1,
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:37",
+      "revision": 37,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7fe0-75f3-8671-bcd59e413052",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14a0d-893a-77c1-9be2-6719f6487702",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792243763,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_058500d59acbf314016ad379b39d6c8196a0ab4dd05b304a7b",
+      "latestAssistantMessage": {
+        "id": "msg_058500d59acbf314016ad379b39d6c8196a0ab4dd05b304a7b",
+        "turnId": "01a14a0d-893a-77c1-9be2-6719f6487702",
+        "phase": "commentary",
+        "text": "交叉复算通过：六工况的同窗能量末值和条件标定值与原表独立取证、主控结果一致。闭合式中的残差应与导出的 Energy Error 同号比较，不能写成零误差。六条 Link 累计耗能曲线都存在微小负增量，已原样保留；All 组黏滞能之和与总表 Link Damper Energy 的差异约为 (10^{-12}) kN·m。"
+      },
+      "latestToolMarkerId": "exec-9091b9d8-cea0-45ff-8e2f-5bfad5c231f4",
+      "latestToolMarker": {
+        "id": "exec-9091b9d8-cea0-45ff-8e2f-5bfad5c231f4",
+        "turnId": "01a14a0d-893a-77c1-9be2-6719f6487702",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "role": "literature",
+      "schemaVersion": 1,
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:34",
+      "revision": 34,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14a0d-8bef-7ca2-9520-30cb91762237",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792243764,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_01c40afd2e9956f9016ad3794002f48190962ba1eab42642c3",
+      "latestAssistantMessage": {
+        "id": "msg_01c40afd2e9956f9016ad3794002f48190962ba1eab42642c3",
+        "turnId": "01a14a0d-8bef-7ca2-9520-30cb91762237",
+        "phase": "commentary",
+        "text": "CSI 原文已确认：Dynamic Load Participation 只衡量给定空间荷载被模态基表示的程度；响应精度还取决于荷载的时间频率内容，手册要求改变模态数检查实际响应。13.97%—62.18% 因而是局部基收敛的检查信号，不能换算成响应或耗能误差百分比。"
+      },
+      "latestToolMarkerId": "exec-dbdf4bb2-8a6f-4ee0-bee6-4239dcce8c22",
+      "latestToolMarker": {
+        "id": "exec-dbdf4bb2-8a6f-4ee0-bee6-4239dcce8c22",
+        "turnId": "01a14a0d-8bef-7ca2-9520-30cb91762237",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "role": "experiments",
+      "schemaVersion": 1,
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:22",
+      "revision": 22,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8805-7a42-b910-ae973f55d73e",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14a0d-8d5f-7e91-a736-7cc48504d333",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792243764,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_09fe3e55758f973c016ad3790460608193a06d7cb12c8e2a95",
+      "latestAssistantMessage": {
+        "id": "msg_09fe3e55758f973c016ad3790460608193a06d7cb12c8e2a95",
+        "turnId": "01a14a0d-8d5f-7e91-a736-7cc48504d333",
+        "phase": "commentary",
+        "text": "本轮使用仓库版 research-paper-lab，并按 etabs-response-analysis 的同刻配对与输出语义规则核查。已确认交接中的 core-cache 提取完成，本轮直接复用缓存，不重复全量提取。"
+      },
+      "latestToolMarkerId": "exec-e5097833-ec4e-4675-87ad-5a59dbdd439f",
+      "latestToolMarker": {
+        "id": "exec-e5097833-ec4e-4675-87ad-5a59dbdd439f",
+        "turnId": "01a14a0d-8d5f-7e91-a736-7cc48504d333",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "role": "writing",
+      "schemaVersion": 1,
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:34",
+      "revision": 34,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a14a0d-9001-7ba1-8307-3f44fa1b19bc",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792243765,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_09505bd600c2eded016ad37996fd408190ab3b103af0922a35",
+      "latestAssistantMessage": {
+        "id": "msg_09505bd600c2eded016ad37996fd408190ab3b103af0922a35",
+        "turnId": "01a14a0d-9001-7ba1-8307-3f44fa1b19bc",
+        "phase": "commentary",
+        "text": "现有六个工况末值可列入候选表：按背景 5% 参考标定的附加值约为 3.98%—7.29%。实际背景设置尚未核实，导出终点也未认证为完整自由尾段；骨架会保留这两项限制，不把它们写成实际模态增量或减震效果。"
+      },
+      "latestToolMarkerId": "exec-27ec4d64-3783-402e-ac9e-0e40e60cf769",
+      "latestToolMarker": {
+        "id": "exec-27ec4d64-3783-402e-ac9e-0e40e60cf769",
+        "turnId": "01a14a0d-9001-7ba1-8307-3f44fa1b19bc",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    },
+    {
+      "role": "novelty",
+      "schemaVersion": 1,
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:3",
+      "revision": 3,
+      "changed": true,
+      "thread": {
+        "id": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a14a00-853f-7a33-95eb-f829c7082a4f",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792242910,
+        "completedAt": 1792244180,
+        "durationMs": 1270326
+      },
+      "latestAssistantMessageId": "msg_0d8e1b978b923a60016ad379d44fbc819798f5aec1b4687384",
+      "latestAssistantMessage": {
+        "id": "msg_0d8e1b978b923a60016ad379d44fbc819798f5aec1b4687384",
+        "turnId": "01a14a00-853f-7a33-95eb-f829c7082a4f",
+        "phase": "final_answer",
+        "text": "R001 首轮审查已完成，已写入 canonical 审查包。 包含先例覆盖、可复用公式来源及三项后续检验；31个本地链接核验通过。W5 原件保留，后续由唯一主控统一接续。"
+      },
+      "latestToolMarkerId": "exec-a92b5e85-f325-473b-bfd5-26d4094cdb08",
+      "latestToolMarker": {
+        "id": "exec-a92b5e85-f325-473b-bfd5-26d4094cdb08",
+        "turnId": "01a14a00-853f-7a33-95eb-f829c7082a4f",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    }
+  ]
+}

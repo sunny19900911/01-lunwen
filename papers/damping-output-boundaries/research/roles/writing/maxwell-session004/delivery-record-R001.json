@@ -1,0 +1,310 @@
+{
+  "created_at": "2026-10-17 21:37:30 +08:00",
+  "status": "writing candidate bundle; not manuscript freeze; awaiting master-reviewed evidence",
+  "session_deadline": "2026-10-18 07:09:45 +08:00",
+  "master_thread": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+  "input_files": {
+    "plan": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\plan.md",
+      "sha256": "cbdc121fa4c0928debb65f0723052085f873f030fadbb2d0554d068b162d28df",
+      "bytes": 6338
+    },
+    "claims": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\claims.md",
+      "sha256": "347a81816500560871ae26503196529635dc6ad40f9584115e47d9a7f7cf65b2",
+      "bytes": 2299
+    },
+    "handoff": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\handoff.json",
+      "sha256": "5801c4457f1ec8aa9e100dbdd908e46406dadaf796ded72387a351334b01c3fb",
+      "bytes": 2142
+    },
+    "energy_review": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\辅助独立能量方法审核-R001.md",
+      "sha256": "3bfc4628772839592e3f781cde1b50ff27558e416c37488f06e33dc565ee17cc",
+      "bytes": 12200
+    },
+    "metadata_review": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\辅助元数据完整性审核-R001.md",
+      "sha256": "33ad1b582e5f503ae282e5174517f078fb8abcb1dbe75bb0272c2ce9b5944ed7",
+      "bytes": 8470
+    },
+    "novelty_Lan": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R001-Lan2024-scope-check.md",
+      "sha256": "65332f116f2e36b2c7a17a0bab47e8c6b3bc297da194bd4bd3b8bde6a940b282",
+      "bytes": 7926
+    },
+    "old_prior_art": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\verification-session003\\prior-art-final-matrix-v002.md",
+      "sha256": "58038947935c272eaa998f6279f327016c598f39110a1e477101a39540ea2df1",
+      "bytes": 23678
+    },
+    "energy_summary": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R001-energy-audit\\energy_summary.csv",
+      "sha256": "79b532a2db8a0bf6335ef35fc0ff7c5ba55a8a9e180fbefd555e3e3ec0be4d0e",
+      "bytes": 1607
+    },
+    "energy_run": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R001-energy-audit\\run_record.json",
+      "sha256": "03cb21bffae7e19b8bdeef32a7578b32d2db5d9984561ff5b0afd21821f81699",
+      "bytes": 7751
+    },
+    "preliminary_energy": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\preliminary_energy_ratios.csv",
+      "sha256": "63ed4ef7413e55870850117ee7246962b78bf2e8a2ad2aaa04caa381638dacfd",
+      "bytes": 1699
+    },
+    "cache_manifest": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4",
+      "bytes": 193090
+    },
+    "novelty_package": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R001.md",
+      "sha256": "ab3bf3761696663219b3b1257a32f61abc18895462288cb54bb9d1d8396dafd4",
+      "bytes": 10925
+    },
+    "reusable_formulas": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R001-reusable-formulas.md",
+      "sha256": "90ed4d02f7c7f31c5e7b44ed6df27341fa3fc9608e058db55e6dd12f8381ca32",
+      "bytes": 5844
+    },
+    "novelty_integration_manifest": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R001-integration-manifest.json",
+      "sha256": "3e7bad1fea6bd4a51da571ac21e025ac85a3f62aa4cc8f08a19e02d68f9e2f1e",
+      "bytes": 3266
+    }
+  },
+  "read_scope": {
+    "old_prior_art": "conclusion and core-C-ID matrix only, not entire source table reread",
+    "cache_manifest": "top-level source/table/group structure summaries, not new array analysis",
+    "original_workbook": "not opened by writer this task; identity inherited from handoff/audits"
+  },
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\paper-skeleton-and-claim-map.md",
+      "sha256": "1eabf5f3d54623dd27bbe8afc5fa06634270e9723ff9cf451d6f816a17f2b154",
+      "bytes": 12667
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\plain-language-problem.md",
+      "sha256": "f5c868457f93612bcd77bd29ecd4ef0fcdc68a68b8310a1aed70fa3a8c91253a",
+      "bytes": 3772
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\questions.md",
+      "sha256": "655b1e2de22e5c090ff10377b804cbd6bb682570e5cccf092d645d1878be10b8",
+      "bytes": 1006
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\next-task.md",
+      "sha256": "edb1d805bc03c216c02fc5b9559a73c57346f0f8a7c51de813d0648fa915f36d",
+      "bytes": 940
+    }
+  ],
+  "checks": [
+    {
+      "check": "six candidate rows all background-unverified",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "six displayed percentages match source",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no fabricated figure embed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "four existing claim IDs mapped",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no actual manuscript created",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "UTF8 LF and whitespace paper-skeleton-and-claim-map.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local link ../../../../../../research/sessions/20261017-2109/plan.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local link ../../../../../../research/sessions/20261017-2109/claims.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local link ../../../../../../research/sessions/20261017-2109/handoff.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local link ../../verification/maxwell-session004/辅助独立能量方法审核-R001.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local link ../../experiments/maxwell-session004/辅助元数据完整性审核-R001.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local link ../../novelty/maxwell-session004/R001-Lan2024-scope-check.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local link ../../literature/verification-session003/prior-art-final-matrix-v002.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local link ../../../../../../research/sessions/20261017-2109/R001-energy-audit/energy_summary.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local link ../../../../../../research/sessions/20261017-2109/R001-energy-audit/run_record.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local link ../../../../../../research/sessions/20261017-2109/preliminary_energy_ratios.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "UTF8 LF and whitespace plain-language-problem.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "UTF8 LF and whitespace questions.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "UTF8 LF and whitespace next-task.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input remained unchanged plan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input remained unchanged claims",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input remained unchanged handoff",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input remained unchanged energy_review",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input remained unchanged metadata_review",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input remained unchanged novelty_Lan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input remained unchanged old_prior_art",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input remained unchanged energy_summary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input remained unchanged energy_run",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input remained unchanged preliminary_energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input remained unchanged cache_manifest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "skeleton display math paired",
+      "pass": true
+    },
+    {
+      "check": "scoped git diff --check",
+      "pass": true,
+      "detail": {
+        "exit": 0,
+        "output": "",
+        "error": ""
+      }
+    },
+    {
+      "check": "old frozen v007 file unchanged",
+      "pass": true,
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v007.md"
+    },
+    {
+      "check": "old frozen v007 file unchanged",
+      "pass": true,
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v007.json"
+    },
+    {
+      "check": "old frozen v007 file unchanged",
+      "pass": true,
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v007-report.md"
+    },
+    {
+      "check": "old frozen v007 file unchanged",
+      "pass": true,
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v007-validation.json"
+    },
+    {
+      "check": "new canonical source exists novelty_package",
+      "pass": true
+    },
+    {
+      "check": "new canonical source exists reusable_formulas",
+      "pass": true
+    },
+    {
+      "check": "new canonical source exists novelty_integration_manifest",
+      "pass": true
+    },
+    {
+      "check": "late-source links and standard Maxwell scope explicit",
+      "pass": true
+    }
+  ],
+  "scientific_execution": "none; display-only percentage rounding of existing source CSV",
+  "next_test": "receive independent audit of energy six-row table and background-setting interpretation before actual new manuscript",
+  "verification_note": "New untracked documents checked for raw UTF8/LF,whitespace and real links; scoped Git check does not inspect untracked contents by itself.",
+  "late_steering": "Read canonical role6 R001/package formulas after main delivery draft; general linear-Maxwell output divergence already known, no innovation claim. Added explicit standard single-axis fixed-positive-parameter/no-added-mass assumptions and actual25kg assignment gate."
+}

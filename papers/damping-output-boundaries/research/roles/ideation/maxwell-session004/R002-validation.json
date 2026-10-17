@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-10-17T21:46:47+08:00",
+  "passed": true,
+  "scope": "delivery counts, recorded classification, source/protocol SHA, UTF-8/LF and local links; no independent physical/numerical re-audit",
+  "12_window_rows": 12,
+  "18_pair_rows": 18,
+  "eligible_windows": 8,
+  "eligible_pairs": 7,
+  "matches": 0,
+  "witnesses": 0,
+  "nearest_eligible_pair_relative_R_gap": 0.0624991652881578,
+  "files": [
+    {
+      "path": "R002_im001_firstcalc.py",
+      "bytes": 11269,
+      "sha256": "8b8187f50c392bf70f5cfdbcae6d9c0036b4f0b0a07c27d9f69b1c696d0efaf9",
+      "errors": []
+    },
+    {
+      "path": "R002-im001-results.md",
+      "bytes": 3496,
+      "sha256": "8fa739528350f39ee24751233a506f3535a5300bff7cb08e2b0a2aab935cdb99",
+      "errors": []
+    },
+    {
+      "path": "R002-next-task.md",
+      "bytes": 519,
+      "sha256": "8b670526b35a57f667a625436baf1dfe828df2b0b4ab2c3cfd9714b451e0978e",
+      "errors": []
+    },
+    {
+      "path": "R002-im001-firstcalc/pairs.csv",
+      "bytes": 3421,
+      "sha256": "3be4300f2319bc50cb70c5e4724a57a1e61b079477a2fad926b159b9b161cbd4",
+      "errors": []
+    },
+    {
+      "path": "R002-im001-firstcalc/run_record.json",
+      "bytes": 4953,
+      "sha256": "4586b21f6987001148e30f282a2f5a80cf5cae4ceb1fcc25b0023ca092b87111",
+      "errors": []
+    },
+    {
+      "path": "R002-im001-firstcalc/windows.csv",
+      "bytes": 5499,
+      "sha256": "dd63d274d992b59e6de698d5aeefa50a9c3fb7e3249e6a876f3bf9458000df7e",
+      "errors": []
+    },
+    {
+      "path": "R001-energy-force-candidates.md",
+      "protocol_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "recorded_at": "2026-10-17T21:35:20.895758+08:00",
+  "source_sha256_inherited_not_rehashed": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "source_bytes": 635525054,
+  "source_table_units": "kN-m",
+  "script_sha256": "f3c79e4a40463548005fa313759f72bed91e9677e891f3e38843d1cc18f5389d",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Total_Energy_Components.npz",
+      "sha256": "3614b98aa57bb52ba7e18ceaac98f221ebcf6f15d13777b0ead7be268d857b4e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Element_NL_Energy_By_Group.npz",
+      "sha256": "08c0200dd89b201dd6c9da87495d042777ef5023c981becedb5d80252d7d3dc4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\audit_core_energy.py",
+      "sha256": "19ea2ccb0e94e38125964f1ba9b74a25231766e2dba9e0279a4e1034ca2ec1ee"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R001-energy-audit\\run_record.json",
+      "sha256": "03cb21bffae7e19b8bdeef32a7578b32d2db5d9984561ff5b0afd21821f81699"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R001-energy-audit\\energy_summary.csv",
+      "sha256": "79b532a2db8a0bf6335ef35fc0ff7c5ba55a8a9e180fbefd555e3e3ec0be4d0e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\independent-energy-source\\audit_energy_source.py",
+      "sha256": "7dd634e45083e76f05108dbafa8f385f4df17bf87978b1b58728d059fa841a00"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\independent-energy-source\\独立原生能量复核.md",
+      "sha256": "a86a796325d381a384de4fcb6fb4c96c4ebd10c34c9a30376d6bf1363e3d260f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\independent-energy-source\\independent_energy_source.json",
+      "sha256": "455c7b4cafeefa80a8fae7f54ea3d3a9f733662ea91484783aea1a6dbc0dfa15"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\independent-energy-source\\independent_energy_summary.csv",
+      "sha256": "65a153700c41c6e83803c21077d2a4fb1cbcb8d90528dacb60e0d1ee27270fb7"
+    }
+  ],
+  "checks_passed": true,
+  "rows": [
+    {
+      "case": "RH4X",
+      "n": 2501,
+      "t0_s": 0.0,
+      "T_s": 50.0,
+      "source_start_row": 4,
+      "source_end_row": 2504,
+      "Eglobal_delta_kNm": 295.4355711779474,
+      "Elink_delta_kNm": 344.5504094236793,
+      "Elink_over_Eglobal": 1.1662455135307621,
+      "conditional_added_damping_if_background_5pct": 0.05831227567653811,
+      "conditional_added_damping_percent": 5.83122756765381,
+      "max_abs_balance_kNm": 0.03317646185069152,
+      "balance_end_kNm": 0.03317572969762601,
+      "max_abs_balance_over_peak_input": 4.7032270786598256e-05,
+      "max_balance_minus_EnergyError_kNm": 3.212849515233025e-08,
+      "max_balance_plus_EnergyError_kNm": 0.06635292370127507,
+      "max_All_viscous_minus_LinkDamper_kNm": 1.8758328224066645e-12,
+      "max_All_hysteretic_minus_LinkHysteresis_kNm": 0.0,
+      "min_Global_increment_kNm": 8.037003213248564e-10,
+      "negative_Global_increment_count": 0,
+      "min_Link_increment_kNm": -1.8125688693541486e-07,
+      "negative_Link_increment_count": 54,
+      "end_kinetic_plus_potential_kNm": 0.05530215288684453,
+      "end_storage_over_peak_input": 7.83985296973949e-05,
+      "end_storage_over_end_input": 8.639956204127879e-05,
+      "actual_background_damping_verified": false
+    },
+    {
+      "case": "RH4Y",
+      "n": 2501,
+      "t0_s": 0.0,
+      "T_s": 50.0,
+      "source_start_row": 2505,
+      "source_end_row": 5005,
+      "Eglobal_delta_kNm": 256.07908277287294,
+      "Elink_delta_kNm": 373.61729445590026,
+      "Elink_over_Eglobal": 1.4589918489643952,
+      "conditional_added_damping_if_background_5pct": 0.07294959244821976,
+      "conditional_added_damping_percent": 7.2949592448219756,
+      "max_abs_balance_kNm": 0.03256706611961857,
+      "balance_end_kNm": 0.032566890722670286,
+      "max_abs_balance_over_peak_input": 4.8657918712880624e-05,
+      "max_balance_minus_EnergyError_kNm": 6.256477054550612e-09,
+      "max_balance_plus_EnergyError_kNm": 0.06513413223917022,
+      "max_All_viscous_minus_LinkDamper_kNm": 1.9326762412674725e-12,
+      "max_All_hysteretic_minus_LinkHysteresis_kNm": 0.0,
+      "min_Global_increment_kNm": 8.765510609364309e-10,
+      "negative_Global_increment_count": 0,
+      "min_Link_increment_kNm": -1.6095847050394875e-07,
+      "negative_Link_increment_count": 47,
+      "end_kinetic_plus_potential_kNm": 0.03852520916800693,
+      "end_storage_over_peak_input": 5.755988240415559e-05,
+      "end_storage_over_end_input": 6.117370465177416e-05,
+      "actual_background_damping_verified": false
+    },
+    {
+      "case": "SHW4X",
+      "n": 2951,
+      "t0_s": 0.0,
+      "T_s": 59.0,
+      "source_start_row": 5006,
+      "source_end_row": 7956,
+      "Eglobal_delta_kNm": 364.199590392781,
+      "Elink_delta_kNm": 318.0450458970478,
+      "Elink_over_Eglobal": 0.8732712893884462,
+      "conditional_added_damping_if_background_5pct": 0.043663564469422315,
+      "conditional_added_damping_percent": 4.366356446942231,
+      "max_abs_balance_kNm": 0.029871877999207708,
+      "balance_end_kNm": 0.029871877999207708,
+      "max_abs_balance_over_peak_input": 4.0852818482840356e-05,
+      "max_balance_minus_EnergyError_kNm": 2.9220900990838557e-08,
+      "max_balance_plus_EnergyError_kNm": 0.05974375599827501,
+      "max_All_viscous_minus_LinkDamper_kNm": 1.9326762412674725e-12,
+      "max_All_hysteretic_minus_LinkHysteresis_kNm": 0.0,
+      "min_Global_increment_kNm": 1.1242052800527668e-07,
+      "negative_Global_increment_count": 0,
+      "min_Link_increment_kNm": -9.859231727277275e-08,
+      "negative_Link_increment_count": 11,
+      "end_kinetic_plus_potential_kNm": 1.0926275283808218,
+      "end_storage_over_peak_input": 0.001494278802540641,
+      "end_storage_over_end_input": 0.0015988880227136792,
+      "actual_background_damping_verified": false
+    },
+    {
+      "case": "SHW4Y",
+      "n": 2951,
+      "t0_s": 0.0,
+      "T_s": 59.0,
+      "source_start_row": 7957,
+      "source_end_row": 10907,
+      "Eglobal_delta_kNm": 320.1376321221692,
+      "Elink_delta_kNm": 348.4830689952596,
+      "Elink_over_Eglobal": 1.0885414085347935,
+      "conditional_added_damping_if_background_5pct": 0.05442707042673968,
+      "conditional_added_damping_percent": 5.442707042673968,
+      "max_abs_balance_kNm": 0.029343447122828492,
+      "balance_end_kNm": 0.029343447122828492,
+      "max_abs_balance_over_peak_input": 4.198898414116787e-05,
+      "max_balance_minus_EnergyError_kNm": 7.650613547773057e-07,
+      "max_balance_plus_EnergyError_kNm": 0.058686894245581156,
+      "max_All_viscous_minus_LinkDamper_kNm": 1.4210854715202004e-12,
+      "max_All_hysteretic_minus_LinkHysteresis_kNm": 0.0,
+      "min_Global_increment_kNm": 1.2358725174623371e-07,
+      "negative_Global_increment_count": 0,
+      "min_Link_increment_kNm": -1.0236427916582595e-07,
+      "negative_Link_increment_count": 8,
+      "end_kinetic_plus_potential_kNm": 0.7526963393126334,
+      "end_storage_over_peak_input": 0.0010770702747437393,
+      "end_storage_over_end_input": 0.0011244297241691922,
+      "actual_background_damping_verified": false
+    },
+    {
+      "case": "SHW7X",
+      "n": 2696,
+      "t0_s": 0.0,
+      "T_s": 53.9,
+      "source_start_row": 10908,
+      "source_end_row": 13603,
+      "Eglobal_delta_kNm": 674.7356516295566,
+      "Elink_delta_kNm": 536.8551835131926,
+      "Elink_over_Eglobal": 0.7956526118289906,
+      "conditional_added_damping_if_background_5pct": 0.039782630591449535,
+      "conditional_added_damping_percent": 3.978263059144953,
+      "max_abs_balance_kNm": 0.10224915796762257,
+      "balance_end_kNm": 0.10224915796762257,
+      "max_abs_balance_over_peak_input": 7.885626371805291e-05,
+      "max_balance_minus_EnergyError_kNm": 2.0833282898559582e-08,
+      "max_balance_plus_EnergyError_kNm": 0.20449831593542842,
+      "max_All_viscous_minus_LinkDamper_kNm": 1.3642420526593924e-12,
+      "max_All_hysteretic_minus_LinkHysteresis_kNm": 0.0,
+      "min_Global_increment_kNm": 7.893771497968791e-09,
+      "negative_Global_increment_count": 0,
+      "min_Link_increment_kNm": -2.8360970739660374e-06,
+      "negative_Link_increment_count": 51,
+      "end_kinetic_plus_potential_kNm": 3.3902829950316518,
+      "end_storage_over_peak_input": 0.002614643046935424,
+      "end_storage_over_end_input": 0.0027901649271827,
+      "actual_background_damping_verified": false
+    },
+    {
+      "case": "SHW7Y",
+      "n": 2696,
+      "t0_s": 0.0,
+      "T_s": 53.9,
+      "source_start_row": 13604,
+      "source_end_row": 16299,
+      "Eglobal_delta_kNm": 595.3639916000805,
+      "Elink_delta_kNm": 586.1502576236113,
+      "Elink_over_Eglobal": 0.9845242001423253,
+      "conditional_added_damping_if_background_5pct": 0.04922621000711627,
+      "conditional_added_damping_percent": 4.922621000711627,
+      "max_abs_balance_kNm": 0.10827175273344081,
+      "balance_end_kNm": 0.10827175273344081,
+      "max_abs_balance_over_peak_input": 8.76775107689846e-05,
+      "max_balance_minus_EnergyError_kNm": 3.4178215813085444e-13,
+      "max_balance_plus_EnergyError_kNm": 0.21654350546679058,
+      "max_All_viscous_minus_LinkDamper_kNm": 1.4779288903810084e-12,
+      "max_All_hysteretic_minus_LinkHysteresis_kNm": 0.0,
+      "min_Global_increment_kNm": 9.092682314372143e-09,
+      "negative_Global_increment_count": 0,
+      "min_Link_increment_kNm": -4.0051599260394657e-07,
+      "negative_Link_increment_count": 35,
+      "end_kinetic_plus_potential_kNm": 3.131571910949123,
+      "end_storage_over_peak_input": 0.0025359193235013383,
+      "end_storage_over_end_input": 0.0026432252310833065,
+      "actual_background_damping_verified": false
+    }
+  ],
+  "details": [
+    {
+      "case": "RH4X",
+      "end_values_kNm": {
+        "Input Energy": 640.0744584842112,
+        "Kinetic Energy": 0.02871261492320874,
+        "Potential Energy": 0.02658953796363579,
+        "Global Damping Energy": 295.4355711779474,
+        "Link Damper Energy": 344.5504094236793,
+        "Link Hysteresis Energy": 0.0,
+        "Energy Error": 0.033175729697585095
+      },
+      "quarter_windows": [
+        {
+          "fraction": 0.25,
+          "actual_t_s": 12.5,
+          "ratio": 1.3940001409636131
+        },
+        {
+          "fraction": 0.5,
+          "actual_t_s": 25.0,
+          "ratio": 1.1255661521404228
+        },
+        {
+          "fraction": 0.75,
+          "actual_t_s": 37.5,
+          "ratio": 1.1608117126107587
+        },
+        {
+          "fraction": 1,
+          "actual_t_s": 50.0,
+          "ratio": 1.1662455135307621
+        }
+      ],
+      "dt_min_s": 0.01999999999999602,
+      "dt_max_s": 0.020000000000003126,
+      "All_group_native_reader_independently_repeated_here": false
+    },
+    {
+      "case": "RH4Y",
+      "end_values_kNm": {
+        "Input Energy": 629.7674693286639,
+        "Kinetic Energy": 0.020604517825033822,
+        "Potential Energy": 0.017920691342973114,
+        "Global Damping Energy": 256.07908277287294,
+        "Link Damper Energy": 373.61729445590026,
+        "Link Hysteresis Energy": 0.0,
+        "Energy Error": 0.032566890722692005
+      },
+      "quarter_windows": [
+        {
+          "fraction": 0.25,
+          "actual_t_s": 12.5,
+          "ratio": 1.6985199817861008
+        },
+        {
+          "fraction": 0.5,
+          "actual_t_s": 25.0,
+          "ratio": 1.399034804847579
+        },
+        {
+          "fraction": 0.75,
+          "actual_t_s": 37.5,
+          "ratio": 1.451076781447718
+        },
+        {
+          "fraction": 1,
+          "actual_t_s": 50.0,
+          "ratio": 1.4589918489643952
+        }
+      ],
+      "dt_min_s": 0.01999999999999602,
+      "dt_max_s": 0.020000000000003126,
+      "All_group_native_reader_independently_repeated_here": false
+    },
+    {
+      "case": "SHW4X",
+      "end_values_kNm": {
+        "Input Energy": 683.3671356962088,
+        "Kinetic Energy": 0.7182356923840687,
+        "Potential Energy": 0.37439183599675313,
+        "Global Damping Energy": 364.199590392781,
+        "Link Damper Energy": 318.0450458970478,
+        "Link Hysteresis Energy": 0.0,
+        "Energy Error": 0.0298718779990673
+      },
+      "quarter_windows": [
+        {
+          "fraction": 0.25,
+          "actual_t_s": 14.76,
+          "ratio": 0.5048538534613402
+        },
+        {
+          "fraction": 0.5,
+          "actual_t_s": 29.5,
+          "ratio": 0.8615196171186498
+        },
+        {
+          "fraction": 0.75,
+          "actual_t_s": 44.26,
+          "ratio": 0.8489888671648484
+        },
+        {
+          "fraction": 1,
+          "actual_t_s": 59.0,
+          "ratio": 0.8732712893884462
+        }
+      ],
+      "dt_min_s": 0.01999999999999602,
+      "dt_max_s": 0.020000000000003126,
+      "All_group_native_reader_independently_repeated_here": false
+    },
+    {
+      "case": "SHW4Y",
+      "end_values_kNm": {
+        "Input Energy": 669.4027409038642,
+        "Kinetic Energy": 0.44780945409989953,
+        "Potential Energy": 0.30488688521273377,
+        "Global Damping Energy": 320.1376321221692,
+        "Link Damper Energy": 348.4830689952596,
+        "Link Hysteresis Energy": 0.0,
+        "Energy Error": 0.02934344712275266
+      },
+      "quarter_windows": [
+        {
+          "fraction": 0.25,
+          "actual_t_s": 14.76,
+          "ratio": 0.8211130019088847
+        },
+        {
+          "fraction": 0.5,
+          "actual_t_s": 29.5,
+          "ratio": 1.0733089053679217
+        },
+        {
+          "fraction": 0.75,
+          "actual_t_s": 44.26,
+          "ratio": 1.0575003224563388
+        },
+        {
+          "fraction": 1,
+          "actual_t_s": 59.0,
+          "ratio": 1.0885414085347935
+        }
+      ],
+      "dt_min_s": 0.01999999999999602,
+      "dt_max_s": 0.020000000000003126,
+      "All_group_native_reader_independently_repeated_here": false
+    },
+    {
+      "case": "SHW7X",
+      "end_values_kNm": {
+        "Input Energy": 1215.0833672957485,
+        "Kinetic Energy": 3.221027039920297,
+        "Potential Energy": 0.1692559551113546,
+        "Global Damping Energy": 674.7356516295566,
+        "Link Damper Energy": 536.8551835131926,
+        "Link Hysteresis Energy": 0.0,
+        "Energy Error": 0.10224915796780584
+      },
+      "quarter_windows": [
+        {
+          "fraction": 0.25,
+          "actual_t_s": 13.48,
+          "ratio": 1.1647401766601606
+        },
+        {
+          "fraction": 0.5,
+          "actual_t_s": 26.96,
+          "ratio": 1.1774936690651931
+        },
+        {
+          "fraction": 0.75,
+          "actual_t_s": 40.44,
+          "ratio": 0.8761474247467809
+        },
+        {
+          "fraction": 1,
+          "actual_t_s": 53.9,
+          "ratio": 0.7956526118289906
+        }
+      ],
+      "dt_min_s": 0.01999999999999602,
+      "dt_max_s": 0.020000000000003126,
+      "All_group_native_reader_independently_repeated_here": false
+    },
+    {
+      "case": "SHW7Y",
+      "end_values_kNm": {
+        "Input Energy": 1184.7540928873743,
+        "Kinetic Energy": 2.3413140431586763,
+        "Potential Energy": 0.7902578677904465,
+        "Global Damping Energy": 595.3639916000805,
+        "Link Damper Energy": 586.1502576236113,
+        "Link Hysteresis Energy": 0.0,
+        "Energy Error": 0.10827175273334977
+      },
+      "quarter_windows": [
+        {
+          "fraction": 0.25,
+          "actual_t_s": 13.48,
+          "ratio": 1.5868814986775908
+        },
+        {
+          "fraction": 0.5,
+          "actual_t_s": 26.96,
+          "ratio": 1.4643577777564807
+        },
+        {
+          "fraction": 0.75,
+          "actual_t_s": 40.44,
+          "ratio": 1.0760510366463394
+        },
+        {
+          "fraction": 1,
+          "actual_t_s": 53.9,
+          "ratio": 0.9845242001423253
+        }
+      ],
+      "dt_min_s": 0.01999999999999602,
+      "dt_max_s": 0.020000000000003126,
+      "All_group_native_reader_independently_repeated_here": false
+    }
+  ],
+  "scope": "Review existing openpyxl source evidence and independent scalar cache recomputation; no XLSX row re-extraction.",
+  "limits": [
+    "No actual 5% background setting verified.",
+    "Export end is not certified complete free tail.",
+    "All-group crosscheck uses existing lxml cache, not a second independent raw All-group extraction.",
+    "Negative Link increments preserved; no monotonic repair or missing-value filling.",
+    "Accepting numeric export consistency does not certify solver convergence or physical device model."
+  ]
+}

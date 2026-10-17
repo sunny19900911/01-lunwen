@@ -1,0 +1,18 @@
+{
+  "verified_at": "2026-10-17T21:54:09.019136+08:00",
+  "method": "root independent CSV counts/sets and paired numeric QA; original XML extraction not repeated",
+  "coverage_rows": 528,
+  "complete_device_cases": 193,
+  "devices_complete_all6": 32,
+  "paired_input_sha256": {
+    "paired_K2_RH4X_r001.csv": "9def6dbd1c2c412554d4f07f2f01a3afa00d2cbc3e0c255bd86763e2a838101f",
+    "paired_K5_RH4X_r001.csv": "edd380b14e1954d20202312e2435b22d381e56e13dc9742a3f30880d223233c6"
+  },
+  "two_inputs": {
+    "n_each": 2501,
+    "time": "0—50 s; dt .02",
+    "I_J_identical": true,
+    "unit_conversion": "mm/1000=m exactly on parsed floats"
+  },
+  "scope": "export-grid completeness only; no original second-reader P/U1 audit; sign/storage/parameter identity remain conditional"
+}

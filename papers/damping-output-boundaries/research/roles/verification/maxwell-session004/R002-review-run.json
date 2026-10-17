@@ -1,0 +1,46 @@
+{
+  "started_at": "2026-10-17T21:41:15+08:00",
+  "recomputed_at": "2026-10-17T21:43:08.329643+08:00",
+  "completed_qa_at": "2026-10-17T21:46:12.297544+08:00",
+  "exit_code": 0,
+  "R001_four_frozen_outputs_unchanged": true,
+  "Cartesian_group_sets_and_keys_unique": true,
+  "input_hashes_checked": 11,
+  "encoding": "UTF8 without BOM;LF;no trailing whitespace",
+  "command_arguments": [
+    "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_response_coverage_R002.py",
+    "--cache",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache",
+    "--evidence",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\response-coverage",
+    "--out",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R002-review-data"
+  ],
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\响应定义与覆盖独审-R002.md",
+      "bytes": 8590,
+      "sha256": "e6d643df0075b55c63300a107550b6b52cd53c48fb60f46744d39598d2d4a5e9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\review_response_coverage_R002.py",
+      "bytes": 9897,
+      "sha256": "543914b5bbab63104497898d80700000883148e56b7fdad82395f7870a6cebd3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R002-review-data\\response_review.json",
+      "bytes": 6839,
+      "sha256": "559c756b62f93a0553f786932cc2c871d78b9e1072fca656089a8b3495dddea0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R002-review-data\\response_review_groups.csv",
+      "bytes": 40579,
+      "sha256": "18a788e01ec5e004158168b9d72df6627b481cf825bab1243e8d96f13901e33a"
+    }
+  ],
+  "qa_python": "C:\\Users\\mj528\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "qa_python_version": "3.13.15"
+}

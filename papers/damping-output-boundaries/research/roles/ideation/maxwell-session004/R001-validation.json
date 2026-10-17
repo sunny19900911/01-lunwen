@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-17T21:41:24+08:00",
+  "passed": true,
+  "scope": "UTF-8/LF, whitespace, local Markdown links, SHA provenance; protocol only, no force numerical result",
+  "files": [
+    {
+      "path": "next-task.md",
+      "sha256": "4e8385cec67809b3a34c9472ad50577012c82877e784ca30380a12329c5401f2",
+      "bytes": 978,
+      "errors": []
+    },
+    {
+      "path": "questions.md",
+      "sha256": "a4c9c919a10135d677a0779e601530ff89b01f1bb37d3adf7876d2286f80dd9c",
+      "bytes": 880,
+      "errors": []
+    },
+    {
+      "path": "R001-energy-force-candidates.md",
+      "sha256": "cfe32266bf3bdaef16709594fda40acef8024af26c179ec189bc5512303d1833",
+      "bytes": 8378,
+      "errors": []
+    },
+    {
+      "path": "R001-provenance.json",
+      "sha256": "d4b66cb8244c1749b83869f0142b31fb742fd94a41d4b5e6e7fe2f5f08b194e9",
+      "bytes": 2984,
+      "errors": []
+    }
+  ]
+}
