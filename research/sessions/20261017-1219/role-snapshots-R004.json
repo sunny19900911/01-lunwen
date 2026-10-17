@@ -1,0 +1,157 @@
+{
+  "snapshots": [
+    {
+      "timedOut": false,
+      "wake": {
+        "reason": "turnCompleted",
+        "turnId": "01a1483d-2117-7dc0-bfb6-909f1d890360",
+        "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+        "hostId": "local"
+      },
+      "polls": [
+        {
+          "schemaVersion": 1,
+          "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:20",
+          "revision": 20,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+            "hostId": "local",
+            "status": {
+              "type": "idle"
+            }
+          },
+          "latestTurn": {
+            "id": "01a1483d-2117-7dc0-bfb6-909f1d890360",
+            "status": "completed",
+            "error": null,
+            "startedAt": 1792213328,
+            "completedAt": 1792213518,
+            "durationMs": 190222
+          },
+          "latestAssistantMessageId": "msg_0fdbbf9b10a3adb0016ad3020dd4508195b1ca9339497d8245",
+          "latestAssistantMessage": {
+            "id": "msg_0fdbbf9b10a3adb0016ad3020dd4508195b1ca9339497d8245",
+            "turnId": "01a1483d-2117-7dc0-bfb6-909f1d890360",
+            "phase": "final_answer",
+            "text": "已冻结临界消零阻尼值域候选。 候选结论：全正三层真实 topcut 类的 ζ* 恰取 (0, √(2/27))。两端不可达到，但可逼近；区间内每个目标均可由有限正参数模型实现，不保证模型唯一。 已回报主控等待不同作者审核，未改账本或正文。"
+          },
+          "latestToolMarkerId": "exec-007de8bc-7f93-4be8-95ab-8539f0500928",
+          "latestToolMarker": {
+            "id": "exec-007de8bc-7f93-4be8-95ab-8539f0500928",
+            "turnId": "01a1483d-2117-7dc0-bfb6-909f1d890360",
+            "type": "mcpToolCall",
+            "name": "send_message_to_thread",
+            "status": "completed"
+          }
+        }
+      ]
+    },
+    {
+      "timedOut": true,
+      "wake": null,
+      "polls": [
+        {
+          "schemaVersion": 1,
+          "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:20",
+          "revision": 20,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+            "hostId": "local",
+            "status": {
+              "type": "active",
+              "activeFlags": []
+            }
+          },
+          "latestTurn": {
+            "id": "01a14845-d31d-7323-ac65-54be82e22c5e",
+            "status": "inProgress",
+            "error": null,
+            "startedAt": 1792213898,
+            "completedAt": null,
+            "durationMs": null
+          },
+          "latestAssistantMessageId": "msg_01c40afd2e9956f9016ad3039387608190924812adaee3f884",
+          "latestAssistantMessage": {
+            "id": "msg_01c40afd2e9956f9016ad3039387608190924812adaee3f884",
+            "turnId": "01a14845-d31d-7323-ac65-54be82e22c5e",
+            "phase": "commentary",
+            "text": "我会先从 Rath 2023 正式稿核准参考文献[48]，再查大学机构库或作者原件。若找到论文，只核目录和相关章节的模型前提；任务限6分钟、最多3条新查询，不重试 J41 旧入口。"
+          },
+          "latestToolMarkerId": "exec-cc87dd5c-f022-4651-a836-9b686d4e5830",
+          "latestToolMarker": {
+            "id": "exec-cc87dd5c-f022-4651-a836-9b686d4e5830",
+            "turnId": "01a14845-d31d-7323-ac65-54be82e22c5e",
+            "type": "webSearch",
+            "name": "webSearch",
+            "status": null
+          }
+        },
+        {
+          "schemaVersion": 1,
+          "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:17",
+          "revision": 17,
+          "changed": false,
+          "thread": {
+            "id": "01a14756-8805-7a42-b910-ae973f55d73e",
+            "hostId": "local",
+            "status": {
+              "type": "idle"
+            }
+          },
+          "latestTurn": {
+            "id": "01a14837-bbbb-7163-b1df-ecbe3e21a807",
+            "status": "completed",
+            "error": null,
+            "startedAt": 1792212974,
+            "completedAt": 1792213140,
+            "durationMs": 165868
+          },
+          "latestAssistantMessageId": "msg_09fe3e55758f973c016ad300946da081939eea0fa5894f6521",
+          "latestAssistantMessage": null,
+          "latestToolMarkerId": "exec-233911ab-75b5-4e44-9cf1-b8f2db4f3a2f",
+          "latestToolMarker": null
+        },
+        {
+          "schemaVersion": 1,
+          "cursor": "d696c220-255b-466e-b993-5ca97a48496e:19",
+          "revision": 19,
+          "changed": true,
+          "thread": {
+            "id": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+            "hostId": "local",
+            "status": {
+              "type": "active",
+              "activeFlags": []
+            }
+          },
+          "latestTurn": {
+            "id": "01a14843-0acb-7fa3-bffc-7592f61620ad",
+            "status": "inProgress",
+            "error": null,
+            "startedAt": 1792213715,
+            "completedAt": null,
+            "durationMs": null
+          },
+          "latestAssistantMessageId": "msg_09505bd600c2eded016ad3037ecc788190b676a05af4a4b139",
+          "latestAssistantMessage": {
+            "id": "msg_09505bd600c2eded016ad3037ecc788190b676a05af4a4b139",
+            "turnId": "01a14843-0acb-7fa3-bffc-7592f61620ad",
+            "phase": "commentary",
+            "text": "v005 的正文和附录 F 已写入，原采样展示移到了 4.3。联合式明确保留了 T≥T₀ 门槛和模型相关常数，并单列 δ=0 的分支；接下来核对附录重排后的交叉引用及原常数。"
+          },
+          "latestToolMarkerId": "exec-857266dd-04fd-4e61-9dac-b5d1c26fc257",
+          "latestToolMarker": {
+            "id": "exec-857266dd-04fd-4e61-9dac-b5d1c26fc257",
+            "turnId": "01a14843-0acb-7fa3-bffc-7592f61620ad",
+            "type": "commandExecution",
+            "name": "commandExecution",
+            "status": "failed"
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Actual tool snapshots; early return supplemented; later cursor values recorded separately in status"
+}

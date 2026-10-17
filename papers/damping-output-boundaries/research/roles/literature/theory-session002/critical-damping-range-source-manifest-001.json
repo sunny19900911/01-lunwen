@@ -1,0 +1,106 @@
+{
+  "session": "20261017-1219",
+  "task": "critical damping range prior positioning",
+  "role": "literature",
+  "review_status": "candidate",
+  "started_at": "2026-10-17T13:06:16+08:00",
+  "closed_at": "2026-10-17T13:09:52.749150+08:00",
+  "budget_minutes": 6,
+  "queries_budget": 3,
+  "queries_used": 3,
+  "queries": [
+    "\"base excitation\" \"shear force\" \"zeros\" damping",
+    "\"three-DoF\" \"damping\" \"threshold\" \"zeros\"",
+    "\"classical damping\" \"antiresonance\" \"equal\" \"frequencies\""
+  ],
+  "range_being_compared": "(0,sqrt(2/27)), not sqrt(2)/27; output-zero threshold, not mechanical critical damping",
+  "input": {
+    "path": "papers/damping-output-boundaries/research/roles/ideation/theory-session002/critical-damping-range-candidate.md",
+    "sha256": "2d2ee32e3ae68a2a45802a8e16b6bf3291e7bda69bc499e4bc84c572dab44674"
+  },
+  "sources": [
+    {
+      "file": "L016-RathAwtar2023.pdf",
+      "url": "https://par.nsf.gov/servlets/purl/10451384",
+      "sha256": "26d61b5fc57d1bd9c3884156aecaef724753a8443ad6f5259dcf0ce49b338bcd",
+      "pages_total": 15,
+      "locations_reread": [
+        "p3 eq4-5",
+        "p4 eq6",
+        "p5-10 eq11-14 Results1-4",
+        "p14 conclusion",
+        "p15 references37,38,48"
+      ],
+      "images_viewed_this_task": [
+        "L016-RathAwtar2023-p4.png",
+        "critical-range-L016-Rath2023-p7.png"
+      ],
+      "new_download": false
+    },
+    {
+      "file": "L015-RathAwtar2021.pdf",
+      "url": "https://psdl.engin.umich.edu/pdf/C46.pdf",
+      "sha256": "5ff0ae1f328473ee293bf094a70f2cec4d770251c69455bfefbb1d5c0618b12a",
+      "pages_total": 7,
+      "locations_reread": [
+        "PDF3-5 Result1/3/4; PDF4 eq11"
+      ],
+      "images_viewed_this_task": [
+        "L015-RathAwtar2021-p4.png"
+      ],
+      "new_download": false
+    },
+    {
+      "file": "L036-Hoagg2007.pdf",
+      "url": "https://public.websites.umich.edu/~dsbaero/library/ZerosUndershootASME2007.pdf",
+      "sha256": "33581687cf34964f1497e8a7ca407b5d1090094b78705795f3705c15a317d893",
+      "pages_total": 10,
+      "locations_reread": [
+        "print498/PDF6 section5",
+        "print500/PDF8 section9 eq9.5-9.6 Theorem9.1"
+      ],
+      "images_viewed_this_task": [
+        "L036-Hoagg2007-p6.png",
+        "L036-Hoagg2007-p8.png"
+      ],
+      "new_download": false
+    },
+    {
+      "file": "L001-Richiedei2022.pdf",
+      "url": "https://doi.org/10.1007/s11831-021-09583-w",
+      "sha256": "715eb3878dc7c945cfd93bfe94f16275216d61bed67641952d6e78dcb9cb7fb5",
+      "pages_total": 26,
+      "locations_reread": [
+        "print521-522/PDF3-4 section2.2.1-2.2.2 eq9"
+      ],
+      "images_viewed_this_task": [
+        "L001-Richiedei2022-p4.png"
+      ],
+      "new_download": false
+    }
+  ],
+  "direct_nearest_prior_location": "L016 p7 eq14 Result1: absolute modal damping threshold in rigid-plus-two-flexible model",
+  "query_outcome": "existing authors and broader zero-assignment/control materials; no same-condition range theorem located in inspected pages; no inference from number search misses",
+  "unread_gaps": [
+    "Rath2023 dissertation referenced as48",
+    "Rath2023 references37-38 general mass-dashpot-spring zeros",
+    "unresolved identity of older J41 author draft; earlier failed entries not retried"
+  ],
+  "not_used_for_claims": [
+    "secondary-hosted books/tutorials",
+    "new search snippets without full primary reading",
+    "2025 structural modification review search hit, not opened"
+  ],
+  "new_downloads": 0,
+  "new_reference_entries": 0,
+  "old_failed_routes_retried": false,
+  "old_frozen_evidence_edited": false,
+  "claims_or_manuscript_edits": false,
+  "subagents_dispatched": false,
+  "limits": [
+    "not an independent mathematical review",
+    "not exhaustive prior-art or novelty certification",
+    "AM-GM, simple Jacobi spectrum and continuity are classical tools",
+    "different input/output assumptions do not automatically establish novelty"
+  ]
+}

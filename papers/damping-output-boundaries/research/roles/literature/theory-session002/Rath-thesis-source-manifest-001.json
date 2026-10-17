@@ -1,0 +1,55 @@
+{
+  "task": "Rath thesis source check",
+  "session": "20261017-1219",
+  "status": "candidate bibliographic check; thesis full text not obtained",
+  "started_at": "2026-10-17T13:11:50+08:00",
+  "closed_at": "2026-10-17T13:16:56.875904+08:00",
+  "stop_reason": "master prioritized 2025 paper; stop thesis/year pursuit",
+  "queries_used": 3,
+  "queries": [
+    "\"Rath\" \"On the Zeros of Flexible Systems\" dissertation",
+    "site:deepblue.lib.umich.edu Rath \"zeros\" \"2023\"",
+    "\"Siddharth Rath\" \"Zeros\" dissertation \"2024\" site:umich.edu"
+  ],
+  "existing_primary": {
+    "file": "../local-cache/L016-RathAwtar2023.pdf",
+    "sha256": "26d61b5fc57d1bd9c3884156aecaef724753a8443ad6f5259dcf0ce49b338bcd",
+    "locations": [
+      "PDF1 full author name",
+      "PDF15 reference48; 2023 thesis bibliographic citation"
+    ]
+  },
+  "new_primary_reads": [
+    {
+      "url": "https://psdl.engin.umich.edu/publications.php",
+      "result": "success; HTML Theses1 has 2021/title spelling variation and no thesis link; JournalPapers2 lists 2025 paper"
+    },
+    {
+      "url": "https://commencement.umich.edu/wp-content/uploads/2025/03/U-M-RGE-2024-Program.pdf",
+      "result": "public PDF opens, 56 pages; cover says May3 2024; Rath entry not checked on original page; no thesis content"
+    }
+  ],
+  "new_failures": [
+    {
+      "url": "https://psdl-dev.engin.umich.edu/publications/",
+      "result": "502 Bad Gateway"
+    },
+    {
+      "url": "https://me.engin.umich.edu/event-calendar/month/2023-09/",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://me.engin.umich.edu/event/thesis-defense-siddharth-rath/",
+      "result": "tool Internal Error; no HTTP status; no event content obtained"
+    }
+  ],
+  "thesis_pdf_obtained": false,
+  "thesis_pdf_sha256": null,
+  "thesis_toc_or_chapters_read": false,
+  "official_degree_year_resolved": false,
+  "new_downloads": 0,
+  "failed_endpoints_retried": false,
+  "J41_opened": false,
+  "claims_manuscript_or_reference_edits": false,
+  "next_task": "separate authorized 2025 nearest paper source check; do not infer coverage from title"
+}

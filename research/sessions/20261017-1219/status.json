@@ -26,17 +26,17 @@
   "role_cursors": [
     {
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
-      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:18",
-      "status": "idle"
-    },
-    {
-      "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:20",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:23",
       "status": "active"
     },
     {
+      "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:23",
+      "status": "idle"
+    },
+    {
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:18",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:21",
       "status": "active"
     },
     {
@@ -46,8 +46,8 @@
     },
     {
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:17",
-      "status": "active"
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:20",
+      "status": "idle"
     }
   ],
   "subagents": {
@@ -55,7 +55,7 @@
     "detuning_bound_round1": "completed both independent finite-envelope and classical-norm reviews; frozen, no live child task",
     "theory_manuscript_round1": "completed; frozen outputs handed to original roles; no live child task remains"
   },
-  "latest_round": "R003.md",
+  "latest_round": "R004.md",
   "checkpoint_open": true,
   "pending_push": null,
   "git_transport": {
@@ -65,20 +65,20 @@
     "global_config_changed": false
   },
   "last_verified_push": {
-    "commit": "fcc8d9a8d760ee81b473d9f7e3099eec908eac0e",
+    "commit": "277493bbb21ddbc68cd45ac9d345cf9260646b5f",
     "branch": "main",
     "remote": "origin",
-    "verified_by": "actual command-scoped proxy push + ls-remote matched",
-    "verified_at": "2026-10-17T12:53:14.592258+08:00"
+    "verified_by": "actual push exit0 + ls-remote exact match, known command-scoped proxy",
+    "verified_at": "2026-10-17T13:06:53.182859+08:00"
   },
-  "recorded_at": "2026-10-17T13:06:03.741142+08:00",
-  "next_checkpoint": "R003 publication in preparation; C025/C026/C027 and v004 accepted. Only explicit finished list, exclude active C028 reviews/new scope files. Next R004 collect independent C028 audit + limited prior-art note, read v005 scope and authorize coherent draft once reviewed. No duplicate role work; hard deadline14:19:08. No live in-chat child.",
+  "recorded_at": "2026-10-17T13:20:08.470153+08:00",
+  "next_checkpoint": "R004 publish explicit frozen list then close. Next R005 first collect C029 independent reviewer (still active) and closest2025 source check (literature active); root full read before promotion. C028 reviewed, v005 accepted84820aa5 and explicit excluded C028/C029. Any future v006 needs deliberate scope after closest-source assessment; do not launch automatic version churn. Ideation/experiments/writer idle, no live child. Deadline14:19:08.",
   "role_work": {
-    "ideation": "C028 critical-damping attainable range candidate frozen2d2ee32e, idle; independent reviewer assigned",
-    "verification": "C026 accepted; bounded independent C028 range review now active, no duplicate task",
-    "literature": "Bounded <=3 new-query C028 nearest prior-art comparison now active",
+    "ideation": "v005 integration review frozen4cbde226/accepted, idle",
+    "verification": "Independent prescribed-baseline C029 threshold review <=8min active",
+    "literature": "Freeze thesis source gap then bounded closest 2025 Rath primary-source check; root DOI shortlink failed once, avoid duplicate",
     "experiments": "E3 and E4 accepted/reviewed within recorded bounds; idle, no new response task",
-    "writing": "C025/C026 accepted; v005 narrative scope plan <=5min, no new draft yet"
+    "writing": "v005 accepted; idle, no unauthorized new draft"
   },
-  "prepared_publication": null
+  "prepared_publication": "R004 explicit26 frozen files: C028 reviewed, C029 candidate/testing, v005 integrated/root+different-author review accepted; thesis source-gap frozen, 2025 primary check remains active/excluded"
 }

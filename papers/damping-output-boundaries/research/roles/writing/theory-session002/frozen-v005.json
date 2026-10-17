@@ -1,0 +1,40 @@
+{
+  "session": "20261017-1219",
+  "frozen_at": "2026-10-17 13:14:55 +08:00",
+  "status": "author integration checks passed; awaiting independent v005 manuscript review by master assignment",
+  "scope": "C025 fixed-duration full-input upper bound and C026 joint order. Restructure main 4.1/4.2/4.3, one main Psi chain, proofs Appendix F. Preserve original M, original U_kappa, two original figures/seven references. Exclude C024/C027/C028 regardless of later scope updates.",
+  "files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-draft-v005.md",
+      "sha256": "84820aa5f5bd6b38b40190acd54f327b179a96a0a92f6ae56bde910344622e8b",
+      "bytes": 64753
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/theory-figure-evidence-map-v005.json",
+      "sha256": "b80a92159d161251368ebf24c332780b3f214a6e067c60f6f77a0c4b7369ccfe",
+      "bytes": 16456
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v005-report.md",
+      "sha256": "280d5467068ad2007163190eae9b5c3d497f74ca14c28ca78bc0d4f3bc345f10",
+      "bytes": 4672
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v005-validation.json",
+      "sha256": "d07545faab55ec00acac2822f10d84904b7bcb5197d2ff29ef6599ad47fcae73",
+      "bytes": 11942
+    }
+  ],
+  "predecessor_freeze": {
+    "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/frozen-v004.json",
+    "sha256": "d34d25ef97aa83aee97b311ffdf4694b162da219c4fead9fa9f467dee6c42c42",
+    "bytes": 2057
+  },
+  "integration_plan": {
+    "path": "papers/damping-output-boundaries/research/roles/writing/theory-session002/v005-scope-plan.md",
+    "sha256": "52c579d9c5f58f6b7e1bb8de1e87a5a35898b9519c58c360b05c1903b7bcb85d",
+    "bytes": 8911
+  },
+  "validation": "38 static integration checks; 70 unique ordered tags; 4 figure assets and 28 evidence identities; 18 predecessor frozen files unchanged",
+  "encoding": "UTF-8 without BOM, LF"
+}

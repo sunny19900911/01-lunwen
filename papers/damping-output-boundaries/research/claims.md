@@ -77,3 +77,13 @@ L035这轮新增公开作者PDF两页的文本定位（并非原页公式已视�
 2026-10-17T13:02:52.344767+08:00：主控全文读矩改进独审并接纳C027；独立审阅覆盖候选代码/值和来源身份。文献有限时长对照07f2a78f已读，确认已读Teixeira全尾/Gramian及Boyd/Sultan经典工具与本题范数/输入域差别；这仅是有限原文定位，不宣布无等价覆盖或首次。
 
 2026-10-17T13:05:30.740751+08:00：主控全文读C026组合及独审，接纳固定模型/共同域/T≥T0的min型双侧阶。审核者是C025原作者，本次不替代C025已有另一作者独审；三源各自reviewed证据链保留。C028临界ζ*全类值域新候选仍待独审，未入本轮正式主张。
+
+| C028 v1 | 全部有限正m/k完整三层链、真实弹性topcut、共同ζ路径，临界输出消零阻尼ζ*值域恰(0,sqrt(2/27))；每个内点可先选有限正参数模型精确实现，两端仅可逼近 | supported | ideation/theory-session002/critical-damping-range-candidate.md SHA2d2ee32e3ae68a2a45802a8e16b6bf3291e7bda69bc499e4bc84c572dab44674；verification/theory-session002/critical-damping-range-review.md SHAdfec30deb7f42a39e26d4c669aaeea42f0bb606cba780005a1476818202dc3f0；异作者独审及主控全文/质量归一构造/严格号/连通IVT复核，mathematical-proof/reviewed | k=(t²,t,1),m=(t²+t,t+1,1)谱1,1±sqrt(2t+1)/(t+1)只上端逼近；不称同一模型任意ζ/模型唯一/机械ζ1临界/工程最优/所有输出或跨模型峰界 |
+
+2026-10-17T13:11:11.006697+08:00：C028经主控通读独审后接纳；文献范围定位已全文读，Rath2023 p7式14已有阻尼阈值/零点机制，经典AM–GM/Jacobi/连续性不称新原理，未排除一般分类等价覆盖。新‘预先固定ζ0的跨模型统一峰界’三分法已派有限candidate推导，尚无审核/结论。v005冻结scope仍不纳C028，后续稿件取舍另定。
+
+| C029 v1 | 预给ζ0=z>0及κ>1，跨全部正三层真实topcut的完整峰统一有限界存在 iff z>sqrt(2/27)；等号每模型有限但跨模型无界，严格以上有显式39M(z,κ)界 | testing | ideation/theory-session002/prescribed-damping-uniform-bound-candidate.md SHA82fb5aa189567e4e4d9caa95ddd0cd787d2c80914b67d4291cfe83ea24e4167b；主控全文读/三段分母权重/稳定商39倍手核，独立验证在途 | candidate未入v005，须不同作者核三段显式常数和z=U用C020序列下界；不称κ-only/工程安全阈值/建议阻尼或首创 |
+
+2026-10-17T13:16:38.895597+08:00：新文献线索Rath等2025《Non-minimum Phase Zeros of Multi-DoF Damped Flexible Systems》由作者大学列表发现，DOI10.1115/1.4067639，优先同条件核。主控仅open DOI短链返回Internal Error，未得正文/元数据，不重试；文献角色改查已见大学作者长链接/合法公开稿，尚未判重合或不重合。数学supported不等于先例排除，当前v005不据此增新引用。
+
+2026-10-17T13:20:08.470153+08:00：主控全文读取v005整合独审4cbde226b245c33ea48759a1bb59e79c42fec2f5b327e4bbc4bad4704ef36d2c并结合实际全diff/四文件SHA核准，接纳冻结theory-draft-v005.md SHA84820aa5f5bd6b38b40190acd54f327b179a96a0a92f6ae56bde910344622e8b；此整合审阅者为C026原作者，不替代不同作者核心证明审核。C028/C029明确不在稿中，不能由主张更新倒改冻结稿范围。
