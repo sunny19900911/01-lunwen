@@ -1,0 +1,134 @@
+{
+  "review": "R029",
+  "claim": "C027 fixed-node modal/passivity corollary",
+  "N": 16384,
+  "J": 16529,
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-modal-sign-corollary-protocol-v001.md",
+      "bytes": 2094,
+      "sha256": "341d217524c728edffd160379d7fa931bf1976a980ab461af9c9fde0874142d2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R013-addition-certificate-adoption.json",
+      "bytes": 10512,
+      "sha256": "836a0d6e8e551dd594770fe1421f49780636cdb2d9d2c8cdbd2fd878cc2b729f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-local-peak-protocol-v001.json",
+      "bytes": 1822,
+      "sha256": "122375ce3d1e934fffabef2c11c4c9ddd7bfb2c58215543911906fc03c4fb89c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R017-addition-witness-certificate\\summary_r017.json",
+      "bytes": 9101,
+      "sha256": "1b0454f443d1c27466e00bd40ece92deb6e259edf7ea82da38cd25e1708e4d7c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+      "bytes": 12938185,
+      "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R028\\R028-review-validation.json",
+      "bytes": 6197,
+      "sha256": "3d1e8b8fc71457f14015c4cb980f31bb97f45e488be592c96e667e1481f8348d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R028\\R028-proof-evidence.json",
+      "bytes": 17731,
+      "sha256": "c967c6d4b7b1eaba58d72f03d841d656fc8232426c7180460f9b104ed2bfffac"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R028\\R028-review-report.md",
+      "bytes": 6786,
+      "sha256": "1bb121b2aa7f7f8fd5e43e7b7a2b1790e6a108c920b52fb66913744c0855fd14"
+    }
+  ],
+  "source_records_unchanged": true,
+  "exact_binary64_node": {
+    "u1": {
+      "fraction": "-1425669701254761/281474976710656",
+      "hex": "-0x1.4428e6070f9a4p+2"
+    },
+    "u2": {
+      "fraction": "-5271000235430929/9007199254740992",
+      "hex": "-0x1.2b9f260a4d411p-1"
+    },
+    "v1": {
+      "fraction": "-2317542455805473/288230376151711744",
+      "hex": "-0x1.07795cda90c42p-7"
+    },
+    "v2": {
+      "fraction": "7736930202118457/144115188075855872",
+      "hex": "0x1.b7cb270596939p-5"
+    },
+    "F": {
+      "fraction": "-643282370913379/140737488355328",
+      "hex": "-0x1.2487ec9ab2318p+2"
+    }
+  },
+  "I_J_full_state_error_radius": {
+    "fraction": "6448079758017347/9007199254740992",
+    "hex": "0x1.6e87e8f75c343p-1",
+    "is_error_energy": false
+  },
+  "independent_method": "Fraction exact arithmetic and 200 rational bisections with exact square containment; no outward helper imported, no residual loop or ODE.",
+  "nominal_modal_intervals_decimal": {
+    "qplus": [
+      "-3.995291080392",
+      "-3.995291080391"
+    ],
+    "qminus": [
+      "-3.167695308454",
+      "-3.167695308453"
+    ]
+  },
+  "certified_true_intervals_decimal": {
+    "qplus": [
+      "-4.711171741589",
+      "-3.279410419193"
+    ],
+    "qminus": [
+      "-3.581009200904",
+      "-2.754381416004"
+    ],
+    "u2": [
+      "-1.169712694638",
+      "-0.000684470198"
+    ],
+    "abs_u2_upper": "1.169712694638",
+    "conservative_abs_u2_plus_I_upper": "1.301079243616"
+  },
+  "exact_rational_true_intervals": {
+    "qplus": [
+      "-48217294865183771641767788569120808039998040843173156004687393263320458176775/10234671438433015952193900192872453538438429058905404632727730867142857326592",
+      "-16781844076112134565572046687869074674474300415078418729095596144238002850267/5117335719216507976096950096436226769219214529452702316363869937171056033792"
+    ],
+    "qminus": [
+      "-3775096670523277222571926224745504709292992210263536931360275274795782301369341114829591522001607460158643832607918260224/1054199098279499120574022507867812174054240205882613835172585383669230541586512880899311489062069489368331711164593010891",
+      "-4355499607604164902613410232825602514336035443864808794505034637420513178448688395032140446413398449042358988025272205312/1581298647419248680861033761801718261081360308823920752758879467153014448347963942323955102373472826745497714535261880723"
+    ],
+    "u2": [
+      "-16930434589938130284094985491709431327707885129382606495603434234531274757033/14474011154664524427946373126085988481658748083205070504932198000989141204992",
+      "-9907029285978411342773231371332593408571734795583479871954416562618559575/14474011154664524427946373126085988481658748083205070504932198000989141204992"
+    ]
+  },
+  "threshold_checks": {
+    "qplus_upper_lt_minus_3_27": true,
+    "qminus_upper_lt_minus_2_75": true,
+    "abs_u2_upper_lt_1_302": true,
+    "conservative_abs_u2_plus_I_lt_1_302": true
+  },
+  "all_candidate_thresholds_passed": true,
+  "power_threshold_exact": "363/32",
+  "power_threshold_decimal": "11.34375",
+  "no_trapezoidal_work_values_used": true,
+  "error_coefficients": {
+    "qplus": "1",
+    "qminus": "1/sqrt(3)",
+    "u2": "sqrt(2/3); conservative 1 also checked"
+  },
+  "decoded_array_scope": "D_N16384 entire member decoded; only fixed J five-state node retained; no full trajectory output",
+  "finished_at": "2026-10-18T02:31:41.258248+08:00"
+}

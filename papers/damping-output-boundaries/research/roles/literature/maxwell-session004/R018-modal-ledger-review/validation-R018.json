@@ -1,0 +1,70 @@
+{
+  "task": "R018",
+  "checks": {
+    "specified_code_SHA": true,
+    "specified_report_SHA": true,
+    "AST_parse_only": true,
+    "8_fixed_snapshot_rows": true,
+    "12_fixed_work_rows": true,
+    "all_small_source_refs_match": true,
+    "snapshot_and_ledger_scalar_algebra_within_64eps": true,
+    "summary_fixedJ_transcription_and_maxima_exact": true,
+    "report_fixedJ_table_and_maxima_formatted_correctly": true,
+    "output_SHA_matches": true,
+    "run_record_code_summary_SHA_matches": true,
+    "all_manifest_bytes_SHA_matches": true
+  },
+  "small_scalar_checks_count": 292,
+  "small_scalar_arithmetic_tolerance": "64*machineeps*max(1,abs(lhs),abs(rhs)); arithmetic only, not physical/error certificate",
+  "small_scalar_failed_checks": {},
+  "small_scalar_max_abs_difference": 5.329070518200751e-15,
+  "fixed_J_summary_comparisons_count": 30,
+  "row_counts": {
+    "snapshot": 8,
+    "ledger": 12
+  },
+  "maximum_residuals_from_small_ledger": {
+    "modal": 1.2395508292684099e-05,
+    "port_RK4mix": 2.7850825476960495e-06
+  },
+  "NPZ_policy": "never open/read/hash/decode/stat; SHA inherited only from small source metadata",
+  "no_target_execution_or_R029_review": true,
+  "mustfix": [],
+  "status": "0 mustfix; passed static, independent modal algebra and bounded small-table checks only",
+  "frozen_at": "2026-10-18T02:46:59.795419+08:00",
+  "elapsed_seconds": 193.795419,
+  "within_8_minutes": true,
+  "all_initial_inputs_unchanged": true,
+  "all_additional_small_references_unchanged": true,
+  "independent_algebra": "orthogonal mass-normalized bare modes; signed same-time u reconstruction; modal power sum=-Fv2; spring Es=F²/16 and Ddot>=0; zero-storage-prefix passivity does not mean nonpositive instantaneous power",
+  "fixed_J_retained": 16529,
+  "source_all_point_checks_not_revalidated": "No NPZ access; full 98305-node identities and full trapezoid sequences not independently recomputed",
+  "R029_not_reviewed": true,
+  "optional_editorial_note": "Use omega_plus²=1 and omega_minus²=3 rather than ambiguous omega²=1/3 in future newversion; no source edits",
+  "collaborators": {
+    "weng2016_source": "0 mustfix; independent modal algebra/code; explicitly retain spring-release and finite-integral boundary",
+    "local_literature": "0 mustfix; fixedJ/8snapshots/12ledger, summary/report numeric transcription consistent"
+  },
+  "output_report": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R018-modal-ledger-review\\R018-modal-ledger-review.md",
+    "bytes": 5977,
+    "sha256": "38cfb61c3317332d01f73a65f78bf196768dc0b136a15c37c22114f4d7fee99e"
+  },
+  "input_rules": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R018-modal-ledger-review\\input-rules-R018.json",
+    "bytes": 5712,
+    "sha256": "55e642b924e4a4d85dc2fb1f08c99c43b1f5f1a2a6b305fb85004839545fdd21"
+  },
+  "delivery_QA": {
+    "UTF8_no_replacement": true,
+    "report_own_links_exist": true,
+    "display_equations_balanced": true
+  },
+  "prohibited_action_counts": {
+    "NPZ_open_read_hash_decode_stat": 0,
+    "ODE_or_target_execution": 0,
+    "R029_review": 0,
+    "newsearch": 0,
+    "source_otherrole_shared_Git_writes": 0
+  }
+}

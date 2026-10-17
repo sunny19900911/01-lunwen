@@ -1,0 +1,14 @@
+{
+  "status": "schema only; actual engineering fields not certified or populated",
+  "target_scope": "fixed linear displacement or relative displacement; no acceleration or total story shear",
+  "reference_manifest": ["model_id_and_sha", "constraint_dof_map_and_units", "mass_source", "K_physical_or_effective_and_state", "actual_background_C_definition", "complete_exact_Eigen_and_common_damping_basis_evidence", "all_specified_device_ids", "same_external_input_identity", "same_subject_initial_u_v_identity"],
+  "mode_rows": ["mode_id", "omega_rad_per_s", "actual_background_zeta", "modal_mass_or_mass_normalization_evidence", "shape_scale_and_common_phase", "exact_Eigen_completeness_or_remainder_status"],
+  "target_rows": ["target_id", "fixed_ell_definition", "mode_id", "signed_gamma_in_same_normalization"],
+  "port_rows": ["device_id_and_active_dof", "mode_id", "signed_beta_in_same_normalization", "port_B_identity", "actual_I_J_axis_offsets_rotations_constraints_if_beta_reconstructed", "power_conjugate_force_and_sign_mapping"],
+  "force_rows": ["D_case_id", "record_direction_scale_and_initial_case", "device_id", "time_s", "true_conjugate_F_or_sample_reconstruction", "force_unit", "source_column_sign_scale_mapping", "window_completeness_and_error_evidence"],
+  "remainder_manifest": ["missing_mode_ids_and_evidence", "missing_device_ids", "force_sampling_and_quadrature_error", "unknown_initial_or_operator_mismatch_terms", "FNA_effective_K_and_residual_force_pairing"],
+  "current_device_completeness": "partial 32 of 88 by frozen protocol; 56 missing contributions retained; no actual data read",
+  "not_required_for_difference_if_common_input_certified": ["all_other_building_nodes", "separate_modal_input_participation_factors"],
+  "extra_needed_for_yD_itself": "reference yU or certified external input and initial-state solution",
+  "force_history_transfer_to_new_layout": "not authorized by this identity; nonlinear forces must belong to the new model or be independently justified"
+}

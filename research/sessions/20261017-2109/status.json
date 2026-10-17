@@ -6,8 +6,8 @@
   "deadline": "2026-10-18T07:09:45+08:00",
   "master_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
   "checkpoint_open": true,
-  "current_round": "R013",
-  "latest_round": "rounds/R013.md",
+  "current_round": "R014",
+  "latest_round": "rounds/R014.md",
   "checkpoint_minutes": 15,
   "topic_card_minutes": 30,
   "scheduler": {
@@ -35,74 +35,71 @@
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
       "hostId": "local",
       "title": "论文角色①｜猜想与理论突破",
-      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:80",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:81",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "R022 conditional classicalforce-target interface frozenreported,awaitroot+independent review",
+      "dispatch": "R023 finite-window peak sufficient criterion<=10m dispatched after this idle snapshot",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "turn_status": "inProgress",
+      "turn_status": "completed",
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "actual after-push R005 live snapshot; poll using cursor before any new dispatch",
-      "observed_at_utc": "2026-10-17 18:28:11 UTC"
+      "snapshot_note": "Actual R014 snapshot; later dispatch status separately recorded",
+      "observed_at_utc": "2026-10-17 18:53:19 UTC"
     },
     "verification": {
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
       "hostId": "local",
       "title": "论文角色②｜证明审核与反例",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:113",
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:116",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "R029 modal-sign/true-work corollary<=8m dispatched02:30;R028 completeaccepted;noODE",
+      "dispatch": "R031 finite FOH code/small-output audit<=10m dispatched after this idle snapshot",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
       },
       "turn_status": "completed",
       "actual_status_at_snapshot": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "snapshot_note": "actual after-push R005 live snapshot; poll using cursor before any new dispatch",
-      "observed_at_utc": "2026-10-17 18:28:11 UTC"
+      "snapshot_note": "Actual R014 snapshot; later dispatch status separately recorded",
+      "observed_at_utc": "2026-10-17 18:53:19 UTC"
     },
     "literature": {
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
       "hostId": "local",
       "title": "论文角色③｜文献原文复查",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:63",
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:66",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "R017 sourcefinalreported;frozenversion preservation race,newR017-history-repair<=4m requested;excludeR017untilhistoryhandled",
+      "dispatch": "R019 actual-field-gap map<=10m dispatched after this idle snapshot",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "turn_status": "inProgress",
+      "turn_status": "completed",
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "actual after-push R005 live snapshot; poll using cursor before any new dispatch",
-      "observed_at_utc": "2026-10-17 18:28:11 UTC"
+      "snapshot_note": "Actual R014 snapshot; later dispatch status separately recorded",
+      "observed_at_utc": "2026-10-17 18:53:19 UTC"
     },
     "experiments": {
       "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
       "hostId": "local",
       "title": "论文角色④｜ETABS数据与拟合",
-      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:57",
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:59",
       "preflight_status": {
         "type": "idle"
       },
-      "dispatch": "R018 modalcacheledger frozenreported,notyetrootstatic/integralreview;idle",
+      "dispatch": "R019 replay frozen; await R031 before further experiments",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -111,40 +108,18 @@
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "actual after-push R005 live snapshot; poll using cursor before any new dispatch",
-      "observed_at_utc": "2026-10-17 18:28:11 UTC"
+      "snapshot_note": "Actual R014 snapshot; later dispatch status separately recorded",
+      "observed_at_utc": "2026-10-17 18:53:19 UTC"
     },
     "writing": {
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
       "hostId": "local",
       "title": "论文角色⑤｜论文写作与论证",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:60",
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:63",
       "preflight_status": {
         "type": "notLoaded"
       },
-      "dispatch": "v010 frozenreported02:30,awaitrootdiff/freeze andindependentintegration;exclude currentGit",
-      "observed_at": "2026-10-18T01:49:22.701322+08:00",
-      "actual_status": {
-        "type": "active",
-        "activeFlags": []
-      },
-      "turn_status": "inProgress",
-      "actual_status_at_snapshot": {
-        "type": "idle"
-      },
-      "snapshot_note": "actual after-push R005 live snapshot; poll using cursor before any new dispatch",
-      "observed_at_utc": "2026-10-17 18:28:11 UTC"
-    },
-    "novelty": {
-      "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
-      "hostId": "local",
-      "title": "创新性验证",
-      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:34",
-      "preflight_status": {
-        "type": "active",
-        "activeFlags": []
-      },
-      "dispatch": "R014 contributioncard frozen/rootfullread;historicalpendingC027labels retained;idle",
+      "dispatch": "templates frozen; v010 now root+R015 accepted; await specific companion task",
       "observed_at": "2026-10-18T01:49:22.701322+08:00",
       "actual_status": {
         "type": "idle"
@@ -153,28 +128,49 @@
       "actual_status_at_snapshot": {
         "type": "idle"
       },
-      "snapshot_note": "actual after-push R005 live snapshot; poll using cursor before any new dispatch",
-      "observed_at_utc": "2026-10-17 18:28:11 UTC"
+      "snapshot_note": "Actual R014 snapshot; later dispatch status separately recorded",
+      "observed_at_utc": "2026-10-17 18:53:19 UTC"
+    },
+    "novelty": {
+      "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+      "hostId": "local",
+      "title": "创新性验证",
+      "cursor": "8492d4d6-2cd9-4185-b5a5-4c44b0bedf4e:36",
+      "preflight_status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "dispatch": "R016 mechanism contribution boundary<=10m dispatched after this idle snapshot",
+      "observed_at": "2026-10-18T01:49:22.701322+08:00",
+      "actual_status": {
+        "type": "idle"
+      },
+      "turn_status": "completed",
+      "actual_status_at_snapshot": {
+        "type": "idle"
+      },
+      "snapshot_note": "Actual R014 snapshot; later dispatch status separately recorded",
+      "observed_at_utc": "2026-10-17 18:53:19 UTC"
     }
   },
   "git_authorization": "Verified direct human user messages in source thread; main master-only normal commit/push for this session whitelist",
   "git_proxy": "http://127.0.0.1:17890",
-  "git_checkpoint": "pushed-and-verified",
+  "git_checkpoint": "preparing",
   "protected_old_files": "All preexisting staged/unstaged/untracked outside explicit whitelist; old active-session pointer left unchanged",
   "source_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
   "core_cache": "../W5-重燃双塔连体/research/maxwell-20261017/experiments/R001/core-cache",
   "pending_review": [
-    "R013 preflight/index/blob/Git now,onlyC027 completedproof packages",
-    "v010 integration, R029 modalcorollary,R022 interface/CSI sourcehistory integrity",
-    "R018 finite modalledger notindependentfullstate proof",
-    "Actualgeometry/background/modal/input/fairengineeringpair unresolved"
+    "R019 force replay pending R031 implementation review",
+    "R023 target peak criterion in progress",
+    "R019 actual field gap map in progress",
+    "new companion interface manuscript not yet written"
   ],
-  "recorded_at": "2026-10-18T02:35:47.456700+08:00",
-  "checkpoint_status": "open",
-  "next_task": "Finish currentR013 only;C027 adoptedconditional;authorv010 integrates C026/C027 whileactiveexcluded fromGit. R022/FNAinterface andmodaldiagnostic needindependent gates,notactualengineering.",
-  "last_commit": "4815d450a7124c0a0b65931bbfa69989041917e3",
-  "last_remote_commit": "4815d450a7124c0a0b65931bbfa69989041917e3",
-  "last_push_receipt": "R012-push.json",
+  "recorded_at": "2026-10-18T02:57:35.198778+08:00",
+  "checkpoint_status": "reviewed-preparing-explicit-publication",
+  "next_task": "Publish only reviewed R014 manifest, then collect R031/R023/field-gap/novelty tasks; no repeated ODE. Hard cutoff07:09:45 unchanged.",
+  "last_commit": "ec76a71839a4bc28ec3d1e0f549e0f240cb0ad58",
+  "last_remote_commit": "ec76a71839a4bc28ec3d1e0f549e0f240cb0ad58",
+  "last_push_receipt": "R013-push.json",
   "accepted_evidence": {
     "energy_R001": {
       "review": "原生能量证据独审-R001.md",
@@ -595,6 +591,11 @@
       "accepted_at": "2026-10-18T02:24:43.064367+08:00",
       "root_record": "R013-addition-certificate-adoption.json",
       "scope": "Ufulltime<2.41,Dfixedtruewitness>4.349,gap>1.939 in frozen synthetic model underexplicitmachinecontract,notactualengineering/priority"
+    },
+    "R014": {
+      "record": "R014-adoption.json",
+      "sha256": "f18681bd9105561bcc76dc42c6e7a89017f9572c93645ed119636cf4873968d8",
+      "scope": "C028 true modal/work corollary,C029 classical conditional interface,v010 integration,finite ledger and templates"
     }
   },
   "checkpoint_started_at": "2026-10-18T02:24:43.064367+08:00",
@@ -614,8 +615,8 @@
     "sha256": "8ec39aeb7692b7745dbd7622b7364ef19d3dd20404755444626ec93358ec24b6",
     "status": "R003 published and verified; frozen stage manuscript only"
   },
-  "latest_role_snapshot": "R013-0228-live-snapshot.json",
-  "latest_late_handoff": "R012-late-evidence.md",
+  "latest_role_snapshot": "R013-after-push-snapshot.json",
+  "latest_late_handoff": "R013-late-evidence.md",
   "manuscript_stage_v002": {
     "sha256": "64f69a385155f0004113cd8e96e12ebbe0b86e07bb88ce56da7d6873324bbef5",
     "status": "root full text/hash reviewed; frozen. Local absolute image references unsuitable for GitHub portability; author v003 assigned to fix image paths and integrate reviewed R007 before independent integration audit."
@@ -641,7 +642,7 @@
     "sha256": "c04370712b9adc73064872e1d2cc79a5c6a7783e191d5ca8dc4e754d80ae604b",
     "status": "R008 published and remote verified;frozen stage only"
   },
-  "next_git_eligible_at": "2026-10-18T02:30:39.413253+08:00",
+  "next_git_eligible_at": "2026-10-18T02:52:22.348711+08:00",
   "latest_topic_card": "topic-cards/T-M001-v012.md",
   "manuscript_modal_interface_v001": {
     "path": "papers/damping-output-boundaries/manuscript/maxwell-modal-interface-v001.md",

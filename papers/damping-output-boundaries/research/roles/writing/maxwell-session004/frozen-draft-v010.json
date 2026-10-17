@@ -1,0 +1,55 @@
+{
+  "frozen_at": "2026-10-18T02:30:23.491135+08:00",
+  "task_started": "2026-10-18T02:26:26+08:00",
+  "task_limit_minutes": 12,
+  "session_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Author static integration QA passed;frozen awaiting independent integration review",
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-engineering-draft-v010.md",
+      "bytes": 64362,
+      "sha256": "a9e2fc3fd3078bee9d16c0553a1abaf6361b7a10c3e66cc080b0acc705d93504"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v010-input-freeze.json",
+      "bytes": 95498,
+      "sha256": "b17cc0725047c011fe2e024cd1baa13c8bad691a7b292c2c77249e0f59d96e97"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v010-evidence-map.json",
+      "bytes": 109780,
+      "sha256": "c97d85c6db338a76ad55791f252308a32f3cf39041537a3db13f116a061c8da8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v010-validation.json",
+      "bytes": 2513,
+      "sha256": "a4a6a8cf39df4f5f691c03f388ca3b033cd785d87970b5fb182d0b1aab58f45e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v010.diff",
+      "bytes": 17542,
+      "sha256": "a9a823e482d6940698ccb73630517810f18331f23a960b8acc13798004e5d683"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v010-session-snapshot.json",
+      "bytes": 5579,
+      "sha256": "b68554b206c14415c195c91de12c50df8b72aa595dc0755e71ceec02e09036c2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v010-report.md",
+      "bytes": 1189,
+      "sha256": "4ae9ec4029a6a82b9460e577721b96d7c894a2247026bac159a6766c7c25af0b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\draft-v010-next-task.md",
+      "bytes": 329,
+      "sha256": "c7f9241cd95ce2cf472b86b91012cd7ec45c97dda6395c05b97608c0d8a75f44"
+    }
+  ],
+  "sources_verified": 200,
+  "old18_tables_9formulas_4figures_preserved": true,
+  "new_separate_tables6_7": true,
+  "UTF8_LF_no_BOM_whitespace_passed": true,
+  "raw_NPZ_read_or_hashed": false,
+  "scope": "Master accepted conditional C026/C027;not newtheory,unconditional formal machinecertification,realengineering/globaloptimum orfirstclaim."
+}

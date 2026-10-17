@@ -1,0 +1,60 @@
+{
+  "incident": "Already delivered frozen files were overwritten for necessary same-task clarification; recover copies only, no original-path restoration",
+  "original_paths": {
+    "report": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\R017-FNA-reference-force-scope.md",
+    "validation": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\validation-R017.json"
+  },
+  "versions": [
+    {
+      "version": "first delivered frozen package",
+      "frozen_at": "2026-10-18T02:28:07.652421+08:00",
+      "elapsed_from_original_R017_start": 317.652421,
+      "report_copy": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-history-repair\\recovered-first-report-f4f3e4b0.md",
+        "bytes": 8294,
+        "sha256": "f4f3e4b0ec0d2b3a2bb61683292778fe0a8fe23285e95916e8b090ed74b457d4"
+      },
+      "validation_copy": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-history-repair\\recovered-first-validation-0e3de71a.json",
+        "bytes": 3573,
+        "sha256": "0e3de71a6ddf099f39d468d253f5112d4e28aa966edc33f252548397488fcb64"
+      },
+      "restoration_status": "exact SHA match to first delivered hashes; recovered by deterministic inverse of actually recorded text/JSON update"
+    },
+    {
+      "version": "clarified package left unchanged at original path",
+      "frozen_at": "2026-10-18T02:30:55.920423+08:00",
+      "elapsed_from_original_R017_start": 485.920423,
+      "report_copy": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-history-repair\\current-report-a33c2080.md",
+        "bytes": 8765,
+        "sha256": "a33c2080171356a5bc6255b3b2a2a443d42b478531be035814c7c5c3f43a3994"
+      },
+      "validation_copy": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-history-repair\\current-validation-d54c3aa9.json",
+        "bytes": 3822,
+        "sha256": "d54c3aa92c662a3bec21a761c4b775bf15b01906cb5bfca6e3a917ccfea6b851"
+      },
+      "preservation_status": "exact byte copies of current files; original paths remain current version"
+    }
+  ],
+  "deterministic_inverse_operations": {
+    "report": [
+      "Remove exactly one recorded same5percent/sameC clarification sentence group",
+      "Replace frozen_at2026-10-18T02:30:55.920423+08:00 with2026-10-18T02:28:07.652421+08:00",
+      "Replace displayed elapsed485.92 with317.65; all other characters unchanged",
+      "Write with original UTF8/Windows Path.write_text newline convention; verify strict first SHA"
+    ],
+    "validation": [
+      "Parse current JSON preserving key order",
+      "Restore frozen_at2026-10-18T02:28:07.652421+08:00 and elapsed_seconds317.652421",
+      "Remove only same_inflight_R017_clarification key",
+      "Restore output_report bytes8294 and firstSHA f4f3e4b0ec0d2b3a2bb61683292778fe0a8fe23285e95916e8b090ed74b457d4; preserve original path",
+      "Serialize original ensure_ascii=False,indent=2,terminal newline and original Windows newline convention; verify strict first SHA"
+    ]
+  },
+  "historical_path_warning": "Recovered first validation deliberately retains original historical output_report.path, now occupied by current clarified version; resolve first version through report_copy SHA/path here. Relative links in exact report copies also retain original context; do not edit them or claim every archived relative link resolves in the history directory. Original input/source files remain in R017 directory.",
+  "visual_actor_clarification": "Five original page images were actually viewed by role3 literature main task in this chat. The overall controller received/read report only; the phrase root actually viewed in both preserved reports refers to this role3 main task, not overall controller visual inspection. No controller visual inspection is asserted.",
+  "publication_hold": "Controller says these new sources are not entering R013 Git during this repair; no Git action performed",
+  "scientific_scope": "Version preservation issue does not change or replace scientific definitions, assumptions, or independent review."
+}

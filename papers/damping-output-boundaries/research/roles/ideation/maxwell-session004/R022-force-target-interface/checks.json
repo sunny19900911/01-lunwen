@@ -1,0 +1,17 @@
+{
+  "scope": "Exact synthetic algebra only; no ODE, real modal constants or force histories.",
+  "direct_vs_complete_modal_resolvent_rational_s_cases": 3,
+  "raw_modal_masses": [
+    "4",
+    "16"
+  ],
+  "rescaling_and_sign_invariance": true,
+  "paired_port_force_sign_invariance": true,
+  "FNA_reference_correction_identity": true,
+  "missing_pair_partition_disjoint_complete": true,
+  "current_complete_force_subset": 32,
+  "protocol_total_devices": 88,
+  "missing_device_count": 56,
+  "engineering_reconstruction_or_response_certified": false,
+  "frozen_source_sha_unchanged": true
+}

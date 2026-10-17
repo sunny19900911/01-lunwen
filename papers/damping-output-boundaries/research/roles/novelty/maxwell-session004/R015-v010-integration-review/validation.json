@@ -1,0 +1,120 @@
+{
+  "started_at": "2026-10-18T02:43:40+08:00",
+  "completed_at": "2026-10-18T02:47:33.171439+08:00",
+  "time_limit_minutes": 10,
+  "elapsed_seconds": 233.171439,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Independent v010 integration review passed in stated scope;freeze then stop",
+  "mustfix": 0,
+  "required_changes": 0,
+  "review_scope": "C026/C027 transcript,quantifiers,time domain,source and novelty boundary;not theorem or ODE revalidation",
+  "input_files_checked": 22,
+  "input_changed": [],
+  "writer_source_identities_checked": 200,
+  "writer_source_changed": [],
+  "author_freeze_files_checked": 8,
+  "author_freeze_changed": [],
+  "old_novelty_frozen_files_checked": 59,
+  "old_changed": [],
+  "preservation": {
+    "old_tables": 18,
+    "new_tables": 20,
+    "all_old_tables_exact": true,
+    "old_display_formulas": 9,
+    "new_display_formulas": 9,
+    "display_formulas_exact": true,
+    "formula_tags_exact": true,
+    "old_figures": 4,
+    "new_figures": 4,
+    "figure_references_exact": true,
+    "references_exact": true
+  },
+  "old_figure_identities": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\02_device_coverage_by_story.png",
+      "old_sha256": "5f27fc3780b0efdebfa595f2a1d11ca068f5ecf4df07f2bed7f885f2e2e3a0fa",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\01_native_energy_ratio.png",
+      "old_sha256": "fac821fca950ab796ff634053e768dd3020741ff63c117c884dad0ac4d8010d3",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\04_force_duration_examples.png",
+      "old_sha256": "3bdd1cb84a8f6ad618e27c28db26be452d3ede0c26ed3520fefe7a3974824550",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\figures\\03_floor_record_peak_profiles.png",
+      "old_sha256": "f1a8ff0bba9ead35bfca4a5052333cf6171fcf69a9fa9104bb6459bcfab776c4",
+      "unchanged": true
+    }
+  ],
+  "source_authorities": [
+    {
+      "claim": "M-C026",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R012-adoption.json",
+      "sha256": "31323205d24fd43d3c658e96c7cb80e1ae4d151291bba81d636b09c67ad75610",
+      "matches": true
+    },
+    {
+      "claim": "M-C027",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R013-addition-certificate-adoption.json",
+      "sha256": "836a0d6e8e551dd594770fe1421f49780636cdb2d9d2c8cdbd2fd878cc2b729f",
+      "matches": true
+    }
+  ],
+  "exact_Fraction_comparisons": {
+    "C027_I_upper": true,
+    "C027_D_lower": true,
+    "C027_gap_lower": true,
+    "U_tail_fraction": true,
+    "C026_A": true,
+    "C026_B": true,
+    "C026_gap": true,
+    "C026_strict_sqrt": true,
+    "poststop_steps": true
+  },
+  "C027_hex": {
+    "I_J_upper": "0x1.6e87e8f75c343p-1",
+    "D_witness_lower": "0x1.1657e8e82413bp+2",
+    "gap_lower": "0x1.f069e1113425bp+0"
+  },
+  "historical_vs_current_status": "RootR013 supersedes historical R012/R014 pending;candidate labels preserved",
+  "pending_new_work_not_adopted": [
+    "R029",
+    "new R022 force-target interface",
+    "FNA scope",
+    "modal ledger"
+  ],
+  "manuscript_local_links_checked": 49,
+  "manuscript_broken_links": [],
+  "report_local_links_checked": 7,
+  "report_broken_links": [],
+  "report_trailing_whitespace": [],
+  "report_control_characters": [],
+  "independent_readonly_subreviews": 2,
+  "subreview_mustfix": [
+    0,
+    0
+  ],
+  "subreview_files_created": false,
+  "new_searches": 0,
+  "NPZ_or_Excel_opened_or_hashed": false,
+  "ODE_or_certificate_program_executed": false,
+  "new_proof": false,
+  "writer_or_shared_or_git_changed": false,
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 7876,
+      "sha256": "429ea6fa3f6aa54b02e268921cb4fe7d6259d604683e72819c35ff82919d4a0e"
+    },
+    {
+      "file": "report.md",
+      "bytes": 9175,
+      "sha256": "78c65cca9f81ca55cb8f3b0a0cb4ed99bbf4977301ff531b02ffaa7950a30ea9"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "task": "R017 CSI Rev15 reference linear operator and nonlinear residual-force definition only",
+  "started_at": "2026-10-18T02:22:50+08:00",
+  "deadline": "2026-10-18T02:32:50+08:00",
+  "input_frozen_at": "2026-10-18T02:23:38.545165+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\force-to-target-interface-protocol-v001.md",
+      "bytes": 2661,
+      "sha256": "a97f4184329a261a80d9148100ffb17c554b6cba7da8222d352b50d3c23c5b20"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R001-modal-load-participation-check.md",
+      "bytes": 5896,
+      "sha256": "6e4c1383d56ffbc045a5c9e9cdf4bac2210e5678bab9146000ea9666ade19f56"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R004-FNA-effective-properties-and-local-basis.md",
+      "bytes": 7880,
+      "sha256": "7e7c17837a94f4d7793677010c13cd040eba80cc72b850f0b4fcf0560256d398"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\source-manifest-R004.json",
+      "bytes": 6190,
+      "sha256": "a64a92b3aefb81d583c1e5b27cd5572ee44d4b03b20e3b5dca1e3dadfa65303f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\verification-session003\\fna-linear-applicability-audit-v001.md",
+      "bytes": 8488,
+      "sha256": "41b4e3bbdc2c30cca2d9040a036f754876a701f746d88816b53d53db9ac98525"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\csi-analysis-reference-2016.pdf",
+      "bytes": 7811196,
+      "sha256": "7f6f6890afee2e1890d33f5d34d53d8e23f60850890bd230848642b50a6291ac"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\csi-analysis-reference-2016.txt",
+      "bytes": 14097,
+      "sha256": "6c0d643559d52b3f234375343b655446104a09bfb263ff02e1c93aa216a340d6"
+    }
+  ],
+  "constraints": [
+    "local existing PDF/text only; no network/search/download",
+    "no engineering arrays/solver or actual reconstruction",
+    "no proof replacing role1; no actual88/5percent/Ritz-completeness/modal-normalization certification",
+    "write own R017 directory only; no source/shared/manuscript/Git changes"
+  ],
+  "additional_reused_visual_inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\local-cache\\R004-CSI2016-PDFpage-474.png",
+      "bytes": 181124,
+      "sha256": "e052e66dc78f78f91e9d0d7cce1d9fcd843e4bb9b8700b04bc999524ac71268a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\local-cache\\R004-CSI2016-PDFpage-475.png",
+      "bytes": 139228,
+      "sha256": "dd3630ca2373b3d1086c1d9658b19c134e3342593fce1aa642fc717b3d267603"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\local-cache\\R004-CSI2016-PDFpage-476.png",
+      "bytes": 173325,
+      "sha256": "00a353b076fb8ac14694f0da6b1cc9aa97bea84da847006109b9844fee6dd37b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\local-cache\\R004-CSI2016-PDFpage-477.png",
+      "bytes": 226827,
+      "sha256": "104359327a8ca4cbe3dcde413b4252d068bca77c5dfec11d0d20f5fae394296f"
+    }
+  ],
+  "page_render_command": "pdftoppm -f 473 -l 473 -singlefile -scale-to 1700 -png <existingRev15PDF> <ownR017local-cache/CSI2016-PDFpage-473>",
+  "page_text_extraction": "pypdf selected physical PDF pages473..477; original formulas verified visually, not inferred from flattened text"
+}

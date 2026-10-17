@@ -1,0 +1,54 @@
+{
+  "started_at": "2026-10-18T02:46:38+08:00",
+  "completed_at": "2026-10-18T02:49:34.889736+08:00",
+  "limit_minutes": 6,
+  "source": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\阻尼器布置最小数据清单.md",
+    "bytes": 4864,
+    "sha256": "4f29dfc8f040b717b0485fa82be538a5badac70222e21a503701691cd9e9ad7c"
+  },
+  "passed": true,
+  "checks": {
+    "header_only_no_fabricated_rows": true,
+    "no_prefilled_zero_or_screenshot_parameters": true,
+    "all45_columns_explained": true,
+    "unknown_not_zero_explicit": true,
+    "zero_length_native_axis_required": true,
+    "property_DOF_shared_without_repetition": true,
+    "location_vs_quantitative_requirements_separated": true,
+    "coordinate_image_not_measured": true,
+    "actual_modes_background_referenceK_force_scope_retained": true,
+    "v010_all8_frozen_files_and_source_checklist_unchanged": true
+  },
+  "csv_structure": {
+    "device_locations.csv": {
+      "columns": 27,
+      "data_rows": 0,
+      "utf8_english_unique_headers": true
+    },
+    "link_properties.csv": {
+      "columns": 18,
+      "data_rows": 0,
+      "utf8_english_unique_headers": true
+    }
+  },
+  "authoring": "Bundled @oai/artifact-tool header ranges;CSV exported without workbook or visual assets per requested plain-header format.",
+  "limits": "Header/content QA only;no real data populated,raw table access,solver,new figure,scientific conclusion orGit/shared changes.",
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\layout-input-templates-v001\\README.md",
+      "bytes": 8093,
+      "sha256": "dce517816e6127d1616dd3f0ebd3b6bc62e47d7378cdb45528433e7ba32b4562"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\layout-input-templates-v001\\device_locations.csv",
+      "bytes": 335,
+      "sha256": "6d4979dd0223295083589aee18f47e9a5eb5b5fa36d09aa9d0b344b458482856"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\layout-input-templates-v001\\link_properties.csv",
+      "bytes": 277,
+      "sha256": "fddd484effe62e7fcd74870164a2135a9045d92778d53733a17ba9a39eff6561"
+    }
+  ]
+}

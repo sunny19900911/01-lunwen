@@ -1,0 +1,81 @@
+{
+  "task": "R017",
+  "status": "bounded primary-source definitions and reference-force mapping scope reviewed; no actual engineering or role1 mathematical certification",
+  "frozen_at": "2026-10-18T02:28:07.652421+08:00",
+  "elapsed_seconds": 317.652421,
+  "within_10_minutes": true,
+  "primary_PDF_SHA_matches_prior_manifest": true,
+  "all_initial_inputs_unchanged": true,
+  "reused_visual_source_images_match_R004": {
+    "474": true,
+    "475": true,
+    "476": true,
+    "477": true
+  },
+  "all_additional_visual_inputs_unchanged": true,
+  "actually_viewed_physical_PDF_pages": [
+    473,
+    474,
+    475,
+    476,
+    477
+  ],
+  "printed_pages": [
+    451,
+    452,
+    453,
+    454,
+    455
+  ],
+  "primary_equations_unnumbered": true,
+  "source_mapping_entries": 7,
+  "classification": {
+    "direct_primary_source": "Kref=KL+KN; residual rN-KNu; mass-normalized modal definitions; modal coupling; Ritz/Eigen/local-force conditions; background relative Kref; noLinkce",
+    "conditional_mapping_not_CSI_output_definition": "rN=B^TF, KN=B^TKeB => residual B^T(F-Ke delta)",
+    "classical_protocol_assumption_not_derived_here": "given-force response operator/convolution and full eigen/initial state requirements"
+  },
+  "mustfix_to_protocol_from_source_review": [],
+  "mandatory_scope_retention": [
+    "explicit referenceK and matchingU/force",
+    "no transfer of FNA modal coefficients/background C to bareKL without verification",
+    "no88/actual5percent/Ritz completeness/actual normalization certification",
+    "no new layout or input prediction from oldF"
+  ],
+  "collaborators": {
+    "weng2016_source": "read-only actual CSI selected text plus previous records; matrix definitions and conditional port inference confirmed",
+    "local_literature": "read-only protocol and prior records; K/U/force pairing and fields gap classified"
+  },
+  "prohibited_action_counts": {
+    "network": 0,
+    "downloads": 0,
+    "solver_runs": 0,
+    "engineering_array_reads": 0,
+    "actual_engineering_reconstruction": 0,
+    "role1_interface_proof_runs": 0,
+    "source_or_shared_edits": 0,
+    "git": 0
+  },
+  "output_report": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\R017-FNA-reference-force-scope.md",
+    "bytes": 8294,
+    "sha256": "f4f3e4b0ec0d2b3a2bb61683292778fe0a8fe23285e95916e8b090ed74b457d4"
+  },
+  "input_rules": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\input-rules-R017.json",
+    "bytes": 4715,
+    "sha256": "e744f3a1a3be2bddc2da63761adaade33ece3d73f6fc644dee757e0a53d00eb7"
+  },
+  "source_locations": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\source-locations-R017.json",
+    "bytes": 9582,
+    "sha256": "58de1af2f977ec1caeeccb8a312addf69ea8d6418e74fd83ce61a2de51f8ce20"
+  },
+  "delivery_QA": {
+    "utf8_json_parse": true,
+    "report_links_exist": true,
+    "all_page_text_and_visual_SHA_match": true,
+    "no_replacement_character": true,
+    "display_equations_balanced": true,
+    "report_plain_correct_latex_prefix": true
+  }
+}

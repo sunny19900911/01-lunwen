@@ -1,0 +1,8 @@
+{
+  "status": "root-preflight-failed-before-any-staging",
+  "reason": "Generic recursive identity check followed original first-version R017 report pointer to current revised path; historical versions need recorded exact-copy resolution.",
+  "correction": "Explicit original-path plus expected-SHA mapping to the already preserved recovered-first report and validation; do not modify either version.",
+  "scientific_discrepancy": false,
+  "source_modified": false,
+  "second_preflight_failure": "Formula extractor assumed slash-bracket math, while existing manuscript uses dollar-pair delimiters. Inspected actual text; corrected extractor, no manuscript change."
+}

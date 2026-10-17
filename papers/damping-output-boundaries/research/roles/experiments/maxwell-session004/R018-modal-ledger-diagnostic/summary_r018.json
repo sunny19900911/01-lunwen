@@ -1,0 +1,214 @@
+{
+  "evidence_id": "M-EXP-R018",
+  "status": "classical_bare_modal_finite_grid_diagnostic_candidate",
+  "finished_utc": "2026-10-17T18:24:13.607020+00:00",
+  "elapsed_seconds": 0.4050629999983357,
+  "protocol_sha256": "9780d45d2ea9103d2ce701430bce97074a70b6d38cfb2b221d2bd82ec660a7ab",
+  "code_sha256": "0039d7c7d714486b4e4dc24fa29d64b5715fde400e917e0427ca8af2b4149a53",
+  "source_refs": {
+    "modal_protocol": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-modal-ledger-protocol-v001.md",
+      "bytes": 2931,
+      "sha256": "5f01bcb5b18ae41e8ee8626c67b0fd514dc64baa1240f299d0cae282cb62e9a1"
+    },
+    "addition_model": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-local-peak-protocol-v001.json",
+      "bytes": 1822,
+      "sha256": "122375ce3d1e934fffabef2c11c4c9ddd7bfb2c58215543911906fc03c4fb89c"
+    },
+    "R016_summary": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\summary_r016.json",
+      "bytes": 12416,
+      "sha256": "e482bef6151efa6e0e22cce15f95299f448d5f536c755c0bc0b8ba1857543e4d"
+    },
+    "local_cache": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+      "bytes": 12938185,
+      "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+    }
+  },
+  "basis": {
+    "phi_plus": [
+      0.7071067811865475,
+      0.7071067811865475
+    ],
+    "phi_minus": [
+      0.7071067811865475,
+      -0.7071067811865475
+    ],
+    "bare_omega_squared": [
+      1,
+      3
+    ],
+    "bare_modal_C_diagonal": [
+      0.1,
+      0.17320508075688773
+    ],
+    "D_device_modal_generalized_loads": [
+      "-F/sqrt2",
+      "+F/sqrt2"
+    ],
+    "not_independent_added_device_linear_modes": true
+  },
+  "fixed_J_signed_contributions": {
+    "U": {
+      "node_index": 16529,
+      "time_original_label": 44.822028860363545,
+      "q_plus": -0.7551213015669753,
+      "q_minus": 0.0,
+      "u1_plus_contribution": -0.5339513929564201,
+      "u1_minus_contribution": 0.0,
+      "u1_sum": -0.5339513929564202,
+      "u1_combination": "one_or_both_components_zero",
+      "u2_plus_contribution": -0.5339513929564201,
+      "u2_minus_contribution": -0.0,
+      "u2_sum": -0.5339513929564202,
+      "u2_combination": "one_or_both_components_zero",
+      "E_minus_bare_at_J": 0.0,
+      "minus_direct_input_work_0_J": 0.0,
+      "minus_device_work_0_J": 0.0,
+      "minus_background_dissipation_0_J": 0.0,
+      "minus_energy_work_residual_0_J": 0.0
+    },
+    "D": {
+      "node_index": 16529,
+      "time_original_label": 44.822028860363545,
+      "q_plus": -3.9952910803910062,
+      "q_minus": -3.167695308453956,
+      "u1_plus_contribution": -2.825097415758608,
+      "u1_minus_contribution": -2.2398988333406042,
+      "u1_sum": -5.064996249099213,
+      "u1_combination": "same_sign_addition",
+      "u2_plus_contribution": -2.825097415758608,
+      "u2_minus_contribution": 2.2398988333406042,
+      "u2_sum": -0.5851985824180038,
+      "u2_combination": "opposite_sign_cancellation",
+      "E_minus_bare_at_J": 15.052392885706972,
+      "minus_direct_input_work_0_J": 0.0,
+      "minus_device_work_0_J": 66.08089820460818,
+      "minus_background_dissipation_0_J": 51.028517714409496,
+      "minus_energy_work_residual_0_J": 1.2395508292684099e-05
+    }
+  },
+  "branch_projection_diagnostics": {
+    "U": {
+      "max_abs_q_minus": 0.0,
+      "max_abs_qdot_minus": 0.0,
+      "max_E_minus_bare": 0.0,
+      "max_abs_minus_direct_input_power": 0.0,
+      "nonzero_minus_at_fixed_J": false,
+      "F_is_zero_all_points": true
+    },
+    "D": {
+      "max_abs_q_minus": 3.1678426470325523,
+      "max_abs_qdot_minus": 4.448259106936472,
+      "max_E_minus_bare": 15.052868091277892,
+      "max_abs_minus_direct_input_power": 0.0,
+      "nonzero_minus_at_fixed_J": true,
+      "F_is_zero_all_points": false
+    }
+  },
+  "all_point_identity_checks": {
+    "U_u1_reconstruction": {
+      "max_abs_residual": 4.440892098500626e-16,
+      "arithmetic_tolerance": 1.9417896375249626e-12,
+      "passed": true
+    },
+    "U_u2_reconstruction": {
+      "max_abs_residual": 4.440892098500626e-16,
+      "arithmetic_tolerance": 1.9417896375249626e-12,
+      "passed": true
+    },
+    "U_v1_reconstruction": {
+      "max_abs_residual": 4.440892098500626e-16,
+      "arithmetic_tolerance": 2.3497830751333456e-12,
+      "passed": true
+    },
+    "U_v2_reconstruction": {
+      "max_abs_residual": 4.440892098500626e-16,
+      "arithmetic_tolerance": 2.3497830751333456e-12,
+      "passed": true
+    },
+    "U_body_energy_reconstruction": {
+      "max_abs_residual": 2.6645352591003757e-15,
+      "arithmetic_tolerance": 5.537444617062704e-12,
+      "passed": true
+    },
+    "U_input_power_sum": {
+      "max_abs_residual": 8.881784197001252e-16,
+      "arithmetic_tolerance": 3.2616927333678277e-12,
+      "passed": true
+    },
+    "U_device_power_sum": {
+      "max_abs_residual": 0.0,
+      "arithmetic_tolerance": 1e-12,
+      "passed": true
+    },
+    "U_background_power_sum": {
+      "max_abs_residual": 4.440892098500626e-16,
+      "arithmetic_tolerance": 1.1042961000366244e-12,
+      "passed": true
+    },
+    "D_u1_reconstruction": {
+      "max_abs_residual": 1.3322676295501878e-15,
+      "arithmetic_tolerance": 5.064996249099213e-12,
+      "passed": true
+    },
+    "D_u2_reconstruction": {
+      "max_abs_residual": 8.881784197001252e-16,
+      "arithmetic_tolerance": 1e-12,
+      "passed": true
+    },
+    "D_v1_reconstruction": {
+      "max_abs_residual": 2.6645352591003757e-15,
+      "arithmetic_tolerance": 7.120701057667947e-12,
+      "passed": true
+    },
+    "D_v2_reconstruction": {
+      "max_abs_residual": 1.1102230246251565e-15,
+      "arithmetic_tolerance": 1e-12,
+      "passed": true
+    },
+    "D_body_energy_reconstruction": {
+      "max_abs_residual": 1.4210854715202004e-14,
+      "arithmetic_tolerance": 2.5717382282766798e-11,
+      "passed": true
+    },
+    "D_input_power_sum": {
+      "max_abs_residual": 1.7763568394002505e-15,
+      "arithmetic_tolerance": 7.427297788775433e-12,
+      "passed": true
+    },
+    "D_device_power_sum": {
+      "max_abs_residual": 4.440892098500626e-15,
+      "arithmetic_tolerance": 2.284207765820363e-12,
+      "passed": true
+    },
+    "D_background_power_sum": {
+      "max_abs_residual": 2.6645352591003757e-15,
+      "arithmetic_tolerance": 6.587698151571407e-12,
+      "passed": true
+    }
+  },
+  "max_abs_modal_energy_trap_work_residual": 1.2395508292684099e-05,
+  "max_abs_device_work_storage_original_RK4diss_residual": 2.7850825476960495e-06,
+  "checks": {
+    "8_fixed_same_time_rows": true,
+    "12_mode_window_work_rows": true,
+    "all_point_kinematic_energy_power_identities_in_arithmetic_tolerance": true,
+    "U_antisymmetric_projection_exact_zero_in_frozen_data": true,
+    "signed_trapezoid_work_and_residuals_retained": true,
+    "all_source_and_protocol_SHA_unchanged": true,
+    "runtime_below480seconds": true
+  },
+  "two_CSV_rows": {
+    "same_time_modal_snapshots.csv": 8,
+    "modal_signed_work_ledger.csv": 12
+  },
+  "no_new_ODE_arrays_or_files": true,
+  "outputs": {
+    "same_time_modal_snapshots.csv": "77e0887c292492e5a7358e11d32c3f578477241e79cd5ee031dd3951d84dabe9",
+    "modal_signed_work_ledger.csv": "07dcf56d640918c0c4361ba878a876975eb01a42f88d018ee4e1e67ec06f8d88",
+    "report.md": "a157411ed930b27c0ba92f3295986a7cc4f1ec0d24f65d592e166a09fe1d9a9a"
+  }
+}

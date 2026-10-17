@@ -1,0 +1,47 @@
+{
+  "evidence_id": "M-EXP-R018",
+  "status": "classical_bare_modal_finite_grid_diagnostic",
+  "frozen_utc": "2026-10-17T18:20:58.434034+00:00",
+  "refs": {
+    "modal_protocol": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-modal-ledger-protocol-v001.md",
+      "bytes": 2931,
+      "sha256": "5f01bcb5b18ae41e8ee8626c67b0fd514dc64baa1240f299d0cae282cb62e9a1"
+    },
+    "addition_model": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-local-peak-protocol-v001.json",
+      "bytes": 1822,
+      "sha256": "122375ce3d1e934fffabef2c11c4c9ddd7bfb2c58215543911906fc03c4fb89c"
+    },
+    "R016_summary": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\summary_r016.json",
+      "bytes": 12416,
+      "sha256": "e482bef6151efa6e0e22cce15f95299f448d5f536c755c0bc0b8ba1857543e4d"
+    },
+    "local_cache": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+      "bytes": 12938185,
+      "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+    }
+  },
+  "arrays": [
+    "U_N16384",
+    "D_N16384"
+  ],
+  "fixed_indices": [
+    0,
+    16384,
+    16529,
+    98304
+  ],
+  "N": 16384,
+  "J": 16529,
+  "basis": "phi+=[1,1]/sqrt2,phi-=[1,-1]/sqrt2,omega²=1/3; backgrounddiag.1/.1sqrt3. B=e2 yields+F driveanti and-F drivesymmetric. Classicalbarebodycoordinateprojection, notnewcoupledlinear eigenmodes.",
+  "powers": "Pin+=sqrt2*a*qdot+,Pin-=0;Pdev+=-F*qdot+/sqrt2,Pdev-=+F*qdot-/sqrt2;Db+=.1qdot+²,Db-=.1sqrt3qdot-². Sumdev=-Fv2.",
+  "integration": "Originalfinecachedtimegrid composite trapezoid, cumulative0toN/J/6N. Retain signed powers/work and all residuals. No sourceODErerun/resampling/peakaddition.",
+  "outputs": "8same-time snapshotrows;12mode/window workledgerrows with repeatedexplicit aggregateport/storage/originalRK4diss diagnostics;smallQA/JSON/report/code/run/manifest. Noarraycopyfiles/newplots.",
+  "checks": "Alltimeu/vreconstruction, Eplus+Eminus=barebodyenergy, input/device/backgroundpoweridentities. Uanti maxq/v/E record; noengineeringthreshold. Arithmeticcheck1e-12*max(1,maxabsidentityterms), nottrueerrorcertificate.",
+  "fixed_J_interpretation": "Compare signed contributions atJ only; same-signsum vsoppositesigncancellation recorded, nootherpointselection.",
+  "limits": "Singlefrozen dimensionlesssyntheticrecords, notactualplacement/ETABS, newindex, independentphysicalvalidation orproof. NonlinearFstatecouplingretained. Sameforceinputnot samework.",
+  "runtime_limit_seconds": 480
+}

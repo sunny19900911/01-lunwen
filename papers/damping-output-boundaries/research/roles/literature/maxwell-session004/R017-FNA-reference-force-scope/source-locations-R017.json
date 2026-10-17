@@ -1,0 +1,151 @@
+{
+  "source_pdf": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\csi-analysis-reference-2016.pdf",
+    "bytes": 7811196,
+    "sha256": "7f6f6890afee2e1890d33f5d34d53d8e23f60850890bd230848642b50a6291ac"
+  },
+  "edition": "July2016 Rev15",
+  "official_original_url": "https://docs.csiamerica.com/manuals/etabs/Analysis%20Reference.pdf",
+  "page_offset": "physicalPDFpage=printedpage+22; not zero-based",
+  "locations": [
+    {
+      "id": "CSI-FNA-451",
+      "printed_page": 451,
+      "pdf_page_1based": 473,
+      "heading": "Nonlinear Modal Time-History Analysis (FNA)",
+      "original_equation_number": null,
+      "equations_manually_transcribed_after_visual_read": [
+        "K_L u + C udot + M uddot + r_N = r"
+      ],
+      "source_definition": "r_N is force vector from nonlinear Link/Support DOF; relative-ground u; C proportional damping; M diagonal. Page452 explicitly includes linear Link DOF in K_L.",
+      "classification": "direct primary-source definitions",
+      "visual_image": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\local-cache\\CSI2016-PDFpage-473.png",
+        "bytes": 406074,
+        "sha256": "d8881ad9f7bcd27446407aab387a873d55b595f495dc5e8aceccf66ac5f38e20"
+      },
+      "visual_inspection_this_task": "actually viewed through view_image",
+      "text_excerpt": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\local-cache\\CSI2016-PDFpage-473.txt",
+        "bytes": 2594,
+        "sha256": "21465b784e2420e8d1c49581bee70f10939cad2d1fc7bce8c292a7d7f9a53607"
+      }
+    },
+    {
+      "id": "CSI-FNA-452",
+      "printed_page": 452,
+      "pdf_page_1based": 474,
+      "heading": "Link/Support Effective Stiffness; Mode Superposition",
+      "original_equation_number": null,
+      "equations_manually_transcribed_after_visual_read": [
+        "K_ref=K_L+K_N (source calls total matrix K)",
+        "K_ref u+C udot+M uddot=r-[r_N-K_N u]"
+      ],
+      "source_definition": "K_L:linear elements and linear Link/Support DOF; K_N:linear effective stiffness of all nonlinear DOF. Modal analysis uses K_ref and M.",
+      "classification": "direct primary-source definitions",
+      "visual_image": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\local-cache\\R004-CSI2016-PDFpage-474.png",
+        "bytes": 181124,
+        "sha256": "e052e66dc78f78f91e9d0d7cce1d9fcd843e4bb9b8700b04bc999524ac71268a"
+      },
+      "visual_inspection_this_task": "actually viewed through view_image",
+      "text_excerpt": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\local-cache\\CSI2016-PDFpage-474.txt",
+        "bytes": 2013,
+        "sha256": "b8efc37f39c09d674364e4bfcbe2239c689f28bfb45c90e3fba532bcfca7222a"
+      }
+    },
+    {
+      "id": "CSI-FNA-453",
+      "printed_page": 453,
+      "pdf_page_1based": 475,
+      "heading": "Mode Superposition continued",
+      "original_equation_number": null,
+      "equations_manually_transcribed_after_visual_read": [
+        "Omega^2 a + Lambda adot + I addot = q-q_N",
+        "Omega^2=Phi^T K_ref Phi",
+        "Lambda=Phi^T C Phi (assumed diagonal)",
+        "I=Phi^T M Phi",
+        "q=Phi^T r",
+        "q_N=Phi^T[r_N-K_N u]",
+        "u=Phi a"
+      ],
+      "source_definition": "nonlinear modal forces generally depend on modal amplitudes and couple modes; sufficient force representation not automatic; local mass/inertia and all-Eigen exception to Ritz recommendation.",
+      "classification": "direct primary-source definitions and stated limitation",
+      "visual_image": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\local-cache\\R004-CSI2016-PDFpage-475.png",
+        "bytes": 139228,
+        "sha256": "dd3630ca2373b3d1086c1d9658b19c134e3342593fce1aa642fc717b3d267603"
+      },
+      "visual_inspection_this_task": "actually viewed through view_image",
+      "text_excerpt": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\local-cache\\CSI2016-PDFpage-475.txt",
+        "bytes": 1581,
+        "sha256": "679f423f92fba28d68a9edd5e80a3f84ea23b2a14d540b96dd1cbbd69fd5db0d"
+      }
+    },
+    {
+      "id": "CSI-FNA-454",
+      "printed_page": 454,
+      "pdf_page_1based": 476,
+      "heading": "Mode Superposition continued; Modal Damping",
+      "original_equation_number": null,
+      "equations_manually_transcribed_after_visual_read": [],
+      "source_definition": "one deformation starting load per independent nonlinear DOF and enough Ritz vectors; background modal damping sources added; nonlinear modal history does not use Link/Support linear effective damping.",
+      "classification": "direct primary-source stated limitation",
+      "visual_image": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\local-cache\\R004-CSI2016-PDFpage-476.png",
+        "bytes": 173325,
+        "sha256": "00a353b076fb8ac14694f0da6b1cc9aa97bea84da847006109b9844fee6dd37b"
+      },
+      "visual_inspection_this_task": "actually viewed through view_image",
+      "text_excerpt": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\local-cache\\CSI2016-PDFpage-476.txt",
+        "bytes": 1945,
+        "sha256": "f4aa25ad7ffb7fb82240b42d1063bb9cedb6ebb488841a7a44368cfe1148864f"
+      }
+    },
+    {
+      "id": "CSI-FNA-455",
+      "printed_page": 455,
+      "pdf_page_1based": 477,
+      "heading": "Modal Damping continued; Composite Modal Damping from the Materials; Iterative Solution",
+      "original_equation_number": null,
+      "equations_manually_transcribed_after_visual_read": [],
+      "source_definition": "modal damping assumption relative to total K including nonlinear effective stiffness; generally zero effective stiffness recommended for dampers; material composite terms and case overwrites; nonlinear modal equations solved iteratively, with substeps if needed.",
+      "classification": "direct primary-source method definition",
+      "visual_image": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\local-cache\\R004-CSI2016-PDFpage-477.png",
+        "bytes": 226827,
+        "sha256": "104359327a8ca4cbe3dcde413b4252d068bca77c5dfec11d0d20f5fae394296f"
+      },
+      "visual_inspection_this_task": "actually viewed through view_image",
+      "text_excerpt": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R017-FNA-reference-force-scope\\local-cache\\CSI2016-PDFpage-477.txt",
+        "bytes": 2843,
+        "sha256": "90b419ac98b9c36e77d83e60b4550e4114bb0cc15ca93575a3ab8b5bac564959"
+      }
+    },
+    {
+      "id": "PORT-MAPPING",
+      "printed_page": null,
+      "pdf_page_1based": null,
+      "original_equation_number": null,
+      "equations_manually_transcribed_after_visual_read": [
+        "delta=B u, r_N=B^T F, K_N=B^T K_e B => r_N-K_Nu=B^T(F-K_e delta)"
+      ],
+      "source_definition": "conditional author assembly algebra, NOT an original scalar equation or output-column definition in CSI pp451-455; requires consistent constrained coordinates, port orientation and full-force coverage.",
+      "classification": "inference from source matrix definitions; no independent role1 identity proof performed"
+    },
+    {
+      "id": "GIVEN-FORCE-SCOPE",
+      "printed_page": null,
+      "pdf_page_1based": null,
+      "original_equation_number": null,
+      "equations_manually_transcribed_after_visual_read": [],
+      "source_definition": "fixed reference linear-response operator may act on an already given D force history, while F_D retains nonlinear feedback; not new-input/layout forward prediction. Complete eigen/normalization and common initial-state requirements are protocol assumptions, not actual engineering facts certified by these pages.",
+      "classification": "classical conditional interface interpretation; role1 proof separately"
+    }
+  ],
+  "no_original_equation_numbers": "All displayed equations above are unnumbered in original pages; local IDs are report locators only."
+}

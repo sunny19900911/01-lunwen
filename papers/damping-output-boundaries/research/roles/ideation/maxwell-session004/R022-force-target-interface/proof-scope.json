@@ -1,0 +1,25 @@
+{
+  "round": "R022",
+  "status": "classical conditional interface author candidate; independent review pending",
+  "exact_identity": "Known true full F_D in same D model plus same linear reference M/K/C, input and subject initial state gives yD-yU=-sum gamma*beta*(G*F_D); raw modes divide by modal mass",
+  "main_gates": [
+    "complete exact common Eigen/classical damping basis",
+    "same reference and power-conjugate port/force sign/units",
+    "true complete device force history in certified time window",
+    "normalization and mode scaling consistency",
+    "missing modes/devices and force reconstruction errors retained",
+    "FNA effectiveK paired with residual force; physicalU0 needs correct additional term"
+  ],
+  "current_partial_devices": "32 of88 contributes partially only; missing56 not zero; no actual engineering data read",
+  "not_claimed": [
+    "nonlinear modal independence",
+    "old F_D transferable to new layout",
+    "physical removal response from per-device bookkeeping",
+    "current actual FNA/P/reference operator certified",
+    "old0/3 constants usable",
+    "acceleration or total story-shear identity",
+    "new theory or engineering response result"
+  ],
+  "zero_damping_note": "finite-window identity valid; no infinite L1 kernel gain without further conditions",
+  "deliverables": "report, minimum field schema, exact synthetic algebra checks and validation"
+}

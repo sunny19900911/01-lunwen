@@ -1,0 +1,28 @@
+{
+  "required_changes": 0,
+  "scope": "Independent synthetic exact algebra only; no real arrays, ODE, force reconstruction, PDF or source-script execution.",
+  "complete_modal_transfer_identity_polynomial_all_s": true,
+  "arbitrary_consistent_modal_masses": [
+    "5",
+    "30"
+  ],
+  "same_C_common_basis_verified": true,
+  "mass_scaling_and_mode_sign_invariance": true,
+  "paired_port_force_flip_invariance": true,
+  "FNA_U0_extra_compensation_matrix_identity": true,
+  "residual_only_baseline_is_Ueff_not_U0": true,
+  "Keff_C_common_basis_does_not_imply_K0_C_common_basis_counterexample": true,
+  "same_5percent_does_not_imply_same_C_counterexample": true,
+  "missing_pairs_disjoint_complete": true,
+  "pair_counts": {
+    "partial": 6,
+    "missing_modes_all_devices": 14,
+    "retained_modes_missing_devices": 15
+  },
+  "partial_signed_sum_not_total_bound": true,
+  "history_first_SHA_and_current_copies_verified": true,
+  "source_records_unchanged": true,
+  "source_count": 31,
+  "actual_engineering_interface_certified": false,
+  "time_domain_theorem_and_kernel_initial_jump_reviewed_analytically": true
+}

@@ -1,0 +1,88 @@
+{
+  "task": "R018 static, small-table transcription and independent modal algebra review",
+  "started_at": "2026-10-18T02:43:46+08:00",
+  "deadline": "2026-10-18T02:51:46+08:00",
+  "input_frozen_at": "2026-10-18T02:44:20.154842+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-modal-ledger-protocol-v001.md",
+      "bytes": 2931,
+      "sha256": "5f01bcb5b18ae41e8ee8626c67b0fd514dc64baa1240f299d0cae282cb62e9a1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R018-modal-ledger-diagnostic\\protocol.json",
+      "bytes": 3082,
+      "sha256": "9780d45d2ea9103d2ce701430bce97074a70b6d38cfb2b221d2bd82ec660a7ab"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R018-modal-ledger-diagnostic\\decompose_bare_modal_ledger.py",
+      "bytes": 14344,
+      "sha256": "0039d7c7d714486b4e4dc24fa29d64b5715fde400e917e0427ca8af2b4149a53"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R018-modal-ledger-diagnostic\\same_time_modal_snapshots.csv",
+      "bytes": 3070,
+      "sha256": "77e0887c292492e5a7358e11d32c3f578477241e79cd5ee031dd3951d84dabe9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R018-modal-ledger-diagnostic\\modal_signed_work_ledger.csv",
+      "bytes": 4650,
+      "sha256": "07dcf56d640918c0c4361ba878a876975eb01a42f88d018ee4e1e67ec06f8d88"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R018-modal-ledger-diagnostic\\summary_r018.json",
+      "bytes": 8112,
+      "sha256": "d30b2dfd9755f5eaa0f450cab35e0d051e44aec9c25b8f084d4d3eebe8f7e269"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R018-modal-ledger-diagnostic\\report.md",
+      "bytes": 2894,
+      "sha256": "a157411ed930b27c0ba92f3295986a7cc4f1ec0d24f65d592e166a09fe1d9a9a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R018-modal-ledger-diagnostic\\run_record_r018.json",
+      "bytes": 1198,
+      "sha256": "3ed4bf61244cdff19f247b8c00c6b6766e776182b0e349f37e08836626ba8e1f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R018-modal-ledger-diagnostic\\delivery_manifest_r018.json",
+      "bytes": 2037,
+      "sha256": "630e14f190b6aba53b56332116a92984478ce7af8195ad9fd698478651e330b3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R018-modal-ledger-diagnostic\\README.md",
+      "bytes": 610,
+      "sha256": "c328e44b44edd2bcc5b7d37a709fa8a08ff277259cc7e616e016cd765582b8c6"
+    }
+  ],
+  "constraints": [
+    "no NPZ read/hash/decode",
+    "no target execution/ODE or R029 review",
+    "fixedJ, no target/time/window substitution",
+    "modal positive signed work not active device; finite trapezoids not true continuous integral",
+    "newR018 directory only; no source/other-role/shared/Git writes; append any later clarification in newfile, never overwrite delivered freeze"
+  ],
+  "additional_small_reference_inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-modal-ledger-protocol-v001.md",
+      "bytes": 2931,
+      "sha256": "5f01bcb5b18ae41e8ee8626c67b0fd514dc64baa1240f299d0cae282cb62e9a1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\addition-local-peak-protocol-v001.json",
+      "bytes": 1822,
+      "sha256": "122375ce3d1e934fffabef2c11c4c9ddd7bfb2c58215543911906fc03c4fb89c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\summary_r016.json",
+      "bytes": 12416,
+      "sha256": "e482bef6151efa6e0e22cce15f95299f448d5f536c755c0bc0b8ba1857543e4d"
+    }
+  ],
+  "NPZ_identity_inherited_only": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R016-addition-local-peak-synthetic\\local-cache\\four_actual_RK4_histories.npz",
+    "bytes": 12938185,
+    "sha256": "6adf4f158d320c84f7cfa2cbab2c8cfce34d86839573cbf82a027a88681a6a62"
+  },
+  "NPZ_not_read_hashed_or_decoded": true
+}
