@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-18T07:00:30.914114+08:00",
+  "adopted": [
+    "Reviewed scientific summary candidate only; actual cutoff/Git/scheduler closure separate"
+  ],
+  "checked_identities": {
+    "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R034-final-science-scope/freeze.json": "e9535fc8e76da41d9f5b17be62ab8260c5ebb031a615b7bc7aa2d3a7e8ab73bc",
+    "research/sessions/20261017-2109/final-summary-science-candidate-v001.md": "1771dfc28f6a419a27f0599e016c3a12132153c44707b0fe172e3570d2fbf4bc",
+    "research/sessions/20261017-2109/R027-adoption.json": "d0ba725423cc14cb169b99002dccb0a7a7008815de3bca3139e6523e522040fd",
+    "papers/damping-output-boundaries/manuscript/maxwell-paper-narrative-v003.md": "12d9df37e5b281599b8f84e76853aa7413e951aad378f53a95b4706e968279a9",
+    "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R032-final-handoff-v002/report.md": "ac2f9aa94ea118b0a42be34210c533047a1f5a48273fe751bdeb94feddf77b9a",
+    "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R034-final-science-scope/report.md": "7a13b187c786e22d80118ac62cc4422c939a0f6b9dcf771ec7c7beec5169f81a",
+    "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R034-final-science-scope/validation.json": "70357a2b9707a3d2852278b39fc09152d281f5e27a65fc00069e70eb38dddb57",
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R029-final-science-data-scope/report.md": "25cc4e31ffa8822016827d736e850e93d2a79e118d593565cf231e0f01ed0d5e",
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R029-final-science-data-scope/sourcefreeze.json": "ebe33f9b956279a6ea64c0ac58c9c92e4143d4d6c75db819230714e0b0b99168",
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R027-plain-summary-engineering-review/report.md": "12cd8fa05f8d7db6836a0a3e2ebef93a4c5b5cf9249f95f16a0a0d5a15dcd841",
+    "research/sessions/20261017-2109/下一次只补这些资料.md": "f0793ba0a9f64d90a506753f89c5ed1dbf6e36e521d8fe4c00726c711ac7a053",
+    "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/R029-final-science-data-scope/validation.json": "4f99a15d92df26a086021ca4800d04cc3df71effe13a44c12c475d5885694f0d",
+    "research/sessions/20261017-2109/R028-science-review-v001.json": "07734237504815062866d9f95143b7aadcb04a6f030f1612ce0fe3bf251df0b9"
+  },
+  "publish_packages": [
+    "novelty/maxwell-session004/R034-final-science-scope",
+    "experiments/maxwell-session004/R029-final-science-data-scope"
+  ],
+  "manuscripts": [],
+  "patch_pairs": {},
+  "science_body_sha256": "fb673fabc75c1125779aaaa965445272dd839ae1e6dcd6c1478265edc9f75fc6",
+  "scope": "Root full scientific text+both complete finite reviews0must, 12 current small source identities and own QA bound. At real deadline final summary copies reviewed science body exactly with actual window metadata. No new proof/data or priority/engineering upgrade; final operation success requires actual tools and receipts."
+}

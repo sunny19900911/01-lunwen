@@ -1,0 +1,32 @@
+{
+  "task": "R034-final-science-scope",
+  "started_at": "2026-10-18T06:56:26+08:00",
+  "inputs_frozen_at": "2026-10-18T06:56:54.465168+08:00",
+  "limit_seconds": 180,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\final-summary-science-candidate-v001.md",
+      "bytes": 4277,
+      "sha256": "1771dfc28f6a419a27f0599e016c3a12132153c44707b0fe172e3570d2fbf4bc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R027-adoption.json",
+      "bytes": 7552,
+      "sha256": "d0ba725423cc14cb169b99002dccb0a7a7008815de3bca3139e6523e522040fd"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v003.md",
+      "bytes": 16457,
+      "sha256": "12d9df37e5b281599b8f84e76853aa7413e951aad378f53a95b4706e968279a9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R032-final-handoff-v002\\report.md",
+      "bytes": 3597,
+      "sha256": "ac2f9aa94ea118b0a42be34210c533047a1f5a48273fe751bdeb94feddf77b9a"
+    }
+  ],
+  "read_scope": "Final science candidate full; necessary current R027 adoption and narrative-v003 scope paragraphs, R032 prior review reused. No historical proof/data review, new sources, new research or roles.",
+  "narrative_v003_identity_matches_current_adoption": true,
+  "no_git_source_edit_search_data_or_proof_replay": true
+}

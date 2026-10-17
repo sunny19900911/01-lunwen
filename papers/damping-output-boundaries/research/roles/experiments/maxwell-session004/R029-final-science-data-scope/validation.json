@@ -1,0 +1,21 @@
+{
+  "task": "R029-final-science-data-scope",
+  "must_fix_count": 0,
+  "started_at": "2026-10-18T06:56:26+08:00",
+  "frozen_at": "2026-10-18T06:57:24.600267+08:00",
+  "elapsed_seconds": 58.600267,
+  "candidate_SHA_verified": true,
+  "scope_text_checks": 16,
+  "counts_and_three_wave_families_six_cases_pass": true,
+  "ETABS_not_experimentally_measured_pass": true,
+  "conditional_regression_not_forward_or_layout_effect_pass": true,
+  "old_elastic_5_8_and_current_settings_unknown_pass": true,
+  "176_is_conditional_set_cardinality_only": true,
+  "176_does_not_certify_actual_geometry_or_model": true,
+  "fewer_nodes_not_less_modal_completeness_constraints_or_actualC_fullforce_reference": true,
+  "new_math_or_entire_v003_reviewed": false,
+  "original_data_cache_arrays_regression_solver_new_Git_network_or_history_scan_used": false,
+  "source_files_unchanged": true,
+  "shared_or_old_files_modified": false,
+  "overall_research_deadline_or_completion_declared": false
+}

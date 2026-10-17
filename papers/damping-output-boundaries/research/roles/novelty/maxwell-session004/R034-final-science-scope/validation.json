@@ -1,0 +1,68 @@
+{
+  "task": "R034-final-science-scope",
+  "result": "0 mustfix",
+  "started_at": "2026-10-18T06:56:26+08:00",
+  "frozen_at": "2026-10-18T06:57:23.668159+08:00",
+  "elapsed_seconds": 57.668159,
+  "within_3_minutes": true,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "before_global_deadline": true,
+  "inputs_unchanged": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\final-summary-science-candidate-v001.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R027-adoption.json",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v003.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R032-final-handoff-v002\\report.md",
+      "unchanged": true
+    }
+  ],
+  "current_narrative_v003_matches_R027_adoption": true,
+  "report_links": [
+    {
+      "target": "freeze.json",
+      "exists": true
+    },
+    {
+      "target": "validation.json",
+      "exists": true
+    },
+    {
+      "target": "../../../../../../../research/sessions/20261017-2109/final-summary-science-candidate-v001.md",
+      "exists": true
+    }
+  ],
+  "candidate_links": [
+    {
+      "target": "../../../papers/damping-output-boundaries/manuscript/maxwell-paper-narrative-v003.md",
+      "exists": true
+    },
+    {
+      "target": "下一次只补这些资料.md",
+      "exists": true
+    }
+  ],
+  "verification_scope": "Finite scientific-text transcription/scope review only, reusing prior review and current adoption. No mathematical proof replay, historical audit, raw engineering data, new external search, Git, new research or role.",
+  "closure_status_not_certified": true,
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R034-final-science-scope\\report.md",
+      "bytes": 3280,
+      "sha256": "7a13b187c786e22d80118ac62cc4422c939a0f6b9dcf771ec7c7beec5169f81a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R034-final-science-scope\\freeze.json",
+      "bytes": 1780,
+      "sha256": "e9535fc8e76da41d9f5b17be62ab8260c5ebb031a615b7bc7aa2d3a7e8ab73bc"
+    }
+  ],
+  "validation_self_hash": false
+}

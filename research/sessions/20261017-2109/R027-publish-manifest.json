@@ -1,0 +1,238 @@
+{
+  "at": "2026-10-18T06:54:06.791516+08:00",
+  "expected_head": "e114b51678c922277a9de759bc804f56274cd802",
+  "checks_passed": true,
+  "files": [
+    {
+      "path": "docs/Maxwell六角色协作-20261017.md",
+      "bytes": 4105,
+      "sha256": "5f4d5a706e5a6adfbce66c227a3b7856268319dac3d27b8e46c490811ce569e5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/maxwell-paper-narrative-v003.md",
+      "bytes": 16457,
+      "sha256": "12d9df37e5b281599b8f84e76853aa7413e951aad378f53a95b4706e968279a9"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R033-Goetz-unread-pages/freeze.json",
+      "bytes": 2129,
+      "sha256": "76805b6e47f58bd3862a1d61fd0d089613e1179f80e415a1fc0dec835a4dafe2"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R033-Goetz-unread-pages/freeze_R033.py",
+      "bytes": 3143,
+      "sha256": "8f9c9e587e5d37c3d1974b50d74abc24a3092983741f92ee4995e08e165637bc"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R033-Goetz-unread-pages/prepare_R033.py",
+      "bytes": 1113,
+      "sha256": "2ecc54df1e8ffb145016d4d7aa49bb00e647498c1c6d571ca9719fb0287ac6e8"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R033-Goetz-unread-pages/report.md",
+      "bytes": 8026,
+      "sha256": "f60a44dc2f7aef89a7794fa761521fdae4b53e58e4822af4028dcb42abc5920f"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R033-Goetz-unread-pages/source-manifest.json",
+      "bytes": 5870,
+      "sha256": "bb3998d579cad8b4c5a32a4a690dc4ede02da90ad5363d5c60e2e296ec076c96"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R033-Goetz-unread-pages/validation.json",
+      "bytes": 903,
+      "sha256": "edea4f89502961b039b6e18241b6a2d4204fbd542807b91cd00645d5ae4e790c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R033-Goetz-page-scope-review/freeze.json",
+      "bytes": 6008,
+      "sha256": "bd9ce5778726e7e099ad3cac4cb5bba369221b7031ea711cee1717e3ac97b33c"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R033-Goetz-page-scope-review/report.md",
+      "bytes": 4389,
+      "sha256": "78ebf3df85c7c5c1c2d4e3296c572ac98aa4d61278ac533d26a3eecc453bdc9f"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R033-Goetz-page-scope-review/validation.json",
+      "bytes": 7128,
+      "sha256": "94b8f15d6fc9e57af7034a6ecee2fd7d4653ef02e5f1575451d5958eab19b2d4"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R052-narrative-v003-integration/freeze.json",
+      "bytes": 2903,
+      "sha256": "c79cc515fe0db6305471e293071be6b491a78316748103e1bd5ed98c189cbec8"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R052-narrative-v003-integration/independent-diff-from-v002.patch",
+      "bytes": 1700,
+      "sha256": "6fb6567e340adb75d8b88b8e133475fed31f0865f5d551725ec44dd88e0dd5f6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R052-narrative-v003-integration/report.md",
+      "bytes": 2621,
+      "sha256": "1f2d43f52d5d3bfe4127d1dad31a97db95fb612ec4d5236dac1f12f72394455b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R052-narrative-v003-integration/validation.json",
+      "bytes": 1600,
+      "sha256": "5df48915023d1328d637095b8eef006454aba1a07a4be8f213dd0f71dbaab338"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/narrative-v003/diff-from-v002.patch",
+      "bytes": 1700,
+      "sha256": "6fb6567e340adb75d8b88b8e133475fed31f0865f5d551725ec44dd88e0dd5f6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/narrative-v003/evidence-map.json",
+      "bytes": 3083,
+      "sha256": "8b96a255d6b7fb163dd032d38c6923828c7e0f8a589890ad1d05e8dc7cdd1c29"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/narrative-v003/freeze.json",
+      "bytes": 2447,
+      "sha256": "6e4b9cae83b867a100bd52b1b4395f7c0c49ff641a829c37d37204caa89bf465"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/narrative-v003/input-freeze.json",
+      "bytes": 2136,
+      "sha256": "f7cab4fd72cbd770c65744851a4180994da4e91a827f27423046577d035803b8"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/narrative-v003/report.md",
+      "bytes": 991,
+      "sha256": "71d60c0d4a4cc72d63413b44740fc0ea27c3b59f81a738946f28e2792afc4280"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/narrative-v003/validation.json",
+      "bytes": 2502,
+      "sha256": "20f50232a96132e1bfd939d0359d46b9b14358393e8fe3aad49281890b69fd68"
+    },
+    {
+      "path": "research/sessions/20261017-2109/claims.md",
+      "bytes": 37860,
+      "sha256": "2f563d2ad3c0dd3524d6ef726c23f956b23c03686815402cc4116c44c6bf9959"
+    },
+    {
+      "path": "research/sessions/20261017-2109/Goetz-unread-pages-root-note-v001.md",
+      "bytes": 2854,
+      "sha256": "e067b53c3be0c4e9ed9ceb850c4f95692b63bb39546236f959de1726c6deee86"
+    },
+    {
+      "path": "research/sessions/20261017-2109/Goetz-unread-pages-root-read-v001.json",
+      "bytes": 1248,
+      "sha256": "6e9254d31cd850901abb7938dc5a9bae9908761a0d6623063b593745ffb72ce4"
+    },
+    {
+      "path": "research/sessions/20261017-2109/Goetz2013-unread-pages-review-protocol-v001.md",
+      "bytes": 1733,
+      "sha256": "518bdc498136ba8805ce61dc7df0259edd87e54655944e31f6a0e40d06123f07"
+    },
+    {
+      "path": "research/sessions/20261017-2109/plan.md",
+      "bytes": 16520,
+      "sha256": "c7a7214ae6d4fb748c8f84e70fa987105875e5f0cc1e9f5d6c9bf7e20c5db4ff"
+    },
+    {
+      "path": "research/sessions/20261017-2109/prepare_R027_publish.py",
+      "bytes": 5499,
+      "sha256": "648d3f00fd8e0c9f6a4c3e4c31d52d36b58c9950a6f108e0ce7e46a259690b29"
+    },
+    {
+      "path": "research/sessions/20261017-2109/publish_R027.py",
+      "bytes": 3724,
+      "sha256": "209c5fdf8c264d7da5c5cad5343ac2d1f0b1a1b22f665e52c7f0cff8f6f21325"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R026-cutoff-handoff-v001.md",
+      "bytes": 2444,
+      "sha256": "df39402ac3f8106b3e0f9d1b3c3d840efcbc31d297645c7d5921cfa91e06d650"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R026-index-qa.json",
+      "bytes": 7354,
+      "sha256": "8146faa9c7d018a3454177c1e2ed46a78c3ad79d3a03be4ee8ee33f0d97f3669"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R026-late-handoff.md",
+      "bytes": 1059,
+      "sha256": "23c8c0084073eb3e954081d5f622b084d0ac958fb4336aa75ebe76216f9df706"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R026-publish-manifest.json",
+      "bytes": 17320,
+      "sha256": "a47733328854919bdfc78e48f8c562c54ff422d7c49e3bc45aa64e0fe09d8d59"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R026-push.json",
+      "bytes": 482,
+      "sha256": "b5169ba15d7fa0b496304d4b6bdbef385543c2a6725c9b20a52ad42bfde2577e"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R027-adoption.json",
+      "bytes": 7552,
+      "sha256": "d0ba725423cc14cb169b99002dccb0a7a7008815de3bca3139e6523e522040fd"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R027-narrative-diff-root-v001.json",
+      "bytes": 1291,
+      "sha256": "4c5edad054922ebad834dfd5bc3707146ff6ba62f53eb8172c2c53cc2fea8ece"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R027-prepublish-snapshot.json",
+      "bytes": 6132,
+      "sha256": "ced888bd2f8cb6c4997a3b2d18921dc5c4aaca1231aff1fb6a30964059bb7171"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R027-root-review-v001.json",
+      "bytes": 9752,
+      "sha256": "1bc825cda4ec44ea92e6d37cba12b34203073e23077107621cb12b800336a13b"
+    },
+    {
+      "path": "research/sessions/20261017-2109/review_R027_root.py",
+      "bytes": 5174,
+      "sha256": "6960d62543567d3ffd746e7ec06f4a5a39704246334bc99f58211ce09ba71f68"
+    },
+    {
+      "path": "research/sessions/20261017-2109/rounds/R026.md",
+      "bytes": 2174,
+      "sha256": "1791add43bc8b66451ace055216571732274f979004f627882f09caaea13bd04"
+    },
+    {
+      "path": "research/sessions/20261017-2109/rounds/R027.md",
+      "bytes": 1220,
+      "sha256": "cc16e3d54c081831688a21c36d22396e1ce185198da7c17297de11bf5558d0ef"
+    },
+    {
+      "path": "research/sessions/20261017-2109/runs.md",
+      "bytes": 33346,
+      "sha256": "0b7ce1d0a578031c58ab991c003ebbd70ad2b1aa6cc2f37266126f312c058f7f"
+    },
+    {
+      "path": "research/sessions/20261017-2109/status.json",
+      "bytes": 58062,
+      "sha256": "1078a1f129d283bc1857fa43ac687da4e211f2db276abca9d68ca2758e238b12"
+    },
+    {
+      "path": "research/sessions/20261017-2109/topic-cards/events.md",
+      "bytes": 6892,
+      "sha256": "de35157ab967644595241872f94f36ed450bbb80dbcf00c614bf05c3ef1ea108"
+    }
+  ],
+  "file_count": 43,
+  "total_bytes": 310646,
+  "markdown_tables_checked": 6,
+  "explicit_format_exceptions": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/maxwell-session004/narrative-v003/diff-from-v002.patch",
+      "rule": "Unified context exactly checked against both source files"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/R052-narrative-v003-integration/independent-diff-from-v002.patch",
+      "rule": "Unified context exactly checked against both source files"
+    }
+  ],
+  "frozen_table_display_views": [],
+  "scope": "Source review expands actual original-page reading only, exact same-condition publication coverage stays unresolved. v003 only version and one71-Han paragraph; original10formulas/actual one4-data-row table/image/old numbers/input-machine contracts unchanged by exact reverse. No engineering or novelty upgrade; checkpoint still before actual budget close.",
+  "exclusions": "All active packages, source originals/excerpts/page images, raw arrays/engineering data, unknown old dirty files."
+}
