@@ -38,7 +38,9 @@
 
 ## 验证
 
-- 本仓库当前只包含研究框架和技能，没有ETABS分析或论文实验的统一测试命令；后续新增脚本时在这里登记实际依赖与复现命令。
+- 本仓库研究脚本按课题/轮次独立运行，没有“运行全部科研实验”的统一命令。每轮先读对应报告与run_record，确认标准库或已存在的NumPy/Matplotlib依赖、源散列和输出位置；不得为通用检查重复提取原始大表。
+- Windows中文文件的标准库复核使用UTF-8模式，例如 `python -X utf8 research/sessions/20261017-0847/audit_grouped_diagnostic.py`；它从两份冻结派生CSV独立核对分组与1008条OOF预测，不操作ETABS。依赖NumPy/Matplotlib的脚本按各轮run_record使用已有runtime；不假定PATH上的Python具备相同包。
+- 冻结运行的复现先查看脚本是否会覆盖输出；需要重跑时使用明确的隔离目录或脚本已有的拒绝覆盖/新输出方式，保留冻结证据和旧散列。解析证明的有限数值检查不当作普遍证明。
 - 技能修改后运行当前环境 `skill-creator` 提供的 `scripts/quick_validate.py`，参数为 `.agents/skills/research-paper-lab`；该校验只覆盖结构与元数据，不代表研究结论正确。
 - 检查 Markdown 相对链接、技能引用路径、YAML、占位内容和 `git diff --check`。新增可执行脚本再做相应的实际功能验证。
 - 较复杂的协作协议修改，用隔离样例做独立行为验证；不要拿真实工程大数据作首次测试。

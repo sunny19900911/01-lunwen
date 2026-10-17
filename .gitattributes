@@ -9,3 +9,5 @@ research/** whitespace=-blank-at-eof,blank-at-eol,space-before-tab,cr-at-eol
 papers/damping-output-boundaries/experiments/figures/*.svg whitespace=-blank-at-eof,-blank-at-eol,space-before-tab,cr-at-eol
 
 .gitattributes -text
+
+papers/damping-output-boundaries/experiments/figures-grouped-diagnostic/*.svg whitespace=-blank-at-eof,-blank-at-eol,space-before-tab,cr-at-eol

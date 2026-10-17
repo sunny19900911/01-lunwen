@@ -1,0 +1,7 @@
+﻿kind,nodes,coefficient_per_zeta,formula,strictly_positive
+ground,1-reference,1.7422384797270314,g1=(C_unit*1)_1,True
+ground,2-reference,0.7753690673669766,g2=(C_unit*1)_2,True
+ground,3-reference,0.6028332183356402,g3=(C_unit*1)_3,True
+inter_node,1-2,0.7943335633287182,"c12=-C_unit[1,2]",True
+inter_node,1-3,0.17253584903133665,"c13=-C_unit[1,3]",True
+inter_node,2-3,0.9668694123600556,"c23=-C_unit[2,3]",True

@@ -1,0 +1,29 @@
+{
+  "role": "writing",
+  "round": "W-R006",
+  "frozen_at": "2026-10-17 09:54:05 +08:00",
+  "frozen_files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/working-draft-v006.md",
+      "sha256": "ec16d0c97a6e70fdc86e8fd00ef9e670c4d4e68f4f6820d8fa508c4b216a4794",
+      "bytes": 40296
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/figure-map-v006.json",
+      "sha256": "b2029a3099521171e3d04549dd68fc5b9acd6f3c1c2415bdbfe12cefbf5543be",
+      "bytes": 2660
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/writing/round-006.md",
+      "sha256": "a426509ebee5be7229ba5d1a791cd205a835ef562062a5fe0874811dff3af7e3",
+      "bytes": 8096
+    }
+  ],
+  "predecessor": {
+    "path": "papers/damping-output-boundaries/manuscript/working-draft-v005.md",
+    "sha256": "45d13203d0ce55d326a2d0cdd120e1283b703a03b59b931baa60ab775b8edfc3"
+  },
+  "scope": "C012 full physical projection and restricted shear-output exclusions; E007 grouped descriptive proxy diagnostic, FN1/3 for three models; existing core/C011/three figures preserved; C013/C014 research notes only; new topcut candidate excluded pending review",
+  "encoding": "UTF-8 without BOM, LF",
+  "validation": "Links/math/tags/previous frozen hashes/six figure hashes/six metric pairs checked; independent readonly scope review fixed RMSE mean wording; scoped git diff --check exit 0"
+}

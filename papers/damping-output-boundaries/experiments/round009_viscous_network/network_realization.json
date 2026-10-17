@@ -1,0 +1,180 @@
+{
+  "evidence_id": "E-EXP-009",
+  "finished_utc": "2026-10-17T01:53:18.562993+00:00",
+  "elapsed_seconds": 0.0007006999949226156,
+  "code_sha256": "9aa34eaad288bbf59489cf6ace4730d010426a9427319c7f0607c5b980feb913",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "params": {
+    "mass": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "story_stiffness": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "zeta_for_coefficients": 1.0,
+    "M": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "K": [
+      [
+        2.0,
+        -1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        2.0,
+        -1.0
+      ],
+      [
+        0.0,
+        -1.0,
+        1.0
+      ]
+    ]
+  },
+  "params_sha256": "5f3c86c80cc5896557b1b218fd9817147d7f1c5ccf9da4e8f5322b345b562738",
+  "C_unit_zeta": [
+    [
+      2.7091078920870864,
+      -0.7943335633287182,
+      -0.17253584903133665
+    ],
+    [
+      -0.7943335633287182,
+      2.5365720430557506,
+      -0.9668694123600556
+    ],
+    [
+      -0.17253584903133679,
+      -0.9668694123600555,
+      1.7422384797270325
+    ]
+  ],
+  "sqrtK": [
+    [
+      1.3545539460435432,
+      -0.3971667816643591,
+      -0.08626792451566832
+    ],
+    [
+      -0.3971667816643591,
+      1.2682860215278753,
+      -0.4834347061800278
+    ],
+    [
+      -0.08626792451566839,
+      -0.48343470618002776,
+      0.8711192398635162
+    ]
+  ],
+  "eigenvalues_K": [
+    0.19806226419516154,
+    1.5549581320873715,
+    3.2469796037174667
+  ],
+  "eigenvalues_C_unit": [
+    0.8900837358252575,
+    2.4939592074349357,
+    3.6038754716096766
+  ],
+  "network_coefficients": [
+    {
+      "kind": "ground",
+      "nodes": "1-reference",
+      "coefficient_per_zeta": 1.7422384797270314,
+      "formula": "g1=(C_unit*1)_1",
+      "strictly_positive": true
+    },
+    {
+      "kind": "ground",
+      "nodes": "2-reference",
+      "coefficient_per_zeta": 0.7753690673669766,
+      "formula": "g2=(C_unit*1)_2",
+      "strictly_positive": true
+    },
+    {
+      "kind": "ground",
+      "nodes": "3-reference",
+      "coefficient_per_zeta": 0.6028332183356402,
+      "formula": "g3=(C_unit*1)_3",
+      "strictly_positive": true
+    },
+    {
+      "kind": "inter_node",
+      "nodes": "1-2",
+      "coefficient_per_zeta": 0.7943335633287182,
+      "formula": "c12=-C_unit[1,2]",
+      "strictly_positive": true
+    },
+    {
+      "kind": "inter_node",
+      "nodes": "1-3",
+      "coefficient_per_zeta": 0.17253584903133665,
+      "formula": "c13=-C_unit[1,3]",
+      "strictly_positive": true
+    },
+    {
+      "kind": "inter_node",
+      "nodes": "2-3",
+      "coefficient_per_zeta": 0.9668694123600556,
+      "formula": "c23=-C_unit[2,3]",
+      "strictly_positive": true
+    }
+  ],
+  "network_reconstruction": [
+    [
+      2.7091078920870864,
+      -0.7943335633287182,
+      -0.17253584903133665
+    ],
+    [
+      -0.7943335633287182,
+      2.5365720430557506,
+      -0.9668694123600556
+    ],
+    [
+      -0.17253584903133665,
+      -0.9668694123600556,
+      1.7422384797270325
+    ]
+  ],
+  "reconstruction_residual_max_abs": 1.3877787807814457e-16,
+  "C_squared_minus_4K_max_abs": 4.440892098500626e-15,
+  "symmetry_residual_max_abs": 1.3877787807814457e-16,
+  "coefficient_postprocessing": "None; no clipping, absolute-value substitution, or optimization",
+  "increment": "For every delta_zeta>0, delta_C=delta_zeta*C_unit is positive definite; all six coefficients scale by delta_zeta.",
+  "power_identity": "v^T delta_C v=delta_zeta*(sum_i g_i v_i^2+sum_i<j c_ij (v_i-v_j)^2)>=0",
+  "scope": "One prescribed unit synthetic model. Includes nonadjacent 1-3 edge and all three ground/reference links. Not adjacent-story-only dashpots, no engineering unit mapping, no solver or construction claim. No general matrix-square-root/M-matrix theorem is established.",
+  "checks": {
+    "K_positive_definite": true,
+    "C_is_symmetric": true,
+    "principal_square_root_identity": true,
+    "all_six_network_coefficients_positive": true,
+    "network_reconstruction_matches_C": true,
+    "C_unit_positive_definite": true,
+    "same_basis_classical_modal_damping": true,
+    "nonadjacent_1_3_edge_retained": true,
+    "all_three_ground_terms_retained": true,
+    "runtime_below_300_seconds": true
+  }
+}

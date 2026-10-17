@@ -1,0 +1,65 @@
+{
+  "draft": "working-draft-v006.md",
+  "figure_manifest_sha256": "4a2e115e45aac1ab26308b9e80e3b02dfb1a3d0b442413ab229f58f215ed0e47",
+  "selected_figures": [
+    {
+      "paper_figure": 1,
+      "source_base": "fig04_peak_bound_comparison",
+      "claim": "C006 v2 / C011",
+      "purpose": "精化完整峰界、历史粗界、κ参考与数值见证",
+      "sources": [
+        {
+          "path": "papers/damping-output-boundaries/experiments/figures/fig04_peak_bound_comparison.png",
+          "sha256": "8ca3ca636d4dfbf7d224b97ac72a5101f1fbf2c9f0fba88ffcb66a7f30315b51",
+          "bytes": 204059
+        },
+        {
+          "path": "papers/damping-output-boundaries/experiments/figures/fig04_peak_bound_comparison.svg",
+          "sha256": "fc7bfcf6109043956349a8a0f4b6da7a4f9af7a6d5e5d8845f72c45da457d83c",
+          "bytes": 81113
+        }
+      ],
+      "author_viewed_png": true
+    },
+    {
+      "paper_figure": 2,
+      "source_base": "fig03_complete_peak_witness",
+      "claim": "C011",
+      "purpose": "同一保存输入及双状态输出；0.25s显示点，细网格峰",
+      "sources": [
+        {
+          "path": "papers/damping-output-boundaries/experiments/figures/fig03_complete_peak_witness.png",
+          "sha256": "b64434e206be0965cc02e40bd79642e2809c13072c07766a551bbc4663c2bc91",
+          "bytes": 319556
+        },
+        {
+          "path": "papers/damping-output-boundaries/experiments/figures/fig03_complete_peak_witness.svg",
+          "sha256": "60e1bee9ed405c426bc620c0ffeccaeef9505e88538acd3d4069a472dcfd2e82",
+          "bytes": 135609
+        }
+      ],
+      "author_viewed_png": true
+    },
+    {
+      "paper_figure": 3,
+      "source_base": "fig01_native_output_changes",
+      "claim": "C004 / E-EXP-001",
+      "purpose": "三类原生输出分别排序；正确164/1/3加速度计数",
+      "sources": [
+        {
+          "path": "papers/damping-output-boundaries/experiments/figures/fig01_native_output_changes.png",
+          "sha256": "e9c21dc290c933a9f405ee95b7e4b6129f604de13f50e0f8cb2d5b7b024d2d71",
+          "bytes": 207725
+        },
+        {
+          "path": "papers/damping-output-boundaries/experiments/figures/fig01_native_output_changes.svg",
+          "sha256": "a99758c25c4b83670b1cfcaf0e88342779fe745e445a99562604c681346d3ea9",
+          "bytes": 144180
+        }
+      ],
+      "author_viewed_png": true
+    }
+  ],
+  "visual_scope": "Author viewed three PNGs, checked labels/units/bounds/counts; no figure assets edited or response experiments rerun.",
+  "embedding": "PNG absolute local paths for Codex preview; SVG links relative to manuscript for repository source lookup."
+}

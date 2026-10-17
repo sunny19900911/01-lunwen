@@ -1,0 +1,68 @@
+{
+  "evidence": "E-EXP-007 frozen results only",
+  "finished_utc": "2026-10-17T01:47:41.502132+00:00",
+  "elapsed_seconds": 0.4522447999988799,
+  "script_sha256": "f86018a0355b09438eb9d76ccdee517c2fd015938118bcfd07f86adc9b2057a1",
+  "sources": [
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round007_grouped_diagnostic\\oof_predictions.csv",
+      "sha256": "41112b3eddbfb0c281130184dbb7dcfca6526111068b2ce457645b0f70593535",
+      "bytes": 233037
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round007_grouped_diagnostic\\summary_metrics.csv",
+      "sha256": "a3926499d8f33f5d47130cfac06543a15b659d6994630b880358407469c77753",
+      "bytes": 1166
+    },
+    {
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\experiments\\round007_grouped_diagnostic\\frozen_protocol.json",
+      "sha256": "da6f6bf7bc1861b8e10c60c99ea317e8a04ddc8e6b378825df2d7eb2c72ae136",
+      "bytes": 2217
+    }
+  ],
+  "outputs": [
+    {
+      "file": "fig07_ols_oof_local_changes.png",
+      "sha256": "2f60905e1d343f3fb52973143b983f630930df526c1c4a566692eb54e1a82523",
+      "bytes": 371360
+    },
+    {
+      "file": "fig07_ols_oof_local_changes.svg",
+      "sha256": "1407cb4a6eaff3e162af98c788408d2008b90eead23b0b794dec9cd8d0e234de",
+      "bytes": 160233
+    }
+  ],
+  "highlighted_false_negatives": [
+    {
+      "target": "net_difference_change_pct",
+      "label": "SHW6-X-F1",
+      "actual_change_pct": 5.571164036087062,
+      "prediction_pct": -10.662209818786517
+    },
+    {
+      "target": "spatial_acceleration_change_pct",
+      "label": "SHW3-Y-F1",
+      "actual_change_pct": 1.2837250782506082,
+      "prediction_pct": -8.92030256531755
+    },
+    {
+      "target": "spatial_acceleration_change_pct",
+      "label": "SHW6-X-F1",
+      "actual_change_pct": 5.497465350959474,
+      "prediction_pct": -9.213536947505885
+    },
+    {
+      "target": "spatial_acceleration_change_pct",
+      "label": "SHW7-X-F1",
+      "actual_change_pct": 2.0124803898508903,
+      "prediction_pct": -13.89855298823273
+    }
+  ],
+  "numpy": "2.3.5",
+  "matplotlib": "3.11.2",
+  "backend": "Agg",
+  "font": "Arial, SVG text as paths",
+  "no_refit": true,
+  "source_hashes_unchanged": true,
+  "notes": "Plot uses original OOF and summary CSV numbers; no threshold changes or majority-class accuracy. SVG generator bytes retained including any trailing whitespace."
+}
