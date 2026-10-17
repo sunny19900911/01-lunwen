@@ -1,0 +1,50 @@
+{
+  "session": "20261017-2109",
+  "master": {
+    "threadId": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+    "title": "论文研究主控｜10小时自主循环",
+    "hostId": "local"
+  },
+  "roles": [
+    {
+      "role": "ideation",
+      "title": "论文角色①｜猜想与理论突破",
+      "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+      "hostId": "local"
+    },
+    {
+      "role": "verification",
+      "title": "论文角色②｜证明审核与反例",
+      "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
+      "hostId": "local"
+    },
+    {
+      "role": "literature",
+      "title": "论文角色③｜文献原文复查",
+      "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+      "hostId": "local"
+    },
+    {
+      "role": "experiments",
+      "title": "论文角色④｜ETABS数据与拟合",
+      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+      "hostId": "local"
+    },
+    {
+      "role": "writing",
+      "title": "论文角色⑤｜论文写作与论证",
+      "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+      "hostId": "local"
+    },
+    {
+      "role": "novelty",
+      "title": "创新性验证",
+      "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+      "hostId": "local"
+    }
+  ],
+  "deadline": "2026-10-18T07:09:45+08:00",
+  "checkpoint_minutes": 15,
+  "topic_card_minutes": 30,
+  "git_publisher": "master-only"
+}

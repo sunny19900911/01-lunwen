@@ -1,0 +1,25 @@
+# 六角色Maxwell研究运行清单
+
+截止2026-10-18 07:09:45 Asia/Shanghai。主控01a130a0-b881-7ea0-ad07-45817fda5687。
+
+- 正式15分钟主控调度：pending，工具确认后登记。
+- 主控核心数据提取：exec session30163，已实际输出Total Energy Components、Element NL Energy By Group、Base Reactions，各6组；其他表运行中。恢复先查询状态，不重复提取。
+- 创新性验证对话：01a14a00-809e-7612-a7a4-889ab1e55f0d，已由create_thread成功创建；首轮先写W5本地角色目录，随后按最新框架交接到角色6目录。
+- 辅助子代理：/root/maxwell_energy_verification已返回能量公式条件及兰香等2024原文来源，待冻结文件；/root/maxwell_metadata_audit负责参数与表完整性，尚待最终报告。
+- GitHub：仓库已确认main，存在不属于本轮的未提交修改；尚未执行本轮提交/推送。仅采用plan.md中的本轮路径白名单。
+
+每个运行附输入/代码/参数指纹、真实时间及actual_status。旧记录running不当作存活证明。
+
+
+## 21:25交接更新
+
+用户指定主控已实际改名“论文研究主控｜10小时自主循环”，唯一主控转为01a1473b-0328-71c0-ab64-5e69ce018f07。核心7表全部提取完成，manifest complete/source_unchanged均true；源SHA及冻结辅助报告见handoff.json。本窗口没有创建研究heartbeat，没有Git提交/推送。两个辅助子代理均已完成，无遗留提取进程。preliminary_energy_ratios.csv仅为背景5%条件下首算，不能先标成已经核实实际附加阻尼。
+
+## 2026-10-17T21:33:16.019576+08:00 接管主控首轮
+
+- 实际读取来源聊天三条用户原始消息，十小时/六角色/15分钟Git与输出位置授权已核。源消息ID保存在authorization-evidence.json。
+- 主控核心缓存审计实际退出0，脚本audit_core_energy.py；输出R001-energy-audit，无重复原Excel全量提取。
+- 原角色1—5完成/空闲已逐一快照后派具体≤12分钟任务；角色6实际inProgress，仅补充指导。所有初始cursor保留。
+- 正式git/automation-3已更新ACTIVE并读取TOML核实，新目标/时段/提示词hash见scheduler-verification.json；截止07:09:45不变。
+- 新来源openpyxl独立能量核对已完成，角色2改为审核现有独立实现，停止重复读取；当前数字仍候选，背景5%未认证。
+- Git首个白名单检查点待完成；旧脏文件保持，无全目录stage。

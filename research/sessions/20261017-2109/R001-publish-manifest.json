@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "path": "research/sessions/20261017-2109/audit_core_energy.py",
+      "bytes": 5567,
+      "sha256": "19ea2ccb0e94e38125964f1ba9b74a25231766e2dba9e0279a4e1034ca2ec1ee"
+    },
+    {
+      "path": "research/sessions/20261017-2109/authorization-evidence.json",
+      "bytes": 2237,
+      "sha256": "5ff0d663421bbf627570bb851f8c29cdbeaff1708c2d6b773016f00a09dc684f"
+    },
+    {
+      "path": "research/sessions/20261017-2109/claims.md",
+      "bytes": 2299,
+      "sha256": "347a81816500560871ae26503196529635dc6ad40f9584115e47d9a7f7cf65b2"
+    },
+    {
+      "path": "research/sessions/20261017-2109/handoff.json",
+      "bytes": 2142,
+      "sha256": "5801c4457f1ec8aa9e100dbdd908e46406dadaf796ded72387a351334b01c3fb"
+    },
+    {
+      "path": "research/sessions/20261017-2109/initial-thread-snapshot.json",
+      "bytes": 8681,
+      "sha256": "aa756dcfd20cca5904b960cda41728ee09f9664f2611bb206df5c9343253c7a9"
+    },
+    {
+      "path": "research/sessions/20261017-2109/plan.md",
+      "bytes": 6338,
+      "sha256": "cbdc121fa4c0928debb65f0723052085f873f030fadbb2d0554d068b162d28df"
+    },
+    {
+      "path": "research/sessions/20261017-2109/preliminary_energy_ratios.csv",
+      "bytes": 1699,
+      "sha256": "63ed4ef7413e55870850117ee7246962b78bf2e8a2ad2aaa04caa381638dacfd"
+    },
+    {
+      "path": "research/sessions/20261017-2109/runs.md",
+      "bytes": 2495,
+      "sha256": "9d98dfd6aebb2b314480c347c4ea1cb70efe2400b8bac39a25511f5d3dcb33f3"
+    },
+    {
+      "path": "research/sessions/20261017-2109/scheduler-tool-receipt.json",
+      "bytes": 648,
+      "sha256": "194e45836015db5fb50fd89f9f7a547bb97e4c1fa10634ccc6ba7754c21e41be"
+    },
+    {
+      "path": "research/sessions/20261017-2109/scheduler-verification.json",
+      "bytes": 930,
+      "sha256": "b4aeb5dc79f2e2ac0c757bba9e3d986f1ced1ae66209dfe27d26bded4fcecc64"
+    },
+    {
+      "path": "research/sessions/20261017-2109/status.json",
+      "bytes": 5175,
+      "sha256": "10dc2f033d0afd7bec7ee8c58319b14d320789cbf6dda59015da5c13449b5c10"
+    },
+    {
+      "path": "research/sessions/20261017-2109/threads.json",
+      "bytes": 1439,
+      "sha256": "0481a2bbb18efce961682ed77f04fa8c3985d304e6b8d2105c96b69700dc46e3"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R001-energy-audit/energy_summary.csv",
+      "bytes": 1607,
+      "sha256": "79b532a2db8a0bf6335ef35fc0ff7c5ba55a8a9e180fbefd555e3e3ec0be4d0e"
+    },
+    {
+      "path": "research/sessions/20261017-2109/R001-energy-audit/run_record.json",
+      "bytes": 7751,
+      "sha256": "03cb21bffae7e19b8bdeef32a7578b32d2db5d9984561ff5b0afd21821f81699"
+    },
+    {
+      "path": "research/sessions/20261017-2109/rounds/R001.md",
+      "bytes": 1373,
+      "sha256": "214e0404b9b497d72db2ed6761fb077e4d28104e3bf470e3677e1282ccd8f3c4"
+    },
+    {
+      "path": "research/sessions/20261017-2109/topic-cards/events.md",
+      "bytes": 183,
+      "sha256": "796e2d3f06ecdee66473c2bf75cc5ff4ebc0f8dee4001b1b78074eaaa39ac380"
+    },
+    {
+      "path": "research/sessions/20261017-2109/topic-cards/T-M001-v001.md",
+      "bytes": 1011,
+      "sha256": "9840c57fb4fe52cdb93781c1eaf46a9ee8a3230cf4272325c389b094fc3ea69f"
+    },
+    {
+      "path": "docs/Maxwell六角色协作-20261017.md",
+      "bytes": 1190,
+      "sha256": "3ce7d4311c9cdd007de1ece3381375e36c352442bd1bc789b8826e01607a7901"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/experiments/maxwell-session004/辅助元数据完整性审核-R001.md",
+      "bytes": 8470,
+      "sha256": "33ad1b582e5f503ae282e5174517f078fb8abcb1dbe75bb0272c2ce9b5944ed7"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/verification/maxwell-session004/辅助独立能量方法审核-R001.md",
+      "bytes": 12200,
+      "sha256": "3bfc4628772839592e3f781cde1b50ff27558e416c37488f06e33dc565ee17cc"
+    }
+  ],
+  "validation": {
+    "git_branch": "main",
+    "expected_origin": true,
+    "index_initially_empty": true,
+    "git_diff_check_exit": 0,
+    "small_text_and_json_checks": true,
+    "links_checked": 2
+  },
+  "exclusions": "all old modified/untracked files; live role outputs except two frozen auxiliary reports; raw/cache/PDF/unknown5E-07"
+}

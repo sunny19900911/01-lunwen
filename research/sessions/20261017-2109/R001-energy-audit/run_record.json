@@ -1,0 +1,280 @@
+{
+  "recorded_at": "2026-10-17T21:31:18.401471+08:00",
+  "source_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "source_bytes": 635525054,
+  "input_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Total_Energy_Components.npz",
+      "sha256": "3614b98aa57bb52ba7e18ceaac98f221ebcf6f15d13777b0ead7be268d857b4e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Element_NL_Energy_By_Group.npz",
+      "sha256": "08c0200dd89b201dd6c9da87495d042777ef5023c981becedb5d80252d7d3dc4"
+    }
+  ],
+  "script_sha256": "19ea2ccb0e94e38125964f1ba9b74a25231766e2dba9e0279a4e1034ca2ec1ee",
+  "cases": [
+    {
+      "case": "RH4X",
+      "time_grid": {
+        "n": 2501,
+        "t0": 0.0,
+        "t1": 50.0
+      },
+      "quarter_windows": [
+        {
+          "fraction": 0.25,
+          "actual_T_s": 12.5,
+          "ratio": 1.3940001409636131
+        },
+        {
+          "fraction": 0.5,
+          "actual_T_s": 25.0,
+          "ratio": 1.1255661521404228
+        },
+        {
+          "fraction": 0.75,
+          "actual_T_s": 37.5,
+          "ratio": 1.1608117126107587
+        },
+        {
+          "fraction": 1.0,
+          "actual_T_s": 50.0,
+          "ratio": 1.1662455135307621
+        }
+      ],
+      "min_energy_increments": {
+        "global": 8.037003213248564e-10,
+        "link": -1.8125688693541486e-07
+      },
+      "initial_energies_kNm": {
+        "Input Energy": 0.0,
+        "Kinetic Energy": 0.0,
+        "Potential Energy": 0.0,
+        "Global Damping Energy": 0.0,
+        "Link Damper Energy": 0.0,
+        "Link Hysteresis Energy": 0.0
+      }
+    },
+    {
+      "case": "RH4Y",
+      "time_grid": {
+        "n": 2501,
+        "t0": 0.0,
+        "t1": 50.0
+      },
+      "quarter_windows": [
+        {
+          "fraction": 0.25,
+          "actual_T_s": 12.5,
+          "ratio": 1.6985199817861008
+        },
+        {
+          "fraction": 0.5,
+          "actual_T_s": 25.0,
+          "ratio": 1.399034804847579
+        },
+        {
+          "fraction": 0.75,
+          "actual_T_s": 37.5,
+          "ratio": 1.451076781447718
+        },
+        {
+          "fraction": 1.0,
+          "actual_T_s": 50.0,
+          "ratio": 1.4589918489643952
+        }
+      ],
+      "min_energy_increments": {
+        "global": 8.765510609364309e-10,
+        "link": -1.6095847050394875e-07
+      },
+      "initial_energies_kNm": {
+        "Input Energy": 0.0,
+        "Kinetic Energy": 0.0,
+        "Potential Energy": 0.0,
+        "Global Damping Energy": 0.0,
+        "Link Damper Energy": 0.0,
+        "Link Hysteresis Energy": 0.0
+      }
+    },
+    {
+      "case": "SHW4X",
+      "time_grid": {
+        "n": 2951,
+        "t0": 0.0,
+        "t1": 59.0
+      },
+      "quarter_windows": [
+        {
+          "fraction": 0.25,
+          "actual_T_s": 14.76,
+          "ratio": 0.5048538534613402
+        },
+        {
+          "fraction": 0.5,
+          "actual_T_s": 29.5,
+          "ratio": 0.8615196171186498
+        },
+        {
+          "fraction": 0.75,
+          "actual_T_s": 44.26,
+          "ratio": 0.8489888671648484
+        },
+        {
+          "fraction": 1.0,
+          "actual_T_s": 59.0,
+          "ratio": 0.8732712893884462
+        }
+      ],
+      "min_energy_increments": {
+        "global": 1.1242052800527668e-07,
+        "link": -9.859231727277275e-08
+      },
+      "initial_energies_kNm": {
+        "Input Energy": 0.0,
+        "Kinetic Energy": 0.0,
+        "Potential Energy": 0.0,
+        "Global Damping Energy": 0.0,
+        "Link Damper Energy": 0.0,
+        "Link Hysteresis Energy": 0.0
+      }
+    },
+    {
+      "case": "SHW4Y",
+      "time_grid": {
+        "n": 2951,
+        "t0": 0.0,
+        "t1": 59.0
+      },
+      "quarter_windows": [
+        {
+          "fraction": 0.25,
+          "actual_T_s": 14.76,
+          "ratio": 0.8211130019088847
+        },
+        {
+          "fraction": 0.5,
+          "actual_T_s": 29.5,
+          "ratio": 1.0733089053679217
+        },
+        {
+          "fraction": 0.75,
+          "actual_T_s": 44.26,
+          "ratio": 1.0575003224563388
+        },
+        {
+          "fraction": 1.0,
+          "actual_T_s": 59.0,
+          "ratio": 1.0885414085347935
+        }
+      ],
+      "min_energy_increments": {
+        "global": 1.2358725174623371e-07,
+        "link": -1.0236427916582595e-07
+      },
+      "initial_energies_kNm": {
+        "Input Energy": 0.0,
+        "Kinetic Energy": 0.0,
+        "Potential Energy": 0.0,
+        "Global Damping Energy": 0.0,
+        "Link Damper Energy": 0.0,
+        "Link Hysteresis Energy": 0.0
+      }
+    },
+    {
+      "case": "SHW7X",
+      "time_grid": {
+        "n": 2696,
+        "t0": 0.0,
+        "t1": 53.9
+      },
+      "quarter_windows": [
+        {
+          "fraction": 0.25,
+          "actual_T_s": 13.48,
+          "ratio": 1.1647401766601606
+        },
+        {
+          "fraction": 0.5,
+          "actual_T_s": 26.96,
+          "ratio": 1.1774936690651931
+        },
+        {
+          "fraction": 0.75,
+          "actual_T_s": 40.44,
+          "ratio": 0.8761474247467809
+        },
+        {
+          "fraction": 1.0,
+          "actual_T_s": 53.9,
+          "ratio": 0.7956526118289906
+        }
+      ],
+      "min_energy_increments": {
+        "global": 7.893771497968791e-09,
+        "link": -2.8360970739660374e-06
+      },
+      "initial_energies_kNm": {
+        "Input Energy": 0.0,
+        "Kinetic Energy": 0.0,
+        "Potential Energy": 0.0,
+        "Global Damping Energy": 0.0,
+        "Link Damper Energy": 0.0,
+        "Link Hysteresis Energy": 0.0
+      }
+    },
+    {
+      "case": "SHW7Y",
+      "time_grid": {
+        "n": 2696,
+        "t0": 0.0,
+        "t1": 53.9
+      },
+      "quarter_windows": [
+        {
+          "fraction": 0.25,
+          "actual_T_s": 13.48,
+          "ratio": 1.5868814986775908
+        },
+        {
+          "fraction": 0.5,
+          "actual_T_s": 26.96,
+          "ratio": 1.4643577777564807
+        },
+        {
+          "fraction": 0.75,
+          "actual_T_s": 40.44,
+          "ratio": 1.0760510366463394
+        },
+        {
+          "fraction": 1.0,
+          "actual_T_s": 53.9,
+          "ratio": 0.9845242001423253
+        }
+      ],
+      "min_energy_increments": {
+        "global": 9.092682314372143e-09,
+        "link": -4.0051599260394657e-07
+      },
+      "initial_energies_kNm": {
+        "Input Energy": 0.0,
+        "Kinetic Energy": 0.0,
+        "Potential Energy": 0.0,
+        "Global Damping Energy": 0.0,
+        "Link Damper Energy": 0.0,
+        "Link Hysteresis Energy": 0.0
+      }
+    }
+  ],
+  "limitations": [
+    "5% is an explicit reference, not verified actual background damping",
+    "energy windows stop at exported end; not certified full free tail",
+    "single controlled state; no claimed reduction against another model",
+    "group All is total energy; incomplete individual devices must not replace it"
+  ]
+}

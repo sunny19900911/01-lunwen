@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-17T21:25:22.981225+08:00",
+  "master_thread": {
+    "threadId": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+    "title": "论文研究主控｜10小时自主循环",
+    "hostId": "local"
+  },
+  "deadline_UTC": "2026-10-17T23:09:45Z",
+  "heartbeat_created_in_source_thread": false,
+  "git_published_by_source_thread": false,
+  "core_cache_complete": true,
+  "source_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "source_bytes": 635525054,
+  "core_cache_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache",
+  "completed_auxiliary_agents": [
+    "/root/maxwell_energy_verification",
+    "/root/maxwell_metadata_audit"
+  ],
+  "active_extraction_processes": [],
+  "copied_light_evidence": [
+    {
+      "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\R1-能量比公式与Maxwell功耗审计-20261017.md",
+      "destination": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\辅助独立能量方法审核-R001.md",
+      "sha256": "3bfc4628772839592e3f781cde1b50ff27558e416c37488f06e33dc565ee17cc"
+    },
+    {
+      "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\元数据与完整性首轮复核.md",
+      "destination": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\辅助元数据完整性审核-R001.md",
+      "sha256": "33ad1b582e5f503ae282e5174517f078fb8abcb1dbe75bb0272c2ce9b5944ed7"
+    }
+  ],
+  "scope_note": "用户最新明确每15分钟常规commit/push，仅白名单；主结论在接管主控输出；原始文件与PDF不上传。"
+}
