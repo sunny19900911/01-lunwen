@@ -26,18 +26,18 @@
   "role_cursors": [
     {
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
-      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:32",
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:38",
       "status": "idle"
     },
     {
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:31",
-      "status": "idle"
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:34",
+      "status": "active"
     },
     {
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:27",
-      "status": "idle"
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:31",
+      "status": "active"
     },
     {
       "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
@@ -46,8 +46,8 @@
     },
     {
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:27",
-      "status": "active"
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:32",
+      "status": "idle"
     }
   ],
   "subagents": {
@@ -55,7 +55,7 @@
     "detuning_bound_round1": "completed both independent finite-envelope and classical-norm reviews; frozen, no live child task",
     "theory_manuscript_round1": "completed; frozen outputs handed to original roles; no live child task remains"
   },
-  "latest_round": "R006.md",
+  "latest_round": "R007.md",
   "checkpoint_open": false,
   "pending_push": null,
   "git_transport": {
@@ -65,25 +65,25 @@
     "global_config_changed": false
   },
   "last_verified_push": {
-    "commit": "bdb9689b668394a3b2890ec7794bb8566093d221",
+    "commit": "744cd80895b57512c1f6c8990bba16cb93ea165e",
     "remote": "origin",
     "branch": "main",
-    "verified_at": "2026-10-17T13:37:22.728837+08:00",
-    "verified_by": "normal push exit0 + ls-remote and local HEAD exact match; one attempt"
+    "verified_at": "2026-10-17T13:50:45.390954+08:00",
+    "verified_by": "normal push exit0 and ls-remote/local HEAD exact match, one attempt"
   },
-  "recorded_at": "2026-10-17T13:50:10.867861+08:00",
-  "next_checkpoint": "R006 closed preparing normal push; v007 ACTIVE authorized13:48:51 <=8min, wait freeze then verification integration audit <=5min; do not restart writing. Deadline14:19:08 and pause both automations.",
+  "recorded_at": "2026-10-17T14:03:17.342109+08:00",
+  "next_checkpoint": "R007 closed preparing normal push. Only verification/literature active final <=5min input-domain interface notes, stop14:07; no new manuscript. Next collect frozen notes then prepare final summary/decisions and final checkpoint at14:19:08, pause git+automation-3 officially. Do not restart tasks or extend.",
   "role_work": {
-    "ideation": "Compact positive box/fixed-duration candidate frozen c2dbf3c0; idle, independent boundary audit dispatched to experiments role",
-    "verification": "v006 independent integration report frozen and root accepted13:47, idle for final-version audit",
-    "literature": "Contribution card002 corrected after root rejection of two001 statements; frozen/root diff accepted; idle",
+    "ideation": "Reader guide delta review002 accepted, idle; no new tasks",
+    "verification": "v007 accepted, final <=5min analytic nonstructural toy input-domain interface note, no formal new core or v008",
+    "literature": "v007 citation review accepted; final <=5min already-read Teixeira L2e domain source mapping, not new search/draft",
     "experiments": "C031 independent review d606a24d frozen/full-read/root accepted, idle; no experiments",
-    "writing": "Actual v007 <=8min authorized13:49, C030+C031 Appendix H and current source state, append verified reference8 only; no source overwrites"
+    "writing": "v007 accepted, frozen idle; no v008 authorized"
   },
   "prepared_publication": {
-    "round": "R006",
-    "scope": "accepted v006+C030+C031; corrected contribution card002/current source addendum; active v007 excluded",
-    "validation": "31 explicit complete files plus R006-validation.json; v006 map47/root frozen audit passed"
+    "round": "R007",
+    "scope": "accepted v007 and reader guide current5633d02a with independent math/citation/delta reviews; late input-domain notes active excluded",
+    "validation": "29 explicit files plus validation; frozen v001-v007/map56/99 equations/guide source versions checked"
   },
   "latest_increment_receipt": {
     "recorded_at": "2026-10-17T13:40:00.621070+08:00",
@@ -93,11 +93,17 @@
     "writing": "v006 writing validation done but freezing still active; do not stage or duplicate"
   },
   "accepted_manuscript": {
-    "version": "v006",
-    "path": "papers/damping-output-boundaries/manuscript/theory-draft-v006.md",
-    "sha256": "7c40bc8f602293b8e1d9789a6ad7cb71fd67e2fbe7776ad26379ce160c50b9f1",
-    "independent_integration_review_sha256": "76fb818df15ee719337d2aed85c28d67fba833ad56e85f5f0448616a87ecc68f",
-    "source_state_addendum": "v006-postfreeze-literature-note.md",
-    "accepted_at": "2026-10-17T13:47:09.033031+08:00"
+    "version": "v007",
+    "path": "papers/damping-output-boundaries/manuscript/theory-draft-v007.md",
+    "sha256": "93fca22d3807d5a59e4a9db6750dce876a65ca974ee1889dbe415f16de8bd323",
+    "independent_integration_review_sha256": "1df9c53936e9d18da2936c14f02d1f4aa26ff6c441e4b0cf49167a8a23798f9c",
+    "citation_review_sha256": "f12c97e10431788caabfc8409d5946ba82732fce08f8904b359c7f896fdccf66",
+    "accepted_at": "2026-10-17T14:01:21.057548+08:00"
+  },
+  "reader_guide": {
+    "path": "papers/damping-output-boundaries/research/read-this-first.md",
+    "sha256": "5633d02ae47176cabb200fb467a96ac067e7e0cfcc5646ea71ea7976daeeb72f",
+    "delta_review_sha256": "a0461d7c10671485b5751a57354d9106d5fffb3c311f324c3fd0e222407ebc84",
+    "accepted_at": "2026-10-17T14:01:21.057548+08:00"
   }
 }

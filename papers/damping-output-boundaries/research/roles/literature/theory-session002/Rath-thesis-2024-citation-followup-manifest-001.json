@@ -1,0 +1,32 @@
+{
+  "session": "20261017-1219",
+  "started_at": "2026-10-17T13:54:01+08:00",
+  "source_reading_closed_at": "2026-10-17T13:54:20+08:00",
+  "new_basis": "Already read Rath et al.2025 printed 021007-12 reference39 cites Rath2024 On Zeros of Flexible Systems, PhD dissertation, University of Michigan",
+  "new_basis_is_official_degree_year_verification": false,
+  "query_limit": 2,
+  "queries_used": 2,
+  "queries": [
+    {"q": "site:deepblue.lib.umich.edu \"On Zeros of Flexible Systems\" Rath", "domains": ["deepblue.lib.umich.edu"]},
+    {"q": "site:umich.edu \"Siddharth Rath\" \"2024\" dissertation", "domains": ["umich.edu"]}
+  ],
+  "returned_batch": [
+    {"ref": "turn96search0", "url": "https://available-inventions.umich.edu/product/fabrication-and-assembly-of-novel-flexure-mechanism-based-xy-motion-system", "relevance": "Unrelated university invention record, not thesis", "opened": false},
+    {"ref": "turn96search1", "url": "https://available-inventions.umich.edu/product/fabrication-and-assembly-of-novel-flexure-mechanism-based-xy-motion-system/print", "relevance": "Print version of same unrelated invention record", "opened": false}
+  ],
+  "result_count_per_query": null,
+  "result_count_limitation": "Tool returned combined batch; no invented independent hit counts",
+  "new_valuable_official_thesis_paths": [],
+  "prior_query_overlap": "Old manifest already has author/zeros/dissertation/2024 site:umich.edu direction; exact new strings differ, year direction overlaps",
+  "old_failed_endpoints_retried": false,
+  "additional_pages_opened": 0,
+  "downloads": 0,
+  "login_payment_or_author_contact": false,
+  "thesis_record_found": false,
+  "thesis_pdf_obtained": false,
+  "thesis_pdf_sha256": null,
+  "abstract_toc_model_or_theorem_pages_read": [],
+  "same_condition_coverage": "Unresolved; no new thesis-content evidence",
+  "stop_reason": "Two-query cap reached; no valuable new official thesis path found; do not expand or repeat old failed endpoints",
+  "old_reports_shared_manuscript_git_or_subtasks_changed": false
+}
