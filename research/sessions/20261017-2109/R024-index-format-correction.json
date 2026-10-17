@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-18T05:55:35.165436+08:00",
+  "failed_before_commit_or_push": true,
+  "failed_path": "docs/Maxwell六角色协作-20261017.md",
+  "cause": "Master wrote nonfrozen docs with Windows default CRLF; Git normalizes this docs file to LF. papers/research byte-preserving attributes differ.",
+  "old_working_sha256": "54b43d4758103a4295900c0df658954f0c45f886d29565c6a5b16eabbb40ae2a",
+  "old_index_sha256": "9396326e61af8b9f68e0e560e470d1ceb9579d24bac0cf9a158bf65f5e99cb71",
+  "only_newlines_differ": true,
+  "corrected_working_sha256": "9396326e61af8b9f68e0e560e470d1ceb9579d24bac0cf9a158bf65f5e99cb71",
+  "staged_exact_owned_manifest_count_unstaged": 74,
+  "unrelated_index_or_working_changes_touched": false,
+  "frozen_scientific_bytes_changed": false,
+  "global_git_config_changed": false,
+  "next_step": "Regenerate preflight after master runs log update, stage exact paths and recheck every blob before normal commit/push."
+}

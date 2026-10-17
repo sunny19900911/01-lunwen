@@ -1,0 +1,252 @@
+{
+  "checked_at": "2026-10-18T05:42:16.199920+08:00",
+  "scope": "Byte-level limited prose repair comparison; formulas and existing scientific results not rederived.",
+  "pairs": [
+    {
+      "old": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v001.md",
+        "bytes": 15713,
+        "sha256": "98de2905d9871dffa5a39b9ec61d5d9d84edc6607a7ea25c609dd6c61611b320"
+      },
+      "new": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v002.md",
+        "bytes": 16067,
+        "sha256": "af496eafe3996eb73f48be5be5722ebfa895265fd4965af204ab30f9c58d5911"
+      },
+      "equation_count": 10,
+      "equations": [
+        {
+          "tag": 1,
+          "old_sha256": "a2d9937ced3b45b1e6573da76806bc55d2fae45dd6cea8742872796de7a1d846",
+          "new_sha256": "a2d9937ced3b45b1e6573da76806bc55d2fae45dd6cea8742872796de7a1d846",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 2,
+          "old_sha256": "447c571eefdd87644a0d37b62ce3fc7e55cb89a61b4ba3b04b0425c114d70d45",
+          "new_sha256": "447c571eefdd87644a0d37b62ce3fc7e55cb89a61b4ba3b04b0425c114d70d45",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 3,
+          "old_sha256": "ac32b0eb93cf88d2de515fe7777a50e47ed8d27c275241165095979f9b7a8568",
+          "new_sha256": "ac32b0eb93cf88d2de515fe7777a50e47ed8d27c275241165095979f9b7a8568",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 4,
+          "old_sha256": "05d2b31a2c6a87718d6b65ad9738d941bd74e3d2124919aef2b6695c03ae6b3f",
+          "new_sha256": "05d2b31a2c6a87718d6b65ad9738d941bd74e3d2124919aef2b6695c03ae6b3f",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 5,
+          "old_sha256": "7cc13a83affc26789f70d6085b055f6e02a9a813161dbb90144f2325f9a3481c",
+          "new_sha256": "7cc13a83affc26789f70d6085b055f6e02a9a813161dbb90144f2325f9a3481c",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 6,
+          "old_sha256": "41c7943726ff61292456dd6b314ea7e042d9302dc9bc56db19ccc727f0fd8e0a",
+          "new_sha256": "41c7943726ff61292456dd6b314ea7e042d9302dc9bc56db19ccc727f0fd8e0a",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 7,
+          "old_sha256": "b2894b5bf8d78bdb81b4306d85d69b54e92388d9a89326fc294084a0c8448f21",
+          "new_sha256": "b2894b5bf8d78bdb81b4306d85d69b54e92388d9a89326fc294084a0c8448f21",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 8,
+          "old_sha256": "710ef0da42ba071c020883f3171634873a0d9312c2b46574f56dbbac40d2af36",
+          "new_sha256": "710ef0da42ba071c020883f3171634873a0d9312c2b46574f56dbbac40d2af36",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 9,
+          "old_sha256": "fe300cbc9c5b3f8171a8491bee9c985535f6f75f108a180dc8d96ef824283047",
+          "new_sha256": "fe300cbc9c5b3f8171a8491bee9c985535f6f75f108a180dc8d96ef824283047",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 10,
+          "old_sha256": "df0d038bfd0deb72e9c0e41b9daa19cfa917d7fa4da2d787ad24a9cdcf34ed2e",
+          "new_sha256": "df0d038bfd0deb72e9c0e41b9daa19cfa917d7fa4da2d787ad24a9cdcf34ed2e",
+          "exact_bytes_equal": true
+        }
+      ],
+      "tables": [
+        {
+          "data_rows": 4,
+          "old_sha256": "85013ba88bea47e86707b0d5fb366cd397da66fc746258fec89b52ca9ac4e595",
+          "new_sha256": "85013ba88bea47e86707b0d5fb366cd397da66fc746258fec89b52ca9ac4e595",
+          "exact_bytes_equal": true
+        }
+      ],
+      "images_exact": true,
+      "scientific_numbers_preserved_after_reversing_only_authorized_edits": true,
+      "original_numeric_token_count": 217,
+      "current_numeric_token_count": 223,
+      "numeric_scope_note": "Only necessary version/link/domain notation and the explicitly requested existing5%/8% model label add/change text digits; no scientific result number changed. Full allowed-edit reversal recovers old bytes.",
+      "full_authorized_reverse_SHA_matches": true,
+      "diff_hunks": [
+        {
+          "kind": "replace",
+          "old_lines": [
+            3,
+            3
+          ],
+          "new_lines": [
+            3,
+            3
+          ]
+        },
+        {
+          "kind": "replace",
+          "old_lines": [
+            93,
+            93
+          ],
+          "new_lines": [
+            93,
+            93
+          ]
+        },
+        {
+          "kind": "replace",
+          "old_lines": [
+            103,
+            103
+          ],
+          "new_lines": [
+            103,
+            103
+          ]
+        },
+        {
+          "kind": "replace",
+          "old_lines": [
+            157,
+            157
+          ],
+          "new_lines": [
+            157,
+            157
+          ]
+        },
+        {
+          "kind": "insert",
+          "old_lines": [
+            178,
+            177
+          ],
+          "new_lines": [
+            178,
+            179
+          ]
+        }
+      ]
+    },
+    {
+      "old": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-fixed-dissipation-peak-appendix-v001.md",
+        "bytes": 6726,
+        "sha256": "31f1d60317f94fc7b7b60a01e523f415b21c464682a5c6d4f77ebce1c2ea5741"
+      },
+      "new": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-fixed-dissipation-peak-appendix-v002.md",
+        "bytes": 6768,
+        "sha256": "c36bbd54984e119de7ca89b25f3bc651ce92e90bc13e3dcaf1c67d3cf6843f5f"
+      },
+      "equation_count": 7,
+      "equations": [
+        {
+          "tag": 1,
+          "old_sha256": "b09e0b73d1b8efa46e41e556ff78387e6aaa2e07b48f888a6c55cf5b20663817",
+          "new_sha256": "b09e0b73d1b8efa46e41e556ff78387e6aaa2e07b48f888a6c55cf5b20663817",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 2,
+          "old_sha256": "ec19fa0d9c7c5981fa14c74c4fc60c8b920dbb4d91f8a6542dbef8055eb8d076",
+          "new_sha256": "ec19fa0d9c7c5981fa14c74c4fc60c8b920dbb4d91f8a6542dbef8055eb8d076",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 3,
+          "old_sha256": "3374e811b8f440a991e57663f98ca73a52f02cf4e14a5cbdcece2060d5ef2be3",
+          "new_sha256": "3374e811b8f440a991e57663f98ca73a52f02cf4e14a5cbdcece2060d5ef2be3",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 4,
+          "old_sha256": "719b9150ef328676bfd7661c305be5705925b280904201b24e9724d1e442265c",
+          "new_sha256": "719b9150ef328676bfd7661c305be5705925b280904201b24e9724d1e442265c",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 5,
+          "old_sha256": "23064307186094270b0653c1f6fe09c1de8b5b2fb2ae6c3f2351cf5a3132e0ef",
+          "new_sha256": "23064307186094270b0653c1f6fe09c1de8b5b2fb2ae6c3f2351cf5a3132e0ef",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 6,
+          "old_sha256": "bb515652d8abaca26c458ff5e70b3ae6a63ee658cb3f69382b0891fe91aa33c1",
+          "new_sha256": "bb515652d8abaca26c458ff5e70b3ae6a63ee658cb3f69382b0891fe91aa33c1",
+          "exact_bytes_equal": true
+        },
+        {
+          "tag": 7,
+          "old_sha256": "d7d64e4bfec4c906bc55156dcf6a504967644e0c8e5319157c402ee5b9308049",
+          "new_sha256": "d7d64e4bfec4c906bc55156dcf6a504967644e0c8e5319157c402ee5b9308049",
+          "exact_bytes_equal": true
+        }
+      ],
+      "tables": [
+        {
+          "data_rows": 6,
+          "old_sha256": "89f4f436d0d58e7f24b58f17d1c4d5e2fe625ae998ceb348182c9a0b617138d4",
+          "new_sha256": "89f4f436d0d58e7f24b58f17d1c4d5e2fe625ae998ceb348182c9a0b617138d4",
+          "exact_bytes_equal": true
+        }
+      ],
+      "images_exact": true,
+      "scientific_numbers_preserved_after_reversing_only_authorized_edits": true,
+      "original_numeric_token_count": 104,
+      "current_numeric_token_count": 105,
+      "numeric_scope_note": "Only necessary version/link/domain notation and the explicitly requested existing5%/8% model label add/change text digits; no scientific result number changed. Full allowed-edit reversal recovers old bytes.",
+      "full_authorized_reverse_SHA_matches": true,
+      "diff_hunks": [
+        {
+          "kind": "replace",
+          "old_lines": [
+            3,
+            3
+          ],
+          "new_lines": [
+            3,
+            3
+          ]
+        },
+        {
+          "kind": "replace",
+          "old_lines": [
+            90,
+            90
+          ],
+          "new_lines": [
+            90,
+            90
+          ]
+        }
+      ]
+    }
+  ],
+  "reproduction_old_to_new_only_necessary_links_proof_provenance_reverse_exact": true,
+  "three_real_diffs_match_current_files": true,
+  "old_manifests": 25,
+  "old_entries": 145,
+  "old_source_current_SHA_matches": true
+}

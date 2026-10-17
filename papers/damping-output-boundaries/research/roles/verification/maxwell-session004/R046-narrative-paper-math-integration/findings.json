@@ -1,0 +1,19 @@
+{
+  "required_changes": 1,
+  "formula_changes_required": 0,
+  "findings": [
+    {
+      "id": "R046-M1",
+      "priority": 2,
+      "required": true,
+      "category": "mathematical terminology / dimensions",
+      "file": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v001.md",
+      "line": 93,
+      "excerpt": "D_min虽合法，却低于U逆的像域",
+      "issue": "U_J^{-1} has dissipation domain [D0,Dmax] and force image J. D_min is energy and cannot be compared to that force image. Formula5 and formula6 are correct.",
+      "proposed_sentence": "D_min虽在总耗散域内，却不在U_J^{-1}的定义域[D0,D_max]内，因为D_min<D0。",
+      "source_phrase_also_present_in_old_appendix": true,
+      "old_sources_not_modified": true
+    }
+  ]
+}

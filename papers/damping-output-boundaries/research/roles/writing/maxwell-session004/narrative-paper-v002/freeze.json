@@ -1,0 +1,71 @@
+{
+  "frozen_at": "2026-10-18T05:42:16.202024+08:00",
+  "started_at": "2026-10-18T05:39:33+08:00",
+  "task_limit_minutes": 8,
+  "task_deadline": "2026-10-18T05:47:33+08:00",
+  "session_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Narrative-v002 and fixed-D-v002 author-frozen repairs; await limited-diff independent review; stop.",
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v002.md",
+      "bytes": 16067,
+      "sha256": "af496eafe3996eb73f48be5be5722ebfa895265fd4965af204ab30f9c58d5911"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-fixed-dissipation-peak-appendix-v002.md",
+      "bytes": 6768,
+      "sha256": "c36bbd54984e119de7ca89b25f3bc651ce92e90bc13e3dcaf1c67d3cf6843f5f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\input-freeze.json",
+      "bytes": 12684,
+      "sha256": "68b8d75b765fe3c6b611fa18a250b2b946a498b5da96f5ea0b2589b72845f6d9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\reproduction-appendix.md",
+      "bytes": 4982,
+      "sha256": "6d4b8bb335b07bff64e97adf2807ee23e2d51d43036e2abc1f317e6baf651b9c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\diff-narrative-from-v001.patch",
+      "bytes": 6002,
+      "sha256": "787029964dfe3ee5c445a5a1919e2f46b15c8c517124383a23ddac9f0e6b9ac6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\diff-fixed-D-appendix-from-v001.patch",
+      "bytes": 2269,
+      "sha256": "eeb20fb24d9367554e598cef0d8299f5a77c09826f778cef382423bf4ec66ffb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\diff-reproduction-from-v001.patch",
+      "bytes": 2770,
+      "sha256": "eb360e4fd1db0d1a223a8d5be138457597d5aab93940432841d6762a6b4f5fcd"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\preservation.json",
+      "bytes": 9215,
+      "sha256": "f2253f5f0fda1d7fa6a2ef92d00921b61413dede7c916c0ec0a5bc9cb89d23dd"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\evidence-map.json",
+      "bytes": 3795,
+      "sha256": "a29545634efae37f3d9583acff5a712a0a66b005aa138bca9b4620cfb62cfac7"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\validation.json",
+      "bytes": 2547,
+      "sha256": "a26fe698de11ae164b0dbd7f847bd0fc4a65d1c1d4ec9dfcdb9d69c4c6e0e869"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\report.md",
+      "bytes": 1687,
+      "sha256": "e85e3becaa7d15c517e06b46bf54a53331eb4aa05709b7b3c39e24c58b97b1dc"
+    }
+  ],
+  "static_check_count": 24,
+  "formula_counts_unchanged": [
+    10,
+    7
+  ],
+  "old_files_sources_shared_Git_not_written": true
+}

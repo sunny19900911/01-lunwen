@@ -1,0 +1,74 @@
+{
+  "started_at": "2026-10-18T05:33:19+08:00",
+  "completed_at": "2026-10-18T05:37:40.716801+08:00",
+  "elapsed_seconds": 261.716801,
+  "limit_minutes": 8,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Contributionsemanticintegrationreviewcomplete;one mandatory terminologyfix;authorfrozen unchanged;stop",
+  "mustfix": 1,
+  "required_changes": 1,
+  "findings": [
+    {
+      "id": "R028-M1",
+      "priority": 2,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v001.md",
+      "line": 93,
+      "text": "D_min虽合法，却低于U逆的像域",
+      "correction": "D_min虽合法，却低于U_J^-1的定义域下端D0",
+      "reason": "Inverse domain isdissipationrange[D0,Dmax],imageJisforcepeakrange;dimension/termsemanticmismatch",
+      "inherited_source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-fixed-dissipation-peak-appendix-v001.md",
+      "inherited_source_line": 90,
+      "source_also_misuses_term": true,
+      "formula_or_theorem_rejected": false,
+      "action": "Newnarrativeversionbyrootassignment;nofrozenfileedits"
+    }
+  ],
+  "review_scope": "Fullbody/reproductionappendix/evidencemap;classicalattribution,publicationunknown,licenseclassnotbuildingattainability,conditionalmachine/engineering/finaltopiclimits;notfullmathreproof",
+  "manuscript_sha256": "98de2905d9871dffa5a39b9ec61d5d9d84edc6607a7ea25c609dd6c61611b320",
+  "author_freeze_sha256": "c03122c23effd0ccc62d519b6ceeebcff04e707af55f01d4c1bc768f7c56ddf8",
+  "input_files_checked": 18,
+  "input_changed": [],
+  "author_frozen_files_checked": 6,
+  "author_direct_small_sources_checked": 15,
+  "protected_manifest_identities_checked": 24,
+  "protected_entries_arrays_CSV_not_opened": true,
+  "old_own_frozen_files_checked": 92,
+  "old_changed": [],
+  "engineering_table_exactly_in_compact_v004": true,
+  "display_equations": 10,
+  "one_existing_image": true,
+  "PNG_SVG_identity_checked": [
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\C025-layout-explanation-figure-v001\\C025_layout_explanation.svg",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\C025-layout-explanation-figure-v001\\C025_layout_explanation.png"
+  ],
+  "local_links_checked": 27,
+  "broken_links": [],
+  "UTF8_LF_whitespace_controlchecks_passed": true,
+  "readonly_subreview": {
+    "agent": "/root/prior_work_audit",
+    "fullreads": [
+      "body188lines",
+      "reproduction27lines",
+      "map76lines"
+    ],
+    "initial_semantic_scan_mustfix": 0,
+    "targeted_term_recheck_mustfix": 1,
+    "explicitly_corrected_prior_result": true,
+    "no_newqueries_program_arrays_orfiles": true
+  },
+  "math_role2_result_awaited_or_used": false,
+  "newsearch_download_authorchecks_newproof_arrays_ODE_shared_Git": false,
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 7544,
+      "sha256": "40f73673dcd72642b8408053511df50165110e4f89b7912c36ab4b3a5543b083"
+    },
+    {
+      "file": "report.md",
+      "bytes": 6225,
+      "sha256": "53cb35291de85f3adaa60d2203defcef46c2087a3772680c09c63098dd0891df"
+    }
+  ],
+  "validation_self_hash": "omitted intentionally"
+}

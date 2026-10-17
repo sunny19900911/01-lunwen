@@ -1,0 +1,79 @@
+{
+  "required_changes": 0,
+  "R046_M1_resolved_in_new_versions_only": true,
+  "R046_old_required_change_record_preserved": true,
+  "three_independent_diffs_and_reverse_checks": [
+    {
+      "old": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v001.md",
+        "bytes": 15713,
+        "sha256": "98de2905d9871dffa5a39b9ec61d5d9d84edc6607a7ea25c609dd6c61611b320"
+      },
+      "new": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v002.md",
+        "bytes": 16067,
+        "sha256": "af496eafe3996eb73f48be5be5722ebfa895265fd4965af204ab30f9c58d5911"
+      },
+      "patch": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\diff-narrative-from-v001.patch",
+        "bytes": 6002,
+        "sha256": "787029964dfe3ee5c445a5a1919e2f46b15c8c517124383a23ddac9f0e6b9ac6"
+      },
+      "independent_diff_identical": true,
+      "reverse_restores_old_bytes_and_SHA": true,
+      "restored_sha256": "98de2905d9871dffa5a39b9ec61d5d9d84edc6607a7ea25c609dd6c61611b320"
+    },
+    {
+      "old": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-fixed-dissipation-peak-appendix-v001.md",
+        "bytes": 6726,
+        "sha256": "31f1d60317f94fc7b7b60a01e523f415b21c464682a5c6d4f77ebce1c2ea5741"
+      },
+      "new": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-fixed-dissipation-peak-appendix-v002.md",
+        "bytes": 6768,
+        "sha256": "c36bbd54984e119de7ca89b25f3bc651ce92e90bc13e3dcaf1c67d3cf6843f5f"
+      },
+      "patch": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\diff-fixed-D-appendix-from-v001.patch",
+        "bytes": 2269,
+        "sha256": "eeb20fb24d9367554e598cef0d8299f5a77c09826f778cef382423bf4ec66ffb"
+      },
+      "independent_diff_identical": true,
+      "reverse_restores_old_bytes_and_SHA": true,
+      "restored_sha256": "31f1d60317f94fc7b7b60a01e523f415b21c464682a5c6d4f77ebce1c2ea5741"
+    },
+    {
+      "old": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v001\\reproduction-appendix.md",
+        "bytes": 4548,
+        "sha256": "004c24c870863d1216f696641bf33db75f1e3f6a1455c1129d2e7d9225108174"
+      },
+      "new": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\reproduction-appendix.md",
+        "bytes": 4982,
+        "sha256": "6d4b8bb335b07bff64e97adf2807ee23e2d51d43036e2abc1f317e6baf651b9c"
+      },
+      "patch": {
+        "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\diff-reproduction-from-v001.patch",
+        "bytes": 2770,
+        "sha256": "eb360e4fd1db0d1a223a8d5be138457597d5aab93940432841d6762a6b4f5fcd"
+      },
+      "independent_diff_identical": true,
+      "reverse_restores_old_bytes_and_SHA": true,
+      "restored_sha256": "004c24c870863d1216f696641bf33db75f1e3f6a1455c1129d2e7d9225108174"
+    }
+  ],
+  "ten_and_seven_formulas_byte_equal": true,
+  "both_tables_and_figure_reference_preserved": true,
+  "R017_direct_proof_identity_verified": true,
+  "authorized_version_terminology_proof_link_reproduction_and_engineering_clarifications_only": true,
+  "existing_science_numbers_and_machine_assumptions_unchanged": true,
+  "new_5_8_labels_are_old_model_clarification_not_new_data": true,
+  "local_link_counts": {
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v002.md": 9,
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-fixed-dissipation-peak-appendix-v002.md": 7,
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v002\\reproduction-appendix.md": 13
+  },
+  "no_old_history_scan_or_scientific_runs": true
+}

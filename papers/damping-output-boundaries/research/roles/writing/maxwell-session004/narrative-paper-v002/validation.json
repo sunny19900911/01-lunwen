@@ -1,0 +1,58 @@
+{
+  "validated_at": "2026-10-18T05:42:16.199920+08:00",
+  "passed": true,
+  "scope": "Author limited-diff static QA, not independent proof or confirmation of earlier source-review completeness.",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v002.md",
+    "bytes": 16067,
+    "sha256": "af496eafe3996eb73f48be5be5722ebfa895265fd4965af204ab30f9c58d5911"
+  },
+  "fixed_appendix": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-fixed-dissipation-peak-appendix-v002.md",
+    "bytes": 6768,
+    "sha256": "c36bbd54984e119de7ca89b25f3bc651ce92e90bc13e3dcaf1c67d3cf6843f5f"
+  },
+  "checks": {
+    "two_inverse_domain_sentences_corrected": true,
+    "no_inverse_image_mislabel_in_new_manuscripts": true,
+    "fixed_peak_proof_direct_R017_link": true,
+    "inversion_link_fixedD_v002": true,
+    "engineering_sampled_forceP_not_floor_displacement": true,
+    "old_elastic5_8_not_real_device_switch_pair": true,
+    "narrative_only_five_authorized_edit_operations": true,
+    "fixed_appendix_only_version_and_terminology": true,
+    "reproduction_only_version_links_proof_provenance": true,
+    "all10_narrative_formulas_byte_equal": true,
+    "all7_fixed_appendix_formulas_byte_equal": true,
+    "both_tables_allbytes_equal": true,
+    "all_image_Markdown_equal": true,
+    "all_scientific_numbers_preserved": true,
+    "authorized_reverse_recovers_both_old_files_exact_SHA": true,
+    "three_real_diffs_exact": true,
+    "all_local_links_resolve": true,
+    "full_machine_contract_unchanged": true,
+    "all_prior_scientific_engineering_priority_limits_unchanged": true,
+    "no_C040_C041_W5_branch_added": true,
+    "25_old_manifests145_entries_preserved": true,
+    "10_input_source_identities_preserved": true,
+    "UTF8_LF_noBOM_no_trailing_whitespace_except_diff_syntax": true,
+    "author_fix_pending_independent_diff_review": true
+  },
+  "check_count": 24,
+  "local_links": {
+    "maxwell-paper-narrative-v002.md": 9,
+    "maxwell-fixed-dissipation-peak-appendix-v002.md": 7,
+    "reproduction-appendix.md": 13
+  },
+  "display_equations": {
+    "narrative": 10,
+    "fixed_appendix": 7
+  },
+  "table_data_rows": {
+    "narrative": 4,
+    "fixed_appendix": 6
+  },
+  "old_manifests": 25,
+  "old_entries": 145,
+  "no_new_numeric_scientific_programs_arrays_solver_external_search_or_Git_write": true
+}

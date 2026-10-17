@@ -1,0 +1,62 @@
+{
+  "review": "R047",
+  "session": "20261017-2109",
+  "started_at": "2026-10-18T05:44:48.889424+08:00",
+  "frozen_at": "2026-10-18T05:47:32.844392+08:00",
+  "deadline": "2026-10-18T05:49:48+08:00",
+  "global_deadline_unchanged": "2026-10-18T07:09:45+08:00",
+  "required_changes": 0,
+  "status": "limited v002 diff review passed; old R046 finding unchanged",
+  "accepted_scope": "M1 terminology repair, version/proof/appendix/reproduction links, and two authorized engineering clarifications only. Ten+seven formulas unchanged and three old SHA identities independently reconstructed; other scope inherited, not reproved.",
+  "source_records_verified": 22,
+  "sources_unchanged": true,
+  "all_prior_history_rescanned": false,
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R047-narrative-v002-diff-review\\audit_diff.py",
+      "bytes": 6843,
+      "sha256": "f83243fb96773d75222168a267f60f75762e0d855a1a205a3c22abd1cc37690c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R047-narrative-v002-diff-review\\checks.json",
+      "bytes": 5011,
+      "sha256": "681797c6011978caf1299e9fa6046210536b04ca9bc15ecb76e2b2f88df03aa1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R047-narrative-v002-diff-review\\closure_checks.json",
+      "bytes": 499,
+      "sha256": "7f4d9d98e73ecbed6756d61f7871b35e3a335d6db76e2aac7dc6a4c0c0f491ac"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R047-narrative-v002-diff-review\\freeze_review.py",
+      "bytes": 2665,
+      "sha256": "bc9951cc2a0b521e28c30c3b19d51e9ec699619c5cda07b5b5090ef49a2c1dc3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R047-narrative-v002-diff-review\\independent-diff-fixed-D-appendix-from-v001.patch",
+      "bytes": 2269,
+      "sha256": "eeb20fb24d9367554e598cef0d8299f5a77c09826f778cef382423bf4ec66ffb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R047-narrative-v002-diff-review\\independent-diff-narrative-from-v001.patch",
+      "bytes": 6002,
+      "sha256": "787029964dfe3ee5c445a5a1919e2f46b15c8c517124383a23ddac9f0e6b9ac6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R047-narrative-v002-diff-review\\independent-diff-reproduction-from-v001.patch",
+      "bytes": 2770,
+      "sha256": "eb360e4fd1db0d1a223a8d5be138457597d5aab93940432841d6762a6b4f5fcd"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R047-narrative-v002-diff-review\\report.md",
+      "bytes": 3254,
+      "sha256": "6908e28059271be8f7f44fdc99c52d7944819439a2722430020a640af0a0b151"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R047-narrative-v002-diff-review\\source-freeze.json",
+      "bytes": 7817,
+      "sha256": "4224678f468bd00daba5c734aa9ab407d58adacfdab85e8a30dd520ffba7c43d"
+    }
+  ],
+  "output_count": 9
+}

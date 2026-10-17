@@ -1,0 +1,76 @@
+{
+  "status": "Narrative candidate author-frozen pending independent integration review; not final-topic selection, publication or engineering validation.",
+  "adopted_base": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v004.md",
+    "bytes": 14566,
+    "sha256": "1c68afccee269708ac857adb74b98b94433deccbae6d972da4e239ac4191643b"
+  },
+  "current_admission": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R022-adoption.json",
+    "bytes": 19230,
+    "sha256": "8dda1f867e9926824f618018c13a60d8b0a415e5dd9f201892825f657cd54a1b"
+  },
+  "source_formula_reference": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-fixed-dissipation-peak-appendix-v001.md",
+    "bytes": 6726,
+    "sha256": "31f1d60317f94fc7b7b60a01e523f415b21c464682a5c6d4f77ebce1c2ea5741"
+  },
+  "additional_previously_read_primary_small_reports_checked_now": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\ideation\\maxwell-session004\\R030-dissipation-modal-output-bound\\report.md",
+      "bytes": 7442,
+      "sha256": "78722bbbd78ffd8e3ad725cfec16648997d1548ab7e505754a7997733f45c288"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\R042-dissipation-modal-bound-independent\\report.md",
+      "bytes": 6458,
+      "sha256": "c92dc64f6157bd4035961723fdbcd5c0d06cdcbf507ff25ee8b83e1f062ea604"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\verification\\maxwell-session004\\非零末力耗散峰力区间独审-R017.md",
+      "bytes": 7166,
+      "sha256": "5a3596a03e9508861ccfda513ee170addf62c29a35ef97e4ed9e33a3db4c5c6d"
+    }
+  ],
+  "notation_changes": {
+    "fixedD_source_P": "narrative mathcal P (dissipation power)",
+    "fixedD_source_dwell_ell": "narrative theta, reserving ell for structural target",
+    "fixedD_source_q=1/alpha": "written explicitly as1/alpha; q in structural section means1+alpha",
+    "synthetic_protocol_root_r": "rho, no parameter change"
+  },
+  "claim_map": [
+    {
+      "section": 2,
+      "line": 17,
+      "claim": "C038 / M-C018",
+      "equations": "1-7",
+      "source": "Reviewed fixed-D appendix; R029/R040 and R041 integration through final R021. Equation6 adds explicit empty-D branch already present in source prose; W moves to equation1. No new derivation.",
+      "scope": "Measurable bounded v, AC F/delta, F0=0, nonzero FT, free terminal total delta, exact full device peak set; building attainability excluded."
+    },
+    {
+      "section": 3,
+      "line": 107,
+      "claim": "C029/C039",
+      "equations": "8-10",
+      "source": "Reviewed compact-v004 eq2/4 and R030/R042 full physical Green/true-force identity; MIT endpoint attribution follows R028.",
+      "scope": "Same physical M,K0,actualC,f/bodyIC and constraints; complete actual ports/target/kernel; finite H, common alpha, full true D or certified budget; no reduction/layout ranking."
+    },
+    {
+      "section": 4,
+      "line": 153,
+      "claim": "C025",
+      "source": "Original figure/caption, R011 current adoption and exact nonlinear protocol; no new numerical output.",
+      "scope": "Dimensionless fixed-u1 exchange pair, exact same input/IC and selected histories; numeric inequalities conditional on full machine/continuous residual/tail contract in reproduction appendix."
+    },
+    {
+      "section": 5,
+      "line": 165,
+      "claim": "Engineering audit inherited from compact-v004 / long-v010",
+      "source": "Engineering table byte-identical to compact-v004 first table; all figures and metrics reused.",
+      "scope": "193 complete combinations, common192, one training and191 conditional checks, no actual paired/layout/forward validation."
+    }
+  ],
+  "narrative_omissions": "C026/C027, implementation replay, machine logs, C036 and new branches are not imported; omission does not change their historical evidence. This candidate focuses on C038/C039, one exchange illustration and actual audit.",
+  "provenance": "Final R021 and its addendum correct early illustration root-QA link; no old QA recovery claim; current R022 admits compact-v004 only.",
+  "new_science": false
+}

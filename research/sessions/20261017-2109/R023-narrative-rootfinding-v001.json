@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-18T05:35:17.645586+08:00",
+  "manuscript_sha256": "98de2905d9871dffa5a39b9ec61d5d9d84edc6607a7ea25c609dd6c61611b320",
+  "root_full_body_appendix_evidence_map_read": true,
+  "M1": {
+    "quote": "D_min虽合法，却低于U逆的像域",
+    "issue": "Dmin is energy and lies below domain of inverse U, not its image J in force. Eq5 correctly states inverse domain; fix prose to U inverse domain / U image.",
+    "status": "Root mustfix, awaiting independent full review before single combined writer repair"
+  },
+  "citation_suggestion": "Fixed-D appendix invokes R017 for fixed-peak full-range theorem rather than re-proving it. A direct reader-facing link to that proof makes the assertion easier to inspect; source chain exists.",
+  "unreviewed_external_auxiliary_data_suggestions": "Not imported; no new engineering table or 672-pair/4-of66 claim adopted here."
+}

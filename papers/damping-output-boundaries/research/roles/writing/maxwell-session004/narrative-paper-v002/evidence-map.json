@@ -1,0 +1,76 @@
+{
+  "status": "Narrative-v002 and fixed-D-appendix-v002 author-frozen repairs; pending finite-diff independent review, not adopted/published.",
+  "superseded_reading_candidates": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v001.md",
+      "bytes": 15713,
+      "sha256": "98de2905d9871dffa5a39b9ec61d5d9d84edc6607a7ea25c609dd6c61611b320"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-fixed-dissipation-peak-appendix-v001.md",
+      "bytes": 6726,
+      "sha256": "31f1d60317f94fc7b7b60a01e523f415b21c464682a5c6d4f77ebce1c2ea5741"
+    }
+  ],
+  "new_candidates": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-narrative-v002.md",
+      "bytes": 16067,
+      "sha256": "af496eafe3996eb73f48be5be5722ebfa895265fd4965af204ab30f9c58d5911"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-fixed-dissipation-peak-appendix-v002.md",
+      "bytes": 6768,
+      "sha256": "c36bbd54984e119de7ca89b25f3bc651ce92e90bc13e3dcaf1c67d3cf6843f5f"
+    }
+  ],
+  "erratum": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R023-C038-terminology-erratum-v001.md",
+    "bytes": 1467,
+    "sha256": "b0f049f81ac13450e0720bf5dd7bcfc6213fb8c831a121acea223058df6e2180"
+  },
+  "review_inputs": {
+    "R046_math": "one terminology MUSTFIX; equations unchanged",
+    "novelty_R028": "same one terminology MUSTFIX",
+    "experiments_R026": "0MUSTFIX, twoP3 clarifications authorized by master"
+  },
+  "repairs": [
+    {
+      "files": [
+        "narrative-v002",
+        "fixed-D-appendix-v002"
+      ],
+      "lines": [
+        93,
+        90
+      ],
+      "content": "D_min虽在总耗散域内，却不在U_J⁻¹的定义域[D0,D_max]内，因为D_min<D0",
+      "reason": "U_J inverse domain is an energy interval[D0,Dmax], image is force intervalJ; D_min energy is below inverse-domain lower endpointD0.",
+      "math_change": false
+    },
+    {
+      "file": "narrative-v002",
+      "line": 103,
+      "content": "Direct link to old nonzero-terminal R017 fixed-peak fill proof; inverse result links new fixed-D-v002. No claim inversion appendix is a self-contained proof of full forward theorem."
+    },
+    {
+      "file": "narrative-v002",
+      "line": 178,
+      "content": "Sampled exported device axial-forceP peaks, not floor displacement peaks; old elastic uniform modal5%/8% results not matched real-device switch comparison."
+    }
+  ],
+  "version_link_changes_only_elsewhere": true,
+  "source_provenance": "Earlier adopted fixed-D-v001 prose error remains visible with root erratum; earlier staticpasses and adoption do not imply this sentence was correct. No old QA/status/manuscript overwritten. Final R021/R022 source chain and machine/engineering/priority restrictions unchanged.",
+  "preservation_record": "preservation.json",
+  "source_claim_map_inherited_from": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\maxwell-session004\\narrative-paper-v001\\evidence-map.json",
+    "bytes": 4714,
+    "sha256": "5ce57c885aa7ba5d0b3528e3821d72c2746aa43aff53be8814d3ee394651cc94"
+  },
+  "new_science": false,
+  "excluded_branches": [
+    "C040",
+    "C041",
+    "new W5 data suggestions"
+  ]
+}

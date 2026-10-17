@@ -1,0 +1,19 @@
+--- maxwell-fixed-dissipation-peak-appendix-v001.md
++++ maxwell-fixed-dissipation-peak-appendix-v002.md
+@@ -1,6 +1,6 @@
+ # 固定真实耗散的完整可达峰集合
+ 
+-v001，2026年10月18日；独立短附录，待整合复审。依据[根C038采用记录](../../../research/sessions/20261017-2109/R020-C038-adoption.json)、[作者R029](../research/roles/ideation/maxwell-session004/R029-fixed-dissipation-peak-inverse/report.md)、[独立R040](../research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/report.md)及其[冻结后比对](../research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/post-freeze-comparison/report.md)。全文统一采用作者的D_min、D0、D_max，不混用独审中同名D0的另一含义。
++v002，2026年10月18日；独立短附录，待整合复审。依据[根C038采用记录](../../../research/sessions/20261017-2109/R020-C038-adoption.json)、[作者R029](../research/roles/ideation/maxwell-session004/R029-fixed-dissipation-peak-inverse/report.md)、[独立R040](../research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/report.md)及其[冻结后比对](../research/roles/verification/maxwell-session004/R040-fixed-D-inverse-independent/post-freeze-comparison/report.md)。全文统一采用作者的D_min、D0、D_max，不混用独审中同名D0的另一含义。
+ 
+ ## 1 问题与许可类
+ 
+@@ -87,7 +87,7 @@
+ 
+ 必要性来自L(M)≤D等价M≤M_+，D≤U(M)等价M≥M_−。M_+本身满足L(M_+)=D≤U(M_+)，故两端有序；源取满定理保证每个中间M均可达。任意域内D也可先取M=L_J⁻¹(D)，因此完整耗散域没有缺口。若D_min<D<D_max，则h<M_+<M_T且U(M_+)>L(M_+)=D，故M_−<M_+。
+ 
+-特别地，D=D_min合法，但低于U逆的像域下端D0；裸写U_J⁻¹(D)无定义，事后再取max(h,逆值)不能补救。式（6）的max在**逆函数参数内**，只用于合法D的U像域截取。
++特别地，D_min虽在总耗散域内，却不在U_J⁻¹的定义域[D0,D_max]内，因为D_min<D0；裸写U_J⁻¹(D)无定义，事后再取max(h,逆值)不能补救。式（6）的max在**逆函数参数内**，只用于合法D的U像域截取。
+ 
+ | 前置条件 | 固定D的完整结论 |
+ |---|---|
