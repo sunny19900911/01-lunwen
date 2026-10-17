@@ -37,3 +37,5 @@ V002见`roles/verification/round-002.md`；C008见`round-004.md`、`reply-I005.m
 V002报告的来源SHA affe…与运行JSON/当前源c27…差异已关闭：见`roles/verification/provenance-V002.md`。主控也独立在内存中将唯一08:59时间字段反向改09:00，恰重现早期散列，数学内容一致；保留两版本真实指纹，不声称它们原本同一冻结文本。
 
 核常数改进已由V006审核，当前工作稿优先采用C006 v2并保留v1历史。E-EXP-002b的合成三层谐波略超κ反例与E-EXP-003的截断窗示例已有独立限定范围审核，不与工程C004或C006完整峰界混淆。E-EXP-004经V007独立保存输入非FFT递推与曲率外包复核；主控已读完整报告和两份运行JSON，接纳为reviewed numerical-test，完整采样比1.81182964665、连续峰比保守数值下界1.80872158>1.6。样本运算仍float64，非严格区间认证；三网格各自重建候选，不能当同一输入纯积分收敛。标准剪切楼截面映射已由C012审核排除；这不是排除一般三维输出。
+
+2026-10-17 10:38 +08:00成稿交付复核：冻结working-draft-v009.md（SHA76dc25e88faae9c95ea411cee58d56371d526eee9f00b59e7d7ef3f0ff3ba028）已完成数学、数据/图表、引用和作者四项各自范围的终审，均无必修实质问题，报告分别见roles/verification/manuscript-review-v009.md、roles/experiments/manuscript-data-review-v009.md、roles/literature/manuscript-citation-review-v009.md及roles/writing/final-delivery-review-001.md。E012只作单支路近似补充，不改C017精确定义或C018失谐量词；此成稿审阅不提高新颖性、工程因果或浮点认证等级。

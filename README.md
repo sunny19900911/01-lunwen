@@ -4,6 +4,8 @@
 
 当前执行：[2026年10月17日两小时自主协作](research/sessions/20261017-0847/plan.md)，角色聊天见[线程登记](research/sessions/20261017-0847/threads.json)，待决事项见[独立清单](papers/damping-output-boundaries/research/decisions-pending.md)。本次常规提交/推送已由用户明确授权，截止后不自动续期。
 
+本次课题的[论文、核心图与证据审阅入口](papers/damping-output-boundaries/README.md)集中连接冻结稿、主张账本、两版选题方案及文献补件；[当前选题卡](papers/damping-output-boundaries/research/topic-cards/T001.md)保留实际演变与尚未解决的判断。
+
 - [论文研究框架](docs/多角色论文研究框架.md)：角色、研究循环、论文目录与启动方式。
 - [research-paper-lab 技能](.agents/skills/research-paper-lab/SKILL.md)：可执行的研究工作流。
 - [角色提示词与交接协议](.agents/skills/research-paper-lab/references/collaboration-protocol.md)：检查点、运行去重、角色提示词和后台模板。
@@ -40,4 +42,4 @@
 
 GitHub保存获准的文本、脚本与结果版本。首次提交、后续推送、数据上传和发布分别按明确授权执行。远端版本与本地未提交改动有区别，跨机器交接前应确认使用的是同一版本。
 
-原始ETABS模型和大导出默认留在受控本地目录；仓库中的数据清单提供指纹及获取条件。本框架不预设某个工程结论成立，也不包含已执行的工程实验。
+原始ETABS模型和大导出默认留在受控本地目录；仓库中的数据清单提供指纹及获取条件。本框架不预设某个工程结论成立；本次实际运行的分析及其限制以课题证据记录为准。

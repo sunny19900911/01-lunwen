@@ -1,6 +1,6 @@
 {
   "session": "20261017-0847",
-  "phase": "running",
+  "phase": "awaiting-cutoff",
   "started_at": "2026-10-17T08:47:23+08:00",
   "deadline": "2026-10-17T10:47:23+08:00",
   "master_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
@@ -18,11 +18,11 @@
     "status": "ACTIVE"
   },
   "last_verified_push": {
-    "commit": "6bbd84ee3c09585a7006c174593045a03372f825",
+    "commit": "07c5ad5fe43195f3a9fc4604a8de012a2a5a2e92",
     "branch": "main",
     "remote": "origin",
     "verified_by": "proxy-scoped git ls-remote origin refs/heads/main",
-    "verified_at": "2026-10-17T10:15:30+08:00"
+    "verified_at": "2026-10-17T10:35:18.501385+08:00"
   },
   "git_identity": {
     "name": "Codex Paper Lab",
@@ -32,34 +32,34 @@
   "role_cursors": [
     {
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
-      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:10",
-      "status": "idle"
+      "cursor": "fcdb110c-3a64-475b-abef-239f4c9d167a:13",
+      "status": "idle-frozen-handoff"
     },
     {
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
-      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:8",
-      "status": "final-review-dispatched"
+      "cursor": "34c0737b-d73e-41fe-b89a-6368b1130cf7:12",
+      "status": "idle-frozen-handoff"
     },
     {
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
-      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:9",
-      "status": "final-review-dispatched"
+      "cursor": "32b00cdb-c9fc-4ae1-8596-a842e5766f95:14",
+      "status": "idle-frozen-handoff"
     },
     {
       "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
-      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:9",
-      "status": "final-review-dispatched"
+      "cursor": "37de1d96-0fa9-4399-8bfc-c2c12d0bcd34:13",
+      "status": "idle-frozen-handoff"
     },
     {
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:9",
-      "status": "final-review-dispatched"
+      "cursor": "d696c220-255b-466e-b993-5ca97a48496e:13",
+      "status": "idle-frozen-handoff"
     }
   ],
-  "next_checkpoint": "Final v009 math/data/citation reviews by10:39; fix substantive issues only; stop new dispatch10:47:23 and collect/final push/pause git.",
-  "recorded_at": "2026-10-17T10:34:06.896298+08:00",
+  "next_checkpoint": "At10:47:23: no new work; finish final-summary actual cutoff/scheduler/push state, pause git via automation_update preserving actual config, normal final push then remote verify. Final v009 frozen; no pending substantive revisions. Do not restart role tasks from historical next-task entries.",
+  "recorded_at": "2026-10-17T10:41:59.728131+08:00",
   "pending_push": null,
-  "latest_round": "R009.md",
+  "latest_round": "R010.md",
   "git_transport": {
     "proxy": "http://127.0.0.1:17890",
     "source": "existing Windows system proxy, host/port only",
@@ -74,13 +74,7 @@
     }
   ],
   "checkpoint_open": true,
-  "prepared_publication": "R009 frozen v008/v009 and completed evidence",
-  "in_flight_tasks": {
-    "ideation": "Completed A/C options; hold",
-    "verification": "Full frozen v009 mathematical integration review",
-    "literature": "Frozen v009 citations and contribution boundaries, no new search",
-    "experiments": "Frozen v009 source/figure/number review, no rerun",
-    "writing": "Wait substantive reviews; v010 only if required"
-  },
-  "last_snapshot_note": "All five targets checked via compact snapshots; early completed wake split final two checks; no reported tool errors. Frozen v006 not yet declared."
+  "prepared_publication": "R010 final reviews and frozen handoffs",
+  "in_flight_tasks": {},
+  "last_snapshot_note": "All five actual idle/completed, no reported errors; two handoff files per owner frozen with SHA."
 }
