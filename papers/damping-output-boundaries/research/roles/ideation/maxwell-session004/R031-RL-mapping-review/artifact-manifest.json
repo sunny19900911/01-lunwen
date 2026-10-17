@@ -1,0 +1,35 @@
+{
+  "round": "R031-RL-mapping-review",
+  "artifacts": [
+    {
+      "file": "author-crosscheck.json",
+      "bytes": 1407,
+      "sha256": "7b47ddfda072444ce61321a2e43edfec16e4bb4352f8dd45b43ff07db4a45ed1"
+    },
+    {
+      "file": "checks.json",
+      "bytes": 443,
+      "sha256": "256dbe05223e311393126bc6c2ba56fd9fc08ed0edfa5274aa85ede7912fb17c"
+    },
+    {
+      "file": "checks.py",
+      "bytes": 1882,
+      "sha256": "b7918579442e4f1e7b1ae5796f98168aaee4414ee19885507dc19a1f3af58546"
+    },
+    {
+      "file": "report.md",
+      "bytes": 3790,
+      "sha256": "868419082e6870fa46a2164013c0fd5fcad62aed8f64c85315482e65ae61cf40"
+    },
+    {
+      "file": "source-freeze.json",
+      "bytes": 1393,
+      "sha256": "1e32437d72f0e9fb998ddf3e0204341d8122edfb609b2b8dfe513dbe348c8335"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 2008,
+      "sha256": "b38d54b7626eb3385f8c3118a8c001ac535c0c82d1f3aab4bff945460e0df75a"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "base": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v003.md",
+    "bytes": 11264,
+    "sha256": "8c92fc07944df70491931733530902b7bd4e2d577b508fe5004741dcade06095"
+  },
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v004.md",
+    "bytes": 14566,
+    "sha256": "1c68afccee269708ac857adb74b98b94433deccbae6d972da4e239ac4191643b"
+  },
+  "status": "Author compact-v004 frozen pending independent integration review; publication only after review at a subsequent checkpoint.",
+  "adoption": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R021-adoption.json",
+    "bytes": 19777,
+    "sha256": "4372ebec3613c4e5f7f9640c36633965c348ecbe50f27d4a33b883c6b769f530"
+  },
+  "provenance_addendum": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261017-2109\\R021-provenance-addendum.json",
+    "bytes": 1229,
+    "sha256": "7b7d07264f108fde2ff0607a7692edcc202b5fece725ffe09f0389bd511c3b83"
+  },
+  "classic_primary_source_record": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R028-convolution-holder-source\\source-manifest-R028.json",
+    "bytes": 2354,
+    "sha256": "7920c4375b231edafda7c6759fbd33cbb4095c3cfbb9b5a113f2deaaee36b299"
+  },
+  "primary_scope": "R028 literature/root actually checked MIT original pages2/3. This writer read the frozen source report and manifest, no new original PDF, search or download.",
+  "added_or_changed": [
+    {
+      "location": "version line",
+      "line": 3,
+      "content": "v004 metadata only"
+    },
+    {
+      "location": "abstract",
+      "line": 7,
+      "content": "One finite-window classical same-alpha bound mention"
+    },
+    {
+      "location": "section4 after C031",
+      "line": 92,
+      "content": "Common physical model/IC/load, p/q, full spatial kernel, true all-device Dtot, classical Holder common-alpha bound and peak difference, conditions and source chain.",
+      "sources": [
+        "R021-adoption.json",
+        "R021-provenance-addendum.json",
+        "R030 author report",
+        "R042 independent report and post-freeze comparison",
+        "R028 source report and primary manifest"
+      ]
+    },
+    {
+      "location": "section5",
+      "line": 118,
+      "content": "One scoped same-D/different-peaks sentence; free and different terminal total delta, no building attainability or main novelty.",
+      "sources": [
+        "reviewed fixed-D appendix v001",
+        "experiments R025 report",
+        "novelty R025 independent review"
+      ]
+    }
+  ],
+  "preservation": "Original three formulas, two data tables, all headings, entire section1-3 and original section4, figure, inputs, machine contract and discussion paragraphs exactly preserved. Reversing the four authorized changes recovers old source bytes."
+}

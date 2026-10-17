@@ -1,0 +1,89 @@
+{
+  "started_at": "2026-10-18T05:06:23+08:00",
+  "completed_at": "2026-10-18T05:11:51.857191+08:00",
+  "elapsed_seconds": 328.857191,
+  "limit_minutes": 10,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "BoundedRLpriorartcheckcomplete;relatedlinearJouleoptimizationlocated;exactM-C018coverageunresolved;freezeandstop",
+  "new_queries": 2,
+  "query_strings": [
+    "\"RL circuit\" \"optimal control\" \"Joule\" voltage current peak energy",
+    "\"magnetic stimulation\" \"optimal\" \"Joule\" \"voltage\" waveform"
+  ],
+  "readable_primary_fulltexts": 1,
+  "primary_PDF_sha256": "6e7449324392802c8351138e3643fae8e966e89c34352a32cb2824d5b118e63f",
+  "primary_actualpageimages_viewed": [
+    2,
+    10
+  ],
+  "primary_text_read_pages": [
+    1,
+    2,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "not_full12page_proofread": true,
+  "source_scope": "2013Joule/current-squaredtargetrelated;capispureinductivevoltage;zerosplineendcurrentandneuralconstraint;bestfoundlocalminima;notestablishedfullfixedpeakcostinterval",
+  "alpha1_not_generalalpha": true,
+  "mapping_original_protocol_unchanged": true,
+  "mapping_addendum_sha256": "09c364fa7cecee649d7c9b1e140a35db06757d1ab34079c656f7a44977f540c9",
+  "mapping_delta_integralU_notgeneralQ": true,
+  "C038_status": "Classicalalreadyadoptedrestrictedinverseconsequence;nofirstclaim",
+  "TMS2025_candidate": "Unread;PMCrecaptcha,publisher403;no coverageclassificationfromsnippets",
+  "Gusev_MathNet_or_oldfailedentries_retried": false,
+  "login_paid_captcha_bypass": false,
+  "input_files_checked": 5,
+  "input_changed": [],
+  "additional_mapping_input_checked": 1,
+  "old_own_frozen_files_checked": 86,
+  "old_changed": [],
+  "raw_source_cache_files_checked": 4,
+  "raw_source_outsidecache": 0,
+  "readonly_subreview": {
+    "agent": "/root/prior_work_audit",
+    "scope": "Protocol/oldR017keys;then sameGoetz2013cachePDF2,8,10text;noimages,queries,retrievals,calculationsorfiles",
+    "findings": "Jouletargetgenuine;pureinductivecapdifferentfromtotalRLinput;zerosplineboundarymustnotgeneralizeallparameterizations;localminima/fullcostintervalgap;deltanotgeneralcharge"
+  },
+  "local_links_checked": 7,
+  "broken_links": [],
+  "table_data_rows": 5,
+  "UTF8_LF_whitespace_controlchecks_passed": true,
+  "newproof_scientificcalculations_ODE_arrays_originalExcel_shared_Git": false,
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 2042,
+      "sha256": "8bb232978f4ab9399373f830a3575f54bde8039243b47e2b9e7a75ca7985554c"
+    },
+    {
+      "file": "mapping-addendum-input.json",
+      "bytes": 515,
+      "sha256": "dd068029ef23b7f22545fae9d6cf2ba0b5ecb0776999d7fc7158da7d57dd13d2"
+    },
+    {
+      "file": "report.md",
+      "bytes": 5302,
+      "sha256": "e01a8ac619c33918d01a3919963f9d99651552f5f92cb75181ae47e7f87ff804"
+    },
+    {
+      "file": "retrieval.json",
+      "bytes": 695,
+      "sha256": "297251d5d46543bb1c9ecf0ffdd4d0785f4cc014027591107daa49b52c98ecbe"
+    },
+    {
+      "file": "search-log.json",
+      "bytes": 1633,
+      "sha256": "a8fa9bee83d7ccaf69638dcdc45d817e6a96251649f27a21ee0a60abbf40e8bf"
+    },
+    {
+      "file": "source-manifest.json",
+      "bytes": 4005,
+      "sha256": "1751c359d5bb6dd63113f3a3b7d77ffb5f8159301aac2c325c0d7e9dd8a6e0f6"
+    }
+  ],
+  "raw_cache_manifest": "source-manifest.json",
+  "validation_self_hash": "omitted intentionally"
+}

@@ -1,0 +1,66 @@
+{
+  "started_at": "2026-10-18T04:53:04+08:00",
+  "completed_at": "2026-10-18T04:57:56.705342+08:00",
+  "elapsed_seconds": 292.705342,
+  "limit_minutes": 8,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "status": "Finitealternatesourcecheckcomplete;GusevbodyunavailableandM-C018coverageunresolved;freezeandstop",
+  "new_queries": 1,
+  "query": "\"10.15826/umj.2017.1.003\" Gusev MathNet",
+  "official_metadata_read": true,
+  "Gusev_PDF_body_obtained": false,
+  "body_sha256": null,
+  "source_version_level": "OfficialMathNetmetadataonly;PDFversionnotverified",
+  "transport_failures": [
+    "webMathNetfulltextlink:connectionfailedwithoutHTTPstatus",
+    "singleMathNetdirectrequest:SSLhandshaketimeoutwithoutHTTPstatus"
+  ],
+  "umjuran_old_channel_retried": false,
+  "other_mirrors_http_downgrade_login_or_paid_access": false,
+  "exactcondition_coverage": "unresolved;notexcludedfromabstract",
+  "generalframework_complete_specialization": "unresolvedwithoutbody",
+  "C038": "Classicalalreadyadoptedconsequenceonly;nofirstclaim",
+  "input_files_checked": 5,
+  "input_changed": [],
+  "old_own_frozen_files_checked": 81,
+  "old_changed": [],
+  "local_cache_rawfiles": 0,
+  "table_data_rows": 6,
+  "local_links_checked": 7,
+  "broken_links": [],
+  "UTF8_LF_whitespace_controlchecks_passed": true,
+  "readonly_subreview": {
+    "agent": "/root/prior_work_audit",
+    "scope": "OldliteratureR027report/log/manifestandM-C018comparisonkeys;no queries,retrievals,calculationsorfiles",
+    "finding": "OldpublisherInternalErrorhadnoHTTPstatus;laterSSLtimeout;oldPDFdirectlinknotsaved;cannotdecidecoveragewithoutbody"
+  },
+  "newproof_scientificcalculation_arrays_originalExcel_solver_shared_or_git": false,
+  "files": [
+    {
+      "file": "input-freeze.json",
+      "bytes": 2269,
+      "sha256": "f26a99eab4806ddd44a01edc6be3632f23c4fea937e8410c1c6bf2255937421b"
+    },
+    {
+      "file": "report.md",
+      "bytes": 4642,
+      "sha256": "df360a3bf55ae4262f4c59686ef26d7b6cfa118ae613a4a93cd87f1222664323"
+    },
+    {
+      "file": "retrieval-attempt.json",
+      "bytes": 355,
+      "sha256": "35c3a310bf67d65da3ea8e2016b7bee57383a6f4a117e3aa9f5d3888c004cc99"
+    },
+    {
+      "file": "search-log.json",
+      "bytes": 1444,
+      "sha256": "6ce8e989c08285a7387ef5e29b92a12c1b27ab4d9d3a111dfd01539fc44e8c3c"
+    },
+    {
+      "file": "source-manifest.json",
+      "bytes": 972,
+      "sha256": "bdc73e4a6a3651147107b30a89f5d806482b97edb7c1fba2e94c46cdd3a89e50"
+    }
+  ],
+  "validation_self_hash": "omitted intentionally"
+}

@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-18T05:11:07.171194+08:00",
+  "queries": [
+    "\"RL circuit\" \"optimal control\" \"Joule\" voltage current peak energy",
+    "\"magnetic stimulation\" \"optimal\" \"Joule\" \"voltage\" waveform"
+  ],
+  "total_new_queries": 2,
+  "readable_primary_fulltexts": 1,
+  "query1": "Mostlyconvertertextbooksandunrelatedsnippets;noneopened/classified",
+  "query2": "PrimaryTMSJoule/currentwaveformpapers;boundedtwo sourcecandidates",
+  "retrievals": [
+    {
+      "id": "Goetz2013",
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0055771&type=printable",
+      "web_fulltext": "PDF12pages readable",
+      "direct_cache": "HTTP200;see retrieval.json;no retry",
+      "read_scope": "PDF1metadata;PDF2and10actualpageimages;PDF2,7,8,9,10,11targettext;notall12pagesproofread"
+    },
+    {
+      "id": "TMS2025candidate",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12678852/",
+      "outcome": "webopen only Checkingyourbrowser-reCAPTCHA;no readablearticlebody",
+      "body_obtained": false,
+      "retry": false
+    },
+    {
+      "id": "TMS2025candidate",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1935861X25003286",
+      "outcome": "Differentofficialpublisherchannel webopen403Forbidden;no body",
+      "body_obtained": false,
+      "retry": false
+    }
+  ],
+  "new_readable_primary_count": 1,
+  "newscientificcalculations_proofs_ODE_arrays": false,
+  "Gusev_MathNet_oldfailedentries_retried": false,
+  "captcha_bypassed_or_login_paid_access": false,
+  "stop": "2querycapreached;one usableprimary;no furtherentryretry orreferenceschasing"
+}

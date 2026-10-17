@@ -1,0 +1,93 @@
+{
+  "primary_sources": [
+    {
+      "id": "Goetz2013",
+      "title": "Analysis and Optimization of Pulse Dynamics for Magnetic Stimulation",
+      "authors": [
+        "Stefan M. Goetz",
+        "Cong Nam Truong",
+        "Manuel G. Gerhofer",
+        "Angel V. Peterchev",
+        "Hans-Georg Herzog",
+        "Thomas Weyh"
+      ],
+      "journal": "PLOS ONE",
+      "year": 2013,
+      "volume": 8,
+      "issue": 3,
+      "article": "e55771",
+      "doi": "10.1371/journal.pone.0055771",
+      "published": "2013-03-01",
+      "version": "PublisherformalPDF12pages;title/datefromPDF1;CCBYnoted",
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0055771&type=printable",
+      "PDF_sha256": "6e7449324392802c8351138e3643fae8e966e89c34352a32cb2824d5b118e63f",
+      "actually_viewed_pages": [
+        2,
+        10
+      ],
+      "text_read_pages": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "key_locations": [
+        "PDF2ObjectivesandMethodOverview Eq1:current-squaredJoulecostandpureinductivevoltagecap",
+        "PDF8limitations:bestfoundlocalminima",
+        "PDF9-10Methods:spline/Fourierparameterization,Dirichletzeroendcurrentin splineclass,particle/localworkers",
+        "PDF11neuronresponsecriterion"
+      ],
+      "classification": "Relatedcurrent-squaredloss/capwaveformoptimization;notestablishedM-C018samecontrolsetorfullfixedpeakcostinterval;alpha1costanalogyonly"
+    },
+    {
+      "id": "TMS2025candidate",
+      "doi_from_search": "10.1016/j.brs.2025.09.009",
+      "body_obtained": false,
+      "body_sha256": null,
+      "classification": "Unresolved;searchsnippetnotusedforcoverage",
+      "failure_channels": [
+        {
+          "id": "TMS2025candidate",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12678852/",
+          "outcome": "webopen only Checkingyourbrowser-reCAPTCHA;no readablearticlebody",
+          "body_obtained": false,
+          "retry": false
+        },
+        {
+          "id": "TMS2025candidate",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1935861X25003286",
+          "outcome": "Differentofficialpublisherchannel webopen403Forbidden;no body",
+          "body_obtained": false,
+          "retry": false
+        }
+      ]
+    }
+  ],
+  "raw_cache_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R027-RL-equivalent-prior-art\\local-cache\\Goetz2013-p02.png",
+      "bytes": 593877,
+      "sha256": "b1815957d7ef0a5a9877d3e8670f415e4a967438848b490c4d18e638ebb3eb85"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R027-RL-equivalent-prior-art\\local-cache\\Goetz2013-p10.png",
+      "bytes": 572107,
+      "sha256": "c0061b5aeb8c1925faf1ef15344d8cd39df41d787614e447f6f97a3fb5511855"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R027-RL-equivalent-prior-art\\local-cache\\Goetz2013.pdf",
+      "bytes": 977456,
+      "sha256": "6e7449324392802c8351138e3643fae8e966e89c34352a32cb2824d5b118e63f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\novelty\\maxwell-session004\\R027-RL-equivalent-prior-art\\local-cache\\Goetz2013.txt",
+      "bytes": 83411,
+      "sha256": "dcaddc2092fff75ae8041e42642cf056542cb4bc08896c9d06d42b9661bd38d1"
+    }
+  ],
+  "raw_policy": "OriginalPDF/extractedtext/renderedpagesonlylocal-cache;no fulltextassetsoutsidecache",
+  "mapping_addendum": "Boundseparatelyinmapping-addendum-input.json;delta=integralU,notgeneralchargeQ"
+}

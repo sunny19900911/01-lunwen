@@ -1,0 +1,65 @@
+{
+  "validated_at": "2026-10-18T05:05:20.468913+08:00",
+  "draft": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\maxwell-paper-compact-v004.md",
+    "bytes": 14566,
+    "sha256": "1c68afccee269708ac857adb74b98b94433deccbae6d972da4e239ac4191643b"
+  },
+  "passed": true,
+  "scope": "Static author transcription/integration QA only; not independent reproof, formal proof, numerical kernel calculation or engineering validation.",
+  "checks": {
+    "v003_exact_source_SHA_preserved": true,
+    "final_R021_adoption_exact_SHA": true,
+    "provenance_addendum_used_early_link_excluded": true,
+    "five_numbered_sections_and_abstract_headers_preserved": true,
+    "two_tables_every_byte_preserved": true,
+    "original_three_equations_and_tags_preserved": true,
+    "exactly_four_display_equations_tags1to4": true,
+    "tag4_outside_aligned": true,
+    "figure_reference_and_old_C025_C027_contract_preserved": true,
+    "sections1to3_exact": true,
+    "entire_old_section4_prefix_exact": true,
+    "old_discussion_unchanged_with_one_scoped_paragraph": true,
+    "only_four_authorized_changes_reverse_to_v003_exactly": true,
+    "real_unified_diff_matches_draft": true,
+    "23_old_manifests133_entries_preserved": true,
+    "all_local_links_resolve": true,
+    "same_finite_physical_operator_input_bodyIC": true,
+    "common_alpha_and_conjugate_exponents": true,
+    "correct_complete_spatial_kernel": true,
+    "true_total_D_power_and_c_weight": true,
+    "certified_budget_not_ratio_subset_residual": true,
+    "only_difference_peak_band_no_reduction_order": true,
+    "budget_needed_modes_insufficient": true,
+    "finite_displacement_not_extended": true,
+    "classic_attribution_full_adopted_chain": true,
+    "fixed_D_example_scope": true,
+    "UTF8_LF_noBOM_no_trailing_whitespace": true
+  },
+  "check_count": 27,
+  "display_equations": 4,
+  "old_display_equations_preserved": 3,
+  "tables": 2,
+  "table_data_rows": [
+    4,
+    4
+  ],
+  "images": 1,
+  "local_links": 18,
+  "external_source_links": [
+    "https://fenix.tecnico.ulisboa.pt/downloadFile/3378094857519319/Extend_Paper_Dissipadores_Energia.pdf",
+    "https://math.mit.edu/~lguth/Math156/notes/25.pdf#page=3"
+  ],
+  "direct_input_files": 11,
+  "additional_small_source_manifest": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R028-convolution-holder-source\\source-manifest-R028.json",
+    "bytes": 2354,
+    "sha256": "7920c4375b231edafda7c6759fbd33cbb4095c3cfbb9b5a113f2deaaee36b299"
+  },
+  "protected_old_manifests": 23,
+  "protected_old_entries": 133,
+  "body_han_characters": 3123,
+  "new_theory_start_line": 92,
+  "fixed_D_sentence_line": 118,
+  "no_arrays_solver_integrals_ODE_external_search_or_original_fulltext_accessed": true
+}

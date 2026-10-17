@@ -1,0 +1,13 @@
+{
+  "all_passed": true,
+  "arithmetic": "fractions.Fraction",
+  "same_current_endpoints_and_charge": true,
+  "charge_exact": "1/2",
+  "resistor_drop_integrals": [
+    "1/3",
+    "59/168"
+  ],
+  "total_deformation_increment_difference": "1/56",
+  "power_dissipation_storage_identity_both_polynomials": true,
+  "scope": "Exact symbolic polynomial antiderivatives only; no quadrature, ODE, extrema, source search, trajectories/arrays or data."
+}

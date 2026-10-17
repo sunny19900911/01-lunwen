@@ -1,0 +1,19 @@
+{
+  "scope": "source attribution, provenance and text/diff integration; mathematical correctness separately reviewed by role2",
+  "must_fix": 0,
+  "independent_checks": 133,
+  "passed": 133,
+  "failed": 0,
+  "input_count": 44,
+  "last_input_identity_check_at": "2026-10-18T05:10:17.510930+08:00",
+  "finalization_input_rescan": false,
+  "external_urls_opened": 0,
+  "binary_media_or_arrays_read": 0,
+  "old_underlying_manifest_entries_rehashed": 0,
+  "finished_at": "2026-10-18T05:18:19.933527+08:00",
+  "deadline": "2026-10-18T05:15:17+08:00",
+  "within_deadline": false,
+  "late_seconds": 182.933527,
+  "delay_reason": "Report/freeze preparation after context compaction and one path lookup error; no new substantive checks after deadline, no time backdating. Finalization uses already completed checks and input snapshot only.",
+  "old_QA_bytes_recovered": false
+}

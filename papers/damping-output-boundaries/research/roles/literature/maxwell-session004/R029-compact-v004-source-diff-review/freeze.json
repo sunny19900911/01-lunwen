@@ -1,0 +1,41 @@
+{
+  "task": "R029-compact-v004-source-diff-review",
+  "status": "frozen; source/diff scope has zero must-fix; awaiting main integration decision",
+  "started_at": "2026-10-18T05:07:17+08:00",
+  "frozen_at": "2026-10-18T05:18:19.933527+08:00",
+  "deadline": "2026-10-18T05:15:17+08:00",
+  "elapsed_seconds": 662.933527,
+  "global_deadline": "2026-10-18T07:09:45+08:00",
+  "artifacts": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R029-compact-v004-source-diff-review\\report.md",
+      "bytes": 6444,
+      "sha256": "4c1c22599a63a9dafbd56be97b46ae7ff64258b9f13ddf567aabc5054dc67839"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R029-compact-v004-source-diff-review\\validation.json",
+      "bytes": 868,
+      "sha256": "8e351bd79cd9961b02043dbd2c5147ee2533055fd63376f36e25e38a5a351871"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R029-compact-v004-source-diff-review\\checks-R029.json",
+      "bytes": 32903,
+      "sha256": "035aa7fa505a2e1c9900217db9d6176389de93bed3bc6e16bb0e8a78deaa80fb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R029-compact-v004-source-diff-review\\input-rules-R029.json",
+      "bytes": 15121,
+      "sha256": "1d3fdbc3d11f4f650f4171353009a7ff34082170a2885f8518fbed6ae8babf47"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R029-compact-v004-source-diff-review\\review_R029.py",
+      "bytes": 7342,
+      "sha256": "48f84cc16bc5c3c690d817f3930e883e7c5984fab58b1873cd34d2b720a957ba"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\maxwell-session004\\R029-compact-v004-source-diff-review\\finalize_R029.py",
+      "bytes": 2463,
+      "sha256": "172d2c3e5f0a1ccb7dbf6bd885d9bfb3987f7b8fa56da5a8399594121bd82bd0"
+    }
+  ]
+}

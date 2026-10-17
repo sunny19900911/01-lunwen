@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-10-18T04:57:23.587245+08:00",
+  "queries": [
+    "\"10.15826/umj.2017.1.003\" Gusev MathNet"
+  ],
+  "total_new_queries": 1,
+  "new_channel": "MathNetofficialjournalrecordandfulltextlink",
+  "actions": [
+    {
+      "mechanism": "websearch",
+      "outcome": "MathNetofficialmetadataandPDFlinklocated;othersearchresultsnotopened"
+    },
+    {
+      "mechanism": "webopen",
+      "url": "https://www.mathnet.ru/eng/umj31",
+      "outcome": "Metadataread;redirectedMathNetarchive;notPDFbody"
+    },
+    {
+      "mechanism": "webclick",
+      "source_url": "https://www.mathnet.ru/eng/umj31",
+      "link_id": 33,
+      "outcome": "Toolfailed: Fatal error: connection failed: error sending request",
+      "HTTP_status": null,
+      "body_obtained": false,
+      "exact_target_url_returned": false
+    },
+    {
+      "mechanism": "singleurllibdirectrequest",
+      "details_file": "retrieval-attempt.json",
+      "outcome": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "HTTP_status": null,
+      "body_obtained": false,
+      "redirect_policy": "MathNetonly;publisherredirectstopped"
+    }
+  ],
+  "new_PDF_body_count": 0,
+  "umjuran_old_failed_channel_retried": false,
+  "http_scheme_or_other_mirrors_retried": false,
+  "login_or_paid_access": false,
+  "stop_reason": "No fulltext after alternatechannel transport/SSL failures;no furtherquery,retry,mirror orabstractbasedcoverageclassification"
+}

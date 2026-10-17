@@ -1,0 +1,48 @@
+--- maxwell-paper-compact-v003.md
++++ maxwell-paper-compact-v004.md
+@@ -1,10 +1,10 @@
+ # Maxwell能量指标与固定局部响应：工程审计与合成边界
+ 
+-阶段稿v003，2026年10月18日；在已审v002基础上补先例、图示与验证计划链接，待独立整合复审；v001/v002及其失败—修订记录原样保留。详细数据和证明见[工程长稿v010](maxwell-engineering-draft-v010.md)及[力—响应接口附稿](maxwell-force-response-interface-v001.md)。
++阶段稿v004，2026年10月18日；在已审v003基础上补入经典耗散—空间核条件界，待独立整合复审；旧版本及失败—修订记录原样保留。详细数据和证明见[工程长稿v010](maxwell-engineering-draft-v010.md)及[力—响应接口附稿](maxwell-force-response-interface-v001.md)。
+ 
+ ## 摘要
+ 
+-整体耗能、器件需求与固定位置响应不能互相替代。本文审计单一Maxwell工程模型的六工况导出，量化能量标定、力—变形条件一致性及局部记录缺口；再以两类无量纲合成例说明同能量历史不唯一确定固定局部峰、被动加装也不保证该峰单调降低。最后给出已知真实器件力后的条件位移差接口与带余项峰规则。所得为数据审计和明确条件下的基准，实际布置预测价值仍需公平配对验证。
++整体耗能、器件需求与固定位置响应不能互相替代。本文审计单一Maxwell工程模型的六工况导出，量化能量标定、力—变形条件一致性及局部记录缺口；再以两类无量纲合成例说明同能量历史不唯一确定固定局部峰、被动加装也不保证该峰单调降低。最后给出已知真实器件力后的条件位移差接口、带余项峰规则，以及同α真实总耗散经空间核得到的有限窗位移差界。所得为数据审计和明确条件下的基准，实际布置预测价值仍需公平配对验证。
+ 
+ ## 1 问题
+ 
+@@ -89,10 +89,32 @@
+ 
+ C031仅检验同源合成力的有限实现：FOH与FFT分别重放，FFT遍历98,305节点与原D缓存比较；两算法间只比较4项max/RMS统计及四点8个预测值，12项差最大约1.93×10⁻¹³，非整条预测逐点比较。普通浮点小误差没有认证真力插值、连续峰或新输入/布局预测；其准入范围见[根采用记录](../../../research/sessions/20261017-2109/R015-adoption.json)。
+ 
++还可将真实耗散预算与目标空间核合并。C039沿用C029的同一物理主体M≻0、裸K0≻0、实际C≽0、约束、外力f及主体初始位移/速度；U仅去掉指定Maxwell支路，装置质量及其他线性自由度保持。主体共同初态可非零。取有限0<H<∞、固定线性位移y=ℓᵀu；全部器件同α>0，κ_d、c_d>0。在式（2）的完整质量归一共同基及实际C经典对角化条件下，令
++
++$$
++\begin{aligned}
++p&=(1+\alpha)/\alpha,\quad q=1+\alpha,\qquad
++h_d(t)=\sum_j\gamma_j\beta_{dj}G_j(t),\\
++D_{\rm tot}(H)&=\sum_d c_d^{-1/\alpha}\int_0^H|F_{D,d}(s)|^p\,ds,\\
++\|y_D-y_U\|_{\infty,[0,H]}&\le\mathcal E_H:=
++\left[\sum_d c_d\int_0^H|h_d(t)|^q\,dt\right]^{1/q}
++D_{\rm tot}(H)^{1/p},\\
++|P(y_D)-P(y_U)|&\le\mathcal E_H.
++\end{aligned}\tag{4}
++$$
++
++Dtot须为全器件真实黏壶耗散，可用同模型同窗的认证上界替换；它不是表1能量比例、193组完整记录子集的能量，也不是FNA残余力的耗散。由端口功提供预算时先按式（1）逐器件扣起末弹簧储能。h_d绑定物理K0、实际C、目标及布置的完整有符号投影；非经典C须改用真实位移Green矩阵S所给h_d=ℓᵀS B_dᵀ。缺器件、模态或近似核须另加认证余项，不能补零。
++
++式（4）由真实耗散的力幂范数恒等式，再对时间和器件指标用Hölder直接得到；核先作空间有符号叠加再取范数，权重是c_d。经典工具出处为[MIT讲义p2 §1.2 Theorem3及p3的r=∞证明](https://math.mit.edu/~lguth/Math156/notes/25.pdf#page=3)，原页核查与有限因果窗映射见[文献R028](../research/roles/literature/maxwell-session004/R028-convolution-holder-source/report.md)；本条件推论的[作者R030](../research/roles/ideation/maxwell-session004/R030-dissipation-modal-output-bound/report.md)、[先独立R042](../research/roles/verification/maxwell-session004/R042-dissipation-modal-bound-independent/report.md)及[冻结后比对](../research/roles/verification/maxwell-session004/R042-dissipation-modal-bound-independent/post-freeze-comparison/report.md)，由[根R021正式采用](../../../research/sessions/20261017-2109/R021-adoption.json)准入。不认新定理或发表优先权。
++
++真实位移连续，故这里范数可取同窗连续sup；该式只给变化幅度或已知参考峰的误差带，不保证降低或布局排序。小核权重可能表示装置对目标几乎不起作用；各布局的核及真实耗散也会改变。本界不需完整F作数值输入，但真实耗散预算必须另有证据，不能由已有模态单独给出数值保证。未知真D不等于已完成前向预测，本式也不自动扩展至无限尾、加速度或含装置力的总层剪。
++
+ ## 5 讨论与结论
+ 
+ 工程审计给出可用子集、条件本构一致性和准确补导出位置；合成证据则表明，指定整体能量信息不普遍唯一辨识固定局部峰，被动加装也不保证该峰单调降低。二者共同要求把整体分账与目标响应分别验证，并不否定保守能量界或已公平验证的受限经验方法。
+ 
+ 条件力接口把问题推进到可核的有符号逐时贡献及误差预算，但力已知后的重构仍非预测。下一步应固定一个真实目标，闭合实际参数、端口、模态/背景和共同输入初态，再预设能量/统一阻尼基线、候选预测及容差，做身份匹配的成对验证。当前尚无真实工程设计优势、跨事件泛化、容量安全或全楼最优结论。经典工具的具体基准与数据审计是本阶段贡献，其同条件发表覆盖仍未知。
+ 
++单器件的[已审固定D附录](maxwell-fixed-dissipation-peak-appendix-v001.md)及[α=1两个固定峰说明例](../research/roles/experiments/maxwell-session004/R025-fixed-D-two-peak-example/report.md)（[独核](../research/roles/novelty/maxwell-session004/R025-fixed-D-example-review/report.md)）说明同真实耗散可对应不同峰；两例末总δ自由且彼此不同，只属于该器件的有界可测速度许可类，不证明建筑可实现这些运动，也不作为主创新。
++
+ 具体执行见[真实工程三门验证计划](maxwell-engineering-validation-plan-v001.md)：区分同源力诊断、仅模型/输入闭环预测和真实布局对照。该计划尚未执行工程验证，目标ID、工程容差及配对资料仍须先落实，不表示工程已通过任何一门。

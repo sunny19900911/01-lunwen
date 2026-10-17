@@ -1,0 +1,30 @@
+{
+  "round": "R031-RL-mapping-review",
+  "start": "2026-10-18T05:07:31+08:00",
+  "deadline": "2026-10-18T05:12:31+08:00",
+  "overall_deadline": "2026-10-18T07:09:45+08:00",
+  "frozen_at": "2026-10-18T05:08:12.749598+08:00",
+  "sources": [
+    {
+      "path": "papers/damping-output-boundaries/research/roles/novelty/maxwell-session004/R023-contribution-grading/report.md",
+      "bytes": 7693,
+      "sha256": "9d037f1409d384d5a86d41b608971669890a22309574f05940459548c16ad0d6"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/maxwell-session004/R027-nonzero-terminal-dissipation-prior-art/report.md",
+      "bytes": 8439,
+      "sha256": "bde5eb1cc53c372ddcfbd8179ab1e84da06f11adde8e50d0e36354e5a1733645"
+    },
+    {
+      "path": "research/sessions/20261017-2109/RL-equivalent-prior-art-protocol-v001.md",
+      "bytes": 1564,
+      "sha256": "9220db36a480305e2349f24ed901794ae3310148a2fd988a359bdf7cf7e4b606"
+    },
+    {
+      "path": "research/sessions/20261017-2109/RL-equivalent-prior-art-mapping-addendum-v001.md",
+      "bytes": 1049,
+      "sha256": "09c364fa7cecee649d7c9b1e140a35db06757d1ab34079c656f7a44977f540c9"
+    }
+  ],
+  "scope": "Mapping audit only; existing source scope plus both frozen root texts. No role6 in-progress source candidate, extrema, coverage conclusion, ODE, arrays, data, search, old/shared/manuscript/Git changes."
+}
