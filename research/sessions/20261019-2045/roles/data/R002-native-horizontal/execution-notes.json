@@ -1,0 +1,15 @@
+{
+  "status": "complete-candidate-await-independent-audit",
+  "checks": {
+    "rows_48_384_24_8": true,
+    "192_unique_native_device_case_records": true,
+    "compiled": true
+  },
+  "failed_attempts": [
+    {
+      "failure": "U1_mm*0.001 not bitwise identical to stored U1_m due to floating point conversion",
+      "correction": "kept native time equality exact; unit-conversion equality checked rtol1e-14 atol1e-16; no source values changed",
+      "partial_output_before_failure": "empty output directory only"
+    }
+  ]
+}

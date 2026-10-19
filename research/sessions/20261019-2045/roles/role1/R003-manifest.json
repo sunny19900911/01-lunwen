@@ -1,0 +1,32 @@
+{
+  "task": "role1 R003 provisional candidate trials",
+  "frozen_utc": "2026-10-19T15:00:03.598782+00:00",
+  "status": "provisional closeout from already-read frozen evidence; full-floor profile not incorporated",
+  "files": [
+    {
+      "file": "R003-candidate-trials.md",
+      "bytes": 6974,
+      "sha256": "824a89697c89e3b5c5cba723f3ba6083015c32e85f570c553399117247dcbe09"
+    },
+    {
+      "file": "R003-input-freeze.json",
+      "bytes": 1965,
+      "sha256": "609c62518c41e3de1c764cf353cbf2d194bb37fc4b05fe9a39a43dafe53d1619"
+    },
+    {
+      "file": "R003-node-operations.csv",
+      "bytes": 646,
+      "sha256": "e2c1226e6f9406f8282fa7845d92b5d595490ea73af99b2ad81c1ac3d85c08e0"
+    },
+    {
+      "file": "R003-questions-to-role4.md",
+      "bytes": 1200,
+      "sha256": "afde4878d5ee6f0a90eeaad8cfdef6606ab12f7687d33bdcc00157eb1d474a75"
+    },
+    {
+      "file": "R003-validation.json",
+      "bytes": 2748,
+      "sha256": "623f72f7e30f50d7a37d3fffd67748a6d500c65f35c986d862504a01691d28cf"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "independent_recalculation": true,
+  "layer_axis_rows": 48,
+  "main_input_axis_rows": 24,
+  "cross_axis_rows": 24,
+  "device_axis_rows": 384,
+  "unique_device_cases": 192,
+  "P_I_J_checks_with_two_axes": 384,
+  "numeric_checks_passed": 1968,
+  "max_absolute_roundoff_difference": 9.094947017729282e-13,
+  "main_input_metrics": [
+    {
+      "Story": "Story10",
+      "Case": "RH4X",
+      "Axis": "X",
+      "QT_peak": 3711.8076976724833,
+      "QD_at_QT_peak": -249.11301200150862,
+      "minus_ratio": 1.0671136632853357,
+      "plus_ratio": 0.9350938494329069
+    },
+    {
+      "Story": "Story10",
+      "Case": "RH4Y",
+      "Axis": "Y",
+      "QT_peak": 3395.9230318706223,
+      "QD_at_QT_peak": -258.2222534744777,
+      "minus_ratio": 1.076038900484808,
+      "plus_ratio": 0.9258407495039681
+    },
+    {
+      "Story": "Story10",
+      "Case": "SHW4X",
+      "Axis": "X",
+      "QT_peak": 3932.7086372539093,
+      "QD_at_QT_peak": 254.1156112268863,
+      "minus_ratio": 1.0654766181891508,
+      "plus_ratio": 0.9374919680956172
+    },
+    {
+      "Story": "Story10",
+      "Case": "SHW4Y",
+      "Axis": "Y",
+      "QT_peak": 3494.8726692286,
+      "QD_at_QT_peak": 242.76502161609096,
+      "minus_ratio": 1.0718838494774192,
+      "plus_ratio": 0.930536805030532
+    },
+    {
+      "Story": "Story10",
+      "Case": "SHW7X",
+      "Axis": "X",
+      "QT_peak": 5032.703791596077,
+      "QD_at_QT_peak": 274.3159903259141,
+      "minus_ratio": 1.0550342528328374,
+      "plus_ratio": 0.9469051912083926
+    },
+    {
+      "Story": "Story10",
+      "Case": "SHW7Y",
+      "Axis": "Y",
+      "QT_peak": 4733.553698078618,
+      "QD_at_QT_peak": 301.92433733986,
+      "minus_ratio": 1.0637838623152016,
+      "plus_ratio": 0.9416632725039874
+    },
+    {
+      "Story": "Story11",
+      "Case": "RH4X",
+      "Axis": "X",
+      "QT_peak": 1797.284059377095,
+      "QD_at_QT_peak": -253.57386723934385,
+      "minus_ratio": 1.1410872510198682,
+      "plus_ratio": 0.8616163575684133
+    },
+    {
+      "Story": "Story11",
+      "Case": "RH4Y",
+      "Axis": "Y",
+      "QT_peak": 1746.1674303057466,
+      "QD_at_QT_peak": 238.60842646230185,
+      "minus_ratio": 1.174381457936588,
+      "plus_ratio": 0.8690868964255908
+    },
+    {
+      "Story": "Story11",
+      "Case": "SHW4X",
+      "Axis": "X",
+      "QT_peak": 1900.80018980002,
+      "QD_at_QT_peak": 240.5539725411382,
+      "minus_ratio": 1.1302932941649393,
+      "plus_ratio": 0.8835516969450682
+    },
+    {
+      "Story": "Story11",
+      "Case": "SHW4Y",
+      "Axis": "Y",
+      "QT_peak": 1710.5360221321157,
+      "QD_at_QT_peak": 248.6727799484401,
+      "minus_ratio": 1.171224013457974,
+      "plus_ratio": 0.8558373373945201
+    },
+    {
+      "Story": "Story11",
+      "Case": "SHW7X",
+      "Axis": "X",
+      "QT_peak": 2489.0104545548315,
+      "QD_at_QT_peak": 261.0952287401586,
+      "minus_ratio": 1.107812555288425,
+      "plus_ratio": 0.8961432198842335
+    },
+    {
+      "Story": "Story11",
+      "Case": "SHW7Y",
+      "Axis": "Y",
+      "QT_peak": 2369.545190690571,
+      "QD_at_QT_peak": 286.15431950289076,
+      "minus_ratio": 1.1263189946660066,
+      "plus_ratio": 0.8837980799880889
+    },
+    {
+      "Story": "Story8",
+      "Case": "RH4X",
+      "Axis": "X",
+      "QT_peak": 5776.651278353405,
+      "QD_at_QT_peak": -238.1133110864973,
+      "minus_ratio": 1.0441877054261561,
+      "plus_ratio": 0.9587800440752293
+    },
+    {
+      "Story": "Story8",
+      "Case": "RH4Y",
+      "Axis": "Y",
+      "QT_peak": 5205.211211212888,
+      "QD_at_QT_peak": -279.62570475366874,
+      "minus_ratio": 1.0537203378320765,
+      "plus_ratio": 0.94877034025994
+    },
+    {
+      "Story": "Story8",
+      "Case": "SHW4X",
+      "Axis": "X",
+      "QT_peak": 5977.448946259684,
+      "QD_at_QT_peak": 245.3945850062997,
+      "minus_ratio": 1.0417923319049895,
+      "plus_ratio": 0.9618563776136013
+    },
+    {
+      "Story": "Story8",
+      "Case": "SHW4Y",
+      "Axis": "Y",
+      "QT_peak": 5696.284592679747,
+      "QD_at_QT_peak": 230.03971054485885,
+      "minus_ratio": 1.0403841673993046,
+      "plus_ratio": 0.9610320472603587
+    },
+    {
+      "Story": "Story8",
+      "Case": "SHW7X",
+      "Axis": "X",
+      "QT_peak": 7132.292534599823,
+      "QD_at_QT_peak": 277.36482142079376,
+      "minus_ratio": 1.039347249483792,
+      "plus_ratio": 0.9619361337931615
+    },
+    {
+      "Story": "Story8",
+      "Case": "SHW7Y",
+      "Axis": "Y",
+      "QT_peak": 6707.701528807007,
+      "QD_at_QT_peak": 316.1130464927727,
+      "minus_ratio": 1.0471268802189824,
+      "plus_ratio": 0.9564489582692287
+    },
+    {
+      "Story": "Story9",
+      "Case": "RH4X",
+      "Axis": "X",
+      "QT_peak": 4896.3510427233705,
+      "QD_at_QT_peak": -244.6872503197778,
+      "minus_ratio": 1.0513884947065684,
+      "plus_ratio": 0.9506660334556919
+    },
+    {
+      "Story": "Story9",
+      "Case": "RH4Y",
+      "Axis": "Y",
+      "QT_peak": 4441.64749131105,
+      "QD_at_QT_peak": -254.85077573434623,
+      "minus_ratio": 1.0622214021002179,
+      "plus_ratio": 0.94262246694883
+    },
+    {
+      "Story": "Story9",
+      "Case": "SHW4X",
+      "Axis": "X",
+      "QT_peak": 5057.0239571927295,
+      "QD_at_QT_peak": 261.25222559146454,
+      "minus_ratio": 1.052731372764495,
+      "plus_ratio": 0.9506331042832604
+    },
+    {
+      "Story": "Story9",
+      "Case": "SHW4Y",
+      "Axis": "Y",
+      "QT_peak": 4675.560731059444,
+      "QD_at_QT_peak": 236.23833301364328,
+      "minus_ratio": 1.0522973968597376,
+      "plus_ratio": 0.9494737964915464
+    },
+    {
+      "Story": "Story9",
+      "Case": "SHW7X",
+      "Axis": "X",
+      "QT_peak": 6404.2251182616765,
+      "QD_at_QT_peak": 284.9215501928617,
+      "minus_ratio": 1.044489621293981,
+      "plus_ratio": 0.9563599843919448
+    },
+    {
+      "Story": "Story9",
+      "Case": "SHW7Y",
+      "Axis": "Y",
+      "QT_peak": 6006.078081934609,
+      "QD_at_QT_peak": 317.715389626655,
+      "minus_ratio": 1.0528989775511404,
+      "plus_ratio": 0.9522445925804855
+    }
+  ],
+  "physical_cut_sign_resolved": false,
+  "source_geometry_sha256": "0c37a449be68bbfe03cc4e3e516fea3c8d4d42e741d9d0e3e23f0aa09a1c5d62"
+}

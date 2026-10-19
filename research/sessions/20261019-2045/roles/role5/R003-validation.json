@@ -1,0 +1,324 @@
+{
+  "status": "passed",
+  "checks": 77,
+  "failures": [],
+  "abstract_chars": 418,
+  "local_links_checked": 11,
+  "actual_started_at": "2026-10-19T21:34:14+08:00",
+  "actual_completed_at": "2026-10-19T22:59:48.247095+08:00",
+  "elapsed_seconds": 5134.247095,
+  "task_deadline": "2026-10-19T21:46:14+08:00",
+  "session_deadline": "2026-10-19T22:45:41+08:00",
+  "within_task_limit": false,
+  "within_session_limit": false,
+  "checks_detail": [
+    {
+      "name": "input:horizontal-paper-session006-v020.md",
+      "pass": true
+    },
+    {
+      "name": "input:horizontal-paper-session006-v020-notes.md",
+      "pass": true
+    },
+    {
+      "name": "input:AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "input:多角色论文研究框架.md",
+      "pass": true
+    },
+    {
+      "name": "input:SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "input:SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "input:R001-source-inventory.md",
+      "pass": true
+    },
+    {
+      "name": "input:R001-geometry-summary.json",
+      "pass": true
+    },
+    {
+      "name": "input:R001-link-geometry-88.csv",
+      "pass": true
+    },
+    {
+      "name": "input:report.md",
+      "pass": true
+    },
+    {
+      "name": "input:layer-axis-peaks-48.csv",
+      "pass": true
+    },
+    {
+      "name": "input:manifest.json",
+      "pass": true
+    },
+    {
+      "name": "input:R002-native-horizontal-review.md",
+      "pass": true
+    },
+    {
+      "name": "input:R002-checks.json",
+      "pass": true
+    },
+    {
+      "name": "input:R002-position-candidate-pool.md",
+      "pass": true
+    },
+    {
+      "name": "input:R002-three-position-drafts.csv",
+      "pass": true
+    },
+    {
+      "name": "seven-chapters",
+      "pass": true
+    },
+    {
+      "name": "four-conclusions",
+      "pass": true
+    },
+    {
+      "name": "six-tables",
+      "pass": true
+    },
+    {
+      "name": "four-equations",
+      "pass": true
+    },
+    {
+      "name": "abstract300-500",
+      "pass": true
+    },
+    {
+      "name": "reference-body:1",
+      "pass": true
+    },
+    {
+      "name": "reference-body:2",
+      "pass": true
+    },
+    {
+      "name": "reference-body:3",
+      "pass": true
+    },
+    {
+      "name": "reference-body:4",
+      "pass": true
+    },
+    {
+      "name": "reference-body:5",
+      "pass": true
+    },
+    {
+      "name": "reference-body:6",
+      "pass": true
+    },
+    {
+      "name": "first-citation-order",
+      "pass": true
+    },
+    {
+      "name": "native-row:Story8:RH4X",
+      "pass": true
+    },
+    {
+      "name": "native-row:Story8:RH4Y",
+      "pass": true
+    },
+    {
+      "name": "native-row:Story9:RH4X",
+      "pass": true
+    },
+    {
+      "name": "native-row:Story9:RH4Y",
+      "pass": true
+    },
+    {
+      "name": "native-row:Story10:RH4X",
+      "pass": true
+    },
+    {
+      "name": "native-row:Story10:RH4Y",
+      "pass": true
+    },
+    {
+      "name": "native-row:Story11:RH4X",
+      "pass": true
+    },
+    {
+      "name": "native-row:Story11:RH4Y",
+      "pass": true
+    },
+    {
+      "name": "candidate-byte-copy",
+      "pass": true
+    },
+    {
+      "name": "scope:3416",
+      "pass": true
+    },
+    {
+      "name": "scope:88只",
+      "pass": true
+    },
+    {
+      "name": "scope:Story12",
+      "pass": true
+    },
+    {
+      "name": "scope:53.5m",
+      "pass": true
+    },
+    {
+      "name": "scope:32只",
+      "pass": true
+    },
+    {
+      "name": "scope:192条",
+      "pass": true
+    },
+    {
+      "name": "scope:P1和P3",
+      "pass": true
+    },
+    {
+      "name": "scope:同层平移",
+      "pass": true
+    },
+    {
+      "name": "scope:未排序",
+      "pass": true
+    },
+    {
+      "name": "scope:0.8c0",
+      "pass": true
+    },
+    {
+      "name": "scope:1.2c0",
+      "pass": true
+    },
+    {
+      "name": "scope:共享Link1",
+      "pass": true
+    },
+    {
+      "name": "scope:原有控布置记为M0",
+      "pass": true
+    },
+    {
+      "name": "scope:尚未获得改布置后的响应",
+      "pass": true
+    },
+    {
+      "name": "no-old-result-or-fabrication:15.4564",
+      "pass": true
+    },
+    {
+      "name": "no-old-result-or-fabrication:43.321366",
+      "pass": true
+    },
+    {
+      "name": "no-old-result-or-fabrication:约49m",
+      "pass": true
+    },
+    {
+      "name": "no-old-result-or-fabrication:约4.70%",
+      "pass": true
+    },
+    {
+      "name": "no-old-result-or-fabrication:已优选P1",
+      "pass": true
+    },
+    {
+      "name": "no-old-result-or-fabrication:已优选P2",
+      "pass": true
+    },
+    {
+      "name": "no-old-result-or-fabrication:已优选P3",
+      "pass": true
+    },
+    {
+      "name": "P1-axis-and-movement",
+      "pass": true
+    },
+    {
+      "name": "P2-axis-and-movement",
+      "pass": true
+    },
+    {
+      "name": "UTF8-no-BOM:placement-session007-v001.md",
+      "pass": true
+    },
+    {
+      "name": "no-controls:placement-session007-v001.md",
+      "pass": true
+    },
+    {
+      "name": "math-pairs:placement-session007-v001.md",
+      "pass": true
+    },
+    {
+      "name": "local-link:../../../research/sessions/20261019-2045/roles/role5/R003-补充说明.md",
+      "pass": true
+    },
+    {
+      "name": "UTF8-no-BOM:R003-补充说明.md",
+      "pass": true
+    },
+    {
+      "name": "no-controls:R003-补充说明.md",
+      "pass": true
+    },
+    {
+      "name": "math-pairs:R003-补充说明.md",
+      "pass": true
+    },
+    {
+      "name": "local-link:../data/R001-source-inventory.md",
+      "pass": true
+    },
+    {
+      "name": "local-link:../data/R001-geometry-summary.json",
+      "pass": true
+    },
+    {
+      "name": "local-link:../data/R001-link-geometry-88.csv",
+      "pass": true
+    },
+    {
+      "name": "local-link:../data/R002-native-horizontal/report.md",
+      "pass": true
+    },
+    {
+      "name": "local-link:../data/R002-native-horizontal/layer-axis-peaks-48.csv",
+      "pass": true
+    },
+    {
+      "name": "local-link:../audit/R002-native-horizontal-review.md",
+      "pass": true
+    },
+    {
+      "name": "local-link:../design/R002-position-candidate-pool.md",
+      "pass": true
+    },
+    {
+      "name": "local-link:R003-candidate-geometry.csv",
+      "pass": true
+    },
+    {
+      "name": "local-link:../../../../../papers/damping-output-boundaries/manuscript/horizontal-paper-session006-v020.md",
+      "pass": true
+    },
+    {
+      "name": "local-link:../../../../../papers/damping-output-boundaries/manuscript/placement-session007-v001.md",
+      "pass": true
+    }
+  ]
+}

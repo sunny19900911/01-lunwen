@@ -1,0 +1,192 @@
+{
+  "automation_id": "automation-5",
+  "created": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Created automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"automation-5\",\"mode\":\"create\",\"status\":\"ACTIVE\"}"
+      }
+    ],
+    "isError": false
+  },
+  "six_role_update": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Updated automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"automation-5\",\"mode\":\"update\",\"status\":\"ACTIVE\"}"
+      }
+    ],
+    "isError": false
+  },
+  "dispatch": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "role": "role1",
+        "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"threadId\":\"01a14756-7b7b-72a0-b079-e6c7874fc120\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "role": "role2",
+        "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"threadId\":\"01a14756-7fe0-75f3-8671-bcd59e413052\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "role": "role3",
+        "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"threadId\":\"01a14756-8408-7732-8d29-3380fcaeb7bb\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "role": "role4",
+        "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"threadId\":\"01a14756-8805-7a42-b910-ae973f55d73e\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "role": "role5",
+        "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"threadId\":\"01a14756-8bd0-7dc2-8362-fc1eab28af64\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "role": "role6",
+        "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"threadId\":\"01a14a00-809e-7612-a7a4-889ab1e55f0d\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    }
+  ],
+  "snapshot": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"timedOut\":true,\"wake\":null,\"polls\":[{\"schemaVersion\":1,\"cursor\":\"9acc5ebb-5bb8-4263-9b65-6b79387ae28d:2\",\"revision\":2,\"changed\":true,\"thread\":{\"id\":\"01a14756-7b7b-72a0-b079-e6c7874fc120\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a1545c-9e68-7491-9e16-6f28d69afbe3\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1792416718,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":null,\"latestAssistantMessage\":null,\"latestToolMarkerId\":null,\"latestToolMarker\":null},{\"schemaVersion\":1,\"cursor\":\"0263925a-d2e4-473d-b943-f0e994e8a6ae:2\",\"revision\":2,\"changed\":true,\"thread\":{\"id\":\"01a14756-7fe0-75f3-8671-bcd59e413052\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a1545c-a1cd-7660-8c6a-60370a38fe65\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1792416719,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":null,\"latestAssistantMessage\":null,\"latestToolMarkerId\":null,\"latestToolMarker\":null},{\"schemaVersion\":1,\"cursor\":\"dbfd450c-8059-468a-9f62-b23d5184c08d:2\",\"revision\":2,\"changed\":true,\"thread\":{\"id\":\"01a14756-8408-7732-8d29-3380fcaeb7bb\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a1545c-a52e-77b2-935b-2e00d88dd822\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1792416720,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":null,\"latestAssistantMessage\":null,\"latestToolMarkerId\":null,\"latestToolMarker\":null},{\"schemaVersion\":1,\"cursor\":\"9161e6ab-c967-45df-bdbf-f6318a8755df:2\",\"revision\":2,\"changed\":true,\"thread\":{\"id\":\"01a14756-8805-7a42-b910-ae973f55d73e\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a1545c-a6c8-7b80-90a8-fca9cc45eef6\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1792416720,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":null,\"latestAssistantMessage\":null,\"latestToolMarkerId\":null,\"latestToolMarker\":null},{\"schemaVersion\":1,\"cursor\":\"b15d080b-96ec-4374-a74b-8a358841245d:2\",\"revision\":2,\"changed\":true,\"thread\":{\"id\":\"01a14756-8bd0-7dc2-8362-fc1eab28af64\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a1545c-a98c-7b11-80eb-736568b02fd6\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1792416721,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":null,\"latestAssistantMessage\":null,\"latestToolMarkerId\":null,\"latestToolMarker\":null},{\"schemaVersion\":1,\"cursor\":\"6b32e766-a0c4-4deb-9d91-cc75e8f32770:2\",\"revision\":2,\"changed\":true,\"thread\":{\"id\":\"01a14a00-809e-7612-a7a4-889ab1e55f0d\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a1545c-acf9-7f03-870f-53cdd2e3782c\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1792416722,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":null,\"latestAssistantMessage\":null,\"latestToolMarkerId\":null,\"latestToolMarker\":null}]}"
+      }
+    ],
+    "isError": false
+  },
+  "early_receipts": [
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"inactiveStatus\",\"threadId\":\"01a14a00-809e-7612-a7a4-889ab1e55f0d\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"6b32e766-a0c4-4deb-9d91-cc75e8f32770:1\",\"revision\":1,\"changed\":true,\"thread\":{\"id\":\"01a14a00-809e-7612-a7a4-889ab1e55f0d\",\"hostId\":\"local\",\"status\":{\"type\":\"notLoaded\"}},\"latestTurn\":{\"id\":\"01a14e27-626f-7fb2-b211-46d7426b784a\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792312566,\"completedAt\":1792312780,\"durationMs\":213702},\"latestAssistantMessageId\":\"msg_0d8e1b978b923a60016ad485cb1ebc8197b621f7bfcfcbdcbf\",\"latestAssistantMessage\":{\"id\":\"msg_0d8e1b978b923a60016ad485cb1ebc8197b621f7bfcfcbdcbf\",\"turnId\":\"01a14e27-626f-7fb2-b211-46d7426b784a\",\"phase\":\"final_answer\",\"text\":\"H020已冻结：最终文本迁移审。 0 must、0 should。 新摘要、工程步骤、结论和独立说明范围一致；旧摘要及结论仅增加已声明的R2句。另附一句可选的“屋顶位移与层间位移”澄清，不要求重开冻结稿。 16:39:28+08冻结，用时189.5秒，已停止。SHA256：d95b8d58902bf155422dfeeaec147607f4b73813e709dcdd6a3f2f3e8c897b43\"},\"latestToolMarkerId\":\"exec-dd9cb004-82d5-43a5-965c-69f10d861ab0\",\"latestToolMarker\":{\"id\":\"exec-dd9cb004-82d5-43a5-965c-69f10d861ab0\",\"turnId\":\"01a14e27-626f-7fb2-b211-46d7426b784a\",\"type\":\"commandExecution\",\"name\":\"commandExecution\",\"status\":\"completed\"}}]}"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"turnCompleted\",\"turnId\":\"01a14e27-5d2b-7b62-a290-fdbb8d599d74\",\"threadId\":\"01a14756-8805-7a42-b910-ae973f55d73e\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"9161e6ab-c967-45df-bdbf-f6318a8755df:1\",\"revision\":1,\"changed\":true,\"thread\":{\"id\":\"01a14756-8805-7a42-b910-ae973f55d73e\",\"hostId\":\"local\",\"status\":{\"type\":\"idle\"}},\"latestTurn\":{\"id\":\"01a14e27-5d2b-7b62-a290-fdbb8d599d74\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792312565,\"completedAt\":1792312765,\"durationMs\":200220},\"latestAssistantMessageId\":\"msg_09fe3e55758f973c016ad485b9ef148193bb3b6ac369403542\",\"latestAssistantMessage\":{\"id\":\"msg_09fe3e55758f973c016ad485b9ef148193bb3b6ac369403542\",\"turnId\":\"01a14e27-5d2b-7b62-a290-fdbb8d599d74\",\"phase\":\"final_answer\",\"text\":\"H020已于 16:39:13冻结，实际耗时177.31秒，在6分钟内完成。 0 must，0必改should；77/77项迁移检查通过。 四份CSV与已审源文件字节一致；Q表、主文及结论3数字正确。 未混淆公共输出节点与积分步长，未将36%—43%写成实楼减震率。 仅1项可选should：Q第13行可补显式峰差公式，无需因此解冻稿件。 未读轨迹数组，未新增ODE。 审计报告 · 冻结清单\"},\"latestToolMarkerId\":\"exec-2c25de4e-a141-4cbc-a1d3-5095e8e7159e\",\"latestToolMarker\":{\"id\":\"exec-2c25de4e-a141-4cbc-a1d3-5095e8e7159e\",\"turnId\":\"01a14e27-5d2b-7b62-a290-fdbb8d599d74\",\"type\":\"commandExecution\",\"name\":\"commandExecution\",\"status\":\"completed\"}}]}"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"inactiveStatus\",\"threadId\":\"01a14756-7fe0-75f3-8671-bcd59e413052\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"0263925a-d2e4-473d-b943-f0e994e8a6ae:1\",\"revision\":1,\"changed\":true,\"thread\":{\"id\":\"01a14756-7fe0-75f3-8671-bcd59e413052\",\"hostId\":\"local\",\"status\":{\"type\":\"notLoaded\"}},\"latestTurn\":{\"id\":\"01a14e27-5fd0-76b1-8d1b-e638c683d612\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792312565,\"completedAt\":1792312778,\"durationMs\":212256},\"latestAssistantMessageId\":\"msg_058500d59acbf314016ad485c7e07081968cd86a60872068bd\",\"latestAssistantMessage\":{\"id\":\"msg_058500d59acbf314016ad485c7e07081968cd86a60872068bd\",\"turnId\":\"01a14e27-5fd0-76b1-8d1b-e638c683d612\",\"phase\":\"final_answer\",\"text\":\"H020 已冻结：0 新 must、0 新 should。 P 入口已明确完整尾轨迹依赖。 中英摘要、结论与 Q 的有限数值证据范围一致。 O/P 与旧版字节相同；式(1)—(8)原文未变。 v019 清单 30 项身份核对通过。 本次仅审指定文本迁移，未重审旧实验。 审核报告 · 冻结记录\"},\"latestToolMarkerId\":\"exec-2b8dad50-a518-4170-9072-38a6f7a55660\",\"latestToolMarker\":{\"id\":\"exec-2b8dad50-a518-4170-9072-38a6f7a55660\",\"turnId\":\"01a14e27-5fd0-76b1-8d1b-e638c683d612\",\"type\":\"commandExecution\",\"name\":\"commandExecution\",\"status\":\"completed\"}}]}"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"inactiveStatus\",\"threadId\":\"01a14756-8bd0-7dc2-8362-fc1eab28af64\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"b15d080b-96ec-4374-a74b-8a358841245d:1\",\"revision\":1,\"changed\":true,\"thread\":{\"id\":\"01a14756-8bd0-7dc2-8362-fc1eab28af64\",\"hostId\":\"local\",\"status\":{\"type\":\"notLoaded\"}},\"latestTurn\":{\"id\":\"01a14e1e-e3ec-7901-a82f-79089b193e0d\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792312009,\"completedAt\":1792312513,\"durationMs\":503912},\"latestAssistantMessageId\":\"msg_09505bd600c2eded016ad484bf88108190b59f7ffedffdd373\",\"latestAssistantMessage\":{\"id\":\"msg_09505bd600c2eded016ad484bf88108190b59f7ffedffdd373\",\"turnId\":\"01a14e1e-e3ec-7901-a82f-79089b193e0d\",\"phase\":\"final_answer\",\"text\":\"v019 已于16:34:57冻结：317项检查通过，两位终审均无剩余 must/should。已整合 H027 真正 R2 比较，未新增科学实验。 完整工程稿 v019 防御说明与证据边界 冻结清单：30件文件 保持五章四结论、六表一图、14条书目；摘要471字，作者信息明确待填。\"},\"latestToolMarkerId\":\"exec-940e8358-a92d-4a85-a7b5-6741498f9688\",\"latestToolMarker\":{\"id\":\"exec-940e8358-a92d-4a85-a7b5-6741498f9688\",\"turnId\":\"01a14e1e-e3ec-7901-a82f-79089b193e0d\",\"type\":\"commandExecution\",\"name\":\"commandExecution\",\"status\":\"completed\"}}]}"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"inactiveStatus\",\"threadId\":\"01a14756-8408-7732-8d29-3380fcaeb7bb\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"dbfd450c-8059-468a-9f62-b23d5184c08d:1\",\"revision\":1,\"changed\":true,\"thread\":{\"id\":\"01a14756-8408-7732-8d29-3380fcaeb7bb\",\"hostId\":\"local\",\"status\":{\"type\":\"notLoaded\"}},\"latestTurn\":{\"id\":\"01a14e0a-ada2-7d60-beab-fc44ba7023bc\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792310685,\"completedAt\":1792310996,\"durationMs\":311272},\"latestAssistantMessageId\":\"msg_01c40afd2e9956f9016ad47ed134bc8190861bd7c26300d778\",\"latestAssistantMessage\":{\"id\":\"msg_01c40afd2e9956f9016ad47ed134bc8190861bd7c26300d778\",\"turnId\":\"01a14e0a-ada2-7d60-beab-fc44ba7023bc\",\"phase\":\"final_answer\",\"text\":\"H017 已于16:08:50按时冻结，校验通过。对照区分了经典工具、有限案例、参考筛查应用与流程组织；同条件外部先例仍保留“未核实”。主规则=fixed1=全部同门，不支持算法优势。 一页式对照报告含3句推荐贡献措辞，manifest保留逐项追溯。未读v018，无新检索或计算。 report SHA256：7bee0ab640922746b1158de4f51684c66806f751183a53b92d022c40f50af948 freeze SHA256：4ba872a672b5c49e73b37d61c59e6eb63a62e46c1d8acea0928bd15866db0168\"},\"latestToolMarkerId\":\"exec-8db80365-6ce8-416f-81ce-5a23be52ddf8\",\"latestToolMarker\":{\"id\":\"exec-8db80365-6ce8-416f-81ce-5a23be52ddf8\",\"turnId\":\"01a14e0a-ada2-7d60-beab-fc44ba7023bc\",\"type\":\"commandExecution\",\"name\":\"commandExecution\",\"status\":\"completed\"}}]}"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"inactiveStatus\",\"threadId\":\"01a14756-7b7b-72a0-b079-e6c7874fc120\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"9acc5ebb-5bb8-4263-9b65-6b79387ae28d:1\",\"revision\":1,\"changed\":true,\"thread\":{\"id\":\"01a14756-7b7b-72a0-b079-e6c7874fc120\",\"hostId\":\"local\",\"status\":{\"type\":\"notLoaded\"}},\"latestTurn\":{\"id\":\"01a14df9-d702-76d0-aca7-636fc79aefb1\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792309581,\"completedAt\":1792309921,\"durationMs\":339818},\"latestAssistantMessageId\":\"msg_0fdbbf9b10a3adb0016ad47a9f2cfc8195a4c31f7c47f8e27a\",\"latestAssistantMessage\":{\"id\":\"msg_0fdbbf9b10a3adb0016ad47a9f2cfc8195a4c31f7c47f8e27a\",\"turnId\":\"01a14df9-d702-76d0-aca7-636fc79aefb1\",\"phase\":\"final_answer\",\"text\":\"H018 已冻结，用时 304 秒，已停止。 增量被动性推导支持候选界： [ \\\\sqrt{2H_e(t)}\\\\le\\\\sqrt{2H_e(0)}+\\\\int_0^t\\\\rho(s),ds. ] 已接上 H017 尾输出项，并核清初态、耗散符号、非等质量和零误差处理。待独审；依赖完整尾轨迹，不认证实际 FNA/ETABS，也不证明节省完整解。 候选证明与独审问题 · 哈希清单\"},\"latestToolMarkerId\":\"exec-e7766c0b-65fd-4e60-8f83-8f5d0c5f5625\",\"latestToolMarker\":{\"id\":\"exec-e7766c0b-65fd-4e60-8f83-8f5d0c5f5625\",\"turnId\":\"01a14df9-d702-76d0-aca7-636fc79aefb1\",\"type\":\"commandExecution\",\"name\":\"commandExecution\",\"status\":\"completed\"}}]}"
+        }
+      ],
+      "isError": false
+    }
+  ]
+}

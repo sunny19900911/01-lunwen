@@ -1,0 +1,28 @@
+{
+  "task": "role3 R003",
+  "frozen_at": "2026-10-19T22:57:36.751155+08:00",
+  "immutable": true,
+  "files": [
+    {
+      "file": "R003-close.py",
+      "bytes": 8894,
+      "sha256": "2a91dcf0f47add5d055ac881597017c657034e814ca132ddb970d0e08471023e"
+    },
+    {
+      "file": "R003-report.md",
+      "bytes": 5608,
+      "sha256": "3ea68b49f73d7a2de3dc30e725e115c2bdad5c00cf58fac42ce4155675b745d4"
+    },
+    {
+      "file": "R003-manifest.json",
+      "bytes": 4545,
+      "sha256": "364141ccd1630a6ebf7ac07c5840da9826c1c6aff74594ad5d7ee5409cd22f64"
+    },
+    {
+      "file": "R003-validation.json",
+      "bytes": 736,
+      "sha256": "e2b6c817fb7ee6c7bffb9dc6b48e340a1b3599da4cb037655477219fcbf3b6df"
+    }
+  ],
+  "cache_policy": "R003-local-cache ignored; generated page image not reviewed"
+}

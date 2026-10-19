@@ -1,0 +1,555 @@
+{
+  "read_time_asia_shanghai": "2026-10-19T20:58:51.215181+08:00",
+  "source": "E:\\!!!!!!!!TO HOME\\20261019\\20261019\\有控全节点.xlsx",
+  "sha256": "b75a8979bc902890f025f28e76f69a652796a2304326845e89fc1986500bea04",
+  "bytes": 262062,
+  "source_stat_stable_during_geometry_read": true,
+  "sheets": {
+    "Link Object Connectivity": {
+      "header_row": 2,
+      "unit_row": 3,
+      "columns": [
+        "Name",
+        "Story",
+        "UniquePt1",
+        "UniquePt2",
+        "GUID"
+      ],
+      "units": {
+        "Name": null,
+        "Story": null,
+        "UniquePt1": null,
+        "UniquePt2": null,
+        "GUID": null
+      },
+      "data_rows": 88,
+      "first_data_row": 4,
+      "last_data_row": 91
+    },
+    "Link Prop Def - Damper - Exp": {
+      "header_row": 2,
+      "unit_row": 3,
+      "columns": [
+        "Name",
+        "Direction",
+        "Fixed",
+        "Trans Linear KE",
+        "Trans Linear CE",
+        "Trans NL Stiffness",
+        "Trans NL Damping",
+        "Trans NL Damping Exponent",
+        "Fixed Length Damper?",
+        "Mass",
+        "Weight",
+        "Rotational Inertia 1",
+        "Rotational Inertia 2",
+        "Rotational Inertia 3",
+        "Length for Line Spring",
+        "Area for Area Spring",
+        "P-Delta M2I",
+        "P-Delta M2J",
+        "P-Delta M3I",
+        "P-Delta M3J",
+        "Stiffness Linear Option",
+        "Stiffness Damping Option",
+        "Stiffness Damping Factor",
+        "GUID",
+        "Notes"
+      ],
+      "units": {
+        "Name": null,
+        "Direction": null,
+        "Fixed": null,
+        "Trans Linear KE": "kN/m",
+        "Trans Linear CE": "kN-s/m",
+        "Trans NL Stiffness": "kN/m",
+        "Trans NL Damping": "kN*(s/m)^Cexp",
+        "Trans NL Damping Exponent": null,
+        "Fixed Length Damper?": null,
+        "Mass": "kg",
+        "Weight": "kN",
+        "Rotational Inertia 1": "ton-m²",
+        "Rotational Inertia 2": "ton-m²",
+        "Rotational Inertia 3": "ton-m²",
+        "Length for Line Spring": "m",
+        "Area for Area Spring": "m²",
+        "P-Delta M2I": null,
+        "P-Delta M2J": null,
+        "P-Delta M3I": null,
+        "P-Delta M3J": null,
+        "Stiffness Linear Option": null,
+        "Stiffness Damping Option": null,
+        "Stiffness Damping Factor": null,
+        "GUID": null,
+        "Notes": null
+      },
+      "data_rows": 0,
+      "first_data_row": null,
+      "last_data_row": null,
+      "data": []
+    },
+    "Link Prop Def - Summary": {
+      "header_row": 2,
+      "unit_row": 3,
+      "columns": [
+        "Name",
+        "Type",
+        "Degrees of Freedom",
+        "Mass",
+        "Weight",
+        "Defined Length",
+        "Defined Area"
+      ],
+      "units": {
+        "Name": null,
+        "Type": null,
+        "Degrees of Freedom": null,
+        "Mass": "kg",
+        "Weight": "kN",
+        "Defined Length": "m",
+        "Defined Area": "m²"
+      },
+      "data_rows": 1,
+      "first_data_row": 4,
+      "last_data_row": 4,
+      "data": [
+        {
+          "row": 4,
+          "values": {
+            "Name": "Link1",
+            "Type": "Damper - Exponential",
+            "Degrees of Freedom": "U1",
+            "Mass": 25.0,
+            "Weight": 0.24999999999999994,
+            "Defined Length": 1.0,
+            "Defined Area": 1.0
+          }
+        }
+      ]
+    },
+    "Point Object Connectivity": {
+      "header_row": 2,
+      "unit_row": 3,
+      "columns": [
+        "UniqueName",
+        "Is Auto Point",
+        "Story",
+        "PointBay",
+        "IsSpecial",
+        "X",
+        "Y",
+        "Z",
+        "GUID"
+      ],
+      "units": {
+        "UniqueName": null,
+        "Is Auto Point": null,
+        "Story": null,
+        "PointBay": null,
+        "IsSpecial": null,
+        "X": "m",
+        "Y": "m",
+        "Z": "m",
+        "GUID": null
+      },
+      "data_rows": 3416,
+      "first_data_row": 4,
+      "last_data_row": 3419
+    }
+  },
+  "points": {
+    "count": 3416,
+    "stories": {
+      "Story12": 65,
+      "Story11": 258,
+      "Story10": 349,
+      "Story9": 312,
+      "Story8": 286,
+      "Story7": 286,
+      "Story6": 286,
+      "Story5": 286,
+      "Story4": 286,
+      "Story3": 282,
+      "Story2": 374,
+      "Story1": 271,
+      "Base": 75
+    },
+    "bounds_m": {
+      "X": [
+        33.105000000000004,
+        142.005
+      ],
+      "Y": [
+        16.46,
+        76.66
+      ],
+      "Z": [
+        0.0,
+        53.5
+      ]
+    }
+  },
+  "links_count": 88,
+  "all_endpoints_found": true,
+  "link_name_unique_global": true,
+  "by_story": {
+    "Story1": {
+      "total": 8,
+      "X": 4,
+      "Y": 4,
+      "other": 0,
+      "links": [
+        "K110",
+        "K33",
+        "K38",
+        "K76",
+        "K77",
+        "K78",
+        "K90",
+        "K99"
+      ],
+      "bottom_z_m": [
+        0.0
+      ],
+      "top_z_m": [
+        5.4
+      ],
+      "length_range_m": [
+        7.224956747275385,
+        9.40069279361899
+      ]
+    },
+    "Story2": {
+      "total": 8,
+      "X": 4,
+      "Y": 4,
+      "other": 0,
+      "links": [
+        "K109",
+        "K31",
+        "K40",
+        "K69",
+        "K70",
+        "K71",
+        "K89",
+        "K98"
+      ],
+      "bottom_z_m": [
+        5.4
+      ],
+      "top_z_m": [
+        9.700000000000001
+      ],
+      "length_range_m": [
+        6.444377394287218,
+        8.814931933940274
+      ]
+    },
+    "Story3": {
+      "total": 8,
+      "X": 4,
+      "Y": 4,
+      "other": 0,
+      "links": [
+        "K108",
+        "K26",
+        "K45",
+        "K62",
+        "K63",
+        "K64",
+        "K88",
+        "K97"
+      ],
+      "bottom_z_m": [
+        9.700000000000001
+      ],
+      "top_z_m": [
+        14.0
+      ],
+      "length_range_m": [
+        6.439909626695091,
+        8.814931933940272
+      ]
+    },
+    "Story4": {
+      "total": 8,
+      "X": 4,
+      "Y": 4,
+      "other": 0,
+      "links": [
+        "K107",
+        "K24",
+        "K47",
+        "K55",
+        "K56",
+        "K57",
+        "K87",
+        "K96"
+      ],
+      "bottom_z_m": [
+        14.0
+      ],
+      "top_z_m": [
+        18.3
+      ],
+      "length_range_m": [
+        6.632684222846744,
+        8.814931933940274
+      ]
+    },
+    "Story5": {
+      "total": 8,
+      "X": 4,
+      "Y": 4,
+      "other": 0,
+      "links": [
+        "K106",
+        "K19",
+        "K48",
+        "K49",
+        "K50",
+        "K52",
+        "K86",
+        "K95"
+      ],
+      "bottom_z_m": [
+        18.3
+      ],
+      "top_z_m": [
+        22.6
+      ],
+      "length_range_m": [
+        6.632684222846744,
+        8.814931933940274
+      ]
+    },
+    "Story6": {
+      "total": 8,
+      "X": 4,
+      "Y": 4,
+      "other": 0,
+      "links": [
+        "K105",
+        "K17",
+        "K41",
+        "K42",
+        "K43",
+        "K54",
+        "K85",
+        "K94"
+      ],
+      "bottom_z_m": [
+        22.6
+      ],
+      "top_z_m": [
+        26.900000000000002
+      ],
+      "length_range_m": [
+        6.632684222846744,
+        8.814931933940274
+      ]
+    },
+    "Story7": {
+      "total": 8,
+      "X": 4,
+      "Y": 4,
+      "other": 0,
+      "links": [
+        "K104",
+        "K12",
+        "K34",
+        "K35",
+        "K36",
+        "K59",
+        "K84",
+        "K93"
+      ],
+      "bottom_z_m": [
+        26.900000000000002
+      ],
+      "top_z_m": [
+        31.2
+      ],
+      "length_range_m": [
+        6.632684222846742,
+        8.814931933940272
+      ]
+    },
+    "Story8": {
+      "total": 8,
+      "X": 4,
+      "Y": 4,
+      "other": 0,
+      "links": [
+        "K10",
+        "K103",
+        "K27",
+        "K28",
+        "K29",
+        "K61",
+        "K83",
+        "K92"
+      ],
+      "bottom_z_m": [
+        31.2
+      ],
+      "top_z_m": [
+        35.5
+      ],
+      "length_range_m": [
+        6.632684222846744,
+        8.814931933940274
+      ]
+    },
+    "Story9": {
+      "total": 8,
+      "X": 4,
+      "Y": 4,
+      "other": 0,
+      "links": [
+        "K102",
+        "K20",
+        "K21",
+        "K22",
+        "K66",
+        "K8",
+        "K82",
+        "K91"
+      ],
+      "bottom_z_m": [
+        35.5
+      ],
+      "top_z_m": [
+        39.800000000000004
+      ],
+      "length_range_m": [
+        6.632684222846747,
+        8.814931933940276
+      ]
+    },
+    "Story10": {
+      "total": 8,
+      "X": 4,
+      "Y": 4,
+      "other": 0,
+      "links": [
+        "K101",
+        "K13",
+        "K14",
+        "K15",
+        "K4",
+        "K68",
+        "K75",
+        "K81"
+      ],
+      "bottom_z_m": [
+        39.800000000000004
+      ],
+      "top_z_m": [
+        44.1
+      ],
+      "length_range_m": [
+        6.632684222846742,
+        8.814931933940272
+      ]
+    },
+    "Story11": {
+      "total": 8,
+      "X": 4,
+      "Y": 4,
+      "other": 0,
+      "links": [
+        "K100",
+        "K2",
+        "K5",
+        "K6",
+        "K7",
+        "K73",
+        "K74",
+        "K80"
+      ],
+      "bottom_z_m": [
+        44.1
+      ],
+      "top_z_m": [
+        48.4
+      ],
+      "length_range_m": [
+        6.632684222846742,
+        8.814931933940272
+      ]
+    }
+  },
+  "old_Story4_identity_checks": [
+    {
+      "Story": "Story4",
+      "Link": "K107",
+      "found": true,
+      "same_IJ_ids": true,
+      "max_coordinate_difference_m": 0.0,
+      "same_direction_within_1e12": true
+    },
+    {
+      "Story": "Story4",
+      "Link": "K24",
+      "found": true,
+      "same_IJ_ids": true,
+      "max_coordinate_difference_m": 0.0,
+      "same_direction_within_1e12": true
+    },
+    {
+      "Story": "Story4",
+      "Link": "K47",
+      "found": true,
+      "same_IJ_ids": true,
+      "max_coordinate_difference_m": 0.0,
+      "same_direction_within_1e12": true
+    },
+    {
+      "Story": "Story4",
+      "Link": "K55",
+      "found": true,
+      "same_IJ_ids": true,
+      "max_coordinate_difference_m": 0.0,
+      "same_direction_within_1e12": true
+    },
+    {
+      "Story": "Story4",
+      "Link": "K56",
+      "found": true,
+      "same_IJ_ids": true,
+      "max_coordinate_difference_m": 0.0,
+      "same_direction_within_1e12": true
+    },
+    {
+      "Story": "Story4",
+      "Link": "K57",
+      "found": true,
+      "same_IJ_ids": true,
+      "max_coordinate_difference_m": 0.0,
+      "same_direction_within_1e12": true
+    },
+    {
+      "Story": "Story4",
+      "Link": "K87",
+      "found": true,
+      "same_IJ_ids": true,
+      "max_coordinate_difference_m": 0.0,
+      "same_direction_within_1e12": true
+    },
+    {
+      "Story": "Story4",
+      "Link": "K96",
+      "found": true,
+      "same_IJ_ids": true,
+      "max_coordinate_difference_m": 0.0,
+      "same_direction_within_1e12": true
+    }
+  ],
+  "contains_time_history": false,
+  "assignment_table_present": false,
+  "nonlinear_parameter_rows": 0,
+  "source_changed_since_geometry_extract": false,
+  "full_node_cache_publish": false,
+  "script_sha256": "8eaa6f7a0a70085d999abacd844dee9a1494936b5b08710c79ba7f6fe37144d1"
+}

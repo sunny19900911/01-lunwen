@@ -1,0 +1,358 @@
+{
+  "prepared_at": "2026-10-19T23:03:46.042428+08:00",
+  "files": [
+    {
+      "path": "research/sessions/20261019-2045/.gitignore",
+      "bytes": 51,
+      "sha256": "0b89eadf03d3cd70a12122dde00a6113a4e78c394ab0fda40fcf0845783aa99f"
+    },
+    {
+      "path": "research/sessions/20261019-2045/automation-and-dispatch-receipts.json",
+      "bytes": 16229,
+      "sha256": "10bee1ffc0df43a6058e2e64bfb87ae5e2d116a39321fde1b84289d7284cd536"
+    },
+    {
+      "path": "research/sessions/20261019-2045/claims.md",
+      "bytes": 695,
+      "sha256": "f6e5ed57caa2cf2389e85894a1211e89aa8d7b837b516f19ed9f28b42b2bdfd4"
+    },
+    {
+      "path": "research/sessions/20261019-2045/closure-tool-receipts.json",
+      "bytes": 10738,
+      "sha256": "e40948898aa123b1b2f791fcbd701b343d598709bb79504fd6514893d458e906"
+    },
+    {
+      "path": "research/sessions/20261019-2045/final-summary.md",
+      "bytes": 2434,
+      "sha256": "50ce9e421a39990d599d6ecbffdcc8c929131dd85c426f3a9f399a1366e0e279"
+    },
+    {
+      "path": "research/sessions/20261019-2045/plan.md",
+      "bytes": 4456,
+      "sha256": "dea3e66313a24c993b9a987a4b6e13ab5f8fd32da90efbc4791ba3aefd414feb"
+    },
+    {
+      "path": "research/sessions/20261019-2045/publish_closeout.py",
+      "bytes": 4848,
+      "sha256": "2a7e9ef7f89df03eb9760f9e5f4744ecc8768915383c4f03a20c547d571ee7a5"
+    },
+    {
+      "path": "research/sessions/20261019-2045/role-handoff-v001.md",
+      "bytes": 4761,
+      "sha256": "346b9c4cfa37d9be94139932f3dd49dcc438d015f9f5388d27d5282dc77478a7"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/audit/audit_R002.py",
+      "bytes": 4201,
+      "sha256": "ce8f17662a3ebeaa8b1245d20268b28790b0b05bac8e240a8e46b90bf10abae2"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/audit/R001-audit-and-baselines.md",
+      "bytes": 10127,
+      "sha256": "92dbd7a6b32617d99c9ec14b0dc446c7fa14fa7b679532708467272a2ad3f391"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/audit/R002-checks.json",
+      "bytes": 6428,
+      "sha256": "e4f4b5051b3064a466f343b71d28dc8a4cbd9e805e85e157a44ddfad31b66220"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/audit/R002-native-horizontal-review.md",
+      "bytes": 6004,
+      "sha256": "936200d88b3bb9035a5d23f0182260da05f07e0e2328ce4e500aefb8bb6876eb"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/analyze_native_horizontal_R002.py",
+      "bytes": 13015,
+      "sha256": "ec2c5ae2cda26857a7ffb287ed49618ceef558bfb3a671d1703aaa14c3587815"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/inspect_new_geometry.py",
+      "bytes": 11266,
+      "sha256": "8eaa6f7a0a70085d999abacd844dee9a1494936b5b08710c79ba7f6fe37144d1"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/R001-existing-cache-index.json",
+      "bytes": 6854,
+      "sha256": "3b69c7fa4048e581e75567be0874a688d93c4f28a21f80b22588d6a8c39149c0"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/R001-geometry-summary.json",
+      "bytes": 11516,
+      "sha256": "fc89c3cf5d954e6d3d3f01651554dd6e57853363aa064942d0c0e118c42e3430"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/R001-link-geometry-88.csv",
+      "bytes": 24612,
+      "sha256": "0c37a449be68bbfe03cc4e3e516fea3c8d4d42e741d9d0e3e23f0aa09a1c5d62"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/R001-source-inventory.md",
+      "bytes": 4498,
+      "sha256": "fb2291be488d358a7a4be80fb28545aa1fd16c17f74445ca6e3e158ebf118c28"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/R001-source-tables.json",
+      "bytes": 3509,
+      "sha256": "ac5d98a747a0bf743b6a5ba7b15b4fd668c2c2ad591d728e30dd6c214662a11d"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/R002-native-horizontal/device-contributions-384.csv",
+      "bytes": 134090,
+      "sha256": "e36b52730f95e6494f80c10e64518a3337e911d4a36541ebb456e95adc72b8eb"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/R002-native-horizontal/execution-notes.json",
+      "bytes": 543,
+      "sha256": "e3a2880cc466058757656c388fc023c34756ae6fa4a5d429dc32916813b2807a"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/R002-native-horizontal/layer-axis-peaks-48.csv",
+      "bytes": 25524,
+      "sha256": "f29fd0bbb67da5c8143aadac0b0782545ee0ffdd3a41d83da7354b6b8697ce8f"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/R002-native-horizontal/manifest.json",
+      "bytes": 3288,
+      "sha256": "83c2e9e7d807e5ab19022b16f12724af2efdcdc11e080ec01b9c31dd45eb14dd"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/R002-native-horizontal/pairing-checks-24.csv",
+      "bytes": 1437,
+      "sha256": "73eafdab631622d2b3e725c3a04c1ac3c746ee19614db1bfa0806a3e46efa999"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/R002-native-horizontal/report.md",
+      "bytes": 4196,
+      "sha256": "c42147c43a03ff262978856469f7e4b72bd60ae1a457c9df42d59be28d5e5668"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/data/R002-native-horizontal/target-priority-8.csv",
+      "bytes": 1592,
+      "sha256": "dcc504b7f571319c95f64a7fc0521bd8018429a43a723f7bf36935fea2a58196"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/design/R001-design-principles.md",
+      "bytes": 10446,
+      "sha256": "c22eb37325f341156b0760836a2f055b0f0703707a16e374cb8826892c83f958"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/design/R002-candidate-generation.json",
+      "bytes": 469,
+      "sha256": "382dd4b2a182c794d3ad2c211504e69c23b164a324b37e0ff01bd8179a01b6cf"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/design/R002-position-candidate-pool.md",
+      "bytes": 6199,
+      "sha256": "a8cde5d759531e5739bc588f9a7acc1a358df5b9a9e2b7a626b44ff0982d8b98"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/design/R002-same-floor-translation-pool.csv",
+      "bytes": 14236,
+      "sha256": "2241cda963a9e0bd60fe17a1294effd4cf65d7636486ab6f35e1d4d9f6d641c4"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/design/R002-self-check.json",
+      "bytes": 259,
+      "sha256": "4f0b023f4126dbb74d2631cbb08dada020df0cbf742844fdbae79b2ff8dc4032"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/design/R002-three-position-drafts.csv",
+      "bytes": 1340,
+      "sha256": "e13df56a7029f08f6566208aa738d4a1972d83671772b1f663e8cd7ed9b1f7d2"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/design/R002_enumerate_candidates.py",
+      "bytes": 4625,
+      "sha256": "8af3c53b64df9adeedd801f38df9c34556f08f32c96f40ea9f055a0724618faf"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role1/R003-candidate-trials.md",
+      "bytes": 6974,
+      "sha256": "824a89697c89e3b5c5cba723f3ba6083015c32e85f570c553399117247dcbe09"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role1/R003-input-freeze.json",
+      "bytes": 1965,
+      "sha256": "609c62518c41e3de1c764cf353cbf2d194bb37fc4b05fe9a39a43dafe53d1619"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role1/R003-manifest.json",
+      "bytes": 1022,
+      "sha256": "7f52d4aef6d57a4d42bb905559bdf19a67a8d79f3f96f026265016d6c3761521"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role1/R003-node-operations.csv",
+      "bytes": 646,
+      "sha256": "e2c1226e6f9406f8282fa7845d92b5d595490ea73af99b2ad81c1ac3d85c08e0"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role1/R003-questions-to-role4.md",
+      "bytes": 1200,
+      "sha256": "afde4878d5ee6f0a90eeaad8cfdef6606ab12f7687d33bdcc00157eb1d474a75"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role1/R003-validation.json",
+      "bytes": 2748,
+      "sha256": "623f72f7e30f50d7a37d3fffd67748a6d500c65f35c986d862504a01691d28cf"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role2/R003-closeout.json",
+      "bytes": 2996,
+      "sha256": "4c640ea5fc4565d7e53fd0b86bf8db70453cd686826ecff1f7c3a71a4fb4653f"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role2/R003-engineering-review.md",
+      "bytes": 2823,
+      "sha256": "5dae31957bf2588afe87f70cb71742df5193413ba5a7be367f2e370cb63717f2"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role2/R003-manifest.json",
+      "bytes": 451,
+      "sha256": "82180694333ce9c888705cdaa8a79d673a35cffb4282b2f7db7458c5147c73f8"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role3/R003-close.py",
+      "bytes": 8894,
+      "sha256": "2a91dcf0f47add5d055ac881597017c657034e814ca132ddb970d0e08471023e"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role3/R003-freeze.json",
+      "bytes": 829,
+      "sha256": "fd915f8e7f5fad072f72cdab06378480bafa144b69c798688a22cdbfd358aea2"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role3/R003-manifest.json",
+      "bytes": 4545,
+      "sha256": "364141ccd1630a6ebf7ac07c5840da9826c1c6aff74594ad5d7ee5409cd22f64"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role3/R003-report.md",
+      "bytes": 5608,
+      "sha256": "3ea68b49f73d7a2de3dc30e725e115c2bdad5c00cf58fac42ce4155675b745d4"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role3/R003-validation.json",
+      "bytes": 736,
+      "sha256": "e2b6c817fb7ee6c7bffb9dc6b48e340a1b3599da4cb037655477219fcbf3b6df"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role4/R003-analysis.py",
+      "bytes": 12843,
+      "sha256": "14d32d48e207d4f19ece4e75a196d73065a13da4c426744616a20543194bf4fb"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role4/R003-candidate-motion-availability.csv",
+      "bytes": 541,
+      "sha256": "7d1441f495f4a10ebf0fcf800e6344f9e126608a192b6ca9dc45d59d74779144"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role4/R003-delivery-manifest.json",
+      "bytes": 1759,
+      "sha256": "1cb5fcbb9c0555ad8cbc674abf1319b5a95ccb868a7ebf2fbb2c47da835f5d1b"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role4/R003-freeze.py",
+      "bytes": 2022,
+      "sha256": "a8ae7f96de689a00e2286e449fd162b4696a4b02ea81bce761fb7fae759a849b"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role4/R003-report.md",
+      "bytes": 4736,
+      "sha256": "ca3f88f00372ceee4d9e8d1b17e42bb52bee025e9143e914fca85d1a0f1e45ee"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role4/R003-run-record.json",
+      "bytes": 1176,
+      "sha256": "b5a241ad7f3e9c578f22d23ca4c3b773a5d1bf4a475eed281cccd0b67bc2c1b3"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role5/R003-adopted-display-rows.json",
+      "bytes": 12086,
+      "sha256": "cfeaad6fecfb8f55c372fce1f27d8e35980f786b31a5d445e6d8eb53ca43fea0"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role5/R003-build.py",
+      "bytes": 21660,
+      "sha256": "65ea346db96de0fef0d02276b61cc71ff36ada031c6570703b5b91404708b1e3"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role5/R003-candidate-geometry.csv",
+      "bytes": 1340,
+      "sha256": "e13df56a7029f08f6566208aa738d4a1972d83671772b1f663e8cd7ed9b1f7d2"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role5/R003-close.py",
+      "bytes": 7442,
+      "sha256": "7b3b743833acea5a0ba3271e95a29ae6c9abc14892cb7a1c6d4e0274b33276fb"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role5/R003-freeze.json",
+      "bytes": 2827,
+      "sha256": "16cc83b62c154ddbb50358eba91eebeed4f55bcc817837f8889e3a7dec4a8bd6"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role5/R003-input-freeze.json",
+      "bytes": 21544,
+      "sha256": "c8a5bcea043f8c28a341d448db0b6e8b811b31dd746232344c6e4d0ceaa4f3c1"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role5/R003-report.md",
+      "bytes": 1597,
+      "sha256": "e7bb8da62ee4b691a87f313303971c69e6361ddc0c2426531093de497221935d"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role5/R003-validation.json",
+      "bytes": 6555,
+      "sha256": "370766b537f093ded1dd84e299f4a741d7bbe7089fe7fec02b136033bead4fec"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role5/R003-补充说明.md",
+      "bytes": 3326,
+      "sha256": "afbfdc8cafcb7dfef6c1ef5299ce713dd0afccd43132c451ecfdb8b065f653b9"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role6/R003-contribution-boundaries.md",
+      "bytes": 6487,
+      "sha256": "c5d6a29837240e23d6744e29e4a02be7e397e9efd4d6ba8d0aa37a4aba006a9d"
+    },
+    {
+      "path": "research/sessions/20261019-2045/roles/role6/R003-freeze.json",
+      "bytes": 5458,
+      "sha256": "ae144f7fe2f0090ad4a3c4264bcdede39ca783c77247cbd85e6b78a20a4faca2"
+    },
+    {
+      "path": "research/sessions/20261019-2045/rounds/R001-R003.md",
+      "bytes": 3343,
+      "sha256": "bce2e598d025481e8a66d3a1db6db17b1560f4c00d20f46140d13a1813e7d41f"
+    },
+    {
+      "path": "research/sessions/20261019-2045/runs.md",
+      "bytes": 236,
+      "sha256": "d859aa8b38f3a81157939d5a3750a0be00815171522a290c8b0b5467baf5a312"
+    },
+    {
+      "path": "research/sessions/20261019-2045/status.json",
+      "bytes": 5586,
+      "sha256": "7bac8eac10e30d19947a012016f025106ec2750ad1f483bcb1711030e360d8e5"
+    },
+    {
+      "path": "research/sessions/20261019-2045/threads.json",
+      "bytes": 2939,
+      "sha256": "019270e8e74940056a1a995934fe2ba74a3c1c5b5423ee0ab87861144af2605f"
+    },
+    {
+      "path": "research/sessions/20261019-2045/明日模型试算步骤.md",
+      "bytes": 3555,
+      "sha256": "71d1f67000815deaeb0e7f865262a3f32c43a6afc70fcb1e4387fa624049d17a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/placement-session007-v001.md",
+      "bytes": 17426,
+      "sha256": "186da6f8e1a3ec3afc375426b35f416adf2d66d2cd65be7c51c03cda67686b9c"
+    }
+  ],
+  "excluded": "raw workbooks, entire nodes, trajectory arrays, local-cache, PDFs, old dirty files",
+  "old_tracked_status": "M AGENTS.md\n M papers/damping-output-boundaries/research/claims.md\n M papers/damping-output-boundaries/research/decisions-pending.md\n M papers/damping-output-boundaries/research/topic-cards/T001.md\n M papers/damping-output-boundaries/research/topic-cards/events.md\n M research/active-session.json\n M research/sessions/20261017-2109/status.json",
+  "checks": "JSON decoding, Python AST, writer frozen manuscript SHA, explicit paths and staged blob byte identity"
+}

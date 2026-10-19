@@ -1,0 +1,44 @@
+{
+  "completed_Asia_Shanghai": "2026-10-19T21:06:57.435275+08:00",
+  "script_sha256": "ec2c5ae2cda26857a7ffb287ed49618ceef558bfb3a671d1703aaa14c3587815",
+  "inputs": {
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261019-2045\\roles\\data\\R001-link-geometry-88.csv": "0c37a449be68bbfe03cc4e3e516fea3c8d4d42e741d9d0e3e23f0aa09a1c5d62",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\local_history_manifest_r006.json": "c0b661271ac78e5450849a6bdae4e4a797fa4846608b6256ca0db4b6c7fba392",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\local_paired_histories_r006.npz": "65be34f8125e5e7f2aee90ebe5a4b2612cfe717d84abf0886789a1bc75709340",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\maxwell-session004\\R006-device-distribution\\device_record_summary_r006.csv": "8d359f9c86b544aaa6c573618a375eef7beb8f02070dc223f2802ce3fe31864d",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Forces.npz": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d"
+  },
+  "source_response_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+  "source_geometry_sha256": "b75a8979bc902890f025f28e76f69a652796a2304326845e89fc1986500bea04",
+  "checks": {
+    "192_complete_native_device_histories": true,
+    "24_complete_8_device_story_cases": true,
+    "48_story_axis_results": true,
+    "P_I_J_equal_count_once": true,
+    "exact_time_match": true,
+    "native_port_work_matches_frozen_summary": true
+  },
+  "sign_and_cut": "Geometry I lower/J upper; positive-extension axial P maps to structural internal J resistance +nP. Native Bottom VX/VY cut-side sign and Link inclusion not certified by existing exports; report QT-QD and QT+QD rather than select favorable sign.",
+  "new_model_prediction": false,
+  "no_solver": true,
+  "no_original_big_excel_read": true,
+  "outputs": {
+    "device-contributions-384.csv": {
+      "bytes": 134090,
+      "sha256": "e36b52730f95e6494f80c10e64518a3337e911d4a36541ebb456e95adc72b8eb"
+    },
+    "layer-axis-peaks-48.csv": {
+      "bytes": 25524,
+      "sha256": "f29fd0bbb67da5c8143aadac0b0782545ee0ffdd3a41d83da7354b6b8697ce8f"
+    },
+    "pairing-checks-24.csv": {
+      "bytes": 1437,
+      "sha256": "73eafdab631622d2b3e725c3a04c1ac3c746ee19614db1bfa0806a3e46efa999"
+    },
+    "target-priority-8.csv": {
+      "bytes": 1592,
+      "sha256": "dcc504b7f571319c95f64a7fc0521bd8018429a43a723f7bf36935fea2a58196"
+    }
+  }
+}

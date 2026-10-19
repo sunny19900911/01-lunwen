@@ -1,0 +1,83 @@
+{
+  "task": "20261019-2045 role3 R003",
+  "role": "primary-source facts and fair comparison; contribution judgment belongs to role6",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261019-2045\\plan.md",
+      "bytes": 4456,
+      "sha256": "dea3e66313a24c993b9a987a4b6e13ab5f8fd32da90efbc4791ba3aefd414feb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261019-2045\\role-handoff-v001.md",
+      "bytes": 4761,
+      "sha256": "346b9c4cfa37d9be94139932f3dd49dcc438d015f9f5388d27d5282dc77478a7"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261019-2045\\claims.md",
+      "bytes": 695,
+      "sha256": "f6e5ed57caa2cf2389e85894a1211e89aa8d7b837b516f19ed9f28b42b2bdfd4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261019-2045\\status.json",
+      "bytes": 5201,
+      "sha256": "d168c8e2a8adff6f52ea0a5f8514f9369bf69ec8f0200f78e21018206610907b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261019-2045\\roles\\audit\\R001-audit-and-baselines.md",
+      "bytes": 10127,
+      "sha256": "92dbd7a6b32617d99c9ec14b0dc446c7fa14fa7b679532708467272a2ad3f391"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\engineering-session006\\H011\\local-cache\\p12.txt",
+      "bytes": 3678,
+      "sha256": "dd87a8951e86e805ff04c8bd72a885bee952181738b045ace98df13df6a73a63"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\engineering-session006\\H011\\local-cache\\p16.txt",
+      "bytes": 3805,
+      "sha256": "9ef69e6b9bd40a1e98da1676392818dd1b2c73f357b47ac564548fa146e39dca"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\engineering-session006\\H011\\local-cache\\p21.txt",
+      "bytes": 2822,
+      "sha256": "1bd400c95a4ac85e8e1f37ca50875e00833889ff04a892b2ffa044a844076011"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\engineering-session006\\H011\\local-cache\\p25.txt",
+      "bytes": 3917,
+      "sha256": "5ba909c1265958c45546c486f1620a08d229b4965e79e6251de718f1d24e1483"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\engineering-session006\\H011\\source-scope.json",
+      "bytes": 1380,
+      "sha256": "cb7c0f2daa6d38c473b9ef41227763428dbe9967c9f3d87fea64b2ab0f1ce01f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\literature\\engineering-session006\\H014\\report.md",
+      "bytes": 8471,
+      "sha256": "e97f62e5c3ed4a3e1755bd8e7bfa0e1add47a9bf84d1b3b8d5cd784f8fc3219e"
+    }
+  ],
+  "primary_works_rechecked": 2,
+  "new_primary_downloads": 0,
+  "new_searches": 0,
+  "actually_reread_text": {
+    "DeDomenico2021": [
+      12,
+      16,
+      21,
+      25
+    ]
+  },
+  "previous_original_page_reading_reused": {
+    "NCREE_report": [
+      83
+    ]
+  },
+  "new_original_images_viewed": 0,
+  "new_render_generated_but_not_viewed": "R003-local-cache/DeDomenico-p16.png",
+  "fair_comparison": "original controlled baseline; identical device inventory/specification; same inputs, structure, damping and analysis controls; positional change separated from c sensitivity",
+  "UDD_reproduction": "not performed; no claim a one-shot drift selection reproduces Eq16/17 iterative NTHA",
+  "core_uncertainty": "simple control rule and candidate nodal axial motion availability must be frozen before interpretation",
+  "source_scope": "no claim of improved modified-layout response, no innovation priority judgment"
+}

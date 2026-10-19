@@ -1,0 +1,133 @@
+{
+  "stop_messages": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"threadId\":\"01a14756-7b7b-72a0-b079-e6c7874fc120\"}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"threadId\":\"01a14756-7fe0-75f3-8671-bcd59e413052\"}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"threadId\":\"01a14756-8408-7732-8d29-3380fcaeb7bb\"}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"threadId\":\"01a14756-8805-7a42-b910-ae973f55d73e\"}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"threadId\":\"01a14756-8bd0-7dc2-8362-fc1eab28af64\"}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"threadId\":\"01a14a00-809e-7612-a7a4-889ab1e55f0d\"}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  ],
+  "final_snapshots": [
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"turnCompleted\",\"turnId\":\"01a1545c-9e68-7491-9e16-6f28d69afbe3\",\"threadId\":\"01a14756-7b7b-72a0-b079-e6c7874fc120\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"9acc5ebb-5bb8-4263-9b65-6b79387ae28d:4\",\"revision\":4,\"changed\":true,\"thread\":{\"id\":\"01a14756-7b7b-72a0-b079-e6c7874fc120\",\"hostId\":\"local\",\"status\":{\"type\":\"idle\"}},\"latestTurn\":{\"id\":\"01a1545c-9e68-7491-9e16-6f28d69afbe3\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792416718,\"completedAt\":1792422036,\"durationMs\":5318480},\"latestAssistantMessageId\":\"msg_0fdbbf9b10a3adb0016ad63092ff8c8195a56eba3a3ee7bf77\",\"latestAssistantMessage\":{\"id\":\"msg_0fdbbf9b10a3adb0016ad63092ff8c8195a56eba3a3ee7bf77\",\"turnId\":\"01a1545c-9e68-7491-9e16-6f28d69afbe3\",\"phase\":\"final_answer\",\"text\":\"R003 已于 23:00:03 封存并停止；未在12分钟及科研硬截止内完成，已如实记录。 暂定两组均移动同一 K82： M1：下移至 Story8，2281→2421。 M2：Story9 内侧移至2565→2704，作为平面位置对照。 尚缺角色4全楼轮廓，不能认定 Story8 最优或预报减幅。 候选与下一问题 · 节点操作表 · 冻结清单\"},\"latestToolMarkerId\":\"exec-b9cf7eb6-200a-4770-b0f6-258bad7db972\",\"latestToolMarker\":{\"id\":\"exec-b9cf7eb6-200a-4770-b0f6-258bad7db972\",\"turnId\":\"01a1545c-9e68-7491-9e16-6f28d69afbe3\",\"type\":\"commandExecution\",\"name\":\"commandExecution\",\"status\":\"completed\"}}]}"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"turnCompleted\",\"turnId\":\"01a154ad-069f-7a02-aa56-627a22ac6b1e\",\"threadId\":\"01a14756-7fe0-75f3-8671-bcd59e413052\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"0263925a-d2e4-473d-b943-f0e994e8a6ae:5\",\"revision\":5,\"changed\":true,\"thread\":{\"id\":\"01a14756-7fe0-75f3-8671-bcd59e413052\",\"hostId\":\"local\",\"status\":{\"type\":\"idle\"}},\"latestTurn\":{\"id\":\"01a154ad-069f-7a02-aa56-627a22ac6b1e\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792421988,\"completedAt\":1792422043,\"durationMs\":55559},\"latestAssistantMessageId\":\"msg_058500d59acbf314016ad6309b727481968b07e8176934bead\",\"latestAssistantMessage\":{\"id\":\"msg_058500d59acbf314016ad6309b727481968b07e8176934bead\",\"turnId\":\"01a154ad-069f-7a02-aa56-627a22ac6b1e\",\"phase\":\"final_answer\",\"text\":\"已结束并核对封存，文件完整且未修改。 实际冻结：22:58:29 +08:00，属超时部分收束。 行政核对：23:00:11。 未完成：长度、倾角的独立重算。 K82/K83为Y向，R003原稿正确。 报告 · 收束记录 · 冻结清单\"},\"latestToolMarkerId\":\"exec-7bc22b30-0f70-49e4-90ed-485d41ef5139\",\"latestToolMarker\":{\"id\":\"exec-7bc22b30-0f70-49e4-90ed-485d41ef5139\",\"turnId\":\"01a154ad-069f-7a02-aa56-627a22ac6b1e\",\"type\":\"commandExecution\",\"name\":\"commandExecution\",\"status\":\"completed\"}}]}"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"turnCompleted\",\"turnId\":\"01a154ad-08d1-7fa2-9330-2388dd2d7281\",\"threadId\":\"01a14756-8408-7732-8d29-3380fcaeb7bb\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"dbfd450c-8059-468a-9f62-b23d5184c08d:3\",\"revision\":3,\"changed\":true,\"thread\":{\"id\":\"01a14756-8408-7732-8d29-3380fcaeb7bb\",\"hostId\":\"local\",\"status\":{\"type\":\"idle\"}},\"latestTurn\":{\"id\":\"01a154ad-08d1-7fa2-9330-2388dd2d7281\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792421988,\"completedAt\":1792422024,\"durationMs\":35722},\"latestAssistantMessageId\":\"msg_01c40afd2e9956f9016ad63089d5708190b95422b84bd61996\",\"latestAssistantMessage\":{\"id\":\"msg_01c40afd2e9956f9016ad63089d5708190b95422b84bd61996\",\"turnId\":\"01a154ad-08d1-7fa2-9330-2388dd2d7281\",\"phase\":\"final_answer\",\"text\":\"已停止新增工作。R003已于 22:57:36+08 迟交冻结，文件完整且哈希校验通过。 封存报告 未完成项：新生成的PDF16图像未查看，未计入已核证据。K82/K83方向更正已收到；本角色报告未将二者写为X向，无需改动。\"},\"latestToolMarkerId\":null,\"latestToolMarker\":null}]}"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"turnCompleted\",\"turnId\":\"01a154ad-0a46-7cd2-b836-013df9b1b804\",\"threadId\":\"01a14756-8805-7a42-b910-ae973f55d73e\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"9161e6ab-c967-45df-bdbf-f6318a8755df:3\",\"revision\":3,\"changed\":true,\"thread\":{\"id\":\"01a14756-8805-7a42-b910-ae973f55d73e\",\"hostId\":\"local\",\"status\":{\"type\":\"idle\"}},\"latestTurn\":{\"id\":\"01a154ad-0a46-7cd2-b836-013df9b1b804\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792421988,\"completedAt\":1792422019,\"durationMs\":30267},\"latestAssistantMessageId\":\"msg_09fe3e55758f973c016ad63084e940819382d899de0414a685\",\"latestAssistantMessage\":{\"id\":\"msg_09fe3e55758f973c016ad63084e940819382d899de0414a685\",\"turnId\":\"01a154ad-0a46-7cd2-b836-013df9b1b804\",\"phase\":\"final_answer\",\"text\":\"已结束，仅完成行政核验：R003清单内 5件文件字节与SHA全部一致，实际冻结时间为 22:58:15，明确记录超时未完成。 未完成项仍为全楼轮廓CSV/图及候选运动排序。K82/K83的Y向身份已正确保留，无需改稿。 冻结清单\"},\"latestToolMarkerId\":\"exec-e6c3425a-6f95-45a7-8279-6e542309f88d\",\"latestToolMarker\":{\"id\":\"exec-e6c3425a-6f95-45a7-8279-6e542309f88d\",\"turnId\":\"01a154ad-0a46-7cd2-b836-013df9b1b804\",\"type\":\"commandExecution\",\"name\":\"commandExecution\",\"status\":\"completed\"}}]}"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"turnCompleted\",\"turnId\":\"01a1545c-a98c-7b11-80eb-736568b02fd6\",\"threadId\":\"01a14756-8bd0-7dc2-8362-fc1eab28af64\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"b15d080b-96ec-4374-a74b-8a358841245d:4\",\"revision\":4,\"changed\":true,\"thread\":{\"id\":\"01a14756-8bd0-7dc2-8362-fc1eab28af64\",\"hostId\":\"local\",\"status\":{\"type\":\"idle\"}},\"latestTurn\":{\"id\":\"01a1545c-a98c-7b11-80eb-736568b02fd6\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792416721,\"completedAt\":1792422053,\"durationMs\":5332466},\"latestAssistantMessageId\":\"msg_09505bd600c2eded016ad630a6c6c48190913e2a98b2530d0a\",\"latestAssistantMessage\":{\"id\":\"msg_09505bd600c2eded016ad630a6c6c48190913e2a98b2530d0a\",\"turnId\":\"01a1545c-a98c-7b11-80eb-736568b02fd6\",\"phase\":\"final_answer\",\"text\":\"已停止，R003于 22:59:48 完成行政冻结，超时已如实记录，未再新增分析或结论。 阶段稿 v001 冻结清单 稿件已正确写为K82/K83均为Y向、P1沿X平移，无需修改。尚未完成候选排序、安装与Bottom截面核对，以及改后模型求解。\"},\"latestToolMarkerId\":\"exec-48d300dc-ddaa-487f-a59c-7f49f842a4ed\",\"latestToolMarker\":{\"id\":\"exec-48d300dc-ddaa-487f-a59c-7f49f842a4ed\",\"turnId\":\"01a1545c-a98c-7b11-80eb-736568b02fd6\",\"type\":\"commandExecution\",\"name\":\"commandExecution\",\"status\":\"completed\"}}]}"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"turnCompleted\",\"turnId\":\"01a154ad-0c4b-7b02-aa0a-41d481846a03\",\"threadId\":\"01a14a00-809e-7612-a7a4-889ab1e55f0d\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"6b32e766-a0c4-4deb-9d91-cc75e8f32770:3\",\"revision\":3,\"changed\":true,\"thread\":{\"id\":\"01a14a00-809e-7612-a7a4-889ab1e55f0d\",\"hostId\":\"local\",\"status\":{\"type\":\"idle\"}},\"latestTurn\":{\"id\":\"01a154ad-0c4b-7b02-aa0a-41d481846a03\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792421989,\"completedAt\":1792422010,\"durationMs\":21047},\"latestAssistantMessageId\":\"msg_0d8e1b978b923a60016ad6307bfefc8197bb7efe2d21a408c7\",\"latestAssistantMessage\":{\"id\":\"msg_0d8e1b978b923a60016ad6307bfefc8197bb7efe2d21a408c7\",\"turnId\":\"01a154ad-0c4b-7b02-aa0a-41d481846a03\",\"phase\":\"final_answer\",\"text\":\"已停止，无在途计算或写入。 R003于 22:59:03+08 完整封存：报告、冻结记录。超时已标记，未声称按时完成。 未完成项：候选安装确认、截面受力口径核对及新模型复算。报告已正确写明P1为Y向装置沿X平移，无需改动。\"},\"latestToolMarkerId\":null,\"latestToolMarker\":null}]}"
+        }
+      ],
+      "isError": false
+    }
+  ],
+  "pause_tool": "automation_update update PAUSED succeeded; formal view returned card; actual toml checked by publish_closeout.py"
+}
