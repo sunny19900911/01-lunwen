@@ -1,0 +1,61 @@
+{
+  "H021_manifest_sha256": "971ff81e6af86f179268bc3332e388d8676952d71aab7758cd34de2f45f263e7",
+  "sources_verified_against_formal_manifest": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\three_floor_prospective.py",
+      "bytes": 19113,
+      "sha256": "4554d99b467b429631fe60d7a70af72107962d1cfd33bd1da088ed5e8a2172b8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\H021-three-floor-prospective\\pre-run-freeze.json",
+      "bytes": 6186,
+      "sha256": "506258b0aa9858f9424eae4ba7305e1ebcb18cb743f6fe54a0908705491c8572"
+    }
+  ],
+  "runner_line_anchors": {
+    "mass_stiffness_difference_matrix": 10,
+    "damping_and_Maxwell_parameters": 11,
+    "port_vectors": 12,
+    "bare_frequency_definition": 14,
+    "envelope": 27,
+    "H2_full_input": 33,
+    "inverse_dashpot": 35,
+    "integrator_allocation_grid": 64,
+    "zero_initial_states": 65,
+    "negative_mass_input": 68,
+    "midpoint_device_solve": 71,
+    "node_state_updates": 74,
+    "constitutive_increment": 81,
+    "save_node_states": 92,
+    "full_time_input_midpoint_grid": 186,
+    "save_state_npz": 174
+  },
+  "quoted_line_text": {
+    "mass_stiffness_difference_matrix": "MASS=np.array([1.,1.2,.8]);M=np.diag(MASS);STIFF=np.array([1.4,1.,.7]);D=np.array([[1.,0.,0.],[-1.,1.,0.],[0.,-1.,1.]])",
+    "damping_and_Maxwell_parameters": "K=D.T@np.diag(STIFF)@D;C=.02*K;KAPPA=.5;CD=.02;ALPHA=.3;Q=1/ALPHA",
+    "port_vectors": "BS={0:np.zeros(3),1:D[0].copy(),2:D[1].copy(),3:D[2].copy()}",
+    "bare_frequency_definition": "FREQUENCIES=np.sqrt(np.linalg.eigvalsh(K/np.sqrt(MASS[:,None]*MASS[None,:])))",
+    "envelope": "def envelope(t,b,e):return np.where((t>b)&(t<e),np.sin(np.pi*(t-b)/(e-b))**2,0.)",
+    "H2_full_input": "    if case=='H2_envelope':return .1*(envelope(t,0,30)+.75*envelope(t,50,80))*(.75*np.sin(w2*t)+.25*np.sin(1.05*w3*t+math.pi/4))",
+    "inverse_dashpot": "def g(force):return math.copysign((abs(force)/CD)**Q,force)",
+    "integrator_allocation_grid": "    N=len(forcing);z=np.zeros((N+1,13),dtype='<f8');z[:,0]=np.arange(N+1)*h",
+    "zero_initial_states": "    u1=u2=u3=v1=v2=v3=F=Win=Db=Dd=Eold=0.;root=mom=kin=const=bal=ident=0.;minimumDb=minimumDd=math.inf",
+    "negative_mass_input": "        ag=float(forcing[n-1]);p1,p2,p3=-ag,-1.2*ag,-.8*ag",
+    "midpoint_device_solve": "        if device:Fm,rr=solve(float(ar),F/KAPPA+a*(b1*af1+b2*af2+b3*af3),a)",
+    "node_state_updates": "        un1,un2,un3=u1+h*vm1,u2+h*vm2,u3+h*vm3;vn1,vn2,vn3=2*vm1-v1,2*vm2-v2,2*vm3-v3;Fn=2*Fm-F if device else 0.",
+    "constitutive_increment": "        rf=(Fn-F)/KAPPA-h*(b1*vm1+b2*vm2+b3*vm3-g(Fm)) if device else 0.",
+    "save_node_states": "        z[n,1:]=(u1,u2,u3,v1,v2,v3,F,Win,Db,Dd,Eold,balance)",
+    "full_time_input_midpoint_grid": "            a=acceleration(case,(np.arange(round(200/h))+.5)*h);assert float(np.max(abs(a)))<=.1*(1+1e-14)",
+    "save_state_npz": "                np.savez_compressed(OUT/'local-only'/f'{case}__position{position}__h{h}.npz',trajectory=z)"
+  },
+  "same_M_K_as_R006": true,
+  "H2_h005_input_metadata": {
+    "case": "H2_envelope",
+    "h": 0.005,
+    "sha256": "468bcb0b8f39080b0b50e09d8d188741ae28bff5de3f4dcbe3d683160664058a",
+    "midpoint_sample_peak": 0.08480783895471444,
+    "midpoint_RMS": 0.016567832541072164,
+    "midpoint_integral_ag_squared": 0.05489861502180194
+  },
+  "no_runner_import_execution_or_input_array_regeneration": true
+}

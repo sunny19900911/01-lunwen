@@ -24,3 +24,5 @@ C014 reviewed numerical-test 主控独组role4R004统计48行192数字零差，�
 C013-review role2 R006独审采用role1R004共同时间与各阶峰比；reviewed numerical-test。两个控制时刻三项同向，不能称抵消损失。
 C015 supported numerical-test reviewed role2R007独核人为幅值参照，逐阶峰匹配但合成峰不匹配；不具预测/相位独立归因资格。
 C016 supported literature reviewed role3R003核CSI2016 PDF403印381，要求改变模态数检查具体动态响应；既有原则非本文首创。
+
+C017 supported analytic-derivation+numerical-test reviewed role2R008：三层第三阶有效质量4.789208%，质量加权振型和部分抵消，第2层差−1.316516而屋顶系数+.204825；只在同一质量归一基与配套q下解释局部输出，不映射实际扭转模态。

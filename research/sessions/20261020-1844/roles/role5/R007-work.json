@@ -1,0 +1,33 @@
+{
+  "old_sha256": "e40557050f803629d4eced4a8257b617140adcf3708ccf8759b34ab4d6d586f9",
+  "abstract_chars": 376,
+  "amplitude_reference_rows": [
+    {
+      "output": "none_full",
+      "QS2_absolute_peak": "0.06635368724618669",
+      "QS2_signed_at_peak": "-0.06635368724618669",
+      "peak_time_nondimensional": "20.215",
+      "peak_over_none": "1.0",
+      "peak_change_from_none_percent": "0.0",
+      "definition": "direct complete saved-state QS2"
+    },
+    {
+      "output": "posterior_amplitude_only_reference",
+      "QS2_absolute_peak": "0.05751805433419382",
+      "QS2_signed_at_peak": "-0.05751805433419382",
+      "peak_time_nondimensional": "20.185",
+      "peak_over_none": "0.8668403629294821",
+      "peak_change_from_none_percent": "-13.315963707051793",
+      "definition": "sum a_k Vnone,k artificial reference"
+    },
+    {
+      "output": "actual_device_story1",
+      "QS2_absolute_peak": "0.06273951642969278",
+      "QS2_signed_at_peak": "-0.06273951642969278",
+      "peak_time_nondimensional": "20.09",
+      "peak_over_none": "0.9455317260202203",
+      "peak_change_from_none_percent": "-5.446827397977971",
+      "definition": "direct complete saved-state QS2"
+    }
+  ]
+}

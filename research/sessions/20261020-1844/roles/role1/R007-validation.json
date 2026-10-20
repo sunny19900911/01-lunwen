@@ -1,0 +1,40 @@
+{
+  "actual_start": "2026-10-20T20:30:25+08:00",
+  "actual_finish": "2026-10-20T20:33:52.199088+08:00",
+  "elapsed_seconds": 207.199088,
+  "within_8_minutes": true,
+  "source_manifest_files_verified": true,
+  "same_M_K_as_R006": true,
+  "required_model_fields_complete": true,
+  "source_line_numbers_recorded": {
+    "mass_stiffness_difference_matrix": 10,
+    "damping_and_Maxwell_parameters": 11,
+    "port_vectors": 12,
+    "bare_frequency_definition": 14,
+    "envelope": 27,
+    "H2_full_input": 33,
+    "inverse_dashpot": 35,
+    "integrator_allocation_grid": 64,
+    "zero_initial_states": 65,
+    "negative_mass_input": 68,
+    "midpoint_device_solve": 71,
+    "node_state_updates": 74,
+    "constitutive_increment": 81,
+    "save_node_states": 92,
+    "full_time_input_midpoint_grid": 186,
+    "save_state_npz": 174
+  },
+  "unknowns": "No separately exported dashpot-displacement initial state; do not invent an extra stored internal variable. Force initial state explicitly zero.",
+  "new_runner_imports_or_executions": 0,
+  "new_ODE_runs": 0,
+  "new_input_arrays": 0,
+  "new_raw_Excel_or_state_array_reads": 0,
+  "new_Git_automation_agents_chats": 0,
+  "qa": [
+    "UTF8/LF",
+    "JSON parse",
+    "exact source line anchors",
+    "local links",
+    "SHA256"
+  ]
+}

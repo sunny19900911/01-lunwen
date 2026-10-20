@@ -6,25 +6,25 @@
       "title": "论文角色①｜猜想与理论突破",
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
       "hostId": "local",
-      "cursor": "9acc5ebb-5bb8-4263-9b65-6b79387ae28d:16",
+      "cursor": "9acc5ebb-5bb8-4263-9b65-6b79387ae28d:20",
       "actual_status": {
         "type": "idle"
       },
       "turn_status": "completed",
-      "task": "idle_R006"
+      "task": "idle_R007"
     },
     {
       "role": "role2",
       "title": "论文角色②｜证明审核与反例",
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
       "hostId": "local",
-      "cursor": "0263925a-d2e4-473d-b943-f0e994e8a6ae:19",
+      "cursor": "0263925a-d2e4-473d-b943-f0e994e8a6ae:21",
       "actual_status": {
         "type": "active",
         "activeFlags": []
       },
       "turn_status": "inProgress",
-      "task": "R008"
+      "task": "R009"
     },
     {
       "role": "role3",
@@ -43,26 +43,24 @@
       "title": "论文角色④｜ETABS数据与拟合",
       "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
       "hostId": "local",
-      "cursor": "9161e6ab-c967-45df-bdbf-f6318a8755df:16",
+      "cursor": "9161e6ab-c967-45df-bdbf-f6318a8755df:17",
       "actual_status": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "turn_status": "inProgress",
-      "task": "R008"
+      "turn_status": "completed",
+      "task": "idle_R008"
     },
     {
       "role": "role5",
       "title": "论文角色⑤｜论文写作与论证",
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
       "hostId": "local",
-      "cursor": "b15d080b-96ec-4374-a74b-8a358841245d:18",
+      "cursor": "b15d080b-96ec-4374-a74b-8a358841245d:23",
       "actual_status": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "turn_status": "inProgress",
-      "task": "R007"
+      "turn_status": "completed",
+      "task": "R008"
     },
     {
       "role": "role6",
@@ -74,7 +72,7 @@
         "type": "idle"
       },
       "turn_status": "completed",
-      "task": "R005"
+      "task": "idle_R005"
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "actual_start": "2026-10-20T20:13:42+08:00",
+  "actual_end": "2026-10-20T20:25:26.277387+08:00",
+  "within_12_minutes": true,
+  "checks": {
+    "v006_unchanged": true,
+    "prior_six_table_values": true,
+    "seven_tables": true,
+    "three_figures": true,
+    "four_references": true,
+    "citation_order": true,
+    "abstract300_400": true,
+    "table_symbols_consistent": true,
+    "V2_k2_defined": true,
+    "no_controls": true,
+    "math_intact": true,
+    "reference_peak:none_full": true,
+    "reference_peak:posterior_amplitude_only_reference": true,
+    "reference_peak:actual_device_story1": true,
+    "link:../../../research/sessions/20261020-1844/roles/role4/R007-six-case-reduction-profiles.png": true,
+    "link:../../../research/sessions/20261020-1844/roles/role4/R007-Story8-QT-QD-two-cases-qa.png": true,
+    "link:../../../research/sessions/20261020-1844/roles/role4/R007-local-modal-terms.png": true,
+    "link:../../../research/sessions/20261020-1844/roles/role5/R007-notes.md": true
+  },
+  "abstract_chars": 379,
+  "visual_QA": "all three PNGs actually viewed; Word pagination QA pending final composition",
+  "scientific_runs": 0
+}

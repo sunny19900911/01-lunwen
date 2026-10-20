@@ -1,0 +1,21 @@
+{
+  "actual_start": "2026-10-20T20:15:37+08:00",
+  "actual_finish": "2026-10-20T20:17:39.255349+08:00",
+  "elapsed_seconds": 122.255349,
+  "within_8_minutes": true,
+  "source_entries_match_manifests": true,
+  "body_characters": 306,
+  "small_table_rows": 3,
+  "checks_all_pass": true,
+  "new_ODE_runs": 0,
+  "new_full_state_or_Excel_reads": 0,
+  "new_Git_automation_agents_chats": 0,
+  "scope": "known single-horizontal3story model; not real-building mode assignment",
+  "qa": [
+    "UTF8/LF",
+    "JSON parse",
+    "3x3 orthogonality/eigen/peak products",
+    "local links",
+    "SHA256"
+  ]
+}

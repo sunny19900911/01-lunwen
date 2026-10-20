@@ -1,0 +1,17 @@
+{
+  "start": "2026-10-20T20:15:37+08:00",
+  "task_deadline": "2026-10-20T20:23:37+08:00",
+  "session_deadline": "2026-10-20T21:44:25+08:00",
+  "task": "R006 3x3 modal geometry explanation",
+  "source_files": [
+    {
+      "file": "R003-none-summary.json",
+      "sha256": "5c65cf6ffe67ab5c6e6c2935d3fb8b52f63ef242f7d29a2cbce8222254c073cf"
+    },
+    {
+      "file": "R004-whole-window-mode-peaks.csv",
+      "sha256": "826cfa743c98f920cc4212f633efa0a523275f82adb43c21f70657c0ca1568f8"
+    }
+  ],
+  "scope": "finite3x3 algebra and frozen peak table only; no new ODE or full state read"
+}
