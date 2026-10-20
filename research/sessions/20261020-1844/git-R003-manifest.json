@@ -1,0 +1,349 @@
+{
+  "prepared_at": "2026-10-20T20:03:42.980580+08:00",
+  "label": "R003",
+  "remote_before": "c945bc37583ed9f3bdac74b3480a720767c4dfc5",
+  "head_before": "c945bc37583ed9f3bdac74b3480a720767c4dfc5",
+  "files": [
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-common-time-differences.csv",
+      "bytes": 1841,
+      "sha256": "dd6b003effe160790194a1cab65f8c6a89933fc7727b2c0fd20a93c918945540"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-common-time-terms.csv",
+      "bytes": 3983,
+      "sha256": "71890f5cdfecba11ead1468c98dbee935d4ca1bd2afbbf624709a2e1a7b4d8fe"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-draw-svg.py",
+      "bytes": 2935,
+      "sha256": "f035dbe4ec8b245ebae5e4cef2733414a54211f8bd3cbbe72e305c3f06d86a0e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-input-freeze.json",
+      "bytes": 934,
+      "sha256": "c0e56284660a958062cc5cc086b8cdd88fa6ded99bba05ff83870ccbc5d4fdcf"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-local-curves.csv",
+      "bytes": 29330,
+      "sha256": "5e72611ee0e59f80dd49bfb05e3f59da5b9138571c81d917813581f37613ad9d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-local-modal-terms.svg",
+      "bytes": 22693,
+      "sha256": "5625e04a6b3c1147dbced8547bc17bd0e64bed14ec758e2c36d10968001b6c52"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-manifest.json",
+      "bytes": 2020,
+      "sha256": "66d578aa32696e803e3b54e294a6a17d6a680ba2ebdb009537dc0e6d8d38b053"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-numeric-summary.json",
+      "bytes": 3799,
+      "sha256": "c939aa69b1d46f8d57156db929d11ca2218ff31bcbb9b87614e97cf51a627e7b"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-postprocess.py",
+      "bytes": 4249,
+      "sha256": "eaf97905e8a5368017e1197cdaeba836b08546910695656ae50f5a1b302b9667"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-report.md",
+      "bytes": 4833,
+      "sha256": "540a004d13255019ce7c36e859a390bfc82612ebfad2f40b3b7ea81433fffc2d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-tables-first.json",
+      "bytes": 703,
+      "sha256": "c7d8b1500f34d7a397be1330ec03c2f5988d87e029acafdb390ad2ef75733dbe"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-validation.json",
+      "bytes": 1131,
+      "sha256": "2e58b846b912c100913d44ebc51ffd12ddf5c5729f4729bfc9bd14b5f2c7b2cc"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R004-whole-window-mode-peaks.csv",
+      "bytes": 854,
+      "sha256": "826cfa743c98f920cc4212f633efa0a523275f82adb43c21f70657c0ca1568f8"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R004-audit-saved-projection.py",
+      "bytes": 11332,
+      "sha256": "4efaf5f64c5646636114cb50c1f25af56a5fb57f8705c1bf8aa856d3d273b1b9"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R004-checks.json",
+      "bytes": 10484,
+      "sha256": "2864c2bfed089b69fd52a6c2b4bac49dd1a01ddd4a7b34fa4df9a66689a5cee9"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R004-H2-projection-review.md",
+      "bytes": 3027,
+      "sha256": "fb7d21b98e5c7af1c80e598ce6cc7bc64c062465eb234388419a7f2749088eee"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R004-manifest.json",
+      "bytes": 1254,
+      "sha256": "d8c76c537f7d62bc4c36781f2c6ead6ddc8ab3851a25aec4e0f805e56490dfaf"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R004-validation.json",
+      "bytes": 619,
+      "sha256": "3d556259c239c2562581e87517a192b620075172ab2d278a5eeb62f629859f5f"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R005-audit-device-timing.py",
+      "bytes": 14255,
+      "sha256": "0bfd1e3a10ccae2afc88159e76fc7039445a9b3c1c94ab3f33015f5bb320c05a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R005-checks.json",
+      "bytes": 6236,
+      "sha256": "98422adfb0de9b0a3a9998b2c0cbe03b7254647fc67326122fa2e1a6c6c8bce3"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R005-device-timing-review.md",
+      "bytes": 3505,
+      "sha256": "1903408702c46effd4d97c6b78070dae1552324deac0d1a6d7eb4ba3634f7cf2"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R005-manifest.json",
+      "bytes": 1250,
+      "sha256": "d7733da63720065fb2ea364d1843ae2cd7ea6a66ddca0b1651c06d9d280c8f66"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R005-validation.json",
+      "bytes": 462,
+      "sha256": "6ee9a5fe4ab0280e1369db5ad5e3044ec5c00e3b67b7b5c67c722397670d5d3c"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R004-all14-directional-envelope.svg",
+      "bytes": 10310,
+      "sha256": "0762df27216c0517a0314338cc1c428e7a855ad3f6a9fdde5d3ef851426fd468"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R004-caption-and-observations.md",
+      "bytes": 1222,
+      "sha256": "ee0d625a67b3d23a961aa44c5a684b236276faf08f2dd642bf06671231b4566b"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R004-delivery-manifest.json",
+      "bytes": 2335,
+      "sha256": "13b63a90d0bee023a34cc758457a89f089a231a3c32dee60748a7264e2ff6f77"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R004-input-freeze.json",
+      "bytes": 862,
+      "sha256": "7a919bc52633a1d56a8f4f2bc797c6d9402018efa3a71bcf4c4e7a0e9c8c8e5c"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R004-result.json",
+      "bytes": 874,
+      "sha256": "d716e63a98aadb7fb2d428e82bf2b0622f5b73dd9c5224699b370e9c9902a865"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R004-six-case-reduction-profiles.svg",
+      "bytes": 15124,
+      "sha256": "38e2815d9f1738629e15a178d4fb1b93a7b32ccc8d0045768a11915aa960ee08"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R004-story-axis-statistics-48.csv",
+      "bytes": 8419,
+      "sha256": "c401538f358369ae5470febf6af78dff344fdca3576bcae92d1e921463329c40"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R004_svg_profiles.py",
+      "bytes": 8884,
+      "sha256": "f00b6cc20940cce92b4e93b9f350efa3c3248dd2e336c29f188e75d9dc38770f"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R005-coverage-24.csv",
+      "bytes": 1340,
+      "sha256": "31ec87dc884b07c8f04298ff627ac95b83b1accf537c208e7bf7a936f80b06ca"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R005-delivery-manifest.json",
+      "bytes": 2715,
+      "sha256": "5ad68f13a6eaf75aa49c7cd1b6270b02af3d664b53820244bba6d8409706f407"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R005-first-two-device-at-QT-peak-16.csv",
+      "bytes": 4403,
+      "sha256": "74bb0f0987817822b7a41f0ed4568aeb88e3de45ec2bd5a4bad4c9a2d4e36b76"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R005-first-two-layer-summary.csv",
+      "bytes": 1085,
+      "sha256": "8b124ca73a1391e8640c816dcf8f5d6593ea72f1c03c4125cd4b1ffda84ef66e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R005-input-freeze.json",
+      "bytes": 2894,
+      "sha256": "46f6e5ef4e23763af96f33d51788b9baa18fd18c7f3ce9a02fba218e515d64bd"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R005-report.md",
+      "bytes": 1908,
+      "sha256": "94cf3fd604110b694521d846f09acfbff6e1278787188631cc83f7cffcec9485"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R005-Story8-device-at-QT-peak-48.csv",
+      "bytes": 12062,
+      "sha256": "0d3c8f54f54ec31189976b0aa38ac5e791b0ad0d22d05f32510221d5367f5e56"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R005-Story8-six-layer-summary.csv",
+      "bytes": 2410,
+      "sha256": "5626bae41ffd7774202207027231c029df876f165bedfc422998a591162d73f6"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R005_device_timing.py",
+      "bytes": 9164,
+      "sha256": "6c53772b598b37d6d98c2c969d7dd27dca8fce8fa5fba0bcbe593e52d55ef27d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R004-freeze.json",
+      "bytes": 1645,
+      "sha256": "2682c66b6ca1a032b8f5515200433970e55098f4bb0ab9c925c105e6a0556f9d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R004-handoff.md",
+      "bytes": 1059,
+      "sha256": "98ecf235d64488dbefea6a33327774ba3fdf7c2a3cef559f5960d12f802a4a78"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R004-input-freeze.json",
+      "bytes": 2789,
+      "sha256": "ce835f4770bfdec8ec1de286523bc1cd7bf49be791e42702d91541fbfee5f4ca"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R004-notes.md",
+      "bytes": 1439,
+      "sha256": "bd6af953a3f820cacab8d8b24f6ff4c7320e863ae76b6758531c711d2152a94c"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R004-validation.json",
+      "bytes": 2337,
+      "sha256": "5319c1c423aa8f76ba027aa7d7cef7970d693647a552137c7e6b8157eaeb8b16"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R004-wording-revision-manifest.json",
+      "bytes": 936,
+      "sha256": "6d3f528c69e6ec28e3df194a5ebddabeb6fe6ea99346b68a27da5abeb67207ea"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R004-wording-revision.md",
+      "bytes": 11502,
+      "sha256": "7885935b28a2bc3a1d3289b30752bb68f1239225253daae6f68c4834ff79ab2c"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R005-freeze.json",
+      "bytes": 990,
+      "sha256": "319d6d1ca70c3816ac68fc5627515c897e76a9dc27c13408feda0efadb54ab84"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R005-notes.md",
+      "bytes": 690,
+      "sha256": "24c2abea5b3814d184cbda20e1d263dbe86479b9cf76288ec1a9331cc7f03e92"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R005-validation.json",
+      "bytes": 506,
+      "sha256": "59e7a25a8d1a2b9eb37b8ebf57c6dd70bfab4b15582de90974bd861111e13534"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R004-engineering-explanation.md",
+      "bytes": 4004,
+      "sha256": "025de86157d89520c91f19c4c0af4cefcfff93bbf840c130aa5b87c27e90679c"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R004-freeze.json",
+      "bytes": 4087,
+      "sha256": "377c976568c63dfec3c8ec524c973c1438fb51127ef5aced71510b460e0635ca"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R003-prepare-checkpoint.py",
+      "bytes": 3544,
+      "sha256": "40e54e2cac9e2d1b03f2cbc2a6bbcddbae33fdedcea457fd313ea359f6532015"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R003-checkpoint-snapshot.json",
+      "bytes": 2280,
+      "sha256": "73f841e40c58e16a2511c0029dca4556ce0613a05772d45ce6d7ac3054b863f8"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R003-thread-snapshot.json",
+      "bytes": 2308,
+      "sha256": "8376702578e4f286ffe9dd9de133b93df72d9aefa9443f0697f435f7006c450e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R003-root-profile-check.py",
+      "bytes": 1623,
+      "sha256": "3cb40121d58768bbc26e5bcdf8b07e5fe02b08902c272dab3fae000cf6df0130"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R003-root-profile-check.json",
+      "bytes": 301,
+      "sha256": "890d8f5383509f6a3b810b479d7ba205ebac61bbab03e168792f09d9b908653c"
+    },
+    {
+      "path": "research/sessions/20261020-1844/rounds/R003.md",
+      "bytes": 2173,
+      "sha256": "beefc359c26e32efb90850de8b4f60bc6a5f8f1d58618a57da4845e01e6f9935"
+    },
+    {
+      "path": "research/sessions/20261020-1844/rounds/R003-in-progress.md",
+      "bytes": 1933,
+      "sha256": "a4ca328f9639abb60d966eaaf913c12dbc40f69b05d971f977f17ee784a70485"
+    },
+    {
+      "path": "research/sessions/20261020-1844/next-checkpoint-handoff.md",
+      "bytes": 1861,
+      "sha256": "f3c5de86abc4969542ceb6b24d6d55cc1861976a168262c6418569f1a72b6a7e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/status.json",
+      "bytes": 4364,
+      "sha256": "3f1c20b68e0b617a3f6503c6fc9727c48d911c6c0900fa589700eb9e04f9f864"
+    },
+    {
+      "path": "research/sessions/20261020-1844/threads.json",
+      "bytes": 2346,
+      "sha256": "ad5d50223dce342fd72a814aeca22aeac0bf4913b08abb75230c5fc7003af3bc"
+    },
+    {
+      "path": "research/sessions/20261020-1844/claims.md",
+      "bytes": 2350,
+      "sha256": "037ab610dfa60aa281dd0425fb81cfe619c60eac6c08274338424757de57340d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/runs.md",
+      "bytes": 747,
+      "sha256": "f46a9dc971119a329e9a6adf6529528149946f48065636f0fb08eb451234d46c"
+    },
+    {
+      "path": "research/sessions/20261020-1844/git-R002-receipt.json",
+      "bytes": 333,
+      "sha256": "06d299914b3a6bf9a100026169ef95a5d14a10e4358c449165c44951ee87bf28"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v004.md",
+      "bytes": 11188,
+      "sha256": "c1c28eb4cdf8d8771ab785b64043410b31e5f61875703fe03cc01890cc88bf9e"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v005.md",
+      "bytes": 11502,
+      "sha256": "082b0ebef33ad6412ac50b05831f492bb94d660d23d00236ef53db05b51c55f4"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R003-freeze-check.json",
+      "bytes": 225,
+      "sha256": "407b5b2556543d417dc6bf69ec03c23e80e866e0ea769daeb200e11741b235f6"
+    }
+  ],
+  "scope": "Only explicit completed checkpoint paths; raw data, third-party full papers, caches and old changes excluded"
+}

@@ -1,0 +1,96 @@
+{
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\H021-three-floor-prospective\\local-only\\H2_envelope__position0__h0.005.npz",
+      "bytes": 2737624,
+      "sha256": "f1fa4497734be4b612528f9a45e45c8daa880f902403c085396e38b08031c325"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\H021-three-floor-prospective\\local-only\\H2_envelope__position1__h0.005.npz",
+      "bytes": 3336293,
+      "sha256": "3155eac9781d1d3e36955a5784ee1e220dd48ac88ed14f65b19f71056cf7a1d7"
+    }
+  ],
+  "state_reconstruction_errors": [
+    5.551115123125783e-17,
+    4.163336342344337e-17
+  ],
+  "full_window": [
+    0.0,
+    200.0
+  ],
+  "saved_nodes_each": 40001,
+  "common_rows": 20,
+  "common_time_count": 10,
+  "plot_rows": 161,
+  "required_common_values": [
+    {
+      "index0": 4018,
+      "time_nondimensional": 20.09,
+      "device_minus_none_mode1": -0.0007015394275888057,
+      "device_minus_none_mode2": -0.00013305275807552665,
+      "device_minus_none_mode3": 0.0034440612276582516,
+      "device_minus_none_total": 0.0026094690419939115,
+      "none_total": -0.06534898547168669,
+      "device_total": -0.06273951642969278,
+      "device_abs_minus_none_abs": -0.0026094690419939115
+    },
+    {
+      "index0": 4043,
+      "time_nondimensional": 20.215,
+      "device_minus_none_mode1": -0.0006909755807172034,
+      "device_minus_none_mode2": -5.482717307354846e-05,
+      "device_minus_none_mode3": 0.005281956663162099,
+      "device_minus_none_total": 0.004536153909371357,
+      "none_total": -0.06635368724618669,
+      "device_total": -0.06181753333681533,
+      "device_abs_minus_none_abs": -0.004536153909371357
+    }
+  ],
+  "whole_window_modal_peaks": [
+    {
+      "mode": 1,
+      "QS2_output_coefficient": 0.31563734692871714,
+      "none_absolute_peak": 0.036860629192537644,
+      "none_signed_at_peak": 0.036860629192537644,
+      "none_peak_time": 17.16,
+      "none_q_absolute_peak": 0.11678158352047666,
+      "story1_absolute_peak": 0.035698330726202716,
+      "story1_signed_at_peak": 0.035698330726202716,
+      "story1_peak_time": 17.135,
+      "story1_q_absolute_peak": 0.11309919777733003,
+      "story1_over_none_amplitude_ratio": 0.9684677529441024,
+      "signed_peak_change_percent": -3.1532247055897633
+    },
+    {
+      "mode": 2,
+      "QS2_output_coefficient": -0.022185735035978482,
+      "none_absolute_peak": 0.005451629332513016,
+      "none_signed_at_peak": -0.005451629332513016,
+      "none_peak_time": 73.21000000000001,
+      "none_q_absolute_peak": 0.24572678451591254,
+      "story1_absolute_peak": 0.0038389877504523464,
+      "story1_signed_at_peak": 0.0038389877504523464,
+      "story1_peak_time": 23.43,
+      "story1_q_absolute_peak": 0.17303856483576863,
+      "story1_over_none_amplitude_ratio": 0.7041908971244573,
+      "signed_peak_change_percent": -29.580910287554275
+    },
+    {
+      "mode": 3,
+      "QS2_output_coefficient": -1.3165159291546942,
+      "none_absolute_peak": 0.04835673917578551,
+      "none_signed_at_peak": 0.04835673917578551,
+      "none_peak_time": 22.27,
+      "none_q_absolute_peak": 0.036730842449308077,
+      "story1_absolute_peak": 0.03937378833905115,
+      "story1_signed_at_peak": 0.03937378833905115,
+      "story1_peak_time": 22.085,
+      "story1_q_absolute_peak": 0.029907566985788156,
+      "story1_over_none_amplitude_ratio": 0.8142358027062225,
+      "signed_peak_change_percent": -18.576419729377747
+    }
+  ],
+  "new_ODE_runs": 0,
+  "scope": "posthoc fixed-basis QS2 modal terms, not isolated modal dynamics or unique causal attribution"
+}

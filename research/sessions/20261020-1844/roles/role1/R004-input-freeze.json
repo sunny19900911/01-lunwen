@@ -1,0 +1,38 @@
+{
+  "start": "2026-10-20T19:46:56+08:00",
+  "task_deadline": "2026-10-20T19:56:56+08:00",
+  "session_deadline": "2026-10-20T21:44:25+08:00",
+  "scope": "R004 H2 same saved complete trajectories, common time signed terms and full-window modal peaks;0 new ODE",
+  "case": "H2_envelope",
+  "positions": [
+    0,
+    1
+  ],
+  "common_required_times": [
+    20.09,
+    20.215
+  ],
+  "nearby_index_offsets": [
+    -20,
+    -10,
+    0,
+    10,
+    20
+  ],
+  "h": 0.005,
+  "plot_window": [
+    19.7,
+    20.5
+  ],
+  "anchor_selection": "union of +-0.1,+-0.05,0 around both R003 full QS2 peak nodes; identical times for both trajectories",
+  "source_summaries": [
+    {
+      "file": "R003-none-summary.json",
+      "sha256": "5c65cf6ffe67ab5c6e6c2935d3fb8b52f63ef242f7d29a2cbce8222254c073cf"
+    },
+    {
+      "file": "R003-story1-summary.json",
+      "sha256": "054d24eacea983efe6d1b4dc01ad5584167ce56f9890498666dc52610f2f9c27"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "actual_start": "2026-10-20T19:56:42+08:00",
+  "actual_end": "2026-10-20T19:57:50.473346+08:00",
+  "within_3_minutes": true,
+  "checks": {
+    "all_three_table_data_values_unchanged": true,
+    "modal_formula_unchanged": true,
+    "three_references_unchanged": true,
+    "user_model_definition_once": true,
+    "setting_scope_once": true,
+    "no_label_term": true,
+    "no_controls": true,
+    "old_v004_frozen": true
+  },
+  "scientific_runs": 0,
+  "scope": "terminology only"
+}
