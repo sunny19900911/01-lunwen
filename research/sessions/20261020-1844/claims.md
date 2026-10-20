@@ -26,3 +26,6 @@ C015 supported numerical-test reviewed role2R007独核人为幅值参照，逐�
 C016 supported literature reviewed role3R003核CSI2016 PDF403印381，要求改变模态数检查具体动态响应；既有原则非本文首创。
 
 C017 supported analytic-derivation+numerical-test reviewed role2R008：三层第三阶有效质量4.789208%，质量加权振型和部分抵消，第2层差−1.316516而屋顶系数+.204825；只在同一质量归一基与配套q下解释局部输出，不映射实际扭转模态。
+
+C018 final reviewed：v010保持数值、公式、图及原文引用；必改意见已处理。Word9页、8表3图、13组原生数学对象，经作者和主控逐页实际查看。真实建筑精确模态剪力、三态完整模型对应及层剪包含性仍未认证。
+C008/C012/C013审核状态以后续review条目为准，早期candidate记录保留。

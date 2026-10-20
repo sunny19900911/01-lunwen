@@ -1,0 +1,251 @@
+{
+  "update": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Updated automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"automation-5\",\"mode\":\"update\",\"status\":\"PAUSED\"}"
+      }
+    ],
+    "isError": false
+  },
+  "view_after_update": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Rendered automation card in the app."
+      }
+    ],
+    "isError": false
+  },
+  "view_at_close": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Rendered automation card in the app."
+      }
+    ],
+    "isError": false
+  },
+  "polls": [
+    {
+      "role": "role1",
+      "schemaVersion": 1,
+      "cursor": "9acc5ebb-5bb8-4263-9b65-6b79387ae28d:21",
+      "revision": 21,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+        "hostId": "local",
+        "status": {
+          "type": "notLoaded"
+        }
+      },
+      "latestTurn": {
+        "id": "01a1594a-1020-7830-ad84-972d997bbe6b",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792499388,
+        "completedAt": 1792499930,
+        "durationMs": 541953
+      },
+      "latestAssistantMessageId": "msg_0fdbbf9b10a3adb0016ad760c4fdb08195b5001b8992aa53a3",
+      "latestAssistantMessage": {
+        "id": "msg_0fdbbf9b10a3adb0016ad760c4fdb08195b5001b8992aa53a3",
+        "turnId": "01a1594a-1020-7830-ad84-972d997bbe6b",
+        "phase": "final_answer",
+        "text": "R007 已冻结，用时207秒，并已交作者⑤。 已核全 H2 包络、频率、相位、幅值、零初态、层1端口及串联方程。h=.005同时为积分和保存步长；正弦项使用全局时间，第二段不重置状态。 作者短段与参数表 · 来源行号与散列 未执行 runner 或新增 ODE。"
+      },
+      "latestToolMarkerId": "exec-d30c07a6-9883-4d27-b737-558577ac33e1",
+      "latestToolMarker": {
+        "id": "exec-d30c07a6-9883-4d27-b737-558577ac33e1",
+        "turnId": "01a1594a-1020-7830-ad84-972d997bbe6b",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "role": "role2",
+      "schemaVersion": 1,
+      "cursor": "0263925a-d2e4-473d-b943-f0e994e8a6ae:23",
+      "revision": 23,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-7fe0-75f3-8671-bcd59e413052",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a1595a-fb4e-7db2-9b73-52a448a460bf",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792500497,
+        "completedAt": 1792500781,
+        "durationMs": 284009
+      },
+      "latestAssistantMessageId": "msg_058500d59acbf314016ad7642a5cf08196839b2dc9bbaecb90",
+      "latestAssistantMessage": {
+        "id": "msg_058500d59acbf314016ad7642a5cf08196839b2dc9bbaecb90",
+        "turnId": "01a1595a-fb4e-7db2-9b73-52a448a460bf",
+        "phase": "final_answer",
+        "text": "R010科学审稿已冻结，用时211秒，已交作者⑤及主控。 8表、3图、3显示式及摘要结论通过，无数值必改。 仅1项must：第109行明确H2有意包含较高阶频率，重构差不能推广为一般实波误差率。精确替换句已提供，待作者实施。"
+      },
+      "latestToolMarkerId": "exec-df0a8e76-b97f-46df-80ba-979ef4d780e0",
+      "latestToolMarker": {
+        "id": "exec-df0a8e76-b97f-46df-80ba-979ef4d780e0",
+        "turnId": "01a1595a-fb4e-7db2-9b73-52a448a460bf",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "role": "role3",
+      "schemaVersion": 1,
+      "cursor": "dbfd450c-8059-468a-9f62-b23d5184c08d:17",
+      "revision": 17,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+        "hostId": "local",
+        "status": {
+          "type": "notLoaded"
+        }
+      },
+      "latestTurn": {
+        "id": "01a15958-1b09-7382-8d46-61da0eb084ae",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792500308,
+        "completedAt": 1792501107,
+        "durationMs": 798411
+      },
+      "latestAssistantMessageId": "msg_01c40afd2e9956f9016ad765596f44819081495ae040adf8b8",
+      "latestAssistantMessage": {
+        "id": "msg_01c40afd2e9956f9016ad765596f44819081495ae040adf8b8",
+        "turnId": "01a15958-1b09-7382-8d46-61da0eb084ae",
+        "phase": "final_answer",
+        "text": "R004已于20:52:47按时冻结并交主控、作者：引用审核0 must、0 should。 4条题录、首次顺序及区间引用正确；非线性投影、三类参与率表述有据，未造CSI式号。稿件未改，校验通过。 终审报告"
+      },
+      "latestToolMarkerId": "exec-46df7bb5-78bf-472c-a91e-ed02f2450d49",
+      "latestToolMarker": {
+        "id": "exec-46df7bb5-78bf-472c-a91e-ed02f2450d49",
+        "turnId": "01a15958-1b09-7382-8d46-61da0eb084ae",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "role": "role4",
+      "schemaVersion": 1,
+      "cursor": "9161e6ab-c967-45df-bdbf-f6318a8755df:18",
+      "revision": 18,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8805-7a42-b910-ae973f55d73e",
+        "hostId": "local",
+        "status": {
+          "type": "notLoaded"
+        }
+      },
+      "latestTurn": {
+        "id": "01a15940-4ef4-7710-a105-fc12967dd639",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792498749,
+        "completedAt": 1792499191,
+        "durationMs": 442599
+      },
+      "latestAssistantMessageId": "msg_09fe3e55758f973c016ad75df5065481939045e67a2a4b5158",
+      "latestAssistantMessage": {
+        "id": "msg_09fe3e55758f973c016ad75df5065481939045e67a2a4b5158",
+        "turnId": "01a15940-4ef4-7710-a105-fc12967dd639",
+        "phase": "final_answer",
+        "text": "R008已于 20:25:27冻结，耗时219.13秒。 四幅图均已改写为工程论文用语，PNG逐张实际查看通过。曲线、峰点、竖线及数值刻度位置全部不变，原SVG保持完整。 新PNG映射与QA清单 已交作者⑤，供下一版采用，不延长其当前任务。"
+      },
+      "latestToolMarkerId": "exec-bdd3529b-a1bc-4cd2-b77d-4995cadf7184",
+      "latestToolMarker": {
+        "id": "exec-bdd3529b-a1bc-4cd2-b77d-4995cadf7184",
+        "turnId": "01a15940-4ef4-7710-a105-fc12967dd639",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    },
+    {
+      "role": "role5",
+      "schemaVersion": 1,
+      "cursor": "b15d080b-96ec-4374-a74b-8a358841245d:33",
+      "revision": 33,
+      "changed": true,
+      "thread": {
+        "id": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+        "hostId": "local",
+        "status": {
+          "type": "idle"
+        }
+      },
+      "latestTurn": {
+        "id": "01a15a07-a6fe-7811-8dcb-3077af92086b",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792511813,
+        "completedAt": 1792511821,
+        "durationMs": 8273
+      },
+      "latestAssistantMessageId": "msg_09505bd600c2eded016ad78f4ba6108190aa74fe13432f8770",
+      "latestAssistantMessage": {
+        "id": "msg_09505bd600c2eded016ad78f4ba6108190aa74fe13432f8770",
+        "turnId": "01a15a07-a6fe-7811-8dcb-3077af92086b",
+        "phase": "final_answer",
+        "text": "收到，已停止修改和新任务。最终9页 Word 保持冻结，SHA256：591978e4488897e3e01de6a922e431b9a3a4e47e5826fcea5915ec151c6845bc。后续由主控接管。"
+      },
+      "latestToolMarkerId": null,
+      "latestToolMarker": null
+    },
+    {
+      "role": "role6",
+      "schemaVersion": 1,
+      "cursor": "6b32e766-a0c4-4deb-9d91-cc75e8f32770:14",
+      "revision": 14,
+      "changed": true,
+      "thread": {
+        "id": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+        "hostId": "local",
+        "status": {
+          "type": "notLoaded"
+        }
+      },
+      "latestTurn": {
+        "id": "01a15958-1c62-71d2-928a-1aabc624699f",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792500309,
+        "completedAt": 1792500872,
+        "durationMs": 563723
+      },
+      "latestAssistantMessageId": "msg_0d8e1b978b923a60016ad76484683c8197af78f14b0fefcddd",
+      "latestAssistantMessage": {
+        "id": "msg_0d8e1b978b923a60016ad76484683c8197af78f14b0fefcddd",
+        "turnId": "01a15958-1c62-71d2-928a-1aabc624699f",
+        "phase": "final_answer",
+        "text": "R006已冻结并交作者⑤：全稿语言审读与替换句。 2处文字必改、4处可选：摘要须比较“峰与峰”，表3须明确比例分子；另附三图图注和术语优化。4.789%物理段及四条结论顺畅，无需重造结构或删除科学条件。 20:53:31+08冻结，用时434.5秒，未改原稿，已停止本项。SHA256：8dc819e79998b4cd3ac26bd2620b62f42583833f13b895966501cca648772e34"
+      },
+      "latestToolMarkerId": "exec-9f78194c-eed5-4576-bab7-9036e12ca38d",
+      "latestToolMarker": {
+        "id": "exec-9f78194c-eed5-4576-bab7-9036e12ca38d",
+        "turnId": "01a15958-1c62-71d2-928a-1aabc624699f",
+        "type": "mcpToolCall",
+        "name": "send_message_to_thread",
+        "status": "completed"
+      }
+    }
+  ]
+}

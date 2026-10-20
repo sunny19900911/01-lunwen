@@ -1,0 +1,203 @@
+{
+  "prepared_at": "2026-10-21T07:23:34.937613+08:00",
+  "head_before": "b4eb73326577dfe44f5644660bde3119f6f2bb7a",
+  "remote_before": "b4eb73326577dfe44f5644660bde3119f6f2bb7a",
+  "prechecks": [
+    {
+      "attempt": 1,
+      "success": true
+    }
+  ],
+  "files": [
+    {
+      "path": "research/sessions/20261020-1844/close-session.py",
+      "bytes": 5512,
+      "sha256": "8c31a7602e57d66ce6b0e8ae27a486ada628e82c6148a91d500ac4b6040c94d1"
+    },
+    {
+      "path": "research/sessions/20261020-1844/publish-final.py",
+      "bytes": 4955,
+      "sha256": "21d25147204206724076c52f998a5aa073f8ad9c9eef868c0d1274d9beadf80e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R006-resume.py",
+      "bytes": 2788,
+      "sha256": "b850f6545ea028eeafad56e6bcfb9b158ac0bfd99ea8b51797ab5a41fbc2e751"
+    },
+    {
+      "path": "research/sessions/20261020-1844/git-R006-receipt.json",
+      "bytes": 643,
+      "sha256": "2afa456193a7377c7d120a59bbef0112afa294d48e8532c91e2e0e502c5f13a3"
+    },
+    {
+      "path": "research/sessions/20261020-1844/final-tool-receipts.json",
+      "bytes": 9409,
+      "sha256": "6bb41fc178fce3accf334183ec0edbac0295f0e96f590a98ea113061554ccaf8"
+    },
+    {
+      "path": "research/sessions/20261020-1844/final-automation-readback.json",
+      "bytes": 1029,
+      "sha256": "80a287505e3a7af2e8badcda94c8e2eb9035f0c0b4e2b382a1c1aff1eadcb7ff"
+    },
+    {
+      "path": "research/sessions/20261020-1844/root-final-word-QA.json",
+      "bytes": 1770,
+      "sha256": "403ef1c6921536a1edf07f1c4b97cd992a7388e2d080c24ff89d12007b6c8b34"
+    },
+    {
+      "path": "research/sessions/20261020-1844/普通中文研究说明.md",
+      "bytes": 2153,
+      "sha256": "6590fa3a84dabc6f04e99b84a463539fa54fd9b890436a296f8a0635abb8e314"
+    },
+    {
+      "path": "research/sessions/20261020-1844/final-summary-prepared.md",
+      "bytes": 2309,
+      "sha256": "649155b96abf47e8c6841520d63204d23d06fe2ebe474f58e6b9c6ac4520ce5e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/final-summary.md",
+      "bytes": 3552,
+      "sha256": "9584edcd078132b4a9e201fa20550bf6356b05e443af7e4f070e7e82aa9e66f0"
+    },
+    {
+      "path": "research/sessions/20261020-1844/rounds/R007-final.md",
+      "bytes": 324,
+      "sha256": "98cf3548ea9c219b6a74fbdc3ff38d3b0505de662544d9d9c939a69f1aa38813"
+    },
+    {
+      "path": "research/sessions/20261020-1844/status.json",
+      "bytes": 5320,
+      "sha256": "9c063e7911bf30f69eafb955860cf4df00e4f959e118574b92eb02e3bfca6524"
+    },
+    {
+      "path": "research/sessions/20261020-1844/threads.json",
+      "bytes": 2385,
+      "sha256": "86fec7722cbe4c32c73ae3727d2bd07233290bc8d4e6b43e813a4d4dd075f624"
+    },
+    {
+      "path": "research/sessions/20261020-1844/claims.md",
+      "bytes": 3468,
+      "sha256": "ce60ad1591bdda27a2c58c46fdc41cd6609d80c69a075f92050c7d0aa5cb7106"
+    },
+    {
+      "path": "research/sessions/20261020-1844/runs.md",
+      "bytes": 1283,
+      "sha256": "449bfe700d88279ee9089819f18cd5b14b911fb357980163f17f6a04233d5b37"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-diff.txt",
+      "bytes": 27662,
+      "sha256": "ee4e3deb69836f5dc00202912394c7e04dfeea599335b5b03c27502af148b808"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-final-diff.txt",
+      "bytes": 2701,
+      "sha256": "9d3086d6356738dac11bd6285fb72e29ecca7d100328def88a84ff154e219540"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-final-freeze.json",
+      "bytes": 1637,
+      "sha256": "a954b5027306b375446c09807ebada2e6eeef7709c678628730678beae72cf7a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-final-notes.md",
+      "bytes": 811,
+      "sha256": "7bf19fe47f867593aaf741d518681acf8b80cc6f6a12213291ba5152ff033c0d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-final-source-check.json",
+      "bytes": 1971,
+      "sha256": "68eaf50efd5ed6f153d531782321a0e2a6428e05032281dcd59f2e005573ed9e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-final-validation.json",
+      "bytes": 381,
+      "sha256": "d367a733075f0c932f59159932a6515e76a25ac252f2a2e4a6c486b98190993a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-freeze.json",
+      "bytes": 2556,
+      "sha256": "4214e09f3611bc497b640960e4e26adf2e0c995b4bcd3e77e0486c9cf6b40f52"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-handoff.md",
+      "bytes": 721,
+      "sha256": "74eee9f979d7560880cc25a3cff656bcc321be0977e17ad4f0cfd8e7a11787cc"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-input-freeze.json",
+      "bytes": 1815,
+      "sha256": "2a82d1ea75ce0e8aceda891b1fcf0a785306807d1b5e01b9b2d28762196f4c72"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-must-map.json",
+      "bytes": 1986,
+      "sha256": "9ebfff7eea3fc89840f784569140fa4dbe2ddcc2c1915abf4435d3fe228bc40e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-notes.md",
+      "bytes": 2137,
+      "sha256": "fc90c777f747ceb0f27406e4be395e2e770327c90397ddb40a665f0fce4c9239"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-source-check.json",
+      "bytes": 1965,
+      "sha256": "d275d757ebd3ecebcc23a94141e80230e674ca78c171e7df48dc4c86e0d72c14"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R010-validation.json",
+      "bytes": 715,
+      "sha256": "2fe828242af5fa0a300340dbab47c3f6a56eb8f9e730212478dd5d06eab74a3e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R011-build-report-v1.json",
+      "bytes": 10366,
+      "sha256": "b98c30aeae21edf3f7e4b61a379c213d683132d592f8c8e10749a35c41e64694"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R011-build-report-v2.json",
+      "bytes": 10372,
+      "sha256": "c21b1b960debbb4a1cc19f892491a349b2303f5d40942389e19f4b0c768d5bca"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R011-build_word.py",
+      "bytes": 22880,
+      "sha256": "f784e40da92c5aa1afc8827477af34aea73e3803d12b4df186d4a132834cd71b"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R011-freeze.json",
+      "bytes": 3359,
+      "sha256": "00a24c79befde4b6aaba2fdd09d1f6c60162964e8891bfb98766d856ef3bcd4f"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R011-handoff.md",
+      "bytes": 2613,
+      "sha256": "c9b5efe53e27869afd1bf63dc2888cf384854f4a86f35d10dc5912fa9a33dcf2"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R011-input-freeze.json",
+      "bytes": 1229,
+      "sha256": "7456f60074c316ca4666bcc4431e7ccb95735eb013cebfa053269f0119c968d7"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R011-official-render-error.txt",
+      "bytes": 168,
+      "sha256": "04d5a23516d7931d44eb5b6c1c1f948d499a92cb8464751994e139459611d22e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R011-validation.json",
+      "bytes": 1524,
+      "sha256": "1505df0a88f98ef05f8839d21ee5f27d48eb6d61db70bb7bbd74b96fb4151f74"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v010.md",
+      "bytes": 22428,
+      "sha256": "0d9fc8d6fb1e4f9e52613ab4f82b7338a3990b79fb98505ee1f99562c15ce7df"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/modal-shear-session009-论文审阅稿-v010.docx",
+      "bytes": 755329,
+      "sha256": "591978e4488897e3e01de6a922e431b9a3a4e47e5826fcea5915ec151c6845bc"
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "mode": "build",
+  "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\modal-shear-session009-v010.md",
+  "source_sha256": "0d9fc8d6fb1e4f9e52613ab4f82b7338a3990b79fb98505ee1f99562c15ce7df",
+  "display_equations": [
+    {
+      "source": "V_s(t)=\\ell_s^Tu(t)=\\sum_r(\\ell_s^T\\phi_r)q_r(t),\\qquad q=\\Phi^TMu.",
+      "OMML_nodes": 28
+    },
+    {
+      "source": "a_g(t)=0.1\\,[E_{0,30}(t)+0.75E_{50,80}(t)]\\,[0.75\\sin(\\omega_2t)+0.25\\sin(1.05\\omega_3t+\\pi/4)],",
+      "OMML_nodes": 55
+    },
+    {
+      "source": "E_{b,e}(t)=\\begin{cases}\\sin^2[\\pi(t-b)/(e-b)],&b<t<e,\\\\0,&\\text{其他时刻}.\\end{cases}",
+      "OMML_nodes": 6
+    }
+  ],
+  "inline_math_groups": 8,
+  "tables": 8,
+  "images": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R008-six-case-reduction-profiles.png",
+      "sha256": "ab241c593ff33b55570d2adfd5e72a82ac1d300d16c71c2273bef421c0994dd9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R008-Story8-QT-QD-two-cases.png",
+      "sha256": "fd541f00be40707a21e0562ab38d3931b21e04717339182c30f74381a452d545"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R008-local-modal-terms.png",
+      "sha256": "4413b424526a59fb9d292dc2d1c30c2261f00afdfb2a8be07e8f9d800acd2269"
+    }
+  ],
+  "references": 4,
+  "excluded_process_tail": [
+    "完整计算条件、原文定位和资料范围见[补充说明](../../../research/sessions/20261020-1844/roles/role5/R010-final-notes.md)。"
+  ],
+  "native_math_only": true,
+  "source_unchanged": true,
+  "serialized_math_groups": 11,
+  "serialized_matrices": 2,
+  "output": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\modal-shear-session009-论文审阅稿.docx",
+  "output_sha256": "f6b84084b90887c2c5177dde2a709027a3d4ba0901c7f7ff66d627b7fff4b033",
+  "equations": [
+    {
+      "number": null,
+      "source_latex": "V_s(t)=\\ell_s^Tu(t)=\\sum_r(\\ell_s^T\\phi_r)q_r(t),\\qquad q=\\Phi^TMu.",
+      "display_lines": 2,
+      "representation": "native OMML"
+    },
+    {
+      "number": null,
+      "source_latex": "a_g(t)=0.1\\,[E_{0,30}(t)+0.75E_{50,80}(t)]\\,[0.75\\sin(\\omega_2t)+0.25\\sin(1.05\\omega_3t+\\pi/4)],",
+      "display_lines": 2,
+      "representation": "native OMML"
+    },
+    {
+      "number": null,
+      "source_latex": "E_{b,e}(t)=\\begin{cases}\\sin^2[\\pi(t-b)/(e-b)],&b<t<e,\\\\0,&\\text{其他时刻}.\\end{cases}",
+      "display_lines": 1,
+      "representation": "native OMML"
+    }
+  ],
+  "table_details": [
+    {
+      "number": 1,
+      "rows": 7,
+      "columns": 6,
+      "source_cells": [
+        [
+          "工况",
+          "楼层",
+          "P_B/kN",
+          "P_M/kN",
+          "减幅/%",
+          "峰时（基准→参考）/s"
+        ],
+        [
+          "RH4X",
+          "第7层",
+          "6725.06",
+          "5438.72",
+          "19.128",
+          "21.58→21.56"
+        ],
+        [
+          "RH4Y",
+          "第1层",
+          "10123.05",
+          "8735.50",
+          "13.707",
+          "12.20→12.20"
+        ],
+        [
+          "SHW4X",
+          "第1层",
+          "11399.73",
+          "10174.19",
+          "10.751",
+          "29.94→29.92"
+        ],
+        [
+          "SHW4Y",
+          "第7层",
+          "7343.57",
+          "6788.32",
+          "7.561",
+          "29.84→29.86"
+        ],
+        [
+          "SHW7X",
+          "第7层",
+          "8481.83",
+          "7421.40",
+          "12.502",
+          "38.12→38.10"
+        ],
+        [
+          "SHW7Y",
+          "第6层",
+          "8091.99",
+          "6909.98",
+          "14.607",
+          "48.88→38.10"
+        ]
+      ]
+    },
+    {
+      "number": 2,
+      "rows": 3,
+      "columns": 6,
+      "source_cells": [
+        [
+          "工况／楼层",
+          "基准模型峰/kN",
+          "参考模型峰/kN",
+          "阻尼器模型峰/kN",
+          "三模型各自峰时/s",
+          "阻尼器模型/参考模型"
+        ],
+        [
+          "SHW4Y／第7层",
+          "7343.5700",
+          "6788.3221",
+          "6715.1270",
+          "29.84／29.86／29.92",
+          "0.98921749"
+        ],
+        [
+          "RH4X／第1层",
+          "10566.7533",
+          "8528.6654",
+          "8916.7141",
+          "21.68／12.20／12.08",
+          "1.04549934"
+        ]
+      ]
+    },
+    {
+      "number": 3,
+      "rows": 3,
+      "columns": 6,
+      "source_cells": [
+        [
+          "工况",
+          "QT绝对峰/kN（时刻/s）",
+          "QD绝对峰/kN（时刻/s）",
+          "QT峰时QD/kN",
+          "QT峰时QD绝对值／QD自身绝对峰/%",
+          "tQD−tQT/s"
+        ],
+        [
+          "RH4X",
+          "5776.6513（21.60）",
+          "405.8268（11.50）",
+          "-238.1133",
+          "58.6736",
+          "-10.10"
+        ],
+        [
+          "RH4Y",
+          "5205.2112（21.58）",
+          "447.2019（11.46）",
+          "-279.6257",
+          "62.5278",
+          "-10.12"
+        ]
+      ]
+    },
+    {
+      "number": 4,
+      "rows": 4,
+      "columns": 5,
+      "source_cells": [
+        [
+          "阶次r",
+          "方向有效质量比/%",
+          "第1层分量φ₁r",
+          "第2层分量φ₂r",
+          "层间差φ₂r−φ₁r"
+        ],
+        [
+          "1",
+          "87.0289",
+          "+0.270859",
+          "+0.586497",
+          "+0.315637"
+        ],
+        [
+          "2",
+          "8.1819",
+          "+0.510807",
+          "+0.488621",
+          "-0.022186"
+        ],
+        [
+          "3",
+          "4.7892",
+          "+0.815912",
+          "-0.500604",
+          "-1.316516"
+        ]
+      ]
+    },
+    {
+      "number": 5,
+      "rows": 5,
+      "columns": 6,
+      "source_cells": [
+        [
+          "方案／输出",
+          "t",
+          "第1阶",
+          "第2阶",
+          "第3阶",
+          "三阶和"
+        ],
+        [
+          "无装置／第2层剪力V2",
+          "20.215",
+          "-0.024113170",
+          "-0.002564914",
+          "-0.039675603",
+          "-0.066353687"
+        ],
+        [
+          "无装置／屋顶位移u3",
+          "70.395",
+          "+0.033002219",
+          "+0.171593784",
+          "-0.003758265",
+          "+0.200837738"
+        ],
+        [
+          "层1装置／第2层剪力V2",
+          "20.090",
+          "-0.027078427",
+          "-0.002214950",
+          "-0.033446139",
+          "-0.062739516"
+        ],
+        [
+          "层1装置／屋顶位移u3",
+          "20.510",
+          "-0.045631229",
+          "-0.113265030",
+          "+0.004794006",
+          "-0.154102254"
+        ]
+      ]
+    },
+    {
+      "number": 6,
+      "rows": 4,
+      "columns": 4,
+      "source_cells": [
+        [
+          "阶次",
+          "无装置峰",
+          "层1装置峰",
+          "峰值降幅/%"
+        ],
+        [
+          "1",
+          "0.036860629",
+          "0.035698331",
+          "3.1532"
+        ],
+        [
+          "2",
+          "0.005451629",
+          "0.003838988",
+          "29.5809"
+        ],
+        [
+          "3",
+          "0.048356739",
+          "0.039373788",
+          "18.5764"
+        ]
+      ]
+    },
+    {
+      "number": 7,
+      "rows": 5,
+      "columns": 6,
+      "source_cells": [
+        [
+          "t",
+          "方案",
+          "第1阶",
+          "第2阶",
+          "第3阶",
+          "V2总值"
+        ],
+        [
+          "20.090",
+          "无装置",
+          "-0.026376888",
+          "-0.002081898",
+          "-0.036890200",
+          "-0.065348985"
+        ],
+        [
+          "20.090",
+          "层1装置",
+          "-0.027078427",
+          "-0.002214950",
+          "-0.033446139",
+          "-0.062739516"
+        ],
+        [
+          "20.215",
+          "无装置",
+          "-0.024113170",
+          "-0.002564914",
+          "-0.039675603",
+          "-0.066353687"
+        ],
+        [
+          "20.215",
+          "层1装置",
+          "-0.024804146",
+          "-0.002619741",
+          "-0.034393647",
+          "-0.061817533"
+        ]
+      ]
+    },
+    {
+      "number": 8,
+      "rows": 4,
+      "columns": 4,
+      "source_cells": [
+        [
+          "输出",
+          "V2绝对峰",
+          "峰时",
+          "相对无装置减幅/%"
+        ],
+        [
+          "无装置完整响应",
+          "0.06635368725",
+          "20.215",
+          "0.000000"
+        ],
+        [
+          "各阶峰值匹配的缩放对照",
+          "0.05751805433",
+          "20.185",
+          "13.315964"
+        ],
+        [
+          "实际层1装置响应",
+          "0.06273951643",
+          "20.090",
+          "5.446827"
+        ]
+      ]
+    }
+  ],
+  "image_details": [
+    {
+      "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R008-six-case-reduction-profiles.png",
+      "caption": "图1 共同六工况沿层剪力减幅"
+    },
+    {
+      "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R008-Story8-QT-QD-two-cases.png",
+      "caption": "图2 第8层剪力与装置水平合力"
+    },
+    {
+      "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R008-local-modal-terms.png",
+      "caption": "图3 第2层剪力的局部模态项"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "root1_and_role6_M1_abstract_peak_objects": {
+    "lines": [
+      9
+    ],
+    "implemented_text": "合成剪力峰仍不同于阻尼器方案的剪力峰"
+  },
+  "root2_engineering_ETABS_model_identity": {
+    "lines": [
+      27
+    ],
+    "implemented_text": "本文采用所提供双塔连体结构的ETABS时程分析结果"
+  },
+  "root3_Bottom_scope_and_no_damper_subtraction": {
+    "lines": [
+      29
+    ],
+    "implemented_text": "本文采用软件Story Forces表中楼层底部"
+  },
+  "root4_modal_data_scope": {
+    "lines": [
+      35
+    ],
+    "implemented_text": "工程结构的精确逐阶剪力分解需要相应节点振型及响应时程"
+  },
+  "root5_and_role2_R010_M1_H2": {
+    "lines": [
+      109
+    ],
+    "implemented_text": "H2有意包含第二阶及近第三阶频率"
+  },
+  "root5_single_direction_not_engineering_torsional_mode": {
+    "lines": [
+      146
+    ],
+    "implemented_text": "该单向模型的第三阶不对应工程结构的扭转阶次"
+  },
+  "root6_story_software_ID": {
+    "lines": [
+      27
+    ],
+    "implemented_text": "软件编号Story1—12对应本文第1—12层"
+  },
+  "role6_M2_QD_numerator": {
+    "lines": [
+      91
+    ],
+    "implemented_text": "QT峰时QD绝对值／QD自身绝对峰/%"
+  },
+  "root7_bilingual_abstract": {
+    "lines": [
+      15
+    ],
+    "implemented_text": "a device-equipped structural model"
+  },
+  "role6_O1_figure1": {
+    "lines": [
+      70
+    ],
+    "implemented_text": "图1 基准模型与参考模型"
+  },
+  "role6_O2_figure2": {
+    "lines": [
+      103
+    ],
+    "implemented_text": "图2 第8层在RH4X、RH4Y工况下"
+  },
+  "role6_O3_figure3": {
+    "lines": [
+      179
+    ],
+    "implemented_text": "图3 无装置方案与第1层装置方案"
+  },
+  "role6_O4_name": {
+    "lines": [
+      181
+    ],
+    "implemented_text": "### 4.5 各阶峰值匹配的缩放对照"
+  }
+}
