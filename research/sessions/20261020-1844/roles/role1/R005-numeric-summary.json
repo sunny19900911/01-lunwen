@@ -1,0 +1,98 @@
+{
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\H021-three-floor-prospective\\local-only\\H2_envelope__position0__h0.005.npz",
+      "bytes": 2737624,
+      "sha256": "f1fa4497734be4b612528f9a45e45c8daa880f902403c085396e38b08031c325"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\H021-three-floor-prospective\\local-only\\H2_envelope__position1__h0.005.npz",
+      "bytes": 3336293,
+      "sha256": "3155eac9781d1d3e36955a5784ee1e220dd48ac88ed14f65b19f71056cf7a1d7"
+    }
+  ],
+  "saved_nodes": 40001,
+  "window": [
+    0.0,
+    200.0
+  ],
+  "same_M_Phi_and_grid": true,
+  "full_reconstruction_max_abs_error": 5.551115123125783e-17,
+  "reference_modal_peak_matches_actual_max_abs_error": 4.336808689942018e-19,
+  "reference_actual_output_max_abs_difference": 0.018098896948152154,
+  "peak_rows": [
+    {
+      "output": "none_full",
+      "QS2_absolute_peak": 0.06635368724618669,
+      "QS2_signed_at_peak": -0.06635368724618669,
+      "peak_time_nondimensional": 20.215,
+      "peak_over_none": 1.0,
+      "peak_change_from_none_percent": 0.0,
+      "definition": "direct complete saved-state QS2"
+    },
+    {
+      "output": "posterior_amplitude_only_reference",
+      "QS2_absolute_peak": 0.05751805433419382,
+      "QS2_signed_at_peak": -0.05751805433419382,
+      "peak_time_nondimensional": 20.185,
+      "peak_over_none": 0.8668403629294821,
+      "peak_change_from_none_percent": -13.315963707051793,
+      "definition": "sum a_k Vnone,k artificial reference"
+    },
+    {
+      "output": "actual_device_story1",
+      "QS2_absolute_peak": 0.06273951642969278,
+      "QS2_signed_at_peak": -0.06273951642969278,
+      "peak_time_nondimensional": 20.09,
+      "peak_over_none": 0.9455317260202203,
+      "peak_change_from_none_percent": -5.446827397977971,
+      "definition": "direct complete saved-state QS2"
+    }
+  ],
+  "common_rows": [
+    {
+      "time_nondimensional": 20.09,
+      "none_full": -0.06534898547168669,
+      "posterior_amplitude_only_reference": -0.057048540203551414,
+      "actual_device_story1": -0.06273951642969278,
+      "reference_minus_actual_signed": 0.005690976226141363,
+      "reference_abs_minus_actual_abs": -0.005690976226141363
+    },
+    {
+      "time_nondimensional": 20.215,
+      "none_full": -0.06635368724618669,
+      "posterior_amplitude_only_reference": -0.05746431341644698,
+      "actual_device_story1": -0.06181753333681533,
+      "reference_minus_actual_signed": 0.004353219920368356,
+      "reference_abs_minus_actual_abs": -0.004353219920368356
+    }
+  ],
+  "mode_scales": [
+    {
+      "mode": 1,
+      "none_mode_absolute_peak": 0.036860629192537644,
+      "actual_device_mode_absolute_peak": 0.035698330726202716,
+      "a_k": 0.9684677529441024,
+      "reference_mode_absolute_peak": 0.035698330726202716,
+      "reference_actual_waveform_max_abs_difference": 0.003662233744367398
+    },
+    {
+      "mode": 2,
+      "none_mode_absolute_peak": 0.005451629332513016,
+      "actual_device_mode_absolute_peak": 0.0038389877504523464,
+      "a_k": 0.7041908971244573,
+      "reference_mode_absolute_peak": 0.003838987750452347,
+      "reference_actual_waveform_max_abs_difference": 0.0015781974833184236
+    },
+    {
+      "mode": 3,
+      "none_mode_absolute_peak": 0.04835673917578551,
+      "actual_device_mode_absolute_peak": 0.03937378833905115,
+      "a_k": 0.8142358027062225,
+      "reference_mode_absolute_peak": 0.03937378833905115,
+      "reference_actual_waveform_max_abs_difference": 0.016788791148633138
+    }
+  ],
+  "new_ODE_runs": 0,
+  "interpretation": "artificial posterior reference only, no independent causal or realizability/phase-angle claim"
+}

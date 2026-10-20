@@ -1,0 +1,35 @@
+{
+  "start": "2026-10-20T20:02:10+08:00",
+  "task_deadline": "2026-10-20T20:12:10+08:00",
+  "session_deadline": "2026-10-20T21:44:25+08:00",
+  "case": "H2_envelope",
+  "positions": [
+    0,
+    1
+  ],
+  "h": 0.005,
+  "window": [
+    0,
+    200
+  ],
+  "common_times": [
+    20.09,
+    20.215
+  ],
+  "definition": "a_k=max_t |Vdevice,k|/max_t |Vnone,k|; yref=sum_k a_k Vnone,k on same saved grid",
+  "scope": "outcome-informed posterior artificial amplitude-only reference, not a realizable structural prediction, causal intervention or phase-angle decomposition",
+  "inputs": [
+    {
+      "file": "R003-none-summary.json",
+      "sha256": "5c65cf6ffe67ab5c6e6c2935d3fb8b52f63ef242f7d29a2cbce8222254c073cf"
+    },
+    {
+      "file": "R003-story1-summary.json",
+      "sha256": "054d24eacea983efe6d1b4dc01ad5584167ce56f9890498666dc52610f2f9c27"
+    },
+    {
+      "file": "R004-whole-window-mode-peaks.csv",
+      "sha256": "826cfa743c98f920cc4212f633efa0a523275f82adb43c21f70657c0ca1568f8"
+    }
+  ]
+}

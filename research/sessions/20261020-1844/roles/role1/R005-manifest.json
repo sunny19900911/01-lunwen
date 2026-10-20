@@ -1,0 +1,51 @@
+{
+  "task": "R005 amplitude-only posterior reference on saved H2 QS2",
+  "frozen_utc": "2026-10-20T12:05:14.990216+00:00",
+  "files": [
+    {
+      "file": "R005-common-time-values.csv",
+      "bytes": 373,
+      "sha256": "df2a5ae24b8685b690966bf3be6c0f6ae724a62e8566dab510a5cdee9b53a289"
+    },
+    {
+      "file": "R005-input-freeze.json",
+      "bytes": 1002,
+      "sha256": "6e110528645358e9ecbe3f930e9d77f717b113fa06c9b9ac6be7872b52364ebd"
+    },
+    {
+      "file": "R005-mode-scale-and-waveform-check.csv",
+      "bytes": 454,
+      "sha256": "a26607c2019d5fb12922c2e0193e615d794170eaaecab2ffb4c56e263e61f9fc"
+    },
+    {
+      "file": "R005-numeric-summary.json",
+      "bytes": 3894,
+      "sha256": "31ae019dde7ffedf871a1571d23ea20da93751f4355fa7acb909555b35ebe0d0"
+    },
+    {
+      "file": "R005-postprocess.py",
+      "bytes": 3881,
+      "sha256": "3b6163095259cab29e2cd7b502e31284a476f543db149287aae8f5fb896e286f"
+    },
+    {
+      "file": "R005-report.md",
+      "bytes": 4084,
+      "sha256": "41cafde41c68fa244f0b82cd59062ca3d112ab66ba643336c24d016f4813e42e"
+    },
+    {
+      "file": "R005-tables-first.json",
+      "bytes": 700,
+      "sha256": "b607e557f5f034cb181336760593f3ec8712cec55e00ee4b8783371fef9d7ffd"
+    },
+    {
+      "file": "R005-three-output-peaks.csv",
+      "bytes": 522,
+      "sha256": "7992cd28a25d67dc4937b1dc4fb6bada5863b881f1d54fbff5a2a62e5d9ab802"
+    },
+    {
+      "file": "R005-validation.json",
+      "bytes": 893,
+      "sha256": "99797b8469185914b7d2d0f53a984b73e4f8e9f181993355177d52f4c92a31cb"
+    }
+  ]
+}

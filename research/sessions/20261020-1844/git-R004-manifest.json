@@ -1,0 +1,349 @@
+{
+  "prepared_at": "2026-10-20T20:24:07.028696+08:00",
+  "label": "R004",
+  "remote_before": "6e15f1ca1081e7e778f913afd001488aa1f8c374",
+  "head_before": "6e15f1ca1081e7e778f913afd001488aa1f8c374",
+  "files": [
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R005-common-time-values.csv",
+      "bytes": 373,
+      "sha256": "df2a5ae24b8685b690966bf3be6c0f6ae724a62e8566dab510a5cdee9b53a289"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R005-input-freeze.json",
+      "bytes": 1002,
+      "sha256": "6e110528645358e9ecbe3f930e9d77f717b113fa06c9b9ac6be7872b52364ebd"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R005-manifest.json",
+      "bytes": 1565,
+      "sha256": "6e0c217b12f80507cca04115e4aeae6aa80f56b67bb25edc3394124483757976"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R005-mode-scale-and-waveform-check.csv",
+      "bytes": 454,
+      "sha256": "a26607c2019d5fb12922c2e0193e615d794170eaaecab2ffb4c56e263e61f9fc"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R005-numeric-summary.json",
+      "bytes": 3894,
+      "sha256": "31ae019dde7ffedf871a1571d23ea20da93751f4355fa7acb909555b35ebe0d0"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R005-postprocess.py",
+      "bytes": 3881,
+      "sha256": "3b6163095259cab29e2cd7b502e31284a476f543db149287aae8f5fb896e286f"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R005-report.md",
+      "bytes": 4084,
+      "sha256": "41cafde41c68fa244f0b82cd59062ca3d112ab66ba643336c24d016f4813e42e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R005-tables-first.json",
+      "bytes": 700,
+      "sha256": "b607e557f5f034cb181336760593f3ec8712cec55e00ee4b8783371fef9d7ffd"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R005-three-output-peaks.csv",
+      "bytes": 522,
+      "sha256": "7992cd28a25d67dc4937b1dc4fb6bada5863b881f1d54fbff5a2a62e5d9ab802"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R005-validation.json",
+      "bytes": 893,
+      "sha256": "99797b8469185914b7d2d0f53a984b73e4f8e9f181993355177d52f4c92a31cb"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R006-audit-common-times.py",
+      "bytes": 12039,
+      "sha256": "6266eadf902da7ee806c216b553397dc32473852f94d82869dd8f88c67cadc76"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R006-checks.json",
+      "bytes": 9876,
+      "sha256": "0cb742370c6638fca133c25229e717a6e366c9a5469fc8e71c189d77693a81f8"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R006-common-time-review.md",
+      "bytes": 3215,
+      "sha256": "c1c74eb21840ef2e6c1adbaf674c2e1c4cafc39f34a39891b3034bb2540a8b48"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R006-manifest.json",
+      "bytes": 1247,
+      "sha256": "cf9df7e7c27be5058ea27df842925e13c9eba8718c0b2440dee2f458c7af2032"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R006-validation.json",
+      "bytes": 405,
+      "sha256": "eea9b92d8e2359d35705542c15401f2a82e2c21b37aa38cab1f18b2c8b7b6500"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R007-amplitude-reference-review.md",
+      "bytes": 3114,
+      "sha256": "78630c4e7445cd13e5d90de5c44028b5b27ae1ece98e07dcfab8a98af0bf4b79"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R007-audit-amplitude-reference.py",
+      "bytes": 10379,
+      "sha256": "1a01319b33dea9b23483b547573b29def253af26c8e2672f03a0721738408ef3"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R007-checks.json",
+      "bytes": 9251,
+      "sha256": "4216bb3232d54907a96a9238334d10acc88b6479b75ae3e47c1f093c4645a5d8"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R007-manifest.json",
+      "bytes": 1262,
+      "sha256": "dc61c6963a6e8a5792f44fefeeafd224048eab7706d12f21dfd3bc21eb2fccf3"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R007-validation.json",
+      "bytes": 416,
+      "sha256": "46c3840b92e94d06a8ed8bd0d7e78163d2c785bf01ff419de04f4caca88c2d79"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R003-close.py",
+      "bytes": 2535,
+      "sha256": "3deb7e26c91e1dc3e958b004995703ab741f061cc65b2fe8cb49c8aa9cb2c4d6"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R003-freeze.json",
+      "bytes": 900,
+      "sha256": "02cf24621dca3fd44c1ab52ebbc09ba4bf8ebb9891a4efbab1b133478280a48d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R003-locate.py",
+      "bytes": 895,
+      "sha256": "3a19c0498c0220b95a38d51523ae1c9e6b770941511a310bf2d20b9dcfd37074"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R003-manifest.json",
+      "bytes": 4254,
+      "sha256": "887c3a9b9183d482c612259ca089de21b49930ae03e9ea23f4e089e82db864be"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R003-report.md",
+      "bytes": 5293,
+      "sha256": "aac8f7e452932afbfb1d3b895e8e43716442f11af168e90e52516b7d164e8df2"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R003-validation.json",
+      "bytes": 654,
+      "sha256": "a6fafba3002886377364d21d66c42e81de66ba6610d4afd0b719187cc314b0e2"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R006-caption.md",
+      "bytes": 578,
+      "sha256": "d1f5a71822179f85aac609e5bf7d942395a52222b779e385d130024a2c40cdac"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R006-checks.json",
+      "bytes": 2231,
+      "sha256": "c5651bc265a86e5859e02ed0576aabdc35075e5917bd88095f1e77c5397cb274"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R006-delivery-manifest.json",
+      "bytes": 1988,
+      "sha256": "d6a885a14ae473718fd279059b8c495932f5e4f0385a634c52d1b733fcf044ee"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R006-input-freeze.json",
+      "bytes": 2140,
+      "sha256": "1669e5148d8054a9f5fa742f3b81d707b46cf332b9518cedf836c86e6af4fe47"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R006-peak-points-4.csv",
+      "bytes": 1061,
+      "sha256": "512e9f08d21c5c4412855f44678a60c8f78693bf91d7f4d042118a798a3d74e5"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R006-Story8-QT-QD-two-cases.svg",
+      "bytes": 93226,
+      "sha256": "a496bd299b948ac8d581ccdead3b4b8c37d31d9326f43d84db83bd9472c35f6d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R006_svg_timing.py",
+      "bytes": 8408,
+      "sha256": "273ebdce6209900171a181a6a9b682bdc008c585acdcdc5d97230b8a692f36f6"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007-all14-directional-envelope.png",
+      "bytes": 193351,
+      "sha256": "87d2c31bce5cb22e4493fb189769cce6e10c41efb21333ce637a13a9374f235b"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007-input-freeze.json",
+      "bytes": 1552,
+      "sha256": "3dc16b08f0bc30ca8ca8d8725c9af1242aa0151b7cf65cd40d334ea67fb135fa"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007-layout-repair.json",
+      "bytes": 1209,
+      "sha256": "0c18987b5736bc867b5170534a1eff41ee523a1d188f6bb82db66df6c227f624"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007-local-modal-terms.png",
+      "bytes": 171683,
+      "sha256": "af416da312004e121ab6d4eb7b49ce9f8b351fbdd026b1ee3adc87625ff57b3a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007-QA-and-mapping-manifest.json",
+      "bytes": 8274,
+      "sha256": "66d98f6779f79e8bf14e97cdb4dbe3e7c2ddb7c12fa8d6c3368b68b3a295aeef"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007-QA.md",
+      "bytes": 924,
+      "sha256": "8d555f5d3f4b04efa8e3a996489164087b2c0f5ead4532a65d49cd276e0e3020"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007-render-map.json",
+      "bytes": 3686,
+      "sha256": "ae314aac1adb36adb371ff6a916670d884c9b8835b54565dbd0780e8228e6cc8"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007-six-case-reduction-profiles.png",
+      "bytes": 258185,
+      "sha256": "38df5bd863f1c90479772aed6d51402132fef9fd9fa3027f771fda34066e3dbc"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007-Story8-QT-QD-two-cases-qa.png",
+      "bytes": 343731,
+      "sha256": "fec76dd1649de362444aef11c0d1ee065a4c210456707d02b176d4a630ed71a8"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007-Story8-QT-QD-two-cases-qa.svg",
+      "bytes": 93226,
+      "sha256": "1e2145cea3d940883965d4a6d58f88db1412f05e99f79ecdb09734ce74d186a5"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007-Story8-QT-QD-two-cases.png",
+      "bytes": 343403,
+      "sha256": "276b9507d548aee93584eba14aa16226ec5ea4549bfa19d5fe5a354798f2b22f"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007_finalize.py",
+      "bytes": 3305,
+      "sha256": "658d6434b44e2a19123238e450f7c43d9676b9b93a4a1109091390795b409a69"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007_fix_annotations.cjs",
+      "bytes": 1934,
+      "sha256": "2ed87805f36508393526485f61ba28520fb89a42802b3d06683c3480c710abb7"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R007_render.cjs",
+      "bytes": 2201,
+      "sha256": "48853a9858e43f1e869fee859298d52d05479ddd56736ddef42b80d6191934c9"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R006-freeze.json",
+      "bytes": 1604,
+      "sha256": "22908f4640275806c0e2b210015732953034ecfbca45074f0827da24beafa3da"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R006-handoff.md",
+      "bytes": 913,
+      "sha256": "2b1cb63cf42ad03a61dbc7f403f262f2f1d6d6be2fdeb7855bbd70a1d7d057b6"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R006-input-freeze.json",
+      "bytes": 3923,
+      "sha256": "4982dc95900804d761f6d61fc34c5c03c5713ff17d973b387930909e259d76cb"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R006-notes.md",
+      "bytes": 1864,
+      "sha256": "3539d03eeeaacb6539afbf6f6654c0b640d22feddf07ed757100741f66d57238"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R006-validation.json",
+      "bytes": 1630,
+      "sha256": "e5e86c615c8e58d7ec85cb533d12e06cc5d58adc13c784459bca14bab2525f86"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R006-work.json",
+      "bytes": 18078,
+      "sha256": "d79c37a0bfc133f63f47f617d11a81a0c59e83855002bdd606392f5e40ed64e4"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R005-engineering-application.md",
+      "bytes": 2791,
+      "sha256": "b56f520f6908a6242ec55cbc65f92fada32c232bccc16991e74e5c5eee23543c"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R005-freeze.json",
+      "bytes": 3556,
+      "sha256": "4944b5192e903ddd867946a048a4668bccff3a4c7554cf14235916092d111aed"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R004-prepare-checkpoint.py",
+      "bytes": 3460,
+      "sha256": "a67fd4a7c9577d13b1a2215bd436337bce454566875178ab63e039a0db65a702"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R004-thread-snapshot.json",
+      "bytes": 2226,
+      "sha256": "194d62e4e8e60adcf0f52cbe0cea699f7c89bb11c7578ca1e8c8d95d002dc3f9"
+    },
+    {
+      "path": "research/sessions/20261020-1844/rounds/R004.md",
+      "bytes": 2276,
+      "sha256": "8aab7eea58dbbf0aaa74a925538408db481ad9bae8f260da504c8caf5f7f697c"
+    },
+    {
+      "path": "research/sessions/20261020-1844/topic-card-R004.md",
+      "bytes": 1841,
+      "sha256": "3f0335480cbce438fc9bc9327ab4df43a08cf56afe3102234878595f64cc86b9"
+    },
+    {
+      "path": "research/sessions/20261020-1844/routing-2006.md",
+      "bytes": 1298,
+      "sha256": "e49030c5d401bb1c9cd5991675f94e32c7bf50205fa2a6c5e0ffcd452fbd1b1b"
+    },
+    {
+      "path": "research/sessions/20261020-1844/status.json",
+      "bytes": 4347,
+      "sha256": "e35c128ccdd373fd82fb1294f5042d81964d251bd6c4f9c530c500bfe2ed30c2"
+    },
+    {
+      "path": "research/sessions/20261020-1844/threads.json",
+      "bytes": 2290,
+      "sha256": "baaf1a99fc84cec1d53443255b4964969778155aaf4217ea083a36938b68baba"
+    },
+    {
+      "path": "research/sessions/20261020-1844/claims.md",
+      "bytes": 2816,
+      "sha256": "8255d734ccb367d7cb88ce87755066eff21ce7a0a34ca8e2beeece901ce81bb1"
+    },
+    {
+      "path": "research/sessions/20261020-1844/runs.md",
+      "bytes": 952,
+      "sha256": "21148a995afebd786d07752b04010b12c99f1f7d8500d823a517650f99d178fd"
+    },
+    {
+      "path": "research/sessions/20261020-1844/checkpoint_git.py",
+      "bytes": 4360,
+      "sha256": "066003a0bd0c96a94dde8cba6121f739f5e14e52818d7d4d6ab879d8a7c78f99"
+    },
+    {
+      "path": "research/sessions/20261020-1844/git-R003-receipt.json",
+      "bytes": 332,
+      "sha256": "ada9eea2576330b473e5ca5ab7c74d72b499452966496f065c05c6cca99edec3"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v006.md",
+      "bytes": 15936,
+      "sha256": "e40557050f803629d4eced4a8257b617140adcf3708ccf8759b34ab4d6d586f9"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R004-freeze-check.json",
+      "bytes": 334,
+      "sha256": "243e73826b763ab2699dd1323a239ae302d61d50244020b33f382a7d5c76d661"
+    }
+  ],
+  "scope": "Only explicit completed checkpoint paths; raw data, third-party full papers, caches and old changes excluded"
+}

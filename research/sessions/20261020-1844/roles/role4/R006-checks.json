@@ -1,0 +1,97 @@
+{
+  "R005_scalar_matches": [
+    {
+      "Case": "RH4X",
+      "field": "QT_peak_abs_kN",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4X",
+      "field": "QT_signed_at_peak_kN",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4X",
+      "field": "t_QT_peak_s",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4X",
+      "field": "QD_J_resisting_peak_abs_kN",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4X",
+      "field": "QD_J_resisting_signed_at_own_peak_kN",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4X",
+      "field": "t_QD_abs_peak_s",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4X",
+      "field": "QD_J_resisting_at_QT_peak_kN",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4X",
+      "field": "QT_signed_at_QD_abs_peak_kN",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4Y",
+      "field": "QT_peak_abs_kN",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4Y",
+      "field": "QT_signed_at_peak_kN",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4Y",
+      "field": "t_QT_peak_s",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4Y",
+      "field": "QD_J_resisting_peak_abs_kN",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4Y",
+      "field": "QD_J_resisting_signed_at_own_peak_kN",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4Y",
+      "field": "t_QD_abs_peak_s",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4Y",
+      "field": "QD_J_resisting_at_QT_peak_kN",
+      "exact_float_match_R005": true
+    },
+    {
+      "Case": "RH4Y",
+      "field": "QT_signed_at_QD_abs_peak_kN",
+      "exact_float_match_R005": true
+    }
+  ],
+  "matched_scalars": 16,
+  "XML_valid": true,
+  "polyline_count": 4,
+  "native_points_per_curve": 1001,
+  "peak_point_rows": 4,
+  "native_interval_s": 0.02,
+  "display_window_s": [
+    5,
+    25
+  ],
+  "smoothing": false,
+  "full_time_arrays_written": false,
+  "new_model_calculations": 0
+}

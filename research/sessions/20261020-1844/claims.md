@@ -20,3 +20,7 @@ C012 candidate 角色4R005 Story8原生8只装置合力与QT峰不同步，六�
 C012-review role2R005限定范围采纳真实Story8六例同刻力表：RH4X/Y独立缓存复算，其余四例小表算术；reviewed observed-data，不扣QS。
 C013 candidate role1R004 H2各阶峰幅不同，控制时刻三项同向，第三项改善被前两项变化部分抵消；role2R006独审在途，不称抵消损失。
 C014 reviewed numerical-test 主控独组role4R004统计48行192数字零差，沿层减幅图可用；自身波形不同时间峰不拼同刻剖面。
+
+C013-review role2 R006独审采用role1R004共同时间与各阶峰比；reviewed numerical-test。两个控制时刻三项同向，不能称抵消损失。
+C015 supported numerical-test reviewed role2R007独核人为幅值参照，逐阶峰匹配但合成峰不匹配；不具预测/相位独立归因资格。
+C016 supported literature reviewed role3R003核CSI2016 PDF403印381，要求改变模态数检查具体动态响应；既有原则非本文首创。

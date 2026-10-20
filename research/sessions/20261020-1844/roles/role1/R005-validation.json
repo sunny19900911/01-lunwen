@@ -1,0 +1,28 @@
+{
+  "actual_start": "2026-10-20T20:02:10+08:00",
+  "actual_finish": "2026-10-20T20:05:14.989854+08:00",
+  "elapsed_seconds": 184.989854,
+  "within_10_minutes": true,
+  "three_peak_rows": 3,
+  "common_time_rows": 2,
+  "mode_match_rows": 3,
+  "source_hashes_unchanged": true,
+  "same_M_Phi_grid": true,
+  "reference_modal_peak_matches_actual_max_abs_error": 4.336808689942018e-19,
+  "full_reconstruction_max_abs_error": 5.551115123125783e-17,
+  "reference_actual_max_point_difference": 0.018098896948152154,
+  "tables_before_explanation": true,
+  "posterior_outcome_informed_reference": true,
+  "new_ODE_runs": 0,
+  "new_parameter_layout_scans": 0,
+  "realizable_prediction_or_independent_phase_causality_claim": false,
+  "new_raw_Excel_reads": 0,
+  "Git_automation_agents_chats": 0,
+  "qa": [
+    "UTF8/LF",
+    "JSON parse",
+    "local links",
+    "no trailing whitespace",
+    "SHA256"
+  ]
+}

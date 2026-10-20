@@ -1,0 +1,32 @@
+{
+  "task": "role3 R003",
+  "frozen_at": "2026-10-20T20:07:01.533567+08:00",
+  "immutable": true,
+  "files": [
+    {
+      "file": "R003-report.md",
+      "bytes": 5293,
+      "sha256": "aac8f7e452932afbfb1d3b895e8e43716442f11af168e90e52516b7d164e8df2"
+    },
+    {
+      "file": "R003-manifest.json",
+      "bytes": 4254,
+      "sha256": "887c3a9b9183d482c612259ca089de21b49930ae03e9ea23f4e089e82db864be"
+    },
+    {
+      "file": "R003-validation.json",
+      "bytes": 654,
+      "sha256": "a6fafba3002886377364d21d66c42e81de66ba6610d4afd0b719187cc314b0e2"
+    },
+    {
+      "file": "R003-locate.py",
+      "bytes": 895,
+      "sha256": "3a19c0498c0220b95a38d51523ae1c9e6b770941511a310bf2d20b9dcfd37074"
+    },
+    {
+      "file": "R003-close.py",
+      "bytes": 2535,
+      "sha256": "3deb7e26c91e1dc3e958b004995703ab741f061cc65b2fe8cb49c8aa9cb2c4d6"
+    }
+  ]
+}
