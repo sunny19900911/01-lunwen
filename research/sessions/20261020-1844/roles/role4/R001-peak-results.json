@@ -1,0 +1,1605 @@
+{
+  "finished_utc": "2026-10-20T10:45:23.767700+00:00",
+  "story_force_groups": 72,
+  "story_drift_groups": 144,
+  "force_rows": 195552,
+  "drift_rows": 229302,
+  "checks": [
+    {
+      "table": "Story Forces",
+      "key": "g0",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g1",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g2",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g3",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g4",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g5",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g6",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g7",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g8",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g9",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g10",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g11",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g12",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g13",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g14",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g15",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g16",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g17",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g18",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g19",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g20",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g21",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g22",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g23",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g24",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g25",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g26",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g27",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g28",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g29",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g30",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g31",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g32",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g33",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g34",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g35",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g36",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g37",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g38",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g39",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g40",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g41",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g42",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g43",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g44",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g45",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g46",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g47",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g48",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g49",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g50",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g51",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g52",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g53",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g54",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g55",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g56",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g57",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g58",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g59",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g60",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g61",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g62",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g63",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g64",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g65",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g66",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g67",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g68",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g69",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g70",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Forces",
+      "key": "g71",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": true
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g0",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g1",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g2",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g3",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g4",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g5",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g6",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g7",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g8",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g9",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g10",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g11",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g12",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g13",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g14",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g15",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g16",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g17",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g18",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g19",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g20",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g21",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g22",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g23",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g24",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g25",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g26",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g27",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g28",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g29",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g30",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g31",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g32",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g33",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g34",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g35",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g36",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g37",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g38",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g39",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g40",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g41",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g42",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g43",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g44",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g45",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g46",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g47",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g48",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g49",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g50",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g51",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g52",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g53",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g54",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g55",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g56",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g57",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g58",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g59",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g60",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g61",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g62",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g63",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g64",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g65",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g66",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g67",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g68",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g69",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g70",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g71",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g72",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g73",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g74",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g75",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g76",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g77",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g78",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g79",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g80",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g81",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g82",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g83",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g84",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g85",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g86",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g87",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g88",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g89",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g90",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g91",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g92",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g93",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g94",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g95",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g96",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g97",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g98",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g99",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g100",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g101",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g102",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g103",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g104",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g105",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g106",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g107",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g108",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g109",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g110",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g111",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g112",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g113",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g114",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g115",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g116",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g117",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g118",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g119",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g120",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g121",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g122",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g123",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g124",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g125",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g126",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g127",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g128",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g129",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g130",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g131",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g132",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g133",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g134",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g135",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g136",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g137",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g138",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g139",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g140",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g141",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g142",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    },
+    {
+      "table": "Story Drifts",
+      "key": "g143",
+      "finite_unique_increasing": true,
+      "base_subset": true,
+      "base_exact": false
+    }
+  ],
+  "controls": [
+    {
+      "Case": "RH4X",
+      "wave_family": "RH4",
+      "Axis": "X",
+      "QT_control_Story": "Story1",
+      "QT_peak_kN": 8916.714078206898,
+      "QT_peak_t_s": 12.08,
+      "QT_peak_SourceRow": 179864,
+      "Drift_control_Story": "Story5",
+      "Drift_peak_ratio": 0.0018287253365834272,
+      "Drift_peak_t_s": 21.52,
+      "Drift_peak_SourceRow": 136102
+    },
+    {
+      "Case": "RH4Y",
+      "wave_family": "RH4",
+      "Axis": "Y",
+      "QT_control_Story": "Story1",
+      "QT_peak_kN": 8426.400042116213,
+      "QT_peak_t_s": 12.08,
+      "QT_peak_SourceRow": 182365,
+      "Drift_control_Story": "Story4",
+      "Drift_peak_ratio": 0.001724073971632062,
+      "Drift_peak_t_s": 12.040000000000001,
+      "Drift_peak_SourceRow": 157414
+    },
+    {
+      "Case": "SHW4X",
+      "wave_family": "SHW4",
+      "Axis": "X",
+      "QT_control_Story": "Story1",
+      "QT_peak_kN": 11043.622124971971,
+      "QT_peak_t_s": 29.82,
+      "QT_peak_SourceRow": 185753,
+      "Drift_control_Story": "Story5",
+      "Drift_peak_ratio": 0.002237150155793864,
+      "Drift_peak_t_s": 29.900000000000002,
+      "Drift_peak_SourceRow": 142761
+    },
+    {
+      "Case": "SHW4Y",
+      "wave_family": "SHW4",
+      "Axis": "Y",
+      "QT_control_Story": "Story1",
+      "QT_peak_kN": 10366.265099636883,
+      "QT_peak_t_s": 29.8,
+      "QT_peak_SourceRow": 188703,
+      "Drift_control_Story": "Story5",
+      "Drift_peak_ratio": 0.0022951551444100556,
+      "Drift_peak_t_s": 29.900000000000002,
+      "Drift_peak_SourceRow": 146101
+    },
+    {
+      "Case": "SHW7X",
+      "wave_family": "SHW7",
+      "Axis": "X",
+      "QT_control_Story": "Story1",
+      "QT_peak_kN": 9563.896803560503,
+      "QT_peak_t_s": 48.92,
+      "QT_peak_SourceRow": 192610,
+      "Drift_control_Story": "Story7",
+      "Drift_peak_ratio": 0.0018418041354706068,
+      "Drift_peak_t_s": 38.06,
+      "Drift_peak_SourceRow": 112437
+    },
+    {
+      "Case": "SHW7Y",
+      "wave_family": "SHW7",
+      "Axis": "Y",
+      "QT_control_Story": "Story1",
+      "QT_peak_kN": 8945.724838119071,
+      "QT_peak_t_s": 48.96,
+      "QT_peak_SourceRow": 195308,
+      "Drift_control_Story": "Story7",
+      "Drift_peak_ratio": 0.0018972684010277018,
+      "Drift_peak_t_s": 38.06,
+      "Drift_peak_SourceRow": 115403
+    }
+  ],
+  "drift_sparse_groups": 144,
+  "raw_workbooks_read": 0,
+  "solver_runs": 0,
+  "modal_decompositions": 0
+}

@@ -1,0 +1,43 @@
+{
+  "actual_start": "2026-10-20T18:46:49+08:00",
+  "actual_finish": "2026-10-20T19:29:11.783469+08:00",
+  "elapsed_seconds": 2542.783469,
+  "within_8_minutes": false,
+  "within_session_deadline": true,
+  "task_overrun_disclosed": true,
+  "status": "one-page framework frozen; independent review and minimal numerical tests pending",
+  "candidate_count": 2,
+  "new_ODE_raw_arrays_or_solver_calls": 0,
+  "new_layout_work": false,
+  "Git_automation_or_new_agents_chats": 0,
+  "old_v020_modified": false,
+  "source_versions": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\plan.md",
+      "read_sha256": "b4a6963bf2e0e3138f1c9ac3fcc415913775b1f60c46910cadf3f1f324a24b36",
+      "still_same_at_closeout": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\horizontal-paper-session006-v020.md",
+      "read_sha256": "94bd4e37e46abda70a8a7e99fbbaff18f3cf9ffd26f30b62b99d2fb358e8d54c",
+      "still_same_at_closeout": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\horizontal-paper-session006-v020-notes.md",
+      "read_sha256": "c6f7a52fb34a659491bb3f993b07bf8aebeed72c2920663ae4d0be1d540d8da6",
+      "still_same_at_closeout": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\writing\\engineering-session006\\H019\\三层有限前瞻验证附录N.md",
+      "read_sha256": "c35628c5a1cbd9be15a2c9e6c7d2fbf897df18ded098422ad14557686a0e97b8",
+      "still_same_at_closeout": true
+    }
+  ],
+  "qa": [
+    "UTF8/LF",
+    "JSON parsing",
+    "local links",
+    "no trailing spaces",
+    "manifest SHA256"
+  ]
+}

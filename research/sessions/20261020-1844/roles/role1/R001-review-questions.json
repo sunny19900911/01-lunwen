@@ -1,0 +1,27 @@
+{
+  "candidate_count": 2,
+  "status": "proposed analytic mechanisms, not actual-building causal attribution",
+  "for_role2": [
+    {
+      "id": "P1",
+      "claim": "On a complete fixed mass-normalized basis, QS_i=sum k_i*(phi_i-phi_i-1)*q; directional effective mass is not the local force contribution.",
+      "minimum_test": "old3story H2 direct QS versus1/2/3 modal posthoc reconstruction; own peak times retained",
+      "failure": "projection fails reconstruction or omitted contribution does not explain the claimed discrepancy"
+    },
+    {
+      "id": "P2",
+      "claim": "With the same basis, unequal attenuation and time-varying signed superposition may yield unequal story-peak reductions without a necessary change in mode shape.",
+      "minimum_test": "old2story Lnear none/B/C signed modal terms at each model own QS1/QS2 peaks and common reference anchors; zero denominator excluded",
+      "failure": "do not label cancellation loss where signed terms show no corresponding change"
+    }
+  ],
+  "checks": [
+    "identify physical X/Y/torsional family before mapping real mode indices",
+    "same M/K/DOF/normalization or explicitly match changed bases",
+    "q=Phi^T M u for mass-normalized basis",
+    "modal sums at same times, not sum of individual maxima",
+    "separate posthoc reconstruction from reduced nonlinear recoupling",
+    "no assumption of zero baseline damping or actual3percent device equivalence"
+  ],
+  "no_new_ODE": true
+}

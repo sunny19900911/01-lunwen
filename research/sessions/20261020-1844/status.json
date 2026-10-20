@@ -119,5 +119,20 @@
       "rrule": "FREQ=DAILY;BYHOUR=7;BYMINUTE=9;BYSECOND=45;COUNT=1",
       "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
     }
-  }
+  },
+  "last_remote_verified": {
+    "finished_at": "2026-10-20T19:27:27.259593+08:00",
+    "commit": "864f74ff27adf826f4e17b2fd43b94b242da24b6",
+    "file_count": 10,
+    "attempts": [
+      {
+        "attempt": 1,
+        "success": true
+      }
+    ],
+    "remote_commit": "864f74ff27adf826f4e17b2fd43b94b242da24b6",
+    "remote_verified": true,
+    "read_errors": []
+  },
+  "last_git_receipt": "git-R000-receipt.json"
 }

@@ -1,0 +1,27 @@
+{
+  "task": "role1 R001 modal shear framework",
+  "frozen_utc": "2026-10-20T11:29:11.784005+00:00",
+  "status": "one-page framework frozen; independent review and minimal numerical tests pending",
+  "files": [
+    {
+      "file": "R001-input-freeze.json",
+      "bytes": 1579,
+      "sha256": "10805fe1319b3499961fc5508c1067fbc0c31ea3238b73c967209a2c18e40e21"
+    },
+    {
+      "file": "R001-review-questions.json",
+      "bytes": 1465,
+      "sha256": "05df12967294677ed11c119dc76909b852ba09a571fcd65bcc9f59cc83ce2d32"
+    },
+    {
+      "file": "R001-theory-framework.md",
+      "bytes": 4242,
+      "sha256": "81ff30d9f353cdd5c3db7258d1bdf5697535637d28ea9e9c8196fe7bcc19c024"
+    },
+    {
+      "file": "R001-validation.json",
+      "bytes": 1963,
+      "sha256": "e22414f18c199f1fc7a2ef8292551bf61f33e42433c9f8b65df71092249a91e0"
+    }
+  ]
+}

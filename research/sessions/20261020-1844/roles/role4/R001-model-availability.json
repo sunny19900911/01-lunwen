@@ -1,0 +1,126 @@
+{
+  "finished_utc": "2026-10-20T11:25:29.303776+00:00",
+  "models": [
+    {
+      "model": "baseline_label0",
+      "source_sha256": "c14e71ab0e1d244d3e13d72108ebf85cd6d603eef9a41992f979f35e23e3216d",
+      "source_bytes": 218138409,
+      "cached_cases": "R1X;R1Y;RH4X;RH4Y;SHW3X;SHW3Y;SHW4X;SHW4Y;SHW5X;SHW5Y;SHW6X;SHW6Y;SHW7X;SHW7Y",
+      "case_count": 14,
+      "period_modes": 300,
+      "mass_participation_modes": 300,
+      "signed_native_participation_factor_modes": 300,
+      "node_mode_shape_vectors_available": false,
+      "modal_coordinate_histories_available": false,
+      "story_modal_shear_histories_available": false,
+      "complete_all_node_displacement_velocity_available": false,
+      "global_response_cache_available": true,
+      "physical_Link_P_U1_complete_unique_records": "not established from these caches",
+      "actual_background_damping_values_available": false,
+      "input_pairing_status": "baseline_label0 versus modal_added_label3 matched in frozen native_paired_validation.json; physical_devices not certified paired here",
+      "exact_native_modal_shear_decomposition_possible_now": false
+    },
+    {
+      "model": "modal_added_label3",
+      "source_sha256": "c21073336ae48383a7e18375ebdcb63d5e9c3a0ca4bb83bb3d2d44af8b923d24",
+      "source_bytes": 619327468,
+      "cached_cases": "R1X;R1Y;RH4X;RH4Y;SHW3X;SHW3Y;SHW4X;SHW4Y;SHW5X;SHW5Y;SHW6X;SHW6Y;SHW7X;SHW7Y",
+      "case_count": 14,
+      "period_modes": 300,
+      "mass_participation_modes": 300,
+      "signed_native_participation_factor_modes": 300,
+      "node_mode_shape_vectors_available": false,
+      "modal_coordinate_histories_available": false,
+      "story_modal_shear_histories_available": false,
+      "complete_all_node_displacement_velocity_available": false,
+      "global_response_cache_available": true,
+      "physical_Link_P_U1_complete_unique_records": "not established from these caches",
+      "actual_background_damping_values_available": false,
+      "input_pairing_status": "baseline_label0 versus modal_added_label3 matched in frozen native_paired_validation.json; physical_devices not certified paired here",
+      "exact_native_modal_shear_decomposition_possible_now": false
+    },
+    {
+      "model": "physical_devices",
+      "source_sha256": "9d999dfac02ad758b83b52f908ac5df6925b869b9d0a96c032c24e729bf82c23",
+      "source_bytes": 635525054,
+      "cached_cases": "RH4X;RH4Y;SHW4X;SHW4Y;SHW7X;SHW7Y",
+      "case_count": 6,
+      "period_modes": 300,
+      "mass_participation_modes": 300,
+      "signed_native_participation_factor_modes": 300,
+      "node_mode_shape_vectors_available": false,
+      "modal_coordinate_histories_available": false,
+      "story_modal_shear_histories_available": false,
+      "complete_all_node_displacement_velocity_available": false,
+      "global_response_cache_available": true,
+      "physical_Link_P_U1_complete_unique_records": 192,
+      "actual_background_damping_values_available": false,
+      "input_pairing_status": "baseline_label0 versus modal_added_label3 matched in frozen native_paired_validation.json; physical_devices not certified paired here",
+      "exact_native_modal_shear_decomposition_possible_now": false
+    }
+  ],
+  "input_identity_0_vs_3": {
+    "existing_audit": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native_paired_validation.json",
+    "case_count": 14,
+    "all_reported_same_input_samples": true,
+    "settings_equal_excluding_GUID_notes": true
+  },
+  "physical_model_native_inventory_has_node_mode_shapes": false,
+  "physical_model_native_joint_velocity_table_truncated": true,
+  "limits": [
+    "0 label is not proof of zero damping; 3 label is not native proof of total or added modal damping values",
+    "all models have 300 modal summary rows but lack signed node vectors and q_r(t); exact real-building modal story shear decomposition is unavailable",
+    "prior modal_reference_states.npz and identified output coefficients are fitted/reference states, not native modal contributions; not read in this task",
+    "global frequency/mass agreement does not prove full M/K, mode-vector, damping or local shear equivalence; physical-device high modes differ",
+    "frequency bands, mass ratios and participation factors cannot be renamed mode-wise shear shares"
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\manifest.json",
+      "bytes": 443242,
+      "sha256": "1e78f5a15bff3ebe88d59375f84de36733037fdee5baefdf5b81a95e83e58f58"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native0_small_tables.json",
+      "bytes": 10534669,
+      "sha256": "20815b312c71b0c4e8260573752faccbd922c40d84e28bc2549becfca880a972"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\response_cache_manifest.json",
+      "bytes": 510034,
+      "sha256": "4836a1d9d35be32fb6b2f4898c08dab8f897426946b575a1ca5f6fb971e7e697"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\small_tables.json",
+      "bytes": 326749,
+      "sha256": "6645a531ad58d68f38d44991037903852a5a79f727be765cb7efbf674bee48eb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "bytes": 193090,
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "bytes": 493076,
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native_paired_validation.json",
+      "bytes": 34012,
+      "sha256": "bae55ee8ef608c48ff6c21bd62079b0d9cbf1fda1464f740dbd55906ec45e904"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\research\\roles\\experiments\\verification-session003\\modal-damping-summary.json",
+      "bytes": 54935,
+      "sha256": "c166e23f48fab90a2246e63784687b8ca18a18139cc694b07c343d5dc76c2967"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\metadata_inventory.json",
+      "bytes": 35030,
+      "sha256": "67176fee744d772ab5241d6d3a2321ec933785a0764560ad225099961b140549"
+    }
+  ],
+  "new_workbook_reads": 0,
+  "new_modal_decompositions": 0
+}
