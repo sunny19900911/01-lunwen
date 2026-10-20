@@ -1,0 +1,31 @@
+{
+  "automation-5": {
+    "id": "automation-5",
+    "name": "建筑结构｜工程分层减剪评价三小时",
+    "status": "ACTIVE",
+    "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261021T025253Z",
+    "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+    "prompt_sha256": "284321b0610f853f8dfbf641b7942d3998fc7733bb508e7b32349432289bb83e"
+  },
+  "git": {
+    "id": "git",
+    "name": "论文研究主控｜Maxwell六角色15分钟循环",
+    "status": "PAUSED",
+    "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261017T230945Z",
+    "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
+  },
+  "automation-3": {
+    "id": "automation-3",
+    "name": "Maxwell十小时研究｜07:09截止收束",
+    "status": "PAUSED",
+    "rrule": "FREQ=DAILY;BYHOUR=7;BYMINUTE=9;BYSECOND=45;COUNT=1",
+    "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
+  },
+  "automation-4": {
+    "id": "automation-4",
+    "name": "水平减震｜五小时理论工程论文",
+    "status": "PAUSED",
+    "rrule": "FREQ=MINUTELY;INTERVAL=10;UNTIL=20261018T092346Z",
+    "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
+  }
+}

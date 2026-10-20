@@ -1,0 +1,134 @@
+{
+  "authorization": "authorization-evidence.json",
+  "dispatch": {
+    "common": "用户已在主控明确授权新的3小时《建筑结构》改稿与六现有聊天循环/交流/每15分钟常规Git。唯一新session research/sessions/20261021-0737，固定07:37:53—10:37:53+08，09:52:53起成稿；旧session已closed，旧稿/证据字节保留。先读AGENTS、新plan.md、data-handoff.md与所需仓库skills。只写新session/roles/你自己的role目录，主控单写共享账本/Git，⑤唯一新稿jgjg-session010-vNNN。不得新建聊天/子代理、求解ETABS/API、提635MB大表、付费、投稿、上传全文原件、读凭据或改布局。正文工程用语，研究审核另附。任务先冻输入/定义，再小规模执行，真实时限/失败记录，不互等。已授权六角色间质询/回报。首项R001默认10分钟，最迟07:53交冻结成果；不要为凑时长重复旧计算。",
+    "tasks": [
+      "角色① R001：提出最多2套能实际用于本工程的简便分层评价方法或指标，优先利用已审168配对主向峰和共同6工况。给清楚定义、输入需求、手算/表格步骤、物理意义、低幅基准/零峰/不同输入失配的失败门，以及一项与全楼平均降幅/只看底层的简单基线比较方案。可探索跨输入最小减幅与低改善楼层排序，辅以需求绝对值，不用任意加权综合分数/凭空阈值；改善较小≠承载力薄弱。最多推荐一套主方法并给可证伪预测。角色②独审，④定义冻结后算；你不重复数据计算，勿将经典公式换名叫创新。交proposal.md和可复制算法/小例子、next-task。",
+      "角色② R001：独立提出实用方法的验证标准和最小反例，先核‘单一全楼平均减幅/只看底层能否替代各层多输入检查’及‘剪力峰时QD自身比是否等于减震贡献’。利用已有小表/理论，不重解ODE。给量纲、零分母、样本量、X/Y同族、峰时切换、敏感性/稳定性如何检验的执行清单；可用不超过5个手工合成数值反例。等①候选到来可接后续但本项不等。拒绝任意阈值/事后选有利接口，给作者短句。仅role2 R001。",
+      "角色③ R001：核《建筑结构》官方最新投稿/篇幅/图表/摘要/参考文献要求及其工程案例写法，必须浏览一手官方网站，保留URL/实际访问日期/原文短定位，区分建议与硬要求。再查最多2篇最相关国内工程分层减剪/黏滞阻尼器评价的一手原文或期刊官方记录，优先复用已有索引，不能依据摘要认同条件结果。10分钟有界，不重复失败下载；全文不可得就记不足。给⑤明确期刊适配清单，并给①/⑥最近邻覆盖。只写role3 R001，不下录用率结论。",
+      "角色④ R001：先读旧role4 R002-all14-main-axis-168.csv、R002-common-six-main-axis-72.csv及R004报告，按既有CSV用numpy+标准库作‘工程证据地图与简单基线’。先冻定义，不做拟合/新ODE：按X/Y分别列每层减幅min/median/max及对应工况、绝对基准/参考剪力峰；比较每工况最小减幅楼层与底层、跨输入重复出现楼层，给全楼平均/底层评价会遗漏的真实例子，所有14工况完整保留。区分三共同波族与其余输入，不冒充独立测试或实际装置因果。交小CSV/JSON和一页工程解释、旧表SHA/命令。matplotlib不可用，不安装，不写大脚本空转。后续待①定义与②审核再算正式候选。",
+      "角色⑤ R001：你是新稿唯一作者。读旧v010与新plan，先写一版完整可读工程主导稿jgjg-session010-v001.md，并写证据映射/待补方法位。结构建议：引言、工程概况与数据、逐层响应及分层评价方法（候选暂不写成已验证）、工程结果与复核步骤、一节三层模型机制解释、结论。三层部分压到正文约15%—20%或更少，保留足够一表一图/短公式及参数补充位置，不再占五小节；重点给现有工程实数而非防御清单。先使用已审旧数据，指标等①②④增量后再整合新版本，不能捏造真实逐阶贡献/实际装置减幅因果。正文不写‘身份/门/核验0must’等程序话。暂不制作Word，最后45分钟再做。新稿不覆盖旧v010，期刊要求待③核；交10分钟内版本与实际字数/表图/证据缺口。",
+      "角色⑥ R001：围绕‘分层减剪评价/跨波保守降幅/低改善楼层筛选+峰时装置出力’核实际可争取增量。读旧已有文献索引/原文对照，最多3个最近邻，必要一手网页原文，不搜泛关键词凑首创。区分经典逐层降幅和模态收敛原则、工程流程整合、真实可验证新发现，给清楚贡献定位和1项最需要基线比较的检验。不将少人做/未搜到/用户命中率认创新。主攻工程可用而非再做纯数学相位证明；三层只机制解释。交①⑤和主控一页报告、原文位置/URL、真实未决。"
+    ]
+  },
+  "automation_update": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Updated automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"automation-5\",\"mode\":\"update\",\"status\":\"ACTIVE\"}"
+      }
+    ],
+    "isError": false
+  },
+  "automation_view": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Rendered automation card in the app."
+      }
+    ],
+    "isError": false
+  },
+  "actual_six_role_start": [
+    {
+      "role": "role1",
+      "cursor": "9acc5ebb-5bb8-4263-9b65-6b79387ae28d:22",
+      "status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn": {
+        "id": "01a15baf-f7c1-7b42-939c-79717cd1a1d3",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792539621,
+        "completedAt": null,
+        "durationMs": null
+      }
+    },
+    {
+      "role": "role2",
+      "cursor": "0263925a-d2e4-473d-b943-f0e994e8a6ae:24",
+      "status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn": {
+        "id": "01a15baf-f945-79b0-8a6b-1159ce432fa8",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792539621,
+        "completedAt": null,
+        "durationMs": null
+      }
+    },
+    {
+      "role": "role3",
+      "cursor": "dbfd450c-8059-468a-9f62-b23d5184c08d:18",
+      "status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn": {
+        "id": "01a15baf-fdc7-7382-a442-1771317290ed",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792539622,
+        "completedAt": null,
+        "durationMs": null
+      }
+    },
+    {
+      "role": "role4",
+      "cursor": "9161e6ab-c967-45df-bdbf-f6318a8755df:19",
+      "status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn": {
+        "id": "01a15bb0-016c-7382-a5f7-2cedb227ca2c",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792539623,
+        "completedAt": null,
+        "durationMs": null
+      }
+    },
+    {
+      "role": "role5",
+      "cursor": "b15d080b-96ec-4374-a74b-8a358841245d:34",
+      "status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn": {
+        "id": "01a15bb0-0328-7402-bb22-488721d03c1d",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792539624,
+        "completedAt": null,
+        "durationMs": null
+      }
+    },
+    {
+      "role": "role6",
+      "cursor": "6b32e766-a0c4-4deb-9d91-cc75e8f32770:15",
+      "status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn": {
+        "id": "01a15bb0-0795-72d2-8d4b-79c941a69a15",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1792539625,
+        "completedAt": null,
+        "durationMs": null
+      }
+    }
+  ]
+}

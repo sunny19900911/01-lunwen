@@ -1,0 +1,135 @@
+{
+  "root": "E:/11-工作/001-workbuddy spaceV1/001-workbuddy space/109-论文写作/01-lunwen",
+  "base": "E:/11-工作/001-workbuddy spaceV1/001-workbuddy space/109-论文写作/01-lunwen/research/sessions/20261021-0737",
+  "session": "20261021-0737",
+  "start": "2026-10-21T07:37:53+08:00",
+  "deadline": "2026-10-21T10:37:53+08:00",
+  "deadlineUTC": "2026-10-21T02:37:53Z",
+  "writing_start": "2026-10-21T09:52:53+08:00",
+  "roles": [
+    {
+      "role": "role1",
+      "title": "论文角色①｜猜想与理论突破",
+      "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+      "hostId": "local",
+      "cursor": "9acc5ebb-5bb8-4263-9b65-6b79387ae28d:22",
+      "actual_status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn_status": "inProgress",
+      "task": "R001"
+    },
+    {
+      "role": "role2",
+      "title": "论文角色②｜证明审核与反例",
+      "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
+      "hostId": "local",
+      "cursor": "0263925a-d2e4-473d-b943-f0e994e8a6ae:24",
+      "actual_status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn_status": "inProgress",
+      "task": "R001"
+    },
+    {
+      "role": "role3",
+      "title": "论文角色③｜文献原文复查",
+      "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+      "hostId": "local",
+      "cursor": "dbfd450c-8059-468a-9f62-b23d5184c08d:18",
+      "actual_status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn_status": "inProgress",
+      "task": "R001"
+    },
+    {
+      "role": "role4",
+      "title": "论文角色④｜ETABS数据与拟合",
+      "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+      "hostId": "local",
+      "cursor": "9161e6ab-c967-45df-bdbf-f6318a8755df:19",
+      "actual_status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn_status": "inProgress",
+      "task": "R001"
+    },
+    {
+      "role": "role5",
+      "title": "论文角色⑤｜论文写作与论证",
+      "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+      "hostId": "local",
+      "cursor": "b15d080b-96ec-4374-a74b-8a358841245d:34",
+      "actual_status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn_status": "inProgress",
+      "task": "R001"
+    },
+    {
+      "role": "role6",
+      "title": "创新性验证",
+      "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+      "hostId": "local",
+      "cursor": "6b32e766-a0c4-4deb-9d91-cc75e8f32770:15",
+      "actual_status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "turn_status": "inProgress",
+      "task": "R001"
+    }
+  ],
+  "automation_id": "automation-5",
+  "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261021T025253Z",
+  "phase": "research",
+  "current_round": "R000",
+  "checkpoint_open": true,
+  "automatic_git_authorized": true,
+  "no_solver_or_api": true,
+  "no_layout_change_primary": true,
+  "canonical_source": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v010.md",
+  "canonical_manuscript": null,
+  "scientific_dispatch_allowed": true,
+  "old_session": "20261020-1844_closed-budget",
+  "last_git_checkpoint": null,
+  "last_actual_snapshot": "2026-10-21T07:41:32.869246+08:00",
+  "automation_actual_config": {
+    "automation-5": {
+      "id": "automation-5",
+      "name": "建筑结构｜工程分层减剪评价三小时",
+      "status": "ACTIVE",
+      "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261021T025253Z",
+      "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+      "prompt_sha256": "284321b0610f853f8dfbf641b7942d3998fc7733bb508e7b32349432289bb83e"
+    },
+    "git": {
+      "id": "git",
+      "name": "论文研究主控｜Maxwell六角色15分钟循环",
+      "status": "PAUSED",
+      "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261017T230945Z",
+      "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
+    },
+    "automation-3": {
+      "id": "automation-3",
+      "name": "Maxwell十小时研究｜07:09截止收束",
+      "status": "PAUSED",
+      "rrule": "FREQ=DAILY;BYHOUR=7;BYMINUTE=9;BYSECOND=45;COUNT=1",
+      "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
+    },
+    "automation-4": {
+      "id": "automation-4",
+      "name": "水平减震｜五小时理论工程论文",
+      "status": "PAUSED",
+      "rrule": "FREQ=MINUTELY;INTERVAL=10;UNTIL=20261018T092346Z",
+      "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
+    }
+  },
+  "last_scientific_progress": "Six existing role chats actually active on new R001 tasks; no duplicate chat/solver started."
+}
