@@ -1,0 +1,68 @@
+{
+  "status": "conditional theory review frozen; numerical tests not started",
+  "actual_start": "2026-10-20T19:35:20.654326+08:00",
+  "actual_end": "2026-10-20T19:36:50.081941+08:00",
+  "elapsed_seconds": 89.427615,
+  "within_session_deadline": true,
+  "source_manifests_verified": true,
+  "sources": [
+    {
+      "file": "research\\sessions\\20261020-1844\\roles\\role1\\R001-input-freeze.json",
+      "bytes": 1579,
+      "sha256": "10805fe1319b3499961fc5508c1067fbc0c31ea3238b73c967209a2c18e40e21"
+    },
+    {
+      "file": "research\\sessions\\20261020-1844\\roles\\role1\\R001-review-questions.json",
+      "bytes": 1465,
+      "sha256": "05df12967294677ed11c119dc76909b852ba09a571fcd65bcc9f59cc83ce2d32"
+    },
+    {
+      "file": "research\\sessions\\20261020-1844\\roles\\role1\\R001-theory-framework.md",
+      "bytes": 4242,
+      "sha256": "81ff30d9f353cdd5c3db7258d1bdf5697535637d28ea9e9c8196fe7bcc19c024"
+    },
+    {
+      "file": "research\\sessions\\20261020-1844\\roles\\role1\\R001-validation.json",
+      "bytes": 1963,
+      "sha256": "e22414f18c199f1fc7a2ef8292551bf61f33e42433c9f8b65df71092249a91e0"
+    },
+    {
+      "file": "research\\sessions\\20261020-1844\\roles\\role2\\R001-method-guards.md",
+      "bytes": 3264,
+      "sha256": "e7edd1320c64360929369f0a0c1f73145964973e76ef63b01b63b77d99c2168b"
+    },
+    {
+      "file": "research\\sessions\\20261020-1844\\roles\\role2\\R001-input-freeze.json",
+      "bytes": 2074,
+      "sha256": "3f63fba0fe6bae168a232ff7dcafa4dbaf84f0c6cdfe15b87be0a0c6c4be6aee"
+    },
+    {
+      "file": "research\\sessions\\20261020-1844\\roles\\role2\\R001-checks.json",
+      "bytes": 1464,
+      "sha256": "57985d82c2ad6f39e9ed7d4dcf0139d28555fb34fe76a433bfef975428acdef1"
+    },
+    {
+      "file": "research\\sessions\\20261020-1844\\roles\\role2\\R001-validation.json",
+      "bytes": 1306,
+      "sha256": "3e20c3c710c60646bd619d85dbb273a53a1f333cf6f36022696036e2b939b359"
+    }
+  ],
+  "review_scope": [
+    "role1 R001 P1/P2 theory",
+    "same-state projection and output operator",
+    "peak-time and cancellation attribution limits"
+  ],
+  "exact_arithmetic_counterexample": "component peaks 2,1 -> 1.8,0.5; total peak 1 -> 1.3; kappa 1/3 -> 13/23",
+  "qa": {
+    "UTF8_LF": true,
+    "no_trailing_whitespace": true,
+    "JSON_parse": true
+  },
+  "no_new_state_arrays_ODE_ETABS_API_Git_automation_agents": true,
+  "only_role2_written": true,
+  "report": {
+    "file": "research\\sessions\\20261020-1844\\roles\\role2\\R002-theory-review.md",
+    "bytes": 3666,
+    "sha256": "c41661d6ed9d9b98f0ea538238f2faf9f367a6ff581f0921d7d47dbcfe290c85"
+  }
+}

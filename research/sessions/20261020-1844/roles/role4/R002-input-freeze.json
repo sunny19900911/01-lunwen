@@ -1,0 +1,38 @@
+{
+  "utc": "2026-10-20T11:32:31.203338+00:00",
+  "start_utc": "2026-10-20T11:30:53+00:00",
+  "deadline_utc": "2026-10-20T11:38:53+00:00",
+  "code_sha256": "af885c7b252211d05b69eb32339197bf79e0cbb852f407e5c4a385c793571c29",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\manifest.json",
+      "bytes": 443242,
+      "sha256": "1e78f5a15bff3ebe88d59375f84de36733037fdee5baefdf5b81a95e83e58f58"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\response_cache_manifest.json",
+      "bytes": 510034,
+      "sha256": "4836a1d9d35be32fb6b2f4898c08dab8f897426946b575a1ca5f6fb971e7e697"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Forces.npz",
+      "bytes": 24737339,
+      "sha256": "fb11e299f62682d0bf3a68644cdae474ca8a6ce96863838e02117431f72caf8d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\Story_Forces.npz",
+      "bytes": 24746646,
+      "sha256": "f80493976395634c1e03b3591ae64bce329c5b9af72729e3d2d18c719ac792e0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native_paired_validation.json",
+      "bytes": 34012,
+      "sha256": "bae55ee8ef608c48ff6c21bd62079b0d9cbf1fda1464f740dbd55906ec45e904"
+    }
+  ],
+  "scope": "native Bottom shear label0/3; six common cases first; no modal decomposition or QS claim",
+  "peak": "max(abs(saved native output)); relative change=(P3-P0)/P0; small denominator<=1e-10kN unresolved",
+  "time_shift": "t_peak3-t_peak0; same peak time does not prove same response phase",
+  "source0_sha256": "c14e71ab0e1d244d3e13d72108ebf85cd6d603eef9a41992f979f35e23e3216d",
+  "source3_sha256": "c21073336ae48383a7e18375ebdcb63d5e9c3a0ca4bb83bb3d2d44af8b923d24"
+}

@@ -1,0 +1,93 @@
+{
+  "task": "role3 R002",
+  "purpose": "eight-row citation table, v002 section3 elastic output citation and one publishable theory paragraph",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\modal-shear-session009-v002.md",
+      "bytes": 8125,
+      "sha256": "cbfa72b6edfc10e9ae90638198bf3efc50fb2cae98335170b581fda008cfa6d5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role3\\R001-report.md",
+      "bytes": 5741,
+      "sha256": "3db9c1114f982cfc7ea42763cbc1743dbcf9a3ac0828c4489960e8abf191529a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role3\\R001-manifest.json",
+      "bytes": 5915,
+      "sha256": "948b768aff52a664da49c69296cdb60e321ae2904edb49a4aa310ff4ea338282"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role3\\R001-freeze.json",
+      "bytes": 1073,
+      "sha256": "b7977e282b2d70b797236c4fa4a0fa37f4bcafa0d51ee2d10c8380357404bc26"
+    }
+  ],
+  "source_scope": "reuse exactly the three primary works and original page locators of frozen R001; no new source retrieval",
+  "table_rows": 8,
+  "v002_formula_reference": {
+    "mother_equation": "Song2008 PDF56 printed38 Eq3.58 F_IS=T_S Kx",
+    "mapping": "ell_s^T=e_s^T T_S K; substitute u=Phi q under the manuscript complete mass-normalized real reference basis",
+    "direct_inference_not_verbatim_source_formula": true,
+    "not_claimed": "nonlinear mode-by-mode independence or exact engineering Bottom identity"
+  },
+  "references": [
+    {
+      "number": 1,
+      "authors": [
+        "Song J",
+        "Chu Y L",
+        "Liang Z",
+        "Lee G C"
+      ],
+      "year": 2008,
+      "report": "MCEER-08-0005",
+      "pages": [
+        56,
+        58
+      ],
+      "equations": [
+        "3.57–3.59",
+        "3.63"
+      ]
+    },
+    {
+      "number": 2,
+      "authors": [
+        "Londono J M",
+        "Wagg D J",
+        "Neild S A"
+      ],
+      "year": 2014,
+      "doi": "10.1002/eqe.2433",
+      "pages": [
+        4,
+        5
+      ],
+      "equations": [
+        "1b",
+        "2",
+        "5"
+      ],
+      "figure": 2
+    },
+    {
+      "number": 3,
+      "authors": [
+        "Conde J",
+        "Bernabeu A"
+      ],
+      "year": 2021,
+      "doi": "10.3390/app11073089",
+      "page": 4,
+      "equations": [
+        "4–6",
+        "9"
+      ]
+    }
+  ],
+  "new_searches": 0,
+  "new_downloads": 0,
+  "new_scientific_computation": 0,
+  "manuscript_changed": false
+}

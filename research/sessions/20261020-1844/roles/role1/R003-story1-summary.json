@@ -1,0 +1,101 @@
+{
+  "case": "H2_envelope",
+  "position": 1,
+  "time_and_outputs": "nondimensional; same40001 saved nodes, h=.005, t0..200",
+  "source_state": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\H021-three-floor-prospective\\local-only\\H2_envelope__position1__h0.005.npz",
+    "bytes": 3336293,
+    "sha256": "3155eac9781d1d3e36955a5784ee1e220dd48ac88ed14f65b19f71056cf7a1d7"
+  },
+  "source_model_freeze": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\H021-three-floor-prospective\\pre-run-freeze.json",
+    "bytes": 6186,
+    "sha256": "506258b0aa9858f9424eae4ba7305e1ebcb18cb743f6fe54a0908705491c8572"
+  },
+  "mass": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.2,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.8
+    ]
+  ],
+  "stiffness": [
+    [
+      2.4,
+      -1.0,
+      0.0
+    ],
+    [
+      -1.0,
+      1.7,
+      -0.7
+    ],
+    [
+      0.0,
+      -0.7,
+      0.7
+    ]
+  ],
+  "phi_columns_mass_normalized": [
+    [
+      0.2708593875263937,
+      0.5108065457992369,
+      0.8159116771792636
+    ],
+    [
+      0.5864967344551109,
+      0.4886208107632584,
+      -0.5006042519754306
+    ],
+    [
+      0.8014526567092222,
+      -0.7521438664872555,
+      0.20482490854222554
+    ]
+  ],
+  "omega": [
+    0.4844397791989451,
+    1.2014294627575,
+    1.7359585285987016
+  ],
+  "phi_sign_convention": "first component positive",
+  "mass_orthogonality_error": 5.551115123125783e-16,
+  "eigen_equation_error": 4.440892098500626e-16,
+  "u_reconstruction_error": 8.326672684688674e-17,
+  "summaries": [
+    {
+      "quantity": "QS2",
+      "full_peak": 0.06273951642969278,
+      "full_peak_t": 20.09,
+      "two_mode_posthoc_peak": 0.03661726075197778,
+      "two_mode_peak_t": 17.2,
+      "signed_peak_change_relative": -0.4163604880026155,
+      "absolute_peak_error_relative": 0.4163604880026155,
+      "three_mode_reconstruction_max_abs_error": 4.163336342344337e-17,
+      "tail_residual_identity_max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "quantity": "roof",
+      "full_peak": 0.15410225372890107,
+      "full_peak_t": 20.51,
+      "two_mode_posthoc_peak": 0.15894349508459105,
+      "two_mode_peak_t": 20.490000000000002,
+      "signed_peak_change_relative": 0.03141577257011918,
+      "absolute_peak_error_relative": 0.03141577257011918,
+      "three_mode_reconstruction_max_abs_error": 8.326672684688674e-17,
+      "tail_residual_identity_max_abs_error": 8.283304597789254e-17
+    }
+  ],
+  "new_ODE_runs": 0,
+  "not_a_reduced_feedback_solve": true
+}

@@ -1,0 +1,242 @@
+{
+  "finished_utc": "2026-10-20T11:38:41.741229+00:00",
+  "rows": 72,
+  "modal_summary_rows": 18,
+  "physical_peak_higher_than_label3_count": 34,
+  "physical_peak_lower_than_label3_count": 38,
+  "example": {
+    "Case": "RH4X",
+    "wave_family": "RH4",
+    "Axis": "X",
+    "Story": "Story1",
+    "Location": "Bottom",
+    "units": "kN",
+    "P0_kN": 10566.753300748205,
+    "P3_kN": 8528.665433618042,
+    "Pphysical_kN": 8916.714078206898,
+    "t_peak0_s": 21.68,
+    "t_peak3_s": 12.200000000000001,
+    "t_peakphysical_s": 12.08,
+    "source_row0": "424984",
+    "source_row3": "424510",
+    "source_rowphysical": "179864",
+    "physical_over_label3_peak": 1.045499339563639,
+    "label0_label3_input_pair_verified": true,
+    "physical_input_and_complete_model_pair_verified": false,
+    "physical_own_output_complete": true,
+    "grid_extent_count_match_only": true,
+    "scope": "three native QT output peaks; cross-model ratios descriptive, not damping-only causal effect or isolated QS"
+  },
+  "modal_top3": [
+    {
+      "model": "baseline_label0",
+      "Axis": "X",
+      "rank_by_directional_mass_ratio": 1,
+      "global_mode_number": 2,
+      "period_s": 2.7321517628791776,
+      "directional_mass_ratio": 0.648713271288329,
+      "native_mass_table_source_row": 5,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "baseline_label0",
+      "Axis": "X",
+      "rank_by_directional_mass_ratio": 2,
+      "global_mode_number": 4,
+      "period_s": 0.9201149857671089,
+      "directional_mass_ratio": 0.14476167326387887,
+      "native_mass_table_source_row": 7,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "baseline_label0",
+      "Axis": "X",
+      "rank_by_directional_mass_ratio": 3,
+      "global_mode_number": 10,
+      "period_s": 0.5620238376738221,
+      "directional_mass_ratio": 0.05703063885645632,
+      "native_mass_table_source_row": 13,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "baseline_label0",
+      "Axis": "Y",
+      "rank_by_directional_mass_ratio": 1,
+      "global_mode_number": 1,
+      "period_s": 2.778087661961417,
+      "directional_mass_ratio": 0.652236628540537,
+      "native_mass_table_source_row": 4,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "baseline_label0",
+      "Axis": "Y",
+      "rank_by_directional_mass_ratio": 2,
+      "global_mode_number": 5,
+      "period_s": 0.9006563666202803,
+      "directional_mass_ratio": 0.1488004899213537,
+      "native_mass_table_source_row": 8,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "baseline_label0",
+      "Axis": "Y",
+      "rank_by_directional_mass_ratio": 3,
+      "global_mode_number": 11,
+      "period_s": 0.5454618650900356,
+      "directional_mass_ratio": 0.06359180000210088,
+      "native_mass_table_source_row": 14,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "modal_added_label3",
+      "Axis": "X",
+      "rank_by_directional_mass_ratio": 1,
+      "global_mode_number": 2,
+      "period_s": 2.732151762879241,
+      "directional_mass_ratio": 0.6487132712878282,
+      "native_mass_table_source_row": 5,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "modal_added_label3",
+      "Axis": "X",
+      "rank_by_directional_mass_ratio": 2,
+      "global_mode_number": 4,
+      "period_s": 0.9201149857671125,
+      "directional_mass_ratio": 0.1447616732638633,
+      "native_mass_table_source_row": 7,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "modal_added_label3",
+      "Axis": "X",
+      "rank_by_directional_mass_ratio": 3,
+      "global_mode_number": 10,
+      "period_s": 0.5620238376738256,
+      "directional_mass_ratio": 0.05703063885645296,
+      "native_mass_table_source_row": 13,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "modal_added_label3",
+      "Axis": "Y",
+      "rank_by_directional_mass_ratio": 1,
+      "global_mode_number": 1,
+      "period_s": 2.7780876619612638,
+      "directional_mass_ratio": 0.6522366285399439,
+      "native_mass_table_source_row": 4,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "modal_added_label3",
+      "Axis": "Y",
+      "rank_by_directional_mass_ratio": 2,
+      "global_mode_number": 5,
+      "period_s": 0.9006563666202865,
+      "directional_mass_ratio": 0.1488004899213242,
+      "native_mass_table_source_row": 8,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "modal_added_label3",
+      "Axis": "Y",
+      "rank_by_directional_mass_ratio": 3,
+      "global_mode_number": 11,
+      "period_s": 0.545461865090037,
+      "directional_mass_ratio": 0.06359180000209583,
+      "native_mass_table_source_row": 14,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "physical_devices",
+      "Axis": "X",
+      "rank_by_directional_mass_ratio": 1,
+      "global_mode_number": 2,
+      "period_s": 2.732151762879309,
+      "directional_mass_ratio": 0.6487132712882164,
+      "native_mass_table_source_row": 5,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "physical_devices",
+      "Axis": "X",
+      "rank_by_directional_mass_ratio": 2,
+      "global_mode_number": 4,
+      "period_s": 0.9201149851144357,
+      "directional_mass_ratio": 0.1447616740431023,
+      "native_mass_table_source_row": 7,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "physical_devices",
+      "Axis": "X",
+      "rank_by_directional_mass_ratio": 3,
+      "global_mode_number": 10,
+      "period_s": 0.5620229806289647,
+      "directional_mass_ratio": 0.05703186373524058,
+      "native_mass_table_source_row": 13,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "physical_devices",
+      "Axis": "Y",
+      "rank_by_directional_mass_ratio": 1,
+      "global_mode_number": 1,
+      "period_s": 2.7780876619616155,
+      "directional_mass_ratio": 0.6522366285405979,
+      "native_mass_table_source_row": 4,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "physical_devices",
+      "Axis": "Y",
+      "rank_by_directional_mass_ratio": 2,
+      "global_mode_number": 5,
+      "period_s": 0.9006563665686226,
+      "directional_mass_ratio": 0.14880048994148432,
+      "native_mass_table_source_row": 8,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    },
+    {
+      "model": "physical_devices",
+      "Axis": "Y",
+      "rank_by_directional_mass_ratio": 3,
+      "global_mode_number": 11,
+      "period_s": 0.5454618547424017,
+      "directional_mass_ratio": 0.06359180938951411,
+      "native_mass_table_source_row": 14,
+      "scope": "largest directional effective mass ratios among 300 summaries; not first global modes, node shapes, response amplitudes or story shear shares"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R001-story-forces-72.csv",
+      "bytes": 17195,
+      "sha256": "97577d911d5cccd86870c250865ff460ec3a6418039da919e49bbe3599d01d22"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-common-six-main-axis-72.csv",
+      "bytes": 28512,
+      "sha256": "cb36b10ad8d257ef4c2aedecf9fb95cc18a832e266a05bce9a0eec6a8a2eb621"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native0_small_tables.json",
+      "bytes": 10534669,
+      "sha256": "20815b312c71b0c4e8260573752faccbd922c40d84e28bc2549becfca880a972"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\small_tables.json",
+      "bytes": 326749,
+      "sha256": "6645a531ad58d68f38d44991037903852a5a79f727be765cb7efbf674bee48eb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "bytes": 493076,
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc"
+    }
+  ],
+  "source_arrays_read": 0,
+  "source_workbooks_read": 0,
+  "new_modal_decompositions": 0
+}

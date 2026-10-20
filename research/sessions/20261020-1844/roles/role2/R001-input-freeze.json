@@ -1,0 +1,51 @@
+{
+  "actual_start": "2026-10-20T19:25:15.534683+08:00",
+  "identity_recorded_at": "2026-10-20T19:32:39.147051+08:00",
+  "session_window": [
+    "2026-10-20T18:44:25+08:00",
+    "2026-10-20T21:44:25+08:00"
+  ],
+  "writing_start": "2026-10-20T20:59:25+08:00",
+  "governance_read": [
+    "AGENTS.md",
+    ".agents/skills/research-paper-lab/SKILL.md",
+    ".agents/skills/engineering-paper-writing/SKILL.md",
+    ".agents/skills/research-paper-lab/references/evidence-boundaries.md"
+  ],
+  "current_session_sources": [
+    {
+      "file": "research\\sessions\\20261020-1844\\plan.md",
+      "bytes": 4303,
+      "sha256": "b4a6963bf2e0e3138f1c9ac3fcc415913775b1f60c46910cadf3f1f324a24b36"
+    },
+    {
+      "file": "research\\sessions\\20261020-1844\\claims.md",
+      "bytes": 845,
+      "sha256": "5530e70597fd267294f617b9499f1602f1b24749b3ccc806c420d011b0c599f5"
+    },
+    {
+      "file": "research\\sessions\\20261020-1844\\status.json",
+      "bytes": 4259,
+      "sha256": "18a18d50ed069d2717812ffa94ddabdc09f51baace35fd1656ffe09c306777c7"
+    }
+  ],
+  "legacy_frozen_reports": [
+    {
+      "file": "papers\\damping-output-boundaries\\research\\roles\\verification\\engineering-session006\\H006\\report.md",
+      "bytes": 8590,
+      "sha256": "9a8416dfc70010aee1c19d8664d740273f1943a6dbc23600a0788131248d81bd"
+    },
+    {
+      "file": "papers\\damping-output-boundaries\\research\\roles\\verification\\engineering-session006\\H017\\report.md",
+      "bytes": 8169,
+      "sha256": "35c42a43b4353b8da286c924d86cf255e185bfa6e6de1259cb22425412c0d3f8"
+    }
+  ],
+  "approved_three_floor_excerpt": {
+    "file": "papers\\damping-output-boundaries\\research\\roles\\writing\\engineering-session006\\H019\\裸模态后验重构与尾能量界附录O.md",
+    "bytes": 6602,
+    "sha256": "89037e6908f86934a9fa7dabffab22a055254e51f7f1f8da1362074da9e0e9f2"
+  },
+  "read_scope": "Current plan/claims/status and skills; oldH006 specified lines, H017 findings/validation and oldO1/scope excerpts. No role1 in-progress framework read.",
+  "no_raw_Excel_or_state_arrays": true
+}

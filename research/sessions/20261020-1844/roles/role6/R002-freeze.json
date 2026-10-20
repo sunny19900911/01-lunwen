@@ -1,0 +1,61 @@
+{
+  "session": "20261020-1844",
+  "role": "role6",
+  "task": "R002",
+  "status": "frozen; awaiting next bounded task",
+  "actual_start": "2026-10-20T19:31:13+08:00",
+  "actual_end": "2026-10-20T19:32:41.072584+08:00",
+  "elapsed_seconds": 88.072584,
+  "limit_seconds": 480,
+  "within_task_limit": true,
+  "session_deadline": "2026-10-20T21:44:25+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R001-report.md",
+      "bytes": 3767,
+      "sha256": "f9c1ea4b5b8a678cf1f2040e90c57fbef3a9fd52e6c7fe8047661ea0d35f5a2a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R001-first-three-modal-summary.csv",
+      "bytes": 2674,
+      "sha256": "46a2b8ea7e79acd73c0fc3a8345645f0f76199f882d1d8baf6918d4d80d47cf6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R001-three-model-availability.csv",
+      "bytes": 1601,
+      "sha256": "3107828ce3f19b153d08000e4fc03c5fc3e6198ce0b1b93496bf8838a977b734"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R001-main-axis-controls-6.csv",
+      "bytes": 755,
+      "sha256": "88e809c2fc5f9a333780d895aa9ec3a1c2210451cf2f2189b2fadb28cba1f138"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R001-delivery-manifest.json",
+      "bytes": 4720,
+      "sha256": "a175e270ade2148ea3288523f3f732e6d05668f90c9752a528fa574f0ce04f2d"
+    }
+  ],
+  "scope": "Frozen role4 R001 report, first-three native modal summary, availability table and six entity-model control records. No numerical or source-data reaudit.",
+  "deliverable": [
+    "one title",
+    "two bounded contribution sentences",
+    "positive executable manuscript structure",
+    "real output comparison versus exact modal attribution boundary"
+  ],
+  "no_new_Excel_large_cache_web_search_ODE_ETABS_Git_automation_agents_chats_or_canonical_write": true,
+  "qa": {
+    "UTF8_LF": true,
+    "no_trailing_whitespace": true,
+    "near_identical_summaries_not_complete_vectors": true,
+    "mode_sign_not_physical_change": true,
+    "native_Bottom_not_automatically_QS": true
+  },
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role6\\R002-scope.md",
+      "bytes": 3353,
+      "sha256": "762cdfa91cf57e2e3b725fbefabda8af4f7f17438b6538c2fa67625be6d5cdfb"
+    }
+  ]
+}

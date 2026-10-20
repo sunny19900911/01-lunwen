@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "checks": {
+    "five_sections": true,
+    "Chinese_and_English_abstract": true,
+    "three_state_labels": true,
+    "comparison_identity_pending": true,
+    "higher_modes_and_remaining_response": true,
+    "signed_sum_and_peak": true,
+    "toy_model_identity": true,
+    "no_layout_candidates": true,
+    "no_invented_engineering_percent": true,
+    "no_control_characters": true,
+    "literal_TeX": true,
+    "local_link:horizontal-paper-session006-v020-notes.md": true
+  },
+  "count": 12,
+  "CJK_characters": 1374,
+  "actual_start": "2026-10-20T18:46:40+08:00",
+  "actual_end": "2026-10-20T19:29:32.110491+08:00",
+  "elapsed_seconds": 2572.110491,
+  "within_8_minutes": false,
+  "scientific_runs": 0,
+  "input_identities": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\horizontal-paper-session006-v020.md",
+      "sha256": "94bd4e37e46abda70a8a7e99fbbaff18f3cf9ffd26f30b62b99d2fb358e8d54c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\horizontal-paper-session006-v020-notes.md",
+      "sha256": "c6f7a52fb34a659491bb3f993b07bf8aebeed72c2920663ae4d0be1d540d8da6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\plan.md",
+      "sha256": "b4a6963bf2e0e3138f1c9ac3fcc415913775b1f60c46910cadf3f1f324a24b36"
+    }
+  ]
+}

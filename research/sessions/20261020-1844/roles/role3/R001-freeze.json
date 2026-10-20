@@ -1,0 +1,32 @@
+{
+  "task": "role3 R001",
+  "frozen_at": "2026-10-20T19:33:28.942934+08:00",
+  "immutable": true,
+  "files": [
+    {
+      "file": "R001-report.md",
+      "bytes": 5741,
+      "sha256": "3db9c1114f982cfc7ea42763cbc1743dbcf9a3ac0828c4489960e8abf191529a"
+    },
+    {
+      "file": "R001-manifest.json",
+      "bytes": 5915,
+      "sha256": "948b768aff52a664da49c69296cdb60e321ae2904edb49a4aa310ff4ea338282"
+    },
+    {
+      "file": "R001-validation.json",
+      "bytes": 664,
+      "sha256": "7f3b3ff9a62e6f7f4d4e42dc55b01be0920e4566c4307913c1757935cfeb777a"
+    },
+    {
+      "file": "R001-close.py",
+      "bytes": 4131,
+      "sha256": "d114e268380bf810f2cd8a6935cb9f93e84a3b5e8138d23725f2423fbe6888bc"
+    }
+  ],
+  "ignored_original_image": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role3\\R001-local-cache\\MCEER-p56.png",
+    "bytes": 159299,
+    "sha256": "958e869d76d99dd4da194c6501a1b395cdc195f486f557172a412211d9f650df"
+  }
+}

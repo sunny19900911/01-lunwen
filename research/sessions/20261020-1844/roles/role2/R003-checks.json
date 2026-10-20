@@ -1,0 +1,335 @@
+{
+  "main_rows_arithmetic_checked": 168,
+  "common_three_model_rows_checked": 72,
+  "cache_groups_independently_read": 6,
+  "samples": [
+    {
+      "model": "label0",
+      "Case": "SHW4Y",
+      "Story": "Story7",
+      "Axis": "Y",
+      "Location": "Bottom",
+      "units": "kN",
+      "cache_group": "g77",
+      "n": 2951,
+      "t0_s": 0.0,
+      "t1_s": 59.0,
+      "peak_abs_kN": 7343.57002502021,
+      "signed_at_peak_kN": -7343.57002502021,
+      "peak_t_s": 29.84,
+      "SourceRow": 212513,
+      "ties": 1,
+      "time_grid_sha256": "217d5af043791d66d386d44c8ffc57e2914c2298e55a664bfcebb3469a2034bf"
+    },
+    {
+      "model": "label0",
+      "Case": "RH4X",
+      "Story": "Story1",
+      "Axis": "X",
+      "Location": "Bottom",
+      "units": "kN",
+      "cache_group": "g154",
+      "n": 2501,
+      "t0_s": 0.0,
+      "t1_s": 50.0,
+      "peak_abs_kN": 10566.753300748205,
+      "signed_at_peak_kN": 10566.753300748205,
+      "peak_t_s": 21.68,
+      "SourceRow": 424984,
+      "ties": 1,
+      "time_grid_sha256": "3643d3c7d22a7db8e8c4d0e0d6356dc52ce5b118542e24c601b4b29efe47f4d8"
+    },
+    {
+      "model": "label3",
+      "Case": "SHW4Y",
+      "Story": "Story7",
+      "Axis": "Y",
+      "Location": "Bottom",
+      "units": "kN",
+      "cache_group": "g77",
+      "n": 2951,
+      "t0_s": 0.0,
+      "t1_s": 59.0,
+      "peak_abs_kN": 6788.322101745651,
+      "signed_at_peak_kN": -6788.322101745651,
+      "peak_t_s": 29.86,
+      "SourceRow": 212514,
+      "ties": 1,
+      "time_grid_sha256": "217d5af043791d66d386d44c8ffc57e2914c2298e55a664bfcebb3469a2034bf"
+    },
+    {
+      "model": "label3",
+      "Case": "RH4X",
+      "Story": "Story1",
+      "Axis": "X",
+      "Location": "Bottom",
+      "units": "kN",
+      "cache_group": "g154",
+      "n": 2501,
+      "t0_s": 0.0,
+      "t1_s": 50.0,
+      "peak_abs_kN": 8528.665433618042,
+      "signed_at_peak_kN": -8528.665433618042,
+      "peak_t_s": 12.200000000000001,
+      "SourceRow": 424510,
+      "ties": 1,
+      "time_grid_sha256": "3643d3c7d22a7db8e8c4d0e0d6356dc52ce5b118542e24c601b4b29efe47f4d8"
+    },
+    {
+      "model": "physical",
+      "Case": "SHW4Y",
+      "Story": "Story7",
+      "Axis": "Y",
+      "Location": "Bottom",
+      "units": "kN",
+      "cache_group": "g33",
+      "n": 2951,
+      "t0_s": 0.0,
+      "t1_s": 59.0,
+      "peak_abs_kN": 6715.126983013252,
+      "signed_at_peak_kN": -6715.126983013252,
+      "peak_t_s": 29.92,
+      "SourceRow": 90933,
+      "ties": 1,
+      "time_grid_sha256": "217d5af043791d66d386d44c8ffc57e2914c2298e55a664bfcebb3469a2034bf"
+    },
+    {
+      "model": "physical",
+      "Case": "RH4X",
+      "Story": "Story1",
+      "Axis": "X",
+      "Location": "Bottom",
+      "units": "kN",
+      "cache_group": "g66",
+      "n": 2501,
+      "t0_s": 0.0,
+      "t1_s": 50.0,
+      "peak_abs_kN": 8916.714078206898,
+      "signed_at_peak_kN": -8916.714078206898,
+      "peak_t_s": 12.08,
+      "SourceRow": 179864,
+      "ties": 1,
+      "time_grid_sha256": "3643d3c7d22a7db8e8c4d0e0d6356dc52ce5b118542e24c601b4b29efe47f4d8"
+    }
+  ],
+  "higher_lower_equal": [
+    34,
+    38,
+    0
+  ],
+  "least": {
+    "Case": "SHW3X",
+    "wave_family": "SHW3",
+    "input_direction": "X",
+    "Story": "Story5",
+    "Location": "Bottom",
+    "Axis": "X",
+    "input_main_axis": "True",
+    "common_with_physical_model": "False",
+    "P0_kN": "8691.637986375608",
+    "P3_kN": "8096.1503411165795",
+    "signed0_at_own_peak_kN": "-8691.637986375608",
+    "signed3_at_own_peak_kN": "-8096.1503411165795",
+    "t_peak0_s": "22.92",
+    "t_peak3_s": "22.94",
+    "peak_time_shift_s": "0.019999999999999574",
+    "peak_change_kN": "-595.4876452590288",
+    "peak_change_percent": "-6.851270683298968",
+    "peak_reduction_percent": "6.851270683298971",
+    "denominator_resolved": "True",
+    "label3_at_label0_peak_kN": "-8084.566404915022",
+    "same_time_signed_change_kN": "-607.0715814605865",
+    "repeak_recovery_kN": "11.583936201557663",
+    "source_row0": "280906",
+    "source_row3": "280907",
+    "n_points": "2691",
+    "t0_s": "0.0",
+    "t1_s": "53.800000000000004",
+    "scope": "native QT label0/label3 output comparison; not isolated main-structure QS or identified modal contribution"
+  },
+  "most": {
+    "Case": "SHW5X",
+    "wave_family": "SHW5",
+    "input_direction": "X",
+    "Story": "Story10",
+    "Location": "Bottom",
+    "Axis": "X",
+    "input_main_axis": "True",
+    "common_with_physical_model": "False",
+    "P0_kN": "5012.6224554615455",
+    "P3_kN": "3481.4787172087163",
+    "signed0_at_own_peak_kN": "5012.6224554615455",
+    "signed3_at_own_peak_kN": "3481.4787172087163",
+    "t_peak0_s": "28.12",
+    "t_peak3_s": "26.400000000000002",
+    "peak_time_shift_s": "-1.7199999999999989",
+    "peak_change_kN": "-1531.1437382528293",
+    "peak_change_percent": "-30.54576226032261",
+    "peak_reduction_percent": "30.545762260322608",
+    "denominator_resolved": "True",
+    "label3_at_label0_peak_kN": "3380.487614414306",
+    "same_time_signed_change_kN": "-1632.1348410472397",
+    "repeak_recovery_kN": "100.99110279441038",
+    "source_row0": "99770",
+    "source_row3": "99684",
+    "n_points": "2401",
+    "t0_s": "0.0",
+    "t1_s": "48.0",
+    "scope": "native QT label0/label3 output comparison; not isolated main-structure QS or identified modal contribution"
+  },
+  "largest_abs_time_shift": {
+    "Case": "SHW5Y",
+    "wave_family": "SHW5",
+    "input_direction": "Y",
+    "Story": "Story3",
+    "Location": "Bottom",
+    "Axis": "Y",
+    "input_main_axis": "True",
+    "common_with_physical_model": "False",
+    "P0_kN": "7313.962675444387",
+    "P3_kN": "5803.825042924665",
+    "signed0_at_own_peak_kN": "-7313.962675444387",
+    "signed3_at_own_peak_kN": "-5803.825042924665",
+    "t_peak0_s": "27.3",
+    "t_peak3_s": "40.06",
+    "peak_time_shift_s": "12.760000000000002",
+    "peak_change_kN": "-1510.1376325197225",
+    "peak_change_percent": "-20.647324843341075",
+    "peak_reduction_percent": "20.647324843341075",
+    "denominator_resolved": "True",
+    "label3_at_label0_peak_kN": "-5565.653791484044",
+    "same_time_signed_change_kN": "-1748.3088839603433",
+    "repeak_recovery_kN": "238.17125144062084",
+    "source_row0": "371882",
+    "source_row3": "372520",
+    "n_points": "2401",
+    "t0_s": "0.0",
+    "t1_s": "48.0",
+    "scope": "native QT label0/label3 output comparison; not isolated main-structure QS or identified modal contribution"
+  },
+  "source_bindings": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-delivery-manifest.json",
+      "bytes": 2997,
+      "sha256": "cbdcf312074e7134b78d8deb747b3444a831a577f4b71da0479a5fcafd4b0f7e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-all14-main-axis-168.csv",
+      "bytes": 66167,
+      "sha256": "ff25735eb20b9592323fbaf0640e3e85f86b4610af8a2ebd5be37e870494b081"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-all14-two-axis-336.csv",
+      "bytes": 133874,
+      "sha256": "a6468be38e90b2237dfef1cac4a0f1375fc24993b01f2855bd1c99ceb8b952af"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-by-case-14.csv",
+      "bytes": 1480,
+      "sha256": "023643d0aac6d88c3195adda16a933a138b8e0253df0dc3935e032897c091285"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-common-six-main-axis-72.csv",
+      "bytes": 28512,
+      "sha256": "cb36b10ad8d257ef4c2aedecf9fb95cc18a832e266a05bce9a0eec6a8a2eb621"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-input-freeze.json",
+      "bytes": 2317,
+      "sha256": "d5613bd6af91a9e1bb273945e5e9d6a255d8c56a0578a2d183bdc6358446d00d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-least-reduction-main-axis.csv",
+      "bytes": 10017,
+      "sha256": "05d580619df89b8bac50b8db20b21930842e025485cd3647137ef2f677a6db58"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-report.md",
+      "bytes": 1895,
+      "sha256": "36b17766cef9b37892aa9449f4d720e21e85e753ed046974ecf271ab4649b4fa"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-result.json",
+      "bytes": 25212,
+      "sha256": "2eacdef61f980a39f42cdfc937db51f89c3b6e5c3e3cf7d1c8f4955002d6585c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002_compare_peaks.py",
+      "bytes": 8013,
+      "sha256": "af885c7b252211d05b69eb32339197bf79e0cbb852f407e5c4a385c793571c29"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R003-delivery-manifest.json",
+      "bytes": 2004,
+      "sha256": "44648ff6ac09fcef71090615cbc2cb1abe0925d368bccbdfc5f9c99cf3f4b18a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R003-input-freeze.json",
+      "bytes": 1056,
+      "sha256": "246e38ae5e3ee0dbd94ac67f1796f5e5996e9b79c9686648ac10624648d34c59"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R003-report.md",
+      "bytes": 2027,
+      "sha256": "1a76efd504762af4b8c9a73cd0df09e723192fd6cfa3371d077db4a20d5628b6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R003-result.json",
+      "bytes": 10688,
+      "sha256": "01564f929772eeac08910a76bd709db90f18a569d2a82572dd331fdfab94a92f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R003-three-model-peaks-72.csv",
+      "bytes": 20217,
+      "sha256": "379c367cb77272d35ac405352cfaa9bb7a471b4f313b517bf784c24f6194d546"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R003-top3-participating-modes-18.csv",
+      "bytes": 3896,
+      "sha256": "e7ca0f459d28c9a671c108ccded93b2c3363178df0c3a00783e34598f00e3861"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R003_three_models.py",
+      "bytes": 6968,
+      "sha256": "53c177c8ab0036a448fa36fee57b03abe9a02c37a8f1213ee8ce4ad7ed0ba354"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "bytes": 193090,
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Forces.npz",
+      "bytes": 10443167,
+      "sha256": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\manifest.json",
+      "bytes": 443242,
+      "sha256": "1e78f5a15bff3ebe88d59375f84de36733037fdee5baefdf5b81a95e83e58f58"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\response_cache_manifest.json",
+      "bytes": 510034,
+      "sha256": "4836a1d9d35be32fb6b2f4898c08dab8f897426946b575a1ca5f6fb971e7e697"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Forces.npz",
+      "bytes": 24737339,
+      "sha256": "fb11e299f62682d0bf3a68644cdae474ca8a6ce96863838e02117431f72caf8d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\Story_Forces.npz",
+      "bytes": 24746646,
+      "sha256": "f80493976395634c1e03b3591ae64bce329c5b9af72729e3d2d18c719ac792e0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native_paired_validation.json",
+      "bytes": 34012,
+      "sha256": "bae55ee8ef608c48ff6c21bd62079b0d9cbf1fda1464f740dbd55906ec45e904"
+    }
+  ],
+  "whole_workbook_reads": 0,
+  "whole_time_history_reextractions": 0,
+  "new_ODE_frequency_or_modal_runs": 0
+}

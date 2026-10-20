@@ -1,0 +1,31 @@
+{
+  "kind": "pre-framework mathematical interfaces, not actual role1 framework verdict",
+  "interfaces": {
+    "single_mode_shear": "signed output coefficient times same-reference modal coordinate, residual if incomplete",
+    "phase_peak": "sum signed histories before max; component peak and diagonal mean-square data do not determine total peak",
+    "nonlinear_reference_basis": "complete common coordinates may be exact while modal dynamics remain coupled; cross-model identity/output matching required"
+  },
+  "exact_algebraic_counterexample": {
+    "window_theta": "[0,2pi]",
+    "same_phase": [
+      "sin(theta)",
+      "sin(theta)"
+    ],
+    "opposite_phase": [
+      "sin(theta)",
+      "-sin(theta)"
+    ],
+    "each_component_peak": 1,
+    "each_component_square_integral": "pi",
+    "sum_peak_same_phase": 2,
+    "sum_peak_opposite_phase": 0,
+    "not_a_new_ground_motion_or_physical_three_model_result": true
+  },
+  "legacy_reuse_limits": [
+    "two-floor ADV_PLUS is an already-reviewed finite numeric screening failure",
+    "three-floor95.21percent mass and43.32percent shear reconstruction discrepancy are old saved-grid posterior results",
+    "neither is a new exact actual-model modal decomposition"
+  ],
+  "next_question": "Role1 should fix physical shear output, shared basis and available modal-coordinate source, and separate signed total-peak contributions from whole-window square integrals.",
+  "new_ODE_or_large_experiment": false
+}

@@ -1,0 +1,17 @@
+{
+  "source_sha256": "46a2b8ea7e79acd73c0fc3a8345645f0f76199f882d1d8baf6918d4d80d47cf6",
+  "report_sha256": "f9c1ea4b5b8a678cf1f2040e90c57fbef3a9fd52e6c7fe8047661ea0d35f5a2a",
+  "rows": 9,
+  "models": 3,
+  "modes_per_model": 3,
+  "max_period_relative_difference_vs_label0": 7.394085344003543e-14,
+  "max_participating_ratio_absolute_difference_vs_label0": 5.930811397547586e-13,
+  "physical_mode1_factor_ratios_to_baseline": {
+    "native_participation_factor_UX": -0.9999999999995046,
+    "native_participation_factor_UY": -1.0000000000000466,
+    "native_participation_factor_RZ": -0.9999999999996226
+  },
+  "interpretation": "Consistent with arbitrary global eigenvector sign; summaries do not certify complete mode-shape identity",
+  "modal_coordinate_or_node_vector_time_history_available": false,
+  "not_story_shear_contribution_ratios": true
+}

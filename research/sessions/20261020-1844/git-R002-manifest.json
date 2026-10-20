@@ -1,0 +1,544 @@
+{
+  "prepared_at": "2026-10-20T19:48:07.877226+08:00",
+  "label": "R002",
+  "remote_before": "c53e6cc416be05e1f26181f22771f45a3e2bf79f",
+  "head_before": "c53e6cc416be05e1f26181f22771f45a3e2bf79f",
+  "files": [
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R001-input-freeze.json",
+      "bytes": 1579,
+      "sha256": "10805fe1319b3499961fc5508c1067fbc0c31ea3238b73c967209a2c18e40e21"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R001-manifest.json",
+      "bytes": 847,
+      "sha256": "6499ca76cdfdfc6e106f5c2e518814f07622271350105a3c48b6c1c3049b3140"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R001-review-questions.json",
+      "bytes": 1465,
+      "sha256": "05df12967294677ed11c119dc76909b852ba09a571fcd65bcc9f59cc83ce2d32"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R001-theory-framework.md",
+      "bytes": 4242,
+      "sha256": "81ff30d9f353cdd5c3db7258d1bdf5697535637d28ea9e9c8196fe7bcc19c024"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R001-validation.json",
+      "bytes": 1963,
+      "sha256": "e22414f18c199f1fc7a2ef8292551bf61f33e42433c9f8b65df71092249a91e0"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R002-direction-bridge.md",
+      "bytes": 3033,
+      "sha256": "1f3980a79a90f2194a062b72858c3bfa625896b5845f530d50bcfd5a267e4473"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R002-manifest.json",
+      "bytes": 599,
+      "sha256": "3aaebee174f67764f3fe48585014513d55976ecbad8e60ac0971d9f5fa9d177e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R002-modal-summary-checks.json",
+      "bytes": 851,
+      "sha256": "336c196d50caaa8fc2e752ee5a531d21e74142f2e61165a6a6a81bfc8d79a27b"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R002-validation.json",
+      "bytes": 1128,
+      "sha256": "c03c6b3d0a06008c1cb411249d21ad971e390ab9e1d0956c69fb8091719e3d11"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-final-manifest.json",
+      "bytes": 2219,
+      "sha256": "bb3ea6c74c3d2c85860f13fa3cb6830ec5d5715b6554a33de05ab2101f14277d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-first-delivery.json",
+      "bytes": 424,
+      "sha256": "c6601624406fbdc27be1da8de256d0c16ce4df3292be0f219dcb4e64ed3f4b24"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-input-freeze.json",
+      "bytes": 683,
+      "sha256": "46f9396ad3d2838d589fe71a750fa4ce1c142067ab714d61f9f636ebcd24060d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-manifest.json",
+      "bytes": 1696,
+      "sha256": "6404ab7ecdf40f31e4f72e075093841233e2b48e9dd81fcae44ef900bb1ea6d0"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-mechanism-table.csv",
+      "bytes": 2769,
+      "sha256": "ee720a9381b899dd0032b62cecbce7d2e56acf5584e2ee935cfb1f24a28f71d3"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-none-anchors.csv",
+      "bytes": 1515,
+      "sha256": "b901100d117468da2d6815c54ad6bb5982c86f9e816dbc2ccc6e163101cf5228"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-none-summary.json",
+      "bytes": 2731,
+      "sha256": "5c65cf6ffe67ab5c6e6c2935d3fb8b52f63ef242f7d29a2cbce8222254c073cf"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-project-saved.py",
+      "bytes": 4097,
+      "sha256": "907d8a61f613967d509d8227021cb7c31fe3d85f480eb4b766db1ca4dec2bf54"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-report-clarification.json",
+      "bytes": 540,
+      "sha256": "5e7fe1c4341ebf6c2ab859bcaafeaa1054fb27200f7edf841e815d1189e36b3c"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-report-v002.md",
+      "bytes": 4609,
+      "sha256": "5585fcbd8524c6150effe4699b8a5241181e27e4822b3b127db696fe57b9a96f"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-report.md",
+      "bytes": 4565,
+      "sha256": "409637f96ca47b27c2c6e800d714f78467154dd6021e6443ca2144fb54eae24b"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-story1-anchors.csv",
+      "bytes": 1568,
+      "sha256": "033a459a4dea21e3ddcf8fff2a9473f46dc8952a1398860e1f0c43f224827c51"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-story1-summary.json",
+      "bytes": 2739,
+      "sha256": "054d24eacea983efe6d1b4dc01ad5584167ce56f9890498666dc52610f2f9c27"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role1/R003-validation.json",
+      "bytes": 1576,
+      "sha256": "a796f89a111616b5aa3abc2bad3d12234838634fa1ced1ea8958953df32181c7"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R001-checks.json",
+      "bytes": 1464,
+      "sha256": "57985d82c2ad6f39e9ed7d4dcf0139d28555fb34fe76a433bfef975428acdef1"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R001-input-freeze.json",
+      "bytes": 2074,
+      "sha256": "3f63fba0fe6bae168a232ff7dcafa4dbaf84f0c6cdfe15b87be0a0c6c4be6aee"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R001-manifest.json",
+      "bytes": 886,
+      "sha256": "2bd55ebffbdc24f79c406ae928bdcc8a9124c6b4a19f881e9954dac6e2044c44"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R001-method-guards.md",
+      "bytes": 3264,
+      "sha256": "e7edd1320c64360929369f0a0c1f73145964973e76ef63b01b63b77d99c2168b"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R001-validation.json",
+      "bytes": 1306,
+      "sha256": "3e20c3c710c60646bd619d85dbb273a53a1f333cf6f36022696036e2b939b359"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R002-manifest.json",
+      "bytes": 480,
+      "sha256": "1cfa9c1de90f841ac6e454e83ae6d525b6d49fb9277412d48dc25c58bb442c08"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R002-theory-review.md",
+      "bytes": 3666,
+      "sha256": "c41661d6ed9d9b98f0ea538238f2faf9f367a6ff581f0921d7d47dbcfe290c85"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R002-validation.json",
+      "bytes": 2618,
+      "sha256": "24a86c371308508d875f97c8698efe2c6d138424c139435b85c7c5b86e1d003a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R003-audit-native-peaks.py",
+      "bytes": 12510,
+      "sha256": "a1457f348b1fd4817a7882674bbfef3abc2c82d513e2d09e5de31e0d373c0f75"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R003-checks.json",
+      "bytes": 13801,
+      "sha256": "d383eeefda1582bf9bcdaeaa961afe7c8986c252cd47d635a9e8c750cedbb2cf"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R003-manifest.json",
+      "bytes": 1248,
+      "sha256": "66ef5601cee214b90bd3428ccd18a7172d361ad211568e0a8042cda3d5210397"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R003-native-peak-review.md",
+      "bytes": 3066,
+      "sha256": "a3cae49374adbfac4d979275124bb526d1c9a5244e99fb614ffcb4337cf36dfb"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R003-validation.json",
+      "bytes": 482,
+      "sha256": "7e8889af01e671843631ff0b996ec4eebd2db77889f2e57e2e1c03e03293a054"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R001-close.py",
+      "bytes": 4131,
+      "sha256": "d114e268380bf810f2cd8a6935cb9f93e84a3b5e8138d23725f2423fbe6888bc"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R001-freeze.json",
+      "bytes": 1073,
+      "sha256": "b7977e282b2d70b797236c4fa4a0fa37f4bcafa0d51ee2d10c8380357404bc26"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R001-manifest.json",
+      "bytes": 5915,
+      "sha256": "948b768aff52a664da49c69296cdb60e321ae2904edb49a4aa310ff4ea338282"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R001-report.md",
+      "bytes": 5741,
+      "sha256": "3db9c1114f982cfc7ea42763cbc1743dbcf9a3ac0828c4489960e8abf191529a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R001-validation.json",
+      "bytes": 664,
+      "sha256": "7f3b3ff9a62e6f7f4d4e42dc55b01be0920e4566c4307913c1757935cfeb777a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R002-close.py",
+      "bytes": 3114,
+      "sha256": "0f68be5f55250c717d32bd337bf9643311c499ba22f971c3db8ed21a5e9cd338"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R002-freeze.json",
+      "bytes": 747,
+      "sha256": "6f8eabd524506fb9ed1d0a462662b069e785ee27930c5fcab4fe0db330cf58d4"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R002-manifest.json",
+      "bytes": 2921,
+      "sha256": "7e8a2c1a45e01d6164d6701846b627d53f5efc0ae27dde65272b306191ac6224"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R002-report.md",
+      "bytes": 4432,
+      "sha256": "8b6b53579aab4b0de539d1931586f6e79e3ee604a1313d38b0085ef517587f60"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R002-validation.json",
+      "bytes": 573,
+      "sha256": "125a868af8ba4675cc4accebbd83f6dabaff1cbcaa7030dfd245673be0d5bc13"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001-delivery-manifest.json",
+      "bytes": 4720,
+      "sha256": "a175e270ade2148ea3288523f3f732e6d05668f90c9752a528fa574f0ce04f2d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001-first-three-modal-summary.csv",
+      "bytes": 2674,
+      "sha256": "46a2b8ea7e79acd73c0fc3a8345645f0f76199f882d1d8baf6918d4d80d47cf6"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001-input-freeze.json",
+      "bytes": 1647,
+      "sha256": "bd78c2d25f31f0a935dd0fe3e67a5e91ec6c251f082b6268ea9135ffe692a73e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001-main-axis-controls-6.csv",
+      "bytes": 755,
+      "sha256": "88e809c2fc5f9a333780d895aa9ec3a1c2210451cf2f2189b2fadb28cba1f138"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001-model-availability.json",
+      "bytes": 7428,
+      "sha256": "80f56c23c8805f91ced6aab770d6a8530015ea72f6a2028ca605d0efaeaed70b"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001-peak-results.json",
+      "bytes": 38077,
+      "sha256": "2783b3bbb5a95ef6375c04b5aa6115e011317731813ae4e9f89a2e217f9fdc2a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001-report.md",
+      "bytes": 3767,
+      "sha256": "f9c1ea4b5b8a678cf1f2040e90c57fbef3a9fd52e6c7fe8047661ea0d35f5a2a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001-response-cache-table-index.csv",
+      "bytes": 7687,
+      "sha256": "b32000d9c4262303d61b30476a225a43e00657e533a336a773383f52a52085c5"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001-story-drifts-144.csv",
+      "bytes": 37592,
+      "sha256": "0f77bf73043a044a5a9f79001099f622cf57e4beb5005f1fd3f468679704755a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001-story-forces-72.csv",
+      "bytes": 17195,
+      "sha256": "97577d911d5cccd86870c250865ff460ec3a6418039da919e49bbe3599d01d22"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001-three-model-availability.csv",
+      "bytes": 1601,
+      "sha256": "3107828ce3f19b153d08000e4fc03c5fc3e6198ce0b1b93496bf8838a977b734"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001_freeze.py",
+      "bytes": 1482,
+      "sha256": "895fdf8a38f469dffa1e06a92bdfbb657fc1e5621a3fd7a9aeb3cc4cfbc45da3"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001_inventory.py",
+      "bytes": 5347,
+      "sha256": "9b49ee5fa28a4ab032dbf3b9016683b4e189137f2aba74bf476a277343ddcd5e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R001_peaks.py",
+      "bytes": 4369,
+      "sha256": "25d2fcf78a88117bb1e2edc4eab8c78ff2f23789b13b33bcffed0c79ac8ba17e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R002-all14-main-axis-168.csv",
+      "bytes": 66167,
+      "sha256": "ff25735eb20b9592323fbaf0640e3e85f86b4610af8a2ebd5be37e870494b081"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R002-all14-two-axis-336.csv",
+      "bytes": 133874,
+      "sha256": "a6468be38e90b2237dfef1cac4a0f1375fc24993b01f2855bd1c99ceb8b952af"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R002-by-case-14.csv",
+      "bytes": 1480,
+      "sha256": "023643d0aac6d88c3195adda16a933a138b8e0253df0dc3935e032897c091285"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R002-common-six-main-axis-72.csv",
+      "bytes": 28512,
+      "sha256": "cb36b10ad8d257ef4c2aedecf9fb95cc18a832e266a05bce9a0eec6a8a2eb621"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R002-delivery-manifest.json",
+      "bytes": 2997,
+      "sha256": "cbdcf312074e7134b78d8deb747b3444a831a577f4b71da0479a5fcafd4b0f7e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R002-input-freeze.json",
+      "bytes": 2317,
+      "sha256": "d5613bd6af91a9e1bb273945e5e9d6a255d8c56a0578a2d183bdc6358446d00d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R002-least-reduction-main-axis.csv",
+      "bytes": 10017,
+      "sha256": "05d580619df89b8bac50b8db20b21930842e025485cd3647137ef2f677a6db58"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R002-report.md",
+      "bytes": 1895,
+      "sha256": "36b17766cef9b37892aa9449f4d720e21e85e753ed046974ecf271ab4649b4fa"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R002-result.json",
+      "bytes": 25212,
+      "sha256": "2eacdef61f980a39f42cdfc937db51f89c3b6e5c3e3cf7d1c8f4955002d6585c"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R002_compare_peaks.py",
+      "bytes": 8013,
+      "sha256": "af885c7b252211d05b69eb32339197bf79e0cbb852f407e5c4a385c793571c29"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R003-delivery-manifest.json",
+      "bytes": 2004,
+      "sha256": "44648ff6ac09fcef71090615cbc2cb1abe0925d368bccbdfc5f9c99cf3f4b18a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R003-input-freeze.json",
+      "bytes": 1056,
+      "sha256": "246e38ae5e3ee0dbd94ac67f1796f5e5996e9b79c9686648ac10624648d34c59"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R003-report.md",
+      "bytes": 2027,
+      "sha256": "1a76efd504762af4b8c9a73cd0df09e723192fd6cfa3371d077db4a20d5628b6"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R003-result.json",
+      "bytes": 10688,
+      "sha256": "01564f929772eeac08910a76bd709db90f18a569d2a82572dd331fdfab94a92f"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R003-three-model-peaks-72.csv",
+      "bytes": 20217,
+      "sha256": "379c367cb77272d35ac405352cfaa9bb7a471b4f313b517bf784c24f6194d546"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R003-top3-participating-modes-18.csv",
+      "bytes": 3896,
+      "sha256": "e7ca0f459d28c9a671c108ccded93b2c3363178df0c3a00783e34598f00e3861"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role4/R003_three_models.py",
+      "bytes": 6968,
+      "sha256": "53c177c8ab0036a448fa36fee57b03abe9a02c37a8f1213ee8ce4ad7ed0ba354"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R001-freeze.json",
+      "bytes": 1313,
+      "sha256": "e9762c809b78c61ec3079ee591313e61f5f2a83448ca80e8379d9b7fc3ee5fef"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R001-freeze.py",
+      "bytes": 2828,
+      "sha256": "b9999aa94259f3b84f9fc585014f9d3218fc1c4943ce8eebccc79ca455f04318"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R001-handoff.md",
+      "bytes": 1422,
+      "sha256": "42294301e531cb98908be7fb2530df2ec968ef3de45a01287dc4004ea1aeb908"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R001-validation.json",
+      "bytes": 1577,
+      "sha256": "da10592620114c76d40c1231ba6f1d8a13253a6c73aaa397377506398eb6e4b3"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R002-freeze.json",
+      "bytes": 992,
+      "sha256": "ebfd2e45e953d99a9227c69bbca99aea7567549a29eb3298756ea0301092239d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R002-handoff.md",
+      "bytes": 944,
+      "sha256": "43695a38ee56671dd8ca6b97d6f26c913c571401843b04ef424028ac49771d52"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R002-validation.json",
+      "bytes": 2188,
+      "sha256": "854cba6c9b1836bc9ac5c3bc7ec9e1740a00392a5907c6b142fd914cfdea81c0"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R003-freeze.json",
+      "bytes": 993,
+      "sha256": "7f1b15a14ed7cd830028a185664d38d49dc3317e8f0a1b1b57922d9cfc6c70a0"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R003-handoff.md",
+      "bytes": 897,
+      "sha256": "9e3558ea2236cf3a2d739310dfe182e35057fd4f933c834e426bdb3990d3ec1f"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R003-validation.json",
+      "bytes": 9258,
+      "sha256": "121e1fd111a2379c552574f7a64bfbb0bbb4b04268dac483607ff3710dab1a31"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R001-freeze.json",
+      "bytes": 4044,
+      "sha256": "1475817b66e14f0a752a72d522eb456706a43b52a40a5cca5e8346408c5e7b08"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R001-topic-recommendation.md",
+      "bytes": 3880,
+      "sha256": "772ed904d56e527c8de19da4c2a8fc673a6918645cd9b75e944a146b028ef8b0"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R002-freeze.json",
+      "bytes": 2866,
+      "sha256": "bc8115e1748bd148ec56ab54ccfe557fea7b715fd69d9dd522919dbe10161e59"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R002-scope.md",
+      "bytes": 3353,
+      "sha256": "762cdfa91cf57e2e3b725fbefabda8af4f7f17438b6538c2fa67625be6d5cdfb"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R003-editorial-ruling.md",
+      "bytes": 3745,
+      "sha256": "603a3fe45b1a14bc3952c5f41bb7b533a1ca9ab2f8122bbfb6ccb504318eda70"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R003-freeze.json",
+      "bytes": 3007,
+      "sha256": "c24c9544e07619184fbe86bde0f6fc2ed7c34cdc70c9956fbab591469e007c6e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R001-root-check.json",
+      "bytes": 2095,
+      "sha256": "cf4b1dc737f5c41b887d4d60be84db3390a4e6d3e6e19370d6a59ac1ec60c285"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R002-thread-snapshot.json",
+      "bytes": 2252,
+      "sha256": "3c8972910ead11c32534d46f19caf008e9a0b9d36d57aa4c08ea1ba9b3ca55b9"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R002-root-check.py",
+      "bytes": 3829,
+      "sha256": "b6d5f57511df19107b894476bcb6a14dce77ea83f20e5cf1719cab543f662211"
+    },
+    {
+      "path": "research/sessions/20261020-1844/rounds/R002.md",
+      "bytes": 2166,
+      "sha256": "9992c60a4555af1dbb5f65dc8fa29d1ff099c5030015248c5ff3817d29ea9802"
+    },
+    {
+      "path": "research/sessions/20261020-1844/topic-card-R002.md",
+      "bytes": 1160,
+      "sha256": "5c0c013258b3907e54accdabce65c70da25635c3f2608e5db60b3d872a7b0ec2"
+    },
+    {
+      "path": "research/sessions/20261020-1844/status.json",
+      "bytes": 4334,
+      "sha256": "d059c72b3c822a917efd6e8a584e7d3ef8043743331ce6e9b86d69f6755472e8"
+    },
+    {
+      "path": "research/sessions/20261020-1844/threads.json",
+      "bytes": 2317,
+      "sha256": "36c6ade420c960296df91d2058307a05a9c961435686b24116affa0e6e038b9f"
+    },
+    {
+      "path": "research/sessions/20261020-1844/claims.md",
+      "bytes": 1576,
+      "sha256": "9ca48e2727e57e98fc64be2b0df72b92ff13188358918106867aba0c8fe6a648"
+    },
+    {
+      "path": "research/sessions/20261020-1844/runs.md",
+      "bytes": 485,
+      "sha256": "eab56572d301c31cd5ed9d3218aeb747a8ab1ff0ae057e26d14051d2e477fb18"
+    },
+    {
+      "path": "research/sessions/20261020-1844/git-R001-receipt.json",
+      "bytes": 332,
+      "sha256": "1153c9cbe4be0d4ffc2c28873bd4b599c99e09ef9816d4992733128cd1116768"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v001.md",
+      "bytes": 5843,
+      "sha256": "a337e604080fd8899f44f00a3b2fa6109a0837473e4bb589a6919a15222756e3"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v002.md",
+      "bytes": 8125,
+      "sha256": "cbfa72b6edfc10e9ae90638198bf3efc50fb2cae98335170b581fda008cfa6d5"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v003.md",
+      "bytes": 12079,
+      "sha256": "e5ce34fe50d88e64523a5ffdb8ce4ed2a7fe0d2efe5b1f6a4dc3e35d726ef490"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R002-root-check.json",
+      "bytes": 396,
+      "sha256": "b4db769f97d3c173228f679aeeb0652485403cd4e487977474110c7a2a992957"
+    }
+  ],
+  "scope": "Only explicit completed checkpoint paths; raw data, third-party full papers, caches and old changes excluded"
+}

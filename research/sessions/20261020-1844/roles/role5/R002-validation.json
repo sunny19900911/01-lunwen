@@ -1,0 +1,47 @@
+{
+  "actual_start": "2026-10-20T19:30:57+08:00",
+  "actual_end": "2026-10-20T19:33:33.862588+08:00",
+  "within_8_minutes": true,
+  "source_manifest_selected_files_verified": [
+    "R001-first-three-modal-summary.csv",
+    "R001-main-axis-controls-6.csv",
+    "R001-report.md",
+    "R001-three-model-availability.csv"
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R001-report.md",
+      "sha256": "f9c1ea4b5b8a678cf1f2040e90c57fbef3a9fd52e6c7fe8047661ea0d35f5a2a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R001-first-three-modal-summary.csv",
+      "sha256": "46a2b8ea7e79acd73c0fc3a8345645f0f76199f882d1d8baf6918d4d80d47cf6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R001-three-model-availability.csv",
+      "sha256": "3107828ce3f19b153d08000e4fc03c5fc3e6198ce0b1b93496bf8838a977b734"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R001-main-axis-controls-6.csv",
+      "sha256": "88e809c2fc5f9a333780d895aa9ec3a1c2210451cf2f2189b2fadb28cba1f138"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R001-delivery-manifest.json",
+      "sha256": "a175e270ade2148ea3288523f3f732e6d05668f90c9752a528fa574f0ce04f2d"
+    }
+  ],
+  "checks": {
+    "v001_unchanged": true,
+    "modal_rows9": true,
+    "control_rows6": true,
+    "all_shear_controls_Story1": true,
+    "drift_controls": true,
+    "no_control_characters": true,
+    "formula_preserved": true,
+    "no_layout": true,
+    "mode1_all_three_displays": true,
+    "mode2_all_three_displays": true,
+    "mode3_all_three_displays": true
+  },
+  "scope": "native summary/table transplant only; no exact modal shear decomposition"
+}

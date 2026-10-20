@@ -1,0 +1,41 @@
+{
+  "actual_start": "2026-10-20T19:37:33+08:00",
+  "actual_finish": "2026-10-20T19:43:31.591879+08:00",
+  "elapsed_seconds": 358.591879,
+  "within_10_minutes": true,
+  "source_case": "H2_envelope",
+  "positions": [
+    0,
+    1
+  ],
+  "saved_nodes_each": 40001,
+  "new_ODE_runs": 0,
+  "used_two_mode_recoupled_results": false,
+  "minimum_none_table_delivered_first": true,
+  "source_state_identities": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\H021-three-floor-prospective\\local-only\\H2_envelope__position0__h0.005.npz",
+      "bytes": 2737624,
+      "sha256": "f1fa4497734be4b612528f9a45e45c8daa880f902403c085396e38b08031c325"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\H021-three-floor-prospective\\local-only\\H2_envelope__position1__h0.005.npz",
+      "bytes": 3336293,
+      "sha256": "3155eac9781d1d3e36955a5784ee1e220dd48ac88ed14f65b19f71056cf7a1d7"
+    }
+  ],
+  "H023_frozen_peak_table_sha256": "e93945f2e6922a5ba587a93a4bbc35c5f2dc8c5ac14c9a7f966b3f400be3d50f",
+  "four_peak_groups_match_H023_max_abs_difference": 0.0,
+  "full_basis_max_error": 1.1102230246251565e-16,
+  "new_raw_Excel_or_635MB_reads": 0,
+  "Git_automation_agents_chats": 0,
+  "qa": [
+    "8 anchor rows",
+    "all3 modes signed",
+    "own full/two-mode peak times",
+    "UTF8/LF",
+    "JSON parse",
+    "local links",
+    "SHA256"
+  ]
+}
