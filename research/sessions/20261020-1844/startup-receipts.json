@@ -1,0 +1,123 @@
+{
+  "session": "20261020-1844",
+  "dispatch": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "role": "role1",
+        "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"threadId\":\"01a14756-7b7b-72a0-b079-e6c7874fc120\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "role": "role2",
+        "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"threadId\":\"01a14756-7fe0-75f3-8671-bcd59e413052\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "role": "role3",
+        "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"threadId\":\"01a14756-8408-7732-8d29-3380fcaeb7bb\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "role": "role4",
+        "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"threadId\":\"01a14756-8805-7a42-b910-ae973f55d73e\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "role": "role5",
+        "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"threadId\":\"01a14756-8bd0-7dc2-8362-fc1eab28af64\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "role": "role6",
+        "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"threadId\":\"01a14a00-809e-7612-a7a4-889ab1e55f0d\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    }
+  ],
+  "automation": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Updated automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"automation-5\",\"mode\":\"update\",\"status\":\"ACTIVE\"}"
+      }
+    ],
+    "isError": false
+  },
+  "snapshot": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"timedOut\":true,\"wake\":null,\"polls\":[{\"schemaVersion\":1,\"cursor\":\"9acc5ebb-5bb8-4263-9b65-6b79387ae28d:5\",\"revision\":5,\"changed\":true,\"thread\":{\"id\":\"01a14756-7b7b-72a0-b079-e6c7874fc120\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a158e9-962a-7871-823f-15a78f60f531\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1792493065,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":null,\"latestAssistantMessage\":null,\"latestToolMarkerId\":null,\"latestToolMarker\":null},{\"schemaVersion\":1,\"cursor\":\"0263925a-d2e4-473d-b943-f0e994e8a6ae:6\",\"revision\":6,\"changed\":true,\"thread\":{\"id\":\"01a14756-7fe0-75f3-8671-bcd59e413052\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a158e9-9e21-73e0-baa1-03ed67d726d8\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1792493067,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":null,\"latestAssistantMessage\":null,\"latestToolMarkerId\":null,\"latestToolMarker\":null},{\"schemaVersion\":1,\"cursor\":\"dbfd450c-8059-468a-9f62-b23d5184c08d:4\",\"revision\":4,\"changed\":true,\"thread\":{\"id\":\"01a14756-8408-7732-8d29-3380fcaeb7bb\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a158e9-9bad-7473-940d-63daed76adf8\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1792493067,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":null,\"latestAssistantMessage\":null,\"latestToolMarkerId\":null,\"latestToolMarker\":null},{\"schemaVersion\":1,\"cursor\":\"9161e6ab-c967-45df-bdbf-f6318a8755df:4\",\"revision\":4,\"changed\":true,\"thread\":{\"id\":\"01a14756-8805-7a42-b910-ae973f55d73e\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a158e9-98fd-7fd1-8853-40fe8c39f8d3\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1792493066,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":null,\"latestAssistantMessage\":null,\"latestToolMarkerId\":null,\"latestToolMarker\":null},{\"schemaVersion\":1,\"cursor\":\"b15d080b-96ec-4374-a74b-8a358841245d:5\",\"revision\":5,\"changed\":true,\"thread\":{\"id\":\"01a14756-8bd0-7dc2-8362-fc1eab28af64\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a158e9-a37b-72b0-ace3-b49f0ae13fe6\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1792493069,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":null,\"latestAssistantMessage\":null,\"latestToolMarkerId\":null,\"latestToolMarker\":null},{\"schemaVersion\":1,\"cursor\":\"6b32e766-a0c4-4deb-9d91-cc75e8f32770:4\",\"revision\":4,\"changed\":true,\"thread\":{\"id\":\"01a14a00-809e-7612-a7a4-889ab1e55f0d\",\"hostId\":\"local\",\"status\":{\"type\":\"active\",\"activeFlags\":[]}},\"latestTurn\":{\"id\":\"01a158e9-a09d-7d23-81e7-737a027851c3\",\"status\":\"inProgress\",\"error\":null,\"startedAt\":1792493068,\"completedAt\":null,\"durationMs\":null},\"latestAssistantMessageId\":null,\"latestAssistantMessage\":null,\"latestToolMarkerId\":null,\"latestToolMarker\":null}]}"
+      }
+    ],
+    "isError": false
+  }
+}

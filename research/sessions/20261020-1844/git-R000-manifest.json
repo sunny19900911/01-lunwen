@@ -1,0 +1,54 @@
+{
+  "prepared_at": "2026-10-20T19:27:21.537214+08:00",
+  "label": "R000",
+  "remote_before": "5ad929cc05b449cfe7c830ce66b20d4b3d3c5907",
+  "head_before": "5ad929cc05b449cfe7c830ce66b20d4b3d3c5907",
+  "files": [
+    {
+      "path": "research/sessions/20261020-1844/plan.md",
+      "bytes": 4303,
+      "sha256": "b4a6963bf2e0e3138f1c9ac3fcc415913775b1f60c46910cadf3f1f324a24b36"
+    },
+    {
+      "path": "research/sessions/20261020-1844/status.json",
+      "bytes": 3826,
+      "sha256": "9025d1d6469213678381bbc529537806412b506088d10bb768344edd9f1ea14e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/threads.json",
+      "bytes": 2367,
+      "sha256": "b01aaa640b3c4e9e1510789a908d29380796f1087be24155e993b21c30b9d700"
+    },
+    {
+      "path": "research/sessions/20261020-1844/claims.md",
+      "bytes": 527,
+      "sha256": "26b63a02c87964b010cabfd6cd3bc6dd6b0600bdbc8db1607050191842b4e483"
+    },
+    {
+      "path": "research/sessions/20261020-1844/runs.md",
+      "bytes": 213,
+      "sha256": "a4fe04713208faf28d1054151dddcb8820fd2a23051d29b55b5fe391a2d52f84"
+    },
+    {
+      "path": "research/sessions/20261020-1844/.gitignore",
+      "bytes": 53,
+      "sha256": "022344c067e126e6bc13ef0d70c71683d63ffade47d072a60d485f492521e81a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/startup-receipts.json",
+      "bytes": 6019,
+      "sha256": "dc22cf30da401ef435713c2b39f0eff0807e86bb92467442958cab61d8aa0621"
+    },
+    {
+      "path": "research/sessions/20261020-1844/rounds/R000-start.md",
+      "bytes": 813,
+      "sha256": "910480a3c6efffc86f2bb14d27f07ed9b6c0d6644c8d70e27fa7e1f9eb7b5a12"
+    },
+    {
+      "path": "research/sessions/20261020-1844/checkpoint_git.py",
+      "bytes": 4065,
+      "sha256": "24c3d9d325d2df2a4d596b4746b352ce0ccf207e7cd68e0e211b4a1838556461"
+    }
+  ],
+  "scope": "Only explicit completed checkpoint paths; raw data, third-party full papers, caches and old changes excluded"
+}
