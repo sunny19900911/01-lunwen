@@ -1,0 +1,48 @@
+{
+  "review": "whole-v008 engineering-language only, no new science audit",
+  "must_count": 2,
+  "optional_count": 4,
+  "must": [
+    {
+      "id": "M1",
+      "line": 9,
+      "issue": "peak versus model comparison object",
+      "action": "Compare synthetic shear peak with device-scheme shear peak."
+    },
+    {
+      "id": "M2",
+      "line": 91,
+      "issue": "ratio numerator unspecified",
+      "action": "Name device-force-sum absolute value at QT peak."
+    }
+  ],
+  "optional": [
+    {
+      "id": "O1",
+      "line": 70,
+      "action": "Figure1 baseline/denominator"
+    },
+    {
+      "id": "O2",
+      "line": 103,
+      "action": "Figure2 raw time-history wording; retain scope"
+    },
+    {
+      "id": "O3",
+      "line": 179,
+      "action": "Figure3 name target shear and dimensionless local window"
+    },
+    {
+      "id": "O4",
+      "lines": [
+        181,
+        185,
+        190,
+        210
+      ],
+      "action": "Unify amplitude-scaled comparison wording"
+    }
+  ],
+  "direct_replacements_in_report": true,
+  "4point789_physical_paragraph_and_conclusions": "readable; retain scientific content"
+}

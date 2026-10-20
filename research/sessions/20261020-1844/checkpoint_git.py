@@ -15,7 +15,7 @@ for f in args.files:
  p=(R/f).resolve();rel=p.relative_to(R)
  assert p.is_relative_to(S) or (p.parent==R/'papers/damping-output-boundaries/manuscript' and p.name.startswith('modal-shear-session009-')),str(p)
  assert not any('local-cache' in v or v=='__pycache__' for v in rel.parts)
- assert p.suffix.lower() in {'.md','.json','.csv','.py','.cjs','.svg','.png','.docx'} or p.name=='.gitignore'
+ assert p.suffix.lower() in {'.md','.json','.csv','.py','.cjs','.ps1','.svg','.png','.docx'} or p.name=='.gitignore'
  assert p.is_file() and p.stat().st_size<2500000
  if p.suffix=='.py':ast.parse(p.read_text('utf-8-sig'))
  if p.suffix=='.cjs':

@@ -1,0 +1,174 @@
+{
+  "source_bindings": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role1\\R007-manifest.json",
+      "bytes": 906,
+      "sha256": "6a781e339d62cdbef6293c9a3dce7aed76cc552ac70c39ff640ee8bca902e65d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role1\\R007-author-definition.md",
+      "bytes": 2292,
+      "sha256": "f3c0ee3d3eff7500e8a0ae525c7269c190dbdcb5fcfdbf7abadd86917c5866d0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role1\\R007-input-freeze.json",
+      "bytes": 949,
+      "sha256": "3924ee564e3db474277128f06605847c6b029d479d4e2e9898cf59f2a03c2401"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role1\\R007-source-evidence.json",
+      "bytes": 3628,
+      "sha256": "92c112a050725d8e516f40bec59600fddc64549ccf3d18a2e6ac966e63a8ae3a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role1\\R007-source-notes.md",
+      "bytes": 2853,
+      "sha256": "ea3345784d692fd195663dd53ec0255e017928749313e673f96d685884e0ec78"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role1\\R007-validation.json",
+      "bytes": 1276,
+      "sha256": "784cc240ef62e31f91ca63b9a6ba76b54647b57baa7736d79838d19608b0f860"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role2\\R008-manifest.json",
+      "bytes": 1243,
+      "sha256": "895a4a6ca826f0ae3e31cc0de1b5335e6993200f14b1ab618117f32396b6d195"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role2\\R008-audit-shape-mass.py",
+      "bytes": 9084,
+      "sha256": "390cf770f5a1c4dcfa197dcd027b944c53990b28ed633f822059b4d33e5d5e0e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role2\\R008-shape-mass-review.md",
+      "bytes": 2834,
+      "sha256": "a3450b6d7b49a7a40cca7bd38f1cf1979859835deed5df5cb6b01cbdec37276d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role2\\R008-checks.json",
+      "bytes": 6849,
+      "sha256": "9fbca39090739bf00c455b94141875bb225e1c2d54589fb3ec0f87a13273bd27"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role2\\R008-validation.json",
+      "bytes": 424,
+      "sha256": "cd6bb109e05711922c6a3ed4b179b38becb2c2607afc0ca96000ff4bbb0f012e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\H021-delivery-manifest.json",
+      "bytes": 27761,
+      "sha256": "971ff81e6af86f179268bc3332e388d8676952d71aab7758cd34de2f45f263e7"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\three_floor_prospective.py",
+      "bytes": 19113,
+      "sha256": "4554d99b467b429631fe60d7a70af72107962d1cfd33bd1da088ed5e8a2172b8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\H021-three-floor-prospective\\pre-run-freeze.json",
+      "bytes": 6186,
+      "sha256": "506258b0aa9858f9424eae4ba7305e1ebcb18cb743f6fe54a0908705491c8572"
+    }
+  ],
+  "runner_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\engineering-five-hour-20261018-1213\\three_floor_prospective.py",
+  "role1_all_quoted_anchors_verified": {
+    "mass_stiffness_difference_matrix": {
+      "line_1based": 10,
+      "text": "MASS=np.array([1.,1.2,.8]);M=np.diag(MASS);STIFF=np.array([1.4,1.,.7]);D=np.array([[1.,0.,0.],[-1.,1.,0.],[0.,-1.,1.]])"
+    },
+    "damping_and_Maxwell_parameters": {
+      "line_1based": 11,
+      "text": "K=D.T@np.diag(STIFF)@D;C=.02*K;KAPPA=.5;CD=.02;ALPHA=.3;Q=1/ALPHA"
+    },
+    "port_vectors": {
+      "line_1based": 12,
+      "text": "BS={0:np.zeros(3),1:D[0].copy(),2:D[1].copy(),3:D[2].copy()}"
+    },
+    "bare_frequency_definition": {
+      "line_1based": 14,
+      "text": "FREQUENCIES=np.sqrt(np.linalg.eigvalsh(K/np.sqrt(MASS[:,None]*MASS[None,:])))"
+    },
+    "envelope": {
+      "line_1based": 27,
+      "text": "def envelope(t,b,e):return np.where((t>b)&(t<e),np.sin(np.pi*(t-b)/(e-b))**2,0.)"
+    },
+    "H2_full_input": {
+      "line_1based": 33,
+      "text": "    if case=='H2_envelope':return .1*(envelope(t,0,30)+.75*envelope(t,50,80))*(.75*np.sin(w2*t)+.25*np.sin(1.05*w3*t+math.pi/4))"
+    },
+    "inverse_dashpot": {
+      "line_1based": 35,
+      "text": "def g(force):return math.copysign((abs(force)/CD)**Q,force)"
+    },
+    "integrator_allocation_grid": {
+      "line_1based": 64,
+      "text": "    N=len(forcing);z=np.zeros((N+1,13),dtype='<f8');z[:,0]=np.arange(N+1)*h"
+    },
+    "zero_initial_states": {
+      "line_1based": 65,
+      "text": "    u1=u2=u3=v1=v2=v3=F=Win=Db=Dd=Eold=0.;root=mom=kin=const=bal=ident=0.;minimumDb=minimumDd=math.inf"
+    },
+    "negative_mass_input": {
+      "line_1based": 68,
+      "text": "        ag=float(forcing[n-1]);p1,p2,p3=-ag,-1.2*ag,-.8*ag"
+    },
+    "midpoint_device_solve": {
+      "line_1based": 71,
+      "text": "        if device:Fm,rr=solve(float(ar),F/KAPPA+a*(b1*af1+b2*af2+b3*af3),a)"
+    },
+    "node_state_updates": {
+      "line_1based": 74,
+      "text": "        un1,un2,un3=u1+h*vm1,u2+h*vm2,u3+h*vm3;vn1,vn2,vn3=2*vm1-v1,2*vm2-v2,2*vm3-v3;Fn=2*Fm-F if device else 0."
+    },
+    "constitutive_increment": {
+      "line_1based": 81,
+      "text": "        rf=(Fn-F)/KAPPA-h*(b1*vm1+b2*vm2+b3*vm3-g(Fm)) if device else 0."
+    },
+    "save_node_states": {
+      "line_1based": 92,
+      "text": "        z[n,1:]=(u1,u2,u3,v1,v2,v3,F,Win,Db,Dd,Eold,balance)"
+    },
+    "full_time_input_midpoint_grid": {
+      "line_1based": 186,
+      "text": "            a=acceleration(case,(np.arange(round(200/h))+.5)*h);assert float(np.max(abs(a)))<=.1*(1+1e-14)"
+    },
+    "save_state_npz": {
+      "line_1based": 174,
+      "text": "                np.savez_compressed(OUT/'local-only'/f'{case}__position{position}__h{h}.npz',trajectory=z)"
+    }
+  },
+  "independent_line_checks": {
+    "10": "MASS=np.array([1.,1.2,.8]);M=np.diag(MASS);STIFF=np.array([1.4,1.,.7]);D=np.array([[1.,0.,0.],[-1.,1.,0.],[0.,-1.,1.]])",
+    "11": "K=D.T@np.diag(STIFF)@D;C=.02*K;KAPPA=.5;CD=.02;ALPHA=.3;Q=1/ALPHA",
+    "12": "BS={0:np.zeros(3),1:D[0].copy(),2:D[1].copy(),3:D[2].copy()}",
+    "27": "def envelope(t,b,e):return np.where((t>b)&(t<e),np.sin(np.pi*(t-b)/(e-b))**2,0.)",
+    "29": "    w1,w2,w3=FREQUENCIES",
+    "33": "    if case=='H2_envelope':return .1*(envelope(t,0,30)+.75*envelope(t,50,80))*(.75*np.sin(w2*t)+.25*np.sin(1.05*w3*t+math.pi/4))",
+    "35": "def g(force):return math.copysign((abs(force)/CD)**Q,force)",
+    "65": "    u1=u2=u3=v1=v2=v3=F=Win=Db=Dd=Eold=0.;root=mom=kin=const=bal=ident=0.;minimumDb=minimumDd=math.inf",
+    "68": "        ag=float(forcing[n-1]);p1,p2,p3=-ag,-1.2*ag,-.8*ag",
+    "73": "        vm1,vm2,vm3=af1-a*w1*Fm,af2-a*w2*Fm,af3-a*w3*Fm",
+    "74": "        un1,un2,un3=u1+h*vm1,u2+h*vm2,u3+h*vm3;vn1,vn2,vn3=2*vm1-v1,2*vm2-v2,2*vm3-v3;Fn=2*Fm-F if device else 0.",
+    "81": "        rf=(Fn-F)/KAPPA-h*(b1*vm1+b2*vm2+b3*vm3-g(Fm)) if device else 0.",
+    "92": "        z[n,1:]=(u1,u2,u3,v1,v2,v3,F,Win,Db,Dd,Eold,balance)",
+    "169": "            for h in [.01,.005]:",
+    "172": "                z,m=integrate(case,position,h,inputs[case,h]);m['stage']=stage;m['run_number']=RUNS",
+    "186": "            a=acceleration(case,(np.arange(round(200/h))+.5)*h);assert float(np.max(abs(a)))<=.1*(1+1e-14)",
+    "187": "            inputs[case,h]=a;descriptors.append({'case':case,'h':h,'sha256':hashlib.sha256(a.astype('<f8').tobytes()).hexdigest(),"
+  },
+  "model_matches_previous_review": true,
+  "H2_h005_frozen_metadata": {
+    "case": "H2_envelope",
+    "h": 0.005,
+    "sha256": "468bcb0b8f39080b0b50e09d8d188741ae28bff5de3f4dcbe3d683160664058a",
+    "midpoint_sample_peak": 0.08480783895471444,
+    "midpoint_RMS": 0.016567832541072164,
+    "midpoint_integral_ag_squared": 0.05489861502180194
+  },
+  "AST_parse_only": true,
+  "runner_imports_executions": 0,
+  "input_regenerations": 0,
+  "response_state_reads": 0,
+  "new_ODE": 0
+}

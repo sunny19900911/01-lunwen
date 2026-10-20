@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-20T20:49:00.740662+08:00",
+  "source_hash": "d4c5f90155943ecd96663873dc42fed9f59e76509c0acb558f437e31baa91aec",
+  "check_source_exit": 0,
+  "negative_SHA_exit": 1,
+  "negative_SHA_rejected": true,
+  "no_docx_generated": true,
+  "python_syntax_compile": true,
+  "packages": {
+    "docx": true,
+    "PIL": true,
+    "reportlab": true,
+    "pypdf": true,
+    "pypdfium2": true,
+    "lxml": true
+  },
+  "poppler": "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+  "poppler_exists": true,
+  "display_groups": 3,
+  "inline_groups": 8,
+  "tables": 8,
+  "figures": 3,
+  "render_and_actual_visual_QA": "pending_final_source_after_20:59:25"
+}

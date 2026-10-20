@@ -1,0 +1,42 @@
+{
+  "task": "role3 R004",
+  "frozen_at": "2026-10-20T20:52:47.844204+08:00",
+  "immutable": true,
+  "files": [
+    {
+      "file": "R004-check.py",
+      "bytes": 2375,
+      "sha256": "84c91730b1161bd7fd3add83dfff5f0dd10d1627d80a492ccf53262a8cbcbf90"
+    },
+    {
+      "file": "R004-citation-checks.json",
+      "bytes": 5249,
+      "sha256": "1a6bd49d46fa273b2134c54f1cc1f889f77af001e4d92df21b812650b679eb50"
+    },
+    {
+      "file": "R004-report.md",
+      "bytes": 3499,
+      "sha256": "5f5395a246428eefe710fb1cb0de4e41753bfb8e97fb90deac04d580547bdea3"
+    },
+    {
+      "file": "R004-manifest.json",
+      "bytes": 1734,
+      "sha256": "8f9d78c5a6d9cd8aaf24805e1f7759141c07843655469b531d29554acf4e816f"
+    },
+    {
+      "file": "R004-validation.json",
+      "bytes": 689,
+      "sha256": "56ca3e3a95bd233f37f012e44946263606a5c63717e002bbacde5c81a4f88682"
+    },
+    {
+      "file": "R004-close.py",
+      "bytes": 2450,
+      "sha256": "ccf688715a2beece6dd32805a6ee60f36feb8168aee99ced0b17b6cf5846cdfe"
+    }
+  ],
+  "bound_manuscript": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\modal-shear-session009-v008.md",
+    "bytes": 21234,
+    "sha256": "d4c5f90155943ecd96663873dc42fed9f59e76509c0acb558f437e31baa91aec"
+  }
+}

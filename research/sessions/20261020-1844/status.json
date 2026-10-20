@@ -81,14 +81,14 @@
   ],
   "automation_id": "automation-5",
   "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261020T135925Z",
-  "phase": "active",
-  "current_round": "R005",
+  "phase": "final-writing",
+  "current_round": "R006",
   "checkpoint_open": true,
   "automatic_git_authorized": true,
   "no_solver_or_api": true,
   "no_layout_change_primary": true,
-  "canonical_manuscript": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v007.md",
-  "last_completed_checkpoint": "R004",
+  "canonical_manuscript": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v009.md",
+  "last_completed_checkpoint": "R005",
   "automation_actual_config": {
     "automation-5": {
       "id": "automation-5",
@@ -116,21 +116,23 @@
     }
   },
   "last_remote_verified": {
-    "finished_at": "2026-10-20T20:24:25.361423+08:00",
-    "commit": "7be75f1390b56d697220a56b936aaa12873add83",
-    "file_count": 69,
+    "finished_at": "2026-10-20T20:47:03.072736+08:00",
+    "commit": "a8e219714dff93532992a4d57a43307e69ee8320",
+    "file_count": 51,
     "attempts": [
       {
         "attempt": 1,
         "success": true
       }
     ],
-    "remote_commit": "7be75f1390b56d697220a56b936aaa12873add83",
+    "remote_commit": "a8e219714dff93532992a4d57a43307e69ee8320",
     "remote_verified": true,
     "read_errors": []
   },
-  "last_git_receipt": "git-R004-receipt.json",
+  "last_git_receipt": "git-R005-receipt.json",
   "last_scientific_snapshot": "2026-10-20T20:43:47+08:00",
   "latest_routing": "routing-2026.md",
-  "focus": "manuscript_integration_and_QA"
+  "focus": "manuscript_integration_and_QA",
+  "no_new_experiments": true,
+  "no_new_scientific_dispatch": true
 }

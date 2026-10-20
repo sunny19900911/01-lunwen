@@ -1,0 +1,40 @@
+{
+  "task": "role3 R004",
+  "manuscript": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\modal-shear-session009-v008.md",
+    "bytes": 21234,
+    "sha256": "d4c5f90155943ecd96663873dc42fed9f59e76509c0acb558f437e31baa91aec"
+  },
+  "reused_source_records": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role3\\R001-report.md",
+      "bytes": 5741,
+      "sha256": "3db9c1114f982cfc7ea42763cbc1743dbcf9a3ac0828c4489960e8abf191529a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role3\\R002-report.md",
+      "bytes": 4432,
+      "sha256": "8b6b53579aab4b0de539d1931586f6e79e3ee604a1313d38b0085ef517587f60"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role3\\R003-report.md",
+      "bytes": 5293,
+      "sha256": "aac8f7e452932afbfb1d3b895e8e43716442f11af168e90e52516b7d164e8df2"
+    }
+  ],
+  "review_scope": [
+    "four verified bibliography entries",
+    "first citation sequence and range expansion",
+    "output formula support",
+    "linear versus nonlinear modal independence",
+    "mass/static/dynamic participation",
+    "no invented source equation numbers",
+    "no unsupported priority/scarcity statements"
+  ],
+  "not_reviewed": [
+    "numerical tables and new solver output",
+    "actual engineering model identity"
+  ],
+  "must": 0,
+  "should": 0
+}

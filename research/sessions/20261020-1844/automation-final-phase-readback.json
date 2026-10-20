@@ -1,0 +1,10 @@
+{
+  "id": "automation-5",
+  "kind": "heartbeat",
+  "name": "模态与楼层剪力｜三小时六角色研究",
+  "status": "ACTIVE",
+  "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261020T135925Z",
+  "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+  "prompt_sha256": "ddd13ae7f313a472e368a00603c6936f8789ff1086093c207fb22a12a03e3859",
+  "final_phase_prompt": true
+}

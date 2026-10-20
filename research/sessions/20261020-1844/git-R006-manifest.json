@@ -1,0 +1,254 @@
+{
+  "prepared_at": "2026-10-20T21:11:05.698973+08:00",
+  "label": "R006",
+  "remote_before": "a8e219714dff93532992a4d57a43307e69ee8320",
+  "head_before": "a8e219714dff93532992a4d57a43307e69ee8320",
+  "files": [
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R009-audit-source-definition.py",
+      "bytes": 10238,
+      "sha256": "99bd9298b53c17a2b51daa75b0531695f7bb4b521fd9605bf9194fc5eacc5af8"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R009-checks.json",
+      "bytes": 9182,
+      "sha256": "1b69977178de6496692f73920440d84756c51d0069701e80f5977f3c64c55b48"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R009-H2-source-definition-review.md",
+      "bytes": 3584,
+      "sha256": "19114e1bdcfca2a888e1a20bc973062d7c3a833aca86eca312528c814f794594"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R009-manifest.json",
+      "bytes": 1261,
+      "sha256": "4eba913003e8b0d4d6b6271384406629f0f022618a2f4beac575615783136820"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R009-validation.json",
+      "bytes": 456,
+      "sha256": "65f854fac6a79c6c4837b3d1666310e26286da002bcddefb809e89fb80a9975f"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R010-audit-v008.py",
+      "bytes": 11511,
+      "sha256": "60f4b96b47b7f22a97ffc30094d48cbd925ec95e72c28f7882e86934a442c3e1"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R010-checks.json",
+      "bytes": 9193,
+      "sha256": "e03b13060638ee755e099c302efc4109bb9f5a4700f3f809989270401e2873a4"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R010-manifest.json",
+      "bytes": 1240,
+      "sha256": "d227012b180558bc4306ac8a6bbbd071361cc0ebdb9c816e720de14084aba43e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R010-v008-science-review.md",
+      "bytes": 2885,
+      "sha256": "a736016563abb276f4229c3865a78cc82f33864aa77469c7cab425c04822d28d"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role2/R010-validation.json",
+      "bytes": 429,
+      "sha256": "f2c5cd2547fdfda3fd9fc3f4e33f86942161e26813c9af81fc68b7c2fb3316da"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R004-check.py",
+      "bytes": 2375,
+      "sha256": "84c91730b1161bd7fd3add83dfff5f0dd10d1627d80a492ccf53262a8cbcbf90"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R004-citation-checks.json",
+      "bytes": 5249,
+      "sha256": "1a6bd49d46fa273b2134c54f1cc1f889f77af001e4d92df21b812650b679eb50"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R004-close.py",
+      "bytes": 2450,
+      "sha256": "ccf688715a2beece6dd32805a6ee60f36feb8168aee99ced0b17b6cf5846cdfe"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R004-freeze.json",
+      "bytes": 1381,
+      "sha256": "7a730376f8bc8e350888553f53024e630645256b10b6c1f931cea916c23629fd"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R004-manifest.json",
+      "bytes": 1734,
+      "sha256": "8f9d78c5a6d9cd8aaf24805e1f7759141c07843655469b531d29554acf4e816f"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R004-report.md",
+      "bytes": 3499,
+      "sha256": "5f5395a246428eefe710fb1cb0de4e41753bfb8e97fb90deac04d580547bdea3"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role3/R004-validation.json",
+      "bytes": 689,
+      "sha256": "56ca3e3a95bd233f37f012e44946263606a5c63717e002bbacde5c81a4f88682"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R008-freeze.json",
+      "bytes": 1605,
+      "sha256": "f96810acc6300d637ae5c80771829fdbfe5272bf8729b4d20a77db6f1b0ba2eb"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R008-handoff.md",
+      "bytes": 780,
+      "sha256": "ab2a2258e4eaf844c303842275377993a2917d8fa34e34a03e66a207a1c0b9ec"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R008-input-freeze.json",
+      "bytes": 4302,
+      "sha256": "fec4ae439d971637560d2f32b66acfe1eb9e9cc8a88833fedf025a3e0f7ae4af"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R008-notes.md",
+      "bytes": 1196,
+      "sha256": "34c12182829266342bae44dffe9d64d5da3c003454d845f721a0bc2bd6431db2"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R008-validation.json",
+      "bytes": 723,
+      "sha256": "f013f8b00b7632ca314ed395c18a9e3bcdbd3040ff152b4facdcbbca68a3db38"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R008-work.json",
+      "bytes": 2462,
+      "sha256": "27696eeecde5bb544f1368a3c3f596443086856a36a2abdd54d2550ad736519e"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R009-build_word.py",
+      "bytes": 22721,
+      "sha256": "c8dfa086163344d0c9de6e964a0b7ff2fb4448293bb0e70b701836402c7f6be7"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R009-freeze.json",
+      "bytes": 2552,
+      "sha256": "60a8b39f7e98da0c7353b592ff651cb402533684d842f25e368c610cd4fd8c34"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R009-handoff.md",
+      "bytes": 2718,
+      "sha256": "669672eff871d1593ecd70c9347d1709ecb03bf2ea86e9157382f26426aa6987"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R009-input-freeze.json",
+      "bytes": 1475,
+      "sha256": "ef4fbcd543a730f32ca0e0dbef6bf4b511fa7527d50fd798bd70efb81db1803a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R009-render_preview.py",
+      "bytes": 1366,
+      "sha256": "dccdafa2168e1fc6b9e7fc9faad15bda022fb7305dd1e994062d6e1a1c949536"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R009-render_word_native.ps1",
+      "bytes": 1365,
+      "sha256": "9b50c8236638455a489701114e258dca72177c406910f0935c457be450e5f700"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R009-source-check-final.json",
+      "bytes": 1965,
+      "sha256": "4926be199d5603e5c6a5760e304aecefa715a7e31e99ba48ea98c1515e164fcb"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R009-source-check.json",
+      "bytes": 1965,
+      "sha256": "4926be199d5603e5c6a5760e304aecefa715a7e31e99ba48ea98c1515e164fcb"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role5/R009-validation.json",
+      "bytes": 754,
+      "sha256": "9ae5cb6190e2abc5f9bfaa0a748d00b73be08aaa1ec8442f7cec56a78deb2d68"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R006-findings.json",
+      "bytes": 1131,
+      "sha256": "a19188e2ec80c3cb252a122a22f608521e2d05ed4501a3ab09108d9e49bc93cf"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R006-freeze.json",
+      "bytes": 3417,
+      "sha256": "132147dea9c4dcbfad5f9d936915703828a514dc659f8b1406f615ecf23155f7"
+    },
+    {
+      "path": "research/sessions/20261020-1844/roles/role6/R006-language-review.md",
+      "bytes": 4733,
+      "sha256": "8dc819e79998b4cd3ac26bd2620b62f42583833f13b895966501cca648772e34"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R006-prepare-checkpoint.py",
+      "bytes": 2601,
+      "sha256": "485c262e72f180a0ab79cb1a24f246def59433220838beb53f74e79a6e14a18b"
+    },
+    {
+      "path": "research/sessions/20261020-1844/rounds/R006.md",
+      "bytes": 1137,
+      "sha256": "129af702afb3d6e44f6fe00c6ad6e6bfc563374986ae5d8e4a80fe76817ed968"
+    },
+    {
+      "path": "research/sessions/20261020-1844/topic-card-final-stage.md",
+      "bytes": 1916,
+      "sha256": "e57fdf589c46f3748255ff82d4f5b9cc085234c008a1031ee95f33fb2c0a063a"
+    },
+    {
+      "path": "research/sessions/20261020-1844/root-v008-editorial-review.md",
+      "bytes": 3127,
+      "sha256": "7b4eb9eb05448d230fae811b387cf9de4a62b802689b949520a0160870fa6b6c"
+    },
+    {
+      "path": "research/sessions/20261020-1844/automation-final-phase-readback.json",
+      "bytes": 386,
+      "sha256": "ebed94fc2fed92f9689b116bb23a8d23280fbdde3808e9f3549389b6b80578ef"
+    },
+    {
+      "path": "research/sessions/20261020-1844/status.json",
+      "bytes": 4417,
+      "sha256": "8afdb3ce530e919693edd784384218398bee349813b5bde2a03edce2ddda693b"
+    },
+    {
+      "path": "research/sessions/20261020-1844/threads.json",
+      "bytes": 2238,
+      "sha256": "a5ce9dcf90d4e1d3c3267cf96b160edbd2a7c39c10ff2aafe29529dd686d1967"
+    },
+    {
+      "path": "research/sessions/20261020-1844/claims.md",
+      "bytes": 3104,
+      "sha256": "ede5030205ce1bfc749121c1ea57e29715ba008cc160cd216e9870cf93de6f76"
+    },
+    {
+      "path": "research/sessions/20261020-1844/runs.md",
+      "bytes": 952,
+      "sha256": "21148a995afebd786d07752b04010b12c99f1f7d8500d823a517650f99d178fd"
+    },
+    {
+      "path": "research/sessions/20261020-1844/checkpoint_git.py",
+      "bytes": 4367,
+      "sha256": "df8f38bb0fcb26bbc8b9805024c432b074209265ad002737e3fa79a7208eaf54"
+    },
+    {
+      "path": "research/sessions/20261020-1844/git-R005-receipt.json",
+      "bytes": 332,
+      "sha256": "5404165e3fd09f0eb4ed258c5670a59e072e0a31c3f13e1817088c926c53363b"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v008.md",
+      "bytes": 21234,
+      "sha256": "d4c5f90155943ecd96663873dc42fed9f59e76509c0acb558f437e31baa91aec"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v009.md",
+      "bytes": 22371,
+      "sha256": "017fc68b82971b1ed6c3abe6bfbc82901a3bd76e6db846a41c68935d65a856ab"
+    },
+    {
+      "path": "research/sessions/20261020-1844/R006-freeze-check.json",
+      "bytes": 257,
+      "sha256": "4b7351b4c3307a003a8dc12cc3cb2faf762bb3e90e8ae56c05aeddd3a0c74cb9"
+    }
+  ],
+  "scope": "Only explicit completed checkpoint paths; raw data, third-party full papers, caches and old changes excluded"
+}
