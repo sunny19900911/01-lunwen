@@ -1,0 +1,47 @@
+{
+  "frozen_utc": "2026-10-20T23:57:59.419202+00:00",
+  "scope": "tie clarification from already generated recurrence table",
+  "max_case_count": 3,
+  "co_maximum_layers": [
+    {
+      "scope": "all_14",
+      "Axis": "X_and_Y",
+      "Story": "Story1",
+      "case_minimum_count": "3",
+      "deduplicated_wave_family_count": "3",
+      "Cases": "R1X;RH4Y;SHW4X",
+      "wave_families": "R1;RH4;SHW4"
+    },
+    {
+      "scope": "all_14",
+      "Axis": "X_and_Y",
+      "Story": "Story6",
+      "case_minimum_count": "3",
+      "deduplicated_wave_family_count": "2",
+      "Cases": "SHW6X;SHW6Y;SHW7Y",
+      "wave_families": "SHW6;SHW7"
+    },
+    {
+      "scope": "all_14",
+      "Axis": "X_and_Y",
+      "Story": "Story7",
+      "case_minimum_count": "3",
+      "deduplicated_wave_family_count": "3",
+      "Cases": "RH4X;SHW4Y;SHW7X",
+      "wave_families": "RH4;SHW4;SHW7"
+    }
+  ],
+  "original_delivery_manifest_sha256": "2859dc90bf0a439aa30ead010ed037ef1300ab00736fd8d6c391e30955e0e0b1",
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-recurrence-clarification.md",
+      "bytes": 499,
+      "sha256": "46c97dfe8c45bb5815025a970cfa670cd7359fb19ffb1f12bcfbc39a43398e08"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-minimum-layer-recurrence-108.csv",
+      "bytes": 3610,
+      "sha256": "acfa8b4b8e714c0ecd48c4a48cced0a1f91e07d455385afa711f1b1a96ce0671"
+    }
+  ]
+}

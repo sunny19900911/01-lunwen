@@ -1,0 +1,474 @@
+{
+  "prepared_at": "2026-10-21T20:58:14.981019+08:00",
+  "label": "R000",
+  "head_before": "518bd998686193c31f9630a551540ae43440e79b",
+  "remote_before": "518bd998686193c31f9630a551540ae43440e79b",
+  "pre_errors": [],
+  "files": [
+    {
+      "path": "research/sessions/20261021-0737/authorization-evidence.json",
+      "bytes": 778,
+      "sha256": "d643d91d1d6f28dd92baeb2d0ba144f50b269a93576a8da1cd19bd7f24662043"
+    },
+    {
+      "path": "research/sessions/20261021-0737/automation-actual-readback.json",
+      "bytes": 1166,
+      "sha256": "1e899572d544816ffc9c39cbbc7a02bb93f7b3ba705edcb419c5addabc75dd0a"
+    },
+    {
+      "path": "research/sessions/20261021-0737/candidate-peak-time-correction-v001.md",
+      "bytes": 1721,
+      "sha256": "99793fa465a63d419b9a4277d8214658497485b8e02918faa82c75b4ff66bdb6"
+    },
+    {
+      "path": "research/sessions/20261021-0737/checkpoint.py",
+      "bytes": 4033,
+      "sha256": "1f8c2b92dbee6bb7ec6dfaa96707adfdb8ede654f9c0ea743567c991e462c75a"
+    },
+    {
+      "path": "research/sessions/20261021-0737/claims.md",
+      "bytes": 637,
+      "sha256": "af5368b31d9c595752d040a9fd7c9235e825e7630a06afaf2999ab167a94de34"
+    },
+    {
+      "path": "research/sessions/20261021-0737/data-handoff.md",
+      "bytes": 2923,
+      "sha256": "0acd31e786b3b077e6311d9ce9379d9b9dc0afe9b4db98bcf80d6e09fc0e9824"
+    },
+    {
+      "path": "research/sessions/20261021-0737/final-summary.md",
+      "bytes": 639,
+      "sha256": "ec7258bc814cda45ef8e8f2571defb32a95d84272f43aaff6636b13df4660f7b"
+    },
+    {
+      "path": "research/sessions/20261021-0737/git-R000-files.json",
+      "bytes": 762,
+      "sha256": "6630accf8a57bc51390e51c709fc0e7d75f9f5aa808dd7f7ae6f2ae61b627e02"
+    },
+    {
+      "path": "research/sessions/20261021-0737/git-R000-manifest.json",
+      "bytes": 2873,
+      "sha256": "d0cd963828da59e081f616123600973c77a3e4f47b05a22fcb18e2807c5b28d2"
+    },
+    {
+      "path": "research/sessions/20261021-0737/git-R000-receipt.json",
+      "bytes": 363,
+      "sha256": "90116b56477559e783c453fe4cbb099d2f6228e1e3c907d19b3cc9277f19aeb6"
+    },
+    {
+      "path": "research/sessions/20261021-0737/plan.md",
+      "bytes": 4519,
+      "sha256": "6203bfd62fccecf69b52143209d6427898ee7b5f33cc6f0fa4dd36a69b485d4c"
+    },
+    {
+      "path": "research/sessions/20261021-0737/R000-tool-receipts.json",
+      "bytes": 7945,
+      "sha256": "7600ede7e953dc7f69678a3dc3cf34e0215bd0adc8553254d808a6872dec6e08"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role1/R001/algorithm.md",
+      "bytes": 2727,
+      "sha256": "65bfc068bc1be1ec5d8b2451079677f9ab08207fe7a1cd9c25422a7a9b65ff16"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role1/R001/input-freeze.json",
+      "bytes": 2158,
+      "sha256": "e19b392c6751ff41a89bb262305ca0c1be14a5a637bc0f5005aa726712d10217"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role1/R001/manifest.json",
+      "bytes": 983,
+      "sha256": "da6e51e29be9706b1f2a3825ff97343151d5850ef2e51e36b27de367964d4fed"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role1/R001/next-task.md",
+      "bytes": 1060,
+      "sha256": "45284240a648e9a4e338ed7170a76599b9b5d62ba8a1c85e3ac26d1c58c9ca9e"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role1/R001/proposal.md",
+      "bytes": 5948,
+      "sha256": "b4eb6a65254f721c97d7fa7ee532468bd6da69187bd2ae130635e875f10d71d6"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role1/R001/validation.json",
+      "bytes": 836,
+      "sha256": "e15826a6ee6593b70f309272d76c8f002854bf48b77b385424df0f50d6ecca99"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role2/R001-input-freeze.json",
+      "bytes": 3979,
+      "sha256": "29e0d4a185b20c26abb1187d1115db6ce4fa90f6508c847513bc2f83064d6ea5"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role2/R001-manifest.json",
+      "bytes": 1010,
+      "sha256": "f6c45a554e759a874fba671310fbe77a2572a81311be56d99cedb89966992801"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role2/R001-validation-standards-partial.md",
+      "bytes": 5012,
+      "sha256": "b9822cb413a1a89f65f55dcb6c8c6c92503ee565793ce770c10d6dca12579c3c"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role2/R001-validation.json",
+      "bytes": 834,
+      "sha256": "41aa15d4cce72368be9deec7c3c726fcaa5e13d525a6253e21a4500736bf9537"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role2/R002-check.py",
+      "bytes": 3153,
+      "sha256": "97ede52b517c23e23078e5642afd30443853fe0164c9caa5d0280a503f30d654"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role2/R002-checks.json",
+      "bytes": 1467,
+      "sha256": "c08fa87b9bdc35c14c38acce66512cb7c0ca745d2c73061d28ff6a88922a5abd"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role2/R002-input-freeze.json",
+      "bytes": 1162,
+      "sha256": "8ba32203e8c2610c5105684cef30636f607f13e9c037756a122a41c1f6e472c9"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role2/R002-manifest.json",
+      "bytes": 1536,
+      "sha256": "9e60543c2b8d74bb414f1448be84e6ec30e11191451dde8af73b5c45c443428d"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role2/R002-peak-time-correction-review.md",
+      "bytes": 3054,
+      "sha256": "8e22db405edd80907d730bc56fdd83e46fc5dac8b5969f0679d908ba26268ce5"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role2/R002-validation.json",
+      "bytes": 959,
+      "sha256": "e1d39401bd87261541211e2c738322d30daad28f7c699dce148949633d5770fd"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role2/R003-administrative-stop.json",
+      "bytes": 1487,
+      "sha256": "915ede7f812a90f81510268b4313ed3f37a5dbaad3ba1a139b2ad76b28f957a5"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role3/R001-close.py",
+      "bytes": 2787,
+      "sha256": "6cbb779d6e32f11730d9d52ec89f576f891ddb55dd28ea6964ebc0701c549c78"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role3/R001-freeze.json",
+      "bytes": 1404,
+      "sha256": "cdc7a304058046f10e49066395c7aaeaae0906deab7a8a35cc45847793449d95"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role3/R001-manifest.json",
+      "bytes": 1498,
+      "sha256": "c43b75c870a3764015bfce9cf82e24c16da9daef30b2441a789cb82dabe237a0"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role3/R001-report.md",
+      "bytes": 5640,
+      "sha256": "c1c08a1e1519affd0326c1a57dcd788449f0681720c6e9ada82d9b1f132cb132"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role3/R001-validation.json",
+      "bytes": 560,
+      "sha256": "c6a227e9fff576439f3ac41579510925648e42d15a8b6c495e3cca7d3cfb6a44"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role3/R002-close.py",
+      "bytes": 5028,
+      "sha256": "2511adc239b761b5c51ee8306df5469f441d397ad19890fe4b19653f6f8df8c7"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role3/R002-evidence-short-table.md",
+      "bytes": 5989,
+      "sha256": "cb760907b3bdf36fc6de35921085749c97f52195f125b353f3f1b25c94a1c7e3"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role3/R002-freeze.json",
+      "bytes": 1283,
+      "sha256": "f72971199b1009e25e8ddcde101988840db6222cc9f3772b587ab9b491adfe17"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role3/R002-manifest.json",
+      "bytes": 4187,
+      "sha256": "550e5a40c3b58df10aaf1b8c839ceb77dbfa0cb5eda30af8e117ce57d0778365"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role3/R002-validation.json",
+      "bytes": 1081,
+      "sha256": "623712b9f18668f9d12f3927197070590144a90596480417f85cf9eed812b155"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R001-definition-input-freeze.json",
+      "bytes": 2347,
+      "sha256": "a247b500507df122bae13763136541324200a82f1518919ea9f392fcec723e9a"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R001-delivery-manifest.json",
+      "bytes": 1400,
+      "sha256": "cd075fa0806dd1d0c9c1e4a26df0470fae6260bfbade075c6e008311da9a849c"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R001-failure.json",
+      "bytes": 887,
+      "sha256": "38f80a147bab17595261a08bdd430ffe9fc4ec3a47bd735372b9f430382c8b28"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R001-incomplete-note.md",
+      "bytes": 685,
+      "sha256": "ff0a54311de760b23f05518f193fa7232c7a53fc60eb351d124fb5c45ae0d2c1"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R001_evidence_map.py",
+      "bytes": 9989,
+      "sha256": "767f0c48765dbcf1ec01a3ca49ceb20480150de4a1051f2b3a6c8bf57d00a81d"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R002-all14-evidence-map-168.csv",
+      "bytes": 83218,
+      "sha256": "f25be2d97516b665ca461ceb9f2ae2fb7e77ca1c0630a040010971872e5c93f8"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R002-case-baselines-14.csv",
+      "bytes": 3199,
+      "sha256": "c9a3d065d18c283267a55702a98a7c3c29fc4d3a559bd1563e9f6833601538f2"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R002-clarification-manifest.json",
+      "bytes": 1675,
+      "sha256": "328f6b5f8d929157446d203e3d41ba4134bf1f798f5d99065202305c845b19fe"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R002-definition-input-freeze.json",
+      "bytes": 2361,
+      "sha256": "813949e48b048f6850f456c80e48d2551623b8f5e0d10c5b6ae641bff0dd35cd"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R002-delivery-manifest.json",
+      "bytes": 2891,
+      "sha256": "2859dc90bf0a439aa30ead010ed037ef1300ab00736fd8d6c391e30955e0e0b1"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R002-engineering-note.md",
+      "bytes": 2419,
+      "sha256": "f667ab5fd823ff93826b2d501b92be7ec62b86bf1c8541b6baf155f2f725b090"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R002-minimum-layer-recurrence-108.csv",
+      "bytes": 3610,
+      "sha256": "acfa8b4b8e714c0ecd48c4a48cced0a1f91e07d455385afa711f1b1a96ce0671"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R002-recurrence-clarification.md",
+      "bytes": 499,
+      "sha256": "46c97dfe8c45bb5815025a970cfa670cd7359fb19ffb1f12bcfbc39a43398e08"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R002-results.json",
+      "bytes": 1842,
+      "sha256": "0b01d6166527470363c21736677430b6ce161743fc53afc342d7319ab474d81e"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R002-story-axis-summary-24.csv",
+      "bytes": 6976,
+      "sha256": "a51af38372212ade834ef54d560776573b7b504f804bc83f23441c04df7e1a96"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role4/R002_evidence_map.py",
+      "bytes": 10073,
+      "sha256": "93c51d3a79f7242e9404a922e4b0052e64465165561d31a0ff0cf4af51e4515b"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R001-evidence-and-gaps.md",
+      "bytes": 3598,
+      "sha256": "6033ed482a009af3056182dfd456e00129429414d04c1ca3d90f4e894e8ebb13"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R001-freeze.json",
+      "bytes": 1946,
+      "sha256": "06a6adba06698bac9eaa90e05898874fc41f00ed32068823f2a4607292e74285"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R001-handoff.md",
+      "bytes": 954,
+      "sha256": "5bdd3fb05e4ced6104fb008c7aba0e1d9d3f168dfd93108c7c5a1820ac710f82"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R001-input-freeze.json",
+      "bytes": 2820,
+      "sha256": "511c4048e60b9dac867d650fb11fbb6eb571985d1bdd3c56cfdfdd5468081c84"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R001-methods-supplement.md",
+      "bytes": 1572,
+      "sha256": "529d003bfb7db0fc845e0400d1ae93bcc7442af86da702be50e4d0a4b6bd43a7"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R001-validation.json",
+      "bytes": 1853,
+      "sha256": "89c2ca5c5b56dfe1d01d227af558999be5869b7689dcbd7a71a250c900f4f37f"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R002-build_word.py",
+      "bytes": 25690,
+      "sha256": "cbc4d11454242a68726675123baea9779d2a2b1f9a9a05d0f8332397f3aef04f"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R002-freeze.json",
+      "bytes": 2250,
+      "sha256": "f8ddc51421807ca9143069bf5a4eb6e5df628d4aa22a6cbb2c26b96ff41f88bc"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R002-input-freeze.json",
+      "bytes": 1107,
+      "sha256": "db8259990c8c6db10244495b2beec2b3aa97d591ea3808635f3e7150c5027da9"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R002-render_preview.py",
+      "bytes": 1366,
+      "sha256": "dccdafa2168e1fc6b9e7fc9faad15bda022fb7305dd1e994062d6e1a1c949536"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R002-report.md",
+      "bytes": 2636,
+      "sha256": "706e2abd07a4fabd2ea289fe94d1e7741a4c8e21dd629906cc68322c0b35d8d5"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R002-source-check.json",
+      "bytes": 2691,
+      "sha256": "8f69fb5b3f88484eb85c1e58d58acf0a6616446298acdaae744be5dc25e3fda7"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role5/R002-validation.json",
+      "bytes": 938,
+      "sha256": "9f6f248b25fa58eb347aae78f715d84b59c38800adb1e4902d66af25e5bdbc78"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role6/R001-contribution-position.md",
+      "bytes": 3968,
+      "sha256": "3ab2a2024c0151332e73bb4db04fb1da716720736c330dea2f0f4175d7faacba"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role6/R001-freeze.json",
+      "bytes": 3988,
+      "sha256": "8e20312f28e57e94b97a87eb9acf8f375ac258680ac888e618a747e04a6e50cd"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role6/R001-input-freeze.json",
+      "bytes": 2502,
+      "sha256": "ba6f905033803822b6a3c8502076460c34ab1c69746c76daa4348fed719a10fc"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role6/R002-freeze.json",
+      "bytes": 2697,
+      "sha256": "dd4e10f58289905d57ebd035c3f74353249f0cdd150be03787bdd3672ecba202"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role6/R002-input-freeze.json",
+      "bytes": 861,
+      "sha256": "858379e0ba65cd4e1cd5744f94bb21ae54c64433060c1eb6329304283c5a3ad6"
+    },
+    {
+      "path": "research/sessions/20261021-0737/roles/role6/R002-peak-time-use.md",
+      "bytes": 3801,
+      "sha256": "196d1ea690b4c73cc9ff27adff17c9ca22a03706eaa848d82c5e686a945316df"
+    },
+    {
+      "path": "research/sessions/20261021-0737/root-R001-editorial-review.md",
+      "bytes": 1383,
+      "sha256": "24c873a1124a2b4e29aea80a23afe32f939b4e5f47abba0c5f6ac91e2226bada"
+    },
+    {
+      "path": "research/sessions/20261021-0737/rounds/R000.md",
+      "bytes": 843,
+      "sha256": "3486c54001dfda34556e29ea69d39aed9db7dfc8b98a0587c0c74aee88239eec"
+    },
+    {
+      "path": "research/sessions/20261021-0737/rounds/R001.md",
+      "bytes": 1307,
+      "sha256": "13badc49bed0b8e194ce471ec1612141aac683f8d1fbe82283e78ee7cd8b25ea"
+    },
+    {
+      "path": "research/sessions/20261021-0737/runs.md",
+      "bytes": 227,
+      "sha256": "c3b1a4da7bded9ef11fafd9a09bc696a8d0e87aeb324887e20e50ced2bac0b0e"
+    },
+    {
+      "path": "research/sessions/20261021-0737/status.json",
+      "bytes": 5364,
+      "sha256": "d02efc9ab78cf202c58a63a0e704e8345821cbcded758f7e211eabb5f9385fda"
+    },
+    {
+      "path": "research/sessions/20261021-0737/threads.json",
+      "bytes": 2373,
+      "sha256": "6adfb4ed645c3407dfd00259f51a32d205bf4db33771619d9a3d8b977995b3e9"
+    },
+    {
+      "path": "research/sessions/20261021-0737/topic-card-v001.md",
+      "bytes": 479,
+      "sha256": "122b925e2529684f394af28d24e259de848992a07d7dc5309ce0c11ecf20a976"
+    },
+    {
+      "path": "research/sessions/20261021-0737/update-start-state.py",
+      "bytes": 950,
+      "sha256": "bfb932280d2344213ae2348951d0a0a8a4f0a24267b806ece363ab1c9ee0b03e"
+    },
+    {
+      "path": "research/sessions/20261021-2020/authorization-evidence.json",
+      "bytes": 627,
+      "sha256": "6a3a8cbf6a5d03a2c86bb547b5b7a2f1ea4c28c302a4339de053b403c3ede526"
+    },
+    {
+      "path": "research/sessions/20261021-2020/automation-actual-readback.json",
+      "bytes": 825,
+      "sha256": "7ce7176b4b0e46d8afbdabd8bfc27ef11c6b48927f0e53f05163cdace8f18dfc"
+    },
+    {
+      "path": "research/sessions/20261021-2020/checkpoint.py",
+      "bytes": 4160,
+      "sha256": "b50b01be882af30c8ffe2bf0194f5c503d6a8f6afbec838d62c2c5c048f23b7a"
+    },
+    {
+      "path": "research/sessions/20261021-2020/claims.md",
+      "bytes": 317,
+      "sha256": "6423eb9444077fd20f53886cbf04e0726f57d306917f34feaf6c225553efcb75"
+    },
+    {
+      "path": "research/sessions/20261021-2020/data-handoff.md",
+      "bytes": 1199,
+      "sha256": "34b532ad887b6a1b5c68ac27c171f77e20cceeab0b88cf97bd706302ccefb61c"
+    },
+    {
+      "path": "research/sessions/20261021-2020/plan.md",
+      "bytes": 2791,
+      "sha256": "f8d5d416de42a5d0c374549714bdd7a766a7cfc2c491ffd50cf56d4ae02b9a3a"
+    },
+    {
+      "path": "research/sessions/20261021-2020/runs.md",
+      "bytes": 162,
+      "sha256": "6df3eb62302a0ead61e4ce0465276487d6883be6356cb21e22e48634372ef898"
+    },
+    {
+      "path": "research/sessions/20261021-2020/status.json",
+      "bytes": 3677,
+      "sha256": "8515bf4c3a9e9046641f51620ab1ff20025e1270a84a16a405e30a9c25a52303"
+    },
+    {
+      "path": "research/sessions/20261021-2020/threads.json",
+      "bytes": 1978,
+      "sha256": "1dfe6bbe82aa4504da3e166921b37ea19a5a1a51e63b3e88f3b04ff038c8da3d"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/jgjg-session010-v001.md",
+      "bytes": 16952,
+      "sha256": "b9d2f98e2564b6f8886a1fd7c749a6085e63f34ce177b0b65c26b001dafb1926"
+    },
+    {
+      "path": "research/sessions/20261021-2020/git-R000-files.json",
+      "bytes": 6277,
+      "sha256": "e3b7742fabf2a307d40b635d918a389aedcd743c67406e92d233a84b9c5ff5a5"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "session": "20261021-0737",
+  "role": "role6",
+  "task": "R002",
+  "status": "frozen; awaiting next bounded task",
+  "actual_start": "2026-10-21T07:55:24+08:00",
+  "actual_end": "2026-10-21T07:57:26.577455+08:00",
+  "elapsed_seconds": 122.577455,
+  "limit_seconds": 480,
+  "within_task_limit": true,
+  "requested_latest_delivery_approx": "2026-10-21T08:05:00+08:00",
+  "session_deadline": "2026-10-21T10:37:53+08:00",
+  "input_freeze": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role6\\R002-input-freeze.json",
+    "bytes": 861,
+    "sha256": "858379e0ba65cd4e1cd5744f94bb21ae54c64433060c1eb6329304283c5a3ad6"
+  },
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\candidate-peak-time-correction-v001.md",
+      "bytes": 1721,
+      "sha256": "99793fa465a63d419b9a4277d8214658497485b8e02918faa82c75b4ff66bdb6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role6\\R001-contribution-position.md",
+      "bytes": 3968,
+      "sha256": "3ab2a2024c0151332e73bb4db04fb1da716720736c330dea2f0f4175d7faacba"
+    }
+  ],
+  "master_candidate_unchanged": true,
+  "scope": "Engineering utility and novelty boundary only; reuse existing original-location memo, no new primary-source search/read or numerical computation. Candidate definition awaits independent role2 review.",
+  "proposed_use": "Observed cross-input minimum reduction sets screening performance; show r_at and d at same controlling case as anchor-specific diagnosis, never splice other-wave d as same-event cause.",
+  "baselines": [
+    "cross-input average reduction",
+    "bottom-story-only evaluation",
+    "original-peak-time-only r_at"
+  ],
+  "failure_condition": "If d is small/anchor-sensitive or changes no performance/screening/read-plot decision, keep as explanatory column; no independent metric or algorithm superiority claim.",
+  "qa": {
+    "UTF8_LF_no_trailing_whitespace_or_control_chars": true,
+    "no_shared_definition_or_threshold_change": true,
+    "no_candidate_test_result_claimed": true
+  },
+  "no_download_ODE_arrays_Excel_ETABS_Git_automation_agents_chats_or_shared_write": true,
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role6\\R002-peak-time-use.md",
+      "bytes": 3801,
+      "sha256": "196d1ea690b4c73cc9ff27adff17c9ca22a03706eaa848d82c5e686a945316df"
+    }
+  ]
+}

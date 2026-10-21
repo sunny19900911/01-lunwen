@@ -1,0 +1,15 @@
+{
+  "direct_human_messages_actually_read": [
+    {
+      "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+      "turnId": "01a15bbf-e082-74d1-9ef9-70fcb233048f",
+      "itemId": "01a15e66-7cee-77f0-9996-0afca1d042c1",
+      "text": "你再继续写90分钟把。\n"
+    }
+  ],
+  "tool": "read_thread",
+  "start": "2026-10-21T20:20:14+08:00",
+  "deadline": "2026-10-21T21:50:14+08:00",
+  "start_basis": "First clock after human request from source role3; not time of forwarded message receipt",
+  "scope": "Same paper; continue existing six-role workflow and normal Git checkpoints; no solver/layout/submission/new chats."
+}

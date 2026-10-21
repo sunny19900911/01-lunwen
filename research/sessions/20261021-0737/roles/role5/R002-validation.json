@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-21T20:21:25.120526+08:00",
+  "builder_syntax_compile": true,
+  "source_SHA_match": true,
+  "no_unknown_source_math_tokens": true,
+  "unknown_math_command_rejected": true,
+  "bad_SHA_rejected": true,
+  "no_DOCX_file_generated": true,
+  "artifact_marker_not_run_preparation_only": true,
+  "v001_unchanged": true,
+  "dependencies": {
+    "docx": true,
+    "PIL": true,
+    "lxml": true,
+    "pypdfium2": true
+  },
+  "page_rendering_and_template_compliance": "not_yet_verified",
+  "formula_numbers": "automatic sequential numbers unless source already has a tag",
+  "body_columns": 2,
+  "title_and_abstract_columns": 1,
+  "tables_and_figures": "full width continuous sections",
+  "no_8000word_8page_or_figurecount_hard_ceiling": true,
+  "within_10_minutes": false,
+  "original_session_window_passed": true,
+  "last_observed_clock": "2026-10-21T20:21:24+08:00",
+  "new_window_not_assumed": true
+}

@@ -1,0 +1,17 @@
+{
+  "status": "incomplete_not_adoptable",
+  "start_observed_utc": "2026-10-20T23:42:38+00:00",
+  "ten_minute_deadline_utc": "2026-10-20T23:52:38+00:00",
+  "latest_delivery_requested_utc": "2026-10-20T23:53:00+00:00",
+  "first_execution_utc": "2026-10-20T23:53:36+00:00",
+  "exit_code": 1,
+  "failure": "AssertionError at now()<DEADLINE before statistics loop; script preparation used the task budget",
+  "new_statistical_CSVs_created": 0,
+  "engineering_evidence_map_completed": false,
+  "new_candidate_d_computed": false,
+  "new_workbook_or_array_reads": 0,
+  "new_fit_or_ODE": 0,
+  "candidate_definition_read": true,
+  "candidate_status": "definition received only; no independent-review or calculation claim",
+  "next_action": "In a newly assigned bounded task, execute a minimal CSV calculation before explanatory writing; do not rerun frozen draft automatically"
+}

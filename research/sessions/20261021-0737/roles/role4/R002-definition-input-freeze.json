@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-20T23:57:05.179044+00:00",
+  "start_utc": "2026-10-20T23:57:04.826659+00:00",
+  "deadline_utc": "2026-10-21T00:05:04.826659+00:00",
+  "code_sha256": "93c51d3a79f7242e9404a922e4b0052e64465165561d31a0ff0cf4af51e4515b",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-all14-main-axis-168.csv",
+      "bytes": 66167,
+      "sha256": "ff25735eb20b9592323fbaf0640e3e85f86b4610af8a2ebd5be37e870494b081"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-common-six-main-axis-72.csv",
+      "bytes": 28512,
+      "sha256": "cb36b10ad8d257ef4c2aedecf9fb95cc18a832e266a05bce9a0eec6a8a2eb621"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R004-caption-and-observations.md",
+      "bytes": 1222,
+      "sha256": "ee0d625a67b3d23a961aa44c5a684b236276faf08f2dd642bf06671231b4566b"
+    }
+  ],
+  "definitions": {
+    "reduction_percent": "100*(1-P_M/P_B); reuse frozen native Bottom absolute peaks kN; P_B is baseline, P_M is modal-damping reference",
+    "story_axis_summary": "7 directional cases per axis; minimum, median and maximum with actual matching case and both absolute peaks; median is middle of 7 sorted actual observations",
+    "case_minimum": "minimum over 12 layers; ties within 1e-10 percentage points all retained",
+    "bottom_baseline": "same-case Story1 reduction only",
+    "mean_baseline": "unweighted arithmetic mean of 12 layer reduction percentages; not a total-building force reduction",
+    "baseline_omission_gap": "baseline reduction minus actual least layer reduction, percentage points; descriptive contrast, no pass/fail threshold",
+    "recurrence": "report directional-case counts and deduplicated wave-family counts separately",
+    "groups": "common RH4/SHW4/SHW7 X/Y six cases versus remaining R1/SHW3/SHW5/SHW6 X/Y eight; no holdout or independent-test designation"
+  },
+  "exclude": "no fitting, native arrays, new ODE, spectral/modal decomposition, actual-device causal comparison or formal candidate algorithm"
+}

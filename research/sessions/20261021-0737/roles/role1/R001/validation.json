@@ -1,0 +1,24 @@
+{
+  "actual_start": "2026-10-21T07:42:34+08:00",
+  "actual_finish": "2026-10-21T07:57:28.227833+08:00",
+  "elapsed_seconds": 894.227833,
+  "within_10_minutes": false,
+  "delivered_by_latest_0753": false,
+  "overrun_disclosed": true,
+  "status": "definition proposal frozen; independent review and role4 engineering calculation pending",
+  "candidate_count": 2,
+  "recommended_main_methods": 1,
+  "data_rows_recomputed": 0,
+  "source_read_scope": "plan/handoff/source-review plusCSVheadersandfirst3rows only; full-file hashes for identity",
+  "toy_example": "four synthetic scalar peak rows, not dynamic model data",
+  "new_ODE_or_raw_Excel_reads": 0,
+  "Git_automation_agents_chats": 0,
+  "sources_preserved": true,
+  "qa": [
+    "UTF8/LF",
+    "JSON parse",
+    "local links",
+    "no trailing whitespace",
+    "manifest SHA256"
+  ]
+}

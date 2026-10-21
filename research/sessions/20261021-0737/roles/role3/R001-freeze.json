@@ -1,0 +1,49 @@
+{
+  "task": "role3 R001",
+  "frozen_at": "2026-10-21T07:54:25.619493+08:00",
+  "immutable": true,
+  "files": [
+    {
+      "file": "R001-report.md",
+      "bytes": 5640,
+      "sha256": "c1c08a1e1519affd0326c1a57dcd788449f0681720c6e9ada82d9b1f132cb132"
+    },
+    {
+      "file": "R001-manifest.json",
+      "bytes": 1498,
+      "sha256": "c43b75c870a3764015bfce9cf82e24c16da9daef30b2441a789cb82dabe237a0"
+    },
+    {
+      "file": "R001-validation.json",
+      "bytes": 560,
+      "sha256": "c6a227e9fff576439f3ac41579510925648e42d15a8b6c495e3cca7d3cfb6a44"
+    },
+    {
+      "file": "R001-close.py",
+      "bytes": 2787,
+      "sha256": "6cbb779d6e32f11730d9d52ec89f576f891ddb55dd28ea6964ebc0701c549c78"
+    }
+  ],
+  "ignored_raw_receipts": [
+    {
+      "file": "domestic-search.json",
+      "bytes": 26244,
+      "sha256": "4a84b7b7cb88999fff64136e6dbc479ddd900ced593f85fdc9b5fe5143403f41"
+    },
+    {
+      "file": "guidelines.json",
+      "bytes": 14176,
+      "sha256": "0c2a72797b6cd2f989c31db94f473f34cc9439ed33cc79df433f622476b76a82"
+    },
+    {
+      "file": "search1.json",
+      "bytes": 29799,
+      "sha256": "8bfb9e73d767b94574804fe0391688c5c42afd49b34a341e4cccc12c9f963ca7"
+    },
+    {
+      "file": "search2.json",
+      "bytes": 30410,
+      "sha256": "cde3c484cf92652bc6b0e4ee7aea142e0a8f92c9c923ae77f498488f3327ae5b"
+    }
+  ]
+}

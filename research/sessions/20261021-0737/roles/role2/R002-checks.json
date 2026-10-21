@@ -1,0 +1,76 @@
+{
+  "exact_fraction_results": [
+    {
+      "example": "E1",
+      "tie_rule": "first",
+      "PB": 100,
+      "PM": 120,
+      "tB": 0,
+      "tM": 1,
+      "A": 80,
+      "r_at": "1/5",
+      "d": "2/5",
+      "r_peak": "-1/5",
+      "r_at_percent": "20",
+      "d_percentage_points": "40",
+      "r_peak_percent": "-20"
+    },
+    {
+      "example": "E2",
+      "tie_rule": "first",
+      "PB": 100,
+      "PM": 80,
+      "tB": 0,
+      "tM": 1,
+      "A": 40,
+      "r_at": "3/5",
+      "d": "2/5",
+      "r_peak": "1/5",
+      "r_at_percent": "60",
+      "d_percentage_points": "40",
+      "r_peak_percent": "20"
+    },
+    {
+      "example": "E2",
+      "tie_rule": "last",
+      "PB": 100,
+      "PM": 80,
+      "tB": 1,
+      "tM": 2,
+      "A": 80,
+      "r_at": "1/5",
+      "d": "0",
+      "r_peak": "1/5",
+      "r_at_percent": "20",
+      "d_percentage_points": "0",
+      "r_peak_percent": "20"
+    }
+  ],
+  "zero_boundary_checks": [
+    {
+      "status": "zero baseline; normalized metrics undefined",
+      "PB": 0,
+      "PM": 0
+    },
+    {
+      "status": "zero baseline; normalized metrics undefined",
+      "PB": 0,
+      "PM": 1
+    },
+    {
+      "PB": 100,
+      "PM": 0,
+      "tB": 0,
+      "tM": 0,
+      "A": 0,
+      "r_at": "1",
+      "d": "0",
+      "r_peak": "1",
+      "r_at_percent": "100",
+      "d_percentage_points": "0",
+      "r_peak_percent": "100"
+    }
+  ],
+  "wrong_signed_E1_percent": "180",
+  "new_ODE_or_large_data": 0
+}

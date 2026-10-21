@@ -1,0 +1,46 @@
+{
+  "actual_start": "2026-10-21T07:55:25.927640+08:00",
+  "frozen_at": "2026-10-21T07:57:09.575218+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\candidate-peak-time-correction-v001.md",
+      "bytes": 1721,
+      "sha256": "99793fa465a63d419b9a4277d8214658497485b8e02918faa82c75b4ff66bdb6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role2\\R001-validation-standards-partial.md",
+      "bytes": 5012,
+      "sha256": "b9822cb413a1a89f65f55dcb6c8c6c92503ee565793ce770c10d6dca12579c3c"
+    }
+  ],
+  "examples": [
+    [
+      "E1",
+      [
+        100,
+        50,
+        0
+      ],
+      [
+        -80,
+        -120,
+        -40
+      ]
+    ],
+    [
+      "E2",
+      [
+        100,
+        -100,
+        0
+      ],
+      [
+        40,
+        80,
+        -80
+      ]
+    ]
+  ],
+  "definition": "A=abs(M(tB)); r_at=1-A/PB; d=(PM-A)/PB; r_peak=1-PM/PB",
+  "grid": "three saved times 0,1,2 s; first/last tie rules both explicit"
+}

@@ -88,17 +88,17 @@
   ],
   "automation_id": "automation-5",
   "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261021T025253Z",
-  "phase": "research",
+  "phase": "closed-budget",
   "current_round": "R000",
-  "checkpoint_open": true,
+  "checkpoint_open": false,
   "automatic_git_authorized": true,
   "no_solver_or_api": true,
   "no_layout_change_primary": true,
   "canonical_source": "papers/damping-output-boundaries/manuscript/modal-shear-session009-v010.md",
   "canonical_manuscript": null,
-  "scientific_dispatch_allowed": true,
+  "scientific_dispatch_allowed": false,
   "old_session": "20261020-1844_closed-budget",
-  "last_git_checkpoint": null,
+  "last_git_checkpoint": "R000",
   "last_actual_snapshot": "2026-10-21T07:41:32.869246+08:00",
   "automation_actual_config": {
     "automation-5": {
@@ -131,5 +131,24 @@
       "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
     }
   },
-  "last_scientific_progress": "Six existing role chats actually active on new R001 tasks; no duplicate chat/solver started."
+  "last_scientific_progress": "Six existing role chats actually active on new R001 tasks; no duplicate chat/solver started.",
+  "last_git_receipt": "git-R000-receipt.json",
+  "last_git_result": {
+    "finished_at": "2026-10-21T07:42:30.826270+08:00",
+    "commit": "518bd998686193c31f9630a551540ae43440e79b",
+    "file_count": 15,
+    "staged_file_count": 15,
+    "attempts": [
+      {
+        "attempt": 1,
+        "success": true
+      }
+    ],
+    "remote_commit": "518bd998686193c31f9630a551540ae43440e79b",
+    "remote_verified": true,
+    "verify_error": null
+  },
+  "closed_at": "2026-10-21T20:56:03.258540+08:00",
+  "administrative_closure_late": true,
+  "continuation_session": "20261021-2020"
 }

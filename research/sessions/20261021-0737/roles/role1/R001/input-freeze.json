@@ -1,0 +1,36 @@
+{
+  "start": "2026-10-21T07:42:34+08:00",
+  "task_deadline": "2026-10-21T07:52:34+08:00",
+  "latest_delivery": "2026-10-21T07:53:00+08:00",
+  "session_deadline": "2026-10-21T10:37:53+08:00",
+  "writing_start": "2026-10-21T09:52:53+08:00",
+  "task": "role1 R001 finite layered evaluation proposal",
+  "source_versions": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\plan.md",
+      "sha256": "6203bfd62fccecf69b52143209d6427898ee7b5f33cc6f0fa4dd36a69b485d4c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\data-handoff.md",
+      "sha256": "0acd31e786b3b077e6311d9ce9379d9b9dc0afe9b4db98bcf80d6e09fc0e9824"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\candidate-peak-time-correction-v001.md",
+      "sha256": "99793fa465a63d419b9a4277d8214658497485b8e02918faa82c75b4ff66bdb6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role2\\R003-native-peak-review.md",
+      "sha256": "a3cae49374adbfac4d979275124bb526d1c9a5244e99fb614ffcb4337cf36dfb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-all14-main-axis-168.csv",
+      "sha256": "ff25735eb20b9592323fbaf0640e3e85f86b4610af8a2ebd5be37e870494b081"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-common-six-main-axis-72.csv",
+      "sha256": "cb36b10ad8d257ef4c2aedecf9fb95cc18a832e266a05bce9a0eec6a8a2eb621"
+    }
+  ],
+  "scope": "definitions and synthetic hand example only; no real168/72 recalculation, new ODE or raw-table extraction",
+  "freeze_note": "Source versions recorded at delivery; this was not a pre-run numerical experiment"
+}
