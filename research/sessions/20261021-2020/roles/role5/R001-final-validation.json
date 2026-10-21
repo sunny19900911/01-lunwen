@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-21T21:18:49.324133+08:00",
+  "source": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\jgjg-session011-v004.md",
+    "bytes": 22835,
+    "sha256": "c30cbbccecc21be395ad9cf55de3f842f806cfea8372b72d180d240a3e532b7a"
+  },
+  "final_Word": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\jgjg-session011-论文审阅稿-v004-r2.docx",
+    "bytes": 651623,
+    "sha256": "405717429608f95330fa4fed8e32051926767f2a6945a2b9fbc9c9a3ce3ec399"
+  },
+  "pages": 9,
+  "actual_final_individual_PNG_views": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "visual_QA": "pass",
+  "editable_tables": 7,
+  "images": 3,
+  "display_equations": 3,
+  "native_OMML_groups": 5,
+  "native_matrices": 1,
+  "references": 7,
+  "abstract_pure_Han": 331,
+  "Chinese_body_including_tables_captions": 4338,
+  "mechanism_Chinese_share": 0.0901,
+  "body_XML_characters_including_math": 11001,
+  "body_XML_characters_excluding_whitespace": 10557,
+  "all_table_cells_exact_match_source": true,
+  "approved_image_bytes_exact": true,
+  "source_unchanged": true,
+  "single_and_double_column_sections_present": true,
+  "margins_verified": true,
+  "official_template_downloaded": false,
+  "claim_full_template_compliance": false,
+  "artifact_marker_success_count": 1,
+  "official_render": "failed: LibreOffice soffice.exe absent on PATH",
+  "final_render": "hidden native Word COM -> PDF, source_saved=false; pypdfium2 scale2 PNG",
+  "before_2130_delivery": true,
+  "no_new_data_extraction_ODE_or_Git": true
+}

@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-21T21:29:34.734237+08:00",
+  "configs": {
+    "automation-5": {
+      "id": "automation-5",
+      "status": "PAUSED",
+      "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261021T140514Z",
+      "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
+    },
+    "git": {
+      "id": "git",
+      "status": "PAUSED",
+      "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261017T230945Z",
+      "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
+    },
+    "automation-3": {
+      "id": "automation-3",
+      "status": "PAUSED",
+      "rrule": "FREQ=DAILY;BYHOUR=7;BYMINUTE=9;BYSECOND=45;COUNT=1",
+      "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
+    },
+    "automation-4": {
+      "id": "automation-4",
+      "status": "PAUSED",
+      "rrule": "FREQ=MINUTELY;INTERVAL=10;UNTIL=20261018T092346Z",
+      "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
+    }
+  },
+  "official_tool_receipts": "final-tool-receipts.json"
+}

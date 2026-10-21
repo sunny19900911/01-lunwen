@@ -1,0 +1,635 @@
+{
+  "mode": "build",
+  "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\jgjg-session011-v004.md",
+  "source_sha256": "c30cbbccecc21be395ad9cf55de3f842f806cfea8372b72d180d240a3e532b7a",
+  "display_equations": [
+    {
+      "source": "r_{\\mathrm{peak},s,c}=1-\\frac{P_{M,s,c}}{P_{B,s,c}},\\qquad P_{B,s,c}>0.",
+      "OMML_nodes": 11
+    },
+    {
+      "source": "r_{\\mathrm{at}}=1-\\frac{A}{P_B},\\qquad d=\\frac{P_M-A}{P_B}\\ge0,\\qquad r_{\\mathrm{peak}}=r_{\\mathrm{at}}-d.",
+      "OMML_nodes": 20
+    },
+    {
+      "source": "V_s(t)=\\sum_r(\\ell_s^T\\phi_r)q_r(t).",
+      "OMML_nodes": 15
+    }
+  ],
+  "inline_math_groups": 2,
+  "tables": 7,
+  "images": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-story-range-median.png",
+      "sha256": "2b8a63f15e041a957765c4569c14ca17abc2540d0a51228926dacfff7d57552c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-peak-evaluation-scatter.png",
+      "sha256": "0717f775d9c9d055402f9fb43658d7cfe6f980dab57820f2f3ab18d05cb1f3b0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R008-Story8-QT-QD-two-cases.png",
+      "sha256": "fd541f00be40707a21e0562ab38d3931b21e04717339182c30f74381a452d545"
+    }
+  ],
+  "references": 7,
+  "excluded_process_tail": [],
+  "native_math_only": true,
+  "source_unchanged": true,
+  "journal_preflight": {
+    "source_math_commands": [
+      "begin",
+      "ell",
+      "end",
+      "frac",
+      "ge",
+      "mathrm",
+      "operatorname",
+      "phi",
+      "qquad",
+      "sum"
+    ],
+    "unsupported_math_tokens": [],
+    "abstract_characters": 406,
+    "abstract_Chinese_characters": 331,
+    "keywords": [
+      "楼层剪力",
+      "分层评价",
+      "附加阻尼",
+      "黏滞阻尼器",
+      "时程分析"
+    ],
+    "keyword_count": 5,
+    "English_keywords_present": true,
+    "paper": "A4",
+    "margins_cm": {
+      "top": 2.7,
+      "bottom": 2,
+      "left": 2,
+      "right": 2
+    },
+    "header_footer_cm": 1.5,
+    "body_font": "SimSun 10.5 pt; Times New Roman Latin/numerals",
+    "columns": "title/abstract one; main body two; tables/figures full-width continuous sections",
+    "body_column_width_cm": 8.1,
+    "body_column_gap_cm": 0.8,
+    "full_text_width_cm": 17,
+    "baseline_line_pitch_twips": 302,
+    "nominal_body_lines": 47,
+    "official_template_not_downloaded": true,
+    "rendered_compliance_not_verified": true
+  },
+  "serialized_math_groups": 5,
+  "serialized_matrices": 1,
+  "output": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\jgjg-session011-论文审阅稿-v004.docx",
+  "output_sha256": "1823330e2ee3722e71b826affe95e6b4f87629d456d72d55d558875290325164",
+  "equations": [
+    {
+      "number": "1",
+      "source_latex": "r_{\\mathrm{peak},s,c}=1-\\frac{P_{M,s,c}}{P_{B,s,c}},\\qquad P_{B,s,c}>0.",
+      "display_lines": 2,
+      "representation": "native OMML"
+    },
+    {
+      "number": "2",
+      "source_latex": "r_{\\mathrm{at}}=1-\\frac{A}{P_B},\\qquad d=\\frac{P_M-A}{P_B}\\ge0,\\qquad r_{\\mathrm{peak}}=r_{\\mathrm{at}}-d.",
+      "display_lines": 3,
+      "representation": "native OMML"
+    },
+    {
+      "number": "3",
+      "source_latex": "V_s(t)=\\sum_r(\\ell_s^T\\phi_r)q_r(t).",
+      "display_lines": 1,
+      "representation": "native OMML"
+    }
+  ],
+  "table_details": [
+    {
+      "number": 1,
+      "rows": 4,
+      "columns": 3,
+      "source_cells": [
+        [
+          "资料",
+          "范围",
+          "本文用途"
+        ],
+        [
+          "基准与参考模型的楼层剪力",
+          "14工况×12层，168条主方向记录",
+          "同输入逐层比较峰值、减幅和峰时"
+        ],
+        [
+          "阻尼器模型的楼层剪力",
+          "RH4、SHW4、SHW7各X/Y六工况，72条主方向记录",
+          "与另两模型并列描述输出"
+        ],
+        [
+          "装置轴力与变形",
+          "第8—11层32只装置×六工况",
+          "分析已有楼层装置合力及出力时序"
+        ]
+      ]
+    },
+    {
+      "number": 2,
+      "rows": 13,
+      "columns": 7,
+      "source_cells": [
+        [
+          "楼层",
+          "最小/%",
+          "中位/%",
+          "最大/%",
+          "最小值工况",
+          "P_B/kN",
+          "P_M/kN"
+        ],
+        [
+          "1",
+          "10.751",
+          "15.828",
+          "25.097",
+          "SHW4X",
+          "11399.73",
+          "10174.19"
+        ],
+        [
+          "2",
+          "11.265",
+          "16.050",
+          "25.457",
+          "SHW3X",
+          "12582.62",
+          "11165.22"
+        ],
+        [
+          "3",
+          "9.421",
+          "16.855",
+          "26.108",
+          "SHW3X",
+          "10495.37",
+          "9506.65"
+        ],
+        [
+          "4",
+          "7.300",
+          "18.044",
+          "26.345",
+          "SHW3X",
+          "9164.94",
+          "8495.88"
+        ],
+        [
+          "5",
+          "6.851",
+          "19.163",
+          "26.091",
+          "SHW3X",
+          "8691.64",
+          "8096.15"
+        ],
+        [
+          "6",
+          "7.823",
+          "18.492",
+          "21.479",
+          "SHW3X",
+          "8516.50",
+          "7850.29"
+        ],
+        [
+          "7",
+          "8.646",
+          "12.502",
+          "21.022",
+          "SHW3X",
+          "8140.43",
+          "7436.63"
+        ],
+        [
+          "8",
+          "9.900",
+          "14.308",
+          "25.730",
+          "SHW3X",
+          "7511.24",
+          "6767.66"
+        ],
+        [
+          "9",
+          "11.677",
+          "16.800",
+          "24.466",
+          "SHW3X",
+          "6625.36",
+          "5851.74"
+        ],
+        [
+          "10",
+          "11.758",
+          "18.910",
+          "30.546",
+          "SHW6X",
+          "6865.20",
+          "6057.99"
+        ],
+        [
+          "11",
+          "10.128",
+          "20.134",
+          "26.419",
+          "SHW6X",
+          "3297.45",
+          "2963.47"
+        ],
+        [
+          "12",
+          "22.039",
+          "26.949",
+          "29.173",
+          "SHW7X",
+          "702.07",
+          "547.34"
+        ]
+      ]
+    },
+    {
+      "number": 3,
+      "rows": 13,
+      "columns": 7,
+      "source_cells": [
+        [
+          "楼层",
+          "最小/%",
+          "中位/%",
+          "最大/%",
+          "最小值工况",
+          "P_B/kN",
+          "P_M/kN"
+        ],
+        [
+          "1",
+          "10.243",
+          "13.707",
+          "25.443",
+          "SHW3Y",
+          "12253.15",
+          "10998.03"
+        ],
+        [
+          "2",
+          "10.307",
+          "14.001",
+          "25.879",
+          "SHW3Y",
+          "11896.41",
+          "10670.27"
+        ],
+        [
+          "3",
+          "11.010",
+          "15.456",
+          "26.091",
+          "SHW3Y",
+          "10415.33",
+          "9268.65"
+        ],
+        [
+          "4",
+          "9.747",
+          "13.018",
+          "26.052",
+          "SHW3Y",
+          "9278.28",
+          "8373.96"
+        ],
+        [
+          "5",
+          "8.354",
+          "16.858",
+          "25.565",
+          "SHW3Y",
+          "8723.97",
+          "7995.21"
+        ],
+        [
+          "6",
+          "8.359",
+          "14.607",
+          "24.228",
+          "SHW3Y",
+          "8523.03",
+          "7810.60"
+        ],
+        [
+          "7",
+          "7.561",
+          "15.269",
+          "21.580",
+          "SHW4Y",
+          "7343.57",
+          "6788.32"
+        ],
+        [
+          "8",
+          "8.813",
+          "15.312",
+          "21.552",
+          "SHW4Y",
+          "6281.04",
+          "5727.50"
+        ],
+        [
+          "9",
+          "10.531",
+          "18.149",
+          "25.496",
+          "SHW3Y",
+          "6747.48",
+          "6036.92"
+        ],
+        [
+          "10",
+          "12.920",
+          "19.188",
+          "25.444",
+          "SHW3Y",
+          "5485.65",
+          "4776.91"
+        ],
+        [
+          "11",
+          "12.699",
+          "19.956",
+          "20.714",
+          "R1Y",
+          "2442.77",
+          "2132.55"
+        ],
+        [
+          "12",
+          "21.377",
+          "27.505",
+          "30.002",
+          "SHW7Y",
+          "842.24",
+          "662.20"
+        ]
+      ]
+    },
+    {
+      "number": 4,
+      "rows": 7,
+      "columns": 6,
+      "source_cells": [
+        [
+          "工况",
+          "楼层",
+          "P_B/kN",
+          "P_M/kN",
+          "减幅/%",
+          "峰时（基准→参考）/s"
+        ],
+        [
+          "RH4X",
+          "第7层",
+          "6725.06",
+          "5438.72",
+          "19.128",
+          "21.58→21.56"
+        ],
+        [
+          "RH4Y",
+          "第1层",
+          "10123.05",
+          "8735.50",
+          "13.707",
+          "12.20→12.20"
+        ],
+        [
+          "SHW4X",
+          "第1层",
+          "11399.73",
+          "10174.19",
+          "10.751",
+          "29.94→29.92"
+        ],
+        [
+          "SHW4Y",
+          "第7层",
+          "7343.57",
+          "6788.32",
+          "7.561",
+          "29.84→29.86"
+        ],
+        [
+          "SHW7X",
+          "第7层",
+          "8481.83",
+          "7421.40",
+          "12.502",
+          "38.12→38.10"
+        ],
+        [
+          "SHW7Y",
+          "第6层",
+          "8091.99",
+          "6909.98",
+          "14.607",
+          "48.88→38.10"
+        ]
+      ]
+    },
+    {
+      "number": 5,
+      "rows": 3,
+      "columns": 6,
+      "source_cells": [
+        [
+          "工况／楼层",
+          "基准模型峰/kN",
+          "参考模型峰/kN",
+          "阻尼器模型峰/kN",
+          "三模型各自峰时/s",
+          "阻尼器模型/参考模型"
+        ],
+        [
+          "SHW4Y／第7层",
+          "7343.5700",
+          "6788.3221",
+          "6715.1270",
+          "29.84／29.86／29.92",
+          "0.98921749"
+        ],
+        [
+          "RH4X／第1层",
+          "10566.7533",
+          "8528.6654",
+          "8916.7141",
+          "21.68／12.20／12.08",
+          "1.04549934"
+        ]
+      ]
+    },
+    {
+      "number": 6,
+      "rows": 3,
+      "columns": 6,
+      "source_cells": [
+        [
+          "工况",
+          "QT绝对峰/kN（时刻/s）",
+          "QD绝对峰/kN（时刻/s）",
+          "QT峰时QD/kN",
+          "QT峰时QD绝对值／QD自身绝对峰/%",
+          "tQD−tQT/s"
+        ],
+        [
+          "RH4X",
+          "5776.6513（21.60）",
+          "405.8268（11.50）",
+          "-238.1133",
+          "58.6736",
+          "-10.10"
+        ],
+        [
+          "RH4Y",
+          "5205.2112（21.58）",
+          "447.2019（11.46）",
+          "-279.6257",
+          "62.5278",
+          "-10.12"
+        ]
+      ]
+    },
+    {
+      "number": 7,
+      "rows": 4,
+      "columns": 3,
+      "source_cells": [
+        [
+          "阶次",
+          "方向有效质量比/%",
+          "第2层剪力系数（无量纲）"
+        ],
+        [
+          "1",
+          "87.0289",
+          "+0.315637"
+        ],
+        [
+          "2",
+          "8.1819",
+          "-0.022186"
+        ],
+        [
+          "3",
+          "4.7892",
+          "-1.316516"
+        ]
+      ]
+    }
+  ],
+  "image_details": [
+    {
+      "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-story-range-median.png",
+      "caption": "图1 X/Y各层多输入减幅范围"
+    },
+    {
+      "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-peak-evaluation-scatter.png",
+      "caption": "图2 原峰时评价与完整峰值减幅对照"
+    },
+    {
+      "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R008-Story8-QT-QD-two-cases.png",
+      "caption": "图3 第8层剪力与装置水平合力"
+    }
+  ],
+  "layout_switches": [
+    {
+      "columns": 2,
+      "reason": "main text starts after single-column title and abstracts"
+    },
+    {
+      "columns": 1,
+      "reason": "full-width table and caption"
+    },
+    {
+      "columns": 2,
+      "reason": "return after full-width table"
+    },
+    {
+      "columns": 1,
+      "reason": "full-width table and caption"
+    },
+    {
+      "columns": 2,
+      "reason": "return after full-width table"
+    },
+    {
+      "columns": 1,
+      "reason": "full-width table and caption"
+    },
+    {
+      "columns": 2,
+      "reason": "return after full-width table"
+    },
+    {
+      "columns": 1,
+      "reason": "full-width table and caption"
+    },
+    {
+      "columns": 2,
+      "reason": "return after full-width table"
+    },
+    {
+      "columns": 1,
+      "reason": "full-width figure"
+    },
+    {
+      "columns": 2,
+      "reason": "return after figure caption"
+    },
+    {
+      "columns": 1,
+      "reason": "full-width figure"
+    },
+    {
+      "columns": 2,
+      "reason": "return after figure caption"
+    },
+    {
+      "columns": 1,
+      "reason": "full-width table and caption"
+    },
+    {
+      "columns": 2,
+      "reason": "return after full-width table"
+    },
+    {
+      "columns": 1,
+      "reason": "full-width table and caption"
+    },
+    {
+      "columns": 2,
+      "reason": "return after full-width table"
+    },
+    {
+      "columns": 1,
+      "reason": "full-width figure"
+    },
+    {
+      "columns": 2,
+      "reason": "return after figure caption"
+    },
+    {
+      "columns": 1,
+      "reason": "full-width table and caption"
+    },
+    {
+      "columns": 2,
+      "reason": "return after full-width table"
+    }
+  ]
+}

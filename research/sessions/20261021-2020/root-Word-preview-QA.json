@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-21T21:21:02.136644+08:00",
+  "version": "v004 first final candidate, not last typography version",
+  "word_sha256": "1823330e2ee3722e71b826affe95e6b4f87629d456d72d55d558875290325164",
+  "master_actually_viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "findings": "No clipping/overlap; figures/tables/matrix/display equations readable. Requested native subscripts for bare variable tokens in prose/headers; new Word-only pass pending. This QA must not be attributed to a newer Word hash.",
+  "page_hashes": [
+    {
+      "page": 1,
+      "sha256": "1174c5629ae87730794864b6a9df74db1249ac9a5bfea3a3c1b41c2d2e4f6cb1"
+    },
+    {
+      "page": 2,
+      "sha256": "817f35eae319b8be44fc6aeb0873607bc35cd2f4eb08482144a5f8a90da6cc64"
+    },
+    {
+      "page": 3,
+      "sha256": "4742b4736e323795d1cf5fdf556324a720f4112f346c3c6ab894ef63a13da180"
+    },
+    {
+      "page": 4,
+      "sha256": "76f21ba24f07e6e23f693f6e1e1db42f96afe4c5577f6d5c5dd56e4b0bb8a165"
+    },
+    {
+      "page": 5,
+      "sha256": "1a5e220cd764de85d49cf4a7787af8859ca1a1bdaa71534f055d401e41510547"
+    },
+    {
+      "page": 6,
+      "sha256": "3954d746a745fbb0502bbb44ace6958ed99481386d464bb36624c08dd39411ed"
+    },
+    {
+      "page": 7,
+      "sha256": "8f2682feb04f7b4fd375bbb80988967844ca31aa863fb219e0916b1a28ee5ce1"
+    },
+    {
+      "page": 8,
+      "sha256": "10e4269914b1e4c43cff0b3916604b1fb28d175d40cf7099a4b49d3742d6b32f"
+    },
+    {
+      "page": 9,
+      "sha256": "45a40b7a971968e20447291b312b1ee4448a7a130cd86fbc23d5c6b69a9bae87"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "pause_update": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Updated automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"automation-5\",\"mode\":\"update\",\"status\":\"PAUSED\"}"
+      }
+    ],
+    "isError": false
+  },
+  "pause_view": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Rendered automation card in the app."
+      }
+    ],
+    "isError": false
+  },
+  "final_actual_role_snapshot": [
+    {
+      "role": "role1",
+      "cursor": "9acc5ebb-5bb8-4263-9b65-6b79387ae28d:29",
+      "status": {
+        "type": "idle"
+      },
+      "turn": {
+        "id": "01a15e89-5425-74b0-b48d-a5d92f5284b2",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792587420,
+        "completedAt": 1792587674,
+        "durationMs": 253466
+      }
+    },
+    {
+      "role": "role2",
+      "cursor": "0263925a-d2e4-473d-b943-f0e994e8a6ae:31",
+      "status": {
+        "type": "idle"
+      },
+      "turn": {
+        "id": "01a15e89-559f-7793-a148-4deb1e34fe0f",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792587421,
+        "completedAt": 1792587794,
+        "durationMs": 373229
+      }
+    },
+    {
+      "role": "role3",
+      "cursor": "dbfd450c-8059-468a-9f62-b23d5184c08d:25",
+      "status": {
+        "type": "idle"
+      },
+      "turn": {
+        "id": "01a15e93-6215-7940-8a7d-f8edea57cf41",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792588079,
+        "completedAt": 1792588170,
+        "durationMs": 90548
+      }
+    },
+    {
+      "role": "role4",
+      "cursor": "9161e6ab-c967-45df-bdbf-f6318a8755df:26",
+      "status": {
+        "type": "idle"
+      },
+      "turn": {
+        "id": "01a15e8c-ee7a-7b81-b82b-1b674433a563",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792587656,
+        "completedAt": 1792587847,
+        "durationMs": 190924
+      }
+    },
+    {
+      "role": "role5",
+      "cursor": "b15d080b-96ec-4374-a74b-8a358841245d:47",
+      "status": {
+        "type": "idle"
+      },
+      "turn": {
+        "id": "01a15e89-5aca-7f71-beaf-5ffc1884d9af",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792587422,
+        "completedAt": 1792589147,
+        "durationMs": 1725405
+      }
+    },
+    {
+      "role": "role6",
+      "cursor": "6b32e766-a0c4-4deb-9d91-cc75e8f32770:23",
+      "status": {
+        "type": "idle"
+      },
+      "turn": {
+        "id": "01a15e8f-2063-7c50-8932-76bc6a40d5fd",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1792587800,
+        "completedAt": 1792588203,
+        "durationMs": 402844
+      }
+    }
+  ]
+}
