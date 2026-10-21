@@ -1,0 +1,81 @@
+{
+  "status": "frozen",
+  "start_observed_utc": "2026-10-21T13:01:21+00:00",
+  "frozen_utc": "2026-10-21T13:03:24.361599+00:00",
+  "elapsed_seconds": 123.361599,
+  "within_5min": true,
+  "mapping": [
+    {
+      "approved_png": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-story-range-median.png",
+      "png_sha256": "2b8a63f15e041a957765c4569c14ca17abc2540d0a51228926dacfff7d57552c",
+      "svg": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-story-range-median.svg",
+      "svg_sha256": "238f70faf23e84482a9114ba9e8ca5802f5860a9fa32c7c4ea369fbcf9342c5c",
+      "width": 2200,
+      "height": 1507,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "actual_view_image_QA_pass": true,
+      "XML_valid": true
+    },
+    {
+      "approved_png": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-peak-evaluation-scatter.png",
+      "png_sha256": "0717f775d9c9d055402f9fb43658d7cfe6f980dab57820f2f3ab18d05cb1f3b0",
+      "svg": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-peak-evaluation-scatter.svg",
+      "svg_sha256": "0d92031561b048a76831fa8e44913351e9e05d3737f728f77082f9d54f847604",
+      "width": 2200,
+      "height": 1671,
+      "dpi": [
+        199.9996,
+        199.9996
+      ],
+      "actual_view_image_QA_pass": true,
+      "XML_valid": true
+    }
+  ],
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-story-axis-summary-24.csv",
+      "sha256": "a51af38372212ade834ef54d560776573b7b504f804bc83f23441c04df7e1a96"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R001-d-168.csv",
+      "sha256": "a97a9995809af82858c274c87d1ff15164e54ab858e65fd195c7cf2a53e99d6b"
+    }
+  ],
+  "source_data_changed": false,
+  "new_scientific_calculations": 0,
+  "all_output_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-captions.md",
+      "bytes": 529,
+      "sha256": "83697e021cf70b9f1004b42d967ebee5b21e67b8a251815d66df7e1b8d5b2fa9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-peak-evaluation-scatter.png",
+      "bytes": 173654,
+      "sha256": "0717f775d9c9d055402f9fb43658d7cfe6f980dab57820f2f3ab18d05cb1f3b0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-peak-evaluation-scatter.svg",
+      "bytes": 19369,
+      "sha256": "0d92031561b048a76831fa8e44913351e9e05d3737f728f77082f9d54f847604"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-story-range-median.png",
+      "bytes": 190028,
+      "sha256": "2b8a63f15e041a957765c4569c14ca17abc2540d0a51228926dacfff7d57552c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-story-range-median.svg",
+      "bytes": 17081,
+      "sha256": "238f70faf23e84482a9114ba9e8ca5802f5860a9fa32c7c4ea369fbcf9342c5c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002_figures.py",
+      "bytes": 4544,
+      "sha256": "e65190589dcaa7b3dbf743d6cf1b141ca86c6d03783f0c8528dc2f5325f69b8d"
+    }
+  ]
+}

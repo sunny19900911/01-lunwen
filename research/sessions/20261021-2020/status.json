@@ -77,12 +77,12 @@
   "automation_id": "automation-5",
   "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261021T140514Z",
   "old_session": "20261021-0737",
-  "phase": "writing",
-  "checkpoint_open": true,
-  "current_round": "R000",
+  "phase": "Word-render-and-QA",
+  "checkpoint_open": false,
+  "current_round": "R001",
   "old_session_closed": true,
   "automatic_git_authorized": true,
-  "scientific_dispatch_allowed": true,
+  "scientific_dispatch_allowed": false,
   "automation_actual_config": {
     "automation-5": {
       "id": "automation-5",
@@ -108,5 +108,35 @@
       "rrule": "FREQ=MINUTELY;INTERVAL=10;UNTIL=20261018T092346Z",
       "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07"
     }
-  }
+  },
+  "last_git_checkpoint": "R000",
+  "last_git_receipt": "git-R000-receipt.json",
+  "last_git_result": {
+    "finished_at": "2026-10-21T20:59:25.545986+08:00",
+    "commit": "9fc5560969a5cc46a96a4bd613eb8042db3c341c",
+    "file_count": 80,
+    "attempts": [
+      {
+        "attempt": 1,
+        "success": false
+      },
+      {
+        "attempt": 2,
+        "success": true
+      }
+    ],
+    "remote_commit": "9fc5560969a5cc46a96a4bd613eb8042db3c341c",
+    "remote_verified": true,
+    "frozen_whitespace_exception": "role5 R002 builder whitespace-only line397 retained to preserve source SHA"
+  },
+  "last_frozen_scientific_update": "2026-10-21T21:01:54+08:00",
+  "method_admission": "root-method-acceptance-v001.md",
+  "next_task": "Complete source, freeze figures, independent audit d, generate editable Word and actual every-page QA; no expansion",
+  "canonical_manuscript": "papers/damping-output-boundaries/manuscript/jgjg-session011-v004.md",
+  "canonical_source_sha256": "c30cbbccecc21be395ad9cf55de3f842f806cfea8372b72d180d240a3e532b7a",
+  "no_new_scientific_experiments": true,
+  "method_status": "reviewed existing-data workflow and d; final source integration pending",
+  "no_new_scientific_dispatch": true,
+  "no_new_experiments": true,
+  "scientific_results_frozen": "24/14/108 independent aggregation and 168 d independent Decimal audit; new figures frozen and master viewed; only final text/Word/QA/Git remain"
 }

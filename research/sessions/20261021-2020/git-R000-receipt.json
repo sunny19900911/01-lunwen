@@ -1,0 +1,18 @@
+{
+  "finished_at": "2026-10-21T20:59:25.545986+08:00",
+  "commit": "9fc5560969a5cc46a96a4bd613eb8042db3c341c",
+  "file_count": 80,
+  "attempts": [
+    {
+      "attempt": 1,
+      "success": false
+    },
+    {
+      "attempt": 2,
+      "success": true
+    }
+  ],
+  "remote_commit": "9fc5560969a5cc46a96a4bd613eb8042db3c341c",
+  "remote_verified": true,
+  "frozen_whitespace_exception": "role5 R002 builder whitespace-only line397 retained to preserve source SHA"
+}

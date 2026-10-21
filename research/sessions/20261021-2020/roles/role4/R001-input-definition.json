@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-21T12:58:15.894945+00:00",
+  "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-all14-main-axis-168.csv",
+  "source_sha256": "ff25735eb20b9592323fbaf0640e3e85f86b4610af8a2ebd5be37e870494b081",
+  "code_sha256": "46a6ee454d7b0cba8397e90a7ed337c5eb5dbd13fdf69d32ba4d878bda825611",
+  "definitions": "A=abs(V_M(t_B)); r_at=100*(1-A/PB); d_pp=100*(PM-A)/PB; r_peak=100*(1-PM/PB)",
+  "inequality_tolerance_kN": "1e-10*max(1,PM)",
+  "identity_tolerance_pp": 1e-10,
+  "quantiles": "linear interpolation at (n-1)*p",
+  "tie_scope": "reuse previously selected first saved absolute peak t_B; not an all-tied-times audit",
+  "scope": "frozen 168 matched B/M native Bottom records; no arrays, fits, ODE or actual-device comparison"
+}

@@ -1,0 +1,120 @@
+{
+  "source_bindings": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-delivery-manifest.json",
+      "bytes": 2891,
+      "sha256": "2859dc90bf0a439aa30ead010ed037ef1300ab00736fd8d6c391e30955e0e0b1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-all14-evidence-map-168.csv",
+      "bytes": 83218,
+      "sha256": "f25be2d97516b665ca461ceb9f2ae2fb7e77ca1c0630a040010971872e5c93f8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-case-baselines-14.csv",
+      "bytes": 3199,
+      "sha256": "c9a3d065d18c283267a55702a98a7c3c29fc4d3a559bd1563e9f6833601538f2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-definition-input-freeze.json",
+      "bytes": 2361,
+      "sha256": "813949e48b048f6850f456c80e48d2551623b8f5e0d10c5b6ae641bff0dd35cd"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-engineering-note.md",
+      "bytes": 2419,
+      "sha256": "f667ab5fd823ff93826b2d501b92be7ec62b86bf1c8541b6baf155f2f725b090"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-minimum-layer-recurrence-108.csv",
+      "bytes": 3610,
+      "sha256": "acfa8b4b8e714c0ecd48c4a48cced0a1f91e07d455385afa711f1b1a96ce0671"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-results.json",
+      "bytes": 1842,
+      "sha256": "0b01d6166527470363c21736677430b6ce161743fc53afc342d7319ab474d81e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-story-axis-summary-24.csv",
+      "bytes": 6976,
+      "sha256": "a51af38372212ade834ef54d560776573b7b504f804bc83f23441c04df7e1a96"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002_evidence_map.py",
+      "bytes": 10073,
+      "sha256": "93c51d3a79f7242e9404a922e4b0052e64465165561d31a0ff0cf4af51e4515b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-clarification-manifest.json",
+      "bytes": 1675,
+      "sha256": "328f6b5f8d929157446d203e3d41ba4134bf1f798f5d99065202305c845b19fe"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-recurrence-clarification.md",
+      "bytes": 499,
+      "sha256": "46c97dfe8c45bb5815025a970cfa670cd7359fb19ffb1f12bcfbc39a43398e08"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role4\\R002-minimum-layer-recurrence-108.csv",
+      "bytes": 3610,
+      "sha256": "acfa8b4b8e714c0ecd48c4a48cced0a1f91e07d455385afa711f1b1a96ce0671"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-all14-main-axis-168.csv",
+      "bytes": 66167,
+      "sha256": "ff25735eb20b9592323fbaf0640e3e85f86b4610af8a2ebd5be37e870494b081"
+    }
+  ],
+  "rows_independently_reaggregated": 168,
+  "summary_rows_checked": 24,
+  "baseline_rows_checked": 14,
+  "recurrence_rows_checked": 108,
+  "bottom_counts": [
+    3,
+    2
+  ],
+  "co_maximum_recurrence": [
+    {
+      "scope": "all_14",
+      "Axis": "X_and_Y",
+      "Story": "Story1",
+      "case_minimum_count": "3",
+      "deduplicated_wave_family_count": "3",
+      "Cases": "R1X;RH4Y;SHW4X",
+      "wave_families": "R1;RH4;SHW4"
+    },
+    {
+      "scope": "all_14",
+      "Axis": "X_and_Y",
+      "Story": "Story6",
+      "case_minimum_count": "3",
+      "deduplicated_wave_family_count": "2",
+      "Cases": "SHW6X;SHW6Y;SHW7Y",
+      "wave_families": "SHW6;SHW7"
+    },
+    {
+      "scope": "all_14",
+      "Axis": "X_and_Y",
+      "Story": "Story7",
+      "case_minimum_count": "3",
+      "deduplicated_wave_family_count": "3",
+      "Cases": "RH4X;SHW4Y;SHW7X",
+      "wave_families": "RH4;SHW4;SHW7"
+    }
+  ],
+  "SHW7X": {
+    "minimum_Stories": "Story7",
+    "minimum_reduction_percent": 12.502379433919442,
+    "minimum_P_B_kN": 8481.830091364805,
+    "minimum_P_M_kN": 7421.399510402021,
+    "bottom_is_minimum": false,
+    "bottom_reduction_percent": 25.097211346906445,
+    "bottom_P_B_kN": 12827.079816281523,
+    "bottom_P_M_kN": 9607.84048515297,
+    "unweighted_12_story_mean_reduction_percent": 20.602348145069143,
+    "bottom_minus_minimum_pp": 12.594831912987003,
+    "mean_minus_minimum_pp": 8.099968711149701
+  },
+  "new_arrays_ODE": 0
+}

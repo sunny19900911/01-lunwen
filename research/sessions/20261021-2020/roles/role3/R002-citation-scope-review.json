@@ -1,0 +1,59 @@
+{
+  "task": "20261021-2020 role3 R002 citation scope quick review",
+  "reviewed_at": "2026-10-21T21:03:24.337856+08:00",
+  "input": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\jgjg-session011-v001.md",
+    "bytes": 22025,
+    "sha256": "4b421a3adfe2183e7110c06048821a623520daca151036e5d09e0d99d02f77d6",
+    "matches_author_hash": true
+  },
+  "scope": "first citation order; citation support boundaries; abstracts and keywords; not numerical or Word layout validation",
+  "first_citation_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "reference_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "first_citation_and_bibliography_match": true,
+  "missing_reference_ids": [],
+  "uncited_reference_ids": [],
+  "chinese_abstract_han_characters": 389,
+  "chinese_abstract_300_to_500_han_characters": true,
+  "chinese_keywords": [
+    "楼层剪力",
+    "分层评价",
+    "附加阻尼",
+    "黏滞阻尼器",
+    "时程分析"
+  ],
+  "english_keywords": [
+    "story shear",
+    "story-by-story assessment",
+    "added damping",
+    "viscous damper",
+    "time-history analysis"
+  ],
+  "keyword_counts_5_to_8": true,
+  "keyword_semantic_correspondence_manually_checked": true,
+  "bilingual_title_and_abstract_present": true,
+  "author_affiliation_information": "explicit bilingual placeholders; author must fill before submission",
+  "added_three_citations_within_previously_verified_scope": true,
+  "song_maxwell_csi_claims_within_previously_verified_scope": true,
+  "must_findings": [],
+  "minor_style_note": "Conde reference ends with Chinese full stop; may normalize during bibliography style pass. No new source verification required.",
+  "verdict": "PASS within this limited scope; manuscript bytes unchanged; no overall publication readiness claim",
+  "new_searches": 0,
+  "new_downloads": 0
+}
