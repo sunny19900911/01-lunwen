@@ -1,0 +1,48 @@
+{
+  "phase": "running",
+  "session": "20261030-2034",
+  "start": "2026-10-30T20:34:43+08:00",
+  "deadline": "2026-10-30T22:34:43+08:00",
+  "deadline_utc": "2026-10-30T14:34:43Z",
+  "writing_start": "2026-10-30T22:04:43+08:00",
+  "checkpoint": "R001",
+  "checkpoint_open": true,
+  "no_new_scientific_dispatch": false,
+  "active_plan": "plan.md",
+  "git_authorized": "new human message every15min normal scoped commit/push",
+  "primary_task": "root execute loworder fit NOW, no waiting for roles",
+  "automation": "automation-5 ACTIVE formally updated/view and actual TOML checked",
+  "last_actual": "2026-10-30T20:41:54+08:00",
+  "root_R001": {
+    "executed": true,
+    "variants": 8,
+    "metric_rows": 96,
+    "runtime_seconds": 0.592767,
+    "primary": "N12_elastic_rc1e-10",
+    "Story5_fixed8_NRMSE_range": [
+      0.025783766418572638,
+      0.04070634908765085
+    ],
+    "Story12_fixed8_NRMSE_range": [
+      0.4527888042507099,
+      0.601853890963748
+    ],
+    "audit": "pending independent role2"
+  },
+  "git": {
+    "authorized": true,
+    "branch": "main",
+    "initial_index": "empty",
+    "initial_HEAD_and_remote_main": "c12784ccccfe4dbcfa81be300c5e1270895897b2",
+    "publication": "initial checkpoint preparation, not yet pushed"
+  },
+  "role_tasks": {
+    "role1": "R001 Story5 reference modal groups",
+    "role2": "R001 independent N12 numerical audit",
+    "role3": "R0012primary sources",
+    "role4": "R001 unique N24 extension",
+    "role5": "R001 new session019 engineering draft",
+    "role6": "R001 grouping/truncation identifiability"
+  },
+  "next_checkpoint": "collect role2 actual numbers, role4 N24, route to role1/5; do not repeat root"
+}

@@ -1,0 +1,119 @@
+{
+  "time": "2026-10-30T12:44:01.732913+00:00",
+  "authorization": "human20261030 explicit15min Git upload",
+  "initial_HEAD_remote": "c12784ccccfe4dbcfa81be300c5e1270895897b2",
+  "all_role_files_excluded_until_frozen": true,
+  "source_files": [
+    {
+      "relative": "research/sessions/20261030-2034/plan.md",
+      "bytes": 4220,
+      "sha256": "80f684363dfd34fd69b09bbf83ac00065e7d99eca62977d321b203180a0257dd"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/status.json",
+      "bytes": 1673,
+      "sha256": "1b19720a402e56f3b21d17fa0a1b68a3ae29434c174b3cb1f3c802a03dd37e05"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/authorization.md",
+      "bytes": 250,
+      "sha256": "05b746f02b28472775255b5450259074e52b7d0f17ad723d844d40ec738e1a76"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/claims.md",
+      "bytes": 314,
+      "sha256": "cd45d3e0692b95c7ceff5c3106e6f7d55847bdeb6c5bf03ecc5dafb2718acc60"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/runs.md",
+      "bytes": 197,
+      "sha256": "5128239295e1f5924f421494e0b42909440e00b1f27bfba123acb9b8c61b9707"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/threads.json",
+      "bytes": 12980,
+      "sha256": "3a54d6da2ed72d65b037c5fa20fd5d45a576cf49eaaf21560417f7b78d6df1ed"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/initial-thread-snapshots.json",
+      "bytes": 9925,
+      "sha256": "4e18ac92b2861a490fba7008fd4cf65d330d3a4d6cd59bb90fd0e8ad326747a3"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/automation-start-tool-receipts.json",
+      "bytes": 4587,
+      "sha256": "878f83af5f7fe4f9e0fbe3b5041b7205b2cd1c0cf516a189a2a6fa70440e2aea"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/rounds/R001-start.md",
+      "bytes": 942,
+      "sha256": "681ddce2b3f7023a0b55cf6eea0b0953366eb647495df2563d601ac6244646ff"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/run_low_order_fit.py",
+      "bytes": 8796,
+      "sha256": "d4c550bdb0fc346de54ca577e2a8ea231932345df0ed429edbe593cacd5bbb3f"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/git_checkpoint_initial.py",
+      "bytes": 4441,
+      "sha256": "7cbbd4372c0cfd86b63ebfe0896499d62d6c69e8ecca607ebc216eb7cfd5e0a2"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root-R001-low-order/README.md",
+      "bytes": 846,
+      "sha256": "48a09d4db02215324410a79023fc6b4f6831b2da3c895c39e806090eb586b65f"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root-R001-low-order/input-rules-freeze.json",
+      "bytes": 2924,
+      "sha256": "f61d2d407e0637348cc3bcdf6bd07f38db8bafc20bd3273f067b1fd712d3f88a"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root-R001-low-order/prediction-errors-96.csv",
+      "bytes": 26059,
+      "sha256": "07ec6a4debd84f7d7639eadc2b5bfba5c60252a3e9807748fd3c65088fb21e66"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root-R001-low-order/fixed-output-coefficients.csv",
+      "bytes": 21445,
+      "sha256": "a5cdcce91404e81301d21f0ef4f723d5f49fd4283d7d0803267ab7c51149890a"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root-R001-low-order/primary-modal-reference-peaks.csv",
+      "bytes": 19626,
+      "sha256": "e020df81763484a7b7e8752258223c0b718dc879ddb18ac6b84e586bf6037f5c"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root-R001-low-order/primary-critical-time-terms.csv",
+      "bytes": 10534,
+      "sha256": "6a282ed956778acb5645401ba2c4ce62f43c7b30cee4baf15eaacc1cc3524ce7"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root-R001-low-order/primary-critical-time-groups.csv",
+      "bytes": 5939,
+      "sha256": "247d79a8740fd93533d1929da435854873a455b278020992842bd13de1b682ab"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root-R001-low-order/models-small.json",
+      "bytes": 12177,
+      "sha256": "3812ec39438d1c225237a3291f7a439a4e812b27d773e495f942a95180eeffab"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root-R001-low-order/coefficient-stability.csv",
+      "bytes": 244,
+      "sha256": "e9bd1896bf929798dc4068536bb9c519cb68334e09684b2917f14ebe23992c88"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root-R001-low-order/results.json",
+      "bytes": 7193,
+      "sha256": "2e4be6ff5a20c969dfb3253575e2e71d9b16712dfa85360593078545debbd89e"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root-R001-low-order/manifest.json",
+      "bytes": 1707,
+      "sha256": "acdb5cb394625f5d3e66f62819d75ae1b75427ab7e0166410bb9ab3b5645c10c"
+    }
+  ],
+  "exclude": "local-cache,raw arrays,prior dirty work"
+}
