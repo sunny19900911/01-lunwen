@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-10-30T13:39:17.469285+00:00",
+  "started_utc": "2026-10-30T13:36:47+00:00",
+  "elapsed_seconds": 150.469285,
+  "rows": 108,
+  "two_story_checks": 216,
+  "cache_keys_confirmed": true,
+  "sources_match_frozen_R002_manifest": true,
+  "source_hashes_unchanged": true,
+  "max_two_story_kernel_recovery_abs_error_m_s2": 2.220446049250313e-16,
+  "max_two_story_kernel_recovery_relative_Linf": 2.532173415848508e-16,
+  "max_direct_story_term_invariant_ratio_error": 2.220446049250313e-16,
+  "max_direct_story_term_invariant_shape_error": 1.1102230246251565e-16,
+  "max_negative_scale_invariance_error": 2.220446049250313e-16,
+  "max_CSV_scalar_metric_recheck_error": 0,
+  "counterincrease_count": 0,
+  "no_ODE_or_fit": true,
+  "no_ETABS": true,
+  "no_new_N": true,
+  "no_complete_kernel_trace_outputs": true,
+  "no_Git": true,
+  "actual_participation_factor_Gamma_not_inferred": true
+}

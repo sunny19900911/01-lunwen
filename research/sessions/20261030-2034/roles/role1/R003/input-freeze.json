@@ -1,0 +1,22 @@
+{
+  "task": "session019-role1-R003",
+  "scope": "Independent algebraic coefficient bound; no new fitting, model, ETABS, or large-table extraction",
+  "request_formula": "B_sr=(r_s^T M phi_r)(phi_r^T M r)/(phi_r^T M phi_r)",
+  "started_at": "2026-10-30T21:30:28+08:00",
+  "sources": [
+    {
+      "path": "C:\\Users\\mj528\\.codex\\skills\\etabs-response-analysis\\scripts\\modal_linear.py",
+      "bytes": 2206,
+      "sha256": "1c2620542f812e355c4be3ad8877db92db2ba3343cd3a2405e26c731be796827"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role1\\R002\\one-page.md",
+      "bytes": 3125,
+      "sha256": "51cd9b23ab9e242105e43dd415d7b38c500aa952941470e70ef45c472ec7274e"
+    }
+  ],
+  "source_checks": {
+    "kernel_forcing": "states solves -ag; inspected before authoring",
+    "R002_chi": "Fit-term cancellation warning only; not physical-residue proof"
+  }
+}

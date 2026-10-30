@@ -7,3 +7,8 @@ C019-04 testing：N24to36的低高组整体收敛。N36候选输出改善不单�
 C019-05 reviewed：全12层48验证记录288数字核通过；原生36对峰降6.851—29.173%，Story11峰时失败保留。
 C019-06 proved accounting + reviewed example：P5−P8=D−M，M>=0；屋顶SHW4净29.1734%=31.9149%−2.7415%。不是纯相位或因果贡献。
 C019-07 pending physical interpretation：高拟合组内部χ近.99999，真实高阶物理占比暂不成立；小表物理量级检查正在进行。
+
+C019-08 reviewed conditional diagnostic：系数单位tonnes；最大拟合高项/楼板MassX合计14833倍；拒绝真实高阶占比解释。Cauchy界需输出/质量坐标条件，非已证实际VX违规。①R003②R005。
+C019-09 testing：现有36阶单位参与核的跨ζ峰幅比与归一波形，不依赖拟合输出coef；④R006仅现存数组指标。
+
+C019-10 supported/reviewed scalar native accounting：36对D-M及20峰时变/16未变由③独核；不是相位或因果份额。C019-09 production108rows completed，independent first36 audit pending；单位参与核不代表各层真实贡献。

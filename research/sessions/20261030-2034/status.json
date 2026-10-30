@@ -5,14 +5,14 @@
   "deadline": "2026-10-30T22:34:43+08:00",
   "deadline_utc": "2026-10-30T14:34:43Z",
   "writing_start": "2026-10-30T22:04:43+08:00",
-  "checkpoint": "R004",
+  "checkpoint": "R005",
   "checkpoint_open": true,
   "no_new_scientific_dispatch": false,
   "active_plan": "plan.md",
   "git_authorized": "new human message every15min normal scoped commit/push",
   "primary_task": "All12 engineering comparison complete; physical coefficient scale check and full paper integration",
   "automation": "automation-5 ACTIVE formally updated/view and actual TOML checked",
-  "last_actual": "2026-10-30T21:31:52.884833+08:00",
+  "last_actual": "2026-10-30T21:42:56.862814+08:00",
   "root_R001": {
     "executed": true,
     "variants": 8,
@@ -34,12 +34,12 @@
     "branch": "main",
     "initial_index": "empty",
     "initial_HEAD_and_remote_main": "c12784ccccfe4dbcfa81be300c5e1270895897b2",
-    "publication": "R003 reviewed all12/N36 publication in progress",
-    "last_success_HEAD": "e60281649d81af4b888201a31d1b9ba08a72a9df",
-    "last_success_receipt": "git-R002-receipt.json"
+    "publication": "R004 explicit frozen mainline evidence publication pending",
+    "last_success_HEAD": "d62fb76465e120ca4f5880c3c4726b7dc56651d8",
+    "last_success_receipt": "git-R003-receipt.json"
   },
   "role_tasks": "initial R001 tasks are completed history; current_tasks authoritative",
-  "next_checkpoint": "Collect role1R003/role2R005 physical scale checks, role4R005 native peak ledger, role5R003 v003; no new fit",
+  "next_checkpoint": "Collect role1R00436kernel review and role2R006 manuscript review; root read v004 after freeze; then final writing after22:04:43 and final cutoff22:34:43. No new fits or layout tasks.",
   "independent_audit": {
     "N12": "role2/R001 8records48numbers0must",
     "N24": "role2/R002 8records48numbers0must",
@@ -47,12 +47,12 @@
     "all12": "role2/R00448records288numbers passed; Story11 timing failure retained"
   },
   "current_tasks": {
-    "role1": "R003 physical modal residue bound8min",
-    "role2": "R005 existing coefficients physical scale10min",
-    "role3": "R002 harmonic response ratio frozen;idle",
-    "role4": "R005 native all12 peak ledger8min",
-    "role5": "R003 full engineering manuscriptv00312min",
-    "role6": "R005 engineering interpretation without physical high attribution8min"
+    "role1": "R004 independent first12 x3 kernel ratio metrics from root cache;active",
+    "role2": "R006 v003 scientific claim review5min;active or collect actual",
+    "role3": "R00336native peak scalar audit frozen0must;idle",
+    "role4": "R006 unit kernel108 metrics frozen;idle",
+    "role5": "R004 v004 mainline rewrite integrating reviewed native ledger and unit kernel;12min active",
+    "role6": "R005 native vs fitted interpretations frozen;idle"
   },
   "recovery_file": "rounds/R003-start.md",
   "scientific_status": {
@@ -62,6 +62,9 @@
     "Story5": "stable1to3 group,peakcancellation weak;not all differencesphase",
     "Story12": "N24/36 outputaccuracy good but highsubgroup compensation;prefer>=13 aggregate verification",
     "all12": "36 native peak comparisons and 48 held-out/cross-zeta records reviewed",
-    "physical_scale": "pending role1R003/role2R005, very large within-high fitted cancellation"
+    "physical_scale": "reviewed conditional mass scale, max fitted high coefficient/known mass14833; cannot interpret high fitted terms as true physical modal contribution; not universal actual bound violation",
+    "native_peak_ledger": "role3R00336rows scalar/arithmetic independently passed,20timechanges16M0;not causal phase",
+    "manuscript": "v003 full draft root read; factual quantities match; next simplify language and add unit-kernel results only after review",
+    "unit_modal_kernels": "108existing kernel peak ratios0.70894..0.93645,first3 both amplitude and shape differences;role1 independent36row audit in progress"
   }
 }

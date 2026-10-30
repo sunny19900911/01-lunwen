@@ -1,0 +1,90 @@
+{
+  "status": "complete physical scale audit; conditional references, no certified native cut-force bound",
+  "started_Asia_Shanghai": "2026-10-30T21:30:29+08:00",
+  "mass_scale_completed": "2026-10-30T21:32:40.204974+08:00",
+  "frozen_Asia_Shanghai": "2026-10-30T21:37:20.998348+08:00",
+  "deadline": "2026-10-30T21:40:29+08:00",
+  "elapsed_seconds": 411.998348,
+  "within10_minutes": true,
+  "mass_source_rows": 18,
+  "mode_UX_ratios": 36,
+  "coefficient_cells": 432,
+  "old_two_stories_exact_comparisons": 144,
+  "role6_small_table_arithmetic_checks": 612,
+  "role6_arithmetic_must_count": 0,
+  "role1_R003_cross_check": "frozen files hash-verified; theorem and caveats agree",
+  "no_new_fit_integrator_large_array": true,
+  "scope_limits": [
+    "full M and exact Bottom VX elastic cut operator not certified",
+    "cached diaphragm mass sum is not automatically the full FE directional modal mass denominator",
+    "no unconditional physical bound violation inferred",
+    "role6 arithmetic does not independently validate group arrays or causality"
+  ],
+  "files": [
+    {
+      "name": "check_mass_scale.py",
+      "bytes": 5837,
+      "sha256": "1de7991d557533d66e6353beb63b57163ea65cfd5efae72668081d66801db9dc"
+    },
+    {
+      "name": "check_role6_arithmetic.py",
+      "bytes": 3233,
+      "sha256": "8178e74bb10effabc8c6be5c4fd2804e8940bdcd88266b95c8a21a9d888f4fdc"
+    },
+    {
+      "name": "coefficient-mass-diagnostics-432.csv",
+      "bytes": 49735,
+      "sha256": "71df0808ea15f5265e205f5941b8e7b24aae0bc602182f6bb0d7e0cd8ea460de"
+    },
+    {
+      "name": "cross-checks.json",
+      "bytes": 786,
+      "sha256": "35c48c7bfa1f082e8be054187a9cac52f92170250a622ad9f6849c9919c85380"
+    },
+    {
+      "name": "finalize_R005.py",
+      "bytes": 3630,
+      "sha256": "f13e2af5f5d620efcb30ab74af4312ecc7fca10493c7771c0baf97372860e06b"
+    },
+    {
+      "name": "input-freeze.json",
+      "bytes": 1915,
+      "sha256": "65ef64eed4e075e4aa34d3101910122c189725582807a7191dff7bf8a9d87433"
+    },
+    {
+      "name": "mass-source-18.csv",
+      "bytes": 961,
+      "sha256": "28bdd43f47a2142ba78341c5bd12f566e04a16f06f86fa720ec2d37cda1fbda9"
+    },
+    {
+      "name": "maximum-coefficient-per-story-12.csv",
+      "bytes": 1550,
+      "sha256": "8f5ba7535c275df8a154b6b433690718dcf55d5c828081b111b923b7c28f7754"
+    },
+    {
+      "name": "modal-mass-reference-36.csv",
+      "bytes": 3132,
+      "sha256": "8ab5c0b0d8211bb9eb0c40e600279c7ec0d0363da983b7b3e4660857ed96ef4a"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 4266,
+      "sha256": "188bd941781251c118a422ec8abf7431c282965ce6d698f1141c0a12cdc225f5"
+    },
+    {
+      "name": "results.json",
+      "bytes": 959,
+      "sha256": "521057d7877934f122ffdaec14cf7b62330100fb455729d0117f1e7c15c062ce"
+    },
+    {
+      "name": "role6-summary-arithmetic.json",
+      "bytes": 910,
+      "sha256": "bd4884096650a0eed709a3c0ed0d512cd5c5f5b9b107d62a40f88ed2d9e5cbb5"
+    },
+    {
+      "name": "story-mass-reference-12.csv",
+      "bytes": 1053,
+      "sha256": "392107526b419fa4cb8aa132cff4de62903c55d4dac591ecfcce9fad9d00bb49"
+    }
+  ]
+}

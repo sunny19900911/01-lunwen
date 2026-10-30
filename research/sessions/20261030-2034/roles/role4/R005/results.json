@@ -1,0 +1,216 @@
+{
+  "completed_utc": "2026-10-30T13:31:35.761422+00:00",
+  "rows": 36,
+  "no_peak_reselection_count": 16,
+  "no_time_argmax_change_count": 16,
+  "old_anchor_still_abspeak_count": 16,
+  "control_sign_changed_count": 3,
+  "max_identity_error_kN": 0.0,
+  "max_recheck_difference_vs_R003": 7.105427357601002e-15,
+  "strongest_peak_reselection_by_M_over_P5": {
+    "Case": "RH4X",
+    "Story": "Story1",
+    "Location": "Bottom",
+    "Axis": "X",
+    "P5_kN": 10566.753300748205,
+    "P8_kN": 8528.665433618042,
+    "t0_5pct_abspeak_s": 21.68,
+    "t8_8pct_abspeak_s": 12.200000000000001,
+    "peak_time_shift_s": -9.479999999999999,
+    "s0": 1,
+    "s8": -1,
+    "V5_t0_kN": 10566.753300748205,
+    "V8_t0_kN": 8140.361073232304,
+    "V5_t8_kN": -9377.704551852108,
+    "V8_t8_kN": -8528.665433618042,
+    "D_same_time_signed_decrease_kN": 2426.392227515901,
+    "M_peak_reselection_correction_kN": 388.3043603857377,
+    "net_peak_decrease_kN": 2038.0878671301634,
+    "D_over_P5": 0.22962514203337125,
+    "M_over_P5": 0.036747745436457084,
+    "net_decrease_over_P5": 0.19287739659691416,
+    "D_percent_P5": 22.962514203337125,
+    "M_percent_P5": 3.674774543645708,
+    "net_peak_decrease_percent": 19.287739659691415,
+    "time_argmax_changed": true,
+    "old_anchor_still_8pct_abspeak": false,
+    "old_anchor_still_8pct_signed_control": false,
+    "M_zero_within_tolerance": false,
+    "control_sign_changed": true,
+    "abspeak5_exact_tie_count": 1,
+    "abspeak8_exact_tie_count": 1,
+    "identity_error_kN": 0.0,
+    "native_SourceRow5": 424984,
+    "native_SourceRow8": 424510
+  },
+  "top5": [
+    {
+      "Case": "RH4X",
+      "Story": "Story1",
+      "t0_5pct_abspeak_s": 21.68,
+      "t8_8pct_abspeak_s": 12.200000000000001,
+      "D_percent_P5": 22.962514203337125,
+      "M_percent_P5": 3.674774543645708,
+      "net_peak_decrease_percent": 19.287739659691415
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story2",
+      "t0_5pct_abspeak_s": 21.7,
+      "t8_8pct_abspeak_s": 12.24,
+      "D_percent_P5": 22.800085041838226,
+      "M_percent_P5": 2.9400088881182187,
+      "net_peak_decrease_percent": 19.86007615372001
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story12",
+      "t0_5pct_abspeak_s": 28.34,
+      "t8_8pct_abspeak_s": 20.580000000000002,
+      "D_percent_P5": 31.914947022405197,
+      "M_percent_P5": 2.741497255768702,
+      "net_peak_decrease_percent": 29.173449766636498
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story3",
+      "t0_5pct_abspeak_s": 21.66,
+      "t8_8pct_abspeak_s": 12.040000000000001,
+      "D_percent_P5": 22.519900067002002,
+      "M_percent_P5": 1.4938327190243712,
+      "net_peak_decrease_percent": 21.026067347977634
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story4",
+      "t0_5pct_abspeak_s": 29.98,
+      "t8_8pct_abspeak_s": 29.92,
+      "D_percent_P5": 13.15568696649544,
+      "M_percent_P5": 1.2675089547335703,
+      "net_peak_decrease_percent": 11.88817801176187
+    }
+  ],
+  "no_reselection_rows": [
+    {
+      "Case": "SHW3X",
+      "Story": "Story2",
+      "t0_s": 22.72,
+      "t8_s": 22.72,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "SHW3X",
+      "Story": "Story6",
+      "t0_s": 22.98,
+      "t8_s": 22.98,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "SHW3X",
+      "Story": "Story7",
+      "t0_s": 23.02,
+      "t8_s": 23.02,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "SHW3X",
+      "Story": "Story8",
+      "t0_s": 23.06,
+      "t8_s": 23.06,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "SHW3X",
+      "Story": "Story9",
+      "t0_s": 23.1,
+      "t8_s": 23.1,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "SHW3X",
+      "Story": "Story10",
+      "t0_s": 23.14,
+      "t8_s": 23.14,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "SHW3X",
+      "Story": "Story11",
+      "t0_s": 23.18,
+      "t8_s": 23.18,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "SHW3X",
+      "Story": "Story12",
+      "t0_s": 21.18,
+      "t8_s": 21.18,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story7",
+      "t0_s": 29.86,
+      "t8_s": 29.86,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story9",
+      "t0_s": 29.72,
+      "t8_s": 29.72,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story11",
+      "t0_s": 29.68,
+      "t8_s": 29.68,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story4",
+      "t0_s": 21.48,
+      "t8_s": 21.48,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story5",
+      "t0_s": 21.48,
+      "t8_s": 21.48,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story9",
+      "t0_s": 21.68,
+      "t8_s": 21.68,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story10",
+      "t0_s": 21.7,
+      "t8_s": 21.7,
+      "M_kN": 0.0
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story12",
+      "t0_s": 20.240000000000002,
+      "t8_s": 20.240000000000002,
+      "M_kN": 0.0
+    }
+  ],
+  "source_native_table": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\native-all12-peak-change-36.csv",
+    "sha256": "6e6690e7e32dcc101d8d69e59e4abc424f00570c89bc53122930ff6b7037b04e"
+  },
+  "source_cache": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\local-cache\\all12-low-high-reference-traces.npz",
+    "sha256": "d67e4833bfeacb50f8d13255fc47e73e421ed456cf510105ddac02d38d61cddf"
+  },
+  "method": "native algebraic peak accounting; no causal phase shares, fit, order extension or trace output"
+}

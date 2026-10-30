@@ -5,3 +5,5 @@
 Git：R001正常push53b60df已远端SHA核等同；R002只收本轮冻结小文件，publisher按明确manifest执行。每15分钟新检查点用新ID，receipt已存在先看，不重复commit。local-cache永远排除。
 
 R003 completed: N36,all12; independent role2R003/R004; roof role1R002; source role3R002; figures role4R004; grouping role6R003/R004. New R004 limited physical scale/native peak ledger/v003 only. No N>36 or new fit.
+
+R004 completed: role1R003 conditional bound + role2R005432coeff/612arithmetic; role4R00536native ledger + role3R003 independent scalar audit; role4R006108unit modal metrics no newODE/fit; role5v003 read. Pending role1R004 independent36kernel, role2R006 v003 review, authorv004.

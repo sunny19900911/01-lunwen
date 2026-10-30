@@ -1,0 +1,13 @@
+{
+  "completed": "2026-10-30T21:37:20.996345+08:00",
+  "role1_R003_manifest_sha256": "d4e8bb6488e8477d60dbb351e96b9da20ec1c7bdddc76cf3915172683c1970ac",
+  "role1_files_verified": 4,
+  "theorem_review": "manually cross-checked B=a_s^T M phi Gamma, PSD Cauchy, same-coordinate and elastic-output conditions",
+  "ag_units": "frozen config m/s^2, multiplier1; input original function not re-extracted",
+  "negative_ag_kernel_sign": "read from existing helper; no integration rerun",
+  "config_sha256": "c249e22be8f0d41bb5beb59e9c24153bc26eb7948f23f72386c28f78d0a4a1e9",
+  "helper_sha256": "1c2620542f812e355c4be3ad8877db92db2ba3343cd3a2405e26c731be796827",
+  "mass_matrix_or_native_Bottom_VX_operator_certified": false,
+  "conditional_references_only": true,
+  "cross_role_must_count": 0
+}

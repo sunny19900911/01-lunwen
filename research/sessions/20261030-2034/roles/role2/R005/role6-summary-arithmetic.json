@@ -1,0 +1,30 @@
+{
+  "completed": "2026-10-30T21:34:18.727019+08:00",
+  "scope": "small frozen summary arithmetic only, not independent group arrays or modal identification",
+  "rows": 36,
+  "numeric_checks": 612,
+  "must_count": 0,
+  "max_abs_difference": {
+    "group_prediction": 1.5243131201714277e-08,
+    "prediction_residual": 0.0,
+    "chi": 0.0,
+    "ratio_low": 0.0,
+    "ratio_high": 0.0,
+    "ratio_residual": 0.0,
+    "N36_NRMSE": 0.0,
+    "native_peak_reduction": 0.0,
+    "low_amplitude_reduction": 0.0,
+    "high_amplitude_reduction": 0.0
+  },
+  "counts": {
+    "low_abs_larger": 72,
+    "chi_zero": 48,
+    "chi_nonzero": 24,
+    "low_ratio_above1": 16,
+    "high_reverse": 24,
+    "wave_opposes_amplitude": 38,
+    "low_amplitude_decreased": 36,
+    "high_amplitude_decreased": 36
+  },
+  "source_freeze_sha256": "79edb49a9618db8832fc418d97a70f2607037fb70700108ede26a78b352c2360"
+}

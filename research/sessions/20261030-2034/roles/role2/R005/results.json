@@ -1,0 +1,27 @@
+{
+  "completed": "2026-10-30T21:32:40.204974+08:00",
+  "table_total_MassX_kg": 47440864.26971303,
+  "table_total_MassX_tonnes": 47440.86426971303,
+  "independent_cumulative_sum_kg": 47440864.26971302,
+  "mass_rows": 18,
+  "modes": 36,
+  "sum_mu_UX_36": 0.9749118695410253,
+  "coefficient_cells": 432,
+  "old_two_stories_exact_checks": 144,
+  "max_coefficient": {
+    "Story": "Story3",
+    "Mode": 34,
+    "group": "13to36",
+    "raw_output_coef_tonnes": 703690719.4770803,
+    "abs_coef_over_table_total_mass": 14833.008005006504,
+    "mu_UX": 1.7260037639266982e-05,
+    "conditional_sqrt_Ms_meff_tonnes_NOT_certified_bound": 170.07557053371602,
+    "coef_over_conditional_reference_NOT_proven_violation": 4137517.91200124
+  },
+  "low12_max_abs_coef_over_table_mass": 0.6479909689587493,
+  "high24_max_abs_coef_over_table_mass": 14833.008005006504,
+  "conditional_exceedance_counts_not_proven_physical_violations": {
+    "1to12": 0,
+    "13to36": 240
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "frozen_utc": "2026-10-30T13:39:17.469285+00:00",
+  "outputs": [
+    {
+      "name": "across-wave-amplitude-ratio-range-36.csv",
+      "bytes": 4071,
+      "sha256": "bbb90e50ed7e7c99dc0dcead8b2a130e99fd03ca4ce1a94eb6d48275abfa74ed"
+    },
+    {
+      "name": "finalize.py",
+      "bytes": 2449,
+      "sha256": "f09a54156f0b910d75ea0c000ce5d4c674a2458448ac1c4c6ac5574298da186c"
+    },
+    {
+      "name": "modal-unit-kernel-change-108.csv",
+      "bytes": 34975,
+      "sha256": "cbba4f36fc96ef9d99b91a2faca4aabb01b2f95868854d91b7b77f7dbf3465c5"
+    },
+    {
+      "name": "README-unit-modal-kernels.md",
+      "bytes": 2931,
+      "sha256": "2bddb3b4b47dd8619d6850242781e44c0d242ebc498e4e74ea2b81f1bbb17473"
+    },
+    {
+      "name": "recover_modal_kernel_metrics.py",
+      "bytes": 7099,
+      "sha256": "ad17b46ef6ef52d77d31a51682c4dc8fcc8b44339df3fc8771dc1ef263d1d4fe"
+    },
+    {
+      "name": "results.json",
+      "bytes": 9217,
+      "sha256": "754d451fb4be532d0ea2525928ce6ce052f05fc9f2adc965da94325d350b4e34"
+    },
+    {
+      "name": "two-story-kernel-recovery-checks-216.csv",
+      "bytes": 12957,
+      "sha256": "2e070dc929cfadf99246a703005ed9df2628c360058488b157bf999b9b6d85d9"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 925,
+      "sha256": "18c9e1d28cc73212292d20fcd29e415f8b7b03a8609f6cc44e0dd028912c7273"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R002\\models-small-N36.json",
+      "bytes": 10807,
+      "sha256": "6b4012f47ce19b6907ec14f6731bff85371982a336b9069ed4bf024e34a459a2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R002\\fixed-output-coefficients-N36-144.csv",
+      "bytes": 10654,
+      "sha256": "688601a598e5c8f9939f26ef4970107c56032f2108a64f1700c7bf262318e2ac"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R002\\local-cache\\N36-elastic-two-rcond-traces.npz",
+      "bytes": 19467470,
+      "sha256": "d4c0a7ef5ebe9d3638312be46340483c02b34c6fa6c76913bc11c4469eb380a8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R002\\delivery-manifest.json",
+      "bytes": 4275,
+      "sha256": "aedddcf45f34d6001465e91445e77d8df3e40004631e5a31110c6aa99ec12c64"
+    }
+  ],
+  "full_arrays_local_only": true
+}

@@ -1,0 +1,151 @@
+{
+  "task": "20261030-2034 role3 R003",
+  "completed_at": "2026-10-30T21:38:12.348132+08:00",
+  "verdict": "PASS scalar-table and algebraic audit; raw extrema not re-extracted",
+  "rows_checked": 36,
+  "roof_ledger_rows_checked": 3,
+  "counts": {
+    "M_zero": 16,
+    "time_unchanged": 16,
+    "old_anchor_abspeak": 16,
+    "old_anchor_signed_peak": 16,
+    "sign_changed": 3,
+    "positive_M": 20
+  },
+  "minimum_M_kN": 0.0,
+  "all_tie_counts_in_supplied_table_equal_one": true,
+  "sign_changed_records": [
+    {
+      "Case": "RH4X",
+      "Story": "Story1",
+      "s0": 1,
+      "s8": -1
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story2",
+      "s0": 1,
+      "s8": -1
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story3",
+      "s0": 1,
+      "s8": -1
+    }
+  ],
+  "maximum_absolute_differences": {
+    "s0": 0.0,
+    "s8": 0.0,
+    "old_anchor_abs": 0.0,
+    "new_anchor_abs": 0.0,
+    "D_kN": 0.0,
+    "M_kN": 0.0,
+    "net_kN": 0.0,
+    "identity_kN": 0.0,
+    "stored_identity_error": 0.0,
+    "time_shift_s": 0.0,
+    "D_over_P5": 0.0,
+    "D_percent_P5": 0.0,
+    "M_over_P5": 0.0,
+    "M_percent_P5": 0.0,
+    "net_decrease_over_P5": 0.0,
+    "net_peak_decrease_percent": 0.0,
+    "R003_peak5_kN": 0.0,
+    "R003_peak8_kN": 0.0,
+    "R003_peak5_time_s": 0.0,
+    "R003_peak8_time_s": 0.0,
+    "R003_V8_at_5peak_kN": 0.0,
+    "R003_V5_at_8peak_kN": 0.0,
+    "R003_native_peak_decrease_percent": 7.105427357601002e-15,
+    "role1_P5_native_kN": 0.0,
+    "role1_P8_native_kN": 0.0,
+    "role1_D_old_peak_suppression_kN": 0.0,
+    "role1_M_controlling_peak_transfer_gap_kN": 0.0,
+    "role1_P5_minus_P8_kN": 0.0,
+    "role1_D_minus_M_kN": 0.0,
+    "role1_D_over_P5_percent": 0.0,
+    "role1_M_over_P5_percent": 0.0,
+    "role1_native_peak_reduction_percent": 0.0,
+    "role1_signed_cross": 0.0
+  },
+  "selected_examples": [
+    {
+      "Case": "RH4X",
+      "Story": "Story1",
+      "P5_kN": 10566.753300748205,
+      "P8_kN": 8528.665433618042,
+      "t0_s": 21.68,
+      "t8_s": 12.200000000000001,
+      "s0": 1,
+      "s8": -1,
+      "V8_t0_kN": 8140.361073232304,
+      "D_kN": 2426.392227515901,
+      "M_kN": 388.3043603857377,
+      "net_kN": 2038.0878671301634,
+      "D_percent": 22.962514203337125,
+      "M_percent": 3.674774543645708,
+      "net_percent": 19.287739659691415,
+      "wrong_M_if_s8_used_kN": 16669.026506850347
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story2",
+      "P5_kN": 10157.975374086764,
+      "P8_kN": 8140.593729117008,
+      "t0_s": 21.7,
+      "t8_s": 12.24,
+      "s0": 1,
+      "s8": -1,
+      "V8_t0_kN": 7841.948350265997,
+      "D_kN": 2316.0270238207668,
+      "M_kN": 298.6453788510107,
+      "net_kN": 2017.381644969756,
+      "D_percent": 22.800085041838226,
+      "M_percent": 2.9400088881182187,
+      "net_percent": 19.86007615372001,
+      "wrong_M_if_s8_used_kN": 15982.542079383005
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story12",
+      "P5_kN": 596.9845110655846,
+      "P8_kN": 422.82353461526577,
+      "t0_s": 28.34,
+      "t8_s": 20.580000000000002,
+      "s0": 1,
+      "s8": 1,
+      "V8_t0_kN": 406.45722062703857,
+      "D_kN": 190.527290438546,
+      "M_kN": 16.366313988227205,
+      "net_kN": 174.1609764503188,
+      "D_percent": 31.914947022405197,
+      "M_percent": 2.741497255768702,
+      "net_percent": 29.173449766636498
+    }
+  ],
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R005\\native-peak-accounting-all12-36.csv",
+      "bytes": 13806,
+      "sha256": "15b4c520d5abc7f289cb199f26a7a9a49682793ba161d9bb0ebe5a6783a173d4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\native-all12-peak-change-36.csv",
+      "bytes": 5315,
+      "sha256": "6e6690e7e32dcc101d8d69e59e4abc424f00570c89bc53122930ff6b7037b04e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role1\\R002\\native-peak-ledger-3.csv",
+      "bytes": 1136,
+      "sha256": "27ea43b8eae7c0d7cc7998217c63c8cdaac6f31dafc0cff9cc2e856b3d81e690"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R005\\results.json",
+      "bytes": 5906,
+      "sha256": "e1af0dfa412fe96cbf8f0ae53a5333c689c053762a0ff7c6c1ea4771eaf02664"
+    }
+  ],
+  "arrays_or_fits_read_or_run": false,
+  "unverified_scope": "No raw-array rerun of global max, tie multiplicity, grid identity or signed-anchor extraction"
+}

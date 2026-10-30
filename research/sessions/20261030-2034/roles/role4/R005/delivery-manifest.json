@@ -1,0 +1,56 @@
+{
+  "frozen_utc": "2026-10-30T13:32:35.764732+00:00",
+  "outputs": [
+    {
+      "name": "cache-key-verification.json",
+      "bytes": 25711,
+      "sha256": "09253af185fcb6271646184bb858261cec0dc7e8110af7804210d6cd2bd56a3f"
+    },
+    {
+      "name": "finalize.py",
+      "bytes": 2425,
+      "sha256": "1f6269dc991681beca34e1d21eaaf9a58cfaca0f5dee1161cfb1a0e06024fa3e"
+    },
+    {
+      "name": "inspect_cache.py",
+      "bytes": 2331,
+      "sha256": "eb701a83c4c48276a46b9aa4e48036e93fff01f10f178cd58c6607bb8ebd36c9"
+    },
+    {
+      "name": "native-peak-accounting-all12-36.csv",
+      "bytes": 13806,
+      "sha256": "15b4c520d5abc7f289cb199f26a7a9a49682793ba161d9bb0ebe5a6783a173d4"
+    },
+    {
+      "name": "peak_accounting.py",
+      "bytes": 4373,
+      "sha256": "827c726e3361a08024f3f39980ce09e242e57f65b4a76181399303c704786f75"
+    },
+    {
+      "name": "README-native-peak-accounting.md",
+      "bytes": 2581,
+      "sha256": "046a8f5029adb06ca4a47c1bd37c6edc27f828b89afa1748aed0690b177354e1"
+    },
+    {
+      "name": "results.json",
+      "bytes": 5906,
+      "sha256": "e1af0dfa412fe96cbf8f0ae53a5333c689c053762a0ff7c6c1ea4771eaf02664"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 704,
+      "sha256": "f96f8c61e6d644b2101ae0696ffc08de41dd9a092a485ab766fabed3dba069b5"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\native-all12-peak-change-36.csv",
+      "sha256": "6e6690e7e32dcc101d8d69e59e4abc424f00570c89bc53122930ff6b7037b04e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\local-cache\\all12-low-high-reference-traces.npz",
+      "sha256": "d67e4833bfeacb50f8d13255fc47e73e421ed456cf510105ddac02d38d61cddf"
+    }
+  ],
+  "full_arrays_local_only": true
+}

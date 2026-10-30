@@ -1,0 +1,30 @@
+{
+  "formula": "abs(B_sr) <= sqrt(M_s*m_eff_r)",
+  "valid_if": [
+    "M is real symmetric positive semidefinite, modal mass positive",
+    "same constrained coordinates and transformed input/output directions",
+    "signed elastic output exactly r_s^T K u",
+    "unit-participation kernel solves -ag, g=omega^2*s",
+    "raw unscaled fitting coefficients and compatible units"
+  ],
+  "necessary_not_sufficient": true,
+  "physical_output_mapping_verified_here": false,
+  "session_acceleration_units_verified_here": false,
+  "coefficient_table_screen_performed_here": false,
+  "mass_substitution": "M_dir is a standalone bound only if M_s <= M_dir is established; translational lumped 0/1 selection provides this condition",
+  "table_columns": [
+    "mode",
+    "B_fit_raw",
+    "m_eff",
+    "M_s",
+    "sqrt(M_s*m_eff)",
+    "abs(B_fit_raw)/bound"
+  ],
+  "units_example": {
+    "force": "kN",
+    "kernel": "m/s^2",
+    "B_kg": "1000*B_fit_raw",
+    "B_tonne": "B_fit_raw"
+  },
+  "zero_bound": "If bound=0, physical B must be zero; do not form ratio"
+}

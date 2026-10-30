@@ -1,0 +1,33 @@
+{
+  "started": "2026-10-30T21:30:29+08:00",
+  "deadline": "2026-10-30T21:40:29+08:00",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R002\\delivery-manifest.json",
+      "sha256": "aedddcf45f34d6001465e91445e77d8df3e40004631e5a31110c6aa99ec12c64",
+      "frozen": "2026-10-30T20:54:26.185527+08:00"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\delivery-manifest.json",
+      "sha256": "f080fdfa868b7649ffb42ed3f5847c282e7c59e0b81e8f18018c3f697d236439",
+      "frozen": "2026-10-30T21:07:18.523265+08:00"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native0_small_tables.json",
+      "sha256": "20815b312c71b0c4e8260573752faccbd922c40d84e28bc2549becfca880a972"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\all12-models-small.json",
+      "sha256": "4bd32840e02adf597ef1f08edc0a86a61e1e49f4e829ead6e314ceb3e53c0c82"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R002\\models-small-N36.json",
+      "sha256": "6b4012f47ce19b6907ec14f6731bff85371982a336b9069ed4bf024e34a459a2"
+    }
+  ],
+  "no_fit": true,
+  "no_large_array_read": true,
+  "units": "kN/(m/s^2) = 1000 kg = tonne",
+  "mass_scope": "sum of native0 Centers Of Mass And Rigidity Mass X, not certified full M matrix",
+  "conditional_reference": "sqrt(M_s * (mu_UX * M_table)); not a certified bound for ETABS reported Bottom VX"
+}
