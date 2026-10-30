@@ -1,0 +1,36 @@
+{
+  "task": "20261030-2034 role3 R002",
+  "recorded_at": "2026-10-30T21:17:10.536172+08:00",
+  "equation_sources_reused": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261025-1337\\roles\\role3\\R001-damping-superposition-sources.md",
+      "bytes": 5926,
+      "sha256": "2bd1b820ae18a24cb2ab5c5c87b0556e6871bb27b92a55b978511b8597f56454"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role3\\R001-output-truncation-citations.md",
+      "bytes": 5085,
+      "sha256": "90172bcae31354ad21df94ea0fc0a99ccdc98fa45532152d51d2dad771b8109e"
+    }
+  ],
+  "source_locations": {
+    "CSI": "2016 Rev15 printed403-404/PDF425-426 Modal Time-History Analysis / Modal Damping",
+    "Song": "MCEER-08-0005 printed38/PDF56 Eq3.58"
+  },
+  "proof_identity": "direct harmonic substitution and algebra from classical SDOF; not claimed verbatim source theorem",
+  "source_claims": "harmonic phase derivative and R bound explicitly self-derived",
+  "example_count": 3,
+  "betas": [
+    0.5,
+    1,
+    2
+  ],
+  "new_searches": 0,
+  "new_downloads": 0,
+  "new_ode_or_model_scans": 0,
+  "source_script": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role3\\R002\\check_three_examples.py",
+    "bytes": 1743,
+    "sha256": "e25f08c8ca3ea8a2924480a3fce418a0932b18683e8df7fe310c948c6f948cd5"
+  }
+}

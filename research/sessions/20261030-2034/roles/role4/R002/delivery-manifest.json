@@ -1,0 +1,113 @@
+{
+  "status": "complete single N36 stability check, independent review pending",
+  "frozen_utc": "2026-10-30T12:54:26.185527+00:00",
+  "frozen_Asia_Shanghai": "2026-10-30T20:54:26.185527+08:00",
+  "elapsed_seconds": 206.185527,
+  "within10_minutes": true,
+  "files": [
+    {
+      "name": "early-N36_elastic_rc1e-08-errors-12.csv",
+      "bytes": 3584,
+      "last_modified_utc": "2026-10-30T12:51:58.893651+00:00",
+      "sha256": "09ff817514b795e9125f95344a6b8c0bb58df74ff4fe7d3e549a0f7305f3b9f4"
+    },
+    {
+      "name": "early-N36_elastic_rc1e-10-errors-12.csv",
+      "bytes": 3584,
+      "last_modified_utc": "2026-10-30T12:51:58.866854+00:00",
+      "sha256": "3c66528843fb57bb8be42117d2bbc303cfee73aaaf440a79353c84a717302c61"
+    },
+    {
+      "name": "finalize_N36.py",
+      "bytes": 9146,
+      "last_modified_utc": "2026-10-30T12:54:25.291242+00:00",
+      "sha256": "f0b7e71d20c5c153ca2d6799b8c422d5776940256f07f5e3096fd45c0a680507"
+    },
+    {
+      "name": "fixed-output-coefficients-N36-144.csv",
+      "bytes": 10654,
+      "last_modified_utc": "2026-10-30T12:51:58.897173+00:00",
+      "sha256": "688601a598e5c8f9939f26ef4970107c56032f2108a64f1700c7bf262318e2ac"
+    },
+    {
+      "name": "group-stability-summary-8.csv",
+      "bytes": 1729,
+      "last_modified_utc": "2026-10-30T12:54:25.847229+00:00",
+      "sha256": "a621872117cfe47e537aaab392f0bb4c112a59e9a7969b3b424e6783166a00f4"
+    },
+    {
+      "name": "high-block-compensation-12.csv",
+      "bytes": 4030,
+      "last_modified_utc": "2026-10-30T12:54:26.057787+00:00",
+      "sha256": "058ee881fe14e93d86d29b740de0cc4814f64e98bd4705480997f9145e6eb190"
+    },
+    {
+      "name": "input-rules-freeze.json",
+      "bytes": 3974,
+      "last_modified_utc": "2026-10-30T12:51:58.547122+00:00",
+      "sha256": "048bace712ad3649794011a736a9455095cecda21db1771e021b1496f500a2ff"
+    },
+    {
+      "name": "models-condition-2.csv",
+      "bytes": 322,
+      "last_modified_utc": "2026-10-30T12:51:58.896172+00:00",
+      "sha256": "2bcec4d77e800be3d82f27919e228de46600514a56f99e4b986d133fd6a60be1"
+    },
+    {
+      "name": "models-small-N36.json",
+      "bytes": 10807,
+      "last_modified_utc": "2026-10-30T12:51:58.897173+00:00",
+      "sha256": "6b4012f47ce19b6907ec14f6731bff85371982a336b9069ed4bf024e34a459a2"
+    },
+    {
+      "name": "N24-to-N36-common-group-curves-96.csv",
+      "bytes": 28206,
+      "last_modified_utc": "2026-10-30T12:51:59.006280+00:00",
+      "sha256": "bafbf86022db7bbb766de1d81047485a65c1711b52d95d4b0ee11835f1a19726"
+    },
+    {
+      "name": "prediction-errors-N36-24.csv",
+      "bytes": 6935,
+      "last_modified_utc": "2026-10-30T12:51:58.895167+00:00",
+      "sha256": "2501558345ea14dda48993aa4b0f45de9a43533638547749a85fa971f690d596"
+    },
+    {
+      "name": "rcond-stability-2.csv",
+      "bytes": 113,
+      "last_modified_utc": "2026-10-30T12:51:59.018841+00:00",
+      "sha256": "1614b9ea380b6f43a96ed3fd246fa6baedecb8aece326e4d4935bb0a836ecc59"
+    },
+    {
+      "name": "README-N36-stability.md",
+      "bytes": 3208,
+      "last_modified_utc": "2026-10-30T12:54:26.057787+00:00",
+      "sha256": "1a3f4ca39d8c095cdada19524f9db87e9509354d76f3164689fab2f5ac808938"
+    },
+    {
+      "name": "results.json",
+      "bytes": 13232,
+      "last_modified_utc": "2026-10-30T12:51:59.789608+00:00",
+      "sha256": "046042139fd0c0c0a2669f856f29508ad7f89b8451473426b2d66e858924a727"
+    },
+    {
+      "name": "run_N36_check.py",
+      "bytes": 8344,
+      "last_modified_utc": "2026-10-30T12:51:57.914702+00:00",
+      "sha256": "7cb83f4d8205dd790ec288a641528dddc4a5868a1b7fde628944dcb91e0369ff"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 724,
+      "last_modified_utc": "2026-10-30T12:54:26.185528+00:00",
+      "sha256": "55b598c7579a0f337e59818b27492f27f3a89beb0773c44f02a0c9b9755e93d5"
+    }
+  ],
+  "local_only_array": {
+    "path": "local-cache/N36-elastic-two-rcond-traces.npz",
+    "bytes": 19467470,
+    "sha256": "d4c0a7ef5ebe9d3638312be46340483c02b34c6fa6c76913bc11c4469eb380a8",
+    "upload_allowed": false
+  },
+  "main_errors": "prediction-errors-N36-24.csv",
+  "report": "README-N36-stability.md"
+}

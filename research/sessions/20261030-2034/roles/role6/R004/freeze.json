@@ -1,0 +1,35 @@
+{
+  "status": "candidate full36row summary complete; role2 allfloor audit pending",
+  "start_local": "2026-10-30T21:11:05+08:00",
+  "frozen_local": "2026-10-30T21:16:38+08:00",
+  "elapsed_seconds": 333.40752,
+  "task_limit_seconds": 600,
+  "within_limit": true,
+  "source_sha_verified": true,
+  "no_new_fit_N_or_array_exports": true,
+  "row_count": 36,
+  "numeric_group_prediction_closure_kN": 2.4018481781240553e-07,
+  "symmetric_identity_error_kN": 1.2505552149377763e-12,
+  "files": {
+    "all12-three-input-summary-36.csv": {
+      "bytes": 39358,
+      "sha256": "e37765602cf449f0d9e7b81cd0e7c5d44f14155899fa6563ec6d208171b72651"
+    },
+    "initial-closure-check-failure.json": {
+      "bytes": 670,
+      "sha256": "6f80f0813ffb0a13f6aab7daff688e559dda2a1c6b2150f76d0548e920d264e0"
+    },
+    "one-page.md": {
+      "bytes": 3061,
+      "sha256": "dc746429a73d056f7f6d565f1e8db74a0e853a2a20b7c304851a8ad55ee86ff8"
+    },
+    "results.json": {
+      "bytes": 17682,
+      "sha256": "1b6127bbbdda3d59b4743822ae7b1a8730ad7f3d97a579d0de141b0448009cee"
+    },
+    "summarize_all_floors.py": {
+      "bytes": 9775,
+      "sha256": "7f48757a4bb3affb12e3f892acb48f12c47c278ad482873cfc9b46c312690f8e"
+    }
+  }
+}

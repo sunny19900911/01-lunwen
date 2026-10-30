@@ -1,0 +1,17 @@
+{
+  "task": "20261030-2034 role3 R002",
+  "started_at": "2026-10-30T21:13:34+08:00",
+  "finished_at": "2026-10-30T21:17:10.536172+08:00",
+  "within_eight_minutes": true,
+  "analytic_bound_proof": "1-R2=0.0156 beta2/D>=0; R2-(5/8)^2=(1-(5/8)^2)A/D>=0",
+  "phase_derivative_sign_and_beta_one_checked": true,
+  "three_scalar_examples_passed": true,
+  "independent_complex_transfer_arithmetic_check_passed": true,
+  "fixed_signed_residue_separated_from_flexibility_phase": true,
+  "elastic_only_balance_output_excluded": true,
+  "arbitrary_transient_or_floor_peak_bound_claimed": false,
+  "native_37_5_percent_used_to_confirm_or_refute_model": false,
+  "new_theorem_or_priority_claim": false,
+  "no_engineering_sources_big_arrays_solver_api_git_or_shared_writes": true,
+  "trailing_whitespace_lines": []
+}

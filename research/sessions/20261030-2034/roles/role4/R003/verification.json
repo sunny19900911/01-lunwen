@@ -1,0 +1,20 @@
+{
+  "verified_utc": "2026-10-30T13:07:18.523265+00:00",
+  "error_rows": 144,
+  "native_pair_rows": 36,
+  "new_fits": 2,
+  "new_outputs_per_fit": 10,
+  "frozen_old_output_error_rows_reused": 24,
+  "no_old_Story5_12_refit": true,
+  "no_native8_refit": true,
+  "original_basis_recovery_old_prediction_max_error_kN": 7.88895704317838e-08,
+  "all_time_vectors_exact": true,
+  "metrics_recomputed_from_frozen_arrays": true,
+  "max_metric_recheck_difference": 0.0,
+  "max_native_minus_low_high_residual_abs_kN": 2.4018481781240553e-07,
+  "all288_key_time_balances_checked": true,
+  "all_inputs_and_code_unchanged": true,
+  "no_new_N_or_full_SDOF_reintegration": true,
+  "full_arrays_local_only": true,
+  "classification": "fitted-model, not physical unique modal force or energy decomposition"
+}

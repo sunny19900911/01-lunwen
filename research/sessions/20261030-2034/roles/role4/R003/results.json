@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-10-30T13:04:55.503314+00:00",
+  "counts": {
+    "error_rows": 144,
+    "native_pair_rows": 36,
+    "validation_summary": 24,
+    "group_curve_changes": 144,
+    "same_time_anchors": 288,
+    "coefficient_rows": 720
+  },
+  "new_fits": 2,
+  "new_outputs_per_fit": 10,
+  "old_Story5_12_fits_reused": true,
+  "old_Story5_12_metrics_reproduced_without_refit": true,
+  "basis_recovery_max_error_kN": 7.88895704317838e-08,
+  "rank": {
+    "N24": 24,
+    "N36": 36
+  },
+  "all_sources_unchanged": true,
+  "native8_no_refit": true,
+  "all_arrays_local_only": true
+}

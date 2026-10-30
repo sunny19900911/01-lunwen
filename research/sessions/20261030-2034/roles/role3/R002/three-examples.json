@@ -1,0 +1,33 @@
+{
+  "identity": "three scalar arithmetic illustrations; analytic proof separate",
+  "phase_convention": "e^(i*Omega*t), displacement flexibility relative to generalized harmonic force",
+  "zeta_old": 0.05,
+  "zeta_new": 0.08,
+  "example_count": 3,
+  "rows": [
+    {
+      "beta": 0.5,
+      "amplitude_ratio_8pct_to_5pct": 0.9965664378972728,
+      "amplitude_reduction_percent": 0.3433562102727161,
+      "flexibility_phase_5pct_degrees": -3.8140748342903543,
+      "flexibility_phase_8pct_degrees": -6.088528154195175,
+      "phase_change_degrees": -2.2744533199048207
+    },
+    {
+      "beta": 1.0,
+      "amplitude_ratio_8pct_to_5pct": 0.625,
+      "amplitude_reduction_percent": 37.5,
+      "flexibility_phase_5pct_degrees": -90.0,
+      "flexibility_phase_8pct_degrees": -90.0,
+      "phase_change_degrees": 0.0
+    },
+    {
+      "beta": 2.0,
+      "amplitude_ratio_8pct_to_5pct": 0.9965664378972728,
+      "amplitude_reduction_percent": 0.3433562102727161,
+      "flexibility_phase_5pct_degrees": -176.18592516570965,
+      "flexibility_phase_8pct_degrees": -173.91147184580484,
+      "phase_change_degrees": 2.274453319904808
+    }
+  ]
+}

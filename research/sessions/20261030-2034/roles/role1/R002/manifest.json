@@ -1,0 +1,53 @@
+{
+  "task": "20261030-2034 role1 R002 roof cross-state check and exact peak ledger",
+  "started_at_observed": "2026-10-30T21:08:43+08:00",
+  "completed_at": "2026-10-30T21:12:22.959765+08:00",
+  "elapsed_seconds": 219.959765,
+  "within8minutes": true,
+  "status": "independent group/decomposition check passed and native3row ledger frozen",
+  "command": "bundled python -B -X utf8 check_roof.py",
+  "exit_code": 0,
+  "files": [
+    {
+      "name": "check_roof.py",
+      "bytes": 5608,
+      "sha256": "3ac8e1f45347b320ce9ae690c0286ca16011fb178b03750a7310a0facdd45244"
+    },
+    {
+      "name": "independent-roof-anchors-6.csv",
+      "bytes": 2074,
+      "sha256": "ce902f5f852e7868960aa6754bcd8369a9b56d942886f825d91f56124df7c3c1"
+    },
+    {
+      "name": "independent-symmetric-split-12.csv",
+      "bytes": 2177,
+      "sha256": "9784e2e068ae785896d7bf43681f85bc47c9bdf3e1cc73b0a1332435299bee47"
+    },
+    {
+      "name": "input-freeze.json",
+      "bytes": 2540,
+      "sha256": "e0cc7b6865a1280130e95be80086c24ba1bd995e22536418a2af212011ebb3f4"
+    },
+    {
+      "name": "native-peak-ledger-3.csv",
+      "bytes": 1136,
+      "sha256": "27ea43b8eae7c0d7cc7998217c63c8cdaac6f31dafc0cff9cc2e856b3d81e690"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3125,
+      "sha256": "51cd9b23ab9e242105e43dd415d7b38c500aa952941470e70ef45c472ec7274e"
+    },
+    {
+      "name": "results.json",
+      "bytes": 7569,
+      "sha256": "217b5c4d7cae1cc42ab57dd455c23aac79b5cd60819109ac31f36721792162f1"
+    },
+    {
+      "name": "validation.json",
+      "bytes": 517,
+      "sha256": "85c5ad4a5aac1addf7cfb33c878549866afb3cfb9cdf4898325923329a2024f0"
+    }
+  ],
+  "no_local_cache_copy_Git_API_or_new_fit": true
+}

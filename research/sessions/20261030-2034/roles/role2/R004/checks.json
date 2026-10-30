@@ -1,0 +1,81 @@
+{
+  "completed": "2026-10-30T21:12:32.811768+08:00",
+  "validation_rows": 48,
+  "numeric_checks": 288,
+  "numeric_must_count": 0,
+  "failures": [],
+  "max_abs_difference": {
+    "NRMSE": 4.593918995210444e-12,
+    "native_peak_kN": 0.0,
+    "predicted_peak_kN": 1.6205012798309326e-07,
+    "peak_relative_error": 3.2038705022330305e-11,
+    "native_peak_time_s": 0.0,
+    "predicted_peak_time_s": 0.0
+  },
+  "native_groups_checked": 72,
+  "source_hashes_verified": [
+    {
+      "path": "C:\\Users\\mj528\\.codex\\skills\\etabs-response-analysis\\scripts\\modal_linear.py",
+      "sha256": "1c2620542f812e355c4be3ad8877db92db2ba3343cd3a2405e26c731be796827"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261025-1337\\roles\\role6\\R001\\input-config.json",
+      "sha256": "c249e22be8f0d41bb5beb59e9c24153bc26eb7948f23f72386c28f78d0a4a1e9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261025-1337\\roles\\role6\\R001\\load_inputs.py",
+      "sha256": "c325762d99b91cdc617c5a84bf609c23fca89a34d7c494888c0327532bb1e6e4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\Story_Forces.npz",
+      "sha256": "f80493976395634c1e03b3591ae64bce329c5b9af72729e3d2d18c719ac792e0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\engineering_derived_traces.npz",
+      "sha256": "59976c52b5c8b1fdeb49331c73a7278f3cf9d2c3d57ee97af440677b17891dff"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native0_small_tables.json",
+      "sha256": "20815b312c71b0c4e8260573752faccbd922c40d84e28bc2549becfca880a972"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Forces.npz",
+      "sha256": "fb11e299f62682d0bf3a68644cdae474ca8a6ce96863838e02117431f72caf8d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\manifest.json",
+      "sha256": "1e78f5a15bff3ebe88d59375f84de36733037fdee5baefdf5b81a95e83e58f58"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\response_cache_manifest.json",
+      "sha256": "4836a1d9d35be32fb6b2f4898c08dab8f897426946b575a1ca5f6fb971e7e697"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R001\\models-small-N24.json",
+      "sha256": "ec43519b313febbfdc09098b6bc9e8a1a1104b1c1fb2999c8542bbbc8409dacd"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R002\\models-small-N36.json",
+      "sha256": "6b4012f47ce19b6907ec14f6731bff85371982a336b9069ed4bf024e34a459a2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R001\\prediction-errors-N24-24.csv",
+      "sha256": "ac66d0d136f797a2e0fc5e7ca3a16a7ac740b61dc2bb4aa12db7a8d5e3bf8bbf"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R002\\prediction-errors-N36-24.csv",
+      "sha256": "2501558345ea14dda48993aa4b0f45de9a43533638547749a85fa971f690d596"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R001\\local-cache\\N24-two-operator-traces.npz",
+      "sha256": "319050e217cd3c9376add4b15dc90535af5b1da85ee94aff7c0f009b8d4869ec"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R002\\local-cache\\N36-elastic-two-rcond-traces.npz",
+      "sha256": "d4c0a7ef5ebe9d3638312be46340483c02b34c6fa6c76913bc11c4469eb380a8"
+    }
+  ],
+  "native_peak_SourceRow_checks": 48,
+  "target_refits": 0,
+  "not_audited": "N24 regression; low/high decomposition and cancellation curves; original workbook SourceRow content (only frozen cache locator checked)"
+}

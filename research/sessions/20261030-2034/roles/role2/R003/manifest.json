@@ -1,0 +1,53 @@
+{
+  "status": "complete scoped independent numerical audit; 0 numerical must",
+  "scope": "8 N36 elastic validation rows, 48 numeric fields; both rcond ranks and condition; no group decomposition independent audit",
+  "started_Asia_Shanghai": "2026-10-30T21:02:16+08:00",
+  "numeric_completed_Asia_Shanghai": "2026-10-30T21:02:42.741954+08:00",
+  "frozen_Asia_Shanghai": "2026-10-30T21:06:15.907223+08:00",
+  "deadline_Asia_Shanghai": "2026-10-30T21:10:16+08:00",
+  "elapsed_seconds": 239.907223,
+  "frozen_within_8_minutes": true,
+  "numeric_checks": 48,
+  "must_count": 0,
+  "target_refits": 0,
+  "source_manifest": "research\\sessions\\20261030-2034\\roles\\role4\\R002\\delivery-manifest.json",
+  "source_manifest_sha256": "aedddcf45f34d6001465e91445e77d8df3e40004631e5a31110c6aa99ec12c64",
+  "limitations": [
+    "shared approved state kernel, not an independent integrator audit",
+    "ill-conditioned full-rank fitted reference, not physically unique modal identification",
+    "retrospective record-disjoint holdout after earlier N selection",
+    "group stability and compensation tables not independently recomputed"
+  ],
+  "files": [
+    {
+      "name": "checks.json",
+      "bytes": 8356,
+      "sha256": "f6cde56594dc50ed1d5009a583e86ebe3342f7e6c4144647e8d03a924eb5303e"
+    },
+    {
+      "name": "independent-eight.csv",
+      "bytes": 1601,
+      "sha256": "0fdd7bb4ebd6b677c9a9a4e8180bd4eb6e26ad97e8e197ad02d7149dbe6669f0"
+    },
+    {
+      "name": "independent-fit-small.json",
+      "bytes": 4096,
+      "sha256": "cba007c81facbb1c455a991adf8dae67a6013b06bc7b5e888bc6e964430c929a"
+    },
+    {
+      "name": "independent_N36.py",
+      "bytes": 5692,
+      "sha256": "268206bfa558ddfed5abd565506c0ad501b1cf99b194b1d0b6c3c5781ffb8592"
+    },
+    {
+      "name": "review.md",
+      "bytes": 3435,
+      "sha256": "584a1a7d25edfc9cd64c41fe7162f99d282e260a7e11d353fe69f5e87590ffea"
+    },
+    {
+      "name": "two-rcond-rank.json",
+      "bytes": 213,
+      "sha256": "44e2d8f84c8206352ac681b88499a669022069c69569c9586f2ec4b9e0f2dbb4"
+    }
+  ]
+}

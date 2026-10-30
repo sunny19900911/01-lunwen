@@ -1,0 +1,78 @@
+{
+  "status": "complete scoped N36 all12 numerical audit",
+  "frozen_Asia_Shanghai": "2026-10-30T21:14:05.785094+08:00",
+  "started_Asia_Shanghai": "2026-10-30T21:10:59+08:00",
+  "deadline": "2026-10-30T21:20:59+08:00",
+  "within10_minutes": true,
+  "elapsed_seconds": 186.785094,
+  "independent_validation_rows": 48,
+  "independent_numeric_checks": 288,
+  "numeric_must_count": 0,
+  "summary_arithmetic_checks": 120,
+  "native_groups_checked": 72,
+  "target_refits": 0,
+  "scope_limit": "no N24 regression; no low/high decomposition audit; shared approved states integrator",
+  "source_manifest_sha256": "f080fdfa868b7649ffb42ed3f5847c282e7c59e0b81e8f18018c3f697d236439",
+  "files": [
+    {
+      "name": "checks.json",
+      "bytes": 4885,
+      "sha256": "44f114fb0ca03811bb2f6a40f0b6e7070b6fcd730703d844fec36b64cb30afe0"
+    },
+    {
+      "name": "derived-summary-arithmetic-24.json",
+      "bytes": 4356,
+      "sha256": "fab0825926e6eaac245dff6e03ddffca97ea16e22c8c9a059196be6b2d753dca"
+    },
+    {
+      "name": "finalize_audit.py",
+      "bytes": 7481,
+      "sha256": "7a9af0ee3111cde638fd662a31b45ea9a7543438695acfc44e27e8289da65259"
+    },
+    {
+      "name": "guard.json",
+      "bytes": 454,
+      "sha256": "9ce76771c2d7803cf3257a6f2a2491ec48371c136d919572670bb9328f8b84b6"
+    },
+    {
+      "name": "independent-fit-small.json",
+      "bytes": 12146,
+      "sha256": "7d53fe97ca352445f3d33a2a830fdb48bb7a862a8f28258aa9ab9ffa5d2a8a35"
+    },
+    {
+      "name": "independent-validation-48.csv",
+      "bytes": 9454,
+      "sha256": "71d35fb77aa6859690f3684c8e1851d593ced5a153e3f610bcc4265c0c9f5a9c"
+    },
+    {
+      "name": "independent_all12.py",
+      "bytes": 9030,
+      "sha256": "7e7bfa141ecbe6d962503865ec0ddd27390cd2944994c67a347db6cda3b68487"
+    },
+    {
+      "name": "native-group-checks-72.json",
+      "bytes": 42783,
+      "sha256": "79a6f9a452d47969f855e882f8a5beca777671726540b0fb5a171e7448d8def4"
+    },
+    {
+      "name": "review.md",
+      "bytes": 5080,
+      "sha256": "833986d0bb993ffcddd39480d265df6b7def50abd87ee4b2fbe7b3e941add222"
+    },
+    {
+      "name": "summary-arithmetic-checks.json",
+      "bytes": 242,
+      "sha256": "af8cc84b1cbbce6d93745ad4482f5b5fe39fcdc84d7fa1145be2980a7fa37449"
+    },
+    {
+      "name": "summary-schema.json",
+      "bytes": 473,
+      "sha256": "19c83abe3f4fb974cf4856e212522bda9926c586224540804b044b4e2e22c621"
+    },
+    {
+      "name": "worst-first.json",
+      "bytes": 1057,
+      "sha256": "ca0a4d8e19cbed90c74665672ae49b2aaff71d8cbb9cb4ee292fd80f214675b3"
+    }
+  ]
+}

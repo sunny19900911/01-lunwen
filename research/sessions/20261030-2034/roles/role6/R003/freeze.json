@@ -1,0 +1,47 @@
+{
+  "status": "candidate complete; independent review pending",
+  "actual_start_local": "2026-10-30T21:02:27+08:00",
+  "freeze_local": "2026-10-30T21:05:58+08:00",
+  "elapsed_seconds": 211.127837,
+  "task_limit_seconds": 600,
+  "within_limit": true,
+  "source_hashes_checked": true,
+  "no_new_fit_kernels_or_N": true,
+  "row_counts": {
+    "stability": 24,
+    "cross_state_anchors": 18,
+    "symmetric_group_decomposition": 36,
+    "group_amplitudes": 18
+  },
+  "identity_error_kN": 7.460698725481052e-14,
+  "files": {
+    "check_low_high_same_time.py": {
+      "bytes": 8830,
+      "sha256": "7fd94af554ae7e0bfe3fe14f35bd36bb11ffa821b11b8c67f881d6cd1dc0c2ee"
+    },
+    "cross-state-native-anchors-18.csv": {
+      "bytes": 6926,
+      "sha256": "49ac65771e11aad2e3434982bf24db8f678e23aa3fb7298fa804f54b336fe0da"
+    },
+    "group-amplitudes-18.csv": {
+      "bytes": 3367,
+      "sha256": "1bd6bec80e67058a8f06fdb6b9b931ce119408c4dbe3b3cbb99c15892494d9d5"
+    },
+    "merged-low-high-stability-24.csv": {
+      "bytes": 5522,
+      "sha256": "27faee352473c76f17171268044052db5af0509a4c75608d91f4644bee5e2ee0"
+    },
+    "one-page.md": {
+      "bytes": 2543,
+      "sha256": "a1322ab804ae481d912c3dda52db6806237be7ecac9db0d115f5e843db3db951"
+    },
+    "results.json": {
+      "bytes": 26409,
+      "sha256": "38b993e29182b5cba34d5fe6741a514fcbedd5c622c8e9eec27809d78244c0ac"
+    },
+    "symmetric-group-decomposition-36.csv": {
+      "bytes": 11434,
+      "sha256": "f3e7554d7ce3b1386fe9b7c5f42c34ce0aaca9ab140db72fdb9461acc9f768bd"
+    }
+  }
+}

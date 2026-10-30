@@ -1,0 +1,113 @@
+{
+  "status": "complete all12 extension; independent audit pending",
+  "frozen_utc": "2026-10-30T13:07:18.523265+00:00",
+  "frozen_Asia_Shanghai": "2026-10-30T21:07:18.523265+08:00",
+  "elapsed_seconds": 248.523265,
+  "within10_minutes": true,
+  "files": [
+    {
+      "name": "all12-fixed-coefficients-720.csv",
+      "bytes": 43761,
+      "last_modified_utc": "2026-10-30T13:04:54.390139+00:00",
+      "sha256": "df2dc8c90964c9f7bce9f6ada511a0a439b0387e629fad59ed6eca2a55fbf288"
+    },
+    {
+      "name": "all12-low-high-N24-to-N36-144.csv",
+      "bytes": 32842,
+      "last_modified_utc": "2026-10-30T13:04:54.405969+00:00",
+      "sha256": "fe34fcb353bccbc3d4a0d5dae627e397f0e95f60531cc07c33f40c8f6a49de03"
+    },
+    {
+      "name": "all12-models-small.json",
+      "bytes": 27377,
+      "last_modified_utc": "2026-10-30T13:04:54.392667+00:00",
+      "sha256": "4bd32840e02adf597ef1f08edc0a86a61e1e49f4e829ead6e314ceb3e53c0c82"
+    },
+    {
+      "name": "all12-prediction-errors-144.csv",
+      "bytes": 35381,
+      "last_modified_utc": "2026-10-30T13:04:54.388628+00:00",
+      "sha256": "d115559e366715934b0a5d1cc10ea5e51db26aec603648709c35f0f69ee3745a"
+    },
+    {
+      "name": "all12-same-time-low-high-residual-288.csv",
+      "bytes": 69900,
+      "last_modified_utc": "2026-10-30T13:04:54.409869+00:00",
+      "sha256": "36c0d40ff86c9fa4e4bb881b1e200c2124de06c1543b9fae442d3584d56cc300"
+    },
+    {
+      "name": "all12-validation-summary-24.csv",
+      "bytes": 2927,
+      "last_modified_utc": "2026-10-30T13:04:54.404965+00:00",
+      "sha256": "ea12d77d4266eaaf2eb5cb866117751b65641f0ed798bc5d1aa5405660acd3b2"
+    },
+    {
+      "name": "basis-recovery-checks-24.csv",
+      "bytes": 1135,
+      "last_modified_utc": "2026-10-30T13:04:54.392667+00:00",
+      "sha256": "f00c0cb250008ef4c50c2fdf6bdb5fc7dffdc55209205e8243ab03075a987a9a"
+    },
+    {
+      "name": "early-N24-all12-errors-72.csv",
+      "bytes": 17796,
+      "last_modified_utc": "2026-10-30T13:04:54.266396+00:00",
+      "sha256": "78bd5e359bfe4c35d60b3918e856baf6c2f01952a42dfe79601dccbb7281f795"
+    },
+    {
+      "name": "early-N36-all12-errors-72.csv",
+      "bytes": 17810,
+      "last_modified_utc": "2026-10-30T13:04:54.385361+00:00",
+      "sha256": "f255aae41e888bf6b272abde43d212399c0d11bdc873837abe03ee0fa5d27dda"
+    },
+    {
+      "name": "extend_all_floors.py",
+      "bytes": 12105,
+      "last_modified_utc": "2026-10-30T13:04:53.172244+00:00",
+      "sha256": "84c9980f3ca007edd85311b0e0e345b870bab49c6aa0f4f35bf140791695035e"
+    },
+    {
+      "name": "finalize_all_floors.py",
+      "bytes": 8253,
+      "last_modified_utc": "2026-10-30T13:07:17.681856+00:00",
+      "sha256": "032a5c539be6f0f08fa99d74e458e48763267785e1d7e42e3539f48053213f39"
+    },
+    {
+      "name": "input-rules-freeze.json",
+      "bytes": 5841,
+      "last_modified_utc": "2026-10-30T13:04:54.026055+00:00",
+      "sha256": "1ac72faf33433881f2ed84432e30c107333af4cde94a467a3f82fd1a71491e75"
+    },
+    {
+      "name": "native-all12-peak-change-36.csv",
+      "bytes": 5315,
+      "last_modified_utc": "2026-10-30T13:04:54.164657+00:00",
+      "sha256": "6e6690e7e32dcc101d8d69e59e4abc424f00570c89bc53122930ff6b7037b04e"
+    },
+    {
+      "name": "README-all12.md",
+      "bytes": 4631,
+      "last_modified_utc": "2026-10-30T13:07:18.374603+00:00",
+      "sha256": "0e729ee4faadfb57731600854ed74fb01a3449373875a9c63e7527066168f75d"
+    },
+    {
+      "name": "results.json",
+      "bytes": 607,
+      "last_modified_utc": "2026-10-30T13:04:55.503854+00:00",
+      "sha256": "bb9a1d1fdda9ce394382c2464ed4a4f8e2972cc654d1860fc27bc25f67f3c287"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 809,
+      "last_modified_utc": "2026-10-30T13:07:18.524660+00:00",
+      "sha256": "25200332748c115286147aef39c8f340fce82f03feef05fa5c882561d5a0ac98"
+    }
+  ],
+  "local_only_array": {
+    "path": "local-cache/all12-low-high-reference-traces.npz",
+    "bytes": 15681979,
+    "sha256": "d67e4833bfeacb50f8d13255fc47e73e421ed456cf510105ddac02d38d61cddf",
+    "upload_allowed": false
+  },
+  "primary": "all12-prediction-errors-144.csv",
+  "report": "README-all12.md"
+}

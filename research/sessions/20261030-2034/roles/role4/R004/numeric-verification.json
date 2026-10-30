@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-30T13:16:31.600154+00:00",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\native-all12-peak-change-36.csv",
+      "bytes": 5315,
+      "sha256": "6e6690e7e32dcc101d8d69e59e4abc424f00570c89bc53122930ff6b7037b04e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\local-cache\\all12-low-high-reference-traces.npz",
+      "bytes": 15681979,
+      "sha256": "d67e4833bfeacb50f8d13255fc47e73e421ed456cf510105ddac02d38d61cddf"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\all12-same-time-low-high-residual-288.csv",
+      "bytes": 69900,
+      "sha256": "36c0d40ff86c9fa4e4bb881b1e200c2124de06c1543b9fae442d3584d56cc300"
+    }
+  ],
+  "profile_pairs": 36,
+  "same_time_points": 4,
+  "N": 36,
+  "max_closure_error_kN": 5.717708972952096e-09,
+  "native_cross_values_match_R003": true,
+  "no_fit": true,
+  "no_order_extension": true,
+  "complete_trace_outputs": false,
+  "source_hashes_unchanged": true
+}

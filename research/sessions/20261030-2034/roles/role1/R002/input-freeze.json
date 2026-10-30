@@ -1,0 +1,57 @@
+{
+  "task": "independent roof anchors/group split and exact native peak migration ledger",
+  "started_at_observed": "2026-10-30T21:08:43+08:00",
+  "frozen_at": "2026-10-30T21:09:54.470320+08:00",
+  "variant": "N36_elastic_rc1e-10",
+  "cases": [
+    "SHW3X",
+    "SHW4X",
+    "RH4X"
+  ],
+  "Story": "Story12",
+  "groups": [
+    [
+      1,
+      12
+    ],
+    [
+      13,
+      36
+    ]
+  ],
+  "anchors": "original native5 and native8 absolute peaks, cross-read both states",
+  "ledger": "t0=native5 peak, s0=sign V5(t0), D=s0(V5(t0)-V8(t0)), M=P8-s0 V8(t0); P5-P8=D-M",
+  "scope": "saved-state postprocess only; no fit/ODE/scans; group chi zero does not imply no intra-group cancellation",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R002\\delivery-manifest.json",
+      "sha256": "aedddcf45f34d6001465e91445e77d8df3e40004631e5a31110c6aa99ec12c64",
+      "bytes": 4275
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R002\\local-cache\\N36-elastic-two-rcond-traces.npz",
+      "sha256": "d4c0a7ef5ebe9d3638312be46340483c02b34c6fa6c76913bc11c4469eb380a8",
+      "bytes": 19467470
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role6\\R003\\cross-state-native-anchors-18.csv",
+      "sha256": "49ac65771e11aad2e3434982bf24db8f678e23aa3fb7298fa804f54b336fe0da",
+      "bytes": 6926
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role6\\R003\\symmetric-group-decomposition-36.csv",
+      "sha256": "f3e7554d7ce3b1386fe9b7c5f42c34ce0aaca9ab140db72fdb9461acc9f768bd",
+      "bytes": 11434
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role6\\R003\\one-page.md",
+      "sha256": "a1322ab804ae481d912c3dda52db6806237be7ecac9db0d115f5e843db3db951",
+      "bytes": 2543
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role6\\R003\\freeze.json",
+      "sha256": "da4d667e54a9645c1cccebd20dc7a1aeb85401c5c4b4c78a78b45e977a35c065",
+      "bytes": 1593
+    }
+  ]
+}

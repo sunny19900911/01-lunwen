@@ -1,0 +1,8 @@
+{
+  "status": "preserved failed numeric check; no scientific outputs written before failure",
+  "observed_local": "2026-10-30T21:14:09+08:00",
+  "reason": "Initial absolute closure tolerance1e-7 kN was smaller than existing N36 summation roundoff.",
+  "bounded_followup_check": "All72 N36 cached groups scanned; max low+high-minus-prediction2.4018481781240553e-7 kN at SHW4X/Story3/5%,2.1209747306909753e-11 of prediction peak.",
+  "correction": "Scale-aware check max(1e-8 kN,5e-11*signal peak); signed shares/flags keep original values, no clipping or corrections.",
+  "scope": "floating closure only; no coefficients, arrays, native data or source tables modified"
+}

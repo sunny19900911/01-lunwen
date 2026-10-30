@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="980" viewBox="0 0 1240 980"><title>原生楼层剪力峰值降幅沿高度分布</title><desc>同一输入记录下经典模态阻尼比由5%变为8%；Bottom截面X向原生楼层剪力，采用各自全时程绝对峰，12层、3条记录。</desc><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17242b">
+<text x="80" y="65" font-size="32" text-anchor="start" fill="#17242b" font-weight="bold" >原生楼层剪力峰值降幅沿高度分布</text>
+<text x="80" y="108" font-size="23" text-anchor="start" fill="#475761" font-weight="normal" >经典模态阻尼比 ζ：5% → 8%  |  Bottom截面 · X向</text>
+<line x1="170" y1="155" x2="218" y2="155" stroke="#2467a1" stroke-width="3" />
+<circle cx="195" cy="155" r="7" fill="#2467a1"/>
+<text x="230" y="163" font-size="23" text-anchor="start" fill="#17242b" font-weight="normal" >原生 SHW3X</text>
+<line x1="495" y1="155" x2="543" y2="155" stroke="#d46624" stroke-width="3" />
+<rect x="513" y="148" width="14" height="14" fill="#d46624" />
+<text x="555" y="163" font-size="23" text-anchor="start" fill="#17242b" font-weight="normal" >原生 SHW4X</text>
+<line x1="820" y1="155" x2="868" y2="155" stroke="#258271" stroke-width="3" />
+<path d="M845,147 L853,162 L837,162Z" fill="#258271"/>
+<text x="880" y="163" font-size="23" text-anchor="start" fill="#17242b" font-weight="normal" >原生 RH4X</text>
+<line x1="145.0" y1="220" x2="145.0" y2="760" stroke="#e1e6e9" stroke-width="1" />
+<text x="145.0" y="798" font-size="21" text-anchor="middle" fill="#17242b" font-weight="normal" >0</text>
+<line x1="287.1428571428571" y1="220" x2="287.1428571428571" y2="760" stroke="#e1e6e9" stroke-width="1" />
+<text x="287.1428571428571" y="798" font-size="21" text-anchor="middle" fill="#17242b" font-weight="normal" >5</text>
+<line x1="429.2857142857143" y1="220" x2="429.2857142857143" y2="760" stroke="#e1e6e9" stroke-width="1" />
+<text x="429.2857142857143" y="798" font-size="21" text-anchor="middle" fill="#17242b" font-weight="normal" >10</text>
+<line x1="571.4285714285713" y1="220" x2="571.4285714285713" y2="760" stroke="#e1e6e9" stroke-width="1" />
+<text x="571.4285714285713" y="798" font-size="21" text-anchor="middle" fill="#17242b" font-weight="normal" >15</text>
+<line x1="713.5714285714286" y1="220" x2="713.5714285714286" y2="760" stroke="#e1e6e9" stroke-width="1" />
+<text x="713.5714285714286" y="798" font-size="21" text-anchor="middle" fill="#17242b" font-weight="normal" >20</text>
+<line x1="855.7142857142858" y1="220" x2="855.7142857142858" y2="760" stroke="#e1e6e9" stroke-width="1" />
+<text x="855.7142857142858" y="798" font-size="21" text-anchor="middle" fill="#17242b" font-weight="normal" >25</text>
+<line x1="997.8571428571428" y1="220" x2="997.8571428571428" y2="760" stroke="#e1e6e9" stroke-width="1" />
+<text x="997.8571428571428" y="798" font-size="21" text-anchor="middle" fill="#17242b" font-weight="normal" >30</text>
+<line x1="1140.0" y1="220" x2="1140.0" y2="760" stroke="#e1e6e9" stroke-width="1" />
+<text x="1140.0" y="798" font-size="21" text-anchor="middle" fill="#17242b" font-weight="normal" >35</text>
+<line x1="145" y1="760.0" x2="1140" y2="760.0" stroke="#edf0f2" stroke-width="1" />
+<text x="123" y="768.0" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >1层</text>
+<line x1="145" y1="710.9090909090909" x2="1140" y2="710.9090909090909" stroke="#edf0f2" stroke-width="1" />
+<text x="123" y="718.9090909090909" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >2层</text>
+<line x1="145" y1="661.8181818181818" x2="1140" y2="661.8181818181818" stroke="#edf0f2" stroke-width="1" />
+<text x="123" y="669.8181818181818" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >3层</text>
+<line x1="145" y1="612.7272727272727" x2="1140" y2="612.7272727272727" stroke="#edf0f2" stroke-width="1" />
+<text x="123" y="620.7272727272727" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >4层</text>
+<line x1="145" y1="563.6363636363636" x2="1140" y2="563.6363636363636" stroke="#edf0f2" stroke-width="1" />
+<text x="123" y="571.6363636363636" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >5层</text>
+<line x1="145" y1="514.5454545454545" x2="1140" y2="514.5454545454545" stroke="#edf0f2" stroke-width="1" />
+<text x="123" y="522.5454545454545" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >6层</text>
+<line x1="145" y1="465.4545454545455" x2="1140" y2="465.4545454545455" stroke="#edf0f2" stroke-width="1" />
+<text x="123" y="473.4545454545455" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >7层</text>
+<line x1="145" y1="416.3636363636364" x2="1140" y2="416.3636363636364" stroke="#edf0f2" stroke-width="1" />
+<text x="123" y="424.3636363636364" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >8层</text>
+<line x1="145" y1="367.27272727272725" x2="1140" y2="367.27272727272725" stroke="#edf0f2" stroke-width="1" />
+<text x="123" y="375.27272727272725" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >9层</text>
+<line x1="145" y1="318.18181818181813" x2="1140" y2="318.18181818181813" stroke="#edf0f2" stroke-width="1" />
+<text x="123" y="326.18181818181813" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >10层</text>
+<line x1="145" y1="269.0909090909091" x2="1140" y2="269.0909090909091" stroke="#edf0f2" stroke-width="1" />
+<text x="123" y="277.0909090909091" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >11层</text>
+<line x1="145" y1="220.0" x2="1140" y2="220.0" stroke="#edf0f2" stroke-width="1" />
+<text x="123" y="228.0" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >12层</text>
+<line x1="145" y1="220" x2="145" y2="760" stroke="#57656d" stroke-width="1.5" />
+<line x1="145" y1="760" x2="1140" y2="760" stroke="#57656d" stroke-width="1.5" />
+<text x="642.5" y="840" font-size="24" text-anchor="middle" fill="#17242b" font-weight="normal" >原生峰值降幅 r（%）</text>
+<text x="48" y="490" font-size="23" text-anchor="start" fill="#17242b" font-weight="normal" transform="rotate(-90 48 490)">楼层</text>
+<polyline points="487.080,760.000 465.241,710.909 412.814,661.818 352.536,612.727 339.772,563.636 367.383,514.545 390.786,465.455 426.432,416.364 476.954,367.273 558.558,318.182 717.392,269.091 950.534,220.000" fill="none" stroke="#2467a1" stroke-width="3"/>
+<circle cx="487.08047484574473" cy="760.0" r="5.5" fill="#2467a1"/>
+<circle cx="465.24073873743276" cy="710.9090909090909" r="5.5" fill="#2467a1"/>
+<circle cx="412.81399563406944" cy="661.8181818181818" r="5.5" fill="#2467a1"/>
+<circle cx="352.53605831374523" cy="612.7272727272727" r="5.5" fill="#2467a1"/>
+<circle cx="339.77183799664215" cy="563.6363636363636" r="5.5" fill="#2467a1"/>
+<circle cx="367.3827285744992" cy="514.5454545454545" r="5.5" fill="#2467a1"/>
+<circle cx="390.78550404351864" cy="465.4545454545455" r="5.5" fill="#2467a1"/>
+<circle cx="426.4315620889741" cy="416.3636363636364" r="5.5" fill="#2467a1"/>
+<circle cx="476.95373585295795" cy="367.27272727272725" r="5.5" fill="#2467a1"/>
+<circle cx="558.5578737050464" cy="318.18181818181813" r="5.5" fill="#2467a1"/>
+<circle cx="717.3922391244713" cy="269.0909090909091" r="5.5" fill="#2467a1"/>
+<circle cx="950.5337939282605" cy="220.0" r="5.5" fill="#2467a1"/>
+<text x="962.5337939282605" y="205.0" font-size="19" text-anchor="start" fill="#2467a1" font-weight="normal" >28.34%</text>
+<polyline points="450.625,760.000 485.695,710.909 516.380,661.818 482.964,612.727 466.305,563.636 457.753,514.545 467.570,465.455 530.260,416.364 622.596,367.273 682.580,318.182 722.254,269.091 974.360,220.000" fill="none" stroke="#d46624" stroke-width="3"/>
+<rect x="445.1254488591574" y="754.5" width="11.0" height="11.0" fill="#d46624" />
+<rect x="480.19516158104955" y="705.4090909090909" width="11.0" height="11.0" fill="#d46624" />
+<rect x="510.8795255894132" y="656.3181818181818" width="11.0" height="11.0" fill="#d46624" />
+<rect x="477.46391776294433" y="607.2272727272727" width="11.0" height="11.0" fill="#d46624" />
+<rect x="460.8048737322557" y="558.1363636363636" width="11.0" height="11.0" fill="#d46624" />
+<rect x="452.2534981956749" y="509.0454545454545" width="11.0" height="11.0" fill="#d46624" />
+<rect x="462.0695147219787" y="459.9545454545455" width="11.0" height="11.0" fill="#d46624" />
+<rect x="524.7603465211141" y="410.8636363636364" width="11.0" height="11.0" fill="#d46624" />
+<rect x="617.0956680365639" y="361.77272727272725" width="11.0" height="11.0" fill="#d46624" />
+<rect x="677.0804722981536" y="312.68181818181813" width="11.0" height="11.0" fill="#d46624" />
+<rect x="716.7536537514737" y="263.5909090909091" width="11.0" height="11.0" fill="#d46624" />
+<rect x="968.8595005086661" y="214.5" width="11.0" height="11.0" fill="#d46624" />
+<text x="986.3595005086661" y="242.0" font-size="19" text-anchor="start" fill="#d46624" font-weight="normal" >29.17%</text>
+<polyline points="693.323,760.000 709.594,710.909 742.741,661.818 718.220,612.727 710.795,563.636 699.930,514.545 688.772,465.455 764.721,416.364 821.988,367.273 865.489,318.182 896.049,269.091 911.115,220.000" fill="none" stroke="#258271" stroke-width="3"/>
+<path d="M693.3228846112276,753.5 L699.8228846112276,765.5 L686.8228846112276,765.5Z" fill="#258271"/>
+<path d="M709.5935935128974,704.4090909090909 L716.0935935128974,716.4090909090909 L703.0935935128974,716.4090909090909Z" fill="#258271"/>
+<path d="M742.7410574639355,655.3181818181818 L749.2410574639355,667.3181818181818 L736.2410574639355,667.3181818181818Z" fill="#258271"/>
+<path d="M718.2195910803722,606.2272727272727 L724.7195910803722,618.2272727272727 L711.7195910803722,618.2272727272727Z" fill="#258271"/>
+<path d="M710.7948023872823,557.1363636363636 L717.2948023872823,569.1363636363636 L704.2948023872823,569.1363636363636Z" fill="#258271"/>
+<path d="M699.9298251010422,508.0454545454545 L706.4298251010422,520.0454545454545 L693.4298251010422,520.0454545454545Z" fill="#258271"/>
+<path d="M688.772364461685,458.9545454545455 L695.272364461685,470.9545454545455 L682.272364461685,470.9545454545455Z" fill="#258271"/>
+<path d="M764.7212605141859,409.8636363636364 L771.2212605141859,421.8636363636364 L758.2212605141859,421.8636363636364Z" fill="#258271"/>
+<path d="M821.9883450347253,360.77272727272725 L828.4883450347253,372.77272727272725 L815.4883450347253,372.77272727272725Z" fill="#258271"/>
+<path d="M865.4889794917966,311.68181818181813 L871.9889794917966,323.68181818181813 L858.9889794917966,323.68181818181813Z" fill="#258271"/>
+<path d="M896.0488898436878,262.5909090909091 L902.5488898436878,274.5909090909091 L889.5488898436878,274.5909090909091Z" fill="#258271"/>
+<path d="M911.1149827902232,213.5 L917.6149827902232,225.5 L904.6149827902232,225.5Z" fill="#258271"/>
+<text x="923.1149827902232" y="178.0" font-size="19" text-anchor="start" fill="#258271" font-weight="normal" >26.95%</text>
+<text x="80" y="901" font-size="21" text-anchor="start" fill="#475761" font-weight="normal" >r = (1 − P₈% / P₅%) × 100%；P = max |Vₓ(t)|，剪力单位kN。</text>
+<text x="80" y="940" font-size="20" text-anchor="start" fill="#475761" font-weight="normal" >5%与8%分别取各自全时程绝对峰；保留12层、3条原始记录的全部36对结果。</text>
+</g></svg>

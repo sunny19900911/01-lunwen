@@ -1,0 +1,558 @@
+{
+  "status": "candidate full-floor interpretation; role2 numerical audit pending",
+  "start_local": "2026-10-30T21:11:05+08:00",
+  "completed_local": "2026-10-30T21:15:01+08:00",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\all12-same-time-low-high-residual-288.csv",
+      "sha256": "36c0d40ff86c9fa4e4bb881b1e200c2124de06c1543b9fae442d3584d56cc300"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\all12-low-high-N24-to-N36-144.csv",
+      "sha256": "fe34fcb353bccbc3d4a0d5dae627e397f0e95f60531cc07c33f40c8f6a49de03"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\native-all12-peak-change-36.csv",
+      "sha256": "6e6690e7e32dcc101d8d69e59e4abc424f00570c89bc53122930ff6b7037b04e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\all12-prediction-errors-144.csv",
+      "sha256": "d115559e366715934b0a5d1cc10ea5e51db26aec603648709c35f0f69ee3745a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\local-cache\\all12-low-high-reference-traces.npz",
+      "sha256": "d67e4833bfeacb50f8d13255fc47e73e421ed456cf510105ddac02d38d61cddf"
+    }
+  ],
+  "row_count": 36,
+  "floor_summary": [
+    {
+      "Story": "Story1",
+      "signed_high_over_native_range": [
+        -0.010796668234962788,
+        0.02446752966943174
+      ],
+      "signed_low_over_native_range": [
+        0.9553496421041907,
+        1.0144934010446902
+      ],
+      "signed_residual_over_native_range": [
+        -0.006419641955229021,
+        0.020182828227657084
+      ],
+      "chi_max": 0.021060709663458077,
+      "N24to36_low_over_native_max": 0.00116514722265367,
+      "N24to36_high_over_native_max": 0.01776386632831164,
+      "native_reductions": {
+        "SHW3X": 12.032981527237252,
+        "SHW4X": 10.750643929719105,
+        "RH4X": 19.287739659691418
+      }
+    },
+    {
+      "Story": "Story2",
+      "signed_high_over_native_range": [
+        -0.011851242903568258,
+        0.005608889031645136
+      ],
+      "signed_low_over_native_range": [
+        0.9715129333230182,
+        1.0082242764104707
+      ],
+      "signed_residual_over_native_range": [
+        0.003626966493272635,
+        0.022878177646021812
+      ],
+      "chi_max": 0.02323601082307658,
+      "N24to36_low_over_native_max": 0.00030006272724324417,
+      "N24to36_high_over_native_max": 0.004486614778281325,
+      "native_reductions": {
+        "SHW3X": 11.264749603829294,
+        "SHW4X": 11.984251914911292,
+        "RH4X": 19.86007615372001
+      }
+    },
+    {
+      "Story": "Story3",
+      "signed_high_over_native_range": [
+        -0.013150083702595116,
+        0.02134647374006942
+      ],
+      "signed_low_over_native_range": [
+        0.9723589963059234,
+        0.9992823984979436
+      ],
+      "signed_residual_over_native_range": [
+        -0.0007472542597620863,
+        0.01759339222432918
+      ],
+      "chi_max": 0.026073154312334146,
+      "N24to36_low_over_native_max": 0.0013410257090994157,
+      "N24to36_high_over_native_max": 0.01988260247280663,
+      "native_reductions": {
+        "SHW3X": 9.420592811248675,
+        "SHW4X": 13.063601402642677,
+        "RH4X": 21.02606734797763
+      }
+    },
+    {
+      "Story": "Story4",
+      "signed_high_over_native_range": [
+        -0.0032445440978710826,
+        0.02365233723172685
+      ],
+      "signed_low_over_native_range": [
+        0.9746390759092062,
+        1.0006259432967402
+      ],
+      "signed_residual_over_native_range": [
+        -0.003558709822221794,
+        0.004033195734261938
+      ],
+      "chi_max": 0.00647319073541297,
+      "N24to36_low_over_native_max": 0.000349074247777785,
+      "N24to36_high_over_native_max": 0.00551110241058345,
+      "native_reductions": {
+        "SHW3X": 7.300263357769932,
+        "SHW4X": 11.888178011761863,
+        "RH4X": 20.16350320383219
+      }
+    },
+    {
+      "Story": "Story5",
+      "signed_high_over_native_range": [
+        -0.006028839236735656,
+        0.0035657145078535277
+      ],
+      "signed_low_over_native_range": [
+        0.9971833062964797,
+        1.004016189703757
+      ],
+      "signed_residual_over_native_range": [
+        -0.0007490208039785263,
+        0.002012649532714327
+      ],
+      "chi_max": 0.011937763295681414,
+      "N24to36_low_over_native_max": 0.0007519230974230818,
+      "N24to36_high_over_native_max": 0.010900327662684468,
+      "native_reductions": {
+        "SHW3X": 6.851270683298971,
+        "SHW4X": 11.302181488069296,
+        "RH4X": 19.90232973221596
+      }
+    },
+    {
+      "Story": "Story6",
+      "signed_high_over_native_range": [
+        -0.003048309142458098,
+        0.0033892102112086132
+      ],
+      "signed_low_over_native_range": [
+        0.9961223874457469,
+        1.0019894336716018
+      ],
+      "signed_residual_over_native_range": [
+        -0.0010923532483201972,
+        0.0014023787022326227
+      ],
+      "chi_max": 0.0060660590395799074,
+      "N24to36_low_over_native_max": 0.0009179646638156103,
+      "N24to36_high_over_native_max": 0.013803449715365394,
+      "native_reductions": {
+        "SHW3X": 7.8225080403090175,
+        "SHW4X": 11.001379333516203,
+        "RH4X": 19.5201446015442
+      }
+    },
+    {
+      "Story": "Story7",
+      "signed_high_over_native_range": [
+        0.002854355325073302,
+        0.009888505337558601
+      ],
+      "signed_low_over_native_range": [
+        0.9902989120681445,
+        0.9976040829255136
+      ],
+      "signed_residual_over_native_range": [
+        -0.0028628865292133995,
+        0.000474448258338712
+      ],
+      "chi_max": 0.0,
+      "N24to36_low_over_native_max": 5.721930567347927e-05,
+      "N24to36_high_over_native_max": 0.0009962904206740277,
+      "native_reductions": {
+        "SHW3X": 8.645721247761962,
+        "SHW4X": 11.346666347004275,
+        "RH4X": 19.12767111171756
+      }
+    },
+    {
+      "Story": "Story8",
+      "signed_high_over_native_range": [
+        0.002295963042228751,
+        0.015756470396303825
+      ],
+      "signed_low_over_native_range": [
+        0.9819411084100805,
+        0.9941372758058363
+      ],
+      "signed_residual_over_native_range": [
+        0.0004830277655707769,
+        0.00424040423694113
+      ],
+      "chi_max": 0.0,
+      "N24to36_low_over_native_max": 0.0010346862321155845,
+      "N24to36_high_over_native_max": 0.01634502796083949,
+      "native_reductions": {
+        "SHW3X": 9.899602686546826,
+        "SHW4X": 13.551871485667332,
+        "RH4X": 21.79924031959448
+      }
+    },
+    {
+      "Story": "Story9",
+      "signed_high_over_native_range": [
+        -0.0012865548729588203,
+        0.011445630130454614
+      ],
+      "signed_low_over_native_range": [
+        0.9899619216306481,
+        1.0019403841306866
+      ],
+      "signed_residual_over_native_range": [
+        -0.0016021304831448611,
+        0.0020250786302074045
+      ],
+      "chi_max": 0.00256483318567291,
+      "N24to36_low_over_native_max": 0.0007822819324482905,
+      "N24to36_high_over_native_max": 0.01306045934879139,
+      "native_reductions": {
+        "SHW3X": 11.676764577742238,
+        "SHW4X": 16.799847619376617,
+        "RH4X": 23.813660378105915
+      }
+    },
+    {
+      "Story": "Story10",
+      "signed_high_over_native_range": [
+        -0.004338740677618166,
+        0.01425892817395077
+      ],
+      "signed_low_over_native_range": [
+        0.9847169213485858,
+        1.0059897717448898
+      ],
+      "signed_residual_over_native_range": [
+        -0.0016510310671623324,
+        0.002250963466951048
+      ],
+      "chi_max": 0.008588772115744825,
+      "N24to36_low_over_native_max": 0.0008188718716087546,
+      "N24to36_high_over_native_max": 0.01387816049054801,
+      "native_reductions": {
+        "SHW3X": 14.547261889122233,
+        "SHW4X": 18.909865859734044,
+        "RH4X": 25.343833449460185
+      }
+    },
+    {
+      "Story": "Story11",
+      "signed_high_over_native_range": [
+        -0.03402040886824368,
+        0.04480325983402325
+      ],
+      "signed_low_over_native_range": [
+        0.943140002217241,
+        1.0270821473284473
+      ],
+      "signed_residual_over_native_range": [
+        0.003659689641525209,
+        0.022627967198946213
+      ],
+      "chi_max": 0.06412275358224184,
+      "N24to36_low_over_native_max": 0.0031237382140396047,
+      "N24to36_high_over_native_max": 0.05713769867336642,
+      "native_reductions": {
+        "SHW3X": 20.134400371212557,
+        "SHW4X": 20.305404905830738,
+        "RH4X": 26.418805170380978
+      }
+    },
+    {
+      "Story": "Story12",
+      "signed_high_over_native_range": [
+        0.08577778423382043,
+        0.503272402946883
+      ],
+      "signed_low_over_native_range": [
+        0.5034886742934676,
+        0.9117335123284085
+      ],
+      "signed_residual_over_native_range": [
+        -0.006761077237658848,
+        0.0038351062703990335
+      ],
+      "chi_max": 0.0,
+      "N24to36_low_over_native_max": 0.001964482711977398,
+      "N24to36_high_over_native_max": 0.037958796246230206,
+      "native_reductions": {
+        "SHW3X": 28.3353595854162,
+        "SHW4X": 29.173449766636494,
+        "RH4X": 26.94876823885207
+      }
+    }
+  ],
+  "peak_summary": {
+    "n": 72,
+    "low_magnitude_exceeds_high_count": 72,
+    "opposite_low_high_count": 24,
+    "zero_chi_count": 48,
+    "positive_chi_entries": [
+      {
+        "Story": "Story1",
+        "Case": "SHW3X",
+        "zeta": 0.05,
+        "chi": 0.021060709663458077,
+        "lowratio": 1.0144934010446902,
+        "highratio": -0.010796668234962788,
+        "residualratio": -0.0036967328100435725
+      },
+      {
+        "Story": "Story1",
+        "Case": "SHW3X",
+        "zeta": 0.08,
+        "chi": 0.006543281486999453,
+        "lowratio": 1.0097339720557537,
+        "highratio": -0.0033143301004675257,
+        "residualratio": -0.006419641955229021
+      },
+      {
+        "Story": "Story1",
+        "Case": "SHW4X",
+        "zeta": 0.05,
+        "chi": 0.006959568514707581,
+        "lowratio": 1.0066844100369565,
+        "highratio": -0.0035152769676222613,
+        "residualratio": -0.003169133069211619
+      },
+      {
+        "Story": "Story1",
+        "Case": "SHW4X",
+        "zeta": 0.08,
+        "chi": 0.0022306803243447026,
+        "lowratio": 1.0007478943634964,
+        "highratio": -0.0011174206228917521,
+        "residualratio": 0.0003695262586972912
+      },
+      {
+        "Story": "Story2",
+        "Case": "SHW3X",
+        "zeta": 0.05,
+        "chi": 0.02323601082307658,
+        "lowratio": 1.0082242764104707,
+        "highratio": -0.011851242903568258,
+        "residualratio": 0.003626966493272635
+      },
+      {
+        "Story": "Story2",
+        "Case": "SHW3X",
+        "zeta": 0.08,
+        "chi": 0.005775290014276013,
+        "lowratio": 0.9990676120995117,
+        "highratio": -0.0028933074466749253,
+        "residualratio": 0.0038256953471828593
+      },
+      {
+        "Story": "Story2",
+        "Case": "SHW4X",
+        "zeta": 0.05,
+        "chi": 0.011949641725277793,
+        "lowratio": 0.9976999605591258,
+        "highratio": -0.0059969089959832226,
+        "residualratio": 0.008296948436619654
+      },
+      {
+        "Story": "Story2",
+        "Case": "SHW4X",
+        "zeta": 0.08,
+        "chi": 0.0006900643175085097,
+        "lowratio": 0.9953024958294041,
+        "highratio": -0.0003435298976116886,
+        "residualratio": 0.005041034068039164
+      },
+      {
+        "Story": "Story3",
+        "Case": "RH4X",
+        "zeta": 0.05,
+        "chi": 0.018777402929672893,
+        "lowratio": 0.9976445186410148,
+        "highratio": -0.009455360106836563,
+        "residualratio": 0.011810841464484863
+      },
+      {
+        "Story": "Story3",
+        "Case": "RH4X",
+        "zeta": 0.08,
+        "chi": 0.026073154312334146,
+        "lowratio": 0.9955566914783682,
+        "highratio": -0.013150083702595116,
+        "residualratio": 0.01759339222432918
+      },
+      {
+        "Story": "Story4",
+        "Case": "SHW4X",
+        "zeta": 0.08,
+        "chi": 0.0004933749072513205,
+        "lowratio": 1.0006259432967402,
+        "highratio": -0.00024690277380022666,
+        "residualratio": -0.00037904052309403676
+      },
+      {
+        "Story": "Story4",
+        "Case": "RH4X",
+        "zeta": 0.05,
+        "chi": 0.00647319073541297,
+        "lowratio": 0.9992113483636632,
+        "highratio": -0.0032445440978710826,
+        "residualratio": 0.004033195734261938
+      },
+      {
+        "Story": "Story5",
+        "Case": "SHW3X",
+        "zeta": 0.05,
+        "chi": 0.011937763295681414,
+        "lowratio": 1.004016189703757,
+        "highratio": -0.006028839236735656,
+        "residualratio": 0.002012649532714327
+      },
+      {
+        "Story": "Story5",
+        "Case": "SHW4X",
+        "zeta": 0.08,
+        "chi": 0.0014577350282691803,
+        "lowratio": 0.9996618931052366,
+        "highratio": -0.0007291525345979973,
+        "residualratio": 0.0010672594291103578
+      },
+      {
+        "Story": "Story5",
+        "Case": "RH4X",
+        "zeta": 0.05,
+        "chi": 0.0030024360959000074,
+        "lowratio": 1.0012983211865172,
+        "highratio": -0.001505427085457799,
+        "residualratio": 0.0002071058989358506
+      },
+      {
+        "Story": "Story6",
+        "Case": "SHW3X",
+        "zeta": 0.05,
+        "chi": 0.0060660590395799074,
+        "lowratio": 1.0019894336716018,
+        "highratio": -0.003048309142458098,
+        "residualratio": 0.0010588754702261596
+      },
+      {
+        "Story": "Story6",
+        "Case": "SHW4X",
+        "zeta": 0.08,
+        "chi": 0.0020943119097267537,
+        "lowratio": 1.0013299315748527,
+        "highratio": -0.0010496477455187463,
+        "residualratio": -0.000280283829614627
+      },
+      {
+        "Story": "Story9",
+        "Case": "SHW3X",
+        "zeta": 0.05,
+        "chi": 0.0025064114399908632,
+        "lowratio": 0.9992287318132186,
+        "highratio": -0.0012538104447132297,
+        "residualratio": 0.0020250786302074045
+      },
+      {
+        "Story": "Story9",
+        "Case": "SHW4X",
+        "zeta": 0.08,
+        "chi": 0.00256483318567291,
+        "lowratio": 1.0019403841306866,
+        "highratio": -0.0012865548729588203,
+        "residualratio": -0.0006538292575908922
+      },
+      {
+        "Story": "Story10",
+        "Case": "SHW4X",
+        "zeta": 0.08,
+        "chi": 0.004210082806932025,
+        "lowratio": 1.0005379988207745,
+        "highratio": -0.0021106168491130126,
+        "residualratio": 0.001572618028885912
+      },
+      {
+        "Story": "Story10",
+        "Case": "RH4X",
+        "zeta": 0.05,
+        "chi": 0.0018214251572969964,
+        "lowratio": 1.0021097874871532,
+        "highratio": -0.0009134658935307364,
+        "residualratio": -0.0011963215929177587
+      },
+      {
+        "Story": "Story10",
+        "Case": "RH4X",
+        "zeta": 0.08,
+        "chi": 0.008588772115744825,
+        "lowratio": 1.0059897717448898,
+        "highratio": -0.004338740677618166,
+        "residualratio": -0.0016510310671623324
+      },
+      {
+        "Story": "Story11",
+        "Case": "RH4X",
+        "zeta": 0.05,
+        "chi": 0.06412275358224184,
+        "lowratio": 1.0270821473284473,
+        "highratio": -0.03402040886824368,
+        "residualratio": 0.0069382615422388435
+      },
+      {
+        "Story": "Story11",
+        "Case": "RH4X",
+        "zeta": 0.08,
+        "chi": 0.05316271193805311,
+        "lowratio": 1.004810616225758,
+        "highratio": -0.027438583424650238,
+        "residualratio": 0.022627967198946213
+      }
+    ],
+    "max_chi": {
+      "Story": "Story11",
+      "Case": "RH4X",
+      "zeta": 0.05,
+      "chi": 0.06412275358224184,
+      "lowratio": 1.0270821473284473,
+      "highratio": -0.03402040886824368,
+      "residualratio": 0.0069382615422388435
+    },
+    "low_ratio_over1_count": 16,
+    "high_ratio_over1_count": 0
+  },
+  "amplitude_increases": [],
+  "group_amplitude_reduction_ranges": {
+    "low": [
+      7.555608969018646,
+      26.17738171399775
+    ],
+    "high": [
+      4.579956420681198,
+      29.401314766072772
+    ]
+  },
+  "same_anchor_waveform_opposes_amplitude_count": 38,
+  "same_anchor_count": 72,
+  "symmetric_identity_max_abs_error_kN": 1.2505552149377763e-12,
+  "max_existing_group_prediction_float_closure_kN": 2.4018481781240553e-07,
+  "closure_check_tolerance": "max(1e-8 kN,5e-11*signal_peak); check only, no effect on signed classification",
+  "scope": "all twelve floors, three native X inputs, both damping states; represented fitted low/high groups only, not true modal or energy fractions; no full arrays exported"
+}

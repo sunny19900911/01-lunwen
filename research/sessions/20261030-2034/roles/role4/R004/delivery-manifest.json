@@ -1,0 +1,87 @@
+{
+  "frozen_utc": "2026-10-30T13:16:50.350389+00:00",
+  "outputs": [
+    {
+      "name": "figure1-native-peak-reduction-profile.png",
+      "bytes": 59325,
+      "sha256": "def8b805481319ca8e3f19d3cdb34a68ad51554e4b75e631580be74c378f8847"
+    },
+    {
+      "name": "figure1-native-peak-reduction-profile.svg",
+      "bytes": 11587,
+      "sha256": "4289eaed3d5a78c935092977a9bb0cbd6d7dfeb3a32bfeab6a7690f85206ea9e"
+    },
+    {
+      "name": "figure1-native-profile-36.csv",
+      "bytes": 5315,
+      "sha256": "6e6690e7e32dcc101d8d69e59e4abc424f00570c89bc53122930ff6b7037b04e"
+    },
+    {
+      "name": "figure2-same-time-points-4.csv",
+      "bytes": 600,
+      "sha256": "9a2e6fa9a7502bebbd8ff82dc6529cb4a448ca89cce7acf90b12db0586939556"
+    },
+    {
+      "name": "figure2-Story12-SHW4X-two-anchors.png",
+      "bytes": 91320,
+      "sha256": "65f30cf45b45777e970ed14ff678f8a6c35e316d443d0118f569ee45b6ffc259"
+    },
+    {
+      "name": "figure2-Story12-SHW4X-two-anchors.svg",
+      "bytes": 10639,
+      "sha256": "d474cd590440b75bdb0c82668bf7fdb486878466f4edfa4567d0cd17137cf7a0"
+    },
+    {
+      "name": "freeze_figures.py",
+      "bytes": 1565,
+      "sha256": "26ec492846777ffd1d25837e3d58fb9e68e6cb258847824cd3f9827f6cb9a247"
+    },
+    {
+      "name": "make_figures.py",
+      "bytes": 9098,
+      "sha256": "0f5978eb0df50d50167bf4322d5468c4b26735fc2656e68bf92ebc88924c58ef"
+    },
+    {
+      "name": "numeric-verification.json",
+      "bytes": 1331,
+      "sha256": "be4d0caee9fe166404fd2b94bc97e455a0be7260869db546a974ebec61178c2c"
+    },
+    {
+      "name": "README-figures.md",
+      "bytes": 1271,
+      "sha256": "95a067c2e31b88b67e66e5fb79eaceb7b6b3d8a6170dfd8227ee9d7928a81587"
+    },
+    {
+      "name": "render-record.json",
+      "bytes": 438,
+      "sha256": "8be59b6d923d9ca224232bb445fd2dd5e63129869bd035a6ce73a44ba6c96c46"
+    },
+    {
+      "name": "render_figures.cjs",
+      "bytes": 1067,
+      "sha256": "299c1a99b07b2ac5907890e60259cc44441e135c9740c46b1232fcc28c7199af"
+    },
+    {
+      "name": "visual-QA.json",
+      "bytes": 656,
+      "sha256": "f3d0668d685d58bc22dda2616419e0501672f8201a8ce6b12e8c299fe6402668"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\native-all12-peak-change-36.csv",
+      "bytes": 5315,
+      "sha256": "6e6690e7e32dcc101d8d69e59e4abc424f00570c89bc53122930ff6b7037b04e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\local-cache\\all12-low-high-reference-traces.npz",
+      "bytes": 15681979,
+      "sha256": "d67e4833bfeacb50f8d13255fc47e73e421ed456cf510105ddac02d38d61cddf"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R003\\all12-same-time-low-high-residual-288.csv",
+      "bytes": 69900,
+      "sha256": "36c0d40ff86c9fa4e4bb881b1e200c2124de06c1543b9fae442d3584d56cc300"
+    }
+  ]
+}

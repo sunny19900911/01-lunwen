@@ -1,0 +1,24 @@
+{
+  "verified_utc": "2026-10-30T12:54:26.185527+00:00",
+  "only_new_N": 36,
+  "operator": "elastic",
+  "rconds": [
+    1e-10,
+    1e-08
+  ],
+  "prediction_rows": 24,
+  "common_group_rows": 96,
+  "aggregate_rows": 8,
+  "high_block_rows": 12,
+  "new_models": 2,
+  "rank_both": 36,
+  "rcond_models_and_predictions_identical": true,
+  "metrics_recomputed_from_saved_arrays": true,
+  "max_NRMSE_recheck_difference": 0.0,
+  "native8_no_refit": true,
+  "N6_N12_N24_not_refitted": true,
+  "all_frozen_sources_and_code_unchanged": true,
+  "full_arrays_local_only": true,
+  "further_N_extension_not_performed": true,
+  "classification": "fitted-model; stable outputs do not certify true modal decomposition"
+}

@@ -1,0 +1,33 @@
+{
+  "completed": "2026-10-30T21:12:32.809256+08:00",
+  "worst_holdout5": {
+    "N": 36,
+    "Story": "Story11",
+    "Case": "RH4X",
+    "zeta": 0.05,
+    "NRMSE": 0.05716602358144505,
+    "native_peak_kN": 2324.4028389526175,
+    "predicted_peak_kN": 2316.8597812730927,
+    "peak_relative_error": -0.0032451593816343882,
+    "native_peak_time_s": 21.68,
+    "predicted_peak_time_s": 21.7,
+    "native_peak_SourceRow": 39624,
+    "predicted_peak_SourceRow": 39625,
+    "coef_sha256": "1c479f2fb8bceca6f87dada47cfba18efab6b3fb65950e392a3b9b95c9ac4773"
+  },
+  "worst_target8": {
+    "N": 36,
+    "Story": "Story11",
+    "Case": "RH4X",
+    "zeta": 0.08,
+    "NRMSE": 0.04552382938435587,
+    "native_peak_kN": 1710.323381554921,
+    "predicted_peak_kN": 1691.7785615463827,
+    "peak_relative_error": -0.010842873463893454,
+    "native_peak_time_s": 16.64,
+    "predicted_peak_time_s": 21.7,
+    "native_peak_SourceRow": 39372,
+    "predicted_peak_SourceRow": 39625,
+    "coef_sha256": "1c479f2fb8bceca6f87dada47cfba18efab6b3fb65950e392a3b9b95c9ac4773"
+  }
+}
