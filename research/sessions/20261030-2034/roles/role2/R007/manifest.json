@@ -1,0 +1,41 @@
+{
+  "status": "complete scoped v004 adoption review; 0 must changes",
+  "started": "2026-10-30T22:02:53+08:00",
+  "frozen": "2026-10-30T22:06:09.551053+08:00",
+  "deadline": "2026-10-30T22:07:53+08:00",
+  "within5minutes": true,
+  "elapsed_seconds": 196.551053,
+  "table1_cells": 9,
+  "table1_scalar_checks": 18,
+  "D_M_selected_display_checks": 9,
+  "must_change_count": 0,
+  "new_ODE_fit_array_reads": 0,
+  "draft_modified": false,
+  "files": [
+    {
+      "name": "adoption-checks.json",
+      "bytes": 1802,
+      "sha256": "70e72a2f0ab1173e0ebce237409c209433e2c464e49698cfc60331cbb44d9955"
+    },
+    {
+      "name": "check_adoption.py",
+      "bytes": 4289,
+      "sha256": "06e00e8c9f7ad6defa7845c09b70a0673e6fdd069365abbd86a09aa373610712"
+    },
+    {
+      "name": "review.md",
+      "bytes": 1804,
+      "sha256": "2818210ce3ffd69268c59cfac36624309a3db4cb50d892b625827f2b9883e93e"
+    },
+    {
+      "name": "scalar-range-check.json",
+      "bytes": 469,
+      "sha256": "cf99145baa55227d099608ef017abedf29dd1cd7376c096cab22f6f78b8d30ee"
+    },
+    {
+      "name": "table1-nine-checks.csv",
+      "bytes": 493,
+      "sha256": "ee496f0de87d6a6c6df0aba27dc2d0289822e9b0ec5bd3b0534f4ccd5d866662"
+    }
+  ]
+}

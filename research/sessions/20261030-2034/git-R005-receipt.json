@@ -1,0 +1,47 @@
+{
+  "checkpoint": "R005",
+  "time_utc": "2026-10-30T14:04:39.019108+00:00",
+  "HEAD": "a35d6665246aa346653ac1fcc6acb8129b6598ff",
+  "previous_HEAD": "555777073ed1216c3f0dc7fa802c2f6f68f85c94",
+  "staged_files": [
+    "papers/damping-output-boundaries/manuscript/damping-superposition-session019-v004.md",
+    "research/sessions/20261030-2034/actual-snapshot-R005-start.json",
+    "research/sessions/20261030-2034/claims.md",
+    "research/sessions/20261030-2034/git-R004-receipt.json",
+    "research/sessions/20261030-2034/git-R005-publication.json",
+    "research/sessions/20261030-2034/prepare_R005_publication.py",
+    "research/sessions/20261030-2034/resume_R004_publication.py",
+    "research/sessions/20261030-2034/roles/role1/R004/check_first12_kernels.py",
+    "research/sessions/20261030-2034/roles/role1/R004/independent-kernel-check-36.csv",
+    "research/sessions/20261030-2034/roles/role1/R004/input-freeze.json",
+    "research/sessions/20261030-2034/roles/role1/R004/manifest.json",
+    "research/sessions/20261030-2034/roles/role1/R004/one-page.md",
+    "research/sessions/20261030-2034/roles/role1/R004/results.json",
+    "research/sessions/20261030-2034/roles/role1/R004/validation.json",
+    "research/sessions/20261030-2034/roles/role2/R006/manifest.json",
+    "research/sessions/20261030-2034/roles/role2/R006/review.md",
+    "research/sessions/20261030-2034/roles/role5/R004/calculation-details.md",
+    "research/sessions/20261030-2034/roles/role5/R004/handoff.md",
+    "research/sessions/20261030-2034/roles/role5/R004/input-freeze.json",
+    "research/sessions/20261030-2034/roles/role5/R004/manifest.json",
+    "research/sessions/20261030-2034/roles/role5/R004/validation.json",
+    "research/sessions/20261030-2034/rounds/R005-start.md",
+    "research/sessions/20261030-2034/rounds/R005.md",
+    "research/sessions/20261030-2034/runs.md",
+    "research/sessions/20261030-2034/status.json",
+    "research/sessions/20261030-2034/threads.json"
+  ],
+  "verified_blob_hashes": 26,
+  "identity_fallback": true,
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "code": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/sunny19900911/01-lunwen.git\n   5557770..a35d666  main -> main\n"
+    }
+  ],
+  "remote_HEAD": "a35d6665246aa346653ac1fcc6acb8129b6598ff",
+  "remote_equals_local": true,
+  "pending_push": false
+}

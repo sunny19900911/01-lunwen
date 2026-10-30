@@ -9,3 +9,5 @@ R003 completed: N36,all12; independent role2R003/R004; roof role1R002; source ro
 R004 completed: role1R003 conditional bound + role2R005432coeff/612arithmetic; role4R00536native ledger + role3R003 independent scalar audit; role4R006108unit modal metrics no newODE/fit; role5v003 read. Pending role1R004 independent36kernel, role2R006 v003 review, authorv004.
 
 R005: v004 root全文读；role1R00436unitmetrics独核已采用，role2R006v003审通过。Final integration only, no_new_scientific_dispatch=true. role2R007/role6R006 new-content final review,role4R007 data figures,role5R005 v005WordQA;all limits within22:34:43.
+
+R006 final integration only: role2R007 new-content0must;role6R0063phrases→author;role4R007 two data figures rendered/root viewed→author; no new scientific dispatch. Packaged doc renderer unavailable, native Word fallback and image-paragraph fix tracked by author; final QA not presumed.

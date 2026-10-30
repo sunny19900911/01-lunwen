@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="940" viewBox="0 0 1320 940"><title>相同阻尼增量下各阶响应幅值的削弱</title><desc>经典模态阻尼比由5%变为8%，比较第1、2、3、9阶在SHW3X、SHW4X、RH4X输入下，同频率单位参与运动的峰幅削弱率。非楼层贡献；参与因子为零时实际模态不受激。</desc><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17242b">
+<text x="80" y="65" font-size="32" text-anchor="start" fill="#17242b" font-weight="bold" >相同阻尼增量下各阶响应幅值的削弱</text>
+<text x="80" y="110" font-size="23" text-anchor="start" fill="#475761" font-weight="normal" >经典模态阻尼比 ζ：5% → 8%  |  第1、2、3、9阶</text>
+<rect x="240" y="145" width="25" height="21" fill="#2467a1"/>
+<text x="280" y="165" font-size="23" text-anchor="start" fill="#17242b" font-weight="normal" >SHW3X</text>
+<rect x="580" y="145" width="25" height="21" fill="#d46624"/>
+<text x="620" y="165" font-size="23" text-anchor="start" fill="#17242b" font-weight="normal" >SHW4X</text>
+<rect x="920" y="145" width="25" height="21" fill="#258271"/>
+<text x="960" y="165" font-size="23" text-anchor="start" fill="#17242b" font-weight="normal" >RH4X</text>
+<line x1="150" y1="680.0" x2="1240" y2="680.0" stroke="#e1e6e9" stroke-width="1"/>
+<text x="128" y="688.0" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >0</text>
+<line x1="150" y1="614.2857142857143" x2="1240" y2="614.2857142857143" stroke="#e1e6e9" stroke-width="1"/>
+<text x="128" y="622.2857142857143" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >5</text>
+<line x1="150" y1="548.5714285714286" x2="1240" y2="548.5714285714286" stroke="#e1e6e9" stroke-width="1"/>
+<text x="128" y="556.5714285714286" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >10</text>
+<line x1="150" y1="482.8571428571429" x2="1240" y2="482.8571428571429" stroke="#e1e6e9" stroke-width="1"/>
+<text x="128" y="490.8571428571429" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >15</text>
+<line x1="150" y1="417.14285714285717" x2="1240" y2="417.14285714285717" stroke="#e1e6e9" stroke-width="1"/>
+<text x="128" y="425.14285714285717" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >20</text>
+<line x1="150" y1="351.42857142857144" x2="1240" y2="351.42857142857144" stroke="#e1e6e9" stroke-width="1"/>
+<text x="128" y="359.42857142857144" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >25</text>
+<line x1="150" y1="285.7142857142857" x2="1240" y2="285.7142857142857" stroke="#e1e6e9" stroke-width="1"/>
+<text x="128" y="293.7142857142857" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >30</text>
+<line x1="150" y1="220.0" x2="1240" y2="220.0" stroke="#e1e6e9" stroke-width="1"/>
+<text x="128" y="228.0" font-size="21" text-anchor="end" fill="#17242b" font-weight="normal" >35</text>
+<line x1="150" y1="220" x2="150" y2="680" stroke="#57656d" stroke-width="1.5"/>
+<line x1="150" y1="680" x2="1240" y2="680" stroke="#57656d" stroke-width="1.5"/>
+<text x="56" y="500" font-size="23" text-anchor="start" fill="#17242b" font-weight="normal" transform="rotate(-90 56 500)">峰幅削弱率（%）</text>
+<rect x="182.5" y="539.3321220072716" width="55" height="140.66787799272845" fill="#2467a1"/>
+<text x="210" y="525.3321220072716" font-size="20" text-anchor="middle" fill="#2467a1" font-weight="normal" >10.70</text>
+<rect x="252.5" y="573.3577228460733" width="55" height="106.64227715392667" fill="#d46624"/>
+<text x="280" y="559.3577228460733" font-size="20" text-anchor="middle" fill="#d46624" font-weight="normal" >8.11</text>
+<rect x="322.5" y="392.81673664612055" width="55" height="287.18326335387945" fill="#258271"/>
+<text x="350" y="378.81673664612055" font-size="20" text-anchor="middle" fill="#258271" font-weight="normal" >21.85</text>
+<text x="280" y="718" font-size="23" text-anchor="middle" fill="#17242b" font-weight="normal" >第1阶</text>
+<rect x="462.5" y="576.0788224262292" width="55" height="103.92117757377082" fill="#2467a1"/>
+<text x="490" y="562.0788224262292" font-size="20" text-anchor="middle" fill="#2467a1" font-weight="normal" >7.91</text>
+<rect x="532.5" y="547.54795651391" width="55" height="132.45204348609002" fill="#d46624"/>
+<text x="560" y="533.54795651391" font-size="20" text-anchor="middle" fill="#d46624" font-weight="normal" >10.08</text>
+<rect x="602.5" y="388.18832859753917" width="55" height="291.81167140246083" fill="#258271"/>
+<text x="630" y="374.18832859753917" font-size="20" text-anchor="middle" fill="#258271" font-weight="normal" >22.20</text>
+<text x="560" y="718" font-size="23" text-anchor="middle" fill="#17242b" font-weight="normal" >第2阶</text>
+<rect x="742.5" y="596.482968161255" width="55" height="83.51703183874497" fill="#2467a1"/>
+<text x="770" y="582.482968161255" font-size="20" text-anchor="middle" fill="#2467a1" font-weight="normal" >6.35</text>
+<rect x="812.5" y="506.8082148603164" width="55" height="173.1917851396836" fill="#d46624"/>
+<text x="840" y="492.8082148603164" font-size="20" text-anchor="middle" fill="#d46624" font-weight="normal" >13.18</text>
+<rect x="882.5" y="415.46690473322786" width="55" height="264.53309526677214" fill="#258271"/>
+<text x="910" y="401.46690473322786" font-size="20" text-anchor="middle" fill="#258271" font-weight="normal" >20.13</text>
+<text x="840" y="718" font-size="23" text-anchor="middle" fill="#17242b" font-weight="normal" >第3阶</text>
+<rect x="1022.5" y="297.45966801390387" width="55" height="382.54033198609613" fill="#2467a1"/>
+<text x="1050" y="283.45966801390387" font-size="20" text-anchor="middle" fill="#2467a1" font-weight="normal" >29.11</text>
+<rect x="1092.5" y="392.04498339143294" width="55" height="287.95501660856706" fill="#d46624"/>
+<text x="1120" y="378.04498339143294" font-size="20" text-anchor="middle" fill="#d46624" font-weight="normal" >21.91</text>
+<rect x="1162.5" y="436.77023595769737" width="55" height="243.22976404230263" fill="#258271"/>
+<text x="1190" y="422.77023595769737" font-size="20" text-anchor="middle" fill="#258271" font-weight="normal" >18.51</text>
+<text x="1120" y="718" font-size="23" text-anchor="middle" fill="#17242b" font-weight="normal" >第9阶</text>
+<text x="695.0" y="768" font-size="24" text-anchor="middle" fill="#17242b" font-weight="normal" >阶次</text>
+<text x="80" y="823" font-size="21" text-anchor="start" fill="#475761" font-weight="normal" >峰幅削弱率 = (1 − A₈% / A₅%) × 100%；A为同频率单位参与运动的绝对峰。</text>
+<text x="80" y="864" font-size="21" text-anchor="start" fill="#475761" font-weight="normal" >该幅比与共同的非零参与因子、模态归一化常数无关；不表示楼层剪力贡献。</text>
+<text x="80" y="905" font-size="21" text-anchor="start" fill="#475761" font-weight="normal" >参与因子 Γ = 0 时，实际该模态不受激；本图仍表示单位参与运动。</text>
+</g></svg>

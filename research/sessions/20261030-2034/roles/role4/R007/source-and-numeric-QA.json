@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-30T14:05:37.865907+00:00",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R006\\modal-unit-kernel-change-108.csv",
+      "bytes": 34975,
+      "sha256": "cbba4f36fc96ef9d99b91a2faca4aabb01b2f95868854d91b7b77f7dbf3465c5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R004\\figure1-native-peak-reduction-profile.svg",
+      "bytes": 11587,
+      "sha256": "4289eaed3d5a78c935092977a9bb0cbd6d7dfeb3a32bfeab6a7690f85206ea9e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R004\\figure1-native-profile-36.csv",
+      "bytes": 5315,
+      "sha256": "6e6690e7e32dcc101d8d69e59e4abc424f00570c89bc53122930ff6b7037b04e"
+    }
+  ],
+  "selected_modes": [
+    1,
+    2,
+    3,
+    9
+  ],
+  "cases": [
+    "SHW3X",
+    "SHW4X",
+    "RH4X"
+  ],
+  "bars": 12,
+  "chart_values": "copied frozen peak_amplitude_decrease_percent; checked 100*(1-A8/A5)",
+  "max_display_rounding_absolute_percent": 0.005,
+  "profile_copy_changes": "原生 → 软件计算; all data marks and axes retained; moved RH4X roof text label to avoid legend",
+  "profile_source_CSV_byte_identical": true,
+  "source_hashes_unchanged": true,
+  "no_new_ODE_or_fit_or_arrays": true
+}

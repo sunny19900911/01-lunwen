@@ -19,7 +19,7 @@ paths=[]
 for q in items:
  p=(R/q['relative']).resolve()
  assert p.is_relative_to(S) or (p.parent==R/'papers/damping-output-boundaries/manuscript' and p.name.startswith('damping-superposition-session019-'))
- assert 'local-cache'not in p.parts and p.suffix in ['.md','.json','.csv','.py','.svg','.png','.docx']
+ assert 'local-cache'not in p.parts and p.suffix in ['.md','.json','.csv','.py','.cjs','.svg','.png','.docx']
  b=p.read_bytes();assert len(b)<1048576 and sha(b)==q['sha256']
  if p.suffix=='.json':json.loads(b.decode('utf-8'))
  if p.suffix=='.py':ast.parse(b.decode('utf-8'))

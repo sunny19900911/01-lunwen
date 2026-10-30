@@ -1,0 +1,38 @@
+{
+  "completed": "2026-10-30T22:05:04.207935+08:00",
+  "draft_sha256": "731cf15941ea9ded8f2343a59a7159a8ef60bd20174287e94d60a95d6e3880fe",
+  "source_manifests": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role5\\R004\\manifest.json",
+      "sha256": "8eb4d1060e495c2e5795d0cc24c8dc29639f5f8e128a67cc186eaaff4582b57b",
+      "verified_files": 5
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role1\\R004\\manifest.json",
+      "sha256": "34daec2bb8d11db3284e0c95fe63fed542c510b6536fe1ffd025703698fc89ae",
+      "verified_files": 6
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role3\\R003\\freeze.json",
+      "sha256": "8a235e9dc92dbd87f565207d01c96178ed1efde438353fe968c073ddeef3ed88",
+      "verified_files": 4
+    }
+  ],
+  "first12_reference_rows": 36,
+  "table1_cells": 9,
+  "table1_scalar_checks": 18,
+  "peak_ledger_rows_from_role3": 36,
+  "time_changes_adopted": 20,
+  "sign_changes_adopted": 3,
+  "selected_D_M_rows_display_checks": 9,
+  "must_change_count": 0,
+  "unit_108_source_hash_verified": "cbba4f36fc96ef9d99b91a2faca4aabb01b2f95868854d91b7b77f7dbf3465c5",
+  "independently_reaudited_kernel_modes": "1-12 via role1 frozen scalar results only",
+  "no_array_ODE_or_fit": true,
+  "manual_checks": [
+    "common nonzero multiplier invariance and zero Gamma exception",
+    "epsilon not called a phase angle",
+    "M keeps old sign and is not a causal phase share",
+    "summary and conclusions preserve unit-response versus physical-share distinction"
+  ]
+}

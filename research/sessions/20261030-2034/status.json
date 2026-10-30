@@ -5,14 +5,14 @@
   "deadline": "2026-10-30T22:34:43+08:00",
   "deadline_utc": "2026-10-30T14:34:43Z",
   "writing_start": "2026-10-30T22:04:43+08:00",
-  "checkpoint": "R006",
+  "checkpoint": "R007-final",
   "checkpoint_open": true,
   "no_new_scientific_dispatch": true,
   "active_plan": "plan.md",
   "git_authorized": "new human message every15min normal scoped commit/push",
   "primary_task": "Scientific calculations frozen; final v005 engineering paper, Word render QA and bounded reviews only",
   "automation": "automation-5 ACTIVE formally updated/view and actual TOML checked",
-  "last_actual": "2026-10-30T22:04:23.029713+08:00",
+  "last_actual": "2026-10-30T22:17:34.864813+08:00",
   "root_R001": {
     "executed": true,
     "variants": 8,
@@ -34,12 +34,12 @@
     "branch": "main",
     "initial_index": "empty",
     "initial_HEAD_and_remote_main": "c12784ccccfe4dbcfa81be300c5e1270895897b2",
-    "publication": "R004remoteSHAequal; R005 reviewed v004 and independent kernel metric publication pending",
-    "last_success_HEAD": "555777073ed1216c3f0dc7fa802c2f6f68f85c94",
-    "last_success_receipt": "git-R004-receipt.json"
+    "publication": "R006 frozen final-review and figures publication pending",
+    "last_success_HEAD": "a35d6665246aa346653ac1fcc6acb8129b6598ff",
+    "last_success_receipt": "git-R005-receipt.json"
   },
   "role_tasks": "initial R001 tasks are completed history; current_tasks authoritative",
-  "next_checkpoint": "Collect bounded final review and figures, read finalv005/Word QA; do not dispatch new fits/theory/search. Next GitR006 after final artifacts frozen, hard stop22:34:43 and administrative final close.",
+  "next_checkpoint": "No new science. Collect role5 final manifest, root read finalv005 and all rendered page PNGs; final close at22:34:43, scoped normal Git and stop current automation.",
   "independent_audit": {
     "N12": "role2/R001 8records48numbers0must",
     "N24": "role2/R002 8records48numbers0must",
@@ -48,13 +48,13 @@
   },
   "current_tasks": {
     "role1": "R004 kernel independent review frozen;idle",
-    "role2": "R007 only v004 new unit-kernel claims/table1 final review5min",
+    "role2": "R007 v004 new-content review0must frozen;idle",
     "role3": "R003 ledger review frozen;idle",
-    "role4": "R007 two existing-data engineering figures6min, no science calculation",
-    "role5": "R005 finalv005+Word/render20min;deadline22:25,onlyauthor",
-    "role6": "R006 engineering wording final review5min"
+    "role4": "R007 two reviewed-data figures frozen22:05:47;idle",
+    "role5": "R005 v005Word render and QA in progress; only collect after actual freeze",
+    "role6": "R0063 precise wording suggestions frozen adopted by author;idle"
   },
-  "recovery_file": "rounds/R005.md",
+  "recovery_file": "rounds/R006.md",
   "scientific_status": {
     "N12": "executed and independently reviewed48numbers",
     "N24": "executed and independently reviewed48numbers",

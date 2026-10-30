@@ -1,0 +1,82 @@
+{
+  "frozen_utc": "2026-10-30T14:05:47.238489+00:00",
+  "outputs": [
+    {
+      "name": "build_figures.py",
+      "bytes": 5336,
+      "sha256": "5b245283550a8fd4f5946212eca7e56a151b36f8735deee77c2618a7699137fc"
+    },
+    {
+      "name": "figure-floor-peak-reduction-calculated.png",
+      "bytes": 69258,
+      "sha256": "92207b73befff18b0aecf5f6ef42672009751bef748bf5ec7045e7d5c5ac63e6"
+    },
+    {
+      "name": "figure-floor-peak-reduction-calculated.svg",
+      "bytes": 11625,
+      "sha256": "f3462a83b5ea200868467078e50a5103c4fd48eed4c495a44baa2dc62f7eb84d"
+    },
+    {
+      "name": "figure-floor-peak-reduction-source-36.csv",
+      "bytes": 5315,
+      "sha256": "6e6690e7e32dcc101d8d69e59e4abc424f00570c89bc53122930ff6b7037b04e"
+    },
+    {
+      "name": "figure-modal-amplitude-reduction-source-12.csv",
+      "bytes": 1071,
+      "sha256": "3302c25c17acb0fec6bff72898abf866e81271ad37f29767af24c4a88025e778"
+    },
+    {
+      "name": "figure-modal-amplitude-reduction.png",
+      "bytes": 53893,
+      "sha256": "17c33292d918a398b15f6121c87e0a99294368df40d711fb97910d6ba2486ce4"
+    },
+    {
+      "name": "figure-modal-amplitude-reduction.svg",
+      "bytes": 7153,
+      "sha256": "1b4d5c2f28c326f7883cc0c2a800a397269808348e34b072658ae7ac6ceef7ad"
+    },
+    {
+      "name": "finalize_QA.py",
+      "bytes": 2586,
+      "sha256": "2a30f03a2167850baedac3226982593d3ee93f2b73b34f805f7253460f672e45"
+    },
+    {
+      "name": "render-QA.json",
+      "bytes": 372,
+      "sha256": "c7aefdf50c367977c4a923c0d649e03f2627e97fc71f40426c801a32da681d4b"
+    },
+    {
+      "name": "render_figures.cjs",
+      "bytes": 966,
+      "sha256": "a3d69a18e5d07a149a03d732a4b83e4b94616cb4f6722965507031d22a935acc"
+    },
+    {
+      "name": "source-and-numeric-QA.json",
+      "bytes": 1564,
+      "sha256": "51ebb225805ad04985400a7312ec4f1da5a55aecdb00832b8dc2585e115e2835"
+    },
+    {
+      "name": "visual-QA.json",
+      "bytes": 771,
+      "sha256": "8c468f953c8b284436d78251f076d5755fcbe87144ce9db77c6bf940f4ef5200"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R006\\modal-unit-kernel-change-108.csv",
+      "bytes": 34975,
+      "sha256": "cbba4f36fc96ef9d99b91a2faca4aabb01b2f95868854d91b7b77f7dbf3465c5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R004\\figure1-native-peak-reduction-profile.svg",
+      "bytes": 11587,
+      "sha256": "4289eaed3d5a78c935092977a9bb0cbd6d7dfeb3a32bfeab6a7690f85206ea9e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R004\\figure1-native-profile-36.csv",
+      "bytes": 5315,
+      "sha256": "6e6690e7e32dcc101d8d69e59e4abc424f00570c89bc53122930ff6b7037b04e"
+    }
+  ]
+}
