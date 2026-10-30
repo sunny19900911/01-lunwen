@@ -13,7 +13,14 @@ assert not call(['git','diff','--cached','--name-only']).stdout.strip(),'Unknown
 assert call(['git','branch','--show-current']).stdout.strip()=='main'
 before=call(['git','rev-parse','HEAD']).stdout.strip()
 remote=call(['git','-c','http.proxy=http://127.0.0.1:17890','ls-remote','--exit-code','origin','refs/heads/main']).stdout.split()[0]
-assert before==remote,'Remote changed: inspect; no force'
+resumed_pending=None
+if before!=remote:
+ pending_path=(R/cfg.get('resume_pending_receipt','')).resolve()
+ assert pending_path.is_relative_to(S) and pending_path.is_file(),'Remote changed: inspect; no force'
+ pending=json.loads(pending_path.read_text(encoding='utf-8'))
+ assert pending.get('pending_push') and pending['HEAD']==before and pending['remote_HEAD']==remote,'Only the exact recorded pending commit can be resumed'
+ call(['git','merge-base','--is-ancestor',remote,before])
+ resumed_pending=pending_path.relative_to(R).as_posix()
 items=cfg['files']+[{'relative':M.relative_to(R).as_posix(),'sha256':sha(M.read_bytes())}]
 paths=[]
 for q in items:
@@ -41,7 +48,7 @@ for i in range(2):
  if p.returncode==0:break
 p=call(['git','-c','http.proxy=http://127.0.0.1:17890','ls-remote','--exit-code','origin','refs/heads/main'],False)
 remote=p.stdout.split()[0]if p.returncode==0 and p.stdout.strip()else None
-d={'checkpoint':cfg['checkpoint'],'time_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'HEAD':head,'previous_HEAD':before,'staged_files':sorted(staged),'verified_blob_hashes':len(staged),'identity_fallback':fallback,'push_attempts':attempts,'remote_HEAD':remote,'remote_equals_local':remote==head,'pending_push':remote!=head}
+d={'checkpoint':cfg['checkpoint'],'time_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'HEAD':head,'previous_HEAD':before,'staged_files':sorted(staged),'verified_blob_hashes':len(staged),'identity_fallback':fallback,'push_attempts':attempts,'remote_HEAD':remote,'remote_equals_local':remote==head,'pending_push':remote!=head,'resumed_pending_receipt':resumed_pending}
 with out.open('x',encoding='utf-8')as f:json.dump(d,f,ensure_ascii=False,indent=2);f.write('\n')
 print(json.dumps({k:d[k]for k in ['checkpoint','HEAD','remote_equals_local','pending_push']},ensure_ascii=False))
 

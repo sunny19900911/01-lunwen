@@ -1,0 +1,51 @@
+{
+  "checkpoint": "R007",
+  "time_utc": "2026-10-30T14:22:47.856512+00:00",
+  "HEAD": "499025d006544f27e4119b2a541b88ba7bb2c35f",
+  "previous_HEAD": "30bdc6f2b63723eae7dd44bf854734735e7ee293",
+  "staged_files": [
+    "papers/damping-output-boundaries/manuscript/damping-superposition-session019-v005.docx",
+    "papers/damping-output-boundaries/manuscript/damping-superposition-session019-v005.md",
+    "research/sessions/20261030-2034/git-R006-receipt.json",
+    "research/sessions/20261030-2034/git-R007-publication.json",
+    "research/sessions/20261030-2034/prepare_R007_delivery.py",
+    "research/sessions/20261030-2034/publish_checkpoint.py",
+    "research/sessions/20261030-2034/resume_staged_checkpoint.py",
+    "research/sessions/20261030-2034/roles/role5/R005/QA.json",
+    "research/sessions/20261030-2034/roles/role5/R005/artifact-start.json",
+    "research/sessions/20261030-2034/roles/role5/R005/build-report.json",
+    "research/sessions/20261030-2034/roles/role5/R005/build_word.py",
+    "research/sessions/20261030-2034/roles/role5/R005/export_word_pdf.ps1",
+    "research/sessions/20261030-2034/roles/role5/R005/handoff.md",
+    "research/sessions/20261030-2034/roles/role5/R005/input-freeze.json",
+    "research/sessions/20261030-2034/roles/role5/R005/manifest.json",
+    "research/sessions/20261030-2034/roles/role5/R005/math_omml.py",
+    "research/sessions/20261030-2034/roles/role5/R005/render-engine.json",
+    "research/sessions/20261030-2034/roles/role5/R005/render_with_word.py",
+    "research/sessions/20261030-2034/root-final-document-QA.json",
+    "research/sessions/20261030-2034/root_final_document_audit.py",
+    "research/sessions/20261030-2034/rounds/R007.md",
+    "research/sessions/20261030-2034/runs.md",
+    "research/sessions/20261030-2034/status.json",
+    "research/sessions/20261030-2034/threads.json"
+  ],
+  "verified_blob_hashes": 24,
+  "identity_fallback": true,
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "code": 1,
+      "stdout": "",
+      "stderr": "remote: Internal Server Error        \nremote: Request ID D8E4:3BDA5F:E8BB:124AA:6AE4A82F        \nremote: Time 2026-10-30T14:22:41Z\nTo https://github.com/sunny19900911/01-lunwen.git\n ! [remote rejected] main -> main (Internal Server Error)\nerror: failed to push some refs to 'https://github.com/sunny19900911/01-lunwen.git'\n"
+    },
+    {
+      "attempt": 2,
+      "code": 1,
+      "stdout": "",
+      "stderr": "remote: Internal Server Error        \nremote: Request ID A384:10D8C5:4B04C:6F362:6AE4A833        \nremote: Time 2026-10-30T14:22:45Z\nTo https://github.com/sunny19900911/01-lunwen.git\n ! [remote rejected] main -> main (Internal Server Error)\nerror: failed to push some refs to 'https://github.com/sunny19900911/01-lunwen.git'\n"
+    }
+  ],
+  "remote_HEAD": "30bdc6f2b63723eae7dd44bf854734735e7ee293",
+  "remote_equals_local": false,
+  "pending_push": true
+}

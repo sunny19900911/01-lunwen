@@ -1,0 +1,51 @@
+{
+  "paused_actual_verified": true,
+  "delete_tool_success": true,
+  "pause_tool": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Updated automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"automation-5\",\"mode\":\"update\",\"status\":\"PAUSED\"}"
+      }
+    ],
+    "isError": false
+  },
+  "view_tool": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Rendered automation card in the app."
+      }
+    ],
+    "isError": false
+  },
+  "actual_config_before_delete": {
+    "actual_status": "PAUSED",
+    "name": "阻尼与模态叠加｜两小时科研及Git同步",
+    "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261030T144943Z",
+    "target_thread_id": "01a1473b-0328-71c0-ab64-5e69ce018f07",
+    "sha256": "9964af5e7e49a214eb2ab0a2046eb7bd61cf4529b2ad57d1c85a0e3d02c7b5c8",
+    "checked_at": "2026-10-30T14:35:15.251007+00:00"
+  },
+  "delete_tool": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Deleted automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"automation-5\",\"mode\":\"delete\",\"deleteStatus\":\"deleted\",\"snapshot\":{\"kind\":\"heartbeat\",\"name\":\"阻尼与模态叠加｜两小时科研及Git同步\",\"rrule\":\"FREQ=MINUTELY;INTERVAL=15;UNTIL=20261030T144943Z\"}}"
+      }
+    ],
+    "isError": false
+  },
+  "stop_reason": "fixed two-hour research window ended; no future wakeups; scientific content frozen22:16:35",
+  "hard_deadline": "2026-10-30T22:34:43+08:00",
+  "actual_config_exists_after_delete": false,
+  "after_delete_checked_at": "2026-10-30T14:35:45.842215+00:00"
+}
