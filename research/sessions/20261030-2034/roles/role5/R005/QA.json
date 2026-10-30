@@ -1,0 +1,111 @@
+{
+  "checked_at": "2026-10-30T22:16:35.578272+08:00",
+  "status": "passed latest7page full visual review",
+  "render_engine": {
+    "packaged_renderer": "C:\\Users\\mj528\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.1025.11240\\skills\\documents\\render_docx.py",
+    "converter": "hidden Microsoft Word COM PDF export",
+    "rasterizer": "bundled pypdfium2",
+    "pages": 7,
+    "dpi": 150,
+    "initial_canonical_attempt": "failed: LibreOffice soffice.exe unavailable; no user LibreOffice used",
+    "at_utc": "2026-10-30T14:14:22.136182+00:00"
+  },
+  "first_pass": {
+    "pages": 6,
+    "status": "rejected",
+    "issue": "inline images inherited fixed paragraph line height and were visibly clipped",
+    "repair": "image paragraphs set automatic line spacing; full document rebuilt and rerendered"
+  },
+  "final_pass": {
+    "pages": 7,
+    "visual_findings": "Both figures fully visible; equations and tables readable; captions stay with figures; no observed clipping, overlap, missing glyphs or footer defects",
+    "page_checks": [
+      {
+        "page": 1,
+        "png": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role5\\R005\\local-cache\\render-final\\page-1.png",
+        "pixels": [
+          1241,
+          1754
+        ],
+        "sha256": "47d41728a7c8e05e996648e45b8e90b6d1682838e70bfa0239170e63dbfcce69",
+        "actually_viewed": true
+      },
+      {
+        "page": 2,
+        "png": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role5\\R005\\local-cache\\render-final\\page-2.png",
+        "pixels": [
+          1241,
+          1754
+        ],
+        "sha256": "70120d0569819ee35fb281ab3f751a1e685e7ebaaa94a841790a930e0ca7b103",
+        "actually_viewed": true
+      },
+      {
+        "page": 3,
+        "png": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role5\\R005\\local-cache\\render-final\\page-3.png",
+        "pixels": [
+          1241,
+          1754
+        ],
+        "sha256": "3a32dd697c5b94b079cdeff8f3d429c1038507d8ef338f86a8a8427e3ea8034a",
+        "actually_viewed": true
+      },
+      {
+        "page": 4,
+        "png": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role5\\R005\\local-cache\\render-final\\page-4.png",
+        "pixels": [
+          1241,
+          1754
+        ],
+        "sha256": "17a3fbf8021c2b9cbb27958793b413d62273fde536d0609bd0b625b4ac2dd5a1",
+        "actually_viewed": true
+      },
+      {
+        "page": 5,
+        "png": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role5\\R005\\local-cache\\render-final\\page-5.png",
+        "pixels": [
+          1241,
+          1754
+        ],
+        "sha256": "8524014196467318d30d6a5db3ea3402cccacdd8b9661c09a0454ac2408f14e4",
+        "actually_viewed": true
+      },
+      {
+        "page": 6,
+        "png": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role5\\R005\\local-cache\\render-final\\page-6.png",
+        "pixels": [
+          1241,
+          1754
+        ],
+        "sha256": "b011bcecbb2a188dfe15bb15857b956d11bc692f4b277c4dffc5061d0927f9cb",
+        "actually_viewed": true
+      },
+      {
+        "page": 7,
+        "png": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role5\\R005\\local-cache\\render-final\\page-7.png",
+        "pixels": [
+          1241,
+          1754
+        ],
+        "sha256": "73d30aa21bee343861c430b2690b9c2400d6ac5cb1ad0ed000eaa538d227f1e5",
+        "actually_viewed": true
+      }
+    ]
+  },
+  "checks": {
+    "v004_original_bytes_preserved": true,
+    "all4_Word_tables_exactly_match_scientific_markdown": true,
+    "editable_math_25_5display_20inline": true,
+    "first_ODE_double_dot_and_first_derivative_accents_present": true,
+    "two_complete_figures_embedded": true,
+    "no_raw_LaTeX_in_Word": true,
+    "all3_final_wording_suggestions_adopted": true,
+    "both_abstracts_and2_references_present": true,
+    "seven_latest_PNG_pages_actually_viewed": true,
+    "final_DOCX_unchanged_since_render": true,
+    "no_invented_author_metadata": true,
+    "marker_successful_exactly_once": true
+  },
+  "intermediates_local_only": true,
+  "not_claimed": "No claim of full journal submission-template compliance"
+}

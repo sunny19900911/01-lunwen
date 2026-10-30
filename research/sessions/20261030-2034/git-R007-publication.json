@@ -1,0 +1,122 @@
+{
+  "checkpoint": "R007",
+  "time": "2026-10-30T22:22:28.852559+08:00",
+  "message": "research: final modal damping paper and verified editable Word",
+  "files": [
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/damping-superposition-session019-v005.docx",
+      "bytes": 165276,
+      "sha256": "638e0f5d152c0e216f138250abd0f402c55e1f157229461842fb6da9de62658a"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/damping-superposition-session019-v005.md",
+      "bytes": 15613,
+      "sha256": "f0e4e9fe37ba80920da016dcdded9284c2e86ef224366af1d11b3808dee264fd"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/git-R006-receipt.json",
+      "bytes": 3356,
+      "sha256": "cd84c86137976b367b722d088feb046830a5a0dd2dcbe1e6bdb6374d72739dcd"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/prepare_R007_delivery.py",
+      "bytes": 4748,
+      "sha256": "50385b05e58230542853c9008392bebcbacf4d4b4706bbf27155675fe167147c"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/publish_checkpoint.py",
+      "bytes": 3588,
+      "sha256": "10bd6c56aa8d990b345d0fdeebf685236683fae31801bdab68bdbc38899baeeb"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/resume_staged_checkpoint.py",
+      "bytes": 2937,
+      "sha256": "8ee8c43674f31af70654e852c7d868067cefc300621562931c0e27888a8b7201"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R005/QA.json",
+      "bytes": 4806,
+      "sha256": "1d52f343adaeccbeefdba760dfe44b8a95844c4ddc2b9fa3ca04c96acd91c25a"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R005/artifact-start.json",
+      "bytes": 255,
+      "sha256": "25e140720a4a1579326d1504c3fc9eee71d2a2de6e92cd2a008dc67d9ee8c42e"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R005/build-report.json",
+      "bytes": 1130,
+      "sha256": "3e08e6d049a9b3673f0fd44fa1e7087ee90677343f7518eb968a2c8ac3649116"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R005/build_word.py",
+      "bytes": 8992,
+      "sha256": "83720ca52a2b25cb49559febcf41ee91572076b3b6724aa230825351c177a6d0"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R005/export_word_pdf.ps1",
+      "bytes": 815,
+      "sha256": "9434ad785bde6fc10924cd7bbca02ae461ab0fa010ddd43599a1a7502d2951cb"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R005/handoff.md",
+      "bytes": 1594,
+      "sha256": "31af3224586d97db331746f389737a2a5ef426171b68796a65f10c6cef70ceb4"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R005/input-freeze.json",
+      "bytes": 3024,
+      "sha256": "b2fc1608ed950fef78c51bda86147a41b6af35878f58eec61dfc1e0861eec28a"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R005/manifest.json",
+      "bytes": 4982,
+      "sha256": "c460dde4bc56c2cce1e798f23b44ee332711ca111c2645dc72c4e254be917410"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R005/math_omml.py",
+      "bytes": 7707,
+      "sha256": "d5e3c8d64d91b8f07d463f8183c4ba2f4e39c0f2c99d8a9fac30f2e3d14409b5"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R005/render-engine.json",
+      "bytes": 436,
+      "sha256": "6941bdf7a2c1c575e5aa9a169b33a610603da2ceb40aaca4ad338f183600859c"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R005/render_with_word.py",
+      "bytes": 1865,
+      "sha256": "f223010389de8c17bc3ec30df97b34be5125ffe425fe4980fc228b973cecd02d"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root-final-document-QA.json",
+      "bytes": 4147,
+      "sha256": "e88c3364ad8b9ffd776e40468e868135e53409f93b745ba4cc0624c9ac01f3be"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/root_final_document_audit.py",
+      "bytes": 2723,
+      "sha256": "20a0fdf9726e4a33133db7838a11bf28d7051cd85aa92d7107451c7f7f164a40"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/rounds/R007.md",
+      "bytes": 1412,
+      "sha256": "0144bfb71d9ed3502bc70847797bb668508bac4a92889b21b9c80f02225b9b33"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/runs.md",
+      "bytes": 2003,
+      "sha256": "5639b79ea8f5dfc0d0104e4105b2634c43207a5113066db8bba3460d44b6e2d9"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/status.json",
+      "bytes": 4193,
+      "sha256": "cf9dc5e6b765ac7a06b1af8def30b752e0a51826a325c316330550725427e17e"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/threads.json",
+      "bytes": 14775,
+      "sha256": "31dd9f264b168e49d10efdad09258c5ee8e56ceff7a74bd05b5ddc11fc127c22"
+    }
+  ]
+}

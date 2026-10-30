@@ -1,0 +1,102 @@
+{
+  "time": "2026-10-30T14:20:50.587548+00:00",
+  "science_markdown_root_full_read": true,
+  "author_manifest_artifacts_verified": [
+    {
+      "name": "damping-superposition-session019-v005.md",
+      "sha256": "f0e4e9fe37ba80920da016dcdded9284c2e86ef224366af1d11b3808dee264fd"
+    },
+    {
+      "name": "damping-superposition-session019-v005.docx",
+      "sha256": "638e0f5d152c0e216f138250abd0f402c55e1f157229461842fb6da9de62658a"
+    },
+    {
+      "name": "build_word.py",
+      "sha256": "83720ca52a2b25cb49559febcf41ee91572076b3b6724aa230825351c177a6d0"
+    },
+    {
+      "name": "math_omml.py",
+      "sha256": "d5e3c8d64d91b8f07d463f8183c4ba2f4e39c0f2c99d8a9fac30f2e3d14409b5"
+    },
+    {
+      "name": "export_word_pdf.ps1",
+      "sha256": "9434ad785bde6fc10924cd7bbca02ae461ab0fa010ddd43599a1a7502d2951cb"
+    },
+    {
+      "name": "render_with_word.py",
+      "sha256": "f223010389de8c17bc3ec30df97b34be5125ffe425fe4980fc228b973cecd02d"
+    },
+    {
+      "name": "build-report.json",
+      "sha256": "3e08e6d049a9b3673f0fd44fa1e7087ee90677343f7518eb968a2c8ac3649116"
+    },
+    {
+      "name": "artifact-start.json",
+      "sha256": "25e140720a4a1579326d1504c3fc9eee71d2a2de6e92cd2a008dc67d9ee8c42e"
+    },
+    {
+      "name": "render-engine.json",
+      "sha256": "6941bdf7a2c1c575e5aa9a169b33a610603da2ceb40aaca4ad338f183600859c"
+    },
+    {
+      "name": "QA.json",
+      "sha256": "1d52f343adaeccbeefdba760dfe44b8a95844c4ddc2b9fa3ca04c96acd91c25a"
+    },
+    {
+      "name": "input-freeze.json",
+      "sha256": "b2fc1608ed950fef78c51bda86147a41b6af35878f58eec61dfc1e0861eec28a"
+    },
+    {
+      "name": "handoff.md",
+      "sha256": "31af3224586d97db331746f389737a2a5ef426171b68796a65f10c6cef70ceb4"
+    }
+  ],
+  "three_final_phrase_changes_adopted": true,
+  "native_OMML": 25,
+  "editable_tables": 4,
+  "figures": 2,
+  "page_count": 7,
+  "root_actual_pages_viewed": [
+    {
+      "page": 1,
+      "sha256": "47d41728a7c8e05e996648e45b8e90b6d1682838e70bfa0239170e63dbfcce69",
+      "root_actual_view_image": "viewed at original resolution; legible formulas/tables/figures, no clipping or overlap"
+    },
+    {
+      "page": 2,
+      "sha256": "70120d0569819ee35fb281ab3f751a1e685e7ebaaa94a841790a930e0ca7b103",
+      "root_actual_view_image": "viewed at original resolution; legible formulas/tables/figures, no clipping or overlap"
+    },
+    {
+      "page": 3,
+      "sha256": "3a32dd697c5b94b079cdeff8f3d429c1038507d8ef338f86a8a8427e3ea8034a",
+      "root_actual_view_image": "viewed at original resolution; legible formulas/tables/figures, no clipping or overlap"
+    },
+    {
+      "page": 4,
+      "sha256": "17a3fbf8021c2b9cbb27958793b413d62273fde536d0609bd0b625b4ac2dd5a1",
+      "root_actual_view_image": "viewed at original resolution; legible formulas/tables/figures, no clipping or overlap"
+    },
+    {
+      "page": 5,
+      "sha256": "8524014196467318d30d6a5db3ea3402cccacdd8b9661c09a0454ac2408f14e4",
+      "root_actual_view_image": "viewed at original resolution; legible formulas/tables/figures, no clipping or overlap"
+    },
+    {
+      "page": 6,
+      "sha256": "b011bcecbb2a188dfe15bb15857b956d11bc692f4b277c4dffc5061d0927f9cb",
+      "root_actual_view_image": "viewed at original resolution; legible formulas/tables/figures, no clipping or overlap"
+    },
+    {
+      "page": 7,
+      "sha256": "73d30aa21bee343861c430b2690b9c2400d6ac5cb1ad0ed000eaa538d227f1e5",
+      "root_actual_view_image": "viewed at original resolution; legible formulas/tables/figures, no clipping or overlap"
+    }
+  ],
+  "render_engine": "hidden Microsoft Word PDF export + bundled pypdfium2; packaged render_docx attempted but soffice missing",
+  "initial_image_line_spacing_clipping_fixed": true,
+  "status": "review Word accepted; not claimed journal-ready submission or complete physical modal attribution",
+  "MD_sha256": "f0e4e9fe37ba80920da016dcdded9284c2e86ef224366af1d11b3808dee264fd",
+  "Word_sha256": "638e0f5d152c0e216f138250abd0f402c55e1f157229461842fb6da9de62658a",
+  "local_cache_not_for_upload": true
+}

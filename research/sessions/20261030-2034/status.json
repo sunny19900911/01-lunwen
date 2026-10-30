@@ -1,18 +1,18 @@
 {
-  "phase": "final-integration",
+  "phase": "delivery-frozen-await-budget-close",
   "session": "20261030-2034",
   "start": "2026-10-30T20:34:43+08:00",
   "deadline": "2026-10-30T22:34:43+08:00",
   "deadline_utc": "2026-10-30T14:34:43Z",
   "writing_start": "2026-10-30T22:04:43+08:00",
-  "checkpoint": "R007-final",
+  "checkpoint": "R008-close",
   "checkpoint_open": true,
   "no_new_scientific_dispatch": true,
   "active_plan": "plan.md",
   "git_authorized": "new human message every15min normal scoped commit/push",
   "primary_task": "Scientific calculations frozen; final v005 engineering paper, Word render QA and bounded reviews only",
   "automation": "automation-5 ACTIVE formally updated/view and actual TOML checked",
-  "last_actual": "2026-10-30T22:17:34.864813+08:00",
+  "last_actual": "2026-10-30T22:22:28.852559+08:00",
   "root_R001": {
     "executed": true,
     "variants": 8,
@@ -34,12 +34,12 @@
     "branch": "main",
     "initial_index": "empty",
     "initial_HEAD_and_remote_main": "c12784ccccfe4dbcfa81be300c5e1270895897b2",
-    "publication": "R006 frozen final-review and figures publication pending",
-    "last_success_HEAD": "a35d6665246aa346653ac1fcc6acb8129b6598ff",
-    "last_success_receipt": "git-R005-receipt.json"
+    "publication": "R007 final frozen Word and QA publication pending",
+    "last_success_HEAD": "30bdc6f2b63723eae7dd44bf854734735e7ee293",
+    "last_success_receipt": "git-R006-receipt.json"
   },
   "role_tasks": "initial R001 tasks are completed history; current_tasks authoritative",
-  "next_checkpoint": "No new science. Collect role5 final manifest, root read finalv005 and all rendered page PNGs; final close at22:34:43, scoped normal Git and stop current automation.",
+  "next_checkpoint": "Administrative close at22:34:43, final-summary with actual time, final scoped Git, pause/view/config receipt then delete completed automation per heartbeat instruction. No repeat research/review.",
   "independent_audit": {
     "N12": "role2/R001 8records48numbers0must",
     "N24": "role2/R002 8records48numbers0must",
@@ -47,14 +47,14 @@
     "all12": "role2/R00448records288numbers passed; Story11 timing failure retained"
   },
   "current_tasks": {
-    "role1": "R004 kernel independent review frozen;idle",
-    "role2": "R007 v004 new-content review0must frozen;idle",
-    "role3": "R003 ledger review frozen;idle",
-    "role4": "R007 two reviewed-data figures frozen22:05:47;idle",
-    "role5": "R005 v005Word render and QA in progress; only collect after actual freeze",
-    "role6": "R0063 precise wording suggestions frozen adopted by author;idle"
+    "role1": "completed and actual idle; no new task",
+    "role2": "completed and actual idle; no new task",
+    "role3": "completed and actual idle; no new task",
+    "role4": "completed and actual idle; no new task",
+    "role5": "completed and actual idle; no new task",
+    "role6": "completed and actual idle; no new task"
   },
-  "recovery_file": "rounds/R006.md",
+  "recovery_file": "rounds/R007.md",
   "scientific_status": {
     "N12": "executed and independently reviewed48numbers",
     "N24": "executed and independently reviewed48numbers",
@@ -64,7 +64,20 @@
     "all12": "36 native peak comparisons and 48 held-out/cross-zeta records reviewed",
     "physical_scale": "reviewed conditional mass scale, max fitted high coefficient/known mass14833; cannot interpret high fitted terms as true physical modal contribution; not universal actual bound violation",
     "native_peak_ledger": "role3R00336rows scalar/arithmetic independently passed,20timechanges16M0;not causal phase",
-    "manuscript": "v004 frozen21:46, root full read22:02; v005/Word final formatting in progress; no true high-modal physical attribution",
+    "manuscript": "finalv005 root full read +7page Word root/author visual QA; frozen22:16:35; no further science",
     "unit_modal_kernels": "reviewed first12x3=36rows via independent rootN12 cache; first3 and9 examples supported; high13to36 production metrics not full independent audit"
+  },
+  "final_manuscript": {
+    "relative": "papers/damping-output-boundaries/manuscript/damping-superposition-session019-v005.md",
+    "sha256": "f0e4e9fe37ba80920da016dcdded9284c2e86ef224366af1d11b3808dee264fd"
+  },
+  "final_word": {
+    "relative": "papers/damping-output-boundaries/manuscript/damping-superposition-session019-v005.docx",
+    "sha256": "638e0f5d152c0e216f138250abd0f402c55e1f157229461842fb6da9de62658a",
+    "pages": 7,
+    "OMML": 25,
+    "editable_tables": 4,
+    "figures": 2,
+    "root_visual_QA": true
   }
 }
