@@ -1,0 +1,39 @@
+{
+  "started_at": "2026-10-30T21:41:26+08:00",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\local-cache\\primary-reference-traces.npz",
+      "bytes": 3620255,
+      "sha256": "38a2d4d8ae0f2262c9770fa0e774a0cdb402befd033b5757632ea2e790bf7b98"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\models-small.json",
+      "bytes": 12177,
+      "sha256": "3812ec39438d1c225237a3291f7a439a4e812b27d773e495f942a95180eeffab"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R006\\modal-unit-kernel-change-108.csv",
+      "bytes": 34975,
+      "sha256": "cbba4f36fc96ef9d99b91a2faca4aabb01b2f95868854d91b7b77f7dbf3465c5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R006\\README-unit-modal-kernels.md",
+      "bytes": 2931,
+      "sha256": "2bddb3b4b47dd8619d6850242781e44c0d242ebc498e4e74ea2b81f1bbb17473"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role4\\R006\\verification.json",
+      "bytes": 925,
+      "sha256": "18c9e1d28cc73212292d20fcd29e415f8b7b03a8609f6cc44e0dd028912c7273"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\input-rules-freeze.json",
+      "bytes": 2924,
+      "sha256": "f61d2d407e0637348cc3bcdf6bd07f38db8bafc20bd3273f067b1fd712d3f88a"
+    }
+  ],
+  "primary": "N12_elastic_rc1e-10",
+  "comparison": "role4 R006 N36-derived scalar CSV, modes1-12 only",
+  "scope": "no import of role4 code; no ODE, fitting, new N, complete trace output, or Git",
+  "peak_tolerance": "abs(abs(g)-A) <= 1e-14 + 1e-12*A; reference time match <= 1e-9 s"
+}

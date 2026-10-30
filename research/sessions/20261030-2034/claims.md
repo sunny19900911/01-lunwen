@@ -12,3 +12,5 @@ C019-08 reviewed conditional diagnostic：系数单位tonnes；最大拟合高�
 C019-09 testing：现有36阶单位参与核的跨ζ峰幅比与归一波形，不依赖拟合输出coef；④R006仅现存数组指标。
 
 C019-10 supported/reviewed scalar native accounting：36对D-M及20峰时变/16未变由③独核；不是相位或因果份额。C019-09 production108rows completed，independent first36 audit pending；单位参与核不代表各层真实贡献。
+
+C019-09 reviewed restricted scope：前12阶×3波36核幅比/归一波形经①独立根N12缓存核同；72峰时一致。SHW3第3/9阶峰降6.3546/29.1063%，不依赖固定非零输出/参与乘子；Γ0不可作实际贡献。108生产行范围非全部独核。

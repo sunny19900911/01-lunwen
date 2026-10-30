@@ -1,0 +1,24 @@
+{
+  "status": "complete five mainline prose checks; 0 must changes",
+  "started": "2026-10-30T21:40:20+08:00",
+  "frozen": "2026-10-30T21:42:12.971490+08:00",
+  "deadline": "2026-10-30T21:45:20+08:00",
+  "elapsed_seconds": 112.97149,
+  "within5minutes": true,
+  "mainline_checks": 5,
+  "must_change_count": 0,
+  "no_change_count": 5,
+  "new_scientific_calculations": 0,
+  "draft_modified": false,
+  "role4_R006_read": false,
+  "author_frozen_files_hash_verified": 4,
+  "draft_sha256": "4cf3139ecf17a537fe764677e96332077933c8d7d708182ee78293808ccc8e24",
+  "source_manifest_sha256": "61b031f9291fefe02bc074cdfe7d6e21eb6c441d7b97a785eb3b78730a370753",
+  "files": [
+    {
+      "name": "review.md",
+      "bytes": 2197,
+      "sha256": "3237338c59f9b26578c27b7a3894b3a44f3d8b6d102a8b029c3be809017e565c"
+    }
+  ]
+}

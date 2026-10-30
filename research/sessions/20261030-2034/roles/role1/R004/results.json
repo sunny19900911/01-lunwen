@@ -1,0 +1,31 @@
+{
+  "rows": 36,
+  "all_pass": true,
+  "max_ratio_abs_error": 2.220446049250313e-16,
+  "max_normalized_waveform_metric_abs_error": 5.828670879282072e-16,
+  "max_A_abs_error": 2.220446049250313e-16,
+  "max_strict_peak_time_error_s": 0.0,
+  "peak_anchor_count": 72,
+  "multiple_tie_anchor_count": 0,
+  "max_two_story_kernel_abs_error": 2.220446049250313e-16,
+  "max_direct_terms_vs_recovered_kernel_metric_error": 1.1102230246251565e-16,
+  "ratio_min": 0.7089367039236225,
+  "ratio_max": 0.9364544322966071,
+  "epsilon_min": 0.19552368871797549,
+  "epsilon_max": 0.23776768424838604,
+  "counterincrease_count": 0,
+  "by_wave": {
+    "SHW3X": {
+      "ratio_min": 0.7089367039236225,
+      "ratio_max": 0.9364544322966071
+    },
+    "SHW4X": {
+      "ratio_min": 0.7775825614336632,
+      "ratio_max": 0.9188591369480993
+    },
+    "RH4X": {
+      "ratio_min": 0.7779693804546494,
+      "ratio_max": 0.8299936693998567
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "checkpoint": "R005",
+  "time": "2026-10-30T22:04:23.029713+08:00",
+  "message": "research: integrated modal damping mechanism and full-building evidence",
+  "files": [
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/damping-superposition-session019-v004.md",
+      "bytes": 15133,
+      "sha256": "731cf15941ea9ded8f2343a59a7159a8ef60bd20174287e94d60a95d6e3880fe"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/actual-snapshot-R005-start.json",
+      "bytes": 9831,
+      "sha256": "34f514ed21754d6de6e44436fe9dcf88f6f7efcf7987f63c76a09c12beb33bf7"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/claims.md",
+      "bytes": 2393,
+      "sha256": "9bf4c9d3fcca5fcf779ca0699027f72487260d87f899c6721560aaed9e3f4c5f"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/git-R004-receipt.json",
+      "bytes": 5673,
+      "sha256": "e5b45c5dc664c8029c697c8997328496caa3792810d2c011dd65e58db1a09210"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/prepare_R005_publication.py",
+      "bytes": 5011,
+      "sha256": "7f563696637c39b213b32ccabeef22739dfb1f1a745e33b27dd1cab96ef711fa"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/resume_R004_publication.py",
+      "bytes": 3356,
+      "sha256": "71156334b1f55195c33db25633f8cc1b460afdd8e02016dff2cf818cde7daa13"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role1/R004/check_first12_kernels.py",
+      "bytes": 9848,
+      "sha256": "f0ef8856e020a67300f11b07dc5dc9003a4aa8eb20d5ec472afa64df9c0139e5"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role1/R004/independent-kernel-check-36.csv",
+      "bytes": 10941,
+      "sha256": "f50c02b50bfc0b911fc5387211cd44d810350be78d05fb1e3ccc865f2277afd5"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role1/R004/input-freeze.json",
+      "bytes": 2186,
+      "sha256": "285816b023916ea45d88584af249fcbbcc79439c0fcd6c6f45598b293d1cbadd"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role1/R004/manifest.json",
+      "bytes": 1832,
+      "sha256": "34daec2bb8d11db3284e0c95fe63fed542c510b6536fe1ffd025703698fc89ae"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role1/R004/one-page.md",
+      "bytes": 2704,
+      "sha256": "bf1a72af67f9b37344e350a2e1fe76a3f2d3b257bdec94a27a79fc0d5a3bd0ce"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role1/R004/results.json",
+      "bytes": 927,
+      "sha256": "0d50f0c3d27f8ae5d827200f9e3079fa8bcea27340ce74004fcc1f34f9fe3bac"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role1/R004/validation.json",
+      "bytes": 645,
+      "sha256": "27ac4dc7a2f5e5893eac25b6df619b6f1359517dc66b91f511b801a1aff26ea4"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role2/R006/manifest.json",
+      "bytes": 833,
+      "sha256": "2cba1124977b99f071f1594748d3c082f6ca35f8999b516ac52549a23867cd51"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role2/R006/review.md",
+      "bytes": 2197,
+      "sha256": "3237338c59f9b26578c27b7a3894b3a44f3d8b6d102a8b029c3be809017e565c"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R004/calculation-details.md",
+      "bytes": 1917,
+      "sha256": "0b978ab2af711716657e149d4293f54fdda4ce3a74ced8b60a6afeedfca7d4f1"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R004/handoff.md",
+      "bytes": 1430,
+      "sha256": "ef287b6e30eba70e3c52c64079745e8262edcdb80b4a16856bea0dab86ce6a08"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R004/input-freeze.json",
+      "bytes": 3425,
+      "sha256": "0336f6b8bbe0d96f5f82b86732ec25e95e36860f86f15227b8240ba0abb8c3aa"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R004/manifest.json",
+      "bytes": 2075,
+      "sha256": "8eb4d1060e495c2e5795d0cc24c8dc29639f5f8e128a67cc186eaaff4582b57b"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/roles/role5/R004/validation.json",
+      "bytes": 1428,
+      "sha256": "39f54e96dcab5b8a383589fe73fe776b98b532d73eea6a2103b54089808b2f29"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/rounds/R005-start.md",
+      "bytes": 716,
+      "sha256": "721cdaaa8750c5fbc362f760f0880a8017ebbb105603230c0641560eb7a47128"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/rounds/R005.md",
+      "bytes": 1336,
+      "sha256": "77d4565142355119601fc4ae41281a63dbaad2ba1cee762b8ff94b3036cee688"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/runs.md",
+      "bytes": 1510,
+      "sha256": "ddfbefedb10a840be5b6d4d87db515fb1771e6969d28cf21f520d0c16dda5ed2"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/status.json",
+      "bytes": 3767,
+      "sha256": "b1026a1d0e28fae1ff88e2eec12d35a2ec062f09f345f18dcbe901e5c7ec7d70"
+    },
+    {
+      "relative": "research/sessions/20261030-2034/threads.json",
+      "bytes": 14877,
+      "sha256": "c58dd6d6888a0481f40c53f085c35903d2b4f45141a63c8f9d5fd45bb558e452"
+    }
+  ]
+}
