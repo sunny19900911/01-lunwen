@@ -1,0 +1,47 @@
+{
+  "status": "complete; stopped",
+  "started": "2026-10-30T20:48:14+08:00",
+  "completed": "2026-10-30T20:49:51.945011+08:00",
+  "elapsed_seconds": 97.945011,
+  "within8minutes": true,
+  "numeric_must_count": 0,
+  "independent_validation_rows": 8,
+  "numeric_fields_compared": 48,
+  "root_or_role4_scripts_imported": false,
+  "target_refits": 0,
+  "role4_scientific_completion_reported": "2026-10-30T20:44:37+08:00",
+  "role4_manifest_frozen": "2026-10-30T20:46:56.864718+08:00",
+  "files": [
+    {
+      "name": "checks.json",
+      "bytes": 8355,
+      "sha256": "6afd344a0fb50308d3a0960a80416a38964af439e72413103e1c5ffc2113399a"
+    },
+    {
+      "name": "coefficient-source-checks.json",
+      "bytes": 368,
+      "sha256": "8782ded799a56078c4829e1d5c79256e821b21934032448976b9e5d269a1b9ed"
+    },
+    {
+      "name": "independent-eight.csv",
+      "bytes": 1559,
+      "sha256": "c4bcfe92d6e646e784dcf6081890330c628131ba543054708aea77a2fc27a9d0"
+    },
+    {
+      "name": "independent-fit-small.json",
+      "bytes": 2890,
+      "sha256": "5b353c69bd4f818640b35ac9082820a44d73ab7aef14bbb95d903e0627d89e1c"
+    },
+    {
+      "name": "independent_N24.py",
+      "bytes": 5280,
+      "sha256": "e65c2cc07b4749c0ad2e322370458e7e4bb7ff8fbc39af0ace042f4aa4249031"
+    },
+    {
+      "name": "review.md",
+      "bytes": 3159,
+      "sha256": "6271cf8ca17f2281edd9469af74feaadfafe72be9f67177e0edb927c5b7ce3d4"
+    }
+  ],
+  "role4_manifest_sha256": "ea35849dcf94ca9d2d4bf0999021e3ddcaccdacbf38f903012ac64dc045a14f4"
+}

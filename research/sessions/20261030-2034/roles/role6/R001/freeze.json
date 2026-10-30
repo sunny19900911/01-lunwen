@@ -1,0 +1,54 @@
+{
+  "status": "candidate completed; independent review pending",
+  "first_observed_start_local": "2026-10-30T20:42:22+08:00",
+  "freeze_local": "2026-10-30T20:45:22+08:00",
+  "elapsed_seconds": 180.536986,
+  "task_limit_seconds": 600,
+  "within_limit": true,
+  "exit_code": 0,
+  "read_checks": [
+    {
+      "source": "models-small.json",
+      "matches_root_manifest": true,
+      "sha256": "3812ec39438d1c225237a3291f7a439a4e812b27d773e495f942a95180eeffab"
+    },
+    {
+      "source": "local-cache/primary-reference-traces.npz",
+      "matches_root_manifest": true,
+      "sha256": "38a2d4d8ae0f2262c9770fa0e774a0cdb402befd033b5757632ea2e790bf7b98"
+    }
+  ],
+  "numerical_check": "primary terms vs root cached terms max abs1.8189894035458565e-12 kN",
+  "no_new_coefficients": true,
+  "full_arrays_exported": false,
+  "files": {
+    "check_group_stability.py": {
+      "bytes": 7844,
+      "sha256": "af2d36b9b6e3ff7d974afe660ff67316fc2b2f91b967c789527a046c908e878f"
+    },
+    "first6-coefficient-changes-24.csv": {
+      "bytes": 4172,
+      "sha256": "2e0d5be76c933c71b32069aff8d387295f6419606daa77c1009e5d91ed1825b3"
+    },
+    "group-differences-192.csv": {
+      "bytes": 33335,
+      "sha256": "267ddd2ca21b338959bab275bb36930eccd9e0e64c2a33cd8640fcd270c2fff2"
+    },
+    "group-scales-192.csv": {
+      "bytes": 23981,
+      "sha256": "1f63f141869977b1e4bf8781c155857fd1169eed3b6da786a11ca110e2f8275c"
+    },
+    "normalized-singular-values-8.csv": {
+      "bytes": 2427,
+      "sha256": "7a9a2889977f9a7621a232820021d5b582d5d4e2691ede65f868ecd26ead251a"
+    },
+    "report.md": {
+      "bytes": 4159,
+      "sha256": "a24cd1719d742b6c00472d5ddd59262b443c18a180a69ada4f35929fd6844d4c"
+    },
+    "results.json": {
+      "bytes": 19619,
+      "sha256": "23c88ecfed8c28eb0a5b126e614079456eca0134cef9b7e6a169fd69085bc491"
+    }
+  }
+}

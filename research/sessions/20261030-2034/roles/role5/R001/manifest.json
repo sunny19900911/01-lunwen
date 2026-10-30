@@ -1,0 +1,37 @@
+{
+  "task": "20261030-2034 role5 R001",
+  "status": "frozen_and_stopped",
+  "start_clock_observed": "2026-10-30T20:42:36+08:00",
+  "saved_at": "2026-10-30T20:45:51.197402+08:00",
+  "actual_stop_at": "2026-10-30T20:45:51.210894+08:00",
+  "deadline": "2026-10-30T20:50:36+08:00",
+  "elapsed_since_observed_start_seconds": 195.211,
+  "within_8_minutes_since_observed_start": true,
+  "artifacts": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\damping-superposition-session019-v001.md",
+      "bytes": 6427,
+      "sha256": "29ec1b400182df9185cb4d920f9de196b9d8a85358f892ba967a86dd1349079c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role5\\R001\\input-freeze.json",
+      "bytes": 3628,
+      "sha256": "35fdc0c9e86d05a21653faed0495f95310649adf519c6337707690e1e41b201c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role5\\R001\\validation.json",
+      "bytes": 1317,
+      "sha256": "a33e605df418fa32d61832c74bf1e8d93727c12cf4ee85d371bdf5cf63f4226d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\roles\\role5\\R001\\handoff.md",
+      "bytes": 1256,
+      "sha256": "741f17800148c0aa9e39f19aec890ff25e1bec2a1e358af5214dc1d81a512578"
+    }
+  ],
+  "all_checks_passed": true,
+  "new_model_run": false,
+  "pending_independent_review": true,
+  "Word_created": false,
+  "session_hard_deadline": "2026-10-30T22:34:43+08:00"
+}

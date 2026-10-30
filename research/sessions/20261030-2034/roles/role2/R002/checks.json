@@ -1,0 +1,352 @@
+{
+  "completed": "2026-10-30T20:48:50.905140+08:00",
+  "numeric_checks": 48,
+  "must_count": 0,
+  "max_abs_difference": {
+    "NRMSE": 8.760353553682876e-15,
+    "native_peak_kN": 0.0,
+    "predicted_peak_kN": 1.709850039333105e-10,
+    "peak_relative_error": 6.727951529228449e-14,
+    "native_peak_time_s": 0.0,
+    "predicted_peak_time_s": 0.0
+  },
+  "native_groups_checked": [
+    {
+      "Case": "SHW3X",
+      "Story": "Story12",
+      "state": "0",
+      "grid_exact": true,
+      "signed_VX_exact": true,
+      "group": {
+        "Story": "Story12",
+        "Location": "Bottom",
+        "Output Case": "SHW3X",
+        "Case Type": "NonModHist"
+      },
+      "field_metadata": {
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "VX_unit": "kN"
+      }
+    },
+    {
+      "Case": "SHW3X",
+      "Story": "Story5",
+      "state": "0",
+      "grid_exact": true,
+      "signed_VX_exact": true,
+      "group": {
+        "Story": "Story5",
+        "Location": "Bottom",
+        "Output Case": "SHW3X",
+        "Case Type": "NonModHist"
+      },
+      "field_metadata": {
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "VX_unit": "kN"
+      }
+    },
+    {
+      "Case": "SHW3X",
+      "Story": "Story12",
+      "state": "3",
+      "grid_exact": true,
+      "signed_VX_exact": true,
+      "group": {
+        "Story": "Story12",
+        "Location": "Bottom",
+        "Output Case": "SHW3X"
+      },
+      "field_metadata": {
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "VX_unit": "kN"
+      }
+    },
+    {
+      "Case": "SHW3X",
+      "Story": "Story5",
+      "state": "3",
+      "grid_exact": true,
+      "signed_VX_exact": true,
+      "group": {
+        "Story": "Story5",
+        "Location": "Bottom",
+        "Output Case": "SHW3X"
+      },
+      "field_metadata": {
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "VX_unit": "kN"
+      }
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story12",
+      "state": "0",
+      "grid_exact": true,
+      "signed_VX_exact": true,
+      "group": {
+        "Story": "Story12",
+        "Location": "Bottom",
+        "Output Case": "SHW4X",
+        "Case Type": "NonModHist"
+      },
+      "field_metadata": {
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "VX_unit": "kN"
+      }
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story5",
+      "state": "0",
+      "grid_exact": true,
+      "signed_VX_exact": true,
+      "group": {
+        "Story": "Story5",
+        "Location": "Bottom",
+        "Output Case": "SHW4X",
+        "Case Type": "NonModHist"
+      },
+      "field_metadata": {
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "VX_unit": "kN"
+      }
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story12",
+      "state": "3",
+      "grid_exact": true,
+      "signed_VX_exact": true,
+      "group": {
+        "Story": "Story12",
+        "Location": "Bottom",
+        "Output Case": "SHW4X"
+      },
+      "field_metadata": {
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "VX_unit": "kN"
+      }
+    },
+    {
+      "Case": "SHW4X",
+      "Story": "Story5",
+      "state": "3",
+      "grid_exact": true,
+      "signed_VX_exact": true,
+      "group": {
+        "Story": "Story5",
+        "Location": "Bottom",
+        "Output Case": "SHW4X"
+      },
+      "field_metadata": {
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "VX_unit": "kN"
+      }
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story12",
+      "state": "0",
+      "grid_exact": true,
+      "signed_VX_exact": true,
+      "group": {
+        "Story": "Story12",
+        "Location": "Bottom",
+        "Output Case": "RH4X",
+        "Case Type": "NonModHist"
+      },
+      "field_metadata": {
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "VX_unit": "kN"
+      }
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story5",
+      "state": "0",
+      "grid_exact": true,
+      "signed_VX_exact": true,
+      "group": {
+        "Story": "Story5",
+        "Location": "Bottom",
+        "Output Case": "RH4X",
+        "Case Type": "NonModHist"
+      },
+      "field_metadata": {
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "VX_unit": "kN"
+      }
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story12",
+      "state": "3",
+      "grid_exact": true,
+      "signed_VX_exact": true,
+      "group": {
+        "Story": "Story12",
+        "Location": "Bottom",
+        "Output Case": "RH4X"
+      },
+      "field_metadata": {
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "VX_unit": "kN"
+      }
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story5",
+      "state": "3",
+      "grid_exact": true,
+      "signed_VX_exact": true,
+      "group": {
+        "Story": "Story5",
+        "Location": "Bottom",
+        "Output Case": "RH4X"
+      },
+      "field_metadata": {
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "VX_unit": "kN"
+      }
+    }
+  ],
+  "sources_verified": [
+    {
+      "path": "C:\\Users\\mj528\\.codex\\skills\\etabs-response-analysis\\scripts\\modal_linear.py",
+      "sha256": "1c2620542f812e355c4be3ad8877db92db2ba3343cd3a2405e26c731be796827"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261025-1337\\roles\\role6\\R001\\input-config.json",
+      "sha256": "c249e22be8f0d41bb5beb59e9c24153bc26eb7948f23f72386c28f78d0a4a1e9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261025-1337\\roles\\role6\\R001\\load_inputs.py",
+      "sha256": "c325762d99b91cdc617c5a84bf609c23fca89a34d7c494888c0327532bb1e6e4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\Story_Forces.npz",
+      "sha256": "f80493976395634c1e03b3591ae64bce329c5b9af72729e3d2d18c719ac792e0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\engineering_derived_traces.npz",
+      "sha256": "59976c52b5c8b1fdeb49331c73a7278f3cf9d2c3d57ee97af440677b17891dff"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native0_small_tables.json",
+      "sha256": "20815b312c71b0c4e8260573752faccbd922c40d84e28bc2549becfca880a972"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Forces.npz",
+      "sha256": "fb11e299f62682d0bf3a68644cdae474ca8a6ce96863838e02117431f72caf8d"
+    }
+  ],
+  "scope": "8 primary rows only; no other7config refit; fitted reference accuracy not unique physical modal identification"
+}

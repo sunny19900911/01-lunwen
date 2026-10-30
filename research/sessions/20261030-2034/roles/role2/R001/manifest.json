@@ -1,0 +1,47 @@
+{
+  "status": "complete independent primary audit; stopped",
+  "started": "2026-10-30T20:42:20+08:00",
+  "completed": "2026-10-30T20:45:34.095628+08:00",
+  "elapsed_seconds": 194.095628,
+  "within_10_minutes": true,
+  "numeric_must_count": 0,
+  "independent_validation_rows": 8,
+  "numbers_checked": 48,
+  "native_groups_rechecked": 12,
+  "fixed_target_map_no_refit": true,
+  "root_script_imported": false,
+  "all_other_configs_independently_refitted": false,
+  "files": [
+    {
+      "name": "checks.json",
+      "bytes": 8357,
+      "sha256": "a5303b64bf6322cc6101cccb598cf47b2f50d3d16b76ec4908a12f41dc5a2758"
+    },
+    {
+      "name": "coefficient-units-checks.json",
+      "bytes": 1175,
+      "sha256": "ea76650f5d2477bd7051c09eb25c0959778c6f874ed5e5e94370a172c29ccbd1"
+    },
+    {
+      "name": "independent-eight.csv",
+      "bytes": 1559,
+      "sha256": "2b55a2447b84bab9f6c94e6b51a36995d423c70957b1e3b3db3659d5550d38f4"
+    },
+    {
+      "name": "independent-fit-small.json",
+      "bytes": 1696,
+      "sha256": "dc498664233c85f7da5ec324b17741a01e5d0b932d5716980c4c07f838bfa001"
+    },
+    {
+      "name": "independent_primary.py",
+      "bytes": 5027,
+      "sha256": "366df6551b70dd20640be81f50859c42647bbc8a1fdac4cf16382f1ce44ff273"
+    },
+    {
+      "name": "review.md",
+      "bytes": 3799,
+      "sha256": "c76f4cdca0cc0ab37b73c11ad06a0882d501fc8c6022bd5b16589525299b227a"
+    }
+  ],
+  "root_input_freeze_sha256": "f61d2d407e0637348cc3bcdf6bd07f38db8bafc20bd3273f067b1fd712d3f88a"
+}

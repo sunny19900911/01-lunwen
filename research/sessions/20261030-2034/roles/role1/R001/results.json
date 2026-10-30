@@ -1,0 +1,285 @@
+{
+  "completed_at": "2026-10-30T20:45:25.553515+08:00",
+  "identity": "Story5 primary fitted reference, not native unique modal contributions",
+  "primary": "N12_elastic_rc1e-10",
+  "cases": [
+    {
+      "Case": "SHW3X",
+      "predicted_peak5_kN": 8756.25125944751,
+      "predicted_peak8_kN": 8088.9596815927,
+      "predicted_reduction_percent": 7.620744975023874,
+      "native_peak5_kN": 8691.637986375608,
+      "native_peak8_kN": 8096.1503411165795,
+      "native_reduction_percent": 6.851270683298971,
+      "pred_peak_times": [
+        22.94,
+        22.94
+      ],
+      "group_peak_ratios8_over5": [
+        0.9229154412760772,
+        0.8147132436334219,
+        0.6565729171566363,
+        0.8368212756744055
+      ],
+      "individual_terms_peak_decrease_count": 12,
+      "group1_signed_fraction_at8peak": 0.9379451316951501,
+      "group4_signed_fraction_at8peak": 0.06443128661366827,
+      "anchors": [
+        {
+          "anchor": "predicted5_peak",
+          "time_s": 22.94,
+          "groups5_kN": [
+            -8007.112253776853,
+            19.01327128225503,
+            2.973147838068324,
+            -771.1254247909808
+          ],
+          "groups8_kN": [
+            -7587.000353828224,
+            15.900170543341865,
+            3.3225813432865174,
+            -521.182079651106
+          ],
+          "sum5_kN": -8756.25125944751,
+          "sum8_kN": -8088.9596815927,
+          "native5_kN": -8680.287580031989,
+          "native8_kN": -8096.1503411165795,
+          "chi_groups5": 0.0049967861900469535,
+          "chi_groups8": 0.004730354017845828,
+          "chi_terms5": 0.029229654552367923,
+          "chi_terms8": 0.026419018425994922,
+          "amplitude_delta_sum_kN": 734.2378785708759,
+          "waveform_delta_sum_kN": -66.94630071606673
+        },
+        {
+          "anchor": "predicted8_peak",
+          "time_s": 22.94,
+          "groups5_kN": [
+            -8007.112253776853,
+            19.01327128225503,
+            2.973147838068324,
+            -771.1254247909808
+          ],
+          "groups8_kN": [
+            -7587.000353828224,
+            15.900170543341865,
+            3.3225813432865174,
+            -521.182079651106
+          ],
+          "sum5_kN": -8756.25125944751,
+          "sum8_kN": -8088.9596815927,
+          "native5_kN": -8680.287580031989,
+          "native8_kN": -8096.1503411165795,
+          "chi_groups5": 0.0049967861900469535,
+          "chi_groups8": 0.004730354017845828,
+          "chi_terms5": 0.029229654552367923,
+          "chi_terms8": 0.026419018425994922,
+          "amplitude_delta_sum_kN": 734.2378785708759,
+          "waveform_delta_sum_kN": -66.94630071606673
+        }
+      ],
+      "first6_sensitivity": [
+        {
+          "zeta": 0.05,
+          "N6_prediction_NRMSE_reproduced": 0.19509407118495795,
+          "g1_N6_vs_N12_relative_L2": 0.005463868307948388,
+          "g2_N6_vs_N12_relative_L2": 2.6801600812321515
+        },
+        {
+          "zeta": 0.08,
+          "N6_prediction_NRMSE_reproduced": 0.19844387774919925,
+          "g1_N6_vs_N12_relative_L2": 0.005212683152796439,
+          "g2_N6_vs_N12_relative_L2": 2.7154996490713867
+        }
+      ]
+    },
+    {
+      "Case": "SHW4X",
+      "predicted_peak5_kN": 10150.91905446981,
+      "predicted_peak8_kN": 9038.97402140346,
+      "predicted_reduction_percent": 10.954131612119621,
+      "native_peak5_kN": 10178.091451838196,
+      "native_peak8_kN": 9027.745083929776,
+      "native_reduction_percent": 11.302181488069296,
+      "pred_peak_times": [
+        29.94,
+        29.900000000000002
+      ],
+      "group_peak_ratios8_over5": [
+        0.8983396161347285,
+        0.9099831609128664,
+        0.6846036012422678,
+        0.885412251949514
+      ],
+      "individual_terms_peak_decrease_count": 12,
+      "group1_signed_fraction_at8peak": 0.9656212992544122,
+      "group4_signed_fraction_at8peak": 0.033260500106379855,
+      "anchors": [
+        {
+          "anchor": "predicted5_peak",
+          "time_s": 29.94,
+          "groups5_kN": [
+            -9705.088718805895,
+            -16.03138357909554,
+            4.3978289521038665,
+            -434.19678103692536
+          ],
+          "groups8_kN": [
+            -8671.722189730797,
+            -9.903415023609702,
+            1.275410813988091,
+            -313.67856340595637
+          ],
+          "sum5_kN": -10150.91905446981,
+          "sum8_kN": -8994.028757346376,
+          "native5_kN": -10178.091451838196,
+          "native8_kN": -8996.993140481945,
+          "chi_groups5": 0.0008657386701512726,
+          "chi_groups8": 0.00028353238089939836,
+          "chi_terms5": 0.018273041357871556,
+          "chi_terms8": 0.012247403644905841,
+          "amplitude_delta_sum_kN": 1029.3767912934165,
+          "waveform_delta_sum_kN": 127.5135058300207
+        },
+        {
+          "anchor": "predicted8_peak",
+          "time_s": 29.900000000000002,
+          "groups5_kN": [
+            -9702.43140999882,
+            -16.818184153869694,
+            2.743713991578778,
+            -376.8564344881917
+          ],
+          "groups8_kN": [
+            -8728.225838474487,
+            -10.521034545624422,
+            0.41364801710743365,
+            -300.6407964004545
+          ],
+          "sum5_kN": -10093.362314649303,
+          "sum8_kN": -9038.97402140346,
+          "native5_kN": -10078.507157986762,
+          "native8_kN": -9022.477212884769,
+          "chi_groups5": 0.0005433715841905995,
+          "chi_groups8": 9.151705940912969e-05,
+          "chi_terms5": 0.019884943637439867,
+          "chi_terms8": 0.013246272979221319,
+          "amplitude_delta_sum_kN": 1028.8352413448151,
+          "waveform_delta_sum_kN": 25.55305190102867
+        }
+      ],
+      "first6_sensitivity": [
+        {
+          "zeta": 0.05,
+          "N6_prediction_NRMSE_reproduced": 0.13709679074431463,
+          "g1_N6_vs_N12_relative_L2": 0.00653654386905249,
+          "g2_N6_vs_N12_relative_L2": 2.1964662261352714
+        },
+        {
+          "zeta": 0.08,
+          "N6_prediction_NRMSE_reproduced": 0.13293954349925802,
+          "g1_N6_vs_N12_relative_L2": 0.005447438269346392,
+          "g2_N6_vs_N12_relative_L2": 2.45187255208442
+        }
+      ]
+    },
+    {
+      "Case": "RH4X",
+      "predicted_peak5_kN": 8285.159973024975,
+      "predicted_peak8_kN": 6621.1183825800845,
+      "predicted_reduction_percent": 20.08460423048821,
+      "native_peak5_kN": 8261.6557579901,
+      "native_peak8_kN": 6617.393787694305,
+      "native_reduction_percent": 19.90232973221596,
+      "pred_peak_times": [
+        21.48,
+        21.48
+      ],
+      "group_peak_ratios8_over5": [
+        0.7831807477127753,
+        0.7889408654283108,
+        0.613120294014183,
+        0.8044117438083181
+      ],
+      "individual_terms_peak_decrease_count": 12,
+      "group1_signed_fraction_at8peak": 0.9311549228317821,
+      "group4_signed_fraction_at8peak": 0.06916664005323457,
+      "anchors": [
+        {
+          "anchor": "predicted5_peak",
+          "time_s": 21.48,
+          "groups5_kN": [
+            7691.642568664445,
+            -3.72295411660578,
+            0.895071421674088,
+            596.3452870554607
+          ],
+          "groups8_kN": [
+            6165.286976591453,
+            -3.026961591663886,
+            0.8978556625236661,
+            457.9605119177713
+          ],
+          "sum5_kN": 8285.159973024975,
+          "sum8_kN": 6621.1183825800845,
+          "native5_kN": 8261.6557579901,
+          "native8_kN": 6617.393787694305,
+          "chi_groups5": 0.0008978972761795045,
+          "chi_groups8": 0.0009135001934480469,
+          "chi_terms5": 0.010369065235209751,
+          "chi_terms8": 0.015789666705938066,
+          "amplitude_delta_sum_kN": -1800.9138639953144,
+          "waveform_delta_sum_kN": 136.8722735504241
+        },
+        {
+          "anchor": "predicted8_peak",
+          "time_s": 21.48,
+          "groups5_kN": [
+            7691.642568664445,
+            -3.72295411660578,
+            0.895071421674088,
+            596.3452870554607
+          ],
+          "groups8_kN": [
+            6165.286976591453,
+            -3.026961591663886,
+            0.8978556625236661,
+            457.9605119177713
+          ],
+          "sum5_kN": 8285.159973024975,
+          "sum8_kN": 6621.1183825800845,
+          "native5_kN": 8261.6557579901,
+          "native8_kN": 6617.393787694305,
+          "chi_groups5": 0.0008978972761795045,
+          "chi_groups8": 0.0009135001934480469,
+          "chi_terms5": 0.010369065235209751,
+          "chi_terms8": 0.015789666705938066,
+          "amplitude_delta_sum_kN": -1800.9138639953144,
+          "waveform_delta_sum_kN": 136.8722735504241
+        }
+      ],
+      "first6_sensitivity": [
+        {
+          "zeta": 0.05,
+          "N6_prediction_NRMSE_reproduced": 0.12030904714986278,
+          "g1_N6_vs_N12_relative_L2": 0.005602390708898965,
+          "g2_N6_vs_N12_relative_L2": 1.7863340758478772
+        },
+        {
+          "zeta": 0.08,
+          "N6_prediction_NRMSE_reproduced": 0.1266586316351752,
+          "g1_N6_vs_N12_relative_L2": 0.005024208912411348,
+          "g2_N6_vs_N12_relative_L2": 2.1560657239346432
+        }
+      ]
+    }
+  ],
+  "split_identity_max_abs_error_kN": 9.094947017729282e-13,
+  "groups_sum_prediction_max_abs_error_kN": 5.4569682106375694e-12,
+  "rcond_coefficient_change_zero": true,
+  "new_ODE_or_fit": false,
+  "arrays_output": false,
+  "Story12_not_interpreted": true,
+  "code_sha256": "bc2a21e79d9f8db91d538be400e4eebd61bf6f37bdf1aef24a806bb8c10b1c44",
+  "input_freeze_sha256": "2e5f8b078a360906980ddb0f338fce35e44326dd2259f36bb0bdd8e3685a9e23"
+}

@@ -1,0 +1,44 @@
+{
+  "task": "20261030-2034 role1 R001 Story5 mechanism",
+  "started_at_observed": "2026-10-30T20:42:35+08:00",
+  "completed_at": "2026-10-30T20:46:54.766331+08:00",
+  "elapsed_seconds": 259.766331,
+  "within8minutes": true,
+  "status": "one-page mechanism and12row small table frozen; audit pending",
+  "command": "bundled python -B -X utf8 explain_story5.py",
+  "exit_code": 0,
+  "files": [
+    {
+      "name": "explain_story5.py",
+      "bytes": 5497,
+      "sha256": "bc2a21e79d9f8db91d538be400e4eebd61bf6f37bdf1aef24a806bb8c10b1c44"
+    },
+    {
+      "name": "input-freeze.json",
+      "bytes": 3065,
+      "sha256": "2e5f8b078a360906980ddb0f338fce35e44326dd2259f36bb0bdd8e3685a9e23"
+    },
+    {
+      "name": "key-group-table-12.csv",
+      "bytes": 3162,
+      "sha256": "4fa3e5f9339b9b4446a2ff2cdcc91b30cc698f7df77a73803d5262141e6ae308"
+    },
+    {
+      "name": "mechanism-one-page.md",
+      "bytes": 3361,
+      "sha256": "a56b74c021e46022fc6c3423dcb3e7c604dd186d3ae5709f7b344ce7e6f83dcc"
+    },
+    {
+      "name": "results.json",
+      "bytes": 9652,
+      "sha256": "7fb397340c062c1469e89188d8d19b6e556f0c2b268fea56e70c246e3e820fd6"
+    },
+    {
+      "name": "validation.json",
+      "bytes": 527,
+      "sha256": "14273c15e249bdf2b30a605d70c9339596706431ee155b41ab1784ed4f28d010"
+    }
+  ],
+  "no_local_cache_copied_or_uploaded": true,
+  "no_Git_or_API_or_new_ODE": true
+}

@@ -1,0 +1,81 @@
+{
+  "task": "Story5 fitted frequency-group damping mechanism only",
+  "started_at_observed": "2026-10-30T20:42:35+08:00",
+  "frozen_at": "2026-10-30T20:43:17.860029+08:00",
+  "primary": "N12_elastic_rc1e-10",
+  "cases": [
+    "SHW3X",
+    "SHW4X",
+    "RH4X"
+  ],
+  "story": "Story5",
+  "groups": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6
+    ],
+    [
+      7,
+      8,
+      9
+    ],
+    [
+      10,
+      11,
+      12
+    ]
+  ],
+  "anchors": "own primary predicted absolute peak of5 and8, paired at identical time; raw native peaks retained as quality context",
+  "table_limit_rows": 12,
+  "semantics": "fitted-model groups only; waveform not automatically pure phase; individual mode identity not asserted; Story12 not interpreted",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\manifest.json",
+      "bytes": 1707,
+      "sha256": "acdb5cb394625f5d3e66f62819d75ae1b75427ab7e0166410bb9ab3b5645c10c"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\local-cache\\primary-reference-traces.npz",
+      "bytes": 3620255,
+      "sha256": "38a2d4d8ae0f2262c9770fa0e774a0cdb402befd033b5757632ea2e790bf7b98"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\models-small.json",
+      "bytes": 12177,
+      "sha256": "3812ec39438d1c225237a3291f7a439a4e812b27d773e495f942a95180eeffab"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\primary-critical-time-groups.csv",
+      "bytes": 5939,
+      "sha256": "247d79a8740fd93533d1929da435854873a455b278020992842bd13de1b682ab"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\fixed-output-coefficients.csv",
+      "bytes": 21445,
+      "sha256": "a5cdcce91404e81301d21f0ef4f723d5f49fd4283d7d0803267ab7c51149890a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\prediction-errors-96.csv",
+      "bytes": 26059,
+      "sha256": "07ec6a4debd84f7d7639eadc2b5bfba5c60252a3e9807748fd3c65088fb21e66"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\coefficient-stability.csv",
+      "bytes": 244,
+      "sha256": "e9bd1896bf929798dc4068536bb9c519cb68334e09684b2917f14ebe23992c88"
+    }
+  ],
+  "excluded": [
+    "refit",
+    "new ODE",
+    "parameter scan",
+    "native modal-coordinate claim",
+    "full local arrays upload"
+  ]
+}

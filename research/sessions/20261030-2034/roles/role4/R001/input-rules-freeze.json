@@ -1,0 +1,78 @@
+{
+  "frozen_utc": "2026-10-30T12:44:36.369805+00:00",
+  "start_observed_utc": "2026-10-30T12:42:39+00:00",
+  "deadline_utc": "2026-10-30T12:52:39+00:00",
+  "root_rules": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\input-rules-freeze.json",
+    "sha256": "f61d2d407e0637348cc3bcdf6bd07f38db8bafc20bd3273f067b1fd712d3f88a"
+  },
+  "source": [
+    {
+      "path": "C:\\Users\\mj528\\.codex\\skills\\etabs-response-analysis\\scripts\\modal_linear.py",
+      "bytes": 2206,
+      "sha256": "1c2620542f812e355c4be3ad8877db92db2ba3343cd3a2405e26c731be796827"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261025-1337\\roles\\role6\\R001\\input-config.json",
+      "bytes": 22174,
+      "sha256": "c249e22be8f0d41bb5beb59e9c24153bc26eb7948f23f72386c28f78d0a4a1e9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261025-1337\\roles\\role6\\R001\\load_inputs.py",
+      "bytes": 1220,
+      "sha256": "c325762d99b91cdc617c5a84bf609c23fca89a34d7c494888c0327532bb1e6e4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\Story_Forces.npz",
+      "bytes": 24746646,
+      "sha256": "f80493976395634c1e03b3591ae64bce329c5b9af72729e3d2d18c719ac792e0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\engineering_derived_traces.npz",
+      "bytes": 8327187,
+      "sha256": "59976c52b5c8b1fdeb49331c73a7278f3cf9d2c3d57ee97af440677b17891dff"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native0_small_tables.json",
+      "bytes": 10534669,
+      "sha256": "20815b312c71b0c4e8260573752faccbd922c40d84e28bc2549becfca880a972"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Forces.npz",
+      "bytes": 24737339,
+      "sha256": "fb11e299f62682d0bf3a68644cdae474ca8a6ce96863838e02117431f72caf8d"
+    }
+  ],
+  "additional_frozen_inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\models-small.json",
+      "sha256": "3812ec39438d1c225237a3291f7a439a4e812b27d773e495f942a95180eeffab"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\prediction-errors-96.csv",
+      "sha256": "07ec6a4debd84f7d7639eadc2b5bfba5c60252a3e9807748fd3c65088fb21e66"
+    }
+  ],
+  "N": 24,
+  "operators": [
+    "elastic",
+    "balance"
+  ],
+  "rcond": 1e-10,
+  "train_native5": [
+    "SHW3X",
+    "SHW4X"
+  ],
+  "holdout_native5": "RH4X",
+  "predict_native8_all_without_refit": [
+    "SHW3X",
+    "SHW4X",
+    "RH4X"
+  ],
+  "scale_and_active_from_training_only": true,
+  "ag_units": "loader already m/s^2, no additional multiplier",
+  "initial_q_v": 0,
+  "no_N6_N12_refit": true,
+  "scope": "new N24 fitted-model extension only, not true modal decomposition",
+  "code_sha256": "66f6746a3af3d6cbe2d12a20a9c44e32912e80a9fe0edf02d41a318af2ce2d6c"
+}

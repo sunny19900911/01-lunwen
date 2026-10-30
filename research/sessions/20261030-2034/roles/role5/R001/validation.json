@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-30T20:45:51.204922+08:00",
+  "scope": "冻结小表哈希与数字转录、峰值降幅/误差汇总算术及稿件结构检查；不重跑拟合、不代替②④独立复核",
+  "checks": {
+    "root_source_hashes_match_manifest": true,
+    "all96_rows_eight_variants": true,
+    "native_pair_table_from_frozen_source": true,
+    "validation_table_from_frozen_source": true,
+    "sensitivity_table_from_frozen_source": true,
+    "all_six_engineering_peaks_decrease": true,
+    "SHW3_not_SHW7": true,
+    "no_8_refit": true,
+    "Story12_large_error_preserved": true,
+    "actual_reference_not_true_modal_claim": true,
+    "theory_example_short_separate": true,
+    "general_waveform_not_pure_phase": true,
+    "no_old_H_CM_route": true,
+    "three_equation_blocks": true,
+    "three_result_tables": true,
+    "no_review_claims_in_body": true,
+    "no_controls_trailing_whitespace": true
+  },
+  "manuscript": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\damping-superposition-session019-v001.md",
+    "bytes": 6427,
+    "sha256": "29ec1b400182df9185cb4d920f9de196b9d8a85358f892ba967a86dd1349079c"
+  },
+  "Han_characters": 1522,
+  "Word_created": false
+}

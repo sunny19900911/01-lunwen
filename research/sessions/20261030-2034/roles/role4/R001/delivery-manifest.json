@@ -1,0 +1,95 @@
+{
+  "status": "complete N24-only extension; independent review pending",
+  "frozen_utc": "2026-10-30T12:46:56.864718+00:00",
+  "frozen_Asia_Shanghai": "2026-10-30T20:46:56.864718+08:00",
+  "elapsed_seconds": 257.864718,
+  "within10_minutes": true,
+  "files": [
+    {
+      "name": "common-prefix-group-curve-change-144.csv",
+      "bytes": 32711,
+      "last_modified_utc": "2026-10-30T12:44:36.761940+00:00",
+      "sha256": "1c9165e8e27c1fae668c62ab3d0b22cb0aa738be99b55f6fadcce837239f5412"
+    },
+    {
+      "name": "early-balance-errors-12.csv",
+      "bytes": 4072,
+      "last_modified_utc": "2026-10-30T12:44:36.746880+00:00",
+      "sha256": "075f1904783ff183c18e8f67e9328a6b5158860f2877936ddc900609f5ca68be"
+    },
+    {
+      "name": "early-elastic-errors-12.csv",
+      "bytes": 4075,
+      "last_modified_utc": "2026-10-30T12:44:36.725955+00:00",
+      "sha256": "f39146050c4055f967519566ed5a085bdf8826c0d836edd01c8d6a2ff1d71bdd"
+    },
+    {
+      "name": "finalize_N24.py",
+      "bytes": 8022,
+      "last_modified_utc": "2026-10-30T12:46:55.972791+00:00",
+      "sha256": "6fe5fc60e654128386a0a06e57dacabfeecf069bcc30cb5c21cfff2c7a40ed1b"
+    },
+    {
+      "name": "fixed-output-coefficients-N24-96.csv",
+      "bytes": 14125,
+      "last_modified_utc": "2026-10-30T12:44:36.753455+00:00",
+      "sha256": "9cf40fc2cec1d98a9216ef47a79fd8e4ee96d36185ae18ebef7d524160bc04fa"
+    },
+    {
+      "name": "input-rules-freeze.json",
+      "bytes": 3750,
+      "last_modified_utc": "2026-10-30T12:44:36.370322+00:00",
+      "sha256": "578882501069b90738f71734be530f72988f468d420eb7d0763df9cba6f088d0"
+    },
+    {
+      "name": "models-small-N24.json",
+      "bytes": 7355,
+      "last_modified_utc": "2026-10-30T12:44:36.754966+00:00",
+      "sha256": "ec43519b313febbfdc09098b6bc9e8a1a1104b1c1fb2999c8542bbbc8409dacd"
+    },
+    {
+      "name": "prediction-errors-N24-24.csv",
+      "bytes": 8019,
+      "last_modified_utc": "2026-10-30T12:46:56.627737+00:00",
+      "sha256": "ac66d0d136f797a2e0fc5e7ca3a16a7ac740b61dc2bb4aa12db7a8d5e3bf8bbf"
+    },
+    {
+      "name": "prefix-coefficient-change-vs-N12-8.csv",
+      "bytes": 820,
+      "last_modified_utc": "2026-10-30T12:44:36.753960+00:00",
+      "sha256": "4fcbaeddccd1c6aa50d400b4fcae46fb068aad0710a48186dec1dab0ec749f3a"
+    },
+    {
+      "name": "README-N24.md",
+      "bytes": 3366,
+      "last_modified_utc": "2026-10-30T12:46:56.745174+00:00",
+      "sha256": "0056808450a44fbede24f564c35b3155dc543e53ecf459e63e2af7a3b5ac4fc2"
+    },
+    {
+      "name": "results.json",
+      "bytes": 17213,
+      "last_modified_utc": "2026-10-30T12:44:37.396476+00:00",
+      "sha256": "57f69a5e1cf7c41184b7a7050baf7ec6ff2b8efd76ba2006e0a7d0c6cbb34dfa"
+    },
+    {
+      "name": "run_N24_extension.py",
+      "bytes": 8366,
+      "last_modified_utc": "2026-10-30T12:44:35.762077+00:00",
+      "sha256": "66f6746a3af3d6cbe2d12a20a9c44e32912e80a9fe0edf02d41a318af2ce2d6c"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 708,
+      "last_modified_utc": "2026-10-30T12:46:56.870721+00:00",
+      "sha256": "afe5574cbd894f58500a75a466fa99d44f980b1dade5e0a80676852393253e33"
+    }
+  ],
+  "local_only_array": {
+    "path": "local-cache/N24-two-operator-traces.npz",
+    "bytes": 13283001,
+    "sha256": "319050e217cd3c9376add4b15dc90535af5b1da85ee94aff7c0f009b8d4869ec",
+    "upload_allowed": false
+  },
+  "main_errors": "prediction-errors-N24-24.csv",
+  "report": "README-N24.md"
+}

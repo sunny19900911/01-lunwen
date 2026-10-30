@@ -1,0 +1,36 @@
+{
+  "completed": "2026-10-30T20:45:34.090576+08:00",
+  "primary_rank": 12,
+  "max_abs_raw_coefficient_difference": 2.1827872842550278e-11,
+  "active_mask_matches": true,
+  "native_VX_kN_and_Time_s_contract": true,
+  "cached_input_m_s2_no_double_scaling": true,
+  "stability_table_four_rows_arithmetic_checked": true,
+  "stability_rows": [
+    {
+      "operator": "elastic",
+      "Story": "Story5",
+      "first6_coef_N6_vs_N12_relative_L2": "0.016023716958231175",
+      "N12_rcond_change_relative_L2": "0.0"
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story12",
+      "first6_coef_N6_vs_N12_relative_L2": "0.1287158819395784",
+      "N12_rcond_change_relative_L2": "0.0"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story5",
+      "first6_coef_N6_vs_N12_relative_L2": "0.03198936593017285",
+      "N12_rcond_change_relative_L2": "0.0"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story12",
+      "first6_coef_N6_vs_N12_relative_L2": "0.16856171277596718",
+      "N12_rcond_change_relative_L2": "0.0"
+    }
+  ],
+  "not_claimed": "unique physical single-mode contribution, raw Excel independent re-extraction, or other7config refit"
+}

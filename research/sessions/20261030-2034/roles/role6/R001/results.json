@@ -1,0 +1,521 @@
+{
+  "status": "candidate numerical diagnostics; independent review pending",
+  "start_local": "2026-10-30T20:42:22+08:00",
+  "completed_local": "2026-10-30T20:43:57+08:00",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\models-small.json",
+      "sha256": "3812ec39438d1c225237a3291f7a439a4e812b27d773e495f942a95180eeffab"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\local-cache\\primary-reference-traces.npz",
+      "sha256": "38a2d4d8ae0f2262c9770fa0e774a0cdb402befd033b5757632ea2e790bf7b98"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261025-1337\\roles\\role6\\R001\\load_inputs.py",
+      "sha256": "c325762d99b91cdc617c5a84bf609c23fca89a34d7c494888c0327532bb1e6e4"
+    },
+    {
+      "path": "C:\\Users\\mj528\\.codex\\skills\\etabs-response-analysis\\scripts\\modal_linear.py",
+      "sha256": "1c2620542f812e355c4be3ad8877db92db2ba3343cd3a2405e26c731be796827"
+    }
+  ],
+  "primary_recomputed_terms_max_abs_vs_root_cache_kN": 1.8189894035458565e-12,
+  "max_rcond_change_L2_over_native": 0.0,
+  "summary": [
+    {
+      "operator": "elastic",
+      "Story": "Story5",
+      "group": "modes1to3",
+      "N_change_L2_over_native_range": [
+        0.004977768541248531,
+        0.006455506823466086
+      ],
+      "N_change_L2_over_group_range": [
+        0.005024208912411311,
+        0.006536543869052464
+      ],
+      "N_change_peak_over_native_peak_max": 0.0054502724297262805,
+      "N_change_peak_kN_max": 51.60734630403567,
+      "N12_group_L2_over_native_range": [
+        0.9734481574756152,
+        0.9922643391098542
+      ]
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story5",
+      "group": "modes4to6",
+      "N_change_L2_over_native_range": [
+        0.005997557515567303,
+        0.011924651783573607
+      ],
+      "N_change_L2_over_group_range": [
+        1.7863340758478772,
+        2.7154996490713867
+      ],
+      "N_change_peak_over_native_peak_max": 0.013115161915085308,
+      "N_change_peak_kN_max": 113.99223949862213,
+      "N12_group_L2_over_native_range": [
+        0.0031408418830253153,
+        0.00444923117356911
+      ]
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story12",
+      "group": "modes1to3",
+      "N_change_L2_over_native_range": [
+        0.014097102032072005,
+        0.026373606704052848
+      ],
+      "N_change_L2_over_group_range": [
+        0.03981684298472517,
+        0.05167055680382657
+      ],
+      "N_change_peak_over_native_peak_max": 0.023333743699736148,
+      "N_change_peak_kN_max": 11.887517909395541,
+      "N12_group_L2_over_native_range": [
+        0.32566005112650936,
+        0.5969423151576112
+      ]
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story12",
+      "group": "modes4to6",
+      "N_change_L2_over_native_range": [
+        0.032819370516531735,
+        0.04127703400951418
+      ],
+      "N_change_L2_over_group_range": [
+        0.07460823869471238,
+        0.08194713768723119
+      ],
+      "N_change_peak_over_native_peak_max": 0.048276412363149335,
+      "N_change_peak_kN_max": 29.921000395413785,
+      "N12_group_L2_over_native_range": [
+        0.4004944094788752,
+        0.5146301967854997
+      ]
+    },
+    {
+      "operator": "balance",
+      "Story": "Story5",
+      "group": "modes1to3",
+      "N_change_L2_over_native_range": [
+        0.004361717812281419,
+        0.005788265397377986
+      ],
+      "N_change_L2_over_group_range": [
+        0.00446665205371624,
+        0.005943145301217299
+      ],
+      "N_change_peak_over_native_peak_max": 0.005010018794169035,
+      "N_change_peak_kN_max": 42.14274673373802,
+      "N12_group_L2_over_native_range": [
+        0.9739397413340054,
+        1.0012303242171778
+      ]
+    },
+    {
+      "operator": "balance",
+      "Story": "Story5",
+      "group": "modes4to6",
+      "N_change_L2_over_native_range": [
+        0.011223832892127873,
+        0.019365318289257076
+      ],
+      "N_change_L2_over_group_range": [
+        1.2816805757814285,
+        1.5026439904972182
+      ],
+      "N_change_peak_over_native_peak_max": 0.022130007072387697,
+      "N_change_peak_kN_max": 192.34601010912576,
+      "N12_group_L2_over_native_range": [
+        0.0074693892652603336,
+        0.015109317138125643
+      ]
+    },
+    {
+      "operator": "balance",
+      "Story": "Story12",
+      "group": "modes1to3",
+      "N_change_L2_over_native_range": [
+        0.01144252693721234,
+        0.021782039972361653
+      ],
+      "N_change_L2_over_group_range": [
+        0.032020384581708285,
+        0.042367145273414265
+      ],
+      "N_change_peak_over_native_peak_max": 0.0167997997476722,
+      "N_change_peak_kN_max": 8.801232420832434,
+      "N12_group_L2_over_native_range": [
+        0.32277183691213673,
+        0.5950716720049523
+      ]
+    },
+    {
+      "operator": "balance",
+      "Story": "Story12",
+      "group": "modes4to6",
+      "N_change_L2_over_native_range": [
+        0.04220353342234932,
+        0.051155870882317565
+      ],
+      "N_change_L2_over_group_range": [
+        0.09061967615045051,
+        0.10711912359009428
+      ],
+      "N_change_peak_over_native_peak_max": 0.0597897880269228,
+      "N_change_peak_kN_max": 36.681150405605365,
+      "N12_group_L2_over_native_range": [
+        0.39398691856224305,
+        0.5173543619019847
+      ]
+    }
+  ],
+  "svd": [
+    {
+      "variant": "N12_elastic_rc1e-10",
+      "N": 12,
+      "operator": "elastic",
+      "rcond": 1e-10,
+      "rank": 12,
+      "smax_RMS_column_normalized": 141.09806853388994,
+      "smin_RMS_column_normalized": 7.176952283462575,
+      "smin_over_smax": 0.05086499310753331,
+      "condition_2_RMS_column_normalized": 19.659886670699183,
+      "singular_values": "[141.09806853388994,122.84478923467493,122.5213284190937,107.15054910467272,46.041143746135496,41.895464410211254,32.104925257613154,30.944919701273253,13.51368394939658,7.6943418371936,7.423906781206645,7.176952283462575]"
+    },
+    {
+      "variant": "N12_elastic_rc1e-08",
+      "N": 12,
+      "operator": "elastic",
+      "rcond": 1e-08,
+      "rank": 12,
+      "smax_RMS_column_normalized": 141.09806853388994,
+      "smin_RMS_column_normalized": 7.176952283462575,
+      "smin_over_smax": 0.05086499310753331,
+      "condition_2_RMS_column_normalized": 19.659886670699183,
+      "singular_values": "[141.09806853388994,122.84478923467493,122.5213284190937,107.15054910467272,46.041143746135496,41.895464410211254,32.104925257613154,30.944919701273253,13.51368394939658,7.6943418371936,7.423906781206645,7.176952283462575]"
+    },
+    {
+      "variant": "N12_balance_rc1e-10",
+      "N": 12,
+      "operator": "balance",
+      "rcond": 1e-10,
+      "rank": 12,
+      "smax_RMS_column_normalized": 141.90726678208267,
+      "smin_RMS_column_normalized": 7.145719624020698,
+      "smin_over_smax": 0.050354853462112645,
+      "condition_2_RMS_column_normalized": 19.859058884014175,
+      "singular_values": "[141.90726678208267,122.8630618723351,122.2981770000543,106.5988640269348,45.81479225253199,41.67578736680659,31.951189901054253,30.80244044587118,13.452252923871598,7.65778451334817,7.39137035993106,7.145719624020698]"
+    },
+    {
+      "variant": "N12_balance_rc1e-08",
+      "N": 12,
+      "operator": "balance",
+      "rcond": 1e-08,
+      "rank": 12,
+      "smax_RMS_column_normalized": 141.90726678208267,
+      "smin_RMS_column_normalized": 7.145719624020698,
+      "smin_over_smax": 0.050354853462112645,
+      "condition_2_RMS_column_normalized": 19.859058884014175,
+      "singular_values": "[141.90726678208267,122.8630618723351,122.2981770000543,106.5988640269348,45.81479225253199,41.67578736680659,31.951189901054253,30.80244044587118,13.452252923871598,7.65778451334817,7.39137035993106,7.145719624020698]"
+    },
+    {
+      "variant": "N6_elastic_rc1e-10",
+      "N": 6,
+      "operator": "elastic",
+      "rcond": 1e-10,
+      "rank": 6,
+      "smax_RMS_column_normalized": 126.93220516610529,
+      "smin_RMS_column_normalized": 7.5092914583199075,
+      "smin_over_smax": 0.059159859773121735,
+      "condition_2_RMS_column_normalized": 16.90335311535564,
+      "singular_values": "[126.93220516610529,121.6708328568574,41.912030839352944,32.62221380159088,7.694615194199444,7.5092914583199075]"
+    },
+    {
+      "variant": "N6_elastic_rc1e-08",
+      "N": 6,
+      "operator": "elastic",
+      "rcond": 1e-08,
+      "rank": 6,
+      "smax_RMS_column_normalized": 126.93220516610529,
+      "smin_RMS_column_normalized": 7.5092914583199075,
+      "smin_over_smax": 0.059159859773121735,
+      "condition_2_RMS_column_normalized": 16.90335311535564,
+      "singular_values": "[126.93220516610529,121.6708328568574,41.912030839352944,32.62221380159088,7.694615194199444,7.5092914583199075]"
+    },
+    {
+      "variant": "N6_balance_rc1e-10",
+      "N": 6,
+      "operator": "balance",
+      "rcond": 1e-10,
+      "rank": 6,
+      "smax_RMS_column_normalized": 126.49465607604057,
+      "smin_RMS_column_normalized": 7.478686858561656,
+      "smin_over_smax": 0.05912255181804632,
+      "condition_2_RMS_column_normalized": 16.91401959573004,
+      "singular_values": "[126.49465607604057,122.24693557187217,41.6898509092384,32.4678902372962,7.6583552455291555,7.478686858561656]"
+    },
+    {
+      "variant": "N6_balance_rc1e-08",
+      "N": 6,
+      "operator": "balance",
+      "rcond": 1e-08,
+      "rank": 6,
+      "smax_RMS_column_normalized": 126.49465607604057,
+      "smin_RMS_column_normalized": 7.478686858561656,
+      "smin_over_smax": 0.05912255181804632,
+      "condition_2_RMS_column_normalized": 16.91401959573004,
+      "singular_values": "[126.49465607604057,122.24693557187217,41.6898509092384,32.4678902372962,7.6583552455291555,7.478686858561656]"
+    }
+  ],
+  "coefficient_changes": [
+    {
+      "operator": "elastic",
+      "Story": "Story5",
+      "Mode": 1,
+      "coef_N6": -890.3720131851263,
+      "coef_N12": -1059.6651028662286,
+      "signed_difference_N12_minus_N6": -169.2930896811023,
+      "relative_to_abs_N12": 0.1597609369443147,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story5",
+      "Mode": 2,
+      "coef_N6": -26313.655450938517,
+      "coef_N12": -26198.21534653912,
+      "signed_difference_N12_minus_N6": 115.44010439939666,
+      "relative_to_abs_N12": 0.004406411004429228,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story5",
+      "Mode": 3,
+      "coef_N6": -2267.142374735955,
+      "coef_N12": -2096.972531767803,
+      "signed_difference_N12_minus_N6": 170.1698429681519,
+      "relative_to_abs_N12": 0.08115024893754533,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story5",
+      "Mode": 4,
+      "coef_N6": 265.25725651535873,
+      "coef_N12": 20.996439960631747,
+      "signed_difference_N12_minus_N6": -244.260816554727,
+      "relative_to_abs_N12": 11.633439621798514,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story5",
+      "Mode": 5,
+      "coef_N6": -201.56479401334218,
+      "coef_N12": -4.389125650846804,
+      "signed_difference_N12_minus_N6": 197.17566836249537,
+      "relative_to_abs_N12": 44.92367821013596,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story5",
+      "Mode": 6,
+      "coef_N6": 22.323708763465415,
+      "coef_N12": -68.00189967984508,
+      "signed_difference_N12_minus_N6": -90.3256084433105,
+      "relative_to_abs_N12": 1.3282806637544846,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story12",
+      "Mode": 1,
+      "coef_N6": -48.00881259810664,
+      "coef_N12": -10.270666429334018,
+      "signed_difference_N12_minus_N6": 37.738146168772616,
+      "relative_to_abs_N12": 3.674361973336883,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story12",
+      "Mode": 2,
+      "coef_N6": -736.4278447979781,
+      "coef_N12": -761.6243038277609,
+      "signed_difference_N12_minus_N6": -25.196459029782773,
+      "relative_to_abs_N12": 0.033082530196516524,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story12",
+      "Mode": 3,
+      "coef_N6": -42.84641977384015,
+      "coef_N12": -82.24153199029894,
+      "signed_difference_N12_minus_N6": -39.39511221645879,
+      "relative_to_abs_N12": 0.47901724667660334,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story12",
+      "Mode": 4,
+      "coef_N6": 332.06014079677925,
+      "coef_N12": 395.9139157268321,
+      "signed_difference_N12_minus_N6": 63.85377493005285,
+      "relative_to_abs_N12": 0.16128196659323768,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story12",
+      "Mode": 5,
+      "coef_N6": 59.3641115317306,
+      "coef_N12": -0.5878784713127071,
+      "signed_difference_N12_minus_N6": -59.951990003043306,
+      "relative_to_abs_N12": 101.98024409564296,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "elastic",
+      "Story": "Story12",
+      "Mode": 6,
+      "coef_N6": 13.215856072951736,
+      "coef_N12": 45.98407777297353,
+      "signed_difference_N12_minus_N6": 32.76822170002179,
+      "relative_to_abs_N12": 0.7125993014756259,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story5",
+      "Mode": 1,
+      "coef_N6": -6312.701376381457,
+      "coef_N12": -6575.520885153581,
+      "signed_difference_N12_minus_N6": -262.8195087721242,
+      "relative_to_abs_N12": 0.03996938240520632,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story5",
+      "Mode": 2,
+      "coef_N6": -22250.70068886464,
+      "coef_N12": -22059.686514360652,
+      "signed_difference_N12_minus_N6": 191.0141745039873,
+      "relative_to_abs_N12": 0.008658970488072841,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story5",
+      "Mode": 3,
+      "coef_N6": -597.3039086682375,
+      "coef_N12": -445.1107551472703,
+      "signed_difference_N12_minus_N6": 152.19315352096714,
+      "relative_to_abs_N12": 0.34192198629442727,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story5",
+      "Mode": 4,
+      "coef_N6": 847.590187905524,
+      "coef_N12": 448.9163343455232,
+      "signed_difference_N12_minus_N6": -398.6738535600008,
+      "relative_to_abs_N12": 0.8880805242723656,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story5",
+      "Mode": 5,
+      "coef_N6": -909.7702411122857,
+      "coef_N12": -480.779974923233,
+      "signed_difference_N12_minus_N6": 428.9902661890527,
+      "relative_to_abs_N12": 0.8922798131464406,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story5",
+      "Mode": 6,
+      "coef_N6": 469.02323140132523,
+      "coef_N12": 202.16357271769326,
+      "signed_difference_N12_minus_N6": -266.859658683632,
+      "relative_to_abs_N12": 1.3200185132080255,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story12",
+      "Mode": 1,
+      "coef_N6": -202.37481071671573,
+      "coef_N12": -152.32361643308184,
+      "signed_difference_N12_minus_N6": 50.05119428363389,
+      "relative_to_abs_N12": 0.32858459807919654,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story12",
+      "Mode": 2,
+      "coef_N6": -619.9555820957371,
+      "coef_N12": -656.0056121611035,
+      "signed_difference_N12_minus_N6": -36.0500300653664,
+      "relative_to_abs_N12": 0.054953843987104706,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story12",
+      "Mode": 3,
+      "coef_N6": 3.2036517868796976,
+      "coef_N12": -28.133842619353906,
+      "signed_difference_N12_minus_N6": -31.337494406233603,
+      "relative_to_abs_N12": 1.1138718173064575,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story12",
+      "Mode": 4,
+      "coef_N6": 409.3919920694967,
+      "coef_N12": 486.6667233309809,
+      "signed_difference_N12_minus_N6": 77.27473126148419,
+      "relative_to_abs_N12": 0.15878367588517003,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story12",
+      "Mode": 5,
+      "coef_N6": -4.909463258856881,
+      "coef_N12": -86.63239496045448,
+      "signed_difference_N12_minus_N6": -81.72293170159759,
+      "relative_to_abs_N12": 0.9433299372469394,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    },
+    {
+      "operator": "balance",
+      "Story": "Story12",
+      "Mode": 6,
+      "coef_N6": -11.330920673821035,
+      "coef_N12": 38.232940622772865,
+      "signed_difference_N12_minus_N6": 49.5638612965939,
+      "relative_to_abs_N12": 1.2963653982469752,
+      "identity": "fitted output reference coefficient; no physical single-mode certification"
+    }
+  ],
+  "method": "Fixed existing coefficients only. At most12 independent modal kernels per case/state; no fitting, source models unchanged.",
+  "scope": "Group stability within declared N/operator/SVD variants, not true physical single-mode uniqueness. Story12 large total-model error blocks fine decomposition."
+}

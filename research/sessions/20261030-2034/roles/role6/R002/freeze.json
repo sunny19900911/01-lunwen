@@ -1,0 +1,38 @@
+{
+  "status": "candidate complete; independent review pending",
+  "actual_start_local": "2026-10-30T20:49:25+08:00",
+  "frozen_local": "2026-10-30T20:52:38+08:00",
+  "elapsed_seconds": 193.716899,
+  "task_limit_seconds": 600,
+  "within_limit": true,
+  "N36_frozen_entry_metadata_only": [],
+  "N36_status": "no frozen manifest seen at this single check; no wait",
+  "no_new_coefficients": true,
+  "no_new_SDOF_kernels": true,
+  "files": {
+    "compare_roof_groups.py": {
+      "bytes": 8775,
+      "sha256": "9d8cbba4cefe7c411befd49b94f31891f379034e331b29935d3c06186ad0f17b"
+    },
+    "report.md": {
+      "bytes": 3623,
+      "sha256": "e5733a3100eb190fdb81d1ffee941730752e6bdf7d4c11fb7984790f6fac4b55"
+    },
+    "results.json": {
+      "bytes": 25539,
+      "sha256": "97c9285dbe5cd9738f4ce48f55248e116300e4313f37198eb9d697466eaef65a"
+    },
+    "roof-new13to24-amplitudes-and-native-peak-12.csv": {
+      "bytes": 5091,
+      "sha256": "d1640cc705585408f33aad3a5ffa1ddef860115897ae807bafaea2fc7e02e25d"
+    },
+    "roof-prefix-groups-36.csv": {
+      "bytes": 8164,
+      "sha256": "0fd46b61025ea455b414f26717a7d39c9b3d0d28b435eb1e5b23907b7d2691be"
+    },
+    "roof-residual-accounting-12.csv": {
+      "bytes": 3631,
+      "sha256": "2e11bc4a765ca2b0921369dd9ed91f2ba2bc31dcb52f0de7ad7e5c9933374496"
+    }
+  }
+}

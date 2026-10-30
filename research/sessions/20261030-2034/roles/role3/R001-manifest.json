@@ -1,0 +1,67 @@
+{
+  "task": "20261030-2034 role3 R001",
+  "recorded_at": "2026-10-30T20:46:19.020883+08:00",
+  "primary_sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\novelty\\evidence\\MCEER-08-0005.pdf",
+      "bytes": 1798029,
+      "sha256": "941a58f7a8e88975405ccfdfeea412a42d9f982ca7ff3c6a055a93c8c25fda48"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\verification\\csi-analysis-reference-2016.pdf",
+      "bytes": 7811196,
+      "sha256": "7f6f6890afee2e1890d33f5d34d53d8e23f60850890bd230848642b50a6291ac"
+    }
+  ],
+  "primary_count": 2,
+  "all_match_existing_verified_originals": true,
+  "prior_verified_evidence": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261025-1337\\roles\\role3\\R001-damping-superposition-sources.md",
+    "bytes": 5926,
+    "sha256": "2bd1b820ae18a24cb2ab5c5c87b0556e6871bb27b92a55b978511b8597f56454"
+  },
+  "source_locations": {
+    "Song": "printed38/PDF56 Eq3.58/3.59; printed40/PDF58 Eq3.63",
+    "CSI": "printed381/PDF403; printed403-404/PDF425-426"
+  },
+  "local_manual_pages_reread_this_round": [
+    403,
+    425,
+    426
+  ],
+  "new_original_images_viewed": 0,
+  "new_primary_sources": 0,
+  "new_searches": 0,
+  "new_downloads": 0,
+  "input_contracts": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\plan.md",
+      "bytes": 4220,
+      "sha256": "80f684363dfd34fd69b09bbf83ac00065e7d99eca62977d321b203180a0257dd"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\status.json",
+      "bytes": 1673,
+      "sha256": "1b19720a402e56f3b21d17fa0a1b68a3ae29434c174b3cb1f3c802a03dd37e05"
+    }
+  ],
+  "current_small_outputs_and_code": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\models-small.json",
+      "bytes": 12177,
+      "sha256": "3812ec39438d1c225237a3291f7a439a4e812b27d773e495f942a95180eeffab"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\root-R001-low-order\\results.json",
+      "bytes": 7193,
+      "sha256": "2e4be6ff5a20c969dfb3253575e2e71d9b16712dfa85360593078545debbd89e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261030-2034\\run_low_order_fit.py",
+      "bytes": 8796,
+      "sha256": "d4c550bdb0fc346de54ca577e2a8ea231932345df0ed429edbe593cacd5bbb3f"
+    }
+  ],
+  "large_arrays_or_native_workbooks_read": false,
+  "numerical_audit_of_root_fit_performed": false
+}
