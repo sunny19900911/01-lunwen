@@ -1,0 +1,35 @@
+{
+  "completed": "2026-10-31T12:22:01.105383+08:00",
+  "CM_rows": 216,
+  "shear_rows": 144,
+  "numeric_checks": 4680,
+  "must_count": 0,
+  "failures": [],
+  "max_abs_metric_differences": {
+    "native_absolute_peak": 0.0,
+    "predicted_absolute_peak": 7.275957614183426e-12,
+    "peak_relative_error": 3.1086244689504383e-15,
+    "native_peak_time_s": 0.0,
+    "predicted_peak_time_s": 0.0,
+    "peak_time_shift_s": 0.0,
+    "native_value_at_native_peak": 0.0,
+    "prediction_at_native_peak": 7.275957614183426e-12,
+    "native_value_at_prediction_peak": 0.0,
+    "prediction_at_prediction_peak": 7.275957614183426e-12,
+    "native_peak_SourceRow": 0.0,
+    "native_at_predicted_peak_SourceRow": 0.0,
+    "NRMSE": 5.865533753146579e-17,
+    "absolute_curve_NRMSE": 1.3877787807814457e-16
+  },
+  "CM_signed_NRMSE_max": 0.0035436957947816167,
+  "CM_absolute_peak_relative_error_max_abs": 0.0006563835947361873,
+  "elastic_absolute_curve_NRMSE_max": 0.006582207329419,
+  "elastic_peak_error_max_abs": 0.0023517032814920347,
+  "balance_absolute_curve_NRMSE_max": 0.16208747592910455,
+  "balance_peak_error_max_abs": 0.06428689826329936,
+  "unmapped_elastic_signed_NRMSE_range": [
+    1.9998234798456358,
+    2.0000643257185935
+  ],
+  "scope": "CM signed metrics; shear absolute-curve diagnostics only; no eta sign mapping inferred"
+}

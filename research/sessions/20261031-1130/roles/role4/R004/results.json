@@ -1,0 +1,287 @@
+{
+  "completed_utc": "2026-10-31T04:13:30.664969+00:00",
+  "CM_rows": 216,
+  "shear_rows": 144,
+  "native_pair_failures": [],
+  "time_checks": 180,
+  "all_time_vectors_exact": true,
+  "summary": [
+    {
+      "Case": "SHW3X",
+      "zeta": 0.05,
+      "quantity": "UX",
+      "operator": "CM_motion",
+      "points": 18,
+      "median_NRMSE": 4.846365829537679e-05,
+      "max_NRMSE": 0.0002405658074027804,
+      "max_abs_peak_relative_error": 3.827887308727185e-05
+    },
+    {
+      "Case": "SHW3X",
+      "zeta": 0.05,
+      "quantity": "UY",
+      "operator": "CM_motion",
+      "points": 18,
+      "median_NRMSE": 5.200844174712844e-05,
+      "max_NRMSE": 0.0006547911109047258,
+      "max_abs_peak_relative_error": 0.0003616138417710246
+    },
+    {
+      "Case": "SHW3X",
+      "zeta": 0.05,
+      "quantity": "Bottom_VX_absolute_only",
+      "operator": "elastic_inertia",
+      "points": 12,
+      "median_NRMSE": 0.0004723917604844988,
+      "max_NRMSE": 0.0015984162843441288,
+      "max_abs_peak_relative_error": 0.0007827207360178168
+    },
+    {
+      "Case": "SHW3X",
+      "zeta": 0.05,
+      "quantity": "Bottom_VX_absolute_only",
+      "operator": "classical_balance",
+      "points": 12,
+      "median_NRMSE": 0.0999064120382667,
+      "max_NRMSE": 0.10118576525502244,
+      "max_abs_peak_relative_error": 0.03556663817309458
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.05,
+      "quantity": "UX",
+      "operator": "CM_motion",
+      "points": 18,
+      "median_NRMSE": 0.00012261755257183648,
+      "max_NRMSE": 0.0007064088688091768,
+      "max_abs_peak_relative_error": 4.336452920616907e-05
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.05,
+      "quantity": "UY",
+      "operator": "CM_motion",
+      "points": 18,
+      "median_NRMSE": 0.00012853709129576768,
+      "max_NRMSE": 0.0023896994194317193,
+      "max_abs_peak_relative_error": 9.00199783790967e-05
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.05,
+      "quantity": "Bottom_VX_absolute_only",
+      "operator": "elastic_inertia",
+      "points": 12,
+      "median_NRMSE": 0.0022077528875695026,
+      "max_NRMSE": 0.004048857788042611,
+      "max_abs_peak_relative_error": 0.001811435351663615
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.05,
+      "quantity": "Bottom_VX_absolute_only",
+      "operator": "classical_balance",
+      "points": 12,
+      "median_NRMSE": 0.09915242008199074,
+      "max_NRMSE": 0.09964496706807593,
+      "max_abs_peak_relative_error": 0.03284582135397951
+    },
+    {
+      "Case": "RH4X",
+      "zeta": 0.05,
+      "quantity": "UX",
+      "operator": "CM_motion",
+      "points": 18,
+      "median_NRMSE": 0.00011624332444736037,
+      "max_NRMSE": 0.0009272176461348529,
+      "max_abs_peak_relative_error": 0.0004779392726073084
+    },
+    {
+      "Case": "RH4X",
+      "zeta": 0.05,
+      "quantity": "UY",
+      "operator": "CM_motion",
+      "points": 18,
+      "median_NRMSE": 0.0001340864763034478,
+      "max_NRMSE": 0.003543695794781619,
+      "max_abs_peak_relative_error": 0.00025262039076912046
+    },
+    {
+      "Case": "RH4X",
+      "zeta": 0.05,
+      "quantity": "Bottom_VX_absolute_only",
+      "operator": "elastic_inertia",
+      "points": 12,
+      "median_NRMSE": 0.003046764682315982,
+      "max_NRMSE": 0.0065822073294190065,
+      "max_abs_peak_relative_error": 0.0023517032814910355
+    },
+    {
+      "Case": "RH4X",
+      "zeta": 0.05,
+      "quantity": "Bottom_VX_absolute_only",
+      "operator": "classical_balance",
+      "points": 12,
+      "median_NRMSE": 0.09807363312691156,
+      "max_NRMSE": 0.09845724332393752,
+      "max_abs_peak_relative_error": 0.02912698139576242
+    },
+    {
+      "Case": "SHW3X",
+      "zeta": 0.08,
+      "quantity": "UX",
+      "operator": "CM_motion",
+      "points": 18,
+      "median_NRMSE": 1.6561947150622235e-05,
+      "max_NRMSE": 7.366232858494288e-05,
+      "max_abs_peak_relative_error": 1.7068109403384213e-05
+    },
+    {
+      "Case": "SHW3X",
+      "zeta": 0.08,
+      "quantity": "UY",
+      "operator": "CM_motion",
+      "points": 18,
+      "median_NRMSE": 2.439648259370581e-05,
+      "max_NRMSE": 0.0005765004339166302,
+      "max_abs_peak_relative_error": 7.782835326075599e-05
+    },
+    {
+      "Case": "SHW3X",
+      "zeta": 0.08,
+      "quantity": "Bottom_VX_absolute_only",
+      "operator": "elastic_inertia",
+      "points": 12,
+      "median_NRMSE": 0.00018261711718737657,
+      "max_NRMSE": 0.0007351924016356227,
+      "max_abs_peak_relative_error": 0.0002987314615912062
+    },
+    {
+      "Case": "SHW3X",
+      "zeta": 0.08,
+      "quantity": "Bottom_VX_absolute_only",
+      "operator": "classical_balance",
+      "points": 12,
+      "median_NRMSE": 0.1586915673966434,
+      "max_NRMSE": 0.16208747592910464,
+      "max_abs_peak_relative_error": 0.06428689826329981
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.08,
+      "quantity": "UX",
+      "operator": "CM_motion",
+      "points": 18,
+      "median_NRMSE": 4.859061952369715e-05,
+      "max_NRMSE": 0.00036662526841837865,
+      "max_abs_peak_relative_error": 2.145826926458483e-05
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.08,
+      "quantity": "UY",
+      "operator": "CM_motion",
+      "points": 18,
+      "median_NRMSE": 9.406813247681277e-05,
+      "max_NRMSE": 0.0019505100106808713,
+      "max_abs_peak_relative_error": 0.00045425165144996615
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.08,
+      "quantity": "Bottom_VX_absolute_only",
+      "operator": "elastic_inertia",
+      "points": 12,
+      "median_NRMSE": 0.0012069982299718742,
+      "max_NRMSE": 0.0022990189719464746,
+      "max_abs_peak_relative_error": 0.0006922496834015357
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.08,
+      "quantity": "Bottom_VX_absolute_only",
+      "operator": "classical_balance",
+      "points": 12,
+      "median_NRMSE": 0.15614673960459496,
+      "max_NRMSE": 0.15710952828804112,
+      "max_abs_peak_relative_error": 0.056596902259501425
+    },
+    {
+      "Case": "RH4X",
+      "zeta": 0.08,
+      "quantity": "UX",
+      "operator": "CM_motion",
+      "points": 18,
+      "median_NRMSE": 7.1349270514151e-05,
+      "max_NRMSE": 0.0006276594001566237,
+      "max_abs_peak_relative_error": 0.00018977049750967812
+    },
+    {
+      "Case": "RH4X",
+      "zeta": 0.08,
+      "quantity": "UY",
+      "operator": "CM_motion",
+      "points": 18,
+      "median_NRMSE": 0.00010766887263604545,
+      "max_NRMSE": 0.003181331919552004,
+      "max_abs_peak_relative_error": 0.000656383594739296
+    },
+    {
+      "Case": "RH4X",
+      "zeta": 0.08,
+      "quantity": "Bottom_VX_absolute_only",
+      "operator": "elastic_inertia",
+      "points": 12,
+      "median_NRMSE": 0.0018763607400509117,
+      "max_NRMSE": 0.004030371880898421,
+      "max_abs_peak_relative_error": 0.0005111119544014553
+    },
+    {
+      "Case": "RH4X",
+      "zeta": 0.08,
+      "quantity": "Bottom_VX_absolute_only",
+      "operator": "classical_balance",
+      "points": 12,
+      "median_NRMSE": 0.15540215132906782,
+      "max_NRMSE": 0.15628002130647825,
+      "max_abs_peak_relative_error": 0.03888614902832277
+    }
+  ],
+  "sources_unchanged": true,
+  "arrays_local_only": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "bytes": 14836060,
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.08-factorized-reference.npz",
+      "bytes": 14829087,
+      "sha256": "e88b73344432c10d505e351d015d24cb5173f7ddc5a6bca2f6a30076b12fb5fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.05-factorized-reference.npz",
+      "bytes": 16292630,
+      "sha256": "61c7165f08156aaef3af39dab94832b89772c60517d5a4444d74add79cb936d8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.08-factorized-reference.npz",
+      "bytes": 16280412,
+      "sha256": "4e37b056557552b136cb8bc02f5b22e6a7de3e210c677e939d63c3505a354863"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.05-factorized-reference.npz",
+      "bytes": 13812241,
+      "sha256": "2354441c71c1bf4e714c26d43af7b103c443419be8578bf775c47466a604cae5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.08-factorized-reference.npz",
+      "bytes": 13802569,
+      "sha256": "38d3442c2e05221aa27a6b5837c2c1965f477fddad6dde911e12bdb3af1a9eeb"
+    }
+  ],
+  "no_fit": true,
+  "no_old_output_coefficients": true,
+  "states_integrations": 6,
+  "actual_FNA_q": false
+}

@@ -1,0 +1,37 @@
+{
+  "status": "engineering table design only; no unreviewed response numbers adopted",
+  "start_local": "2026-10-31T12:16:49+08:00",
+  "freeze_local": "2026-10-31T12:19:47+08:00",
+  "elapsed_seconds": 178.760551,
+  "limit_seconds": 480,
+  "within_limit": true,
+  "new_ODE_fit_observability_experiment": false,
+  "actual_result_rows_created": 0,
+  "checks": [
+    "JSON parsed; row counts match dimension products",
+    "baseline-only display set, full300 retained",
+    "reference Pref/U only",
+    "unknown native sign does not generate signed residual or fitted polarity",
+    "native peak ledger separated from reference orientation"
+  ],
+  "source_fingerprints": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\plan-direct-forward-v003.md",
+      "sha256": "ead000c625a8947211186bfe49b19f19c2d2ddf1a92ebdd8f38f9186c56fad21"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\input-rules-freeze.json",
+      "sha256": "04e6d88ba56855b4fc153171bd427adda52b3d28c36a356ffc99b5ef4852b190"
+    }
+  ],
+  "files": {
+    "one-page.md": {
+      "bytes": 3205,
+      "sha256": "a63333a4300bf22794811a6e06d195f896390f6e8d4ffdb41fa10ed8ee2788d6"
+    },
+    "table-contract.json": {
+      "bytes": 4519,
+      "sha256": "e6b0f68586bfc5b88e92c928a0a407044d66351274c28b9b3a6213eb7396d80b"
+    }
+  }
+}

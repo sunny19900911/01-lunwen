@@ -1,0 +1,51 @@
+{
+  "completed_at": "2026-10-31T12:19:55.688057+08:00",
+  "elapsed_seconds": 188.688057,
+  "budget_seconds": 480,
+  "within_budget": true,
+  "evidence_type": "analytic-derivation plus interpretation of role4 reported summaries",
+  "checks": {
+    "six_engineering_points": true,
+    "global_sign_invariance": "manual algebra",
+    "amplitude_weight_identity": "manual algebra for nonzero relevant amplitudes",
+    "P_U_C_factorization": "definition identity with nonzero denominators",
+    "two_anchors_and_zero_guards": true,
+    "force_units_vs_dimensionless_ratio_error_separated": true,
+    "actual_layer_mechanism_numbers_computed_here": false
+  },
+  "source_checks": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\README-direct-forward-validation.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\global-statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\direct-forward-summary-24.csv",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\verification.json",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\verification-coefficient-addendum-v002.json",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\delivery-manifest-v002.json",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role1\\R003\\forward-physical-interface-one-page.md",
+      "unchanged": true
+    }
+  ],
+  "all_source_hashes_unchanged": true,
+  "full_arrays_read": false,
+  "ODE_or_fit_performed": false,
+  "Git_used": false,
+  "limits": "Mechanism recipe only; no new U/P/C, shares or per-layer causal dominance values certified here; role4 forward outputs still need independent audit."
+}

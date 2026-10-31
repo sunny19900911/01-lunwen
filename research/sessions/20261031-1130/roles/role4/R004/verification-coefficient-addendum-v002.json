@@ -1,0 +1,13 @@
+{
+  "frozen_utc": "2026-10-31T04:16:02.537557+00:00",
+  "elapsed_seconds": 269.537557,
+  "scope": "coefficient provenance only; no new ODE or prediction",
+  "independent_math_fsum_Gamma_vs_saved_max_relative_difference": 6.16560338285975e-14,
+  "independent_math_fsum_B_vs_saved_max_abs_difference_kg": 3.725290298461914e-09,
+  "independent_math_fsum_B_vs_saved_max_relative_difference": 1.0165145687813956e-12,
+  "all_actual300_omega_exactly_match_source": true,
+  "all_csv_Gamma_exactly_match_local_array": true,
+  "previous_placeholder_note": "verification.json rechecks.Gamma_relative_recheck was an unused initialized placeholder; do not treat it as a checked zero. This file supplies the actual independent source-based coefficient check.",
+  "prediction_outputs_unchanged": true,
+  "sources_unchanged": true
+}

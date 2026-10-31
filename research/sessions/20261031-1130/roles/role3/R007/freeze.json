@@ -1,0 +1,27 @@
+{
+  "frozen_at": "2026-10-31T12:11:13.121716+08:00",
+  "file": "v002-source-and-definition-review.md",
+  "bytes": 3507,
+  "sha256": "eb9db7e91849fb0e736fd4e5afd8fd33b4650d5f4fb33f39473d11da63dc0fff",
+  "inputs": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/physical-modal-shear-session020-v002.md",
+      "bytes": 10218,
+      "sha256": "13645bd103bcbd4b5c67121680d50eb52bb7e143c96a2ce7c351cef6388b6e02"
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/damping-superposition-session019-v005.md",
+      "bytes": 15613,
+      "sha256": "f0e4e9fe37ba80920da016dcdded9284c2e86ef224366af1d11b3808dee264fd"
+    }
+  ],
+  "checks": [
+    "UTF-8",
+    "no replacement characters",
+    "no trailing whitespace"
+  ],
+  "scope": "writing/source review only; no manuscript edits or repeated data extraction",
+  "required_definition_additions": 2,
+  "numeric_cells_compared": 36,
+  "all_numeric_cells_match": true
+}

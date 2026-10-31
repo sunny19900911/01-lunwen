@@ -1,0 +1,31 @@
+{
+  "frozen_at": "2026-10-31T12:11:13.120717+08:00",
+  "file": "mass-identification-writing.md",
+  "bytes": 5532,
+  "sha256": "49387308134cfecb301c4485e18bae81cce2a34976ef3f768fbbd74f57627538",
+  "inputs": [
+    {
+      "path": "research/sessions/20261031-1130/roles/role4/R002/README-CM-mass-identification.md",
+      "bytes": 4432,
+      "sha256": "2dbe4947207b6ca06c3048a69a046b6bdc55b77f45e41ad4dbdf9dac86a30c3a"
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role2/R003/one-page.md",
+      "bytes": 3977,
+      "sha256": "0091fbd8ba43499fe24e177aa28eef0d426d4977419b5578e83c742917f64c77"
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role2/R003/manifest.json",
+      "bytes": 3410,
+      "sha256": "3e3afe3af7616d59c42714973730b4419e005294a3ac19704ecf0d01adb6b18f"
+    }
+  ],
+  "checks": [
+    "UTF-8",
+    "no replacement characters",
+    "no trailing whitespace"
+  ],
+  "scope": "writing/source review only; no manuscript edits or repeated data extraction",
+  "independent_mass_audit": "role2/R003 frozen12:08:34 passed within18CM scope",
+  "raw_data_reextracted": false
+}

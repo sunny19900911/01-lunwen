@@ -1,0 +1,16 @@
+{
+  "completed": "2026-10-31T12:23:38.100858+08:00",
+  "cases": 6,
+  "new_modal_integrations": "six SHW3X unit kernels only, two RK4 refinements, not six sets of 300 modes",
+  "method": "own classical fourth-order RK4, fixed piecewise-linear ag interpolation inside each .02-s native interval",
+  "fine_step_seconds": 0.000625,
+  "zero_initial_and_nonzero_ag0_retained": true,
+  "max_q_NRMSE_fine": 7.01841935376578e-10,
+  "max_v_NRMSE_fine": 7.388994717510931e-10,
+  "min_q_error_refinement_ratio": 15.924013737757312,
+  "max_q_absolute_error_m": 4.420712927666326e-12,
+  "max_v_absolute_error_m_per_s": 6.214725609132721e-11,
+  "must_count": 0,
+  "foreign_integrator_or_script_imported": false,
+  "unit_arrays_exported": false
+}

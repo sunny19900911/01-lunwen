@@ -1,0 +1,88 @@
+{
+  "task": "session020-role1-R004",
+  "decision": "Proceed now with reference U/P/C and reference shares at native absolute-peak times; unknown native global sign does not block these invariant diagnostics.",
+  "new_numerical_work_performed_here": false,
+  "source_numbers": "role4 R004 frozen small summaries, not independently recomputed by role1",
+  "reference_terms": {
+    "E": "v_sr=B_sr*omega_r^2*s_r/1000",
+    "Q": "v_sr=B_sr*(omega_r^2*s_r+2*zeta*omega_r*sdot_r)/1000",
+    "selection": "preserve both operators; no identification of native operator by winning error"
+  },
+  "metrics": {
+    "a_r": "max(abs(g_r(t))) on common frozen observation grid",
+    "U_s": "sum_r(max(abs(v_sr(t))))=sum(abs(B_sr)*a_r)/1000",
+    "P_s": "max(abs(sum_r(v_sr(t))))",
+    "C_s": "P_s/U_s, only U_s>0",
+    "amplitude_weights_w5": "abs(B_sr)*a_r5/(1000*U_s5)",
+    "U_ratio": "sum_r(w_sr5*(a_r8/a_r5)), resolve zero amplitudes without0/0",
+    "P_ratio_identity": "P8/P5=(U8/U5)*(C8/C5), only nonzero denominators",
+    "C_interpretation": "includes noncoincident peaks, waveform and signed cancellation; not pure phase",
+    "w_interpretation": "independent-peak amplitude weight, not simultaneous native contribution"
+  },
+  "two_native_anchors": {
+    "times": "tau5=argmax(abs(native5)); tau8=argmax(abs(native8)) for every floor/wave",
+    "sample": "both reference states at both times, same original grid",
+    "share_beta": "v_r(tau)/sum(v_r(tau)); normalize only a resolved nonzero reference total",
+    "share_meaning": "positive aligns with reference total, negative cancels, may exceed1; all shares sum1",
+    "native_sign_unknown": "do not divide reference modal terms by native signed force; do not choose eta using agreement",
+    "invariance": "One global sign reversal of the reference leaves U/P/C and beta unchanged; native absolute-peak times are also invariant.",
+    "near_ties": "freeze force-unit atol plus relative tolerance before inspecting mechanism; retain candidate set and declared selection",
+    "state_sign_change": "Do not turn signed cross-state differences into absolute differences using a common sign when state totals oppose."
+  },
+  "residuals": {
+    "absolute_curve": "d_zeta=abs(y_ref_zeta)-abs(native_zeta)",
+    "max_norm": "delta_zeta=max(abs(d_zeta)); abs(P_ref-P_native)<=delta_zeta",
+    "ratio_discrepancy": "abs(P_ref8/P_ref5-P_native8/P_native5), all denominators resolved",
+    "anchor": "d5(tau5),d8(tau5),d5(tau8),d8(tau8); native and reference own-peak times",
+    "internal": [
+      "sum modal/group terms reproduces total",
+      "beta sums to1",
+      "P ratio factorization closes",
+      "displayed groups plus residual remainder equal all300; keep negative terms"
+    ],
+    "physical_unknowns": "Ritz cut residual/truncation/model-identity uncertainties remain separate; observed output error does not certify them zero."
+  },
+  "minimum_tables": {
+    "layer_comparisons": "12floors*3waves=36 paired5-to8 comparisons for each operator",
+    "layer_columns": [
+      "Case",
+      "Story",
+      "operator",
+      "U5",
+      "U8",
+      "P5",
+      "P8",
+      "C5",
+      "C8",
+      "U8/U5",
+      "C8/C5",
+      "P8/P5",
+      "native_peak8/peak5",
+      "reference-native_ratio_discrepancy",
+      "delta5_kN",
+      "delta8_kN",
+      "peak_time_shifts",
+      "identity_error"
+    ],
+    "anchor_columns": [
+      "Case",
+      "Story",
+      "operator",
+      "tau5_or_tau8",
+      "reference_state",
+      "group_or_mode",
+      "modal_term_kN",
+      "beta",
+      "sum_reference_kN",
+      "native_absolute_kN",
+      "absolute_residual_kN"
+    ],
+    "grouping": "predeclare modes/common-subspace groups; append all-other group, no omitted cancellation terms"
+  },
+  "engineering_reporting": [
+    "Explain whether reference layer differences arise primarily from independent-amplitude weighting or from C changes only after computing the table.",
+    "Compare dimensionless layer-ratio differences with corresponding dimensionless model-output discrepancies; mark unresolved differences where appropriate.",
+    "A specified forward reduced model determines its reference q, while the CM observations do not uniquely recover300 actual q.",
+    "No full-FE unique decomposition, zero Ritz residual or actual FNA coordinate certification follows from the reported low errors."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "frozen_at": "2026-10-31T12:19:50.748885+08:00",
+  "file": "forward-result-output-scope.md",
+  "bytes": 4484,
+  "sha256": "803cc3cabca48565dbfae50813844ab1b78eee86810e25348823ce8b7bd98d5c",
+  "inputs": [
+    {
+      "path": "research/sessions/20261031-1130/roles/role4/R004/README-direct-forward-validation.md",
+      "bytes": 4496,
+      "sha256": "9280fcf72dd3506f67f9c45eb584da434bbf1ad9825f7561b7c908c192c4a370"
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role4/R004/input-rules-freeze.json",
+      "bytes": 6009,
+      "sha256": "04e6d88ba56855b4fc153171bd427adda52b3d28c36a356ffc99b5ef4852b190"
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role2/R004/one-page.md",
+      "bytes": 3140,
+      "sha256": "0aec7d5a803ad892b6c7466ce015308705b923c6e7b729cf4ab02d98766517e3"
+    }
+  ],
+  "source_visual_pages": [
+    "CSI print48/PDF70",
+    "CSI print144/PDF166"
+  ],
+  "raw_story_force_sign_certified": false,
+  "numerical_status": "role4 frozen production figures, not independently recomputed by role3",
+  "no_raw_time_array_read": true
+}

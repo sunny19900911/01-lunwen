@@ -1,0 +1,85 @@
+{
+  "task": "session020-role2-R005",
+  "status": "complete independent factorized-forward and selected RK4 audit; 0 must",
+  "started": "2026-10-31T12:18:14+08:00",
+  "metric_completed_and_early_reported": "2026-10-31T12:22:01.105383+08:00",
+  "RK4_completed": "2026-10-31T12:23:38.100858+08:00",
+  "frozen": "2026-10-31T12:25:45.846892+08:00",
+  "deadline": "2026-10-31T12:30:14+08:00",
+  "elapsed_seconds": 451.846892,
+  "within12_minutes_since_observed_start": true,
+  "key_metrics_before8minutes": true,
+  "CM_rows": 216,
+  "shear_rows": 144,
+  "metric_numeric_checks": 4680,
+  "native_time_groups": 180,
+  "RK4_units": 6,
+  "RK4_substeps": [
+    16,
+    32
+  ],
+  "must_count": 0,
+  "Gamma_phi_B_rebuilt_independently": true,
+  "foreign_code_integrator_imported": false,
+  "output_fit_or_sign_trial_or_time_shift": false,
+  "complete_arrays_exported": false,
+  "source_delivery_v002_sha256": "6bae1736932e9a206d290b05adc9e44cea347a7b83c96a74908ce0f994576678",
+  "scope_limits": [
+    "CM signed motion validated against native caches; shear absolute-curve/peak diagnostics only",
+    "six RK4 units only, not independent reintegration of all300 kernels",
+    "linear q_ref=Gamma*s is not actual FNA q",
+    "no inverse acceptance of Ritz elastic recovery, complete model M/K identity, or native shear sign mapping from low errors"
+  ],
+  "files": [
+    {
+      "name": "audit_factorized_forward.py",
+      "bytes": 10885,
+      "sha256": "631bebf9403a7f1b1a5191df551a920d190f3a23559f4be804a7e419d39d4522"
+    },
+    {
+      "name": "check_six_units_RK4.py",
+      "bytes": 4545,
+      "sha256": "149944dcaaca5be5f329bdf2d05de641648b8541df013992641f25e0a711255b"
+    },
+    {
+      "name": "independent-CM-metrics-216.csv",
+      "bytes": 49935,
+      "sha256": "a135fa9543d83d2cb430f5614a03ae1970f785d9c86c008e9d3aa4a6a6826824"
+    },
+    {
+      "name": "independent-native-groups-180.csv",
+      "bytes": 6332,
+      "sha256": "d86ed581117d3334eda823a5198395ecb6c1eb720a66a962ef76da367fb2c305"
+    },
+    {
+      "name": "independent-rebuild-checks.json",
+      "bytes": 540,
+      "sha256": "fc5f26604baa1d555a4a2c08c10d70c672372520e70ee2859137301aaa043a97"
+    },
+    {
+      "name": "independent-RK4-unit-checks-6.csv",
+      "bytes": 1632,
+      "sha256": "6a6a53f4d7ae36a46dc32fde36f4964e8870914fdb9a3c741f8bf75fcd12a0d0"
+    },
+    {
+      "name": "independent-shear-absolute-metrics-144.csv",
+      "bytes": 36005,
+      "sha256": "938a89d2af769c3f98127a9348cf4dfa5245bc71b1d19d36262c2edd57d05fdf"
+    },
+    {
+      "name": "metric-checks.json",
+      "bytes": 1332,
+      "sha256": "8f2d266176859745b1e33ec8c34a77d89f406b7684daf5b4448b1a0e8ee066ae"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3475,
+      "sha256": "f1f41847c139838917f919bfbe3a2caefe5c3fa7bad488b69d1a911472732e25"
+    },
+    {
+      "name": "RK4-checks.json",
+      "bytes": 745,
+      "sha256": "799e4bdb074d6aa709c5b9d1111a0d36523046fcfa9d1bfbd8ae15d65c4220f1"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "frozen_utc": "2026-10-31T04:20:49.869364+00:00",
+  "outputs": [
+    {
+      "name": "account_UPC_and_peaks.py",
+      "bytes": 8240,
+      "sha256": "f418e467d4f81ee9511fed10491d0619c21f29cd041e954fa9238274fda4f2eb"
+    },
+    {
+      "name": "all12-fixed5-top5-envelope-summary-36.csv",
+      "bytes": 6460,
+      "sha256": "a56eabed52b3a99121d7d99282e74b3fd1d680d78c1b91616092378e14b2da7f"
+    },
+    {
+      "name": "all12-four-anchors-both-zeta-signed-reference-288.csv",
+      "bytes": 110484,
+      "sha256": "7a6ed5011afe9ec47d34a5d2242c6fd41d2bbbcc25cdf28046f3a5f86494a189"
+    },
+    {
+      "name": "all12-threewaves-UPC-paired-36.csv",
+      "bytes": 15119,
+      "sha256": "2d5ec55db9434f8cdf66b88944204400124bfda0731af1d16eb72a6cadd3e0ef"
+    },
+    {
+      "name": "input-rules-freeze.json",
+      "bytes": 3999,
+      "sha256": "6a203f9fbad9eaa6efdbc6da6faa32dfb90ae0b404c4db66600d6d8597fea61e"
+    },
+    {
+      "name": "mode-envelopes-RH4X-z0.05-3600.csv",
+      "bytes": 335465,
+      "sha256": "8ca358960b9cd046e564c826055f597786a9ddb0ca9d1b8ba4ba61c8f2142e1b"
+    },
+    {
+      "name": "mode-envelopes-RH4X-z0.08-3600.csv",
+      "bytes": 332595,
+      "sha256": "b80852d96c744539511d289909f9b0cf5422c9b650bb9b4e37a9184c5afd4d9d"
+    },
+    {
+      "name": "mode-envelopes-SHW3X-z0.05-3600.csv",
+      "bytes": 334537,
+      "sha256": "90b527743cee1a9b84c374f937e5bc2e44fa3973efc10545635c699cdc018860"
+    },
+    {
+      "name": "mode-envelopes-SHW3X-z0.08-3600.csv",
+      "bytes": 333352,
+      "sha256": "6da78920f3bfb88a0faa4bd8abaa60811f64b3a9b94e04fa5094b323c482a373"
+    },
+    {
+      "name": "mode-envelopes-SHW4X-z0.05-3600.csv",
+      "bytes": 332777,
+      "sha256": "6931b0fa505c3cd85ae159790ae60d1e3deaf4fbc2022af073b1f2e22047bf2f"
+    },
+    {
+      "name": "mode-envelopes-SHW4X-z0.08-3600.csv",
+      "bytes": 334104,
+      "sha256": "6ecfb4cd78c3ba27c2cea912dd8f7944d6179f536825cc418608832815fb83dd"
+    },
+    {
+      "name": "README-UPC-and-same-time-modal-reference.md",
+      "bytes": 4681,
+      "sha256": "75d1879c8c44273d75d37db559603855d70be616ceae0939ff218354c7ba1db9"
+    },
+    {
+      "name": "results.json",
+      "bytes": 1361,
+      "sha256": "432db68b9adbb9bff22e2b3e4e1105420a1a34b9eadeefc856366c742cb658b9"
+    },
+    {
+      "name": "Story5-Story12-signed-reference-priority-48.csv",
+      "bytes": 19079,
+      "sha256": "a4eb48c6a896f26ea0b9904636212025a52bccf6349c8f66fec06a656923c51e"
+    },
+    {
+      "name": "Story5-Story12-UPC-priority-6.csv",
+      "bytes": 2917,
+      "sha256": "c49f49fe11334256a59f1a3201925053159d83ad20e6f24b159e1c7ea48704be"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 1020,
+      "sha256": "84b1d69bc5fef440839501094226792f65ad8cc55bf94a03a31188eb49413fab"
+    },
+    {
+      "name": "verify_and_freeze_UPC.py",
+      "bytes": 10064,
+      "sha256": "4857334d7125c6c89a0e87a066c2156bd396eaf722dfb488bc59bf3dc80cb386"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "bytes": 14836060,
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.08-factorized-reference.npz",
+      "bytes": 14829087,
+      "sha256": "e88b73344432c10d505e351d015d24cb5173f7ddc5a6bca2f6a30076b12fb5fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.05-factorized-reference.npz",
+      "bytes": 16292630,
+      "sha256": "61c7165f08156aaef3af39dab94832b89772c60517d5a4444d74add79cb936d8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.08-factorized-reference.npz",
+      "bytes": 16280412,
+      "sha256": "4e37b056557552b136cb8bc02f5b22e6a7de3e210c677e939d63c3505a354863"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.05-factorized-reference.npz",
+      "bytes": 13812241,
+      "sha256": "2354441c71c1bf4e714c26d43af7b103c443419be8578bf775c47466a604cae5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.08-factorized-reference.npz",
+      "bytes": 13802569,
+      "sha256": "38d3442c2e05221aa27a6b5837c2c1965f477fddad6dde911e12bdb3af1a9eeb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\shear-two-operator-absolute-diagnostics-144.csv",
+      "bytes": 53171,
+      "sha256": "6f06d524039675d1cc7b803dbadb67aa212395cafa234856bb2892015416cdc7"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\results.json",
+      "bytes": 9640,
+      "sha256": "8e8e12259d464e1a8091bebe04bbc6a0b66455906941f6f27ce14c8cdd318058"
+    }
+  ],
+  "complete_array_upload_allowed": false
+}

@@ -1,0 +1,28 @@
+{
+  "completed": "2026-10-31T12:13:23.491664+08:00",
+  "B_rows": 72,
+  "max_abs_B_error_kg": 7.450580596923828e-09,
+  "sumB_rows": 24,
+  "sumB_scalar_comparisons": 96,
+  "max_abs_sumB_related_scalar_error_kg": 1.1920928955078125e-07,
+  "coordinate_modes": 3,
+  "coordinate_scalar_comparisons": 9,
+  "max_coordinate_scalar_difference": 1.1102230246251565e-15,
+  "rank": 36,
+  "nullity": 264,
+  "worst_finite_mass_closure": {
+    "Axis": "X",
+    "cut_story": "Story11",
+    "mass_above_kg": 4518572.746071462,
+    "sum_signed_300_B_kg": 4517955.392837798,
+    "difference_kg": -617.3532336633652,
+    "relative_difference": -0.00013662571532135903,
+    "sum_abs_300_B_kg": 11445539.730436496,
+    "negative_modes": 155
+  },
+  "numeric_must_count": 0,
+  "theory_report_sha256": "a3d4aa73dce72057b01d9719ca32d0e50497109e4a3fc0efdc1d97c858d5643d",
+  "no_role4_code_imported": true,
+  "no_new_ODE_or_mass_identification": true,
+  "not_certified": "Ritz full-space eigen equation; target elastic force recovery; actual FNA q; dynamics-informed time observability"
+}

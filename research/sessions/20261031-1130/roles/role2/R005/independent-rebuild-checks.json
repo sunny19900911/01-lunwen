@@ -1,0 +1,17 @@
+{
+  "completed": "2026-10-31T12:22:01.094671+08:00",
+  "coefficient_max_abs_errors": {
+    "phi_X": 0.0,
+    "phi_Y": 0.0,
+    "Gamma_X": 5.820766091346741e-11,
+    "B_direct": 1.4901161193847656e-08
+  },
+  "saved_output_vs_independent_rebuild_max_abs_errors": {
+    "CM_m": 4.163336342344337e-17,
+    "elastic_kN": 1.0913936421275139e-11,
+    "balance_kN": 1.0913936421275139e-11
+  },
+  "native_saved_vs_source_cache_max_abs_difference": 0.0,
+  "gamma_basis": "CM mass projection / ModalMass SI; no raw PF gain",
+  "no_output_fit": true
+}

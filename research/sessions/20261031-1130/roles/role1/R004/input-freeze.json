@@ -1,0 +1,45 @@
+{
+  "task": "session020-role1-R004",
+  "started_at": "2026-10-31T12:16:47+08:00",
+  "budget_seconds": 480,
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\README-direct-forward-validation.md",
+      "bytes": 4496,
+      "sha256": "9280fcf72dd3506f67f9c45eb584da434bbf1ad9825f7561b7c908c192c4a370"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\global-statistics.json",
+      "bytes": 6906,
+      "sha256": "4738c999ae8e95ebe6c3b0a44e9ec6e8c516e60d0b224a4d5b97429c43419786"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\direct-forward-summary-24.csv",
+      "bytes": 2638,
+      "sha256": "390378efc0ea40c0f99fe966f8731ff07dce23cccbdf7e2dfd1cdb4aae9cef2d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\verification.json",
+      "bytes": 916,
+      "sha256": "cca8667db976ce71a7a76767cb10a828a66e4bfcdab80bc0dc89476fc6222901"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\verification-coefficient-addendum-v002.json",
+      "bytes": 830,
+      "sha256": "09b34a74418d281b112ca4325190632f5d4d5ad356981ccf258fd7fb2aa174a4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\delivery-manifest-v002.json",
+      "bytes": 10171,
+      "sha256": "6bae1736932e9a206d290b05adc9e44cea347a7b83c96a74908ce0f994576678"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role1\\R003\\forward-physical-interface-one-page.md",
+      "bytes": 3981,
+      "sha256": "6363c24e7b5b841de55baf214425e81926ada7a0427077f484e54e09cda31ce2"
+    }
+  ],
+  "scope": "interpret frozen small forward summaries only; no arrays, ODE, response fitting, solver/API or Git",
+  "forward_numbers_status": "role4 frozen reported results; role1 has not independently recomputed arrays",
+  "claim": "U/P/C and reference modal contributions at native absolute-peak times can proceed without native global sign mapping; full FE unique decomposition remains uncertified"
+}

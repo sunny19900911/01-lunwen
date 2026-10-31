@@ -20,3 +20,7 @@ C020-07 supported/CM-model numerical identification, reviewed: role2R003 indepen
 C020-08 testing/physical-data projection: role4R003 7200B/72selected/24summass frozen; root read README/results, role2R004 independent reviewactive. Not yet trueelastic coefficients.
 C020-09 supported/conditional linear-algebra: role6R003 singleq iff e_r in row(A); role4reports2/10/13 nonzero distances. Root readderivation and exactnull directions. Independentrole2reviewactive. Static arbitraryq nonuniqueness does not negate temporal dynamics recovery.
 C020-10 testing/forwardphysical-reference: newactualRitz300 Γfrommass, fixed5/8 inputstates, predictCM first and then two shear operators. No shearfit, no migrationoldinversecoef. Role4R004 sole newrun active.
+
+C020-08 reviewed: role2R004 independently checked72B/24mass/3observability andtheory0must.
+C020-10 supported/numerical reference prediction, reviewed: role2R005216CM+144shear metrics4680numbers agree; six selectedSHW3 independentRK4~7e-10relativeL2. MaxCMsignedNRMSE.35437%,Eabsolute-curve.65822%,peak.23517%. Signedforce mapping unconfirmed, nativeFNAq not recovered.
+C020-11 supported/reference-modal explanation, root independent numerical audit:21600single-mode peaks and36U/P/C+288anchors reconstruct;maxclosure<4e-12kN. SHW3 Story5 .903493*1.030990=.931492 vsroof .846186*.847092=.716798. All36 native-reference peakreduction discrepancies ≤.196533pp observed, not universal error guarantee.

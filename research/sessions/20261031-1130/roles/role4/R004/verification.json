@@ -1,0 +1,26 @@
+{
+  "frozen_utc": "2026-10-31T04:15:24.209478+00:00",
+  "started_utc": "2026-10-31T04:11:33+00:00",
+  "elapsed_seconds": 231.209478,
+  "within_primary12_minutes": true,
+  "CM_rows_recomputed": 216,
+  "shear_rows_recomputed": 144,
+  "all_180_native_times_exact": true,
+  "native_pair_failures": 0,
+  "rechecks": {
+    "CM_output_reconstruction_abs_m": 0.0,
+    "force_output_reconstruction_abs_kN": 0.0,
+    "NRMSE_recheck_difference": 0.0,
+    "peak_relative_error_recheck_difference": 0.0,
+    "peak_time_recheck_difference_s": 0.0,
+    "Gamma_relative_recheck": 0.0
+  },
+  "sources_unchanged": true,
+  "no_output_fit_or_old_fitted_coefficients": true,
+  "six_actual300_state_integrations_only": true,
+  "all_sign_gain_time_choices_frozen": true,
+  "shear_eta_independently_confirmed": false,
+  "actual_FNA_q_recovered": false,
+  "all_complete_arrays_local_only": true,
+  "no_Git": true
+}

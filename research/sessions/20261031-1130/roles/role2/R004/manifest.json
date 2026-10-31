@@ -1,0 +1,89 @@
+{
+  "task": "session020-role2-R004",
+  "status": "complete scoped independent inertia-projection, finite-mass and instantaneous-coordinate audit; 0 must",
+  "started": "2026-10-31T12:10:27+08:00",
+  "numeric_completed": "2026-10-31T12:13:23.491664+08:00",
+  "frozen": "2026-10-31T12:16:08.490551+08:00",
+  "deadline": "2026-10-31T12:20:27+08:00",
+  "within10_minutes_since_observed_start": true,
+  "elapsed_seconds": 341.490551,
+  "inertia_B_rows": 72,
+  "alternative_inertia_route_rows": 72,
+  "finite_sumB_rows": 24,
+  "coordinate_modes": [
+    2,
+    10,
+    13
+  ],
+  "observation_rank": 36,
+  "observation_nullity": 264,
+  "numeric_must_count": 0,
+  "analytic_method_must_count": 0,
+  "theory_review": "row-space iff criterion and omitted-response Cauchy bound manually independently checked with full stated conditions; observed-mass renormalization identity checked",
+  "source_role4_manifest_sha256": "c8fae45af2df525986ba676f24b72d8d3bd2d6cac9415f4a15214e43f99ffc0a",
+  "role6_v002_sha256": "a3d4aa73dce72057b01d9719ca32d0e50497109e4a3fc0efdc1d97c858d5643d",
+  "no_mass_reidentification_ODE_or_foreign_code_import": true,
+  "scope_limits": [
+    "B remains CM-class inertia projection, not full FE Ritz elastic cut recovery",
+    "no actual FNA q recovered",
+    "M-orthogonal omission bound not numerically certified for the 36 CM channels",
+    "no claim against dynamics-informed time-domain observability"
+  ],
+  "files": [
+    {
+      "name": "check_B_and_coordinate_nullspace.py",
+      "bytes": 7841,
+      "sha256": "f420764b58b265ba5245f9bf2e838be0bbe2c07f9215d7d99c9201c9ba0eeb8a"
+    },
+    {
+      "name": "check_selected_B_via_modal_mass.py",
+      "bytes": 2048,
+      "sha256": "9744a2c02342c53b73c919ce73f8c110cb9b22518fcd201df57900b3e2f0426b"
+    },
+    {
+      "name": "checks.json",
+      "bytes": 1060,
+      "sha256": "a6d5b3b982e948d93fbe5288a6f2b996a50cea0ed8f9613ac01dd9a125e30ba5"
+    },
+    {
+      "name": "independent-coordinate-distances-3.csv",
+      "bytes": 425,
+      "sha256": "008e0af2104c4a6c8e6657df5a7ff34df6c6d182272cdbdfd9ece4642b939122"
+    },
+    {
+      "name": "independent-early.json",
+      "bytes": 1512,
+      "sha256": "c52d94985121b54333d0773b5ae322328fe719f400c44d245b132a17594eea2e"
+    },
+    {
+      "name": "independent-finite300-sumB-24.csv",
+      "bytes": 2764,
+      "sha256": "0276a0aa7f1695d9806593ee65fdb653b66101100684cb9cf5d000491d10094c"
+    },
+    {
+      "name": "independent-inertia-B-selected-72.csv",
+      "bytes": 7700,
+      "sha256": "8b08882a908d9c3e6bb47532597c8f2a104fce09fca071564259d97a14ce85b5"
+    },
+    {
+      "name": "independent-observation-singular-values-36.csv",
+      "bytes": 2319,
+      "sha256": "9608558f0ca93c395d2d3ff2d35e4e4d147255a8fb5a03d78b40a0e67fd11a4b"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3140,
+      "sha256": "0aec7d5a803ad892b6c7466ce015308705b923c6e7b729cf4ab02d98766517e3"
+    },
+    {
+      "name": "selected-B-two-inertia-routes-72.csv",
+      "bytes": 6605,
+      "sha256": "c60eb03ed86926072cd37d5654ecd57f0c72d749a1ce2e542d84fe5de43100fe"
+    },
+    {
+      "name": "two-inertia-route-checks.json",
+      "bytes": 364,
+      "sha256": "83756b626c3341e9a0b3d9b9ff055976d67d5207a3def0c1e1e7d024d51f7f16"
+    }
+  ]
+}

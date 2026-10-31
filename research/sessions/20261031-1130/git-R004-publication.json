@@ -1,0 +1,502 @@
+{
+  "checkpoint": "R004",
+  "time": "2026-10-31T12:28:46.527272+08:00",
+  "message": "research: validate no-fit modal prediction and explain floor damping differences",
+  "files": [
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/physical-modal-shear-session020-v003.md",
+      "bytes": 14117,
+      "sha256": "8188b3df9093923d5a2ab41701a3321285fbd01d477b4fe3b52a8f8ff0d38512"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/audit_modal_terms_root.py",
+      "bytes": 4880,
+      "sha256": "e0b5663e72d1c3e51d98f7148b6c458b94cd64f344bf9cd4ec9666cbfb7ab2b0"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/checkpoint_R004.py",
+      "bytes": 5612,
+      "sha256": "1a07c3db0a40258a6462a008b98fd9c6c0cb245e85a6e7897de62f38144c8095"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/claims.md",
+      "bytes": 3747,
+      "sha256": "0fffb7670a1bd46854710716fc62b72474098008587415dccadacfe375b66872"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/close_checkpoint_R003.py",
+      "bytes": 2479,
+      "sha256": "e3ee0803114965022809532a3e3d6470d42a8b8feabb6d0382a8aadee0c57c9f"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/git-R003-receipt.json",
+      "bytes": 5479,
+      "sha256": "f96918654263ee16c180e9daa82009617dae72a33172e201228a760cd6d75bc2"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/R003-closed-receipt.json",
+      "bytes": 342,
+      "sha256": "9988e1a28bb05f23fe71a70ba8c0a0c7e38756224e1e5e2f194f50f9378d6602"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role1/R004/input-freeze.json",
+      "bytes": 2685,
+      "sha256": "f457e0f506209c612e7a34b4a8d0b8530ecb933c6175981b50fef49859422d23"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role1/R004/layer-mechanism-next-check-one-page.md",
+      "bytes": 4069,
+      "sha256": "64290cef34b8a1e8d4d7389f95aaa09383fdcb3dec4dce1f665101c547500581"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role1/R004/manifest.json",
+      "bytes": 1261,
+      "sha256": "cc7e965b157fe5a95aea63780f05c470213202c820c743a8562b7729df60a693"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role1/R004/next-check-contract.json",
+      "bytes": 4356,
+      "sha256": "b0d50352ac155147638f636fe55308093a4bea6c0bc7c6543fee349ea01ee4df"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role1/R004/validation.json",
+      "bytes": 2563,
+      "sha256": "681c6040053ee23320635bb195cfb78d284ab0ee66960a6b3b9b753fd54fcb31"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R004/check_B_and_coordinate_nullspace.py",
+      "bytes": 7841,
+      "sha256": "f420764b58b265ba5245f9bf2e838be0bbe2c07f9215d7d99c9201c9ba0eeb8a"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R004/check_selected_B_via_modal_mass.py",
+      "bytes": 2048,
+      "sha256": "9744a2c02342c53b73c919ce73f8c110cb9b22518fcd201df57900b3e2f0426b"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R004/checks.json",
+      "bytes": 1060,
+      "sha256": "a6d5b3b982e948d93fbe5288a6f2b996a50cea0ed8f9613ac01dd9a125e30ba5"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R004/independent-coordinate-distances-3.csv",
+      "bytes": 425,
+      "sha256": "008e0af2104c4a6c8e6657df5a7ff34df6c6d182272cdbdfd9ece4642b939122"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R004/independent-early.json",
+      "bytes": 1512,
+      "sha256": "c52d94985121b54333d0773b5ae322328fe719f400c44d245b132a17594eea2e"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R004/independent-finite300-sumB-24.csv",
+      "bytes": 2764,
+      "sha256": "0276a0aa7f1695d9806593ee65fdb653b66101100684cb9cf5d000491d10094c"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R004/independent-inertia-B-selected-72.csv",
+      "bytes": 7700,
+      "sha256": "8b08882a908d9c3e6bb47532597c8f2a104fce09fca071564259d97a14ce85b5"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R004/independent-observation-singular-values-36.csv",
+      "bytes": 2319,
+      "sha256": "9608558f0ca93c395d2d3ff2d35e4e4d147255a8fb5a03d78b40a0e67fd11a4b"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R004/manifest.json",
+      "bytes": 3344,
+      "sha256": "70e7ebdd141c440c2821a1e1171e49891d8f7f1d9c12202c2b3bebeeee94d51a"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R004/one-page.md",
+      "bytes": 3140,
+      "sha256": "0aec7d5a803ad892b6c7466ce015308705b923c6e7b729cf4ab02d98766517e3"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R004/selected-B-two-inertia-routes-72.csv",
+      "bytes": 6605,
+      "sha256": "c60eb03ed86926072cd37d5654ecd57f0c72d749a1ce2e542d84fe5de43100fe"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R004/two-inertia-route-checks.json",
+      "bytes": 364,
+      "sha256": "83756b626c3341e9a0b3d9b9ff055976d67d5207a3def0c1e1e7d024d51f7f16"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R005/audit_factorized_forward.py",
+      "bytes": 10885,
+      "sha256": "631bebf9403a7f1b1a5191df551a920d190f3a23559f4be804a7e419d39d4522"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R005/check_six_units_RK4.py",
+      "bytes": 4545,
+      "sha256": "149944dcaaca5be5f329bdf2d05de641648b8541df013992641f25e0a711255b"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R005/independent-CM-metrics-216.csv",
+      "bytes": 49935,
+      "sha256": "a135fa9543d83d2cb430f5614a03ae1970f785d9c86c008e9d3aa4a6a6826824"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R005/independent-native-groups-180.csv",
+      "bytes": 6332,
+      "sha256": "d86ed581117d3334eda823a5198395ecb6c1eb720a66a962ef76da367fb2c305"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R005/independent-rebuild-checks.json",
+      "bytes": 540,
+      "sha256": "fc5f26604baa1d555a4a2c08c10d70c672372520e70ee2859137301aaa043a97"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R005/independent-RK4-unit-checks-6.csv",
+      "bytes": 1632,
+      "sha256": "6a6a53f4d7ae36a46dc32fde36f4964e8870914fdb9a3c741f8bf75fcd12a0d0"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R005/independent-shear-absolute-metrics-144.csv",
+      "bytes": 36005,
+      "sha256": "938a89d2af769c3f98127a9348cf4dfa5245bc71b1d19d36262c2edd57d05fdf"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R005/manifest.json",
+      "bytes": 3055,
+      "sha256": "274e6d9804cc41462e8dfd9ef3e858ed04f36f6115a0ada274173d7485d1a9e4"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R005/metric-checks.json",
+      "bytes": 1332,
+      "sha256": "8f2d266176859745b1e33ec8c34a77d89f406b7684daf5b4448b1a0e8ee066ae"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R005/one-page.md",
+      "bytes": 3475,
+      "sha256": "f1f41847c139838917f919bfbe3a2caefe5c3fa7bad488b69d1a911472732e25"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role2/R005/RK4-checks.json",
+      "bytes": 745,
+      "sha256": "799e4bdb074d6aa709c5b9d1111a0d36523046fcfa9d1bfbd8ae15d65c4220f1"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role3/R006/freeze.json",
+      "bytes": 1119,
+      "sha256": "39a99a8d4d4de8e09d6cec55ba1742b7368b7859ef56d18a5849c0168a0ef67b"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role3/R006/mass-identification-writing.md",
+      "bytes": 5532,
+      "sha256": "49387308134cfecb301c4485e18bae81cce2a34976ef3f768fbbd74f57627538"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role3/R007/freeze.json",
+      "bytes": 947,
+      "sha256": "74fb56d85ef998e25557d7aeba9e3f1fb0fa9cd69ef4a17ef50fe440e73d61de"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role3/R007/v002-source-and-definition-review.md",
+      "bytes": 3507,
+      "sha256": "eb9db7e91849fb0e736fd4e5afd8fd33b4650d5f4fb33f39473d11da63dc0fff"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role3/R008/forward-result-output-scope.md",
+      "bytes": 4484,
+      "sha256": "803cc3cabca48565dbfae50813844ab1b78eee86810e25348823ce8b7bd98d5c"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role3/R008/freeze.json",
+      "bytes": 1090,
+      "sha256": "1b0ef19cff42cfb35405b3fc3d2168aa4cb9b4e781d86ba39bc38e78fd69b898"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/actual300-frozen-forward-coefficients-300.csv",
+      "bytes": 42396,
+      "sha256": "50016e25111bdd8a0b35091832a383301183451c790603747b09baae7fd5105d"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/check_physical_coefficient_provenance.py",
+      "bytes": 3448,
+      "sha256": "b4267d9a8c79e4acf86f93828617f62ba6e7457d64a24514de7caa268d9b6993"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/CM-direct-forward-errors-216.csv",
+      "bytes": 67268,
+      "sha256": "2a6b8a3d8b7dcda25e53cff502c57326036ba16566ae0e3070dc0c6d1bcc1871"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/delivery-manifest-v002.json",
+      "bytes": 10171,
+      "sha256": "6bae1736932e9a206d290b05adc9e44cea347a7b83c96a74908ce0f994576678"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/delivery-manifest.json",
+      "bytes": 9647,
+      "sha256": "38e179b1fc5346f643dd1c2ceec0a457e2a283b1584abd399867e60cf0bf03c4"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/direct-forward-summary-24.csv",
+      "bytes": 2638,
+      "sha256": "390378efc0ea40c0f99fe966f8731ff07dce23cccbdf7e2dfd1cdb4aae9cef2d"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/direct_forward_actual300.py",
+      "bytes": 11822,
+      "sha256": "aad770796c8c238bc5d37f3746432a8baa8f8298843420a1f553c3350a7bd3a6"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/early-CM-RH4X-z0.05-36.csv",
+      "bytes": 11444,
+      "sha256": "67db534f37aed75896f57b3aa8fc465be5ba30b2aa37382f472ec1b4c9e947d8"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/early-CM-RH4X-z0.08-36.csv",
+      "bytes": 11450,
+      "sha256": "18cfe01d56341fcc34acc5525bf87c7fa325cb9b6c73ced7c95b02ff5a2719d1"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/early-CM-SHW3X-z0.05-36.csv",
+      "bytes": 11594,
+      "sha256": "9a6913ae56d8d5d8d8c212aaf4f3f05c44527673633a99441174485139976c69"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/early-CM-SHW3X-z0.08-36.csv",
+      "bytes": 11528,
+      "sha256": "943cafee6d98ad33ff6834800ecccb21bc4a5e68d34dc30721b1f6a4e7d9d6d3"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/early-CM-SHW4X-z0.05-36.csv",
+      "bytes": 11472,
+      "sha256": "18ea4b5888683b7b8863b8fbf6cbcd072e699d3a1dae7e5e50cc3f3b0e235b4c"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/early-CM-SHW4X-z0.08-36.csv",
+      "bytes": 11550,
+      "sha256": "10ff40b5f77142777c279bab60713804da50caa5bd22145d83cbc02a3c2160aa"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/global-statistics.json",
+      "bytes": 6906,
+      "sha256": "4738c999ae8e95ebe6c3b0a44e9ec6e8c516e60d0b224a4d5b97429c43419786"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/input-rules-freeze.json",
+      "bytes": 6009,
+      "sha256": "04e6d88ba56855b4fc153171bd427adda52b3d28c36a356ffc99b5ef4852b190"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/native-time-group-pairing-180.csv",
+      "bytes": 11664,
+      "sha256": "0776f9990bbf4e537c7cf947ff936bebe04b7cb36a89f78a02223bcacb1364b4"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/README-direct-forward-validation.md",
+      "bytes": 4496,
+      "sha256": "9280fcf72dd3506f67f9c45eb584da434bbf1ad9825f7561b7c908c192c4a370"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/results.json",
+      "bytes": 9640,
+      "sha256": "8e8e12259d464e1a8091bebe04bbc6a0b66455906941f6f27ce14c8cdd318058"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/shear-two-operator-absolute-diagnostics-144.csv",
+      "bytes": 53171,
+      "sha256": "6f06d524039675d1cc7b803dbadb67aa212395cafa234856bb2892015416cdc7"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/verification-coefficient-addendum-v002.json",
+      "bytes": 830,
+      "sha256": "09b34a74418d281b112ca4325190632f5d4d5ad356981ccf258fd7fb2aa174a4"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/verification.json",
+      "bytes": 916,
+      "sha256": "cca8667db976ce71a7a76767cb10a828a66e4bfcdab80bc0dc89476fc6222901"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R004/verify_and_freeze_forward.py",
+      "bytes": 10630,
+      "sha256": "427fb28ed81644b2197016108e0d8c660d4af8c93932fb721ca9effe9177b94b"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/account_UPC_and_peaks.py",
+      "bytes": 8240,
+      "sha256": "f418e467d4f81ee9511fed10491d0619c21f29cd041e954fa9238274fda4f2eb"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/all12-fixed5-top5-envelope-summary-36.csv",
+      "bytes": 6460,
+      "sha256": "a56eabed52b3a99121d7d99282e74b3fd1d680d78c1b91616092378e14b2da7f"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/all12-four-anchors-both-zeta-signed-reference-288.csv",
+      "bytes": 110484,
+      "sha256": "7a6ed5011afe9ec47d34a5d2242c6fd41d2bbbcc25cdf28046f3a5f86494a189"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/all12-threewaves-UPC-paired-36.csv",
+      "bytes": 15119,
+      "sha256": "2d5ec55db9434f8cdf66b88944204400124bfda0731af1d16eb72a6cadd3e0ef"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/delivery-manifest.json",
+      "bytes": 5798,
+      "sha256": "3fee273a036b175d49f334b9df249b171417c48f43253c51fb9c52d3f76811f7"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/input-rules-freeze.json",
+      "bytes": 3999,
+      "sha256": "6a203f9fbad9eaa6efdbc6da6faa32dfb90ae0b404c4db66600d6d8597fea61e"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/mode-envelopes-RH4X-z0.05-3600.csv",
+      "bytes": 335465,
+      "sha256": "8ca358960b9cd046e564c826055f597786a9ddb0ca9d1b8ba4ba61c8f2142e1b"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/mode-envelopes-RH4X-z0.08-3600.csv",
+      "bytes": 332595,
+      "sha256": "b80852d96c744539511d289909f9b0cf5422c9b650bb9b4e37a9184c5afd4d9d"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/mode-envelopes-SHW3X-z0.05-3600.csv",
+      "bytes": 334537,
+      "sha256": "90b527743cee1a9b84c374f937e5bc2e44fa3973efc10545635c699cdc018860"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/mode-envelopes-SHW3X-z0.08-3600.csv",
+      "bytes": 333352,
+      "sha256": "6da78920f3bfb88a0faa4bd8abaa60811f64b3a9b94e04fa5094b323c482a373"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/mode-envelopes-SHW4X-z0.05-3600.csv",
+      "bytes": 332777,
+      "sha256": "6931b0fa505c3cd85ae159790ae60d1e3deaf4fbc2022af073b1f2e22047bf2f"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/mode-envelopes-SHW4X-z0.08-3600.csv",
+      "bytes": 334104,
+      "sha256": "6ecfb4cd78c3ba27c2cea912dd8f7944d6179f536825cc418608832815fb83dd"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/README-UPC-and-same-time-modal-reference.md",
+      "bytes": 4681,
+      "sha256": "75d1879c8c44273d75d37db559603855d70be616ceae0939ff218354c7ba1db9"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/results.json",
+      "bytes": 1361,
+      "sha256": "432db68b9adbb9bff22e2b3e4e1105420a1a34b9eadeefc856366c742cb658b9"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/Story5-Story12-signed-reference-priority-48.csv",
+      "bytes": 19079,
+      "sha256": "a4eb48c6a896f26ea0b9904636212025a52bccf6349c8f66fec06a656923c51e"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/Story5-Story12-UPC-priority-6.csv",
+      "bytes": 2917,
+      "sha256": "c49f49fe11334256a59f1a3201925053159d83ad20e6f24b159e1c7ea48704be"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/verification.json",
+      "bytes": 1020,
+      "sha256": "84b1d69bc5fef440839501094226792f65ad8cc55bf94a03a31188eb49413fab"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role4/R005/verify_and_freeze_UPC.py",
+      "bytes": 10064,
+      "sha256": "4857334d7125c6c89a0e87a066c2156bd396eaf722dfb488bc59bf3dc80cb386"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role5/R003/evidence-status.md",
+      "bytes": 909,
+      "sha256": "d925697f400f661f8ef4e911f7f8767a366515b94c29340e56a1d266e985a221"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role5/R003/handoff.md",
+      "bytes": 1197,
+      "sha256": "9dac516458b8f5a077598625934a0dd59aaee863597507077d00dd3f70e8ee14"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role5/R003/input-freeze.json",
+      "bytes": 4368,
+      "sha256": "8212f82544a4ca8bf54a9d50566ad207b1fe46f03d6248962f697347cd1c37e2"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role5/R003/manifest.json",
+      "bytes": 2313,
+      "sha256": "1cea8486bc27ffde480b3a6f1b954980c0b4f78fdd5e53215029bd4b7424a6bf"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role5/R003/supplement-S1.md",
+      "bytes": 2831,
+      "sha256": "b30f501839f166d676e8e405cad31aafef78f7e516aeaace115b3400e7de9254"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role5/R003/validation.json",
+      "bytes": 1100,
+      "sha256": "1a0142f356a569facec7344e8294a7a4038660c3861c5c569f8154b0f8522513"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role6/R004/freeze.json",
+      "bytes": 1542,
+      "sha256": "7394fc02afb5b055a173d9a8294e689eb78501106504f419414c2a133df2d9fb"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role6/R004/one-page.md",
+      "bytes": 3205,
+      "sha256": "a63333a4300bf22794811a6e06d195f896390f6e8d4ffdb41fa10ed8ee2788d6"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/roles/role6/R004/table-contract.json",
+      "bytes": 4519,
+      "sha256": "e6b0f68586bfc5b88e92c928a0a407044d66351274c28b9b3a6213eb7396d80b"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R004-term-audit/checks.json",
+      "bytes": 718,
+      "sha256": "a1b12c3e72ce9984cf80912ca6e23254059f7b83ca1b2db75028b305f47eaa6d"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R004-term-audit/independent-pairs-36.csv",
+      "bytes": 4044,
+      "sha256": "20ff023532d017cd40f6eb996744c3b3ad0e7298b6ad8d5ef67c20578459558a"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R004-term-audit/input-freeze.json",
+      "bytes": 468,
+      "sha256": "90030c92370b38a84e618e7da6c638ffbe64544bae6eb602e852ce2a8b9e95e5"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R004-term-audit/manifest.json",
+      "bytes": 494,
+      "sha256": "33a9936e2ff4d98a2bbdc6817291087518b3e2fe4a811211ebe9cdb98c25a0a8"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/rounds/R004-early.md",
+      "bytes": 2183,
+      "sha256": "62a174641507b273b9f6e9f3a21fd428e3a8309a888df7523f5c67fc39899d20"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/rounds/R004.md",
+      "bytes": 1224,
+      "sha256": "22bdb5fdb15235eef549810f9235838c1335e8ad38ec967dd338d46d40aa36ba"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/runs.md",
+      "bytes": 2145,
+      "sha256": "3e6ed000b02a4c1a84eeaa88d1060f29773077b1de150fa97b31876a6b3e5946"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/status.json",
+      "bytes": 4883,
+      "sha256": "b7024dc55b378feef5e4f092c6000ad2c2ed673d2fac94a4770659d595bcba0b"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/threads.json",
+      "bytes": 3848,
+      "sha256": "284f1ffccfcf0f1f551e750906ef8af41c53be0157845cd31a3dbbd6cf2844b4"
+    }
+  ]
+}

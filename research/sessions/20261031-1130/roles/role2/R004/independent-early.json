@@ -1,0 +1,32 @@
+{
+  "completed": "2026-10-31T12:13:23.489464+08:00",
+  "rank": 36,
+  "rank_relative1e-10": 36,
+  "shape": [
+    36,
+    300
+  ],
+  "nullity": 264,
+  "sigma_max": 0.03162185450950455,
+  "sigma_min": 0.031359338148373175,
+  "conditional_nonzero_singular_condition": 1.0083712341086188,
+  "no_target_result_table_used_before_saved_outputs": true,
+  "mass_source": "role2 R003 already frozen independent identification, no re-identification",
+  "CM_coordinates": "XY translations all300 columns in native modal normalization, row weighted only",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role2\\R003\\independent-identification-before-comparison-36.csv",
+      "sha256": "4044521dc08366dd39a9a9a2daad6f4d751944bdb40700b2863f649cee366b0d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261022-1856\\roles\\role4\\R001\\local-cache\\CM-signed-all300-5400.csv",
+      "sha256": "16d64ca68559dc5158e51ed6a48e76d2453064cdb8d1408326b6c02c90b12908",
+      "bytes": 1418506
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc",
+      "bytes": 493076
+    }
+  ]
+}

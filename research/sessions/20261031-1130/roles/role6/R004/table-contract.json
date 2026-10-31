@@ -1,0 +1,79 @@
+{
+  "status": "design contract only; no measured rows created",
+  "cases": ["SHW3X", "SHW4X", "RH4X"],
+  "stories": "Story1..Story12",
+  "zeta": [0.05, 0.08],
+  "primary_stories": ["Story5", "Story12"],
+  "operator": "actual300 fixed linear mass/inertia projection in elastic form; full FE Ritz restoration separately unresolved",
+  "term": "v_sr=omega_r^2*L_sr*q_r; for this diagonal linear reference q=Gamma*s, equivalently B_sr*omega_r^2*s_r; do not multiply B by q",
+  "selection": {
+    "scope": "per Story and Case, using only zeta0.05 full-window modal peaks",
+    "a5": "max_t(abs(v_r5(t)))",
+    "w5": "a5_r/sum_all300(a5)",
+    "display_count": 3,
+    "tie_break": "native Mode ascending",
+    "retained_for_zeta8": "same three mode IDs",
+    "other_modes": "sum all other297 signed terms at same time",
+    "all_metrics_use": "all300; top3 is display only, no modal truncation"
+  },
+  "summary": {
+    "expected_rows": 72,
+    "first_delivery_rows": 12,
+    "key": ["Story", "Case", "zeta"],
+    "columns": [
+      "Story", "Case", "zeta", "selected_mode1", "selected_mode2", "selected_mode3",
+      "selected_weight5_sum", "U_all300_kN", "P_ref_kN", "C_ref", "t_ref_peak_s",
+      "sign_ref_peak", "P_native_kN", "t_native_peak_s", "sign_native_peak",
+      "native_reference_orientation_status", "Ritz_fullFE_restoration_status",
+      "U8_over_U5", "C8_over_C5", "Pref8_over_Pref5", "Pnative8_over_Pnative5",
+      "native_D_kN", "native_M_kN", "native_peak_decrease_kN", "ratio_identity_error"
+    ],
+    "ratio_and_D_M_fields": "only zeta0.08 row; use matching same Story/Case pair",
+    "C": "Pref/U if U>0; never Pnative/U",
+    "zero_denominators": "undefined/null, no epsilon substitution or forced zero"
+  },
+  "anchors": {
+    "expected_rows": 144,
+    "first_delivery_rows": 24,
+    "key": ["Story", "Case", "anchor", "zeta"],
+    "anchor": ["native5_peak", "native8_peak"],
+    "time_rule": "both states at one identical native anchor; keep duplicate anchor rows if times coincide",
+    "columns": [
+      "Story", "Case", "anchor", "time_s", "zeta", "mode1", "mode2", "mode3",
+      "v_mode1_kN", "v_mode2_kN", "v_mode3_kN", "other297_signed_sum_kN",
+      "Vref_all300_kN", "sum_abs_all300_kN", "chi_all300",
+      "mode1_over_Vref", "mode2_over_Vref", "mode3_over_Vref", "other297_over_Vref",
+      "Vnative_signed_kN", "native_reference_orientation_status",
+      "signed_native_residual_kN", "abs_amplitude_difference_kN",
+      "reference_partition_closure_kN",
+      "mode1_symmetric_amplitude_term_kN", "mode1_normalized_waveform_term_kN",
+      "mode2_symmetric_amplitude_term_kN", "mode2_normalized_waveform_term_kN",
+      "mode3_symmetric_amplitude_term_kN", "mode3_normalized_waveform_term_kN",
+      "other297_symmetric_amplitude_term_kN", "other297_normalized_waveform_term_kN"
+    ],
+    "decomposition_fields": "only zeta0.08 row; pair same anchor and mode/group of state5/state8; A is own full-window abs peak",
+    "decomposition_formula": "delta_v=delta_A*(h8+h5)/2+(A8+A5)*(h8-h5)/2",
+    "decomposition_scope": "normalized waveform change, not pure phase or independent causal shares",
+    "zero_amplitude": "direct difference only; normalized h undefined",
+    "signed_ratios": "defined only Vref!=0; preserve negative or >1 values"
+  },
+  "orientation_and_residuals": {
+    "orientation_rule": "one externally established mechanical direction; no correlation/min-error sign selection",
+    "unknown_orientation": "signed_native_residual null; abs_amplitude_difference=abs(Vnative)-abs(Vref)",
+    "absolute_difference_identity": "amplitude discrepancy only, not signed force residual",
+    "other297": "represented physical-reference terms, not model error",
+    "reference_partition_closure": "Vref-(top3sum+other297)",
+    "fullFE_restoration_residual": "unresolved unless independently obtained; never zero-fill",
+    "native_peak_ledger": "uses native old peak sign only; no native-reference sign alignment required"
+  },
+  "verification": [
+    "frozen source hashes and modal/input identity before calculation",
+    "selected mode set fixed entirely from baseline0.05",
+    "reference partition closes at each anchor",
+    "0<=C<=1 when U>0, and Pref ratio identity where denominators positive",
+    "native D-M equals Pnative5-Pnative8 using native sign",
+    "symmetrical amplitude and waveform terms sum to same-time change",
+    "no source gains/signs/time shifts/coefficients adjusted"
+  ],
+  "export": "small summary and anchor tables only; no full arrays"
+}

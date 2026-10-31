@@ -13,3 +13,5 @@ R00115min级交流：①定义/Γ0→②④⑤；③原文→①②⑤，FNA K�
 R002 actual 2026-10-31T12:00:38.147236+08:00: collected role4R001/R002 frozen smalltable results; root full code/README/results read, no rawextract or rerun. Role2R002 frozen method independent check adopted; dispatchedrole2R003 actualmass independent; role5v002 integration. New Git manifest only frozenR001/R002 and sourceR001-R005, excludes activeR002 ofrole1/5 and role2R003.
 
 R003 2026-10-31T12:12:17.558311+08:00: independentmassreview adopted; fullB/root-read candidate then independentaudit; actualnew no-fit forward role4R004 dispatched only afteridle. v002 readfull, preservehash. GitR003 frozen-only preparation, no fullarray upload.
+
+R004 2026-10-31T12:28:46.527272+08:00: directphysicalforward independentlyvalidated, root term audit actually run1.1s; no new rootODE or rawexport. Submittedrole1truncationprotocol,role2unitamplitudes,role4error/β,role5v004,role6engineeringinterpretation. NewGitfrozenonly.

@@ -1,0 +1,53 @@
+{
+  "completed_utc": "2026-10-31T04:19:12.432547+00:00",
+  "pairs": 36,
+  "all_mode_envelope_rows": 21600,
+  "per_state_files": [
+    {
+      "name": "mode-envelopes-SHW3X-z0.05-3600.csv",
+      "rows": 3600,
+      "bytes": 334537
+    },
+    {
+      "name": "mode-envelopes-SHW3X-z0.08-3600.csv",
+      "rows": 3600,
+      "bytes": 333352
+    },
+    {
+      "name": "mode-envelopes-SHW4X-z0.05-3600.csv",
+      "rows": 3600,
+      "bytes": 332777
+    },
+    {
+      "name": "mode-envelopes-SHW4X-z0.08-3600.csv",
+      "rows": 3600,
+      "bytes": 334104
+    },
+    {
+      "name": "mode-envelopes-RH4X-z0.05-3600.csv",
+      "rows": 3600,
+      "bytes": 335465
+    },
+    {
+      "name": "mode-envelopes-RH4X-z0.08-3600.csv",
+      "rows": 3600,
+      "bytes": 332595
+    }
+  ],
+  "anchor_rows": 288,
+  "priority_pair_rows": 6,
+  "priority_anchor_rows": 48,
+  "max_UPC_identity_error": 2.220446049250313e-16,
+  "max_top5_plus_remaining_closure_kN": 7.275957614183426e-12,
+  "max_fixed_groups_closure_kN": 5.4569682106375694e-12,
+  "max_reference_peak_difference_vs_R004_kN": 1.2732925824820995e-11,
+  "source_hashes_unchanged": true,
+  "groups_fixed_before_data": [
+    "1-3",
+    "4-9",
+    "10-13",
+    "14-300"
+  ],
+  "all_arrays_stay_in_R004_local_cache": true,
+  "no_new_ODE_fit_or_CM_recheck": true
+}
