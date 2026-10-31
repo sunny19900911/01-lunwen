@@ -25,3 +25,5 @@ R007 2026-10-31T13:21:42.686348+08:00: adoptedfinalYindependentaudit; role3own90
 R008 2026-10-31T13:32:05.189533+08:00: v006 soleauthor9minfreeze; rootfullreadandartifactchecks passed; one finalrole2R010 manuscriptreviewdispatched13:31, no newnumericexperiment; Wordnotyetcreated.
 
 R009 2026-10-31T13:42:18.567740+08:00: rootadopted finalmanuscriptreview0must; soleauthorR007 final2clarifications/Word assigned13:41; no newscience.
+
+FINAL 2026-10-31T14:04:25.516291+08:00: authorWord frozen13:57:55; root all11 actualpages view+18manifestfiles+208cells+77OMML+3embeddedfigure andexact2textclarifications passed14:01:50. Canonicalsoffice unavailable, actualWordCOM/pypdfium2 fallback; failurelogs preserved. Closeearly afterdeliverables, notfake4hcontinuous. git-2 formalpause/view/configcheck/delete succeeded; oldthreepaused. Lastnormalwhitelistpublicationpendingreceipt.

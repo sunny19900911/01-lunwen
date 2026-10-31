@@ -1,0 +1,7 @@
+{
+  "actual": "2026-10-31T14:04:25.516291+08:00",
+  "initial_check_failure": "Markdown parser counted an absolute-value equation as a table because it only checked the starting pipe",
+  "fix": "require both leading and trailing table pipe",
+  "source_or_docx_changed": false,
+  "subsequent_result": "all208 tablecells identical; allartifactchecks pass"
+}

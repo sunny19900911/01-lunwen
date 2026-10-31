@@ -1,0 +1,117 @@
+{
+  "status": "passed final per-page actual PNG inspection",
+  "completed_at": "2026-10-31T13:57:55.555434+08:00",
+  "renderer": "documents/render_docx.py main with hidden Microsoft Word COM PDF export fallback and bundled pypdfium2",
+  "canonical_failure": "FileNotFoundError: LibreOffice soffice.exe was not found on PATH; exact log retained in local-cache",
+  "render_folder": "local-cache/render-v3",
+  "page_count": 11,
+  "dpi": 182,
+  "final_docx_sha256": "216d5437605a0d08c5676a586efdcabdbd7a309f95d374ee768cf6b7f6762add",
+  "page_size": "Letter portrait per documents skill default",
+  "font": "SimSun 11pt Chinese; Times New Roman Latin; Cambria Math native OMML; black headings",
+  "display_equations": 11,
+  "inline_equations": 66,
+  "native_OMML_objects": 77,
+  "editable_tables": 6,
+  "figures": 3,
+  "all_pages_actual_viewed": true,
+  "view_detail": "original",
+  "page_reviews": [
+    {
+      "page": 1,
+      "png_sha256": "f9d7f95fdb1a3e17db7e4df975b3a3b303151909835daffba6da91f735234f14",
+      "actual_viewed": true,
+      "result": "pass",
+      "notes": "中英文标题、完整双语摘要及关键词可读；页码位置正确，无标题横线，无作者单位。"
+    },
+    {
+      "page": 2,
+      "png_sha256": "d4909265331c8e12015d1666caf4f58b1d52edad1d2cb15d96832c502f5c3514",
+      "actual_viewed": true,
+      "result": "pass",
+      "notes": "方法及式1、2完整，原生上下标/分式可编辑；正文续页自然，无遮挡。"
+    },
+    {
+      "page": 3,
+      "png_sha256": "eb085a22992ca868d10a095cda46de89849eb7eaa7aea1cb031cdb0d8e2baf64",
+      "actual_viewed": true,
+      "result": "pass",
+      "notes": "图1与图注同页，三模式/两隔板图例清楚；式3、4及相应正文完整。"
+    },
+    {
+      "page": 4,
+      "png_sha256": "87935461dea462364c9a4b8d217817fb8ea0ab76bc214ad0f133eb74942994dd",
+      "actual_viewed": true,
+      "result": "pass",
+      "notes": "表1及表2在同页完整，表头浅蓝、灰边框、数值清楚，12楼层均保留。"
+    },
+    {
+      "page": 5,
+      "png_sha256": "595b755e5f19d09eab7fa49ddb8782cf630671a3a8546e89772ce33f1b30aa42",
+      "actual_viewed": true,
+      "result": "pass",
+      "notes": "Y验证及表3完整，UX/UY与VY口径保留；U/C/P数值可读。"
+    },
+    {
+      "page": 6,
+      "png_sha256": "088ba645eb81d5d6e3286b8b91e8e27b55ee6aed31f89fac62d586b154c02565",
+      "actual_viewed": true,
+      "result": "pass",
+      "notes": "图2与图注同页，四阶+其他296清楚；top5+295另行说明，正文无截断。"
+    },
+    {
+      "page": 7,
+      "png_sha256": "d04965874ede6678f782386db61bbd66c8f332e9eca2af954046b499cddf3d2c",
+      "actual_viewed": true,
+      "result": "pass",
+      "notes": "式5、6及图3同页，负波形项和独立纵轴清楚，已消除首轮大空白。"
+    },
+    {
+      "page": 8,
+      "png_sha256": "0226483e2c2774bee940ff9bd0b127c5c0f110db058f4af7791f3965206a503e",
+      "actual_viewed": true,
+      "result": "pass",
+      "notes": "式7、表4六列及表5清楚，595.459811峰差及两个损失量完整，表头不拥挤。"
+    },
+    {
+      "page": 9,
+      "png_sha256": "130c1423636f48749a1c115da3828776e2712cab63edd6448358794bd2c34cf7",
+      "actual_viewed": true,
+      "result": "pass",
+      "notes": "尾项式8—10、正分母和限定条件完整，行内求和条件已转OMML，无源花括号。"
+    },
+    {
+      "page": 10,
+      "png_sha256": "73c9049b08285cbcbbee026f0c94189e1469f0468ef4b7f536ed974667ced9e3",
+      "actual_viewed": true,
+      "result": "pass",
+      "notes": "七步计算、原生2×2刚度矩阵、表6及式11完整，根号2与t分开正确。"
+    },
+    {
+      "page": 11,
+      "png_sha256": "38c4646b2a7d74f1e6d2210d625110484b1ea8903265f497104e0317e94266f8",
+      "actual_viewed": true,
+      "result": "pass",
+      "notes": "结论、两条参考文献及页码完整，末页正常余白，无空白中间页。"
+    }
+  ],
+  "intermediate_artifacts_local_only": true,
+  "qa_PNG_or_PDF_delivered": false,
+  "iterations": [
+    {
+      "render": "v1",
+      "pages": 12,
+      "result": "repaired excess gap before figure3 and inline sum braces"
+    },
+    {
+      "render": "v2",
+      "pages": 11,
+      "result": "all pages viewed; final native inline stiffness matrix added after this render"
+    },
+    {
+      "render": "v3",
+      "pages": 11,
+      "result": "all11 final pages viewed and passed"
+    }
+  ]
+}

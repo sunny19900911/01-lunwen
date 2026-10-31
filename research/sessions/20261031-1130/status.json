@@ -1,17 +1,17 @@
 {
   "session": "20261031-1130",
-  "phase": "final-text-accepted-Word-production",
+  "phase": "closed-completed-early",
   "start": "2026-10-31T11:30:11+08:00",
   "deadline": "2026-10-31T15:30:11+08:00",
   "deadline_utc": "2026-10-31T07:30:11Z",
   "writing_start": "2026-10-31T14:45:11+08:00",
-  "checkpoint": "R009-final-text-reviewed",
+  "checkpoint": "FINAL-publication",
   "checkpoint_open": true,
   "no_new_scientific_dispatch": true,
   "active_plan": "plan.md + plan-direct-forward-v003.md",
   "theory_addendum": "plan-theory-addendum-v002.md",
   "git_authorized": "latest human explicitly authorizes 15min GitHub uploads in this new4hour window",
-  "automation": "git-2 ACTIVE formal create/view/actual config verified",
+  "automation": "git-2 formallyPAUSED/viewed/actualconfigchecked then deleted, stopwakeups; oldthreePAUSED",
   "primary_task": "Actual same-source 18-CM mass identification -> all-floor modal inertia projection -> output recovery validation, no inverse shear fit",
   "role_tasks": "six R001 messages sent successfully11:36:58, actual allactive11:39:55; do not duplicate",
   "prior_session": "019 closed, use final evidence read-only",
@@ -21,22 +21,22 @@
     "previous_verified_HEAD": "5d9aa9caf5fb4b09f44f9d8b2901742f8146c937",
     "current_remote": "pending live check",
     "old_tracked_dirty": 11,
-    "current_HEAD_and_remote": "b9db4164c580d231e8536a6daa4d4ddbb7ee5da1",
+    "current_HEAD_and_remote": "9724dc38c60f6bd8420304482da952f0a56496c4",
     "initial_index_empty": true,
-    "publication": "R008 normalpush remoteSHAequal; postpublication state",
-    "last_success_HEAD": "b9db4164c580d231e8536a6daa4d4ddbb7ee5da1",
-    "last_success_receipt": "git-R008-receipt.json"
+    "publication": "R009 normalpush remoteSHAequal; postpublication state",
+    "last_success_HEAD": "9724dc38c60f6bd8420304482da952f0a56496c4",
+    "last_success_receipt": "git-R009-receipt.json"
   },
-  "last_actual": "2026-10-31T13:42:18.567740+08:00",
+  "last_actual": "2026-10-31T14:04:25.516291+08:00",
   "root_first_scientific_result": "known3floor B K recovery rootdifference4.44e-16/arrayreconstruction2e-15; role2R002 independently reviewedsmalltables, notnewengineeringdata",
-  "next_checkpoint": "Collect authorR007 actualWord progress. Do not read stillwritingdraft. On freeze rootcheck v006-v007 exactdiff anddocx fidelity; inspect renderedpages. No newscientificdispatch. NextGitR010 near14:00 frozenonly, deadline15:30:11 unchanged.",
+  "next_checkpoint": "No further science orroutinewakeups; git-2 deleted. Finishthis final normalwhite-listGit then handoverWord/summary. Actual windowcompletedearly, not4hcontinuousclaim. Closed session notto restart.",
   "current_tasks": {
-    "role1": "frozen idle; no new numeric research",
-    "role2": "R010 finalreview frozenactualidle13:41:38,0must; no further scientific tasks",
-    "role3": "closed own90min budget13:11:38; R010frozen13:12:13, no restart",
-    "role4": "frozen idle; no new numeric research",
-    "role5": "R007 sole finalclarification/v007 andWord formallydispatched13:41; initialprogress14:15 finalQAby14:40; no duplicateauthor",
-    "role6": "frozen idle; no new numeric research"
+    "role1": "frozen idle, no further dispatch",
+    "role2": "frozen idle, no further dispatch",
+    "role3": "closed own90min13:11:38, no restart",
+    "role4": "frozen idle, no further dispatch",
+    "role5": "frozen idle, no further dispatch",
+    "role6": "frozen idle, no further dispatch"
   },
   "scientific_status": {
     "direct_formula": "conditional analytic identity independently derived role1/role2; quality of CM aggregation/eigen recovery separately gated",
@@ -49,15 +49,18 @@
     "engineering_B": "role2R004 independently reviewed72B/24mass/3coordinate androle6math,0must;inertia projection only",
     "q_observability": "36x300 CM translation matrixrank36;2/10/13 rowdistance .192081/.051293/.050333 nonzero; instantaneous arbitraryq notunique; temporal dynamics not excluded",
     "direct_forward": "reviewed role2R005 frozen12:25:45;216CM+144shear diagnostics4680numbers checked;6 ownRK4 checks ~7e-10; no fit, CM signed vs shearabsolute scope distinct",
-    "manuscript": "v006 finalreview role2R010 frozen13:40:20,0must2optional; rootfullreadreview/manifest;v007 only2clarifications/S1link thenWord, no newscience",
+    "manuscript": "v00727232B SHA9b295a0aa81f2d493bc5945b0e6f907b0f00f096f5949d507a3d36798d262a13;onlytwooptionalclarifications/S1link fromreviewedv006; rootexactdiffpassed",
     "modal_terms": "root independent audit21600modepeaks/36pairs/288anchors passed<4e-12kN;maxnative/reference peak-reductiondiff.196533pp; linear physical-source reference not fullFE unique q",
     "unit_amplitude": "role2R006 reviewed actual2/10/13/18 common unit ratios; modal damping response ordering changes with wave; RH4 floor5 U decreases more than roof but finalpeakdecreasesless",
     "truncation": "role2R007 frozen12:43:01 reviewed0must; N90=N95=10(.951829),N99=173; N10 roof maxprefix curveNRMSE64.73%,peak25.15%,peakreductiondiff9.667pp vs300; fixedbasisposthocnot newRitz solve",
     "same_time_changes": "role2R008 frozen12:55:49 independent12anchors/72components1080numbers +all21600scalarpoints/432groups/72anchor formulas156024checks passed0must; metadatajson numpyint fixed, failurepreserved",
     "figures": "compactR0072PNG andR008same-timePNG actualrootview approved; source digits identity checked, no CJK overlap",
     "Y_direction": "reviewed role2R009 frozen13:05:29; rootfullread onepage/manifest13:20,5292checks0must;216CMsigned/144VY diagnostics/180timegroups/36UPC andpeakpairs; no newODE; same3functionstwoaxes not6events",
-    "combined_validation": "432CM signed maxNRMSE.443101625%;144 E shearabsolute curves max.669154128%,peak.235170328%;72 peakreductionpairs maxdifference.196533pp; fullFE/FNA signed attribution notcertified"
+    "combined_validation": "432CM signed maxNRMSE.443101625%;144 E shearabsolute curves max.669154128%,peak.235170328%;72 peakreductionpairs maxdifference.196533pp; fullFE/FNA signed attribution notcertified",
+    "Word": "503094B SHA216d5437605a0d08c5676a586efdcabdbd7a309f95d374ee768cf6b7f6762add;11pages author+root actualviewall;77OMML/6tables/3approvedembeddedPNG/208cells independentlychecked"
   },
-  "recovery_file": "rounds/R009.md",
-  "no_new_numeric_experiments": true
+  "recovery_file": "final-summary.md",
+  "no_new_numeric_experiments": true,
+  "closed_scientific_at": "2026-10-31T13:40:20+08:00",
+  "closed_actual": "2026-10-31T14:04:25.516291+08:00"
 }

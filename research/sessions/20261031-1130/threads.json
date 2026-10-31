@@ -8,7 +8,7 @@
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "frozen idle; no new numeric research",
+      "task": "frozen idle, no further dispatch",
       "actual_status": {
         "type": "idle"
       },
@@ -22,7 +22,7 @@
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R010 finalreview frozenactualidle13:41:38,0must; no further scientific tasks",
+      "task": "frozen idle, no further dispatch",
       "actual_status": {
         "type": "idle"
       },
@@ -37,7 +37,7 @@
       "initial_actual_status": {
         "type": "notLoaded"
       },
-      "task": "closed own90min budget13:11:38; R010frozen13:12:13, no restart",
+      "task": "closed own90min13:11:38, no restart",
       "actual_status": {
         "type": "idle"
       },
@@ -51,7 +51,7 @@
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "frozen idle; no new numeric research",
+      "task": "frozen idle, no further dispatch",
       "actual_status": {
         "type": "idle"
       },
@@ -61,16 +61,15 @@
     {
       "role": "role5",
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:56",
+      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:58",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R007 sole finalclarification/v007 andWord formallydispatched13:41; initialprogress14:15 finalQAby14:40; no duplicateauthor",
+      "task": "frozen idle, no further dispatch",
       "actual_status": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "last_actual": "2026-10-31T13:40:45+08:00",
+      "last_actual": "2026-10-31T14:04:25.516291+08:00",
       "last_actual_note": "real snapshots12:55 plus role2fresh13:02; refresh before any nextdispatch"
     },
     {
@@ -80,7 +79,7 @@
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "frozen idle; no new numeric research",
+      "task": "frozen idle, no further dispatch",
       "actual_status": {
         "type": "idle"
       },

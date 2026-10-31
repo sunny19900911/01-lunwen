@@ -1,0 +1,30 @@
+{
+  "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\physical-modal-shear-session020-v007.md",
+  "source_sha256": "9b295a0aa81f2d493bc5945b0e6f907b0f00f096f5949d507a3d36798d262a13",
+  "output": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\physical-modal-shear-session020-论文审阅稿-v007.docx",
+  "output_sha256": "216d5437605a0d08c5676a586efdcabdbd7a309f95d374ee768cf6b7f6762add",
+  "display_math_sources": [
+    "\\Gamma_r=\\frac{S_r}{m_r},\\qquad B_{sr}=\\Gamma_rL_{sr},\\qquad\n\\ddot s_r+2\\zeta_r\\omega_r\\dot s_r+\\omega_r^2s_r=-a_g(t),\\quad s_r(0)=\\dot s_r(0)=0.",
+    "v_{sr}^{\\zeta}(t)=\\frac{B_{sr}g_r^\\zeta(t)}{1000},\\qquad V_s^\\zeta(t)=\\sum_{r=1}^{300}v_{sr}^\\zeta(t).",
+    "U_{s,\\zeta}=\\sum_ra_{sr,\\zeta},\\quad P_{s,\\zeta}=\\max_t\\left|\\sum_rv_{sr}^\\zeta(t)\\right|,\n\\quad C_{s,\\zeta}=\\frac{P_{s,\\zeta}}{U_{s,\\zeta}},\\quad\nw_{sr,\\zeta}=\\frac{a_{sr,\\zeta}}{U_{s,\\zeta}}.",
+    "\\frac{P_{s,8}}{P_{s,5}}=\\frac{U_{s,8}}{U_{s,5}}\\frac{C_{s,8}}{C_{s,5}}.",
+    "v_r^8-v_r^5=\n\\underbrace{(a_r^8-a_r^5)\\frac{h_r^8+h_r^5}{2}}_{d_{A,r}}+\n\\underbrace{\\frac{a_r^8+a_r^5}{2}(h_r^8-h_r^5)}_{d_{h,r}}.",
+    "W=W_A+W_h+W_0=\\sigma_5[V_5(\\tau)-V_8(\\tau)],\\qquad\n|V_5(\\tau)|-|V_8(\\tau)|=W-2\\max[0,-\\sigma_5V_8(\\tau)].",
+    "P_5-P_8=\n[|V_5(\\tau)|-|V_8(\\tau)|]+\\ell_5(\\tau)-\\ell_8(\\tau).",
+    "T_N^\\zeta=\\sum_{r=N+1}^{300}\\max_t|v_r^\\zeta(t)|,\\qquad\n\\|V_{300}^\\zeta-V_N^\\zeta\\|_\\infty\\le T_N^\\zeta,\\qquad\n\\max(0,P_N^\\zeta-T_N^\\zeta)\\le P_{300}^\\zeta\\le P_N^\\zeta+T_N^\\zeta.",
+    "\\frac{|P_N-P_{300}|}{P_{300}}\\le\\frac{T_N}{P_N-T_N}.",
+    "R_-=\\frac{\\max(0,P_N^8-T_N^8)}{P_N^5+T_N^5},\\qquad\nR_+=\\frac{P_N^8+T_N^8}{P_N^5-T_N^5},\\qquad\nR_-\\le\\frac{P_{300}^8}{P_{300}^5}\\le R_+.",
+    "P^2=\\frac{(72/5)\\zeta^2}{1+56\\zeta^2+64\\zeta^4}."
+  ],
+  "display_math": 11,
+  "inline_math": 66,
+  "serialized_OMML": 77,
+  "editable_tables": 6,
+  "images": [
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role6\\R007\\figure1-compact-CM-UX-modes2-10-13.png",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role6\\R007\\figure2-compact-SHW3X-modal-weights.png",
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role6\\R008\\figure3-SHW3X-same-time-symmetric-decomposition.png"
+  ],
+  "all_math_native_OMML": true,
+  "no_raw_latex_in_docx": true
+}

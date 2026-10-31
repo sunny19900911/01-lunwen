@@ -1,0 +1,39 @@
+{
+  "id": "git-2",
+  "reason": "final manuscript and Word independently checked; close early without filling remaining budget",
+  "pause": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Updated automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"git-2\",\"mode\":\"update\",\"status\":\"PAUSED\"}"
+      }
+    ],
+    "isError": false
+  },
+  "view": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Rendered automation card in the app."
+      }
+    ],
+    "isError": false
+  },
+  "delete": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Deleted automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"git-2\",\"mode\":\"delete\",\"deleteStatus\":\"deleted\",\"snapshot\":{\"kind\":\"heartbeat\",\"name\":\"真实模态剪力分担｜四小时研究与Git同步\",\"rrule\":\"FREQ=MINUTELY;INTERVAL=15;UNTIL=20261031T074511Z\"}}"
+      }
+    ],
+    "isError": false
+  }
+}
