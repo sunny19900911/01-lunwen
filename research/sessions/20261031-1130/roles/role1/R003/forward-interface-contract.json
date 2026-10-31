@@ -1,0 +1,135 @@
+{
+  "task": "session020-role1-R003",
+  "scope": "Forward physical interface only; no response solved",
+  "reference_identity": {
+    "basis": "actual-model frozen300 Ritz modes",
+    "mass": "role4 R002 frozen identified CM partitions",
+    "legacy_comparator": "old baseline5 and direct8 outputs; same M/K with actual basis not fully established",
+    "transfer_between_bases": "Never mix actual phi/mr/Gamma with legacy frequencies or retune using legacy responses"
+  },
+  "units_and_formulas": [
+    {
+      "quantity": "phi_translation",
+      "unit": "m",
+      "formula": "convert same-scale exported mode translations to m"
+    },
+    {
+      "quantity": "modal_mass",
+      "unit": "kg*m^2",
+      "formula": "1000*ModalMass if confirmed header kN*m*s^2"
+    },
+    {
+      "quantity": "S",
+      "unit": "kg*m",
+      "formula": "sum(m_i*phi_input_i)"
+    },
+    {
+      "quantity": "Gamma",
+      "unit": "1/m",
+      "formula": "S/modal_mass"
+    },
+    {
+      "quantity": "s",
+      "unit": "m",
+      "formula": "sdd+2*zeta*omega*sdot+omega^2*s=-ag; initial s=sdot=0"
+    },
+    {
+      "quantity": "q_reference",
+      "unit": "dimensionless",
+      "formula": "Gamma*s"
+    },
+    {
+      "quantity": "u_reference",
+      "unit": "m",
+      "formula": "sum(phi_output*q_reference)"
+    },
+    {
+      "quantity": "S_cut",
+      "unit": "kg*m",
+      "formula": "sum_above(m_i*phi_input_i)"
+    },
+    {
+      "quantity": "B",
+      "unit": "kg",
+      "formula": "S_cut*Gamma"
+    },
+    {
+      "quantity": "V_E_reference",
+      "unit": "kN",
+      "formula": "sum(B*omega^2*s)/1000"
+    },
+    {
+      "quantity": "V_Q_reference",
+      "unit": "kN",
+      "formula": "sum(B*(omega^2*s+2*zeta*omega*sdot))/1000"
+    }
+  ],
+  "operator_policy": {
+    "report": "both E and Q with identical inputs/B/cuts; retain all comparisons",
+    "selection_by_error": "prohibited",
+    "E_identity": "elastic-term reference by modal inertia projection; exact elastic output needs full Eigen or verified cut-projected residual zero",
+    "Ritz_elastic_missing_term_kN": "sum(Gamma*(r_cut^T*(K*phi-omega^2*M*phi))*s)/1000",
+    "Q_additional_condition": "physical cut damping must satisfy r_cut^T*C*phi=2*zeta*omega*S_cut",
+    "actual_nonlinear_damper_forces": "not represented automatically",
+    "finite_modes": "Do not equate Q with absolute-acceleration free-body balance without the unrepresented direct input-mass term."
+  },
+  "predeclare": [
+    "mode list/frequencies/phi/modal mass/Gamma/B",
+    "input record and direction",
+    "ag unit/sign/scale",
+    "time grid/interpolation/initial state/observation window",
+    "all18 target CM identities and output axes",
+    "both zeta values5% and8%",
+    "both E and Q operators",
+    "error metrics and acceptance criteria before comparison",
+    "native sign evidence and cut membership"
+  ],
+  "native_sign_contract": {
+    "current_status": "not independently verified here",
+    "reference_elastic_positive": "r_cut^T*K*u",
+    "conversion": "V_reference_positive=eta_cut*CSI_Bottom_VX",
+    "eta_cut": null,
+    "allowed_evidence": [
+      "documented output axis and action-face convention",
+      "existing independent static free-body check, no new solver run here"
+    ],
+    "forbidden_evidence": [
+      "pick sign minimizing time-history error",
+      "peak sign matching",
+      "try both signs then retain better result"
+    ],
+    "record_fields": [
+      "table",
+      "Case",
+      "Axis",
+      "Story",
+      "Location=Bottom",
+      "upper-floor/tower/diaphragm membership",
+      "action face",
+      "positive direction",
+      "eta",
+      "source/page/existing check"
+    ],
+    "unresolved": "Retain raw signed CSI; absolute-quantity diagnostics only, no signed-pass claim"
+  },
+  "failure_decision": [
+    {
+      "condition": "CM response fails predeclared comparison",
+      "action": "Check units, input, coordinates, basis identity, truncation and reference assumptions; no gain/sign/time/frequency/response-coefficient adjustment."
+    },
+    {
+      "condition": "CM supported, shear fails",
+      "action": "Check cut/operator/damping/Ritz residual and legacy-model identity before judging B."
+    },
+    {
+      "condition": "only E or only Q agrees",
+      "action": "Retain both results; establish native operator using independent definition."
+    },
+    {
+      "condition": "CM and shear both agree",
+      "action": "Conditional forward-output support for the tested input/window; does not certify actual FNA modal q or unique modal shares."
+    }
+  ],
+  "Gamma_zero": "Zero in this decoupled zero-initial reference, potentially nonzero actual q through coupling.",
+  "actual_ODE_or_numeric_work_performed": false
+}

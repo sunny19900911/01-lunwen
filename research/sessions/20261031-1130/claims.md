@@ -15,3 +15,8 @@ C020-06 testing：⑥U/P/C工程解释与固定两模态稳态反例，②R002�
 C020-06 supported/conditional, reviewed: role2R002 independent dynamic-stiffness/Eigen routes validate U/P/C and twoDOF steady harmonic example; known3floor9B and3ratio identities independently checked. Not commonzeroIC finiteearthquake example.
 
 C020-07 testing/observed-data+linear-algebra: actualCM/PF ratios first100 identify positive18 directional masses within CM lumped model (rank17), remaining200 verify; total47440864.269713kg X/Y. No oldmass used until postcomparison. Root read full code/results; role2R003 independent check pending. Does not certify fullFE coverage or Ritz elastic output.
+
+C020-07 supported/CM-model numerical identification, reviewed: role2R003 independently reconstructed source arrays/SVD and totalmass before comparison;0must. Conditional18CM model class only, not fullFE location/mass certification.
+C020-08 testing/physical-data projection: role4R003 7200B/72selected/24summass frozen; root read README/results, role2R004 independent reviewactive. Not yet trueelastic coefficients.
+C020-09 supported/conditional linear-algebra: role6R003 singleq iff e_r in row(A); role4reports2/10/13 nonzero distances. Root readderivation and exactnull directions. Independentrole2reviewactive. Static arbitraryq nonuniqueness does not negate temporal dynamics recovery.
+C020-10 testing/forwardphysical-reference: newactualRitz300 Γfrommass, fixed5/8 inputstates, predictCM first and then two shear operators. No shearfit, no migrationoldinversecoef. Role4R004 sole newrun active.

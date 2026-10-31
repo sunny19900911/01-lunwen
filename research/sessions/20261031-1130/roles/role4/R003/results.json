@@ -1,0 +1,116 @@
+{
+  "completed_utc": "2026-10-31T04:03:34.162376+00:00",
+  "B_rows": 7200,
+  "main_mode_rows": 72,
+  "sum_mass_checks": 24,
+  "base_B_minus_meff_max_abs_kg": 3.725290298461914e-09,
+  "max_local_Cauchy_ratio": 1.0000000000000004,
+  "max_global_Cauchy_ratio": 0.8492039740558238,
+  "max_mode_normalization_relative_error": 5.341838082983941e-11,
+  "sumB_max_abs_relative_mass_deviation": 0.00013662571532235823,
+  "worst_sumB": [
+    {
+      "cut_story": "Story11",
+      "Axis": "X",
+      "CMs_above": 2,
+      "identified_mass_above_kg": 4518572.7460714625,
+      "sum_signed_300_B_inertia_projection_kg_not_fullFE_elastic": 4517955.3928377945,
+      "sum_B_minus_mass_above_kg": -617.3532336680219,
+      "relative_sum_B_minus_mass": -0.00013662571532235823,
+      "sum_abs_300_B_kg": 11445539.730436495,
+      "negative_B_modes_count": 155,
+      "scope": "finite300 Ritz inertia projection, no forced completeness"
+    },
+    {
+      "cut_story": "Story1",
+      "Axis": "Y",
+      "CMs_above": 18,
+      "identified_mass_above_kg": 47440864.26971296,
+      "sum_signed_300_B_inertia_projection_kg_not_fullFE_elastic": 47435121.6538906,
+      "sum_B_minus_mass_above_kg": -5742.61582235992,
+      "relative_sum_B_minus_mass": -0.00012104787530242689,
+      "sum_abs_300_B_kg": 47435121.6538906,
+      "negative_B_modes_count": 0,
+      "scope": "finite300 Ritz inertia projection, no forced completeness"
+    },
+    {
+      "cut_story": "Story1",
+      "Axis": "X",
+      "CMs_above": 18,
+      "identified_mass_above_kg": 47440864.26971315,
+      "sum_signed_300_B_inertia_projection_kg_not_fullFE_elastic": 47436261.28519281,
+      "sum_B_minus_mass_above_kg": -4602.984520338476,
+      "relative_sum_B_minus_mass": -9.702573069014786e-05,
+      "sum_abs_300_B_kg": 47436261.28519281,
+      "negative_B_modes_count": 0,
+      "scope": "finite300 Ritz inertia projection, no forced completeness"
+    },
+    {
+      "cut_story": "Story3",
+      "Axis": "Y",
+      "CMs_above": 16,
+      "identified_mass_above_kg": 35325599.612303846,
+      "sum_signed_300_B_inertia_projection_kg_not_fullFE_elastic": 35328392.60332136,
+      "sum_B_minus_mass_above_kg": 2792.991017512977,
+      "relative_sum_B_minus_mass": 7.906422107950561e-05,
+      "sum_abs_300_B_kg": 38870921.294895366,
+      "negative_B_modes_count": 208,
+      "scope": "finite300 Ritz inertia projection, no forced completeness"
+    },
+    {
+      "cut_story": "Story2",
+      "Axis": "Y",
+      "CMs_above": 17,
+      "identified_mass_above_kg": 43544920.06989575,
+      "sum_signed_300_B_inertia_projection_kg_not_fullFE_elastic": 43548157.19764799,
+      "sum_B_minus_mass_above_kg": 3237.127752237022,
+      "relative_sum_B_minus_mass": 7.433996312400382e-05,
+      "sum_abs_300_B_kg": 45108988.1795193,
+      "negative_B_modes_count": 158,
+      "scope": "finite300 Ritz inertia projection, no forced completeness"
+    }
+  ],
+  "C_shape": [
+    36,
+    300
+  ],
+  "C_rank": 36,
+  "C_rank_relative1e10": 36,
+  "C_nullspace_dimension": 264,
+  "C_singular_max": 0.031621854509504534,
+  "C_singular_min": 0.031359338148373155,
+  "selected_coordinate_checks": [
+    {
+      "Mode": 2,
+      "distance_e_to_rowspace": 0.19208075776642738,
+      "rowspace_leverage": 0.9631049824958756,
+      "nullspace_vector_mode_component": 0.036895017504124494,
+      "nullspace_vector_norm": 0.19208075776642738,
+      "relative_observation_null_residual": 1.2303288415467279e-15,
+      "actual_q_mode_uniquely_identifiable": false,
+      "scope": "nonzero null coordinate proves no unique actual q from instantaneous CM translations"
+    },
+    {
+      "Mode": 10,
+      "distance_e_to_rowspace": 0.051293035831552085,
+      "rowspace_leverage": 0.9973690244751818,
+      "nullspace_vector_mode_component": 0.0026309755248178357,
+      "nullspace_vector_norm": 0.051293035831552085,
+      "relative_observation_null_residual": 6.302113230439182e-15,
+      "actual_q_mode_uniquely_identifiable": false,
+      "scope": "nonzero null coordinate proves no unique actual q from instantaneous CM translations"
+    },
+    {
+      "Mode": 13,
+      "distance_e_to_rowspace": 0.05033337973373216,
+      "rowspace_leverage": 0.9974665508845798,
+      "nullspace_vector_mode_component": 0.0025334491154201944,
+      "nullspace_vector_norm": 0.05033337973373216,
+      "relative_observation_null_residual": 5.441527517935275e-15,
+      "actual_q_mode_uniquely_identifiable": false,
+      "scope": "nonzero null coordinate proves no unique actual q from instantaneous CM translations"
+    }
+  ],
+  "sources_unchanged": true,
+  "no_new_mass_identification_q_fit_or_ODE": true
+}

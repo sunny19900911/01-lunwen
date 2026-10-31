@@ -1,0 +1,29 @@
+{
+  "completed": "2026-10-31T12:05:49.716356+08:00",
+  "source_period_matches_all300": true,
+  "PF_native_units": "kN-m",
+  "ModalMass_native_units": "kN-m-s²",
+  "ModalMass_SI_unit": "kg*m^2, not kg",
+  "ModalMass_fixed_conversion": 1000,
+  "CM_native_unit": "mm",
+  "CM_fixed_conversion_to_m": 0.001,
+  "directions": {
+    "X": {
+      "PF_native_over_CM_projection_train_median": -47.440864269713074,
+      "holdout_max_relative_deviation_from_train_constant": 2.653732789070773e-11,
+      "PF_native_over_identified_S_SI_min": -1.000000000012009e-06,
+      "PF_native_over_identified_S_SI_max": -9.999999999734614e-07,
+      "diagnostic_only_not_a_fitted_SI_gain": true,
+      "raw_PF_not_relabelled_Gamma": true
+    },
+    "Y": {
+      "PF_native_over_CM_projection_train_median": -47.44086426971299,
+      "holdout_max_relative_deviation_from_train_constant": 8.30224777814692e-12,
+      "PF_native_over_identified_S_SI_min": -1.0000000000083028e-06,
+      "PF_native_over_identified_S_SI_max": -9.999999999951443e-07,
+      "diagnostic_only_not_a_fitted_SI_gain": true,
+      "raw_PF_not_relabelled_Gamma": true
+    }
+  },
+  "interpretation": "CM/PF/modal mass same-mode relative normalization is strongly consistent. Absolute signed load convention behind native PF is not certified as Gamma. Derived PF/S diagnostics are never used as adjustable conversion factors."
+}

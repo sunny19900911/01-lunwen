@@ -1,0 +1,58 @@
+{
+  "completed": "2026-10-31T12:02:38.730870+08:00",
+  "directions": {
+    "X": {
+      "reference_mode_train": 2,
+      "reference_also_global": true,
+      "rank_train100": 17,
+      "rank_relative1e-10": 17,
+      "nullity": 1,
+      "sigma17": 1.2139466296430093e-07,
+      "sigma18": 2.2235591148096694e-21,
+      "nonnull_condition": 330.7339955966713,
+      "minimum_weight": 0.012989079439355013,
+      "positive_weights": 18,
+      "total_mass_train_median_kg": 47440864.26971314,
+      "holdout_max_H_residual_over_train_projection": 5.238752371422222e-15,
+      "holdout_total_mass_min_kg": 47440864.26719523,
+      "holdout_total_mass_max_kg": 47440864.270852715,
+      "holdout_max_relative_mass_error": 5.307465578141546e-11,
+      "stable_total_estimates": 300
+    },
+    "Y": {
+      "reference_mode_train": 1,
+      "reference_also_global": true,
+      "rank_train100": 17,
+      "rank_relative1e-10": 17,
+      "nullity": 1,
+      "sigma17": 7.43075619614887e-08,
+      "sigma18": 2.827674338447361e-21,
+      "nonnull_condition": 540.8447564849133,
+      "minimum_weight": 0.012989079439355013,
+      "positive_weights": 18,
+      "total_mass_train_median_kg": 47440864.26971297,
+      "holdout_max_H_residual_over_train_projection": 1.3777177119670648e-14,
+      "holdout_total_mass_min_kg": 47440864.269252226,
+      "holdout_total_mass_max_kg": 47440864.27050071,
+      "holdout_max_relative_mass_error": 1.6604717600898766e-11,
+      "stable_total_estimates": 300
+    }
+  },
+  "no_old_mass_file_read": true,
+  "no_role4_scientific_result_table_parsed": true,
+  "method_note": "source README was seen during preflight; solver uses only CM, PF ratios, mu, ModalMass, declared unit factors; no previous mass values enter calculations",
+  "ModalMass_conversion": "kN*m*s^2 *1000 = kg*m^2; generalized inertia of exported modal displacement, not effective modal mass",
+  "CM_conversion": "raw mm *0.001 = m, applied identically to all modes, no fitted gain",
+  "sources_used": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc",
+      "bytes": 493076
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261022-1856\\roles\\role4\\R001\\local-cache\\CM-signed-all300-5400.csv",
+      "sha256": "16d64ca68559dc5158e51ed6a48e76d2453064cdb8d1408326b6c02c90b12908",
+      "bytes": 1418506
+    }
+  ]
+}

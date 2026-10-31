@@ -1,0 +1,43 @@
+{
+  "completed_at": "2026-10-31T12:10:39.342622+08:00",
+  "elapsed_seconds": 169.342622,
+  "budget_seconds": 480,
+  "within_budget": true,
+  "evidence_type": "analytic interface contract",
+  "dimensional_checks": "manually checked every interface quantity and N-to-kN factor",
+  "source_checks": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\plan.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\plan-theory-addendum-v001.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role1\\R001\\direct-physical-coefficient-one-page.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role1\\R002\\nullspace-mass-identifiability-one-page.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R003\\input-rules-freeze.json",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R003\\results.json",
+      "unchanged": true
+    }
+  ],
+  "all_source_hashes_unchanged": true,
+  "both_operators_present": true,
+  "native_CSI_sign_certified": false,
+  "actual_vs_legacy_MK_identity_certified": false,
+  "Ritz_cut_residual_certified_zero": false,
+  "actual_FNA_q_acquired": false,
+  "ODE_or_fit_performed": false,
+  "raw_data_read": false,
+  "Git_used": false
+}

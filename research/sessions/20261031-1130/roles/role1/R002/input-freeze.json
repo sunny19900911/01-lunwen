@@ -1,0 +1,44 @@
+{
+  "task": "session020-role1-R002",
+  "started_at": "2026-10-31T11:55:54+08:00",
+  "budget_seconds": 600,
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\AGENTS.md",
+      "bytes": 7150,
+      "sha256": "11bb0dbe983269d4695c5f170b5f1dcb1d46c5c76d5fb69f3d0e7634261a1477"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\plan.md",
+      "bytes": 6493,
+      "sha256": "c7240ca68324d8f2adfe44e204cc40fb627a117bca5143a8cca4ef7180ea1ee8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\plan-theory-addendum-v001.md",
+      "bytes": 725,
+      "sha256": "2cae7dc27d99b04a91c23a366a00a3ce3582887c0354797ee7fdc08c79ef51be"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role1\\R001\\direct-physical-coefficient-one-page.md",
+      "bytes": 4976,
+      "sha256": "0ec8c7ef3ca2ca5eaa6cc842a5473fbc29ddbefc5f18812a5564d05a52e4e3e5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role3\\R001\\primary-definitions.md",
+      "bytes": 7277,
+      "sha256": "9fab83a62893647739f2881280301d5cc0b696133afab9171eda7517a196b56e"
+    }
+  ],
+  "claim": "homogeneous PF/CM mass-projection law identifies normalized CM masses if nullity=1 with admissible sign; same-coordinate modal mass and mass ratios supply total mass",
+  "scope": [
+    "analytic only",
+    "no raw data",
+    "no PF/Gamma relabeling",
+    "no response fitting or multiplier fit",
+    "no ODE",
+    "no solver/API",
+    "no Git",
+    "only role1/R002"
+  ],
+  "engineering_status": "not checked"
+}

@@ -1,0 +1,22 @@
+{
+  "frozen_utc": "2026-10-31T04:09:49.370926+00:00",
+  "elapsed_seconds": 480.370926,
+  "B_rows": 7200,
+  "mode_focus_rows": 72,
+  "signed_sum_mass_comparisons": 24,
+  "base_B_meff_recheck_max_abs_kg": 3.725290298461914e-09,
+  "independent_math_fsum_vs_stored_sum_max_abs_kg": 7.450580596923828e-09,
+  "all_Cauchy_checks_pass_1e10": true,
+  "C_shape": [
+    36,
+    300
+  ],
+  "C_rank": 36,
+  "C_nullspace_dimension": 264,
+  "modes2_10_13_unique_from_instantaneous_CM": false,
+  "identity_time_cache_checked_metadata_only": true,
+  "no_actual_time_arrays_read": true,
+  "no_mass_reidentification_or_ODE_q_shear_fit": true,
+  "source_hashes_unchanged": true,
+  "no_Git": true
+}

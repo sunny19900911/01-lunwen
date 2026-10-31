@@ -5,10 +5,10 @@
   "deadline": "2026-10-31T15:30:11+08:00",
   "deadline_utc": "2026-10-31T07:30:11Z",
   "writing_start": "2026-10-31T14:45:11+08:00",
-  "checkpoint": "R002",
+  "checkpoint": "R003-direct-forward",
   "checkpoint_open": true,
   "no_new_scientific_dispatch": false,
-  "active_plan": "plan.md",
+  "active_plan": "plan.md + plan-direct-forward-v003.md",
   "theory_addendum": "plan-theory-addendum-v002.md",
   "git_authorized": "latest human explicitly authorizes 15min GitHub uploads in this new4hour window",
   "automation": "git-2 ACTIVE formal create/view/actual config verified",
@@ -21,22 +21,22 @@
     "previous_verified_HEAD": "5d9aa9caf5fb4b09f44f9d8b2901742f8146c937",
     "current_remote": "pending live check",
     "old_tracked_dirty": 11,
-    "current_HEAD_and_remote": "5d9aa9caf5fb4b09f44f9d8b2901742f8146c937",
+    "current_HEAD_and_remote": "845da158d6595cc3ef2371a20afb7b7d2aa59b04",
     "initial_index_empty": true,
-    "publication": "R001 initial normal push succeeded, remoteSHAequal",
-    "last_success_HEAD": "66fb106c2164590d763e433d184a13f218785f99",
-    "last_success_receipt": "git-R001-receipt.json"
+    "publication": "R002 normalpush remotesame; R003 preparation",
+    "last_success_HEAD": "845da158d6595cc3ef2371a20afb7b7d2aa59b04",
+    "last_success_receipt": "git-R002-receipt.json"
   },
-  "last_actual": "2026-10-31T12:00:38.147236+08:00",
+  "last_actual": "2026-10-31T12:12:17.558311+08:00",
   "root_first_scientific_result": "direct coefficients in old known3floor model: K-recovery error4.44e-16,output reconstruction2e-15; no newODE/fit; pending independent review",
-  "next_checkpoint": "Collect role1R002/role2R003 independent mass audit, role4 next all12floor300 B and physical output gate; authorv002; do not reidentify same masses or rerun old inverse fits.",
+  "next_checkpoint": "Collect role4R004 first18CM prediction metrics and all preserved failure cases. Actual mode basis vs oldbaseline is explicit reference condition. First motion then shear, both operators retained, no sign/gain/timeshift tuning. Collect role2R004 independent B audit, author v003 once actualidle. Fixed cutoff15:30:11.",
   "current_tasks": {
-    "role1": "R002 same-source PF-ratio nullspace identification derivation, dispatched11:55, active",
-    "role2": "R003 independent actual mass identification from source CM/PF/mu; no role4 code import, dispatched12:01",
-    "role3": "R001-R005 source paragraphs frozen; human own window until13:11:38; no third literature",
-    "role4": "R002 mass identification frozen11:58:31, actualidle; next all-floor B after new task",
-    "role5": "R002 v002 integrated manuscript dispatched12:01 after actualidle; source/results reviewed status explicit",
-    "role6": "R002 conditional selected3-mode floor comparison frozen11:58:14; idle"
+    "role1": "R002 nullspace theorem/R003 forward units frozen; currentlyidle after reply; wait actual experiment, no peripheral task",
+    "role2": "R003 independent CM mass identification frozen12:08:34,0must adopted; newR004 B72/sum24/coordinate3+role6theory independent10min active",
+    "role3": "R001-R005 source notes frozen; own human90min ends13:11:38; optional precise citation check only",
+    "role4": "R0037200B/observability frozen12:09:49, actualidle verified; R004 direct actual300 no-fit forward .05/.08 CM-first then shear dispatched12:11,12min first results15min cap",
+    "role5": "R002 v002 frozen12:03:28, root full read; mass audit upgrade routed, preserve frozenv002; check actual before newv003",
+    "role6": "R003 observability theorem frozen; idle awaiting actual forward result, no repeated matrix experiment"
   },
   "scientific_status": {
     "direct_formula": "conditional analytic identity independently derived role1/role2; quality of CM aggregation/eigen recovery separately gated",
@@ -45,7 +45,11 @@
     "engineering_data": "600 oldmass/actualmodal consistency adopted only as conditional check; new same-source identification stronger; actualLinModRitz so no automatic elastic shear attribution",
     "FNA_output": "source role3R002 confirmed K_eff=K_L+K_N; targetK and Ritz residual correction distinct, algebra independently reviewedrole2R001supplement; actualKN not presumednonzero",
     "engineering_method": "role2R002 independently passed U/P/C, exact2DOF steady-state example and known3floor small-table identities; not earthquake engineering peak guarantee",
-    "engineering_mass": "role4 R002 frozen: first100 X/Y rank17 positive18 masses; last200 validation; total47440864.269713kg; root read full code/results; independent role2R003 active"
+    "engineering_mass": "role2R003 independent source reconstruction passed0must; within18CM lumped model, not fullFE coverage",
+    "engineering_B": "role4R003 frozen7200 inertia projection B; base/Cauchy pass; finite300 sumB above-mass maxrelative.000136626; role2R004 reviewactive",
+    "q_observability": "36x300 CM translation matrixrank36;2/10/13 rowdistance .192081/.051293/.050333 nonzero; instantaneous arbitraryq notunique; temporal dynamics not excluded",
+    "direct_forward": "role4R004 new actualRitz diagonal linear5/8 CM-first reference experiment active; no fitted shear map; no actual FNA q claim",
+    "manuscript": "v002 frozen10218B SHA13645bd103bcbd4b5c67121680d50eb52bb7e143c96a2ce7c351cef6388b6e02; root fullread, later mass review update routed"
   },
-  "recovery_file": "rounds/R002.md"
+  "recovery_file": "rounds/R003.md"
 }

@@ -1,0 +1,103 @@
+{
+  "frozen_utc": "2026-10-31T04:09:49.370926+00:00",
+  "outputs": [
+    {
+      "name": "all12-300-XY-signed-B-inertia-not-elastic-7200.csv",
+      "bytes": 542272,
+      "sha256": "46bd1da8282d83521152f50d8026fc65791d6d834c3ac51a67fc7ae3139b3471"
+    },
+    {
+      "name": "CM-observation-singular-values-36.csv",
+      "bytes": 4780,
+      "sha256": "13ec8ec828cca38d4180af1e7440fa5d8bdf9ebb1f2ddd03698a2cf622c9f404"
+    },
+    {
+      "name": "coordinate-rowspace-distances-all300.csv",
+      "bytes": 35861,
+      "sha256": "773b08bf1f3f9714db23a34d27d2f3b030303387c5d3c85e2718643457b3ad47"
+    },
+    {
+      "name": "existing-CM-time-cache-identity-metadata-only.json",
+      "bytes": 1589,
+      "sha256": "e101237bd11bea3a0038356866089e0900c5afbdd8a74ec54ea9a3a7c646a903"
+    },
+    {
+      "name": "finalize_B_interface.py",
+      "bytes": 9051,
+      "sha256": "69629840a993ef8b64235b4932c188d12f6694ffab1606397d82c70d3f6d2a03"
+    },
+    {
+      "name": "finite300-signed-sumB-versus-mass-above-24.csv",
+      "bytes": 4393,
+      "sha256": "0229a95e57946de4d1660e9d68528dfaf871a5904ce8c433053f9e84deef510b"
+    },
+    {
+      "name": "input-rules-freeze.json",
+      "bytes": 1852,
+      "sha256": "21cb0ca522df4d6f355277d36cb635a78a081de95ab70d36ca6ec44da371c51d"
+    },
+    {
+      "name": "mode-direction-normalization-checks-600.csv",
+      "bytes": 96214,
+      "sha256": "fd8aa3e1cfb7be25a76dcbc214785fb27e903c4ec34abfc83f3cd8b40c10d22d"
+    },
+    {
+      "name": "modes2-10-13-all12-XY-B-inertia-not-elastic-72.csv",
+      "bytes": 10951,
+      "sha256": "7b3103ff6acf343cee2574d9e90e8b43712c2f9dc6d24ba7d65ce0062dd59db5"
+    },
+    {
+      "name": "modes2-10-13-coordinate-identifiability-3.csv",
+      "bytes": 776,
+      "sha256": "224c7c972fe2f699308d7cbd12f5bebf510619be625c6d2ef3f1039a07d04a5a"
+    },
+    {
+      "name": "project_B_and_observability.py",
+      "bytes": 7211,
+      "sha256": "a8a823a6ab85db3ef0d5bde5d14f8e1fbdf3c16962d6b1860037149cb7e47e98"
+    },
+    {
+      "name": "README-B-inertia-and-observability.md",
+      "bytes": 4118,
+      "sha256": "fcb7450a22a0b022b5d3041effa32c056a4cfe9d9e2b6ce776ec9c8c8cbfaac2"
+    },
+    {
+      "name": "results.json",
+      "bytes": 4734,
+      "sha256": "9f2aedf9cbacc4db1abf50859d0b1c10cc2261699523ac5012bae59d30d0640e"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 700,
+      "sha256": "7b946d01b6a4f88d2f0d82090cf953fd0554b58f2e7e592c356a539bf4b1e369"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R002\\identified-masses-before-old-comparison-36.csv",
+      "sha256": "08afe9bfc929afbeca0fc1d319e232ccdb965ec3de1451866d0a6716c80d7384",
+      "bytes": 5821
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261022-1856\\roles\\role4\\R001\\local-cache\\CM-signed-all300-5400.csv",
+      "sha256": "16d64ca68559dc5158e51ed6a48e76d2453064cdb8d1408326b6c02c90b12908",
+      "bytes": 1418506
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc",
+      "bytes": 493076
+    }
+  ],
+  "additional_metadata": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\metadata_inventory.json",
+      "sha256": "67176fee744d772ab5241d6d3a2321ec933785a0764560ad225099961b140549"
+    }
+  ],
+  "complete_arrays_local_only": true
+}

@@ -4,32 +4,32 @@
     {
       "role": "role1",
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
-      "cursor": "a4ac1686-5034-48ef-9e7c-fe6208750c15:12",
+      "cursor": "a4ac1686-5034-48ef-9e7c-fe6208750c15:13",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R002 same-source PF-ratio nullspace identification derivation, dispatched11:55, active",
+      "task": "R002 nullspace theorem/R003 forward units frozen; currentlyidle after reply; wait actual experiment, no peripheral task",
       "actual_status": {
         "type": "active",
         "activeFlags": []
       },
-      "last_actual": "2026-10-31T12:00:38.147236+08:00",
-      "last_actual_note": "actual compact snapshots11:58; new dispatch12:01 where stated; refresh before further dispatch"
+      "last_actual": "2026-10-31T12:12:17.558311+08:00",
+      "last_actual_note": "latest snapshots12:08-12:11; newR004 messages after actualidle; refresh realstatus, do not treat fileactive as running"
     },
     {
       "role": "role2",
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
-      "cursor": "11a056de-2e65-48d9-90d8-2d3233b00402:19",
+      "cursor": "11a056de-2e65-48d9-90d8-2d3233b00402:25",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R003 independent actual mass identification from source CM/PF/mu; no role4 code import, dispatched12:01",
+      "task": "R003 independent CM mass identification frozen12:08:34,0must adopted; newR004 B72/sum24/coordinate3+role6theory independent10min active",
       "actual_status": {
         "type": "active",
         "activeFlags": []
       },
-      "last_actual": "2026-10-31T12:00:38.147236+08:00",
-      "last_actual_note": "actual compact snapshots11:58; new dispatch12:01 where stated; refresh before further dispatch"
+      "last_actual": "2026-10-31T12:12:17.558311+08:00",
+      "last_actual_note": "latest snapshots12:08-12:11; newR004 messages after actualidle; refresh realstatus, do not treat fileactive as running"
     },
     {
       "role": "role3",
@@ -38,43 +38,43 @@
       "initial_actual_status": {
         "type": "notLoaded"
       },
-      "task": "R001-R005 source paragraphs frozen; human own window until13:11:38; no third literature",
+      "task": "R001-R005 source notes frozen; own human90min ends13:11:38; optional precise citation check only",
       "actual_status": {
         "type": "active",
         "activeFlags": []
       },
-      "last_actual": "2026-10-31T12:00:38.147236+08:00",
-      "last_actual_note": "actual compact snapshots11:58; new dispatch12:01 where stated; refresh before further dispatch"
+      "last_actual": "2026-10-31T12:12:17.558311+08:00",
+      "last_actual_note": "latest snapshots12:08-12:11; newR004 messages after actualidle; refresh realstatus, do not treat fileactive as running"
     },
     {
       "role": "role4",
       "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
-      "cursor": "18d108d1-c129-40a5-b347-658f1f0c4b89:22",
+      "cursor": "18d108d1-c129-40a5-b347-658f1f0c4b89:25",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R002 mass identification frozen11:58:31, actualidle; next all-floor B after new task",
+      "task": "R0037200B/observability frozen12:09:49, actualidle verified; R004 direct actual300 no-fit forward .05/.08 CM-first then shear dispatched12:11,12min first results15min cap",
       "actual_status": {
         "type": "idle",
         "activeFlags": []
       },
-      "last_actual": "2026-10-31T12:00:38.147236+08:00",
-      "last_actual_note": "actual compact snapshots11:58; new dispatch12:01 where stated; refresh before further dispatch"
+      "last_actual": "2026-10-31T12:12:17.558311+08:00",
+      "last_actual_note": "latest snapshots12:08-12:11; newR004 messages after actualidle; refresh realstatus, do not treat fileactive as running"
     },
     {
       "role": "role5",
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:20",
+      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:27",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R002 v002 integrated manuscript dispatched12:01 after actualidle; source/results reviewed status explicit",
+      "task": "R002 v002 frozen12:03:28, root full read; mass audit upgrade routed, preserve frozenv002; check actual before newv003",
       "actual_status": {
         "type": "active",
         "activeFlags": []
       },
-      "last_actual": "2026-10-31T12:00:38.147236+08:00",
-      "last_actual_note": "actual compact snapshots11:58; new dispatch12:01 where stated; refresh before further dispatch"
+      "last_actual": "2026-10-31T12:12:17.558311+08:00",
+      "last_actual_note": "latest snapshots12:08-12:11; newR004 messages after actualidle; refresh realstatus, do not treat fileactive as running"
     },
     {
       "role": "role6",
@@ -83,13 +83,13 @@
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R002 conditional selected3-mode floor comparison frozen11:58:14; idle",
+      "task": "R003 observability theorem frozen; idle awaiting actual forward result, no repeated matrix experiment",
       "actual_status": {
         "type": "idle",
         "activeFlags": []
       },
-      "last_actual": "2026-10-31T12:00:38.147236+08:00",
-      "last_actual_note": "actual compact snapshots11:58; new dispatch12:01 where stated; refresh before further dispatch"
+      "last_actual": "2026-10-31T12:12:17.558311+08:00",
+      "last_actual_note": "latest snapshots12:08-12:11; newR004 messages after actualidle; refresh realstatus, do not treat fileactive as running"
     }
   ]
 }

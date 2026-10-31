@@ -1,0 +1,39 @@
+{
+  "task": "session020-role1-R003",
+  "started_at": "2026-10-31T12:07:50+08:00",
+  "budget_seconds": 480,
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\plan.md",
+      "bytes": 6493,
+      "sha256": "c7240ca68324d8f2adfe44e204cc40fb627a117bca5143a8cca4ef7180ea1ee8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\plan-theory-addendum-v001.md",
+      "bytes": 725,
+      "sha256": "2cae7dc27d99b04a91c23a366a00a3ce3582887c0354797ee7fdc08c79ef51be"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role1\\R001\\direct-physical-coefficient-one-page.md",
+      "bytes": 4976,
+      "sha256": "0ec8c7ef3ca2ca5eaa6cc842a5473fbc29ddbefc5f18812a5564d05a52e4e3e5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role1\\R002\\nullspace-mass-identifiability-one-page.md",
+      "bytes": 4530,
+      "sha256": "010aa8c875d480736ca76188de7c2520deff51c5d32407f36abd8ba5e481cd23"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R003\\input-rules-freeze.json",
+      "bytes": 1852,
+      "sha256": "21cb0ca522df4d6f355277d36cb635a78a081de95ab70d36ca6ec44da371c51d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R003\\results.json",
+      "bytes": 4734,
+      "sha256": "9f2aedf9cbacc4db1abf50859d0b1c10cc2261699523ac5012bae59d30d0640e"
+    }
+  ],
+  "scope": "interface only; no ODE, data extraction, fitting, solver/API or Git",
+  "native_CSI_Bottom_VX_sign_verified_here": false
+}

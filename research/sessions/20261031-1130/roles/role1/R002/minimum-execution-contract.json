@@ -1,0 +1,65 @@
+{
+  "status": "analytic candidate; actual-table audit pending",
+  "identification_class": "18 disjoint CM translational mass-projection partitions, covering r^T M r; not full FE mass or stiffness identification",
+  "inputs": {
+    "A": "R by18 signed CM UX rows; use a single length unit",
+    "f": "same-mode same-sign same-scale generalized load projections, up to one common nonzero conversion",
+    "modal_mass": "complete phi^T M phi, same modal scale as A",
+    "mu": "same-direction effective modal mass / total unconstrained direction mass; fraction not percent"
+  },
+  "equations": {
+    "reference": "j=argmax(abs(f)); require f_j resolved and nonzero",
+    "H_row": "A_r-(f_r/f_j)*A_j",
+    "relative_mass": "If nullity=1 with admissible sign, w=v/sum(v)",
+    "total_mass_each_resolved_mode": "M_r=mu_r*modal_mass_r/(A_r*w)^2",
+    "absolute_partition": "m_i=M_total*w_i"
+  },
+  "PF_gate": "If field is Gamma, use m_r*Gamma as mass projection after unit conversion; original H needs common m_r or an explicitly equivalent normalization.",
+  "modal_scaling_law": {
+    "A_r": "a_r*A_r",
+    "f_r": "a_r*f_r",
+    "modal_mass_r": "a_r^2*modal_mass_r",
+    "mu_r": "unchanged",
+    "result": "H rows scale by a_r; w and M_r unchanged"
+  },
+  "units_given_in_request": {
+    "A": "m",
+    "reported_ModalMass": "kN*m*s^2",
+    "conversion": "modal_mass=1000*reported_ModalMass, in kg*m^2",
+    "result_M_total": "kg",
+    "warning": "Do not label the converted generalized mass kg; global unit errors survive across-mode consistency."
+  },
+  "rank_gate": {
+    "expected_exact_rank": 17,
+    "rank_below_17": "not unique without new independent physical constraints",
+    "rank_18": "no exact nonzero common-projection mass solution",
+    "report": "all18 singular values, precision-induced error bound epsilon_H, residual, reference-change and source-rounding perturbation sensitivity",
+    "near_null": "smallest singular value compatible with noise and next singular value separated above noise; a lone SVD vector is not sufficient",
+    "row_scaling": "If used, predeclare it and propagate errors in that metric; do not promote precision-zero rows."
+  },
+  "positivity_gate": "One global sign flip allowed; no clipping mixed signs; require positive mass where independently known to exist.",
+  "zero_rows": "f_r=0 still supplies A_r*m=0; do not discard solely because participation is zero.",
+  "zero_total_scale": "mu=0 and A*w=0 gives0/0; all-zero f cannot select a reference or supply absolute mass from these ratios.",
+  "uncertainty": {
+    "ratio": "rho=f_r/f_j; delta_rho <= (delta_f_r+abs(rho)*delta_f_j)/(abs(f_j)-delta_f_j), provided denominator positive",
+    "total_mass_first_order": "relative_delta_M <= relative_delta_mu+relative_delta_modal_mass+2*abs(delta(A*w))/abs(A*w)",
+    "exclusion": "Use source precision before comparing M_r; do not select modes to obtain agreement."
+  },
+  "counterconditions": [
+    "A_r=f_r*a^T gives H=0 and nonidentifiable partitions.",
+    "A hidden mass whose observed shape is a combination of CM columns can be absorbed into apparent CM masses; even exact rank and consistent total mass cannot prove spatial coverage.",
+    "CM-only per-mode normalization with unchanged PF or modal mass violates the common-scale law."
+  ],
+  "not_certified": [
+    "actual field semantics and units",
+    "actual matrix rank or conditioning",
+    "complete CM mass coverage",
+    "physical location of inferred partitions",
+    "FE full mass matrix",
+    "stiffness or Eigen relation",
+    "Ritz elastic cut residual",
+    "actual FNA modal time histories"
+  ],
+  "data_read": "Only frozen small theory notes; no raw/model/response table extraction",
+  "ODE_or_response_fit": false
+}

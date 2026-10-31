@@ -1,0 +1,101 @@
+{
+  "task": "session020-role2-R003",
+  "status": "complete independent CM/PF/mu identification audit; conditional model-class result",
+  "started": "2026-10-31T11:59:43+08:00",
+  "identified_before_comparison": "2026-10-31T12:02:38.730870+08:00",
+  "comparison_completed": "2026-10-31T12:05:49.721350+08:00",
+  "frozen": "2026-10-31T12:08:34.740370+08:00",
+  "deadline": "2026-10-31T12:11:43+08:00",
+  "within12_minutes_since_observed_start": true,
+  "elapsed_seconds": 531.74037,
+  "train_modes": [
+    1,
+    100
+  ],
+  "holdout_modes": [
+    101,
+    300
+  ],
+  "rank_X_Y": [
+    17,
+    17
+  ],
+  "positive_weights_X_Y": [
+    18,
+    18
+  ],
+  "old_mass_not_used_to_determine_solution": true,
+  "old_file_only_read_after_independent_results_saved": true,
+  "role4_code_imported": false,
+  "no_ODE_or_raw_response_array": true,
+  "must_count": 0,
+  "scope_limits": [
+    "uniqueness only within 18 fixed CM concentrated directional mass model and numeric rank tolerance",
+    "CM translation mm to m and native generalized ModalMass to kg*m^2 fixed from source metadata, no fitted multiplier",
+    "raw PF absolute sign/SI conversion not relabelled Gamma",
+    "LinModRitz elastic cut recovery and full FE mass inner product not certified",
+    "no actual FNA coordinates recovered"
+  ],
+  "files": [
+    {
+      "name": "compare_frozen_small_tables.py",
+      "bytes": 5220,
+      "sha256": "2d79ef98a35578677987fd15e219cca247fbcb130be1c7eebdf73a002092e824"
+    },
+    {
+      "name": "comparison-checks.json",
+      "bytes": 637,
+      "sha256": "de9d53407dc5b6c0aea9f029c6baa9b03aa0f06673a6b3062cc4351dd6c28aff"
+    },
+    {
+      "name": "early-independent-results.json",
+      "bytes": 2644,
+      "sha256": "190cc74199d5776930db9b0fbea60d8f455a1163f24eb117a8e2563a7e2fd5cc"
+    },
+    {
+      "name": "independent-identification-before-comparison-36.csv",
+      "bytes": 2551,
+      "sha256": "4044521dc08366dd39a9a9a2daad6f4d751944bdb40700b2863f649cee366b0d"
+    },
+    {
+      "name": "independent-mode-checks-600.csv",
+      "bytes": 116890,
+      "sha256": "dfe226307a64bc605661ce3233f9d0702418c4fb72fc3a84c68f3bbd06e30ce1"
+    },
+    {
+      "name": "independent-singular-values-36.csv",
+      "bytes": 2516,
+      "sha256": "d43e008a8f706858868b735f76b44e6e52f39d9a6ffb366263571108a1fcaa67"
+    },
+    {
+      "name": "independent_CM_nullspace.py",
+      "bytes": 7670,
+      "sha256": "e1b12041dd2811e9d1120aa9601e32f42cfab7db9fc163861d6ff043be98f996"
+    },
+    {
+      "name": "observed-generalized-mass-selected-3.csv",
+      "bytes": 278,
+      "sha256": "9efcff8d49ca3e70b3ef2b4193bcb0fe83559f6ff58aa67d2ac9e176445b387f"
+    },
+    {
+      "name": "observed-generalized-mass-summary.json",
+      "bytes": 401,
+      "sha256": "73da648b408aa33750bf7b0c22d35efa819a832baf2a3ca8d13a27975ff461ea"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3977,
+      "sha256": "0091fbd8ba43499fe24e177aa28eef0d426d4977419b5578e83c742917f64c77"
+    },
+    {
+      "name": "post-identification-comparison-36.csv",
+      "bytes": 3875,
+      "sha256": "b17167114a397130bfcccf874080d76709f2429bcca196a43d0e233b413f83ea"
+    },
+    {
+      "name": "unit-and-scale-diagnostics.json",
+      "bytes": 1379,
+      "sha256": "e37c0cec409e0b727e71453bdceb6408c8cf617174044b4f0bd3e4c0b9b7496e"
+    }
+  ]
+}

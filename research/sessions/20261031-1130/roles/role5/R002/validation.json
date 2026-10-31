@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-31T12:03:28.422786+08:00",
+  "scope": "冻结小表哈希、候选质量摘要与稳态独算表转录、比值恒等、旧36对表保留及写作边界检查；不是质量独审或新结构验证",
+  "checks": {
+    "v001_original_hash_preserved": true,
+    "mass_production_source_hash_verified": true,
+    "mass_summary_table_from_frozen_results": true,
+    "independent_2DOF_0must_source_verified": true,
+    "steady_table_from_independent2rows": true,
+    "U_C_ratio_product_checked": true,
+    "old_engineering36_table_preserved": true,
+    "mass_result_limited_to18_CM": true,
+    "L_actual_q_precedes_B_unit_kernel": true,
+    "Gamma_zero_FNA_condition_retained": true,
+    "Ritz_and_K_difference_separate": true,
+    "steady_nonzero_initials_explicit": true,
+    "spectrum_ratio_not_real_peak_bound": true,
+    "old_results_not_new_validation": true,
+    "no_actual_FE_modal_share_claim": true,
+    "six_display_equation_blocks": true,
+    "two_references": true,
+    "no_controls_or_trailing_whitespace": true
+  },
+  "manuscript": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\physical-modal-shear-session020-v002.md",
+    "bytes": 10218,
+    "sha256": "13645bd103bcbd4b5c67121680d50eb52bb7e143c96a2ce7c351cef6388b6e02"
+  },
+  "Han_characters": 2240,
+  "Word_created": false
+}

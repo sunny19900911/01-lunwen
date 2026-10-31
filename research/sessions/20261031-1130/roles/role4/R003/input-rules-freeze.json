@@ -1,0 +1,30 @@
+{
+  "start_observed_utc": "2026-10-31T04:01:49+00:00",
+  "deadline_utc": "2026-10-31T04:13:49+00:00",
+  "frozen_utc": "2026-10-31T04:03:34.095665+00:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R002\\identified-masses-before-old-comparison-36.csv",
+      "sha256": "08afe9bfc929afbeca0fc1d319e232ccdb965ec3de1451866d0a6716c80d7384",
+      "bytes": 5821
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261022-1856\\roles\\role4\\R001\\local-cache\\CM-signed-all300-5400.csv",
+      "sha256": "16d64ca68559dc5158e51ed6a48e76d2453064cdb8d1408326b6c02c90b12908",
+      "bytes": 1418506
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc",
+      "bytes": 493076
+    }
+  ],
+  "masses": "reuse frozen R002 only; no re-identification",
+  "cut": "Storys Bottom includes Story>=s, all diaphragms",
+  "B": "m_eff*S_above/S_all; signed inertia projection, not full-FE elastic shear",
+  "m_eff": "actual modal mass ratio times R002 identified directional mass total",
+  "checks": "base B=m_eff; local Cauchy and full-modal-mass Cauchy; signed sum B vs actual identified mass above, finite300 Ritz no forced completeness",
+  "observability": "C=[diag(sqrt(mx))*PhiX;diag(sqrt(my))*PhiY], 36x300 actual q coordinates; SVD rowspace and selected e2/e10/e13 distances only",
+  "rank": "eps*max(C.shape)*sigma1; also relative1e-10",
+  "no_new_ODE_q_or_shear_fit": true
+}
