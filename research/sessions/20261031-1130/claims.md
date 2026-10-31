@@ -31,3 +31,5 @@ C020-14 reviewed engineering interpretation: role2R006 common kernel ratios/orde
 
 C020-13 supported/conditional same-time identity, reviewed: role2R008 independently reconstructed12anchors/72components1080numbers plus156024scalar/groupformula checks;0must. SHW3Story5 WA739.706906+Wh(-132.656071)=W607.050835 at22.92s; referencepeakdifference595.459811 after11.591024peak-position correction. Notpurephase/cause, notcrossanchoradding.
 C020-15 testing/direction outputvalidation: same3 inputfunctions Ydirection source settings admitted R009; role4R010 reusesXunitkernels withΓY/BY,zeroODE,216CM/144force/36peakpairs frozen;root code/read acceptedcandidate; role2R009 independentaudit active. Not6independent events.
+
+C020-15 supported/conditional direction-output validation, reviewed: role2R009 5292 numeric checks0must, independently rebuilt GammaY/BY withnativeVY; root readformalreport13:20. Combined432CMsigned and144Eabsolute histories, maxNRMSE.443101625%/.669154128%;72peakreductionpairs maxdifference.196533pp. Same3functions in2directions, not6indepquakes; no actualFNAq/fullFE/signη upgrade.

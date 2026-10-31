@@ -1,0 +1,38 @@
+{
+  "status": "closed",
+  "role": "role3",
+  "session": "20261031-1130",
+  "window_start": "2026-10-31T11:41:38+08:00",
+  "scientific_deadline": "2026-10-31T13:11:38+08:00",
+  "administrative_frozen_at": "2026-10-31T13:12:13.341213+08:00",
+  "elapsed_seconds_since_first_observed_clock": 5435.341213,
+  "deadline_not_extended": true,
+  "new_scientific_work_after_deadline": false,
+  "files": [
+    {
+      "name": "ninety-minute-handoff.md",
+      "bytes": 5478,
+      "sha256": "e657aa9d2a45b382704530c9d6d1af778f5291e13ccc49012586069204fdc66f"
+    },
+    {
+      "name": "validated-output-manifest.json",
+      "bytes": 2794,
+      "sha256": "82849a0010a5595a57b6ede6689a8e7f77205231f285ac2ca0e3061dfd3dd540"
+    }
+  ],
+  "previous_frozen_reports": 9,
+  "previous_reports_sha_verified_at": "2026-10-31T12:56:04.697093+08:00",
+  "local_links_resolve": 14,
+  "latest_fully_reviewed_manuscript": {
+    "path": "papers/damping-output-boundaries/manuscript/physical-modal-shear-session020-v005.md",
+    "bytes": 23099,
+    "sha256": "478459bac685135b9e73ce15bf95a38eeee28133d5f0c238fde2548d80b4f4bf"
+  },
+  "remaining_scientific_conditions": [
+    "actual FNA q not recovered",
+    "Ritz and target force recovery conditions remain",
+    "native Bottom VX sign mapping remains separate"
+  ],
+  "Git_and_solver_operations_by_role3": false,
+  "additional_automation_created": false
+}

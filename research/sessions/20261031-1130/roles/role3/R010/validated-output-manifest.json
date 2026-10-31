@@ -1,0 +1,71 @@
+{
+  "validated_at": "2026-10-31T12:56:04.697093+08:00",
+  "status": "R001-R009 frozen outputs verified; R010 handoff remains active until90-minute deadline",
+  "window_start": "2026-10-31T11:41:38+08:00",
+  "window_deadline": "2026-10-31T13:11:38+08:00",
+  "outputs": [
+    {
+      "path": "research/sessions/20261031-1130/roles/role3/R001/primary-definitions.md",
+      "bytes": 7277,
+      "sha256": "9fab83a62893647739f2881280301d5cc0b696133afab9171eda7517a196b56e",
+      "matches_frozen_record": true
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role3/R002/fna-output-and-writing-notes.md",
+      "bytes": 5884,
+      "sha256": "abd44ddbda9cb436657a683372058b31bad514cfeed803e35d8a9ef6bbd20e1f",
+      "matches_frozen_record": true
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role3/R003/definitions-and-paper-paragraphs.md",
+      "bytes": 8436,
+      "sha256": "65de412be33bce6b219f9428845c49da8dd61b2ec75263fc458afcf49664d360",
+      "matches_frozen_record": true
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role3/R004/spectrum-combination-discussion.md",
+      "bytes": 6363,
+      "sha256": "7b130da0a8f0f38f00ff5d84cea2c0101613f6145aca6f8895fd537d8422a3e6",
+      "matches_frozen_record": true
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role3/R005/song-direct-modal-force-sources.md",
+      "bytes": 7075,
+      "sha256": "0af6d9991c52646c3fdd6fd153071d38660319473d4fe3702ac02635efaa10b2",
+      "matches_frozen_record": true
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role3/R006/mass-identification-writing.md",
+      "bytes": 5532,
+      "sha256": "49387308134cfecb301c4485e18bae81cce2a34976ef3f768fbbd74f57627538",
+      "matches_frozen_record": true
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role3/R007/v002-source-and-definition-review.md",
+      "bytes": 3507,
+      "sha256": "eb9db7e91849fb0e736fd4e5afd8fd33b4650d5f4fb33f39473d11da63dc0fff",
+      "matches_frozen_record": true
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role3/R008/forward-result-output-scope.md",
+      "bytes": 4484,
+      "sha256": "803cc3cabca48565dbfae50813844ab1b78eee86810e25348823ce8b7bd98d5c",
+      "matches_frozen_record": true
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role3/R009/truncation-literature-and-wording.md",
+      "bytes": 4775,
+      "sha256": "7a9f739e01bc25bd54429f158d12aa862e8819399d19006927aa24c820e29ca5",
+      "matches_frozen_record": true
+    }
+  ],
+  "checks": [
+    "frozen SHA exact",
+    "byte count exact",
+    "UTF-8",
+    "no replacement characters",
+    "no trailing whitespace"
+  ],
+  "manuscript_ownership": "role5 only; role3 did not edit manuscripts",
+  "no_Git_or_solver": true
+}
