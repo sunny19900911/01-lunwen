@@ -1,0 +1,46 @@
+{
+  "checkpoint": "R001",
+  "time_utc": "2026-10-31T03:41:21.755765+00:00",
+  "HEAD": "66fb106c2164590d763e433d184a13f218785f99",
+  "previous_HEAD": "5d9aa9caf5fb4b09f44f9d8b2901742f8146c937",
+  "staged_files": [
+    "research/sessions/20261031-1130/actual-R001-dispatched.json",
+    "research/sessions/20261031-1130/automation-initial-receipt.json",
+    "research/sessions/20261031-1130/claims.md",
+    "research/sessions/20261031-1130/git-R001-publication.json",
+    "research/sessions/20261031-1130/initial-actual-snapshot.json",
+    "research/sessions/20261031-1130/plan-theory-addendum-v001.md",
+    "research/sessions/20261031-1130/plan.md",
+    "research/sessions/20261031-1130/prepare_initial_publication.py",
+    "research/sessions/20261031-1130/publish_checkpoint.py",
+    "research/sessions/20261031-1130/root-R001-model-definition.json",
+    "research/sessions/20261031-1130/root-R001-physical-three-floor/README.md",
+    "research/sessions/20261031-1130/root-R001-physical-three-floor/amplitude-and-combination-ratios-3.csv",
+    "research/sessions/20261031-1130/root-R001-physical-three-floor/manifest.json",
+    "research/sessions/20261031-1130/root-R001-physical-three-floor/modal-output-peaks-18.csv",
+    "research/sessions/20261031-1130/root-R001-physical-three-floor/physical-coefficients-9.csv",
+    "research/sessions/20261031-1130/root-R001-physical-three-floor/reconstruction-and-peak-6.csv",
+    "research/sessions/20261031-1130/root-R001-physical-three-floor/results.json",
+    "research/sessions/20261031-1130/root-R001-physical-three-floor/same-time-physical-anchors-12.csv",
+    "research/sessions/20261031-1130/root_three_floor_physical.py",
+    "research/sessions/20261031-1130/rounds/R001-root-increment.md",
+    "research/sessions/20261031-1130/rounds/R001-start.md",
+    "research/sessions/20261031-1130/runs.md",
+    "research/sessions/20261031-1130/status.json",
+    "research/sessions/20261031-1130/threads.json"
+  ],
+  "verified_blob_hashes": 24,
+  "identity_fallback": true,
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "code": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/sunny19900911/01-lunwen.git\n   5d9aa9c..66fb106  main -> main\n"
+    }
+  ],
+  "remote_HEAD": "66fb106c2164590d763e433d184a13f218785f99",
+  "remote_equals_local": true,
+  "pending_push": false,
+  "resumed_pending_receipt": null
+}

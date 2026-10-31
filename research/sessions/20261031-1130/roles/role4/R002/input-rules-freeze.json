@@ -1,0 +1,39 @@
+{
+  "start_observed_utc": "2026-10-31T03:55:46+00:00",
+  "deadline_utc": "2026-10-31T04:07:46+00:00",
+  "frozen_utc": "2026-10-31T03:57:06.877535+00:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc",
+      "bytes": 493076
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261022-1856\\roles\\role4\\R001\\local-cache\\CM-signed-all300-5400.csv",
+      "sha256": "16d64ca68559dc5158e51ed6a48e76d2453064cdb8d1408326b6c02c90b12908",
+      "bytes": 1418506
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2157\\roles\\role4\\R005\\old-CM-mass-coordinate-new-mode-key-join-18.csv",
+      "sha256": "9812b8429e659337028242b41ea00d93f46b335df77a7f20429e0d208f160c59",
+      "bytes": 3608
+    }
+  ],
+  "train_modes": [
+    1,
+    100
+  ],
+  "holdout_modes": [
+    101,
+    300
+  ],
+  "reference": "largest absolute native f among first100; report whether also global largest",
+  "rank_threshold": "eps*max(H.shape)*smax (primary), plus descriptive 1e-10 relative singular threshold",
+  "stable_projection_threshold": "abs(Aw)>1e-10*max(abs(Aw)), mu>0; retain all600 estimates and flags",
+  "total_mass_scalar": "median of stable estimates in first100 only; validate last200, never tune a multiplier",
+  "old_mass": "read only after identified masses have been saved",
+  "CM_model": "18 concentrated directional translational masses, not complete FE mass coverage",
+  "native_f": "signed UX/UY raw values used only in f_r/f_ref; no SI multiplier or Gamma relabeling",
+  "ModalMass_conversion": "native kN-m-s2 times1000 gives kg*m2",
+  "no_shear_fit_ODE_or_new_data": true
+}

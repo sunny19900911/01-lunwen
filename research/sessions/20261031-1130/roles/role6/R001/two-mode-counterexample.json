@@ -1,0 +1,87 @@
+{
+  "scope": "minimal two-modal steady harmonic counterexample, physical first-story elastic shear; not finite-zero-initial earthquake claim",
+  "M_kg": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "K_N_per_m": [
+    [
+      2.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0
+    ]
+  ],
+  "story_stiffness_N_per_m": [
+    1.0,
+    1.0
+  ],
+  "omega_rad_s": [
+    0.6180339887498949,
+    1.618033988749895
+  ],
+  "input": "ag=sin(sqrt(2)*t) m/s2, steady state",
+  "Omega_rad_s": 1.4142135623730951,
+  "B_base_kg": [
+    1.8944271909999153,
+    0.10557280900008417
+  ],
+  "rows": [
+    {
+      "zeta": 0.05,
+      "modal_abs_peak_N": [
+        0.44656254411824975,
+        0.4193909918522656
+      ],
+      "modal_complex_N": [
+        [
+          0.4459124405339834,
+          0.024087365700518
+        ],
+        [
+          -0.3932993223298451,
+          0.14561746839480388
+        ]
+      ],
+      "U_N": 0.8659535359705153,
+      "P_N": 0.17767349527288348,
+      "C": 0.20517670740123065,
+      "direct_matrix_error_N": 1.962615573354719e-16,
+      "closed_form_P_squared": 0.031567870922483345
+    },
+    {
+      "zeta": 0.08,
+      "modal_abs_peak_N": [
+        0.44555255751134454,
+        0.38476766824608244
+      ],
+      "modal_complex_N": [
+        [
+          0.44389768893982295,
+          0.0383656520703631
+        ],
+        [
+          -0.33104127427526103,
+          0.19610668844722962
+        ]
+      ],
+      "U_N": 0.8303202257574269,
+      "P_N": 0.26021884789295624,
+      "C": 0.3133957716802356,
+      "direct_matrix_error_N": 1.6184142622847344e-16,
+      "closed_form_P_squared": 0.06771384879873751
+    }
+  ],
+  "U8_over_U5": 0.9588507827118549,
+  "C8_over_C5": 1.5274432251580028,
+  "P8_over_P5": 1.464590131990671,
+  "checks": "two independent algebraic routes; closed form; both modal peaks decrease; no fitting or ODE"
+}

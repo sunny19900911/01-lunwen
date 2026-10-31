@@ -1,0 +1,44 @@
+{
+  "frozen_at": "2026-10-31T11:51:19.411790+08:00",
+  "file": "definitions-and-paper-paragraphs.md",
+  "bytes": 8436,
+  "sha256": "65de412be33bce6b219f9428845c49da8dd61b2ec75263fc458afcf49664d360",
+  "input_versions": [
+    {
+      "path": "research/sessions/20261031-1130/roles/role1/R001/direct-physical-coefficient-one-page.md",
+      "bytes": 4976,
+      "sha256": "0ec8c7ef3ca2ca5eaa6cc842a5473fbc29ddbefc5f18812a5564d05a52e4e3e5"
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role2/R001/one-page.md",
+      "bytes": 3775,
+      "sha256": "83f0ec7e07af172a30652270acac64ffacc6d11ce5c5596e4e6bb5252582a07e"
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role2/R001/actual-coordinate-addendum.md",
+      "bytes": 2564,
+      "sha256": "d3eeaf712200281f17286d7373a12429e74cdced253b8285af7dbbdb80c1624f"
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role4/R001/README-data-interface.md",
+      "bytes": 4854,
+      "sha256": "88e87e63ee27cf39a811e876b6ede6968a2121597ee418cf35171809d2a488fa"
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role4/R001/direct-small-table-inspection.json",
+      "bytes": 50921,
+      "sha256": "290076a8e7c8284e36a2be38eed7d3018d55e8d379f36c5d8d3b47f3538cded7"
+    }
+  ],
+  "source_visual_check": [
+    "CSI PDF361/print339 acceleration load sign",
+    "Song PDF55/print37 shear building and T_S"
+  ],
+  "checks": [
+    "UTF-8",
+    "no replacement characters",
+    "no trailing whitespace"
+  ],
+  "status": "literature-supported drafting material; actual GUI unit mapping remains unresolved",
+  "no_raw_reextraction": true
+}

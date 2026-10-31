@@ -1,0 +1,56 @@
+{
+  "status": "analytic candidate; role2 independent review pending",
+  "mass_projection": {
+    "S": "phi^T M r",
+    "S_cut": "r_cut^T M phi",
+    "modal_mass": "phi^T M phi > 0",
+    "Gamma": "S/modal_mass",
+    "meff": "S^2/modal_mass",
+    "B_product": "S_cut*Gamma",
+    "B_ratio": "meff*S_cut/S, only when S is resolved and nonzero"
+  },
+  "elastic_recovery": {
+    "cut_operator": "V_cut_elastic=r_cut^T K u, including every elastic crossing path",
+    "residual": "e=K phi-omega^2 M phi",
+    "coefficient_per_actual_q": "a=r_cut^T K phi=omega^2*S_cut+r_cut^T e",
+    "unit_kernel_coefficient": "B_el=a*Gamma/omega^2=B+Gamma*(r_cut^T e)/omega^2, omega>0",
+    "Eigen_sufficient_condition": "e=0",
+    "specific_cut_sufficient_condition": "r_cut^T e=0 independently verified",
+    "Ritz_projection_alone": "Phi^T e=0 does not imply r_cut^T e=0"
+  },
+  "minimum_procedure": [
+    {
+      "step": 1,
+      "action": "Freeze same-model mass, signed mode, participation, constraints, cut and unit identities; verify CM sum equals complete mass projection."
+    },
+    {
+      "step": 2,
+      "action": "Compute S, S_cut and cancellation indicator eta=abs(S)/sum(abs(m_i*phiCM_i)); quantify projection uncertainty; do not divide unresolved S."
+    },
+    {
+      "step": 3,
+      "action": "Compute B, then check base-cut B=meff, nonzero scaling/sign invariance, conditional Cauchy bound; these are mass-projection checks and do not certify elasticity."
+    },
+    {
+      "step": 4,
+      "action": "Check full Eigen residual or cut projected residual/native modal elastic cut; otherwise retain unverified elastic-output identity."
+    },
+    {
+      "step": 5,
+      "action": "For a complete M-orthogonal positive-mass modal space, check sum(meff)=r^T M r and sum(B)=r_cut^T M r; finite modes retain remainder and near-degenerate spaces require common-basis matching."
+    }
+  ],
+  "zero_and_near_zero": {
+    "S_zero": "Gamma=meff=B=0; ratio is undefined",
+    "S_near_zero": "Compare abs(S) with projection error; tiny numerator/denominator is not evidence of a large true B",
+    "rounded_tables": "Do not identify printed zero as an exact zero without precision information"
+  },
+  "actual_FNA": {
+    "B_alone_predicts_q": false,
+    "Gamma_zero": "No direct uniform-input excitation; coupled modal coordinates can still be excited indirectly.",
+    "actual_elastic_contribution": "a*q, with actual compatible modal coordinate q; never divide actual q by a zero Gamma.",
+    "other_outputs": "Nonlinear link forces, damping output and displacement truncation remainders require their own recovery."
+  },
+  "engineering_data_verified": false,
+  "new_ODE_or_fit": false
+}

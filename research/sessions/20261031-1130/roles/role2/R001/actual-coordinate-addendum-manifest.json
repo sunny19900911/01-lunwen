@@ -1,0 +1,38 @@
+{
+  "status": "R001 supplement complete; original frozen evidence unchanged",
+  "frozen": "2026-10-31T11:46:08.207480+08:00",
+  "same_original_observed_start": "2026-10-31T11:39:14+08:00",
+  "same_original_deadline": "2026-10-31T11:51:14+08:00",
+  "within_original_budget": true,
+  "elapsed_from_original_observed_start_seconds": 414.20748,
+  "original_manifest_sha256": "1533b804ddfafeda6431ad107717a10feea8884d23faa75701ca2380a0fbb1ac",
+  "original_frozen_files_verified_unchanged": 12,
+  "L_actual_coordinate_vs_GammaL_distinguished": true,
+  "zero_Gamma_coupled_response_small_example_checked": true,
+  "stiffness_operator_difference_identity": "manual algebra verified; actual software operator not certified",
+  "actual_engineering_FNA_coordinates_recovered": false,
+  "new_time_integration_or_fit": false,
+  "role6_new_example_not_reviewed_in_R001": true,
+  "files": [
+    {
+      "name": "actual-coordinate-addendum.md",
+      "bytes": 2564,
+      "sha256": "d3eeaf712200281f17286d7373a12429e74cdced253b8285af7dbbdb80c1624f"
+    },
+    {
+      "name": "actual-coordinate-coupling-1.csv",
+      "bytes": 265,
+      "sha256": "89aec17f0294639cc6a8dfe81314cb52f287440127c70fd1b7e5b34ead56a3ab"
+    },
+    {
+      "name": "actual-coordinate-addendum-checks.json",
+      "bytes": 1386,
+      "sha256": "ed2b1a32f3ffe985cd5cf354bc658607a44c0c32c64f3a7cfd0bc92a8d5ef6ba"
+    },
+    {
+      "name": "check_actual_coordinate_addendum.py",
+      "bytes": 2762,
+      "sha256": "901e14813b7328dc5f972ff6d2e3df335aa0c7705c07c81db0d337bad552e8f3"
+    }
+  ]
+}

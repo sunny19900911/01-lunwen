@@ -1,0 +1,37 @@
+{
+  "completed": "2026-10-31T11:43:26.804291+08:00",
+  "lambda": "5/13",
+  "modal_mass": "13",
+  "S": "5",
+  "Gamma": "5/13",
+  "m_eff": "25/13",
+  "residual": [
+    "3/13",
+    "-2/13"
+  ],
+  "Galerkin_residual": "0",
+  "participating_mass_fraction": "25/26",
+  "cuts": [
+    {
+      "cut": [
+        "1",
+        "1"
+      ],
+      "B_inertia": "25/13",
+      "B_elastic": "2",
+      "exact_difference": "1/13",
+      "exact_residual_correction": "1/13"
+    },
+    {
+      "cut": [
+        "0",
+        "1"
+      ],
+      "B_inertia": "15/13",
+      "B_elastic": "1",
+      "exact_difference": "-2/13",
+      "exact_residual_correction": "-2/13"
+    }
+  ],
+  "meaning": "exact rational arithmetic for this 2-coordinate, one-dimensional static Ritz subspace; not a numerical near-zero argument"
+}

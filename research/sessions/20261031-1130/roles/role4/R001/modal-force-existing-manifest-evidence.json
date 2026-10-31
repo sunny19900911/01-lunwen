@@ -1,0 +1,558 @@
+[
+  {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+    "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4",
+    "source_original": "E:\\!!!!!!!!TO HOME\\有控.xlsx",
+    "tables": {
+      "Base Reactions": {
+        "cache": "Base_Reactions.npz",
+        "data_rows": 16296,
+        "reaches_excel_row_limit": false,
+        "columns": [
+          "Time",
+          "FX",
+          "FY",
+          "FZ",
+          "MX",
+          "MY",
+          "MZ",
+          "SourceRow"
+        ],
+        "key_columns": [
+          "Output Case",
+          "Case Type"
+        ],
+        "whole_table_step_types": {
+          "Step By Step": 16296
+        },
+        "source_headers": [
+          "Output Case",
+          "Case Type",
+          "Step Type",
+          "Step Number",
+          "FX",
+          "FY",
+          "FZ",
+          "MX",
+          "MY",
+          "MZ",
+          "X",
+          "Y",
+          "Z"
+        ],
+        "groups": 6,
+        "cache_group_row_count_fields": [
+          "n"
+        ],
+        "cache_group_rows": 16296,
+        "cases": [
+          "RH4X",
+          "RH4Y",
+          "SHW4X",
+          "SHW4Y",
+          "SHW7X",
+          "SHW7Y"
+        ],
+        "case_types": [
+          "NonModHist"
+        ],
+        "modal_or_Mode_key_groups": [],
+        "no_time_or_Mode_step_groups": []
+      },
+      "Story Forces": {
+        "cache": "Story_Forces.npz",
+        "data_rows": 195552,
+        "reaches_excel_row_limit": false,
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "key_columns": [
+          "Story",
+          "Location",
+          "Output Case",
+          "Case Type"
+        ],
+        "whole_table_step_types": {
+          "Step By Step": 195552
+        },
+        "source_headers": [
+          "Story",
+          "Output Case",
+          "Case Type",
+          "Step Type",
+          "Step Number",
+          "Location",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY"
+        ],
+        "groups": 72,
+        "cache_group_row_count_fields": [
+          "n"
+        ],
+        "cache_group_rows": 195552,
+        "cases": [
+          "RH4X",
+          "RH4Y",
+          "SHW4X",
+          "SHW4Y",
+          "SHW7X",
+          "SHW7Y"
+        ],
+        "case_types": [
+          "NonModHist"
+        ],
+        "modal_or_Mode_key_groups": [],
+        "no_time_or_Mode_step_groups": []
+      },
+      "Diaphragm CM Displacements": {
+        "cache": "Diaphragm_CM_Displacements.npz",
+        "data_rows": 293328,
+        "reaches_excel_row_limit": false,
+        "columns": [
+          "Time",
+          "UX",
+          "UY",
+          "RZ",
+          "SourceRow"
+        ],
+        "key_columns": [
+          "Story",
+          "Diaphragm",
+          "Output Case",
+          "Case Type"
+        ],
+        "whole_table_step_types": {
+          "Step By Step": 293328
+        },
+        "source_headers": [
+          "Story",
+          "Diaphragm",
+          "Output Case",
+          "Case Type",
+          "Step Type",
+          "Step Number",
+          "UX",
+          "UY",
+          "RZ"
+        ],
+        "groups": 108,
+        "cache_group_row_count_fields": [
+          "n"
+        ],
+        "cache_group_rows": 293328,
+        "cases": [
+          "RH4X",
+          "RH4Y",
+          "SHW4X",
+          "SHW4Y",
+          "SHW7X",
+          "SHW7Y"
+        ],
+        "case_types": [
+          "NonModHist"
+        ],
+        "modal_or_Mode_key_groups": [],
+        "no_time_or_Mode_step_groups": []
+      }
+    }
+  },
+  {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\response_cache_manifest.json",
+    "sha256": "4836a1d9d35be32fb6b2f4898c08dab8f897426946b575a1ca5f6fb971e7e697",
+    "source_original": "E:\\!!!!!!!!TO HOME\\20261016附加阻尼3.xlsx",
+    "tables": {
+      "Base Reactions": {
+        "cache": "Base_Reactions.npz",
+        "all_data_rows": 38534,
+        "skipped_non_step": 0,
+        "elapsed_s": 1.7039999999997235,
+        "columns": [
+          "Time",
+          "FX",
+          "FY",
+          "FZ",
+          "MX",
+          "MY",
+          "MZ",
+          "SourceRow"
+        ],
+        "key_columns": [
+          "Output Case"
+        ],
+        "whole_table_step_types": {
+          "Step By Step": 38534
+        },
+        "source_headers": [
+          "Output Case",
+          "Case Type",
+          "Step Type",
+          "Step Number",
+          "FX",
+          "FY",
+          "FZ",
+          "MX",
+          "MY",
+          "MZ",
+          "X",
+          "Y",
+          "Z"
+        ],
+        "groups": 14,
+        "cache_group_row_count_fields": [
+          "n"
+        ],
+        "cache_group_rows": 38534,
+        "cases": [
+          "R1X",
+          "R1Y",
+          "RH4X",
+          "RH4Y",
+          "SHW3X",
+          "SHW3Y",
+          "SHW4X",
+          "SHW4Y",
+          "SHW5X",
+          "SHW5Y",
+          "SHW6X",
+          "SHW6Y",
+          "SHW7X",
+          "SHW7Y"
+        ],
+        "case_types": [
+          "None"
+        ],
+        "modal_or_Mode_key_groups": [],
+        "no_time_or_Mode_step_groups": []
+      },
+      "Diaphragm CM Displacements": {
+        "cache": "Diaphragm_CM_Displacements.npz",
+        "all_data_rows": 693648,
+        "skipped_non_step": 36,
+        "elapsed_s": 22.40600000000086,
+        "columns": [
+          "Time",
+          "UX",
+          "UY",
+          "RZ",
+          "SourceRow"
+        ],
+        "key_columns": [
+          "Story",
+          "Diaphragm",
+          "Output Case"
+        ],
+        "whole_table_step_types": {
+          "Step By Step": 693612,
+          "None": 36
+        },
+        "source_headers": [
+          "Story",
+          "Diaphragm",
+          "Output Case",
+          "Case Type",
+          "Step Type",
+          "Step Number",
+          "UX",
+          "UY",
+          "RZ"
+        ],
+        "groups": 252,
+        "cache_group_row_count_fields": [
+          "n"
+        ],
+        "cache_group_rows": 693612,
+        "cases": [
+          "R1X",
+          "R1Y",
+          "RH4X",
+          "RH4Y",
+          "SHW3X",
+          "SHW3Y",
+          "SHW4X",
+          "SHW4Y",
+          "SHW5X",
+          "SHW5Y",
+          "SHW6X",
+          "SHW6Y",
+          "SHW7X",
+          "SHW7Y"
+        ],
+        "case_types": [
+          "None"
+        ],
+        "modal_or_Mode_key_groups": [],
+        "no_time_or_Mode_step_groups": []
+      },
+      "Story Forces": {
+        "cache": "Story_Forces.npz",
+        "all_data_rows": 462432,
+        "skipped_non_step": 24,
+        "elapsed_s": 19.29700000000048,
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "key_columns": [
+          "Story",
+          "Location",
+          "Output Case"
+        ],
+        "whole_table_step_types": {
+          "Step By Step": 462408,
+          "None": 24
+        },
+        "source_headers": [
+          "Story",
+          "Output Case",
+          "Case Type",
+          "Step Type",
+          "Step Number",
+          "Location",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY"
+        ],
+        "groups": 168,
+        "cache_group_row_count_fields": [
+          "n"
+        ],
+        "cache_group_rows": 462408,
+        "cases": [
+          "R1X",
+          "R1Y",
+          "RH4X",
+          "RH4Y",
+          "SHW3X",
+          "SHW3Y",
+          "SHW4X",
+          "SHW4Y",
+          "SHW5X",
+          "SHW5Y",
+          "SHW6X",
+          "SHW6Y",
+          "SHW7X",
+          "SHW7Y"
+        ],
+        "case_types": [
+          "None"
+        ],
+        "modal_or_Mode_key_groups": [],
+        "no_time_or_Mode_step_groups": []
+      }
+    }
+  },
+  {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\manifest.json",
+    "sha256": "1e78f5a15bff3ebe88d59375f84de36733037fdee5baefdf5b81a95e83e58f58",
+    "source_original": "E:\\!!!!!!!!TO HOME\\小震阻尼0.xlsx",
+    "tables": {
+      "Base Reactions": {
+        "cache": "Base_Reactions.npz",
+        "data_rows": 38534,
+        "reaches_excel_row_limit": false,
+        "columns": [
+          "Time",
+          "FX",
+          "FY",
+          "FZ",
+          "MX",
+          "MY",
+          "MZ",
+          "SourceRow"
+        ],
+        "key_columns": [
+          "Output Case",
+          "Case Type"
+        ],
+        "whole_table_step_types": {
+          "Step By Step": 38534
+        },
+        "source_headers": [
+          "Output Case",
+          "Case Type",
+          "Step Type",
+          "Step Number",
+          "FX",
+          "FY",
+          "FZ",
+          "MX",
+          "MY",
+          "MZ",
+          "X",
+          "Y",
+          "Z"
+        ],
+        "groups": 14,
+        "cache_group_row_count_fields": [
+          "n"
+        ],
+        "cache_group_rows": 38534,
+        "cases": [
+          "R1X",
+          "R1Y",
+          "RH4X",
+          "RH4Y",
+          "SHW3X",
+          "SHW3Y",
+          "SHW4X",
+          "SHW4Y",
+          "SHW5X",
+          "SHW5Y",
+          "SHW6X",
+          "SHW6Y",
+          "SHW7X",
+          "SHW7Y"
+        ],
+        "case_types": [
+          "NonModHist"
+        ],
+        "modal_or_Mode_key_groups": [],
+        "no_time_or_Mode_step_groups": []
+      },
+      "Diaphragm CM Displacements": {
+        "cache": "Diaphragm_CM_Displacements.npz",
+        "data_rows": 693648,
+        "reaches_excel_row_limit": false,
+        "columns": [
+          "Time",
+          "UX",
+          "UY",
+          "RZ",
+          "SourceRow"
+        ],
+        "key_columns": [
+          "Story",
+          "Diaphragm",
+          "Output Case",
+          "Case Type"
+        ],
+        "whole_table_step_types": {
+          "Step By Step": 693612,
+          "None": 36
+        },
+        "source_headers": [
+          "Story",
+          "Diaphragm",
+          "Output Case",
+          "Case Type",
+          "Step Type",
+          "Step Number",
+          "UX",
+          "UY",
+          "RZ"
+        ],
+        "groups": 252,
+        "cache_group_row_count_fields": [
+          "n"
+        ],
+        "cache_group_rows": 693612,
+        "cases": [
+          "R1X",
+          "R1Y",
+          "RH4X",
+          "RH4Y",
+          "SHW3X",
+          "SHW3Y",
+          "SHW4X",
+          "SHW4Y",
+          "SHW5X",
+          "SHW5Y",
+          "SHW6X",
+          "SHW6Y",
+          "SHW7X",
+          "SHW7Y"
+        ],
+        "case_types": [
+          "NonModHist"
+        ],
+        "modal_or_Mode_key_groups": [],
+        "no_time_or_Mode_step_groups": []
+      },
+      "Story Forces": {
+        "cache": "Story_Forces.npz",
+        "data_rows": 462432,
+        "reaches_excel_row_limit": false,
+        "columns": [
+          "Time",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY",
+          "SourceRow"
+        ],
+        "key_columns": [
+          "Story",
+          "Location",
+          "Output Case",
+          "Case Type"
+        ],
+        "whole_table_step_types": {
+          "Step By Step": 462408,
+          "None": 24
+        },
+        "source_headers": [
+          "Story",
+          "Output Case",
+          "Case Type",
+          "Step Type",
+          "Step Number",
+          "Location",
+          "P",
+          "VX",
+          "VY",
+          "T",
+          "MX",
+          "MY"
+        ],
+        "groups": 168,
+        "cache_group_row_count_fields": [
+          "n"
+        ],
+        "cache_group_rows": 462408,
+        "cases": [
+          "R1X",
+          "R1Y",
+          "RH4X",
+          "RH4Y",
+          "SHW3X",
+          "SHW3Y",
+          "SHW4X",
+          "SHW4Y",
+          "SHW5X",
+          "SHW5Y",
+          "SHW6X",
+          "SHW6Y",
+          "SHW7X",
+          "SHW7Y"
+        ],
+        "case_types": [
+          "NonModHist"
+        ],
+        "modal_or_Mode_key_groups": [],
+        "no_time_or_Mode_step_groups": []
+      }
+    }
+  }
+]

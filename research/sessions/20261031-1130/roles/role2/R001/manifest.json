@@ -1,0 +1,83 @@
+{
+  "task": "session020-role2-R001",
+  "status": "complete conditional algebraic audit, physical Eigen test and exact Ritz counterexample",
+  "first_tool_observed_start": "2026-10-31T11:39:14+08:00",
+  "numerical_completed": "2026-10-31T11:41:05.286431+08:00",
+  "frozen": "2026-10-31T11:43:26.805933+08:00",
+  "deadline_from_observed_start": "2026-10-31T11:51:14+08:00",
+  "elapsed_since_observed_start_seconds": 252.805933,
+  "within12_minutes_since_observed_start": true,
+  "dispatch_time_not_assumed": true,
+  "formula_verdict": "mass-projection identity for S nonzero; elastic cut identity additionally needs full eigen residual or explicit recovery correction",
+  "eigen_coefficient_checks": 9,
+  "normalization_cases": 36,
+  "degenerate_cases": 2,
+  "exact_Ritz_counterexample_cuts": 2,
+  "implementation_must_count": 0,
+  "new_fit_or_ODE": false,
+  "engineering_data_read": false,
+  "role1_code_or_conclusions_read": false,
+  "source_scope": "new small physical matrices only",
+  "files": [
+    {
+      "name": "checks.json",
+      "bytes": 1474,
+      "sha256": "42cb777ab6587ce8e2582d654444d6ea517790825f389ea9c878b215944fb960"
+    },
+    {
+      "name": "complete-mass-identities-3.csv",
+      "bytes": 136,
+      "sha256": "47c1761c7dda257406bb6849133593068f5d18486d540fbd48b7e6aeb793f07b"
+    },
+    {
+      "name": "eigen-coefficients-9.csv",
+      "bytes": 2201,
+      "sha256": "18708cb4d078cac3778c3d064d19b682fcbd8c8b995436e0477887ba84fed797"
+    },
+    {
+      "name": "exact-rational-Ritz-certificate.json",
+      "bytes": 798,
+      "sha256": "6434f7a9da055d9de40fd4262d5db37efcf238a59e9cfa574c7abf2b2be1f577"
+    },
+    {
+      "name": "finalize_R001.py",
+      "bytes": 3024,
+      "sha256": "508fff1d16e0a680c3f274d46f23dc7bea8daae8aac8f9b861ef230b0e9258cd"
+    },
+    {
+      "name": "model.json",
+      "bytes": 1236,
+      "sha256": "d6c613b4dccf7cfd0365b7a65a5a6b8ca3f586b0f2b5280cb0a8fdc4565730d7"
+    },
+    {
+      "name": "normalization-invariance-36.csv",
+      "bytes": 2958,
+      "sha256": "ed947f457c77c6f2cf3dbec8cab3384b773ac4f64ef5f6a065f80c338b796e78"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3775,
+      "sha256": "83f0ec7e07af172a30652270acac64ffacc6d11ce5c5596e4e6bb5252582a07e"
+    },
+    {
+      "name": "ritz-counterexample-2.csv",
+      "bytes": 413,
+      "sha256": "80c1ba28cd28a121956cb1d300d4c8d348b1c0f768461d27c05263b1a591b14c"
+    },
+    {
+      "name": "ritz-model.json",
+      "bytes": 562,
+      "sha256": "852fd5c165a78257900f7f2a6fd126c3bdeb5c2c20830b913c7ce37801cecfbe"
+    },
+    {
+      "name": "verify_physical_coefficients.py",
+      "bytes": 6817,
+      "sha256": "9937c5f7eb2f4a4f7e6f43b3c49261f5aca592c1bbf8bcb8bc2077ba4810ce87"
+    },
+    {
+      "name": "zero-near-zero-participation-2.csv",
+      "bytes": 504,
+      "sha256": "793ae3b8b5e59992d173aef3eb772b2c7288b289434d520a02cc499a5e44e476"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "frozen_at": "2026-10-31T11:55:11.478268+08:00",
+  "file": "spectrum-combination-discussion.md",
+  "bytes": 6363,
+  "sha256": "7b130da0a8f0f38f00ff5d84cea2c0101613f6145aca6f8895fd537d8422a3e6",
+  "inputs": [
+    {
+      "path": "research/sessions/20261031-1130/roles/role6/R001/method.md",
+      "sha256": "51d293434dc97e790d252f52253b8307b7234f5a0a656f971241f71ff7a511bc",
+      "bytes": 5835
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role6/R001/two-mode-counterexample.json",
+      "sha256": "202a1424563abd8c6e59a782d6a07ba61bcdf24090befa23fa78ce08b98bd591",
+      "bytes": 1972
+    }
+  ],
+  "source_pages": "CSI print384-386/PDF406-408; print388-391/PDF410-413",
+  "visual_check": [
+    "PDF406",
+    "PDF412"
+  ],
+  "status": "source-supported writing; no new numerical claims; role6 numerical example not independently recomputed here"
+}

@@ -1,0 +1,93 @@
+{
+  "frozen_utc": "2026-10-31T03:58:31.962564+00:00",
+  "outputs": [
+    {
+      "name": "constraint-singular-values-36.csv",
+      "bytes": 2765,
+      "sha256": "2f09d150fff0cccdf42ee37c7aeb72b912a9feb9473e416b85b454b6d75cc509"
+    },
+    {
+      "name": "early-rank-and-identification.json",
+      "bytes": 3849,
+      "sha256": "2a2d78a7ce01ac8c54b73b148158d4da6da5d653c238b62e0fd14e720a196d3d"
+    },
+    {
+      "name": "finalize_identification.py",
+      "bytes": 7400,
+      "sha256": "795c08bde15c4fe10e725c4a9273e7342b6c98493c67e6d024998ce691b9d558"
+    },
+    {
+      "name": "identified-masses-before-old-comparison-36.csv",
+      "bytes": 5821,
+      "sha256": "08afe9bfc929afbeca0fc1d319e232ccdb965ec3de1451866d0a6716c80d7384"
+    },
+    {
+      "name": "identified-versus-old-directional-masses-36.csv",
+      "bytes": 9075,
+      "sha256": "60a9c78c253591bfd633fe7e5b3e7f225af730e274e30a054c9a3cca9e811d0b"
+    },
+    {
+      "name": "identify_CM_masses.py",
+      "bytes": 8887,
+      "sha256": "29e7d9007248458b5b99ce527dcfd130a8b7ab73af409f13b25f7da1f6ac357f"
+    },
+    {
+      "name": "independent-mode-total-mass-estimates-600.csv",
+      "bytes": 97071,
+      "sha256": "6c04a6c4d37991f416989406d0c8d16c90db35e1b3dd9fbb9da966dbfcbc3703"
+    },
+    {
+      "name": "input-rules-freeze.json",
+      "bytes": 2052,
+      "sha256": "68addee71a174f7e3d3ea9e96eb8d5f49d8b5b995a54953ce0c429c051275ee2"
+    },
+    {
+      "name": "largest-total-mass-estimate-deviations-10.csv",
+      "bytes": 1818,
+      "sha256": "b267871d1973b93f3e4449c91ade70d9f65e2eb33c27efa79933d71c92a7107c"
+    },
+    {
+      "name": "observed-XY-generalized-mass-check-300.csv",
+      "bytes": 67080,
+      "sha256": "2cbbe271c96c2dd42cbcc9e233b1cb2363d2cd199d159011007950d70ac7210c"
+    },
+    {
+      "name": "projection-constraint-train100-holdout200-600.csv",
+      "bytes": 109564,
+      "sha256": "fe26a8791fd6294ce1f3dce355d1131c55a7b05e659edaf0f34e25f6053a1fcd"
+    },
+    {
+      "name": "README-CM-mass-identification.md",
+      "bytes": 4432,
+      "sha256": "2dbe4947207b6ca06c3048a69a046b6bdc55b77f45e41ad4dbdf9dac86a30c3a"
+    },
+    {
+      "name": "results.json",
+      "bytes": 7171,
+      "sha256": "bb846961767ab9631eadb2bc3d8d140106fb857057aa21bfccd9289ee669889b"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 833,
+      "sha256": "eb0a31d0d32252705b6ec5a3a1706500b886ff7829fa30b7dd646b4012a28060"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc",
+      "bytes": 493076
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261022-1856\\roles\\role4\\R001\\local-cache\\CM-signed-all300-5400.csv",
+      "sha256": "16d64ca68559dc5158e51ed6a48e76d2453064cdb8d1408326b6c02c90b12908",
+      "bytes": 1418506
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2157\\roles\\role4\\R005\\old-CM-mass-coordinate-new-mode-key-join-18.csv",
+      "sha256": "9812b8429e659337028242b41ea00d93f46b335df77a7f20429e0d208f160c59",
+      "bytes": 3608
+    }
+  ],
+  "complete_arrays_local_only": true
+}

@@ -1,0 +1,113 @@
+{
+  "frozen_utc": "2026-10-31T03:44:52.546387+00:00",
+  "outputs": [
+    {
+      "name": "actual-CM-signed-selected2-10-13-54.csv",
+      "bytes": 14255,
+      "sha256": "e4905d50a15f05d75231303803369516456e16b19e84946e9e8af0557d9af46f"
+    },
+    {
+      "name": "analyze_interface.py",
+      "bytes": 6574,
+      "sha256": "e54614ec069ac3821509e8eea2641a43e45a4915ba11c85cce27076434646091"
+    },
+    {
+      "name": "conditional-mass-projection-examples-18.csv",
+      "bytes": 5710,
+      "sha256": "2d340b9e4a60f5b5150998e419ddd6b2093dc1e0930f086ab653d69b7ab6453a"
+    },
+    {
+      "name": "core-cache-metadata-only.json",
+      "bytes": 731,
+      "sha256": "bcfd601b0d451f56a653c9fe9a40800c776d7250cda4fc7138914286608d49fd"
+    },
+    {
+      "name": "cross-source-mass-projection-diagnostics-600.csv",
+      "bytes": 221954,
+      "sha256": "6874bd56d2b6b5253867781f7b9f99653d982dd1cffb3d2215ca77a2b4b9ba04"
+    },
+    {
+      "name": "direct-small-table-inspection.json",
+      "bytes": 50921,
+      "sha256": "290076a8e7c8284e36a2be38eed7d3018d55e8d379f36c5d8d3b47f3538cded7"
+    },
+    {
+      "name": "freeze_interface.py",
+      "bytes": 11520,
+      "sha256": "3166460b98b43b22a824a5b2b64fe06a358f314c81eb1a84ed1d55047c0bbe30"
+    },
+    {
+      "name": "inspect_existing.py",
+      "bytes": 1342,
+      "sha256": "4ef69d30f0e1c02cc95bdcb5a30c886c05398d978f0aa89ccc6e7906e06c05fd"
+    },
+    {
+      "name": "modal-basis-identity-numeric-comparison-18.csv",
+      "bytes": 3723,
+      "sha256": "d257069828b4b4190182c6d440e702c196e5258b5eb52e806ccb5ae1fe013201"
+    },
+    {
+      "name": "model-identity-matrix-5.csv",
+      "bytes": 2730,
+      "sha256": "04b3dac3c6f37e8e2a168813bdb27d78b445cfa57fdc4469d4b4cb3dbf691ead"
+    },
+    {
+      "name": "old-D-directional-mass-and-key-coverage-18.csv",
+      "bytes": 3608,
+      "sha256": "9812b8429e659337028242b41ea00d93f46b335df77a7f20429e0d208f160c59"
+    },
+    {
+      "name": "README-data-interface.md",
+      "bytes": 4854,
+      "sha256": "88e87e63ee27cf39a811e876b6ede6968a2121597ee418cf35171809d2a488fa"
+    },
+    {
+      "name": "results.json",
+      "bytes": 28314,
+      "sha256": "a07959e62c1d095d741403701d2d1dabd3978dcc74730be37fd75b2e4c05fd5b"
+    },
+    {
+      "name": "table-field-coverage-12.csv",
+      "bytes": 6471,
+      "sha256": "1027522d9ccdac03f04c965ffe6a0b17120b20901e37b5020da605e60c000734"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 981,
+      "sha256": "a74407eaf7738780b7fa1b42a36276abf0fa10a9ca356f5278d2eed3704465c8"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "bytes": 493076,
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261022-1856\\roles\\role4\\R001\\local-cache\\CM-signed-all300-5400.csv",
+      "bytes": 1418506,
+      "sha256": "16d64ca68559dc5158e51ed6a48e76d2453064cdb8d1408326b6c02c90b12908"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2157\\roles\\role4\\R005\\old-CM-mass-coordinate-new-mode-key-join-18.csv",
+      "bytes": 3608,
+      "sha256": "9812b8429e659337028242b41ea00d93f46b335df77a7f20429e0d208f160c59"
+    },
+    {
+      "path": "E:\\!!!!!!!!TO HOME\\20261021\\模态的位移角.xlsx",
+      "bytes": 881169,
+      "sha256": "aa593ff61d6e61d40535d177f52b068c23cd920adba9a76ba29676e67afc8f8a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\small_tables.json",
+      "bytes": 326749,
+      "sha256": "6645a531ad58d68f38d44991037903852a5a79f727be765cb7efbf674bee48eb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native0_small_tables.json",
+      "bytes": 10534669,
+      "sha256": "20815b312c71b0c4e8260573752faccbd922c40d84e28bc2549becfca880a972"
+    }
+  ],
+  "complete_modal_array_upload_allowed": false
+}

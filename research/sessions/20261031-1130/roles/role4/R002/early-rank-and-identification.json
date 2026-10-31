@@ -1,0 +1,107 @@
+{
+  "saved_before_old_mass_read_utc": "2026-10-31T03:57:06.948891+00:00",
+  "axis_results": [
+    {
+      "Axis": "X",
+      "reference_Mode": 2,
+      "reference_is_also_global_max": true,
+      "train_rank": 17,
+      "train_rank_relative1e10": 17,
+      "all300_rank": 17,
+      "train_singular_values": [
+        4.01493419262945e-05,
+        2.4284874749326193e-05,
+        2.401600048259634e-05,
+        2.391584738041445e-05,
+        2.2878104429889385e-05,
+        2.2408800306309494e-05,
+        1.944192284894509e-05,
+        1.6167078649349992e-05,
+        1.592419716333554e-05,
+        2.763963734169531e-06,
+        1.99293492794422e-06,
+        1.3379964844536847e-06,
+        7.520684562014189e-07,
+        3.0451422106408464e-07,
+        2.738720129176263e-07,
+        2.5218866983083426e-07,
+        1.2139466296430093e-07,
+        2.2235591148096694e-21
+      ],
+      "nullspace_dimension": 1,
+      "min_identified_weight": 0.012989079439355011,
+      "sum_identified_weights": 0.9999999999999999,
+      "relative_H_train_null_residual": 7.554959876578586e-17,
+      "train_max_abs_projection_constraint_residual_m": 6.352747104407253e-22,
+      "holdout_max_abs_projection_constraint_residual_m": 1.9462732632760188e-20,
+      "holdout_max_residual_over_train_max_Aw": 5.26324663409524e-15,
+      "train_mass_spread": {
+        "count": 100,
+        "minimum_kg": 47440864.26970395,
+        "median_kg": 47440864.269713156,
+        "maximum_kg": 47440864.26972735,
+        "max_relative_deviation_vs_train_median": 2.9909408283401717e-13
+      },
+      "holdout_mass_spread": {
+        "count": 200,
+        "minimum_kg": 47440864.26716753,
+        "median_kg": 47440864.269710705,
+        "maximum_kg": 47440864.2708528,
+        "max_relative_deviation_vs_train_median": 5.3658855136973216e-11
+      },
+      "unstable_mode_numbers": [],
+      "identified_total_mass_kg": 47440864.269713156
+    },
+    {
+      "Axis": "Y",
+      "reference_Mode": 1,
+      "reference_is_also_global_max": true,
+      "train_rank": 17,
+      "train_rank_relative1e10": 17,
+      "all300_rank": 17,
+      "train_singular_values": [
+        4.0188855254048967e-05,
+        2.4567111266504528e-05,
+        2.386201218330017e-05,
+        2.3364309429404417e-05,
+        2.1515973537121198e-05,
+        1.821761338202421e-05,
+        1.7569392589701044e-05,
+        1.6248748919758194e-05,
+        1.1170346091496238e-05,
+        6.655548142550194e-06,
+        3.0696164674052336e-06,
+        8.342550107223377e-07,
+        2.7667697308977177e-07,
+        2.0421150283964809e-07,
+        1.6332200969861535e-07,
+        1.249171237638509e-07,
+        7.43075619614887e-08,
+        2.827674338447361e-21
+      ],
+      "nullspace_dimension": 1,
+      "min_identified_weight": 0.012989079439355013,
+      "sum_identified_weights": 1.0,
+      "relative_H_train_null_residual": 9.806240199492733e-17,
+      "train_max_abs_projection_constraint_residual_m": 8.470329472543003e-22,
+      "holdout_max_abs_projection_constraint_residual_m": 5.117931885988093e-20,
+      "holdout_max_residual_over_train_max_Aw": 1.3802832112121092e-14,
+      "train_mass_spread": {
+        "count": 100,
+        "minimum_kg": 47440864.26970936,
+        "median_kg": 47440864.26971297,
+        "maximum_kg": 47440864.269717805,
+        "max_relative_deviation_vs_train_median": 1.0191847366058937e-13
+      },
+      "holdout_mass_spread": {
+        "count": 200,
+        "minimum_kg": 47440864.269252226,
+        "median_kg": 47440864.26970968,
+        "maximum_kg": 47440864.27050071,
+        "max_relative_deviation_vs_train_median": 1.6604717600898766e-11
+      },
+      "unstable_mode_numbers": [],
+      "identified_total_mass_kg": 47440864.26971297
+    }
+  ]
+}

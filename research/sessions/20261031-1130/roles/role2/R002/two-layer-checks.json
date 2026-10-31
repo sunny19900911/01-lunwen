@@ -1,0 +1,89 @@
+{
+  "completed": "2026-10-31T11:52:01.198518+08:00",
+  "M": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "K": [
+    [
+      2.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0
+    ]
+  ],
+  "sqrtK_exact_expression": "(K+I)/sqrt(5)",
+  "omega": [
+    0.6180339887498949,
+    1.618033988749895
+  ],
+  "B_base_kg": [
+    1.8944271909999153,
+    0.10557280900008413
+  ],
+  "ratios": {
+    "U8_over_U5": 0.958850782711855,
+    "P8_over_P5": 1.4645901319906707,
+    "C8_over_C5": 1.5274432251580026
+  },
+  "complex_values": {
+    "0.05": {
+      "physical_displacement_amplitude": [
+        [
+          0.05261311820413847,
+          0.16970483409532192
+        ],
+        [
+          0.9645738337425465,
+          -0.05102236842081584
+        ]
+      ],
+      "modal_first_spring_force_amplitudes": [
+        [
+          0.4459124405339834,
+          0.024087365700518
+        ],
+        [
+          -0.39329932232984494,
+          0.14561746839480383
+        ]
+      ]
+    },
+    "0.08": {
+      "physical_displacement_amplitude": [
+        [
+          0.1128564146645625,
+          0.23447234051759253
+        ],
+        [
+          0.9228363074133494,
+          -0.059123669831173814
+        ]
+      ],
+      "modal_first_spring_force_amplitudes": [
+        [
+          0.44389768893982295,
+          0.0383656520703631
+        ],
+        [
+          -0.3310412742752609,
+          0.19610668844722953
+        ]
+      ]
+    }
+  },
+  "min_added_damping_eigenvalue": 0.037082039324993696,
+  "P_squared_derivation": "t=2*zeta*sqrt(2/5); u1_hat=3*i*t/(1+5*t^2+5*i*t); abs(u1_hat)^2=9*t^2/(1+35*t^2+25*t^4)",
+  "derivative_sign": "d(P^2)/d(zeta)=(144/5)*zeta*(1-64*zeta^4)/(1+56*zeta^2+64*zeta^4)^2 >0 for 0<zeta<1/sqrt(8)",
+  "initial_state": "sin input steady solution u(0)=Im(u_hat), v(0)=Omega*Re(u_hat), generally nonzero; no zero-initial finite-input claim",
+  "output": "first story spring force k1*u1, k1=1 N/m",
+  "role6_formula_and_values_pass": true
+}

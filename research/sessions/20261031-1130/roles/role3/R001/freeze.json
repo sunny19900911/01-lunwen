@@ -1,0 +1,38 @@
+{
+  "role": "role3",
+  "round": "R001",
+  "started_at": "2026-10-31T11:39:21+08:00",
+  "original_deadline": "2026-10-31T11:49:21+08:00",
+  "frozen_at": "2026-10-31T11:43:55.976021+08:00",
+  "late": false,
+  "source_hashes_verified": [
+    {
+      "name": "CSI",
+      "path": "W5-重燃双塔连体/research/maxwell-20261017/roles/verification/csi-analysis-reference-2016.pdf",
+      "bytes": 7811196,
+      "sha256": "7f6f6890afee2e1890d33f5d34d53d8e23f60850890bd230848642b50a6291ac"
+    },
+    {
+      "name": "Song",
+      "path": "W5-重燃双塔连体/research/maxwell-20261017/roles/novelty/evidence/MCEER-08-0005.pdf",
+      "bytes": 1798029,
+      "sha256": "941a58f7a8e88975405ccfdfeea412a42d9f982ca7ff3c6a055a93c8c25fda48"
+    }
+  ],
+  "output": {
+    "file": "primary-definitions.md",
+    "bytes": 7277,
+    "sha256": "9fab83a62893647739f2881280301d5cc0b696133afab9171eda7517a196b56e"
+  },
+  "checks": [
+    "UTF-8",
+    "no replacement characters",
+    "no trailing whitespace",
+    "source hashes exact"
+  ],
+  "limitations": [
+    "actual CM mass coverage and case type not certified",
+    "no solver/API invoked",
+    "no manuscript/shared ledger/Git edits"
+  ]
+}

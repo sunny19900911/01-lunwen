@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-31T11:42:16.124490+08:00",
+  "scope": "写作结构、来源字节、旧数值转录和候选表述范围核对；不作新物理公式独审或工程验证",
+  "checks": {
+    "019_final_hash_preserved": true,
+    "006_final_hash_preserved": true,
+    "old_numbers_explicitly_inherited": true,
+    "no_new_physical_B_claim": true,
+    "candidate_status_explicit": true,
+    "B_inertial_before_elastic_distinguished": true,
+    "Eigen_Ritz_and_residual_conditions_present": true,
+    "zero_nearzero_projection_conditions_present": true,
+    "controlled_to_baseline_model_identity_not_assumed": true,
+    "no_unpaired_SHW7_or_layout_results_in_body": true,
+    "FNA_not_independent_SDOF": true,
+    "complete_table_interface_present": true,
+    "four_equation_blocks": true,
+    "two_references": true,
+    "no_unexpected_control_or_trailing_whitespace": true
+  },
+  "manuscript": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\physical-modal-shear-session020-v001.md",
+    "bytes": 7119,
+    "sha256": "f9cf58524274c7a04ff9410ea25523307210fc32d73fbc20d90651d76f2d8c9c"
+  },
+  "Han_characters": 1795,
+  "Word_created": false
+}

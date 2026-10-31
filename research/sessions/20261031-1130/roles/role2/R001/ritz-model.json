@@ -1,0 +1,41 @@
+{
+  "M": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "K": [
+    [
+      2.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0
+    ]
+  ],
+  "input": [
+    1.0,
+    1.0
+  ],
+  "static_Ritz_vector_KinvMr": [
+    2.0,
+    3.0
+  ],
+  "projected_lambda": 0.38461538461538464,
+  "full_eigenvalues": [
+    0.38196601125010515,
+    2.618033988749895
+  ],
+  "full_eigen_residual": [
+    0.23076923076923073,
+    -0.15384615384615397
+  ],
+  "Galerkin_vT_residual": -4.440892098500626e-16,
+  "inertia_and_elastic_coefficients_not_equal": true
+}

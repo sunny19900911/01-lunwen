@@ -1,0 +1,64 @@
+{
+  "status": "complete conditional role6 method and independent matrix/scalar audit; 0 must",
+  "started": "2026-10-31T11:49:25+08:00",
+  "numerical_completed": "2026-10-31T11:52:01.200038+08:00",
+  "frozen": "2026-10-31T11:53:49.264103+08:00",
+  "deadline": "2026-10-31T11:59:25+08:00",
+  "within10_minutes_since_observed_start": true,
+  "elapsed_seconds": 264.264103,
+  "must_count": 0,
+  "two_layer_states": 2,
+  "independent_routes": "physical 2x2 dynamic stiffness with polynomial sqrt(K), and Eigen modal projection",
+  "closed_form_checked": true,
+  "steady_initial_states": "different, nonzero; no common finite-initial transient assertion",
+  "root_physical_coefficients": 9,
+  "root_ratio_identity_rows": 3,
+  "no_new_fit_ODE_or_large_array_read": true,
+  "scope_limits": [
+    "no root historical raw-extrema or full reconstruction rerun",
+    "steady harmonic 46.459% not transferred to engineering or zero-initial finite input",
+    "spectrum envelope ratio not used as actual peak-ratio bound"
+  ],
+  "files": [
+    {
+      "name": "checks.json",
+      "bytes": 635,
+      "sha256": "551c767cc5859d57c39d50334bb5c4b19f3e98b9bc1ef5ad910e16389eeae430"
+    },
+    {
+      "name": "independent-two-layer-steady-2.csv",
+      "bytes": 735,
+      "sha256": "437d71d6f215769f74d0a1273a1f917270353f8652551f0894777c765cc36bc8"
+    },
+    {
+      "name": "independent_frequency_and_tables.py",
+      "bytes": 8055,
+      "sha256": "68d7e3adf93085c8787886237e555062b6661776abefb188f15b828228501751"
+    },
+    {
+      "name": "input-freeze.json",
+      "bytes": 336,
+      "sha256": "1e856c16254da2f2ed5c563f103a41befb4a235076b49a1a17a561dc1112a6c4"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3257,
+      "sha256": "9fa392999622141f2190dfac0b32226f63076e836bd7ffaec82a72750dce300a"
+    },
+    {
+      "name": "root-coefficients-independent-9.csv",
+      "bytes": 1185,
+      "sha256": "1b677552c3a91a8afbec53f82bdbb5c94d1f9f317c5f43b057ffc52ec82f0e86"
+    },
+    {
+      "name": "root-ratio-identities-3.csv",
+      "bytes": 301,
+      "sha256": "aa5323fd4b50d454558dfb14fb5b551a3f09062a83d70fee6000440c38a4c8b5"
+    },
+    {
+      "name": "two-layer-checks.json",
+      "bytes": 1985,
+      "sha256": "cf95a51b45818ee46b899cabe87b70e66436d67c710ebfaabcf9c10f90326c0e"
+    }
+  ]
+}

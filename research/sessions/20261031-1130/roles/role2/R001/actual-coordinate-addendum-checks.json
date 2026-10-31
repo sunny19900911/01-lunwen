@@ -1,0 +1,77 @@
+{
+  "completed": "2026-10-31T11:45:24.203734+08:00",
+  "same_original_deadline": "2026-10-31T11:51:14+08:00",
+  "within_original_observed_budget": true,
+  "M": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "K": [
+    [
+      3.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      3.0
+    ]
+  ],
+  "C_physical": [
+    [
+      0.7499999999999998,
+      -0.04999999999999996
+    ],
+    [
+      -0.04999999999999999,
+      0.5499999999999998
+    ]
+  ],
+  "C_modal": [
+    [
+      0.6,
+      0.1
+    ],
+    [
+      0.1,
+      0.7
+    ]
+  ],
+  "Phi_columns": [
+    [
+      0.7071067811865475,
+      0.7071067811865475
+    ],
+    [
+      0.7071067811865475,
+      -0.7071067811865475
+    ]
+  ],
+  "Gamma": [
+    1.414213562373095,
+    0.0
+  ],
+  "lambda": [
+    2.0,
+    4.0
+  ],
+  "initial_acceleration_constant_ag1": [
+    -1.414213562373095,
+    -0.0
+  ],
+  "initial_jerk_constant_ag1": [
+    0.8485281374238569,
+    0.1414213562373095
+  ],
+  "operator": "a=(1,0), output=a^T K u includes intertower connector; not labelled single-tower ground-spring shear",
+  "source_addendum_sha256": "d7f36ae6fe1d6cbbb73d20de2b2f22392ca1d8dbd31bc4e98a2b18349679d124",
+  "actual_FNA_coordinates_recovered": false,
+  "time_integration": false,
+  "new_fit": false,
+  "original_frozen_files_modified": false
+}

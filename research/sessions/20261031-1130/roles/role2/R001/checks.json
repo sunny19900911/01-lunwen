@@ -1,0 +1,35 @@
+{
+  "completed": "2026-10-31T11:41:05.286431+08:00",
+  "model": "new 3-story physical shear model only",
+  "eigen_coefficient_checks": 9,
+  "normalization_cases": 36,
+  "complete_mass_checks": 3,
+  "base_B_equals_meff_checks": 3,
+  "Cauchy_checks": 9,
+  "zero_and_near_zero_cases": 2,
+  "Ritz_cut_counterexamples": 2,
+  "max_Eigen_ratio_vs_elastic_error": 2.6645352591003757e-15,
+  "max_normalization_change": 1.7763568394002505e-15,
+  "Ritz_full_residual_norm": 0.2773500981126146,
+  "must_count": 0,
+  "new_fits": 0,
+  "time_integration": false,
+  "role1_code_imported": false,
+  "engineering_data_read": false,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\plan.md",
+      "sha256": "c7240ca68324d8f2adfe44e204cc40fb627a117bca5143a8cca4ef7180ea1ee8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\plan-theory-addendum-v001.md",
+      "sha256": "2cae7dc27d99b04a91c23a366a00a3ce3582887c0354797ee7fdc08c79ef51be"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role2\\R001\\verify_physical_coefficients.py",
+      "sha256": "9937c5f7eb2f4a4f7e6f43b3c49261f5aca592c1bbf8bcb8bc2077ba4810ce87"
+    }
+  ]
+}

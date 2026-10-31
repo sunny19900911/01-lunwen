@@ -1,0 +1,33 @@
+{
+  "frozen_utc": "2026-10-31T03:58:31.962564+00:00",
+  "started_utc": "2026-10-31T03:55:46+00:00",
+  "elapsed_seconds": 165.962564,
+  "train_modes": [
+    1,
+    100
+  ],
+  "holdout_modes": [
+    101,
+    300
+  ],
+  "train_rank_XY": [
+    17,
+    17
+  ],
+  "nullspace_dimension_XY": [
+    1,
+    1
+  ],
+  "all_36_directional_masses_positive": true,
+  "identified_mass_saved_before_old_read": true,
+  "mass_estimates_retained": 600,
+  "observed_mass_checks_retained": 300,
+  "max_scalar_M_formula_recheck_relative_error": 0.0,
+  "max_observed_fraction_formula_recheck_error": 0.0,
+  "source_hashes_unchanged": true,
+  "no_output_shear_fit": true,
+  "no_f_SI_multiplier_tuning": true,
+  "no_actual_q_recovery": true,
+  "complete_FE_mass_coverage_certified": false,
+  "no_ODE_or_solver_or_Git": true
+}

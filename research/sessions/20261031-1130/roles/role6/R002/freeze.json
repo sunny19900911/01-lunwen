@@ -1,0 +1,39 @@
+{
+  "status": "candidate conditional engineering example; method audit pending",
+  "actual_start_local": "2026-10-31T11:55:46+08:00",
+  "freeze_local": "2026-10-31T11:58:14+08:00",
+  "elapsed_seconds": 148.714532,
+  "limit_seconds": 480,
+  "within_limit": true,
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R001\\conditional-mass-projection-examples-18.csv",
+      "sha256": "2d340b9e4a60f5b5150998e419ddd6b2093dc1e0930f086ab653d69b7ab6453a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R001\\modal-basis-identity-numeric-comparison-18.csv",
+      "sha256": "d257069828b4b4190182c6d440e702c196e5258b5eb52e806ccb5ae1fe013201"
+    }
+  ],
+  "source_SHA_checked": true,
+  "row_count": 6,
+  "exact_selected3_weights_sum1": true,
+  "conditional_mass_identity": false,
+  "Ritz_elastic_output_certified": false,
+  "other_modes_zero_filled": false,
+  "new_fit_ODE_raw_extraction_or_spectrum": false,
+  "files": {
+    "build_selected_example.py": {
+      "bytes": 6813,
+      "sha256": "5a885547d6c8dbd5bcd7f247c3b2f58ab238c9b423e8fa27b743c8d30a8d185c"
+    },
+    "one-page.md": {
+      "bytes": 2553,
+      "sha256": "5f86d1a83ecd5d917f03ff4a6a8d2af7b3065726028c36817123050ee772b3b7"
+    },
+    "selected3-conditional-cut-comparison-6.csv": {
+      "bytes": 2746,
+      "sha256": "1d40b0657175987a44a0a91a43d0299e0d992c459626df225ea16f7a9ab8f7cf"
+    }
+  }
+}

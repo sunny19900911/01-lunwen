@@ -1,0 +1,22 @@
+{
+  "completed_at": "2026-10-31T11:42:42.736399+08:00",
+  "elapsed_seconds": 210.736399,
+  "budget_seconds": 600,
+  "within_budget": true,
+  "evidence_type": "analytic-derivation",
+  "review_status": "candidate; independent role2 review pending",
+  "checks": {
+    "algebraic_elimination": "manually verified",
+    "nonzero_sign_and_scale_invariance": "manually verified",
+    "units_and_CM_projection_conditions": "explicit",
+    "Ritz_projected_residual_retained": true,
+    "Gamma_zero_coupled_response_caveat": true,
+    "source_hashes_unchanged": true,
+    "document_required_conditions_present": true,
+    "large_data_read": false,
+    "ODE_or_fit_performed": false,
+    "numerical_engineering_verification": false,
+    "Git_used": false
+  },
+  "limits": "No engineering source tables or modal cut results examined; theorem conditions do not certify actual model identity or actual q."
+}
