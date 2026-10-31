@@ -1,0 +1,44 @@
+{
+  "checkpoint": "R007",
+  "time_utc": "2026-10-31T05:22:18.846373+00:00",
+  "HEAD": "d4e2a896e799869ad1188469f9528b18a1ed7cc6",
+  "previous_HEAD": "8c241ecce304cc4f3001854ae083703d56ed7ff0",
+  "staged_files": [
+    "research/sessions/20261031-1130/R007-actual-snapshot.json",
+    "research/sessions/20261031-1130/automation-R007-update-receipt.json",
+    "research/sessions/20261031-1130/checkpoint_R007.py",
+    "research/sessions/20261031-1130/claims.md",
+    "research/sessions/20261031-1130/git-R006-receipt.json",
+    "research/sessions/20261031-1130/git-R007-publication.json",
+    "research/sessions/20261031-1130/roles/role2/R009/audit_Y_forward.py",
+    "research/sessions/20261031-1130/roles/role2/R009/independent-Y-CM-metrics-216.csv",
+    "research/sessions/20261031-1130/roles/role2/R009/independent-Y-E-UPC-36.csv",
+    "research/sessions/20261031-1130/roles/role2/R009/independent-Y-VY-absolute-metrics-144.csv",
+    "research/sessions/20261031-1130/roles/role2/R009/independent-Y-peak-decrease-36.csv",
+    "research/sessions/20261031-1130/roles/role2/R009/independent-Y-time-source-pairings-180.csv",
+    "research/sessions/20261031-1130/roles/role2/R009/key-results.json",
+    "research/sessions/20261031-1130/roles/role2/R009/manifest.json",
+    "research/sessions/20261031-1130/roles/role2/R009/one-page.md",
+    "research/sessions/20261031-1130/roles/role3/R010/freeze.json",
+    "research/sessions/20261031-1130/roles/role3/R010/ninety-minute-handoff.md",
+    "research/sessions/20261031-1130/roles/role3/R010/validated-output-manifest.json",
+    "research/sessions/20261031-1130/rounds/R007.md",
+    "research/sessions/20261031-1130/runs.md",
+    "research/sessions/20261031-1130/status.json",
+    "research/sessions/20261031-1130/threads.json"
+  ],
+  "verified_blob_hashes": 22,
+  "identity_fallback": true,
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "code": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/sunny19900911/01-lunwen.git\n   8c241ec..d4e2a89  main -> main\n"
+    }
+  ],
+  "remote_HEAD": "d4e2a896e799869ad1188469f9528b18a1ed7cc6",
+  "remote_equals_local": true,
+  "pending_push": false,
+  "resumed_pending_receipt": null
+}

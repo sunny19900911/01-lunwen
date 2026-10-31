@@ -5,7 +5,7 @@
   "deadline": "2026-10-31T15:30:11+08:00",
   "deadline_utc": "2026-10-31T07:30:11Z",
   "writing_start": "2026-10-31T14:45:11+08:00",
-  "checkpoint": "R007-writing",
+  "checkpoint": "R008-v006-review",
   "checkpoint_open": true,
   "no_new_scientific_dispatch": false,
   "active_plan": "plan.md + plan-direct-forward-v003.md",
@@ -21,21 +21,21 @@
     "previous_verified_HEAD": "5d9aa9caf5fb4b09f44f9d8b2901742f8146c937",
     "current_remote": "pending live check",
     "old_tracked_dirty": 11,
-    "current_HEAD_and_remote": "8c241ecce304cc4f3001854ae083703d56ed7ff0",
+    "current_HEAD_and_remote": "d4e2a896e799869ad1188469f9528b18a1ed7cc6",
     "initial_index_empty": true,
-    "publication": "R006 normalpush remoteSHAequal; postpublication adminstate",
-    "last_success_HEAD": "8c241ecce304cc4f3001854ae083703d56ed7ff0",
-    "last_success_receipt": "git-R006-receipt.json"
+    "publication": "R007 normalpush remoteSHAequal; postpublication state",
+    "last_success_HEAD": "d4e2a896e799869ad1188469f9528b18a1ed7cc6",
+    "last_success_receipt": "git-R007-receipt.json"
   },
-  "last_actual": "2026-10-31T13:21:42.686348+08:00",
+  "last_actual": "2026-10-31T13:32:05.189533+08:00",
   "root_first_scientific_result": "known3floor B K recovery rootdifference4.44e-16/arrayreconstruction2e-15; role2R002 independently reviewedsmalltables, notnewengineeringdata",
-  "next_checkpoint": "Collect soleauthor v006 actualfreeze by13:40; root fullread/figurelinks/scienceidentities then one finalbounded role2 manuscript review; Word onlyafter acceptedtext withdocuments render/perpageQA. No newnumericresearch; R008Git near13:37 includesfrozenonly. Deadline15:30:11 unchanged.",
+  "next_checkpoint": "Collect role2R010 actualfreeze andread corrections; if0must dispatch soleauthor Word editableformulas/tables withdocuments renderQA; ifmust onlynecessarynewversion first. NextGitR009~13:48; last45min14:45 anddeadline15:30:11 unchanged.",
   "current_tasks": {
     "role1": "frozen idle; no new numeric research",
-    "role2": "frozen idle; no new numeric research",
+    "role2": "R010 sole finalmanuscript review dispatched13:31 max10min freeze13:42; no numericexperiments",
     "role3": "closed own90min budget13:11:38; R010frozen13:12:13, no restart",
     "role4": "frozen idle; no new numeric research",
-    "role5": "R006/v006 sole author formally dispatched13:20, max20min freeze13:40",
+    "role5": "R006/v006 frozenactualidle13:29:41; Wordnotstarted; waitfinalreviewthenonlyformat",
     "role6": "frozen idle; no new numeric research"
   },
   "scientific_status": {
@@ -49,7 +49,7 @@
     "engineering_B": "role2R004 independently reviewed72B/24mass/3coordinate androle6math,0must;inertia projection only",
     "q_observability": "36x300 CM translation matrixrank36;2/10/13 rowdistance .192081/.051293/.050333 nonzero; instantaneous arbitraryq notunique; temporal dynamics not excluded",
     "direct_forward": "reviewed role2R005 frozen12:25:45;216CM+144shear diagnostics4680numbers checked;6 ownRK4 checks ~7e-10; no fit, CM signed vs shearabsolute scope distinct",
-    "manuscript": "v00523099B SHA478459bac685135b9e73ce15bf95a38eeee28133d5f0c238fde2548d80b4f4bf root fullread; waiting onecombinedv006 threefigs/same-time/Y afterreview",
+    "manuscript": "v00627194B SHAcb301790edae381adb5da3edde6709f63190de07c434e6906a8bccbad158029e frozen13:29:41; rootfullread+S1/4links/manifests passed13:31; includes3PNGs, same-time exactmechanism,Y; role2R010 finalreviewpending",
     "modal_terms": "root independent audit21600modepeaks/36pairs/288anchors passed<4e-12kN;maxnative/reference peak-reductiondiff.196533pp; linear physical-source reference not fullFE unique q",
     "unit_amplitude": "role2R006 reviewed actual2/10/13/18 common unit ratios; modal damping response ordering changes with wave; RH4 floor5 U decreases more than roof but finalpeakdecreasesless",
     "truncation": "role2R007 frozen12:43:01 reviewed0must; N90=N95=10(.951829),N99=173; N10 roof maxprefix curveNRMSE64.73%,peak25.15%,peakreductiondiff9.667pp vs300; fixedbasisposthocnot newRitz solve",
@@ -58,6 +58,6 @@
     "Y_direction": "reviewed role2R009 frozen13:05:29; rootfullread onepage/manifest13:20,5292checks0must;216CMsigned/144VY diagnostics/180timegroups/36UPC andpeakpairs; no newODE; same3functionstwoaxes not6events",
     "combined_validation": "432CM signed maxNRMSE.443101625%;144 E shearabsolute curves max.669154128%,peak.235170328%;72 peakreductionpairs maxdifference.196533pp; fullFE/FNA signed attribution notcertified"
   },
-  "recovery_file": "rounds/R007.md",
+  "recovery_file": "rounds/R008.md",
   "no_new_numeric_experiments": true
 }

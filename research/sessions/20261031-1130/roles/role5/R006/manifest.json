@@ -1,0 +1,66 @@
+{
+  "task": "20261031-1130 role5 R006",
+  "status": "frozen_and_stopped",
+  "start_clock_observed": "2026-10-31T13:20:41+08:00",
+  "saved_at": "2026-10-31T13:29:41.242619+08:00",
+  "actual_stop_at": "2026-10-31T13:29:41.242619+08:00",
+  "deadline": "2026-10-31T13:40:00+08:00",
+  "elapsed_since_observed_start_seconds": 540.242619,
+  "within_root_1340_deadline": true,
+  "artifacts": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\physical-modal-shear-session020-v006.md",
+      "bytes": 27194,
+      "sha256": "cb301790edae381adb5da3edde6709f63190de07c434e6906a8bccbad158029e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role5\\R006\\supplement-S1.md",
+      "bytes": 13127,
+      "sha256": "c30a3a5710d04258ae296224f9d314912bb399ad98bb3784092d17c7d23d6151"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role5\\R006\\input-freeze.json",
+      "bytes": 7831,
+      "sha256": "d4fb8837f1c0075349194cce901ce64c5b629c085e2a7025f2127d4b7ead813b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role5\\R006\\figure-source-map.json",
+      "bytes": 2672,
+      "sha256": "af3ea587c58f460b526dcc72749fec99551030d39e0dd28e8bf36366e36ff5e5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role5\\R006\\link-checks.json",
+      "bytes": 1505,
+      "sha256": "05a07cf94c66ec92fe00cccb43a07be786a67298d45b27bcaced8ef8cee91cea"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role5\\R006\\evidence-status.md",
+      "bytes": 1721,
+      "sha256": "0dcc5b756944d45a847fcfaebab61c970929af70218cd7f89701ec544ba9faf4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role5\\R006\\validation.json",
+      "bytes": 1579,
+      "sha256": "20ec8dd82869c19981ad3149603fe819385ae28d382009a4c355017a15c4a737"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role5\\R006\\handoff.md",
+      "bytes": 2136,
+      "sha256": "f7159c6b8a565ee8df2ecb4c79e48142713cecdff7f28426d213f71f46d69b17"
+    }
+  ],
+  "figures": 3,
+  "main_tables": 6,
+  "main_display_equations": 11,
+  "relative_links_passed": 4,
+  "all_checks_passed": true,
+  "independent_scientific_inputs_adopted": [
+    "role1R006",
+    "role2R008",
+    "role2R009"
+  ],
+  "new_manuscript_independent_review": "awaiting root assignment; not claimed complete",
+  "new_physical_computation": false,
+  "Word_created": false,
+  "old_manuscript_and_figure_bytes_unchanged": true
+}

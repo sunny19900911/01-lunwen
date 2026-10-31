@@ -22,12 +22,13 @@
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "frozen idle; no new numeric research",
+      "task": "R010 sole finalmanuscript review dispatched13:31 max10min freeze13:42; no numericexperiments",
       "actual_status": {
         "type": "idle"
       },
       "last_actual": "2026-10-31T13:20:00+08:00",
-      "last_actual_note": "real snapshots12:55 plus role2fresh13:02; refresh before any nextdispatch"
+      "last_actual_note": "real snapshots12:55 plus role2fresh13:02; refresh before any nextdispatch",
+      "dispatch_actual": "2026-10-31T13:31:00+08:00"
     },
     {
       "role": "role3",
@@ -60,15 +61,15 @@
     {
       "role": "role5",
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:53",
+      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:55",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R006/v006 sole author formally dispatched13:20, max20min freeze13:40",
+      "task": "R006/v006 frozenactualidle13:29:41; Wordnotstarted; waitfinalreviewthenonlyformat",
       "actual_status": {
         "type": "idle"
       },
-      "last_actual": "2026-10-31T13:20:00+08:00",
+      "last_actual": "2026-10-31T13:30:26+08:00",
       "last_actual_note": "real snapshots12:55 plus role2fresh13:02; refresh before any nextdispatch"
     },
     {
