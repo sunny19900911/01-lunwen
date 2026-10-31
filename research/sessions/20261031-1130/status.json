@@ -5,7 +5,7 @@
   "deadline": "2026-10-31T15:30:11+08:00",
   "deadline_utc": "2026-10-31T07:30:11Z",
   "writing_start": "2026-10-31T14:45:11+08:00",
-  "checkpoint": "R005-convergence-reviewed",
+  "checkpoint": "R006-same-time-reviewed",
   "checkpoint_open": true,
   "no_new_scientific_dispatch": false,
   "active_plan": "plan.md + plan-direct-forward-v003.md",
@@ -21,22 +21,22 @@
     "previous_verified_HEAD": "5d9aa9caf5fb4b09f44f9d8b2901742f8146c937",
     "current_remote": "pending live check",
     "old_tracked_dirty": 11,
-    "current_HEAD_and_remote": "b362898ab5666619aca91b00550f7dc60e0e89a6",
+    "current_HEAD_and_remote": "5120d74116b828fa62226084a73f214261a5f082",
     "initial_index_empty": true,
-    "publication": "R004 normalpush remoteverified;postpublication administrative update",
-    "last_success_HEAD": "b362898ab5666619aca91b00550f7dc60e0e89a6",
-    "last_success_receipt": "git-R004-receipt.json"
+    "publication": "R005 normalpush remoteSHAequal; postpublication adminstate",
+    "last_success_HEAD": "5120d74116b828fa62226084a73f214261a5f082",
+    "last_success_receipt": "git-R005-receipt.json"
   },
-  "last_actual": "2026-10-31T12:46:42.646165+08:00",
+  "last_actual": "2026-10-31T13:00:53.605507+08:00",
   "root_first_scientific_result": "direct coefficients in old known3floor model: K-recovery error4.44e-16,output reconstruction2e-15; no newODE/fit; pending independent review",
-  "next_checkpoint": "Collect root-role2R008 actualaudit, role4R009 Y input admission bounded only,role5v005,role6publicationfigures. No extraY states without verifiedinput and explicitnewtask. MainXphysicalchain has reviewed engineering support. NextGitR006 after newfreeze ~13:02, no repeatR005 receipt. 14:45:11 finalwriting/Word, deadline15:30:11.",
+  "next_checkpoint": "Collect role2R009 Y freeze once; root fullread and route revieweddata to sole authorv006 with3approvedfigures and symmetric mechanism. Then freeze numericresearch and focus manuscript/one finalaudit/WordQA. No new arrays, modes, spectra orlayout. NextGitR007 ~13:17 frozenonly. Deadline15:30:11 andwriting14:45:11 unchanged.",
   "current_tasks": {
-    "role1": "R006 symmetricchange theorem frozen; idle awaiting independentreview",
-    "role2": "R008 independent72same-time mechanism/selected12 reconstruction and analytic review12min active",
-    "role3": "R009 source truncation notes frozen; ownhuman90min ends13:11:38; no repeatoldreview",
-    "role4": "R009 bounded8min Y-paired input metadata admission only; no YODE until explicit dispatch; doesnotblock mainX manuscript",
-    "role5": "R005/v005 convergence/Englishabstract/closed2DOF formula15min active; originalv004 kept",
-    "role6": "R007 compactpublication figurevariants8min active, originalR006 kept"
+    "role1": "R006 analyticconditions frozenidle, no new theory task needed",
+    "role2": "R009 independently rebuildYphysicalcoefficients/output216+144+36 andinputreuse12min active, no newODE/RK4",
+    "role3": "R010 index inprogress withinownhuman90min cap13:11:38; notclosedbefore actualfreeze",
+    "role4": "R010 production frozenidle, no further numeric experiments; retain all failed/unfavorableoutputs",
+    "role5": "v005 frozenidle; onecombinedv006 after Y review, add figures and exactsame-time/peak correction, then writing/Word",
+    "role6": "R008thirdPNG frozenidle; all3publicationPNGs rootviewapproved"
   },
   "scientific_status": {
     "direct_formula": "conditional analytic identity independently derived role1/role2; quality of CM aggregation/eigen recovery separately gated",
@@ -49,12 +49,14 @@
     "engineering_B": "role2R004 independently reviewed72B/24mass/3coordinate androle6math,0must;inertia projection only",
     "q_observability": "36x300 CM translation matrixrank36;2/10/13 rowdistance .192081/.051293/.050333 nonzero; instantaneous arbitraryq notunique; temporal dynamics not excluded",
     "direct_forward": "reviewed role2R005 frozen12:25:45;216CM+144shear diagnostics4680numbers checked;6 ownRK4 checks ~7e-10; no fit, CM signed vs shearabsolute scope distinct",
-    "manuscript": "v00415144B SHAabb626fd8a5a5b4902c2f4273a576850ea6e0448e988af439b830af723c691c1 root fullread; v005 currentauthor15min adds convergence andEnglishabstract",
+    "manuscript": "v00523099B SHA478459bac685135b9e73ce15bf95a38eeee28133d5f0c238fde2548d80b4f4bf root fullread; waiting onecombinedv006 threefigs/same-time/Y afterreview",
     "modal_terms": "root independent audit21600modepeaks/36pairs/288anchors passed<4e-12kN;maxnative/reference peak-reductiondiff.196533pp; linear physical-source reference not fullFE unique q",
     "unit_amplitude": "role2R006 reviewed actual2/10/13/18 common unit ratios; modal damping response ordering changes with wave; RH4 floor5 U decreases more than roof but finalpeakdecreasesless",
     "truncation": "role2R007 frozen12:43:01 reviewed0must; N90=N95=10(.951829),N99=173; N10 roof maxprefix curveNRMSE64.73%,peak25.15%,peakreductiondiff9.667pp vs300; fixedbasisposthocnot newRitz solve",
-    "same_time_changes": "role4R008 frozen72paired/432components/21600points;root readcode/README/priority12; role1R006 independentanalyticalidentity read; role2R008 independentnumericalaudit active; normalization waveform not purephase/cause",
-    "figures": "role6R006 twoPNG/SVG frozen; root actually viewedboth, no cut/CJK overlap; compact publication variants R007 active"
+    "same_time_changes": "role2R008 frozen12:55:49 independent12anchors/72components1080numbers +all21600scalarpoints/432groups/72anchor formulas156024checks passed0must; metadatajson numpyint fixed, failurepreserved",
+    "figures": "compactR0072PNG andR008same-timePNG actualrootview approved; source digits identity checked, no CJK overlap",
+    "Y_direction": "role4R010 frozen12:52:20, root fullcode/README/statsread; reuses exact scalarXkernels with GammaY/BY,zeroODE; CM216max.44310%,Eabs72max.66915%,peak.19921%,36reductiondiffmax.128097pp;role2R009 independently auditing, candidate untilfreeze"
   },
-  "recovery_file": "rounds/R005.md"
+  "recovery_file": "rounds/R006.md",
+  "no_new_numeric_experiments": true
 }

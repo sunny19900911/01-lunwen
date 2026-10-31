@@ -1,0 +1,105 @@
+{
+  "status": "figure complete, actual PNG view passed; root androle2 review/adoption pending",
+  "start_local": "2026-10-31T12:51:17+08:00",
+  "freeze_local": "2026-10-31T12:56:41+08:00",
+  "elapsed_seconds": 324.505227,
+  "limit_seconds": 480,
+  "within_limit": true,
+  "source_SHA_verified": true,
+  "values_read_from_frozen_CSV_not_message": true,
+  "source": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R008\\Story5-Story12-two-anchors-symmetric-change-12.csv",
+    "sha256": "df0e2e045deae323f548784e6e103c52adc4d5e76951515dc0b491a7145814cc"
+  },
+  "independent_numerical_review": "pending; not described as passed",
+  "new_data_ODE_fit_or_original_table": false,
+  "previous_figures_unchanged": [
+    {
+      "run": "R006",
+      "name": "figure1-actual-CM-UX-modes2-10-13.png",
+      "unchanged": true
+    },
+    {
+      "run": "R006",
+      "name": "figure1-actual-CM-UX-modes2-10-13.svg",
+      "unchanged": true
+    },
+    {
+      "run": "R006",
+      "name": "figure2-SHW3X-Story5-Story12-envelope-weights.png",
+      "unchanged": true
+    },
+    {
+      "run": "R006",
+      "name": "figure2-SHW3X-Story5-Story12-envelope-weights.svg",
+      "unchanged": true
+    },
+    {
+      "run": "R007",
+      "name": "figure1-compact-CM-UX-modes2-10-13.png",
+      "unchanged": true
+    },
+    {
+      "run": "R007",
+      "name": "figure1-compact-CM-UX-modes2-10-13.svg",
+      "unchanged": true
+    },
+    {
+      "run": "R007",
+      "name": "figure2-compact-SHW3X-modal-weights.png",
+      "unchanged": true
+    },
+    {
+      "run": "R007",
+      "name": "figure2-compact-SHW3X-modal-weights.svg",
+      "unchanged": true
+    }
+  ],
+  "files": [
+    {
+      "name": "caption-and-status.md",
+      "bytes": 1144,
+      "sha256": "e1e20c7e9cff5fc8bf09a92c9c7bd09c0d0bb62e0aeaa8fb70c137de015a91ef"
+    },
+    {
+      "name": "figure3-SHW3X-same-time-symmetric-decomposition.png",
+      "bytes": 173010,
+      "sha256": "ec8177d0c03b9cefab462cd8ec8b59698b4219c49806acacd704479f8864d9da"
+    },
+    {
+      "name": "figure3-SHW3X-same-time-symmetric-decomposition.svg",
+      "bytes": 6918,
+      "sha256": "6591e16d09606237fbb217c85c4e093e0488311999eed31539f5dd52a60bea8d"
+    },
+    {
+      "name": "make_same_time_figure.py",
+      "bytes": 5601,
+      "sha256": "9fca2749baa31d6af281284df43562329dd81e1f0ade1aebae5db3dffcbd6df8"
+    },
+    {
+      "name": "numeric-verification.json",
+      "bytes": 3403,
+      "sha256": "0b4820af17963d3d62295c9ab4475b591a5847fc41927ab84cbe0cfc29982e27"
+    },
+    {
+      "name": "render-record.json",
+      "bytes": 214,
+      "sha256": "c5b46e8f979e887bde434df17f6bdb3b6f59f936b894e0958dea6b96ce854f84"
+    },
+    {
+      "name": "render_same_time.cjs",
+      "bytes": 911,
+      "sha256": "ff07436ddcc769ab519723ed88e3ce3cdc0a694ee934a8cc92aa58b3027a09a9"
+    },
+    {
+      "name": "same-time-symmetric-figure-source-6.csv",
+      "bytes": 1949,
+      "sha256": "5082647bfea72c5fe614fa2caa53aab6602841adb47817fbc795f294fab1dd1f"
+    },
+    {
+      "name": "visual-QA.json",
+      "bytes": 572,
+      "sha256": "09c31a1110b1c4508563c34023a95df2ce051e43901c82126bf68955aeb1417f"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "completed_utc": "2026-10-31T04:50:20.560432+00:00",
+  "CM_rows": 216,
+  "force_rows": 144,
+  "native_time_groups": 180,
+  "all_native_times_exact": true,
+  "failures": [],
+  "peak_decrease_pairs": 36,
+  "UPC_pairs": 36,
+  "summary": [
+    {
+      "Case": "SHW3Y",
+      "zeta": 0.05,
+      "quantity": "UX",
+      "operator": "CM_motion",
+      "rows": 18,
+      "median_NRMSE": 0.00014553183020486006,
+      "max_NRMSE": 0.0006418328104607779,
+      "max_abs_peak_relative_error": 8.117569809162895e-05
+    },
+    {
+      "Case": "SHW3Y",
+      "zeta": 0.05,
+      "quantity": "UY",
+      "operator": "CM_motion",
+      "rows": 18,
+      "median_NRMSE": 1.1175517052530449e-05,
+      "max_NRMSE": 7.098794294539186e-05,
+      "max_abs_peak_relative_error": 2.9769096740350776e-05
+    },
+    {
+      "Case": "SHW3Y",
+      "zeta": 0.05,
+      "quantity": "Bottom_VY_absolute",
+      "operator": "elastic_inertia",
+      "rows": 12,
+      "median_NRMSE": 0.0001764692354499065,
+      "max_NRMSE": 0.0004259396647240809,
+      "max_abs_peak_relative_error": 0.00038490326699736066
+    },
+    {
+      "Case": "SHW3Y",
+      "zeta": 0.05,
+      "quantity": "Bottom_VY_absolute",
+      "operator": "classical_balance",
+      "rows": 12,
+      "median_NRMSE": 0.09959522515828052,
+      "max_NRMSE": 0.10054022456860402,
+      "max_abs_peak_relative_error": 0.039407218565892466
+    },
+    {
+      "Case": "SHW3Y",
+      "zeta": 0.08,
+      "quantity": "UX",
+      "operator": "CM_motion",
+      "rows": 18,
+      "median_NRMSE": 0.00012212940563813109,
+      "max_NRMSE": 0.0005010276588134169,
+      "max_abs_peak_relative_error": 7.083525280804359e-05
+    },
+    {
+      "Case": "SHW3Y",
+      "zeta": 0.08,
+      "quantity": "UY",
+      "operator": "CM_motion",
+      "rows": 18,
+      "median_NRMSE": 5.435770086571183e-06,
+      "max_NRMSE": 3.833140961486903e-05,
+      "max_abs_peak_relative_error": 5.296822768841025e-06
+    },
+    {
+      "Case": "SHW3Y",
+      "zeta": 0.08,
+      "quantity": "Bottom_VY_absolute",
+      "operator": "elastic_inertia",
+      "rows": 12,
+      "median_NRMSE": 0.00011452773508067322,
+      "max_NRMSE": 0.0002179195056741518,
+      "max_abs_peak_relative_error": 3.894595210995888e-05
+    },
+    {
+      "Case": "SHW3Y",
+      "zeta": 0.08,
+      "quantity": "Bottom_VY_absolute",
+      "operator": "classical_balance",
+      "rows": 12,
+      "median_NRMSE": 0.15853776418252868,
+      "max_NRMSE": 0.16151545296461478,
+      "max_abs_peak_relative_error": 0.06987618154608133
+    },
+    {
+      "Case": "SHW4Y",
+      "zeta": 0.05,
+      "quantity": "UX",
+      "operator": "CM_motion",
+      "rows": 18,
+      "median_NRMSE": 0.00042970884392913057,
+      "max_NRMSE": 0.003322332217319124,
+      "max_abs_peak_relative_error": 0.0004142050022450938
+    },
+    {
+      "Case": "SHW4Y",
+      "zeta": 0.05,
+      "quantity": "UY",
+      "operator": "CM_motion",
+      "rows": 18,
+      "median_NRMSE": 5.239212079876805e-05,
+      "max_NRMSE": 0.0007071989211306997,
+      "max_abs_peak_relative_error": 4.435620942322416e-05
+    },
+    {
+      "Case": "SHW4Y",
+      "zeta": 0.05,
+      "quantity": "Bottom_VY_absolute",
+      "operator": "elastic_inertia",
+      "rows": 12,
+      "median_NRMSE": 0.0020801300653598143,
+      "max_NRMSE": 0.0039990122563501795,
+      "max_abs_peak_relative_error": 0.001489843831093851
+    },
+    {
+      "Case": "SHW4Y",
+      "zeta": 0.05,
+      "quantity": "Bottom_VY_absolute",
+      "operator": "classical_balance",
+      "rows": 12,
+      "median_NRMSE": 0.09859683830599333,
+      "max_NRMSE": 0.09933265516816416,
+      "max_abs_peak_relative_error": 0.046351684020439654
+    },
+    {
+      "Case": "SHW4Y",
+      "zeta": 0.08,
+      "quantity": "UX",
+      "operator": "CM_motion",
+      "rows": 18,
+      "median_NRMSE": 0.000430636076277663,
+      "max_NRMSE": 0.0030490884268215583,
+      "max_abs_peak_relative_error": 0.00033007702335918765
+    },
+    {
+      "Case": "SHW4Y",
+      "zeta": 0.08,
+      "quantity": "UY",
+      "operator": "CM_motion",
+      "rows": 18,
+      "median_NRMSE": 3.045107160171741e-05,
+      "max_NRMSE": 0.0004949659785987673,
+      "max_abs_peak_relative_error": 2.9402042543535956e-05
+    },
+    {
+      "Case": "SHW4Y",
+      "zeta": 0.08,
+      "quantity": "Bottom_VY_absolute",
+      "operator": "elastic_inertia",
+      "rows": 12,
+      "median_NRMSE": 0.001255603119350216,
+      "max_NRMSE": 0.0023691702731205876,
+      "max_abs_peak_relative_error": 0.0007589880067732091
+    },
+    {
+      "Case": "SHW4Y",
+      "zeta": 0.08,
+      "quantity": "Bottom_VY_absolute",
+      "operator": "classical_balance",
+      "rows": 12,
+      "median_NRMSE": 0.1556066736366677,
+      "max_NRMSE": 0.1563886963007306,
+      "max_abs_peak_relative_error": 0.06931540071672115
+    },
+    {
+      "Case": "RH4Y",
+      "zeta": 0.05,
+      "quantity": "UX",
+      "operator": "CM_motion",
+      "rows": 18,
+      "median_NRMSE": 0.0005441490092030984,
+      "max_NRMSE": 0.004365067550794448,
+      "max_abs_peak_relative_error": 0.0004821742820049213
+    },
+    {
+      "Case": "RH4Y",
+      "zeta": 0.05,
+      "quantity": "UY",
+      "operator": "CM_motion",
+      "rows": 18,
+      "median_NRMSE": 8.525072443415306e-05,
+      "max_NRMSE": 0.001293535276453162,
+      "max_abs_peak_relative_error": 0.00035536713199957326
+    },
+    {
+      "Case": "RH4Y",
+      "zeta": 0.05,
+      "quantity": "Bottom_VY_absolute",
+      "operator": "elastic_inertia",
+      "rows": 12,
+      "median_NRMSE": 0.003761572149652025,
+      "max_NRMSE": 0.006691541276211973,
+      "max_abs_peak_relative_error": 0.0019921099748373416
+    },
+    {
+      "Case": "RH4Y",
+      "zeta": 0.05,
+      "quantity": "Bottom_VY_absolute",
+      "operator": "classical_balance",
+      "rows": 12,
+      "median_NRMSE": 0.09804526829386667,
+      "max_NRMSE": 0.09868681311688428,
+      "max_abs_peak_relative_error": 0.028513106590918547
+    },
+    {
+      "Case": "RH4Y",
+      "zeta": 0.08,
+      "quantity": "UX",
+      "operator": "CM_motion",
+      "rows": 18,
+      "median_NRMSE": 0.000614581677945462,
+      "max_NRMSE": 0.0044310162521328895,
+      "max_abs_peak_relative_error": 0.0007216978821463771
+    },
+    {
+      "Case": "RH4Y",
+      "zeta": 0.08,
+      "quantity": "UY",
+      "operator": "CM_motion",
+      "rows": 18,
+      "median_NRMSE": 5.4028909924815866e-05,
+      "max_NRMSE": 0.0010705784521846209,
+      "max_abs_peak_relative_error": 8.775796092308497e-05
+    },
+    {
+      "Case": "RH4Y",
+      "zeta": 0.08,
+      "quantity": "Bottom_VY_absolute",
+      "operator": "elastic_inertia",
+      "rows": 12,
+      "median_NRMSE": 0.002568747426755699,
+      "max_NRMSE": 0.004454557277059642,
+      "max_abs_peak_relative_error": 0.0010489773129434
+    },
+    {
+      "Case": "RH4Y",
+      "zeta": 0.08,
+      "quantity": "Bottom_VY_absolute",
+      "operator": "classical_balance",
+      "rows": 12,
+      "median_NRMSE": 0.15523403163143557,
+      "max_NRMSE": 0.15653205307629303,
+      "max_abs_peak_relative_error": 0.05425051563067118
+    }
+  ],
+  "unit_kernel_sources": [
+    {
+      "Y_case": "SHW3Y",
+      "zeta": 0.05,
+      "source_scalar_case": "SHW3X",
+      "unit_kernel_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "unit_kernel_sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2",
+      "new_Y_output_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R010\\local-cache\\Y-output-SHW3Y-z0.05.npz",
+      "source_s_sdot_omega_duplicated": false
+    },
+    {
+      "Y_case": "SHW3Y",
+      "zeta": 0.08,
+      "source_scalar_case": "SHW3X",
+      "unit_kernel_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.08-factorized-reference.npz",
+      "unit_kernel_sha256": "e88b73344432c10d505e351d015d24cb5173f7ddc5a6bca2f6a30076b12fb5fc",
+      "new_Y_output_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R010\\local-cache\\Y-output-SHW3Y-z0.08.npz",
+      "source_s_sdot_omega_duplicated": false
+    },
+    {
+      "Y_case": "SHW4Y",
+      "zeta": 0.05,
+      "source_scalar_case": "SHW4X",
+      "unit_kernel_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.05-factorized-reference.npz",
+      "unit_kernel_sha256": "61c7165f08156aaef3af39dab94832b89772c60517d5a4444d74add79cb936d8",
+      "new_Y_output_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R010\\local-cache\\Y-output-SHW4Y-z0.05.npz",
+      "source_s_sdot_omega_duplicated": false
+    },
+    {
+      "Y_case": "SHW4Y",
+      "zeta": 0.08,
+      "source_scalar_case": "SHW4X",
+      "unit_kernel_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.08-factorized-reference.npz",
+      "unit_kernel_sha256": "4e37b056557552b136cb8bc02f5b22e6a7de3e210c677e939d63c3505a354863",
+      "new_Y_output_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R010\\local-cache\\Y-output-SHW4Y-z0.08.npz",
+      "source_s_sdot_omega_duplicated": false
+    },
+    {
+      "Y_case": "RH4Y",
+      "zeta": 0.05,
+      "source_scalar_case": "RH4X",
+      "unit_kernel_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.05-factorized-reference.npz",
+      "unit_kernel_sha256": "2354441c71c1bf4e714c26d43af7b103c443419be8578bf775c47466a604cae5",
+      "new_Y_output_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R010\\local-cache\\Y-output-RH4Y-z0.05.npz",
+      "source_s_sdot_omega_duplicated": false
+    },
+    {
+      "Y_case": "RH4Y",
+      "zeta": 0.08,
+      "source_scalar_case": "RH4X",
+      "unit_kernel_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.08-factorized-reference.npz",
+      "unit_kernel_sha256": "38d3442c2e05221aa27a6b5837c2c1965f477fddad6dde911e12bdb3af1a9eeb",
+      "new_Y_output_path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R010\\local-cache\\Y-output-RH4Y-z0.08.npz",
+      "source_s_sdot_omega_duplicated": false
+    }
+  ],
+  "local_only_Y_outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R010\\local-cache\\Y-output-SHW3Y-z0.05.npz",
+      "bytes": 2276737,
+      "sha256": "e7df6dc5470f87df339c9270c70d9211c4fc1810033edd4de3f55b677b3ebdbb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R010\\local-cache\\Y-output-SHW3Y-z0.08.npz",
+      "bytes": 2278632,
+      "sha256": "0b751db9398e3ba02ec9ded246c2f41716628cf484fda7a96aa38dc5d73abcea"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R010\\local-cache\\Y-output-SHW4Y-z0.05.npz",
+      "bytes": 2494479,
+      "sha256": "03b34599b7288df161049aafb3dc4952b6976ea7863f7259189f88d0beb2691d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R010\\local-cache\\Y-output-SHW4Y-z0.08.npz",
+      "bytes": 2495834,
+      "sha256": "36623d3253d0c073f2b84aa5510badfbc5028e6421de6417cc61a41e67cc5c4f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R010\\local-cache\\Y-output-RH4Y-z0.05.npz",
+      "bytes": 2120358,
+      "sha256": "4f4090e8482e1bc6177cd926b7c3131ae088febbfc4f027945a87c09c1da38e7"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R010\\local-cache\\Y-output-RH4Y-z0.08.npz",
+      "bytes": 2122554,
+      "sha256": "46bf5a1139071a7f06bc207989fa5d5604206460ea60ab62c790cc89997746d5"
+    }
+  ],
+  "no_new_ODE": true,
+  "no_fit": true,
+  "unit_s_sdot_not_copied": true,
+  "sources_unchanged": true
+}

@@ -1,0 +1,74 @@
+{
+  "status": "compact publication variants complete; actual PNG view passed; root view/adoption pending",
+  "start_local": "2026-10-31T12:46:09+08:00",
+  "freeze_local": "2026-10-31T12:48:45+08:00",
+  "elapsed_seconds": 156.318523,
+  "limit_seconds": 480,
+  "within_limit": true,
+  "data_geometry_and_numeric_labels_unchanged": true,
+  "source_csv_SHA_same_as_R006": true,
+  "all_R006_original_file_SHA_unchanged": true,
+  "new_response_fit_ODE_or_data_extraction": false,
+  "files": [
+    {
+      "name": "caption-suggestions.md",
+      "bytes": 1388,
+      "sha256": "bd82ec15638fef75aad5c5968cfa82928ce1b97b39bf86549394e8ab98017264"
+    },
+    {
+      "name": "figure1-CM-UX-normalized-source-54.csv",
+      "bytes": 11999,
+      "sha256": "cd9dbc54d2f23ba4ddabc40264f86672606f573a18998ded0269eb19d178244e"
+    },
+    {
+      "name": "figure1-compact-CM-UX-modes2-10-13.png",
+      "bytes": 187624,
+      "sha256": "5fc51c9a7389d6dfb3a0d97f0c3fa4da406210db678bef680ca3362cfd203118"
+    },
+    {
+      "name": "figure1-compact-CM-UX-modes2-10-13.svg",
+      "bytes": 21052,
+      "sha256": "ef6dce3917ea2c107eaa2a8c2561bd4b137036e338447473f004739ebb4ff26a"
+    },
+    {
+      "name": "figure2-compact-SHW3X-modal-weights.png",
+      "bytes": 161639,
+      "sha256": "53285afd43b44dad19bd7a7471f64b6d803881ca8f836c80cb191c1b1da296cb"
+    },
+    {
+      "name": "figure2-compact-SHW3X-modal-weights.svg",
+      "bytes": 5809,
+      "sha256": "92f461d3ba7b95b3a54b58d0e9eb5ceadd3c4e1c556ba715ab8fbb8939ed6e46"
+    },
+    {
+      "name": "figure2-SHW3X-weights-source-10.csv",
+      "bytes": 2033,
+      "sha256": "88c0b0704a0a36d9ec9ddfd6f89103b987b8788092d592bac93e71c384c84e96"
+    },
+    {
+      "name": "make_compact.py",
+      "bytes": 3500,
+      "sha256": "e8a2ce234cd9098d0ded66f963445cb13d19ad6f5f419dfcb7023d6629e9cf3c"
+    },
+    {
+      "name": "render-record.json",
+      "bytes": 381,
+      "sha256": "f718c30c08b6e9a699679c57b749d309b8ee7533d92c3e49ba542ef8c99c965d"
+    },
+    {
+      "name": "render_compact.cjs",
+      "bytes": 961,
+      "sha256": "41b740a7c1a7de54d5929b875356133b9ddf615f5eb2bb650c3028190cbd5c81"
+    },
+    {
+      "name": "variant-verification.json",
+      "bytes": 3239,
+      "sha256": "632c403837433e19d0ef91720e8394f9fc2675e237ac60cd86ff481154a1259e"
+    },
+    {
+      "name": "visual-QA.json",
+      "bytes": 467,
+      "sha256": "95fdfd7febb3e1c7e9cf2d1001f68d473a5fff86b9a21e3878a4023aeb494bec"
+    }
+  ]
+}

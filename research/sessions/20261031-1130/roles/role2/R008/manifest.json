@@ -1,0 +1,97 @@
+{
+  "task": "session020-role2-R008",
+  "status": "complete scientific audit after metadata serialization recovery; 0 scientific must",
+  "started": "2026-10-31T12:45:37+08:00",
+  "independent_selected_completed": "2026-10-31T12:50:20.186043+08:00",
+  "all_scientific_assertions_completed": "2026-10-31T12:50:20.732304+08:00",
+  "metadata_recovered_at": "2026-10-31T12:52:26.460924+08:00",
+  "frozen": "2026-10-31T12:55:49.846373+08:00",
+  "deadline": "2026-10-31T12:57:37+08:00",
+  "elapsed_seconds": 612.846373,
+  "within12_minutes_since_observed_start": true,
+  "independent_anchor_rows": 12,
+  "independent_top5_remaining_rows": 72,
+  "selected_numeric_checks": 1080,
+  "all_scalar_mode_points": 21600,
+  "all_group_rows": 432,
+  "all_anchor_rows": 72,
+  "scalar_formula_checks": 156024,
+  "must_count": 0,
+  "analytic_review": "symmetric identity, old-sign projection, sign reversal correction, zero-amplitude unallocated rule, and separate peak-anchor losses checked",
+  "authoritative_all_table_summary": "all-table-algebra-checks-v002.json",
+  "first_metadata_failure_and_fix_documented": true,
+  "scientific_arrays_or_CSVs_modified_to_fix_failure": false,
+  "new_ODE_fit_or_physical_scan": false,
+  "source_role4_manifest_sha256": "d058d859240bd8f302af909d55233b86f5c08f7c2d71eb1cc5b56c588440499c",
+  "source_role1_manifest_sha256": "c555bd4572d6f90962cf4d34b6a085e9cf11dcde1c39c1b482652bc767a49b31",
+  "scope_limits": [
+    "independent factorized reconstruction of 12 priority anchors only; others audited from scalar primitives",
+    "per-mode split then grouping, not group-peak renormalization",
+    "same-time reference bookkeeping, not pure phase or causal fraction",
+    "not actual FNA modal-force identification or cross-time independent-peak decomposition"
+  ],
+  "files": [
+    {
+      "name": "all-table-algebra-checks-v002.json",
+      "bytes": 791,
+      "sha256": "a1de919bebecdf1a733112e62701da8d1877c1ab3577e6c6a437398b10a7f83b"
+    },
+    {
+      "name": "all-table-algebra-checks.failed-json.txt",
+      "bytes": 310,
+      "sha256": "8fbba250ea666185b521af3142e151164b58f985d9c823060de0acfa163c4d9d",
+      "role": "preserved partial metadata, not authoritative JSON"
+    },
+    {
+      "name": "all432-component-group-audit.csv",
+      "bytes": 21338,
+      "sha256": "f68cbda6a664dba8c7f28ed2a668f67492023d880ff2f25f19a49c2d6f1a633e"
+    },
+    {
+      "name": "all72-anchor-formula-audit.csv",
+      "bytes": 8671,
+      "sha256": "c9563693c4d70872bc4255b3d183e7772efdb55b19cffb0f4715ba823eda0e94"
+    },
+    {
+      "name": "check_same_time_symmetric-executed-v001.py",
+      "bytes": 12218,
+      "sha256": "65d00b6d5e264e5e49249ed9546a10dbdf542acc6bddb5d9708d9c585a85da65",
+      "role": "executed pre-serialization-fix source, retained diagnostic"
+    },
+    {
+      "name": "check_same_time_symmetric.py",
+      "bytes": 12289,
+      "sha256": "1bd0f92e3243bd6ceac922dc3e644ca6cefdadb7c4622b38658664eac286ff76"
+    },
+    {
+      "name": "complete_metadata_after_serialization_fix.py",
+      "bytes": 2813,
+      "sha256": "b53b7da2c8fd87c4b00e03561727b7adf0700b8555a9d9607771f0c4fea52c37"
+    },
+    {
+      "name": "execution-note.json",
+      "bytes": 817,
+      "sha256": "c198aca1bbc736fe6fba9e68cb03def8ddd8e89095fd66589f5ed3ea54c21f47"
+    },
+    {
+      "name": "independent-priority-symmetric-anchors-12.csv",
+      "bytes": 5195,
+      "sha256": "d9eb027a0272b51f00d52d59d6b8949c122300986310acba1c0150ead5ec5c86"
+    },
+    {
+      "name": "independent-priority-top5-rest-components-72.csv",
+      "bytes": 14650,
+      "sha256": "16550d543b77f65467eb4cdff5648a7816c88b135d334dad1928ebf83b68a9e2"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3699,
+      "sha256": "21872fa16925740a2a2428cefc834056b9e73f45fe246424f2d4ebf6ecfb922a"
+    },
+    {
+      "name": "selected-checks.json",
+      "bytes": 1586,
+      "sha256": "78ba3548dfecddd38dbb0a7a60948c1c7989d3f11bd0760fc49201dec8945b50"
+    }
+  ]
+}

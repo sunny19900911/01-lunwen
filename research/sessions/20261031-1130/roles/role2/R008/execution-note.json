@@ -1,0 +1,14 @@
+{
+  "failure": "TypeError: Object of type int64 is not JSON serializable in final metadata only",
+  "scientific_checks_completed_before_failure": true,
+  "failed_metadata_preserved_as": "all-table-algebra-checks.failed-json.txt",
+  "failed_metadata_sha256": "8fbba250ea666185b521af3142e151164b58f985d9c823060de0acfa163c4d9d",
+  "executed_v001_script_sha256": "65d00b6d5e264e5e49249ed9546a10dbdf542acc6bddb5d9708d9c585a85da65",
+  "fixed_primary_script_sha256": "1bd0f92e3243bd6ceac922dc3e644ca6cefdadb7c4622b38658664eac286ff76",
+  "fix": "cast NumPy boolean counters to Python int",
+  "counter_serialization_test_pass": true,
+  "source_parse_pass": true,
+  "large_state_recomputation": false,
+  "recovered_summary": "all-table-algebra-checks-v002.json",
+  "completed": "2026-10-31T12:52:26.480534+08:00"
+}

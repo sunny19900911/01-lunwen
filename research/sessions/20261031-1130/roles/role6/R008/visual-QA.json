@@ -1,0 +1,16 @@
+{
+  "viewed_local": "2026-10-31T12:55:45+08:00",
+  "tool": "functions.view_image",
+  "file": "figure3-SHW3X-same-time-symmetric-decomposition.png",
+  "checks": [
+    "Chinese title/panel/time readable",
+    "negative waveform bar below zero in panel a",
+    "all three panel b bars positive",
+    "independent kN axes explicitly marked",
+    "all numeric labels and category labels visible",
+    "footnote same-time/non-pure-phase/not-ownpeak clear",
+    "no clipping or overlap"
+  ],
+  "result": "pass",
+  "scientific_independent_review": "pending role2"
+}

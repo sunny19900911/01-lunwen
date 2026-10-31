@@ -1,0 +1,26 @@
+from pathlib import Path
+from datetime import datetime,timezone,timedelta
+import json,hashlib
+S=Path(__file__).resolve().parent;R=S.parents[2];now=datetime.now(timezone(timedelta(hours=8))).isoformat()
+def js(p,d):p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+assert not(S/'git-R006-publication.json').exists()
+d=json.loads((S/'status.json').read_text());d.update(last_actual=now,checkpoint='R006-same-time-reviewed',checkpoint_open=True,recovery_file='rounds/R006.md',no_new_numeric_experiments=True)
+d['scientific_status'].update(same_time_changes='role2R008 frozen12:55:49 independent12anchors/72components1080numbers +all21600scalarpoints/432groups/72anchor formulas156024checks passed0must; metadatajson numpyint fixed, failurepreserved',Y_direction='role4R010 frozen12:52:20, root fullcode/README/statsread; reuses exact scalarXkernels with GammaY/BY,zeroODE; CM216max.44310%,Eabs72max.66915%,peak.19921%,36reductiondiffmax.128097pp;role2R009 independently auditing, candidate untilfreeze',figures='compactR0072PNG andR008same-timePNG actualrootview approved; source digits identity checked, no CJK overlap',manuscript='v00523099B SHA478459bac685135b9e73ce15bf95a38eeee28133d5f0c238fde2548d80b4f4bf root fullread; waiting onecombinedv006 threefigs/same-time/Y afterreview')
+d['current_tasks'].update(role1='R006 analyticconditions frozenidle, no new theory task needed',role2='R009 independently rebuildYphysicalcoefficients/output216+144+36 andinputreuse12min active, no newODE/RK4',role3='R010 index inprogress withinownhuman90min cap13:11:38; notclosedbefore actualfreeze',role4='R010 production frozenidle, no further numeric experiments; retain all failed/unfavorableoutputs',role5='v005 frozenidle; onecombinedv006 after Y review, add figures and exactsame-time/peak correction, then writing/Word',role6='R008thirdPNG frozenidle; all3publicationPNGs rootviewapproved')
+d['next_checkpoint']='Collect role2R009 Y freeze once; root fullread and route revieweddata to sole authorv006 with3approvedfigures and symmetric mechanism. Then freeze numericresearch and focus manuscript/one finalaudit/WordQA. No new arrays, modes, spectra orlayout. NextGitR007 ~13:17 frozenonly. Deadline15:30:11 andwriting14:45:11 unchanged.'
+js(S/'status.json',d)
+with(S/'claims.md').open('a',encoding='utf-8')as f:f.write('\nC020-13 supported/conditional same-time identity, reviewed: role2R008 independently reconstructed12anchors/72components1080numbers plus156024scalar/groupformula checks;0must. SHW3Story5 WA739.706906+Wh(-132.656071)=W607.050835 at22.92s; referencepeakdifference595.459811 after11.591024peak-position correction. Notpurephase/cause, notcrossanchoradding.\nC020-15 testing/direction outputvalidation: same3 inputfunctions Ydirection source settings admitted R009; role4R010 reusesXunitkernels withΓY/BY,zeroODE,216CM/144force/36peakpairs frozen;root code/read acceptedcandidate; role2R009 independentaudit active. Not6independent events.\n')
+(S/'rounds/R006.md').write_text('# R006｜同刻机制独审通过，另一方向作辅助检验\n\n实际记录'+now+'。②R008正式12:55:49冻，root已读完整报告/manifest，0must采用；JSON序列化修复不改科学CSV，失败文本和执行旧版保留本地/说明，Git不收无效txt。两峰差校正与零幅/反号分支条件齐。\n\n④R010已12:52:20冻，root全文读代码和README/globalstats；Y复用完全相同标量X输入及s核，仅换ΓY/BY，0新ODE。216CM signed最大.44310%、E72absolute最大.66915%、峰.19921%，与软件峰降36对最大.128097pp，均candidate待②R00912min独审。\n\nroot实际查看三张最终出版PNG：role6R007两compact图与R008同刻图，全部CJK/条线/源数字可用。⑤v005全文及S1已读，完整双语/工程/截断/解析闭式；等待唯一v006统一新增3图/同刻/Y，不为每次消息单出新版本。③R010交接索引在自身90min内整理，13:11:38后不派新职责。\n\n数值研究不再扩展。R009审核后只有必要成稿/最终一次独审/Word渲染QA和真实交付记录。固定deadline15:30:11，14:45:11最后45min。上点GitR0055120d74116b828fa62226084a73f214261a5f082远端一致；本点frozenonly白名单保留old11dirty和所有local-cache。\n',encoding='utf-8')
+with(S/'runs.md').open('a',encoding='utf-8')as f:f.write('\nR006 '+now+': adopted same-time independentaudit; Y0-newODE candidate rootcode reviewed pendingoneYindependentaudit;3finalPNG actualview; no further numericexperiments. White-list publication only.\n')
+files=[]
+scope={'role2':['R008'],'role4':['R009','R010'],'role5':['R005'],'role6':['R007','R008']}
+for role,rounds in scope.items():
+ for rr in rounds:
+  base=S/'roles'/role/rr
+  assert any((base/n).exists()for n in ['manifest.json','freeze.json','delivery-manifest.json'])
+  for p in base.rglob('*'):
+   if p.is_file()and 'local-cache'not in p.parts and p.suffix in ['.md','.json','.csv','.py','.cjs','.svg','.png']and p.stat().st_size<1048576:files.append(p)
+for n in ['checkpoint_R006.py','status.json','threads.json','claims.md','runs.md','rounds/R006-start.md','rounds/R006.md','R005-actual-snapshot-1251.json','git-R005-receipt.json']:files.append(S/n)
+p=R/'papers/damping-output-boundaries/manuscript/physical-modal-shear-session020-v005.md';assert hashlib.sha256(p.read_bytes()).hexdigest()=='478459bac685135b9e73ce15bf95a38eeee28133d5f0c238fde2548d80b4f4bf';files.append(p)
+js(S/'git-R006-publication.json',dict(checkpoint='R006',time=now,message='research: review same-time amplitude waveform mechanism and consolidate article',files=[dict(relative=p.relative_to(R).as_posix(),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest())for p in sorted(set(files))]))
+print(json.dumps(dict(time=now,files=len(set(files)),bytes=sum(p.stat().st_size for p in set(files))),ensure_ascii=False))

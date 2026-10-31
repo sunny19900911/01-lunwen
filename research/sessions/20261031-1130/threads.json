@@ -4,91 +4,90 @@
     {
       "role": "role1",
       "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
-      "cursor": "a4ac1686-5034-48ef-9e7c-fe6208750c15:14",
+      "cursor": "a4ac1686-5034-48ef-9e7c-fe6208750c15:18",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R004 physical interpretation8min active",
+      "task": "R006 same-time theory frozen actualidle1251; no new peripheral proof",
       "actual_status": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "last_actual": "2026-10-31T12:12:17.558311+08:00",
-      "last_actual_note": "Actual snapshots12:14-12:17 before next dispatch; messages successful afterward, refresh realstatus next wake; old idle does not imply next turn complete"
+      "last_actual": "2026-10-31T12:51:17+08:00",
+      "last_actual_note": "real compact per-target snapshots saved; nextdispatch only after refreshedidle"
     },
     {
       "role": "role2",
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
-      "cursor": "11a056de-2e65-48d9-90d8-2d3233b00402:30",
+      "cursor": "11a056de-2e65-48d9-90d8-2d3233b00402:48",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R005 independent actualforward216+144 and6 selectedRK4 12min active",
+      "task": "R008 same-time independent audit active1251; CSV numerical checks done, fixing numpyint JSON serialization without rerun states",
       "actual_status": {
         "type": "active",
         "activeFlags": []
       },
-      "last_actual": "2026-10-31T12:12:17.558311+08:00",
-      "last_actual_note": "Actual snapshots12:14-12:17 before next dispatch; messages successful afterward, refresh realstatus next wake; old idle does not imply next turn complete"
+      "last_actual": "2026-10-31T12:51:17+08:00",
+      "last_actual_note": "real compact per-target snapshots saved; nextdispatch only after refreshedidle"
     },
     {
       "role": "role3",
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
-      "cursor": "3e1edb6e-1082-4df0-a7b1-358e7b877471:14",
+      "cursor": "3e1edb6e-1082-4df0-a7b1-358e7b877471:15",
       "initial_actual_status": {
         "type": "notLoaded"
       },
-      "task": "R001-R005 source notes frozen; own human90min ends13:11:38; optional precise citation check only",
+      "task": "R009 source frozen; v005 citation/scope0newmust; directhuman90min cap13:11:38",
       "actual_status": {
         "type": "active",
         "activeFlags": []
       },
-      "last_actual": "2026-10-31T12:12:17.558311+08:00",
-      "last_actual_note": "Actual snapshots12:14-12:17 before next dispatch; messages successful afterward, refresh realstatus next wake; old idle does not imply next turn complete"
+      "last_actual": "2026-10-31T12:51:17+08:00",
+      "last_actual_note": "real compact per-target snapshots saved; nextdispatch only after refreshedidle"
     },
     {
       "role": "role4",
       "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
-      "cursor": "18d108d1-c129-40a5-b347-658f1f0c4b89:30",
+      "cursor": "18d108d1-c129-40a5-b347-658f1f0c4b89:45",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R005 physicalreference U/P/C/top5 same-time tables12min active, no newODE",
+      "task": "R010 Y-direction samealgorithm zero-newODE, reuse verified scalar X unit kernels with GammaY/BY; actualactive1251;216CM/144force/36pairs candidate ready pendingfreeze",
       "actual_status": {
         "type": "active",
         "activeFlags": []
       },
-      "last_actual": "2026-10-31T12:12:17.558311+08:00",
-      "last_actual_note": "Actual snapshots12:14-12:17 before next dispatch; messages successful afterward, refresh realstatus next wake; old idle does not imply next turn complete"
+      "last_actual": "2026-10-31T12:51:17+08:00",
+      "last_actual_note": "real compact per-target snapshots saved; nextdispatch only after refreshedidle"
     },
     {
       "role": "role5",
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:28",
+      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:47",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R003/v003 integration12min active, preservev002",
+      "task": "v005 frozen actualidle1251; waiting one combinedv006 with reviewed same-time/Y and approvedcompactfigs; do not spawn only-insert-image revision",
       "actual_status": {
         "type": "idle"
       },
-      "last_actual": "2026-10-31T12:12:17.558311+08:00",
-      "last_actual_note": "Actual snapshots12:14-12:17 before next dispatch; messages successful afterward, refresh realstatus next wake; old idle does not imply next turn complete"
+      "last_actual": "2026-10-31T12:51:17+08:00",
+      "last_actual_note": "real compact per-target snapshots saved; nextdispatch only after refreshedidle"
     },
     {
       "role": "role6",
       "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
-      "cursor": "6334fe63-a9e8-4b7f-b356-e2608cd0403d:12",
+      "cursor": "6334fe63-a9e8-4b7f-b356-e2608cd0403d:17",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R004 engineering table design8min active",
+      "task": "R008 third same-time mechanism figure8min active; compactR007 approved by root actualview",
       "actual_status": {
-        "type": "idle",
+        "type": "active",
         "activeFlags": []
       },
-      "last_actual": "2026-10-31T12:12:17.558311+08:00",
-      "last_actual_note": "Actual snapshots12:14-12:17 before next dispatch; messages successful afterward, refresh realstatus next wake; old idle does not imply next turn complete"
+      "last_actual": "2026-10-31T12:51:17+08:00",
+      "last_actual_note": "real compact per-target snapshots saved; nextdispatch only after refreshedidle"
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "frozen_utc": "2026-10-31T04:46:04.464209+00:00",
+  "elapsed_seconds": 156.464209,
+  "admitted_Y_cases": [
+    "SHW3Y",
+    "SHW4Y",
+    "RH4Y"
+  ],
+  "loadcase_same_function_and_scaling": true,
+  "only_Name_LoadName_direction_differences": true,
+  "Unstressed_initial_conditions_explicit": true,
+  "Y5_Y8_same_settings": true,
+  "priorY5_Y8_all_input_samples_equal": true,
+  "Y_response_group_metadata_rows": 180,
+  "Y_response_summary_rows": 12,
+  "unit_headers_confirmed": true,
+  "cached_X_ag_keys_exist_ZIP_directory_only": true,
+  "response_and_input_arrays_values_read": false,
+  "exact_native_vectors_not_rechecked_here": true,
+  "no_Y_ODE_or_prediction": true,
+  "no_new_Excel_or_fitted_scaling_Git": true,
+  "source_SHA_unchanged": true,
+  "decision": "metadata input admitted; await root dispatch, exact vector checks on later read"
+}

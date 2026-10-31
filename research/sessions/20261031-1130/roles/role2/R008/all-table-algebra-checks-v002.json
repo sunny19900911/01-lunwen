@@ -1,0 +1,19 @@
+{
+  "completed": "2026-10-31T12:50:20.732304+08:00",
+  "mode_points": 21600,
+  "anchors": 72,
+  "components": 432,
+  "scalar_formula_checks": 156024,
+  "max_abs_formula_or_sum_error_kN": 3.092281986027956e-11,
+  "zero_amplitude_both_points": 0,
+  "zero_amplitude_one_points": 0,
+  "metadata_recovered_at": "2026-10-31T12:52:26.460924+08:00",
+  "opposite_sum_sign_anchors": 0,
+  "zero_old_sign_anchors": 0,
+  "negative_projected_waveform_anchors": 24,
+  "fixed_scalar_zero_and_flip_policy_checks": true,
+  "must_count": 0,
+  "scope": "all scientific assertions completed before final JSON failure; recovery uses preserved prefix and already completed audit CSVs, no state recomputation",
+  "foreign_code_imported": false,
+  "new_ODE_or_physical_counterexample_scan": false
+}

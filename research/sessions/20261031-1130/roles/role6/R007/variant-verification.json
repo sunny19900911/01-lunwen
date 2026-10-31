@@ -1,0 +1,69 @@
+{
+  "records": [
+    {
+      "old_svg": "figure1-actual-CM-UX-modes2-10-13.svg",
+      "new_svg": "figure1-compact-CM-UX-modes2-10-13.svg",
+      "original_sha256": "b98f4c102a186c295fc19076480beb2b1138d0fc064e7f280783ee19ea791e0b",
+      "geometry_unchanged": true,
+      "plot_numeric_and_legend_text_unchanged": true,
+      "geometry_signature_sha256": "81347b3b026e8a80f37e6f97afa08713dce357210e73511b20f4001d5681e12a",
+      "canvas_before": [
+        1500,
+        1080
+      ],
+      "canvas_after": [
+        1500,
+        950
+      ],
+      "font_sizes_unchanged": true
+    },
+    {
+      "old_svg": "figure2-SHW3X-Story5-Story12-envelope-weights.svg",
+      "new_svg": "figure2-compact-SHW3X-modal-weights.svg",
+      "original_sha256": "6d33130a1dbf1b5ca513ff4b5c833910c327ad6ea54dc064af38ff860ace2a8a",
+      "geometry_unchanged": true,
+      "plot_numeric_and_legend_text_unchanged": true,
+      "geometry_signature_sha256": "74667399f9eac2177683b2008cafc8fa7eefc4bbf7dc8de72cebd4782c3da69e",
+      "canvas_before": [
+        1500,
+        1080
+      ],
+      "canvas_after": [
+        1500,
+        950
+      ],
+      "font_sizes_unchanged": true
+    }
+  ],
+  "source_csvs": [
+    {
+      "name": "figure1-CM-UX-normalized-source-54.csv",
+      "sha256": "cd9dbc54d2f23ba4ddabc40264f86672606f573a18998ded0269eb19d178244e",
+      "same_bytes_as_R006": true
+    },
+    {
+      "name": "figure2-SHW3X-weights-source-10.csv",
+      "sha256": "88c0b0704a0a36d9ec9ddfd6f89103b987b8788092d592bac93e71c384c84e96",
+      "same_bytes_as_R006": true
+    }
+  ],
+  "all_R006_file_hashes_unchanged": true,
+  "R006_files_before": {
+    "delivery-manifest.json": "d7f1cfb7810c18b14dce69e9703e66ca29c97ca2c1b950e391e298d75d2cd612",
+    "figure1-actual-CM-UX-modes2-10-13.png": "3a7522a3296c9e82d6e8799c8671e04ee7dacaf78dce6290ed5f32e0c5625a29",
+    "figure1-actual-CM-UX-modes2-10-13.svg": "b98f4c102a186c295fc19076480beb2b1138d0fc064e7f280783ee19ea791e0b",
+    "figure1-CM-UX-normalized-source-54.csv": "cd9dbc54d2f23ba4ddabc40264f86672606f573a18998ded0269eb19d178244e",
+    "figure2-SHW3X-Story5-Story12-envelope-weights.png": "a7d8e1dff14b91eb3f3cb24712b266487c5fa8b51720ac03e956ba5c986e5e7c",
+    "figure2-SHW3X-Story5-Story12-envelope-weights.svg": "6d33130a1dbf1b5ca513ff4b5c833910c327ad6ea54dc064af38ff860ace2a8a",
+    "figure2-SHW3X-weights-source-10.csv": "88c0b0704a0a36d9ec9ddfd6f89103b987b8788092d592bac93e71c384c84e96",
+    "initial-generation-failure.json": "f7da3f190e7eae7deaacfc3e1863068ba5b4cfc4f135ac448e7fe8e172d91d44",
+    "make_figures.py": "ea2135f59495557ae4f961438ca913e15797b80de3d31eaaeb116c07c986e94f",
+    "numeric-verification.json": "a80fd64be0b709f30a6a190f27c0722651632268468eb19a9af4795b3b455b99",
+    "README-figures.md": "3bfa8a07a67ead593d8d959dc03fadc602ba1a9781f5d7ddef03f3ebe567f752",
+    "render-record.json": "6bb7a6c87c2396a680135f638d00521d1aada7fd8bc1b24860af08b07cea4c25",
+    "render_figures.cjs": "2f9b8fd10bf64e592ba04a201eb4ec9745441dd308e9d06830c5b535282030b2",
+    "visual-QA.json": "12cb09da69dad743a3577467ac9e9dca031ccff7de4a093cc42794383f41ef8f"
+  },
+  "new_response_calculation": false,
+  "png_visual_QA": "pending"
+}
