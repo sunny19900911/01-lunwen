@@ -1,0 +1,66 @@
+{
+  "task": "session020-role2-R006",
+  "status": "complete conditional layer-mechanism interpretation audit; 0 must",
+  "started": "2026-10-31T12:28:28+08:00",
+  "numeric_completed": "2026-10-31T12:30:41.436064+08:00",
+  "frozen": "2026-10-31T12:33:24.221034+08:00",
+  "deadline": "2026-10-31T12:38:28+08:00",
+  "elapsed_seconds": 296.221034,
+  "within10_minutes_since_observed_start": true,
+  "new_unit_kernel_ratio_pairs": 12,
+  "selected_layer_mode_pairs": 24,
+  "selected_scalar_checks": 96,
+  "priority_layer_wave_pairs": 6,
+  "published_top5_weight_rows": 30,
+  "must_count": 0,
+  "analytic_checks": [
+    "weighted U ratio with separate zero-baseline activation term",
+    "P ratio = U ratio * C ratio retained as multiplicative accounting",
+    "common global sign leaves beta=v/sum(v) invariant for nonzero denominator",
+    "no physical native-force interpretation inferred from reference beta"
+  ],
+  "important_counter_to_overgeneralization": "RH4X Story5 U drops more than Story12 but its reference P drops less because C factors differ",
+  "not_done": [
+    "all21600 peak re-audit",
+    "new ODE or parameter search",
+    "role4 R006 active anchor beta/chi error-scale audit",
+    "old019 ratios not used"
+  ],
+  "files": [
+    {
+      "name": "actual-unit-kernel-ratios-12.csv",
+      "bytes": 1614,
+      "sha256": "c2f7b04ad5f25440aa280167651c5754a0c7c82992762ba5127281b3b1da5dc4"
+    },
+    {
+      "name": "check_kernel_ratios_and_weights.py",
+      "bytes": 6510,
+      "sha256": "98c4a110b49b88fef3620bf4ef3559dbe04d0dc850f3e7f0531dbbc0ef7b2fbe"
+    },
+    {
+      "name": "checks.json",
+      "bytes": 2053,
+      "sha256": "ca2deba61ff73ac968229b7cd65f55f990242a2ffa42fe304a5267c515e6d627"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3573,
+      "sha256": "5083f45f0f83370410e598de8d1ff0e0b6789dc4a4453f76297e745fa18372e6"
+    },
+    {
+      "name": "priority-layer-budget-and-combination-6.csv",
+      "bytes": 1681,
+      "sha256": "bb1ec88e520ace2b819966998f7b6d58f0e912466b5e70e8eac5ecfc5242fe31"
+    },
+    {
+      "name": "published-top5-weights-30.csv",
+      "bytes": 1175,
+      "sha256": "b0212140282b1084163cf31c4932953d52cbda989ba3c29acd8c62c98845caaa"
+    },
+    {
+      "name": "selected-mode-envelope-weights-24.csv",
+      "bytes": 2435,
+      "sha256": "008b32a7d0bf8b1785ba98f2e15ababcbf94b53c2194b0f3f2c2075ee7d302fa"
+    }
+  ]
+}

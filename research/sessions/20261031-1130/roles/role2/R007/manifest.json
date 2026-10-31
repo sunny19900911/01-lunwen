@@ -1,0 +1,95 @@
+{
+  "task": "session020-role2-R007",
+  "status": "complete selected fixed300-prefix reconstruction and all-table bound audit; 0 must",
+  "started": "2026-10-31T12:36:14+08:00",
+  "selected_completed": "2026-10-31T12:39:50.966899+08:00",
+  "formula_completed": "2026-10-31T12:39:50.975246+08:00",
+  "frozen": "2026-10-31T12:43:01.339293+08:00",
+  "deadline": "2026-10-31T12:48:14+08:00",
+  "elapsed_seconds": 407.339293,
+  "within12_minutes_since_observed_start": true,
+  "native_mass_first_crossings_90_95_99": [
+    10,
+    10,
+    173
+  ],
+  "unique_predefined_Ns": [
+    10,
+    13,
+    18,
+    173,
+    300
+  ],
+  "independent_N10_states": 12,
+  "independent_N10_pairs": 6,
+  "selected_numeric_checks": 307,
+  "state_small_table_formula_rows": 360,
+  "paired_small_table_formula_rows": 180,
+  "scalar_formula_checks": 5569,
+  "undefined_relative_scale_states": 5,
+  "undefined_peakratio_pairs": 2,
+  "must_count": 0,
+  "theory_review": "triangle tail bound, reverse-triangle peak error and two-state ratio interval manually verified with positivity and undefined conditions",
+  "new_ODE_Ritz_solve_or_output_fit": false,
+  "source_code_imported": false,
+  "complete_arrays_exported": false,
+  "source_delivery_v002_sha256": "6ccbe4c983d1b1c3741bd512f67d208c8cacefe3b6c0c5b334801e9b2c383b94",
+  "scope_limits": [
+    "all N are fixed300 Ritz posterior prefixes, not new software N-mode calculations",
+    "only 12 selected N10 outputs reconstructed independently; other rows checked for algebra and flags",
+    "tail scales concern same input/window/stored grid and 300-mode reference, not FE or continuous-time guarantees",
+    "signed comparison only to same-direction reference; native diagnostics absolute only"
+  ],
+  "files": [
+    {
+      "name": "all-table-formula-checks.json",
+      "bytes": 509,
+      "sha256": "b71eedeb0671f357b1431eb285ec75c1da82ba1299b3a672dd951d456de10f7d"
+    },
+    {
+      "name": "all180-pair-formula-audit.csv",
+      "bytes": 4782,
+      "sha256": "301c9a32fbc1cf80dd0e8daac31f4d09d5482c7bd8afecf1602279bb047c30ec"
+    },
+    {
+      "name": "all360-state-formula-audit.csv",
+      "bytes": 17236,
+      "sha256": "0324e523ae51d8ae8fee5b9afb758473b00b9ae70dc69c36eb2298d960372ea0"
+    },
+    {
+      "name": "check_fixed300_prefixes.py",
+      "bytes": 11173,
+      "sha256": "8cca424334138a5a4c331a655deaa109bcf20f6bb0632b3d01a00b4ac4d54fe5"
+    },
+    {
+      "name": "independent-N-selection.json",
+      "bytes": 447,
+      "sha256": "05b5b23d3a1c93a110f98813845e9bd73a1f35d95d84ea194c36baad18b21ce0"
+    },
+    {
+      "name": "independent-N10-priority-pairs-6.csv",
+      "bytes": 1662,
+      "sha256": "4f6e464cf3a92781fbb46337adf485bd00310223719ce0f9be8c7a40e3f5387a"
+    },
+    {
+      "name": "independent-N10-priority-states-12.csv",
+      "bytes": 5204,
+      "sha256": "4914f44b82c00dbcde48b532a1a604bf5ace0b58eb6a8a3c4450bc74f393ea72"
+    },
+    {
+      "name": "independent-native-mass-cumulative-300.csv",
+      "bytes": 13481,
+      "sha256": "52e0b8e6c94e3d9b6e43a575e7608c056f747198a7e24e5a9a62e8072136ac06"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3687,
+      "sha256": "687a7303d036418ce03c2ee6591ff053f7beb010771405a4398c538280be1025"
+    },
+    {
+      "name": "selected-reconstruction-checks.json",
+      "bytes": 3785,
+      "sha256": "8e1b6990bf529dfaa90499b39a6fcbb875c7d450541c42e408fbde80ec671dc8"
+    }
+  ]
+}

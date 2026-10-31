@@ -1,0 +1,21 @@
+{
+  "frozen_utc": "2026-10-31T04:40:06.168362+00:00",
+  "elapsed_seconds": 193.168362,
+  "mode_point_rows_checked": 21600,
+  "paired_same_time_anchors": 72,
+  "displayed_components": 432,
+  "priority_anchor_rows": 12,
+  "independent_single_mode_identity_max_error_kN": 7.105427357601002e-13,
+  "independent_all300_aggregate_max_error_kN": 5.4569682106375694e-12,
+  "independent_component_partition_max_error_kN": 1.1368683772161603e-13,
+  "max_difference_vs_R005_native_anchor_reference_totals_kN": 2.7284841053187847e-12,
+  "max_old_direction_vs_absolute_weakening_identity_error_kN": 0.0,
+  "all_normalized_waveforms_within_unit_peak_tolerance": true,
+  "no_one_zero_amplitude_observed": true,
+  "no_opposite_sign_totals_observed": true,
+  "negative_waveform_weakening_rows_retained": 24,
+  "all_CSV_under_1MB": true,
+  "all_source_SHA_unchanged": true,
+  "no_new_ODE_fit_or_parameter_scan_Git": true,
+  "normalized_waveform_not_pure_phase_or_causal_fraction": true
+}

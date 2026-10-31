@@ -1,0 +1,54 @@
+{
+  "source_sha_checked": true,
+  "shape_source_rows": 54,
+  "weight_source_rows": 10,
+  "per_mode_normalized_max_abs": {
+    "2": 1.0,
+    "10": 1.0,
+    "13": 1.0
+  },
+  "D1_floors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "D2_floors": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "no_missing_floor_zero_fill": true,
+  "figure2_categories": "2,10,13,18,all other296 (not top5+295)",
+  "figure2_weight_sums": {
+    "Story5": 1.0,
+    "Story12": 1.0
+  },
+  "font": "Microsoft YaHei; installed C:/Windows/Fonts/msyh.ttc",
+  "source_fingerprints": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261022-1856\\roles\\role4\\R001\\local-cache\\CM-signed-all300-5400.csv",
+      "sha256": "16d64ca68559dc5158e51ed6a48e76d2453064cdb8d1408326b6c02c90b12908"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R001\\modal-basis-identity-numeric-comparison-18.csv",
+      "sha256": "d257069828b4b4190182c6d440e702c196e5258b5eb52e806ccb5ae1fe013201"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\mode-envelopes-SHW3X-z0.05-3600.csv",
+      "sha256": "90b527743cee1a9b84c374f937e5bc2e44fa3973efc10545635c699cdc018860"
+    }
+  ],
+  "raster_visual_QA": "completed; see visual-QA.json"
+}

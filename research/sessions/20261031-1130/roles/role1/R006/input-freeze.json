@@ -1,0 +1,24 @@
+{
+  "task": "session020-role1-R006",
+  "started_at": "2026-10-31T12:37:19+08:00",
+  "budget_seconds": 480,
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\plan-theory-addendum-v001.md",
+      "bytes": 725,
+      "sha256": "2cae7dc27d99b04a91c23a366a00a3ce3582887c0354797ee7fdc08c79ef51be"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role1\\R004\\layer-mechanism-next-check-one-page.md",
+      "bytes": 4069,
+      "sha256": "64290cef34b8a1e8d4d7389f95aaa09383fdcb3dec4dce1f665101c547500581"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\input-rules-freeze.json",
+      "bytes": 3999,
+      "sha256": "6a203f9fbad9eaa6efdbc6da6faa32dfb90ae0b404c4db66600d6d8597fea61e"
+    }
+  ],
+  "claim": "Exact symmetric same-time amplitude/normalized-waveform decomposition; old-reference-sign projection, reversal correction, zero-amplitude unallocated remainder and peak-anchor offsets",
+  "scope": "analytic only; no R008 results read; no arrays, ODE, fitting, counterexample scan, solver/API or Git"
+}

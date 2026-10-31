@@ -1,0 +1,70 @@
+{
+  "frozen_utc": "2026-10-31T04:34:29.193362+00:00",
+  "elapsed_seconds": 236.193362,
+  "Ns": [
+    10,
+    13,
+    18,
+    173,
+    300
+  ],
+  "first_mass_threshold_crossings_verified": true,
+  "state_rows": 360,
+  "ratio_rows": 180,
+  "max_independent_prefix_rebuild_difference_kN": 3.637978807091713e-11,
+  "max_tail_recheck_difference_kN": 0.0,
+  "max_NRMSE_recheck_difference": 0.0,
+  "max_relative_peak_scale_recheck_difference": 0.0,
+  "max_peakratio_interval_recheck_difference": 0.0,
+  "all_tail_inequalities_pass_1e8_kN": true,
+  "undefined_relative_scales": [
+    {
+      "N": 10,
+      "Case": "SHW3X",
+      "zeta": 0.05,
+      "Story": "Story12"
+    },
+    {
+      "N": 10,
+      "Case": "SHW3X",
+      "zeta": 0.08,
+      "Story": "Story12"
+    },
+    {
+      "N": 10,
+      "Case": "SHW4X",
+      "zeta": 0.05,
+      "Story": "Story12"
+    },
+    {
+      "N": 10,
+      "Case": "SHW4X",
+      "zeta": 0.08,
+      "Story": "Story12"
+    },
+    {
+      "N": 10,
+      "Case": "RH4X",
+      "zeta": 0.08,
+      "Story": "Story12"
+    }
+  ],
+  "undefined_ratio_intervals": [
+    {
+      "N": 10,
+      "Case": "SHW3X",
+      "Story": "Story12"
+    },
+    {
+      "N": 10,
+      "Case": "SHW4X",
+      "Story": "Story12"
+    }
+  ],
+  "all_defined_intervals_contain_full300": true,
+  "all_small_CSV_under_1MB": true,
+  "sources_unchanged": true,
+  "no_new_ODE_fit_or_adaptive_N_choice": true,
+  "no_Git": true,
+  "scope": "tail and relative error scales apply inside defined300 reference only, not actual FE"
+}

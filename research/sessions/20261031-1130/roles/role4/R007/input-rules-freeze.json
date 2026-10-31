@@ -1,0 +1,100 @@
+{
+  "start_observed_utc": "2026-10-31T04:30:33+00:00",
+  "deadline_utc": "2026-10-31T04:42:33+00:00",
+  "frozen_utc": "2026-10-31T04:31:41.220283+00:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "bytes": 493076,
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "bytes": 14836060,
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.08-factorized-reference.npz",
+      "bytes": 14829087,
+      "sha256": "e88b73344432c10d505e351d015d24cb5173f7ddc5a6bca2f6a30076b12fb5fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.05-factorized-reference.npz",
+      "bytes": 16292630,
+      "sha256": "61c7165f08156aaef3af39dab94832b89772c60517d5a4444d74add79cb936d8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.08-factorized-reference.npz",
+      "bytes": 16280412,
+      "sha256": "4e37b056557552b136cb8bc02f5b22e6a7de3e210c677e939d63c3505a354863"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.05-factorized-reference.npz",
+      "bytes": 13812241,
+      "sha256": "2354441c71c1bf4e714c26d43af7b103c443419be8578bf775c47466a604cae5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.08-factorized-reference.npz",
+      "bytes": 13802569,
+      "sha256": "38d3442c2e05221aa27a6b5837c2c1965f477fddad6dde911e12bdb3af1a9eeb"
+    }
+  ],
+  "requested_schemes": [
+    {
+      "requested_rule": "first_native_UX_cumulative_ge_0.90",
+      "threshold": 0.9,
+      "N": 10,
+      "attained": true,
+      "cumulative_native_UX_at_N": 0.9518289176571225
+    },
+    {
+      "requested_rule": "first_native_UX_cumulative_ge_0.95",
+      "threshold": 0.95,
+      "N": 10,
+      "attained": true,
+      "cumulative_native_UX_at_N": 0.9518289176571225
+    },
+    {
+      "requested_rule": "first_native_UX_cumulative_ge_0.99",
+      "threshold": 0.99,
+      "N": 173,
+      "attained": true,
+      "cumulative_native_UX_at_N": 0.9914216157257434
+    },
+    {
+      "requested_rule": "fixed_N13",
+      "threshold": null,
+      "N": 13,
+      "attained": true,
+      "cumulative_native_UX_at_N": 0.963128169404776
+    },
+    {
+      "requested_rule": "fixed_N18",
+      "threshold": null,
+      "N": 18,
+      "attained": true,
+      "cumulative_native_UX_at_N": 0.9748266881429617
+    },
+    {
+      "requested_rule": "fixed_N300",
+      "threshold": null,
+      "N": 300,
+      "attained": true,
+      "cumulative_native_UX_at_N": 0.9999029742693104
+    }
+  ],
+  "deduplicated_Ns": [
+    10,
+    13,
+    18,
+    173,
+    300
+  ],
+  "mass_criterion": "native actual UX ratios summed in native Mode order; no normalization to 300 sum; first crossing only, not selected by outputs",
+  "reference": "actual300 fixed physical-source elastic inertia projection R004; no new ODE, fits or mass identification",
+  "state_metrics": "VN prefix vs full300 same reference direction signed NRMSE and absolute-peak difference; native only absolute curve and peak",
+  "tail": "T=sum_r>N max_t abs(v_r); U_retention=U_N/U300; maxabs(V300-VN)<=T within existing reference only",
+  "relative_scale": "T/(PN-T) only PN>T; otherwise undefined; no fullFE bound claim",
+  "peak_ratio_interval": "[max(0,PN8-T8)/(PN5+T5),(PN8+T8)/(PN5-T5)] only PN5>T5; check full300 ratio inside",
+  "full_truncated_arrays": "new generated arrays only local-cache, not uploaded"
+}

@@ -1,0 +1,58 @@
+{
+  "status": "engineering interpretation of frozen audited reference terms; no new trajectories",
+  "start_local": "2026-10-31T12:27:12+08:00",
+  "freeze_local": "2026-10-31T12:30:17+08:00",
+  "elapsed_seconds": 185.979723,
+  "limit_seconds": 480,
+  "within_limit": true,
+  "only_small_csv_reads": true,
+  "new_ODE_fit_or_selection_rule": false,
+  "canonical_top5_preserved": true,
+  "remaining295_retained": true,
+  "source_fingerprints": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\root-R004-term-audit\\checks.json",
+      "sha256": "a1b12c3e72ce9984cf80912ca6e23254059f7b83ca1b2db75028b305f47eaa6d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\Story5-Story12-UPC-priority-6.csv",
+      "sha256": "c49f49fe11334256a59f1a3201925053159d83ad20e6f24b159e1c7ea48704be"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\Story5-Story12-signed-reference-priority-48.csv",
+      "sha256": "a4eb48c6a896f26ea0b9904636212025a52bccf6349c8f66fec06a656923c51e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\all12-fixed5-top5-envelope-summary-36.csv",
+      "sha256": "a56eabed52b3a99121d7d99282e74b3fd1d680d78c1b91616092378e14b2da7f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\mode-envelopes-SHW3X-z0.05-3600.csv",
+      "sha256": "90b527743cee1a9b84c374f937e5bc2e44fa3973efc10545635c699cdc018860"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\mode-envelopes-SHW4X-z0.05-3600.csv",
+      "sha256": "6931b0fa505c3cd85ae159790ae60d1e3deaf4fbc2022af073b1f2e22047bf2f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\mode-envelopes-RH4X-z0.05-3600.csv",
+      "sha256": "8ca358960b9cd046e564c826055f597786a9ddb0ca9d1b8ba4ba61c8f2142e1b"
+    }
+  ],
+  "root_audit_must_changes": 0,
+  "weight_rows": 30,
+  "files": {
+    "explain_priority_layers.py": {
+      "bytes": 7156,
+      "sha256": "108fb694f4c4b4d2953a862225cea1572d9b1318ffa4b492f3f98070830b8378"
+    },
+    "one-page.md": {
+      "bytes": 3399,
+      "sha256": "31a7d3e97bb1f8fbdaf06f973d883856cce8c8c2e492a693ad38e142034abdfe"
+    },
+    "top5-baseline-envelope-weights-30.csv": {
+      "bytes": 3901,
+      "sha256": "c84ec2412c36d73d66db328a5c343207c2894e1016a638bca8a1ff843f2843a6"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "viewed_at_local": "2026-10-31T12:44:20+08:00",
+  "tool": "functions.view_image",
+  "images": [
+    {
+      "name": "figure1-actual-CM-UX-modes2-10-13.png",
+      "viewed": true,
+      "checks": [
+        "CJK readable",
+        "titles and panel labels not clipped",
+        "D1 circle solid and D2 square dashed distinct",
+        "D2 only actual3..8 floors",
+        "shared normalized x axis -1..1 and Story1..12",
+        "captions readable; no overlap"
+      ],
+      "result": "pass"
+    },
+    {
+      "name": "figure2-SHW3X-Story5-Story12-envelope-weights.png",
+      "viewed": true,
+      "checks": [
+        "CJK readable",
+        "all ten value labels visible",
+        "bars and legends consistent",
+        "Other296 grouping explicit",
+        "captions distinguish independent peak weights from same-time force and energy",
+        "no overlap or clipping"
+      ],
+      "result": "pass"
+    }
+  ],
+  "visual_repairs_needed": false,
+  "scope": "render/layout QA only; independent scientific review pending"
+}

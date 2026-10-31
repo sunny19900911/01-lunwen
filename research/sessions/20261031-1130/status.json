@@ -5,7 +5,7 @@
   "deadline": "2026-10-31T15:30:11+08:00",
   "deadline_utc": "2026-10-31T07:30:11Z",
   "writing_start": "2026-10-31T14:45:11+08:00",
-  "checkpoint": "R004-reviewed-forward",
+  "checkpoint": "R005-convergence-reviewed",
   "checkpoint_open": true,
   "no_new_scientific_dispatch": false,
   "active_plan": "plan.md + plan-direct-forward-v003.md",
@@ -21,22 +21,22 @@
     "previous_verified_HEAD": "5d9aa9caf5fb4b09f44f9d8b2901742f8146c937",
     "current_remote": "pending live check",
     "old_tracked_dirty": 11,
-    "current_HEAD_and_remote": "a59ecb0d52d944b59017f953bcf958c2ac57a42a",
+    "current_HEAD_and_remote": "b362898ab5666619aca91b00550f7dc60e0e89a6",
     "initial_index_empty": true,
-    "publication": "R003 normal push succeeded;remoteSHAequal; postpublication status administrative until next checkpoint",
-    "last_success_HEAD": "a59ecb0d52d944b59017f953bcf958c2ac57a42a",
-    "last_success_receipt": "git-R003-receipt.json"
+    "publication": "R004 normalpush remoteverified;postpublication administrative update",
+    "last_success_HEAD": "b362898ab5666619aca91b00550f7dc60e0e89a6",
+    "last_success_receipt": "git-R004-receipt.json"
   },
-  "last_actual": "2026-10-31T12:28:46.527272+08:00",
+  "last_actual": "2026-10-31T12:46:42.646165+08:00",
   "root_first_scientific_result": "direct coefficients in old known3floor model: K-recovery error4.44e-16,output reconstruction2e-15; no newODE/fit; pending independent review",
-  "next_checkpoint": "Collect role4R006/role2R006 and authorv004, root read; physical modal truncation using frozen arrays only after role4 idle and role1protocol, no repeated state integrations/fits. Finaldeadline15:30:11, writing14:45:11.",
+  "next_checkpoint": "Collect root-role2R008 actualaudit, role4R009 Y input admission bounded only,role5v005,role6publicationfigures. No extraY states without verifiedinput and explicitnewtask. MainXphysicalchain has reviewed engineering support. NextGitR006 after newfreeze ~13:02, no repeatR005 receipt. 14:45:11 finalwriting/Word, deadline15:30:11.",
   "current_tasks": {
-    "role1": "R005 physical-modal truncation/90-95-99mass engineering comparison protocol8min active",
-    "role2": "R006 commonunit modal amplitude ratios2/10/13/18 and weightedU mechanism10min, noODE, active",
-    "role3": "R006/R007/R008 frozen source support; v003 fullcitation review0newmust; ownwindow13:11:38; waiting newevidence",
-    "role4": "R006 δabs∞/288same-timeχ andβ+36peak-ratioerror scale8min active, noODE",
-    "role5": "R004/v004 layer-mechanism and engineering algorithm integrating reviewed results12min active",
-    "role6": "R005 Story5/12 realreference topweights/same-time mechanism8min active"
+    "role1": "R006 symmetricchange theorem frozen; idle awaiting independentreview",
+    "role2": "R008 independent72same-time mechanism/selected12 reconstruction and analytic review12min active",
+    "role3": "R009 source truncation notes frozen; ownhuman90min ends13:11:38; no repeatoldreview",
+    "role4": "R009 bounded8min Y-paired input metadata admission only; no YODE until explicit dispatch; doesnotblock mainX manuscript",
+    "role5": "R005/v005 convergence/Englishabstract/closed2DOF formula15min active; originalv004 kept",
+    "role6": "R007 compactpublication figurevariants8min active, originalR006 kept"
   },
   "scientific_status": {
     "direct_formula": "conditional analytic identity independently derived role1/role2; quality of CM aggregation/eigen recovery separately gated",
@@ -49,8 +49,12 @@
     "engineering_B": "role2R004 independently reviewed72B/24mass/3coordinate androle6math,0must;inertia projection only",
     "q_observability": "36x300 CM translation matrixrank36;2/10/13 rowdistance .192081/.051293/.050333 nonzero; instantaneous arbitraryq notunique; temporal dynamics not excluded",
     "direct_forward": "reviewed role2R005 frozen12:25:45;216CM+144shear diagnostics4680numbers checked;6 ownRK4 checks ~7e-10; no fit, CM signed vs shearabsolute scope distinct",
-    "manuscript": "v003 frozen14117B fullrootread+S1; role5R004/v004 integrating reviewed forward and new modal layer mechanism,active",
-    "modal_terms": "root independent audit21600modepeaks/36pairs/288anchors passed<4e-12kN;maxnative/reference peak-reductiondiff.196533pp; linear physical-source reference not fullFE unique q"
+    "manuscript": "v00415144B SHAabb626fd8a5a5b4902c2f4273a576850ea6e0448e988af439b830af723c691c1 root fullread; v005 currentauthor15min adds convergence andEnglishabstract",
+    "modal_terms": "root independent audit21600modepeaks/36pairs/288anchors passed<4e-12kN;maxnative/reference peak-reductiondiff.196533pp; linear physical-source reference not fullFE unique q",
+    "unit_amplitude": "role2R006 reviewed actual2/10/13/18 common unit ratios; modal damping response ordering changes with wave; RH4 floor5 U decreases more than roof but finalpeakdecreasesless",
+    "truncation": "role2R007 frozen12:43:01 reviewed0must; N90=N95=10(.951829),N99=173; N10 roof maxprefix curveNRMSE64.73%,peak25.15%,peakreductiondiff9.667pp vs300; fixedbasisposthocnot newRitz solve",
+    "same_time_changes": "role4R008 frozen72paired/432components/21600points;root readcode/README/priority12; role1R006 independentanalyticalidentity read; role2R008 independentnumericalaudit active; normalization waveform not purephase/cause",
+    "figures": "role6R006 twoPNG/SVG frozen; root actually viewedboth, no cut/CJK overlap; compact publication variants R007 active"
   },
-  "recovery_file": "rounds/R004.md"
+  "recovery_file": "rounds/R005.md"
 }

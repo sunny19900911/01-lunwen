@@ -1,0 +1,122 @@
+{
+  "completed_utc": "2026-10-31T04:32:35.628648+00:00",
+  "Ns": [
+    10,
+    13,
+    18,
+    173,
+    300
+  ],
+  "state_rows_total": 360,
+  "paired_ratio_rows_total": 180,
+  "summary": [
+    {
+      "N": 10,
+      "native_UX_cumulative_mass_ratio": 0.9518289176571225,
+      "state_rows": 72,
+      "max_signed_NRMSE_vs_full300": 0.6473166017772354,
+      "max_abs_peak_relative_difference_vs_full300": 0.25149481160203024,
+      "minimum_layer_envelope_retention": 0.6003486755617768,
+      "max_native_absolute_curve_NRMSE": 0.5359292263744834,
+      "max_abs_peak_relative_difference_vs_native": 0.2514867381722147,
+      "undefined_relative_peak_scale_states": 5,
+      "undefined_peakratio_intervals": 2,
+      "max_abs_peak_decrease_difference_vs_full300_pp": 9.667223923208146,
+      "scope": "all predeclared schemes retained, no output selection"
+    },
+    {
+      "N": 13,
+      "native_UX_cumulative_mass_ratio": 0.963128169404776,
+      "state_rows": 72,
+      "max_signed_NRMSE_vs_full300": 0.27775361578163643,
+      "max_abs_peak_relative_difference_vs_full300": 0.10794212756822219,
+      "minimum_layer_envelope_retention": 0.8074544863685377,
+      "max_native_absolute_curve_NRMSE": 0.2587908208207443,
+      "max_abs_peak_relative_difference_vs_native": 0.1091133835358481,
+      "undefined_relative_peak_scale_states": 0,
+      "undefined_peakratio_intervals": 0,
+      "max_abs_peak_decrease_difference_vs_full300_pp": 8.92884591111659,
+      "scope": "all predeclared schemes retained, no output selection"
+    },
+    {
+      "N": 18,
+      "native_UX_cumulative_mass_ratio": 0.9748266881429617,
+      "state_rows": 72,
+      "max_signed_NRMSE_vs_full300": 0.08902101739324235,
+      "max_abs_peak_relative_difference_vs_full300": 0.023326114799562925,
+      "minimum_layer_envelope_retention": 0.8838988516736457,
+      "max_native_absolute_curve_NRMSE": 0.08680688235410183,
+      "max_abs_peak_relative_difference_vs_native": 0.02375251066943973,
+      "undefined_relative_peak_scale_states": 0,
+      "undefined_peakratio_intervals": 0,
+      "max_abs_peak_decrease_difference_vs_full300_pp": 1.5779868158972365,
+      "scope": "all predeclared schemes retained, no output selection"
+    },
+    {
+      "N": 173,
+      "native_UX_cumulative_mass_ratio": 0.9914216157257434,
+      "state_rows": 72,
+      "max_signed_NRMSE_vs_full300": 0.02059709444119572,
+      "max_abs_peak_relative_difference_vs_full300": 0.010740194888608112,
+      "minimum_layer_envelope_retention": 0.9797038022574402,
+      "max_native_absolute_curve_NRMSE": 0.020458312137676772,
+      "max_abs_peak_relative_difference_vs_native": 0.010771830553520712,
+      "undefined_relative_peak_scale_states": 0,
+      "undefined_peakratio_intervals": 0,
+      "max_abs_peak_decrease_difference_vs_full300_pp": 0.9289856164890087,
+      "scope": "all predeclared schemes retained, no output selection"
+    },
+    {
+      "N": 300,
+      "native_UX_cumulative_mass_ratio": 0.9999029742693104,
+      "state_rows": 72,
+      "max_signed_NRMSE_vs_full300": 0.0,
+      "max_abs_peak_relative_difference_vs_full300": 0.0,
+      "minimum_layer_envelope_retention": 1.0,
+      "max_native_absolute_curve_NRMSE": 0.006582207329419007,
+      "max_abs_peak_relative_difference_vs_native": 0.0023517032814902583,
+      "undefined_relative_peak_scale_states": 0,
+      "undefined_peakratio_intervals": 0,
+      "max_abs_peak_decrease_difference_vs_full300_pp": 0.0,
+      "scope": "all predeclared schemes retained, no output selection"
+    }
+  ],
+  "max_full300_rebuild_difference_vs_R004_kN": 3.637978807091713e-11,
+  "max_curve_tail_violation_before_tolerance_kN": 1.7053025658242404e-13,
+  "all_tail_inequalities_pass": true,
+  "all_defined_ratio_intervals_contain_full300": true,
+  "local_only_arrays": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R007\\local-cache\\prefixes-SHW3X-z0.05.npz",
+      "bytes": 1233179,
+      "sha256": "4028c411c0b1b116abf675ac30b50779c3add247549ada8fecbca5d8d36347b0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R007\\local-cache\\prefixes-SHW3X-z0.08.npz",
+      "bytes": 1233444,
+      "sha256": "fa422b9c0f9b6520ddbf4f14e097048fe00aca646ba7882144a54cc2bd34b523"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R007\\local-cache\\prefixes-SHW4X-z0.05.npz",
+      "bytes": 1352250,
+      "sha256": "3209a7a35a5904dc78ff84f6dcab03de2082d03669574c0698578e7b7c0c5265"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R007\\local-cache\\prefixes-SHW4X-z0.08.npz",
+      "bytes": 1352106,
+      "sha256": "5f410e2db3b1d424c7ffbe2e6cd8e8c7564ff1aba294bce0abea1a76652007ea"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R007\\local-cache\\prefixes-RH4X-z0.05.npz",
+      "bytes": 1145316,
+      "sha256": "f4a1a83c2f0cd022fb491cc6eb37fe25bdf06cbc66fa448dbbad2880747bd26f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R007\\local-cache\\prefixes-RH4X-z0.08.npz",
+      "bytes": 1146139,
+      "sha256": "492286cb2ccdd8804d5d67fa7f512b25d4490f5bf0720b0ce90791708a8c02f8"
+    }
+  ],
+  "sources_unchanged": true,
+  "no_new_ODE_fit_or_scheme_selection": true
+}

@@ -1,0 +1,34 @@
+{
+  "completed_at": "2026-10-31T12:39:58.538499+08:00",
+  "elapsed_seconds": 159.538499,
+  "budget_seconds": 480,
+  "within_budget": true,
+  "evidence_type": "analytic-derivation",
+  "manual_algebra_checks": [
+    "symmetric expansion cancels cross terms",
+    "assigned plus unallocated changes equal total change",
+    "old-sign projection identity",
+    "same-sign condition and2*abs(y8) reversal correction",
+    "general-anchor peak-loss identity",
+    "global sign invariance of projected components"
+  ],
+  "review_status": "Independent analytic role1 derivation; no numerical R008 audit performed",
+  "source_checks": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\plan-theory-addendum-v001.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role1\\R004\\layer-mechanism-next-check-one-page.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\input-rules-freeze.json",
+      "unchanged": true
+    }
+  ],
+  "all_source_hashes_unchanged": true,
+  "arrays_or_new_responses_read": false,
+  "ODE_fit_or_counterexample_scan": false,
+  "Git_used": false
+}

@@ -1,0 +1,133 @@
+{
+  "task": "session020-role1-R005",
+  "decision": "Informative application of existing modal-truncation principle; do not presume a failing case before computing.",
+  "execution": "Only prefix sums of frozen actual300 modal terms; no ODE, fitting, coefficient changes or legacy fitted-N models.",
+  "N_selection": {
+    "direction": "same-model global X",
+    "mu": "effective modal mass / total direction mass; convert percent if required",
+    "thresholds": [
+      0.9,
+      0.95,
+      0.99
+    ],
+    "rule": "first native-order N with cumulative original mu>=threshold, independently of wave and zeta",
+    "renormalize_to_retained300_sum": false,
+    "unreached": "report not reached; do not relabel300 as threshold crossing",
+    "near_threshold": "record source precision if crossing is unresolved",
+    "fixed_N": [
+      13,
+      18,
+      300
+    ],
+    "duplicates": "deduplicate computation while keeping all scheme labels",
+    "near_repeated_modes": "lock original order and flag cuts through a group; do not silently replace first crossing."
+  },
+  "scope": {
+    "floors": "all12; Story5 and Story12 predetermined priorities",
+    "waves": [
+      "SHW3X",
+      "SHW4X",
+      "RH4X"
+    ],
+    "zeta": [
+      0.05,
+      0.08
+    ],
+    "operators": [
+      "existing E",
+      "existing Q, separately, no winner selection"
+    ]
+  },
+  "reference_residuals": {
+    "y_N": "sum_{r<=N}v_r",
+    "R_N": "y300-yN=sum_{r>N}v_r, signed within common reference",
+    "absolute_Linf_kN": "E_inf=max(abs(R_N))",
+    "relative_Linf": "e_inf=E_inf/P300",
+    "relative_L2": "e2=norm(R_N)/norm(y300)",
+    "tail_envelope_kN": "T=sum_{r>N}max(abs(v_r))",
+    "local_tail_fraction": "T/U300",
+    "peak_error_vs300": "PN/P300-1",
+    "bound": "abs(PN-P300)<=E_inf<=T",
+    "monotonicity": "T is nonincreasing; synthesized peaks/residual norms/drop differences need not be monotone."
+  },
+  "native_comparison": {
+    "curve": "norm(abs(yN)-abs(native))/norm(native)",
+    "peak": "PN/Pnative-1",
+    "sign": "No eta trial; native absolute diagnostics only",
+    "full300_baseline": "Preserve native error at N300; full300 is a finite Ritz reference, not FE truth."
+  },
+  "paired_zeta_peak_drop": {
+    "D_N_percent": "100*(1-PN8/PN5)",
+    "D_300_percent": "100*(1-P3008/P3005)",
+    "D_native_percent": "100*(1-Pnative8/Pnative5)",
+    "delta_D_trunc_pp": "D_N-D_300",
+    "delta_D_native_pp": "D_N-D_native",
+    "baseline_reference_bias_pp": "D_300-D_native",
+    "identity": "delta_D_native=delta_D_trunc+baseline_reference_bias",
+    "clipping": "Keep signed differences and peak increases; no forced monotonicity."
+  },
+  "minimum_criterion": {
+    "eps_force_relative": null,
+    "eps_drop_percentage_points": null,
+    "freeze": "Use project acceptance tolerances fixed before examining truncated responses, never tune N or tolerances to8% error.",
+    "pass": "all predefined key-floor/wave/zeta e_inf<=eps_force and all abs(delta_D_trunc)<=eps_drop",
+    "if_tolerances_unset": "Compute and publish the complete table now; mark acceptance not assessed, rather than declaring enough.",
+    "tail": "Report envelope convergence alongside actual combined residual, not as an equality to peak error."
+  },
+  "tables": [
+    {
+      "name": "N-selection",
+      "fields": [
+        "scheme_labels",
+        "N",
+        "original_cumulative_mu_X",
+        "threshold_reached",
+        "precision_flag",
+        "near_group_boundary"
+      ]
+    },
+    {
+      "name": "local-convergence-paired-zeta",
+      "keys": [
+        "Case",
+        "Story",
+        "N",
+        "operator"
+      ],
+      "fields": [
+        "original_cumulative_mu_X",
+        "Einf5_kN",
+        "Einf8_kN",
+        "einf5",
+        "einf8",
+        "e2_5",
+        "e2_8",
+        "T5_kN",
+        "T8_kN",
+        "T5/U300_5",
+        "T8/U300_8",
+        "P5_N/P5_300-1",
+        "P8_N/P8_300-1",
+        "P5_N/P5_native-1",
+        "P8_N/P8_native-1",
+        "native_abs_curve_NRMSE5",
+        "native_abs_curve_NRMSE8",
+        "D_N_percent",
+        "delta_D_trunc_pp",
+        "delta_D_native_pp",
+        "baseline_reference_bias_pp",
+        "acceptance_status",
+        "zero_denominator_status"
+      ]
+    }
+  ],
+  "checks": [
+    "N300 residual/tail/error-vs300 must be zero within summation precision",
+    "Paired drop identity closes",
+    "Envelope bound with declared floating tolerance",
+    "Zero force/norm denominators are undefined, not silently zero",
+    "No sign/gain/time shift or modal reidentification",
+    "Report threshold success and failure equally; no forced counterexample"
+  ],
+  "status": "No truncated waveform or metric computed by role1."
+}

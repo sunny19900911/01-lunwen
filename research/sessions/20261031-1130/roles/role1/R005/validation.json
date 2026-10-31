@@ -1,0 +1,37 @@
+{
+  "completed_at": "2026-10-31T12:30:33.025352+08:00",
+  "elapsed_seconds": 220.025352,
+  "budget_seconds": 480,
+  "within_budget": true,
+  "evidence_type": "analytic truncation-test protocol",
+  "manual_checks": [
+    "tail triangle inequality and peak reverse-triangle bound",
+    "paired-zeta drop-error identity",
+    "mass-threshold selection is response independent",
+    "native versus full300 errors separated"
+  ],
+  "source_checks": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role3\\R005\\song-direct-modal-force-sources.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\input-rules-freeze.json",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\README-UPC-and-same-time-modal-reference.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role1\\R004\\layer-mechanism-next-check-one-page.md",
+      "unchanged": true
+    }
+  ],
+  "all_source_hashes_unchanged": true,
+  "arrays_read": false,
+  "N_thresholds_or_truncation_metrics_computed_here": false,
+  "new_ODE_or_fit": false,
+  "Git_used": false,
+  "acceptance_tolerances": "not assigned by role1; complete reporting remains executable without a pass label"
+}

@@ -15,3 +15,5 @@ R002 actual 2026-10-31T12:00:38.147236+08:00: collected role4R001/R002 frozen sm
 R003 2026-10-31T12:12:17.558311+08:00: independentmassreview adopted; fullB/root-read candidate then independentaudit; actualnew no-fit forward role4R004 dispatched only afteridle. v002 readfull, preservehash. GitR003 frozen-only preparation, no fullarray upload.
 
 R004 2026-10-31T12:28:46.527272+08:00: directphysicalforward independentlyvalidated, root term audit actually run1.1s; no new rootODE or rawexport. Submittedrole1truncationprotocol,role2unitamplitudes,role4error/β,role5v004,role6engineeringinterpretation. NewGitfrozenonly.
+
+R005 2026-10-31T12:46:42.646165+08:00: adopted independentphysicalprefix convergence+unit amplitude mechanism; root viewedactual2PNG; next same-time audit/v005/compactfigures/Ymetadataonly. NewGit whitelist excludes all local-cache, rawdata and active directories.

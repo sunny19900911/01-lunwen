@@ -1,0 +1,21 @@
+{
+  "completed_at": "2026-10-31T12:31:23.182139+08:00",
+  "elapsed_since_R005_start_seconds": 270.182139,
+  "within_original8_minutes": true,
+  "source": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role1\\R005\\manifest.json",
+    "bytes": 1282,
+    "sha256": "843f2ed82b90daf44a06958cced5f331b3206d4a126c9043522446e230ffc638"
+  },
+  "prior_frozen_files_unchanged": true,
+  "scope": "Analytic verification of requested tail stopping bound only",
+  "manual_checks": {
+    "tail_triangle_bound": true,
+    "relative_peak_denominator": "P300, with PN>T guaranteeing positive lower bound",
+    "two_state_ratio_bound": "requires PN5>T5; numerator lower bound clipped at0",
+    "drop_interval": "reverse endpoints because D=100*(1-R)",
+    "conservatism": "failure of sufficient bound is not actual truncation failure"
+  },
+  "numeric_or_ODE_work": false,
+  "Git_used": false
+}

@@ -1,0 +1,87 @@
+{
+  "task": "session020-role1-R006",
+  "scope": "Same-time bookkeeping in frozen physical-source linear reference; no causal percentage, pure-phase or unique actual-FNA claim.",
+  "inputs_fixed": [
+    "same floor/wave/operator",
+    "same response unit and positive orientation",
+    "common original grid and observation window",
+    "unchanged modes and5%-selected presentation groups",
+    "both zeta states evaluated at every anchor"
+  ],
+  "normalization": {
+    "A": "max(abs(v)) over full frozen observation window",
+    "h": "v/A only resolved positive A",
+    "no_peak_alignment": true,
+    "group_policy": "Decompose modes first, then sum components in groups; normalization of pre-summed groups is a different decomposition."
+  },
+  "mode_decomposition": {
+    "delta_v": "v8-v5",
+    "dA": "(A8-A5)*(h8+h5)/2",
+    "dh": "(A8+A5)*(h8-h5)/2",
+    "identity": "delta_v=dA+dh when both amplitudes positive",
+    "both_A_zero": "delta_v=0, allocated components0, h remains undefined",
+    "exactly_one_A_zero": "dA/dh undefined; preserve entire delta_v in d0 unallocated, never fill an arbitrary h",
+    "precision_unresolved": "flag separately; if decomposition is not reliable retain raw delta_v unallocated; do not erase terms or silently relabel printed zero as exact."
+  },
+  "old_direction_projection": {
+    "sigma5": "sign(sum_r(v5(tau))), require resolved nonzero old reference total",
+    "WA": "-sigma5*sum_assigned(dA)",
+    "Wh": "-sigma5*sum_assigned(dh)",
+    "W0": "-sigma5*sum_unallocated(delta_v)",
+    "total": "WA+Wh+W0=sigma5*(y5-y8)=Wold",
+    "positive": "weakens old-direction projection",
+    "negative": "strengthens old-direction projection, offsetting weakening elsewhere",
+    "amplitude_decrease": "Can give negative WA if it reduces a cancelling contribution.",
+    "CSI_mapping": "Use reference sigma5 only, never infer native eta from this projection."
+  },
+  "absolute_difference": {
+    "same_sign_or_new_zero": "sigma5*y8>=0 => abs(y5)-abs(y8)=Wold",
+    "reversal": "abs(y5)-abs(y8)=Wold-2*max(0,-sigma5*y8)",
+    "old_zero_or_unresolved": "Old-direction W not defined; retain raw decomposition and direct absolute difference.",
+    "global_sign_invariance": "Flipping all reference v and y signs flips dA/dh but leaves projected W and reversal correction unchanged."
+  },
+  "anchors": {
+    "set": [
+      "reference5 own absolute peak",
+      "reference8 own absolute peak",
+      "native5 absolute peak",
+      "native8 absolute peak"
+    ],
+    "evaluate": "both zeta states and complete decomposition independently at every anchor; duplicate times keep labels",
+    "forbidden": "Never add WA at old peak to Wh at new peak.",
+    "peak_identity": "P5-P8=(abs(y5(tau))-abs(y8(tau)))+(P5-abs(y5(tau)))-(P8-abs(y8(tau)))",
+    "reference_old_peak": "old-anchor loss is0",
+    "reference_new_peak": "new-anchor loss is0",
+    "native_anchor": "Neither reference anchor loss is automatically0",
+    "interpretation": "Anchor losses are peak-location bookkeeping, not independent mechanisms."
+  },
+  "minimum_checks": [
+    "per-mode delta reconstruction, valid-mask and unallocated residual coverage",
+    "all300 modal components sum to same total; displayed partitions close separately",
+    "WA+Wh+W0 old-direction identity",
+    "absolute-difference identity including reversal correction",
+    "peak/anchor-loss identity at every anchor",
+    "native absolute residual reported separately"
+  ],
+  "table_fields": [
+    "Case",
+    "Story",
+    "operator",
+    "anchor_label",
+    "tau_s",
+    "A5_A8_or_amplitude_status",
+    "y5",
+    "y8",
+    "sigma5_status",
+    "WA_kN",
+    "Wh_kN",
+    "W0_kN",
+    "Wold_kN",
+    "reversal_correction_kN",
+    "same_time_absolute_drop_kN",
+    "old_anchor_loss_kN",
+    "new_anchor_loss_kN",
+    "closure_errors"
+  ],
+  "response_or_R008_metrics_computed_here": false
+}

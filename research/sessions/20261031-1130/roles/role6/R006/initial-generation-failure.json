@@ -1,0 +1,8 @@
+{
+  "observed_local": "2026-10-31T12:42:12+08:00",
+  "reason": "Python drawing script syntax error: extra parenthesis in marker call.",
+  "scientific_outputs_created": false,
+  "followup_render": "Attempt returned missing input SVG; no PNG was created.",
+  "dependency_failure": false,
+  "correction": "Fix marker call parentheses and run renderer only after successful SVG generation."
+}

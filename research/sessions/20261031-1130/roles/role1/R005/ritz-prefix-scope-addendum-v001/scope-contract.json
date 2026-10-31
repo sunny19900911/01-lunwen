@@ -1,0 +1,11 @@
+{
+  "task": "session020-role1-R005-scope-addendum-v001",
+  "operation": "Postprocess prefixes of one frozen actual300 Ritz basis",
+  "fixed": ["Phi", "omega", "Gamma", "B", "unit-response kernels", "input", "time grid"],
+  "changed": "Only the number of retained columns in the output sum",
+  "valid_conclusion": "Local-output truncation convergence within the existing basis",
+  "not_equivalent_to": "Regenerating Ritz vectors after changing ETABS requested mode count to N",
+  "unsupported_claims": ["new-N solver convergence", "Ritz generation algorithm convergence", "algorithm acceleration", "ETABS mode-count recommendation"],
+  "new_ODE_or_model_operation": false,
+  "prior_frozen_files_modified": false
+}

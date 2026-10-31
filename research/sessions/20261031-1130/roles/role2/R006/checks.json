@@ -1,0 +1,81 @@
+{
+  "completed": "2026-10-31T12:30:41.436064+08:00",
+  "kernel_pairs": 12,
+  "kernel_modes": [
+    2,
+    10,
+    13,
+    18
+  ],
+  "zero_A5_count": 0,
+  "selected_layer_mode_pairs": 24,
+  "selected_scalar_checks": 96,
+  "priority_layer_pairs": 6,
+  "must_count": 0,
+  "selected_decrease_order_by_wave": {
+    "SHW3X": [
+      {
+        "Mode": 13,
+        "decrease_percent": 19.786107862727455
+      },
+      {
+        "Mode": 10,
+        "decrease_percent": 15.582719928072741
+      },
+      {
+        "Mode": 18,
+        "decrease_percent": 9.430667219609557
+      },
+      {
+        "Mode": 2,
+        "decrease_percent": 7.907046119750705
+      }
+    ],
+    "SHW4X": [
+      {
+        "Mode": 18,
+        "decrease_percent": 25.208904413292643
+      },
+      {
+        "Mode": 13,
+        "decrease_percent": 13.652319506535882
+      },
+      {
+        "Mode": 10,
+        "decrease_percent": 11.31869590428286
+      },
+      {
+        "Mode": 2,
+        "decrease_percent": 10.077872873937466
+      }
+    ],
+    "RH4X": [
+      {
+        "Mode": 2,
+        "decrease_percent": 22.20306195453433
+      },
+      {
+        "Mode": 10,
+        "decrease_percent": 19.84683294359454
+      },
+      {
+        "Mode": 13,
+        "decrease_percent": 16.0527446132915
+      },
+      {
+        "Mode": 18,
+        "decrease_percent": 15.90445707641166
+      }
+    ]
+  },
+  "identity_conditions": "U5>0 and every used A5>0, otherwise add sum_{A5=0}|B|A8/(1000 U5); do not divide by zero",
+  "beta_sign_invariance": "v and summed y multiplied by the same nonzero sign leaves v/y unchanged when y!=0; no native modal-force identity inferred",
+  "recomputed_all21600_peaks": false,
+  "new_ODE_or_fit": false,
+  "foreign_code_imported": false,
+  "sources": {
+    "forward_manifest_v002_sha256": "6bae1736932e9a206d290b05adc9e44cea347a7b83c96a74908ce0f994576678",
+    "UPC_manifest_sha256": "3fee273a036b175d49f334b9df249b171417c48f43253c51fb9c52d3f76811f7",
+    "role1_manifest_sha256": "cc7e965b157fe5a95aea63780f05c470213202c820c743a8562b7729df60a693"
+  }
+}

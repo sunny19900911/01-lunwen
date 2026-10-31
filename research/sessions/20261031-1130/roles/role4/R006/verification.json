@@ -1,0 +1,22 @@
+{
+  "frozen_utc": "2026-10-31T04:28:58.115976+00:00",
+  "started_utc": "2026-10-31T04:24:53+00:00",
+  "elapsed_seconds": 245.115976,
+  "state_delta_rows": 72,
+  "paired_decrease_rows": 36,
+  "same_time_chi_beta_rows": 288,
+  "max_chi_formula_recheck_error": 0.0,
+  "max_beta_formula_partition_recheck_error": 4.440892098500626e-16,
+  "max_decrease_discrepancy_recheck_error_percentage_points": 3.552713678800501e-15,
+  "all_peak_deviations_le_observed_delta": true,
+  "all_ratio_discrepancies_le_observed_scale": true,
+  "beta_undefined_zero_E_rows": 0,
+  "negative_top5_beta_values": 157,
+  "top5_beta_greater_one_values": 0,
+  "signed_native_force_residuals_all_blank": true,
+  "all_CSV_under_1MB": true,
+  "source_SHA_unchanged": true,
+  "R005_unchanged": true,
+  "no_new_ODE_fit_or_CM_metric_Git": true,
+  "delta_claim": "observed amplitude deviation only; not signed force residual or fullFE error bound"
+}

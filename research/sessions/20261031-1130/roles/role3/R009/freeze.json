@@ -1,0 +1,35 @@
+{
+  "frozen_at": "2026-10-31T12:38:07.280696+08:00",
+  "file": "truncation-literature-and-wording.md",
+  "bytes": 4775,
+  "sha256": "7a9f739e01bc25bd54429f158d12aa862e8819399d19006927aa24c820e29ca5",
+  "inputs": [
+    {
+      "path": "research/sessions/20261031-1130/roles/role4/R007/README-physical-truncation-convergence.md",
+      "sha256": "430e9b74c5533c39927c64cd49af0da44ada513afbb4293a150db88a855a92a1",
+      "bytes": 4825
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role4/R007/scope-addendum-fixed300-prefix.md",
+      "sha256": "20543b528bc68bbded9d53f2717831a7aa2736fe2346fedcf9ae792fb91739cc",
+      "bytes": 892
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role4/R007/all-N-engineering-convergence-summary-5.csv",
+      "sha256": "0693ae105960f4cbd14bb13b58f4bb9917204f4a71a38d540706572d35b287e6",
+      "bytes": 1307
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/physical-modal-shear-session020-v004.md",
+      "sha256": "abb626fd8a5a5b4902c2f4273a576850ea6e0448e988af439b830af723c691c1",
+      "bytes": 15144
+    }
+  ],
+  "primary_pages": [
+    "Song print106-108/PDF124-126",
+    "CSI print372-375/PDF394-397"
+  ],
+  "scope": "fixed300-prefix local output truncation; new production results interpreted, not numerical re-audit",
+  "new_reference_count": 0,
+  "no_raw_arrays_or_ODE": true
+}

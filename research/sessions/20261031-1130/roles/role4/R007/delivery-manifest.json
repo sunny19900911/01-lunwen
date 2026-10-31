@@ -1,0 +1,185 @@
+{
+  "frozen_utc": "2026-10-31T04:34:29.193362+00:00",
+  "outputs": [
+    {
+      "name": "actual-native-UX-mass-ratio-cumulative-300.csv",
+      "bytes": 14927,
+      "sha256": "f8b84eacc0314e4e61dccf134f4884ac54864fe601ddbbf6a76f32a31f9233ce"
+    },
+    {
+      "name": "all-N-engineering-convergence-summary-5.csv",
+      "bytes": 1307,
+      "sha256": "0693ae105960f4cbd14bb13b58f4bb9917204f4a71a38d540706572d35b287e6"
+    },
+    {
+      "name": "evaluate_physical_prefixes.py",
+      "bytes": 6954,
+      "sha256": "a9016968f5cf06f37d51dd291ccb5e0829713d85bcf0e2e95f60d7b4d9ae0c42"
+    },
+    {
+      "name": "freeze_truncation_rules.py",
+      "bytes": 3137,
+      "sha256": "6cf36d427b04ae8f92b0d2e5011e8661bba0a0fd9b6b9946ae35062734cc8dfa"
+    },
+    {
+      "name": "input-rules-freeze.json",
+      "bytes": 4632,
+      "sha256": "11a03026ac07c2d2e8e276a2c0becd3c661527035574f5f277cb782402db18b7"
+    },
+    {
+      "name": "N10-all12-threewaves-peakratio-intervals-36.csv",
+      "bytes": 15102,
+      "sha256": "9b788fa2553804d68011b2998a3379e4f4bd3d963afc9cd9497c288e30afa89b"
+    },
+    {
+      "name": "N10-all12-threewaves-twozeta-convergence-72.csv",
+      "bytes": 34589,
+      "sha256": "4365a11acf663eb34efd922c2ee33be32b03f2e58830acb997b147b03d28008c"
+    },
+    {
+      "name": "N13-all12-threewaves-peakratio-intervals-36.csv",
+      "bytes": 15177,
+      "sha256": "45004baf9b0f595ee60e8e7c5286289c4dbee7163399168a1473f10ae92310e0"
+    },
+    {
+      "name": "N13-all12-threewaves-twozeta-convergence-72.csv",
+      "bytes": 34490,
+      "sha256": "92f58782019528a7a14e003ddb4992c46a977a6082c20cb97c65bb8895b83c11"
+    },
+    {
+      "name": "N173-all12-threewaves-peakratio-intervals-36.csv",
+      "bytes": 15409,
+      "sha256": "e2b2081adae257dfd13f31d26a5e8f111392755e5ac1e8c4fb61d7636b293cf9"
+    },
+    {
+      "name": "N173-all12-threewaves-twozeta-convergence-72.csv",
+      "bytes": 34603,
+      "sha256": "3bd842e252daf56664cfdb4873eca2e3a4eee77501818f28b681ffe08e4b513c"
+    },
+    {
+      "name": "N18-all12-threewaves-peakratio-intervals-36.csv",
+      "bytes": 15265,
+      "sha256": "345c5cf6b66a7fab2bdf7a43b7f413beeac34ec66833dd47dd43116f07e6be12"
+    },
+    {
+      "name": "N18-all12-threewaves-twozeta-convergence-72.csv",
+      "bytes": 34550,
+      "sha256": "47bef05b65033dad421d05d4d15aa4b74db2c7d20d76371c6732a009af6ae864"
+    },
+    {
+      "name": "N300-all12-threewaves-peakratio-intervals-36.csv",
+      "bytes": 13165,
+      "sha256": "8ec6f3c6fc47598b2058136e66e884eddd87f0bd6841aff7d871723c9d4e9e7d"
+    },
+    {
+      "name": "N300-all12-threewaves-twozeta-convergence-72.csv",
+      "bytes": 26509,
+      "sha256": "4f9677153bdf90f89c16905a4dd03b2697777c7e286e8053cd361e68ab68c199"
+    },
+    {
+      "name": "predefined-N-schemes-6.csv",
+      "bytes": 388,
+      "sha256": "ffce8692c8366b5e5b2e98b3b609fd0556f295163f172d818aab8105036ea360"
+    },
+    {
+      "name": "README-physical-truncation-convergence.md",
+      "bytes": 4825,
+      "sha256": "430e9b74c5533c39927c64cd49af0da44ada513afbb4293a150db88a855a92a1"
+    },
+    {
+      "name": "results.json",
+      "bytes": 5901,
+      "sha256": "972d22938160567a1c2c4be8f355ccd6280f2c05c384a5a040c78bc037034a8f"
+    },
+    {
+      "name": "Story5-Story12-all-N-peakratio-intervals-30.csv",
+      "bytes": 12334,
+      "sha256": "5919a8f9b404d422d211ccc295485da69f8d344c41b4d1bf8a8e71887caf8832"
+    },
+    {
+      "name": "Story5-Story12-all-N-state-convergence-60.csv",
+      "bytes": 27802,
+      "sha256": "2b26430408624710b6ea25e9be2dcd292b76df714882b6d51cf60cbbcc4b2f9d"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 1592,
+      "sha256": "f05ca5665a0b4f4c22f7e783f9bc1a7c57bfa0aeb436f58951365b66ac953a2f"
+    },
+    {
+      "name": "verify_and_freeze_prefixes.py",
+      "bytes": 10213,
+      "sha256": "bdaa384318562afb18135d87f3b15bbd96b2bc39964df0c57317cfc96905512f"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "bytes": 493076,
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "bytes": 14836060,
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.08-factorized-reference.npz",
+      "bytes": 14829087,
+      "sha256": "e88b73344432c10d505e351d015d24cb5173f7ddc5a6bca2f6a30076b12fb5fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.05-factorized-reference.npz",
+      "bytes": 16292630,
+      "sha256": "61c7165f08156aaef3af39dab94832b89772c60517d5a4444d74add79cb936d8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.08-factorized-reference.npz",
+      "bytes": 16280412,
+      "sha256": "4e37b056557552b136cb8bc02f5b22e6a7de3e210c677e939d63c3505a354863"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.05-factorized-reference.npz",
+      "bytes": 13812241,
+      "sha256": "2354441c71c1bf4e714c26d43af7b103c443419be8578bf775c47466a604cae5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.08-factorized-reference.npz",
+      "bytes": 13802569,
+      "sha256": "38d3442c2e05221aa27a6b5837c2c1965f477fddad6dde911e12bdb3af1a9eeb"
+    }
+  ],
+  "local_only_arrays": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R007\\local-cache\\prefixes-SHW3X-z0.05.npz",
+      "bytes": 1233179,
+      "sha256": "4028c411c0b1b116abf675ac30b50779c3add247549ada8fecbca5d8d36347b0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R007\\local-cache\\prefixes-SHW3X-z0.08.npz",
+      "bytes": 1233444,
+      "sha256": "fa422b9c0f9b6520ddbf4f14e097048fe00aca646ba7882144a54cc2bd34b523"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R007\\local-cache\\prefixes-SHW4X-z0.05.npz",
+      "bytes": 1352250,
+      "sha256": "3209a7a35a5904dc78ff84f6dcab03de2082d03669574c0698578e7b7c0c5265"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R007\\local-cache\\prefixes-SHW4X-z0.08.npz",
+      "bytes": 1352106,
+      "sha256": "5f410e2db3b1d424c7ffbe2e6cd8e8c7564ff1aba294bce0abea1a76652007ea"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R007\\local-cache\\prefixes-RH4X-z0.05.npz",
+      "bytes": 1145316,
+      "sha256": "f4a1a83c2f0cd022fb491cc6eb37fe25bdf06cbc66fa448dbbad2880747bd26f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R007\\local-cache\\prefixes-RH4X-z0.08.npz",
+      "bytes": 1146139,
+      "sha256": "492286cb2ccdd8804d5d67fa7f512b25d4490f5bf0720b0ce90791708a8c02f8"
+    }
+  ],
+  "array_upload_allowed": false
+}

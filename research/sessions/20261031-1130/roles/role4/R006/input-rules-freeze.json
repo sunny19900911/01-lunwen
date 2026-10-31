@@ -1,0 +1,54 @@
+{
+  "start_observed_utc": "2026-10-31T04:24:53+00:00",
+  "deadline_utc": "2026-10-31T04:32:53+00:00",
+  "frozen_utc": "2026-10-31T04:27:14.214166+00:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "bytes": 14836060,
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.08-factorized-reference.npz",
+      "bytes": 14829087,
+      "sha256": "e88b73344432c10d505e351d015d24cb5173f7ddc5a6bca2f6a30076b12fb5fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.05-factorized-reference.npz",
+      "bytes": 16292630,
+      "sha256": "61c7165f08156aaef3af39dab94832b89772c60517d5a4444d74add79cb936d8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.08-factorized-reference.npz",
+      "bytes": 16280412,
+      "sha256": "4e37b056557552b136cb8bc02f5b22e6a7de3e210c677e939d63c3505a354863"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.05-factorized-reference.npz",
+      "bytes": 13812241,
+      "sha256": "2354441c71c1bf4e714c26d43af7b103c443419be8578bf775c47466a604cae5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.08-factorized-reference.npz",
+      "bytes": 13802569,
+      "sha256": "38d3442c2e05221aa27a6b5837c2c1965f477fddad6dde911e12bdb3af1a9eeb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\all12-threewaves-UPC-paired-36.csv",
+      "bytes": 15119,
+      "sha256": "2d5ec55db9434f8cdf66b88944204400124bfda0731af1d16eb72a6cadd3e0ef"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\all12-four-anchors-both-zeta-signed-reference-288.csv",
+      "bytes": 110484,
+      "sha256": "7a6ed5011afe9ec47d34a5d2242c6fd41d2bbbcc25cdf28046f3a5f86494a189"
+    }
+  ],
+  "delta": "max_t abs(abs(E_ref)-abs(native)); observed amplitude deviation only, not signed force residual or fullFE error bound",
+  "native_anchor_deviation": "abs(E_ref(tau))-abs(native(tau)), report signed amplitude difference and its absolute magnitude",
+  "ratio_observed_scale": "(delta8 + native_ratio*delta5)/P_ref5; an a-posteriori observed-amplitude ratio scale, not prospective fullFE uncertainty bound",
+  "chi": "1-abs(E_ref)/sum_r abs(v_ref_r), all300 same-time terms; undefined if sumabs=0",
+  "beta": "v_ref_i/E_ref and remaining295 sum/E_ref; undefined exactly E=0, preserve negative and >1",
+  "anchors": "reuse all288 R005 anchor labels and fixed5 modes unchanged; native sign unaligned, no native signed-force residual",
+  "no_new_ODE_fit_or_CM_recalculation": true
+}
