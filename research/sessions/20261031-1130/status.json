@@ -1,0 +1,31 @@
+{
+  "session": "20261031-1130",
+  "phase": "initial-running",
+  "start": "2026-10-31T11:30:11+08:00",
+  "deadline": "2026-10-31T15:30:11+08:00",
+  "deadline_utc": "2026-10-31T07:30:11Z",
+  "writing_start": "2026-10-31T14:45:11+08:00",
+  "checkpoint": "R001-initial",
+  "checkpoint_open": true,
+  "no_new_scientific_dispatch": false,
+  "active_plan": "plan.md",
+  "theory_addendum": "plan-theory-addendum-v001.md",
+  "git_authorized": "latest human explicitly authorizes 15min GitHub uploads in this new4hour window",
+  "automation": "git-2 ACTIVE formal create/view/actual config verified",
+  "primary_task": "direct physical mass-weighted modal coefficients, not inverse output fit",
+  "role_tasks": "six R001 messages sent successfully11:36:58, actual allactive11:39:55; do not duplicate",
+  "prior_session": "019 closed, use final evidence read-only",
+  "source_ownership": "role4 sole raw small-table extractor; root onlyshared/Git;role5 onlynewmanuscript",
+  "git": {
+    "index": "initial empty",
+    "previous_verified_HEAD": "5d9aa9caf5fb4b09f44f9d8b2901742f8146c937",
+    "current_remote": "pending live check",
+    "old_tracked_dirty": 11,
+    "current_HEAD_and_remote": "5d9aa9caf5fb4b09f44f9d8b2901742f8146c937",
+    "initial_index_empty": true,
+    "publication": "initial candidate-science checkpoint pending; only reviewed code/invariants in known model, no actual engineering coefficients claimed"
+  },
+  "last_actual": "2026-10-31T11:41:12.990294+08:00",
+  "root_first_scientific_result": "direct coefficients in old known3floor model: K-recovery error4.44e-16,output reconstruction2e-15; no newODE/fit; pending independent review",
+  "next_checkpoint": "Collect six R001 actual frozen outputs; data identity before engineering modal coefficients; route root known3floor physical reconstruction to role2 after idle; no repeated fits"
+}

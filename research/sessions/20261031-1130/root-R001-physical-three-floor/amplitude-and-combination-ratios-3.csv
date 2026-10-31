@@ -1,0 +1,4 @@
+floor,P8_over_P5,U8_over_U5,C8_over_C5,product_error,all_independent_modal_peaks_decrease,identity
+1,0.9671324921658485,0.9640033328553115,1.0032460046598268,1.1102230246251565e-16,True,"P8/P5=(U8/U5)*(C8/C5); C includes timing and signed cancellation, not pure phase"
+2,1.3930809930146468,0.9681450928468198,1.4389175788913084,-2.220446049250313e-16,True,"P8/P5=(U8/U5)*(C8/C5); C includes timing and signed cancellation, not pure phase"
+3,0.9355343227672046,0.9559104177735904,0.9786840956772459,-1.1102230246251565e-16,True,"P8/P5=(U8/U5)*(C8/C5); C includes timing and signed cancellation, not pure phase"

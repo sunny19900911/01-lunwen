@@ -1,0 +1,122 @@
+{
+  "checkpoint": "R001",
+  "time": "2026-10-31T11:41:12.990294+08:00",
+  "message": "research: start physical modal shear study with direct reconstruction check",
+  "files": [
+    {
+      "relative": "research/sessions/20261031-1130/actual-R001-dispatched.json",
+      "bytes": 9123,
+      "sha256": "592fe0014783ceb758481b549bff9af88c9243048ba22726ef4ff294baeaf4b0"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/automation-initial-receipt.json",
+      "bytes": 463,
+      "sha256": "4530f029414d7219437fe5ec97a250eee29ff23f4de933839f609d97b5759f5e"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/claims.md",
+      "bytes": 952,
+      "sha256": "35529d526ee20b3423e51d379eccb1c12d3702e36a4e0b50e084a00a60ceac7c"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/initial-actual-snapshot.json",
+      "bytes": 9457,
+      "sha256": "ecc75d85b851cb591b6efd55d90bac9d8d68a78d9f0445a12ab6eb0df995e701"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/plan-theory-addendum-v001.md",
+      "bytes": 725,
+      "sha256": "2cae7dc27d99b04a91c23a366a00a3ce3582887c0354797ee7fdc08c79ef51be"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/plan.md",
+      "bytes": 6493,
+      "sha256": "c7240ca68324d8f2adfe44e204cc40fb627a117bca5143a8cca4ef7180ea1ee8"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/prepare_initial_publication.py",
+      "bytes": 2273,
+      "sha256": "070e6e4c8ac00335d0e3e061aca2a042867c272a713dacd74e8924aa39957f28"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/publish_checkpoint.py",
+      "bytes": 4163,
+      "sha256": "82c793a08fba6eb1dbb6adf8453b25035ac5a136bcee971f897433af4650269d"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R001-model-definition.json",
+      "bytes": 1226,
+      "sha256": "87febc384b357375f523b72e3dc009b4358d38ce7f3f7b52c7a32c6ae326f7ba"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R001-physical-three-floor/README.md",
+      "bytes": 737,
+      "sha256": "38cd6eaea92910778c5594f9a6aaf8a5be17fc921adc81d2ca500421ba0c01fc"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R001-physical-three-floor/amplitude-and-combination-ratios-3.csv",
+      "bytes": 614,
+      "sha256": "9df6ca0005e8712242eff283a5449330e4047b428787c598841ac98542aee4c0"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R001-physical-three-floor/manifest.json",
+      "bytes": 1194,
+      "sha256": "446af61a23df8bf0d350472da343c93df55b9d17291209873bb7ccc991c8f7ad"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R001-physical-three-floor/modal-output-peaks-18.csv",
+      "bytes": 568,
+      "sha256": "1ccb0203f88b183715bb2161313ddcab7865ac3e500fa6ffa844b8842cf16554"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R001-physical-three-floor/physical-coefficients-9.csv",
+      "bytes": 1387,
+      "sha256": "3cda621922d4ad9dc98710084f85e07819b1bf67c4680758c130e5df5c3fbc8d"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R001-physical-three-floor/reconstruction-and-peak-6.csv",
+      "bytes": 697,
+      "sha256": "bcb7e6822e1cda54981a5ea3111f1f5f15ef767acec03f41bf57e32c68e0a12f"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R001-physical-three-floor/results.json",
+      "bytes": 2567,
+      "sha256": "281d1092eadebef47651ba749ca79a96be6612d858a239fe13e0b397bbac715b"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root-R001-physical-three-floor/same-time-physical-anchors-12.csv",
+      "bytes": 1761,
+      "sha256": "3b79025b582ef913c1aa0dd4264d2d48e8aa78694b2d35fb0916eaca1c0e5099"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/root_three_floor_physical.py",
+      "bytes": 5863,
+      "sha256": "75a9f52424cff2ddab96f56cde5d8b6d343e394bf10e90bb43e57e38ac5d5bcb"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/rounds/R001-root-increment.md",
+      "bytes": 737,
+      "sha256": "e2e64aa3d6a9a6635fee17107d467fe53186a41d9f36bc79f1197315e0d44c35"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/rounds/R001-start.md",
+      "bytes": 869,
+      "sha256": "e96647e5d2880493e34c7f1c7d0cbc14e00a03b8a680c07306dc6542a5b6202e"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/runs.md",
+      "bytes": 877,
+      "sha256": "1c2478b70a6af9d7a07e79a89df971b607876a3e4f4214a2a90d1533587984d2"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/status.json",
+      "bytes": 1884,
+      "sha256": "b8c427a76ef3982ff18386a149ed47b3f403a078da72e9f036de0f3bc3addf2e"
+    },
+    {
+      "relative": "research/sessions/20261031-1130/threads.json",
+      "bytes": 7600,
+      "sha256": "8855e44d7c8d0bf94fcff233e0bde2274bf6255dfa8f24562dd3628d91744d9b"
+    }
+  ]
+}

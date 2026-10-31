@@ -1,0 +1,56 @@
+{
+  "start_utc": "2026-10-31T03:38:22.864934+00:00",
+  "completed_utc": "2026-10-31T03:38:23.014635+00:00",
+  "classification": "known physical three-floor model; reuse historical displacement/shear arrays, no new integration or fitting",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\passive_local_counterexample.json",
+      "bytes": 2273,
+      "sha256": "aed3cac886f10219f56622e782e53c4a9e7e097a8852289e3a802ce4880069a6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\passive_local_counterexample.npz",
+      "bytes": 12156062,
+      "sha256": "5b4930d24eed28b2a98f91c208fed1cc6eda5c209ff978977794ab262c0e835d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\passive_local_counterexample.py",
+      "bytes": 2644,
+      "sha256": "ac5e07feed3dc9771d5456a1d0394c6abb6e3200a374efc3505a015957f0496f"
+    }
+  ],
+  "max_direct_vs_K_B_error": 4.440892098500626e-16,
+  "max_normalization_invariance_error": 1.1102230246251565e-16,
+  "max_output_reconstruction_error": 1.9984014443252818e-15,
+  "ratios": [
+    {
+      "floor": 1,
+      "P8_over_P5": 0.9671324921658485,
+      "U8_over_U5": 0.9640033328553115,
+      "C8_over_C5": 1.0032460046598268,
+      "product_error": 1.1102230246251565e-16,
+      "all_independent_modal_peaks_decrease": true,
+      "identity": "P8/P5=(U8/U5)*(C8/C5); C includes timing and signed cancellation, not pure phase"
+    },
+    {
+      "floor": 2,
+      "P8_over_P5": 1.3930809930146468,
+      "U8_over_U5": 0.9681450928468198,
+      "C8_over_C5": 1.4389175788913084,
+      "product_error": -2.220446049250313e-16,
+      "all_independent_modal_peaks_decrease": true,
+      "identity": "P8/P5=(U8/U5)*(C8/C5); C includes timing and signed cancellation, not pure phase"
+    },
+    {
+      "floor": 3,
+      "P8_over_P5": 0.9355343227672046,
+      "U8_over_U5": 0.9559104177735904,
+      "C8_over_C5": 0.9786840956772459,
+      "product_error": -1.1102230246251565e-16,
+      "all_independent_modal_peaks_decrease": true,
+      "identity": "P8/P5=(U8/U5)*(C8/C5); C includes timing and signed cancellation, not pure phase"
+    }
+  ],
+  "not_engineering_data": true,
+  "no_new_ODE_or_fit": true
+}

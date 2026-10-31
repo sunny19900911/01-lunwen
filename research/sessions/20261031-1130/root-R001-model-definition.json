@@ -1,0 +1,61 @@
+{
+  "classification": "known synthetic physical three-story model, not engineering data",
+  "M": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "K": [
+    [
+      8.0,
+      -2.0,
+      0.0
+    ],
+    [
+      -2.0,
+      3.0,
+      -1.0
+    ],
+    [
+      0.0,
+      -1.0,
+      1.0
+    ]
+  ],
+  "story_stiffness": [
+    6.0,
+    2.0,
+    1.0
+  ],
+  "omega": [
+    0.7023945142252124,
+    1.6705149089542288,
+    2.9522909554019185
+  ],
+  "zeta": [
+    0.05,
+    0.08
+  ],
+  "input": {
+    "duration": 600.0,
+    "dt": 0.005,
+    "Omega": 1.4110125506275315,
+    "formula": "ag(t)=env(t)*sin(Omega*t),zero outside[0,600]; env=sin(pi*min(t,60)/120)^2, except last60s env=sin(pi*(600-t)/120)^2"
+  },
+  "mass_stiffness_time_units": "consistent arbitrary model units; not tonnes/kN project parameters",
+  "output": "elastic floor force k_i*(u_i-u_(i-1)),u0=0",
+  "old_arrays": "read-only local existing displacement/shear histories, not included in Git",
+  "new_execution": "no force search/integration/refit; analytic coefficient and existing-array reconstruction only"
+}
