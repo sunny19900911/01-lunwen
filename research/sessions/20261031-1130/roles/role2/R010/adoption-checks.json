@@ -1,0 +1,186 @@
+{
+  "draft_sha256": "cb301790edae381adb5da3edde6709f63190de07c434e6906a8bccbad158029e",
+  "draft_bytes": 27194,
+  "author_artifacts_hash_verified": 8,
+  "targeted_display_checks": 25,
+  "checks": [
+    {
+      "kind": "table4",
+      "line": 189,
+      "field": "reference_absolute_weakening_kN",
+      "display": "607.050835",
+      "pass": true
+    },
+    {
+      "kind": "table4",
+      "line": 189,
+      "field": "reference5_anchor_loss_kN",
+      "display": "0.000000",
+      "pass": true
+    },
+    {
+      "kind": "table4",
+      "line": 189,
+      "field": "reference8_anchor_loss_kN",
+      "display": "11.591024",
+      "pass": true
+    },
+    {
+      "kind": "table4",
+      "line": 189,
+      "field": "reference_peak5_minus_peak8_kN",
+      "display": "595.459811",
+      "pass": true
+    },
+    {
+      "kind": "table4",
+      "line": 190,
+      "field": "reference_absolute_weakening_kN",
+      "display": "584.283201",
+      "pass": true
+    },
+    {
+      "kind": "table4",
+      "line": 190,
+      "field": "reference5_anchor_loss_kN",
+      "display": "11.176610",
+      "pass": true
+    },
+    {
+      "kind": "table4",
+      "line": 190,
+      "field": "reference8_anchor_loss_kN",
+      "display": "0.000000",
+      "pass": true
+    },
+    {
+      "kind": "table4",
+      "line": 190,
+      "field": "reference_peak5_minus_peak8_kN",
+      "display": "595.459811",
+      "pass": true
+    },
+    {
+      "kind": "table4",
+      "line": 191,
+      "field": "reference_absolute_weakening_kN",
+      "display": "240.805200",
+      "pass": true
+    },
+    {
+      "kind": "table4",
+      "line": 191,
+      "field": "reference5_anchor_loss_kN",
+      "display": "0.000000",
+      "pass": true
+    },
+    {
+      "kind": "table4",
+      "line": 191,
+      "field": "reference8_anchor_loss_kN",
+      "display": "0.000000",
+      "pass": true
+    },
+    {
+      "kind": "table4",
+      "line": 191,
+      "field": "reference_peak5_minus_peak8_kN",
+      "display": "240.805200",
+      "pass": true
+    },
+    {
+      "kind": "table1 NRMSE",
+      "line": 78,
+      "field": "X CM",
+      "display": "0.354370",
+      "pass": true
+    },
+    {
+      "kind": "table1 NRMSE",
+      "line": 79,
+      "field": "X E",
+      "display": "0.658221",
+      "pass": true
+    },
+    {
+      "kind": "table1 NRMSE",
+      "line": 80,
+      "field": "X Q",
+      "display": "16.208748",
+      "pass": true
+    },
+    {
+      "kind": "table1 NRMSE",
+      "line": 81,
+      "field": "Y CM",
+      "display": "0.443102",
+      "pass": true
+    },
+    {
+      "kind": "table1 NRMSE",
+      "line": 82,
+      "field": "Y E",
+      "display": "0.669154",
+      "pass": true
+    },
+    {
+      "kind": "table1 NRMSE",
+      "line": 83,
+      "field": "Y Q",
+      "display": "16.151545",
+      "pass": true
+    },
+    {
+      "kind": "table1 peak",
+      "line": 78,
+      "field": "X CM peak",
+      "display": "0.065638",
+      "pass": true
+    },
+    {
+      "kind": "table1 peak",
+      "line": 79,
+      "field": "X E peak",
+      "display": "0.235170",
+      "pass": true
+    },
+    {
+      "kind": "table1 peak",
+      "line": 80,
+      "field": "X Q peak",
+      "display": "6.428690",
+      "pass": true
+    },
+    {
+      "kind": "table1 peak",
+      "line": 81,
+      "field": "Y CM peak",
+      "display": "0.072170",
+      "pass": true
+    },
+    {
+      "kind": "table1 peak",
+      "line": 82,
+      "field": "Y E peak",
+      "display": "0.199211",
+      "pass": true
+    },
+    {
+      "kind": "table1 peak",
+      "line": 83,
+      "field": "Y Q peak",
+      "display": "6.987618",
+      "pass": true
+    },
+    {
+      "kind": "Y peak decrease",
+      "line": 110,
+      "field": "max difference pp",
+      "display": "0.128097",
+      "pass": true
+    }
+  ],
+  "counts_CN_EN_reviewed": true,
+  "source_arrays_read": false,
+  "new_scientific_calculation": false
+}

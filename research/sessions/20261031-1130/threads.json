@@ -18,15 +18,15 @@
     {
       "role": "role2",
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
-      "cursor": "11a056de-2e65-48d9-90d8-2d3233b00402:58",
+      "cursor": "11a056de-2e65-48d9-90d8-2d3233b00402:61",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R010 sole finalmanuscript review dispatched13:31 max10min freeze13:42; no numericexperiments",
+      "task": "R010 finalreview frozenactualidle13:41:38,0must; no further scientific tasks",
       "actual_status": {
         "type": "idle"
       },
-      "last_actual": "2026-10-31T13:20:00+08:00",
+      "last_actual": "2026-10-31T13:42:18.567740+08:00",
       "last_actual_note": "real snapshots12:55 plus role2fresh13:02; refresh before any nextdispatch",
       "dispatch_actual": "2026-10-31T13:31:00+08:00"
     },
@@ -61,15 +61,16 @@
     {
       "role": "role5",
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:55",
+      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:56",
       "initial_actual_status": {
         "type": "idle"
       },
-      "task": "R006/v006 frozenactualidle13:29:41; Wordnotstarted; waitfinalreviewthenonlyformat",
+      "task": "R007 sole finalclarification/v007 andWord formallydispatched13:41; initialprogress14:15 finalQAby14:40; no duplicateauthor",
       "actual_status": {
-        "type": "idle"
+        "type": "active",
+        "activeFlags": []
       },
-      "last_actual": "2026-10-31T13:30:26+08:00",
+      "last_actual": "2026-10-31T13:40:45+08:00",
       "last_actual_note": "real snapshots12:55 plus role2fresh13:02; refresh before any nextdispatch"
     },
     {

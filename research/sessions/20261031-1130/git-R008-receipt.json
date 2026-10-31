@@ -1,0 +1,43 @@
+{
+  "checkpoint": "R008",
+  "time_utc": "2026-10-31T05:32:15.823163+00:00",
+  "HEAD": "b9db4164c580d231e8536a6daa4d4ddbb7ee5da1",
+  "previous_HEAD": "d4e2a896e799869ad1188469f9528b18a1ed7cc6",
+  "staged_files": [
+    "papers/damping-output-boundaries/manuscript/physical-modal-shear-session020-v006.md",
+    "research/sessions/20261031-1130/checkpoint_R008.py",
+    "research/sessions/20261031-1130/close_checkpoint_R007.py",
+    "research/sessions/20261031-1130/git-R007-receipt.json",
+    "research/sessions/20261031-1130/git-R008-publication.json",
+    "research/sessions/20261031-1130/roles/role5/R006/evidence-status.md",
+    "research/sessions/20261031-1130/roles/role5/R006/figure-source-map.json",
+    "research/sessions/20261031-1130/roles/role5/R006/handoff.md",
+    "research/sessions/20261031-1130/roles/role5/R006/input-freeze.json",
+    "research/sessions/20261031-1130/roles/role5/R006/link-checks.json",
+    "research/sessions/20261031-1130/roles/role5/R006/manifest.json",
+    "research/sessions/20261031-1130/roles/role5/R006/supplement-S1.md",
+    "research/sessions/20261031-1130/roles/role5/R006/validation.json",
+    "research/sessions/20261031-1130/root-v006-artifact-check.json",
+    "research/sessions/20261031-1130/root-v006-artifact-check.py",
+    "research/sessions/20261031-1130/rounds/R008.md",
+    "research/sessions/20261031-1130/runs.md",
+    "research/sessions/20261031-1130/status.json",
+    "research/sessions/20261031-1130/threads.json",
+    "research/sessions/20261031-1130/topic-card-R007.md",
+    "research/sessions/20261031-1130/普通中文研究说明-成稿准备-v001.md"
+  ],
+  "verified_blob_hashes": 21,
+  "identity_fallback": true,
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "code": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/sunny19900911/01-lunwen.git\n   d4e2a89..b9db416  main -> main\n"
+    }
+  ],
+  "remote_HEAD": "b9db4164c580d231e8536a6daa4d4ddbb7ee5da1",
+  "remote_equals_local": true,
+  "pending_push": false,
+  "resumed_pending_receipt": null
+}
