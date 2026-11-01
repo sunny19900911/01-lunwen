@@ -1,0 +1,632 @@
+{
+  "checkpoint": "R006",
+  "time": "2026-11-01T23:54:48.455121+08:00",
+  "message": "research: verify floor sensitivity mechanism and retain cross-input rank counterexamples",
+  "files": [
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/damping-prediction-session021-v005.md",
+      "bytes": 25148,
+      "sha256": "8eadcf9779aa757d51a73aac4c15401f959f6cb797e9b66039f9962e69034b22"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/automation-postR005-S-adoption-receipt.json",
+      "bytes": 320,
+      "sha256": "ad114ce91bb3f77fd3392f169f48b678bfc80a7c4bda5059530e1c4a6d91519b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/automation-R005-update-receipt.json",
+      "bytes": 320,
+      "sha256": "78e6bf9cb7069cde74454c9f1d38cf0ef6687b6515339018ce5166e9a13f11be"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/checkpoint_R006.py",
+      "bytes": 6050,
+      "sha256": "da50b9bf3c712260c32bb0e5787dd4b9c5a7eea0858e3380ea1c92c37b091d0d"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/claims.md",
+      "bytes": 4661,
+      "sha256": "626ee47249d9c9bc60237778c5fbcfde2cfa0380a9a87a394acc98209ced2744"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/git-R005-receipt.json",
+      "bytes": 4931,
+      "sha256": "5cbdc7c4d8cf4c99d8ea029c668f99a59a46880aba31d6587f05e5d6bbb6b61a"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/R006-actual-snapshot.json",
+      "bytes": 2519,
+      "sha256": "0dedf10d0786e2dee46f482aa6fac63ed117a21e45492610a6d51991ea65eeeb"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R005/calculate_scalar_crossing.py",
+      "bytes": 1489,
+      "sha256": "4c4e2e07fe666b6e152f8c5dc44c7f112507e67864f89f8e4162d2789fad8454"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R005/input-freeze.json",
+      "bytes": 2537,
+      "sha256": "7aa70bdf5bf87290f88bda80d0ed267d9ef6e782bcaea8afb52fa4fd32da3c8e"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R005/manifest.json",
+      "bytes": 1883,
+      "sha256": "358d1ac9d2f3194c10001b7b835e5d5e65d881c51add792ea609b21761d3f974"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R005/peak-competition-warning-contract.json",
+      "bytes": 3591,
+      "sha256": "06df97556f250c7d1197994259fc95d0d35abc3e2b4ce79aa696b3964964f9dc"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R005/peak-competition-warning-one-page.md",
+      "bytes": 3164,
+      "sha256": "f274397e89697f44051db3b85c6ee69dd9eeb51e77b7afb2d5a89cbca2aeb527"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R005/scalar-example-results.json",
+      "bytes": 793,
+      "sha256": "01eb60f7f28c5a3b2bb5e97dada5c9be9e43a8412050a6db3f51f2b6ad46daf2"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R005/validation.json",
+      "bytes": 1667,
+      "sha256": "1574272766f2f45eec523fa6e9108bcac2b53cdcbe3a52846d7c78c1c31f618b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R007/audit_baseline_S_sources.py",
+      "bytes": 13912,
+      "sha256": "270d7c1832523f70b6aabdb5e92490f606185f5102131b008281eb210c205290"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R007/author-floor-summary-15.csv",
+      "bytes": 4310,
+      "sha256": "910dd3dcf9f4f563cf851820a289960fae1305f942b752452a0f7408f87a2b20"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R007/author-main5-and-rest-12.csv",
+      "bytes": 935,
+      "sha256": "97089cb075e766432d303c99d5a8648ef85dc8b02b60d2d37c9c0415d9da5a53"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R007/author-ready-tables-and-wording.md",
+      "bytes": 3529,
+      "sha256": "48e680fd479cf5aafdf24904689788a722a0515df4585c95b8a66dcf6706207f"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R007/independent-local-peaks-75.csv",
+      "bytes": 5621,
+      "sha256": "4d2ad66ef577eebeffc55f185fb825a4db8bdd0109952a215329b8a0c3605f78"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R007/independent-rank-checks-8.csv",
+      "bytes": 283,
+      "sha256": "e43f3717f0f7b5df1d8ee1e045365ecfa186c13d3f823abe1c2a70d834f33acb"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R007/known-candidate-S-context-60.csv",
+      "bytes": 4068,
+      "sha256": "9d500a730990839ae40a1d3861970e4a1a4e5c2b5aa088dabba2ea12374ba0d7"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R007/manifest.json",
+      "bytes": 2734,
+      "sha256": "b797b73883f450916a3033469894968733d3d86ed3085569cb55f96b2ffd701e"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R007/one-page.md",
+      "bytes": 3648,
+      "sha256": "4b060f8e8796cd6ed4c51aa28add4ad17356ff172ea6e2e38f942d30e9aad383"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R007/results.json",
+      "bytes": 1137,
+      "sha256": "60661e84cc657abfb4399c42898c3f97b7f6c10aa69b76b2c4447f06990886b7"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R008/audit_SHW4X.py",
+      "bytes": 15555,
+      "sha256": "a2bee5c795f2c737ebb0a2b9af088676c5d967091ace31653049a5628351e303"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R008/independent-candidate-actions-4.csv",
+      "bytes": 377,
+      "sha256": "3cbc8266a29dfc142ed342d8cd8fb9bf04db754ce88da4d048ce54d7601b26c8"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R008/independent-point-misses-2.csv",
+      "bytes": 213,
+      "sha256": "84b82d40878268609fde0a84f6996ca317649fda9ae153e574c28c50cb3493a7"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R008/independent-rank-inversions-3.csv",
+      "bytes": 424,
+      "sha256": "a0a0373a85f0d73306f04efa0bd05d882e0345f6722ee712e23d45a46fad9d52"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R008/independent-rank-summary-2.csv",
+      "bytes": 136,
+      "sha256": "63bc959a4fb4c471fdedb8910d314d75c2012408a18cd0f2d9efc501578c982b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R008/independent-RK4-checks-24.csv",
+      "bytes": 1337,
+      "sha256": "fa548da6c0f6f3cbd5fbd46d48b22fe4dbd7ea4e6143151f2ced12fd690b36c6"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R008/independent-S-floors-12.csv",
+      "bytes": 1447,
+      "sha256": "d10a71e33c72eea944ce3e7c4bb0d64fb9893a4d32bc9ab5739f6c4420c2201b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R008/independent-summary-4.csv",
+      "bytes": 731,
+      "sha256": "5e20f92e709599e316bcde8d7a7cb629728eb86f169f5c6ca3c0f9bae69a42c8"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R008/manifest.json",
+      "bytes": 3110,
+      "sha256": "b3bf2976a44e4a69047bf503ffff73ad7a9827c5362982808d5157ce18e3bd65"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R008/one-page.md",
+      "bytes": 4386,
+      "sha256": "d11e884c8061418609d2d815034f1a7603024ecd107cd8e893d9c896e4a2dedd"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R008/results.json",
+      "bytes": 1337,
+      "sha256": "245ab80bd440b6bda7acb1e388bced8fb2a6bf280bb8a483dcc0d542879fa52e"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/all-mode-signed-S-sources-3600.csv",
+      "bytes": 218265,
+      "sha256": "a3d073157fab432272a19632ff1f6230be4504a2c6f5e0ff16a382015527ad4c"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/baseline-S-ranked-floors-12.csv",
+      "bytes": 3299,
+      "sha256": "acdbcca3be7524a2a1014b089125c229b10c3c55157ec12bb557fdeb8d4a1044"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/candidate-decision-validation-4.csv",
+      "bytes": 394,
+      "sha256": "4a608affb7b5df92b4fa8fb98071e4a9eca363c06be4e13e69b2ede102518851"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/complete-reference-cost-2.csv",
+      "bytes": 218,
+      "sha256": "dc2bb29663ef25b0efa4570c2f57b33c56ad7c2e3580ac0123e8626442a91884"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/delivery-manifest.json",
+      "bytes": 11033,
+      "sha256": "d388debefb9473568152c0011a49b2fe5c64502d6e4b3978244594371372e685"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/engineering-main-table-SHW4X12.md",
+      "bytes": 1642,
+      "sha256": "bece0813ee9d615df8e4a89996b9229a6245d9aa718b8ff15cd04a658e747fb9"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/exact-reference-floor-peaks-24.csv",
+      "bytes": 3481,
+      "sha256": "f0a5acc5033ed62b347206ff775d6132f4708bfdb256ae281edd00a183f00bb5"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/frozen-candidate-peak-predictions-48.csv",
+      "bytes": 6748,
+      "sha256": "07beeeffe098d6d792a8f7b1d49d5947f0d4dc0e735db5b0ac27c8ece7c2ac96"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/frozen-candidate-policy-actions-4.csv",
+      "bytes": 197,
+      "sha256": "83bda073a5cac9e90f768247bb8bf34b0069e6d38f3fcb069342536861615457"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/frozen-discrete-intervals-48.csv",
+      "bytes": 15040,
+      "sha256": "992d32c32a84fab9fd214596533f71af0ed8838e5b527ce34284d16b2dc195f0"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/input-method-freeze.json",
+      "bytes": 4175,
+      "sha256": "4c174ed8c656e465255a1fc9573def00f0070bd0b396859e1a6f5cf06e999239"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/interval-coverage-and-decision-validation-48.csv",
+      "bytes": 18993,
+      "sha256": "456ef3344c1c8d6c6b37d5ab73a48ea8391a6ea5e643c356656e9751f9d8bf6e"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/near1pct-saved-grid-branches.csv",
+      "bytes": 3282,
+      "sha256": "a526461546f8db3f16db87ef35f755b3b0c94d57f55b19d45a5009d49f5a8a18"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/one-page-SHW4X-prediction-and-rank-validation.md",
+      "bytes": 4746,
+      "sha256": "4fac5a3ecddff678f80be3de19078e9c7db0b7ed9f803844ba579e1e6ba79534"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/point-insufficient-miss-cases-2.csv",
+      "bytes": 987,
+      "sha256": "09776358f1d3f6dcb19e7bd54fdbe8ec5c155dbd9077c5157c806610a8369d50"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/positive-FFT-direct-checks-16.csv",
+      "bytes": 1059,
+      "sha256": "e3add5234ddb8f648d1b356575a473dcd74b8246a7506c990dd1f92b0c57af43"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/posterior-rank-inversion-pairs-3.csv",
+      "bytes": 429,
+      "sha256": "b8e4886dc2223974b6ea89f3acdc0b5635652d9bc16f5a388708dab0ee7da411"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/posterior-rank-validation-2.csv",
+      "bytes": 208,
+      "sha256": "f88de6be9150983fe5a5e971d43041c9f05bd4485d53a9576d239800be12b237"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/posterior-S-vs-reference-ranks-24.csv",
+      "bytes": 1480,
+      "sha256": "ae356ef482d4e19a5f26e81c7a391ef70a00bd98495fe8c92a0a81672ca86d90"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/prediction-bound-cost-4.csv",
+      "bytes": 472,
+      "sha256": "67e29a19571f76dd5dabfa4a0513e4bd73fe7fe45cce3005581ec4a869b3369b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/prediction-S-envelope-freeze.json",
+      "bytes": 3939,
+      "sha256": "2d2b8e9ab20e68c67e597f2b0046bf916204fc18032a44f417cc63e2e1db01eb"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/prediction-vs-reference-48.csv",
+      "bytes": 15524,
+      "sha256": "2d7f06b925f1e8c1d48dd08ef0dcd2af8cd910bca7acbfad5defc0fb8a853afb"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/results.json",
+      "bytes": 3409,
+      "sha256": "c169a7406401689a9ad3b0357c5bea0418f2f9241adf0b6eca2ccc426c5c3300"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/run-isolation-and-failure-notes.md",
+      "bytes": 1260,
+      "sha256": "ce92b910fdc8e1953ecec9ef983c9b2e512466022452582df7d8d76551d80e1f"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/shw4_baseline_prediction_then_two_targets.py",
+      "bytes": 19722,
+      "sha256": "ca5d9013d7ebfebeded901f87dd7e654a46c78008526d5078529fa13b3a56d34"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/summary-4.csv",
+      "bytes": 734,
+      "sha256": "f2ff61419a3ced70dc20beae61730e5ed9881d6d379fa4cc7a4d27e1a848f36a"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/target-array-index.json",
+      "bytes": 679,
+      "sha256": "880ed23cc70c496191989432dd52c0622b71f8e18c7240557476c3e5cb87e5cf"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/top5-distinct-local-peaks-60.csv",
+      "bytes": 5380,
+      "sha256": "56dcf68e0ef81a742d7c0ffdeab7ea6f7ffb7cceb142efe3293f97b33eb825cd"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/top5-signed-S-sources-60.csv",
+      "bytes": 3365,
+      "sha256": "cef3442e29d18aca49240496ca792586f4c3031eec1a467eb8a206a7ffbf216c"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/verification.json",
+      "bytes": 940,
+      "sha256": "cf298d094401540a1dd1dab196c8bc4f7d7802aad73d4223dca4a994c383dbd3"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R007/verify_saved_outputs_report_and_freeze.py",
+      "bytes": 14825,
+      "sha256": "64f9435f4bef85dd1ad714d210b2637c44df7377c6ca4625333b408f98b60a31"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/algorithm-reuse-provenance.json",
+      "bytes": 805,
+      "sha256": "47a7e00422d0f966bb00583ebfa09be293d545894c7663211b57761620f10ddd"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/all-mode-signed-S-sources-3600.csv",
+      "bytes": 218115,
+      "sha256": "63c61fa0633358b53919b13b15d3784de6825f2259a59bde53eeba54130c6354"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/baseline-S-ranked-floors-12.csv",
+      "bytes": 3291,
+      "sha256": "d9b29139e413962e1bb3b54af6b05abcffa11e3d0a11553ad628fd21093936cb"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/candidate-decision-validation-4.csv",
+      "bytes": 390,
+      "sha256": "d47c2c6721557d5d4439ad5b72b2171eca73a57fc40cf2cf39e68f1553a7a535"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/complete-reference-cost-2.csv",
+      "bytes": 221,
+      "sha256": "e2f36d46d6d5ae0689121bf41215c0ab582a62ef09b653667a56e2bf2e413a99"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/delivery-manifest.json",
+      "bytes": 12449,
+      "sha256": "35e971eafaaff96034bc2edcc2cc1bd0a4fefb3c93180d1e7652fab882e9ae42"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/engineering-main-table-RH4X12.md",
+      "bytes": 1656,
+      "sha256": "74fa5218bc558e0229717da47f9141ce18661e0fc62247caecdd274346427dfa"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/exact-reference-floor-peaks-24.csv",
+      "bytes": 3473,
+      "sha256": "a815714a69298782b5b2d34b958d3a7ca1fb800003085db71f34d7b198f40b13"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/frozen-candidate-peak-predictions-48.csv",
+      "bytes": 6739,
+      "sha256": "b42009158a42740611ec5736ad9baadb15388576c9e5beb23b4b456d1b8fbbfc"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/frozen-candidate-policy-actions-4.csv",
+      "bytes": 195,
+      "sha256": "6bf10f1f382798cc4aa8f6fe4790406fe2ba76799b17fe6e0cc9a467aba01bb9"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/frozen-discrete-intervals-48.csv",
+      "bytes": 14832,
+      "sha256": "7f57a56d8fb71763a20b9233630c57df9e9e0c0a8b7bcd64e751fb30895cd63b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/input-method-freeze.json",
+      "bytes": 4173,
+      "sha256": "d00354163be58daefac2b153e54e92fc645df23ea1fb34ced266ed44d74c55cb"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/interval-coverage-and-decision-validation-48.csv",
+      "bytes": 18783,
+      "sha256": "00f2badbe75bef9f0394be9fff3c3c6e0f2a26177050815680c23f899cb56ab1"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/near1pct-saved-grid-branches.csv",
+      "bytes": 3289,
+      "sha256": "f9d40e5fb49643cb4f3d0540934c42689fbb3b2ee5e387d6261a7cf7438e3a32"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/one-page-RH4X-prediction-rank-and-pass-validation.md",
+      "bytes": 5576,
+      "sha256": "dabcfa59ba7f9f2404bfd84871cce4c7193863db1ddbd577dc5808cc6c52a7b4"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/point-insufficient-miss-cases-1.csv",
+      "bytes": 685,
+      "sha256": "5c8e1baf75f32373199d6afa0208c09453c85500e3166daee962937b38582f0d"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/positive-FFT-direct-checks-16.csv",
+      "bytes": 1052,
+      "sha256": "81c588be9c1d53e1b9ca68bd338c1c985b8fe62493e06f1cc5de98785ab46727"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/posterior-rank-inversion-pairs-4.csv",
+      "bytes": 531,
+      "sha256": "30e9621a59736655e3606cc9b26df18203da16067b54d7346006faa82f0cb4a8"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/posterior-rank-validation-2.csv",
+      "bytes": 208,
+      "sha256": "06bd497616df05f2458f62294c5f96012019b144728677598d5515e4f3e30564"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/posterior-S-vs-reference-ranks-24.csv",
+      "bytes": 1489,
+      "sha256": "ff253807a7bf7d3ea3bab55c476d8e9ba7c108b5295b1c79107de631db65cd89"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/prediction-bound-cost-4.csv",
+      "bytes": 468,
+      "sha256": "5534711cafd5ec21a39eb901bf79b28c801c4351a13989ba9181fd13418c96f8"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/prediction-S-envelope-freeze.json",
+      "bytes": 3939,
+      "sha256": "83b1d77e4366180bff76b1d3002b705b7f48bc98bdf72bcdacc5af852fe422bb"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/prediction-vs-reference-48.csv",
+      "bytes": 15496,
+      "sha256": "5e627b8ad3e2470126a8a88010d03bd5874c08867b5fb3f939d3214cd8fab286"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/prepare_frozen_algorithm_reuse.py",
+      "bytes": 1323,
+      "sha256": "6ee68e6bad1c65b1be0138c86226bc119ebeb8f994b4048ebc5e694e6f92dda9"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/prepare_saved_output_verification.py",
+      "bytes": 842,
+      "sha256": "8c7920d131a8c8670c30dcc2fac959fa56261bf6ea70c5321dcff4d487f28544"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/report_and_freeze.py",
+      "bytes": 11018,
+      "sha256": "0511eeb642610357fce2164171320ab4be8754a8c9c5718439ee0b32520db230"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/results.json",
+      "bytes": 3404,
+      "sha256": "cabc1956fdfdf17912988fa345080e64bd249b47019d6bf1d64d8beb380446b1"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/rh4_baseline_prediction_then_two_targets.py",
+      "bytes": 19796,
+      "sha256": "a204e77fc4489b527a97bd8097b6d4819f4b22a49c1f0ea088f3c0a488129883"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/run-isolation-and-cost-notes.md",
+      "bytes": 1460,
+      "sha256": "1621ab1ed8bf13136708a4f8d45749e35a5597e625c8578f59f77eab64e0759f"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/summary-4.csv",
+      "bytes": 730,
+      "sha256": "6c8cca5d1ece016fc2eb2602dce54f9a9a2e116d74939aa1d5a8b71732652e86"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/target-array-index.json",
+      "bytes": 677,
+      "sha256": "b0638f95fab5deb862d0fa52d32f6c2260d8dcaf7f0de209a7c105a69d61152c"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/top5-distinct-local-peaks-60.csv",
+      "bytes": 5348,
+      "sha256": "6dd6c43b4a4df67821f11a580dc45ef1a548284d64d53c062a720d9532fe7da4"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/top5-signed-S-sources-60.csv",
+      "bytes": 3370,
+      "sha256": "5b5cbf5dcf8366f624ed88afd11cd6a00b0a7e6fbd945269796f9d8b8ee01244"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/verification.json",
+      "bytes": 840,
+      "sha256": "567612c6367317b4fa61cf44ace0e7aedee67475f377f046bb25378543962303"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R008/verify_rh4_saved_outputs.py",
+      "bytes": 6545,
+      "sha256": "a71ef55d769db06760ae0320963852fe318642be03530df0069acd0b7def96b8"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R006/input-record.json",
+      "bytes": 3131,
+      "sha256": "0a3900f602c49f264a100d7475dfc4d1ce49f22c874d00ddda67ebbd670a7c89"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R006/main-example-S-pending-adoption.md",
+      "bytes": 1766,
+      "sha256": "b171d7fc4e02e2ba86994c26055233ee3914ea860a567e9a4e1c3de94c861cee"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R006/manifest.json",
+      "bytes": 5730,
+      "sha256": "27070a03f9ec4eb1813951ebd9232e02b34eaf73bf3fcd8238e6cec39677cd5e"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R006/one-page.md",
+      "bytes": 1826,
+      "sha256": "e2d1717d9c7c0482205da4360d83fe1f6186c4f537a260fbca6407cd382a3ea7"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R006/QA.json",
+      "bytes": 1715,
+      "sha256": "7910240e50b8f11923121decbab960c84e485c233c0b63c77ebc784da3fe0bac"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R006/supplement-S1.md",
+      "bytes": 9030,
+      "sha256": "fee0829960f7f7c3ed2d1bc00f1dd4cbd2dbed08f36293eba86e27b0b3e15d6d"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/all-point-misclassification-cases.csv",
+      "bytes": 7479,
+      "sha256": "7340e47441cca091146ea886e09f9fa71e6098802de8b784ede460f0ad61772b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/compare_small_tables.py",
+      "bytes": 10828,
+      "sha256": "0a9af1c2acd7dd40792427d3a013fe793290f552ef88fd1f9e2f14949416d54f"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/freeze.json",
+      "bytes": 4062,
+      "sha256": "5b7937ce9e62318e3a7c79dd48000d3fb8f259b78237d7c19c3b5b522840d9d5"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/frozen-whole-window-interval-states-16.csv",
+      "bytes": 2228,
+      "sha256": "22ea6cd755b0b491459ebda27baadef34c8b538f75842905aae032580bf005dc"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/frozen-whole-window-point-comparators-120.csv",
+      "bytes": 27990,
+      "sha256": "745cbe91917638a8af6020cebbcec89e26b28ffc274dd7dffa1192f212cfef64"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/method-candidate-errors-32.csv",
+      "bytes": 2934,
+      "sha256": "19425740225e6d600c33412cc82d294f02cc1327aa9d9fa0e6d068fb61a18269"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/method-summary-by-input-8.csv",
+      "bytes": 1179,
+      "sha256": "4095dd2ccadc119dca650154865673dc4c4519fcdbc89db4df2b9ef07c35091c"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/one-page.md",
+      "bytes": 3606,
+      "sha256": "5ecda608dbef2f6dfa1e1e1f543bd70fb4f0fc85db745a19006e51f34d2f1748"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/results.json",
+      "bytes": 6112,
+      "sha256": "4533c195d6c3a87e35acd9de1f2f84f106393c145ab9907f96fe6c73a2e93148"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/rules-freeze.json",
+      "bytes": 2029,
+      "sha256": "d6ab2d61789d1b7557cae1e74f4bacebf9a2722078886a02469c4304e9af9521"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/simple-point-baselines-120.csv",
+      "bytes": 26977,
+      "sha256": "424a18a22ddf426e0ea272e65373e5bc0c52c82dca770da5656c7990d4132d72"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/verification.json",
+      "bytes": 215,
+      "sha256": "e62db5dc75e93034ee50f581c0638279724ca7e15ad7e5d5f31c6363fd3c0d20"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R005/whole-candidate-point-decisions-32.csv",
+      "bytes": 2261,
+      "sha256": "41e7ddbec9c13489098330d4e2570873e1026f3beeb7e50c19ad639cf42f5cc5"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/root-R005-S-adoption.md",
+      "bytes": 778,
+      "sha256": "3035247f6a0699d0e220c184b42409100901568be40d97b9498be3c1828309a9"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/rounds/R006.md",
+      "bytes": 1216,
+      "sha256": "b10f5373ec1226bf03968129bb1496a0c8992320c9cc0d6e4a5d0883e11fc368"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/runs.md",
+      "bytes": 2179,
+      "sha256": "8e4bb43f2a6d292abbaab6bc025fafeb6c16c68336d11de6b5beb932f00beb3f"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/status.json",
+      "bytes": 5304,
+      "sha256": "572bad7b97f9af5f0866583d4d8f9369daa083e06bc3e4d17ea629a024b53bb7"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/threads.json",
+      "bytes": 2472,
+      "sha256": "a8b41c90b9e7fe3755e558313e803cf608f8d84d8515621f88e46916c0b0d06f"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "task": "session021-role1-R005",
+  "meaning": "first-order warning from fixed baseline local-peak positions; not exact switch damping or maximum safe extrapolation radius",
+  "inputs": {
+    "P0": "same baseline global absolute peak>0",
+    "p0": "P0 at original baseline control time",
+    "pj": "independent baseline local absolute peak,0<pj<p0",
+    "g_i": "sign(V0(t_i))*Vzeta(t_i),same force units per unit fractional damping",
+    "S_i": "-g_i/P0 for every branch; never normalize competitor bypj",
+    "positions": "fixed baseline indices/times and peak-selection scope"
+  },
+  "formula": {
+    "linear_branches": "ell_i(delta)=p_i+g_i*delta while old-sign branch is meaningful",
+    "positive_crossing_condition": "gj>g0 with resolved positive p0-pj",
+    "delta_j": "(p0-pj)/(gj-g0)",
+    "b_j_damping_percentage_points": "100*delta_j=100*(1-pj/P0)/(S0-Sj)",
+    "multiple_branches": "minimum admissible positive intersection is earliest warning only among retained branches"
+  },
+  "case_handling": {
+    "gj_equals_g0": "parallel when nonzero gap, no finite first-order crossing",
+    "gj_less_g0": "negative crossing pertains to damping decrease only; do not take its absolute value for a positive warning",
+    "p0_equals_pj": "apply R004 exact-active maximum-g rule; if chosen g0 was lower than gj, correct the right-controller selection, warning is immediate",
+    "same_height_same_slope": "unresolved at first order",
+    "zero_peak_branch": "do not evaluate sign(0) as a differentiable absolute branch",
+    "unresolved_gap_or_slope_difference": "mark uncertain using source precision, no huge or infinite safe-radius claim",
+    "sign_reversal": "require linear crossing height positive; true sign/crossing still needs existing waveform/error envelopes",
+    "peak_drift": "actual peak positions/new peaks can change, so fixed-location crossing is a warning only"
+  },
+  "candidate_action": {
+    "damping_pp": "b=100*(zeta_candidate-zeta0)",
+    "b_ge_bj": "warning triggered; original-peak S alone not usable; use existing full-window T1/T2 and residual interval",
+    "b_lt_bj": "not triggered for this pair; not a global no-switch guarantee",
+    "no_positive_crossing": "no first-order positive warning from this pair, not safety clearance",
+    "statuses": "keep mathematical goal, interval width and peak-region status separate"
+  },
+  "example": {
+    "source": "frozen role4 R006 publicExample5_H-E12140 Story3 scalar rows",
+    "force_unit": "kip; formula invariant under consistent force-unit conversion",
+    "baseline_time_s": 10.96,
+    "competitor_time_s": 16.52,
+    "results_file": "scalar-example-results.json",
+    "verified": "scalar branch-intersection algebra and positive linear height only",
+    "not_verified": "new candidate truth, actual switch damping, warning classification performance",
+    "known_failure": "1% near-peak screen omitted a1.3662767% lower independent peak; retain original failure, do not retune tolerance as a success"
+  },
+  "future_validation": "Freeze independent-peak extraction scope/intersection rule before reading new target results; current known case is motivation, not blind validation.",
+  "minimum_fields": [
+    "Case",
+    "Story",
+    "peak0_index_time",
+    "competitor_index_time",
+    "p0",
+    "pj",
+    "g0",
+    "gj",
+    "S0",
+    "Sj",
+    "gap_fraction",
+    "slope_difference",
+    "delta_cross",
+    "b_cross_pp",
+    "linear_cross_height",
+    "sign_precision_status",
+    "candidate_b_pp",
+    "pair_warning_status",
+    "peak_selection_scope"
+  ],
+  "engineering_array_or_new_ODE": false
+}

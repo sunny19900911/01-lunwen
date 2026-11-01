@@ -6,28 +6,28 @@
   "deadline": "2026-11-02T04:13:31+08:00",
   "deadline_utc": "2026-11-01T20:13:31Z",
   "writing_start": "2026-11-02T03:13:31+08:00",
-  "checkpoint": "R005-engineer-sensitivity-and-public-independent-validation",
+  "checkpoint": "R006-S-reviewed-SHW4-counterexample",
   "checkpoint_open": true,
   "active_plan": "plan.md",
   "no_new_scientific_dispatch": false,
-  "last_actual": "2026-11-01T23:39:21.639501+08:00",
+  "last_actual": "2026-11-01T23:54:48.455121+08:00",
   "automation": "git-2 newlycreated forsession021, formalview andactualTOMLverified; oldID reused byscheduler, not oldscope resumed",
   "git_authorized": true,
   "initial_HEAD": "8f60d93d1b9ed9036dffb7a300d2f9d421b15bdb",
   "old_tracked_dirty": 12,
-  "next_task": "Collect independentrole2R007 actualS/modalproof and role4R007 SHW4forecast-before-truth status; hand audited S/figures to author. Audit SHW4 next onlyafteractive rolesidle. Finish one concise competingpeak warning and simplebaselinecomparison. NextGitR006 ~15min newmanifest, same04:13:31 deadline.",
+  "next_task": "Collect role2R009 RH4 audit andpeakwarning; factor signsR009 andfiguresR006 freeze then independentreview/rootimageview, authorv006. Later review simplebaselineaggregate and prepare engineering synthesis, no new solver/layout. NextGitR007 ~15min, writing03:13:31/end04:13:31 fixed.",
   "current_tasks": {
-    "role1": "R0058min baseline competing-peak dampingincrement warning, active~23:36; no newODE",
-    "role2": "R00710min needed12 independent15floorS/modalclosure/nearpeak audit, active23:34; public R006dynamicreview0must adopted",
-    "role3": "R002publicsource package frozen idle; no redundant search",
-    "role4": "R00712min needed15 SHW4X baselineprediction freeze then only6/7newtargets, active23:34; R006actual S projected frozen pending independent review",
-    "role5": "R00612min v005 integrate reviewed publicdynamic and baselineS methodology; actual S figures held pendingrole2R007",
-    "role6": "R0058min smalltable fair baseline comparison S*b and medianS*b, current; no new states/SHW4dataread"
+    "role1": "R005 competingpeakwarning frozen .2480256362pp, shortaudit inrole2R009",
+    "role2": "R009 max12needed15 RH4 independent audit+shortpeakwarning math sent23:54, active; SHW4R0080must adopted",
+    "role3": "R002 public source frozen idle, no filler",
+    "role4": "R009 max10needed12 factorize c sign causes using existing three baseline caches andmodalperiods; active no newODE",
+    "role5": "R007 max10needed12 v006 mainS table andmodal explanation officiallyadopted; SHW4review passed sent, active",
+    "role6": "R006 max10needed12 standardchart figures from reviewed SHW3S andmodalterms; no new science, active"
   },
   "scientific_status": {
     "root_harmonic_sanity": "36known2floor steady harmonic cases; baseline sensitivity residualmax4.44e-16; sqrt2/5to8 firstorderpeakerror4.78%,second.558%; notzeroICearthquakevalidation",
     "engineering_prediction": "role4R002 finite targets6/7/10 and old8 reuse independently audited role2R003:7608 fields, own selected RK4, 0must; second order worse14/48; max peak error15.7633% at10%; rawpoint predictions2low-improvement misses",
-    "manuscript": "v004 frozen23:30:02/root全文read, includes reviewed discrete envelopes/engineeringS methods; fullpublicreviewedresult andactualS table awaitingv005. No Wordyet",
+    "manuscript": "v005 frozen23:44:18/root全文read; publicauditednumbers included but noactualS due adoptiontiming. Newv006 currentmustinsert reviewed S/mastermodal table; oldbytes preserved",
     "derivative_math": "role1 androle2 independent r1/r2/error contract correct; rootfullread; width/decision/peakregion distinct",
     "engineering_policy": "v001 coth bound96/96 coverage but all8groups require wholebuildinganalysis. New v002 candidate-level policy frozen23:00, retrospective SHW3 development only; alltargetfloorcriterion required.",
     "literature": "Liu2011 DDM firstsecond derivatives covers foundation;Xie2020 changesstiffness notsameproblem; no firstclaim; publiccantileveronlysinglemode notmulti-floorvalidation",
@@ -35,14 +35,17 @@
     "public_benchmark": "reviewedrole2R0060must: independentRK4 selected1/6/12,1492fields+8fixed-time12modeenvelopes;24curvescovered;1st4falseadverse/2nd8%roof1low-improvementmiss caughtbyinterval;v0021st3reject/2nd2reject no pass;10%trulymeets still recompute",
     "candidate_policy": "role6R003 root fullread, developmentSHW3 order1reject1/pass0/recompute3,order2reject2/pass0/recompute2; no measuredspeedup or independentvalidation",
     "public_cost": "reviewedrole2R006: publicpredictionpipeline actualcomponents v0021stcostratio1.229,second1.882 vs4direct; no speedup, not uninterruptedend-to-endtimer",
-    "engineering_sensitivity": "analyticreviewedrole2R006; actualrole4R00615layerS/modal contributions frozen, rootfullreportread; numeric independentrole2R007 current. SHW3Story5S2.132064/roof11.723849;mode13opposesStory5 -.527229 butpromotesroof7.173442. Not fullFNA actualcandidate modalshare.",
-    "competing_peak": "publicroof secondlocalpeak1.366277%belowbase at16.52s; original1%nearpeakdiagnosis misses it; baselineS6.064525 vs6%actual2.654%. Keepfailure; role1R005 baselinebranchcrossingwarningcurrent"
+    "engineering_sensitivity": "reviewedrole2R0070must:19910fields/3636signedcontrib/15S/75peaks. SHW3Story5 S2.1320644349 roof11.7238488062 ratio5.498825;mode13 -.527229/+7.173442; positive/negative terms andtailclosed. Conditionalbaseline derivative, not candidate actualFNA share",
+    "competing_peak": "publicroof secondlocalpeak1.366277%belowbase at16.52s; original1%nearpeakdiagnosis misses it; baselineS6.064525 vs6%actual2.654%. Keepfailure; role1R005 baselinebranchcrossingwarningcurrent",
+    "SHW4_candidate": "reviewedrole2R0080must rootfullread:12955fields, selectedownRK4; 48curvescovered,2pointlowimprovementmisses caught; S1slowest but6%truthStory6, 2/1pairinversions;no universalStory5slowest",
+    "RH4_candidate": "role4R008 frozen rootfullreportread pendingrole2R009:48coverage; 7%2nd firstpass underunchangedrule,minDL12.41229%,maxwidth3.821629pp;truthmin13.731792%Story7, no reliabilityprobabilityclaim;2/2rankinversions",
+    "simple_baselines": "role6R005 source report read, perlayerS*b vsuniformmedianS*b vswholecurve pointandinterval separately, quantitative independentreview pending; no dominance claim"
   },
   "git": {
-    "last_HEAD": "cf52b536854a3e06b71e241bf2965176622d2a44",
+    "last_HEAD": "84133b1bece37d0ac275a8de3811912b66635444",
     "remote_equals_local": true,
-    "receipt": "git-R004-receipt.json"
+    "receipt": "git-R005-receipt.json"
   },
   "latest_mathematical_feedback": "role2 independent initialr1=2omega delta²zdot,r2=omega delta³wdot; publiczeroIC convolution, counterexample inprogress, notyetfrozen",
-  "recovery_file": "rounds/R005.md"
+  "recovery_file": "rounds/R006.md"
 }

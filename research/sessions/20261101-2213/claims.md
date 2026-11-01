@@ -23,3 +23,7 @@ C021-12 proposed/analytic-derived: baseline peak sensitivity S=-max_active(signV
 C021-11 upgraded-reviewed: role2R006 public dynamic1492fields, selectedindependentRK4 and12modefixed-timeenvelopes0must. 24coverage, pointfalse-adverse4/lowimprovementmiss1; candidatev002 correctly rejects3/2 while10%meetsstillrecompute; publiccomponenttotalcost ratios1.229/1.882>1.
 C021-12 math-reviewed/numeric-pending: role2R006 confirms finitegridright derivativeS units andsamepeak modalclosure; role4R006actual15layer baselinescoringrootread pendingrole2R007 numericindependentaudit.
 C021-13 candidate-observed: SHW3Story5S2.132064 vsroof11.723849; mode13same-dampingderivativeopposesatStory5andpromotesroof atdifferentcontroltimes. Publicroof near1%diagnosticfailsgap1.366277%secondpeak; Slocalnotfinite guarantees.
+
+C021-12 upgraded-reviewed: role2R00715layerS/3636modalterms/19910fields0must, rootadopted and authornotified; S5/roof13modeopposingsigns concrete.
+C021-14 reviewed-SHW4: role2R00812955fields/ownselectedRK4 verify first-rankcounterexampleStory1->Story6 at6%,2/1pairinversions despitehighrho;48curveintervalscovered,pointmisses2 caught. Doesnot invalidateconditional localderivative law butinvalidatesuniversalrankclaim.
+C021-15 testing-RH4: rootreportread firstcandidatepass7%2nd fixedthresholds verifiedbyproducer, independentR009pending; no acceptance/physicsprobability conclusion.

@@ -1,0 +1,30 @@
+{
+  "actual_freeze": "2026-11-01T23:38:32.402879+08:00",
+  "status": "rules frozen before this task joins reference CSV; all existing inputs historically seen, retrospective method comparison",
+  "input_scope": [
+    "private SHW3X all12floors",
+    "public Example5 H-E12140 all3floors"
+  ],
+  "source_S": "role4/R006/baseline-sensitivity-ranked-floors-15.csv",
+  "baseline_zeta": 0.05,
+  "target_zetas": [
+    0.06,
+    0.07,
+    0.08,
+    0.1
+  ],
+  "b": "100*(target_zeta-.05), in percentage points",
+  "method1": "local_S: predicted_D_percent=S_floor*b",
+  "method2": "uniform_median_S: predicted_D_percent=median(all target-floor baseline S in same input)*b; unweighted fixed median across12 or3floors, no target adjustment",
+  "numeric_handling": "keep signed output, no clipping negative improvement or >100%; invalid S rows do not drop, mark unavailable",
+  "point_decision": "predicted D percent>=10 -> provisional_meets, otherwise provisional_insufficient; no interval guarantee",
+  "false_pass": "true D percent<10 and predicted>=10",
+  "false_rejection": "true D percent>=10 and predicted<10",
+  "false_adverse": "predicted D percent<0 and true D percent>=0",
+  "missed_adverse": "true D percent<0 and predicted>=0",
+  "full_candidate": "all predeclared floors provisional_meets; otherwise provisional_insufficient, evaluated separately from floor-level error",
+  "reporting": "all60floor-target cases per method; group by input, method, candidate: signed bias,MAE,max absolute error and all mismatch identities; no event independence claim",
+  "comparators": "existing frozen first/second whole-window point predictions under same numerical truth, in separate labelled point groups; their frozen interval decisions remain separate and are not assigned to new baselines",
+  "truth": "join existing small CSV reference only after rules freeze; no ODE, no new true response, no SHW4 reads",
+  "cost": "S requires baseline derivative computation; arithmetic-only inference does not imply measured end-to-end speedup"
+}

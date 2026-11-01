@@ -1,0 +1,36 @@
+{
+  "completed_at": "2026-11-01T23:42:29.473516+08:00",
+  "elapsed_seconds": 370.473516,
+  "budget_seconds": 480,
+  "within_budget": true,
+  "evidence_type": "analytic warning rule plus supplied scalar example",
+  "checks": {
+    "intersection_formula": "manual algebra",
+    "normalized_formula": "sameP0 denominator,100 multiplier for damping percentage points",
+    "scalar_execution": "calculate_scalar_crossing.py ran successfully with Decimal40digits",
+    "height_and_formula_closure": "0E-38",
+    "b_formula_equivalence_error_pp": "-2E-40",
+    "source_scalar_match": "provided four values exactly match frozen role4 CSV strings",
+    "five_engineering_steps": true
+  },
+  "source_checks": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\top5-distinct-local-peaks-per-floor-75.csv",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\engineering-main-table-public3.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role1\\R004\\baseline-peak-sensitivity-one-page.md",
+      "unchanged": true
+    }
+  ],
+  "all_source_hashes_unchanged": true,
+  "engineering_time_arrays_read": false,
+  "candidate_truth_validation": false,
+  "new_ODE_or_fit": false,
+  "Git_used": false,
+  "review_status": "future brief independent role2 audit; no target performance claim"
+}

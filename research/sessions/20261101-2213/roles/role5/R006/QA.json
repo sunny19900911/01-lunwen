@@ -1,0 +1,53 @@
+{
+  "public_and_cost_tables_match_small_sources": [
+    {
+      "expected": "|6%|0.743—2.654|0.845|0.195|舍弃|舍弃|",
+      "matches": true
+    },
+    {
+      "expected": "|7%|2.572—4.775|2.852|1.397|舍弃|舍弃|",
+      "matches": true
+    },
+    {
+      "expected": "|8%|4.945—7.337|5.638|4.261|舍弃|完整复算|",
+      "matches": true
+    },
+    {
+      "expected": "|10%|10.257—12.865|12.464|16.665|完整复算|完整复算|",
+      "matches": true
+    },
+    {
+      "expected": "|一阶|1|0.548287|0.446146|1.229|",
+      "matches": true
+    },
+    {
+      "expected": "|二阶|2|0.839534|0.446146|1.882|",
+      "matches": true
+    }
+  ],
+  "all_public_rows_match": true,
+  "main_numbered_sections": 7,
+  "table_captions": [
+    "**表1 二阶预测误差及两种包络的逐层筛查结果**",
+    "**表2 第5层与屋顶的全窗峰降幅，单位%**",
+    "**表3 10%降幅目标下的点预测漏判，候选阻尼均为8%**",
+    "**表4 两种包络的候选整体决定，目标为全部12层至少降低10%**",
+    "**表5 公开三层框架的峰值预测和候选整体决定**",
+    "**表6 公开模型候选整体流程与直接求解的成本比较**"
+  ],
+  "even_math_delimiters": true,
+  "public_kip_without1000": true,
+  "public8percent_is_new_model_target": true,
+  "private_and_public_sample_counts": true,
+  "public_false_adverse_and_miss_preserved": true,
+  "cost_exceeds_direct": true,
+  "S_method_no_extra100": true,
+  "S_values_held_for_root_adoption": true,
+  "no_internal_audit_words": true,
+  "supplement_link_resolves": true,
+  "v004_unchanged": true,
+  "v003_unchanged": true,
+  "old_v007_unchanged": true,
+  "new_dynamic_runs": 0,
+  "word_created": false
+}

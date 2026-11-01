@@ -1,0 +1,72 @@
+{
+  "status": "frozen",
+  "observed_start": "2026-11-01T23:35:03.090787+08:00",
+  "frozen_at": "2026-11-01T23:41:32.845826+08:00",
+  "primary_deadline": "2026-11-01T23:45:03+08:00",
+  "absolute_deadline": "2026-11-01T23:47:03+08:00",
+  "must_fix": 0,
+  "producer_v002_manifest_sha256": "ea287a1e8a9d154691d77955a05368cd1466171258bb8abe87ca156407bbe3d6",
+  "artifacts": [
+    {
+      "name": "audit_baseline_S_sources.py",
+      "bytes": 13912,
+      "sha256": "270d7c1832523f70b6aabdb5e92490f606185f5102131b008281eb210c205290"
+    },
+    {
+      "name": "author-floor-summary-15.csv",
+      "bytes": 4310,
+      "sha256": "910dd3dcf9f4f563cf851820a289960fae1305f942b752452a0f7408f87a2b20"
+    },
+    {
+      "name": "author-main5-and-rest-12.csv",
+      "bytes": 935,
+      "sha256": "97089cb075e766432d303c99d5a8648ef85dc8b02b60d2d37c9c0415d9da5a53"
+    },
+    {
+      "name": "author-ready-tables-and-wording.md",
+      "bytes": 3529,
+      "sha256": "48e680fd479cf5aafdf24904689788a722a0515df4585c95b8a66dcf6706207f"
+    },
+    {
+      "name": "independent-local-peaks-75.csv",
+      "bytes": 5621,
+      "sha256": "4d2ad66ef577eebeffc55f185fb825a4db8bdd0109952a215329b8a0c3605f78"
+    },
+    {
+      "name": "independent-rank-checks-8.csv",
+      "bytes": 283,
+      "sha256": "e43f3717f0f7b5df1d8ee1e045365ecfa186c13d3f823abe1c2a70d834f33acb"
+    },
+    {
+      "name": "known-candidate-S-context-60.csv",
+      "bytes": 4068,
+      "sha256": "9d500a730990839ae40a1d3861970e4a1a4e5c2b5aa088dabba2ea12374ba0d7"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3648,
+      "sha256": "4b060f8e8796cd6ed4c51aa28add4ad17356ff172ea6e2e38f942d30e9aad383"
+    },
+    {
+      "name": "results.json",
+      "bytes": 1137,
+      "sha256": "60661e84cc657abfb4399c42898c3f97b7f6c10aa69b76b2c4447f06990886b7"
+    }
+  ],
+  "execution": {
+    "script": "audit_baseline_S_sources.py",
+    "exit_code": 0,
+    "tool_wall_seconds": 0.4833177,
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "independence": "scalar modal sums, independently formed exact computed active/controller sets, local amplitude-difference peak detection, full contribution closure and posterior rank correlation",
+  "target_response_arrays_opened": false,
+  "new_ODE": false,
+  "full_arrays_written": false,
+  "author_deliverables": [
+    "author-ready-tables-and-wording.md",
+    "author-floor-summary-15.csv",
+    "author-main5-and-rest-12.csv"
+  ],
+  "scope": "baseline peak derivative explanation; finite candidates only previously audited posterior small tables; not actual candidate modal share/generalization/strict FP or continuous peak proof"
+}

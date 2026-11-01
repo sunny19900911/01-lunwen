@@ -1,0 +1,22 @@
+{
+  "completed_utc": "2026-11-01T15:39:17.264205+00:00",
+  "baseline_S_rows_verified": 12,
+  "modal_source_rows_verified": 3600,
+  "max_modal_closure_error": 5.329070518200751e-15,
+  "reference_peak_rows_verified": 24,
+  "prediction_interval_rows_verified": 48,
+  "candidate_actions_verified": 4,
+  "max_peak_difference_kN": 0.0,
+  "max_predicted_metric_difference": 0.0,
+  "strict_uncovered_samples": 0,
+  "rank_inversion_pairs_verified": 3,
+  "FFT_direct_checks": 16,
+  "source_and_frozen_prediction_hashes_unchanged": true,
+  "reference_array_hashes_unchanged": true,
+  "extra_target_state_solves": 0,
+  "old8_response_read": false,
+  "original_producer_exit": 1,
+  "original_failure_stage": "only final console json.dumps of NumPy int64 after every numeric output and results.json had been saved",
+  "this_script_reads_saved_results_without_recomputing_targets": true,
+  "independent_role2_review_pending": true
+}

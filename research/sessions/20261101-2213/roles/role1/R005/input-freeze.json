@@ -1,0 +1,63 @@
+{
+  "task": "session021-role1-R005",
+  "started_at": "2026-11-01T23:36:19+08:00",
+  "budget_seconds": 480,
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\top5-distinct-local-peaks-per-floor-75.csv",
+      "bytes": 15075,
+      "sha256": "0a89ceeadca65201ee8eaf34c520df648d9b8e8f318790ab8cf813115cfb75ee"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\engineering-main-table-public3.md",
+      "bytes": 997,
+      "sha256": "4b1598a3b79b149b1201363f77a453a4949a8049bc2e6e6fb6215d2de22ec260"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role1\\R004\\baseline-peak-sensitivity-one-page.md",
+      "bytes": 3512,
+      "sha256": "c797f8fb4e10f66bdf3e4de32bdb9721f19f3c29d86e5cc25efb3bc136e07a2c"
+    }
+  ],
+  "scalar_inputs": {
+    "p0": "34.54179705126088",
+    "pj": "34.069860511031116",
+    "g0": "-209.4795940965569",
+    "gj": "-19.202271375974128",
+    "zeta0": ".05"
+  },
+  "source_rows": [
+    {
+      "Case": "publicExample5_H-E12140",
+      "Story": "Story3",
+      "local_peak_amplitude_rank": "1",
+      "saved_index": "2192",
+      "time_s": "10.96",
+      "signed_V0": "-34.54179705126088",
+      "force_unit": "kip",
+      "relative_amplitude_gap": "0.0",
+      "branch_g_force_per_zeta": "-209.4795940965569",
+      "branch_S_using_P0": "6.064525067577811",
+      "is_exact_active": "True",
+      "inside_diagnostic1pct": "True",
+      "scope": "separate local peaks, including top5 outside tolerance; not exact tie"
+    },
+    {
+      "Case": "publicExample5_H-E12140",
+      "Story": "Story3",
+      "local_peak_amplitude_rank": "2",
+      "saved_index": "3304",
+      "time_s": "16.52",
+      "signed_V0": "-34.069860511031116",
+      "force_unit": "kip",
+      "relative_amplitude_gap": "0.013662767444594603",
+      "branch_g_force_per_zeta": "-19.202271375974128",
+      "branch_S_using_P0": "0.5559140813512824",
+      "is_exact_active": "False",
+      "inside_diagnostic1pct": "False",
+      "scope": "separate local peaks, including top5 outside tolerance; not exact tie"
+    }
+  ],
+  "scope": "fixed-baseline local-peak linear crossing warning; scalar calculation only; no arrays, new ODE or candidate truth validation",
+  "force_unit": "kip"
+}

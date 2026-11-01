@@ -1,0 +1,82 @@
+{
+  "status": "frozen",
+  "observed_start": "2026-11-01T23:43:49.853795+08:00",
+  "frozen_at": "2026-11-01T23:50:09.827111+08:00",
+  "major_result_deadline": "2026-11-01T23:53:49+08:00",
+  "primary_deadline": "2026-11-01T23:55:49+08:00",
+  "absolute_deadline": "2026-11-01T23:58:49+08:00",
+  "must_fix": 0,
+  "upstream_manifest_sha256": "d388debefb9473568152c0011a49b2fe5c64502d6e4b3978244594371372e685",
+  "artifacts": [
+    {
+      "name": "audit_SHW4X.py",
+      "bytes": 15555,
+      "sha256": "a2bee5c795f2c737ebb0a2b9af088676c5d967091ace31653049a5628351e303"
+    },
+    {
+      "name": "independent-candidate-actions-4.csv",
+      "bytes": 377,
+      "sha256": "3cbc8266a29dfc142ed342d8cd8fb9bf04db754ce88da4d048ce54d7601b26c8"
+    },
+    {
+      "name": "independent-point-misses-2.csv",
+      "bytes": 213,
+      "sha256": "84b82d40878268609fde0a84f6996ca317649fda9ae153e574c28c50cb3493a7"
+    },
+    {
+      "name": "independent-rank-inversions-3.csv",
+      "bytes": 424,
+      "sha256": "a0a0373a85f0d73306f04efa0bd05d882e0345f6722ee712e23d45a46fad9d52"
+    },
+    {
+      "name": "independent-rank-summary-2.csv",
+      "bytes": 136,
+      "sha256": "63bc959a4fb4c471fdedb8910d314d75c2012408a18cd0f2d9efc501578c982b"
+    },
+    {
+      "name": "independent-RK4-checks-24.csv",
+      "bytes": 1337,
+      "sha256": "fa548da6c0f6f3cbd5fbd46d48b22fe4dbd7ea4e6143151f2ced12fd690b36c6"
+    },
+    {
+      "name": "independent-S-floors-12.csv",
+      "bytes": 1447,
+      "sha256": "d10a71e33c72eea944ce3e7c4bb0d64fb9893a4d32bc9ab5739f6c4420c2201b"
+    },
+    {
+      "name": "independent-summary-4.csv",
+      "bytes": 731,
+      "sha256": "5e20f92e709599e316bcde8d7a7cb629728eb86f169f5c6ca3c0f9bae69a42c8"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 4386,
+      "sha256": "d11e884c8061418609d2d815034f1a7603024ecd107cd8e893d9c896e4a2dedd"
+    },
+    {
+      "name": "results.json",
+      "bytes": 1337,
+      "sha256": "245ab80bd440b6bda7acb1e388bced8fb2a6bf280bb8a483dcc0d542879fa52e"
+    }
+  ],
+  "execution": {
+    "script": "audit_SHW4X.py",
+    "exit_code": 0,
+    "tool_wall_seconds": 4.5681639,
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "independence": "self-written augmented RK4 selected2/10/13 at5% and7%; scalar baseline modal projections; all48 peak/coverage/decision metrics; rank inversions",
+  "source_producer_failure_preserved": true,
+  "source_producer_exit": 1,
+  "source_failure_stage": "final console serialization after scientific outputs were saved; recovery no new targets",
+  "new_full300_reference_solves": false,
+  "old8_array_opened": false,
+  "new_model_or_input": false,
+  "full_arrays_written": false,
+  "status_limits": [
+    "historically known input, not unseen-event blind test",
+    "baseline rank first is incorrect at6%; high rho does not erase it",
+    "saved-grid numeric envelope, not rigorous FP or continuous peak certificate",
+    "adverse and conditional false-pass rates not applicable with zero denominators"
+  ]
+}

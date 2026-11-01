@@ -1,0 +1,82 @@
+{
+  "session": "20261101-2213",
+  "role": 6,
+  "task": "R005",
+  "status": "frozen-retrospective-small-table-comparison-await-independent-review",
+  "actual_start": "2026-11-01T23:37:13+08:00",
+  "start_source": "read_thread startedAt=1793547433",
+  "first_clock": "2026-11-01T23:37:46+08:00",
+  "rules_frozen_at": "2026-11-01T23:38:32.402879+08:00",
+  "actual_freeze": "2026-11-01T23:43:52.904585+08:00",
+  "elapsed_seconds": 399.904585,
+  "limit_seconds": 480,
+  "within_8_minutes": true,
+  "rule_order": "rule artifact saved before reference-table headers/values opened in this task; simple predictions formed from S only then reference joined; cases historically seen, no blind-test claim",
+  "run_command": "python -X utf8 research/sessions/20261101-2213/roles/role6/R005/compare_small_tables.py",
+  "exit_code": 0,
+  "post_run_change": "matching prose-only clarifications in script report text and one-page; no numerical CSV changes; AST parsed after prose edit",
+  "validation": "240 unique point rows,120 new baselines+120 old whole-window; formulas/error flags verified;16 original interval groups partitioned; all7 small CSV sources unchanged; no trailing whitespace/JSON/AST errors",
+  "scope": "all12 SHW3 floors/all3public floors x6/7/8/10percent; no row selection; per-input medians fixed",
+  "new_state_or_truth_calculation": false,
+  "SHW4_read": false,
+  "git": false,
+  "source_sha256": {
+    "R006\\baseline-sensitivity-ranked-floors-15.csv": "37362b600ba419b383e6538e8fa6837a46fe5635b76db6e4f9271793e6c9388d",
+    "R002\\exact-reference-truth-peaks-48.csv": "6d6dc493d9ed6cbe6b013cbf62124176df4b894b41f6c6f4495683e3b99b0501",
+    "R005\\exact-reference-floor-peaks-12.csv": "872d643766a13b395420eab3632b6337281dc33126204ce75b43e09358fa0afc",
+    "R002\\frozen-prediction-vs-exact-reference-96.csv": "48434d3c8502e9cee232618a48338af43fdeedbbbf798b07db0c0e4b2d853822",
+    "R005\\frozen-prediction-vs-reference-24.csv": "c01bc950eb4613f25b85556c3b68f268623ba1c39224a92fa66730d31a16c02a",
+    "R002\\coth-interval-coverage-width-decisions-96.csv": "c9af99f18ad7961da664e3e063b1ee669e994f85bc241e18fb44a5b59c0ec226",
+    "R005\\interval-coverage-width-decisions-24.csv": "08667dc531f4010a6f97ce5796d24c24111f345fd5d46cb7e95229d10adebebb"
+  },
+  "files": {
+    "all-point-misclassification-cases.csv": {
+      "sha256": "7340e47441cca091146ea886e09f9fa71e6098802de8b784ede460f0ad61772b",
+      "bytes": 7479
+    },
+    "compare_small_tables.py": {
+      "sha256": "0a9af1c2acd7dd40792427d3a013fe793290f552ef88fd1f9e2f14949416d54f",
+      "bytes": 10828
+    },
+    "frozen-whole-window-interval-states-16.csv": {
+      "sha256": "22ea6cd755b0b491459ebda27baadef34c8b538f75842905aae032580bf005dc",
+      "bytes": 2228
+    },
+    "frozen-whole-window-point-comparators-120.csv": {
+      "sha256": "745cbe91917638a8af6020cebbcec89e26b28ffc274dd7dffa1192f212cfef64",
+      "bytes": 27990
+    },
+    "method-candidate-errors-32.csv": {
+      "sha256": "19425740225e6d600c33412cc82d294f02cc1327aa9d9fa0e6d068fb61a18269",
+      "bytes": 2934
+    },
+    "method-summary-by-input-8.csv": {
+      "sha256": "4095dd2ccadc119dca650154865673dc4c4519fcdbc89db4df2b9ef07c35091c",
+      "bytes": 1179
+    },
+    "one-page.md": {
+      "sha256": "5ecda608dbef2f6dfa1e1e1f543bd70fb4f0fc85db745a19006e51f34d2f1748",
+      "bytes": 3606
+    },
+    "results.json": {
+      "sha256": "4533c195d6c3a87e35acd9de1f2f84f106393c145ab9907f96fe6c73a2e93148",
+      "bytes": 6112
+    },
+    "rules-freeze.json": {
+      "sha256": "d6ab2d61789d1b7557cae1e74f4bacebf9a2722078886a02469c4304e9af9521",
+      "bytes": 2029
+    },
+    "simple-point-baselines-120.csv": {
+      "sha256": "424a18a22ddf426e0ea272e65373e5bc0c52c82dca770da5656c7990d4132d72",
+      "bytes": 26977
+    },
+    "verification.json": {
+      "sha256": "e62db5dc75e93034ee50f581c0638279724ca7e15ad7e5d5f31c6363fd3c0d20",
+      "bytes": 215
+    },
+    "whole-candidate-point-decisions-32.csv": {
+      "sha256": "41e7ddbec9c13489098330d4e2570873e1026f3beeb7e50c19ad639cf42f5cc5",
+      "bytes": 2261
+    }
+  }
+}
