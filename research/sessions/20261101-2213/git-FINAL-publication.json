@@ -1,0 +1,137 @@
+{
+  "checkpoint": "FINAL",
+  "time": "2026-11-02T01:50:07.674775+08:00",
+  "message": "paper: release verified engineering damping prediction manuscript and editable Word review copy",
+  "files": [
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/damping-prediction-session021-v010.md",
+      "bytes": 39606,
+      "sha256": "64ee1567ee775cdcf30aa28734ae0bb5003706970fddb708d5fa3afb648c942d"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/damping-prediction-session021-论文审阅稿-v010-r2.docx",
+      "bytes": 591348,
+      "sha256": "9d1a1963cb27d0d49f19295a3411e7fa87530e44afb19141a6bcddd324b37530"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/check_final_word_identity.py",
+      "bytes": 5059,
+      "sha256": "ec7741b1166536255480a8c4e5eb19a66d85df87e57c60eb6a6934ae78e59a6b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/checkpoint_FINAL.py",
+      "bytes": 3137,
+      "sha256": "ee138c2a84d339f3c9ad32c5bc850b0ca3fb20e718e73e8e05ae8652651c25f8"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/claims.md",
+      "bytes": 6567,
+      "sha256": "fdfadf555677279632dc3a1fbeaf6276377d0603c7276ff67792ad926f5a9c2b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/FINAL-actual-snapshot.json",
+      "bytes": 2101,
+      "sha256": "2ca427eeac08ddbf734d6be0df87ebf02621ddc8c09acfe146bb1aaca57cb730"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/final-summary.md",
+      "bytes": 4201,
+      "sha256": "d8f2438028f26652c78744bfa30a7e930444e7f0586f49a5dcdf13dce8e8d8f1"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/git-R013-receipt.json",
+      "bytes": 1968,
+      "sha256": "02e21478b7fb8b8422a9855fafc1dac0a638548640e2f2bf66952c45f5691edb"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/prepare_final_closeout.py",
+      "bytes": 8434,
+      "sha256": "3b8ffee06530c08d137caf19898890a75f7a65af1ae6f0cfcc19b6085f16da94"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R012/supplement-S1.md",
+      "bytes": 20489,
+      "sha256": "a56f931c32ddfaa5fbadbda6a45e4063ebf494903556d3b3f56e9875a3b47f5a"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R014/build_word.py",
+      "bytes": 15743,
+      "sha256": "c6f17d27d42e61454b290b7d6fc8d3535d4b77c1cf0245e4900c75ee4d46faa1"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R014/manifest.json",
+      "bytes": 2067,
+      "sha256": "c102080be8dacd2e56e5adae0329207e3882031e56ee58fc5d8c8aa22122c06d"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R014/math_omml.py",
+      "bytes": 7728,
+      "sha256": "ad0c091401c059d2676b2c8451d78967f142b5ad4a17944f64ca0885e8c71f44"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R014/one-page.md",
+      "bytes": 1557,
+      "sha256": "b5ad9fff2d4cd01d0a3f4a6276646a77ae8b851390db97d7130ca92d45c004cc"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R014/QA.json",
+      "bytes": 8177,
+      "sha256": "68b6eb6eb4d47e07976468d1c8aa559a0f33f29df1999278ea4781f85d03f2d5"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R014/render_review.py",
+      "bytes": 2728,
+      "sha256": "ba6124e952dda05ebcdfd88150b45e0e85d34cef7ddf4eab82814437c1ee9dde"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R014/verify_final.py",
+      "bytes": 10184,
+      "sha256": "2f91a2060d9660577facec3a5ed748a68e3c8ff5d9fed63c287ffc6077e9525f"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R014/visual-QA.json",
+      "bytes": 7552,
+      "sha256": "afc9c7e1f1f70ff906630af1bb8b5a6c2334c969450a79470bffdbe3b3e48e2d"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/root-final-word-r2-identity.json",
+      "bytes": 1603,
+      "sha256": "ffb13e349beb94cb8d97425c2eb0da8d7f633b40f754a428257288324f407f76"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/root-final-word-r2-visual-QA.json",
+      "bytes": 8319,
+      "sha256": "a6e3cfbdbcbf81fd677afb40f3e7394b9517d8f2886e0fc3292099131b7332b1"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/rounds/FINAL.md",
+      "bytes": 831,
+      "sha256": "11daf8cac4008aa211eebde925eb1228e3661daf9327693a87dc33d2233da976"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/runs.md",
+      "bytes": 5452,
+      "sha256": "53f3c7d384c59099fb87dfabeb7d94fa6984f962f509d6e36afc1adf5d3b9657"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/status.json",
+      "bytes": 7271,
+      "sha256": "9137f6f7541ce92404ca5b99ecd7369aa089c91a90af4691fc586160834a0d50"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/threads.json",
+      "bytes": 2068,
+      "sha256": "92cf3961123c8f82c685a201883af1423dd3dc2afb96d274156b3c0270b592a4"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/工程应用方法.md",
+      "bytes": 3433,
+      "sha256": "ccd609491b2f7769e8e790000ab3fcca8e4de446f8599864fa6fbd337442ff97"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/普通中文研究说明.md",
+      "bytes": 2624,
+      "sha256": "ae57b753fd65c1c951627683407c8c641b8b453010098d1a31197e434cc9a556"
+    }
+  ]
+}

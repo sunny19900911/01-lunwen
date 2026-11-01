@@ -1,0 +1,42 @@
+{
+  "checkpoint": "R013",
+  "time_utc": "2026-11-01T17:44:18.367186+00:00",
+  "HEAD": "9b79a9b0636780363bc55e81f20bbe1d68205626",
+  "previous_HEAD": "e53713aa11cba26ece9f3b59b607ea2ee02d0374",
+  "staged_files": [
+    "research/sessions/20261101-2213/R013-actual-snapshot.json",
+    "research/sessions/20261101-2213/automation-R012-update-receipt.json",
+    "research/sessions/20261101-2213/check_final_word_identity.py",
+    "research/sessions/20261101-2213/checkpoint_R013.py",
+    "research/sessions/20261101-2213/git-R012-receipt.json",
+    "research/sessions/20261101-2213/git-R013-publication.json",
+    "research/sessions/20261101-2213/roles/role5/R013/QA.json",
+    "research/sessions/20261101-2213/roles/role5/R013/build_word.py",
+    "research/sessions/20261101-2213/roles/role5/R013/finalize_qa.py",
+    "research/sessions/20261101-2213/roles/role5/R013/manifest.json",
+    "research/sessions/20261101-2213/roles/role5/R013/math_omml.py",
+    "research/sessions/20261101-2213/roles/role5/R013/one-page.md",
+    "research/sessions/20261101-2213/roles/role5/R013/render_review.py",
+    "research/sessions/20261101-2213/roles/role5/R013/visual-QA.json",
+    "research/sessions/20261101-2213/root-final-word-identity.json",
+    "research/sessions/20261101-2213/root-word-v010-r1-visual-review.json",
+    "research/sessions/20261101-2213/rounds/R013.md",
+    "research/sessions/20261101-2213/runs.md",
+    "research/sessions/20261101-2213/status.json",
+    "research/sessions/20261101-2213/threads.json"
+  ],
+  "verified_blob_hashes": 20,
+  "identity_fallback": true,
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "code": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/sunny19900911/01-lunwen.git\n   e53713a..9b79a9b  main -> main\n"
+    }
+  ],
+  "remote_HEAD": "9b79a9b0636780363bc55e81f20bbe1d68205626",
+  "remote_equals_local": true,
+  "pending_push": false,
+  "resumed_pending_receipt": null
+}

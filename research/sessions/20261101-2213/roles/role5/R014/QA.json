@@ -1,0 +1,225 @@
+{
+  "frozen_at": "2026-11-02T01:43:12+08:00",
+  "source_sha256": "64ee1567ee775cdcf30aa28734ae0bb5003706970fddb708d5fa3afb648c942d",
+  "S1_sha256": "a56f931c32ddfaa5fbadbda6a45e4063ebf494903556d3b3f56e9875a3b47f5a",
+  "previous_DOCX_sha256": "b266932700e1c518215732026526c06275e5632aeebf54a8960ff548b36d8eb9",
+  "output_sha256": "9d1a1963cb27d0d49f19295a3411e7fa87530e44afb19141a6bcddd324b37530",
+  "output_bytes": 591348,
+  "Chinese_sequence_exact": true,
+  "Chinese_characters": 8701,
+  "English_abstract_exact_after_math_markup_normalization": true,
+  "editable_tables": 15,
+  "source_tables": 15,
+  "table_cell_mismatches": [],
+  "all_decimal_numbers_in_order_exact": true,
+  "decimal_number_count": 302,
+  "native_OMML_count": 112,
+  "display_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "ten_display_equations_XML_unchanged": true,
+  "images": [
+    {
+      "name": "word/media/image1.png",
+      "sha256": "bc70bdc54de7b0d9aa5859f1cf96884ed17f45b2524f9f397e45a9184dd410d4",
+      "same_as_frozen_previous_docx": true
+    },
+    {
+      "name": "word/media/image2.png",
+      "sha256": "278c4b51880b730f2770d0b938d941ef820f5017aa1d4680e005c3a78bc0a888",
+      "same_as_frozen_previous_docx": true
+    },
+    {
+      "name": "word/media/image3.png",
+      "sha256": "1b23bc6374489c6581738cd9cfa3df3f71b737fe6e82a16722a8d123f182f3c5",
+      "same_as_frozen_previous_docx": true
+    }
+  ],
+  "hyperlink_targets": [
+    "file:///E:/11-%E5%B7%A5%E4%BD%9C/001-workbuddy%20spaceV1/001-workbuddy%20space/109-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/01-lunwen/research/sessions/20261101-2213/roles/role5/R012/supplement-S1.md",
+    "https://doi.org/10.1017/jmech.2011.41",
+    "https://opensees.ist.berkeley.edu/wiki/index.php?title=OpenSees_Example_5._2D_Frame%2C_3-story_3-bay%2C_Reinforced-Concrete_Section_%26_Steel_W-Section",
+    "https://opensees.ist.berkeley.edu/wiki/images/8/85/Ex5.Frame2D.build.ElasticSection.tcl",
+    "https://opensees.ist.berkeley.edu/wiki/images/9/98/H-E12140.zip"
+  ],
+  "external_URL_count": 4,
+  "S1_hyperlink_exists": true,
+  "author_blank": true,
+  "key_math_contract": {
+    "U_has_separate_p_sub_r_operand": true,
+    "P_has_separate_v_sub_r_operand": true,
+    "eP_predicted_P_has_native_hat_accent": true,
+    "all_inline_sum_and_max_spans_explicitly_mapped": true,
+    "explicit_spans": [
+      {
+        "source_literal": "V₀[n]=ΣB_srω_r²s_r⁰[n]/u_F",
+        "explicit_latex": "V_0[n]=\\sum B_{sr}\\omega_r^2s_r^0[n]/u_F",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "V0[n]=∑Bsrωr2sr0[n]/uF",
+        "XML": "explicit-math-01.xml"
+      },
+      {
+        "source_literal": "V_ζ[n]=ΣB_srω_r²z_r[n]/u_F",
+        "explicit_latex": "V_\\zeta[n]=\\sum B_{sr}\\omega_r^2z_r[n]/u_F",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "Vζ[n]=∑Bsrωr2zr[n]/uF",
+        "XML": "explicit-math-02.xml"
+      },
+      {
+        "source_literal": "P₀=max_n|V₀[n]|",
+        "explicit_latex": "P_0=\\max_n|V_0[n]|",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "P0=maxn|V0[n]|",
+        "XML": "explicit-math-03.xml"
+      },
+      {
+        "source_literal": "Σc=S",
+        "explicit_latex": "\\sum c=S",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "∑c=S",
+        "XML": "explicit-math-04.xml"
+      },
+      {
+        "source_literal": "P̂_s=max|V̂_s|",
+        "explicit_latex": "\\widehat P_s=\\max|\\widehat V_s|",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "Ps=max|Vs|",
+        "XML": "explicit-math-05.xml"
+      },
+      {
+        "source_literal": "D̂_s=100(1−P̂_s/P₀)%",
+        "explicit_latex": "\\widehat D_s=100(1-\\widehat P_s/P_0)\\%",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "Ds=100(1-Ps/P0)%",
+        "XML": "explicit-math-06.xml"
+      },
+      {
+        "source_literal": "p_r=max_t|v_r(t)|",
+        "explicit_latex": "p_r=\\max_t|v_r(t)|",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "pr=maxt|vr(t)|",
+        "XML": "explicit-math-07.xml"
+      },
+      {
+        "source_literal": "U=Σ_rp_r",
+        "explicit_latex": "U=\\sum_r p_r",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "U=∑rpr",
+        "XML": "explicit-math-08.xml"
+      },
+      {
+        "source_literal": "P=max_t|Σ_rv_r(t)|",
+        "explicit_latex": "P=\\max_t|\\sum_r v_r(t)|",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "P=maxt|∑rvr(t)|",
+        "XML": "explicit-math-09.xml"
+      },
+      {
+        "source_literal": "E_s=max E_s(t)",
+        "explicit_latex": "E_s=\\max E_s(t)",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "Es=maxEs(t)",
+        "XML": "explicit-math-10.xml"
+      },
+      {
+        "source_literal": "[max(0,P̂_s−E_s),P̂_s+E_s]",
+        "explicit_latex": "[\\max(0,\\widehat P_s-E_s),\\widehat P_s+E_s]",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "[max(0,Ps-Es),Ps+Es]",
+        "XML": "explicit-math-11.xml"
+      },
+      {
+        "source_literal": "J₁,s=2Σ|B_sr|ω_r‖ż_r‖∞/u_F",
+        "explicit_latex": "J_{1,s}=2\\sum|B_{sr}|\\omega_r\\|\\dot z_r\\|_\\infty/u_F",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "J1,s=2∑|Bsr|ωr‖zr‖∞/uF",
+        "XML": "explicit-math-12.xml"
+      },
+      {
+        "source_literal": "J₂,s=Σ|B_sr|ω_r‖ẇ_r‖∞/u_F",
+        "explicit_latex": "J_{2,s}=\\sum|B_{sr}|\\omega_r\\|\\dot w_r\\|_\\infty/u_F",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "J2,s=∑|Bsr|ωr‖wr‖∞/uF",
+        "XML": "explicit-math-13.xml"
+      },
+      {
+        "source_literal": "e_P=100(P̂−P_ref)/P_ref",
+        "explicit_latex": "e_P=100(\\widehat P-P_{\\mathrm{ref}})/P_{\\mathrm{ref}}",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "eP=100(P-Pref)/Pref",
+        "XML": "explicit-math-14.xml"
+      },
+      {
+        "source_literal": "e_D=D̂−D_ref",
+        "explicit_latex": "e_D=\\widehat D-D_{\\mathrm{ref}}",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "eD=D-Dref",
+        "XML": "explicit-math-15.xml"
+      },
+      {
+        "source_literal": "ΣBω²s",
+        "explicit_latex": "\\sum B\\omega^2s",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "∑Bω2s",
+        "XML": "explicit-math-16.xml"
+      },
+      {
+        "source_literal": "P_s,env=max_eP_s,e",
+        "explicit_latex": "P_{s,\\mathrm{env}}=\\max_e P_{s,e}",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "Ps,env=maxePs,e",
+        "XML": "explicit-math-17.xml"
+      },
+      {
+        "source_literal": "P_s,0env=max_eP_s,e0",
+        "explicit_latex": "P_{s,0\\mathrm{env}}=\\max_e P_{s,e0}",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "Ps,0env=maxePs,e0",
+        "XML": "explicit-math-18.xml"
+      },
+      {
+        "source_literal": "[L_s,e,U_s,e]",
+        "explicit_latex": "[L_{s,e},U_{s,e}]",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "[Ls,e,Us,e]",
+        "XML": "explicit-math-19.xml"
+      },
+      {
+        "source_literal": "P_s,e",
+        "explicit_latex": "P_{s,e}",
+        "native_math_present": true,
+        "native_matches": 1,
+        "serialized_text": "Ps,e",
+        "XML": "explicit-math-20.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "role": "role1",
+    "cursor": "a4ac1686-5034-48ef-9e7c-fe6208750c15:33",
+    "status": {
+      "type": "idle"
+    },
+    "latestTurn": {
+      "id": "01a197f9-3b56-7eb2-8f6c-23ea56639971",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1793551055,
+      "completedAt": 1793551072,
+      "durationMs": 16773
+    }
+  },
+  {
+    "role": "role2",
+    "cursor": "11a056de-2e65-48d9-90d8-2d3233b00402:99",
+    "status": {
+      "type": "idle"
+    },
+    "latestTurn": {
+      "id": "01a1980d-8ba4-7781-8cb6-9dfec5452b91",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1793552387,
+      "completedAt": 1793552729,
+      "durationMs": 342358
+    }
+  },
+  {
+    "role": "role3",
+    "cursor": "3e1edb6e-1082-4df0-a7b1-358e7b877471:27",
+    "status": {
+      "type": "idle"
+    },
+    "latestTurn": {
+      "id": "01a1980d-8d20-7e02-a15a-ffeaa30b948c",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1793552387,
+      "completedAt": 1793552592,
+      "durationMs": 205426
+    }
+  },
+  {
+    "role": "role4",
+    "cursor": "18d108d1-c129-40a5-b347-658f1f0c4b89:74",
+    "status": {
+      "type": "idle"
+    },
+    "latestTurn": {
+      "id": "01a197f9-3a05-7be2-b833-51f61f797e0a",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1793551055,
+      "completedAt": 1793551064,
+      "durationMs": 9070
+    }
+  },
+  {
+    "role": "role5",
+    "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:112",
+    "status": {
+      "type": "idle"
+    },
+    "latestTurn": {
+      "id": "01a1982f-aea8-7e01-8dc7-b4417f0b779f",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1793554624,
+      "completedAt": 1793555013,
+      "durationMs": 389377
+    }
+  },
+  {
+    "role": "role6",
+    "cursor": "6334fe63-a9e8-4b7f-b356-e2608cd0403d:39",
+    "status": {
+      "type": "idle"
+    },
+    "latestTurn": {
+      "id": "01a1980d-8e9e-7fa0-b23c-51312bffb81f",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1793552387,
+      "completedAt": 1793552851,
+      "durationMs": 464115
+    }
+  }
+]
