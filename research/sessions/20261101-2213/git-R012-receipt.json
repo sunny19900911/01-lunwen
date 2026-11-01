@@ -1,0 +1,41 @@
+{
+  "checkpoint": "R012",
+  "time_utc": "2026-11-01T17:30:45.210054+00:00",
+  "HEAD": "e53713aa11cba26ece9f3b59b607ea2ee02d0374",
+  "previous_HEAD": "f45b6bd70ed6d6b030bfd86d16c4adcf351f9bd4",
+  "staged_files": [
+    "papers/damping-output-boundaries/manuscript/damping-prediction-session021-v010.md",
+    "research/sessions/20261101-2213/R012-actual-snapshot.json",
+    "research/sessions/20261101-2213/automation-R011-update-receipt.json",
+    "research/sessions/20261101-2213/check_final_word_identity.py",
+    "research/sessions/20261101-2213/checkpoint_R012.py",
+    "research/sessions/20261101-2213/git-R011-receipt.json",
+    "research/sessions/20261101-2213/git-R012-publication.json",
+    "research/sessions/20261101-2213/roles/role5/R012/QA.json",
+    "research/sessions/20261101-2213/roles/role5/R012/adoption-replacements.json",
+    "research/sessions/20261101-2213/roles/role5/R012/manifest.json",
+    "research/sessions/20261101-2213/roles/role5/R012/one-page.md",
+    "research/sessions/20261101-2213/roles/role5/R012/supplement-S1.md",
+    "research/sessions/20261101-2213/roles/role5/R012/word-content-contract.json",
+    "research/sessions/20261101-2213/root-v010-change-check.json",
+    "research/sessions/20261101-2213/root-v010-change-check.py",
+    "research/sessions/20261101-2213/rounds/R012.md",
+    "research/sessions/20261101-2213/runs.md",
+    "research/sessions/20261101-2213/status.json",
+    "research/sessions/20261101-2213/threads.json"
+  ],
+  "verified_blob_hashes": 19,
+  "identity_fallback": true,
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "code": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/sunny19900911/01-lunwen.git\n   f45b6bd..e53713a  main -> main\n"
+    }
+  ],
+  "remote_HEAD": "e53713aa11cba26ece9f3b59b607ea2ee02d0374",
+  "remote_equals_local": true,
+  "pending_push": false,
+  "resumed_pending_receipt": null
+}

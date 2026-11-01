@@ -6,22 +6,22 @@
   "deadline": "2026-11-02T04:13:31+08:00",
   "deadline_utc": "2026-11-01T20:13:31Z",
   "writing_start": "2026-11-02T03:13:31+08:00",
-  "checkpoint": "R012-final-source-and-editable-document-in-progress",
+  "checkpoint": "R013-document-math-repair-in-progress",
   "checkpoint_open": true,
   "active_plan": "plan.md",
   "no_new_scientific_dispatch": true,
-  "last_actual": "2026-11-02T01:30:36.019047+08:00",
+  "last_actual": "2026-11-02T01:44:07.547385+08:00",
   "automation": "git-2 newlycreated forsession021, formalview andactualTOMLverified; oldID reused byscheduler, not oldscope resumed",
   "git_authorized": true,
   "initial_HEAD": "8f60d93d1b9ed9036dffb7a300d2f9d421b15bdb",
   "old_tracked_dirty": 12,
-  "next_task": "Collect sole author Word creation/render/per-page QA. Root inspect all final pages and OOXML/source identity; only necessary layout corrections thereafter. Formal closure and final Git/automation pause-view-delete once deliverables actually complete.",
+  "next_task": "Collect r2 Word/render/QA frozen then root enhanced OMML identity check and actual full final-page visual review; approve only after missing p_r/v_r repaired. Scientific source already final.",
   "current_tasks": {
     "role1": "Frozen idle; science complete",
     "role2": "R013 final v009 review frozen01:04:59 must0/should2 adopted; idle",
     "role3": "R004 final source review frozen01:02:44 must0/should1 adopted; idle",
     "role4": "Frozen idle; science complete",
-    "role5": "R01315min formal Word authoring/render/per-pageQA active01:19; sole owner; actual progress if unfinished",
+    "role5": "R01412min needed15 presentation-only Word r2 repair active01:37 after root actual16page review found missing p_r/v_r in inline definitions. No science/source changes or new marker.",
     "role6": "R009 final engineering review frozen01:06:39 two scope/usage clarifications adopted; idle"
   },
   "scientific_status": {
@@ -48,16 +48,16 @@
     "figure3": "role6R008-v002 rootactualview/adopted, authormessaged; no new scientificdata"
   },
   "git": {
-    "last_HEAD": "f45b6bd70ed6d6b030bfd86d16c4adcf351f9bd4",
+    "last_HEAD": "e53713aa11cba26ece9f3b59b607ea2ee02d0374",
     "remote_equals_local": true,
-    "receipt": "git-R011-receipt.json"
+    "receipt": "git-R012-receipt.json"
   },
   "latest_mathematical_feedback": "All scientific derivations completed and reviewed; role2R012 baseline S=SU+SC independently passed. Only final manuscript checks/editorial corrections and Word QA remain.",
-  "recovery_file": "rounds/R012.md",
+  "recovery_file": "rounds/R013.md",
   "no_new_numeric_experiments": true,
   "numeric_stop_scope": "No further production input/model/target-reference cases. Existing-cache derived mechanism tabulation (including baseline U/C directional derivative bridge) and independent verification/editorial synthesis remain allowed; no new ODE for this bridge.",
   "scientific_dispatch_exception": "Only necessary independent final manuscript checks, source consistency checks, editorial corrections and Word rendering/QA; no new science, inputs, models, target states or parameter scans.",
   "final_stage_handoff": "final-stage-handoff-v001.md",
   "final_review": "Root full reports read and adopted via final-review-adoption-v001.md. Correctness0must; engineering two required clarity changes accepted, no new science.",
-  "document_status": "Sole author R013 Word active. First16pages actually viewed by author, layout/inline-math issues found and being corrected; no final Word visual qualification or root final-page QA claimed yet. Active Word and intermediate render files excluded from this checkpoint."
+  "document_status": "R013 b266...591240B completed by author; root independently viewed all16pages and OOXML, found two inline-summation omissions onpage6. OldWord not approved for delivery. R014 sole repair in flight; all15tables/253numeric cells/3image hashes/4URLs/S1 checked."
 }

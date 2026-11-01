@@ -1,0 +1,27 @@
+{
+  "reviewed_at": "2026-11-02T01:36:00+08:00",
+  "docx_sha256": "b266932700e1c518215732026526c06275e5632aeebf54a8960ff548b36d8eb9",
+  "render_directory": "roles/role5/R013/local-cache/render-v2",
+  "all_16_pages_actually_viewed_by_root": true,
+  "pages_viewed": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
+  "status": "requires native inline equation repair before delivery",
+  "accepted_layout": "Titles, figures, captions, all15tables and references are readable; no other blocking clipping or page-break defect observed. Some ordinary table-label wrapping and space before large figures are acceptable.",
+  "must_fix": [
+    {
+      "page": 6,
+      "source": "U=Σ_rp_r",
+      "rendered_and_XML_text": "U=∑ with subscript r, missing p_r",
+      "expected": "U equals sum over r of p_r",
+      "cause_scope": "DOCX inline math token conversion, frozen scientific Markdown is correct"
+    },
+    {
+      "page": 6,
+      "source": "P=max_t|Σ_rv_r(t)|",
+      "rendered_and_XML_text": "P=max_t|∑_r(t)|, missing v_r",
+      "expected": "P equals maximum over t of absolute sum over r of v_r(t)",
+      "cause_scope": "DOCX inline math token conversion, frozen scientific Markdown is correct"
+    }
+  ],
+  "additional_check": "Inspect other inline sums and maxima against frozen source, including e_P widehat P on page9; Chinese and scalar table identity alone do not establish mathematical Latin-token identity.",
+  "required_next": "Sole author one bounded presentation-only fix, preserve old DOCX, new r2 file, do not rerun marker, regenerate and actually view all final pages. Root reruns identity check and views all final pages. No new scientific work."
+}

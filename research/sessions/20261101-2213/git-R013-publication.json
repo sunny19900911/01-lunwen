@@ -1,0 +1,102 @@
+{
+  "checkpoint": "R013",
+  "time": "2026-11-02T01:44:07.547385+08:00",
+  "message": "paper: preserve independent document review and repair inline modal-summation rendering",
+  "files": [
+    {
+      "relative": "research/sessions/20261101-2213/automation-R012-update-receipt.json",
+      "bytes": 1794,
+      "sha256": "ddf13c8a802b358b27e105b456b7faba09941bed59fc183905227526d33b722a"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/check_final_word_identity.py",
+      "bytes": 5059,
+      "sha256": "ec7741b1166536255480a8c4e5eb19a66d85df87e57c60eb6a6934ae78e59a6b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/checkpoint_R013.py",
+      "bytes": 3304,
+      "sha256": "53ec0ed52683794ebce2af692429450cbb7a7e9b9f22af8d47d4e915f3d22447"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/git-R012-receipt.json",
+      "bytes": 1928,
+      "sha256": "c6b95fd183f5ff5f55886c4a596afbecbe3aef2eaae92d5082e120de254e2712"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/R013-actual-snapshot.json",
+      "bytes": 2121,
+      "sha256": "f2785aaea3e90e13a02f696d229b70a1bc821651bdd6e6f9a6328f376b0201d4"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R013/build_word.py",
+      "bytes": 14180,
+      "sha256": "536a28d7fd65dfe53841695f74fff6b059037dbd5c9fb27a9896ff2cc747db8b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R013/finalize_qa.py",
+      "bytes": 6867,
+      "sha256": "c971d3be8141a3a48571a62ec8ce607365c039e7d77604161fab0e6d386200ee"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R013/manifest.json",
+      "bytes": 2246,
+      "sha256": "d2c921486a27e7cd6926e001ff6bb916eaa84f2d13071c0ff0e60055aca1b217"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R013/math_omml.py",
+      "bytes": 7727,
+      "sha256": "0b2bb36baad64db063277407666a851736be8eaca981774c42364f0e90f2cb17"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R013/one-page.md",
+      "bytes": 1425,
+      "sha256": "52192d1b63f99774e1e59f82e1ee5ed6a86302f80b7fdc2de679b6df056c9907"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R013/QA.json",
+      "bytes": 1812,
+      "sha256": "164267a9fed65408f42b6dda6a0c04572b2d5933aef906ebae4d93f6e76e8faf"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R013/render_review.py",
+      "bytes": 2728,
+      "sha256": "ba6124e952dda05ebcdfd88150b45e0e85d34cef7ddf4eab82814437c1ee9dde"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R013/visual-QA.json",
+      "bytes": 7649,
+      "sha256": "89c6ea842c1bdde3720ddfa0ab766b1739c1be652cabde80774ced60364f3fea"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/root-final-word-identity.json",
+      "bytes": 1448,
+      "sha256": "a73acfb14de7798fb9a7257c8b5651b5fbd8f1995944c344e10e7ebf05f2efa2"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/root-word-v010-r1-visual-review.json",
+      "bytes": 1666,
+      "sha256": "5ea38d55ef129805fd7db2ddeeeb7d990468ef3f32e84bafc0d231ea068476af"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/rounds/R013.md",
+      "bytes": 937,
+      "sha256": "b691e329df7ffb61f982cc3c669dadfd33b9581fbaa63dfa0862be7176f8078c"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/runs.md",
+      "bytes": 5165,
+      "sha256": "f786bc514f9dd880e6bc08403cf3115446f3727d6d2cac65fecda2b838505e94"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/status.json",
+      "bytes": 7567,
+      "sha256": "8bec330fd22a85fef8b13fa2a1524e7730d2a66f6ab6725e4576a0cb31685458"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/threads.json",
+      "bytes": 2311,
+      "sha256": "7a0b711e27664644d34474a5eed951d28d5e610e62afb65df9877d143ca90603"
+    }
+  ]
+}

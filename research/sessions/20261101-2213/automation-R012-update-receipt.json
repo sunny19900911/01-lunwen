@@ -1,0 +1,8 @@
+{
+  "formal_update": "success ACTIVE",
+  "formal_view": "rendered",
+  "actual_status": "ACTIVE",
+  "actual_sha256": "c37baa5134b2b009ec153da3c8121256d723bf8f0d8f93e90027e3918fd9070b",
+  "recovery": "最新恢复摘要（01:38，实际status优先）：R012已push e53713aa11cba26ece9f3b59b607ea2ee02d0374核远端等、checkpoint_open=false。最终科学源v01039606B/SHA64ee1567...942d已采用，不再科学/正文扩展。⑤R01301:32:26冻Word591240B SHA b266932700e1c518215732026526c06275e5632aeebf54a8960ff548b36d8eb9、16页，marker本轮成功仅一次01:22:25，canonical真实缺LO日志后安全hiddenWord+PDFium；作者逐页看过。根随后实际看完最终16页+OOXML，15表/253数字/118OMML/3原图/4URL+S1全过，但page6§2.3两个行内求和定义丢项：U=Σ_rp_r变U=Σ_r、P=max_t|Σ_rv_r(t)|变P=max_t|Σ_r(t)|，XML确认，不能交付原Word。根记录root-word-v010-r1-visual-review.json。⑤actualidle后01:37唯一R01412min必要15，只修Word转换为显式原生OMML保留p_r/v_r，并查其他行内Σ/max及page9 e_P帽；科学MD/S1不改，保留旧docx另输出-v010-r2.docx，不重跑marker。重新render、全部最终页实际view，给新hash/QA；根必须再次增强check_final_word_identity.py并实际view全部最终页。当前作者active不重派，其余五角idle不凑任务。图/表/版式其余根看均可读，没有新科学问题。下一GitR013约01:45只收冻结R013报告/脚本和根拒收记录；旧未通过Word不Git，r2在写不收，所有localcache不收。准备说明/工程方法/总结已备但未关闭。实际全部完成可提前final正常Git→正式pause/view/实TOML→delete git-2，最晚04:13:31，不虚称满六小时。\n\n",
+  "verified_at": "2026-11-02T01:38:32.220748+08:00"
+}

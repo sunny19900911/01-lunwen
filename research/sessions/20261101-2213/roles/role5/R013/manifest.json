@@ -1,0 +1,30 @@
+{
+  "task": "R013 editable Word creation from frozen v010",
+  "status": "complete",
+  "actual_start": "2026-11-02T01:20:08+08:00",
+  "frozen_at": "2026-11-02T01:32:26+08:00",
+  "root_expected_freeze": "2026-11-02T01:34:00+08:00",
+  "marker_success_count": 1,
+  "marker_receipt": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R013\\local-cache\\marker-receipt.json",
+  "output": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\damping-prediction-session021-论文审阅稿-v010.docx",
+  "output_bytes": 591240,
+  "output_sha256": "b266932700e1c518215732026526c06275e5632aeebf54a8960ff548b36d8eb9",
+  "main_source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\damping-prediction-session021-v010.md",
+  "main_source_sha256": "64ee1567ee775cdcf30aa28734ae0bb5003706970fddb708d5fa3afb648c942d",
+  "S1_source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R012\\supplement-S1.md",
+  "S1_source_sha256": "a56f931c32ddfaa5fbadbda6a45e4063ebf494903556d3b3f56e9875a3b47f5a",
+  "scientific_source_files_unchanged": true,
+  "QA": "QA.json",
+  "visual_QA": "visual-QA.json",
+  "render_report": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R013\\local-cache\\render-v2\\render-report.json",
+  "canonical_log": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R013\\local-cache\\render-v2\\canonical-render.log",
+  "fallback_log": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R013\\local-cache\\render-v2\\word-render.log",
+  "scripts": [
+    "build_word.py",
+    "math_omml.py",
+    "render_review.py",
+    "finalize_qa.py"
+  ],
+  "final_page_count": 16,
+  "all_final_pages_viewed": true
+}
