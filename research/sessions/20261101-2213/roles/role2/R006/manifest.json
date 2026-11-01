@@ -1,0 +1,97 @@
+{
+  "status": "frozen",
+  "observed_start": "2026-11-01T23:23:24.558251+08:00",
+  "frozen_at": "2026-11-01T23:32:20.699671+08:00",
+  "primary_deadline": "2026-11-01T23:35:24+08:00",
+  "absolute_deadline": "2026-11-01T23:38:24+08:00",
+  "must_fix": 0,
+  "producer_manifests": [
+    {
+      "path": "research\\sessions\\20261101-2213\\roles\\role4\\R004\\delivery-manifest.json",
+      "sha256": "836976c87555e9d443f579bcba25dda4f5a20babc8d8dc2060ba030edb3a8ba3"
+    },
+    {
+      "path": "research\\sessions\\20261101-2213\\roles\\role4\\R005\\delivery-manifest.json",
+      "sha256": "f1b92936c0d3443579b6828f5c8528c326677f0dd3adb124fa83a35fab407234"
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "audit_public_dynamic.py",
+      "bytes": 17359,
+      "sha256": "7d509d4deb42580db0a1a0d2b638f279389b15ee5ae306394d7852564cda5c29"
+    },
+    {
+      "name": "check_public_envelope_points.py",
+      "bytes": 3105,
+      "sha256": "b5dcdba996c9724a909dbd518b6c992f37d1d5e085ba21956fd857a2c01c2735"
+    },
+    {
+      "name": "independent-candidate-decisions-8.csv",
+      "bytes": 1080,
+      "sha256": "9a7076bd330e70017c1f98a6a45b0494546925316162b6e2262fe17d8510e8ee"
+    },
+    {
+      "name": "independent-cost-checks-4.csv",
+      "bytes": 309,
+      "sha256": "807f8f1149a25877c7f9a067f8efaa647e7b14bdab686209aefb15d1f10c2182"
+    },
+    {
+      "name": "independent-point-failure-checks-5.csv",
+      "bytes": 503,
+      "sha256": "a6c98efdf6effea7cd8e1a741b84f5fd55cb360d2a44e291df76b7e5a5a23079"
+    },
+    {
+      "name": "independent-public-envelope-points-8.json",
+      "bytes": 939,
+      "sha256": "288a4de2014fb3f3644c01cb9c41992553b4b75db674ae84a20928f03b0f7a84"
+    },
+    {
+      "name": "independent-selected-RK4-checks-24.csv",
+      "bytes": 1332,
+      "sha256": "1915be052cdb11566ad1907ca45015b9738b7b6e9b9b4467ebdc513945f6475f"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 4682,
+      "sha256": "7b9a097bc17c6a569a189aa1c5cb6c82f3ec956d81bfb0175be79989a458d057"
+    },
+    {
+      "name": "results.json",
+      "bytes": 1384,
+      "sha256": "79916dd68e9bc624d6418665da18ba5644b45bbcaf291a11cd2a2bd13b183ef8"
+    }
+  ],
+  "executions": [
+    {
+      "script": "audit_public_dynamic.py",
+      "exit_code": 0,
+      "process_session_id": 33202,
+      "execution_note": "initial exec returned running; write_stdin returned completed exit0; no independent CPU duration claimed"
+    },
+    {
+      "script": "check_public_envelope_points.py",
+      "exit_code": 0
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "independent_modes": [
+    1,
+    6,
+    12
+  ],
+  "independent_new_candidate": 0.1,
+  "independent_steps": [
+    16,
+    32
+  ],
+  "independent_envelope_candidate": 0.08,
+  "new_all12_target_production": false,
+  "OpenSees_invoked": false,
+  "full_arrays_written": false,
+  "additional_math_review": {
+    "source": "roles/role1/R004/baseline-peak-sensitivity-one-page.md",
+    "manifest_sha256": "cbc94fb0fc21f9f07ad8335e2ba7da5b1b86150c32d9a6705a71012c95ad95a6",
+    "must_fix": 0
+  }
+}

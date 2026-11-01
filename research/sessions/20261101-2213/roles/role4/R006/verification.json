@@ -1,0 +1,18 @@
+{
+  "completed_utc": "2026-11-01T15:29:14.210715+00:00",
+  "floors": 15,
+  "all_mode_rows": 3636,
+  "top5_rows": 75,
+  "alternative_projection_S_max_abs_difference": 1.7763568394002505e-14,
+  "alternative_projection_peak_max_abs_difference_force": 1.4551915228366852e-11,
+  "exact_controller_indices_identical": true,
+  "all_modal_closures_pass": true,
+  "top5_selection_by_abs_c_pass": true,
+  "global_sign_invariance_max_difference": 0.0,
+  "linear_branch_max_check_relative_error": 6.907513001753515e-10,
+  "finite_rank_cases": 8,
+  "finite_rank_all_inversions_zero": true,
+  "source_and_baseline_freeze_hashes_unchanged": true,
+  "new_ODE": 0,
+  "independent_role2_math_or_numerical_audit_not_replaced": true
+}

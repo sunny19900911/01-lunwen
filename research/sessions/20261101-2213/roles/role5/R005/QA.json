@@ -1,0 +1,73 @@
+{
+  "table1_and_table4_match_small_source_tables": true,
+  "mismatches": [],
+  "discrete_example_intervals_match_source": [
+    {
+      "zeta": 0.08,
+      "Story": "Story5",
+      "literal": "[5.374%,9.668%]",
+      "matches": true
+    },
+    {
+      "zeta": 0.08,
+      "Story": "Story12",
+      "literal": "[20.458%,31.297%]",
+      "matches": true
+    },
+    {
+      "zeta": 0.06,
+      "Story": "Story5",
+      "literal": "[2.150%,2.344%]",
+      "matches": true
+    },
+    {
+      "zeta": 0.06,
+      "Story": "Story12",
+      "literal": "[10.429%,10.953%]",
+      "matches": true
+    }
+  ],
+  "candidate_counts_by_bound_and_method": {
+    "coth": {
+      "1": {
+        "reject": 1,
+        "pass": 0,
+        "recompute": 3
+      },
+      "2": {
+        "reject": 2,
+        "pass": 0,
+        "recompute": 2
+      }
+    },
+    "discrete": {
+      "1": {
+        "reject": 2,
+        "pass": 0,
+        "recompute": 2
+      },
+      "2": {
+        "reject": 3,
+        "pass": 0,
+        "recompute": 1
+      }
+    }
+  },
+  "main_numbered_sections": 7,
+  "display_math_pairs": 15,
+  "even_math_delimiters": true,
+  "S_no_extra_factor100": true,
+  "S_numbers_not_invented": true,
+  "signed_modal_contributions_close": true,
+  "full_matrix_power_and_two_component_defects": true,
+  "supplement_link_resolves": true,
+  "negative_results_preserved": true,
+  "public_pending_not_in_main": true,
+  "new_actual_adverse_rate_not_claimed": true,
+  "no_internal_audit_words": true,
+  "v003_unchanged": true,
+  "v002_unchanged": true,
+  "old_v007_unchanged": true,
+  "new_dynamic_runs": 0,
+  "word_created": false
+}

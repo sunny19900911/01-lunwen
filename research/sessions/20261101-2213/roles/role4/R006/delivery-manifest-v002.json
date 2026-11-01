@@ -1,0 +1,31 @@
+{
+  "recorded_utc": "2026-11-01T15:29:43.579223+00:00",
+  "status": "editorial-only additive correction; all old frozen bytes preserved",
+  "changes": [
+    "Clarify mode2 rather than Taylor order2 for public Story1 opposing term",
+    "Correct public-frame wording typo in isolation note"
+  ],
+  "numerical_files_unchanged": true,
+  "original_manifest": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\delivery-manifest.json",
+    "bytes": 6706,
+    "sha256": "c32156ed2e578ca43b02657f9d52219e75dda3bce6ad31eea7982220bed1f9c1"
+  },
+  "additive_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\one-page-baseline-sensitivity-engineering-result-v002.md",
+      "bytes": 4987,
+      "sha256": "8de07a4a88eaf466fc040b07ed8def63c1985f07c4d19500d06ecd98d4570abe"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\run-isolation-notes-v002.md",
+      "bytes": 1275,
+      "sha256": "54419c9554397b69325605e0c3ed3c799082519da2e7e322c5b1df5c38f4c810"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\editorial_corrections_v002.py",
+      "bytes": 1309,
+      "sha256": "22ff87cb9b7c6d04c4351459c0cba767efa91f8725d1d78f489ea9c062684b42"
+    }
+  ]
+}

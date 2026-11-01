@@ -1,0 +1,41 @@
+{
+  "frozen_utc": "2026-11-01T15:26:49.021029+00:00",
+  "floor_rows": 15,
+  "controller_rows": 15,
+  "all_modal_rows": 3636,
+  "top5_rows": 75,
+  "near_rows": 53,
+  "sources_unchanged": true,
+  "finite_target_tables_opened_this_round": false,
+  "no_new_ODE": true,
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\all-mode-signed-sensitivity-sources-3636.csv",
+      "sha256": "7eb144502344be8e9f60d3bacdc6bd70c4fa89b2f553bda71e5a9571582748a0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\baseline-sensitivity-ranked-floors-15.csv",
+      "sha256": "37362b600ba419b383e6538e8fa6837a46fe5635b76db6e4f9271793e6c9388d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\closure-and-branch-verification-15.csv",
+      "sha256": "c8ae27671ea71f5053e91e1fa3c1ed20440ba29acbe1410f7b14179b1e446856"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\near1pct-saved-grid-branches.csv",
+      "sha256": "c6158e2ce6f83de9d2626b47d0277e8557896710e3aa7d74f971504f1e4711fb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\right-controller-modal-source-summary-15.csv",
+      "sha256": "fa6deb3eebfaeab30ab35762f92b474d901222d6fb7f698b5688105c749e4a64"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\top5-distinct-local-peaks-per-floor-75.csv",
+      "sha256": "0a89ceeadca65201ee8eaf34c520df648d9b8e8f318790ab8cf813115cfb75ee"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\top5-signed-sensitivity-sources-75.csv",
+      "sha256": "c483a91b24a8128e389901ca9cda65a186c3b7830d407d9dcbde3270d1012cbc"
+    }
+  ]
+}

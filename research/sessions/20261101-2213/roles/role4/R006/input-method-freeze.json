@@ -1,0 +1,48 @@
+{
+  "start_observed_utc": "2026-11-01T15:23:22+00:00",
+  "first8min_deadline_utc": "2026-11-01T15:31:22+00:00",
+  "primary10min_deadline_utc": "2026-11-01T15:33:22+00:00",
+  "hard12min_deadline_utc": "2026-11-01T15:35:22+00:00",
+  "method_frozen_utc": "2026-11-01T15:26:48.893956+00:00",
+  "code_sha256": "913e4e5f858178ea008c1c0c5d209ea48b16c58eeef6532931f6c6b426425594",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2",
+      "bytes": 14836060
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\local-cache\\baseline-analytic-sensitivities-and-frozen-predictions.npz",
+      "sha256": "e53b2e218a2a6faf078613b5f79c23763e0690230fea2aeec8f9c9ffc109df46",
+      "bytes": 32993807
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\local-cache\\baseline-sensitivities-and-frozen-predictions.npz",
+      "sha256": "fcaf5d3855eab082f9b892d4c38c5fc3de26483bbc2315fe128fee4c6bcdfa8b",
+      "bytes": 6504939
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role1\\R004\\baseline-sensitivity-implementation-contract.json",
+      "sha256": "9d4be2f8610bf7f175f2f9c4f8e2f4a83443da815ab14724af3bbc0c5885f0d9",
+      "bytes": 5033
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role6\\R004\\engineering-table-and-reading.md",
+      "sha256": "d7a665f1f75a749db33c35360999dd53824b10534dce5fcec2d8cab1e4788e6f",
+      "bytes": 3680
+    }
+  ],
+  "definition": "P0=max(abs(V0)); exact computed activeA=where(abs(V0)==P0); g=sign(V0)*Vzeta; Pprime_right=max(g on A); controllingB=exact g-maximizers in A; S=-Pprime_right/P0",
+  "units": "S numeric equals peak-reduction percent per damping percentage point, no extra100; force rate=.01*Pprime_right in forceunit per damping pp",
+  "modal_contribution": "c=-sign(V0)*B*omega^2*z/(P0*unitdivisor); private unitdivisor1000 kN, public1 kip, B includesGamma",
+  "top5_rule": "stable descending abs(c) at each exact right controller, then remaining signed sum; all modes retained separately",
+  "near_relative_amplitude_gap": 0.01,
+  "near_meaning": "diagnostic only, all saved points within1% and local maxima separately; does not change exact A/B",
+  "alternative_local_peaks": "save 5 largest local absolute peaks per floor even outside1% gap, no target-informed selection",
+  "rank": "ascending S per input; exact equal values have equal competition rank",
+  "finite_reference_use": "only after baseline S/modal freeze, posterior comparison using existing 6/7/8/10 reference small tables; never select modes/thresholds using targets",
+  "no_new_ODE": true,
+  "no_new_fits": true,
+  "not_candidate_modal_force_decomposition": true,
+  "numerical_scope": "computed saved-grid right derivative, not continuous extrema or rigorously enclosed floating states"
+}

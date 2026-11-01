@@ -1,0 +1,9 @@
+zeta,order,v002_candidate_action,v001_flagged_floors,v001_building_recompute,v002_building_recompute,meets_floors,insufficient_floors,uncertain_floors,true_all3_meet,true_any_floor_adverse,v002_false_pass,v002_false_reject,v002_adverse_missed_pass,reference_min_floor_D,reference_max_floor_D
+0.06,1,reject,0,0,0,0,3,0,False,False,False,False,False,0.007434285501213167,0.026538400869207335
+0.06,2,reject,0,0,0,0,3,0,False,False,False,False,False,0.007434285501213167,0.026538400869207335
+0.07,1,reject,3,1,0,0,3,0,False,False,False,False,False,0.025717353041520674,0.0477518168421176
+0.07,2,reject,0,0,0,0,3,0,False,False,False,False,False,0.025717353041520674,0.0477518168421176
+0.08,1,reject,3,1,0,0,3,0,False,False,False,False,False,0.049449342437421495,0.07336584703681548
+0.08,2,recompute,3,1,1,0,0,3,False,False,False,False,False,0.049449342437421495,0.07336584703681548
+0.1,1,recompute,3,1,1,0,0,3,True,False,False,False,False,0.10257285435563479,0.12865192947727977
+0.1,2,recompute,3,1,1,2,0,1,True,False,False,False,False,0.10257285435563479,0.12865192947727977

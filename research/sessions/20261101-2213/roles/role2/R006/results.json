@@ -1,0 +1,48 @@
+{
+  "upstream_file_counts_verified": [
+    19,
+    26
+  ],
+  "all6_cached_arrays_hash_verified": true,
+  "record_sha256": "e1e260f8434d147553c9a088a04985dc9ee3bb0d4b2ad19e99529b401d00edd4",
+  "record_samples": 7802,
+  "dt_s": 0.005,
+  "last_time_s": 39.005,
+  "raw_PGA_g": 0.1433283,
+  "ag_equals_raw_times_386_4": true,
+  "selected_modes_fixed_low_mid_high": [
+    1,
+    6,
+    12
+  ],
+  "RK_substeps": [
+    16,
+    32
+  ],
+  "RK32_max_relative_L2_error": 2.5268648352723905e-06,
+  "RK_refinement_min_ratio": 16.005783083583207,
+  "physical_C_Phi_Gamma_max_abs_difference_kip": 6.970424237806583e-12,
+  "field_checks": 1492,
+  "max_small_table_difference": 1.773026170326375e-11,
+  "strict_curve_uncovered_samples": 0,
+  "point_insufficient_miss_count": 1,
+  "point_false_adverse_count": 4,
+  "second_order_worse_pairs": [
+    [
+      0.1,
+      "Story1"
+    ],
+    [
+      0.1,
+      "Story2"
+    ]
+  ],
+  "true_adverse_cases": 0,
+  "adverse_miss_rate": null,
+  "v002_reject_count_order1": 3,
+  "v002_reject_count_order2": 2,
+  "all_fair_component_ratios_exceed_one": true,
+  "new_all12_target_solves": 0,
+  "new_selected_target_zeta": 0.1,
+  "audit_scope": "selected low/mid/high augmented states and one candidate independently integrated; physical output/all24 coverage/decisions/cost recomputed; no complete new ODE production"
+}
