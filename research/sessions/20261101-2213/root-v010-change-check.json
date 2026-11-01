@@ -1,0 +1,12 @@
+{
+  "actual": "2026-11-02T01:18:53.001116+08:00",
+  "v010_bytes": 39606,
+  "v010_sha256": "64ee1567ee775cdcf30aa28734ae0bb5003706970fddb708d5fa3afb648c942d",
+  "table_rows_exact": true,
+  "all_10_display_formulas_exact": true,
+  "three_figure_paths_exact": true,
+  "target_workflow_and_citations_checked": true,
+  "S1_stale_text_removed": true,
+  "root_read": "Full v009-to-v010 and S1-R010-to-R012 diffs plus QA and manifest read; changes implement already adopted final review. No new whole scientific review.",
+  "failed_first_probe": "Previous inline PowerShell command expanded dollar-parenthesis regex, printed shell errors while Python still exited0. Its formula check result is invalid; this standalone script replaces it using unexpanded literal source."
+}

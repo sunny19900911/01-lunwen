@@ -6,28 +6,28 @@
   "deadline": "2026-11-02T04:13:31+08:00",
   "deadline_utc": "2026-11-01T20:13:31Z",
   "writing_start": "2026-11-02T03:13:31+08:00",
-  "checkpoint": "R011-final-reviews-adopted",
+  "checkpoint": "R012-final-source-and-editable-document-in-progress",
   "checkpoint_open": true,
   "active_plan": "plan.md",
   "no_new_scientific_dispatch": true,
-  "last_actual": "2026-11-02T01:17:32.581696+08:00",
+  "last_actual": "2026-11-02T01:30:36.019047+08:00",
   "automation": "git-2 newlycreated forsession021, formalview andactualTOMLverified; oldID reused byscheduler, not oldscope resumed",
   "git_authorized": true,
   "initial_HEAD": "8f60d93d1b9ed9036dffb7a300d2f9d421b15bdb",
   "old_tracked_dirty": 12,
-  "next_task": "Collect v010/S1 exact diff, root check adopted target-scope/workflow/source revisions and unchanged numeric facts; then sole author Word production with marker once and full actual per-page rendering QA. Final reviews completed, no further scientific or full manuscript re-audit.",
+  "next_task": "Collect sole author Word creation/render/per-page QA. Root inspect all final pages and OOXML/source identity; only necessary layout corrections thereafter. Formal closure and final Git/automation pause-view-delete once deliverables actually complete.",
   "current_tasks": {
     "role1": "Frozen idle; science complete",
     "role2": "R013 final v009 review frozen01:04:59 must0/should2 adopted; idle",
     "role3": "R004 final source review frozen01:02:44 must0/should1 adopted; idle",
     "role4": "Frozen idle; science complete",
-    "role5": "R01212min necessary15 final v010 and S1 surgical revision active01:09; no DOCX or marker before root diff acceptance",
+    "role5": "R01315min formal Word authoring/render/per-pageQA active01:19; sole owner; actual progress if unfinished",
     "role6": "R009 final engineering review frozen01:06:39 two scope/usage clarifications adopted; idle"
   },
   "scientific_status": {
     "root_harmonic_sanity": "36known2floor steady harmonic cases; baseline sensitivity residualmax4.44e-16; sqrt2/5to8 firstorderpeakerror4.78%,second.558%; notzeroICearthquakevalidation",
     "engineering_prediction": "role4R002 finite targets6/7/10 and old8 reuse independently audited role2R003:7608 fields, own selected RK4, 0must; second order worse14/48; max peak error15.7633% at10%; rawpoint predictions2low-improvement misses",
-    "manuscript": "v009 full final reviews completed and root full reports read/adopted. Final v010/S1 surgical edit current; no new science. Word builder prepared and native10display XML preflight passed, but no final DOCX/visual qualification yet.",
+    "manuscript": "v01039606B SHA64ee1567ee775cdcf30aa28734ae0bb5003706970fddb708d5fa3afb648c942d final adopted after exact main+S1 diff read and independent unchanged table/formula/image checks. No more content/scientific edits.",
     "derivative_math": "role1 androle2 independent r1/r2/error contract correct; rootfullread; width/decision/peakregion distinct",
     "engineering_policy": "v001 coth bound96/96 coverage but all8groups require wholebuildinganalysis. New v002 candidate-level policy frozen23:00, retrospective SHW3 development only; alltargetfloorcriterion required.",
     "literature": "Liu2011 DDM firstsecond derivatives covers foundation;Xie2020 changesstiffness notsameproblem; no firstclaim; publiccantileveronlysinglemode notmulti-floorvalidation",
@@ -48,15 +48,16 @@
     "figure3": "role6R008-v002 rootactualview/adopted, authormessaged; no new scientificdata"
   },
   "git": {
-    "last_HEAD": "f7d2065e14795f38430472a9dc400c908c6ecc2f",
+    "last_HEAD": "f45b6bd70ed6d6b030bfd86d16c4adcf351f9bd4",
     "remote_equals_local": true,
-    "receipt": "git-R010-receipt.json"
+    "receipt": "git-R011-receipt.json"
   },
   "latest_mathematical_feedback": "All scientific derivations completed and reviewed; role2R012 baseline S=SU+SC independently passed. Only final manuscript checks/editorial corrections and Word QA remain.",
-  "recovery_file": "rounds/R011.md",
+  "recovery_file": "rounds/R012.md",
   "no_new_numeric_experiments": true,
   "numeric_stop_scope": "No further production input/model/target-reference cases. Existing-cache derived mechanism tabulation (including baseline U/C directional derivative bridge) and independent verification/editorial synthesis remain allowed; no new ODE for this bridge.",
   "scientific_dispatch_exception": "Only necessary independent final manuscript checks, source consistency checks, editorial corrections and Word rendering/QA; no new science, inputs, models, target states or parameter scans.",
   "final_stage_handoff": "final-stage-handoff-v001.md",
-  "final_review": "Root full reports read and adopted via final-review-adoption-v001.md. Correctness0must; engineering two required clarity changes accepted, no new science."
+  "final_review": "Root full reports read and adopted via final-review-adoption-v001.md. Correctness0must; engineering two required clarity changes accepted, no new science.",
+  "document_status": "Sole author R013 Word active. First16pages actually viewed by author, layout/inline-math issues found and being corrected; no final Word visual qualification or root final-page QA claimed yet. Active Word and intermediate render files excluded from this checkpoint."
 }

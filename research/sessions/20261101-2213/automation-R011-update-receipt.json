@@ -1,0 +1,8 @@
+{
+  "formal_update": "success ACTIVE",
+  "formal_view": "rendered",
+  "actual_status": "ACTIVE",
+  "actual_config_sha256": "293ffeafd5f1baf023b4cdf74d2de1d600f3fc652f3784a9138e8c9b366c9919",
+  "recovery": "最新恢复摘要（01:20，实际status优先）：R011正常push f45b6bd70ed6d6b030bfd86d16c4adcf351f9bd4远端等、checkpoint_open=false。⑤R012/v01001:17:49冻39606B SHA64ee1567ee775cdcf30aa28734ae0bb5003706970fddb708d5fa3afb648c942d及新S1；根完整读两份精确diff+QA/manifest，并独立脚本root-v010-change-check.py验证所有表格行、10display公式、3图路径保持原值以及最终目标/步骤/引用落实，正式采用，不再内容/科学扩展。根初inline shell正则遇$()展开报错，其结果已作废，独立脚本重跑通过并如实存JSON，不重复数值实验。三项终审已全部冻并采纳，①②③④⑥全部idle不填充任务。⑤actualidle后01:19唯一正式R013 Word制作15min约01:34：正式marker首次成功一次/expected1/docx；15可编辑表、10独立原生公式、3图；R011旧inline链接仅label，须补真实w:hyperlink关系，4外部URL/DOI及本地S1入口；canonical实际render先跑、缺LO真实日志后普通-Command自己hidden Word+PDFium，禁止策略绕过/kill用户Word。最终每页实际view、修订后重渲染最终字节，所有中间件local-cache。若15min未完只交真实进度日志并idle再派有限排版任务，不能认已QA；不要重复派active作者。根随后必须实际查看全部最终页和OOXML身份，必要只排版修订。科学全部停。下一GitR012约01:32收v010/S1/根修订检查和冻结稿，只收冻结Word，active中不Git。实际完成可提前收束，最晚04:13:31；最终formal暂停view/实际TOML读回后delete本轮git-2，旧三自动化保持PAUSED。\n\n",
+  "verified_at": "2026-11-02T01:20:18.521249+08:00"
+}
