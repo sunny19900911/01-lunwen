@@ -1,0 +1,30 @@
+{
+  "closed_at": "2026-11-02T01:51:30.708952+08:00",
+  "automation_id": "git-2",
+  "formal_pause_verified": {
+    "checked_at": "2026-11-02T01:50:50.938192+08:00",
+    "id": "git-2",
+    "status": "PAUSED",
+    "actual_config_sha256": "86b1f9a18ada4e1c40e60c3de806697d61a1eb21998fd8da94441ceeacd6e042",
+    "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261101T202831Z",
+    "name": "楼层剪力提前判断｜六小时预测研究与Git同步",
+    "old_automations": [
+      {
+        "id": "git",
+        "status": "PAUSED"
+      },
+      {
+        "id": "automation-3",
+        "status": "PAUSED"
+      },
+      {
+        "id": "automation-4",
+        "status": "PAUSED"
+      }
+    ]
+  },
+  "formal_delete_receipt": "final-automation-tool-receipts.json",
+  "actual_toml_exists_after_delete": false,
+  "future_wakeups_stopped": true,
+  "old_automations_remain_paused": true
+}

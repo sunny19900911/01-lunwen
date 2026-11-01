@@ -1,21 +1,21 @@
 {
   "session": "20261101-2213",
   "session_number": 21,
-  "phase": "closing-completed-deliverables",
+  "phase": "closed-completed",
   "start": "2026-11-01T22:13:31+08:00",
   "deadline": "2026-11-02T04:13:31+08:00",
   "deadline_utc": "2026-11-01T20:13:31Z",
   "writing_start": "2026-11-02T03:13:31+08:00",
-  "checkpoint": "FINAL-approved-deliverables",
-  "checkpoint_open": true,
+  "checkpoint": "CLOSE-completed",
+  "checkpoint_open": false,
   "active_plan": "plan.md",
   "no_new_scientific_dispatch": true,
-  "last_actual": "2026-11-02T01:50:07.674775+08:00",
-  "automation": "git-2 newlycreated forsession021, formalview andactualTOMLverified; oldID reused byscheduler, not oldscope resumed",
+  "last_actual": "2026-11-02T01:52:43.714156+08:00",
+  "automation": "git-2 formally PAUSED and viewed/read back, then formally deleted; actual TOML absent; future wakeups stopped",
   "git_authorized": true,
   "initial_HEAD": "8f60d93d1b9ed9036dffb7a300d2f9d421b15bdb",
   "old_tracked_dirty": 12,
-  "next_task": "Only final approved-artifact Git checkpoint, formal pause/view/actual-config verification/delete automation, actual closeout receipt. No science, writing or rendering remains.",
+  "next_task": null,
   "current_tasks": {
     "role1": "Frozen idle; complete; no new dispatch",
     "role2": "Frozen idle; complete; no new dispatch",
@@ -48,9 +48,11 @@
     "figure3": "role6R008-v002 rootactualview/adopted, authormessaged; no new scientificdata"
   },
   "git": {
-    "last_HEAD": "9b79a9b0636780363bc55e81f20bbe1d68205626",
-    "remote_equals_local": true,
-    "receipt": "git-R013-receipt.json"
+    "release_HEAD": "674dde99f8fa44876d79e4a38a9b2a11eb806b54",
+    "release_remote_verified": true,
+    "release_receipt": "git-FINAL-receipt.json",
+    "administrative_checkpoint": "CLOSE",
+    "administrative_receipt": "git-CLOSE-receipt.json"
   },
   "latest_mathematical_feedback": "All scientific derivations completed and reviewed; role2R012 baseline S=SU+SC independently passed. Only final manuscript checks/editorial corrections and Word QA remain.",
   "recovery_file": "rounds/FINAL.md",
@@ -60,5 +62,7 @@
   "final_stage_handoff": "final-stage-handoff-v001.md",
   "final_review": "Root full reports read and adopted via final-review-adoption-v001.md. Correctness0must; engineering two required clarity changes accepted, no new science.",
   "document_status": "Final r2 Word approved after enhanced OMML identity check and root actual review of all16finalpages; p_r/v_r and hats preserved. Scientific sources unchanged.",
-  "research_and_document_completed_at": "2026-11-02T01:47:54.875049+08:00"
+  "research_and_document_completed_at": "2026-11-02T01:47:54.875049+08:00",
+  "closed_at": "2026-11-02T01:52:43.714156+08:00",
+  "closure_reason": "Authorized research and document goal completed before fixed upper deadline; no further peripheral tasks"
 }

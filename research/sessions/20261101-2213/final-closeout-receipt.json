@@ -1,0 +1,43 @@
+{
+  "actual_closed_at": "2026-11-02T01:52:43.714156+08:00",
+  "science_and_document_completed_at": "2026-11-02T01:47:54.875049+08:00",
+  "fixed_deadline": "2026-11-02T04:13:31+08:00",
+  "early_complete": true,
+  "all_six_roles_idle": true,
+  "approved_word": "papers/damping-output-boundaries/manuscript/damping-prediction-session021-论文审阅稿-v010-r2.docx",
+  "approved_word_sha256": "9d1a1963cb27d0d49f19295a3411e7fa87530e44afb19141a6bcddd324b37530",
+  "release_commit": "674dde99f8fa44876d79e4a38a9b2a11eb806b54",
+  "release_remote_verified": true,
+  "automation_delete_actual_verified": {
+    "closed_at": "2026-11-02T01:51:30.708952+08:00",
+    "automation_id": "git-2",
+    "formal_pause_verified": {
+      "checked_at": "2026-11-02T01:50:50.938192+08:00",
+      "id": "git-2",
+      "status": "PAUSED",
+      "actual_config_sha256": "86b1f9a18ada4e1c40e60c3de806697d61a1eb21998fd8da94441ceeacd6e042",
+      "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261101T202831Z",
+      "name": "楼层剪力提前判断｜六小时预测研究与Git同步",
+      "old_automations": [
+        {
+          "id": "git",
+          "status": "PAUSED"
+        },
+        {
+          "id": "automation-3",
+          "status": "PAUSED"
+        },
+        {
+          "id": "automation-4",
+          "status": "PAUSED"
+        }
+      ]
+    },
+    "formal_delete_receipt": "final-automation-tool-receipts.json",
+    "actual_toml_exists_after_delete": false,
+    "future_wakeups_stopped": true,
+    "old_automations_remain_paused": true
+  },
+  "final_admin_git_receipt": "git-CLOSE-receipt.json",
+  "no_remaining_scientific_or_document_tasks": true
+}

@@ -1,0 +1,38 @@
+{
+  "automation_id": "git-2",
+  "pause": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Updated automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"git-2\",\"mode\":\"update\",\"status\":\"PAUSED\"}"
+      }
+    ],
+    "isError": false
+  },
+  "formal_view_after_pause": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Rendered automation card in the app."
+      }
+    ],
+    "isError": false
+  },
+  "delete": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Deleted automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"git-2\",\"mode\":\"delete\",\"deleteStatus\":\"deleted\",\"snapshot\":{\"kind\":\"heartbeat\",\"name\":\"楼层剪力提前判断｜六小时预测研究与Git同步\",\"rrule\":\"FREQ=MINUTELY;INTERVAL=15;UNTIL=20261101T202831Z\"}}"
+      }
+    ],
+    "isError": false
+  }
+}
