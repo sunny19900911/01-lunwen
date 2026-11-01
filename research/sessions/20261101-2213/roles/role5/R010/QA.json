@@ -1,0 +1,108 @@
+{
+  "SU_SC_three_rows_match_raw_precision_CSV": [
+    {
+      "row": "|SHW3X第5层|4.642959|−2.510894|2.132064|",
+      "matches": true
+    },
+    {
+      "row": "|SHW3X屋顶|6.373211|5.350638|11.723849|",
+      "matches": true
+    },
+    {
+      "row": "|公开模型第1层|0.560312|−0.572694|−0.012382|",
+      "matches": true
+    }
+  ],
+  "39_floor_input_combinations": true,
+  "case_counts": {
+    "SHW3X": 12,
+    "SHW4X": 12,
+    "RH4X": 12,
+    "publicExample5_H-E12140": 3
+  },
+  "negative_SC_count": 19,
+  "positive_SU_count": 39,
+  "full_precision_max_identity_residual": 1.7763568394002505e-15,
+  "display_rounding_max_identity_difference": 1.000000000139778e-06,
+  "rounding_explicit": true,
+  "own_peak_total_peak_example_matches_audit": true,
+  "P_and_U_positive_assumption": true,
+  "S_U_and_S_C_definitions": true,
+  "units_percent_per_damping_pp": true,
+  "independent_modal_peaks_not_total_peak_parts": true,
+  "finite_5to8_background_preserved": true,
+  "not_pure_phase": true,
+  "no_internal_compressed_words": true,
+  "English_and_Chinese_abstracts": true,
+  "all_local_links_resolve": true,
+  "local_links": [
+    {
+      "link": "../../../research/sessions/20261101-2213/roles/role6/R006/figure1-S-along-height-v002.png",
+      "resolved": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role6\\R006\\figure1-S-along-height-v002.png",
+      "exists": true
+    },
+    {
+      "link": "../../../research/sessions/20261101-2213/roles/role6/R007/figure2-signed-modal-improvement-v002.png",
+      "resolved": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role6\\R007\\figure2-signed-modal-improvement-v002.png",
+      "exists": true
+    },
+    {
+      "link": "../../../research/sessions/20261101-2213/roles/role5/R010/supplement-S1.md",
+      "resolved": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R010\\supplement-S1.md",
+      "exists": true
+    },
+    {
+      "link": "../../../research/sessions/20261101-2213/roles/role5/R010/supplement-S1.md",
+      "resolved": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R010\\supplement-S1.md",
+      "exists": true
+    },
+    {
+      "link": "../../../research/sessions/20261101-2213/roles/role6/R008/figure3-three-input-S-profile-v002.png",
+      "resolved": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role6\\R008\\figure3-three-input-S-profile-v002.png",
+      "exists": true
+    }
+  ],
+  "external_source_links_preserved": [
+    "https://doi.org/10.1017/jmech.2011.41",
+    "https://opensees.ist.berkeley.edu/wiki/index.php?title=OpenSees_Example_5._2D_Frame%2C_3-story_3-bay%2C_Reinforced-Concrete_Section_%26_Steel_W-Section",
+    "https://opensees.ist.berkeley.edu/wiki/images/9/98/H-E12140.zip"
+  ],
+  "three_reviewed_image_paths_unchanged": true,
+  "image_sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role6\\R006\\figure1-S-along-height-v002.png",
+      "sha256": "bc70bdc54de7b0d9aa5859f1cf96884ed17f45b2524f9f397e45a9184dd410d4",
+      "hash_in_figure_freeze": true,
+      "SVG_exists": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role6\\R007\\figure2-signed-modal-improvement-v002.png",
+      "sha256": "278c4b51880b730f2770d0b938d941ef820f5017aa1d4680e005c3a78bc0a888",
+      "hash_in_figure_freeze": true,
+      "SVG_exists": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role6\\R008\\figure3-three-input-S-profile-v002.png",
+      "sha256": "1b23bc6374489c6581738cd9cfa3df3f71b737fe6e82a16722a8d123f182f3c5",
+      "hash_in_figure_freeze": true,
+      "SVG_exists": true
+    }
+  ],
+  "all_three_image_hashes_frozen": true,
+  "table_numbers_1to13": true,
+  "table_shapes_consistent": true,
+  "main_sections": 7,
+  "even_math_delimiters": true,
+  "display_math_count": 10,
+  "math_braces_balanced": true,
+  "key_negative_results_and_cost_preserved": true,
+  "three_input_8and10_retained": true,
+  "RH4_single_input_pass_retained": true,
+  "no_audit_process_in_body": true,
+  "v008_unchanged": true,
+  "old020_v007_unchanged": true,
+  "new_dynamic_runs": 0,
+  "new_literature_searches": 0,
+  "figure_redraws": 0,
+  "word_created": false
+}
