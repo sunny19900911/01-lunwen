@@ -1,0 +1,297 @@
+{
+  "checkpoint": "R002",
+  "time": "2026-11-01T22:41:17.002166+08:00",
+  "message": "research: freeze baseline-only modal predictions and independently verify sensitivities",
+  "files": [
+    {
+      "relative": "research/sessions/20261101-2213/checkpoint_R002.py",
+      "bytes": 6203,
+      "sha256": "22552c7e506e03bb061c254be64d65c55fbdd23c04d01e60bebb2d14fc2523dc"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/claims.md",
+      "bytes": 1457,
+      "sha256": "4b1dc5f8bcc4efbcfd86a47693e9cf121888e2ac97a41dfffde3c18218a2bfd6"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/engineering-policy-freeze-v001.json",
+      "bytes": 1731,
+      "sha256": "38f525f51f0fb90579e85016b6196502f2f4c6b0614d3cf5879173780df2d2bb"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/git-R001-receipt.json",
+      "bytes": 1947,
+      "sha256": "41acf5f447c9fe33df36f5010bdb751d98132b3aa56a9214cda8b2871fad2945"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/R002-actual-snapshot.json",
+      "bytes": 2497,
+      "sha256": "fc827b9c8be857d79e831a7dda465302dec4a569982b187ace6836ee1058c84a"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R001/baseline-sensitivity-prediction-one-page.md",
+      "bytes": 3731,
+      "sha256": "493e7c3b162ec60bd77f47797f5be3c8722d4ed5466a0620ec0dfd0ffe67f91c"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R001/input-freeze.json",
+      "bytes": 3713,
+      "sha256": "73886584d54f0adc445ead480e0f193d1309b1814c2ebb6457e30badd09f6d5d"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R001/manifest.json",
+      "bytes": 1266,
+      "sha256": "77858f6b36efee814ee481963537027afadd99ed1a6a0d3b9524e6f64b1c2f80"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R001/prediction-contract.json",
+      "bytes": 5636,
+      "sha256": "a20a72536617fcb79f9fd0146f652b8c3dc2f0613f16893083bcefa887ed09be"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R001/review-status-clarification-v001/manifest.json",
+      "bytes": 954,
+      "sha256": "c888db0a2ff8813259917e357acfbc695a08f949d6cc18b69166a13ee0c89eee"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R001/review-status-clarification-v001/status-clarification.md",
+      "bytes": 1198,
+      "sha256": "696d7152b76027c91595e00fcf691db5fc2bb4c50a1f4e4b01c1b3f33a3b9ed3"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role1/R001/validation.json",
+      "bytes": 2839,
+      "sha256": "469e50c1860988e0a100494e1a9defb63231d18d489d2d16a80f70717e3f50db"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R001/check_small_model.py",
+      "bytes": 6779,
+      "sha256": "c8b4bce2b25d1b64d3c82e8ffba44837a5c538fe5f7fa5bae09072fc0aa14365"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R001/check_small_model_v002.py",
+      "bytes": 7099,
+      "sha256": "919159a6d7672b350b7f7a896d9538eb89aed30c0b57ade324c65c6f5c0112df"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R001/derivation-and-contract.md",
+      "bytes": 6211,
+      "sha256": "e220c1ecd90144f50fb1af284e8b4478286ce54cb6b8ddeefebd84f9bb54a2fd"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R001/execution-record.json",
+      "bytes": 1424,
+      "sha256": "9e74dfe2d23db307dde91184711d0c01c57e1a95754edc98a4c6b9875e36b9b5"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R001/manifest.json",
+      "bytes": 3523,
+      "sha256": "f0ba9ddf300f84099029ff9884ad2ad46be3ea711f09cde171280cdd0047cf05"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R001/one-page.md",
+      "bytes": 2619,
+      "sha256": "437f73b2cb8cde64d406463f7f00c291c1f99f1c2cce4c8d6c0de8236663bfbd"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R001/peak-comparison.csv",
+      "bytes": 429,
+      "sha256": "abdb3cc5502d6c3e3f85d4e95cff865bd357ac94574ae212721b8fcc78f82b74"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R001/prediction-freeze.json",
+      "bytes": 791,
+      "sha256": "06b53fe649ce14e906f05a4589fc1138cd351271111f0e74d830550b1d02d5fa"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R001/verification-v002/peak-comparison.csv",
+      "bytes": 429,
+      "sha256": "abdb3cc5502d6c3e3f85d4e95cff865bd357ac94574ae212721b8fcc78f82b74"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R001/verification-v002/prediction-freeze.json",
+      "bytes": 896,
+      "sha256": "be612666de67cc7264cc133ccfe8741aa695363315a22e2ab6b2272db1e65938"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R001/verification-v002/results.json",
+      "bytes": 1879,
+      "sha256": "4390fed56ba5de1245f4323b937b418fc38d2c518fc44fafbe8812f79415cb92"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R002/audit_sensitivity.py",
+      "bytes": 9727,
+      "sha256": "74d14229ae060bffb1c334f77e2cf616c404f93f87cd3fe2b31deb064600b31d"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R002/independent-all300-peak-checks-96.csv",
+      "bytes": 11747,
+      "sha256": "a808667cfde90f1bcc505ff83e7ed82527467bea80b573a1d860a9616e6771c7"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R002/independent-RK4-derivatives-18.csv",
+      "bytes": 1777,
+      "sha256": "0bca72f896f6050e26656fd3a5782d950feca1dca457a27f5f51f9674ca8c8e0"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R002/independent-three-mode-predictions-96.csv",
+      "bytes": 8002,
+      "sha256": "6f997a43d933f384743fb301868c603c2581b7c40600d53850da4f837f3dd522"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R002/key-Story5-Story12-checks-8.json",
+      "bytes": 1462,
+      "sha256": "db085ebebc755f96f11de1ff1e5448e44622c82fae42b22cf7676878c7967d4e"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R002/manifest.json",
+      "bytes": 2284,
+      "sha256": "b8c99f54196f5292839eb000b718e30e9d09398c8e81f2219704e77aef05d12f"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R002/one-page.md",
+      "bytes": 3324,
+      "sha256": "8b29f070af16dfb145040a7f02d2a13456841a221d36fad222d0dc60faac816f"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R002/results.json",
+      "bytes": 1463,
+      "sha256": "6f953745d63345f642102645ccc5a313f61784dbef2e7750f936039642cb76c0"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role3/R001/freeze.json",
+      "bytes": 747,
+      "sha256": "ddfdea4256f137f6321cb87fdfbd9803cf1549fa695e80f3e149db170a626912"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role3/R001/nearest-prior-art.md",
+      "bytes": 5152,
+      "sha256": "7c57ef0ae92181f7692bb6e792446fd6864701f2380f7067c01e8256f2e7916a"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/algorithm-and-isolation-notes.md",
+      "bytes": 1528,
+      "sha256": "17a9377147c57bec5cde6bd3587b33ce6b4cbfa10a94466cd73f9691192af949"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/all18-CM-motion-peak-predictions-288.csv",
+      "bytes": 44655,
+      "sha256": "44ba655fc2081ad20006585ff1eab50d5a99125369f371fab3b42f5348cc9b09"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/all300-layer-peak-predictions-96.csv",
+      "bytes": 17844,
+      "sha256": "23b52d150406843dec17e9412ec4634b02be8d85a5d4a7a329abb6bd2599d063"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/all300-unit-modal-motion-predictions-2400.csv",
+      "bytes": 444933,
+      "sha256": "4d651a5cdf342a7b4184d6b2e01945724ba751281b6546346915dd414b0545a6"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/early-three-mode-target-predictions-96.csv",
+      "bytes": 15609,
+      "sha256": "4a79981cb7b374c65d77618279dee967a5055cf164bf79e53af755d5fed0cb36"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/input-prediction-rules-freeze.json",
+      "bytes": 1992,
+      "sha256": "f5f25a76c027fc66207673a20f64677301224b36c3c640fea49911652a2dc0cf"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/local-infinitesimal-derivative-checks-600.csv",
+      "bytes": 129226,
+      "sha256": "d209b0d979c46b41f4e7701733c83effb703eaec539488de2770ab52fd892a17"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/one-page-prediction-result.md",
+      "bytes": 2426,
+      "sha256": "5261154e684161d372193bdfdfa86ba37c4e99b9066835f472f147224b3ecfcb"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/predict_from_damping_sensitivity.py",
+      "bytes": 9891,
+      "sha256": "3a9c63f4293d7292ce47fb5f75f7e0f549bfb7a89f8c8089ee7fa39c3b61e8c3"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/prediction-freeze-manifest.json",
+      "bytes": 3787,
+      "sha256": "c5f96c2114825a734e3b324f9e30b17680b5dc796a099f5e3b05a86a6a003785"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/prediction-order-comparison-and-demo-screen-48.csv",
+      "bytes": 9023,
+      "sha256": "61accc72660767f7f3b79df2e11ac025d4e3f96639adc3c47f33ddd75d0d8dcb"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/results.json",
+      "bytes": 1246,
+      "sha256": "1b26f5fd15d651f8514b522194abc06c794444cf46ff035d5123aa07ccec30e4"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/selected2-10-13-motion-predictions-24.csv",
+      "bytes": 4534,
+      "sha256": "dbc6d3a3fb07d2bb558c561966b5bc45e6087fa3af9571e64d452a879e51ec26"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/Story5-Story12-prediction-order-comparison-8.csv",
+      "bytes": 1734,
+      "sha256": "4f6cc69bb429b50922072ffa6ecbdb69c7fbde17ae73da80707bd38c084d424e"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/verification.json",
+      "bytes": 1437,
+      "sha256": "1422d0099add04bee39f2bc3edfb99af01801dcd3a8660597b325cc2809d0ca5"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role4/R001/verify_and_freeze_predictions.py",
+      "bytes": 10185,
+      "sha256": "2b1cda3ad5da1dab0618defda8f71bc46eb6ad944e0c4f2460d6b580d07fc2ee"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R001/failure-note.md",
+      "bytes": 997,
+      "sha256": "115fe583106f546adec644a3c2d92af4677dbf5d25e16fe14145a49f90ea539a"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R001/freeze.json",
+      "bytes": 942,
+      "sha256": "ba0ea4ce263be8aa980d107f3d1066b3b9daae6a848eb76c503d7e26af074362"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R001/one-page.md",
+      "bytes": 5390,
+      "sha256": "6e4996ddd8d29fef4d99e5743dff2484aa451af5a3dcd8e03c7701e8a53ca0e1"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R001/review-receipt.freeze.json",
+      "bytes": 659,
+      "sha256": "6465d0a6b3422981b29f3ecc3717b924ab71e675ce345e169877ddc815f42fa1"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R001/review-receipt.md",
+      "bytes": 1643,
+      "sha256": "a309b1c01aa4fa7cdcf866869751fa87d93f2d3237206b7ee7f693f96118ad93"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/rounds/R002.md",
+      "bytes": 1227,
+      "sha256": "6b4255a7a7b7fe85e4c065abb70f4f99dd8a0ca7426d44233073ec6179957db0"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/runs.md",
+      "bytes": 763,
+      "sha256": "5c7f1a466fad3b5d82310d9f93b589608c18f1fef2f1194e3a8a36ea93852820"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/status.json",
+      "bytes": 3295,
+      "sha256": "5730cd8e2db467b608e5d2069d4da52189169cc2fcfe82224e5e0955fea65bec"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/threads.json",
+      "bytes": 2503,
+      "sha256": "4f843e1b0999f1427f2c9ba11779408176d373a22040d931ad4e6b43999f1017"
+    }
+  ]
+}

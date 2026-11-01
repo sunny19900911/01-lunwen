@@ -1,0 +1,39 @@
+{
+  "prediction_frozen_utc": "2026-11-01T14:28:46.113942+00:00",
+  "started_utc": "2026-11-01T14:21:56+00:00",
+  "elapsed_seconds": 410.113942,
+  "first_small_prediction_saved_utc": "2026-11-01T14:25:54.872785+00:00",
+  "first8min_small_output_met": true,
+  "all300_analytic_sensitivities": true,
+  "baseline_cache_reused": true,
+  "baseline_step_q_max_error_m": 8.673617379884035e-19,
+  "local_derivative_check_rows": 600,
+  "selected_mode_FD_step_halving": [
+    {
+      "Mode": 2,
+      "first_error_ratio_h_to_halfh": 3.9999563677090966,
+      "second_error_ratio_h_to_halfh": 4.041861405570681
+    },
+    {
+      "Mode": 10,
+      "first_error_ratio_h_to_halfh": 4.000027569124418,
+      "second_error_ratio_h_to_halfh": 4.0016791257112105
+    },
+    {
+      "Mode": 13,
+      "first_error_ratio_h_to_halfh": 3.999992185968214,
+      "second_error_ratio_h_to_halfh": 4.0130588671943705
+    }
+  ],
+  "all300_prediction_peak_rows_rechecked": 96,
+  "max_predicted_curve_reconstruction_error_kN": 0.0,
+  "max_peak_or_decrease_recheck_difference": 0.0,
+  "max_predicted_peak_time_recheck_error_s": 0.0,
+  "finite_target_truth_generated": false,
+  "target8_response_arrays_opened": false,
+  "nearby_derivative_check_only_exact_solve_count": 4,
+  "old_six_ODE_sets_not_regenerated": true,
+  "input_and_code_SHA_unchanged": true,
+  "no_fit_solver_or_Git": true,
+  "complete_arrays_local_only": true
+}

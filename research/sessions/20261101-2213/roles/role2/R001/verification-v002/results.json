@@ -1,0 +1,51 @@
+{
+  "comparison": [
+    {
+      "method": "baseline",
+      "peak_N": 9.884153415492952,
+      "peak_time_s": 45.71,
+      "early_peak_N": 9.884153415492952,
+      "late_peak_N": 9.864424566360231,
+      "old_peak_time_value_abs_N": 9.884153415492952
+    },
+    {
+      "method": "linear",
+      "peak_N": 7.527923113881618,
+      "peak_time_s": 40.61,
+      "early_peak_N": 7.527923113881618,
+      "late_peak_N": 6.9767590218791105,
+      "old_peak_time_value_abs_N": 7.208235101001008
+    },
+    {
+      "method": "quadratic",
+      "peak_N": 7.935929935456997,
+      "peak_time_s": 97.8,
+      "early_peak_N": 7.872358602338915,
+      "late_peak_N": 7.935929935456997,
+      "old_peak_time_value_abs_N": 7.713503869094237
+    },
+    {
+      "method": "candidate",
+      "peak_N": 7.831962002787647,
+      "peak_time_s": 40.62,
+      "early_peak_N": 7.831962002787647,
+      "late_peak_N": 7.53449333599249,
+      "old_peak_time_value_abs_N": 7.646490401350291
+    }
+  ],
+  "parameter_derivative_relative_inf_errors": {
+    "z_central_difference": 2.8720507782759226e-06,
+    "w_central_difference": 1.7764506295795097e-06
+  },
+  "candidate_dt_halving_max_N": 3.1837488423391846e-08,
+  "candidate_dt_halving_peak_difference_N": 4.34945800176223e-06,
+  "linear_curve_max_error_N": 2.032749156735904,
+  "quadratic_curve_max_error_N": 0.9785059821580291,
+  "linear_residual_bound_N": 3.3031263470999086,
+  "quadratic_residual_bound_N": 1.5117750281472193,
+  "bound_evaluation_caveat": "sampled residual maxima; numerical check, not directed-rounded continuous certificate",
+  "baseline_old_peak_linear_reduction": 0.2707281243022357,
+  "whole_curve_linear_reduction": 0.23838463473442773,
+  "actual_reduction": 0.2076243990192007,
+  "prediction_freeze_sha256": "be612666de67cc7264cc133ccfe8741aa695363315a22e2ab6b2272db1e65938"
+}

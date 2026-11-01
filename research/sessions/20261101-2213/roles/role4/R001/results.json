@@ -1,0 +1,29 @@
+{
+  "completed_utc": "2026-11-01T14:25:56.059800+00:00",
+  "baseline_primal_step_max_abs_q_error_m": 8.673617379884035e-19,
+  "baseline_primal_step_max_abs_v_error_m_s": 2.7755575615628914e-17,
+  "modes": 300,
+  "selected_modes": [
+    2,
+    10,
+    13
+  ],
+  "derivative_check_rows": 600,
+  "first_derivative_selected_max_relative_error": 3.0644594966085814e-06,
+  "second_derivative_selected_max_relative_error": 3.333817435566566e-06,
+  "first_derivative_all300_max_relative_error": 6.778523646426949e-06,
+  "second_derivative_all300_max_relative_error": 4.498371960429484e-06,
+  "full_layer_prediction_rows": 96,
+  "early_three_mode_rows": 96,
+  "motion_rows": 2400,
+  "CM_motion_peak_rows": 288,
+  "finite_target_truth_generated": false,
+  "target8_response_array_opened": false,
+  "local_only_output": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\local-cache\\baseline-analytic-sensitivities-and-frozen-predictions.npz",
+    "bytes": 32993807,
+    "sha256": "e53b2e218a2a6faf078613b5f79c23763e0690230fea2aeec8f9c9ffc109df46"
+  },
+  "source_baseline_reused": true,
+  "source_SHA_unchanged": true
+}

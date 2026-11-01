@@ -5,3 +5,7 @@ C021-02 proposed/numerical-test：整窗预测较仅旧峰时刻的预测降低�
 C021-03 proposed/engineering-method：在给定Dreq和预测区间下，区分改善不足、满足目标、需复算；宽区间/大量弃权作为失败记录。
 
 C021-04 supported/numerical-sanity candidate: known2DOF harmonic baseline derivatives andfirst/secondorderresiduals checked36cases;max4.44e-16. AtΩsqrt2δ.03 firstorderPerror4.78%,second.558%; actualP rises46.459%. Thisis equationimplementationsanity, notnewengineering orzeroICgroundmotion validation.
+
+C021-01 supported/analytic-derivation reviewed: role1R001 +role2R001 independent z/w/r1/r2 zeroIC, outputc=Bomega²/1000 andresidualconvolution. No new basic sensitivityprinciple.
+C021-05 supported/numericalimplementation reviewed: role4R001 all300 baseline-only1/2order predictions frozen22:28:46; role2R002 independentlyownRK4 selected3modes maxrelative4.29e-8 and96peakrows0must. Thisis implementation correctness, finite-delta predictionaccuracy pending.
+C021-06 testing/engineering prediction: SHW3X8% Story5twoorders5.9408/7.5209% vsroof29.8177/25.8777%;10%Story5 orders9.3458/13.7083 across10%demo target. Frozenpredictions notvalidatedtargetresults.

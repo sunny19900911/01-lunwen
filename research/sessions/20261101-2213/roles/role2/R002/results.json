@@ -1,0 +1,29 @@
+{
+  "manifest_files_verified": 15,
+  "source_baseline_sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2",
+  "prediction_cache_sha256": "e53b2e218a2a6faf078613b5f79c23763e0690230fea2aeec8f9c9ffc109df46",
+  "independent_mass_source_sha256": "4044521dc08366dd39a9a9a2daad6f4d751944bdb40700b2863f649cee366b0d",
+  "B_independent_X_mass_projection_max_abs_kg": 7.450580596923828e-09,
+  "RK_subdivisions": [
+    8,
+    16
+  ],
+  "new_candidate_target_solutions": 0,
+  "selected_modes": [
+    2,
+    10,
+    13
+  ],
+  "selected_z_w_derivative_max_RK16_relative_L2_error": 4.286907961273066e-08,
+  "minimum_derivative_refinement_ratio": 16.002719857359917,
+  "reconstructed_all300_curve_max_error_kN": 7.275957614183426e-12,
+  "all300_scalar_rows": 96,
+  "all300_numeric_fields": 576,
+  "boolean_fields": 192,
+  "all300_max_scalar_difference": 5.4569682106375694e-12,
+  "independent_three_mode_peak_max_difference_kN": 7.17871716915397e-06,
+  "independent_three_mode_decrease_max_difference_pp": 2.6976922740118425e-07,
+  "independent_three_mode_peak_time_max_difference_s": 0.0,
+  "source_static_isolation_review": "producer reads baseline5 and helper only; no finite candidate truth source in audited code; historical execution I/O was not instrumented",
+  "all300_derivative_independence_limit": "only modes2/10/13 independently integrated; other derivatives used as frozen inputs for all300 scalar reconstruction"
+}

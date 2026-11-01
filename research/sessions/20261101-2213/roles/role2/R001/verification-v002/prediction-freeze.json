@@ -1,0 +1,40 @@
+{
+  "M": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "K": [
+    [
+      2.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0
+    ]
+  ],
+  "output": "u1 N; first-story spring k1=1 N/m",
+  "initial_states": "all zero for every damping; derivative states zero",
+  "zeta0": 0.05,
+  "delta": 0.03,
+  "duration_s": 120.0,
+  "dt_s": 0.01,
+  "input": "sum of two disjoint sine-squared sine packets: [0,60], [80,110]",
+  "second_packet_amplitude": 12.642293567623302,
+  "omega_rad_s": [
+    0.6180339887498949,
+    1.618033988749895
+  ],
+  "B": [
+    0.7236067977499787,
+    0.27639320225002106
+  ],
+  "selection": "amplitude tuned using baseline .05 only; late peak=early/1.002",
+  "target_response_read_before_prediction_freeze": "v001 froze before target; v002 repeats same parameters after inspecting failed late-packet-switch hypothesis"
+}

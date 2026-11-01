@@ -1,0 +1,42 @@
+{
+  "checkpoint": "R001",
+  "time_utc": "2026-11-01T14:24:30.136202+00:00",
+  "HEAD": "10a6fc752f2e65ef5750c090adc3f631df709f55",
+  "previous_HEAD": "8f60d93d1b9ed9036dffb7a300d2f9d421b15bdb",
+  "staged_files": [
+    "research/sessions/20261101-2213/R001-first-real-snapshot.json",
+    "research/sessions/20261101-2213/authorization-evidence.json",
+    "research/sessions/20261101-2213/automation-config-check.json",
+    "research/sessions/20261101-2213/automation-create-receipt.json",
+    "research/sessions/20261101-2213/checkpoint_R001.py",
+    "research/sessions/20261101-2213/claims.md",
+    "research/sessions/20261101-2213/git-R001-publication.json",
+    "research/sessions/20261101-2213/plan.md",
+    "research/sessions/20261101-2213/publish_checkpoint.py",
+    "research/sessions/20261101-2213/root-R001-harmonic-sanity/manifest.json",
+    "research/sessions/20261101-2213/root-R001-harmonic-sanity/one-page.md",
+    "research/sessions/20261101-2213/root-R001-harmonic-sanity/results.json",
+    "research/sessions/20261101-2213/root-R001-harmonic-sanity/steady-two-floor-prediction-sanity-36.csv",
+    "research/sessions/20261101-2213/root_harmonic_sanity.py",
+    "research/sessions/20261101-2213/rounds/R001.md",
+    "research/sessions/20261101-2213/runs.md",
+    "research/sessions/20261101-2213/start_session.py",
+    "research/sessions/20261101-2213/status.json",
+    "research/sessions/20261101-2213/threads.json",
+    "research/sessions/20261101-2213/topic-card-R001.md"
+  ],
+  "verified_blob_hashes": 20,
+  "identity_fallback": true,
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "code": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/sunny19900911/01-lunwen.git\n   8f60d93..10a6fc7  main -> main\n"
+    }
+  ],
+  "remote_HEAD": "10a6fc752f2e65ef5750c090adc3f631df709f55",
+  "remote_equals_local": true,
+  "pending_push": false,
+  "resumed_pending_receipt": null
+}

@@ -1,0 +1,65 @@
+{
+  "status": "frozen",
+  "observed_start": "2026-11-01T22:33:39.516559+08:00",
+  "frozen_at": "2026-11-01T22:38:24.971334+08:00",
+  "deadline": "2026-11-01T22:45:39+08:00",
+  "must_fix": 0,
+  "execution": {
+    "command": "bundled-python -B -X utf8 roles/role2/R002/audit_sensitivity.py",
+    "exit_code": 0,
+    "tool_wall_seconds": 6.2558542,
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "producer_manifest_sha256": "c5f96c2114825a734e3b324f9e30b17680b5dc796a099f5e3b05a86a6a003785",
+  "artifacts": [
+    {
+      "name": "audit_sensitivity.py",
+      "bytes": 9727,
+      "sha256": "74d14229ae060bffb1c334f77e2cf616c404f93f87cd3fe2b31deb064600b31d"
+    },
+    {
+      "name": "independent-all300-peak-checks-96.csv",
+      "bytes": 11747,
+      "sha256": "a808667cfde90f1bcc505ff83e7ed82527467bea80b573a1d860a9616e6771c7"
+    },
+    {
+      "name": "independent-RK4-derivatives-18.csv",
+      "bytes": 1777,
+      "sha256": "0bca72f896f6050e26656fd3a5782d950feca1dca457a27f5f51f9674ca8c8e0"
+    },
+    {
+      "name": "independent-three-mode-predictions-96.csv",
+      "bytes": 8002,
+      "sha256": "6f997a43d933f384743fb301868c603c2581b7c40600d53850da4f837f3dd522"
+    },
+    {
+      "name": "key-Story5-Story12-checks-8.json",
+      "bytes": 1462,
+      "sha256": "db085ebebc755f96f11de1ff1e5448e44622c82fae42b22cf7676878c7967d4e"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3324,
+      "sha256": "8b29f070af16dfb145040a7f02d2a13456841a221d36fad222d0dc60faac816f"
+    },
+    {
+      "name": "results.json",
+      "bytes": 1463,
+      "sha256": "6f953745d63345f642102645ccc5a313f61784dbef2e7750f936039642cb76c0"
+    }
+  ],
+  "checks": [
+    "15 producer files bytes/SHA",
+    "baseline and prediction cache SHA",
+    "independent RK4 substeps8/16",
+    "independent B mass projection",
+    "96 full300 metric rows",
+    "96 independent selected3 mode metric rows",
+    "8 key floor rows",
+    "JSON parse/Python compile/Markdown whitespace"
+  ],
+  "no_candidate_truth_computed": true,
+  "no_producer_function_imported": true,
+  "full_arrays_written": false,
+  "status_limit": "prediction implementation reviewed; finite candidate accuracy not yet reviewed"
+}

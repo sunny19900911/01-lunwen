@@ -1,0 +1,132 @@
+{
+  "task": "session021-role1-R001",
+  "status": "analytic candidate for independent role2 audit; no engineering prediction produced",
+  "domain": {
+    "model": "fixed real modal linear reference, classical diagonal modal damping",
+    "omega": "fixed positive values",
+    "output": "fixed elastic shear c_r=B_sr*omega_r^2/1000, kN/m; damping-dependent output operators require extra product derivatives",
+    "zeta0": 0.05,
+    "target": "zeta_star=zeta0+delta>0",
+    "initial": "zero, parameter independent",
+    "input": "same ag and frozen interpolation/window; no candidate truth used"
+  },
+  "two_candidates": [
+    {
+      "name": "T1",
+      "prediction": "p1=s0+delta*z",
+      "residual": "R1=Lstar*p1+ag=+2*delta^2*omega*zdot",
+      "error_equation": "Lstar*(sstar-p1)=-R1, zero IC"
+    },
+    {
+      "name": "T2",
+      "prediction": "p2=s0+delta*z+delta^2*w/2",
+      "residual": "R2=Lstar*p2+ag=+delta^3*omega*wdot",
+      "error_equation": "Lstar*(sstar-p2)=-R2, zero IC"
+    }
+  ],
+  "baseline_derivatives": {
+    "z": "L0*z=-2*omega*sdot0",
+    "w": "L0*w=-4*omega*zdot",
+    "IC": "z=zdot=w=wdot=0 at0",
+    "compute": "Save z/zdot and w/wdot from consistent baseline sensitivity states, not unqualified finite differences.",
+    "negative_delta": "Keep delta^3 sign in R2; absolute values enter only the norm bound."
+  },
+  "residual_bound": {
+    "exact_identity": "e=-Gstar*R",
+    "pointwise": "abs(e_r(t))<=integral_0^t abs(Gstar_r(t-tau))*abs(R_r(tau))dtau",
+    "scalar": "E=sum_r abs(c_r)*Hstar_r*norminf(R_r)",
+    "Hstar_underdamped": "coth(pi*zeta_star/(2*sqrt(1-zeta_star^2)))/omega_r^2,0<zeta_star<1",
+    "Hstar_critical_or_overdamped": "1/omega_r^2,zeta_star>=1",
+    "Hstar_basis": "L1 norm of candidate impulse kernel; only known candidate parameter used, not target forced response",
+    "cheap_uniform_zeta_form": {
+      "kappa": "coth(pi*zeta_star/(2*sqrt(1-zeta_star^2))) for underdamped target",
+      "E1": "2*delta^2*kappa*sum(abs(B_sr)*omega_r*norminf(zdot_r))/1000",
+      "E2": "abs(delta)^3*kappa*sum(abs(B_sr)*omega_r*norminf(wdot_r))/1000"
+    },
+    "optional_baseline_operator_bound": {
+      "H0": "integral_0^T abs(G0)",
+      "K0": "integral_0^T abs(G0_derivative)",
+      "q": "2*abs(delta)*omega*K0",
+      "condition": "q<1 for each contributing mode",
+      "modal_error": "H0*norminf(R)/(1-q)",
+      "if_q_ge1": "this bound unavailable, not infinite error; use predeclared known-operator bound or mark needs recomputation."
+    },
+    "numerics": "True continuous residual supremum or a certified enclosure is required for a continuous analytic bound; sampled maxima alone are empirical numerical bounds unless interpolation/integration/initial defects are bounded and added.",
+    "refinement": "If pointwise convolution is used to reduce width, predeclare it and count its work; never calibrate the bound on candidate errors."
+  },
+  "peak_and_decision": {
+    "prediction": "yhat=sum(c*p); Phat=max(abs(yhat)) over the entire frozen time window",
+    "reference_baseline": "P0=max(abs(sum(c*s0)))>0, same physical model",
+    "peak_interval": [
+      "max(0,Phat-E)",
+      "Phat+E"
+    ],
+    "improvement_interval": [
+      "1-U/P0",
+      "1-L/P0"
+    ],
+    "Dreq": "input, demo0.10 from session plan",
+    "Wmax": "input, suggested first-demo0.05 of P0; root must freeze before target validation",
+    "width": "(U-L)/P0",
+    "insufficient": "D_upper<Dreq",
+    "meets_goal": "D_lower>=Dreq",
+    "adverse": "D_upper<0",
+    "uncertain": "interval intersects decision boundary; full recomputation needed",
+    "wide_failure": "width>Wmax is decision failure even if future truth is covered",
+    "zero_baseline": "undefined improvement ratio, report force units only"
+  },
+  "peak_switch": {
+    "full_window": "Always maximize reconstructed predicted trace, not only old peak derivative",
+    "baseline_guard": "K=norminf(yhat-y0)+E; if old-peak-region exterior margin>2*K, target peak remains in that region.",
+    "guard_failure": "margin<=2*K means possible/unresolved switching, not proof of a switch",
+    "regions": "baseline-defined peak neighborhoods plus remaining time, covering entire window",
+    "region_intervals": "Lj=max(0,Phat_j-E), Uj=Phat_j+E or pointwise-envelope analog",
+    "certified_region": "Li>max_{j!=i}Uj",
+    "overlap": "report control-peak uncertainty; do not discard new peaks outside old neighborhoods"
+  },
+  "validation_protocol": {
+    "freeze_before_truth": [
+      "sensitivity methods",
+      "candidate deltas",
+      "coefficient/source identities",
+      "whole-window peak search",
+      "bound version",
+      "Dreq/Wmax",
+      "peak regions and tolerances",
+      "all prediction/interval rows"
+    ],
+    "targets": "session-plan batches .06/.07/.10/.12; historical8% is known-case validation, not blind",
+    "metrics": [
+      "peak error",
+      "interval coverage",
+      "interval width",
+      "low-improvement misses",
+      "adverse misses",
+      "decision abstentions/failures",
+      "baseline derivative and bound computation work"
+    ],
+    "cost": "Count sensitivity solves, interval propagation and peak search; do not assert speedup without measured comparison.",
+    "full_engineering_truth": "role4 only after prediction freeze"
+  },
+  "minimum_csv_fields": [
+    "Case",
+    "Story",
+    "delta",
+    "method",
+    "P0",
+    "Phat",
+    "E",
+    "peak_lower",
+    "peak_upper",
+    "D_lower",
+    "D_upper",
+    "normalized_width",
+    "Dreq",
+    "Wmax",
+    "peak_region_status",
+    "decision_status",
+    "numerical_bound_status",
+    "workload"
+  ],
+  "engineering_new_response": false
+}

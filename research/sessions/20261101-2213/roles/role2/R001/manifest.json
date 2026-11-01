@@ -1,0 +1,101 @@
+{
+  "status": "frozen",
+  "observed_start": "2026-11-01T22:21:52.696523+08:00",
+  "frozen_at": "2026-11-01T22:28:15.881887+08:00",
+  "deadline": "2026-11-01T22:33:52+08:00",
+  "claim": "base sensitivity and residual equations derived; physical zero-initial two-story old-peak counterexample numerically checked; conservative interval may require recomputation",
+  "inputs": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 7150,
+      "sha256": "11bb0dbe983269d4695c5f170b5f1dcb1d46c5c76d5fb69f3d0e7634261a1477"
+    },
+    {
+      "path": "docs/多角色论文研究框架.md",
+      "bytes": 15317,
+      "sha256": "f2ca1b17f8f7851e9a9b794fa2349f94929a8e393db73b17e384bcf22c0b379b"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/SKILL.md",
+      "bytes": 11385,
+      "sha256": "7e0bcfd6c4b7843435714a9c71ab6f538d8a9633631f3d657f5c80e0ab210f2b"
+    },
+    {
+      "path": ".agents/skills/engineering-paper-writing/SKILL.md",
+      "bytes": 7693,
+      "sha256": "657b6fe68b9e1b07a9a8b407ba7bfc390a3201545cc905959c712d14d847e5f6"
+    },
+    {
+      "path": ".agents/skills/research-paper-lab/references/evidence-boundaries.md",
+      "bytes": 4621,
+      "sha256": "f9c52c3a368c7653ab34db1efbfe9b4d8d104ac0cf529eefa508aacf0d9fa013"
+    },
+    {
+      "path": "research/sessions/20261101-2213/plan.md",
+      "bytes": 4818,
+      "sha256": "b34e27065a9cc2d32bae8c2a83f4431ee2087d54abec753fac838ad8e7229cbe"
+    },
+    {
+      "path": "research/sessions/20261101-2213/root-R001-harmonic-sanity/one-page.md",
+      "bytes": 1019,
+      "sha256": "ee742c4d0fcb2480b46bdd2633781ef0ff6e37b0614f0f82ad2aadd4646b20e3"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "check_small_model.py",
+      "bytes": 6779,
+      "sha256": "c8b4bce2b25d1b64d3c82e8ffba44837a5c538fe5f7fa5bae09072fc0aa14365"
+    },
+    {
+      "path": "check_small_model_v002.py",
+      "bytes": 7099,
+      "sha256": "919159a6d7672b350b7f7a896d9538eb89aed30c0b57ade324c65c6f5c0112df"
+    },
+    {
+      "path": "derivation-and-contract.md",
+      "bytes": 6211,
+      "sha256": "e220c1ecd90144f50fb1af284e8b4478286ce54cb6b8ddeefebd84f9bb54a2fd"
+    },
+    {
+      "path": "execution-record.json",
+      "bytes": 1424,
+      "sha256": "9e74dfe2d23db307dde91184711d0c01c57e1a95754edc98a4c6b9875e36b9b5"
+    },
+    {
+      "path": "one-page.md",
+      "bytes": 2619,
+      "sha256": "437f73b2cb8cde64d406463f7f00c291c1f99f1c2cce4c8d6c0de8236663bfbd"
+    },
+    {
+      "path": "peak-comparison.csv",
+      "bytes": 429,
+      "sha256": "abdb3cc5502d6c3e3f85d4e95cff865bd357ac94574ae212721b8fcc78f82b74"
+    },
+    {
+      "path": "prediction-freeze.json",
+      "bytes": 791,
+      "sha256": "06b53fe649ce14e906f05a4589fc1138cd351271111f0e74d830550b1d02d5fa"
+    },
+    {
+      "path": "verification-v002\\peak-comparison.csv",
+      "bytes": 429,
+      "sha256": "abdb3cc5502d6c3e3f85d4e95cff865bd357ac94574ae212721b8fcc78f82b74"
+    },
+    {
+      "path": "verification-v002\\prediction-freeze.json",
+      "bytes": 896,
+      "sha256": "be612666de67cc7264cc133ccfe8741aa695363315a22e2ab6b2272db1e65938"
+    },
+    {
+      "path": "verification-v002\\results.json",
+      "bytes": 1879,
+      "sha256": "4390fed56ba5de1245f4323b937b418fc38d2c518fc44fafbe8812f79415cb92"
+    }
+  ],
+  "science_type": [
+    "analytic-derivation",
+    "numerical-test"
+  ],
+  "review_scope": "independent verifier first-round result; not a final manuscript review"
+}

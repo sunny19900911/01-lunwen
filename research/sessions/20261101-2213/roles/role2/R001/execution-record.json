@@ -1,0 +1,36 @@
+{
+  "observed_start": "2026-11-01T22:21:52.696523+08:00",
+  "frozen_at": "2026-11-01T22:28:15.881887+08:00",
+  "task_deadline": "2026-11-01T22:33:52+08:00",
+  "session_deadline": "2026-11-02T04:13:31+08:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executions": [
+    {
+      "script": "check_small_model.py",
+      "exit_code": 1,
+      "tool_wall_seconds": 3.9002593,
+      "reason": "Late-packet-switch assertion failed; candidate peak switched within first packet instead. Frozen inputs and CSV preserved."
+    },
+    {
+      "script": "check_small_model_v002.py",
+      "exit_code": 0,
+      "tool_wall_seconds": 3.9548395,
+      "reason": "Same model and input, isolated output; validates actual peak-time change, sensitivities, convergence and sampled residual bound coverage."
+    }
+  ],
+  "independence": "own two-story zero-initial smooth synthetic input; no original engineering cache, solver, API, new agents, or Git",
+  "checks": [
+    "JSON parsing",
+    "Python source compilation without bytecode write",
+    "Markdown trailing whitespace",
+    "finite-difference sensitivity",
+    "candidate step halving",
+    "sampled residual bound coverage"
+  ],
+  "unverified": [
+    "continuous-time residual supremum and directed rounding",
+    "engineering 300-mode prediction",
+    "speedup",
+    "independent event generalization"
+  ]
+}

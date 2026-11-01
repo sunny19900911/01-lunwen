@@ -1,0 +1,19 @@
+{
+  "actual_freeze": "2026-11-01T22:35:00+08:00",
+  "decision_basis": "before root receives or reads finite-target validation results; no target truth used to select policy",
+  "baseline_zeta": 0.05,
+  "demonstration_Dreq": 0.10,
+  "width_limit_D_fraction": 0.05,
+  "width_limit_meaning": "5 percentage points, demonstration project accuracy policy; not mathematical necessity or code requirement",
+  "decision_status": {"meets": "DL >= Dreq", "insufficient": "DU < Dreq", "uncertain": "DL < Dreq <= DU"},
+  "width_status": {"acceptable": "DU-DL <= .05", "too_wide": "DU-DL > .05"},
+  "peak_region_status": "independent of decision status; overlapping region intervals do not by themselves invalidate whole-window peak classification",
+  "operational_recompute": "uncertain decision OR width too wide OR invalid interval/baseline; mathematical same-side decision is still recorded separately when width too wide",
+  "adverse_flags": {"certain": "DU < 0", "possible_inclusive": "DL < 0", "excluded": "DL >= 0"},
+  "adverse_action_miss": "true D < 0 and decision is meets",
+  "adverse_risk_miss": "true D < 0 and DL >= 0",
+  "no_truth_denominator": "no true-adverse case means denominator not applicable, not 0 percent",
+  "metrics": ["peak relative error", "D absolute percentage-point error", "coverage", "width", "decision rates", "operational recompute fraction", "insufficient miss", "adverse action/risk misses", "measured full preparation/candidate/recompute cost"],
+  "one_building_all_floors": "all floors must meet for whole-building meets; no independence claim for floors or directions",
+  "policy_changes": "new versions only; do not overwrite or retrospectively select a threshold to improve reported classification"
+}

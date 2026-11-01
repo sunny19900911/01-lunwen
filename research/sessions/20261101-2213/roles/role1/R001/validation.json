@@ -1,0 +1,58 @@
+{
+  "completed_at": "2026-11-01T22:31:18.525686+08:00",
+  "elapsed_seconds": 568.525686,
+  "budget_seconds": 720,
+  "within_budget": true,
+  "evidence_type": "analytic-derivation",
+  "review_status": "candidate; independent role2 review pending",
+  "manual_derivation_checks": [
+    "first and second parameter derivative equations and zero IC",
+    "positive residual signs and negative error forcing",
+    "underdamped impulse L1 via sum of alternating half-wave integrals",
+    "critical/overdamped nonnegative kernel integral1/omega^2",
+    "output triangle bound and reverse-triangle peak interval",
+    "improvement interval reverses endpoints",
+    "2K baseline region margin guard",
+    "optional baseline Volterra contraction bound q<1"
+  ],
+  "source_checks": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\AGENTS.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\plan.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\.agents\\skills\\research-paper-lab\\SKILL.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\.agents\\skills\\engineering-paper-writing\\SKILL.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\.agents\\skills\\research-paper-lab\\references\\evidence-boundaries.md",
+      "unchanged": true
+    }
+  ],
+  "all_fixed_source_hashes_unchanged": true,
+  "root_harmonic_additional_sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\root-R001-harmonic-sanity\\one-page.md",
+      "bytes": 1019,
+      "sha256": "ee742c4d0fcb2480b46bdd2633781ef0ff6e37b0614f0f82ad2aadd4646b20e3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\root-R001-harmonic-sanity\\results.json",
+      "bytes": 1072,
+      "sha256": "142bbbbdc034cd05f16c11522342d0a2f99516968f944822a2969052eaa17098"
+    }
+  ],
+  "root_sanity_interpretation": "Reported36 steady transfer cases check algebra/finite-delta implementation, with parameter-dependent steady IC; no new zero-IC earthquake validation by role1.",
+  "new_response_or_ODE": false,
+  "arrays_read": false,
+  "Git_used": false,
+  "limitations": "No numeric continuous residual enclosure or engineering interval coverage assessed here; Wmax is a recommendation for root to freeze, not a code standard."
+}

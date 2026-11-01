@@ -1,0 +1,99 @@
+{
+  "status": "predictions frozen before target evaluation",
+  "frozen_utc": "2026-11-01T14:28:46.113942+00:00",
+  "outputs": [
+    {
+      "name": "algorithm-and-isolation-notes.md",
+      "bytes": 1528,
+      "sha256": "17a9377147c57bec5cde6bd3587b33ce6b4cbfa10a94466cd73f9691192af949"
+    },
+    {
+      "name": "all18-CM-motion-peak-predictions-288.csv",
+      "bytes": 44655,
+      "sha256": "44ba655fc2081ad20006585ff1eab50d5a99125369f371fab3b42f5348cc9b09"
+    },
+    {
+      "name": "all300-layer-peak-predictions-96.csv",
+      "bytes": 17844,
+      "sha256": "23b52d150406843dec17e9412ec4634b02be8d85a5d4a7a329abb6bd2599d063"
+    },
+    {
+      "name": "all300-unit-modal-motion-predictions-2400.csv",
+      "bytes": 444933,
+      "sha256": "4d651a5cdf342a7b4184d6b2e01945724ba751281b6546346915dd414b0545a6"
+    },
+    {
+      "name": "early-three-mode-target-predictions-96.csv",
+      "bytes": 15609,
+      "sha256": "4a79981cb7b374c65d77618279dee967a5055cf164bf79e53af755d5fed0cb36"
+    },
+    {
+      "name": "input-prediction-rules-freeze.json",
+      "bytes": 1992,
+      "sha256": "f5f25a76c027fc66207673a20f64677301224b36c3c640fea49911652a2dc0cf"
+    },
+    {
+      "name": "local-infinitesimal-derivative-checks-600.csv",
+      "bytes": 129226,
+      "sha256": "d209b0d979c46b41f4e7701733c83effb703eaec539488de2770ab52fd892a17"
+    },
+    {
+      "name": "one-page-prediction-result.md",
+      "bytes": 2426,
+      "sha256": "5261154e684161d372193bdfdfa86ba37c4e99b9066835f472f147224b3ecfcb"
+    },
+    {
+      "name": "predict_from_damping_sensitivity.py",
+      "bytes": 9891,
+      "sha256": "3a9c63f4293d7292ce47fb5f75f7e0f549bfb7a89f8c8089ee7fa39c3b61e8c3"
+    },
+    {
+      "name": "prediction-order-comparison-and-demo-screen-48.csv",
+      "bytes": 9023,
+      "sha256": "61accc72660767f7f3b79df2e11ac025d4e3f96639adc3c47f33ddd75d0d8dcb"
+    },
+    {
+      "name": "results.json",
+      "bytes": 1246,
+      "sha256": "1b26f5fd15d651f8514b522194abc06c794444cf46ff035d5123aa07ccec30e4"
+    },
+    {
+      "name": "selected2-10-13-motion-predictions-24.csv",
+      "bytes": 4534,
+      "sha256": "dbc6d3a3fb07d2bb558c561966b5bc45e6087fa3af9571e64d452a879e51ec26"
+    },
+    {
+      "name": "Story5-Story12-prediction-order-comparison-8.csv",
+      "bytes": 1734,
+      "sha256": "4f6cc69bb429b50922072ffa6ecbdb69c7fbde17ae73da80707bd38c084d424e"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 1437,
+      "sha256": "1422d0099add04bee39f2bc3edfb99af01801dcd3a8660597b325cc2809d0ca5"
+    },
+    {
+      "name": "verify_and_freeze_predictions.py",
+      "bytes": 10185,
+      "sha256": "2b1cda3ad5da1dab0618defda8f71bc46eb6ad944e0c4f2460d6b580d07fc2ee"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "bytes": 14836060,
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2"
+    },
+    {
+      "path": "C:\\Users\\mj528\\.codex\\skills\\etabs-response-analysis\\scripts\\modal_linear.py",
+      "bytes": 2206,
+      "sha256": "1c2620542f812e355c4be3ad8877db92db2ba3343cd3a2405e26c731be796827"
+    }
+  ],
+  "local_only_prediction_array": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\local-cache\\baseline-analytic-sensitivities-and-frozen-predictions.npz",
+    "bytes": 32993807,
+    "sha256": "e53b2e218a2a6faf078613b5f79c23763e0690230fea2aeec8f9c9ffc109df46"
+  },
+  "array_upload_allowed": false
+}

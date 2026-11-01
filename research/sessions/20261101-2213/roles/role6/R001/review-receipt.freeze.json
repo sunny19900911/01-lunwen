@@ -1,0 +1,17 @@
+{
+  "session": "20261101-2213",
+  "role": 6,
+  "task": "R001",
+  "record_type": "post-freeze-review-receipt-not-new-scientific-task",
+  "receipt_clock": "2026-11-01T22:33:52+08:00",
+  "actual_freeze": "2026-11-01T22:34:21.389778+08:00",
+  "original_sha256_unchanged": "6e4996ddd8d29fef4d99e5743dff2484aa451af5a3dcd8e03c7701e8a53ca0e1",
+  "review_source": "role2 cross-chat delegation received in this conversation",
+  "review_scope": "engineering contract only; empirical prediction validity untested",
+  "files": {
+    "review-receipt.md": {
+      "sha256": "a309b1c01aa4fa7cdcf866869751fa87d93f2d3237206b7ee7f693f96118ad93",
+      "bytes": 1643
+    }
+  }
+}
