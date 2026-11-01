@@ -1,0 +1,38 @@
+[
+  {
+    "Case": "SHW4X",
+    "target_zeta": 0.08,
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.08-factorized-reference.npz",
+    "sha256": "4e37b056557552b136cb8bc02f5b22e6a7de3e210c677e939d63c3505a354863",
+    "bytes": 16280412,
+    "new_state_solve": 0,
+    "origin": "known old8 reuse, no state solve"
+  },
+  {
+    "Case": "SHW4X",
+    "target_zeta": 0.1,
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\local-cache\\v002\\SHW4X-new-exact10.npz",
+    "sha256": "a3f6ae10730cf61b0e9bab5fc6f89b162750081e3a39355d20f366e2cc3354b0",
+    "bytes": 7149382,
+    "new_state_solve": 1,
+    "origin": "new exact10 state solve"
+  },
+  {
+    "Case": "RH4X",
+    "target_zeta": 0.08,
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.08-factorized-reference.npz",
+    "sha256": "38d3442c2e05221aa27a6b5837c2c1965f477fddad6dde911e12bdb3af1a9eeb",
+    "bytes": 13802569,
+    "new_state_solve": 0,
+    "origin": "known old8 reuse, no state solve"
+  },
+  {
+    "Case": "RH4X",
+    "target_zeta": 0.1,
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\local-cache\\v002\\RH4X-new-exact10.npz",
+    "sha256": "738517423e41fbc4f837996d7f3e13adc6bda9c4edc9010b268be40298499e43",
+    "bytes": 6060265,
+    "new_state_solve": 1,
+    "origin": "new exact10 state solve"
+  }
+]

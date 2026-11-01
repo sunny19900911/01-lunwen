@@ -31,3 +31,7 @@ C021-15 testing-RH4: rootreportread firstcandidatepass7%2nd fixedthresholds veri
 C021-15 upgraded-reviewed: role2R009all12firstpass7%RH4secondorder0must underunchanged10%/5pp:DLmin12.41229,widthmax3.821629pp,trueDmin13.731792Story7. Singlepassnotreliabilityestimate.
 C021-16 reviewed-analytic: role2R009 fixedbaselinebranchlinearcompetitionb=.2480256362040527pp, not exactswitchthreshold.
 C021-17 proposed-engineering-objective: root engineering-input-envelope-policy-freeze-v001 separates per-input allmeet target from eachfloor max-input peak-envelope reduction. Penv interval=maxL/maxU; Senv comesfrom activebaselineinput. ProducerR010candidate pendingaudit, no normclaim.
+
+C021-17 upgraded-reviewed: role2R011 specified-input absolutepeak envelope andSenv0must;14924fields/newselectedRK4. 8%trueDenvmin9.2281fails/10%14.6348meets atStory7;predictions8/10uncertain,6/7reject. Originalperinput strongerobjective preserved, not code/normoranyeventguarantee.
+C021-18 literature-source-reviewed: role3R003originalfrozen020UPC/inputbinding confirms same5%baselineSHA, oldtwo-stateU/C mechanism reusable with metric distinctions; no new targetstates orreclaimed FNAuniqueness.
+C021-19 testing-existing-cache: baseline U,C rightderivative bridge S=SU+SC proposed algebra andderived39floor table underindependentreview; newcaseproduction remainsfrozen.

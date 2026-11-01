@@ -1,0 +1,121 @@
+{
+  "start_observed_utc": "2026-11-01T16:00:47+00:00",
+  "first8min_deadline_utc": "2026-11-01T16:08:47+00:00",
+  "hard15min_deadline_utc": "2026-11-01T16:15:47+00:00",
+  "rules_frozen_utc": "2026-11-01T16:04:00.938461+00:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\engineering-input-envelope-policy-freeze-v001.json",
+      "sha256": "73f4e7d02994899835c1382014ce4ae03915304b2782eb9b3db4590398bfbc25",
+      "bytes": 2087
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R007\\shw4_baseline_prediction_then_two_targets.py",
+      "sha256": "ca5d9013d7ebfebeded901f87dd7e654a46c78008526d5078529fa13b3a56d34",
+      "bytes": 19722
+    },
+    {
+      "path": "C:\\Users\\mj528\\.codex\\skills\\etabs-response-analysis\\scripts\\modal_linear.py",
+      "sha256": "1c2620542f812e355c4be3ad8877db92db2ba3343cd3a2405e26c731be796827",
+      "bytes": 2206
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\delivery-manifest-v002.json",
+      "sha256": "6bae1736932e9a206d290b05adc9e44cea347a7b83c96a74908ce0f994576678",
+      "bytes": 10171
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R007\\local-cache\\baseline-sensitivities-predictions-envelopes.npz",
+      "sha256": "04bfa0710799564b369c324c54b8e22ca9268181577c3ce6c439cf9f59f08122",
+      "bytes": 43849410
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R008\\local-cache\\baseline-sensitivities-predictions-envelopes.npz",
+      "sha256": "59ee0cc687373c82001c4c22e3c7a6b556ece1064dee2462d67e81302a3d1602",
+      "bytes": 37132271
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R003\\baseline-only-discrete-envelope-intervals-96.csv",
+      "sha256": "36a2a6938ba532d0a84f3d53d160a6a401b76c6fc39ed6fdbaa1c94d8f9da580",
+      "bytes": 36127
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\all300-layer-peak-predictions-96.csv",
+      "sha256": "23b52d150406843dec17e9412ec4634b02be8d85a5d4a7a329abb6bd2599d063",
+      "bytes": 17844
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\baseline-sensitivity-ranked-floors-15.csv",
+      "sha256": "37362b600ba419b383e6538e8fa6837a46fe5635b76db6e4f9271793e6c9388d",
+      "bytes": 5843
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R007\\baseline-S-ranked-floors-12.csv",
+      "sha256": "acdbcca3be7524a2a1014b089125c229b10c3c55157ec12bb557fdeb8d4a1044",
+      "bytes": 3299
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R008\\baseline-S-ranked-floors-12.csv",
+      "sha256": "d9b29139e413962e1bb3b54af6b05abcffa11e3d0a11553ad628fd21093936cb",
+      "bytes": 3291
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R007\\frozen-discrete-intervals-48.csv",
+      "sha256": "992d32c32a84fab9fd214596533f71af0ed8838e5b527ce34284d16b2dc195f0",
+      "bytes": 15040
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R008\\frozen-discrete-intervals-48.csv",
+      "sha256": "7f57a56d8fb71763a20b9233630c57df9e9e0c0a8b7bcd64e751fb30895cd63b",
+      "bytes": 14832
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R007\\frozen-candidate-peak-predictions-48.csv",
+      "sha256": "07beeeffe098d6d792a8f7b1d49d5947f0d4dc0e735db5b0ac27c8ece7c2ac96",
+      "bytes": 6748
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R008\\frozen-candidate-peak-predictions-48.csv",
+      "sha256": "b42009158a42740611ec5736ad9baadb15388576c9e5beb23b4b456d1b8fbbfc",
+      "bytes": 6739
+    }
+  ],
+  "code_sha256": "af705e48d4e01bb66df84c13581e011c8d8bbf2f8ce9bfa85c79ae71b0f7073d",
+  "cases": [
+    "SHW3X",
+    "SHW4X",
+    "RH4X"
+  ],
+  "new_predictions_for": [
+    "SHW4X",
+    "RH4X"
+  ],
+  "new_prediction_targets": [
+    0.08,
+    0.1
+  ],
+  "new_derivative_solves": 0,
+  "reused8_expected": {
+    "SHW4X": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.08-factorized-reference.npz",
+      "bytes": 16280412,
+      "sha256": "4e37b056557552b136cb8bc02f5b22e6a7de3e210c677e939d63c3505a354863"
+    },
+    "RH4X": {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.08-factorized-reference.npz",
+      "bytes": 13802569,
+      "sha256": "38d3442c2e05221aa27a6b5837c2c1965f477fddad6dde911e12bdb3af1a9eeb"
+    }
+  },
+  "new_target_state_solves": [
+    "SHW4X .10",
+    "RH4X .10"
+  ],
+  "ordering": "all new individual predictions and intervals plus merged envelope intervals/actions frozen BEFORE opening any old8 array or generating new10",
+  "model": "fixed all300 X linear basis and B; original SI ag no extra SF/g; zeroIC nominaldt.02 from caches",
+  "method": "exact existing R007 prediction/bound block, no derivative recomputation; sample-grid engineering FP guards",
+  "objective": "additional selected-input absolute peak envelope; maxL/maxU over case peaks, not same-time waveform or average; previous per-input objectives unchanged",
+  "S_env": "max force derivative among exact baseline controlling cases, then -divide by P0env; not min S",
+  "cost": "perf_counter wall and process_time CPU recorded prospectively, sources/IO/checks separately; no assumed acceleration",
+  "not_blind": "old8 and historical inputs previously seen; no independent event/generalization or Y claim"
+}

@@ -1,0 +1,33 @@
+{
+  "source_files_SHA_verified": 34,
+  "new_arrays_SHA_verified": 4,
+  "reused8_arrays_SHA_and_t_ag_omega_B_verified": 2,
+  "input_files_SHA_verified": 15,
+  "individual_intervals": 288,
+  "individual_references": 144,
+  "envelope_intervals": 96,
+  "envelope_truths": 48,
+  "fields_checked": 14924,
+  "max_numeric_difference": 0.0,
+  "new_prediction_projection_max_error_kN": 5.4569682106375694e-12,
+  "new96_curve_strict_uncovered_samples": 0,
+  "new_full300_target_solves": 0,
+  "independent_selected_target": "SHW4X10% modes2/10/13",
+  "selected_RK16_max_relative_L2_error": 5.126369657540902e-09,
+  "selected_RK_refinement_min_ratio": 16.018924149744866,
+  "Senv_Story5": 4.676272120569025,
+  "minS_Story5": 2.132064434900846,
+  "Senv_slowest": "Story8",
+  "Story7_baseline_controller": "SHW4X",
+  "Story7_true_controllers": {
+    "0.06": "SHW3X",
+    "0.07": "SHW3X",
+    "0.08": "SHW3X",
+    "0.1": "SHW3X"
+  },
+  "actual_controllers_all_in_potential_set": true,
+  "interval_miss_count": 0,
+  "envelope_point_miss_count": 2,
+  "true_individual_adverse_count": 0,
+  "scope": "additional max-of-input-peak objective; previous per-input objective preserved; not simultaneous wave summation, strict FP/continuous certificate or speedup"
+}

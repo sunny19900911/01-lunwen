@@ -1,0 +1,235 @@
+{
+  "actual_freeze_utc": "2026-11-01T16:11:03.587934+00:00",
+  "actual_freeze_plus08": "2026-11-02T00:11:03.587934+08:00",
+  "elapsed_seconds": 616.587934,
+  "within8min": false,
+  "within15min": true,
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\all-individual-frozen-intervals-288.csv",
+      "sha256": "b8e4b8c86075c01b24c30f18a8e71d13b49ebaf7b6136d4cdc19476518cedad1",
+      "bytes": 51383
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\all-individual-reference-peaks-144.csv",
+      "sha256": "857b83147c3d6715c329c83a36fa2d4dc8b3aaed7d0e6efb3e7b54042eaa46c5",
+      "bytes": 11962
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\all-individual-scalar-validation-288.csv",
+      "sha256": "1d35e005a897c97361cd4ab862f0d6aaff1876d7c0c77f4ee482a0eb183eb57a",
+      "bytes": 80511
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\baseline-input-envelope-S-12.csv",
+      "sha256": "44108acd4bb3c9a82271b2033aa963e51a35c30fdc5428d0e2eabfadf0e0f2a8",
+      "bytes": 1903
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\baseline-to-target-controlling-inputs-48.csv",
+      "sha256": "ed3c8aacb5a538c3b0a5c463e7feec236c834a52d7c9a2c26f974f3a7b8026b1",
+      "bytes": 3545
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\early-failure-and-recovery-v002.json",
+      "sha256": "f32354f1757c4a9cd63c55af9229a1468f652df33be69c86b9113c569ddfe8e8",
+      "bytes": 622
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\engineering-envelope-decision-summary-8.csv",
+      "sha256": "fcb0841f5add088ab2c2123cb17263368a63a7bda5d48f8ee231d22243a2550c",
+      "bytes": 1118
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\engineering-main-table-three-input-envelope12.md",
+      "sha256": "6bc889b1c765ea7144a94bcdcf54fddfb447ddcf8a78fb1d6352b7c7ccced349",
+      "bytes": 1290
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\envelope-point-insufficient-miss-cases-2.csv",
+      "sha256": "772d524d28042c1d921f407bb5daa92536d12112a8edad998d7ce7ff6afc947f",
+      "bytes": 1295
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\extend_two_inputs_then_form_input_envelope.py",
+      "sha256": "af705e48d4e01bb66df84c13581e011c8d8bbf2f8ce9bfa85c79ae71b0f7073d",
+      "bytes": 18881
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\extend_two_inputs_then_form_input_envelope_v002.py",
+      "sha256": "1bb2289327828996718a4b8c4260c8fdc94a91b7dbafb1628ae993b611c1c96b",
+      "bytes": 19173
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\input-envelope-and-strong-objective-actions-8.csv",
+      "sha256": "3e898da8a4c00aa679a89b2293f0d430feab1800cee2d7637c199699029d6a51",
+      "bytes": 1352
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\input-envelope-candidate-validation-8.csv",
+      "sha256": "eb1a14b8a31b2a12905e0fe80eef359d3a0bc3bb9ed29384ee1b71bf8ac9c45c",
+      "bytes": 2009
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\input-envelope-frozen-intervals-96.csv",
+      "sha256": "d4cb9c0cad0f2c4565f3a2296a73c4d053e801e0582342473bb70af787b5967e",
+      "bytes": 24198
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\input-envelope-interval-and-objective-validation-96.csv",
+      "sha256": "568ce66799ca102c9176521717f353e8601549a34e83d91fa1b73a8824ca57dc",
+      "bytes": 35363
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\input-envelope-reference-peaks-and-strong-objective-48.csv",
+      "sha256": "e28e17a8173b01066afb38db81582546223a0d9c970a3a5a4f6bd4c60f5de6e6",
+      "bytes": 5797
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\input-method-envelope-rules-freeze-v002.json",
+      "sha256": "5fc049b54619746452509f460f3f4ca2cd6f30dfab20761cd68bad7bd046b616",
+      "bytes": 7026
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\input-method-envelope-rules-freeze.json",
+      "sha256": "e63de7e5c71e14ee81a21ff289afc03764cfc7881e708c6fb2b5e1a8df83e548",
+      "bytes": 7026
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\new-individual-discrete-intervals-96.csv",
+      "sha256": "9cd8a9b26f5532327206754ce29f749859214970c1cb12936400029c76447e3b",
+      "bytes": 29125
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\new-individual-peak-predictions-96.csv",
+      "sha256": "99078b27820887bf03f2cf5d0f53b5961175584550b35f48dfc20223edbe7c5f",
+      "bytes": 13354
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\new-individual-prediction-validation-96.csv",
+      "sha256": "bae0645418373020ccf3a4cd5973fbcbeff5ab71bbec56d32329968421d6d6c7",
+      "bytes": 15546
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\new-or-reused-individual-reference-peaks-48.csv",
+      "sha256": "1830813c3ea99fd315e1f8f67b3b57709e5ee6c76bdfc638bd91b48fe2a148d4",
+      "bytes": 6447
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\new-prediction-bound-work-2.csv",
+      "sha256": "6f04739b7139f78694d1261e3993f0aea9477f527ed9317cf3878d5d5c7e3f74",
+      "bytes": 292
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\one-page-three-input-envelope-engineering-result.md",
+      "sha256": "953be0aa6ae72f9bda703582ac3c0c35b7e74665b0edc78751e9ce538b945ff4",
+      "bytes": 4883
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\per-input-candidate-validation-preserved-24.csv",
+      "sha256": "585d6ea24aea56c9f395b21105d0ef4a9615568f0119ee31e4b6aa91c3a27e26",
+      "bytes": 1605
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\positive-FFT-direct-checks-32.csv",
+      "sha256": "542873a0bfbdd315863f7eb2cf64b6db04e7427a8b6ee69139f3f32bdda748b5",
+      "bytes": 2184
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\prediction-and-envelope-freeze.json",
+      "sha256": "e7ebb35eaf0aae7556c835bacc759074ade5dedb0262fe01312767126fe6c2eb",
+      "bytes": 3665
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\prepare_recovery_v002.py",
+      "sha256": "ebf001fd41fef828493292046a4c59ba691f77ba64db79ba6337b4f70c715cf8",
+      "bytes": 1451
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\reference-array-index-4.json",
+      "sha256": "8985218cd3ade1e6985e7c6e637a5977b3c6cf9c152cbdafbf5564c731e49884",
+      "bytes": 1789
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\reference-stage-cost-4.csv",
+      "sha256": "67ba9f88a3d0a3b50854572b55a0b6d41a723edee709e1cea8d6336140867bd0",
+      "bytes": 668
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\results.json",
+      "sha256": "19269732540faa21d426b411f3cfd4dba58ed1de506cd5abd74ecfd3bfef5afa",
+      "bytes": 12476
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\run-isolation-cost-and-recovery-notes.md",
+      "sha256": "d7dac5aabed713e6003decdc52d2011e8b4f9d7a104eea4d7fb9a551cb2da0af",
+      "bytes": 1432
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\verification.json",
+      "sha256": "f240c136cdff389d87f8ef0d9ef1a4881fc40a209439d41c5328bfee15d61f97",
+      "bytes": 728
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\verify_report_and_freeze.py",
+      "sha256": "7e4f0c03ab1c0055243ad8ac5da2afacef6d7004dbeae213b5916c678ac9d9cf",
+      "bytes": 17465
+    }
+  ],
+  "local_only_new_arrays": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\local-cache\\v002\\SHW4X-new8-10-predictions-envelopes.npz",
+      "sha256": "b78d8d113b13e314af42ec3146d3633f2fe5e83857dd92175701947948afe2e5",
+      "bytes": 2159576
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\local-cache\\v002\\RH4X-new8-10-predictions-envelopes.npz",
+      "sha256": "583933425ae16604ac3f2158f3213273d7555ae2c99108675bce4239a5eddecf",
+      "bytes": 1831993
+    },
+    {
+      "Case": "SHW4X",
+      "target_zeta": 0.1,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\local-cache\\v002\\SHW4X-new-exact10.npz",
+      "sha256": "a3f6ae10730cf61b0e9bab5fc6f89b162750081e3a39355d20f366e2cc3354b0",
+      "bytes": 7149382,
+      "new_state_solve": 1,
+      "origin": "new exact10 state solve"
+    },
+    {
+      "Case": "RH4X",
+      "target_zeta": 0.1,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R010\\local-cache\\v002\\RH4X-new-exact10.npz",
+      "sha256": "738517423e41fbc4f837996d7f3e13adc6bda9c4edc9010b268be40298499e43",
+      "bytes": 6060265,
+      "new_state_solve": 1,
+      "origin": "new exact10 state solve"
+    }
+  ],
+  "readonly_reused8_arrays": [
+    {
+      "Case": "SHW4X",
+      "target_zeta": 0.08,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.08-factorized-reference.npz",
+      "sha256": "4e37b056557552b136cb8bc02f5b22e6a7de3e210c677e939d63c3505a354863",
+      "bytes": 16280412,
+      "new_state_solve": 0,
+      "origin": "known old8 reuse, no state solve"
+    },
+    {
+      "Case": "RH4X",
+      "target_zeta": 0.08,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.08-factorized-reference.npz",
+      "sha256": "38d3442c2e05221aa27a6b5837c2c1965f477fddad6dde911e12bdb3af1a9eeb",
+      "bytes": 13802569,
+      "new_state_solve": 0,
+      "origin": "known old8 reuse, no state solve"
+    }
+  ],
+  "new_target_solves": 2,
+  "new_derivative_solves": 0,
+  "first_attempt_exit": 1,
+  "recovery_exit": 0,
+  "old_outputs_unchanged": true,
+  "independent_role2_review_pending": true
+}

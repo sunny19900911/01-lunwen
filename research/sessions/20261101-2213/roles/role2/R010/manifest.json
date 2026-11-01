@@ -1,0 +1,78 @@
+{
+  "status": "frozen",
+  "observed_start": "2026-11-02T00:02:58.258113+08:00",
+  "frozen_at": "2026-11-02T00:11:32.226963+08:00",
+  "elapsed_seconds": 513.96885,
+  "primary_deadline": "2026-11-02T00:14:58.258113+08:00",
+  "absolute_deadline": "2026-11-02T00:17:58.258113+08:00",
+  "must_fix": 0,
+  "upstream_manifests": [
+    {
+      "path": "research\\sessions\\20261101-2213\\roles\\role4\\R009\\delivery-manifest.json",
+      "sha256": "59a25cab91eb694421dac9587beb38bfcf67bc156ae106692c62471a7ae5c9e5"
+    },
+    {
+      "path": "research\\sessions\\20261101-2213\\roles\\role6\\R005\\freeze.json",
+      "sha256": "5b7937ce9e62318e3a7c79dd48000d3fb8f259b78237d7c19c3b5b522840d9d5"
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "audit_factors_and_simple_baselines.py",
+      "bytes": 15639,
+      "sha256": "c98282d492137ea4a62dd1fd51651eaa315087a217ed0a6c6118a7a4f18dd43b"
+    },
+    {
+      "name": "independent-candidate-point-decisions-32.csv",
+      "bytes": 2294,
+      "sha256": "ced149958eb735c3d5fcc39d5ed91cf0f9a9607080916938fcfe4b224dfc92d2"
+    },
+    {
+      "name": "independent-controllers-8.csv",
+      "bytes": 1301,
+      "sha256": "0ce04bd16de5401c42c8f12580b4739a4d897d58fb6751648f400e9e7c19e704"
+    },
+    {
+      "name": "independent-method-candidate-errors-32.csv",
+      "bytes": 2968,
+      "sha256": "b57b05f1881f2442ab68d7e8ff226a78b7241c54c2a5d23c242db3085cbf651e"
+    },
+    {
+      "name": "independent-method-summary-8.csv",
+      "bytes": 1071,
+      "sha256": "4e496d998620839962723db282632d7bbc8fa379bca1d619138e0948b64260f5"
+    },
+    {
+      "name": "independent-mode13-factors-3.csv",
+      "bytes": 635,
+      "sha256": "d910049f4778a119b70e714c316a0cae162bbc26988e080653085e0cc8bd3d97"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 4266,
+      "sha256": "87e3fca6ac1db22355c77c003ab874082f49c08b0f5b73349f05f23b573f44da"
+    },
+    {
+      "name": "results.json",
+      "bytes": 1337,
+      "sha256": "90c643401965ba5e1bbc6a0298761cb8cc6d8de0212697505d4304a3ef38d868"
+    }
+  ],
+  "execution": {
+    "script": "audit_factors_and_simple_baselines.py",
+    "exit_code": 0,
+    "tool_wall_seconds": 0.6684693,
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scope": "8 baseline controllers/2400 physical factors; seven-small-CSV-only comparison of local S/uniform S/whole-window first/second points; no new response or model",
+  "target_response_arrays_opened": false,
+  "new_ODE": false,
+  "full_arrays_written": false,
+  "adoption_limits": [
+    "c baseline derivative contribution is not finite target share or phase fraction",
+    "retrospective comparisons do not prove universal dominance or reliability",
+    "point decision and interval guarantee separate",
+    "private interval table version is R002 coth, public is discrete",
+    "same physical candidate not charged per floor; S preparation still costs derivatives"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "status": "frozen",
+  "observed_start": "2026-11-02T00:15:55.367772+08:00",
+  "frozen_at": "2026-11-02T00:25:17.820497+08:00",
+  "elapsed_seconds": 562.452725,
+  "primary_deadline": "2026-11-02T00:27:55.367772+08:00",
+  "absolute_deadline": "2026-11-02T00:30:55.367772+08:00",
+  "must_fix": 0,
+  "upstream_manifest_sha256": "90215341cc4f3c51b15d2662cb2748fc27ed6d065d10df3645152d5df73060f7",
+  "artifacts": [
+    {
+      "name": "additional-preservation-control-summary-checks.json",
+      "bytes": 218,
+      "sha256": "40f079ffd4c3dbc4ae28f9202d212ec869f4792a2851266da5f09be007a8cdf5"
+    },
+    {
+      "name": "audit_input_envelope.py",
+      "bytes": 18752,
+      "sha256": "bccb6105066e3a923a371904d822fd0f395feab94e1a301aa7f7a849aba65ecb"
+    },
+    {
+      "name": "independent-envelope-baseline-S-12.csv",
+      "bytes": 1025,
+      "sha256": "d37752be6ab1622d07e8b78606d5aea298aee96e4add9e3796b93d09b9f6f6f0"
+    },
+    {
+      "name": "independent-envelope-candidate-decisions-8.csv",
+      "bytes": 1233,
+      "sha256": "d6e5f3d9bcff46f3df8dfa56476b5f4bdf0e730d5c11c6b896df1af55f9cac0c"
+    },
+    {
+      "name": "independent-envelope-reference-48.csv",
+      "bytes": 5794,
+      "sha256": "da9c81d34ee3232871c76335c200cd93404cfd04793e5aba20babc4c53bc8821"
+    },
+    {
+      "name": "independent-new-individual-curve-checks-96.csv",
+      "bytes": 2582,
+      "sha256": "0508264b9937b3941b82b19dbd4c408d8a24bd318f9004c8a8996c8e78c82228"
+    },
+    {
+      "name": "independent-new-reference-RK4-3.csv",
+      "bytes": 227,
+      "sha256": "0f4c7b6dfa630fc7d237e45597de268cd3bc8df4f260a212c71b9be011ff9d26"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 4410,
+      "sha256": "3c3e12fa98fd974725bd392669d9b26229ce4df5fd3283cd282f60ff8505155b"
+    },
+    {
+      "name": "results.json",
+      "bytes": 1272,
+      "sha256": "cacd574c25f438602b0c84fe6caa1133597b23da0a198f384339e907945a4cd8"
+    }
+  ],
+  "execution": {
+    "script": "audit_input_envelope.py",
+    "exit_code": 0,
+    "tool_wall_seconds": 2.4317129,
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "selected_independent_reference_check": "SHW4X10% modes2/10/13 RK4 sub8/16, displacement only; no all300 state regeneration",
+  "additional_math_review": {
+    "source": "roles/role1/R006/selected-input-envelope-one-page.md",
+    "manifest_sha256": "dc2fcf3ceeb957574d5baa69dac043e1bd3817b29568d15ad8ff6ceebb2d755f",
+    "must_fix": 0
+  },
+  "previous_per_input_policy_preserved": true,
+  "old8_only_read_after_prediction_freeze": true,
+  "production_new10_count_verified": 2,
+  "initial_namespace_failure_before_prediction_or_truth_verified": true,
+  "new_all300_target_solves_by_auditor": false,
+  "new_model_or_input": false,
+  "full_arrays_written": false,
+  "scope": "fixed three-input max-of-absolute-peaks objective, additional to per-input objective; not same-time summation, arbitrary event extension, rigorous FP/continuous guarantee or speedup"
+}

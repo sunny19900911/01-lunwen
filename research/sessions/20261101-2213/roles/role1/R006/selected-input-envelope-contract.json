@@ -1,0 +1,111 @@
+{
+  "task": "session021-role1-R006",
+  "objective_identity": {
+    "envelope": "reduction of each floor selected-input absolute peak envelope",
+    "each_input": "each input relative to its own baseline peak meets target; stronger and separately preserved",
+    "selection": "Do not replace/relabel one objective according to favorable results.",
+    "not_code_rule": "Declared project objective, not a normative record-selection or averaging rule."
+  },
+  "scope": {
+    "inputs": [
+      "SHW3X",
+      "SHW4X",
+      "RH4X"
+    ],
+    "floors": "Story1..Story12, X",
+    "candidate_zetas": [
+      0.06,
+      0.07,
+      0.08,
+      0.1
+    ],
+    "same_force_unit_required": true,
+    "independence": "No statistical independence or general-earthquake guarantee inferred."
+  },
+  "envelope": {
+    "Pe": "max over each input own frozen time grid of abs(Ve)",
+    "P0env": "max_e Pe0>0",
+    "Penv": "max_e Pe",
+    "Denv": "1-Penv/P0env",
+    "no_cross_input_time": "No same-time force/modal sum constructed across different excitations; independent peaks only."
+  },
+  "interval": {
+    "condition": "For every listed input, valid Pe in[Le,Ue] for same target/model/output scope",
+    "Lenv": "max_e Le",
+    "Uenv": "max_e Ue",
+    "D_lower": "1-Uenv/P0env",
+    "D_upper": "1-Lenv/P0env",
+    "width": "(Uenv-Lenv)/P0env",
+    "validity": "Algebra preserves conditional simultaneous validity; computed/empirical interval status is not upgraded by max.",
+    "missing_input": "Do not drop a missing input from a claimed complete-input envelope pass.",
+    "zero_P0env": "Relative improvement and normalized sensitivity undefined; report absolute force."
+  },
+  "frozen_project_decision": {
+    "Dreq": 0.1,
+    "Wmax": 0.05,
+    "reject_candidate": "any target floor D_upper<Dreq",
+    "engineering_pass": "all target floor D_lower>=Dreq AND all widths<=Wmax AND valid data",
+    "otherwise": "one complete candidate analysis across the listed inputs under root policy",
+    "status_separation": "Preserve mathematical goal result, width status and control-input identity independently; uncertain identity alone does not force recomputation when effective interval meets policy."
+  },
+  "baseline_directional_derivative": {
+    "active_inputs_E0": "e with Pe0=P0env",
+    "Pe_right_derivative": "R004 max sign(Ve0[n])*Ve_zeta[n] over that input exact active temporal peaks",
+    "Penv_right_derivative": "max_{e in E0}Pe_right_derivative",
+    "Senv": "-Penv_right_derivative/P0env=min_{e in E0}Se",
+    "Se": "-Pe_right_derivative/Pe0, each input own baseline; denominators coincide on E0",
+    "unique_controller": "Senv equals its Se",
+    "not": "min over all input Se",
+    "numerical_near_ties": "Keep tolerance near-controlling set separate from exact E0; do not relabel exact derivative.",
+    "finite_increment": "Another input can take control; local Senv is not a constant finite-delta reduction factor."
+  },
+  "comparison_proof": {
+    "condition": "all individual Pe0>0",
+    "ratio": "Pe/P0env<=Pe/Pe0 because Pe>=0 and Pe0<=P0env",
+    "result": "Denv>=min_e(1-Pe/Pe0)",
+    "implication": "all individual improvements>=Dreq => envelope improvement>=Dreq",
+    "converse": "false, illustrated by hypothetical100/90->80/85",
+    "zero_individual_baseline": "Do not silently exclude; individual relative improvement undefined, envelope may still be defined."
+  },
+  "possible_candidate_control": {
+    "set_C": "e with Ue>=max_j Lj",
+    "unique_certification": "some Li>max_{j!=i}Uj",
+    "overlap": "identity uncertain; envelope interval still usable",
+    "switch_hint": "baseline-noncontrolling input may decline less and later dominate; keep all selected inputs."
+  },
+  "hypothetical_example": {
+    "source": "independent scalar values supplied by root, not engineering data",
+    "baseline": [
+      100,
+      90
+    ],
+    "candidate": [
+      80,
+      85
+    ],
+    "Denv_fraction": "3/20",
+    "min_individual_fraction": "1/18",
+    "endpoint_information": "does not determine baseline derivatives",
+    "results": "hypothetical-example-results.json"
+  },
+  "minimum_table": [
+    "Story",
+    "candidate_zeta",
+    "each_input_original_decisions",
+    "P0env",
+    "Lenv",
+    "Uenv",
+    "Denv_lower",
+    "Denv_upper",
+    "width",
+    "baseline_active_inputs",
+    "Senv",
+    "candidate_possible_inputs_C",
+    "decision_status",
+    "width_status",
+    "controller_status",
+    "validity_status",
+    "candidate_action"
+  ],
+  "new_engineering_arrays_or_ODE": false
+}

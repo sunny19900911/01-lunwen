@@ -1,0 +1,41 @@
+{
+  "session": "20261101-2213",
+  "role": 3,
+  "round": "R003",
+  "started_actual": "2026-11-02T00:11:01+08:00",
+  "role_deadline": "2026-11-02T00:21:01+08:00",
+  "session_deadline": "2026-11-02T04:13:31+08:00",
+  "frozen_actual": "2026-11-02T00:15:09.502154+08:00",
+  "files": [
+    {
+      "path": "reusable-mechanism-and-model-facts.md",
+      "bytes": 6341,
+      "sha256": "214987e9aaa0977694feafe59e920012e9dd9d3ffac3073cc48d96ae876dca7f"
+    },
+    {
+      "path": "SHW3X-two-layer-UPC-excerpt.csv",
+      "bytes": 1242,
+      "sha256": "0ae5e4e4c87a3fa8091773ecacf1f2ff9eb628e345defcdcf26add18fc7409f3"
+    },
+    {
+      "path": "inputs-manifest.json",
+      "bytes": 3906,
+      "sha256": "369ec90398bf51d7970427ad61528d9261d4f7eda4d8ac87ba27b13e43719f09"
+    }
+  ],
+  "checks": {
+    "selected_two_rows_match_frozen_csv_and_v007_rounded_values": true,
+    "old_and_current_baseline_binding_equal": true,
+    "R006_referenced_UPC_manifest_hash_matches": true,
+    "R005_R006_R007_audit_reports_match_own_manifests": true,
+    "utf8_no_trailing_whitespace": true
+  },
+  "not_performed": [
+    "new search/download",
+    "opening NPZ or original large tables",
+    "new state solve",
+    "re-running old numeric audit",
+    "Git operations"
+  ],
+  "scope": "same-source records and legacy audited facts, not new independent numerical proof or FE/FNA identity certification"
+}

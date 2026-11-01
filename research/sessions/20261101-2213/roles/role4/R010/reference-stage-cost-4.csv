@@ -1,0 +1,5 @@
+﻿Case,target_zeta,reference_read_or_solve_projection_wall_seconds,reference_read_or_solve_projection_CPU_seconds,new_state_solve,note
+SHW4X,0.08,0.05286840000189841,0.0625,0,read/hash for reused8; solve+projection for new10; archive writing and validation excluded
+SHW4X,0.1,0.040992199908941984,0.03125,1,read/hash for reused8; solve+projection for new10; archive writing and validation excluded
+RH4X,0.08,0.045921599958091974,0.03125,0,read/hash for reused8; solve+projection for new10; archive writing and validation excluded
+RH4X,0.1,0.035331400111317635,0.046875,1,read/hash for reused8; solve+projection for new10; archive writing and validation excluded

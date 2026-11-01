@@ -15,3 +15,7 @@ R005 2026-11-01T23:39:21.639501+08:00: rootfullread role2R006 publicaudited outp
 R006 2026-11-01T23:54:48.455121+08:00: rootreadSapprovedauthor tables,SHW4independentaudit,RH4candidate report, v005fulltext, role1warning androle6simplebaseline report. Fresh actualsnapshots; four boundedcurrenttasks afteractualidle; no prematureRH4adoption. Originaldirty/arrays/oldmanuscripts preserved.
 
 R007 2026-11-02T00:12:04.592859+08:00: rootread fullRH4independentaudit, factor explanation, authorv006newtables/QA; viewedapprovedfigure1 and2 then revisedfigure2. Current boundedjobs truthfully recorded, no repeatedcompleteODE. Added specified-input envelopeobjective beforeR010 forecasts, oldpointwise-policydata preserved.
+
+PostR007 2026-11-02T00:19:11.584237+08:00: freshsnapshot replaces00:07 dispatchsnapshot for runtime; old frozen snapshot retained. Source bridge newrole3task androle1envelope task follow actualdispatch after earlier snapshot. Numericproduction now frozen tocompleted case grid; independentaudits allowed.
+
+R008 2026-11-02T00:28:48.303276+08:00: rootread ensembleR011independentaudit andsame-sourceoldUPC bridge, adopted concrete projectgrid. Currentjobsderive baseline mechanism only, no new inputs/targetreferences. Authorv008 integrates engineeringcase/Englishabstract. SourceoldRitz/fullFE/FNA distinctions andperformance failures preserved outside repetitive prose.

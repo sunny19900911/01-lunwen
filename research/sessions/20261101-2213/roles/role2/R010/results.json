@@ -1,0 +1,30 @@
+{
+  "factor_source_files_SHA_verified": 16,
+  "baseline_source_files_SHA_verified": 12,
+  "factor_baseline_inputs_SHA_verified": 7,
+  "simple_comparison_CSV_inputs_SHA_verified": 7,
+  "controllers": 8,
+  "all_mode_factors_checked": 2400,
+  "selected_period_B_rows_checked": 24,
+  "factor_fields_checked": 38560,
+  "factor_max_numeric_difference": 1.0913936421275139e-11,
+  "max_c_closure": 4.440892098500626e-15,
+  "fixed_omega_B_identical_three_inputs": true,
+  "Story5_input_change_z_sign_flips_c": true,
+  "SHW3_floor5_roof_total_peak_sign_alone_flips_c_sign_with_B_z_signs_same": true,
+  "mode13_roof_to_floor5_abs_c_ratio": 13.60592666966601,
+  "mode13_B_z_inverseP0_product": 13.605926669666006,
+  "simple_and_whole_point_rows_checked": 240,
+  "baseline_fields_checked": 5472,
+  "baseline_max_numeric_difference": 1.7763568394002505e-15,
+  "fixed_input_median_S": {
+    "SHW3X_fixed300": 3.6917778390379077,
+    "publicExample5_H-E12140": 0.24620120683208635
+  },
+  "method_groups": 8,
+  "candidate_point_groups": 32,
+  "interval_groups_separate": 16,
+  "misclassification_identity_rows_checked": 32,
+  "new_ODE_or_target_calculation": false,
+  "scope": "factor audit reads baseline states only; simple-comparator audit reads small CSV only; retrospective known cases, no domination or speedup claim"
+}

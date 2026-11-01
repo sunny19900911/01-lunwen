@@ -1,0 +1,10 @@
+{
+  "first_exit": 1,
+  "stage": "first reused prediction block missing V0 namespace; no prediction or target result had been saved",
+  "new_target_solves_at_failure": 0,
+  "old8_arrays_opened_at_failure": false,
+  "original_code_sha256": "af705e48d4e01bb66df84c13581e011c8d8bbf2f8ce9bfa85c79ae71b0f7073d",
+  "recovery_code_sha256": "1bb2289327828996718a4b8c4260c8fdc94a91b7dbafb1628ae993b611c1c96b",
+  "change": "provide known baseline V0/VZ/P0 to frozen arithmetic block; use new cache subdirectory and new input freeze filename; no numerical method/threshold change",
+  "no_original_bytes_overwritten": true
+}

@@ -1,0 +1,24 @@
+{
+  "identity": "hypothetical scalar illustration, not engineering data",
+  "baseline_envelope": 100,
+  "candidate_envelope": 85,
+  "envelope_improvement_fraction": "3/20",
+  "envelope_improvement_percent": 15.0,
+  "per_input_improvement_fraction": {
+    "A": "1/5",
+    "B": "1/18"
+  },
+  "per_input_improvement_percent": {
+    "A": 20.0,
+    "B": 5.555555555555555
+  },
+  "envelope_pass_10pct": true,
+  "each_input_pass_10pct": false,
+  "baseline_controlling_input": [
+    "A"
+  ],
+  "candidate_controlling_input": [
+    "B"
+  ],
+  "no_baseline_derivative_inferred_from_endpoints": true
+}
