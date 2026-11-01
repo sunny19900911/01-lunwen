@@ -1,0 +1,113 @@
+{
+  "task": "session021-role1-R003",
+  "math_status": "requested recurrence and componentwise envelope independently derived as correct",
+  "state_and_units": {
+    "x": "[s,sdot], unit-participation kernel state [m,m/s]",
+    "not_actual_q": "q=Gamma*s is a different coordinate; do not multiply Gamma twice",
+    "Ac11": "dimensionless",
+    "Ac12": "s",
+    "defect_s": "m",
+    "defect_v": "m/s",
+    "elastic_output_weight": "B_sr*omega_r^2/1000,kN/m",
+    "if_state_already_actual_modal_q": "Use omega_r^2*S_sr/1000 instead of B_sr*omega_r^2/1000, with compatible modal state/input; this contract uses unit s."
+  },
+  "target_model": {
+    "steps": "constant h, M steps, states0..M",
+    "Ac": "exp(F_c*h), F_c=[[0,1],[-omega^2,-2*zeta_c*omega]]",
+    "bc_n": "integral_0^h exp(F_c*(h-tau))*[0,-1]^T*ag_n(tau)dtau",
+    "input": "same frozen ag/interpolation/grid/end continuation as target reference",
+    "no_target_state_input": "Ac/b depend on omega,zeta_c,h and input, not xstar",
+    "variable_h": "Use ordered transition products or a separately derived varying-step contract; Ac^k assumes a constant step."
+  },
+  "prediction": "same frozen T1/T2 states including velocity, assembled from baseline s/sdot,z/zdot,w/wdot",
+  "defect_and_error": {
+    "defect": "d[n]=Ac*xhat[n]+bc[n]-xhat[n+1]",
+    "error": "e=xstar-xhat",
+    "recurrence": "e[n+1]=Ac*e[n]+d[n]",
+    "initial": "e[0]=0 for matched zero IC; otherwise retain Ac^n*e[0]",
+    "defect_must_be_full_state": "Do not replace exact two-component discrete defect by h times a continuous residual without deriving the input-integration relation."
+  },
+  "propagator_envelope": {
+    "K11_k": "abs((Ac^k)[0,0])",
+    "K12_k": "abs((Ac^k)[0,1])",
+    "required_order": "matrix power first, entry then absolute value; not scalar diagonal powers and not powers of abs(Ac)",
+    "eps_s_n": "sum_{j=0}^{n-1}(K11[n-1-j]*abs(d_s[j])+K12[n-1-j]*abs(d_v[j]))",
+    "causal_linear_convolution": "eps_s[0]=0; eps_s[1:M+1]=(conv(K11,abs(ds))+conv(K12,abs(dv)))[:M]",
+    "index_checks": {
+      "n1": "eps_s[1]=abs(ds[0])",
+      "n2": "eps_s[2]=abs(A11)*abs(ds[0])+abs(A12)*abs(dv[0])+abs(ds[1])"
+    },
+    "underdamped_analytic_entries": {
+      "alpha": "zeta_c*omega",
+      "beta": "omega*sqrt(1-zeta_c^2)",
+      "A11_k": "exp(-alpha*k*h)*(cos(beta*k*h)+alpha/beta*sin(beta*k*h))",
+      "A12_k": "exp(-alpha*k*h)*sin(beta*k*h)/beta",
+      "critical_or_overdamped": "use stable corresponding matrix exponential/formulas, not the underdamped square root"
+    },
+    "initial_uncertainty": "If bounded nonzero initial error, add K11[n]*abs(e_s0)+K12[n]*abs(e_v0).",
+    "avoid_abs_matrix_recursion": "abs(Ac)^k gives a valid but no tighter propagation than abs(Ac^k), and can grow for stable oscillators; do not report it as the specified tighter envelope."
+  },
+  "floor_envelope": {
+    "E_s_n": "sum_r abs(B_sr)*omega_r^2*eps_s_r[n]/1000",
+    "Phat": "max_n abs(Vhat_s[n])",
+    "L": "max_n max(0,abs(Vhat_s[n])-E_s[n])",
+    "U": "max_n (abs(Vhat_s[n])+E_s[n])",
+    "goal_interval": "[1-U/P0,1-L/P0] for resolved P0>0",
+    "statuses": "decision_status,width_status,peak_region_status independently retained",
+    "other_outputs": "This displacement-row formula is for fixed elastic output; do not automatically reuse for damping/velocity outputs."
+  },
+  "comparison_to_coth": {
+    "dominance": "No automatic domination between discrete defect and coth bounds.",
+    "optional_min_rule": "Euse[n]=min(Edisc[n],Ecoth) only if both bound the same target/predictor/grid with compatible numerical-error control",
+    "freeze": "min rule before candidate truth is inspected",
+    "report": "both original widths, combined width, validity status, and computation costs"
+  },
+  "numerical_guarantee_levels": {
+    "algebra": "exact in ideal discrete arithmetic for specified Ac/b",
+    "continuous_at_grid": "exact piecewise-input transition coincides with continuous model sampled states",
+    "between_grid": "not certified by sampled peak interval alone",
+    "floating": "Ac/b evaluation, cancellation in defect, powers and convolution need error enclosures for strict numerical guarantees",
+    "FFT": "Use padded linear convolution, not circular wraparound; roundoff negative artifacts cannot be clipped into a claimed rigorous nonnegative bound without an error allowance.",
+    "uncontrolled_FP": "Label computed envelope and empirically test coverage; do not call strict finite-precision certificate."
+  },
+  "workflow": [
+    "freeze predictor/parameters/grid/defect/envelope definition",
+    "compute candidate Ac/b and prediction defect only",
+    "propagate absolute defects through absolute entries of complete Ac powers",
+    "sum floor envelopes, form local peak intervals, freeze CSV",
+    "only then read independently generated candidate target states for coverage/width audit"
+  ],
+  "cost_and_fairness": {
+    "reuse": "K sequences shared by waves/methods with same mode/h/target; mode error envelopes reused across floors",
+    "include": [
+      "Ac/b setup",
+      "power sequences",
+      "defect computation",
+      "two causal convolutions per mode",
+      "floor aggregation",
+      "memory and validation cost"
+    ],
+    "signed_reconstruction": "signed recurrence/convolution gives exact candidate correction in this model; classify as full target reconstruction, not free prediction.",
+    "speedup_claim": "none without measured total-work comparison"
+  },
+  "minimum_output_fields": [
+    "Case",
+    "Story",
+    "zeta_c",
+    "method",
+    "P0",
+    "Phat",
+    "L",
+    "U",
+    "max_Edisc",
+    "coth_width",
+    "discrete_width",
+    "combined_width_if_valid",
+    "decision_status",
+    "width_status",
+    "peak_region_status",
+    "model_and_FP_status",
+    "workload"
+  ],
+  "new_engineering_arrays_or_response_here": false
+}

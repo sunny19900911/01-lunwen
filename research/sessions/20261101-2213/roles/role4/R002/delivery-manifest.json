@@ -1,0 +1,185 @@
+{
+  "frozen_utc": "2026-11-01T14:44:54.594567+00:00",
+  "outputs": [
+    {
+      "name": "all12-target-reference-comparison-wide-48.csv",
+      "bytes": 16178,
+      "sha256": "2c10aaa4fb12cbfdb77769049df71bb7b5948e21f27356e5ef78cad9c8218f08"
+    },
+    {
+      "name": "baseline-only-coth-bound-prediction-intervals-96.csv",
+      "bytes": 38412,
+      "sha256": "6e0199d0d00fbc61975556a2dbda0992841e2bdbb0dcffac2d518f068c3edae7"
+    },
+    {
+      "name": "bounds-frozen-before-target-open.json",
+      "bytes": 318,
+      "sha256": "27b6c35fb07b9c2301116f96f51c78f9b5e62367524881279a3c110b0495fbc2"
+    },
+    {
+      "name": "candidate-level-recompute-accounting-8.csv",
+      "bytes": 1211,
+      "sha256": "a0c2fb0eac8c5a15365a9f1b6f90b8f9a1e1a4f8e0556bbad976d18232586ade"
+    },
+    {
+      "name": "coth-interval-coverage-width-decisions-96.csv",
+      "bytes": 47775,
+      "sha256": "c9af99f18ad7961da664e3e063b1ee669e994f85bc241e18fb44a5b59c0ec226"
+    },
+    {
+      "name": "evaluate_frozen_predictions_and_coth_bounds.py",
+      "bytes": 15297,
+      "sha256": "304b7489ebfd7c52e79ad4dd689997ed5cd95ca934ac2de211bebf55e3df32c5"
+    },
+    {
+      "name": "evaluation-rules-freeze.json",
+      "bytes": 4180,
+      "sha256": "43c5350b5350adbbdd31bbda83a25833b32a934253c31613ec85c18068889c46"
+    },
+    {
+      "name": "exact-reference-truth-peaks-48.csv",
+      "bytes": 7788,
+      "sha256": "6d6dc493d9ed6cbe6b013cbf62124176df4b894b41f6c6f4495683e3b99b0501"
+    },
+    {
+      "name": "frozen-prediction-vs-exact-reference-96.csv",
+      "bytes": 26201,
+      "sha256": "48434d3c8502e9cee232618a48338af43fdeedbbbf798b07db0c0e4b2d853822"
+    },
+    {
+      "name": "old-peak-first-order-baseline-comparison-48.csv",
+      "bytes": 11743,
+      "sha256": "6e4ad8136974a320afc13bf286761760b6779ade5dfa4be4f5d2940b24c24cfb"
+    },
+    {
+      "name": "one-page-validation-and-bound-result.md",
+      "bytes": 3297,
+      "sha256": "c931a7b2e1166948985dc33bfeea3c59d1ede9734a5a7c1456a9ceb5860a8d49"
+    },
+    {
+      "name": "order2-worse-than-order1-peak-cases.csv",
+      "bytes": 5045,
+      "sha256": "dbde71defd899e4f0ff774bbef502a74b6e291ac14e345e4b4a8bf53823858e5"
+    },
+    {
+      "name": "point-prediction-insufficient-miss-cases-2.csv",
+      "bytes": 989,
+      "sha256": "909f9d398252b80728934575e1e421f60bf085f52d2011626986cbda1bcc9922"
+    },
+    {
+      "name": "prediction-and-coth-bound-summary-8.csv",
+      "bytes": 1726,
+      "sha256": "96e9c6a6cf02e900fbae2053e7c0bec78b82a1c751a73e9b088fed483168002b"
+    },
+    {
+      "name": "recover_verify_and_freeze.py",
+      "bytes": 13789,
+      "sha256": "981bcc60f8428ec18a1f33909792422d126c7b7a010a273d9f067258f923a1e2"
+    },
+    {
+      "name": "reference-truth-array-index.json",
+      "bytes": 1918,
+      "sha256": "4dea9a470748a2e384070088bacdd65f3903a854d334d6468101a9e99b242e4c"
+    },
+    {
+      "name": "results.json",
+      "bytes": 8305,
+      "sha256": "4a2cd68feebc2bb06a500612b640555dd26f32b29ad098d005eeb796ffa8b4c2"
+    },
+    {
+      "name": "run-isolation-and-cost-notes.md",
+      "bytes": 1548,
+      "sha256": "a82831a9a96b8c24fc486b4b0abc3beababf8b57ba2cde53d0b75851066ca6b7"
+    },
+    {
+      "name": "Story5-Story12-priority-truth-and-predictions-8.csv",
+      "bytes": 3015,
+      "sha256": "d94ac4fbf17bba946a8c194245c7215e748b574fbd8031b5cccaa3d3b8e575bf"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 1240,
+      "sha256": "f9885d8c446a214eb2c4560a975212732eacde86aa0d8d78a276a43bc0443a0a"
+    },
+    {
+      "name": "workload-and-measured-cost-ledger-8.csv",
+      "bytes": 1108,
+      "sha256": "3496100d15c71f23cc4c9c6eee1cec6048b43a6d52cca5f7caebb5c342c60246"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "bytes": 14836060,
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2"
+    },
+    {
+      "path": "C:\\Users\\mj528\\.codex\\skills\\etabs-response-analysis\\scripts\\modal_linear.py",
+      "bytes": 2206,
+      "sha256": "1c2620542f812e355c4be3ad8877db92db2ba3343cd3a2405e26c731be796827"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\local-cache\\baseline-analytic-sensitivities-and-frozen-predictions.npz",
+      "bytes": 32993807,
+      "sha256": "e53b2e218a2a6faf078613b5f79c23763e0690230fea2aeec8f9c9ffc109df46"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\prediction-freeze-manifest.json",
+      "bytes": 3787,
+      "sha256": "c5f96c2114825a734e3b324f9e30b17680b5dc796a099f5e3b05a86a6a003785"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\all300-layer-peak-predictions-96.csv",
+      "bytes": 17844,
+      "sha256": "23b52d150406843dec17e9412ec4634b02be8d85a5d4a7a329abb6bd2599d063"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\predict_from_damping_sensitivity.py",
+      "bytes": 9891,
+      "sha256": "3a9c63f4293d7292ce47fb5f75f7e0f549bfb7a89f8c8089ee7fa39c3b61e8c3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\engineering-policy-freeze-v001.json",
+      "bytes": 1731,
+      "sha256": "38f525f51f0fb90579e85016b6196502f2f4c6b0614d3cf5879173780df2d2bb"
+    }
+  ],
+  "target_reference_arrays": [
+    {
+      "zeta": 0.06,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R002\\local-cache\\SHW3X-exact-reference-z0.06.npz",
+      "sha256": "afc0485c728668c3ce4c44d5e968259df8aaf5b1ed8d8f73b7fede2ad81eb9c7",
+      "origin": "new exact piecewise-linear reference",
+      "new_solve_seconds": 0.058958700159564614,
+      "output_projection_seconds": 0.004162000026553869,
+      "bytes": 12735953
+    },
+    {
+      "zeta": 0.07,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R002\\local-cache\\SHW3X-exact-reference-z0.07.npz",
+      "sha256": "44aed69238a6d9c01db6bf6de3e0bec681c968eee98a04dc584862a0b580dc6e",
+      "origin": "new exact piecewise-linear reference",
+      "new_solve_seconds": 0.056001099990680814,
+      "output_projection_seconds": 0.004311299882829189,
+      "bytes": 12733256
+    },
+    {
+      "zeta": 0.08,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.08-factorized-reference.npz",
+      "sha256": "e88b73344432c10d505e351d015d24cb5173f7ddc5a6bca2f6a30076b12fb5fc",
+      "origin": "reuse frozen old020 exact8",
+      "read_seconds": 0.14050350012257695
+    },
+    {
+      "zeta": 0.1,
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R002\\local-cache\\SHW3X-exact-reference-z0.1.npz",
+      "sha256": "614d894ac37aa9601545a83070a26ab247073f7396b273148c55bcdb8acf4969",
+      "origin": "new exact piecewise-linear reference",
+      "new_solve_seconds": 0.055646799970418215,
+      "output_projection_seconds": 0.004240100039169192,
+      "bytes": 12726995
+    }
+  ],
+  "complete_arrays_local_only": true,
+  "array_upload_allowed": false
+}

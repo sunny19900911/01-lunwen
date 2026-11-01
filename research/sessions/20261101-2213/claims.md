@@ -9,3 +9,8 @@ C021-04 supported/numerical-sanity candidate: known2DOF harmonic baseline deriva
 C021-01 supported/analytic-derivation reviewed: role1R001 +role2R001 independent z/w/r1/r2 zeroIC, outputc=Bomega²/1000 andresidualconvolution. No new basic sensitivityprinciple.
 C021-05 supported/numericalimplementation reviewed: role4R001 all300 baseline-only1/2order predictions frozen22:28:46; role2R002 independentlyownRK4 selected3modes maxrelative4.29e-8 and96peakrows0must. Thisis implementation correctness, finite-delta predictionaccuracy pending.
 C021-06 testing/engineering prediction: SHW3X8% Story5twoorders5.9408/7.5209% vsroof29.8177/25.8777%;10%Story5 orders9.3458/13.7083 across10%demo target. Frozenpredictions notvalidatedtargetresults.
+
+C021-07 reviewed-numerical: role4R002 targets and role2R003 independent audit reveal finite prediction limitations: secondorder14/48worse, maxerr15.7633% at10%;2 point-prediction low-improvement falsepasses. No universalaccuracy claim.
+C021-08 reviewed-policy: coth96intervals cover reference but all8candidate/ordergroups need fullanalysis underv001; candidate-level v002 fixed23:00 permits earlyreject when any targetfloor DU<10%, developmental SHW3 only until newmodel/input validation.
+C021-09 analytic-reviewed/numeric-pending: discrete defect e_next=Ac e+d gives absolute matrixpower convolution and timevaryingpeakintervals. role4R003 numeric narrowerall96, but independent numeric audit pending. No speedup:2.364s8envelopes vs~.06s/directcandidate.
+C021-10 static-pending-audit: public12massDOF frame sourceverified and independently assembledrole6R002, full eigen/cut identities tinyresidual; role2R004 audit ongoing, not a dynamicvalidation result yet.

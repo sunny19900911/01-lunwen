@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-11-01T22:50:00+08:00",
+  "identity": "OpenSees official Example5 3-story 3-bay ElasticSection parameter reconstruction; public numerical benchmark, not measured building",
+  "source_directory": "roles/role3/R002",
+  "structural_input": "assembly-inputs.json, preserve16nodes21elements4pinnedbase and12separate horizontal masses; no imposed rigid diaphragm",
+  "ownership_addendum": "role6 may assemble/check static M/K/output maps only inownR002; role4 remains sole dynamic response/target prediction producer; role2 independent audit. This narrow split avoids duplicate dynamic production.",
+  "units": "in, kip, s retained for first static assembly and eigenproblem; source g386.4 in/s2, mass kip*s2/in. Convert forces/length consistently only in derivative reporting.",
+  "dof_contract": "48totalDOF ->40free after8translation constraints;12positive horizontal mass DOF,28massless; condense only after Kzz invertibility; no artificial small masses",
+  "record": "H-E12140.AT2 sha e1e260f8434d147553c9a088a04985dc9ee3bb0d4b2ad19e99529b401d00edd4,7802samples,dt.005,firstsamplet0,last39.005",
+  "input_scale": "raw record g times source386.4 in/s2, GMfactor1.0, no new filtering/truncation; full39.005s",
+  "initial_conditions": "all relative displacement/velocity and sensitivity states zero",
+  "damping": "classical modal uniform zeta0=.05, candidate .06/.07/.08/.10; not original example default2%Rayleigh",
+  "prediction_methods": ["first baseline sensitivity whole window", "second baseline sensitivity whole window", "old-peak first sensitivity baseline", "scalarcoth residual interval and optionalpointwise interval ifalreadyfrozenmethod"],
+  "prediction_before_truth": true,
+  "output": "sum horizontal elastic member endforces crossing eachstorybottom; separately verify inertiaprojection from condensedEigen. No use support reactions includingdamping as elastic shear.",
+  "policy": "root engineering-policy-freeze-v001.json Dreq.10,width.05 demonstration; unchanged",
+  "source_difference": "our linear algebra reconstruction/completewindow/uniform5% differs source solver/Rayleigh/timewindow; do not claim software run equivalence",
+  "raw_record_and_scripts_upload": false,
+  "publishable": "selfwrittenparameter-summary/small derived12x12M/K/modalmaps andmetrics only withsourceattribution, not original scripts or AT2"
+}

@@ -1,0 +1,72 @@
+{
+  "start_observed_utc": "2026-11-01T14:33:19+00:00",
+  "primary12min_deadline_utc": "2026-11-01T14:45:19+00:00",
+  "hard15min_deadline_utc": "2026-11-01T14:48:19+00:00",
+  "rules_frozen_utc": "2026-11-01T14:37:50.687318+00:00",
+  "prediction_frozen_utc": "2026-11-01T14:28:46.113942+00:00",
+  "prediction_manifest_sha256": "c5f96c2114825a734e3b324f9e30b17680b5dc796a099f5e3b05a86a6a003785",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "bytes": 14836060,
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2"
+    },
+    {
+      "path": "C:\\Users\\mj528\\.codex\\skills\\etabs-response-analysis\\scripts\\modal_linear.py",
+      "bytes": 2206,
+      "sha256": "1c2620542f812e355c4be3ad8877db92db2ba3343cd3a2405e26c731be796827"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\local-cache\\baseline-analytic-sensitivities-and-frozen-predictions.npz",
+      "bytes": 32993807,
+      "sha256": "e53b2e218a2a6faf078613b5f79c23763e0690230fea2aeec8f9c9ffc109df46"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\prediction-freeze-manifest.json",
+      "bytes": 3787,
+      "sha256": "c5f96c2114825a734e3b324f9e30b17680b5dc796a099f5e3b05a86a6a003785"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\all300-layer-peak-predictions-96.csv",
+      "bytes": 17844,
+      "sha256": "23b52d150406843dec17e9412ec4634b02be8d85a5d4a7a329abb6bd2599d063"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\predict_from_damping_sensitivity.py",
+      "bytes": 9891,
+      "sha256": "3a9c63f4293d7292ce47fb5f75f7e0f549bfb7a89f8c8089ee7fa39c3b61e8c3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\engineering-policy-freeze-v001.json",
+      "bytes": 1731,
+      "sha256": "38f525f51f0fb90579e85016b6196502f2f4c6b0614d3cf5879173780df2d2bb"
+    }
+  ],
+  "target_zetas": [
+    0.06,
+    0.07,
+    0.08,
+    0.1
+  ],
+  "new_exact_truth_zetas": [
+    0.06,
+    0.07,
+    0.1
+  ],
+  "reused_exact_truth_zeta": 0.08,
+  "reused8_source_expected": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.08-factorized-reference.npz",
+    "bytes": 14829087,
+    "sha256": "e88b73344432c10d505e351d015d24cb5173f7ddc5a6bca2f6a30076b12fb5fc"
+  },
+  "bound_rule": "single low-cost baseline-only infinity-L1 coth bound, fixed before target read; no local convolution or target-dependent tuning",
+  "residuals": "r1=2*omega*delta^2*zdot; r2=omega*delta^3*wdot",
+  "output": "E_s=sum abs(B)*omega^2/1000 * sample_sup_abs(r) * omega^-2*coth(pi*zc/(2*sqrt(1-zc^2)))",
+  "peak_interval": "[max(0,Phat-E),Phat+E], D=[1-Pupper/P0,1-Plower/P0]",
+  "interval_rule": "DL>=.10 sufficient; DU<.10 insufficient; else full recompute; adverse DU<0 certain, DL<0 possible",
+  "old_peak_baseline": "absolute first-order predicted curve at baseline5 controlling time; also preserve linearized absolute-peak value",
+  "target_truth_scope": "same fixed300 linear model and time grid, not native software/FNA; old8 case historical known",
+  "cost": "count derivative systems+FD check+output predictions+bound work; measure current bound/truth/output times, R001 derivative wall-time unavailable so no speedup claim",
+  "sampled_bound_not_continuous_numerical_certificate": true,
+  "no_R001_changes": true
+}

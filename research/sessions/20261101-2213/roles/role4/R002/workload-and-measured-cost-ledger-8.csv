@@ -1,0 +1,9 @@
+﻿item,system_equivalent_count,measured_seconds,note
+R001 analytic first and second derivative systems,2,,"joint exact-propagator derivative loop done in frozen R001; separate numerical CPU timer unavailable, workflow elapsed410.114s includes reading/writing/reporting"
+R001 infinitesimal finite-difference verification,4,,"4 local-neighbor exact300 checks, include as verification overhead, not finite target evaluation"
+R001 whole-window first/second predictions,8,,"8 full300 output combinations, no candidate states solve"
+R002 baseline residual coth bounds,8,0.0654076999053359,8 target/order modal maxima and physical absolute-weight sums; no convolution
+reference truth zeta=0.06,1,0.06312070018611848,"new exact300 solve plus output projection, serialization not included"
+reference truth zeta=0.07,1,0.06031239987351,"new exact300 solve plus output projection, serialization not included"
+reference truth zeta=0.08,0,0.14050350012257695,reused old020 exact8 source read
+reference truth zeta=0.1,1,0.05988690000958741,"new exact300 solve plus output projection, serialization not included"

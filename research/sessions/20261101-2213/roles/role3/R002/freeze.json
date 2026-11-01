@@ -1,0 +1,63 @@
+{
+  "session": "20261101-2213",
+  "role": 3,
+  "round": "R002",
+  "started_actual": "2026-11-01T22:39:56+08:00",
+  "deadline": "2026-11-01T22:51:56+08:00",
+  "frozen_actual": "2026-11-01T22:44:58.795998+08:00",
+  "task_complete": true,
+  "files": [
+    {
+      "path": "public-multistory-benchmark.md",
+      "bytes": 7372,
+      "sha256": "9b3c8e4bee434f6f9df900691d321963992efd00aad9fb1e18d41aa82cb3d2f1"
+    },
+    {
+      "path": "prepare_public_benchmark.py",
+      "bytes": 7028,
+      "sha256": "eb4f46f1a9c5bcc2c1927443cde6f39fb1042ae76f552abd09341247983a3396"
+    },
+    {
+      "path": "assembly-inputs.json",
+      "bytes": 7094,
+      "sha256": "1fa391c0fc059463475a529db82a890dcfb1f104400cc4d77247341b5504104e"
+    },
+    {
+      "path": "record-metadata.json",
+      "bytes": 1320,
+      "sha256": "8f73402db05003ed48e56db4311b4310853c90a655f369b6e013131d30e1ad76"
+    },
+    {
+      "path": "source-manifest.json",
+      "bytes": 1226,
+      "sha256": "2846a280bcf75f5c24a142b4b249484217de8ebdbf23d213f4dd6973d41d837d"
+    }
+  ],
+  "run": {
+    "command": "python -X utf8 research/sessions/20261101-2213/roles/role3/R002/prepare_public_benchmark.py",
+    "interpreter": "C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "exit_code": 0,
+    "purpose": "source hash checks, literal parsing, unit arithmetic, record count and finite checks"
+  },
+  "input_validation": {
+    "nodes": 16,
+    "elements": 21,
+    "supports": 4,
+    "horizontal_point_masses": 12,
+    "record_npts": 7802,
+    "all_record_values_finite": true,
+    "source_hashes_match": true,
+    "utf8_and_no_trailing_whitespace": true,
+    "json_and_python_parse": true,
+    "topology_references_exist": true
+  },
+  "not_performed": [
+    "Tcl execution",
+    "matrix assembly",
+    "eigenvalue solve",
+    "structural response integration",
+    "solver invocation",
+    "Git operations"
+  ],
+  "licensing": "official examples/record cached only; source index and self-authored parameters may be handed off; no raw record upload"
+}

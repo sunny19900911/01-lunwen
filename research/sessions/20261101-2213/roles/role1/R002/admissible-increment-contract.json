@@ -1,0 +1,129 @@
+{
+  "task": "session021-role1-R002",
+  "scope": "baseline-only conservative damping-increment allowance, fixed elastic output and common modal damping change",
+  "not_claimed": [
+    "actual peak monotonicity",
+    "largest true Taylor-valid delta",
+    "goal improvement achieved merely because error bound passes",
+    "uniform safety outside predefined inputs/model"
+  ],
+  "baseline_once_per_floor_record": {
+    "P0": "baseline same-reference absolute peak,kN",
+    "J1": "2*sum(abs(B_sr)*omega_r*norminf(zdot_r))/1000,kN",
+    "J2": "sum(abs(B_sr)*omega_r*norminf(wdot_r))/1000,kN",
+    "optional_G1": "norminf(sum(B_sr*omega_r^2*z_r/1000)),kN",
+    "optional_G2": "norminf(sum(B_sr*omega_r^2*w_r/1000)),kN",
+    "uncertainty": "known fixed numerical-error allowance and baseline force uncertainty; sampled maxima need appropriate numerical-bound status"
+  },
+  "bound": {
+    "kappa": "coth(pi*zeta/(2*sqrt(1-zeta^2))) for0<zeta<1;1 forzeta>=1",
+    "T1": "E_analytic=J1*delta^2*kappa(zeta0+delta)",
+    "T2": "E_analytic=J2*abs(delta)^3*kappa(zeta0+delta)",
+    "E_total": "E_analytic+E_num",
+    "no_target_truth": "Only baseline derivative scales and known target damping parameter enter."
+  },
+  "project_budgets": {
+    "absolute_peak_tolerance_kN": "tau, if required",
+    "relative_to_baseline_peak": "eps0*P0, if required",
+    "improvement_width": "Wmax*P0/2, sufficient even when lower peak interval clips at0",
+    "Wmax_demo": 0.05,
+    "analytic_budget": "A=min(applicable budgets)-fixed E_num; require A>0",
+    "no_requirement": "Do not invent a radius without a specified error budget.",
+    "target_peak_relative_tolerance": "Separate rule below; eps0*P0 is not this denominator."
+  },
+  "positive_radius": {
+    "closed_form": "min(project_delta_cap,(A/(Jp*kappa(zeta0)))^(1/n)),n2 forT1,n3 forT2",
+    "tighter_rule": "Jp*d^n*kappa(zeta0+d)<=A",
+    "monotonicity": "proved for d>0 with zeta0>0,Jp>0; allows safe bisection",
+    "return": "largest certified passing lower endpoint within predefined domain, plus bracket and slack",
+    "if_cap_passes": "All increments through cap pass this bound; not a claim beyond cap."
+  },
+  "negative_radius": {
+    "magnitude": "x=-delta,0<x<zeta0",
+    "tighter_rule": "Jp*x^n*kappa(zeta0-x)<=A, monotonically increasing inx",
+    "fixed_positive_minimum_damping": "0<zeta_min<zeta0, cap<=zeta0-zeta_min",
+    "closed_form": "min(zeta0-zeta_min,(A/(Jp*kappa(zeta_min)))^(1/n))",
+    "near_zero_target": "Infinite-window kernel norm diverges as target damping tends0; this conservative failure does not assert finite-window response divergence."
+  },
+  "monotonicity_proof": {
+    "key": "-zeta*kappa_prime/kappa=pi*u*(1+u^2)/sinh(pi*u)<=1,u=zeta/sqrt(1-zeta^2)",
+    "inequality": "sinh(pi*u)>=pi*u+(pi*u)^3/6>=pi*u*(1+u^2)",
+    "positive_log_derivative": "n/delta+kappa_prime/kappa>=n/delta-1/(zeta0+delta)>0",
+    "negative": "x^n and kappa(zeta0-x) are both increasing",
+    "extension": "kappa=1 at/above critical damping; continuous at1"
+  },
+  "bisection": {
+    "inputs": [
+      "side",
+      "Jp",
+      "n",
+      "zeta0",
+      "A",
+      "predeclared cap",
+      "delta_tolerance"
+    ],
+    "initial": "lo=0; hi=cap; test cap first; require physical domain",
+    "iteration": "mid=(lo+hi)/2; passing F(mid)<=A =>lo=mid, otherwisehi=mid",
+    "termination": "hi-lo<=delta_tolerance; returnlo, not midpoint",
+    "floating": "Keep pass margin and numerical precision status; overflow/NaN is not passing.",
+    "varying_numerical_error": "Need common upper envelope or independent monotonicity proof; otherwise do not assume bisection monotonic."
+  },
+  "relative_to_unknown_target_peak": {
+    "candidate_specific": "If Phat>E_total, require E_total/(Phat-E_total)<=eps_star; this uses baseline polynomial Phat, not truth.",
+    "not_known_monotone": "Do not infer a full allowed interval from one candidate-specific passing point.",
+    "baseline_only_monotone_radius": "(1+eps_star)*E_total+eps_star*M_p(abs(delta))<=eps_star*P0 AND P0-M_p-E_total>0",
+    "M1": "abs(delta)*G1",
+    "M2": "abs(delta)*G1+delta^2*G2/2",
+    "denominator_zero": "Target-relative error undefined, use absolute-force requirement."
+  },
+  "near_zero_baseline": {
+    "trigger": "P0=0 or P0 not resolved above baseline force-error bound/project relevance floor",
+    "action": "use absolute force budget; no improvement percentage or baseline-relative radius",
+    "J_reported_zero": "check precision before treating it as exact0; never automatically grant unlimited domain"
+  },
+  "candidate_workflow": [
+    {
+      "target_zeta": 0.06,
+      "delta": 0.01
+    },
+    {
+      "target_zeta": 0.07,
+      "delta": 0.02
+    },
+    {
+      "target_zeta": 0.08,
+      "delta": 0.03
+    },
+    {
+      "target_zeta": 0.1,
+      "delta": 0.05
+    }
+  ],
+  "selection": "Use T1 if its budget passes; otherwise T2 if its budget passes; neither pass=>direct numerical extrapolation not approved under this bound. T2 need not have a larger allowed radius.",
+  "separate_statuses": {
+    "decision_status": "meets/insufficient/overlap of goal interval; adverse flag separately",
+    "width_status": "within/exceeds fixed Wmax",
+    "peak_region_status": "certified/overlap/unassessed",
+    "action": "preserve mathematical goal conclusions even when precision gate fails; follow frozen project recomputation policy"
+  },
+  "joint_radius": "minimum across predeclared key floors and input records; not all possible earthquakes",
+  "minimum_table": [
+    "Story",
+    "Case",
+    "method",
+    "P0_kN",
+    "Jp_kN",
+    "A_kN",
+    "positive_radius",
+    "negative_radius",
+    "candidate_zeta",
+    "delta",
+    "E_total_over_P0",
+    "width_upper_bound",
+    "decision_status",
+    "width_status",
+    "peak_region_status",
+    "recompute_flag"
+  ],
+  "new_engineering_data_or_target_truth_used": false
+}

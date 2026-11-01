@@ -1,0 +1,386 @@
+{
+  "identity": "OpenSees official Example 5, 3-story 3-bay, ElasticSection branch",
+  "authors_in_source": "Silvia Mazzoni & Frank McKenna, 2006",
+  "status": "public numerical example, not a measured real building",
+  "units": {
+    "length": "in",
+    "force": "kip",
+    "time": "s",
+    "mass": "kip*s^2/in"
+  },
+  "dof_per_node": [
+    "ux",
+    "uy",
+    "rz"
+  ],
+  "stories": 3,
+  "bays": 3,
+  "E_kip_per_in2": 29000,
+  "sections": {
+    "column": {
+      "A_in2": 33.5,
+      "Iz_in4": 4090
+    },
+    "beam": {
+      "A_in2": 27.7,
+      "Iz_in4": 2700
+    }
+  },
+  "geometry": "Linear",
+  "section_response": "Elastic",
+  "original_element": "nonlinearBeamColumn, five integration points, elastic section",
+  "nodes": [
+    {
+      "tag": 11,
+      "x_in": 0,
+      "y_in": 0
+    },
+    {
+      "tag": 12,
+      "x_in": 288,
+      "y_in": 0
+    },
+    {
+      "tag": 13,
+      "x_in": 576,
+      "y_in": 0
+    },
+    {
+      "tag": 14,
+      "x_in": 864,
+      "y_in": 0
+    },
+    {
+      "tag": 21,
+      "x_in": 0,
+      "y_in": 168
+    },
+    {
+      "tag": 22,
+      "x_in": 288,
+      "y_in": 168
+    },
+    {
+      "tag": 23,
+      "x_in": 576,
+      "y_in": 168
+    },
+    {
+      "tag": 24,
+      "x_in": 864,
+      "y_in": 168
+    },
+    {
+      "tag": 31,
+      "x_in": 0,
+      "y_in": 336
+    },
+    {
+      "tag": 32,
+      "x_in": 288,
+      "y_in": 336
+    },
+    {
+      "tag": 33,
+      "x_in": 576,
+      "y_in": 336
+    },
+    {
+      "tag": 34,
+      "x_in": 864,
+      "y_in": 336
+    },
+    {
+      "tag": 41,
+      "x_in": 0,
+      "y_in": 504
+    },
+    {
+      "tag": 42,
+      "x_in": 288,
+      "y_in": 504
+    },
+    {
+      "tag": 43,
+      "x_in": 576,
+      "y_in": 504
+    },
+    {
+      "tag": 44,
+      "x_in": 864,
+      "y_in": 504
+    }
+  ],
+  "supports": [
+    {
+      "node": 11,
+      "fixed_dofs": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "node": 12,
+      "fixed_dofs": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "node": 13,
+      "fixed_dofs": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "node": 14,
+      "fixed_dofs": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "tag": 111,
+      "i": 11,
+      "j": 21,
+      "section": "column"
+    },
+    {
+      "tag": 112,
+      "i": 12,
+      "j": 22,
+      "section": "column"
+    },
+    {
+      "tag": 113,
+      "i": 13,
+      "j": 23,
+      "section": "column"
+    },
+    {
+      "tag": 114,
+      "i": 14,
+      "j": 24,
+      "section": "column"
+    },
+    {
+      "tag": 121,
+      "i": 21,
+      "j": 31,
+      "section": "column"
+    },
+    {
+      "tag": 122,
+      "i": 22,
+      "j": 32,
+      "section": "column"
+    },
+    {
+      "tag": 123,
+      "i": 23,
+      "j": 33,
+      "section": "column"
+    },
+    {
+      "tag": 124,
+      "i": 24,
+      "j": 34,
+      "section": "column"
+    },
+    {
+      "tag": 131,
+      "i": 31,
+      "j": 41,
+      "section": "column"
+    },
+    {
+      "tag": 132,
+      "i": 32,
+      "j": 42,
+      "section": "column"
+    },
+    {
+      "tag": 133,
+      "i": 33,
+      "j": 43,
+      "section": "column"
+    },
+    {
+      "tag": 134,
+      "i": 34,
+      "j": 44,
+      "section": "column"
+    },
+    {
+      "tag": 221,
+      "i": 21,
+      "j": 22,
+      "section": "beam"
+    },
+    {
+      "tag": 222,
+      "i": 22,
+      "j": 23,
+      "section": "beam"
+    },
+    {
+      "tag": 223,
+      "i": 23,
+      "j": 24,
+      "section": "beam"
+    },
+    {
+      "tag": 231,
+      "i": 31,
+      "j": 32,
+      "section": "beam"
+    },
+    {
+      "tag": 232,
+      "i": 32,
+      "j": 33,
+      "section": "beam"
+    },
+    {
+      "tag": 233,
+      "i": 33,
+      "j": 34,
+      "section": "beam"
+    },
+    {
+      "tag": 241,
+      "i": 41,
+      "j": 42,
+      "section": "beam"
+    },
+    {
+      "tag": 242,
+      "i": 42,
+      "j": 43,
+      "section": "beam"
+    },
+    {
+      "tag": 243,
+      "i": 43,
+      "j": 44,
+      "section": "beam"
+    }
+  ],
+  "nodal_masses": [
+    {
+      "node": 21,
+      "mx_kip_s2_per_in": 0.0629503105590062,
+      "my": 0,
+      "mtheta": 0,
+      "source_expression": "($WeightCol/2 + $WeightCol/2 +$WeightBeam/2)/$g"
+    },
+    {
+      "node": 22,
+      "mx_kip_s2_per_in": 0.1217701863354037,
+      "my": 0,
+      "mtheta": 0,
+      "source_expression": "($WeightCol/2 + $WeightCol/2 +$WeightBeam/2 +$WeightBeam/2)/$g"
+    },
+    {
+      "node": 23,
+      "mx_kip_s2_per_in": 0.1217701863354037,
+      "my": 0,
+      "mtheta": 0,
+      "source_expression": "($WeightCol/2 + $WeightCol/2 +$WeightBeam/2 +$WeightBeam/2)/$g"
+    },
+    {
+      "node": 24,
+      "mx_kip_s2_per_in": 0.0629503105590062,
+      "my": 0,
+      "mtheta": 0,
+      "source_expression": "($WeightCol/2 + $WeightCol/2 +$WeightBeam/2)/$g"
+    },
+    {
+      "node": 31,
+      "mx_kip_s2_per_in": 0.0629503105590062,
+      "my": 0,
+      "mtheta": 0,
+      "source_expression": "($WeightCol/2 + $WeightCol/2 +$WeightBeam/2)/$g"
+    },
+    {
+      "node": 32,
+      "mx_kip_s2_per_in": 0.1217701863354037,
+      "my": 0,
+      "mtheta": 0,
+      "source_expression": "($WeightCol/2 + $WeightCol/2 +$WeightBeam/2 +$WeightBeam/2)/$g"
+    },
+    {
+      "node": 33,
+      "mx_kip_s2_per_in": 0.1217701863354037,
+      "my": 0,
+      "mtheta": 0,
+      "source_expression": "($WeightCol/2 + $WeightCol/2 +$WeightBeam/2 +$WeightBeam/2)/$g"
+    },
+    {
+      "node": 34,
+      "mx_kip_s2_per_in": 0.0629503105590062,
+      "my": 0,
+      "mtheta": 0,
+      "source_expression": "($WeightCol/2 + $WeightCol/2 +$WeightBeam/2)/$g"
+    },
+    {
+      "node": 41,
+      "mx_kip_s2_per_in": 0.06088509316770185,
+      "my": 0,
+      "mtheta": 0,
+      "source_expression": "($WeightCol/2 +$WeightBeam/2)/$g"
+    },
+    {
+      "node": 42,
+      "mx_kip_s2_per_in": 0.11970496894409936,
+      "my": 0,
+      "mtheta": 0,
+      "source_expression": "($WeightCol/2 +$WeightBeam/2 +$WeightBeam/2)/$g"
+    },
+    {
+      "node": 43,
+      "mx_kip_s2_per_in": 0.11970496894409936,
+      "my": 0,
+      "mtheta": 0,
+      "source_expression": "($WeightCol/2 +$WeightBeam/2 +$WeightBeam/2)/$g"
+    },
+    {
+      "node": 44,
+      "mx_kip_s2_per_in": 0.06088509316770185,
+      "my": 0,
+      "mtheta": 0,
+      "source_expression": "($WeightCol/2 +$WeightBeam/2)/$g"
+    }
+  ],
+  "g_in_per_s2": 386.40000000000003,
+  "derived_weights_kip": {
+    "each_column": 1.5959999999999999,
+    "each_beam_and_slab": 45.455999999999996
+  },
+  "floor_mass_kip_s2_per_in": {
+    "2": 0.3694409937888198,
+    "3": 0.3694409937888198,
+    "4": 0.3611801242236024
+  },
+  "assembly_handoff": {
+    "full_dofs": 48,
+    "free_dofs_after_supports": 40,
+    "positive_mass_horizontal_dofs": 12,
+    "massless_free_dofs": 28,
+    "no_diaphragm_constraint": true,
+    "suggestion": "Assemble linear 2D frame K; statically condense 28 massless DOFs only after checking Kzz invertibility. Preserve all 12 horizontal DOFs.",
+    "not_performed_here": [
+      "matrix assembly",
+      "modal analysis",
+      "response prediction",
+      "solver invocation"
+    ]
+  }
+}

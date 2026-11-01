@@ -1,0 +1,16 @@
+{
+  "frozen_at": "2026-11-01T23:00:00+08:00",
+  "status": "new candidate-level operational strategy for subsequent evaluation; does not change R002 floor-policy results",
+  "development_information": "SHW3X R002 comparison already read. Any SHW3X retrospective benefit is development evidence, not independent validation.",
+  "evaluation_groups": ["public Example5 plus H-E12140, not yet dynamically computed", "SHW4X/RH4X new candidate predictions frozen before target evaluation; historical8percent known"],
+  "project_input": "target floor set; default all floors; Dreq=.10 demonstration, Wmax=.05 demonstration unchanged",
+  "floor_states": "unchanged engineering-policy-freeze-v001 mathematicaldecision/width/peakregion separate",
+  "candidate_reject": "any targetfloor has valid mathematical insufficient decision DU<Dreq; rejection possible even otherfloors uncertain or intervalwide, because allfloors target cannot be satisfied",
+  "candidate_pass": "all targetfloors meet DL>=Dreq, all widthacceptable and no invalid data",
+  "candidate_recompute": "neither reject nor pass; one complete analysis per candidate, not per flaggedfloor",
+  "width_caveat": "wide but wholly insufficient interval logically rejects candidate; continue recording widthfailure, not a claim of accurate numerical peak prediction",
+  "comparison": "retain v001 allflaggedfloorsrequirefullanalysis as separatepolicy baseline; do not overwrite its 8of8 recompute result",
+  "metrics": ["false pass of insufficient candidates", "false rejection of meeting candidates", "adverse missedpass", "candidate reject/pass/recompute rates", "full end-to-end measured cost including derivatives/bounds/fullrecompute", "all floor-level uncertainty and errors"],
+  "no_timing_advantage_claim_until_measured": true,
+  "validation_note": "requires sound intervals in their stated numerical model; zero adverse examples cannot establish adverse-event reliability"
+}

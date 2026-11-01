@@ -1,0 +1,103 @@
+{
+  "modal_checks": [
+    {
+      "mode": 1,
+      "omega_rad_per_s": 9.585361548259394,
+      "Gamma": 1.0242483536626659,
+      "effective_mass": 1.049084689980681,
+      "condensed_eigen_column_relative": 3.549191429412951e-13,
+      "full_free_eigen_column_relative": 6.568611532260601e-13
+    },
+    {
+      "mode": 2,
+      "omega_rad_per_s": 39.18149047008429,
+      "Gamma": 0.21164436230494382,
+      "effective_mass": 0.04479333609546633,
+      "condensed_eigen_column_relative": 3.014739184357524e-14,
+      "full_free_eigen_column_relative": 4.131780708981743e-14
+    },
+    {
+      "mode": 3,
+      "omega_rad_per_s": 83.71732382573153,
+      "Gamma": -0.07856248698403762,
+      "effective_mass": 0.006172064361117084,
+      "condensed_eigen_column_relative": 4.650133663387616e-15,
+      "full_free_eigen_column_relative": 1.0957013192878266e-14
+    },
+    {
+      "mode": 4,
+      "omega_rad_per_s": 150.82665364563752,
+      "Gamma": 2.7755575615628914e-17,
+      "effective_mass": 7.703719777548943e-34,
+      "condensed_eigen_column_relative": 1.3307271768459757e-15,
+      "full_free_eigen_column_relative": 4.550121688609239e-15
+    },
+    {
+      "mode": 5,
+      "omega_rad_per_s": 155.85815483834773,
+      "Gamma": 1.3877787807814457e-16,
+      "effective_mass": 1.9259299443872359e-32,
+      "condensed_eigen_column_relative": 1.5934248799771476e-15,
+      "full_free_eigen_column_relative": 2.777532043559017e-15
+    },
+    {
+      "mode": 6,
+      "omega_rad_per_s": 175.056820468745,
+      "Gamma": 2.7755575615628914e-17,
+      "effective_mass": 7.703719777548937e-34,
+      "condensed_eigen_column_relative": 8.921544923506312e-16,
+      "full_free_eigen_column_relative": 3.3103691803552666e-15
+    },
+    {
+      "mode": 7,
+      "omega_rad_per_s": 260.31687249822335,
+      "Gamma": 0.0007049637120068453,
+      "effective_mass": 4.969738352464702e-07,
+      "condensed_eigen_column_relative": 7.660785750681131e-16,
+      "full_free_eigen_column_relative": 1.401830511147236e-15
+    },
+    {
+      "mode": 8,
+      "omega_rad_per_s": 263.9820362771466,
+      "Gamma": -0.0013136068566597936,
+      "effective_mass": 1.7255629738636224e-06,
+      "condensed_eigen_column_relative": 5.089435462040667e-16,
+      "full_free_eigen_column_relative": 1.3866257898523055e-15
+    },
+    {
+      "mode": 9,
+      "omega_rad_per_s": 274.03726425176626,
+      "Gamma": -0.0031303078391812372,
+      "effective_mass": 9.7988271680395e-06,
+      "condensed_eigen_column_relative": 9.888491840930133e-16,
+      "full_free_eigen_column_relative": 1.6135336653387556e-15
+    },
+    {
+      "mode": 10,
+      "omega_rad_per_s": 301.8155799397755,
+      "Gamma": 1.1102230246251565e-16,
+      "effective_mass": 1.2325951644078308e-32,
+      "condensed_eigen_column_relative": 5.396576784981927e-16,
+      "full_free_eigen_column_relative": 8.223214701798694e-16
+    },
+    {
+      "mode": 11,
+      "omega_rad_per_s": 304.9228656567062,
+      "Gamma": 1.3877787807814457e-16,
+      "effective_mass": 1.9259299443872353e-32,
+      "condensed_eigen_column_relative": 7.299589287873008e-16,
+      "full_free_eigen_column_relative": 1.0294397333186067e-15
+    },
+    {
+      "mode": 12,
+      "omega_rad_per_s": 311.33588331931475,
+      "Gamma": -2.636779683484747e-16,
+      "effective_mass": 6.952607099237923e-32,
+      "condensed_eigen_column_relative": 6.263672312529302e-16,
+      "full_free_eigen_column_relative": 1.2239568175564523e-15
+    }
+  ],
+  "max_condensed_column_relative": 3.549191429412951e-13,
+  "max_full_free_column_relative": 6.568611532260601e-13,
+  "scope": "static modal columns only; no dynamic response"
+}

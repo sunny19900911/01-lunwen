@@ -1,0 +1,40 @@
+{
+  "full_dimension": 48,
+  "free_dimension": 40,
+  "massive_dimension": 12,
+  "massless_dimension": 28,
+  "Kzz_rank": 28,
+  "Kzz_min_eigenvalue_mixed_dof_units": 1145.3422003904661,
+  "Kzz_condition2_mixed_dof_units": 8990.005356360383,
+  "Kzz_diagonally_scaled_min_eigenvalue": 0.1330560020556702,
+  "Kzz_diagonally_scaled_condition2": 14.041414734222894,
+  "K40_min_eigenvalue_mixed_dof_units": 8.392385107576713,
+  "K12_min_eigenvalue_kip_per_in": 8.392905600023397,
+  "full_symmetry_relative": 0.0,
+  "condensed_raw_symmetry_relative": 7.778488036309165e-18,
+  "maximum_element_rigid_motion_relative_residual": 6.938583739629771e-19,
+  "condensed_energy_matrix_relative": 5.136207550524261e-17,
+  "mass_restoration_relative": 0.0,
+  "massless_equilibrium_relative": 7.593936360771963e-16,
+  "condensed_eigen_relative": 8.051404459815616e-16,
+  "full_free_eigen_relative": 1.479605757786546e-15,
+  "modal_mass_orthogonality_relative": 8.615637630524253e-16,
+  "massive_shape_recovery_relative": 0.0,
+  "cut_vs_upper_domain_K_relative": 9.82589741717306e-18,
+  "cut_vs_inertia_modal_relative": 2.559388876022742e-14,
+  "sign_and_scale_B_invariance_relative": 9.029681278410556e-17,
+  "effective_mass_sum": 1.1000621118012417,
+  "total_mass": 1.100062111801242,
+  "effective_mass_closure_relative": 2.0184733438501526e-16,
+  "floor_mass_above": [
+    1.100062111801242,
+    0.7306211180124222,
+    0.3611801242236024
+  ],
+  "sum_B_per_cut": [
+    1.1000621118012421,
+    0.730621118012422,
+    0.3611801242236022
+  ],
+  "B_mass_closure_relative": 2.809120053558377e-16
+}

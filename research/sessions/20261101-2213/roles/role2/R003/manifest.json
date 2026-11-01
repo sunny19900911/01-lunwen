@@ -1,0 +1,78 @@
+{
+  "status": "frozen",
+  "observed_start": "2026-11-01T22:51:34.924068+08:00",
+  "frozen_at": "2026-11-01T22:57:13.063907+08:00",
+  "deadline": "2026-11-01T23:03:34+08:00",
+  "must_fix": 0,
+  "upstream_manifest_sha256": "0055dfbb35c710a504e9f5b35e46232ef245c6624250633242f724c6206a737f",
+  "executions": [
+    {
+      "script": "audit_candidate_validation.py",
+      "exit_code": 0,
+      "tool_wall_seconds": 2.2452372
+    },
+    {
+      "script": "check_old_peak_summary.py",
+      "exit_code": 0,
+      "tool_wall_seconds": 0.3568141
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "artifacts": [
+    {
+      "name": "audit_candidate_validation.py",
+      "bytes": 17324,
+      "sha256": "ce504d95a4cd91c21ae1659e69cc4d5cd485a2f1b763e48068a2e6b31b791952"
+    },
+    {
+      "name": "check_old_peak_summary.py",
+      "bytes": 1742,
+      "sha256": "a96c5bc3446b1e4cfa739fa324c9613725c7d26d9886180e5139010bbba0bf87"
+    },
+    {
+      "name": "independent-order2-worse-14.csv",
+      "bytes": 823,
+      "sha256": "f12be59cec70ebbcef4f72c7a4659c82a5c8e736d7889e1443691e9dbefad47a"
+    },
+    {
+      "name": "independent-point-misses-2.csv",
+      "bytes": 271,
+      "sha256": "5edc74c84034675ee5224ce7f8ea3e93a191bf189a2001d2452d95fd291d51d0"
+    },
+    {
+      "name": "independent-summary-8.csv",
+      "bytes": 1718,
+      "sha256": "f98316ca36391dd85872271f40afa68accac6ed318691a8e68dc337a43f3195b"
+    },
+    {
+      "name": "independent-table-checks.csv",
+      "bytes": 753,
+      "sha256": "a321b2b7bbdd6e755ad58d487d4b2468c71f7012ee2ab871de00e1b82d7605aa"
+    },
+    {
+      "name": "independent-target-RK4-6.csv",
+      "bytes": 539,
+      "sha256": "a34e097c492b523de2c2fdef143db867ed3b7351c880b78a59d145adf9a6c0ae"
+    },
+    {
+      "name": "old-peak-baseline-comparison-summary.json",
+      "bytes": 1194,
+      "sha256": "dff06c9e07178fd320a8fa1129931788fc88752eb285cb0d458260775707223f"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3738,
+      "sha256": "e128b9ceec6d09918adfd22da5ec56ca86de6861e72ab0b903803f9ffd39a418"
+    },
+    {
+      "name": "results.json",
+      "bytes": 1159,
+      "sha256": "36e950ec801df5343a140daa950c8752de773e482a1a5597dce5b4ed10159b6b"
+    }
+  ],
+  "source_identity": "21 upstream output,7 input,4 target-array hashes checked; input/array identities recorded in results and upstream manifest",
+  "scope": "independent physical projection and all small metrics; selected 3 modes RK4 at one new candidate only; no all300 reference regeneration",
+  "full_arrays_written": false,
+  "continuous_numerical_certificate": false,
+  "adverse_rate_applicable": false
+}

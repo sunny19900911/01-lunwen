@@ -1,0 +1,57 @@
+{
+  "start_observed_utc": "2026-11-01T14:56:29+00:00",
+  "first8min_deadline_utc": "2026-11-01T15:04:29+00:00",
+  "hard15min_deadline_utc": "2026-11-01T15:11:29+00:00",
+  "method_frozen_utc": "2026-11-01T14:58:47.164749+00:00",
+  "code_sha256": "91237b37d85c3204c7d61a263ddc42ef8f72c9da3d69cb669ab4cc3ff8d00027",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2",
+      "bytes": 14836060
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\local-cache\\baseline-analytic-sensitivities-and-frozen-predictions.npz",
+      "sha256": "e53b2e218a2a6faf078613b5f79c23763e0690230fea2aeec8f9c9ffc109df46",
+      "bytes": 32993807
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\prediction-freeze-manifest.json",
+      "sha256": "c5f96c2114825a734e3b324f9e30b17680b5dc796a099f5e3b05a86a6a003785",
+      "bytes": 3787
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\all300-layer-peak-predictions-96.csv",
+      "sha256": "23b52d150406843dec17e9412ec4634b02be8d85a5d4a7a329abb6bd2599d063",
+      "bytes": 17844
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R002\\baseline-only-coth-bound-prediction-intervals-96.csv",
+      "sha256": "6e0199d0d00fbc61975556a2dbda0992841e2bdbb0dcffac2d518f068c3edae7",
+      "bytes": 38412
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\engineering-policy-freeze-v001.json",
+      "sha256": "38f525f51f0fb90579e85016b6196502f2f4c6b0614d3cf5879173780df2d2bb",
+      "bytes": 1731
+    }
+  ],
+  "targets": [
+    0.06,
+    0.07,
+    0.08,
+    0.1
+  ],
+  "orders": [
+    1,
+    2
+  ],
+  "case": "SHW3X known case, all target results previously seen in R002; no blind-validation claim",
+  "defect": "d[n]=A_c*xhat[n]+b_c[n]-xhat[n+1], both q and v components",
+  "bound": "Q[n]=sum(j=0..n-1) abs(E11((n-1-j)dt))*abs(dq[j])+abs(E12((n-1-j)dt))*abs(dv[j]); E_story[n]=sum abs(B)*omega^2/1000*Q[n]",
+  "peak_interval": "L=max_n max(0,abs(Vhat[n])-E[n]); U=max_n(abs(Vhat[n])+E[n])",
+  "roundoff": "local defect 64eps magnitude guard; kernels 128eps magnitude guard; FFT absolute guard 1e-12 times kernelL1*inputL1 per mode, separately recorded. Conservative engineering guards, not interval arithmetic or rigorous libm certificate.",
+  "scope": "sampled exact piecewise-linear-input state recurrence; continuous-time extrema not covered; no signed error convolution; no target state solve",
+  "no_target_arrays_opened_this_round": true,
+  "no_threshold_tuning": true
+}

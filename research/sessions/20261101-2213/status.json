@@ -1,42 +1,44 @@
 {
   "session": "20261101-2213",
   "session_number": 21,
-  "phase": "first-predictor-experiment",
+  "phase": "prediction-usefulness-and-independent-benchmark",
   "start": "2026-11-01T22:13:31+08:00",
   "deadline": "2026-11-02T04:13:31+08:00",
   "deadline_utc": "2026-11-01T20:13:31Z",
   "writing_start": "2026-11-02T03:13:31+08:00",
-  "checkpoint": "R002-baseline-prediction-reviewed",
+  "checkpoint": "R003-target-validation-and-discrete-envelope",
   "checkpoint_open": true,
   "active_plan": "plan.md",
   "no_new_scientific_dispatch": false,
-  "last_actual": "2026-11-01T22:41:17.002166+08:00",
+  "last_actual": "2026-11-01T23:10:18.301591+08:00",
   "automation": "git-2 newlycreated forsession021, formalview andactualTOMLverified; oldID reused byscheduler, not oldscope resumed",
   "git_authorized": true,
   "initial_HEAD": "8f60d93d1b9ed9036dffb7a300d2f9d421b15bdb",
   "old_tracked_dirty": 12,
-  "next_task": "Get role4R002 actualfreeze andread fullprediction-vs-truth/bound widths; then role2 auditthisnewtargetsmallresults. If scalarbound too wide, one targetedtime-residual-convolution sharpening, notnewdata scatter. ConfirmauthorR002 realv001saved. Role1R002maxincrement androle3R002publicmultilayer active. NextGitR003 ~22:58, hard04:13:31 unchanged.",
+  "next_task": "Collect role2R004 static audit; role4R004 public baseline prediction freeze then only new separate task for candidate target truth. Get independent numeric review of role4R003 discrete envelope before result adoption. Role6R003 candidate-level counts, authorv003. No new layout/CM repair/large data. Next checkpoint15min; fixed04:13:31 deadline.",
   "current_tasks": {
-    "role1": "R002 max10min admissible damping increment rule officiallysent22:35 actualactive; no engineeringarrays",
-    "role2": "R002 frozen22:38:24 baseline derivatives/prediction0must, pending newtarget truth audit",
-    "role3": "R002 max12min publicmultifloorbenchmark+onecorrespondingrecord sent22:39 actualstatusrefresh before nextdispatch",
-    "role4": "R002 max12-15min target6/7/10exact truth andold8reuse plus scalarcothbound; active since22:33, no R001changes",
-    "role5": "R001 failed manuscriptwrite deadline, adminrecordreal; newR0026min savepreparedv001 immediately sent22:39 latest22:46",
-    "role6": "R001frozen+role2review mathpassed, idle no duplicatecontract task"
+    "role1": "R003 discrete-defect proof frozen23:03:37, independent short math review passed; idle no new algebra task",
+    "role2": "R004 max12min independent public static assembly audit, officiallysent23:08; no dynamic production",
+    "role3": "R002 public 3story frame and AT2 frozen22:44:58; idle no redundant search",
+    "role4": "R004 max12min public baseline-only predictions/intervals, officiallysent23:10; target truth not yet authorized in this task; static audit pending",
+    "role5": "R004 max12min v003 integrate independently reviewed finite-target accuracy and new candidate-level engineering policy, active23:09",
+    "role6": "R003 max8min retrospective candidate-level policy accounting on reviewed SHW3 small tables, active23:08; no dynamic response"
   },
   "scientific_status": {
     "root_harmonic_sanity": "36known2floor steady harmonic cases; baseline sensitivity residualmax4.44e-16; sqrt2/5to8 firstorderpeakerror4.78%,second.558%; notzeroICearthquakevalidation",
-    "engineering_prediction": "role4R001 frozen22:28:46 all300/96layer peaks beforefinite targettruth; role2R002 independent ownRK4 3modes max4.29e-8/stepconvergence16;96rows576numeric192flags0must; actualfinite accuracy notyetknown",
-    "manuscript": "authorR001 failed allwrite due deadline guard, no draft falselyclaimed; realadminfailure retained; newR0026min rescue assigned",
+    "engineering_prediction": "role4R002 finite targets6/7/10 and old8 reuse independently audited role2R003:7608 fields, own selected RK4, 0must; second order worse14/48; max peak error15.7633% at10%; rawpoint predictions2low-improvement misses",
+    "manuscript": "v00112367B then v00218576B frozen/root fullread; v002 includes admissible increment radius and classical DDM attribution; v003 integration active; oldauthorR001 failure preserved",
     "derivative_math": "role1 androle2 independent r1/r2/error contract correct; rootfullread; width/decision/peakregion distinct",
-    "engineering_policy": "Dreq10%,Wmax5pp demo rootpolicy22:35 before root receives targetresults; no normativeclaim; operational recompute if uncertainty OR widthfail",
-    "literature": "Liu2011 DDM firstsecond derivatives covers foundation;Xie2020 changesstiffness notsameproblem; no firstclaim; publiccantileveronlysinglemode notmulti-floorvalidation"
+    "engineering_policy": "v001 coth bound96/96 coverage but all8groups require wholebuildinganalysis. New v002 candidate-level policy frozen23:00, retrospective SHW3 development only; alltargetfloorcriterion required.",
+    "literature": "Liu2011 DDM firstsecond derivatives covers foundation;Xie2020 changesstiffness notsameproblem; no firstclaim; publiccantileveronlysinglemode notmulti-floorvalidation",
+    "discrete_envelope": "role4R003 frozen23:01:12, root fullreportread; math independently correct; numeric independent review pending. median width2nd6%=.28523pp, 7%=2.00446pp; per-floor recompute0/12 at6%,1/12 at7%; no speedup claim:8envelopes2.364s vs direct target~.06s each",
+    "public_benchmark": "OpenSees official Example5 ElasticSection/Linear topology and one H-E12140 AT2 source checked; selfwritten16node21member assembly,12massDOF, base rotations free, no rigidfloor. role6R002 static frozen, role2R004 independent audit active. No public targetresponse yet."
   },
   "git": {
-    "last_HEAD": "10a6fc752f2e65ef5750c090adc3f631df709f55",
+    "last_HEAD": "e71c2a6f17cd674b33ecc3497abe35613f16e13b",
     "remote_equals_local": true,
-    "receipt": "git-R001-receipt.json"
+    "receipt": "git-R002-receipt.json"
   },
   "latest_mathematical_feedback": "role2 independent initialr1=2omega delta²zdot,r2=omega delta³wdot; publiczeroIC convolution, counterexample inprogress, notyetfrozen",
-  "recovery_file": "rounds/R002.md"
+  "recovery_file": "rounds/R003.md"
 }

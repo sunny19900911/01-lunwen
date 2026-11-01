@@ -1,0 +1,64 @@
+{
+  "session": "20261101-2213",
+  "role": 6,
+  "task": "R002",
+  "status": "frozen-static-await-role2-audit",
+  "actual_turn_start": "2026-11-01T22:51:22+08:00",
+  "start_source": "read_thread startedAt1793544682",
+  "first_clock": "2026-11-01T22:51:40+08:00",
+  "actual_freeze": "2026-11-01T22:57:47.534240+08:00",
+  "elapsed_seconds": 385.53424,
+  "limit_seconds": 720,
+  "within_12_minutes": true,
+  "input_sha256": "1fa391c0fc059463475a529db82a890dcfb1f104400cc4d77247341b5504104e",
+  "root_settings_sha256": "511de03e53b38dec714efd25149f7cbf4f45587aeaf5075d9fc428e9188b6a4f",
+  "run_command": "python -X utf8 research/sessions/20261101-2213/roles/role6/R002/assemble_static.py --out research/sessions/20261101-2213/roles/role6/R002/assembled-v001",
+  "python": "C:/Users/mj528/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "numpy": "2.3.5",
+  "dependencies": "NumPy only; SciPy discovery unavailable, not used",
+  "exit_code": 0,
+  "checks_passed": "48/40/12/28 DOFs; Kzz rank/SPD; stiffness/energy/mass restoration; all12 per-column generalized eigen equations; cut force vs inertia; sign/scale B; complete effective mass closure",
+  "maximum_full_free_eigen_column_relative": 6.568611532260601e-13,
+  "not_performed": [
+    "OpenSees/ETABS/YJK invocation",
+    "ground-record read",
+    "earthquake response",
+    "sensitivity",
+    "target truth",
+    "Git",
+    "source reupload"
+  ],
+  "git_proposed_allowlist_only": [
+    "assemble_static.py",
+    "assembled-v001/one-page.md",
+    "assembled-v001/static-interface.json",
+    "assembled-v001/static-checks.json",
+    "assembled-v001/modal-column-checks.json"
+  ],
+  "local_excluded": [
+    "assembled-v001/local-cache/static-full-recovery.npz"
+  ],
+  "all_local_cache_excluded_from_git": true,
+  "files": {
+    "assemble_static.py": {
+      "sha256": "bacd9ac54c1841775b7ce8626473fceb4fd6a8bf4c95c8ed3f0f074daa734c12",
+      "bytes": 13055
+    },
+    "assembled-v001/one-page.md": {
+      "sha256": "93bbfc3352041e259ea3cc87bea1c4e26af3810b227ecfa3dd5025791e25682b",
+      "bytes": 2454
+    },
+    "assembled-v001/static-interface.json": {
+      "sha256": "df70bd6984ef6196aba0dbfe46b5794b656870ef367a7bd82420a35718c6b443",
+      "bytes": 19786
+    },
+    "assembled-v001/static-checks.json": {
+      "sha256": "d05be7eb7d0804ab822642975a967ee125b8f5d09dce9161980d642890c3904f",
+      "bytes": 1573
+    },
+    "assembled-v001/modal-column-checks.json": {
+      "sha256": "c6f00baf920359b9de04877ad637a4eb6427441bd15cedfd2bcd3c07f0265e27",
+      "bytes": 3648
+    }
+  }
+}

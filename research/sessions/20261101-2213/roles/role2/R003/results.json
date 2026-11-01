@@ -1,0 +1,28 @@
+{
+  "producer_files_SHA_verified": 21,
+  "source_files_SHA_verified": 7,
+  "target_array_SHA_verified": 4,
+  "independent_X_B_max_difference_kg": 7.450580596923828e-09,
+  "physical_target_projection_max_difference_kN": 7.275957614183426e-12,
+  "table_field_checks": 7608,
+  "table_count": 10,
+  "max_table_numeric_difference": 3.637978807091713e-12,
+  "selected_new_target_zeta": 0.1,
+  "selected_modes": [
+    2,
+    10,
+    13
+  ],
+  "selected_target_RK16_max_relative_L2_error": 6.2719992634316e-09,
+  "selected_target_RK_refinement_min_ratio": 16.018037204304328,
+  "new_full300_reference_solves_by_auditor": 0,
+  "point_miss_count": 2,
+  "order2_worse_pairs": 14,
+  "truth_adverse_count": 0,
+  "adverse_miss_rate": null,
+  "all96_peak_and_curve_coverage": true,
+  "all8_candidates_still_trigger_one_building_solve_under_frozen_policy": true,
+  "bound_scope": "sampled residual maxima; empirical grid check, no continuous numerical certificate",
+  "recovery_source_review": "no states solver or producer import in recovery; only existing tables/arrays read",
+  "adverse_miss_denominator": "NA because no adverse truth samples"
+}

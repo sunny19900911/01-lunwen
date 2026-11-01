@@ -1,0 +1,37 @@
+{
+  "file": "H-E12140.AT2",
+  "raw_bytes": 120405,
+  "sha256": "e1e260f8434d147553c9a088a04985dc9ee3bb0d4b2ad19e99529b401d00edd4",
+  "header": [
+    "PEER STRONG MOTION DATABASE RECORD. PROCESSING BY PACIFIC ENGINEERING.",
+    "IMPERIAL VALLEY 10/15/79 2316, EL CENTRO ARRAY #12, 140 (USGS STATION 931)",
+    "ACCELERATION TIME HISTORY IN UNITS OF G. FILTER POINTS: HP=0.1 Hz LP=40.0 Hz",
+    "NPTS=  7802, DT= .00500 SEC"
+  ],
+  "event": "Imperial Valley",
+  "date_and_time_as_header": "10/15/79 2316",
+  "station": "El Centro Array #12, USGS station 931",
+  "component_degrees": 140,
+  "header_timezone": "not stated",
+  "units": "g",
+  "npts": 7802,
+  "dt_s": 0.005,
+  "span_if_first_sample_t0_s": 39.005,
+  "first_sample_t0": "index-zero convention must be frozen by experiment owner",
+  "filter_header": "HP=0.1 Hz LP=40.0 Hz",
+  "numeric_integrity": {
+    "count_matches_header": true,
+    "all_finite": true,
+    "min_g": -0.1216084,
+    "max_g": 0.1433283,
+    "pga_abs_g": 0.1433283
+  },
+  "original_analysis": {
+    "GMfact": 1.5,
+    "g_in_per_s2": 386.40000000000003,
+    "dt_analysis_s": 0.01,
+    "Tmax_analysis_s": 10.0,
+    "damping": "Rayleigh, target 0.02 at modes 1 and 3"
+  },
+  "license_status": "public download; separate record redistribution license not established; raw file local cache only"
+}
