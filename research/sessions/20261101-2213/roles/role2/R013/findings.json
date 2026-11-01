@@ -1,0 +1,37 @@
+{
+  "must": [],
+  "should": [
+    {
+      "id": "S-01",
+      "file": "v009",
+      "lines": [
+        7,
+        440
+      ],
+      "issue": "explicitly scope 6/7 reject and 8/10 recompute to maximum-input-peak envelope objective"
+    },
+    {
+      "id": "S-02",
+      "file": "S1",
+      "lines": [
+        215,
+        288,
+        292
+      ],
+      "issue": "remove historical pending-values/evaluation-stage wording and label two core versus four total model-input groups"
+    }
+  ],
+  "optional": [
+    {
+      "id": "O-01",
+      "file": "v009",
+      "lines": [
+        145
+      ],
+      "issue": "explicitly name SHW3X Story5 in modal-own-peak example"
+    }
+  ],
+  "exact_replacements": "final-review-v009-and-S1.md",
+  "author_files_modified": false,
+  "new_scientific_production": false
+}

@@ -9,28 +9,27 @@
       "actual_status": {
         "type": "idle"
       },
-      "last_actual": "2026-11-02T01:03:15.433079+08:00"
+      "last_actual": "2026-11-02T01:17:32.581696+08:00"
     },
     {
       "role": "role2",
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
-      "task": "R013 one final v009 correctness review, no ODE or old numeric reruns",
-      "cursor": "11a056de-2e65-48d9-90d8-2d3233b00402:95",
+      "task": "R013 final v009 review frozen01:04:59 must0/should2 adopted; idle",
+      "cursor": "11a056de-2e65-48d9-90d8-2d3233b00402:99",
       "actual_status": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "last_actual": "2026-11-02T01:03:15.433079+08:00"
+      "last_actual": "2026-11-02T01:17:32.581696+08:00"
     },
     {
       "role": "role3",
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
-      "task": "R004 one final citation/source consistency review, existing evidence only",
+      "task": "R004 final source review frozen01:02:44 must0/should1 adopted; idle",
       "cursor": "3e1edb6e-1082-4df0-a7b1-358e7b877471:27",
       "actual_status": {
         "type": "idle"
       },
-      "last_actual": "2026-11-02T01:03:15.433079+08:00"
+      "last_actual": "2026-11-02T01:17:32.581696+08:00"
     },
     {
       "role": "role4",
@@ -40,29 +39,28 @@
       "actual_status": {
         "type": "idle"
       },
-      "last_actual": "2026-11-02T01:03:15.433079+08:00"
+      "last_actual": "2026-11-02T01:17:32.581696+08:00"
     },
     {
       "role": "role5",
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "task": "R0118min Word builder/preflight preparation; no DOCX or marker before final review adoption",
-      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:88",
+      "task": "R01212min necessary15 final v010 and S1 surgical revision active01:09; no DOCX or marker before root diff acceptance",
+      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:99",
       "actual_status": {
         "type": "active",
         "activeFlags": []
       },
-      "last_actual": "2026-11-02T01:03:15.433079+08:00"
+      "last_actual": "2026-11-02T01:17:32.581696+08:00"
     },
     {
       "role": "role6",
       "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
-      "task": "R009 one final engineering prose and operational workflow review",
-      "cursor": "6334fe63-a9e8-4b7f-b356-e2608cd0403d:35",
+      "task": "R009 final engineering review frozen01:06:39 two scope/usage clarifications adopted; idle",
+      "cursor": "6334fe63-a9e8-4b7f-b356-e2608cd0403d:39",
       "actual_status": {
-        "type": "active",
-        "activeFlags": []
+        "type": "idle"
       },
-      "last_actual": "2026-11-02T01:03:15.433079+08:00"
+      "last_actual": "2026-11-02T01:17:32.581696+08:00"
     }
   ]
 }

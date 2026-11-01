@@ -1,0 +1,9 @@
+{
+  "formal_update": "success ACTIVE",
+  "formal_view": "rendered",
+  "actual_toml_status": "ACTIVE",
+  "prompt_recovery": "最新恢复摘要（01:04，status优先）：R010正常push f7d2065e14795f38430472a9dc400c908c6ecc2f远端等，待关checkpoint。当前唯一科学主线已完成，no_new_numeric_experiments和no_new_scientific_dispatch均true；只最终稿独审/编辑与Word。v00900:58:30冻38210B SHA d622748a45b484d2a059a74d484c4c5c9f107e00f3ea628870fabf403e13c1f7，13表3图/双语摘要/SU+SC解析/工程包络；根已完整读v008及v009完整diff/新增节/QA/manifest。01:00后唯一最终检查：②R013正确性12min无重算当前active；③R004来源01:02:44冻must0/should1/optional3根全文读，建议[3]补PEER来源/Pacific Engineering处理者，S1旧‘后补入’占位句删，改‘前向恢复程度’为‘前向对照精度’；⑥R009工程语言8min当前active。⑤actualidle后派R0118min仅准备Word builder/OMML/renderer，不创建DOCX或marker、不改v009，当前active。等三检查冻结根读后统一一项作者必要修订+Word，别重复独审/派仍active作者。①④科学freeze idle，禁止为余预算扩算例/搜索。根普通中文说明与工程应用步骤prepared以及final-stage-handoff-v001已写。根00:53实际普通PowerShell独立hidden Word.COM16.0成功，不改ExecutionPolicy不kill用户文档；旧020/R007 nativeOMML可借鉴但旧renderer的ExecutionPolicy Bypass禁止。canonical render_docx实际先跑缺LO留日志，再普通-Command自己Word导PDF+PDFium逐页QA；marker第一次正式docx前一次。终稿所有最终页必须实际view，当前尚未Word不要提前认合格。最终可完成提前关，实际关闭时间，不等预算凑外围；固定最晚04:13:31。下一GitR011约01:18，新manifest排除active与任何local-cache。\n\n",
+  "actual_config_sha256": "c3b14046722a4d97ea9ebb87f757f3ac9ce21716ac48d447bafcaa22f7cb8113",
+  "rrule": "FREQ=MINUTELY;INTERVAL=15;UNTIL=20261101T202831Z",
+  "verified_at": "2026-11-02T01:04:11.152575+08:00"
+}

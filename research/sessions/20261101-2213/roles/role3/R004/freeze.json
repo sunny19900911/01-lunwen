@@ -1,0 +1,33 @@
+{
+  "session": "20261101-2213",
+  "role": 3,
+  "round": "R004",
+  "start_actual": "2026-11-02T00:59:56+08:00",
+  "primary_deadline": "2026-11-02T01:07:56+08:00",
+  "frozen_actual": "2026-11-02T01:02:44.488408+08:00",
+  "files": [
+    {
+      "path": "final-citation-and-source-audit.md",
+      "bytes": 5459,
+      "sha256": "e8df86ab8851acdcc22530ed5613f40eb1fff56a998a7e5075dfaec1f1ccafe9"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 2457,
+      "sha256": "cc4ef08d909df36c5ab961e2495735e5bea77321c4be8b71baa842f3e2fb7777"
+    }
+  ],
+  "must": 0,
+  "should": 1,
+  "optional": 3,
+  "not_done": [
+    "new search",
+    "download",
+    "ODE",
+    "fitting",
+    "matrix assembly",
+    "author manuscript edits",
+    "new symbol-level Liu page-image audit"
+  ],
+  "summary": "Final citation/source scope only; no blocking inconsistency; suggest database attribution in record bibliography."
+}

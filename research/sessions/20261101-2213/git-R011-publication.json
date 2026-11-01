@@ -1,0 +1,167 @@
+{
+  "checkpoint": "R011",
+  "time": "2026-11-02T01:17:32.581696+08:00",
+  "message": "paper: adopt final engineering and source reviews and prepare editable Word rendering",
+  "files": [
+    {
+      "relative": "research/sessions/20261101-2213/automation-R010-update-receipt.json",
+      "bytes": 2085,
+      "sha256": "b0d06caa0830c53032290a746969f9e1276a1a5c4a167f6139f7db76b4d43c78"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/automation-R010a-final-review-update-receipt.json",
+      "bytes": 1742,
+      "sha256": "b9c3e27406def511ceda85bc4341dd791f03d815a6e6990c999ff4bf73d10d6a"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/checkpoint_R011.py",
+      "bytes": 3481,
+      "sha256": "d18f4d21fe9f9d4aeec46d22caadf745715d5e19b8c1bc199b969c55f41b85c4"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/final-review-adoption-v001.md",
+      "bytes": 2572,
+      "sha256": "da862000cfe206f6f2efaddd51814a04ad833a93efed02c4b690bed879fb5e6c"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/final-summary-prepared-v002.md",
+      "bytes": 3500,
+      "sha256": "4487c223c83570cdb20fbeacbea4ed6c825bced97592992d45ac81830ec94582"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/git-R010-receipt.json",
+      "bytes": 1913,
+      "sha256": "a3a013cc964e5622b98c879d21f1262b95edb320dd464a53a9efcbbb0d05b31a"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/R011-actual-snapshot.json",
+      "bytes": 2120,
+      "sha256": "92608d6eb071f54fffdb883edb083a666be29fc04ea0aa8a2fd61b7e8d9bef07"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R013/check_manuscript_scalars.executed-v001.py",
+      "bytes": 5258,
+      "sha256": "936683b65fcfb49588a54ed11b727c5f334b0209cf91ab776366e5e7b0378241"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R013/check_manuscript_scalars.py",
+      "bytes": 5325,
+      "sha256": "e5422284ede28f3ca4cff0ec040a1c08c7b7e6aea64482d5ba5df0799ae1c5f6"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R013/delivery-manifest.json",
+      "bytes": 2799,
+      "sha256": "c39f4027157498886a4ba90a315bfa5514a9e5c08c0f624945c4e42da5e596e8"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R013/final-review-v009-and-S1.md",
+      "bytes": 7549,
+      "sha256": "c6480dc9711760a3fb0df7c6ed70b903dfc5fbd7d274391f6f6d65e569f178f3"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R013/findings.json",
+      "bytes": 839,
+      "sha256": "36e89ef24f180c0ecf60a36400a05a46b09bd3bbf4de2db15eb63ad92ac65e8f"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R013/freeze_review.py",
+      "bytes": 2611,
+      "sha256": "a03a4e80dd788133cf29691cc676b1df1042f107eb375b13a05e0c52d750faa7"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R013/input-freeze.json",
+      "bytes": 1194,
+      "sha256": "c4a12a602235c36c21eae1c5de04ed66714d1df05bde9ef12b4d8730f64ab2a6"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role2/R013/scalar-and-structure-checks.json",
+      "bytes": 34541,
+      "sha256": "b73c1b1dcd35dd4de537faf2a7ddee58835a994d977e9382fd102cf6c79447af"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role3/R004/final-citation-and-source-audit.md",
+      "bytes": 5459,
+      "sha256": "e8df86ab8851acdcc22530ed5613f40eb1fff56a998a7e5075dfaec1f1ccafe9"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role3/R004/freeze.json",
+      "bytes": 911,
+      "sha256": "d562fe5005b227fb4927a8fd1b09cc1fdcf295f75256ef79b33a8d78a7aa126b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role3/R004/source-checks.json",
+      "bytes": 2457,
+      "sha256": "cc4ef08d909df36c5ab961e2495735e5bea77321c4be8b71baa842f3e2fb7777"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R011/build_word.py",
+      "bytes": 13813,
+      "sha256": "efb2619bc6f4076d19f9d608d5e13d4f39678763c0ee3ab13ee819d32b638cde"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R011/layout-plan.json",
+      "bytes": 5084,
+      "sha256": "01a22d32912a8fee7ccccffea995bb9b94ae1bd7c051be88e0552f3eb9caa34e"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R011/manifest.json",
+      "bytes": 5843,
+      "sha256": "d14ef34774ddb480d0f0fd6fb77588978d13b25df380cbc2c40c30aeab8aac1e"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R011/math_omml.py",
+      "bytes": 7727,
+      "sha256": "0b2bb36baad64db063277407666a851736be8eaca981774c42364f0e90f2cb17"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R011/one-page.md",
+      "bytes": 2466,
+      "sha256": "eed708acfb21376c16087652c633d0678c4be5b11b31a8064847c1b4ff61ba27"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R011/preflight.json",
+      "bytes": 11081,
+      "sha256": "dcfc828b863df0c061ead6fafa6c6b8a0a4f0ce09e52f3c46d3eb525f9595095"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R011/QA.json",
+      "bytes": 1482,
+      "sha256": "ac7f4b9a4614b6dcd0c8e61663b51478804fdd3a98c69c5e79d8f6880c2159ce"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role5/R011/render_review.py",
+      "bytes": 2728,
+      "sha256": "ba6124e952dda05ebcdfd88150b45e0e85d34cef7ddf4eab82814437c1ee9dde"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R009/final-engineering-review.md",
+      "bytes": 7533,
+      "sha256": "c15d2545ef4b51ae1846471290c31b07b2fb96b7ba752b05592b910faba98568"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/roles/role6/R009/freeze.json",
+      "bytes": 1690,
+      "sha256": "3ee12594eb8b2d61b89685d36dad1be2ba6dbdbd4f79051de8231f86375f9f2b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/rounds/R011.md",
+      "bytes": 857,
+      "sha256": "ee60481d6d176ca922f4b5b28334d85d8b80fe8c795c00e1798895b775e12bfb"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/runs.md",
+      "bytes": 4254,
+      "sha256": "52e397b459e4a456190258a87ce06bfeef7074f88b37f3731bb31190c29c4c24"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/status.json",
+      "bytes": 7316,
+      "sha256": "8a64a0f6c64bf2615796066dee92a03de0d982257a259ae1760d0b41eb06bf20"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/threads.json",
+      "bytes": 2246,
+      "sha256": "cf49f6488e4c7c68f307373c34cec7dcc92b9dd19385b4989d95face3e718387"
+    }
+  ]
+}

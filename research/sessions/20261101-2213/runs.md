@@ -23,3 +23,5 @@ R008 2026-11-02T00:28:48.303276+08:00: rootread ensembleR011independentaudit and
 R009 2026-11-02T00:50:07.868885+08:00: root full R012 independent audit and author wording read; v008 entire text read in bounded chunks. Adopted baseline U/C analytic bridge and dispatched actual-idle author R010 v009. All numeric production and new scientific dispatch stopped; final single manuscript/source/language review and Word QA remain.
 
 R010 2026-11-02T01:03:15.433079+08:00: v009 author froze00:58:30, root actual complete diff/new-section/QA/manifest read. Final correctness/source/engineering-language checks formally dispatched once, author only prepares Word tools while reviews run. Root ordinary PowerShell hidden Word.COM16.0 preflight succeeded, no policy change and no user document touched. No new science.
+
+R011 2026-11-02T01:17:32.581696+08:00: three final reviews and Word-preparation scripts frozen; root full reports and safe renderer read. Final text revision remains separate from Word creation and visual QA. Scientific numbers unchanged. XML-only preflight assets remain local-only and are excluded from Git; no DOCX or marker yet.

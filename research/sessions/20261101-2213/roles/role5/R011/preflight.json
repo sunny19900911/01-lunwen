@@ -1,0 +1,376 @@
+{
+  "mode": "XML-only preflight; no DOCX",
+  "input": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\damping-prediction-session021-v009.md",
+  "counts": {
+    "display_math": 10,
+    "table_blocks": 15,
+    "numbered_tables": 13,
+    "images": 3
+  },
+  "display_results": [
+    {
+      "index": 1,
+      "source": "\n\\ddot s_r+2\\zeta\\omega_r\\dot s_r+\\omega_r^2s_r=-a_g(t),\\qquad\nL_{r,\\zeta_0}z_r=-2\\omega_r\\dot s_r^0,\\qquad\nL_{r,\\zeta_0}w_r=-4\\omega_r\\dot z_r.\n",
+      "xml": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R011\\display-01.omml.xml",
+      "native": true,
+      "text": "sr+2ζωrsr+ωr2sr=-ag(t),Lr,ζ0zr=-2ωrsr0,Lr,ζ0wr=-4ωrzr."
+    },
+    {
+      "index": 2,
+      "source": "\nP'_+(\\zeta_0)=\\max_{n\\in\\mathcal A}\n\\{\\operatorname{sign}(V_0[n])V_\\zeta[n]\\},\\qquad\nS_s=-P'_+(\\zeta_0)/P_0,\\qquad\nc_{sr}[n]=-\\frac{\\operatorname{sign}(V_0[n])B_{sr}\\omega_r^2z_r[n]}{u_FP_0}.\n",
+      "xml": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R011\\display-02.omml.xml",
+      "native": true,
+      "text": "P+′(ζ0)=maxn∈A{sign(V0[n])Vζ[n]},Ss=-P+′(ζ0)/P0,csr[n]=-sign(V0[n])Bsrωr2zr[n]uFP0."
+    },
+    {
+      "index": 3,
+      "source": "\n\\widehat s_r^{(1)}=s_r^0+\\delta z_r,\\qquad\n\\widehat s_r^{(2)}=s_r^0+\\delta z_r+\\frac{\\delta^2}{2}w_r,\\qquad\n\\widehat V_s=\\sum_r B_{sr}\\omega_r^2\\widehat s_r/u_F.\n",
+      "xml": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R011\\display-03.omml.xml",
+      "native": true,
+      "text": "sr(1)=sr0+δzr,sr(2)=sr0+δzr+δ22wr,Vs=∑rBsrωr2sr/uF."
+    },
+    {
+      "index": 4,
+      "source": "\nS=-\\frac{P'_+}{P}=S_U+S_C,\\qquad\nS_U=-\\frac{U'_+}{U},\\qquad S_C=-\\frac{C'_+}{C}.\n",
+      "xml": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R011\\display-04.omml.xml",
+      "native": true,
+      "text": "S=-P+′P=SU+SC,SU=-U+′U,SC=-C+′C."
+    },
+    {
+      "index": 5,
+      "source": "\nb_j=100\\,\\frac{P_0-p_j}{g_j-g_0}\n=\\frac{100(1-p_j/P_0)}{S_0-S_j},\n\\qquad S_i=-g_i/P_0.\n",
+      "xml": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R011\\display-05.omml.xml",
+      "native": true,
+      "text": "bj=100 P0-pjgj-g0=100(1-pj/P0)S0-Sj,Si=-gi/P0."
+    },
+    {
+      "index": 6,
+      "source": "\nd_r[n]=A_{r,c}\\widehat x_r[n]+b_{r,c}[n]-\\widehat x_r[n+1],\n\\qquad\ne_r[n+1]=A_{r,c}e_r[n]+d_r[n],\\quad e_r[0]=0.\n",
+      "xml": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R011\\display-06.omml.xml",
+      "native": true,
+      "text": "dr[n]=Ar,cxr[n]+br,c[n]-xr[n+1],er[n+1]=Ar,cer[n]+dr[n],er[0]=0."
+    },
+    {
+      "index": 7,
+      "source": "\nQ_r[n]=\\sum_{j=0}^{n-1}\n\\left(\n\\left|(A_{r,c}^{\\,n-1-j})_{11}\\right||d_{s,r}[j]|\n+\\left|(A_{r,c}^{\\,n-1-j})_{12}\\right||d_{v,r}[j]|\n\\right),\\qquad\nE_s[n]=\\frac1{u_F}\\sum_r|B_{sr}|\\omega_r^2Q_r[n].\n",
+      "xml": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R011\\display-07.omml.xml",
+      "native": true,
+      "text": "Qr[n]=∑j=0n-1(|(Ar,c n-1-j)11||ds,r[j]|+|(Ar,c n-1-j)12||dv,r[j]|),Es[n]=1uF∑r|Bsr|ωr2Qr[n]."
+    },
+    {
+      "index": 8,
+      "source": "\nP_{s,L}=\\max_{t\\in\\mathcal T}\\max(0,|\\widehat V_s(t)|-E_s(t)),\\qquad\nP_{s,U}=\\max_{t\\in\\mathcal T}(|\\widehat V_s(t)|+E_s(t)).\n",
+      "xml": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R011\\display-08.omml.xml",
+      "native": true,
+      "text": "Ps,L=maxt∈Tmax(0,|Vs(t)|-Es(t)),Ps,U=maxt∈T(|Vs(t)|+Es(t))."
+    },
+    {
+      "index": 9,
+      "source": "\nD_{s,L}=100\\left(1-\\frac{P_{s,U}}{P_s^0}\\right),\\qquad\nD_{s,U}=100\\left(1-\\frac{P_{s,L}}{P_s^0}\\right).\n",
+      "xml": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R011\\display-09.omml.xml",
+      "native": true,
+      "text": "Ds,L=100(1-Ps,UPs0),Ds,U=100(1-Ps,LPs0)."
+    },
+    {
+      "index": 10,
+      "source": "\nL_{s,\\mathrm{env}}=\\max_eL_{s,e},\\qquad U_{s,\\mathrm{env}}=\\max_eU_{s,e},\\qquad\nD_{s,\\mathrm{env}}\\in\n\\left[100\\left(1-\\frac{U_{s,\\mathrm{env}}}{P_{s,0\\mathrm{env}}}\\right),\n100\\left(1-\\frac{L_{s,\\mathrm{env}}}{P_{s,0\\mathrm{env}}}\\right)\\right].\n",
+      "xml": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R011\\display-10.omml.xml",
+      "native": true,
+      "text": "Ls,env=maxeLs,e,Us,env=maxeUs,e,Ds,env∈[100(1-Us,envPs,0env),100(1-Ls,envPs,0env)]."
+    }
+  ],
+  "layout": {
+    "tables": [
+      {
+        "block": 1,
+        "columns": 7,
+        "rows": 13,
+        "header": [
+          "层",
+          "局部改善由慢到快排序",
+          "控制峰时/s",
+          "基准峰/kN",
+          "S",
+          "促进项和",
+          "抵消项和"
+        ],
+        "widths_cm": [
+          1.1,
+          2.1,
+          2.1,
+          3.0,
+          2.0,
+          3.3,
+          3.4
+        ]
+      },
+      {
+        "block": 2,
+        "columns": 5,
+        "rows": 7,
+        "header": [
+          "各层内部名次",
+          "第5层模态",
+          "c",
+          "屋顶模态",
+          "c"
+        ],
+        "widths_cm": [
+          3.0,
+          3.0,
+          4.0,
+          3.0,
+          4.0
+        ]
+      },
+      {
+        "block": 3,
+        "columns": 7,
+        "rows": 4,
+        "header": [
+          "输入/层",
+          "B/kg",
+          "z/m每单位ζ",
+          "sign V0",
+          "v13/kN",
+          "v′13/kN每单位ζ",
+          "c13"
+        ],
+        "widths_cm": [
+          1.1,
+          2.1,
+          2.1,
+          3.0,
+          2.0,
+          3.3,
+          3.4
+        ]
+      },
+      {
+        "block": 4,
+        "columns": 7,
+        "rows": 4,
+        "header": [
+          "层",
+          "局部改善排序",
+          "控制峰时/s",
+          "基准峰/kip",
+          "S",
+          "促进项和",
+          "抵消项和"
+        ],
+        "widths_cm": [
+          1.1,
+          2.1,
+          2.1,
+          3.0,
+          2.0,
+          3.3,
+          3.4
+        ]
+      },
+      {
+        "block": 5,
+        "columns": 4,
+        "rows": 4,
+        "header": [
+          "输入及楼层",
+          "S_U",
+          "S_C",
+          "S"
+        ],
+        "widths_cm": [
+          6.5,
+          3.5,
+          3.5,
+          3.5
+        ]
+      },
+      {
+        "block": 6,
+        "columns": 3,
+        "rows": 4,
+        "header": [
+          "条件",
+          "判断",
+          "工程动作"
+        ],
+        "widths_cm": [
+          7.0,
+          5.0,
+          5.0
+        ]
+      },
+      {
+        "block": 7,
+        "columns": 2,
+        "rows": 4,
+        "header": [
+          "目标层区间结果",
+          "候选决定"
+        ],
+        "widths_cm": [
+          8.0,
+          9.0
+        ]
+      },
+      {
+        "block": 8,
+        "columns": 6,
+        "rows": 5,
+        "header": [
+          "候选阻尼",
+          "最大峰误差/%",
+          "coth中位宽/百分点",
+          "逐时中位宽/百分点",
+          "coth标记层数",
+          "逐时标记层数"
+        ],
+        "widths_cm": [
+          1.5,
+          3.2,
+          3.2,
+          3.2,
+          3.2,
+          2.7
+        ]
+      },
+      {
+        "block": 9,
+        "columns": 6,
+        "rows": 3,
+        "header": [
+          "楼层",
+          "U₈/U₅",
+          "C₈/C₅",
+          "P₈/P₅",
+          "参照峰降/%",
+          "软件绝对峰降/%"
+        ],
+        "widths_cm": [
+          1.5,
+          3.2,
+          3.2,
+          3.2,
+          3.2,
+          2.7
+        ]
+      },
+      {
+        "block": 10,
+        "columns": 6,
+        "rows": 5,
+        "header": [
+          "候选阻尼",
+          "三层参照降幅范围/%",
+          "一阶最大峰误差/%",
+          "二阶最大峰误差/%",
+          "一阶决定",
+          "二阶决定"
+        ],
+        "widths_cm": [
+          1.5,
+          3.2,
+          3.2,
+          3.2,
+          3.2,
+          2.7
+        ]
+      },
+      {
+        "block": 11,
+        "columns": 5,
+        "rows": 3,
+        "header": [
+          "方法",
+          "触发完整分析次数",
+          "流程组件合计/s",
+          "四候选直接求解/s",
+          "成本比"
+        ],
+        "widths_cm": [
+          3.0,
+          3.0,
+          4.0,
+          3.0,
+          4.0
+        ]
+      },
+      {
+        "block": 12,
+        "columns": 5,
+        "rows": 5,
+        "header": [
+          "候选阻尼",
+          "预测阶次",
+          "标记复算层数",
+          "候选决定",
+          "参照全12层是否达到10%"
+        ],
+        "widths_cm": [
+          3.0,
+          3.0,
+          4.0,
+          3.0,
+          4.0
+        ]
+      },
+      {
+        "block": 13,
+        "columns": 3,
+        "rows": 4,
+        "header": [
+          "量",
+          "计算结果",
+          "要求"
+        ],
+        "widths_cm": [
+          7.0,
+          5.0,
+          5.0
+        ]
+      },
+      {
+        "block": 14,
+        "columns": 6,
+        "rows": 5,
+        "header": [
+          "候选阻尼",
+          "包络参照最小降幅/%",
+          "限制层",
+          "一阶包络决定",
+          "二阶包络决定",
+          "二阶逐输入强目标决定"
+        ],
+        "widths_cm": [
+          1.5,
+          3.2,
+          3.2,
+          3.2,
+          3.2,
+          2.7
+        ]
+      },
+      {
+        "block": 15,
+        "columns": 5,
+        "rows": 9,
+        "header": [
+          "输入",
+          "方法",
+          "MAE",
+          "最大误差",
+          "层级误通过/误拒绝"
+        ],
+        "widths_cm": [
+          3.0,
+          3.0,
+          4.0,
+          3.0,
+          4.0
+        ]
+      }
+    ],
+    "figure_width_cm": 15.8
+  }
+}

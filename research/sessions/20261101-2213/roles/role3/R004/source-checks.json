@@ -1,0 +1,63 @@
+{
+  "v009_matches_assigned_hash_and_size": true,
+  "v009_and_S1_match_author_manifest": true,
+  "R001_R002_R003_outputs_unchanged": true,
+  "five_cached_small_source_files_match_frozen_hashes": true,
+  "source_package_check_only_no_numeric_rerun": true,
+  "online_links_rechecked_this_round": false,
+  "must_count": 0,
+  "should_count": 1,
+  "optional_count": 3,
+  "input_files": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/damping-prediction-session021-v009.md",
+      "bytes": 38210,
+      "sha256": "d622748a45b484d2a059a74d484c4c5c9f107e00f3ea628870fabf403e13c1f7"
+    },
+    {
+      "path": "research/sessions/20261101-2213/roles/role5/R010/supplement-S1.md",
+      "bytes": 20111,
+      "sha256": "cc4abcd3d47c0cb33c3276c22e2b4ce587f3bd4d53e1e3a63a28b8b4ab6a0d42"
+    },
+    {
+      "path": "research/sessions/20261101-2213/roles/role5/R010/manifest.json",
+      "bytes": 5551,
+      "sha256": "e99f1ab7826fe567d9463e9d3694c2800464a2320341132d1201bd011e51457a"
+    },
+    {
+      "path": "research/sessions/20261101-2213/roles/role3/R001/nearest-prior-art.md",
+      "bytes": 5152,
+      "sha256": "7c57ef0ae92181f7692bb6e792446fd6864701f2380f7067c01e8256f2e7916a"
+    },
+    {
+      "path": "research/sessions/20261101-2213/roles/role3/R002/public-multistory-benchmark.md",
+      "bytes": 7372,
+      "sha256": "9b3c8e4bee434f6f9df900691d321963992efd00aad9fb1e18d41aa82cb3d2f1"
+    },
+    {
+      "path": "research/sessions/20261101-2213/roles/role3/R002/assembly-inputs.json",
+      "bytes": 7094,
+      "sha256": "1fa391c0fc059463475a529db82a890dcfb1f104400cc4d77247341b5504104e"
+    },
+    {
+      "path": "research/sessions/20261101-2213/roles/role3/R002/record-metadata.json",
+      "bytes": 1320,
+      "sha256": "8f73402db05003ed48e56db4311b4310853c90a655f369b6e013131d30e1ad76"
+    },
+    {
+      "path": "research/sessions/20261101-2213/roles/role3/R002/source-manifest.json",
+      "bytes": 1226,
+      "sha256": "2846a280bcf75f5c24a142b4b249484217de8ebdbf23d213f4dd6973d41d837d"
+    },
+    {
+      "path": "research/sessions/20261101-2213/roles/role3/R003/reusable-mechanism-and-model-facts.md",
+      "bytes": 6341,
+      "sha256": "214987e9aaa0977694feafe59e920012e9dd9d3ffac3073cc48d96ae876dca7f"
+    },
+    {
+      "path": "research/sessions/20261101-2213/roles/role3/R003/inputs-manifest.json",
+      "bytes": 3906,
+      "sha256": "369ec90398bf51d7970427ad61528d9261d4f7eda4d8ac87ba27b13e43719f09"
+    }
+  ]
+}
