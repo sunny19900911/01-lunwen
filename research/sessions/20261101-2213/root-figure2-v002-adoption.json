@@ -1,0 +1,16 @@
+{
+  "actual": "2026-11-02T00:05:40.712807+08:00",
+  "root_actual_view": true,
+  "adopted": "roles\\role6\\R007\\figure2-signed-modal-improvement-v002.png",
+  "sha256": "278c4b51880b730f2770d0b938d941ef820f5017aa1d4680e005c3a78bc0a888",
+  "checks": [
+    "eachfloor owncontrolpeak title",
+    "sameaxes",
+    "positive andnegative c",
+    "sevenlistedmodes+293remainder",
+    "22.92/21.18 seconds",
+    "positive derivative definition",
+    "no cropped oroverlapping labels"
+  ],
+  "figure1_previous_approval": "root-figure-review-R006.json"
+}

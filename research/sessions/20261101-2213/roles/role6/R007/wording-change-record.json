@@ -1,0 +1,34 @@
+{
+  "source_references": {
+    "../R006/figure2-signed-modal-improvement-v001.svg": {
+      "bytes": 10138,
+      "sha256": "819159fa998e3dad57b8225a4a805c4f42a9d5bf7e0b61f753a749c7f17c7d14"
+    },
+    "../R006/figure2-signed-contribution-source-16.csv": {
+      "bytes": 1110,
+      "sha256": "ef76fa44b777717eb53b0b946827152b175b73a29305979c2583adde43e45aee"
+    },
+    "../R006/figure1-S-profile-source-12.csv": {
+      "bytes": 430,
+      "sha256": "656e70537a0ad3e1f1dc17c115adc7a6cd9a0caee792ea5f7b58a23102c3a44c"
+    }
+  },
+  "only_text_nodes_changed": 3,
+  "geometry_and_all_attributes_unchanged": true,
+  "source_csv_unchanged": true,
+  "figure1_not_modified_or_rechecked": true,
+  "changes": [
+    {
+      "old": "同一基准控制峰的模态改善贡献",
+      "new": "各层基准控制峰处的模态改善贡献"
+    },
+    {
+      "old": "控制峰：第5层22.92 s，屋顶21.18 s。7阶并集＋其余293阶，各层有符号和为S。",
+      "new": "控制峰：第5层22.92 s，屋顶21.18 s。所列7个振型与其余293阶合计，带符号之和为S。"
+    },
+    {
+      "old": "c为基准峰值导数贡献，不是候选阻尼下实际剪力的模态分担。",
+      "new": "c为各层基准峰值对阻尼变化的归一化导数贡献。"
+    }
+  ]
+}

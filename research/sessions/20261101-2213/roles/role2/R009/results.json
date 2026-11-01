@@ -1,0 +1,43 @@
+{
+  "upstream_files_SHA_verified": 34,
+  "local_arrays_SHA_verified": 3,
+  "input_SHA_verified": 8,
+  "source_baseline_SHA": "2354441c71c1bf4e714c26d43af7b103c443419be8578bf775c47466a604cae5",
+  "record_points": 2501,
+  "nominal_dt_s": 0.02,
+  "record_end_s": 50.0,
+  "cached_ag_PGA_m_s2": 0.35,
+  "omega_B_identical_SHW3X": true,
+  "selected_modes": [
+    2,
+    10,
+    13
+  ],
+  "RK_substeps": [
+    8,
+    16
+  ],
+  "RK16_max_relative_L2_error": 4.206663916606394e-08,
+  "RK_refinement_min_ratio": 16.000620455155527,
+  "new_independent_selected_target_zeta": 0.07,
+  "new_all300_target_production": 0,
+  "S_floors": 12,
+  "modal_contributions_checked": 3600,
+  "max_c_closure_error": 8.881784197001252e-15,
+  "field_checks": 12962,
+  "max_numeric_difference": 8.731149137020111e-11,
+  "prediction_projection_max_difference_kN": 4.547473508864641e-12,
+  "target_projection_max_difference_kN": 4.092726157978177e-12,
+  "strict_curve_uncovered_samples": 0,
+  "point_miss_count": 1,
+  "rank_inversion_count": 4,
+  "baseline_first_agrees_at_both_targets": true,
+  "true_adverse_count": 0,
+  "adverse_miss_rate": null,
+  "all12_pass_under_original_frozen_rule": true,
+  "pass_min_D_lower": 0.12412290269728665,
+  "pass_max_D_width": 0.03821629175750019,
+  "pass_min_true_D": 0.1373179208027434,
+  "pass_min_true_Story": "Story7",
+  "scope": "new input known historically; baseline5 reused, 6/7 predictions frozen before reference; ranking not guaranteed; grid calculation envelope not strict FP/continuous certificate"
+}

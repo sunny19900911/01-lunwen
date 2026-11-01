@@ -1,0 +1,107 @@
+[
+  {
+    "role": "role1",
+    "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+    "cursor": "a4ac1686-5034-48ef-9e7c-fe6208750c15:29",
+    "status": {
+      "type": "idle"
+    },
+    "latestTurn": {
+      "id": "01a197d6-ab2d-76d0-b6b8-ac48b41cc27b",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1793548790,
+      "completedAt": 1793548802,
+      "durationMs": 11629
+    },
+    "latestText": "收到②独审：R005无需数学修改，交点与高度核算一致。保持冻结，继续按“基准支路竞争预警”表述，不将其当作实际换峰阈值或安全半径。"
+  },
+  {
+    "role": "role2",
+    "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
+    "cursor": "11a056de-2e65-48d9-90d8-2d3233b00402:84",
+    "status": {
+      "type": "active",
+      "activeFlags": []
+    },
+    "latestTurn": {
+      "id": "01a197d9-5889-75d1-9cd3-959c71449711",
+      "status": "inProgress",
+      "error": null,
+      "startedAt": 1793548966,
+      "completedAt": null,
+      "durationMs": null
+    },
+    "latestText": "我开始R010，只核小表和已有基准：先拆清模态系数、导数及控制峰符号各自的作用，再核简单基线的误差和误判聚合；不新增响应计算。"
+  },
+  {
+    "role": "role3",
+    "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+    "cursor": "3e1edb6e-1082-4df0-a7b1-358e7b877471:22",
+    "status": {
+      "type": "idle"
+    },
+    "latestTurn": {
+      "id": "01a1978d-38b6-7191-adc6-7792bd3345d3",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1793543977,
+      "completedAt": 1793544333,
+      "durationMs": 355932
+    },
+    "latestText": "已找到并冻结一套可组装的三层三跨线性框架及配套地震记录：基准说明与输入清单。 节点、单元、质量、单位和7802点记录均已核查，已交给主控、验证和数值角色。下一步是组装M/K并验证预测；本轮未计算结构响应。"
+  },
+  {
+    "role": "role4",
+    "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+    "cursor": "18d108d1-c129-40a5-b347-658f1f0c4b89:70",
+    "status": {
+      "type": "active",
+      "activeFlags": []
+    },
+    "latestTurn": {
+      "id": "01a197d7-51dc-7353-92d7-74b67d196bf1",
+      "status": "inProgress",
+      "error": null,
+      "startedAt": 1793548833,
+      "completedAt": null,
+      "durationMs": null
+    },
+    "latestText": "新预测与三输入包络区间已于00:04:44冻结，随后复用两份旧8%参照并仅新算两套10%。包络S最小为Story8；第5层应取基准包络控制输入SHW4X的S=4.676，而不是三输入最小S=2.132。包络策略拒绝6%/7%，8%/10%仍需复算；10%参照实际已全层达标。"
+  },
+  {
+    "role": "role5",
+    "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+    "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:75",
+    "status": {
+      "type": "active",
+      "activeFlags": []
+    },
+    "latestTurn": {
+      "id": "01a197da-6bf3-7af2-9a87-593633bbc55a",
+      "status": "inProgress",
+      "error": null,
+      "startedAt": 1793549036,
+      "completedAt": null,
+      "durationMs": null
+    },
+    "latestText": "我将在v007中接入RH4X的首次通过候选和反例，说明它属于单输入通过，并加入已采用的S沿层分布图。固定基准峰的竞争公式只用于提醒何时应检查其他峰；图2等待新版采用通知，Word留到集中成稿阶段。"
+  },
+  {
+    "role": "role6",
+    "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+    "cursor": "6334fe63-a9e8-4b7f-b356-e2608cd0403d:32",
+    "status": {
+      "type": "idle"
+    },
+    "latestTurn": {
+      "id": "01a197d9-5739-7480-be1a-1d0bef1be148",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1793548965,
+      "completedAt": 1793549109,
+      "durationMs": 143539
+    },
+    "latestText": "图2-v002已完成并实际查看。三处文字按要求调整，数值、源CSV和旧图保持不变；已同步主控与⑤。 图2文字改版"
+  }
+]

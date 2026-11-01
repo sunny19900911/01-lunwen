@@ -1,0 +1,30 @@
+from pathlib import Path
+from datetime import datetime,timezone,timedelta
+import json,hashlib
+S=Path(__file__).resolve().parent;R=S.parents[2]
+assert not(S/'git-R007-publication.json').exists()
+now=datetime.now(timezone(timedelta(hours=8))).isoformat()
+def js(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+snap=json.loads((S/'R007-actual-snapshot.json').read_text(encoding='utf-8'))
+tasks={'role1':'R0068min specified-input envelope formulas/S/interval composition engineering explanation, active00:09', 'role2':'R01012min needed15 factor sign explanation+simplebaseline independent audit, active; R009RH4firstpass andpeakwarningreviewed0must adopted', 'role3':'R00310min old020approvedmechanism/UPC andsame-source bridge originalreview, officiallysent00:10, no newsearch/data', 'role4':'R01015min SHW4/RH4 8/10freeze-before-reference and specified-input envelopes, active~00:00; no more inputs', 'role5':'R00812min v007 includes reviewedRH4/competitionwarning and root-approved2figures, active00:04', 'role6':'R007 revisedfigure2 frozen00:04:54, rootactualview00:05 adopted; idle'}
+t=json.loads((S/'threads.json').read_text(encoding='utf-8'))
+for x in t['threads']:
+ z=next(v for v in snap if v['role']==x['role']);x.update(cursor=z['cursor'],actual_status=z['status'],task=tasks[x['role']],last_actual=now)
+js(S/'threads.json',t)
+d=json.loads((S/'status.json').read_text(encoding='utf-8'));d.update(last_actual=now,checkpoint='R007-first-verified-pass-and-engineering-envelope',checkpoint_open=True,current_tasks=tasks,recovery_file='rounds/R007.md')
+d['scientific_status'].update(RH4_candidate='reviewedrole2R0090must rootfullread:12962fields/selectedRK4/48cover,7%2nd all12pass under unchangedpolicy:minDL12.4122902697%,widthmax3.82162917575pp,truemin13.7317920803%Story7. Onepass0/1notriskprobability;2/2rankinversions retained',competing_peak='reviewedrole2R009fixed-branchcrossingformula and50digit scalarb=.2480256362040527pp; heuristicwarning notstrict actualswitchthreshold',figures='role6R006figure1-v002 andR007figure2-v002 root actual PNGview both adopted; 7 listedmodes +293remainder onfigure2; articlemain5+295table distinct',engineering_ensemble='root extra objective frozen before new R010predictions:eachfloor max-overselected-input peaks and[max L,max U]; perinput10%objectivepreserved separately; role4candidate pendingindependentaudit',manuscript='v006 frozen23:57:20 adoptedreviewedS/modaltables+SHW4, rootincrementandQAread; newv007 RH4/twofigures inprogress; noWordyet')
+d['next_task']='Collect factor/simplebaseline R010 audit; collect sourcebridgeR003 andensembleR010freeze then independentrole2R011 audit. Verify authorv007 figs/newtables. No extra layout/CM/solver or fullrawdata. NextGitR008~15min, fixed03:13writing/04:13:31scienceend.'
+js(S/'status.json',d)
+with(S/'claims.md').open('a',encoding='utf-8')as f:f.write('\nC021-15 upgraded-reviewed: role2R009all12firstpass7%RH4secondorder0must underunchanged10%/5pp:DLmin12.41229,widthmax3.821629pp,trueDmin13.731792Story7. Singlepassnotreliabilityestimate.\nC021-16 reviewed-analytic: role2R009 fixedbaselinebranchlinearcompetitionb=.2480256362040527pp, not exactswitchthreshold.\nC021-17 proposed-engineering-objective: root engineering-input-envelope-policy-freeze-v001 separates per-input allmeet target from eachfloor max-input peak-envelope reduction. Penv interval=maxL/maxU; Senv comesfrom activebaselineinput. ProducerR010candidate pendingaudit, no normclaim.\n')
+with(S/'runs.md').open('a',encoding='utf-8')as f:f.write('\nR007 '+now+': rootread fullRH4independentaudit, factor explanation, authorv006newtables/QA; viewedapprovedfigure1 and2 then revisedfigure2. Current boundedjobs truthfully recorded, no repeatedcompleteODE. Added specified-input envelopeobjective beforeR010 forecasts, oldpointwise-policydata preserved.\n')
+(S/'rounds/R007.md').write_text('# R007 首次完整通过已独核，转入工程多输入包络\n\n'+now+'，北京时间已11月2日，原04:13:31截止不变。\n\n②R009核RH4原政策通过：7%二阶12层全部区间下限≥10%、最大宽≤5pp，实际最小13.731792%第7层。根全文采用并通知用户单输入范围；不以0/1估可靠性。峰竞争预警仅固定基准支路交点，其数学及标量核过。\n\n两张正文图由已审基准小表生成，根实际逐图查看。图1采用R006-v002；图2旧标题易读成两层同一峰时，根要求仅文字改版，R007-v002已再次根view、正面定义c且保留两层峰时/293余项，采用。用户正文不写审稿自辩，必要量纲/对象保留。\n\n④R009固定B/ω与变化z/总峰号的物理解释根已读，②R010因子+简便基线审在途。④R010只补另两条输入8/10预测后参考，旧8复用、新10两套，不再扩输入；根先固定三输入绝对峰包络目标，原逐输入政策全部另列。由|max|先求各输入峰再跨输入包络，不混同刻，也非规范规定。根尚未采用包络候选数字，等独核。\n\n③新有限原文复查旧020已审U/C主例与本轮源身份，目的是把已知响应机制与当前预测衔接，不把U/C冒作事前算法。⑤v006已正式含S数值/主模态和SHW4，新v007纳已审RH4与图；Word仍未开始。\n',encoding='utf-8')
+(S/'topic-card-R007.md').write_text('# 方向卡R007 同输入局部解释到多输入工程判断\n\n已闭合主线一段：5%基准导数→各层改善敏感度与同峰有符号振型项→候选整历程预测和区间→独立目标核验。SHW3第5层慢、屋顶快有具体来源；SHW4第1/6层相近而有限排序翻转、RH4第7层控制，说明不能把某一楼层普遍化。RH4出现首个原规则直接通过的候选，已独核但只有单例。\n\n工程下一价值门：三输入包络验算究竟由哪个输入/楼层控制，必须从各输入峰及其区间组成包络，并保留逐输入相对降幅目标的不同含义。固定现有三输入和候选6/7/8/10，禁止再扩布局或随意参数扫描。\n\n写作重点为S表、促进/抵消的力学来源、竞争峰提示与实际候选步骤；完整总成本仍较直接解高，不卖加速。旧U/C只作已知两态机制解释，与当前预测职责分清。\n',encoding='utf-8')
+files=[]
+for role,rrs in {'role2':['R009'],'role4':['R009'],'role5':['R007'],'role6':['R006','R007']}.items():
+ for rr in rrs:
+  for p in (S/'roles'/role/rr).rglob('*'):
+   if p.is_file() and not any(q in p.parts for q in ['local-cache','__pycache__']) and p.suffix in ['.md','.json','.csv','.py','.ps1','.cjs','.svg','.png'] and p.stat().st_size<1048576:files.append(p)
+for n in ['checkpoint_R007.py','status.json','threads.json','claims.md','runs.md','rounds/R007.md','topic-card-R007.md','R007-actual-snapshot.json','git-R006-receipt.json','automation-R006-update-receipt.json','root-figure-review-R006.json','root-figure2-v002-adoption.json','engineering-input-envelope-policy-freeze-v001.json']:files.append(S/n)
+files.append(R/'papers/damping-output-boundaries/manuscript/damping-prediction-session021-v006.md')
+js(S/'git-R007-publication.json',dict(checkpoint='R007',time=now,message='research: confirm anticipatory pass case and integrate reviewed engineering figures',files=[dict(relative=p.relative_to(R).as_posix(),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(set(files))]))
+print(json.dumps({'time':now,'files':len(set(files)),'bytes':sum(p.stat().st_size for p in set(files))}))

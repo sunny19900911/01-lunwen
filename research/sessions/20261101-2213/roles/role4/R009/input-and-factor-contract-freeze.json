@@ -1,0 +1,75 @@
+{
+  "start_observed_utc": "2026-11-01T15:53:46+00:00",
+  "primary10min_deadline_utc": "2026-11-01T16:03:46+00:00",
+  "hard12min_deadline_utc": "2026-11-01T16:05:46+00:00",
+  "frozen_utc": "2026-11-01T15:54:46.404151+00:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2",
+      "bytes": 14836060
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\local-cache\\baseline-analytic-sensitivities-and-frozen-predictions.npz",
+      "sha256": "e53b2e218a2a6faf078613b5f79c23763e0690230fea2aeec8f9c9ffc109df46",
+      "bytes": 32993807
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R007\\local-cache\\baseline-sensitivities-predictions-envelopes.npz",
+      "sha256": "04bfa0710799564b369c324c54b8e22ca9268181577c3ce6c439cf9f59f08122",
+      "bytes": 43849410
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R008\\local-cache\\baseline-sensitivities-predictions-envelopes.npz",
+      "sha256": "59ee0cc687373c82001c4c22e3c7a6b556ece1064dee2462d67e81302a3d1602",
+      "bytes": 37132271
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\baseline-sensitivity-ranked-floors-15.csv",
+      "sha256": "37362b600ba419b383e6538e8fa6837a46fe5635b76db6e4f9271793e6c9388d",
+      "bytes": 5843
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R007\\baseline-S-ranked-floors-12.csv",
+      "sha256": "acdbcca3be7524a2a1014b089125c229b10c3c55157ec12bb557fdeb8d4a1044",
+      "bytes": 3299
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R008\\baseline-S-ranked-floors-12.csv",
+      "sha256": "d9b29139e413962e1bb3b54af6b05abcffa11e3d0a11553ad628fd21093936cb",
+      "bytes": 3291
+    }
+  ],
+  "code_sha256": "5d969a520d048f774a2823b56be6ad98f3e14b9ed0fb6ab7e4e3c55824d5a7a0",
+  "cases": [
+    "SHW3X",
+    "SHW4X",
+    "RH4X"
+  ],
+  "floor_rule": "Story5 plus each input baseline slowest S floor plus Story12, deduplicated; all exact right controllers separately retained",
+  "selected_modes": [
+    2,
+    4,
+    10,
+    13,
+    18,
+    50
+  ],
+  "definitions": {
+    "period": "T=2pi/omega",
+    "v_r_kN": "B_sr*omega_r^2*s0_r(t*)/1000",
+    "dv_r_dzeta_kN": "B_sr*omega_r^2*z_r(t*)/1000",
+    "c": "-sign(V0(t*))*B_sr*omega_r^2*z_r(t*)/(1000*P0)",
+    "S": "sum all300 c; numerical reduction percent/damping pp"
+  },
+  "closure": "selected6 + other294 = S; separately actual abs(c)-top5 + other295 = S; modal v sum =signed baseline V0",
+  "mechanics": "fixed structural/modal basis M/K and shapes, omega and B invariant across inputs; floor B differs by output projection. Input, control time, s0 and z and signV0 may vary; no geometry reconstruction or torsional-mode labels.",
+  "not_allowed": [
+    "new ODE",
+    "target response arrays",
+    "new finite damping target",
+    "modal Excel/node extraction",
+    "pure-phase attribution",
+    "mass participation as shear share"
+  ]
+}

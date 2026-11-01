@@ -1,0 +1,69 @@
+{
+  "session": "20261101-2213",
+  "role": 6,
+  "task": "R007",
+  "status": "frozen-text-only-figure2-v002-self-viewed",
+  "actual_start": "2026-11-02T00:02:45+08:00",
+  "start_source": "read_thread startedAt1793548965",
+  "actual_freeze": "2026-11-02T00:04:54.499489+08:00",
+  "elapsed_seconds": 129.499489,
+  "limit_seconds": 360,
+  "within6minutes": true,
+  "primary_files": [
+    "figure2-signed-modal-improvement-v002.svg",
+    "figure2-signed-modal-improvement-v002.png"
+  ],
+  "PNG": {
+    "width": 2800,
+    "height": 1925,
+    "dpi": 300
+  },
+  "source_references": {
+    "../R006/figure2-signed-modal-improvement-v001.svg": {
+      "bytes": 10138,
+      "sha256": "819159fa998e3dad57b8225a4a805c4f42a9d5bf7e0b61f753a749c7f17c7d14"
+    },
+    "../R006/figure2-signed-contribution-source-16.csv": {
+      "bytes": 1110,
+      "sha256": "ef76fa44b777717eb53b0b946827152b175b73a29305979c2583adde43e45aee"
+    },
+    "../R006/figure1-S-profile-source-12.csv": {
+      "bytes": 430,
+      "sha256": "656e70537a0ad3e1f1dc17c115adc7a6cd9a0caee792ea5f7b58a23102c3a44c"
+    }
+  },
+  "no_new_science": true,
+  "no_source_CSV_changes": true,
+  "no_figure1_changes_or_QA": true,
+  "no_Git_or_manuscript_changes": true,
+  "files": {
+    "caption.md": {
+      "sha256": "eb2c83ad4000baa41fa43ba861b9d6b006e34144e8a75ed039231de17a74cfb7",
+      "bytes": 273
+    },
+    "figure2-signed-modal-improvement-v002.png": {
+      "sha256": "278c4b51880b730f2770d0b938d941ef820f5017aa1d4680e005c3a78bc0a888",
+      "bytes": 223561
+    },
+    "figure2-signed-modal-improvement-v002.svg": {
+      "sha256": "b5b23b4eca86e335a034ff0f7e94c446c56dd9a0f85987cc2d4e2f0484b5a84d",
+      "bytes": 10132
+    },
+    "render-record.json": {
+      "sha256": "1bcc5432749f501dbc318cb6798b8e7d03f6bb826244a5a0e8fdd7d079e93375",
+      "bytes": 170
+    },
+    "render_figure2.cjs": {
+      "sha256": "2eabd89c2223ce38bf90eb5262a4ab38147b452a225ab97f50935b88a662aba1",
+      "bytes": 926
+    },
+    "visual-QA.json": {
+      "sha256": "91706160477579821002a70ead89cce8fc924bcee031bb98c0076eff6c20f1c7",
+      "bytes": 461
+    },
+    "wording-change-record.json": {
+      "sha256": "e5cea419337af11d6e563ad2ab3793e6be66416ebfa90befc4493a27a3af9150",
+      "bytes": 1285
+    }
+  }
+}

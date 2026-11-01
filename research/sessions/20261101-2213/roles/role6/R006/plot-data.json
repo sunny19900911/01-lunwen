@@ -1,0 +1,243 @@
+{
+  "created": "2026-11-01T23:53:50.856555+08:00",
+  "backend_preflight": "Windows PowerShell5.1 System.Windows.Forms.DataVisualization loaded successfully; no fallback needed",
+  "selected_union": [
+    1,
+    2,
+    4,
+    10,
+    13,
+    18,
+    50
+  ],
+  "remainder_count": 293,
+  "main5_manuscript_table_remainder_unchanged": 295,
+  "source_sha256": {
+    "roles\\role4\\R006\\baseline-sensitivity-ranked-floors-15.csv": "37362b600ba419b383e6538e8fa6837a46fe5635b76db6e4f9271793e6c9388d",
+    "roles\\role4\\R006\\all-mode-signed-sensitivity-sources-3636.csv": "7eb144502344be8e9f60d3bacdc6bd70c4fa89b2f553bda71e5a9571582748a0",
+    "roles\\role2\\R007\\author-floor-summary-15.csv": "910dd3dcf9f4f563cf851820a289960fae1305f942b752452a0f7408f87a2b20",
+    "roles\\role2\\R007\\one-page.md": "4b060f8e8796cd6ed4c51aa28add4ad17356ff172ea6e2e38f942d30e9aad383",
+    "roles\\role2\\R007\\manifest.json": "b797b73883f450916a3033469894968733d3d86ed3085569cb55f96b2ffd701e"
+  },
+  "closure_tolerance": 1e-12,
+  "profile": [
+    {
+      "Story": "Story1",
+      "floor": 1,
+      "S": "4.327312810961502",
+      "control_time_s": "22.7"
+    },
+    {
+      "Story": "Story2",
+      "floor": 2,
+      "S": "3.824083990241589",
+      "control_time_s": "22.72"
+    },
+    {
+      "Story": "Story3",
+      "floor": 3,
+      "S": "3.23479252056216",
+      "control_time_s": "22.76"
+    },
+    {
+      "Story": "Story4",
+      "floor": 4,
+      "S": "2.513645307691497",
+      "control_time_s": "22.82"
+    },
+    {
+      "Story": "Story5",
+      "floor": 5,
+      "S": "2.132064434900846",
+      "control_time_s": "22.92"
+    },
+    {
+      "Story": "Story6",
+      "floor": 6,
+      "S": "2.5368803240183793",
+      "control_time_s": "22.98"
+    },
+    {
+      "Story": "Story7",
+      "floor": 7,
+      "S": "2.94400122549024",
+      "control_time_s": "23.02"
+    },
+    {
+      "Story": "Story8",
+      "floor": 8,
+      "S": "3.5594716878342267",
+      "control_time_s": "23.06"
+    },
+    {
+      "Story": "Story9",
+      "floor": 9,
+      "S": "4.323238110648488",
+      "control_time_s": "23.1"
+    },
+    {
+      "Story": "Story10",
+      "floor": 10,
+      "S": "5.620948812276831",
+      "control_time_s": "23.14"
+    },
+    {
+      "Story": "Story11",
+      "floor": 11,
+      "S": "8.605927552149646",
+      "control_time_s": "23.18"
+    },
+    {
+      "Story": "Story12",
+      "floor": 12,
+      "S": "11.723848806211175",
+      "control_time_s": "21.18"
+    }
+  ],
+  "bars": [
+    {
+      "Story": "Story5",
+      "group": "第1阶",
+      "mode": 1,
+      "c": 0.11296631660067537,
+      "group_count": 1,
+      "control_time_s": 22.92,
+      "S": 2.132064434900846
+    },
+    {
+      "Story": "Story5",
+      "group": "第2阶",
+      "mode": 2,
+      "c": 1.0422843640743829,
+      "group_count": 1,
+      "control_time_s": 22.92,
+      "S": 2.132064434900846
+    },
+    {
+      "Story": "Story5",
+      "group": "第4阶",
+      "mode": 4,
+      "c": 0.004965074741627047,
+      "group_count": 1,
+      "control_time_s": 22.92,
+      "S": 2.132064434900846
+    },
+    {
+      "Story": "Story5",
+      "group": "第10阶",
+      "mode": 10,
+      "c": 1.473274536720507,
+      "group_count": 1,
+      "control_time_s": 22.92,
+      "S": 2.132064434900846
+    },
+    {
+      "Story": "Story5",
+      "group": "第13阶",
+      "mode": 13,
+      "c": -0.5272291884185202,
+      "group_count": 1,
+      "control_time_s": 22.92,
+      "S": 2.132064434900846
+    },
+    {
+      "Story": "Story5",
+      "group": "第18阶",
+      "mode": 18,
+      "c": -0.017405672857588685,
+      "group_count": 1,
+      "control_time_s": 22.92,
+      "S": 2.132064434900846
+    },
+    {
+      "Story": "Story5",
+      "group": "第50阶",
+      "mode": 50,
+      "c": 0.05099024461942998,
+      "group_count": 1,
+      "control_time_s": 22.92,
+      "S": 2.132064434900846
+    },
+    {
+      "Story": "Story5",
+      "group": "其余293阶",
+      "mode": "rest293",
+      "c": -0.007781240579665052,
+      "group_count": 293,
+      "control_time_s": 22.92,
+      "S": 2.132064434900846
+    },
+    {
+      "Story": "Story12",
+      "group": "第1阶",
+      "mode": 1,
+      "c": 0.0383766440796351,
+      "group_count": 1,
+      "control_time_s": 21.18,
+      "S": 11.723848806211175
+    },
+    {
+      "Story": "Story12",
+      "group": "第2阶",
+      "mode": 2,
+      "c": 0.5340175965028339,
+      "group_count": 1,
+      "control_time_s": 21.18,
+      "S": 11.723848806211175
+    },
+    {
+      "Story": "Story12",
+      "group": "第4阶",
+      "mode": 4,
+      "c": -2.0413227730390764,
+      "group_count": 1,
+      "control_time_s": 21.18,
+      "S": 11.723848806211175
+    },
+    {
+      "Story": "Story12",
+      "group": "第10阶",
+      "mode": 10,
+      "c": 5.297376762974242,
+      "group_count": 1,
+      "control_time_s": 21.18,
+      "S": 11.723848806211175
+    },
+    {
+      "Story": "Story12",
+      "group": "第13阶",
+      "mode": 13,
+      "c": 7.17344167572991,
+      "group_count": 1,
+      "control_time_s": 21.18,
+      "S": 11.723848806211175
+    },
+    {
+      "Story": "Story12",
+      "group": "第18阶",
+      "mode": 18,
+      "c": 0.7037914205213532,
+      "group_count": 1,
+      "control_time_s": 21.18,
+      "S": 11.723848806211175
+    },
+    {
+      "Story": "Story12",
+      "group": "第50阶",
+      "mode": 50,
+      "c": 0.02861236936765345,
+      "group_count": 1,
+      "control_time_s": 21.18,
+      "S": 11.723848806211175
+    },
+    {
+      "Story": "Story12",
+      "group": "其余293阶",
+      "mode": "rest293",
+      "c": -0.010444889925382608,
+      "group_count": 293,
+      "control_time_s": 21.18,
+      "S": 11.723848806211175
+    }
+  ]
+}

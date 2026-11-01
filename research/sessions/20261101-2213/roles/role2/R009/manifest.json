@@ -1,0 +1,100 @@
+{
+  "status": "frozen",
+  "observed_start": "2026-11-01T23:53:50.821601+08:00",
+  "frozen_at": "2026-11-01T23:59:24.701152+08:00",
+  "major_result_deadline": "2026-11-02T00:03:50.821601+08:00",
+  "primary_deadline": "2026-11-02T00:05:50.821601+08:00",
+  "absolute_deadline": "2026-11-02T00:08:50.821601+08:00",
+  "must_fix": 0,
+  "upstream_manifest_sha256": "35e971eafaaff96034bc2edcc2cc1bd0a4fefb3c93180d1e7652fab882e9ae42",
+  "artifacts": [
+    {
+      "name": "audit-reuse-provenance.json",
+      "bytes": 284,
+      "sha256": "3b6111fe6380724d52a18d694ba722efc6d24b413568adf4e6053a455fe05b63"
+    },
+    {
+      "name": "audit_RH4X.py",
+      "bytes": 17088,
+      "sha256": "606b88ce0a6724a27cc3b2086a5610eabe70e780efbe37b73fe75fbf90c6aaf8"
+    },
+    {
+      "name": "independent-candidate-actions-4.csv",
+      "bytes": 373,
+      "sha256": "e1ad516453e445264505650989ec404a6366adb94b4b8a437611ec131700a517"
+    },
+    {
+      "name": "independent-first-pass-all12.csv",
+      "bytes": 1414,
+      "sha256": "a19e7ea918959f6cf0c77a382776bd0ee504fc985c6361f0ef29b774944e4696"
+    },
+    {
+      "name": "independent-point-misses-1.csv",
+      "bytes": 143,
+      "sha256": "da53fd8d3b404d7cbfd0726e12f9a988da7ccdadd7427a9f7a14199de2188733"
+    },
+    {
+      "name": "independent-rank-inversions-4.csv",
+      "bytes": 527,
+      "sha256": "6fbaddadc6bc315cfa74c2ea8a95ed587ff5f06d8cf351fc0c53b81f6465a8a3"
+    },
+    {
+      "name": "independent-rank-summary-2.csv",
+      "bytes": 136,
+      "sha256": "1c6f277e580879ee11c1efe7d0847c891263741591f6fd8fd59a55692fb20633"
+    },
+    {
+      "name": "independent-RK4-checks-24.csv",
+      "bytes": 1334,
+      "sha256": "e8a4f79d396507e74dd59977d6cd4c11ea1eef62d60d1c05a23bd436c1a97a75"
+    },
+    {
+      "name": "independent-S-floors-12.csv",
+      "bytes": 1472,
+      "sha256": "e61e905d19a2fcdb153ef66ac8d9f4c08d1e8d6f2f44c78966e556934a9f65f2"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 4157,
+      "sha256": "aeecaaefd39e7feac23b74ace7f5ef6d636fe3d5b0b660db5e8b9f5a33665333"
+    },
+    {
+      "name": "results.json",
+      "bytes": 1561,
+      "sha256": "fbbd91a4278ec40a1533c6b2eff6d4068cc68a82d7472bbf8ed990a428666774"
+    },
+    {
+      "name": "scalar-crossing-math-review.json",
+      "bytes": 736,
+      "sha256": "19331f87b9feff287285958f948677faabb8a0af40d010f1eec57da8312ddbb6"
+    }
+  ],
+  "independent_auditor_reused_from": {
+    "path": "research\\sessions\\20261101-2213\\roles\\role2\\R008\\audit_SHW4X.py",
+    "sha256": "a2bee5c795f2c737ebb0a2b9af088676c5d967091ace31653049a5628351e303"
+  },
+  "execution": {
+    "script": "audit_RH4X.py",
+    "exit_code": 0,
+    "tool_wall_seconds": 5.7700981,
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scalar_math": {
+    "role1_source": "roles/role1/R005/input-freeze.json",
+    "own_review": "scalar-crossing-math-review.json",
+    "precision_decimal_digits": 50,
+    "new_arrays_or_ODE": false
+  },
+  "first_pass_checks": "all12 distinct floors DL>=.10, width<=.05; original policy SHA matches prior freeze; reference all12 meets verified",
+  "new_full300_reference_solves": false,
+  "old8_array_opened": false,
+  "new_model_or_input": false,
+  "full_arrays_written": false,
+  "limits": [
+    "one passing method-target combination is not a reliability probability",
+    "no adverse truth denominator",
+    "historically known input, not unseen-event blind test",
+    "sampled computed envelope not strict FP/continuous certificate",
+    "linear branch crossing warning not actual switch threshold"
+  ]
+}

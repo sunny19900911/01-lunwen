@@ -1,0 +1,5 @@
+{
+  "backend_failure": "WindowsPowerShell5.1 -File render_figures.ps1 rejected by system ExecutionPolicy: running scripts disabled, UnauthorizedAccess; no policy change or bypass attempted",
+  "fallback": "SVG + existing Sharp, no installation",
+  "v002_change": "figure1 roof text shifted28 SVG units upward to avoid line overlap; source numeric values unchanged"
+}

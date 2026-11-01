@@ -1,0 +1,12 @@
+{
+  "formula_review": "fixed-baseline-time first-order branch intersection correct; positive gap and gj>g0 needed; Sj uses same P0 denominator",
+  "b_cross_damping_pp": "0.24802563620405273276349834370226811935902112320589",
+  "delta_fraction": "0.0024802563620405273276349834370226811935902112320589",
+  "height_force_kip": "34.022233955285227458337207696294045842545031822993",
+  "linear_height_closure_kip": "0E-48",
+  "equivalent_b_formula_difference_pp": "-5E-50",
+  "given_10decimal_scalar_verified": ".2480256362",
+  "warning_for_6percent_candidate": true,
+  "not_claimed": "actual peak-switch threshold, all-peak no-switch guarantee, Taylor-validity radius, continuous/FP certificate",
+  "arrays_or_ODE_used": false
+}

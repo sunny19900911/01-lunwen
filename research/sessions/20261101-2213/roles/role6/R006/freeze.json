@@ -1,0 +1,98 @@
+{
+  "session": "20261101-2213",
+  "role": 6,
+  "task": "R006",
+  "actual_start": "2026-11-01T23:50:39+08:00",
+  "start_source": "read_thread startedAt1793548239",
+  "actual_freeze": "2026-11-02T00:00:10.186709+08:00",
+  "elapsed_seconds": 571.186709,
+  "primary_limit_seconds": 600,
+  "within10minutes": true,
+  "hard_limit_seconds": 720,
+  "first_image_before8minutes": true,
+  "first_image_evidence": "render-record.json actual UTC and model view tool returned23:57:50; first images at431s fromturn start; root delivery occurs after final freeze",
+  "status": "frozen-figures-self-viewed-await-root-view-before-role5",
+  "backend": "SVG + existing Sharp after .NET PS1 execution-policy failure; no policy change, bypass or installation",
+  "primary_files": [
+    "figure1-S-along-height-v002.svg",
+    "figure1-S-along-height-v002.png",
+    "figure2-signed-modal-improvement-v001.svg",
+    "figure2-signed-modal-improvement-v001.png"
+  ],
+  "source_sha256": {
+    "roles\\role4\\R006\\baseline-sensitivity-ranked-floors-15.csv": "37362b600ba419b383e6538e8fa6837a46fe5635b76db6e4f9271793e6c9388d",
+    "roles\\role4\\R006\\all-mode-signed-sensitivity-sources-3636.csv": "7eb144502344be8e9f60d3bacdc6bd70c4fa89b2f553bda71e5a9571582748a0",
+    "roles\\role2\\R007\\author-floor-summary-15.csv": "910dd3dcf9f4f563cf851820a289960fae1305f942b752452a0f7408f87a2b20",
+    "roles\\role2\\R007\\one-page.md": "4b060f8e8796cd6ed4c51aa28add4ad17356ff172ea6e2e38f942d30e9aad383",
+    "roles\\role2\\R007\\manifest.json": "b797b73883f450916a3033469894968733d3d86ed3085569cb55f96b2ffd701e"
+  },
+  "no_new_science_or_response": true,
+  "SHW4_RH4_read": false,
+  "git": false,
+  "files": {
+    "backend-and-refinement-record.json": {
+      "bytes": 367,
+      "sha256": "f8f5a3d0460afd37829fcc3b8edf665df2ef2966a04f6192e3b9863a2b7cac81"
+    },
+    "captions.md": {
+      "bytes": 721,
+      "sha256": "6cbad73b6333d3322ed0023cca69620718e8f38c4498fa66ceebcaa39df9fa7d"
+    },
+    "figure1-S-along-height-v001.png": {
+      "bytes": 171973,
+      "sha256": "381683bb027a0de214d952bae30ff51ede9b70e32f761e04583958028fea3c5f"
+    },
+    "figure1-S-along-height-v001.svg": {
+      "bytes": 6594,
+      "sha256": "01caf7987be88763d9cf012dd309941b9f2cde9b6de31f829020669d0d587710"
+    },
+    "figure1-S-along-height-v002.png": {
+      "bytes": 172192,
+      "sha256": "bc70bdc54de7b0d9aa5859f1cf96884ed17f45b2524f9f397e45a9184dd410d4"
+    },
+    "figure1-S-along-height-v002.svg": {
+      "bytes": 6594,
+      "sha256": "e5fd348543f567b5eaa60482ed605c8f46100137e77cc33350d610c74c762cc1"
+    },
+    "figure1-S-profile-source-12.csv": {
+      "bytes": 430,
+      "sha256": "656e70537a0ad3e1f1dc17c115adc7a6cd9a0caee792ea5f7b58a23102c3a44c"
+    },
+    "figure2-signed-contribution-source-16.csv": {
+      "bytes": 1110,
+      "sha256": "ef76fa44b777717eb53b0b946827152b175b73a29305979c2583adde43e45aee"
+    },
+    "figure2-signed-modal-improvement-v001.png": {
+      "bytes": 224013,
+      "sha256": "0dc0126a8469d2418182edb76d9693c40c86ec2b3c5a9cff609f390aa91ee4a0"
+    },
+    "figure2-signed-modal-improvement-v001.svg": {
+      "bytes": 10138,
+      "sha256": "819159fa998e3dad57b8225a4a805c4f42a9d5bf7e0b61f753a749c7f17c7d14"
+    },
+    "make_svg_figures.py": {
+      "bytes": 3906,
+      "sha256": "e6f4c1de989c99f768e8bd071f75506c1529bb885d30a92b73d288d02ede378f"
+    },
+    "plot-data.json": {
+      "bytes": 5698,
+      "sha256": "a530ab123f68a31e8e3c06d49608b645a7f9557c861fa575808ab05578d8c8aa"
+    },
+    "render-record.json": {
+      "bytes": 394,
+      "sha256": "dca893bae00dd318aaabf15843252cd4d93ddcbe5ae7a4b221fe802e24664d88"
+    },
+    "render_figures.ps1": {
+      "bytes": 7271,
+      "sha256": "dee28146f55879223318a4c0d69f4e61c98583f073663c5b9bcd27b3369243b6"
+    },
+    "render_svg.cjs": {
+      "bytes": 1030,
+      "sha256": "46e3874701103e93fc9b37449bc52ef435cdea55d361109762c09dd8d892fa0f"
+    },
+    "visual-QA.json": {
+      "bytes": 978,
+      "sha256": "d8a850a982aab7cda7540133ea3e50ddb084f8cae18b18ff5eeb5b0930bd228c"
+    }
+  }
+}

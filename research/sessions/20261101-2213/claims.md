@@ -27,3 +27,7 @@ C021-13 candidate-observed: SHW3Story5S2.132064 vsroof11.723849; mode13same-damp
 C021-12 upgraded-reviewed: role2R00715layerS/3636modalterms/19910fields0must, rootadopted and authornotified; S5/roof13modeopposingsigns concrete.
 C021-14 reviewed-SHW4: role2R00812955fields/ownselectedRK4 verify first-rankcounterexampleStory1->Story6 at6%,2/1pairinversions despitehighrho;48curveintervalscovered,pointmisses2 caught. Doesnot invalidateconditional localderivative law butinvalidatesuniversalrankclaim.
 C021-15 testing-RH4: rootreportread firstcandidatepass7%2nd fixedthresholds verifiedbyproducer, independentR009pending; no acceptance/physicsprobability conclusion.
+
+C021-15 upgraded-reviewed: role2R009all12firstpass7%RH4secondorder0must underunchanged10%/5pp:DLmin12.41229,widthmax3.821629pp,trueDmin13.731792Story7. Singlepassnotreliabilityestimate.
+C021-16 reviewed-analytic: role2R009 fixedbaselinebranchlinearcompetitionb=.2480256362040527pp, not exactswitchthreshold.
+C021-17 proposed-engineering-objective: root engineering-input-envelope-policy-freeze-v001 separates per-input allmeet target from eachfloor max-input peak-envelope reduction. Penv interval=maxL/maxU; Senv comesfrom activebaselineinput. ProducerR010candidate pendingaudit, no normclaim.
