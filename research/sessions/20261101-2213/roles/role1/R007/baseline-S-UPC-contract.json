@@ -1,0 +1,85 @@
+{
+  "task": "session021-role1-R007",
+  "scope": "one floor/input, fixed finite grid and fixed elastic modal output; baseline right derivatives only",
+  "quantities": {
+    "v_r": "k_r*s0_r",
+    "vprime_r": "k_r*z_r",
+    "k_r": "B_sr*omega_r^2/1000 for kg,m,s to kN; replace consistently in other units",
+    "p_r": "max(abs(v_r))",
+    "U": "sum(p_r)",
+    "P": "max(abs(sum(v_r)))",
+    "C": "P/U"
+  },
+  "five_line_proof": [
+    {
+      "line": 1,
+      "formula": "pprime_r+=max_{own true peak set}sign(v_r)*vprime_r if p_r>0; ifp_r=0 then max(abs(vprime_r))"
+    },
+    {
+      "line": 2,
+      "formula": "Uprime+=sum(pprime_r+);Pprime+=max_{total true peak set}sign(V)*sum(vprime_r)"
+    },
+    {
+      "line": 3,
+      "formula": "Cprime+=(Pprime+*U-P*Uprime+)/U^2,U>0"
+    },
+    {
+      "line": 4,
+      "formula": "S=-Pprime+/P=-Uprime+/U-Cprime+/C=SU+SC,P,U>0"
+    },
+    {
+      "line": 5,
+      "formula": "100*(1-X(zeta0+.01*b)/X(zeta0))=(-Xprime+/X)*b+o(b),X=P,U,C"
+    }
+  ],
+  "interpretation": {
+    "SU": "improvement of sum of individual modal peak amplitudes",
+    "SC": "improvement from change of combined-peak-to-sum ratio",
+    "units": "corresponding reduction percent per damping percentage point, no extra100",
+    "SU_positive_SC_negative": "ratio increase offsets amplitude-sum improvement",
+    "SC_less_than_minus_SU": "S<0, peak locally rises for sufficiently small positive increment",
+    "SU_not_guaranteed_positive": true,
+    "SC_not_pure_phase_or_causal_share": true,
+    "S_zero": "first-order cancellation only"
+  },
+  "modal_contributions": {
+    "SU_term": "-pprime_r+/U,own modal right-controlling peak set",
+    "old_total_peak_term": "cP_r=-sign(V[nP])*vprime_r[nP]/P at a total right-controller",
+    "sums": "SU_terms sum toSU; total_peak_terms sum toS separately at each total right-controller",
+    "not_equal": "different times, projections and normalization; cannot identify old cP with Uprime terms",
+    "multiple_peaks": "max derivative on each true active set, retain equal controlling branches, no cross-time mixing",
+    "remainder": "displayed modes plus all-other remainder must close"
+  },
+  "degeneracy": {
+    "P_U_positive": "needed for normalized relation;P>0 impliesU>0",
+    "U_zero": "C undefined, report unnormalized derivatives",
+    "P_zero_U_positive": "S/SC undefined, report unnormalized derivatives",
+    "zero_mode": "special max abs derivative, never sign(0)",
+    "near_peaks": "keep tolerance sets separate from exact active sets and report numerical validity"
+  },
+  "old_two_state_evidence": {
+    "source": "role3 R003 small-file same-source review",
+    "known_patterns": "SHW3X Story5 Udown/Cup;Story12 Udown/Cdown",
+    "identity": "P8/P5=(U8/U5)*(C8/C5) is finite two-state form ofP=UC",
+    "not_inferred": "endpoint ratios do not give baseline SU/SC signs or values; neither identity alone is finite-zeta prediction"
+  },
+  "minimum_table": [
+    "Case",
+    "Story",
+    "P0",
+    "U0",
+    "C0",
+    "Pprime_right",
+    "Uprime_right",
+    "Cprime_right",
+    "S",
+    "SU",
+    "SC",
+    "identity_error",
+    "modal_own_peak_status",
+    "total_peak_status",
+    "zero_mode_count",
+    "numerical_status"
+  ],
+  "new_states_arrays_ODE_frequency_scan": false
+}

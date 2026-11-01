@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200"><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#263b48">
+<text x="800.000" y="55.000" font-size="36" text-anchor="middle" font-weight="bold" fill="#263b48">不同输入下的楼层剪力改善敏感度</text>
+<text x="800.000" y="105.000" font-size="24" text-anchor="middle" font-weight="normal" fill="#263b48">5%基准阻尼 · 同一结构的固定300阶线性参照</text>
+<line x1="205" y1="155" x2="277" y2="155" stroke="#24779b" stroke-width="3" stroke-dasharray=""/>
+<circle cx="241.000" cy="155.000" r="5.5" fill="#24779b" stroke="white" stroke-width="1.5"/>
+<text x="300.000" y="164.000" font-size="27" text-anchor="start" font-weight="bold" fill="#263b48">SHW3X</text>
+<text x="335.000" y="202.000" font-size="23" text-anchor="middle" font-weight="normal" fill="#263b48">基准最小：第5层 · 2.132064</text>
+<line x1="670" y1="155" x2="742" y2="155" stroke="#c76536" stroke-width="3" stroke-dasharray="10 6"/>
+<rect x="700.500" y="149.500" width="11.0" height="11.0" fill="none" stroke="#c76536" stroke-width="2.2"/>
+<text x="765.000" y="164.000" font-size="27" text-anchor="start" font-weight="bold" fill="#263b48">SHW4X</text>
+<text x="800.000" y="202.000" font-size="23" text-anchor="middle" font-weight="normal" fill="#263b48">基准最小：第1层 · 4.347595</text>
+<line x1="1135" y1="155" x2="1207" y2="155" stroke="#398763" stroke-width="3" stroke-dasharray="3 5"/>
+<polygon points="1171.000,148.000 1164.000,160.250 1178.000,160.250" fill="#398763" stroke="white" stroke-width="1.2"/>
+<text x="1230.000" y="164.000" font-size="27" text-anchor="start" font-weight="bold" fill="#263b48">RH4X</text>
+<text x="1265.000" y="202.000" font-size="23" text-anchor="middle" font-weight="normal" fill="#263b48">基准最小：第7层 · 8.231270</text>
+<line x1="155.000" y1="250.000" x2="155.000" y2="970.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="155.000" y="1012.000" font-size="24" text-anchor="middle" font-weight="normal" fill="#263b48">0</text>
+<line x1="318.750" y1="250.000" x2="318.750" y2="970.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="318.750" y="1012.000" font-size="24" text-anchor="middle" font-weight="normal" fill="#263b48">2</text>
+<line x1="482.500" y1="250.000" x2="482.500" y2="970.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="482.500" y="1012.000" font-size="24" text-anchor="middle" font-weight="normal" fill="#263b48">4</text>
+<line x1="646.250" y1="250.000" x2="646.250" y2="970.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="646.250" y="1012.000" font-size="24" text-anchor="middle" font-weight="normal" fill="#263b48">6</text>
+<line x1="810.000" y1="250.000" x2="810.000" y2="970.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="810.000" y="1012.000" font-size="24" text-anchor="middle" font-weight="normal" fill="#263b48">8</text>
+<line x1="973.750" y1="250.000" x2="973.750" y2="970.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="973.750" y="1012.000" font-size="24" text-anchor="middle" font-weight="normal" fill="#263b48">10</text>
+<line x1="1137.500" y1="250.000" x2="1137.500" y2="970.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="1137.500" y="1012.000" font-size="24" text-anchor="middle" font-weight="normal" fill="#263b48">12</text>
+<line x1="1301.250" y1="250.000" x2="1301.250" y2="970.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="1301.250" y="1012.000" font-size="24" text-anchor="middle" font-weight="normal" fill="#263b48">14</text>
+<line x1="1465.000" y1="250.000" x2="1465.000" y2="970.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="1465.000" y="1012.000" font-size="24" text-anchor="middle" font-weight="normal" fill="#263b48">16</text>
+<line x1="155.000" y1="940.000" x2="1465.000" y2="940.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="130.000" y="949.000" font-size="25" text-anchor="end" font-weight="normal" fill="#263b48">1</text>
+<line x1="155.000" y1="880.000" x2="1465.000" y2="880.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="130.000" y="889.000" font-size="25" text-anchor="end" font-weight="normal" fill="#263b48">2</text>
+<line x1="155.000" y1="820.000" x2="1465.000" y2="820.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="130.000" y="829.000" font-size="25" text-anchor="end" font-weight="normal" fill="#263b48">3</text>
+<line x1="155.000" y1="760.000" x2="1465.000" y2="760.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="130.000" y="769.000" font-size="25" text-anchor="end" font-weight="normal" fill="#263b48">4</text>
+<line x1="155.000" y1="700.000" x2="1465.000" y2="700.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="130.000" y="709.000" font-size="25" text-anchor="end" font-weight="normal" fill="#263b48">5</text>
+<line x1="155.000" y1="640.000" x2="1465.000" y2="640.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="130.000" y="649.000" font-size="25" text-anchor="end" font-weight="normal" fill="#263b48">6</text>
+<line x1="155.000" y1="580.000" x2="1465.000" y2="580.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="130.000" y="589.000" font-size="25" text-anchor="end" font-weight="normal" fill="#263b48">7</text>
+<line x1="155.000" y1="520.000" x2="1465.000" y2="520.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="130.000" y="529.000" font-size="25" text-anchor="end" font-weight="normal" fill="#263b48">8</text>
+<line x1="155.000" y1="460.000" x2="1465.000" y2="460.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="130.000" y="469.000" font-size="25" text-anchor="end" font-weight="normal" fill="#263b48">9</text>
+<line x1="155.000" y1="400.000" x2="1465.000" y2="400.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="130.000" y="409.000" font-size="25" text-anchor="end" font-weight="normal" fill="#263b48">10</text>
+<line x1="155.000" y1="340.000" x2="1465.000" y2="340.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="130.000" y="349.000" font-size="25" text-anchor="end" font-weight="normal" fill="#263b48">11</text>
+<line x1="155.000" y1="280.000" x2="1465.000" y2="280.000" stroke="#e1e7eb" stroke-width="1"/>
+<text x="130.000" y="289.000" font-size="25" text-anchor="end" font-weight="normal" fill="#263b48">12</text>
+<line x1="155.000" y1="250.000" x2="155.000" y2="970.000" stroke="#263b48" stroke-width="1.7"/>
+<line x1="155.000" y1="970.000" x2="1465.000" y2="970.000" stroke="#263b48" stroke-width="1.7"/>
+<polyline points="509.299,940.000 468.097,880.000 419.849,820.000 360.805,760.000 329.563,700.000 362.707,640.000 396.040,580.000 446.432,520.000 508.965,460.000 615.215,400.000 859.610,340.000 1114.890,280.000" fill="none" stroke="#24779b" stroke-width="3" stroke-dasharray=""/>
+<polyline points="510.959,940.000 567.095,880.000 637.318,820.000 609.328,760.000 537.870,700.000 512.927,640.000 523.640,580.000 629.949,520.000 770.771,460.000 855.890,400.000 898.338,340.000 1359.053,280.000" fill="none" stroke="#c76536" stroke-width="3" stroke-dasharray="10 6"/>
+<polyline points="963.761,940.000 960.650,880.000 939.416,820.000 850.210,760.000 855.385,700.000 848.954,640.000 828.935,580.000 917.840,520.000 1000.416,460.000 1075.655,400.000 1178.070,340.000 1049.795,280.000" fill="none" stroke="#398763" stroke-width="3" stroke-dasharray="3 5"/>
+<rect x="499.959" y="929.000" width="22" height="22" fill="none" stroke="#c76536" stroke-width="3"/>
+<rect x="561.595" y="874.500" width="11.0" height="11.0" fill="none" stroke="#c76536" stroke-width="2.2"/>
+<rect x="631.818" y="814.500" width="11.0" height="11.0" fill="none" stroke="#c76536" stroke-width="2.2"/>
+<rect x="603.828" y="754.500" width="11.0" height="11.0" fill="none" stroke="#c76536" stroke-width="2.2"/>
+<rect x="532.370" y="694.500" width="11.0" height="11.0" fill="none" stroke="#c76536" stroke-width="2.2"/>
+<rect x="507.427" y="634.500" width="11.0" height="11.0" fill="none" stroke="#c76536" stroke-width="2.2"/>
+<rect x="518.140" y="574.500" width="11.0" height="11.0" fill="none" stroke="#c76536" stroke-width="2.2"/>
+<rect x="624.449" y="514.500" width="11.0" height="11.0" fill="none" stroke="#c76536" stroke-width="2.2"/>
+<rect x="765.271" y="454.500" width="11.0" height="11.0" fill="none" stroke="#c76536" stroke-width="2.2"/>
+<rect x="850.390" y="394.500" width="11.0" height="11.0" fill="none" stroke="#c76536" stroke-width="2.2"/>
+<rect x="892.838" y="334.500" width="11.0" height="11.0" fill="none" stroke="#c76536" stroke-width="2.2"/>
+<rect x="1353.553" y="274.500" width="11.0" height="11.0" fill="none" stroke="#c76536" stroke-width="2.2"/>
+<text x="528.959" y="968.000" font-size="23" text-anchor="start" font-weight="bold" fill="#c76536">第1层</text>
+<circle cx="509.299" cy="940.000" r="5.5" fill="#24779b" stroke="white" stroke-width="1.5"/>
+<circle cx="468.097" cy="880.000" r="5.5" fill="#24779b" stroke="white" stroke-width="1.5"/>
+<circle cx="419.849" cy="820.000" r="5.5" fill="#24779b" stroke="white" stroke-width="1.5"/>
+<circle cx="360.805" cy="760.000" r="5.5" fill="#24779b" stroke="white" stroke-width="1.5"/>
+<circle cx="329.563" cy="700.000" r="10" fill="#24779b" stroke="white" stroke-width="2.5"/>
+<circle cx="362.707" cy="640.000" r="5.5" fill="#24779b" stroke="white" stroke-width="1.5"/>
+<circle cx="396.040" cy="580.000" r="5.5" fill="#24779b" stroke="white" stroke-width="1.5"/>
+<circle cx="446.432" cy="520.000" r="5.5" fill="#24779b" stroke="white" stroke-width="1.5"/>
+<circle cx="508.965" cy="460.000" r="5.5" fill="#24779b" stroke="white" stroke-width="1.5"/>
+<circle cx="615.215" cy="400.000" r="5.5" fill="#24779b" stroke="white" stroke-width="1.5"/>
+<circle cx="859.610" cy="340.000" r="5.5" fill="#24779b" stroke="white" stroke-width="1.5"/>
+<circle cx="1114.890" cy="280.000" r="5.5" fill="#24779b" stroke="white" stroke-width="1.5"/>
+<text x="313.563" y="708.000" font-size="23" text-anchor="end" font-weight="bold" fill="#24779b">第5层</text>
+<polygon points="963.761,933.000 956.761,945.250 970.761,945.250" fill="#398763" stroke="white" stroke-width="1.2"/>
+<polygon points="960.650,873.000 953.650,885.250 967.650,885.250" fill="#398763" stroke="white" stroke-width="1.2"/>
+<polygon points="939.416,813.000 932.416,825.250 946.416,825.250" fill="#398763" stroke="white" stroke-width="1.2"/>
+<polygon points="850.210,753.000 843.210,765.250 857.210,765.250" fill="#398763" stroke="white" stroke-width="1.2"/>
+<polygon points="855.385,693.000 848.385,705.250 862.385,705.250" fill="#398763" stroke="white" stroke-width="1.2"/>
+<polygon points="848.954,633.000 841.954,645.250 855.954,645.250" fill="#398763" stroke="white" stroke-width="1.2"/>
+<polygon points="828.935,568.000 816.935,589.000 840.935,589.000" fill="#398763" stroke="white" stroke-width="2.5"/>
+<polygon points="917.840,513.000 910.840,525.250 924.840,525.250" fill="#398763" stroke="white" stroke-width="1.2"/>
+<polygon points="1000.416,453.000 993.416,465.250 1007.416,465.250" fill="#398763" stroke="white" stroke-width="1.2"/>
+<polygon points="1075.655,393.000 1068.655,405.250 1082.655,405.250" fill="#398763" stroke="white" stroke-width="1.2"/>
+<polygon points="1178.070,333.000 1171.070,345.250 1185.070,345.250" fill="#398763" stroke="white" stroke-width="1.2"/>
+<polygon points="1049.795,273.000 1042.795,285.250 1056.795,285.250" fill="#398763" stroke="white" stroke-width="1.2"/>
+<text x="812.935" y="588.000" font-size="23" text-anchor="end" font-weight="bold" fill="#398763">第7层</text>
+<text x="810.000" y="1060.000" font-size="28" text-anchor="middle" font-weight="normal" fill="#263b48">S（降幅%/阻尼百分点）</text>
+<text x="72.000" y="615.000" font-size="28" text-anchor="middle" font-weight="normal" fill="#263b48">楼层</text>
+<text x="800.000" y="1133.000" font-size="23" text-anchor="middle" font-weight="normal" fill="#263b48">大标记为各输入的基准最小S所在层；有限阻尼增量仍应结合候选峰值区间判断。</text>
+</g></svg>

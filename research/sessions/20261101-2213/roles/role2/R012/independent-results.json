@@ -1,0 +1,145 @@
+{
+  "completed_at": "2026-11-02T00:31:21.663648+08:00",
+  "floors": 39,
+  "modal_own_peak_rows": 10836,
+  "all_P_U_positive": true,
+  "max_S_SU_SC_closure": 1.7763568394002505e-15,
+  "SU_negative_floors": [],
+  "SC_negative_floors": [
+    [
+      "SHW3X",
+      "Story1"
+    ],
+    [
+      "SHW3X",
+      "Story2"
+    ],
+    [
+      "SHW3X",
+      "Story3"
+    ],
+    [
+      "SHW3X",
+      "Story4"
+    ],
+    [
+      "SHW3X",
+      "Story5"
+    ],
+    [
+      "SHW3X",
+      "Story6"
+    ],
+    [
+      "SHW3X",
+      "Story7"
+    ],
+    [
+      "SHW3X",
+      "Story8"
+    ],
+    [
+      "SHW3X",
+      "Story9"
+    ],
+    [
+      "SHW4X",
+      "Story1"
+    ],
+    [
+      "SHW4X",
+      "Story2"
+    ],
+    [
+      "SHW4X",
+      "Story6"
+    ],
+    [
+      "SHW4X",
+      "Story7"
+    ],
+    [
+      "RH4X",
+      "Story4"
+    ],
+    [
+      "RH4X",
+      "Story5"
+    ],
+    [
+      "RH4X",
+      "Story6"
+    ],
+    [
+      "RH4X",
+      "Story7"
+    ],
+    [
+      "publicExample5_H-E12140",
+      "Story1"
+    ],
+    [
+      "publicExample5_H-E12140",
+      "Story2"
+    ]
+  ],
+  "zero_modal_peak_entries": 0,
+  "max_unit_kernel_peak_scaling_difference": 0.0,
+  "max_unit_kernel_peak_derivative_scaling_difference": 0.0,
+  "priority": [
+    {
+      "Case": "SHW3X",
+      "Story": "Story5",
+      "modes": 300,
+      "force_unit": "kN",
+      "P0": 8691.808506660656,
+      "U0": 11079.289844551417,
+      "C0": 0.7845095334278236,
+      "Pprime_right": -18531.495792019825,
+      "Uprime_right": -51440.68301872572,
+      "Cprime_right": 1.9698203358171005,
+      "S": 2.1320644349008466,
+      "SU": 4.642958505505953,
+      "SC": -2.510894070605106,
+      "S_minus_SU_SC": 0.0,
+      "total_peak_active_count": 1,
+      "total_right_controller_count": 1,
+      "total_controller_times_s": "22.92",
+      "zero_modal_peak_count": 0,
+      "nonzero_modal_tied_peak_count": 0,
+      "modal_pprime_positive_count": 106,
+      "modal_pprime_negative_count": 194,
+      "SU_is_negative": false,
+      "SC_is_negative": true,
+      "scope": "baseline own-modal-peak amplitudes and total-peak synthesis ratio; not phase-only or finite-increment causal shares"
+    },
+    {
+      "Case": "SHW3X",
+      "Story": "Story12",
+      "modes": 300,
+      "force_unit": "kN",
+      "P0": 850.295474579695,
+      "U0": 1880.1771723659758,
+      "C0": 0.45224220731799486,
+      "Pprime_right": -9968.735584577913,
+      "Uprime_right": -11982.766265526012,
+      "Cprime_right": -2.419784148935109,
+      "S": 11.723848806211164,
+      "SU": 6.3732112279861095,
+      "SC": 5.350637578225054,
+      "S_minus_SU_SC": 0.0,
+      "total_peak_active_count": 1,
+      "total_right_controller_count": 1,
+      "total_controller_times_s": "21.18",
+      "zero_modal_peak_count": 0,
+      "nonzero_modal_tied_peak_count": 0,
+      "modal_pprime_positive_count": 106,
+      "modal_pprime_negative_count": 194,
+      "SU_is_negative": false,
+      "SC_is_negative": false,
+      "scope": "baseline own-modal-peak amplitudes and total-peak synthesis ratio; not phase-only or finite-increment causal shares"
+    }
+  ],
+  "new_ODE_or_target_response": false,
+  "new_producer_files_read_before_this_result": false
+}

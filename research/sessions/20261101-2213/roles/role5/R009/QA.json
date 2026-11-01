@@ -1,0 +1,59 @@
+{
+  "envelope_table_matches_independent_48reference_and8actions": [
+    {
+      "row": "|6%|3.462937|8|舍弃|舍弃|舍弃|",
+      "matches": true
+    },
+    {
+      "row": "|7%|6.411918|7|舍弃|舍弃|舍弃|",
+      "matches": true
+    },
+    {
+      "row": "|8%|9.228100|7|完整复算|完整复算|舍弃|",
+      "matches": true
+    },
+    {
+      "row": "|10%|14.634810|7|完整复算|完整复算|完整复算|",
+      "matches": true
+    }
+  ],
+  "UPC_two_rows_match_original_fields": [
+    {
+      "row": "|第5层|0.903493|1.030990|0.931492|6.850816|6.851271|",
+      "matches": true
+    },
+    {
+      "row": "|屋顶|0.846186|0.847092|0.716798|28.320179|28.335360|",
+      "matches": true
+    }
+  ],
+  "factor_table_matches_independent_audit": true,
+  "eight_baseline_rows_match_independent_audit": true,
+  "Senv_Story5_controls_input_not_globalminimum": true,
+  "strong_vs_envelope_objectives_distinct": true,
+  "RH4_old_pass_preserved": true,
+  "truth_not_invented_for_different_objectives": true,
+  "multiinput_cost_per_input": true,
+  "legacy_model_forward_metrics_separate": true,
+  "N10_curve_and_peak_metrics_distinct": true,
+  "U_C_known_two_states_only": true,
+  "no_pure_phase_claim": true,
+  "fixed_mode_response_sign_explained": true,
+  "no_unreviewed_SU_SC_bridge": true,
+  "English_abstract_present": true,
+  "three_images": true,
+  "figure3_root_adopted_version_hash_matches": true,
+  "figure3_SVG_preserved": true,
+  "figure3_baseline_not_finite_rank": true,
+  "twelve_table_numbers": true,
+  "table_columns_consistent": true,
+  "main_sections": 7,
+  "even_math_delimiters": true,
+  "detailed_stats_moved_not_lost": true,
+  "no_internal_review_words": true,
+  "v007_unchanged": true,
+  "old020_v007_unchanged": true,
+  "new_dynamic_runs": 0,
+  "figure_redraws": 0,
+  "word_created": false
+}

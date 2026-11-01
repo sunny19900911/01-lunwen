@@ -1,0 +1,35 @@
+{
+  "observed_start": "2026-11-02T00:28:52.367001+08:00",
+  "input_bindings": [
+    {
+      "path": "E:\\11-\u5de5\u4f5c\\001-workbuddy spaceV1\\001-workbuddy space\\109-\u8bba\u6587\u5199\u4f5c\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2",
+      "bytes": 14836060
+    },
+    {
+      "path": "E:\\11-\u5de5\u4f5c\\001-workbuddy spaceV1\\001-workbuddy space\\109-\u8bba\u6587\u5199\u4f5c\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\local-cache\\baseline-analytic-sensitivities-and-frozen-predictions.npz",
+      "sha256": "e53b2e218a2a6faf078613b5f79c23763e0690230fea2aeec8f9c9ffc109df46",
+      "bytes": 32993807
+    },
+    {
+      "path": "E:\\11-\u5de5\u4f5c\\001-workbuddy spaceV1\\001-workbuddy space\\109-\u8bba\u6587\u5199\u4f5c\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R007\\local-cache\\baseline-sensitivities-predictions-envelopes.npz",
+      "sha256": "04bfa0710799564b369c324c54b8e22ca9268181577c3ce6c439cf9f59f08122",
+      "bytes": 43849410
+    },
+    {
+      "path": "E:\\11-\u5de5\u4f5c\\001-workbuddy spaceV1\\001-workbuddy space\\109-\u8bba\u6587\u5199\u4f5c\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R008\\local-cache\\baseline-sensitivities-predictions-envelopes.npz",
+      "sha256": "59ee0cc687373c82001c4c22e3c7a6b556ece1064dee2462d67e81302a3d1602",
+      "bytes": 37132271
+    },
+    {
+      "path": "E:\\11-\u5de5\u4f5c\\001-workbuddy spaceV1\\001-workbuddy space\\109-\u8bba\u6587\u5199\u4f5c\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\local-cache\\baseline-sensitivities-and-frozen-predictions.npz",
+      "bytes": 6504939,
+      "sha256": "fcaf5d3855eab082f9b892d4c38c5fc3de26483bbc2315fe128fee4c6bcdfa8b"
+    }
+  ],
+  "definition": "modal p right derivative from its own exact computed peak set; p=0 uses max|vprime|; P right derivative from total peak set; U=sum p; C=P/U",
+  "no_target_inputs": true,
+  "no_new_ODE_or_response": true,
+  "numerical_status": "saved-grid double-precision algebra, no continuous/strict FP guarantee",
+  "comparison_status": "calculate independently before opening any new role4/R011 or role1/R007 files"
+}

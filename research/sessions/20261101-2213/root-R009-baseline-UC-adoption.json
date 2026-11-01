@@ -1,0 +1,27 @@
+{
+  "time": "2026-11-02T00:50:07.868885+08:00",
+  "review": "roles/role2/R012/one-page-independent-baseline-UC-audit.md",
+  "review_read_in_full": true,
+  "author_wording_read_in_full": true,
+  "must_fix": 0,
+  "adopted": "Baseline right derivative S=SU+SC with own-modal peaks distinguished from total peak; 39 layer-input combinations independently checked, no new ODE or target response.",
+  "key_rows": {
+    "SHW3X_Story5": [
+      4.642958506,
+      -2.510894071,
+      2.132064435
+    ],
+    "SHW3X_roof": [
+      6.373211228,
+      5.350637578,
+      11.723848806
+    ],
+    "public_Story1": [
+      0.560312394,
+      -0.572694343,
+      -0.012381949
+    ]
+  },
+  "author_dispatch": "R010 v009, actual idle confirmed before message",
+  "scope": "Derivative identity on fixed saved grid, not finite-increment exact formula, pure phase or actual FNA modal-share certification"
+}

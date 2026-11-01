@@ -1,0 +1,15 @@
+{
+  "actual": "2026-11-02T00:32:13.714329+08:00",
+  "root_actual_view": true,
+  "adopted": "roles\\role6\\R008\\figure3-three-input-S-profile-v002.png",
+  "sha256": "1b23bc6374489c6581738cd9cfa3df3f71b737fe6e82a16722a8d123f182f3c5",
+  "checks": [
+    "three reviewed12floor profiles",
+    "sharedaxes",
+    "distinctline/markerstyles",
+    "baselinemin5/1/7",
+    "properunits",
+    "no overlapping/cropped text",
+    "finiteincrement scope caption"
+  ]
+}

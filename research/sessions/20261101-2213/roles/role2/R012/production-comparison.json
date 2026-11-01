@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-11-02T00:35:35.026543+08:00",
+  "independent_result_completed_at": "2026-11-02T00:31:21.663648+08:00",
+  "producer_freeze_at": "2026-11-02T00:28:35.184117+08:00",
+  "producer_manifest_sha256": "cc963ababf5edc21bd7318b75249a69c91bc16188d3cec124923ee6af07b897e",
+  "producer_files_hash_verified": 11,
+  "main_rows": 39,
+  "main_numeric_fields_checked": 546,
+  "main_max_difference_by_own_field": {
+    "P0": 1.4551915228366852e-11,
+    "U0": 2.9103830456733704e-11,
+    "C0": 1.3322676295501878e-15,
+    "Pprime_right": 5.820766091346741e-11,
+    "Uprime_right": 2.1827872842550278e-10,
+    "Cprime_right": 1.887379141862766e-14,
+    "S": 2.4868995751603507e-14,
+    "SU": 1.5987211554602254e-14,
+    "SC": 3.9968028886505635e-14,
+    "total_peak_active_count": 0.0,
+    "total_right_controller_count": 0.0,
+    "modal_pprime_positive_count": 0.0,
+    "modal_pprime_negative_count": 0.0,
+    "zero_modal_peak_count": 0.0
+  },
+  "selected_modal_rows": 57,
+  "modal_numeric_fields_checked": 285,
+  "modal_max_difference_by_own_field": {
+    "modal_peak": 0.0,
+    "modal_peak_right_derivative": 0.0,
+    "SU_mode_piece": 4.440892098500626e-15,
+    "own_modal_peak_controller_count": 0.0,
+    "total_peak_c_piece": 4.440892098500626e-15
+  },
+  "all_unit_and_controller_times_match": true,
+  "role1_R007_contract_sha256": "0098509f44c4187232331b294478613ba55ea1c7469a604ef41c41e509879562",
+  "role1_contract_agreement": "own active modal peaks; zero modal p uses max absolute derivative; quotient and product log derivatives; no extra 100; local only",
+  "must_fix_items": 0,
+  "production_comparison": "pass; algebra on independently frozen baseline inputs only",
+  "new_ODE_or_target_response": false,
+  "comparison_repair": "v001 stopped before writing results on public case label alias; preserved executed-v001, v002 maps publicExample5 to publicExample5_H-E12140, no scientific inputs or values changed"
+}

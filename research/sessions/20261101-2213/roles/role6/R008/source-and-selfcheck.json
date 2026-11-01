@@ -1,0 +1,53 @@
+{
+  "prepared_at": "2026-11-02T00:28:07.176534+08:00",
+  "source_rows": 36,
+  "curves": 3,
+  "floors_per_curve": 12,
+  "sources_match_independent_audit_manifests": true,
+  "source_provenance": [
+    {
+      "Input": "SHW3X",
+      "source": "roles/role2/R007/author-floor-summary-15.csv",
+      "sha256": "910dd3dcf9f4f563cf851820a289960fae1305f942b752452a0f7408f87a2b20",
+      "bytes": 4310,
+      "audit_manifest": "roles/role2/R007/manifest.json",
+      "audit_manifest_sha256": "b797b73883f450916a3033469894968733d3d86ed3085569cb55f96b2ffd701e"
+    },
+    {
+      "Input": "SHW4X",
+      "source": "roles/role2/R008/independent-S-floors-12.csv",
+      "sha256": "d10a71e33c72eea944ce3e7c4bb0d64fb9893a4d32bc9ab5739f6c4420c2201b",
+      "bytes": 1447,
+      "audit_manifest": "roles/role2/R008/manifest.json",
+      "audit_manifest_sha256": "b3bf2976a44e4a69047bf503ffff73ad7a9827c5362982808d5157ce18e3bd65"
+    },
+    {
+      "Input": "RH4X",
+      "source": "roles/role2/R009/independent-S-floors-12.csv",
+      "sha256": "e61e905d19a2fcdb153ef66ac8d9f4c08d1e8d6f2f44c78966e556934a9f65f2",
+      "bytes": 1472,
+      "audit_manifest": "roles/role2/R009/manifest.json",
+      "audit_manifest_sha256": "e84ede0be9e283f285f93ceee52d01d67c58baa164c5c6d8ce385eb3c4207e81"
+    }
+  ],
+  "minima": [
+    {
+      "Input": "SHW3X",
+      "floor": 5,
+      "label_S": "2.132064"
+    },
+    {
+      "Input": "SHW4X",
+      "floor": 1,
+      "label_S": "4.347595"
+    },
+    {
+      "Input": "RH4X",
+      "floor": 7,
+      "label_S": "8.231270"
+    }
+  ],
+  "only_baseline_S": true,
+  "Senv_read": false,
+  "no_new_response_or_S_computed": true
+}

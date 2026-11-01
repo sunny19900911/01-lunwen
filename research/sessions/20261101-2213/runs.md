@@ -19,3 +19,5 @@ R007 2026-11-02T00:12:04.592859+08:00: rootread fullRH4independentaudit, factor 
 PostR007 2026-11-02T00:19:11.584237+08:00: freshsnapshot replaces00:07 dispatchsnapshot for runtime; old frozen snapshot retained. Source bridge newrole3task androle1envelope task follow actualdispatch after earlier snapshot. Numericproduction now frozen tocompleted case grid; independentaudits allowed.
 
 R008 2026-11-02T00:28:48.303276+08:00: rootread ensembleR011independentaudit andsame-sourceoldUPC bridge, adopted concrete projectgrid. Currentjobsderive baseline mechanism only, no new inputs/targetreferences. Authorv008 integrates engineeringcase/Englishabstract. SourceoldRitz/fullFE/FNA distinctions andperformance failures preserved outside repetitive prose.
+
+R009 2026-11-02T00:50:07.868885+08:00: root full R012 independent audit and author wording read; v008 entire text read in bounded chunks. Adopted baseline U/C analytic bridge and dispatched actual-idle author R010 v009. All numeric production and new scientific dispatch stopped; final single manuscript/source/language review and Word QA remain.

@@ -1,0 +1,89 @@
+{
+  "task": "session021-role2-R012",
+  "actual_start": "2026-11-02T00:28:52.367001+08:00",
+  "actual_freeze": "2026-11-02T00:37:08.977767+08:00",
+  "elapsed_seconds": 496.610766,
+  "within12min": true,
+  "within15min": true,
+  "must_fix_items": 0,
+  "independent_before_new_results_read": true,
+  "comparison_passed": true,
+  "new_ODE": 0,
+  "new_target_response_arrays": 0,
+  "old8pct_response_read": false,
+  "role1_manifest_sha256": "b5a1fb775af6c7c49c347146d25c83d83add230bb7a509e7b87b1bd1145e07b0",
+  "role4_manifest_sha256": "cc963ababf5edc21bd7318b75249a69c91bc16188d3cec124923ee6af07b897e",
+  "numerical_scope": "fixed saved grid, double precision; local right derivatives only",
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\author-ready-baseline-UC-wording.md",
+      "bytes": 1928,
+      "sha256": "db2da2813e2bc2ff0e79589f368b6f70dae3c6f077fcbcf50a055f2b67211c8a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\calculate_baseline_UC_rates.py",
+      "bytes": 8121,
+      "sha256": "c230e931f8a81e024dfb3900859974cdb1161efbe1cfea054ea5f9d18bf8f26d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\compare_frozen_producer.executed-v001.py",
+      "bytes": 3874,
+      "sha256": "e602bd351692195fb8fa83cc4abb2baf252c486f6153cc7921a71e245551ec34"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\compare_frozen_producer.py",
+      "bytes": 4132,
+      "sha256": "9b63e5b6acba5217016c24b595f296b27c346363ec61d8479e0726fcd5642763"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\freeze_delivery.py",
+      "bytes": 2550,
+      "sha256": "1f1f757fb2deac54be647084af6d3842974a7b60d07382da4be050eba925ff9e"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\independent-baseline-U-C-rates-39.csv",
+      "bytes": 14245,
+      "sha256": "882e29eb051921453a28d06ae687e36c86f04a091c7ecd75124f514126f3a487"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\independent-input-rules.json",
+      "bytes": 2352,
+      "sha256": "668c4ff1b5b100c2109146eed362abf3d57d0669dd84401d14a3cd6cb6ed1222"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\independent-modal-own-peak-rates-10836.csv",
+      "bytes": 1273720,
+      "sha256": "b872a9b0d5a1f30e26ba82a48dba573d0659ddabc3b9d4006fc3f67cf00f1467"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\independent-results.json",
+      "bytes": 3341,
+      "sha256": "2ef900694fdabde80f1b3cde530ac07905fc3738da21ed5ddb5381d09c7f3261"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\independent-SHW3X-priority-2.csv",
+      "bytes": 1011,
+      "sha256": "353535dc28a4de7c5fda8ca02302731e7a4a439ce95864a93659f080d67121b2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\independent-unit-kernel-checks-39.csv",
+      "bytes": 1000,
+      "sha256": "d57cbb70ce5e05ae47030befa5251a5c794d81cfc7d2176e68d60b883c9103c5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\one-page-independent-baseline-UC-audit.md",
+      "bytes": 4058,
+      "sha256": "98efde81aecfba40acfea5cae9ddde888f0cedaeb54350f07efeefdad8d2b57b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\production-comparison.json",
+      "bytes": 1969,
+      "sha256": "2f66d5f1018abee3326093e176c3fa473553fb3aa10dddfbec858f5bb9b2fe86"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R012\\selected-own-modal-peak-vs-total-peak-234.csv",
+      "bytes": 25727,
+      "sha256": "6fd168a8613a30080a79f74455868651e9c4f264a8589b339c53e3e9526f8617"
+    }
+  ]
+}

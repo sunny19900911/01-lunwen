@@ -1,0 +1,69 @@
+{
+  "start_observed_utc": "2026-11-01T16:23:16+00:00",
+  "first8min_deadline_utc": "2026-11-01T16:31:16+00:00",
+  "hard12min_deadline_utc": "2026-11-01T16:35:16+00:00",
+  "rules_frozen_utc": "2026-11-01T16:25:46.987554+00:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2",
+      "bytes": 14836060
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R001\\local-cache\\baseline-analytic-sensitivities-and-frozen-predictions.npz",
+      "sha256": "e53b2e218a2a6faf078613b5f79c23763e0690230fea2aeec8f9c9ffc109df46",
+      "bytes": 32993807
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R007\\local-cache\\baseline-sensitivities-predictions-envelopes.npz",
+      "sha256": "04bfa0710799564b369c324c54b8e22ca9268181577c3ce6c439cf9f59f08122",
+      "bytes": 43849410
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R008\\local-cache\\baseline-sensitivities-predictions-envelopes.npz",
+      "sha256": "59ee0cc687373c82001c4c22e3c7a6b556ece1064dee2462d67e81302a3d1602",
+      "bytes": 37132271
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\local-cache\\baseline-sensitivities-and-frozen-predictions.npz",
+      "sha256": "fcaf5d3855eab082f9b892d4c38c5fc3de26483bbc2315fe128fee4c6bcdfa8b",
+      "bytes": 6504939
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\Story5-Story12-UPC-priority-6.csv",
+      "sha256": "c49f49fe11334256a59f1a3201925053159d83ad20e6f24b159e1c7ea48704be",
+      "bytes": 2917
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R005\\input-rules-freeze.json",
+      "sha256": "6a203f9fbad9eaa6efdbc6da6faa32dfb90ae0b404c4db66600d6d8597fea61e",
+      "bytes": 3999
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R006\\baseline-sensitivity-ranked-floors-15.csv",
+      "sha256": "37362b600ba419b383e6538e8fa6837a46fe5635b76db6e4f9271793e6c9388d",
+      "bytes": 5843
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R007\\baseline-S-ranked-floors-12.csv",
+      "sha256": "acdbcca3be7524a2a1014b089125c229b10c3c55157ec12bb557fdeb8d4a1044",
+      "bytes": 3299
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R008\\baseline-S-ranked-floors-12.csv",
+      "sha256": "d9b29139e413962e1bb3b54af6b05abcffa11e3d0a11553ad628fd21093936cb",
+      "bytes": 3291
+    }
+  ],
+  "code_sha256": "2ef8ce3e3a677109c88479b6c05cc65966ce42ecef87eb6ab2190097bc2a95e2",
+  "cases": "SHW3X/SHW4X/RH4X 12floors each plus publicExample5 3floors =39",
+  "definition": "p_r=max|v_r|, pprime_right=max sign(v_r)*dv_r on exact own active set; p=0 uses max|dv_r|. U=sum p; Uprime=sum pprime; P=max|sum v|, Pprime on total exact active set; C=P/U; Cprime=(Pprime*U-P*Uprime)/U^2; SU=-Uprime/U; SC=-Cprime/C; S=-Pprime/P",
+  "units": "SU/SC/S numerical reduction percent per damping pp, no extra100; private kN(/1000), public kip(no/1000); B containsGamma",
+  "peak_separation": "pprime uses each mode own peak; c in prior tasks uses total peak; no mixing of modal own times",
+  "zero_cases": "U=0 no normalized SU/C; P=0 uses max abs(total derivative), S/SC undefined; record null instead of divide0",
+  "selection": "private priority Story5/Story12/each input slowest baseline S deduplicated, modes2/4/10/13/18/50; public all3 floors modes1/2/3; no target-informed selection",
+  "old_check": "read only existing U5/P5/C5 fields of SHW3X Story5/Story12 for same-source numerical comparison",
+  "scope": "baseline-only local right derivatives, not finite target exact predictor or new theorem; C not pure phase",
+  "new_ODE": 0,
+  "target_state_arrays_read": false
+}
