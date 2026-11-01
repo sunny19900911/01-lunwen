@@ -1,0 +1,77 @@
+{
+  "session": "20261101-2213",
+  "role": 6,
+  "task": "R003",
+  "actual_start": "2026-11-01T23:07:59+08:00",
+  "start_source": "read_thread startedAt=1793545679",
+  "first_clock": "2026-11-01T23:08:13+08:00",
+  "actual_freeze": "2026-11-01T23:11:59.015687+08:00",
+  "elapsed_seconds": 240.015687,
+  "limit_seconds": 480,
+  "within_8_minutes": true,
+  "status": "frozen-developments-set-retrospective-await-independent-aggregation-review",
+  "target_floors": [
+    "Story1",
+    "Story2",
+    "Story3",
+    "Story4",
+    "Story5",
+    "Story6",
+    "Story7",
+    "Story8",
+    "Story9",
+    "Story10",
+    "Story11",
+    "Story12"
+  ],
+  "physical_candidate_zetas": [
+    0.06,
+    0.07,
+    0.08,
+    0.1
+  ],
+  "method_orders": [
+    1,
+    2
+  ],
+  "validation": "Matched upstream hashes to independently audited role4R002 manifest; classified from interval-only table; separate reference join; verified counts, rejection witnesses, unchanged v0018/8, all text/JSON and whitespace.",
+  "policy_result": "order1 reject/pass/recompute1/0/3; order2 2/0/2; no time-saving or independent-validation claim",
+  "input_sha256": {
+    "candidate-level-policy-v002-freeze.json": "45b37807dcee9ea33887d82bc7b391128d0cdd352341b804f88f76d6c15774df",
+    "engineering-policy-freeze-v001.json": "38f525f51f0fb90579e85016b6196502f2f4c6b0614d3cf5879173780df2d2bb",
+    "roles/role2/R003/manifest.json": "1cb022e34726e766e9e640edfdca3bab316365aba3edb9e26a3dd965b32f3041",
+    "roles/role2/R003/one-page.md": "e128b9ceec6d09918adfd22da5ec56ca86de6861e72ab0b903803f9ffd39a418",
+    "roles/role4/R002/delivery-manifest.json": "0055dfbb35c710a504e9f5b35e46232ef245c6624250633242f724c6206a737f"
+  },
+  "files": {
+    "aggregate_candidate_policy.py": {
+      "bytes": 11371,
+      "sha256": "d97a57b2258f127bd5d6550c346d0158e84f10f1c982168b8f227fb13414c615"
+    },
+    "candidate-decisions-from-intervals-8.csv": {
+      "bytes": 1812,
+      "sha256": "1c9e35dff4cd30354aace60a6367a088e0bec05d0facd501866fb7672a048607"
+    },
+    "candidate-policy-summary-2.csv": {
+      "bytes": 340,
+      "sha256": "fce598dee24e8c357459370ba4b102deaa42326a8d33d52496a53b1d4502bf3e"
+    },
+    "candidate-retrospective-truth-check-8.csv": {
+      "bytes": 2366,
+      "sha256": "8f3f7f79b5e560374fbbaf287d2aa9adbfbf31ecfd0c58c1bbcef581cefffc47"
+    },
+    "one-page.md": {
+      "bytes": 3983,
+      "sha256": "9ab0f0a39cc9cfdf4873b18a2dbc0fe437aa3695516ac64712c6f427124d7c5f"
+    },
+    "results.json": {
+      "bytes": 1697,
+      "sha256": "60e438e0542e0ac07a00fbeb161e18d62f4665835cd1819b79b4d43eb7e81bfa"
+    }
+  },
+  "git": false,
+  "new_dynamic_response": false,
+  "new_sensitivity": false,
+  "new_layout": false,
+  "no_new_reference_truth": true
+}

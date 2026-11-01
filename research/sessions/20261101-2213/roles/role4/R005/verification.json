@@ -1,0 +1,18 @@
+{
+  "completed_utc": "2026-11-01T15:21:24.355746+00:00",
+  "truth_rows_recomputed": 12,
+  "prediction_rows_recomputed": 24,
+  "interval_rows_recomputed": 24,
+  "candidate_actions_recomputed": 8,
+  "max_truth_peak_difference_kip": 0.0,
+  "max_truth_D_difference": 0.0,
+  "max_prediction_metric_difference": 0.0,
+  "strict_uncovered_curve_samples": 0,
+  "true_adverse_cases": 0,
+  "source_prediction_policy_hashes_unchanged": true,
+  "target_array_hashes_unchanged": true,
+  "extra_finite_target_state_solves": 0,
+  "cost_replay_baseline_and_derivatives_only": true,
+  "static_audit_passed": true,
+  "independent_dynamic_auditor_review_pending": true
+}

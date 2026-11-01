@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-11-01T15:11:11.806635+00:00",
+  "new_target_state_solves": 0,
+  "target_response_files_read": 0,
+  "baseline_state_solves": 1,
+  "derivative_state_equivalents": 2,
+  "code_sha256": "806bcf35c82dee7a8875a5521ca06bf51c2d618e75cffbe02877546007e6ad5c",
+  "prediction_csv_sha256": "ab561d7d0178b1d7b3503a90548186376f703245837940cf56250fd405010f2b",
+  "interval_csv_sha256": "9935ab434d302a86d8d0e308d8f905e4a9ce940424473de558fd7421ab5570b3",
+  "local_arrays": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\local-cache\\baseline-sensitivities-and-frozen-predictions.npz",
+      "bytes": 6504939,
+      "sha256": "fcaf5d3855eab082f9b892d4c38c5fc3de26483bbc2315fe128fee4c6bcdfa8b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\local-cache\\frozen-discrete-envelopes.npz",
+      "bytes": 1431281,
+      "sha256": "e494d0e93122473a689de22a20313f19968dec59044981429a28e3d935d1c1f0"
+    }
+  ],
+  "static_independent_role2_audit": "pending at producer start; must check before target stage"
+}

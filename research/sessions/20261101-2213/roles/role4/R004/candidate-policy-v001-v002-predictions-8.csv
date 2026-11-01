@@ -1,0 +1,9 @@
+﻿target_zeta,Taylor_order,target_floors,v002_candidate_action,v001_flagged_floors,v001_building_recompute,v002_building_recompute,meets_floors,insufficient_floors,uncertain_floors,note
+0.06,1,all3,reject,0,0,0,0,3,0,predicted action only; correctness pending independently generated target truth
+0.06,2,all3,reject,0,0,0,0,3,0,predicted action only; correctness pending independently generated target truth
+0.07,1,all3,reject,3,1,0,0,3,0,predicted action only; correctness pending independently generated target truth
+0.07,2,all3,reject,0,0,0,0,3,0,predicted action only; correctness pending independently generated target truth
+0.08,1,all3,reject,3,1,0,0,3,0,predicted action only; correctness pending independently generated target truth
+0.08,2,all3,recompute,3,1,1,0,0,3,predicted action only; correctness pending independently generated target truth
+0.1,1,all3,recompute,3,1,1,0,0,3,predicted action only; correctness pending independently generated target truth
+0.1,2,all3,recompute,3,1,1,2,0,1,predicted action only; correctness pending independently generated target truth

@@ -1,0 +1,82 @@
+{
+  "start_observed_utc": "2026-11-01T15:15:48+00:00",
+  "first8min_deadline_utc": "2026-11-01T15:23:48+00:00",
+  "primary12min_deadline_utc": "2026-11-01T15:27:48+00:00",
+  "hard15min_deadline_utc": "2026-11-01T15:30:48+00:00",
+  "rules_frozen_utc": "2026-11-01T15:17:41.396072+00:00",
+  "code_sha256": "97ef8596b4ba60f7d23625fcaaece7739e4c3e36a691a65dac1e6a098bf30add",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\prediction-and-envelope-freeze.json",
+      "bytes": 1272,
+      "sha256": "51037f3795ffc916a17e04bf3a242f65a7b2b4dc2923b5bd6af9195a4b2e974b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\delivery-manifest.json",
+      "bytes": 7094,
+      "sha256": "836976c87555e9d443f579bcba25dda4f5a20babc8d8dc2060ba030edb3a8ba3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\static-audit-clearance-addendum-v001.json",
+      "bytes": 2256,
+      "sha256": "10e87d9e0457918db7d4f7be736b847189e82cc10b5e6bdf177b52c0d6912166"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\local-cache\\baseline-sensitivities-and-frozen-predictions.npz",
+      "bytes": 6504939,
+      "sha256": "fcaf5d3855eab082f9b892d4c38c5fc3de26483bbc2315fe128fee4c6bcdfa8b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\local-cache\\frozen-discrete-envelopes.npz",
+      "bytes": 1431281,
+      "sha256": "e494d0e93122473a689de22a20313f19968dec59044981429a28e3d935d1c1f0"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\all3-floor-candidate-peak-predictions-24.csv",
+      "bytes": 5552,
+      "sha256": "ab561d7d0178b1d7b3503a90548186376f703245837940cf56250fd405010f2b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\discrete-and-coth-prediction-intervals-24.csv",
+      "bytes": 10369,
+      "sha256": "9935ab434d302a86d8d0e308d8f905e4a9ce940424473de558fd7421ab5570b3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\candidate-policy-v001-v002-predictions-8.csv",
+      "bytes": 1091,
+      "sha256": "087c0ceba9cc2270528eeafb32f94d751b159a7d198a5aaac187a0bceaf755e9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role6\\R002\\assembled-v001\\static-interface.json",
+      "bytes": 19786,
+      "sha256": "df70bd6984ef6196aba0dbfe46b5794b656870ef367a7bd82420a35718c6b443"
+    },
+    {
+      "path": "C:\\Users\\mj528\\.codex\\skills\\etabs-response-analysis\\scripts\\modal_linear.py",
+      "bytes": 2206,
+      "sha256": "1c2620542f812e355c4be3ad8877db92db2ba3343cd3a2405e26c731be796827"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\engineering-policy-freeze-v001.json",
+      "bytes": 1731,
+      "sha256": "38f525f51f0fb90579e85016b6196502f2f4c6b0614d3cf5879173780df2d2bb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\candidate-level-policy-v002-freeze.json",
+      "bytes": 1932,
+      "sha256": "45b37807dcee9ea33887d82bc7b391128d0cdd352341b804f88f76d6c15774df"
+    }
+  ],
+  "targets": [
+    0.06,
+    0.07,
+    0.08,
+    0.1
+  ],
+  "dt_nominal_s": 0.005,
+  "units": "in/kip/s; exact same frozen ag as R004, no /1000, no repeated Gamma",
+  "new_target_reference_solves": 4,
+  "old_prediction_and_policy_unchanged": true,
+  "reference": "exact piecewise-linear-input uniform modal damping states, fixed complete12 model, not OpenSees or physical experiment",
+  "cost": "measure each complete target core: states+one physical output+peak metrics. Second cut output verification and cache IO timed separately. Prediction replay and conditional measured-component totals separate; no fictitious single-wall end-to-end time."
+}

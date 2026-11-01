@@ -1,0 +1,9 @@
+record,scope,target_zeta,Taylor_order,target_floor_count,target_floors,v002_decision,insufficient_interval_floor_count,insufficient_interval_floors,rejection_witness,witness_D_upper,too_wide_floor_count,v001_flagged_floor_count,v001_full_recompute_per_candidate,v002_full_recompute_per_candidate
+SHW3X,development_set_retrospective,0.06,1,12,Story1;Story2;Story3;Story4;Story5;Story6;Story7;Story8;Story9;Story10;Story11;Story12,reject,10,Story1;Story2;Story3;Story4;Story5;Story6;Story7;Story8;Story9;Story10,Story5,0.04510750337345204,11,11,1,0
+SHW3X,development_set_retrospective,0.06,2,12,Story1;Story2;Story3;Story4;Story5;Story6;Story7;Story8;Story9;Story10;Story11;Story12,reject,11,Story1;Story2;Story3;Story4;Story5;Story6;Story7;Story8;Story9;Story10;Story11,Story5,0.025799874072206963,0,1,1,0
+SHW3X,development_set_retrospective,0.07,1,12,Story1;Story2;Story3;Story4;Story5;Story6;Story7;Story8;Story9;Story10;Story11;Story12,recompute,0,,,,12,12,1,1
+SHW3X,development_set_retrospective,0.07,2,12,Story1;Story2;Story3;Story4;Story5;Story6;Story7;Story8;Story9;Story10;Story11;Story12,reject,6,Story3;Story4;Story5;Story6;Story7;Story8,Story5,0.07011019110125971,9,9,1,0
+SHW3X,development_set_retrospective,0.08,1,12,Story1;Story2;Story3;Story4;Story5;Story6;Story7;Story8;Story9;Story10;Story11;Story12,recompute,0,,,,12,12,1,1
+SHW3X,development_set_retrospective,0.08,2,12,Story1;Story2;Story3;Story4;Story5;Story6;Story7;Story8;Story9;Story10;Story11;Story12,recompute,0,,,,12,12,1,1
+SHW3X,development_set_retrospective,0.1,1,12,Story1;Story2;Story3;Story4;Story5;Story6;Story7;Story8;Story9;Story10;Story11;Story12,recompute,0,,,,12,12,1,1
+SHW3X,development_set_retrospective,0.1,2,12,Story1;Story2;Story3;Story4;Story5;Story6;Story7;Story8;Story9;Story10;Story11;Story12,recompute,0,,,,12,12,1,1

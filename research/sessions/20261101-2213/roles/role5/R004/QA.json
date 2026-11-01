@@ -1,0 +1,89 @@
+{
+  "table1_and_table2_match_source_csv": true,
+  "numeric_mismatches": [],
+  "order2_worse_cases": 14,
+  "point_prediction_misses": 2,
+  "main_numbered_sections": 7,
+  "display_math_pairs": 15,
+  "even_math_delimiters": true,
+  "reference_count": 2,
+  "existing_case_vs_new_target_separate": true,
+  "no_adverse_rate_is_zero": true,
+  "original_policy_eight_of_eight_preserved": true,
+  "candidate_reject_and_pass_rules_present": true,
+  "one_analysis_per_candidate": true,
+  "posthoc_example_not_independent": true,
+  "public_dynamic_result_not_claimed": true,
+  "new_envelope_result_not_adopted": true,
+  "supplement_link_resolves": true,
+  "no_internal_audit_words": true,
+  "no_replacement_characters": true,
+  "v002_sha256": "74144796042a377a09962a1e7a29255e6c38d79136701e815f93e620f3b0be32",
+  "v002_unchanged": true,
+  "v001_unchanged": true,
+  "v007_unchanged": true,
+  "new_dynamic_runs": 0,
+  "word_created": false,
+  "candidate_policy_table4_matches_reaggregated_small_table": [
+    {
+      "expected_row": "|6%|舍弃|舍弃|2.213982|5|",
+      "matches": true
+    },
+    {
+      "expected_row": "|7%|完整复算|舍弃|4.490923|5|",
+      "matches": true
+    },
+    {
+      "expected_row": "|8%|完整复算|完整复算|6.850816|5|",
+      "matches": true
+    },
+    {
+      "expected_row": "|10%|完整复算|完整复算|11.583725|5|",
+      "matches": true
+    }
+  ],
+  "candidate_counts_by_method": {
+    "1": {
+      "reject": 1,
+      "pass": 0,
+      "recompute": 3
+    },
+    "2": {
+      "reject": 2,
+      "pass": 0,
+      "recompute": 2
+    }
+  },
+  "rejection_witnesses": [
+    {
+      "zeta": 0.06,
+      "order": 1,
+      "Story": "Story5",
+      "D_upper_percent": 4.510750337345204
+    },
+    {
+      "zeta": 0.06,
+      "order": 2,
+      "Story": "Story5",
+      "D_upper_percent": 2.5799874072206963
+    },
+    {
+      "zeta": 0.07,
+      "order": 2,
+      "Story": "Story5",
+      "D_upper_percent": 7.011019110125972
+    }
+  ],
+  "all_rejections_witnessed_at_Story5": true,
+  "no_direct_acceptance": true,
+  "four_candidates_not_eight_independent": true,
+  "table_captions": [
+    "**表1 SHW3X二阶全窗预测的精度与逐层复算标记**",
+    "**表2 第5层与屋顶的全窗峰降幅，单位%**",
+    "**表3 10%降幅目标下的点预测漏判，候选阻尼均为8%**",
+    "**表4 SHW3X开发集上的候选整体决策，目标为全部12层至少降低10%**"
+  ],
+  "table_reference2_is_main_story_comparison": true,
+  "table_reference3_is_misses": true,
+  "source_identity": "fixed300 linear reference; SHW3X development group; historical8% separately identified"
+}

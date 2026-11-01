@@ -1,0 +1,49 @@
+{
+  "per_order": [
+    {
+      "Taylor_order": 1,
+      "candidate_count": 4,
+      "reject": 1,
+      "pass": 0,
+      "recompute": 3,
+      "v001_recompute": 4,
+      "truth_meeting_candidates": 1,
+      "truth_insufficient_candidates": 3,
+      "false_pass": 0,
+      "false_reject": 0,
+      "true_adverse_candidates": 0,
+      "unsafe_pass_rate_given_pass": "NA: no pass",
+      "adverse_missed_pass_rate": "NA: no adverse candidate"
+    },
+    {
+      "Taylor_order": 2,
+      "candidate_count": 4,
+      "reject": 2,
+      "pass": 0,
+      "recompute": 2,
+      "v001_recompute": 4,
+      "truth_meeting_candidates": 1,
+      "truth_insufficient_candidates": 3,
+      "false_pass": 0,
+      "false_reject": 0,
+      "true_adverse_candidates": 0,
+      "unsafe_pass_rate_given_pass": "NA: no pass",
+      "adverse_missed_pass_rate": "NA: no adverse candidate"
+    }
+  ],
+  "evaluation_rows": 8,
+  "physical_candidates": 4,
+  "rejected_method_candidate_rows": 3,
+  "passed_rows": 0,
+  "recompute_rows": 5,
+  "previous_recompute_rows": 8,
+  "independent_validation": false,
+  "measured_speedup_claim": false,
+  "source_hashes": {
+    "baseline-only-coth-bound-prediction-intervals-96.csv": "6e0199d0d00fbc61975556a2dbda0992841e2bdbb0dcffac2d518f068c3edae7",
+    "candidate-level-recompute-accounting-8.csv": "a0c2fb0eac8c5a15365a9f1b6f90b8f9a1e1a4f8e0556bbad976d18232586ade",
+    "exact-reference-truth-peaks-48.csv": "6d6dc493d9ed6cbe6b013cbf62124176df4b894b41f6c6f4495683e3b99b0501",
+    "workload-and-measured-cost-ledger-8.csv": "3496100d15c71f23cc4c9c6eee1cec6048b43a6d52cca5f7caebb5c342c60246"
+  },
+  "policy_sha256": "45b37807dcee9ea33887d82bc7b391128d0cdd352341b804f88f76d6c15774df"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "frozen",
+  "observed_start": "2026-11-01T23:08:15.285273+08:00",
+  "frozen_at": "2026-11-01T23:12:49.543576+08:00",
+  "deadline": "2026-11-01T23:20:15+08:00",
+  "must_fix": 0,
+  "producer_freeze_sha256": "e53341bff6decad0177291df1e02e2261af4711d81996367b7339836677bd26b",
+  "execution": {
+    "script": "audit_public_static.py",
+    "exit_code": 0,
+    "tool_wall_seconds": 0.3119956,
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "artifacts": [
+    {
+      "name": "audit_public_static.py",
+      "bytes": 11239,
+      "sha256": "8bf04b20e31ee4ac8af1388c9f0974bec73c66879a5e505be89088a110976e07"
+    },
+    {
+      "name": "modal-independent-checks-12.csv",
+      "bytes": 1832,
+      "sha256": "d91540ccba83dd33a6975f70c03a4a972e4624a4f9e729dacab84f8d0aaec5f0"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 3505,
+      "sha256": "06a0b4204f86ee3b6a397690cadf27608bde8e3efeb425ed65565643907d00d6"
+    },
+    {
+      "name": "results.json",
+      "bytes": 2334,
+      "sha256": "062e88a58714ba1bab5ad76ed1f8cd7d3cbc5d2f91b45bf075af587521853020"
+    }
+  ],
+  "independence": "source-Tcl topology and mass parse; axial and Hermite curvature energy quadrature; no producer function import",
+  "scope": "static M/K condensation/eigen/cut force only; not OpenSees equivalence",
+  "dynamic_response_computed": false,
+  "ground_record_opened": false,
+  "full_matrices_written": false
+}

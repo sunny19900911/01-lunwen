@@ -1,0 +1,31 @@
+{
+  "completed_utc": "2026-11-01T15:13:22.165017+00:00",
+  "prediction_rows_recomputed": 24,
+  "interval_rows_recomputed": 24,
+  "max_prediction_peak_difference_kip": 0.0,
+  "max_interval_endpoint_difference_kip": 0.0,
+  "baseline_independent_RK4_modes": [
+    1,
+    2,
+    3
+  ],
+  "RK4_substeps": [
+    4,
+    8
+  ],
+  "RK4_max_relative_L2_at8": 3.4759022254846947e-06,
+  "RK4_error_halving_min_ratio": 16.00148534887699,
+  "RK4_verification_seconds": 3.2854409001301974,
+  "baseline_verification_only": true,
+  "candidate_state_solves": 0,
+  "target_response_reads": 0,
+  "input_and_array_hashes_unchanged": true,
+  "static_audit_status": "files available; root/auditor must inspect full conclusion before target stage",
+  "static_audit_file_bindings": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R004\\one-page.md",
+      "sha256": "06a0b4204f86ee3b6a397690cadf27608bde8e3efeb425ed65565643907d00d6"
+    }
+  ],
+  "continuous_time_or_rigorous_FP_certificate": false
+}

@@ -1,0 +1,37 @@
+{
+  "recorded_utc": "2026-11-01T15:14:20.744384+00:00",
+  "static_audit_conclusion": "passed, 0 must-fix; full report read by producer",
+  "audit_frozen_at": "2026-11-01T23:12:49.543576+08:00",
+  "audited_interface_matches_used_interface": true,
+  "interface_sha256": "df70bd6984ef6196aba0dbfe46b5794b656870ef367a7bd82420a35718c6b443",
+  "new_target_state_solves": 0,
+  "target_response_reads": 0,
+  "scope": "static M/K/eigen/cut only; no dynamic accuracy or OpenSees equivalence claim",
+  "prediction_bytes_unchanged": true,
+  "bindings": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R004\\manifest.json",
+      "sha256": "bec50e66ffdc85a3631118022fb5490fae39135baf71d754027e7125301f5da1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R004\\one-page.md",
+      "sha256": "06a0b4204f86ee3b6a397690cadf27608bde8e3efeb425ed65565643907d00d6"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role6\\R002\\freeze.json",
+      "sha256": "e53341bff6decad0177291df1e02e2261af4711d81996367b7339836677bd26b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role6\\R002\\assembled-v001\\static-interface.json",
+      "sha256": "df70bd6984ef6196aba0dbfe46b5794b656870ef367a7bd82420a35718c6b443"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\delivery-manifest.json",
+      "sha256": "836976c87555e9d443f579bcba25dda4f5a20babc8d8dc2060ba030edb3a8ba3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R004\\prediction-and-envelope-freeze.json",
+      "sha256": "51037f3795ffc916a17e04bf3a242f65a7b2b4dc2923b5bd6af9195a4b2e974b"
+    }
+  ]
+}

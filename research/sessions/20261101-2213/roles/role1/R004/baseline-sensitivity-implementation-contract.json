@@ -1,0 +1,85 @@
+{
+  "task": "session021-role1-R004",
+  "purpose": "baseline local ranking and modal derivative sources, not finite-delta target prediction",
+  "domain": {
+    "grid": "one fixed finite saved-time grid; no alignment or grid relocation with zeta",
+    "model": "fixed linear modal elastic reference with constant B and omega",
+    "parameter": "common fractional modal zeta; baseline.05",
+    "smoothness": "each V[n](zeta) differentiable at baseline",
+    "baseline_peak": "P0>0 and resolved above force-error scale for normalized metric"
+  },
+  "baseline_fields": {
+    "V0_n": "sum(B_sr*omega_r^2*s0_r[n])/1000,kN",
+    "Vzeta_n": "sum(B_sr*omega_r^2*z_r[n])/1000,kN per unit fractional zeta",
+    "P0": "max_n(abs(V0_n))"
+  },
+  "exact_directional_derivative": {
+    "active_A": "indices n with abs(V0_n)=P0 exactly in the defined finite-grid model",
+    "branch_g_n": "sign(V0_n)*Vzeta_n",
+    "right_peak_derivative": "max_{n in A}g_n",
+    "left_peak_derivative": "min_{n in A}g_n, not the rule for positive-increment ranking",
+    "right_controlling_B": "argmax_{n in A}g_n; all tied maximizers retained",
+    "unique_peak": "usual sign(V0)*Vzeta at its index",
+    "proof": "Inactive finite branches have a positive baseline gap; active branch expansions yield the right-hand maximum derivative.",
+    "zero_baseline": "If P0=0, right force-peak derivative=max_n(abs(Vzeta_n)); normalized improvement metric undefined."
+  },
+  "engineering_units": {
+    "damping_increase": "b percentage points corresponds delta=.01*b",
+    "force_change_rate": "0.01*Pprime_right,kN per damping percentage point",
+    "S": "-Pprime_right/P0, numerical peak-reduction percent per damping percentage point",
+    "D_percent": "100*(1-P(zeta0+delta)/P0)=S*b+o(b) as b decreases to0 from right",
+    "no_extra_100": "Do not multiply S by100 a second time.",
+    "finite3pp": "3*S is only a local first-order reading, not a guaranteed5%-to8% improvement."
+  },
+  "modal_sources_at_each_right_controller": {
+    "a_r_n": "sign(V0_n)*B_sr*omega_r^2*z_r[n]/(1000*P0)",
+    "closure": "sum_r(a_r_n)=Pprime_right/P0 for every n in B",
+    "improvement_contribution": "-a_r_n, sums toS",
+    "a_negative": "promotes local peak decrease",
+    "a_positive": "opposes decrease or increases local peak",
+    "presentation": "For each controller separately show baseline |a|-ranked leading modes or predefined groups plus all remaining modes. Do not silently reuse old independent-amplitude rankings as derivative rankings.",
+    "multiple_controllers": "Retain separate times/source vectors; no cross-time mixing or average claimed as unique modal force split.",
+    "noncontrolling_active_peak": "its modal sum equals its branch derivative, not necessarily the true right peak derivative",
+    "not_actual_force": "This is a baseline derivative decomposition, not actual target FNA/modal shear shares."
+  },
+  "near_ties_and_uncertainty": {
+    "near_set": "abs(V0_n)>=P0-force_tolerance, recorded separately from exact A",
+    "derivative_tolerance": "record separately if using a numerical near-max derivative set; do not call it exact B",
+    "near_inactive_peaks": "keep gap and g_n because a small finite increment may switch branches",
+    "superset_note": "If exact A is contained in the near set and branch derivatives are exact, max over near set is an upper bound on the exact right derivative, not an equality.",
+    "finite_precision": "computed states/derivatives require their own numerical status before strict differentiation claims",
+    "sign": "Active sign is nonzero when P0>0; subsequent sign changes/derivative variation require finite-increment analysis.",
+    "global_sign": "Flipping both baseline response and derivative globally leaves g,S and modal a unchanged."
+  },
+  "engineering_reading_six_steps": [
+    "form baseline V0,Vzeta and resolvedP0",
+    "find exact active peaks and right-controlling branches",
+    "normalize S with percentage-point conversion",
+    "list signed mode contributions at each controller separately",
+    "rank layers per input and flag near ties; predefined minimum across inputs is only a local screening summary",
+    "connect candidates6/7/8/10 to allowed-delta checks and full-window prediction/error intervals, preserving three independent statuses"
+  ],
+  "ranking": {
+    "small_positive_S": "slow local improvement",
+    "S_zero": "no first-order conclusion; higher order may matter",
+    "S_negative": "for sufficiently small positive delta peak increases",
+    "across_inputs": "retain each input; any minimum or aggregation rule predefined, not universal earthquake bound"
+  },
+  "minimum_table": [
+    "Case",
+    "Story",
+    "P0_kN",
+    "exact_active_count",
+    "right_controller_index_and_time",
+    "branch_g_kN_per_zeta",
+    "Pprime_right",
+    "S_percent_per_damping_pp",
+    "force_rate_kN_per_damping_pp",
+    "near_peak_gaps",
+    "modal_a_or_minus_a",
+    "remaining_modes_sum",
+    "closure_error",
+    "numerical_status"
+  ],
+  "new_engineering_arrays_or_ODE": false
+}

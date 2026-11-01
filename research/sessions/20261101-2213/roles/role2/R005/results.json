@@ -1,0 +1,33 @@
+{
+  "source_files_SHA_verified": 15,
+  "envelope_cache_SHA_verified": true,
+  "input_files_SHA_verified": 6,
+  "selected_modes_fixed": [
+    2,
+    10,
+    13
+  ],
+  "fixed_time_indices": [
+    0,
+    1,
+    100,
+    1345,
+    2690
+  ],
+  "direct_positive_convolution_max_modal_Q_difference_m": 6.617970060851519e-16,
+  "direct_all300_at_fixed_times_max_story_E_difference_kN": 8.090594860732381e-11,
+  "interval_classification_and_coverage_fields_checked": 4152,
+  "max_metric_difference": 0.0,
+  "strict_uncovered_curve_samples": 0,
+  "max_error_minus_E_kN": 0.0,
+  "median_dt_s": 0.019999999999999574,
+  "nominal_dt_s": 0.02,
+  "dt_difference_s": -4.2674197509029455e-16,
+  "max_A11_or_omegaA12_nominal_vs_median_difference": 1.2898015988582756e-13,
+  "fft_length": 8192,
+  "linear_convolution_required_length": 5379,
+  "core_seconds_reaggregated": 2.364399400539696,
+  "new_ODE_or_target_truth_solves": 0,
+  "proof_status": "numeric audit; median step differs nominal; guards not rigorous FP/continuous certificate",
+  "isolated_source_review": "envelope computation only baseline/predictor and candidate parameter; frozen then reads historical targets; all target outcomes already known"
+}

@@ -14,3 +14,8 @@ C021-07 reviewed-numerical: role4R002 targets and role2R003 independent audit re
 C021-08 reviewed-policy: coth96intervals cover reference but all8candidate/ordergroups need fullanalysis underv001; candidate-level v002 fixed23:00 permits earlyreject when any targetfloor DU<10%, developmental SHW3 only until newmodel/input validation.
 C021-09 analytic-reviewed/numeric-pending: discrete defect e_next=Ac e+d gives absolute matrixpower convolution and timevaryingpeakintervals. role4R003 numeric narrowerall96, but independent numeric audit pending. No speedup:2.364s8envelopes vs~.06s/directcandidate.
 C021-10 static-pending-audit: public12massDOF frame sourceverified and independently assembledrole6R002, full eigen/cut identities tinyresidual; role2R004 audit ongoing, not a dynamicvalidation result yet.
+
+C021-09 upgraded-reviewed: role2R005 independently24positiveconvolutions/40all300floor samplevalues and4152intervalfields validate discrete computationalenvelopes. No strictFP/continuous/sameoperator claim; sampledt differs4.27e-16s, no speedup.
+C021-10 upgraded-reviewed-static: role2R004 independentHermite/Gauss assembly/M/K/C/B andstatic+1kip test0must; publicbaselineforecast now frozenbeforecandidate references.
+C021-11 testing-public-dynamic: role4R005candidate targets rootreportread;24cover, negativepointfalsealarms4,pointlowimprovementmiss1, candidatepolicy rejects correct sofar; independentrole2R006 pending. Fullpipeline slower than direct, retain failure.
+C021-12 proposed/analytic-derived: baseline peak sensitivity S=-max_active(signV0*Vzeta)/P0, samepeak signedmodal effects sumS. Rootread role1R004, independentmathpending role2R006; actual layer S production role4R006, no inventednumbers.

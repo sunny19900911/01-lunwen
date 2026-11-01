@@ -1,0 +1,101 @@
+[
+  {
+    "role": "role1",
+    "threadId": "01a14756-7b7b-72a0-b079-e6c7874fc120",
+    "cursor": "a4ac1686-5034-48ef-9e7c-fe6208750c15:25",
+    "status": {
+      "type": "idle"
+    },
+    "latestTurn": {
+      "id": "01a197ab-5aa4-7433-a08b-1a39520e6bc9",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1793545951,
+      "completedAt": 1793546333,
+      "durationMs": 381887
+    }
+  },
+  {
+    "role": "role2",
+    "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
+    "cursor": "11a056de-2e65-48d9-90d8-2d3233b00402:75",
+    "status": {
+      "type": "active",
+      "activeFlags": []
+    },
+    "latestTurn": {
+      "id": "01a197b5-1e5f-74a3-b705-82a8e75165c0",
+      "status": "inProgress",
+      "error": null,
+      "startedAt": 1793546591,
+      "completedAt": null,
+      "durationMs": null
+    }
+  },
+  {
+    "role": "role3",
+    "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
+    "cursor": "3e1edb6e-1082-4df0-a7b1-358e7b877471:22",
+    "status": {
+      "type": "idle"
+    },
+    "latestTurn": {
+      "id": "01a1978d-38b6-7191-adc6-7792bd3345d3",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1793543977,
+      "completedAt": 1793544333,
+      "durationMs": 355932
+    }
+  },
+  {
+    "role": "role4",
+    "threadId": "01a14756-8805-7a42-b910-ae973f55d73e",
+    "cursor": "18d108d1-c129-40a5-b347-658f1f0c4b89:61",
+    "status": {
+      "type": "active",
+      "activeFlags": []
+    },
+    "latestTurn": {
+      "id": "01a197b5-2014-7ef1-8b81-f3279fdea755",
+      "status": "inProgress",
+      "error": null,
+      "startedAt": 1793546592,
+      "completedAt": null,
+      "durationMs": null
+    }
+  },
+  {
+    "role": "role5",
+    "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
+    "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:68",
+    "status": {
+      "type": "active",
+      "activeFlags": []
+    },
+    "latestTurn": {
+      "id": "01a197b5-2241-77c1-8407-c184481399df",
+      "status": "inProgress",
+      "error": null,
+      "startedAt": 1793546592,
+      "completedAt": null,
+      "durationMs": null
+    }
+  },
+  {
+    "role": "role6",
+    "threadId": "01a14a00-809e-7612-a7a4-889ab1e55f0d",
+    "cursor": "6334fe63-a9e8-4b7f-b356-e2608cd0403d:28",
+    "status": {
+      "type": "idle"
+    },
+    "latestTurn": {
+      "id": "01a197af-b37f-7352-a0c6-59c7f3cf8263",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1793546236,
+      "completedAt": 1793546507,
+      "durationMs": 270220
+    }
+  }
+]

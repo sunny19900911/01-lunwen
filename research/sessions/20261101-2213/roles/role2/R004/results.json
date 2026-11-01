@@ -1,0 +1,52 @@
+{
+  "source_output_files_SHA_verified": 5,
+  "cached_Tcl_sources": [
+    {
+      "name": "Ex5.Frame2D.build.ElasticSection.tcl",
+      "sha256": "61a1408f792b7f6df0bcea7968edeaa38da32e235a6edd697a24f3b94a14b2e0"
+    },
+    {
+      "name": "LibUnits.tcl",
+      "sha256": "2f04175d96c6e818d84d3467dc5ea20c2f3368757957f919f7a5a6510e9e15d7"
+    }
+  ],
+  "source_assembly_sha256": "1fa391c0fc059463475a529db82a890dcfb1f104400cc4d77247341b5504104e",
+  "root_settings_sha256": "511de03e53b38dec714efd25149f7cbf4f45587aeaf5075d9fc428e9188b6a4f",
+  "full_free_positive_mass_massless_dimensions": [
+    48,
+    40,
+    12,
+    28
+  ],
+  "all_four_base_rotations_free": true,
+  "no_floor_merging": true,
+  "Kzz_scaled_rank": 28,
+  "Kzz_scaled_min_eigenvalue": 0.13305600205567042,
+  "Kzz_scaled_condition2": 14.041414734222895,
+  "mass_source_arithmetic_max_abs_error": 0.0,
+  "total_mass_kip_s2_per_in": 1.100062111801242,
+  "M12_max_abs_difference": 0.0,
+  "K12_relative_difference": 2.000983814783891e-16,
+  "C3x12_relative_difference": 2.8790702883891756e-16,
+  "B3x12_max_abs_difference_kip_s2_per_in": 4.309053114326389e-15,
+  "modal_omega_max_relative_difference": 5.551115123125783e-15,
+  "modal_MAC_min": 0.9999999999999971,
+  "full_free_eigen_max_column_relative": 6.381210686920065e-13,
+  "cut_vs_upper_domain_equilibrium_relative": 1.0732212279575752e-17,
+  "cut_modal_vs_omega2_L_relative": 2.891673650307023e-14,
+  "modal_mass_orthogonality_max_abs_error": 1.7763568394002505e-15,
+  "complete_effective_mass_relative_error": 7.771561172376096e-16,
+  "B_sign_scale_invariance_max_absolute_error": 8.881784197001252e-16,
+  "sum_B_equals_mass_above_max_absolute_error": 1.1102230246251565e-15,
+  "roof_unit_load_cut_forces_kip": [
+    1.0000000000000178,
+    1.0000000000000175,
+    1.0000000000000209
+  ],
+  "roof_unit_load_support_x_reaction_kip": -1.000000000000018,
+  "roof_unit_load_cut_max_error_kip": 2.0872192862952943e-14,
+  "unit_acceleration_static_cut_max_error_kip": 1.815214645262131e-14,
+  "first_period_s": 0.6554979982284044,
+  "units_contract": "ag in/s2; s in; B kip*s2/in; V=sum(B*omega^2*s) kip; no /1000 and no second Gamma",
+  "scope": "independent Euler-Bernoulli strain-energy static reconstruction; no OpenSees execution, record read or dynamic response"
+}

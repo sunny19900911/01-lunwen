@@ -1,0 +1,42 @@
+{
+  "session": "20261101-2213",
+  "role": 6,
+  "task": "R004",
+  "status": "frozen-engineering-presentation-contract",
+  "actual_start": "2026-11-01T23:17:16+08:00",
+  "start_source": "read_thread startedAt=1793546236",
+  "first_clock": "2026-11-01T23:17:31+08:00",
+  "actual_freeze": "2026-11-01T23:21:20.249703+08:00",
+  "elapsed_seconds": 244.249703,
+  "limit_seconds": 480,
+  "within_8_minutes": true,
+  "scope": "one engineering result-table template and at most6 reading steps; root/role1 formulas presented, not independent mathematical audit",
+  "S_numeric_status": "pending role4 projection of existing baseline derivative cache; no numeric S generated",
+  "modal_contribution_numeric_status": "pending role4; no mode IDs falsely assigned",
+  "finite_example": "copied rounded approved SHW3X Story5/Story12 finite changes 5to6 and5to8 from role4R002; not S estimates",
+  "public_prediction_status": "not used as validated result in this artifact",
+  "source_sha256": {
+    "roles/role1/R004/baseline-peak-sensitivity-one-page.md": "c797f8fb4e10f66bdf3e4de32bdb9721f19f3c29d86e5cc25efb3bc136e07a2c",
+    "roles/role4/R002/Story5-Story12-priority-truth-and-predictions-8.csv": "d94ac4fbf17bba946a8c194245c7215e748b574fbd8031b5cccaa3d3b8e575bf",
+    "roles/role2/R003/one-page.md": "e128b9ceec6d09918adfd22da5ec56ca86de6861e72ab0b903803f9ffd39a418",
+    "candidate-level-policy-v002-freeze.json": "45b37807dcee9ea33887d82bc7b391128d0cdd352341b804f88f76d6c15774df"
+  },
+  "checks": "6 steps; explicit pending S; signed top5 plus N-5 remainder closure; equal-peak rule; participation mass not share; interval decisions and single-case limitation; no trailing whitespace",
+  "not_performed": [
+    "new response",
+    "sensitivity calculation",
+    "new numerical S",
+    "modal projection",
+    "extra search",
+    "whole-manuscript review",
+    "mathematical independent audit",
+    "Git",
+    "solver"
+  ],
+  "files": {
+    "engineering-table-and-reading.md": {
+      "sha256": "d7a665f1f75a749db33c35360999dd53824b10534dce5fcec2d8cab1e4788e6f",
+      "bytes": 3680
+    }
+  }
+}

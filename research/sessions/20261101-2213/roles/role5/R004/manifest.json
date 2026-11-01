@@ -1,0 +1,93 @@
+{
+  "session": "20261101-2213",
+  "role": "role5",
+  "round": "R004",
+  "first_actual_clock_observed": "2026-11-01T23:08:39+08:00",
+  "substantive_saves": [
+    "2026-11-01T23:09:35+08:00",
+    "2026-11-01T23:11:33+08:00",
+    "2026-11-01T23:13:24+08:00",
+    "2026-11-01T23:15:53+08:00"
+  ],
+  "freeze": "2026-11-01T23:17:08+08:00",
+  "deadline": "2026-11-01T23:20:39+08:00",
+  "elapsed_seconds_from_first_clock": 509.23725,
+  "within_12_minutes": true,
+  "full_window_unchanged": "2026-11-01T22:13:31+08:00 / 2026-11-02T04:13:31+08:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\damping-prediction-session021-v002.md",
+      "sha256": "74144796042a377a09962a1e7a29255e6c38d79136701e815f93e620f3b0be32"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role2\\R003\\one-page.md",
+      "sha256": "e128b9ceec6d09918adfd22da5ec56ca86de6861e72ab0b903803f9ffd39a418"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\candidate-level-policy-v002-freeze.json",
+      "sha256": "45b37807dcee9ea33887d82bc7b391128d0cdd352341b804f88f76d6c15774df"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role6\\R003\\one-page.md",
+      "sha256": "9ab0f0a39cc9cfdf4873b18a2dbc0fe437aa3695516ac64712c6f427124d7c5f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R002\\one-page-validation-and-bound-result.md",
+      "sha256": "c931a7b2e1166948985dc33bfeea3c59d1ede9734a5a7c1456a9ceb5860a8d49"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R002\\prediction-and-coth-bound-summary-8.csv",
+      "sha256": "96e9c6a6cf02e900fbae2053e7c0bec78b82a1c751a73e9b088fed483168002b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R002\\Story5-Story12-priority-truth-and-predictions-8.csv",
+      "sha256": "d94ac4fbf17bba946a8c194245c7215e748b574fbd8031b5cccaa3d3b8e575bf"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R002\\coth-interval-coverage-width-decisions-96.csv",
+      "sha256": "c9af99f18ad7961da664e3e063b1ee669e994f85bc241e18fb44a5b59c0ec226"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R002\\order2-worse-than-order1-peak-cases.csv",
+      "sha256": "dbde71defd899e4f0ff774bbef502a74b6e291ac14e345e4b4a8bf53823858e5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R002\\point-prediction-insufficient-miss-cases-2.csv",
+      "sha256": "909f9d398252b80728934575e1e421f60bf085f52d2011626986cbda1bcc9922"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role4\\R002\\run-isolation-and-cost-notes.md",
+      "sha256": "a82831a9a96b8c24fc486b4b0abc3beababf8b57ba2cde53d0b75851066ca6b7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\damping-prediction-session021-v003.md",
+      "bytes": 21381,
+      "sha256": "39d4b1510f855ae6580c7077fc40d35670590ab1ddafa58ae9589b9bd2e380b1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R004\\supplement-S1-allowable-increment.md",
+      "bytes": 4563,
+      "sha256": "611ddf937579af5cb59f46709d63761bfcd68925f3582b6d0d78955a955f5d19"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R004\\one-page.md",
+      "bytes": 1923,
+      "sha256": "2a322e9bd0ccad10aa26dd505e052d1da4deb406239d0981415c04a762f1bf22"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R004\\QA.json",
+      "bytes": 2619,
+      "sha256": "3e63d034bf10988c89ee3736b09d06557940554615d536f154b36f9c890645f9"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role5\\R004\\v002-to-v003.diff",
+      "bytes": 22547,
+      "sha256": "e5c2d89b8daf78d8249a2d990fb6fa3ba215bfb908df7ef66284b803826e81a3"
+    }
+  ],
+  "new_dynamic_runs": 0,
+  "word_created": false,
+  "status": "frozen; idle"
+}

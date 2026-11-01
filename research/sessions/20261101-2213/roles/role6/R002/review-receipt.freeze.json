@@ -1,0 +1,23 @@
+{
+  "record_type": "post-freeze-independent-static-review-receipt",
+  "session": "20261101-2213",
+  "role": 6,
+  "task": "R002",
+  "actual_freeze": "2026-11-01T23:14:15.588022+08:00",
+  "reviewer": "role2 R004",
+  "must_fix": 0,
+  "original_interface_unchanged_sha256": "df70bd6984ef6196aba0dbfe46b5794b656870ef367a7bd82420a35718c6b443",
+  "original_task_timing_unchanged": true,
+  "R003_reviewed": false,
+  "source_sha256": {
+    "one-page.md": "06a0b4204f86ee3b6a397690cadf27608bde8e3efeb425ed65565643907d00d6",
+    "manifest.json": "bec50e66ffdc85a3631118022fb5490fae39135baf71d754027e7125301f5da1",
+    "results.json": "062e88a58714ba1bab5ad76ed1f8cd7d3cbc5d2f91b45bf075af587521853020"
+  },
+  "files": {
+    "review-receipt.md": {
+      "sha256": "68b01a46ea216b000d0da73c3bfd8937255ec0236987a0caf70562f629462225",
+      "bytes": 1176
+    }
+  }
+}

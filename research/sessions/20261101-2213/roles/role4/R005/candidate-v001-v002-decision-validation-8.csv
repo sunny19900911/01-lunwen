@@ -1,0 +1,9 @@
+﻿target_zeta,Taylor_order,target_floors,v002_candidate_action,v001_flagged_floors,v001_building_recompute,v002_building_recompute,meets_floors,insufficient_floors,uncertain_floors,note,true_all3_meet,true_any_floor_adverse,v002_false_pass,v002_false_reject,v002_adverse_missed_pass,reference_min_floor_D,reference_max_floor_D
+0.06,1,all3,reject,0,0,0,0,3,0,predicted action only; correctness pending independently generated target truth,False,False,False,False,False,0.007434285501239257,0.026538400869030032
+0.06,2,all3,reject,0,0,0,0,3,0,predicted action only; correctness pending independently generated target truth,False,False,False,False,False,0.007434285501239257,0.026538400869030032
+0.07,1,all3,reject,3,1,0,0,3,0,predicted action only; correctness pending independently generated target truth,False,False,False,False,False,0.02571735304154621,0.047751816841944184
+0.07,2,all3,reject,0,0,0,0,3,0,predicted action only; correctness pending independently generated target truth,False,False,False,False,False,0.02571735304154621,0.047751816841944184
+0.08,1,all3,reject,3,1,0,0,3,0,predicted action only; correctness pending independently generated target truth,False,False,False,False,False,0.049449342437446475,0.07336584703664684
+0.08,2,all3,recompute,3,1,1,0,0,3,predicted action only; correctness pending independently generated target truth,False,False,False,False,False,0.049449342437446475,0.07336584703664684
+0.1,1,all3,recompute,3,1,1,0,0,3,predicted action only; correctness pending independently generated target truth,True,False,False,False,False,0.10257285435565844,0.12865192947712112
+0.1,2,all3,recompute,3,1,1,2,0,1,predicted action only; correctness pending independently generated target truth,True,False,False,False,False,0.10257285435565844,0.12865192947712112

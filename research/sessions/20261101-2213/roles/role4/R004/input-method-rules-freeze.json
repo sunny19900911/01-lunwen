@@ -1,0 +1,70 @@
+{
+  "start_observed_utc": "2026-11-01T15:08:59+00:00",
+  "first8min_deadline_utc": "2026-11-01T15:16:59+00:00",
+  "hard12min_deadline_utc": "2026-11-01T15:20:59+00:00",
+  "method_frozen_utc": "2026-11-01T15:11:10.403630+00:00",
+  "code_sha256": "806bcf35c82dee7a8875a5521ca06bf51c2d618e75cffbe02877546007e6ad5c",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role6\\R002\\assembled-v001\\static-interface.json",
+      "sha256": "df70bd6984ef6196aba0dbfe46b5794b656870ef367a7bd82420a35718c6b443",
+      "bytes": 19786
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role3\\R002\\local-cache\\H-E12140.AT2",
+      "sha256": "e1e260f8434d147553c9a088a04985dc9ee3bb0d4b2ad19e99529b401d00edd4",
+      "bytes": 120405
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\roles\\role3\\R002\\record-metadata.json",
+      "sha256": "8f73402db05003ed48e56db4311b4310853c90a655f369b6e013131d30e1ad76",
+      "bytes": 1320
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\public-benchmark-settings-freeze-v001.json",
+      "sha256": "511de03e53b38dec714efd25149f7cbf4f45587aeaf5075d9fc428e9188b6a4f",
+      "bytes": 2361
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\engineering-policy-freeze-v001.json",
+      "sha256": "38f525f51f0fb90579e85016b6196502f2f4c6b0614d3cf5879173780df2d2bb",
+      "bytes": 1731
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261101-2213\\candidate-level-policy-v002-freeze.json",
+      "sha256": "45b37807dcee9ea33887d82bc7b391128d0cdd352341b804f88f76d6c15774df",
+      "bytes": 1932
+    },
+    {
+      "path": "C:\\Users\\mj528\\.codex\\skills\\etabs-response-analysis\\scripts\\modal_linear.py",
+      "sha256": "1c2620542f812e355c4be3ad8877db92db2ba3343cd3a2405e26c731be796827",
+      "bytes": 2206
+    }
+  ],
+  "source": "official OpenSees Example5 elastic-section parameters, self-written linear algebra reconstruction; no OpenSees run",
+  "record": "Imperial Valley1979 ElCentroArray12 140deg, full7802samples",
+  "units": "in/kip/s; ag=rawg*386.4, GM1, no additional scale; shear B*omega^2*s in kip, no /1000 or repeated Gamma",
+  "baseline_zeta": 0.05,
+  "target_zetas": [
+    0.06,
+    0.07,
+    0.08,
+    0.1
+  ],
+  "orders": [
+    1,
+    2
+  ],
+  "dt_nominal_s": 0.005,
+  "initial": "all baseline and derivative states zero; retain nonzero ag first sample",
+  "modes": "all12 positive-mass condensed horizontal modes, no rigid-floor merging, pinned-base rotations free",
+  "derivatives": "analytic first and second derivatives of exact piecewise-linear-input state propagator, reused R001 algebra",
+  "bound": "R003 absolute two-state discrete defects, analytic complete matrix entries at k*dt then absolute, padded positive FFT convolution; local64eps/kernel128eps/FFT1e-12 guards fixed",
+  "coth": "also retain R002 sampled residual sup*coth comparison, no min combination",
+  "peak": "entire saved grid, lower=max(max(0,abs(Vhat)-E)); upper=max(abs(Vhat)+E)",
+  "policy": "root v001 floor Dreq=.10 Wmax=.05 plus separately frozen v002 reject/pass/recompute, no target results used",
+  "no_target_state_solve": true,
+  "no_target_response_read": true,
+  "static_role2_audit_pending": true,
+  "continuous_or_strict_FP_certificate": false
+}

@@ -1,0 +1,80 @@
+{
+  "status": "frozen",
+  "observed_start": "2026-11-01T23:14:44.909176+08:00",
+  "frozen_at": "2026-11-01T23:21:25.255310+08:00",
+  "deadline": "2026-11-01T23:26:44+08:00",
+  "must_fix": 0,
+  "producer_manifest_sha256": "01d6808214e077743fd30e3b76d84105b8aa471e2f343368219e13916f8d9a17",
+  "artifacts": [
+    {
+      "name": "additional-scalar-checks.json",
+      "bytes": 236,
+      "sha256": "52693b04559ad29380b098c0150b5005f51f8cf1871a0c280c004f887b36d1fd"
+    },
+    {
+      "name": "audit_discrete_envelopes.py",
+      "bytes": 14041,
+      "sha256": "7dc0eb73b05e032975d7371c2528ff486e88bbd72c346ea3cfa06c61326495a6"
+    },
+    {
+      "name": "executed-v001.py",
+      "bytes": 13920,
+      "sha256": "95a573a5334f1a4389d2f1cc84b894bed0980ad99040bdb5bfbe070989341b3b"
+    },
+    {
+      "name": "independent-all300-fixed-time-story-envelopes-40.csv",
+      "bytes": 2351,
+      "sha256": "ab4433ce0f9c4e357b08b44b8df5ac6db6b633a4d95a4eac1fec5f8bbd043d31"
+    },
+    {
+      "name": "independent-first-two-step-lags-24.csv",
+      "bytes": 1511,
+      "sha256": "ec1db7dbcf5f248ecd159f9aa731f3b9fbe2f9166d571ef0f455a80d4501996a"
+    },
+    {
+      "name": "independent-selected-positive-convolutions-24.csv",
+      "bytes": 1941,
+      "sha256": "2b6239185b970e66c90489f2a3f0e4a2f81caa5c492e68989ddd0b41c632b1d4"
+    },
+    {
+      "name": "independent-summary-8.csv",
+      "bytes": 875,
+      "sha256": "1871dcec822b437b13636a1ee55d54ade843df28d6142730695a7f3a78d2a80e"
+    },
+    {
+      "name": "one-page.md",
+      "bytes": 4028,
+      "sha256": "14231168f2f696256cbc9e25a9753722816a4773cba6264b985013d28bedbe25"
+    },
+    {
+      "name": "results.json",
+      "bytes": 1226,
+      "sha256": "5de907d0b6a11fe84ccb25f421700a02b6c588d196e14eeaf98aab50acd2044c"
+    }
+  ],
+  "executions": [
+    {
+      "script": "executed-v001.py",
+      "exit_code": 1,
+      "tool_wall_seconds": 5.3503033,
+      "failure": "summary field-name singular/plural mismatch after direct convolution and full coverage checks"
+    },
+    {
+      "script": "audit_discrete_envelopes.py",
+      "exit_code": 0,
+      "tool_wall_seconds": 7.5488472,
+      "changes": "summary field mapping only; same methods, parameters, guards, modes and times"
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "independence": "generic spectral matrix exponential/ramp input moments; full matrix powers; positive direct convolution; no producer function import",
+  "accepted": "known-case numerical envelope/classification/coverage/cost statistics",
+  "not_accepted": [
+    "strict same discrete operator between median and nominal step",
+    "rigorous floating-point certificate",
+    "continuous-time peak certificate",
+    "speedup claim"
+  ],
+  "new_target_or_ODE_solves": 0,
+  "full_arrays_written": false
+}
