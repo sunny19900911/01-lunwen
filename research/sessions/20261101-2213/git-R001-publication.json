@@ -1,0 +1,102 @@
+{
+  "checkpoint": "R001",
+  "time": "2026-11-01T22:24:10.034445+08:00",
+  "message": "research: start six-hour baseline damping prediction study with six roles",
+  "files": [
+    {
+      "relative": "research/sessions/20261101-2213/authorization-evidence.json",
+      "bytes": 619,
+      "sha256": "24b8c8bd4930f31ba72da14916c71d6091b5a0c7748456c840bcd663246efc5e"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/automation-config-check.json",
+      "bytes": 525,
+      "sha256": "f15d63abda5fc44375d90d39704fa0c7c5c6b510cd7b871d8d1057e3730d94ce"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/automation-create-receipt.json",
+      "bytes": 406,
+      "sha256": "8ff4240884cdcc964a7afccaa7b77fa48d7a65e30bb5a1646859faaa1e7f3fa5"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/checkpoint_R001.py",
+      "bytes": 5633,
+      "sha256": "43a4c828075d69cf45860ec51a3cd6d00817dbd36605024307af7708f1f18371"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/claims.md",
+      "bytes": 794,
+      "sha256": "e1e675d295c7e24cae0213be887188a260b99061f77d29af727d3132a48d4cd0"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/plan.md",
+      "bytes": 4818,
+      "sha256": "b34e27065a9cc2d32bae8c2a83f4431ee2087d54abec753fac838ad8e7229cbe"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/publish_checkpoint.py",
+      "bytes": 4161,
+      "sha256": "494982d0527188a5a8d1cd8d76168ff122a04e59836b139992e6a397fa6b11e7"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/R001-first-real-snapshot.json",
+      "bytes": 8700,
+      "sha256": "d39b07614cd919158bc75c83a3e5dbeb37f5c124a60705673fae59507dd59f15"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/root-R001-harmonic-sanity/manifest.json",
+      "bytes": 557,
+      "sha256": "e0ac8465218b507e564dc7e6b66215c0fb078e5e87366b33732390c55c77a681"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/root-R001-harmonic-sanity/one-page.md",
+      "bytes": 1019,
+      "sha256": "ee742c4d0fcb2480b46bdd2633781ef0ff6e37b0614f0f82ad2aadd4646b20e3"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/root-R001-harmonic-sanity/results.json",
+      "bytes": 1072,
+      "sha256": "142bbbbdc034cd05f16c11522342d0a2f99516968f944822a2969052eaa17098"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/root-R001-harmonic-sanity/steady-two-floor-prediction-sanity-36.csv",
+      "bytes": 7886,
+      "sha256": "2d5e76107366746209f33ff429a4ec22bc287df862cc00ab500aa0623830fc10"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/root_harmonic_sanity.py",
+      "bytes": 3164,
+      "sha256": "c7263f5fc4dd0e2f020bb102a1c90aa51504cc6b963e5d029a3a86a8537c7a53"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/rounds/R001.md",
+      "bytes": 1189,
+      "sha256": "51ae5fc290d2c68010eb32a38e85d64d0fe706ab197c59a76831305a895d53e7"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/runs.md",
+      "bytes": 469,
+      "sha256": "9bfce8f4c240bf950dcc35537eced569eb9dfea753ad940204b32b9eda9eb54f"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/start_session.py",
+      "bytes": 8471,
+      "sha256": "ad8dac5e8533ce54b38d3b8ab59018404df90ad2e9178b0f765ec0d1900e0f9b"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/status.json",
+      "bytes": 1899,
+      "sha256": "8be765d8068ab9882d91f1db4d608d66d9cd6d1524c21a878b7d71b19ed2fb05"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/threads.json",
+      "bytes": 2385,
+      "sha256": "21844f126f63f7f625d0a2e2f687064321a26c076248353963d06180d5f64579"
+    },
+    {
+      "relative": "research/sessions/20261101-2213/topic-card-R001.md",
+      "bytes": 685,
+      "sha256": "88c110d3f6855c610904a888fe7c092624e63e1bc4aca0bb00b7ef78a16a6fd2"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "actual": "2026-11-01T22:20:55.597996+08:00",
+  "rows": 36,
+  "scope": "known2floor exact harmonicsteady transfer sanity, not zeroIC earthquake validation or engineeringforecast",
+  "baseline_only_coefficients": true,
+  "prediction_frozen_in_memory_before_truth": true,
+  "independent_blind_test": false,
+  "modes_omega": [
+    0.6180339887498949,
+    1.618033988749895
+  ],
+  "residual_max_abs": 4.440892098500626e-16,
+  "key_sqrt2_target8": {
+    "frequency_rad_s": 1.4142135623730951,
+    "zeta0": 0.05,
+    "target_zeta": 0.08,
+    "delta": 0.03,
+    "baseline_peak_N": 0.17767349527288348,
+    "linear_pred_peak_N": 0.27265902701596706,
+    "quadratic_pred_peak_N": 0.2616706363026894,
+    "target_peak_N": 0.26021884789295624,
+    "linear_rel_peak_error": 0.047806602879620075,
+    "quadratic_rel_peak_error": 0.005579105516331984,
+    "pred_linear_reduction": -0.5346072108121591,
+    "pred_quadratic_reduction": -0.47276123487522526,
+    "target_reduction": -0.4645901319906709
+  },
+  "new_ODE": false,
+  "original_data": false
+}
