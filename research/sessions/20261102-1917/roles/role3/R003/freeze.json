@@ -1,0 +1,56 @@
+{
+  "session": "20261102-1917",
+  "role": 3,
+  "round": "R003",
+  "purpose": "single source correction, not new research",
+  "start_actual": "2026-11-02T20:39:01+08:00",
+  "deadline": "2026-11-02T20:44:01+08:00",
+  "frozen_actual": "2026-11-02T20:41:37.177676+08:00",
+  "source_inputs": [
+    {
+      "path": "research/sessions/20261102-1917/roles/role5/R003/local-cache/template-page-4.png",
+      "bytes": 335964,
+      "sha256": "5b03e863a59c9c1ccfe8dae1cfcd7d71be814758d34439f72abbb02dea6b6744"
+    },
+    {
+      "path": "research/sessions/20261102-1917/roles/role5/R003/local-cache/template-audit.json",
+      "bytes": 79674,
+      "sha256": "b67e99f45459ee5adfc34eceb4ea3ae2b60194ea9a1b7a746678beb382bd6737"
+    },
+    {
+      "path": "research/sessions/20261102-1917/roles/role3/R001/journal-and-literature-audit.md",
+      "bytes": 8799,
+      "sha256": "1ff4601ca64ddb7a26b4ebe55100cb99a006e3548e290304fbd5e4a0315d8564"
+    },
+    {
+      "path": "research/sessions/20261102-1917/roles/role3/R002/final-reference-and-bilingual-audit.md",
+      "bytes": 6145,
+      "sha256": "83b05c22b0d36f890f9cacd972d1464438949470813978e4c7560fcc6a6014ed"
+    }
+  ],
+  "template_exact_paragraphs": [
+    {
+      "index": 119,
+      "start": 3687,
+      "end": 3726,
+      "text": "（1）每篇文章参考文献数量要求不能少于20篇，且期刊类文献比例不少于3/4。"
+    },
+    {
+      "index": 136,
+      "start": 4510,
+      "end": 4548,
+      "text": "（以下为小五宋体,参考文献数量必须大于20篇，且期刊类文献比例大于3/4）"
+    }
+  ],
+  "page4_visually_inspected": true,
+  "reference_quantity_conflict_confirmed": true,
+  "effective_date_priority_unresolved": true,
+  "scientific_manuscript_data_and_existing_references_changed": false,
+  "old_audits_changed": false,
+  "new_searches_downloads_external_contact": false,
+  "output": {
+    "path": "research/sessions/20261102-1917/roles/role3/R003/reference-requirement-correction.md",
+    "bytes": 3509,
+    "sha256": "be47155185e09595e6c49019c1d0ab762df3fc85792b964a83f13ffb89416fc3"
+  }
+}

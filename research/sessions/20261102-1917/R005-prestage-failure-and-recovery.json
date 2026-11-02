@@ -1,0 +1,21 @@
+{
+  "failure_stage": "local JSON validation before manifest, staging, commit or push",
+  "actual_cause": "extra leading + in two root JSON files from patch-string construction",
+  "initial_diagnosis_correction": "The unavailable-store/undefined guess was wrong: original saved tool response was present. One attempted replacement failed before editing. The misleading .failed-undefined.txt filename is retained as a record, not proof of undefined contents.",
+  "files": [
+    {
+      "path": "root-template-visual-review.json",
+      "failed_sha256": "7cb9699825b30e5dfbdb08944b65e18f42d64ea6b2407dd4566a68c7ddccf8ab",
+      "fixed_sha256": "665593c9b7645e70fe15e9daf9b5b4bb50c91dafa9e36a9ce1b714742232c6d2",
+      "only_change": "remove one accidental leading plus from apply_patch construction"
+    },
+    {
+      "path": "automation-final-phase-update-receipt.json",
+      "failed_sha256": "8e2c30d754491bdebfc0e4884fa2fc6834ac870285da1da621775c053bad6455",
+      "fixed_sha256": "21a1dda3ffb10c2376ab11814d1c29b9910891bc36e4fac7854328e843e0da14",
+      "only_change": "remove one accidental leading plus from apply_patch construction"
+    }
+  ],
+  "source_manuscripts_or_role_files_changed": false,
+  "existing_receipt_repeated": false
+}

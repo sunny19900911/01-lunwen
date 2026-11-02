@@ -1,0 +1,87 @@
+{
+  "checkpoint": "R005",
+  "message": "P06 session022: prepare native Word production and clarify official requirements",
+  "files": [
+    {
+      "relative": "research/sessions/20261102-1917/status.json",
+      "sha256": "e99186f26849357c9138ce27780648bf2e1b71d98b04d80bf83d753381a1a5ac"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/threads.json",
+      "sha256": "eedc9cfc182cb54517e2027e2a45f7591da2e29b9d0fe3267a47a6df26c99bce"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/runs.md",
+      "sha256": "f991599f1cf25e017dfbafe8fd1c4dfd047a2dec121a98d4b79b02c3de58a1fa"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/next-task.md",
+      "sha256": "544f9cd185872b6ffcf03a3ce35cde774d969b256f941febae4177027423a2d5"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/root-template-visual-review.json",
+      "sha256": "665593c9b7645e70fe15e9daf9b5b4bb50c91dafa9e36a9ce1b714742232c6d2"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/v003-exact-change-contract.json",
+      "sha256": "a2069df89f8f30fce936b3734b12bbb7e9274dd532f1b0f6fe1a8dc3dbf8d3ee"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/automation-final-phase-update-receipt.json",
+      "sha256": "21a1dda3ffb10c2376ab11814d1c29b9910891bc36e4fac7854328e843e0da14"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/automation-final-phase-actual-readback.json",
+      "sha256": "9993c99cbd20652d48bacbc91646b6b798ae50cc36bfb90b3cfcebf9558f3633"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/checkpoint_R005.py",
+      "sha256": "4b72356ab94ba0cf913b10feaa0b364aa50f560245facba9e56ef961f4fde3de"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/R005-prestage-failure-and-recovery.json",
+      "sha256": "c0b3a461490477cdcd855ff0c30967aa7f806a710e2d92a84ea3f81fec965931"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role3/R003/reference-requirement-correction.md",
+      "sha256": "be47155185e09595e6c49019c1d0ab762df3fc85792b964a83f13ffb89416fc3"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role3/R003/freeze.json",
+      "sha256": "9e16bfcaacaf10da5cb87947cdfc18ecaf067ef8fe9f0e753ef78d47a410da7e"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R003/freeze.json",
+      "sha256": "9211b3fe05e068f9598b063c13a427102bfab8c79aa5d3e41d3b42f633a247b4"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R003/artifact.md",
+      "sha256": "b677e1759f42b830ba35764fb6af3f6c6f71de013cd87704923b83422e049b27"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R003/math_omml.py",
+      "sha256": "ad0c091401c059d2676b2c8451d78967f142b5ad4a17944f64ca0885e8c71f44"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R003/render_review.py",
+      "sha256": "fc84cd5f2430eed66bab7d51131ee95a8d578256a85307dbdbadacd9cc5d6baf"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R003/inspect_template.ps1",
+      "sha256": "f3dc41e31bb3633df477c050bd3789ea4677f67d54a162074c44e0465e55ac66"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R003/preflight_word.py",
+      "sha256": "395a0e44f5d31cd63eebfafd02c274704f8562a1452f0542a347ead6f8dd1dcc"
+    }
+  ],
+  "checks": [
+    "Root fully read frozen preparation report, safe rendering and template inspection code",
+    "Root actually viewed all four official template pages",
+    "Reference count and line-grid discrepancies independently confirmed, no compliance claim",
+    "Current ten substantive references retained; no irrelevant additions",
+    "Exact v003 change contract precomputed; science manuscript not written by root",
+    "No final Word or final-page QA claimed, active role5 R004 artifacts excluded",
+    "All official template, source excerpts, PDF and page images in local-cache excluded"
+  ]
+}

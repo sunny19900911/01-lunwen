@@ -1,0 +1,19 @@
+{
+  "reference": "roles/role5/R003/local-cache/template-page-1.png through template-page-4.png",
+  "root_actually_viewed_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "official_template_sha256": "c21de684ade77cf7b7c062c05b81cd0327254db9d0426e4368186eb00b60bb18",
+  "findings": {
+    "layout": "Title and abstracts single column; body two columns; serif Chinese and Times; narrow scientific figures/tables; numbered editable equations; example text must be removed",
+    "template_lines_page": 45,
+    "website_lines_page": 47,
+    "reference_requirement": "Template page4 requires at least20 references and journal proportion at least3/4; right-hand sample wording is strictly greater, while old official web page says not fewer than10"
+  },
+  "decision": "Use actual downloaded template layout45 as design reference. Retain ten substantively supported references in this scientific review manuscript; flag unresolved submission requirement separately, do not add irrelevant citations or claim full journal compliance.",
+  "source_correction_task": "role3/R003",
+  "final_manuscript_or_word_QA": false
+}

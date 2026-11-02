@@ -1,0 +1,205 @@
+{
+  "status": "prepared-partial-frozen-idle",
+  "first_tool_time": "2026-11-02T20:14:35+08:00",
+  "frozen_at": "2026-11-02T20:27:56+08:00",
+  "elapsed_since_first_tool_seconds": 801.739898,
+  "template_sha256": "c21de684ade77cf7b7c062c05b81cd0327254db9d0426e4368186eb00b60bb18",
+  "template_bytes": 3132961,
+  "template_pages": 4,
+  "template_sections": [
+    {
+      "bottom_pt": 56.7,
+      "top_pt": 76.55,
+      "different_first_header_footer": 0,
+      "index": 1,
+      "page_height_pt": 841.9,
+      "columns": [
+        {
+          "space_after_pt": null,
+          "index": 1,
+          "width_pt": 481.9
+        }
+      ],
+      "section_start": 2,
+      "page_width_pt": 595.3,
+      "left_pt": 56.7,
+      "right_pt": 56.7,
+      "start": 0,
+      "footer_distance_pt": 42.55,
+      "header_distance_pt": 42.55,
+      "lines_page": 45.0,
+      "end": 1615,
+      "layout_mode": 2
+    },
+    {
+      "bottom_pt": 56.7,
+      "top_pt": 76.55,
+      "different_first_header_footer": 0,
+      "index": 2,
+      "page_height_pt": 841.9,
+      "columns": [
+        {
+          "space_after_pt": 36.0,
+          "index": 1,
+          "width_pt": 222.95
+        },
+        {
+          "space_after_pt": null,
+          "index": 2,
+          "width_pt": 222.95
+        }
+      ],
+      "section_start": 0,
+      "page_width_pt": 595.3,
+      "left_pt": 56.7,
+      "right_pt": 56.7,
+      "start": 1615,
+      "footer_distance_pt": 42.55,
+      "header_distance_pt": 42.55,
+      "lines_page": 45.0,
+      "end": 5163,
+      "layout_mode": 2
+    },
+    {
+      "bottom_pt": 56.7,
+      "top_pt": 76.55,
+      "different_first_header_footer": 0,
+      "index": 3,
+      "page_height_pt": 841.9,
+      "columns": [
+        {
+          "space_after_pt": null,
+          "index": 1,
+          "width_pt": 481.9
+        }
+      ],
+      "section_start": 0,
+      "page_width_pt": 595.3,
+      "left_pt": 56.7,
+      "right_pt": 56.7,
+      "start": 5163,
+      "footer_distance_pt": 42.55,
+      "header_distance_pt": 42.55,
+      "lines_page": 45.0,
+      "end": 5164,
+      "layout_mode": 2
+    }
+  ],
+  "template_read_only": true,
+  "AutomationSecurity": 3,
+  "Word_version": "16.0",
+  "source_sha256": "b3a86796c990bcb7d80ce74c7e343a6eb24ef2931581f5853652a9f3f3a60cde",
+  "source_display_equations": 5,
+  "XML_preflight": [
+    {
+      "name": "display-01",
+      "latex": "P_{B,s,a,c}=\\max_{t\\in T}|V_{B,s,a,c}(t)|,\\qquad P_{M,s,a,c}=\\max_{t\\in T}|V_{M,s,a,c}(t)|.",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\display-01.xml",
+      "text": "PB,s,a,c=maxt∈T|VB,s,a,c(t)|, PM,s,a,c=maxt∈T|VM,s,a,c(t)|.",
+      "XML_well_formed": true
+    },
+    {
+      "name": "display-02",
+      "latex": "r_{\\mathrm{peak},s,a,c}=1-\\frac{P_{M,s,a,c}}{P_{B,s,a,c}},\\qquad P_{B,s,a,c}>0.",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\display-02.xml",
+      "text": "rpeak,s,a,c=1-PM,s,a,cPB,s,a,c, PB,s,a,c>0.",
+      "XML_well_formed": true
+    },
+    {
+      "name": "display-03",
+      "latex": "c_r\\in\\operatorname{argmin}_{c\\in C}r_{\\mathrm{peak},s,a,c},\\qquad c_V\\in\\operatorname{argmax}_{c\\in C}P_{M,s,a,c}.",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\display-03.xml",
+      "text": "cr∈argminc∈Crpeak,s,a,c, cV∈argmaxc∈CPM,s,a,c.",
+      "XML_well_formed": true
+    },
+    {
+      "name": "display-04",
+      "latex": "r_{\\mathrm{at}}=1-\\frac{A}{P_B},\\qquad d=\\frac{P_M-A}{P_B}\\ge0,\\qquad r_{\\mathrm{peak}}=r_{\\mathrm{at}}-d.",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\display-04.xml",
+      "text": "rat=1-APB, d=PM-APB≥0, rpeak=rat-d.",
+      "XML_well_formed": true
+    },
+    {
+      "name": "display-05",
+      "latex": "V_s(t)=\\sum_r(\\ell_s^T\\phi_r)q_r(t).",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\display-05.xml",
+      "text": "Vs(t)=∑r(ℓsTφr)qr(t).",
+      "XML_well_formed": true
+    },
+    {
+      "name": "K_matrix",
+      "latex": "K=\\begin{bmatrix}2.4&-1&0\\\\-1&1.7&-.7\\\\0&-.7&.7\\end{bmatrix}",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\K_matrix.xml",
+      "text": "K=2.4-10-11.7-.70-.7.7",
+      "XML_well_formed": true
+    },
+    {
+      "name": "M_matrix",
+      "latex": "M=\\operatorname{diag}(1,1.2,.8)",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\M_matrix.xml",
+      "text": "M=diag(1,1.2,.8)",
+      "XML_well_formed": true
+    },
+    {
+      "name": "device_sum",
+      "latex": "Q_D=\\sum n_e P",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\device_sum.xml",
+      "text": "QD=∑neP",
+      "XML_well_formed": true
+    },
+    {
+      "name": "PBPM_fraction",
+      "latex": "r_{\\mathrm{peak}}=1-\\frac{P_M}{P_B}",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\PBPM_fraction.xml",
+      "text": "rpeak=1-PMPB",
+      "XML_well_formed": true
+    },
+    {
+      "name": "time_bias",
+      "latex": "d=\\frac{P_M-|V_M(t_B)|}{P_B}",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\time_bias.xml",
+      "text": "d=PM-|VM(tB)|PB",
+      "XML_well_formed": true
+    },
+    {
+      "name": "argmin_operand",
+      "latex": "c_r\\in\\operatorname{argmin}_{c\\in C}r_{\\mathrm{peak},s,a,c}",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\argmin_operand.xml",
+      "text": "cr∈argminc∈Crpeak,s,a,c",
+      "XML_well_formed": true
+    },
+    {
+      "name": "argmax_operand",
+      "latex": "c_V\\in\\operatorname{argmax}_{c\\in C}P_{M,s,a,c}",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\argmax_operand.xml",
+      "text": "cV∈argmaxc∈CPM,s,a,c",
+      "XML_well_formed": true
+    },
+    {
+      "name": "modal_shear_operand",
+      "latex": "V_s(t)=\\sum_r(\\ell_s^T\\phi_r)q_r(t)",
+      "XML": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R003\\local-cache\\modal_shear_operand.xml",
+      "text": "Vs(t)=∑r(ℓsTφr)qr(t)",
+      "XML_well_formed": true
+    }
+  ],
+  "bundled_python": "C:\\Users\\mj528\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_docx_available": true,
+  "PDFium_available": true,
+  "estimated_manuscript_pages": {
+    "minimum": 9,
+    "maximum": 12,
+    "basis": "A4 dual columns 47-line grid; 5 full-width tables and 3 figures, unrendered estimate only"
+  },
+  "Word_created": false,
+  "marker_executed": false,
+  "template_PNGs_actually_viewed": false,
+  "final_document_QA_passed": false,
+  "pending": [
+    "Template pages exported but not yet actually viewed",
+    "No manuscript authoring performed; source must advance to root-adopted v003",
+    "Template-derived builder and preserve-only package gates still need authoring-task implementation",
+    "Macro-disabled read-only COM conversion from DOC to working DOCX permitted only after authoring dispatch and one successful marker",
+    "Final canonical rendering, fallback if needed, and every final page visual review remain"
+  ]
+}

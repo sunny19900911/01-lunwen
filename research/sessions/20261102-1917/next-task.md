@@ -13,3 +13,7 @@
 20:04—20:06更新：v002已20:00:23冻25778B SHAb3a86796…60cde，根已完整读正文/工程附表/变化说明。已actualidle后正式派②R003正确性、③R002来源、⑥R002工程三项终审8min必要10；⑤actualidle125后R0038min仅Word预备/官方模板只读核，当前无DOCX/marker。科学生产和新科学派工均停，保留必要终审/改稿/Word。三审核冻后根读裁决，作者idle后一次有限改稿，接真正Word制作。不得因no_new_scientific_dispatch标志拒绝已授权必要终稿/QA，不扩科研。下一GitR003约20:09收已冻v002/小稿件，不收在写脚本；R002已核57060eebc7dff6ca2fe8adf8892ba7c3c9fcbc24。
 
 20:14最新：②R003/③R002/⑥R002正式终审全到，根完整读报告/清单，三者0must；根采纳⑥两should和一optional的精确三段替换，见final-review-adoption-v001.md。②502显示数值通过，③10参考顺序/支持/双语通过。⑥实际519.42s超8min39.42秒但在允许10min内，已正式纠正先报用词。⑤R00320:06:28进入active预备，20:13快照仍无输出，勿重复派；等actualidle收环境/脚本，再唯一下一项v003精确3段替换及Word制作，任何delay真实记录总截止不变。R003已push45e7dfd2f1edec33bc4ec20da59a7792e245ea9f核远端，下一R004约20:23。无新科学。
+
+20:26：R004普通push0c6d4eb5ce477a7547621b0e0db6a7f40fc946b1远端已核，checkpoint_open=false。⑤R003仍active，已有inspect_template.ps1/math_omml.py/render_review.py，宏禁用只读检查模板并出内部页图；尚无最终Word。已一次提醒R003及时冻结现有进度不无限预备，勿重派active。三段精确替换裁决文件已备，下一作者任务待actualidle后一次完成v003及真正Word（时间仍21:47硬截止）。所有其他科学工作停，无须新任务填充。根Word身份gate已准备S/check_final_p06_word.py，仅AST通过未对Word执行，不称验收通过。下GitR005约20:39。
+
+20:42最新重要覆盖：⑤R003actualidle132已核，根读全部预备脚本安全且实际看模板4页（root-template-visual-review.json）。已派唯一R00420min必要25最晚21:04，三段预期v003 UTF8LF25712B/b546eb7e...dac3由root契约给出，匹配可直接继续Word，别重复派。实际模板45行优先网页47。根发现模板p4要求至少20/又有大于20及期刊比例条款，③R00320:41:37正式核更正；不扩新引用，不称10条满足投稿合规，另附说明，科学稿与现10条支持保留。③仅此更正已完。新heartbeat提示已正式update/view及实TOML回读，固定截止仍21:47:23。下一R005白名单同步只收冻结R003预备/正式更正和根文件；R004 Word在写不收。
