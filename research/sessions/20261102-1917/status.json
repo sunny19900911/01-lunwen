@@ -1,0 +1,23 @@
+{
+  "session": "20261102-1917",
+  "phase": "R001-active",
+  "start": "2026-11-02T19:17:23+08:00",
+  "deadline": "2026-11-02T21:47:23+08:00",
+  "final_writing_start": "2026-11-02T21:02:23+08:00",
+  "checkpoint_open": true,
+  "no_new_scientific_dispatch": false,
+  "source": "papers\\damping-output-boundaries\\manuscript\\jgjg-session011-v004.md",
+  "source_sha256": "c30cbbccecc21be395ad9cf55de3f842f806cfea8372b72d180d240a3e532b7a",
+  "automation": {
+    "id": "p06-150",
+    "state": "ACTIVE",
+    "formal_view": true,
+    "actual_config_readback": true
+  },
+  "current_task": "首轮有限工程方法/数据契约/文献/稿件增量",
+  "git": {
+    "pending_push": false
+  },
+  "checkpoint": "R000",
+  "checkpoint_started_at": "2026-11-02T19:29:15.494707+08:00"
+}

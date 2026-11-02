@@ -1,0 +1,74 @@
+{
+  "checkpoint": "R000",
+  "message": "P06 session022: freeze engineering scope and launch six-role review",
+  "files": [
+    {
+      "relative": "research/sessions/20261102-1917/initialize.py",
+      "sha256": "137855dcdf31536c3170593ab6087fa7faa2613f7bae3d24567aded92cc0014c"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/plan.md",
+      "sha256": "d6e2fd6bda7e1d806d64a63270de650dfd66dd37b7283746c6bfc0504819ce7f"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/authorization-evidence.json",
+      "sha256": "c0f4838b73a48ca1ad7db87c6bc3f8d0fa933a94c2f97d82fbb798ffb2fcbc9c"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/claims.md",
+      "sha256": "ad87fc8383379b375803e9052cfa5311f2c886daca9ebcee8fd107669ddb7d86"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/runs.md",
+      "sha256": "f028cd683e3c5621ab7c1eed61a491d9bfac5e97b3208cf9ceea37b3fdfe55bb"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/threads.json",
+      "sha256": "52d35ec5169a9362d754a054d1cd57bfed5506da0891a8e5ac1e682190cc0422"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/status.json",
+      "sha256": "b069182262e668b0551b621f2cac78c7529c7f6e67366fa8edad336f49dec0ea"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/root-R001-method-contract.md",
+      "sha256": "5ee560ea8a5261665a61c89417ede34994e7299b180a70e4eb3ab6765e372abc"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/initial-thread-snapshot.json",
+      "sha256": "41cd5fe88046d1d33f707026fa25b539a7e5fbe299843c3880700cc387cd10ff"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/R001-dispatch-tool-receipts.json",
+      "sha256": "9b1a8276b1ff170e51f377cccf5c6aed1a011966f5dc5d5bb15bae86a45a9efa"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/automation-create-tool-receipt.json",
+      "sha256": "5059cfc1e907c1cf47fe3ccc67d5060bbf6c58a03d4a105d81c3927307072d5b"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/automation-actual-readback.json",
+      "sha256": "cb671748b9a41eb0a18f6cf25b216f190398aef19caad97b0224636f6736df8d"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/publish_checkpoint.py",
+      "sha256": "6b90e289238c8f48dd702c9275250d38a303521c61406ec51cfc8bfead70a1c2"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/checkpoint_R000.py",
+      "sha256": "c320b8640b62add86eb3390482f442b6c4b09df6b912956365fcfbe8dde266f0"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/rounds/R001-start.md",
+      "sha256": "9c8ea634a6603999409c26931d1570d754e31dc61df7d9d6fbb2ae94a508a972"
+    }
+  ],
+  "checks": [
+    "Root fully read original P06 and final summary",
+    "Original MD and adopted DOCX SHA verified",
+    "Human new authorization read in original review thread",
+    "Root new method contract reviewed; no new science claim",
+    "Only root frozen files; no active role outputs",
+    "Formal heartbeat create/view and actual configuration verified"
+  ]
+}
