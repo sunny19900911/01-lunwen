@@ -1,0 +1,66 @@
+{
+  "checkpoint": "R006",
+  "message": "P06 session022: freeze final scientific manuscript and engineering guidance",
+  "files": [
+    {
+      "relative": "research/sessions/20261102-1917/status.json",
+      "sha256": "c1ede342f8e9f32dbe1f23d0c41719e4415b54ec1993e068a4b08764639985a5"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/threads.json",
+      "sha256": "9346c973b799434c6b3790b83eb3bdc9fc5ffbd34420471dd1bc7ddc97e2f51c"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/runs.md",
+      "sha256": "f991599f1cf25e017dfbafe8fd1c4dfd047a2dec121a98d4b79b02c3de58a1fa"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/next-task.md",
+      "sha256": "fc978558d75bb64fbecc1314d2a9d7e2e917dec650d29ea328fe297f6542bea4"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/root-v003-final-source-acceptance.json",
+      "sha256": "b552fc586b07ab5602733cad76fb7cd6eb3d3663c6817ebcb9b3b9b60eceb4ad"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/check_final_p06_word.py",
+      "sha256": "84e42d19749c6a32fa02c06905ae3f230031229dcd28245d4c883a95ee096343"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/普通中文研究说明.md",
+      "sha256": "bafd444ab7ae23e0dfab9d46cb75b661e72bc0016b7bf7e9c0d1374e2326a853"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/投稿前待办.md",
+      "sha256": "d327a58c7e672f6b26b2cac98707dfcaf1d3672a53e8b3d1d3d1a98c581db9d7"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/final-summary-prepared-v001.md",
+      "sha256": "4bbf3e86faf73b58dbc9f8ae30d2fcc04d1dfee7624b5f851ed89a73416f3d47"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/checkpoint_R006.py",
+      "sha256": "3e061793f41c53be831e6be143ebe65518703406e5f3c805a45e594ffc50c846"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R004/v002-to-v003.diff",
+      "sha256": "c476158b072e6326938ffd6b6c48a365c0fcf732062d4ae158b94dea102fe7da"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R004/v003-identity.json",
+      "sha256": "4b0a97768fa39041d3fb7f997e0649d8a882a2cc0a0b416361fd0a83c5ac5940"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-engineering-session022-v003.md",
+      "sha256": "b546eb7e9afe6dfde8f8bc57f705ee6e283b60141000a408965d39921fffdac3"
+    }
+  ],
+  "checks": [
+    "Final v003 matches root preapproved three-paragraph contract and exact SHA",
+    "Root exact diff read; figures, tables, formulas, references and appendix unchanged",
+    "Readable engineering summary and real submission pending items reviewed",
+    "Summary remains explicitly prepared, not a completion assertion",
+    "Word candidate and active authoring files excluded until freeze and actual QA",
+    "Root Word gate geometry checks prepared, no final Word check claimed"
+  ]
+}

@@ -17,3 +17,7 @@
 20:26：R004普通push0c6d4eb5ce477a7547621b0e0db6a7f40fc946b1远端已核，checkpoint_open=false。⑤R003仍active，已有inspect_template.ps1/math_omml.py/render_review.py，宏禁用只读检查模板并出内部页图；尚无最终Word。已一次提醒R003及时冻结现有进度不无限预备，勿重派active。三段精确替换裁决文件已备，下一作者任务待actualidle后一次完成v003及真正Word（时间仍21:47硬截止）。所有其他科学工作停，无须新任务填充。根Word身份gate已准备S/check_final_p06_word.py，仅AST通过未对Word执行，不称验收通过。下GitR005约20:39。
 
 20:42最新重要覆盖：⑤R003actualidle132已核，根读全部预备脚本安全且实际看模板4页（root-template-visual-review.json）。已派唯一R00420min必要25最晚21:04，三段预期v003 UTF8LF25712B/b546eb7e...dac3由root契约给出，匹配可直接继续Word，别重复派。实际模板45行优先网页47。根发现模板p4要求至少20/又有大于20及期刊比例条款，③R00320:41:37正式核更正；不扩新引用，不称10条满足投稿合规，另附说明，科学稿与现10条支持保留。③仅此更正已完。新heartbeat提示已正式update/view及实TOML回读，固定截止仍21:47:23。下一R005白名单同步只收冻结R003预备/正式更正和根文件；R004 Word在写不收。
+
+20:55实质更新：v003已25712B、b546eb7e9afe6dfde8f8bc57f705ee6e283b60141000a408965d39921fffdac3落盘并根精确diff/expectedSHA通过，root-v003-final-source-acceptance.json为最终科学源采用。⑤R004仍active做Word，build_word.py及configure_builder.py已在自己目录，不读取/收在写Word；未有全页QA回执。R005曾在任何manifest/stage前因根两个JSON首行额外+号失败，正确去1字符后续完同检查点，实际不是undefined；失败原样/诊断修正如实留R005-prestage-failure-and-recovery.json，不重复旧receipt。R005后正常pushe83f4c07c94ad75b119041324dbf316197e4c5d6远端等，checkpoint_open=false。下一R006约21:07（或收终稿前后）。根Wordgate已加A4/边距/单+双栏检查，仍未对最终Word运行。只等现Word任务实回/检查，不扩科学。投稿前待办.md含10/20参考冲突及作者/元信息缺项，正文不塞审计话。
+
+21:07：Word候选651399B已存在且R004/local-cache/render-v1存在，但⑤仍actualactive136、无freeze/最终QA回执。根未读/未收在写Word；已一次提醒按21:04有限点冻真实当前进度和已看/未看页，再actualidle后只派必要排版续项，预留根最终全页检查与同步；总21:47:23不变。普通中文研究说明/正式总结准备稿已写，非关闭证明。下一R006可先同步已采科学v003/根说明，active Word不收。

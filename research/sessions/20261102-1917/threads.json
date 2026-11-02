@@ -24,7 +24,7 @@
       "threadId": "01a14756-8408-7732-8d29-3380fcaeb7bb",
       "cursor": "3e1edb6e-1082-4df0-a7b1-358e7b877471:33",
       "actual_status": "idle",
-      "task": "R003来源更正20:41:37已冻，待actual快照，勿重派",
+      "task": "R003来源更正正式已冻20:41:37；已根全文读，勿再补文献",
       "dispatched_at": "2026-11-02T19:24:00+08:00",
       "last_actual": "2026-11-02T20:47:41.096542+08:00"
     },
@@ -40,9 +40,9 @@
     {
       "role": "role5",
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:132",
-      "actual_status": "dispatched-await-actual",
-      "task": "R004 v003及Word20min必要25，21:04有限交付，不延总窗口",
+      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:134",
+      "actual_status": "active",
+      "task": "R004 v003已落且预期SHA通过，Word制作中，21:04有限检查点",
       "dispatched_at": "2026-11-02T19:24:00+08:00",
       "last_actual": "2026-11-02T20:47:41.096542+08:00"
     },

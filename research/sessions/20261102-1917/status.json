@@ -14,22 +14,22 @@
     "formal_view": true,
     "actual_config_readback": true
   },
-  "current_task": "⑤actualidle132后R004已派，v003三段契约+真实Word，最晚21:04交冻结或真实进度",
+  "current_task": "⑤R004仍actualactive，已提醒按21:04有限点冻真实Word/页清单，保留未完以预留根QA；不重复派",
   "git": {
-    "last_checkpoint": "R004",
-    "HEAD": "0c6d4eb5ce477a7547621b0e0db6a7f40fc946b1",
+    "last_checkpoint": "R005",
+    "HEAD": "e83f4c07c94ad75b119041324dbf316197e4c5d6",
     "pending_push": false,
     "remote_verified": true
   },
-  "checkpoint": "R005",
-  "checkpoint_started_at": "2026-11-02T20:52:13.158766+08:00",
+  "checkpoint": "R006",
+  "checkpoint_started_at": "2026-11-02T21:12:52.009274+08:00",
   "last_root_review": "2026-11-02T19:50:24+08:00",
   "manuscript": {
-    "version": "p06-engineering-session022-v002.md",
-    "bytes": 25778,
-    "sha256": "b3a86796c990bcb7d80ce74c7e343a6eb24ef2931581f5853652a9f3f3a60cde",
-    "root_full_read": true,
-    "final": false
+    "version": "p06-engineering-session022-v003.md",
+    "bytes": 25712,
+    "sha256": "b546eb7e9afe6dfde8f8bc57f705ee6e283b60141000a408965d39921fffdac3",
+    "root_exact_diff_accepted": true,
+    "final": true
   },
   "no_new_numeric_experiments": true,
   "reviewed_results": {
@@ -58,7 +58,10 @@
     "task": "role5/R004",
     "deadline": "2026-11-02T21:04:00+08:00",
     "expected_source_sha256": "b546eb7e9afe6dfde8f8bc57f705ee6e283b60141000a408965d39921fffdac3",
-    "Word_QA_passed": false
+    "Word_QA_passed": false,
+    "source_accepted": true,
+    "limited_checkpoint_observed": "2026-11-02T21:07:02+08:00",
+    "formal_completion_not_observed": true
   },
   "publication_gap": {
     "reference_requirement_conflict": true,

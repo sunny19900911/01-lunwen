@@ -58,7 +58,15 @@ with zipfile.ZipFile(a.docx) as z:
  core=E.fromstring(z.read('docProps/core.xml'))
  creators=core.findall('{http://purl.org/dc/elements/1.1/}creator')+core.findall('{http://schemas.openxmlformats.org/package/2006/metadata/core-properties}lastModifiedBy')
  assert all(not (x.text or '').strip() for x in creators),'Author metadata must stay blank until supplied by human'
- result={'source':str(a.source.resolve()),'source_sha256':sha(source_bytes),'docx':str(a.docx.resolve()),'docx_bytes':a.docx.stat().st_size,'docx_sha256':sha(a.docx.read_bytes()),'source_tables_matched':matches,'numeric_table_cells_checked':checked,'native_OMML_count':len(math),'native_fractions':len(fractions),'native_matrices':len(doc.findall('.//m:m',NS)),'source_figures_unchanged':source_images,'embedded_media':media,'hyperlinks':links,'author_metadata_empty':True,'visual_QA_separate_required':True}
+ sections=[]
+ for s in doc.findall('.//w:sectPr',NS):
+  size=s.find('w:pgSz',NS);marg=s.find('w:pgMar',NS);cols=s.find('w:cols',NS);grid=s.find('w:docGrid',NS)
+  assert size is not None and abs(int(size.get('{'+W+'}w'))-11906)<=10 and abs(int(size.get('{'+W+'}h'))-16838)<=10,'A4 page size required'
+  assert marg is not None
+  for k,expected in [('top',1531),('bottom',1134),('left',1134),('right',1134)]:assert abs(int(marg.get('{'+W+'}'+k))-expected)<=20,'Official-reference margins mismatch'
+  sections.append({'columns':int(cols.get('{'+W+'}num','1')) if cols is not None else 1,'column_gap_twips':cols.get('{'+W+'}space') if cols is not None else None,'grid_line_pitch_twips':grid.get('{'+W+'}linePitch') if grid is not None else None})
+ assert {1,2}<={s['columns'] for s in sections},'Single-column front matter and two-column body required'
+ result={'source':str(a.source.resolve()),'source_sha256':sha(source_bytes),'docx':str(a.docx.resolve()),'docx_bytes':a.docx.stat().st_size,'docx_sha256':sha(a.docx.read_bytes()),'source_tables_matched':matches,'numeric_table_cells_checked':checked,'native_OMML_count':len(math),'native_fractions':len(fractions),'native_matrices':len(doc.findall('.//m:m',NS)),'source_figures_unchanged':source_images,'embedded_media':media,'hyperlinks':links,'author_metadata_empty':True,'A4_and_official_reference_margins':True,'section_layouts':sections,'visual_QA_separate_required':True}
  assert not a.out.exists(),'Keep prior verification output'
  a.out.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  print(json.dumps({k:result[k] for k in ['docx_sha256','docx_bytes','numeric_table_cells_checked','native_OMML_count']},ensure_ascii=False))
