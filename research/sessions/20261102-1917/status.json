@@ -1,23 +1,25 @@
 {
   "session": "20261102-1917",
-  "phase": "R004-final-word-authoring",
+  "phase": "closed-budget",
   "start": "2026-11-02T19:17:23+08:00",
   "deadline": "2026-11-02T21:47:23+08:00",
   "final_writing_start": "2026-11-02T21:02:23+08:00",
-  "checkpoint_open": true,
+  "checkpoint_open": false,
   "no_new_scientific_dispatch": true,
   "source": "papers\\damping-output-boundaries\\manuscript\\jgjg-session011-v004.md",
   "source_sha256": "c30cbbccecc21be395ad9cf55de3f842f806cfea8372b72d180d240a3e532b7a",
   "automation": {
     "id": "p06-150",
-    "state": "ACTIVE",
+    "state": "DELETED",
     "formal_view": true,
-    "actual_config_readback": true
+    "actual_config_readback": true,
+    "formal_pause_verified": true,
+    "formal_delete_verified": true
   },
-  "current_task": "⑤R004仍actualactive，已提醒按21:04有限点冻真实Word/页清单，保留未完以预留根QA；不重复派",
+  "current_task": "Research stopped; immutable deliverables accepted; automation deleted; final normal sync receipt is authoritative.",
   "git": {
-    "last_checkpoint": "R005",
-    "HEAD": "e83f4c07c94ad75b119041324dbf316197e4c5d6",
+    "last_checkpoint": "R006",
+    "HEAD": "123fccf6aa0b87dcab6700884efec4ac923807ae",
     "pending_push": false,
     "remote_verified": true
   },
@@ -58,10 +60,14 @@
     "task": "role5/R004",
     "deadline": "2026-11-02T21:04:00+08:00",
     "expected_source_sha256": "b546eb7e9afe6dfde8f8bc57f705ee6e283b60141000a408965d39921fffdac3",
-    "Word_QA_passed": false,
+    "Word_QA_passed": true,
     "source_accepted": true,
     "limited_checkpoint_observed": "2026-11-02T21:07:02+08:00",
-    "formal_completion_not_observed": true
+    "formal_completion_not_observed": false,
+    "author_personal_QA_incomplete": true,
+    "root_independent_all_pages_reviewed": true,
+    "docx_sha256": "1b8063e1599c94a312eb96c29aa8cc50a3bb8bac8b2adce0b477269517492431",
+    "cosmetic_title_issue_retained": true
   },
   "publication_gap": {
     "reference_requirement_conflict": true,
@@ -69,5 +75,7 @@
     "web_suggestion": "not fewer than10",
     "official_template": "20 or more / more than20; journal fraction at least / more than3/4",
     "submission_compliance_claimed": false
-  }
+  },
+  "delivery_accepted_at": "2026-11-02T21:49:10.234022+08:00",
+  "closed_at": "2026-11-02T21:54:43.362817+08:00"
 }

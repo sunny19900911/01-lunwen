@@ -1,0 +1,31 @@
+{
+  "reviewed_at": "2026-11-02T21:40:34.402882+08:00",
+  "word_sha256": "1b8063e1599c94a312eb96c29aa8cc50a3bb8bac8b2adce0b477269517492431",
+  "word_bytes": 651399,
+  "pages_actually_viewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "root_independent_render": "root-word-review/local-cache/candidate1/render",
+  "identity_gate": "root-word-candidate1-identity.json",
+  "numeric_table_cells": 100,
+  "native_OMML": 43,
+  "data_tables": 5,
+  "original_figures": 3,
+  "scientific_or_formula_defects_found": 0,
+  "readable": true,
+  "visual_notes": [
+    "Title last line contains only two Chinese characters; cosmetic balance could improve, no clipping or loss of content.",
+    "Table 3 continues on page 5 with repeated headers; all rows readable.",
+    "Page 7 native K matrix and modal sum preserve all operands.",
+    "References continue onto page 9; no placeholder author information."
+  ],
+  "approval_scope": "Scientific review manuscript; final author freeze and exact same byte identity required before publication."
+}

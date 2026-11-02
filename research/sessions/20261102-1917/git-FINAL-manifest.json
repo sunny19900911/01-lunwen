@@ -1,0 +1,135 @@
+{
+  "checkpoint": "FINAL",
+  "message": "P06 session022: deliver reviewed engineering manuscript and close research window",
+  "files": [
+    {
+      "relative": "research/sessions/20261102-1917/status.json",
+      "sha256": "6c358ba07785980b2203e1864ca82586c7fa6673516f7ba070bbab4cca0112af"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/threads.json",
+      "sha256": "2acfa5ba04780f868bc8863f45395d312ce8b67916636c1ed04b0712a3e6c2fc"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/runs.md",
+      "sha256": "635cbd918aa62a5a9adb932e24a86a5d944304a8b81be8e374be7be4c250b729"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/next-task.md",
+      "sha256": "47399e157d55f36f60f53c442ed0c2397eab61ef311ba3da725cf7934c33afe7"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/final-summary.md",
+      "sha256": "ed0eae7857bb6e99a73c06d3f032c93cbdbd057980b14148cf4f8b082f15955b"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/rounds/FINAL.md",
+      "sha256": "cdb5fd01fe81c4e0007f3e60d9af518f51173c8aeb6ded9862a2b2e5db07d910"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/root-word-candidate-snapshot.json",
+      "sha256": "e15ab3c4ccfd214b88ba031364b8a4d1c6f7990f766b4387cbca550fbf673c9a"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/root-word-candidate1-identity.json",
+      "sha256": "e418f7644de19c9c657a23127be53a1b1c12c1f187b941f7bace2e6c66feb334"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/root-word-all-pages-review.json",
+      "sha256": "100191245b527c431ce354b9d6178e6475dbf940a1840862e36382c632457b5e"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/root-final-word-adoption.json",
+      "sha256": "a0acf91ce3ae023f34820aa6420b1f14a2237b28da67796e75de836c078e3755"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/prepare_final_delivery.py",
+      "sha256": "2b84ac49f15820f0058d03bf675aeda0d3d9664d31a61aff52b9bf4c02e5da1a"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/finalize_session.py",
+      "sha256": "a8065aa3fbbee6c5be2cc74e538f89f2002e30ce71d7937f81c10de46c00ebba"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/publish_final_delivery.py",
+      "sha256": "e1d152039c9333db9509fcd42ec23c95a8dfde7675a4dfaa3b3f5c30fa86ad0f"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/publish_checkpoint.py",
+      "sha256": "3dcfc7e9f7b23a67a73af1587ee0464e160b42b70e867522897aa4ea5aaa97a6"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/resume_R006_staged.py",
+      "sha256": "acd6fc0f2400f54eef15471f0d941050e6450b6570e2698c2c3052c0cb61ff13"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/R006-local-validation-recovery.json",
+      "sha256": "fb5a83e3eef6a7f22daec566d19a6850f5b00ba44329adee2e62792f04ee7499"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/git-R006-receipt.json",
+      "sha256": "427a698b388aa86b338a346b307fb8bc90bb21ecf3ba417e457242b107ae0d28"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/automation-pause-tool-receipt.json",
+      "sha256": "a6171e5ec902eda13af5b85aaa8df82602953c6d9beccef2c2b6be880230bd8d"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/automation-paused-actual-readback.json",
+      "sha256": "afe09d79b090b60d0e92d4be461ecb133611102dc338d4312535609e14fc880f"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/automation-delete-tool-receipt.json",
+      "sha256": "401d3986d038a981ee93600d8a96b282e6f11ac42683d3cac4ceec4ac8f07fdb"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/automation-deleted-actual-readback.json",
+      "sha256": "d39f7e1ea0fbab2f5a5f4adf3e5ff563ff0d2a8fcb8d5bdf7b80e817cfb0b028"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R004/freeze.json",
+      "sha256": "7695c3966ddf0ca61c49dfaf5fcca65e5211a86b5686681b803cfe0cc8495278"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R004/one-page.md",
+      "sha256": "37d5044f314d11a660b2659187f098db7b51dd13554454a7bb1500b56ace5cef"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R004/build_word.py",
+      "sha256": "34a771e2528577cf6236f5077a61d723ed8b78994e099bf39266764608a64e5d"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R004/configure_builder.py",
+      "sha256": "59d15e49a307f5f1e5cc2971fddb83730a57c5aeaec9b5f8d2c0c2a5f1514201"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R004/exact_v003.py",
+      "sha256": "a759849e3bbabda278a6520617d1f67f6dc324bd0a72100a31c86097c9b62613"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R004/freeze_progress.py",
+      "sha256": "6b53f54613dada6411eced9a75000b10648ddf813a161d3ce89543c89c0ff181"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R004/math_omml.py",
+      "sha256": "ad0c091401c059d2676b2c8451d78967f142b5ad4a17944f64ca0885e8c71f44"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R004/render_review.py",
+      "sha256": "fc84cd5f2430eed66bab7d51131ee95a8d578256a85307dbdbadacd9cc5d6baf"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-engineering-session022-论文审阅稿-v003.docx",
+      "sha256": "1b8063e1599c94a312eb96c29aa8cc50a3bb8bac8b2adce0b477269517492431"
+    }
+  ],
+  "checks": [
+    "Same author-frozen Word SHA as root immutable render; all9 pages actually viewed",
+    "Five editable tables100 numeric cells,43 native math objects,3 original figures and links verified",
+    "Final source exact three-paragraph contract accepted; no new science after freeze",
+    "Author finite-task overrun and incomplete personal visual QA preserved; root completed independent QA",
+    "Title cosmetic line balance retained and submission pending items disclosed",
+    "Formal pause,view,actual config readback,delete and absence verified; old three automations PAUSED",
+    "Explicit small-file whitelist; caches,diff,raw data,third-party works,old dirty files excluded"
+  ]
+}

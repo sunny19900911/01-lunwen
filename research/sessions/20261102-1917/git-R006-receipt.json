@@ -1,0 +1,39 @@
+{
+  "checkpoint": "R006",
+  "time_utc": "2026-11-02T13:17:34.626798+00:00",
+  "HEAD": "123fccf6aa0b87dcab6700884efec4ac923807ae",
+  "previous_HEAD": "e83f4c07c94ad75b119041324dbf316197e4c5d6",
+  "remote_HEAD": "123fccf6aa0b87dcab6700884efec4ac923807ae",
+  "remote_equals_local": true,
+  "pending_push": false,
+  "verified_blob_hashes": 12,
+  "staged_files": [
+    "papers/damping-output-boundaries/manuscript/p06-engineering-session022-v003.md",
+    "research/sessions/20261102-1917/check_final_p06_word.py",
+    "research/sessions/20261102-1917/checkpoint_R006.py",
+    "research/sessions/20261102-1917/final-summary-prepared-v001.md",
+    "research/sessions/20261102-1917/git-R006-manifest.json",
+    "research/sessions/20261102-1917/next-task.md",
+    "research/sessions/20261102-1917/roles/role5/R004/v003-identity.json",
+    "research/sessions/20261102-1917/root-v003-final-source-acceptance.json",
+    "research/sessions/20261102-1917/status.json",
+    "research/sessions/20261102-1917/threads.json",
+    "research/sessions/20261102-1917/投稿前待办.md",
+    "research/sessions/20261102-1917/普通中文研究说明.md"
+  ],
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "code": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/sunny19900911/01-lunwen.git\n   e83f4c0..123fccf  main -> main\n"
+    }
+  ],
+  "identity_fallback": true,
+  "excluded_local_file": {
+    "path": "research/sessions/20261102-1917/roles/role5/R004/v002-to-v003.diff",
+    "sha256": "c476158b072e6326938ffd6b6c48a365c0fcf732062d4ae158b94dea102fe7da",
+    "reason": "Standard unified-diff empty-context whitespace retained unchanged locally; source and exact-change contract are published"
+  },
+  "only_preexisting_staged_entries": "all verified as belonging to this R006 manifest"
+}

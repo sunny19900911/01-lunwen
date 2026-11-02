@@ -1,0 +1,16 @@
+{
+  "failure": "Publisher extension allowlist omitted .diff although explicit manifest includes the read and approved three-paragraph self-authored diff",
+  "stage": "before git add; index confirmed empty",
+  "repair": "Added UTF8-text .diff support only; path/scope/size/hash/blob/remote protections unchanged",
+  "manifest_unchanged": true,
+  "scientific_data_changed": false,
+  "credential_or_force_actions": false,
+  "publisher_sha256": "3dcfc7e9f7b23a67a73af1587ee0464e160b42b70e867522897aa4ea5aaa97a6",
+  "subsequent_whitespace_check": {
+    "failure": "Standard unified-diff blank context lines contain a single space; cached whitespace check rejected the diff.",
+    "repair": "Only the exact owned new diff path was unstaged with git restore --staged; frozen author bytes unchanged; remaining approved blob hashes checked before normal commit/push.",
+    "receipt": "git-R006-receipt.json",
+    "success_HEAD": "123fccf6aa0b87dcab6700884efec4ac923807ae",
+    "force_reset_or_other_index_changes": false
+  }
+}
