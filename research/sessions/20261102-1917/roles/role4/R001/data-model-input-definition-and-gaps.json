@@ -1,0 +1,58 @@
+{
+  "frozen_utc": "2026-11-02T11:31:55.463538+00:00",
+  "source_models": {
+    "B": {
+      "label": "baseline_label0, not zero-damping assertion",
+      "source_sha256": "c14e71ab0e1d244d3e13d72108ebf85cd6d603eef9a41992f979f35e23e3216d",
+      "source_bytes": 218138409
+    },
+    "M": {
+      "label": "modal_added_label3 reference, not physical device model",
+      "source_sha256": "c21073336ae48383a7e18375ebdcb63d5e9c3a0ca4bb83bb3d2d44af8b923d24",
+      "source_bytes": 619327468
+    },
+    "additional_damping_statement": "provided comparison described as +3 modal damping percentage points; actual full per-mode damping table not reconstructed here"
+  },
+  "comparison_identity": {
+    "input_all14_equal": true,
+    "all168_output_grids_equal": true,
+    "centers_mass_rigidity_equal": true,
+    "loadcase_settings_equal_excluding_GUID_notes": true,
+    "full_M_K_identity": "unconfirmed; same/near modal periods and CM table do not prove full matrices"
+  },
+  "unit": "native Story Forces VX/VY in kN; Times seconds; cached input PGA metadata350mm/s2=.35m/s2",
+  "wave_scope": {
+    "directional_cases": 14,
+    "wave_family_labels": [
+      "R1",
+      "RH4",
+      "SHW3",
+      "SHW4",
+      "SHW5",
+      "SHW6",
+      "SHW7"
+    ],
+    "directions": [
+      "X",
+      "Y"
+    ],
+    "independent_earthquake_event_count": "not established",
+    "XY_status": "two directional cases under each family label, not automatically independent earthquakes"
+  },
+  "output_definition": "native software Story Forces Bottom; exact inclusion of damping/link action, cut side and signed force convention incomplete; do not subtract device or rename isolated main-structure force",
+  "known_missing": [
+    "numeric per-case load scale factors and time scale factors not present in the selected source metadata",
+    "internal integration steps, separate input sampling step, detailed initial-state settings",
+    "full M/K/mass-all-DOF and complete damping state identity",
+    "raw event/station/component provenance for7labels",
+    "all tied baseline peak times audit; old source chose first saved peak"
+  ],
+  "new_reads": {
+    "large_excel": 0,
+    "response_npz": 0,
+    "input_arrays": 0,
+    "solver": 0,
+    "ODE": 0
+  },
+  "baseline_time_tie_rule": "existing previously selected first saved absolute peak, not all ties audited"
+}

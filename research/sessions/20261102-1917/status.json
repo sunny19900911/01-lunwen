@@ -1,6 +1,6 @@
 {
   "session": "20261102-1917",
-  "phase": "R001-review-new-engineering-table",
+  "phase": "R002-integrate-reviewed-mainline",
   "start": "2026-11-02T19:17:23+08:00",
   "deadline": "2026-11-02T21:47:23+08:00",
   "final_writing_start": "2026-11-02T21:02:23+08:00",
@@ -14,14 +14,27 @@
     "formal_view": true,
     "actual_config_readback": true
   },
-  "current_task": "②R002独核④已冻24行工程表；⑤R001新稿在写；①③⑥首轮完成",
+  "current_task": "⑤R002已正式派发并在途整合v002（12min必要15）；新数字②R002独审0must已采用",
   "git": {
-    "last_checkpoint": "R000",
-    "HEAD": "3a0118b4a535293e08b8de6cb00f7a73802aec0b",
+    "last_checkpoint": "R001",
+    "HEAD": "4b718ac251b683929de68a4cd0969c976c19adee",
     "pending_push": false,
     "remote_verified": true
   },
-  "checkpoint": "R001",
-  "checkpoint_started_at": "2026-11-02T19:42:27.528107+08:00",
-  "last_root_review": "2026-11-02T19:38:00+08:00"
+  "checkpoint": "R002",
+  "checkpoint_started_at": "2026-11-02T19:54:06.145759+08:00",
+  "last_root_review": "2026-11-02T19:50:24+08:00",
+  "manuscript": {
+    "version": "p06-engineering-session022-v001.md",
+    "sha256": "70c831f0a01b19476bc090d85f874468ecffcef5d612379e2c56d0a22bf96e24",
+    "root_full_read": true,
+    "final": false
+  },
+  "no_new_numeric_experiments": true,
+  "reviewed_results": {
+    "min_reduction_vs_max_reference_demand_different": 19,
+    "story_direction_groups": 24,
+    "audit_must": 0,
+    "audit_field_checks": 6415
+  }
 }

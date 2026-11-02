@@ -1,0 +1,54 @@
+{
+  "actual_start_utc": "2026-11-02T11:26:57+00:00",
+  "primary12min_deadline_utc": "2026-11-02T11:38:57+00:00",
+  "hard15min_deadline_utc": "2026-11-02T11:41:57+00:00",
+  "frozen_utc": "2026-11-02T11:31:55.459007+00:00",
+  "inputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R001-d-168.csv",
+      "sha256": "a97a9995809af82858c274c87d1ff15164e54ab858e65fd195c7cf2a53e99d6b",
+      "bytes": 32008
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-all14-main-axis-168.csv",
+      "sha256": "ff25735eb20b9592323fbaf0640e3e85f86b4610af8a2ebd5be37e870494b081",
+      "bytes": 66167
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native_paired_validation.json",
+      "sha256": "bae55ee8ef608c48ff6c21bd62079b0d9cbf1fda1464f740dbd55906ec45e904",
+      "bytes": 34012
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-input-freeze.json",
+      "sha256": "d5613bd6af91a9e1bb273945e5e9d6a255d8c56a0578a2d183bdc6358446d00d",
+      "bytes": 2317
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R002-result.json",
+      "sha256": "2eacdef61f980a39f42cdfc937db51f89c3b6e5c3e3cf7d1c8f4955002d6585c",
+      "bytes": 25212
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R001-delivery-manifest.json",
+      "sha256": "808d8a46ee8344fcfa01ece79b39b8404f787b0ddb1220ecde5a18c3a05dc7a3",
+      "bytes": 1321
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role2\\R001-number-review.md",
+      "sha256": "a8c4e7a12b5c37c3443e6906c0b0b792c078a8dc8dcb21de233a05e4bf56a95d",
+      "bytes": 1776
+    }
+  ],
+  "code_sha256": "04b0cf932c6be5ef8d2120940dec730cb1206f7f18f832a6bf1b09d9bfdab01b",
+  "scope": "P06 native paired Bottom peak review only, no large workbook/NPZ/ODE read",
+  "grouping": "12stories by X/Y, seven directional cases each, 24rows; 14cases are 7wave-label families times2directions, not14independent events",
+  "min_reduction": "argmin same-input r_peak over seven cases in same direction/story; retain its paired PB/PM/d/tB/tM/source keys",
+  "reference_demand": "argmax PM over seven cases; retain its own paired PB/PM/r/d/tB/tM/source keys, distinct from min-r record",
+  "envelope": "maxPB and maxPM are independent demand envelopes; ratio1-maxPM/maxPB separately labelled, never called same-input pair",
+  "mean": "within each case, equal arithmetic mean of12 story reduction percentages, not total-shear reduction",
+  "tie": "retain all exact control-case ties in *_all_ties fields, selected first lexicographic case; no engineering threshold introduced",
+  "gap_tolerance_pp": 1e-10,
+  "model_identity": "M/K not certified by equal periods; only prior input/sample/settings/mass-center facts reused",
+  "examples": "SHW7X minimum-story versus bottom/mean; X Story5 min-r versus reference-demand keys"
+}

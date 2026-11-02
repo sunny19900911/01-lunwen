@@ -1,0 +1,63 @@
+{
+  "task": "session022-role2-R002",
+  "actual_start": "2026-11-02T19:38:14.336228+08:00",
+  "actual_freeze": "2026-11-02T19:44:45.701228+08:00",
+  "elapsed_seconds": 391.365,
+  "within12min": true,
+  "within15min": true,
+  "must": 0,
+  "reviewed_main_rows": 24,
+  "reviewed_screening_rows": 14,
+  "reviewed_trace_rows": 168,
+  "reviewed_Markdown_rows": 24,
+  "minr_vs_maxPM_differences": 19,
+  "maxPB_vs_maxPM_differences": 3,
+  "field_checks": 6415,
+  "number_checks_including_display": 3625,
+  "source_pairing_errors": 0,
+  "version": "original and additive v002, original columns unchanged",
+  "envelope_ratio": "backend/optional appendix diagnostic only, excluded from main objective",
+  "new_ODE": 0,
+  "raw_trajectories_or_Excel_read": false,
+  "producer_scripts_executed": false,
+  "producer_or_author_files_modified": false,
+  "status_after_delivery": "idle",
+  "unresolved": [
+    "all tied time-peak anchors",
+    "complete model identity/damping tables",
+    "independent event provenance",
+    "physical-device causal pairing"
+  ],
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role2\\R002\\compare_frozen_engineering_tables.py",
+      "bytes": 11725,
+      "sha256": "09e2b9143099ad44568fc24c2a8573ea4207c4f47b242e48a999b96d8cde9434"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role2\\R002\\freeze_delivery.py",
+      "bytes": 2813,
+      "sha256": "7a6645818dd600c82818b18854f22352ccd4ba4dae1ac1678854233222461865"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role2\\R002\\frozen-table-comparison.json",
+      "bytes": 327106,
+      "sha256": "155293f21d5f6a5d37e477babac5f38dd3fd3b3395d3a86b349086da3c05e674"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role2\\R002\\independent-selections-before-comparison.json",
+      "bytes": 214491,
+      "sha256": "adca8eb5e59198f979baa674b34d8caf6ea233e16c0f1af89a81d7de2de06291"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role2\\R002\\one-page-engineering-table-audit.md",
+      "bytes": 5449,
+      "sha256": "ea3dd0293faa640e4de70d3091c4b7e9cedb5af48efab465331a6b040bcf1b9f"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role2\\R002\\select_independently.py",
+      "bytes": 3192,
+      "sha256": "1d17b5643bae1ac4f4dcfecdff5d60dce5c911432bd07ad1aa3b1630b2346f35"
+    }
+  ]
+}

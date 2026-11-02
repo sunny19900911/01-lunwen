@@ -1,0 +1,40 @@
+{
+  "actual_freeze_utc": "2026-11-02T11:37:11.289492+00:00",
+  "actual_freeze_plus08": "2026-11-02T19:37:11.289492+08:00",
+  "elapsed_seconds": 614.289492,
+  "within12min": true,
+  "within15min": true,
+  "parent_manifest": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role4\\R001\\delivery-manifest.json",
+    "sha256": "7717f21e0cf552ff40d92931d46cd3756f2a3355f7fb25fb8b92c5d18103f535"
+  },
+  "additive_files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role4\\R001\\add_full_control_keys_v002.py",
+      "bytes": 7395,
+      "sha256": "7f60be51c31b0ba42ffcd0c9633a3443cec6202fb978a313a884e373544f2fb2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role4\\R001\\engineering-review-by-story-direction-24-v002.csv",
+      "bytes": 26594,
+      "sha256": "8d02bcb99ca0bff6134566f34d0f1bd5c4d51054ed79a2f85d9ec099f98c7e81"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role4\\R001\\paired-record-evidence-168.csv",
+      "bytes": 187166,
+      "sha256": "61a351f3931dfef9fc06519ef1dffd0a1e369525f464f281d93a4834e1b7738a"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role4\\R001\\complete-control-and-trace-addendum-v002.json",
+      "bytes": 1459,
+      "sha256": "a2d8dc7bafeaff9e6103734be9ea52fb6f3dba18a18150f230e46cd45481be96"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role4\\R001\\complete-control-keys-addendum-v002.md",
+      "bytes": 992,
+      "sha256": "c68274e29d4b94a55fb2cfd43604617bd7bb5ad851bdd141654059b5fc25a7ad"
+    }
+  ],
+  "all_old_bytes_preserved": true,
+  "independent_audit_pending": true
+}

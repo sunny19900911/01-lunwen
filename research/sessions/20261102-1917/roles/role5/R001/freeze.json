@@ -1,0 +1,60 @@
+{
+  "status": "frozen-idle",
+  "actual_start": "2026-11-02T19:29:15+08:00",
+  "first_substantive_draft_written": "2026-11-02T19:40:00+08:00",
+  "ten_minute_draft_target_met": false,
+  "draft_delay_seconds": 45,
+  "frozen_at": "2026-11-02T19:42:32+08:00",
+  "elapsed_seconds": 797.691359,
+  "task_budget_minutes": 12,
+  "global_window_unchanged": true,
+  "source_sha256": "c30cbbccecc21be395ad9cf55de3f842f806cfea8372b72d180d240a3e532b7a",
+  "manuscript": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\p06-engineering-session022-v001.md",
+  "manuscript_bytes": 23933,
+  "manuscript_sha256": "70c831f0a01b19476bc090d85f874468ecffcef5d612379e2c56d0a22bf96e24",
+  "appendix": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R001\\descriptive-three-model-comparison.md",
+  "appendix_sha256": "bf78a1512e8cd775ef42294acda17733621e8326c6f95fa30f776d2d32385182",
+  "main_tables": 6,
+  "appendix_tables": 1,
+  "all_seven_original_tables_exact": true,
+  "figures": 3,
+  "figure_paths_unchanged": true,
+  "old_decimal_values_missing_from_manuscript_plus_appendix": [],
+  "local_links": [
+    {
+      "label": "三模型峰值的补充对照",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R001\\descriptive-three-model-comparison.md",
+      "exists": true
+    },
+    {
+      "label": "图1 X/Y各层多输入减幅范围",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-story-range-median.png",
+      "exists": true
+    },
+    {
+      "label": "图2 原峰时评价与完整峰值减幅对照",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-2020\\roles\\role4\\R002-peak-evaluation-scatter.png",
+      "exists": true
+    },
+    {
+      "label": "图3 第8层剪力与装置水平合力",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261020-1844\\roles\\role4\\R008-Story8-QT-QD-two-cases.png",
+      "exists": true
+    },
+    {
+      "label": "参数补充",
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261021-0737\\roles\\role5\\R001-methods-supplement.md",
+      "exists": true
+    }
+  ],
+  "new_numeric_results_added": false,
+  "references_retained": 7,
+  "Word_created": false,
+  "marker_executed": false,
+  "pending": [
+    "New role4 table must pass role2 before use",
+    "Role3 new literature not yet integrated; original seven retained",
+    "Complete ground-motion provenance/scaling, save grid and model matching remain to be clarified",
+    "Later Word task needs official template inspection and native-math checks"
+  ]
+}

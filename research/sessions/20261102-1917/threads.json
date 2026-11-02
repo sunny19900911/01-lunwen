@@ -14,8 +14,8 @@
       "role": "role2",
       "threadId": "01a14756-7fe0-75f3-8671-bcd59e413052",
       "cursor": "11a056de-2e65-48d9-90d8-2d3233b00402:107",
-      "actual_status": "dispatched-await-actual",
-      "task": "R002独核24行/新控制记录统计，12min必要15",
+      "actual_status": "frozen-await-actual",
+      "task": "R00219:44:45冻结，新表独审0must，完成待必要终审",
       "dispatched_at": "2026-11-02T19:24:00+08:00",
       "last_actual": "2026-11-02T19:31:08+08:00"
     },
@@ -40,9 +40,9 @@
     {
       "role": "role5",
       "threadId": "01a14756-8bd0-7dc2-8362-fc1eab28af64",
-      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:115",
-      "actual_status": "active",
-      "task": "R001新工程v001在写，未冻勿读稿",
+      "cursor": "824ab043-4970-4d4a-8fa8-7ed81ac611bc:119",
+      "actual_status": "dispatched-await-actual",
+      "task": "R00212min必要15整合已审新表/文献/范围为v002，19:47附近正式派",
       "dispatched_at": "2026-11-02T19:24:00+08:00",
       "last_actual": "2026-11-02T19:31:08+08:00"
     },

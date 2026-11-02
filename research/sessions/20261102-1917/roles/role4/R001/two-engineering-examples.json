@@ -1,0 +1,38 @@
+[
+  {
+    "example": "SHW7X_bottom_mean_vs_local_min",
+    "Case": "SHW7X",
+    "Story": "Story7",
+    "PB_kN": 8481.830091364805,
+    "PM_kN": 7421.399510402021,
+    "r_percent": 12.502379433919442,
+    "d_pp": 0.38968583639384086,
+    "tB_s": 38.12,
+    "tM_s": 38.1,
+    "bottom_r_percent": 25.097211346906445,
+    "mean_r_percent": 20.602348145069143
+  },
+  {
+    "example": "X_Story5_two_distinct_control_keys",
+    "Axis": "X",
+    "Story": "Story5",
+    "minimum_reduction": {
+      "Case": "SHW3X",
+      "PB_kN": 8691.637986375608,
+      "PM_kN": 8096.1503411165795,
+      "r_percent": 6.851270683298971,
+      "d_pp": 0.13327679109180357,
+      "tB_s": 22.92,
+      "tM_s": 22.94
+    },
+    "reference_demand": {
+      "Case": "SHW4X",
+      "PB_kN": 10178.091451838196,
+      "PM_kN": 9027.745083929776,
+      "r_percent": 11.302181488069296,
+      "d_pp": 0.3021386042102909,
+      "tB_s": 29.94,
+      "tM_s": 29.92
+    }
+  }
+]
