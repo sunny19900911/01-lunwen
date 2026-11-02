@@ -1,0 +1,46 @@
+{
+  "session": "20261102-1917",
+  "role": 6,
+  "task": "R002",
+  "status": "frozen-final-engineering-reader-review",
+  "actual_start": "2026-11-02T20:04:32+08:00",
+  "start_source": "read_thread startedAt1793621072",
+  "actual_freeze": "2026-11-02T20:13:11.421281+08:00",
+  "elapsed_seconds": 519.421281,
+  "primary_limit_seconds": 480,
+  "within8minutes": false,
+  "hard_limit_seconds": 600,
+  "fixed_session_deadline": "2026-11-02T21:47:23+08:00",
+  "must": 0,
+  "should": 2,
+  "optional": 1,
+  "read_scope": "one complete read of237line manuscript and130line companion; input SHA verified before read and again at freeze",
+  "engineering_result": "dual-control inputs traceable to corresponding paired peaks/times/d; six-step use executable; demand meaning fixed toreference model; no automatic danger ranking or damper causal claim",
+  "replacement_scope": "step3 specify min-reduction control;step5 positive curve-inspection instructions without redundant warning;optional conclusion2 condensation",
+  "no_new_science_or_data": true,
+  "no_manuscript_edits": true,
+  "no_Git_or_search_or_solver": true,
+  "validation": "all3replacement anchors found; sourcebytes/SHA unchanged; review whitespace clean; no numeric re-evaluation or criterion redesign",
+  "inputs": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/p06-engineering-session022-v002.md",
+      "bytes": 25778,
+      "lines": 237,
+      "sha256": "b3a86796c990bcb7d80ce74c7e343a6eb24ef2931581f5853652a9f3f3a60cde",
+      "unchanged": true
+    },
+    {
+      "path": "research/sessions/20261102-1917/roles/role5/R002/engineering-data-and-full-tables.md",
+      "bytes": 9195,
+      "lines": 130,
+      "sha256": "e899a213c57aab5d9e7dfbdac3b777d205d9858c8cfdc32f073cce1fc7ed1cf3",
+      "unchanged": true
+    }
+  ],
+  "files": {
+    "final-reader-review.md": {
+      "bytes": 4047,
+      "sha256": "09e4e68d6cf51ed2b9efec48ea176bd508369d46e7d0592f47eaac3d48ea05e3"
+    }
+  }
+}

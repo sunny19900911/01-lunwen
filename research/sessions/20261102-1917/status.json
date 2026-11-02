@@ -1,6 +1,6 @@
 {
   "session": "20261102-1917",
-  "phase": "R003-final-content-review-and-word-preparation",
+  "phase": "final-reviews-passed-await-word-author-preparation",
   "start": "2026-11-02T19:17:23+08:00",
   "deadline": "2026-11-02T21:47:23+08:00",
   "final_writing_start": "2026-11-02T21:02:23+08:00",
@@ -14,15 +14,15 @@
     "formal_view": true,
     "actual_config_readback": true
   },
-  "current_task": "v002已根全文读；②③⑥各一次8min必要10终审，⑤R003仅8minWord预备不authoring",
+  "current_task": "三终审已根全文读且0must；仅采用⑥3处文字，等⑤R003预备actualidle后派有限v003/Word",
   "git": {
-    "last_checkpoint": "R002",
-    "HEAD": "57060eebc7dff6ca2fe8adf8892ba7c3c9fcbc24",
+    "last_checkpoint": "R003",
+    "HEAD": "45e7dfd2f1edec33bc4ec20da59a7792e245ea9f",
     "pending_push": false,
     "remote_verified": true
   },
-  "checkpoint": "R003",
-  "checkpoint_started_at": "2026-11-02T20:08:28.394432+08:00",
+  "checkpoint": "R004",
+  "checkpoint_started_at": "2026-11-02T20:24:57.078220+08:00",
   "last_root_review": "2026-11-02T19:50:24+08:00",
   "manuscript": {
     "version": "p06-engineering-session022-v002.md",
@@ -37,5 +37,21 @@
     "story_direction_groups": 24,
     "audit_must": 0,
     "audit_field_checks": 6415
+  },
+  "final_reviews": {
+    "correctness": {
+      "must": 0,
+      "should": 0
+    },
+    "references": {
+      "must": 0,
+      "should": 0
+    },
+    "engineering": {
+      "must": 0,
+      "should": 2,
+      "optional": 1
+    },
+    "adoption": "final-review-adoption-v001.md"
   }
 }

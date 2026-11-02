@@ -1,0 +1,86 @@
+{
+  "checkpoint": "R004",
+  "message": "P06 session022: complete correctness, source and engineering final reviews",
+  "files": [
+    {
+      "relative": "research/sessions/20261102-1917/status.json",
+      "sha256": "40855ac9541a594bdfb990a4563df30539b82713609aec6b2ec56950a82bd263"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/threads.json",
+      "sha256": "edaf40d97c3d96fdc20199f3266efaaffed0b89b6fbef251b4bb153c347fe2ca"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/runs.md",
+      "sha256": "9f47e3246317310f3fd527ba1da5890f57a8a99f58c5f2294085ddf4b9b008a6"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/next-task.md",
+      "sha256": "3a372e6ec464f87215fbb519b93f67fdbe3cc3d25f64d66ad8bc4bb0023a1435"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/final-review-adoption-v001.md",
+      "sha256": "c4cfc8e8493a7a6f1cd48dc674619c3ceb2234a33aefd21bdca0b3a53a78a943"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/check_final_p06_word.py",
+      "sha256": "1bcab337e7ede57e79c0bad8cfac15eab57f3bcbbc5d6b790e13f977a8fd2469"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/checkpoint_R004.py",
+      "sha256": "ccba66e0416d140b435065bcee98bfe336e2cf08940e7602fbd85d8f73ef68cd"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role3/R002/final-reference-and-bilingual-audit.md",
+      "sha256": "83b05c22b0d36f890f9cacd972d1464438949470813978e4c7560fcc6a6014ed"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role3/R002/checks.json",
+      "sha256": "1efaee9bbf1c0fc31fb01b58de51079bd1f1bb4617c32bf8b7ed60c1af2db631"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role3/R002/freeze.json",
+      "sha256": "682cff4efcb1a0f5c3f5ed6174f1025d72796d176944ee2b3425942a8cd55841"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role6/R002/final-reader-review.md",
+      "sha256": "09e4e68d6cf51ed2b9efec48ea176bd508369d46e7d0592f47eaac3d48ea05e3"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role6/R002/freeze.json",
+      "sha256": "c11c6ae959169c588143b76be761845137c1f8620530694565b31871f1a1f20f"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role2/R003/delivery-manifest.json",
+      "sha256": "ab57036446ac47de66ea7392be65f1fc4cee31cda40cf477023bb95c4e436b12"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role2/R003/check_final_text_tables.py",
+      "sha256": "c954b26414cd02c3fc78713c654c923b2edd48a5a6efd01da0b7e2b76afd1f03"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role2/R003/final-content-review.md",
+      "sha256": "97a105ed0e2b09d72c141caca8556f68f855019a428877ddac6e34f18a5ed74d"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role2/R003/finite-text-table-checks.json",
+      "sha256": "214e3d4c1a988d65a7f33452583b05221a02bfffa2bec2810b677dc1b77b9106"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role2/R003/freeze_delivery.py",
+      "sha256": "038815d77351353ec3875f26c91ef815f4a3ba826fec8030fe4de09efdae45d4"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role2/R003/input-freeze.json",
+      "sha256": "56e890aa062a20d5a763c1a5ffa68d91abe359e85257c0d7a63c02106ad986a2"
+    }
+  ],
+  "checks": [
+    "Root fully read all three formal reviews",
+    "All three reviews zero must changes; adopt only three wording replacements from engineering review",
+    "502 displayed numeric fields matched in final content check",
+    "Ten references and bilingual scope verified with primary source package",
+    "Word identity gate prepared and syntax checked only, not yet run against a Word document",
+    "Active sole-author Word-preparation files excluded; no DOCX or QA completion claimed"
+  ]
+}

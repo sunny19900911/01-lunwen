@@ -11,3 +11,5 @@
 19:47正式②R002报告/manifest已根全文读采用：新19/24、6415字段0must，见root-R002-new-table-adoption.md。⑤actualidle119后已派唯一R00212min必要15整合v002/新表/10引用/资料说明，无Word/marker。现在no_new_numeric_experiments=true，其他角idle不填实验。v002冻后根完整读/diff；只一次②正确性③来源⑥工程措辞终审，然后⑤唯一Word作者。
 
 20:04—20:06更新：v002已20:00:23冻25778B SHAb3a86796…60cde，根已完整读正文/工程附表/变化说明。已actualidle后正式派②R003正确性、③R002来源、⑥R002工程三项终审8min必要10；⑤actualidle125后R0038min仅Word预备/官方模板只读核，当前无DOCX/marker。科学生产和新科学派工均停，保留必要终审/改稿/Word。三审核冻后根读裁决，作者idle后一次有限改稿，接真正Word制作。不得因no_new_scientific_dispatch标志拒绝已授权必要终稿/QA，不扩科研。下一GitR003约20:09收已冻v002/小稿件，不收在写脚本；R002已核57060eebc7dff6ca2fe8adf8892ba7c3c9fcbc24。
+
+20:14最新：②R003/③R002/⑥R002正式终审全到，根完整读报告/清单，三者0must；根采纳⑥两should和一optional的精确三段替换，见final-review-adoption-v001.md。②502显示数值通过，③10参考顺序/支持/双语通过。⑥实际519.42s超8min39.42秒但在允许10min内，已正式纠正先报用词。⑤R00320:06:28进入active预备，20:13快照仍无输出，勿重复派；等actualidle收环境/脚本，再唯一下一项v003精确3段替换及Word制作，任何delay真实记录总截止不变。R003已push45e7dfd2f1edec33bc4ec20da59a7792e245ea9f核远端，下一R004约20:23。无新科学。

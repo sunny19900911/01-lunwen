@@ -1,0 +1,25 @@
+{
+  "session": "20261102-1917",
+  "role": 3,
+  "round": "R002",
+  "start_actual": "2026-11-02T20:05:01+08:00",
+  "primary_deadline": "2026-11-02T20:13:01+08:00",
+  "frozen_actual": "2026-11-02T20:08:38.867056+08:00",
+  "must": 0,
+  "should": 0,
+  "optional": 0,
+  "files": [
+    {
+      "path": "final-reference-and-bilingual-audit.md",
+      "bytes": 6145,
+      "sha256": "83b05c22b0d36f890f9cacd972d1464438949470813978e4c7560fcc6a6014ed"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 1764,
+      "sha256": "1efaee9bbf1c0fc31fb01b58de51079bd1f1bb4617c32bf8b7ed60c1af2db631"
+    }
+  ],
+  "author_files_changed": false,
+  "scope": "single final content citation and bilingual abstract review, no new science or Word layout certification"
+}
