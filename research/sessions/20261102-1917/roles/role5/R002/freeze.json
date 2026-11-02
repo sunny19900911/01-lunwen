@@ -1,0 +1,39 @@
+{
+  "status": "frozen-idle",
+  "actual_start": "2026-11-02T19:48:56+08:00",
+  "first_substantive_v002": "2026-11-02T19:55:47+08:00",
+  "frozen_at": "2026-11-02T20:00:23+08:00",
+  "elapsed_seconds": 687.9572,
+  "within_12_minutes": true,
+  "within_15_minutes": true,
+  "global_deadline_unchanged": "2026-11-02T21:47:23+08:00",
+  "outputs": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\p06-engineering-session022-v002.md",
+      "bytes": 25778,
+      "sha256": "b3a86796c990bcb7d80ce74c7e343a6eb24ef2931581f5853652a9f3f3a60cde"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R002\\engineering-data-and-full-tables.md",
+      "bytes": 9195,
+      "sha256": "e899a213c57aab5d9e7dfbdac3b777d205d9858c8cfdc32f073cce1fc7ed1cf3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261102-1917\\roles\\role5\\R002\\v001-to-v002.diff",
+      "bytes": 27540,
+      "sha256": "8bc221a87fb338409f6c42de7b811b04c3a4c291024624bff7dc6d1bce8d8201"
+    }
+  ],
+  "source_v001_sha256": "70c831f0a01b19476bc090d85f874468ecffcef5d612379e2c56d0a22bf96e24",
+  "source_table_sha256": "8d02bcb99ca0bff6134566f34d0f1bd5c4d51054ed79a2f85d9ec099f98c7e81",
+  "source_evidence_sha256": "61a351f3931dfef9fc06519ef1dffd0a1e369525f464f281d93a4834e1b7738a",
+  "source_metadata_sha256": "4ece33fe2e47f09cf83e0541fcbd9f6ca3b3a710bccb9fb68773123c1a9e9651",
+  "QA": "QA.json",
+  "Word_created": false,
+  "marker_executed": false,
+  "pending": [
+    "Root correctness/source/engineering final review",
+    "Author and affiliation information supplied by human",
+    "Separate Word task after scientific adoption; official template remains unrendered"
+  ]
+}

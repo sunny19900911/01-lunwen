@@ -1,0 +1,66 @@
+{
+  "checkpoint": "R003",
+  "message": "P06 session022: integrate reviewed engineering records into complete draft",
+  "files": [
+    {
+      "relative": "research/sessions/20261102-1917/status.json",
+      "sha256": "2b693e2c98fd2eb230b2ec516cb814658af7bf958731505ae61646acc7c75bcf"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/threads.json",
+      "sha256": "edaf40d97c3d96fdc20199f3266efaaffed0b89b6fbef251b4bb153c347fe2ca"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/runs.md",
+      "sha256": "9f47e3246317310f3fd527ba1da5890f57a8a99f58c5f2294085ddf4b9b008a6"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/next-task.md",
+      "sha256": "e0a1c5eb1091c4440468e31423ca1baaaab8fdf2b9b884a19b0e40e3a1ea9bc3"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/rounds/R002.md",
+      "sha256": "8c144fa8698b6b17527a115feaf526dab97566dd33720ff63e01f65f4c0dd1fc"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/root-v002-editorial-review.md",
+      "sha256": "bf35bee36c351f6d32ffc6968e5f264d1179e5737cba25db9ed35fe5932fdb78"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/checkpoint_R003.py",
+      "sha256": "09356f5fb99fc285d786c32017ba9f4fa1ce94f89448bca1a2d4578a610a0711"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R002/freeze.json",
+      "sha256": "80c8e56b69e5b209c3525da35d5c5d268ac55ffb3e4d18f37986078b1db362db"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R002/changes-and-sources.md",
+      "sha256": "cff9f75bce6e6f2132883199e4cb45c0edaff080954830c96688af251a9ffc37"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R002/engineering-data-and-full-tables.md",
+      "sha256": "e899a213c57aab5d9e7dfbdac3b777d205d9858c8cfdc32f073cce1fc7ed1cf3"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R002/QA.json",
+      "sha256": "fc9c87174da4ca953be31aa07fa31f28890ae1c7d0d4058950b55aaac5a1dfab"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role5/R002/build-report.json",
+      "sha256": "b105db8fa0d2d912c7fe33958c5e6b71f2cdfc621b198eb70f32a32ca9b97e38"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-engineering-session022-v002.md",
+      "sha256": "b3a86796c990bcb7d80ce74c7e343a6eb24ef2931581f5853652a9f3f3a60cde"
+    }
+  ],
+  "checks": [
+    "Root full read v002 and supplementary engineering table",
+    "New numeric content already independently reviewed in role2 R002",
+    "Eight representative records and 24 full groups use same-case paired peaks",
+    "Three source-verified neighbours integrated, ten references with actual text use",
+    "Final content/source/wording reviews in progress, version is candidate not delivered Word",
+    "Active review and Word-preparation files deliberately excluded"
+  ]
+}
