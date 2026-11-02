@@ -1,0 +1,77 @@
+{
+  "task": "session022-role1-R001",
+  "purpose": "minimal extension of existing per-story multi-input review, not new performance index or design optimization",
+  "scope": {
+    "comparison": "existing paired baselineB versus referenceM, separately byX/Y input set",
+    "demand_model": "referenceM explicitly selected for maximum absolute shear demand; not maximum across heterogeneous models",
+    "raw_and_old_files": "read only",
+    "native_output": "Story Forces Bottom as exported; no damper subtraction or subject-body force reconstruction"
+  },
+  "records": {
+    "grain": [
+      "Story",
+      "Direction",
+      "review_purpose",
+      "selected_input"
+    ],
+    "improvement_control": "all argmin_c(1-PM_sc/PB_sc),PB>0 within same direction and paired input set",
+    "demand_control": "all argmax_c PM_sc within same set",
+    "paired_columns": "PB,PM,tB,tM,A,d,r all from the selected same Story/Direction/input",
+    "not_pairwise": "never substitute maxPB from another input or maxPM into the minimum-reduction record",
+    "ties": "retain all tied inputs or predeclare listing rule with tie flags",
+    "same_input_both_purposes": "may merge display but preserve both purpose flags"
+  },
+  "metrics_existing_only": {
+    "r_fraction": "1-PM/PB",
+    "r_percent": "100*r_fraction",
+    "A": "abs(VM at this record tB)",
+    "d_fraction": "(PM-A)/PB>=0 on common time set",
+    "d_percentage_points": "100*d_fraction",
+    "identity": "r_peak=r_at-d within same record",
+    "zeroPB": "relative metrics undefined, retain absolute peaks and flag",
+    "time_meaning": "tB/tM are each model own saved absolute peak; no same-time force claim",
+    "d_not": "phase angle, damper contribution or peak-time shift divided by period"
+  },
+  "minimal_print_header": [
+    "楼层",
+    "方向",
+    "复核目的",
+    "控制输入",
+    "PB/kN",
+    "PM/kN",
+    "r_peak/%",
+    "tB→tM/s",
+    "d/百分点",
+    "需查看内容"
+  ],
+  "csv_header_file": "review-table-header.csv,header-only requested schema, no data rows",
+  "four_step_use": [
+    "verify pair/units/grid; retain complete paired peaks and original directional ranges",
+    "select both minimum-improvement and maximum-reference-demand records at every floor/direction",
+    "inspect each selected input own control windows; compare with same-input bottom and arithmetic layer mean",
+    "use demand to locate further checks, then existing capacity/combined-force/drift checks separately"
+  ],
+  "engineering_objections": {
+    "min_reduction": "relative improvement only, not highest remaining demand or most dangerous floor",
+    "max_PM": "largest chosen-model software shear demand, not capacity utilization or structural danger rank",
+    "capacity": "no new capacity/demand ratio without section/combined-force evidence",
+    "unpaired_models": "two-record selection cannot restore causal inference when model/input pairing is incomplete",
+    "no_threshold_or_score": "no new acceptance threshold, composite score, damper layout or prioritization optimization"
+  },
+  "existing_manuscript_example": {
+    "source": "P06 section3, same SHW7X input",
+    "Story7_reduction_percent": 12.5024,
+    "bottom_reduction_percent": 25.0972,
+    "layer_arithmetic_mean_percent": 20.6023,
+    "status": "quoted existing manuscript values, not recomputed or new evidence",
+    "interpretation": "bottom/average omission of limited local improvement; not proof of maximum absolute demand or capacity-critical Story7"
+  },
+  "role6_critique": "Received during current task; selectedM definition, same-input rows, capacity separation and causal-pairing limit incorporated.",
+  "pending": [
+    "role4 selection of actual maximum-demand controlling inputs from frozen168-record small table",
+    "role2 independent check of new table numbers before manuscript integration",
+    "role2/role6 review of method and engineering wording"
+  ],
+  "new_numerical_metrics_or_responses": false,
+  "author_paragraph": "included in one-page method note; role5 alone edits manuscript"
+}

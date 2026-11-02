@@ -1,0 +1,66 @@
+{
+  "session": "20261102-1917",
+  "role": 3,
+  "round": "R001",
+  "start_actual": "2026-11-02T19:27:06+08:00",
+  "primary_deadline": "2026-11-02T19:39:06+08:00",
+  "extension_deadline_if_needed": "2026-11-02T19:42:06+08:00",
+  "frozen_actual": "2026-11-02T19:36:58.467236+08:00",
+  "elapsed_seconds": 592.467236,
+  "extension_used": false,
+  "inputs": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/jgjg-session011-v004.md",
+      "bytes": 22835,
+      "sha256": "c30cbbccecc21be395ad9cf55de3f842f806cfea8372b72d180d240a3e532b7a"
+    },
+    {
+      "path": "papers/damping-output-boundaries/research/roles/literature/liu2004-followup.md",
+      "bytes": 11673,
+      "sha256": "00c4528dceea30c9e562573d299a7352d2fa93965ba500ed832deb160f11a288"
+    }
+  ],
+  "local_only_official_template": {
+    "path": "research/sessions/20261102-1917/roles/role3/R001/local-cache/建筑结构-正刊排版模板-2024.4.28.doc",
+    "bytes": 3132961,
+    "sha256": "c21de684ade77cf7b7c062c05b81cd0327254db9d0426e4368186eb00b60bb18"
+  },
+  "official_template_full_download": true,
+  "template_layout_rendered": false,
+  "new_research_candidates": 3,
+  "new_candidates_fulltext_read": 1,
+  "new_candidates_publisher_abstract_only": 2,
+  "existing_strong_neighbour_counted_as_new": false,
+  "unresolved": [
+    "Zhang2016 PDF not obtained from publisher metadata URL",
+    "Chen2026 only official bibliography/abstract, not full PDF",
+    "CSI official general Story Forces Bottom sign/composition and damper inclusion not established",
+    "Legacy DOC OLE directory/text/rendering not checked; header and response filename verified"
+  ],
+  "failures_preserved": [
+    "DOI Springer open failed; used official university published copy",
+    "main-site homepage SSL EOF; public EditorDN template route succeeded",
+    "initial template 3MB bounded probe followed by full 3132961-byte file download",
+    "Zhang metadata PDF response not valid bounded PDF; no retry",
+    "CSI PDF local download expired TLS certificate; web-parsed official p7 used without bypass",
+    "MDPI direct open429; primary publisher search text used for limited claims"
+  ],
+  "no_new_ODE_or_solver_or_Git": true,
+  "outputs": [
+    {
+      "path": "journal-and-literature-audit.md",
+      "bytes": 8799,
+      "sha256": "1ff4601ca64ddb7a26b4ebe55100cb99a006e3548e290304fbd5e4a0315d8564"
+    },
+    {
+      "path": "introduction-revision-note.md",
+      "bytes": 2618,
+      "sha256": "67c1e0ef8739e7cca872c10eb1c260363a05872694c3c238f36e3149ec98d2e1"
+    },
+    {
+      "path": "retrieval-results.json",
+      "bytes": 861,
+      "sha256": "651792333f8e4ee46c763c06e2fc3f16d49f5855d04c728d5be2b575d9af54d9"
+    }
+  ]
+}

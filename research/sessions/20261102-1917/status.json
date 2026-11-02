@@ -1,6 +1,6 @@
 {
   "session": "20261102-1917",
-  "phase": "R001-active",
+  "phase": "R001-review-new-engineering-table",
   "start": "2026-11-02T19:17:23+08:00",
   "deadline": "2026-11-02T21:47:23+08:00",
   "final_writing_start": "2026-11-02T21:02:23+08:00",
@@ -14,10 +14,14 @@
     "formal_view": true,
     "actual_config_readback": true
   },
-  "current_task": "首轮有限工程方法/数据契约/文献/稿件增量",
+  "current_task": "②R002独核④已冻24行工程表；⑤R001新稿在写；①③⑥首轮完成",
   "git": {
-    "pending_push": false
+    "last_checkpoint": "R000",
+    "HEAD": "3a0118b4a535293e08b8de6cb00f7a73802aec0b",
+    "pending_push": false,
+    "remote_verified": true
   },
-  "checkpoint": "R000",
-  "checkpoint_started_at": "2026-11-02T19:29:15.494707+08:00"
+  "checkpoint": "R001",
+  "checkpoint_started_at": "2026-11-02T19:42:27.528107+08:00",
+  "last_root_review": "2026-11-02T19:38:00+08:00"
 }

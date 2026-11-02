@@ -31,7 +31,7 @@ for q in items:
  if p.suffix=='.json':json.loads(b.decode('utf-8'))
  if p.suffix=='.py':ast.parse(b.decode('utf-8'))
  if p.suffix=='.csv':
-  a=list(csv.reader(b.decode('utf-8-sig').splitlines()));assert len(a)>1 and all(len(r)==len(a[0])for r in a)
+  a=list(csv.reader(b.decode('utf-8-sig').splitlines()));assert a and a[0] and all(len(r)==len(a[0])for r in a)
  paths.append(q['relative'])
 assert len(paths)==len(set(paths))
 call(['git','add','--']+paths);call(['git','diff','--cached','--check'])

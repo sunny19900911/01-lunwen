@@ -1,0 +1,114 @@
+{
+  "checkpoint": "R001",
+  "message": "P06 session022: adopt dual-control engineering review and verified sources",
+  "files": [
+    {
+      "relative": "research/sessions/20261102-1917/status.json",
+      "sha256": "191de40c1c6054705cc9eebcf37afb5ca263dc75ba7415d4ac65ca547bb87200"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/threads.json",
+      "sha256": "7c6073087ed6720477d3015b579b49b9c8f7e18891f595e83a48879dc5cd9da5"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/runs.md",
+      "sha256": "693baa187952ec8473d2a0a39e6c683e9af43d1688d675ba578bb9180fc0ecfe"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/next-task.md",
+      "sha256": "4f1a33574eb04545648c94fbc61bbdfa886f436ac5d8145f472255287724359e"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/topic-card-v001.md",
+      "sha256": "5edae89e2a80e2b44cde8b0c3050b1efc5dd59bad739dab332ac6dcea0892937"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/root-R001-method-contract.md",
+      "sha256": "5ee560ea8a5261665a61c89417ede34994e7299b180a70e4eb3ab6765e372abc"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/root-R001-old-number-adoption.md",
+      "sha256": "28cc20b368417a048caa8d1d0892daf9569289e1b352ae466f5ab903c763cfd8"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/root-R001-method-and-source-adoption.md",
+      "sha256": "687a3c92ac3850300637ca6a84a809d49e354fa5e4fdc08091c7d32e9d43bba5"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/publish_checkpoint.py",
+      "sha256": "840df53702d85a4a8338c631be8dfcc91f0af6e61f5051474af8c5835e513117"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/checkpoint_R001.py",
+      "sha256": "f73ebfd21703f25fa62a492283d3501c7f7e12abc4c03efb7042566669ca7a44"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role1/R001/two-control-engineering-review-one-page.md",
+      "sha256": "5e2d3af5e7ae99d8e6c745097b55a552c3358503004e05636fc4aa06da5781ee"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role1/R001/engineering-review-contract.json",
+      "sha256": "bce205f5496be2dd231acb81a093331494a3eaecfafe58cb0fc2d481dd2ac264"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role1/R001/review-table-header.csv",
+      "sha256": "4bd650922e50b7e41489942198e4d56d1a3a2be8ab883fd453cae2aa17e77366"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role1/R001/manifest.json",
+      "sha256": "d6e8e03303142193789baf9ec9013eac937b7498f87611dddef4593c23d4d170"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role1/R001/audit-clarification-v001/selector-scope.md",
+      "sha256": "43dcabeba8233cef6e6d7232232ebb5207c60a0fdd365727a8dbf3d27a014331"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role2/R001/one-page-independent-review.md",
+      "sha256": "903b7a023a59741c0308377ce896a19e4bba8eb6e621ca824df8301f6c1bd38d"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role2/R001/engineering-contract-and-audit-checklist.md",
+      "sha256": "d60fe1797d388a5d246598a083a0e8fa56b7e45c182a982027c4e2f425556e97"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role2/R001/delivery-manifest.json",
+      "sha256": "037f9a01c11290abb5c14d19a34f404466b83fae04556025d66ec4e5963a99cc"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role2/R001/independent-old-scalar-checks.json",
+      "sha256": "bd01a3625ad65280a78eea897c0fd9e96e53b9a0f7761352441530b14a899ec3"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role3/R001/journal-and-literature-audit.md",
+      "sha256": "1ff4601ca64ddb7a26b4ebe55100cb99a006e3548e290304fbd5e4a0315d8564"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role3/R001/introduction-revision-note.md",
+      "sha256": "67c1e0ef8739e7cca872c10eb1c260363a05872694c3c238f36e3149ec98d2e1"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role3/R001/freeze.json",
+      "sha256": "514c5ecc136b0139917395d4161f310eecc52c683b172699f40f04447383a203"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role6/R001/one-page-software-review-workflow.md",
+      "sha256": "373a0f346b8a3cc23cabda461229fe548c5e090af2eb71d37cd75d9f0c98e4b7"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role6/R001/p06-engineering-review-notes.md",
+      "sha256": "2ca5533db1ca9e36c930407d4a17a3a12090e943ba9f056d296f41e5b4d6ae86"
+    },
+    {
+      "relative": "research/sessions/20261102-1917/roles/role6/R001/freeze.json",
+      "sha256": "4602d2203810975d8a7c358b64f51328b22265980375f6ad8a9823fcfef85cff"
+    }
+  ],
+  "checks": [
+    "Root fully read role1/2/3/6 frozen reports and contracts",
+    "Old 168 scalar checks independently reviewed by role2",
+    "New 24-row science still pending role2 R002, deliberately excluded",
+    "Official full template in local-cache excluded",
+    "Header-only CSV deliberately represents a schema, not numeric evidence",
+    "Publisher adjustment allows valid schema CSV; no Git semantics changed"
+  ]
+}
