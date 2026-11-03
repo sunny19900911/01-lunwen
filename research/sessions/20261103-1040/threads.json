@@ -1,0 +1,23 @@
+{
+  "mode": "reused-current-subagents",
+  "agents": [
+    {
+      "role": "audit",
+      "name": "/root/p06_s23_audit",
+      "task": "S024/R001 engineering evidence triage",
+      "actual_status": "running"
+    },
+    {
+      "role": "literature",
+      "name": "/root/p06_s23_literature",
+      "task": "S024/R001 supporting brace and Maxwell primary pages",
+      "actual_status": "running"
+    },
+    {
+      "role": "writing",
+      "name": "/root/p06_s23_author",
+      "task": "S024/R001250—400character short subsection draft",
+      "actual_status": "running"
+    }
+  ]
+}
