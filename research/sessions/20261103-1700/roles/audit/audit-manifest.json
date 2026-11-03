@@ -1,0 +1,57 @@
+{
+  "status": "frozen",
+  "at": "2026-11-03T17:11:55.606093+08:00",
+  "must": 0,
+  "files": [
+    {
+      "path": "research/sessions/20261103-1700/roles/audit/actual-cache-audit.json",
+      "bytes": 2886,
+      "sha256": "05828f16c117384c09aa7984a4e95967fef36afb320c0d460acba09cefa4fa69"
+    },
+    {
+      "path": "research/sessions/20261103-1700/roles/audit/actual-mainline-audit.md",
+      "bytes": 4418,
+      "sha256": "e0963c40152ebe1aa9c00f6b198e09b530b6be64f5c1589644712441da1f06f7"
+    },
+    {
+      "path": "research/sessions/20261103-1700/roles/audit/actual-mainline-basis.json",
+      "bytes": 5196,
+      "sha256": "d8dc6a4d82f8375a814c500ef1d8f806c219398823540dbd448996256f3147be"
+    },
+    {
+      "path": "research/sessions/20261103-1700/roles/audit/aggregate-summary-audit.json",
+      "bytes": 1480,
+      "sha256": "b5d0a39d9280f712b31273eaedee04b5107d5bfda4558f1366924c4b5de79109"
+    },
+    {
+      "path": "research/sessions/20261103-1700/roles/audit/audit_actual_cache.py",
+      "bytes": 4917,
+      "sha256": "fb5ac639d46ff769b1198a74eaf35a29cf8833b31a0ccadb308718ce010135b8"
+    },
+    {
+      "path": "research/sessions/20261103-1700/roles/audit/compare_aggregate_summary.py",
+      "bytes": 1120,
+      "sha256": "b612a0000a9f3570ca6641aacf60908fa1742ba4b54471f2dd8b47c68f575db5"
+    },
+    {
+      "path": "research/sessions/20261103-1700/roles/audit/derive_actual_basis.py",
+      "bytes": 3685,
+      "sha256": "597671db1c2613b3a684dda885a113d463c944b2dbd8687a7d118f2f5af71c1b"
+    },
+    {
+      "path": "research/sessions/20261103-1700/roles/audit/independent-actual-case-minima-6.csv",
+      "bytes": 1154,
+      "sha256": "d067a770a9562b2b8a70570fd7cb258b612a3dc4d2c47810f904d1f935012cec"
+    },
+    {
+      "path": "research/sessions/20261103-1700/roles/audit/independent-actual-story-range-24.csv",
+      "bytes": 2681,
+      "sha256": "fb5b722512d5573a2a670eb3fa52d500b0be13bea0ad6c978f573132074b4f93"
+    },
+    {
+      "path": "research/sessions/20261103-1700/roles/audit/independent-actual-time-peak-72.csv",
+      "bytes": 18808,
+      "sha256": "eed77819a16fd68e9555004fa3bae1ed88b18a07509f7d090dff404e5e93bcc1"
+    }
+  ]
+}

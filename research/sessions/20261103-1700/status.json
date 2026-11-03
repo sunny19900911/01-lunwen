@@ -1,0 +1,15 @@
+{
+  "phase": "actual-mainline-analysis",
+  "started_at": "2026-11-03T17:02:57.641447+08:00",
+  "checkpoint_open": false,
+  "source": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v004.md",
+  "source_sha256": "b66b072aeca3019146e41664ce71ae81475d198410bf505e53afaf054d76ffe3",
+  "no_solver_or_new_ODE": true,
+  "author": "root",
+  "agents": [
+    "p06_actual_response",
+    "p06_actual_audit",
+    "p06_actual_pairing"
+  ],
+  "automation_created": false
+}

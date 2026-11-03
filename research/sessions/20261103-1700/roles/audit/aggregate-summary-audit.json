@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-03T17:10:00.247101+08:00",
+  "checks": [
+    {
+      "independent_key": "d_median_pp",
+      "producer_key": "d_median_pp",
+      "independent": 3.6586462109199207,
+      "producer": 3.6586462109199207,
+      "abs_difference": 0.0
+    },
+    {
+      "independent_key": "d_95percentile_pp",
+      "producer_key": "d_95_percentile_pp",
+      "independent": 19.70514024649516,
+      "producer": 19.705140246495162,
+      "abs_difference": 3.552713678800501e-15
+    },
+    {
+      "independent_key": "d_max_pp",
+      "producer_key": "d_max_pp",
+      "independent": 34.679004791957816,
+      "producer": 34.679004791957816,
+      "abs_difference": 0.0
+    },
+    {
+      "independent_key": "minimum_d_pp",
+      "producer_key": "d_min_pp",
+      "independent": 0.0,
+      "producer": 0.0,
+      "abs_difference": 0.0
+    },
+    {
+      "independent_key": "same_peak_time_count",
+      "producer_key": "same_saved_peak_time_count",
+      "independent": 3,
+      "producer": 3,
+      "abs_difference": 0
+    },
+    {
+      "independent_key": "zero_d_count",
+      "producer_key": "d_zero_count_exact",
+      "independent": 3,
+      "producer": 3,
+      "abs_difference": 0
+    },
+    {
+      "independent_key": "max_time_shift_s",
+      "producer_key": "max_abs_peak_time_shift_s",
+      "independent": 20.48,
+      "producer": 20.48,
+      "abs_difference": 0.0
+    }
+  ],
+  "must": 0,
+  "array_rereads": 0
+}

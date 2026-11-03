@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-03T17:13:30.451238+08:00",
+  "supplement": "build_word.py",
+  "build_helper_source": "20261103-1458",
+  "intentional_gate_changes": [
+    "main ratio/selector now P_D; d_D numerator P_D-A_D",
+    "native matrix required only if actually present in source",
+    "current complete engineering supplement required"
+  ],
+  "missing_reference_attempt": "documents/references/create_edit.md absent; corrected to tasks/create_edit.md and read tasks/verify_render.md",
+  "first_draft_build_failure": "Reference exact-byte assertion saw one appended terminal newline before any output; corrected construction preserves source reference tail exactly"
+}

@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120"><rect width="100%" height="100%" fill="white"/>
+<text x="900" y="60" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="42" text-anchor="middle" dominant-baseline="middle">实际阻尼器方案的分层剪力峰减幅</text>
+<text x="900" y="115" fill="#526175" font-family="Microsoft YaHei, sans-serif" font-size="28" text-anchor="middle" dominant-baseline="middle">基准模型B与实际布置模型D；每方向RH4、SHW4、SHW7三输入</text>
+<text x="900" y="165" fill="#526175" font-family="Microsoft YaHei, sans-serif" font-size="27" text-anchor="middle" dominant-baseline="middle">横线：最小至最大值    圆点：中位值</text>
+<text x="487.5" y="213" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="32" text-anchor="middle" dominant-baseline="middle">X向输入／X向响应</text>
+<polyline points="140.000,255.000 140.000,900.000" fill="none" stroke="#E0E7EF" stroke-width="2"/>
+<text x="140.0" y="931" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">0</text>
+<polyline points="279.000,255.000 279.000,900.000" fill="none" stroke="#E0E7EF" stroke-width="2"/>
+<text x="279.0" y="931" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">10</text>
+<polyline points="418.000,255.000 418.000,900.000" fill="none" stroke="#E0E7EF" stroke-width="2"/>
+<text x="418.0" y="931" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">20</text>
+<polyline points="557.000,255.000 557.000,900.000" fill="none" stroke="#E0E7EF" stroke-width="2"/>
+<text x="557.0" y="931" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">30</text>
+<polyline points="696.000,255.000 696.000,900.000" fill="none" stroke="#E0E7EF" stroke-width="2"/>
+<text x="696.0" y="931" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">40</text>
+<polyline points="835.000,255.000 835.000,900.000" fill="none" stroke="#E0E7EF" stroke-width="2"/>
+<text x="835.0" y="931" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">50</text>
+<polyline points="140.000,900.000 835.000,900.000" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="118" y="900.0" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">1</text>
+<polyline points="183.421,900.000 493.613,900.000" fill="none" stroke="#235FB2" stroke-width="5"/>
+<polyline points="183.421,893.000 183.421,907.000" fill="none" stroke="#235FB2" stroke-width="3"/>
+<polyline points="493.613,893.000 493.613,907.000" fill="none" stroke="#235FB2" stroke-width="3"/>
+<circle cx="357.054" cy="900.000" r="7" fill="#235FB2" stroke="#235FB2" stroke-width="3"/>
+<polyline points="140.000,841.364 835.000,841.364" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="118" y="841.3636363636364" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">2</text>
+<polyline points="222.055,841.364 496.545,841.364" fill="none" stroke="#235FB2" stroke-width="5"/>
+<polyline points="222.055,834.364 222.055,848.364" fill="none" stroke="#235FB2" stroke-width="3"/>
+<polyline points="496.545,834.364 496.545,848.364" fill="none" stroke="#235FB2" stroke-width="3"/>
+<circle cx="347.959" cy="841.364" r="7" fill="#235FB2" stroke="#235FB2" stroke-width="3"/>
+<polyline points="140.000,782.727 835.000,782.727" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="118" y="782.7272727272727" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">3</text>
+<polyline points="253.132,782.727 499.511,782.727" fill="none" stroke="#235FB2" stroke-width="5"/>
+<polyline points="253.132,775.727 253.132,789.727" fill="none" stroke="#235FB2" stroke-width="3"/>
+<polyline points="499.511,775.727 499.511,789.727" fill="none" stroke="#235FB2" stroke-width="3"/>
+<circle cx="293.188" cy="782.727" r="7" fill="#235FB2" stroke="#235FB2" stroke-width="3"/>
+<polyline points="140.000,724.091 835.000,724.091" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="118" y="724.0909090909091" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">4</text>
+<polyline points="256.211,724.091 492.332,724.091" fill="none" stroke="#235FB2" stroke-width="5"/>
+<polyline points="256.211,717.091 256.211,731.091" fill="none" stroke="#235FB2" stroke-width="3"/>
+<polyline points="492.332,717.091 492.332,731.091" fill="none" stroke="#235FB2" stroke-width="3"/>
+<circle cx="281.199" cy="724.091" r="7" fill="#235FB2" stroke="#235FB2" stroke-width="3"/>
+<polyline points="140.000,665.455 835.000,665.455" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="118" y="665.4545454545455" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">5</text>
+<polyline points="273.506,665.455 470.016,665.455" fill="none" stroke="#235FB2" stroke-width="5"/>
+<polyline points="273.506,658.455 273.506,672.455" fill="none" stroke="#235FB2" stroke-width="3"/>
+<polyline points="470.016,658.455 470.016,672.455" fill="none" stroke="#235FB2" stroke-width="3"/>
+<circle cx="273.758" cy="665.455" r="7" fill="#235FB2" stroke="#235FB2" stroke-width="3"/>
+<polyline points="140.000,606.818 835.000,606.818" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="118" y="606.8181818181818" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">6</text>
+<polyline points="242.113,606.818 367.527,606.818" fill="none" stroke="#235FB2" stroke-width="5"/>
+<polyline points="242.113,599.818 242.113,613.818" fill="none" stroke="#235FB2" stroke-width="3"/>
+<polyline points="367.527,599.818 367.527,613.818" fill="none" stroke="#235FB2" stroke-width="3"/>
+<circle cx="295.504" cy="606.818" r="7" fill="#235FB2" stroke="#235FB2" stroke-width="3"/>
+<polyline points="140.000,548.182 835.000,548.182" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="118" y="548.1818181818182" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">7</text>
+<polyline points="193.127,548.182 325.661,548.182" fill="none" stroke="#235FB2" stroke-width="5"/>
+<polyline points="193.127,541.182 193.127,555.182" fill="none" stroke="#235FB2" stroke-width="3"/>
+<polyline points="325.661,541.182 325.661,555.182" fill="none" stroke="#235FB2" stroke-width="3"/>
+<circle cx="316.922" cy="548.182" r="7" fill="#235FB2" stroke="#235FB2" stroke-width="3"/>
+<polyline points="140.000,489.545 835.000,489.545" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="118" y="489.54545454545456" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">8</text>
+<polyline points="248.022,489.545 382.831,489.545" fill="none" stroke="#235FB2" stroke-width="5"/>
+<polyline points="248.022,482.545 248.022,496.545" fill="none" stroke="#235FB2" stroke-width="3"/>
+<polyline points="382.831,482.545 382.831,496.545" fill="none" stroke="#235FB2" stroke-width="3"/>
+<circle cx="353.931" cy="489.545" r="7" fill="#235FB2" stroke="#235FB2" stroke-width="3"/>
+<polyline points="140.000,430.909 835.000,430.909" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="118" y="430.90909090909093" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">9</text>
+<polyline points="324.430,430.909 428.988,430.909" fill="none" stroke="#235FB2" stroke-width="5"/>
+<polyline points="324.430,423.909 324.430,437.909" fill="none" stroke="#235FB2" stroke-width="3"/>
+<polyline points="428.988,423.909 428.988,437.909" fill="none" stroke="#235FB2" stroke-width="3"/>
+<circle cx="379.124" cy="430.909" r="7" fill="#235FB2" stroke="#235FB2" stroke-width="3"/>
+<polyline points="140.000,372.273 835.000,372.273" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="118" y="372.27272727272725" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">10</text>
+<polyline points="390.867,372.273 464.701,372.273" fill="none" stroke="#235FB2" stroke-width="5"/>
+<polyline points="390.867,365.273 390.867,379.273" fill="none" stroke="#235FB2" stroke-width="3"/>
+<polyline points="464.701,365.273 464.701,379.273" fill="none" stroke="#235FB2" stroke-width="3"/>
+<circle cx="407.928" cy="372.273" r="7" fill="#235FB2" stroke="#235FB2" stroke-width="3"/>
+<polyline points="140.000,313.636 835.000,313.636" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="118" y="313.6363636363636" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">11</text>
+<polyline points="453.322,313.636 532.542,313.636" fill="none" stroke="#235FB2" stroke-width="5"/>
+<polyline points="453.322,306.636 453.322,320.636" fill="none" stroke="#235FB2" stroke-width="3"/>
+<polyline points="532.542,306.636 532.542,320.636" fill="none" stroke="#235FB2" stroke-width="3"/>
+<circle cx="455.219" cy="313.636" r="7" fill="#235FB2" stroke="#235FB2" stroke-width="3"/>
+<polyline points="140.000,255.000 835.000,255.000" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="118" y="255.0" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">12</text>
+<polyline points="201.569,255.000 691.466,255.000" fill="none" stroke="#235FB2" stroke-width="5"/>
+<polyline points="201.569,248.000 201.569,262.000" fill="none" stroke="#235FB2" stroke-width="3"/>
+<polyline points="691.466,248.000 691.466,262.000" fill="none" stroke="#235FB2" stroke-width="3"/>
+<circle cx="672.573" cy="255.000" r="7" fill="#235FB2" stroke="#235FB2" stroke-width="3"/>
+<polyline points="140.000,255.000 140.000,900.000 835.000,900.000" fill="none" stroke="#78879A" stroke-width="3"/>
+<text x="75" y="577.5" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="28" text-anchor="middle" dominant-baseline="middle" transform="rotate(-90 75 577.5)">楼层</text>
+<text x="487.5" y="982" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="29" text-anchor="middle" dominant-baseline="middle">剪力绝对峰减幅 / %</text>
+<text x="487.5" y="1036" fill="#235FB2" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">最小：SHW4X，第1层，3.1238%</text>
+<text x="1367.5" y="213" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="32" text-anchor="middle" dominant-baseline="middle">Y向输入／Y向响应</text>
+<polyline points="1020.000,255.000 1020.000,900.000" fill="none" stroke="#E0E7EF" stroke-width="2"/>
+<text x="1020.0" y="931" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">0</text>
+<polyline points="1159.000,255.000 1159.000,900.000" fill="none" stroke="#E0E7EF" stroke-width="2"/>
+<text x="1159.0" y="931" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">10</text>
+<polyline points="1298.000,255.000 1298.000,900.000" fill="none" stroke="#E0E7EF" stroke-width="2"/>
+<text x="1298.0" y="931" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">20</text>
+<polyline points="1437.000,255.000 1437.000,900.000" fill="none" stroke="#E0E7EF" stroke-width="2"/>
+<text x="1437.0" y="931" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">30</text>
+<polyline points="1576.000,255.000 1576.000,900.000" fill="none" stroke="#E0E7EF" stroke-width="2"/>
+<text x="1576.0" y="931" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">40</text>
+<polyline points="1715.000,255.000 1715.000,900.000" fill="none" stroke="#E0E7EF" stroke-width="2"/>
+<text x="1715.0" y="931" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">50</text>
+<polyline points="1020.000,900.000 1715.000,900.000" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="998" y="900.0" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">1</text>
+<polyline points="1097.832,900.000 1440.455,900.000" fill="none" stroke="#BD641F" stroke-width="5"/>
+<polyline points="1097.832,893.000 1097.832,907.000" fill="none" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1440.455,893.000 1440.455,907.000" fill="none" stroke="#BD641F" stroke-width="3"/>
+<circle cx="1252.968" cy="900.000" r="7" fill="#BD641F" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1020.000,841.364 1715.000,841.364" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="998" y="841.3636363636364" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">2</text>
+<polyline points="1133.852,841.364 1446.186,841.364" fill="none" stroke="#BD641F" stroke-width="5"/>
+<polyline points="1133.852,834.364 1133.852,848.364" fill="none" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1446.186,834.364 1446.186,848.364" fill="none" stroke="#BD641F" stroke-width="3"/>
+<circle cx="1224.651" cy="841.364" r="7" fill="#BD641F" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1020.000,782.727 1715.000,782.727" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="998" y="782.7272727272727" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">3</text>
+<polyline points="1148.006,782.727 1444.981,782.727" fill="none" stroke="#BD641F" stroke-width="5"/>
+<polyline points="1148.006,775.727 1148.006,789.727" fill="none" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1444.981,775.727 1444.981,789.727" fill="none" stroke="#BD641F" stroke-width="3"/>
+<circle cx="1156.151" cy="782.727" r="7" fill="#BD641F" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1020.000,724.091 1715.000,724.091" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="998" y="724.0909090909091" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">4</text>
+<polyline points="1151.897,724.091 1429.147,724.091" fill="none" stroke="#BD641F" stroke-width="5"/>
+<polyline points="1151.897,717.091 1151.897,731.091" fill="none" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1429.147,717.091 1429.147,731.091" fill="none" stroke="#BD641F" stroke-width="3"/>
+<circle cx="1250.546" cy="724.091" r="7" fill="#BD641F" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1020.000,665.455 1715.000,665.455" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="998" y="665.4545454545455" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">5</text>
+<polyline points="1160.304,665.455 1403.032,665.455" fill="none" stroke="#BD641F" stroke-width="5"/>
+<polyline points="1160.304,658.455 1160.304,672.455" fill="none" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1403.032,658.455 1403.032,672.455" fill="none" stroke="#BD641F" stroke-width="3"/>
+<circle cx="1251.418" cy="665.455" r="7" fill="#BD641F" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1020.000,606.818 1715.000,606.818" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="998" y="606.8181818181818" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">6</text>
+<polyline points="1154.135,606.818 1242.514,606.818" fill="none" stroke="#BD641F" stroke-width="5"/>
+<polyline points="1154.135,599.818 1154.135,613.818" fill="none" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1242.514,599.818 1242.514,613.818" fill="none" stroke="#BD641F" stroke-width="3"/>
+<circle cx="1216.141" cy="606.818" r="7" fill="#BD641F" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1020.000,548.182 1715.000,548.182" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="998" y="548.1818181818182" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">7</text>
+<polyline points="1138.952,548.182 1272.178,548.182" fill="none" stroke="#BD641F" stroke-width="5"/>
+<polyline points="1138.952,541.182 1138.952,555.182" fill="none" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1272.178,541.182 1272.178,555.182" fill="none" stroke="#BD641F" stroke-width="3"/>
+<circle cx="1172.143" cy="548.182" r="7" fill="#BD641F" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1020.000,489.545 1715.000,489.545" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="998" y="489.54545454545456" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">8</text>
+<polyline points="1149.406,489.545 1308.914,489.545" fill="none" stroke="#BD641F" stroke-width="5"/>
+<polyline points="1149.406,482.545 1149.406,496.545" fill="none" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1308.914,482.545 1308.914,496.545" fill="none" stroke="#BD641F" stroke-width="3"/>
+<circle cx="1205.320" cy="489.545" r="7" fill="#BD641F" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1020.000,430.909 1715.000,430.909" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="998" y="430.90909090909093" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">9</text>
+<polyline points="1248.776,430.909 1336.285,430.909" fill="none" stroke="#BD641F" stroke-width="5"/>
+<polyline points="1248.776,423.909 1248.776,437.909" fill="none" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1336.285,423.909 1336.285,437.909" fill="none" stroke="#BD641F" stroke-width="3"/>
+<circle cx="1251.995" cy="430.909" r="7" fill="#BD641F" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1020.000,372.273 1715.000,372.273" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="998" y="372.27272727272725" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">10</text>
+<polyline points="1306.417,372.273 1375.269,372.273" fill="none" stroke="#BD641F" stroke-width="5"/>
+<polyline points="1306.417,365.273 1306.417,379.273" fill="none" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1375.269,365.273 1375.269,379.273" fill="none" stroke="#BD641F" stroke-width="3"/>
+<circle cx="1360.269" cy="372.273" r="7" fill="#BD641F" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1020.000,313.636 1715.000,313.636" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="998" y="313.6363636363636" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">11</text>
+<polyline points="1373.451,313.636 1481.629,313.636" fill="none" stroke="#BD641F" stroke-width="5"/>
+<polyline points="1373.451,306.636 1373.451,320.636" fill="none" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1481.629,306.636 1481.629,320.636" fill="none" stroke="#BD641F" stroke-width="3"/>
+<circle cx="1402.157" cy="313.636" r="7" fill="#BD641F" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1020.000,255.000 1715.000,255.000" fill="none" stroke="#EDF1F5" stroke-width="1"/>
+<text x="998" y="255.0" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="end" dominant-baseline="middle">12</text>
+<polyline points="1122.039,255.000 1682.639,255.000" fill="none" stroke="#BD641F" stroke-width="5"/>
+<polyline points="1122.039,248.000 1122.039,262.000" fill="none" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1682.639,248.000 1682.639,262.000" fill="none" stroke="#BD641F" stroke-width="3"/>
+<circle cx="1582.496" cy="255.000" r="7" fill="#BD641F" stroke="#BD641F" stroke-width="3"/>
+<polyline points="1020.000,255.000 1020.000,900.000 1715.000,900.000" fill="none" stroke="#78879A" stroke-width="3"/>
+<text x="955" y="577.5" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="28" text-anchor="middle" dominant-baseline="middle" transform="rotate(-90 955 577.5)">楼层</text>
+<text x="1367.5" y="982" fill="#263449" font-family="Microsoft YaHei, sans-serif" font-size="29" text-anchor="middle" dominant-baseline="middle">剪力绝对峰减幅 / %</text>
+<text x="1367.5" y="1036" fill="#BD641F" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">最小：SHW4Y，第1层，5.5995%</text>
+<text x="900" y="1090" fill="#526175" font-family="Microsoft YaHei, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="middle">每条减幅均由同一输入的两模型各自完整保存时程峰值计算</text>
+</svg>

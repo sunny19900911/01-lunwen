@@ -1,0 +1,64 @@
+{
+  "at": "2026-11-03T17:08:48.187664+08:00",
+  "sources": {
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\manifest.json": {
+      "sha256": "1e78f5a15bff3ebe88d59375f84de36733037fdee5baefdf5b81a95e83e58f58",
+      "bytes": 443242
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Forces.npz": {
+      "sha256": "fb11e299f62682d0bf3a68644cdae474ca8a6ce96863838e02117431f72caf8d",
+      "bytes": 24737339
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json": {
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4",
+      "bytes": 193090
+    },
+    "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Forces.npz": {
+      "sha256": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d",
+      "bytes": 10443167
+    }
+  },
+  "scope": "Exactly72 matching Bottom main-axis groups from existing B/D caches; no raw Excel, ODE, fits or isolated QS",
+  "numeric_implementation": "Independent NumPy arrays, explicit first tied maximum with flatnonzero and sorted linear quantile formula",
+  "producer_fields_checked": 1728,
+  "producer_max_abs_difference": 0.0,
+  "all72_saved_grids_exact": true,
+  "statistics": {
+    "d_median_pp": 3.6586462109199207,
+    "d_95percentile_pp": 19.70514024649516,
+    "d_max_pp": 34.679004791957816,
+    "max_d_record": {
+      "Case": "RH4Y",
+      "Axis": "Y",
+      "Story": "Story12",
+      "P_B_kN": 565.0420966832248,
+      "P_D_kN": 523.5629168604813,
+      "B_signed_at_own_peak_kN": -565.0420966832248,
+      "D_signed_at_own_peak_kN": -523.5629168604813,
+      "t_B_s": 20.22,
+      "t_D_s": 12.26,
+      "D_at_tB_signed_kN": -327.6119410751269,
+      "A_abs_D_at_tB_kN": 327.6119410751269,
+      "r_peak_percent": 7.340900804776263,
+      "r_at_percent": 42.01990559673408,
+      "d_pp": 34.679004791957816,
+      "absolute_peak_time_shift_s": 7.959999999999999,
+      "same_saved_peak_time": false,
+      "n_saved": 2501,
+      "t_start_s": 0.0,
+      "t_end_s": 50.0,
+      "B_peak_source_row": 3516,
+      "D_peak_source_row": 3118,
+      "D_source_row_at_B_peak": 3516,
+      "B_tied_abs_peak_count": 1,
+      "D_tied_abs_peak_count": 1
+    },
+    "minimum_d_pp": 0.0,
+    "same_peak_time_count": 3,
+    "zero_d_count": 3,
+    "max_time_shift_s": 20.48,
+    "tied_B_record_count": 0,
+    "tied_D_record_count": 0
+  },
+  "must": 0
+}

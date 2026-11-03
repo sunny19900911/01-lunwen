@@ -1,0 +1,133 @@
+{
+  "at": "2026-11-03T17:04:29.827089+08:00",
+  "source_sha256": {
+    "research/sessions/20261103-1458/roles/response/three-model-common-six-records-72.csv": "156b2dc74600177f93012ef30e7cd9485c8f6e3d4a28b0899f75d3957e5e1a79",
+    "research/sessions/20261020-1844/roles/role4/R003-three-model-peaks-72.csv": "379c367cb77272d35ac405352cfaa9bb7a471b4f313b517bf784c24f6194d546"
+  },
+  "new72_exact_old72": true,
+  "all72_rD_positive": true,
+  "rD_range_percent": [
+    3.123842764791329,
+    47.671903121765034
+  ],
+  "bottom_minimum_count_out_of6": 2,
+  "case_minima": [
+    {
+      "Case": "RH4X",
+      "minimum_story": "Story7",
+      "minimum_reduction_percent": 3.822111643917936,
+      "P_B_at_min_kN": 6725.064964648233,
+      "P_D_at_min_kN": 6468.025473573368,
+      "minimum_t_B_s": 21.580000000000002,
+      "minimum_t_D_s": 21.56,
+      "bottom_reduction_percent": 15.615385119518898,
+      "arithmetic_mean12_percent": 11.560269468790512,
+      "bottom_minus_min_pp": 11.793273475600962,
+      "mean_minus_min_pp": 7.738157824872577,
+      "bottom_is_minimum": false
+    },
+    {
+      "Case": "RH4Y",
+      "minimum_story": "Story12",
+      "minimum_reduction_percent": 7.340900804776263,
+      "P_B_at_min_kN": 565.0420966832248,
+      "P_D_at_min_kN": 523.5629168604813,
+      "minimum_t_B_s": 20.22,
+      "minimum_t_D_s": 12.26,
+      "bottom_reduction_percent": 16.760300218478786,
+      "arithmetic_mean12_percent": 15.179113643693087,
+      "bottom_minus_min_pp": 9.419399413702523,
+      "mean_minus_min_pp": 7.838212838916824,
+      "bottom_is_minimum": false
+    },
+    {
+      "Case": "SHW4X",
+      "minimum_story": "Story1",
+      "minimum_reduction_percent": 3.123842764791329,
+      "P_B_at_min_kN": 11399.731822721677,
+      "P_D_at_min_kN": 11043.622124971971,
+      "minimum_t_B_s": 29.94,
+      "minimum_t_D_s": 29.82,
+      "bottom_reduction_percent": 3.123842764791329,
+      "arithmetic_mean12_percent": 15.655744432012852,
+      "bottom_minus_min_pp": 0.0,
+      "mean_minus_min_pp": 12.531901667221524,
+      "bottom_is_minimum": true
+    },
+    {
+      "Case": "SHW4Y",
+      "minimum_story": "Story1",
+      "minimum_reduction_percent": 5.599455187614211,
+      "P_B_at_min_kN": 10981.14965357359,
+      "P_D_at_min_kN": 10366.265099636883,
+      "minimum_t_B_s": 30.0,
+      "minimum_t_D_s": 29.8,
+      "bottom_reduction_percent": 5.599455187614211,
+      "arithmetic_mean12_percent": 15.551072207336535,
+      "bottom_minus_min_pp": 0.0,
+      "mean_minus_min_pp": 9.951617019722324,
+      "bottom_is_minimum": true
+    },
+    {
+      "Case": "SHW7X",
+      "minimum_story": "Story7",
+      "minimum_reduction_percent": 12.728199092862313,
+      "P_B_at_min_kN": 8481.830091364805,
+      "P_D_at_min_kN": 7402.245870617588,
+      "minimum_t_B_s": 38.12,
+      "minimum_t_D_s": 38.06,
+      "bottom_reduction_percent": 25.43979658237593,
+      "arithmetic_mean12_percent": 22.435477739637705,
+      "bottom_minus_min_pp": 12.711597489513617,
+      "mean_minus_min_pp": 9.707278646775391,
+      "bottom_is_minimum": false
+    },
+    {
+      "Case": "SHW7Y",
+      "minimum_story": "Story6",
+      "minimum_reduction_percent": 16.00819500047922,
+      "P_B_at_min_kN": 8091.986641225898,
+      "P_D_at_min_kN": 6796.6056402857275,
+      "minimum_t_B_s": 48.88,
+      "minimum_t_D_s": 38.02,
+      "bottom_reduction_percent": 30.248565473286916,
+      "arithmetic_mean12_percent": 27.1508291906418,
+      "bottom_minus_min_pp": 14.240370472807697,
+      "mean_minus_min_pp": 11.142634190162582,
+      "bottom_is_minimum": false
+    }
+  ],
+  "actual24_two_controls_differ": 12,
+  "same6_reference_two_controls_differ": 7,
+  "most_mean_masking_example": {
+    "Case": "SHW4X",
+    "minimum_story": "Story1",
+    "minimum_reduction_percent": 3.123842764791329,
+    "P_B_at_min_kN": 11399.731822721677,
+    "P_D_at_min_kN": 11043.622124971971,
+    "minimum_t_B_s": 29.94,
+    "minimum_t_D_s": 29.82,
+    "bottom_reduction_percent": 3.123842764791329,
+    "arithmetic_mean12_percent": 15.655744432012852,
+    "bottom_minus_min_pp": 0.0,
+    "mean_minus_min_pp": 12.531901667221524,
+    "bottom_is_minimum": true
+  },
+  "most_bottom_masking_example": {
+    "Case": "SHW7Y",
+    "minimum_story": "Story6",
+    "minimum_reduction_percent": 16.00819500047922,
+    "P_B_at_min_kN": 8091.986641225898,
+    "P_D_at_min_kN": 6796.6056402857275,
+    "minimum_t_B_s": 48.88,
+    "minimum_t_D_s": 38.02,
+    "bottom_reduction_percent": 30.248565473286916,
+    "arithmetic_mean12_percent": 27.1508291906418,
+    "bottom_minus_min_pp": 14.240370472807697,
+    "mean_minus_min_pp": 11.142634190162582,
+    "bottom_is_minimum": false
+  },
+  "old19of24_scope": "reference M vs B, fourteen directional cases; auxiliary only in actual-mainline paper",
+  "SHW3X_scope": "not present in actual six cases; fixed linear reference mechanism illustration only, cannot explain actual Story8 as observed modal decomposition",
+  "r_at_d_status": "pending independently derived response production and audit; old M-based d statistics not transferable to D"
+}

@@ -1,0 +1,50 @@
+{
+  "status": "numeric-frozen-awaiting-independent-audit",
+  "at": "2026-11-03T17:07:55.386176+08:00",
+  "scope": "Actual device model D versus baseline B, six shared cases; no M borrowed",
+  "all72_native_grid_and_peak_checks_passed": true,
+  "source_inputs_unchanged": true,
+  "independent_numerical_audit_pending": true,
+  "files": [
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/actual_response_tables.py",
+      "bytes": 10311,
+      "sha256": "be4fe4523e22010276ec966bf7e49b5faa6effdf0f36ffa95111f35332cb8ebf"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/input-freeze.json",
+      "bytes": 1897,
+      "sha256": "9c207e2de2b6e2f539b8a6aef65c27f5847cb3117097e4ba647d55cf8279d50c"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/actual-versus-baseline-time-peak-72.csv",
+      "bytes": 37385,
+      "sha256": "c3b925fc51564f88acb8779984a5cf7378bf03727414af38f6779519e2c043da"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/actual-layer-direction-ranges-24.csv",
+      "bytes": 5101,
+      "sha256": "7900e67b27047d7ed208ebc2a2f79cdc1fcd496c7f972aeb2a6ced4807875022"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/actual-bottom-mean-screening-6.csv",
+      "bytes": 1332,
+      "sha256": "a65282f30ee2d1d58b9ca6044161231dedebf751b77cc60e61b87d9262e21e73"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/actual-response-summary.json",
+      "bytes": 9132,
+      "sha256": "001f94cec9ffce2179db30d373dd120fec6d681bc4bb31188e1dadd444a9c387"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/actual-response-report.md",
+      "bytes": 2006,
+      "sha256": "7af7b01cb1b35e7ecb4625821415dd933053e8c1d1821135e65b19b408779788"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/freeze_numeric.py",
+      "bytes": 1578,
+      "sha256": "56fcef870dd8311b667ecca5ccec3a008e24dd668da351ee4c6c15812d33252a"
+    }
+  ]
+}

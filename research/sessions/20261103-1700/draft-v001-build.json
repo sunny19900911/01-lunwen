@@ -1,0 +1,21 @@
+{
+  "at": "2026-11-03T17:11:28.398501+08:00",
+  "source": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v004.md",
+  "source_sha256": "b66b072aeca3019146e41664ce71ae81475d198410bf505e53afaf054d76ffe3",
+  "output": "papers/damping-output-boundaries/manuscript/p06-actual-main-session026-v001.md",
+  "bytes": 29315,
+  "sha256": "a11102490ebe100d8bdf91069bd1460364c4a9c5bfd677c0b8b956c7dec7dcdb",
+  "actual_record_count": 72,
+  "actual_main_control_groups": 24,
+  "actual_two_controls_differ": 12,
+  "reference168_is_auxiliary": true,
+  "display_equations": 5,
+  "tables": 7,
+  "new_scientific_inputs": [
+    "actual-versus-baseline-time-peak-72.csv",
+    "actual-layer-direction-ranges-24.csv",
+    "actual-bottom-mean-screening-6.csv"
+  ],
+  "references_unchanged": true,
+  "frozen_geometry_controls_timing_modal_tables_unchanged": true
+}

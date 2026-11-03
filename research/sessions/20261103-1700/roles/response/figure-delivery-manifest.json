@@ -1,0 +1,52 @@
+{
+  "status": "frozen-figures",
+  "at": "2026-11-03T17:10:33.526527+08:00",
+  "numeric_manifest_unchanged": true,
+  "actual_original_detail_viewed": [
+    "actual-device-story-reduction-range.png",
+    "actual-device-old-peak-vs-complete-peak.png"
+  ],
+  "new_response_computation": false,
+  "files": [
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/actual-device-story-reduction-range.png",
+      "bytes": 106405,
+      "sha256": "77a1c92155ee7876f1e612b780bddefd2502a9c60303da5e58c26fcd823f2cd6"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/actual-device-story-reduction-range.svg",
+      "bytes": 21569,
+      "sha256": "17401d635c5f975a7cd7e87395d8e79ec0f3e4f6051b039cbaa12ad06b8920a6"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/actual-device-old-peak-vs-complete-peak.png",
+      "bytes": 127942,
+      "sha256": "aafa2b6c5048f3530105a6c2a2d1cfd4b122878381909628b735a2f8946da02b"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/actual-device-old-peak-vs-complete-peak.svg",
+      "bytes": 15283,
+      "sha256": "1de76c66168e592ab1194aa035bf4a01f2f920266fc83528da01ffd6c1716a35"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/plot_actual_only.py",
+      "bytes": 6965,
+      "sha256": "192a89bc28dbac3554cefb3db4631c8c9ac84a86d3aa43fd6b7b16f68e08a262"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/plot-record.json",
+      "bytes": 577,
+      "sha256": "5badaa0c250f9d432f064e36e46f29f79c081c36a809436c5c6f76260dae9267"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/figure-QA.md",
+      "bytes": 1808,
+      "sha256": "dbb8dd40ac2884c6cf01232f733736ecb0bf2b465c68bb5d113017a0376fb21b"
+    },
+    {
+      "relative": "research/sessions/20261103-1700/roles/response/freeze_figures.py",
+      "bytes": 1295,
+      "sha256": "68f1986905fa08ca32921f000697f8170edc1270d94c520de4a65d389786847c"
+    }
+  ]
+}
