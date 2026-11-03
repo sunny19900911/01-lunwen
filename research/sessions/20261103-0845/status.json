@@ -1,0 +1,25 @@
+{
+  "session": "20261103-0845",
+  "phase": "R001-independent-evidence-review",
+  "start": "2026-11-03T08:45:53+08:00",
+  "deadline": "2026-11-03T11:15:53+08:00",
+  "final_writing_start": "2026-11-03T10:30:53+08:00",
+  "checkpoint_open": true,
+  "no_new_ODE_or_fit": true,
+  "no_new_scientific_dispatch": false,
+  "automation": {
+    "id": "p06-sh3-sh4-150",
+    "state": "ACTIVE",
+    "formal_create": true,
+    "formal_view": true,
+    "actual_config_readback": true
+  },
+  "current_task": "Independent numerical and source review; author prepares focused new version; root engineering and scope checks.",
+  "manuscript_owner": "roles/writing",
+  "git": {
+    "pending_push": false,
+    "initial_HEAD": "c0d0909fc278eb6bbe5871bf753b5d885fc5562d"
+  },
+  "checkpoint": "R000",
+  "checkpoint_started_at": "2026-11-03T08:50:59.601355+08:00"
+}

@@ -1,0 +1,176 @@
+{
+  "completed_utc": "2026-11-03T00:41:45.438200+00:00",
+  "input_sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "bytes": 14836060,
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.08-factorized-reference.npz",
+      "bytes": 14829087,
+      "sha256": "e88b73344432c10d505e351d015d24cb5173f7ddc5a6bca2f6a30076b12fb5fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.05-factorized-reference.npz",
+      "bytes": 16292630,
+      "sha256": "61c7165f08156aaef3af39dab94832b89772c60517d5a4444d74add79cb936d8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.08-factorized-reference.npz",
+      "bytes": 16280412,
+      "sha256": "4e37b056557552b136cb8bc02f5b22e6a7de3e210c677e939d63c3505a354863"
+    }
+  ],
+  "frozen_CSV": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R008\\Story5-Story12-top5-other-symmetric-components-72.csv",
+    "sha256": "6ee170e332bc7f899b583d84578ade175e8be8824811972b17a6630bb329195c"
+  },
+  "code_sha256": "712ced2c93d78c05d58445e0e34f9095549b36b519e196630a622f9a0d782c99",
+  "states": [
+    {
+      "Case": "SHW3X",
+      "zeta": 0.05,
+      "input_PGA_m_per_s2": 0.35,
+      "output_points": 2691,
+      "input_and_response_times_identical_to_frozen_cache": true
+    },
+    {
+      "Case": "SHW3X",
+      "zeta": 0.08,
+      "input_PGA_m_per_s2": 0.35,
+      "output_points": 2691,
+      "input_and_response_times_identical_to_frozen_cache": true
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.05,
+      "input_PGA_m_per_s2": 0.35,
+      "output_points": 2951,
+      "input_and_response_times_identical_to_frozen_cache": true
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.08,
+      "input_PGA_m_per_s2": 0.35,
+      "output_points": 2951,
+      "input_and_response_times_identical_to_frozen_cache": true
+    }
+  ],
+  "priority": [
+    {
+      "Case": "SHW3X",
+      "zeta": 0.05,
+      "Story": 5,
+      "native_peak_time_s": 22.92,
+      "native_peak_signed_kN": -8691.637986375608,
+      "native_peak_abs_kN": 8691.637986375608,
+      "reference_at_native_peak_signed_kN": 8691.808506660656,
+      "reference_peak_abs_kN": 8691.808506660656,
+      "reference_peak_time_s": 22.92,
+      "reference_peak_error_percent": 0.001961888947921153,
+      "absolute_curve_NRMSE_percent": 0.028441376421746097,
+      "reference_mode2_kN": 7175.398890439124,
+      "reference_mode10_kN": 695.3230471317162,
+      "reference_mode13_kN": -42.61683313938931,
+      "reference_modes1to3_kN": 8048.3288722802145,
+      "reference_modes4to300_kN": 643.4796343804421,
+      "mode2_over_reference_total_percent": 82.55357771562171,
+      "reference_mode10_own_peak_kN": 1754.9638582181472,
+      "reference_mode13_own_peak_kN": 442.2856076593077,
+      "scope": "conditional fixed300 linear reference; not native unique modal forces"
+    },
+    {
+      "Case": "SHW3X",
+      "zeta": 0.08,
+      "Story": 5,
+      "native_peak_time_s": 22.94,
+      "native_peak_signed_kN": -8096.1503411165795,
+      "native_peak_abs_kN": 8096.1503411165795,
+      "reference_at_native_peak_signed_kN": 8096.34869549758,
+      "reference_peak_abs_kN": 8096.34869549758,
+      "reference_peak_time_s": 22.94,
+      "reference_peak_error_percent": 0.002449983913876963,
+      "absolute_curve_NRMSE_percent": 0.012328508964494007,
+      "reference_mode2_kN": 6762.8389121689515,
+      "reference_mode10_kN": 506.92573595511493,
+      "reference_mode13_kN": 28.36055090615144,
+      "reference_modes1to3_kN": 7583.508445723787,
+      "reference_modes4to300_kN": 512.8402497737919,
+      "mode2_over_reference_total_percent": 83.5294917069197,
+      "reference_mode10_own_peak_kN": 1481.4927553531138,
+      "reference_mode13_own_peak_kN": 354.7745002665176,
+      "scope": "conditional fixed300 linear reference; not native unique modal forces"
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.05,
+      "Story": 5,
+      "native_peak_time_s": 29.94,
+      "native_peak_signed_kN": -10178.091451838196,
+      "native_peak_abs_kN": 10178.091451838196,
+      "reference_at_native_peak_signed_kN": 10175.167794429946,
+      "reference_peak_abs_kN": 10175.167794429946,
+      "reference_peak_time_s": 29.94,
+      "reference_peak_error_percent": -0.02872500627533192,
+      "absolute_curve_NRMSE_percent": 0.15638656547943197,
+      "reference_mode2_kN": 8632.394593212224,
+      "reference_mode10_kN": 443.4848984756216,
+      "reference_mode13_kN": 25.115528748531034,
+      "reference_modes1to3_kN": 9700.122901148601,
+      "reference_modes4to300_kN": 475.04489328134446,
+      "mode2_over_reference_total_percent": 84.83785985266738,
+      "reference_mode10_own_peak_kN": 1355.9954418239329,
+      "reference_mode13_own_peak_kN": 247.50693504308668,
+      "scope": "conditional fixed300 linear reference; not native unique modal forces"
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.08,
+      "Story": 5,
+      "native_peak_time_s": 29.92,
+      "native_peak_signed_kN": -9027.745083929776,
+      "native_peak_abs_kN": 9027.745083929776,
+      "reference_at_native_peak_signed_kN": 9028.472674517716,
+      "reference_peak_abs_kN": 9028.472674517716,
+      "reference_peak_time_s": 29.92,
+      "reference_peak_error_percent": 0.008059494161338776,
+      "absolute_curve_NRMSE_percent": 0.08587265572493807,
+      "reference_mode2_kN": 7753.758091761161,
+      "reference_mode10_kN": 309.5494703701177,
+      "reference_mode13_kN": -1.6801126998473868,
+      "reference_modes1to3_kN": 8706.662195532195,
+      "reference_modes4to300_kN": 321.81047898551986,
+      "mode2_over_reference_total_percent": 85.88117139287186,
+      "reference_mode10_own_peak_kN": 1202.5144412879451,
+      "reference_mode13_own_peak_kN": 213.71649747017028,
+      "scope": "conditional fixed300 linear reference; not native unique modal forces"
+    }
+  ],
+  "between_input": [
+    {
+      "zeta": 0.05,
+      "native_SH4_minus_SH3_own_peak_kN": 1486.4534654625877,
+      "reference_SH4_minus_SH3_own_peak_kN": 1483.35928776929,
+      "reference_mode2_difference_kN": 1456.9957027730998,
+      "reference_modes1to3_difference_kN": 1651.7940288683867,
+      "reference_modes4to300_difference_kN": -168.43474109909766,
+      "scope": "composition at each input own peak; different times, not same-time causal allocation"
+    },
+    {
+      "zeta": 0.08,
+      "native_SH4_minus_SH3_own_peak_kN": 931.5947428131967,
+      "reference_SH4_minus_SH3_own_peak_kN": 932.1239790201362,
+      "reference_mode2_difference_kN": 990.9191795922097,
+      "reference_modes1to3_difference_kN": 1123.153749808408,
+      "reference_modes4to300_difference_kN": -191.02977078827206,
+      "scope": "composition at each input own peak; different times, not same-time causal allocation"
+    }
+  ],
+  "no_new_ODE": true,
+  "no_output_fitting": true,
+  "no_native_modal_force_claim": true,
+  "sources_unchanged": true,
+  "max_independent_difference_kN": 3.637978807091713e-12,
+  "interpretation": "This conditional reference does not support modes10/13 dominating SHW4X Story5. Native causal attribution remains unresolved."
+}

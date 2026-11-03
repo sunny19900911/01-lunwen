@@ -1,0 +1,26 @@
+{
+  "mode": "current-subagents",
+  "agents": [
+    {
+      "role": "audit",
+      "name": "/root/p06_s23_audit",
+      "task": "R001",
+      "actual_status": "running",
+      "dispatched_at": "2026-11-03T08:48:00+08:00"
+    },
+    {
+      "role": "literature",
+      "name": "/root/p06_s23_literature",
+      "task": "R001",
+      "actual_status": "running",
+      "dispatched_at": "2026-11-03T08:48:00+08:00"
+    },
+    {
+      "role": "writing",
+      "name": "/root/p06_s23_author",
+      "task": "R001",
+      "actual_status": "running",
+      "dispatched_at": "2026-11-03T08:48:00+08:00"
+    }
+  ]
+}

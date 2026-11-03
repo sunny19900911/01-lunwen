@@ -1,0 +1,29 @@
+{
+  "at": "2026-11-03T08:49:28.705348+08:00",
+  "rows": [
+    {
+      "input": "SHW3X",
+      "PB_kN": 8691.637986375608,
+      "PM_kN": 8096.1503411165795,
+      "paired_reduction_percent": 6.851270683298971,
+      "tB_s": 22.92,
+      "tM_s": 22.94,
+      "scope": "Observed paired software peak; mechanism table is conditional reference."
+    },
+    {
+      "input": "SHW4X",
+      "PB_kN": 10178.091451838196,
+      "PM_kN": 9027.745083929776,
+      "paired_reduction_percent": 11.302181488069296,
+      "tB_s": 29.94,
+      "tM_s": 29.92,
+      "scope": "Observed paired software peak; mechanism table is conditional reference."
+    }
+  ],
+  "sum_checks": {
+    "four_states_300_term_sum": true,
+    "no_new_ODE": true
+  },
+  "engineering_reading": "SHW3X has smaller paired reduction but SHW4X greater PM. Do not assign SHW3 reduction to SHW4 PM. Conditional mechanism comparison does not replace this direct output decision.",
+  "status": "Root arithmetic precheck; independent audit in progress."
+}

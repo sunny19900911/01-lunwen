@@ -1,0 +1,111 @@
+{
+  "checkpoint": "R000",
+  "message": "P06 session023: launch focused SH3 SH4 mechanism review",
+  "files": [
+    {
+      "relative": "research/sessions/20261103-0845/plan.md",
+      "sha256": "34bd5b4b2a39a74142587bc534fd318067ad498e892e1aab54aca36e69860afd"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/status.json",
+      "sha256": "2dac597b09e04ef7631d637dd67134dc67d8d23607fc5e9aa72ca7fbefca1236"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/authorization-evidence.json",
+      "sha256": "7a903367caee8635f5dd6c506d80d384747b6cc8f7b5fa51f8caeb9645203289"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/input-manifest.json",
+      "sha256": "e07235576e49d541d5a1d55998398b9a506f12c21cdbdde178fd2755f6546385"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/claims.md",
+      "sha256": "588a78dc9bae1cc87dcc634b8c57a1e350a4736dd2eff4748793450b0a1c84dc"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/runs.md",
+      "sha256": "43c09cf89923ff3506ceba55576376865db3a0efb195765a235422985133ad0d"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/next-task.md",
+      "sha256": "d58fa85c53aa7df4f49b65e3b6f0e6e5239896a67b15117aad952f8985833dfc"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/threads.json",
+      "sha256": "2eec805f3da0abe09b4b2acb61a696eeaffdf9582481625ddd03f5e616ba4d22"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/root_engineering_precheck.py",
+      "sha256": "6619193c4eb9386b0c6923fd31a119fbcaacd60f128175a9fa243b6154b2d642"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/root-R001-engineering-precheck.json",
+      "sha256": "01d15f1bc0ff283b5d59b4f7eb53adc432a6e3418767407368d5a99f7a0d554f"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/automation-create-tool-receipt.json",
+      "sha256": "6f7120ac61681a94620d80dc75045ad69954d92918afe9b3f72140e1263671e7"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/automation-actual-readback.json",
+      "sha256": "6224a9c0c5f346fa7e4d85bb3c4c93278ba4e0252f2bc7ca70d4df88388a7ca3"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/publish_checkpoint.py",
+      "sha256": "2f822e69dff6f2d2ec8cd3158aa3ed43e7db0a24a1450b774be4a20d13954051"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/checkpoint_R000.py",
+      "sha256": "684bf7d924ae6bb68851e970bef51179a08e2e6c762f593f5d512ebe0a0e67c2"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/rounds/R000.md",
+      "sha256": "861ac4935e4a28e32b717e7e172003541e21d5270d94902928c663301498243a"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/topic-cards/T001.md",
+      "sha256": "93629d44719d4607915609634edc18be1cbffc00976d5c5883ee02425427fa94"
+    },
+    {
+      "relative": "research/handoffs/p06-sh3-sh4-20261103/任务与证据交接.md",
+      "sha256": "28d510340447402406d08fd6c28b27dc75fc1b34f6e7edb5b4e150d36b50266c"
+    },
+    {
+      "relative": "research/handoffs/p06-sh3-sh4-20261103/recompute_comparison.py",
+      "sha256": "712ced2c93d78c05d58445e0e34f9095549b36b519e196630a622f9a0d782c99"
+    },
+    {
+      "relative": "research/handoffs/p06-sh3-sh4-20261103/results.json",
+      "sha256": "21c3b411c961bf8edbd33b763d5af740d1c1fdc049a27e04b2f3d90a7983ebff"
+    },
+    {
+      "relative": "research/handoffs/p06-sh3-sh4-20261103/story5-reference-checks-4.csv",
+      "sha256": "69c407eef1b6937f77ea492a4469d540f4cad23fe820e20754de8df3262eabae"
+    },
+    {
+      "relative": "research/handoffs/p06-sh3-sh4-20261103/story5-all300-signed-reference-1200.csv",
+      "sha256": "c23fc94f34d4f1a0d414f9ed4ee97d6c5dd732d71f7917194784f9528b64e3fe"
+    },
+    {
+      "relative": "research/handoffs/p06-sh3-sh4-20261103/independent-frozen-CSV-checks-20.csv",
+      "sha256": "6fe6623d374996edd4009b5e9865cd0ae592c7e1e8d655d17aca86ec5b3be99f"
+    },
+    {
+      "relative": "research/handoffs/p06-sh3-sh4-20261103/all12-reference-checks-48.csv",
+      "sha256": "951d05631ef2f82f052c077105d524b38d655ae6d01d567024d3766564f37810"
+    },
+    {
+      "relative": "research/handoffs/p06-sh3-sh4-20261103/story5-between-input-comparison-2.csv",
+      "sha256": "c6a2dadf7ccded813b9ef93e9e0ae0ca26dcaca770f17ac033d8511367b23d5f"
+    }
+  ],
+  "checks": [
+    "Human corrected SH3/SH4 and new150minute roles/Git authorization actually read",
+    "Old v003 scientific and Word SHA preserved; no oldwindow restored",
+    "Root paired-output arithmetic and four300term sums checked; independent audit pending",
+    "Handoff package is candidate/reference, not native causal decomposition",
+    "Three finite agents dispatched; no active manuscript included",
+    "Formal unique heartbeat create/view/actual configuration verified; prior3 paused",
+    "Explicit small-file whitelist; no cache/raw/fulltimeseries/thirdpartyfulltext/old dirty"
+  ]
+}

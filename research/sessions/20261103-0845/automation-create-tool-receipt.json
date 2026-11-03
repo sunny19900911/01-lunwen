@@ -1,0 +1,19 @@
+{
+  "first_attempt": {
+    "isError": true,
+    "reason": "Missing targetThreadId or destination=thread; no automation created"
+  },
+  "create": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Created automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"p06-sh3-sh4-150\",\"mode\":\"create\",\"status\":\"ACTIVE\"}"
+      }
+    ],
+    "isError": false
+  }
+}
