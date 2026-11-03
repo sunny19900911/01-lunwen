@@ -1,0 +1,77 @@
+{
+  "at": "2026-11-03T19:04:26.847382+08:00",
+  "selection": "Root selected max absolute B/D peak-time shift among complete native-P Story8-11 × six cases, using prior frozen24/72; this role adds exactly one new group",
+  "result": {
+    "Case": "RH4Y",
+    "Axis": "Y",
+    "Story": "Story10",
+    "n_saved": 2501,
+    "P_B_kN": 4277.279823603668,
+    "P_D_kN": 3395.9230318706223,
+    "P_QD_abs_kN": 411.9139476724386,
+    "t_B_s": 16.62,
+    "t_D_s": 21.64,
+    "t_QD_s": 16.46,
+    "B_signed_at_tB_kN": 4277.279823603668,
+    "D_signed_at_tB_kN": 2815.531355145561,
+    "D_signed_at_tD_kN": 3395.9230318706223,
+    "B_signed_at_tD_kN": 4167.678991359884,
+    "QD_signed_at_tB_kN": -111.2123370434495,
+    "QD_signed_at_tD_kN": -258.2222534744777,
+    "sigma_B_peak": 1,
+    "old_direction_signed_weakening_S_kN": 1461.7484684581068,
+    "own_peak_selection_recovery_M_kN": 580.3916767250612,
+    "P_B_minus_P_D_kN": 881.3567917330456,
+    "S_minus_M_identity_residual_kN": 0.0,
+    "r_at_percent": 34.17472152258122,
+    "r_D_peak_percent": 20.605544366524285,
+    "d_pp": 13.569177156056933,
+    "D_at_tB_same_sign_as_B_peak": true,
+    "D_own_peak_same_sign_as_B_peak": true,
+    "t_D_minus_t_B_s": 5.02,
+    "t_QD_minus_t_D_s": -5.18,
+    "QD_abs_at_tB_over_own_peak_percent": 26.998924817153206,
+    "QD_abs_at_tD_over_own_peak_percent": 62.68839764557347,
+    "scope": "Actual saved-curve peak accounting; not a causal phase share or damper-generated new-peak proof"
+  },
+  "all_full_grids_and_QT_columns_exact": true,
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\manifest.json",
+      "bytes": 443242,
+      "sha256": "1e78f5a15bff3ebe88d59375f84de36733037fdee5baefdf5b81a95e83e58f58"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "bytes": 193090,
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Forces.npz",
+      "bytes": 24737339,
+      "sha256": "fb11e299f62682d0bf3a68644cdae474ca8a6ce96863838e02117431f72caf8d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Forces.npz",
+      "bytes": 10443167,
+      "sha256": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261019-2045\\roles\\data\\local-cache\\R002-native-horizontal\\paired-layer-histories.npz",
+      "bytes": 4894183,
+      "sha256": "dff22ab303c492e4f8943171b2e26abd1e932913c2d4acf7be3f9385f72bf083"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-1700\\roles\\response\\actual-versus-baseline-time-peak-72.csv",
+      "bytes": 37385,
+      "sha256": "c3b925fc51564f88acb8779984a5cf7378bf03727414af38f6779519e2c043da"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-1458\\roles\\response\\native-device-layer-timing-24.csv",
+      "bytes": 6622,
+      "sha256": "06c74b24e839dc68ef5b79d433b180350f62ea934df5bcbdb72421f0a5e64519"
+    }
+  ],
+  "new_ODE_or_fits": 0,
+  "raw_workbook_reads": 0
+}

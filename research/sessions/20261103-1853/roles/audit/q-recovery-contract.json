@@ -1,0 +1,35 @@
+{
+  "at": "2026-11-03T19:03:54.584601+08:00",
+  "method": "Read existing reviewed identifiability and physical-interface reports; no old rank, ODE or fit rerun",
+  "sources": [
+    {
+      "path": "research/sessions/20261031-1130/roles/role4/R003/README-B-inertia-and-observability.md",
+      "sha256": "fcb7450a22a0b022b5d3041effa32c056a4cfe9d9e2b6ce776ec9c8c8cbfaac2"
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role4/R003/modes2-10-13-coordinate-identifiability-3.csv",
+      "sha256": "224c7c972fe2f699308d7cbd12f5bebf510619be625c6d2ef3f1039a07d04a5a"
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role6/R003/one-page-v002.md",
+      "sha256": "a3d4aa73dce72057b01d9719ca32d0e50497109e4a3fc0efdc1d97c858d5643d"
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role2/R004/one-page.md",
+      "sha256": "0aec7d5a803ad892b6c7466ce015308705b923c6e7b729cf4ab02d98766517e3"
+    },
+    {
+      "path": "research/sessions/20261031-1130/roles/role1/R003/forward-physical-interface-one-page.md",
+      "sha256": "6363c24e7b5b841de55baf214425e81926ada7a0427077f484e54e09cda31ce2"
+    }
+  ],
+  "reuse_rank36_only_for_XY_instantaneous": true,
+  "old_mode2_distance": 0.19208075776642738,
+  "old_mode13_distance": 0.05033337973373216,
+  "does_not_exclude_dynamic_or_enlarged_observation_recovery": true,
+  "requires_actual_dynamics_and_all_projected_nonlinear_forces_for_dynamic_closure": true,
+  "full_actual_q_recovery_currently_established": false,
+  "q_and_shear_recovery_are_separate": true,
+  "must_for_contract": 0,
+  "new_numeric_experiments": 0
+}

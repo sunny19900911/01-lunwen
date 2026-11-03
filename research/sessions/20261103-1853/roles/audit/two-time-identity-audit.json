@@ -1,0 +1,20 @@
+{
+  "at": "2026-11-03T19:18:57.304241+08:00",
+  "source": "actual-sametime-audit.json/Story10_RH4Y",
+  "formula": "d2-d1=(delta1-delta2)-(b1-b2)",
+  "b1_kN": 4277.279823603668,
+  "b2_kN": 4167.678991359884,
+  "d1_kN": 2815.531355145561,
+  "d2_kN": 3395.9230318706223,
+  "delta1_kN": 1461.7484684581068,
+  "delta2_kN": 771.7559594892618,
+  "baseline_peak_gap_kN": 109.60083224378377,
+  "reduction_difference_kN": 689.992508968845,
+  "actual_second_over_first_gain_kN": 580.3916767250612,
+  "identity_rhs_kN": 580.3916767250612,
+  "residual_kN": 0.0,
+  "competition_condition_satisfied": true,
+  "must": 0,
+  "interpretation": "Post-response two-time absolute-demand accounting; not input-free prediction, pure phase/modal share, or isolated device causation",
+  "new_array_reads": 0
+}

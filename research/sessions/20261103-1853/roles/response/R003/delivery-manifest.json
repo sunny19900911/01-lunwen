@@ -1,0 +1,44 @@
+{
+  "status": "frozen-figure",
+  "at": "2026-11-03T19:09:24.822717+08:00",
+  "actual_PNG_original_detail_viewed": true,
+  "all_source_numeric_manifests_unchanged": true,
+  "all_saved_points_preserved": true,
+  "displayed_examples": [
+    "Story8 RH4X",
+    "Story10 RH4Y"
+  ],
+  "new_ODE_or_fit": false,
+  "files": [
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/R003/actual-B-D-QD-two-records.png",
+      "bytes": 167491,
+      "sha256": "db896e87ae581dd3bdf6601ee98643b66454bc0c8cb9c6601384f999fba4d674"
+    },
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/R003/actual-B-D-QD-two-records.svg",
+      "bytes": 271838,
+      "sha256": "fe5ad0e42f61f67eb0dd2e95573e96e3b240abd5a84664cdcc72414e1d5ba325"
+    },
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/R003/plot-record.json",
+      "bytes": 2296,
+      "sha256": "f42989c983f9f344fc3cd9f7b4ee6248ee0bec57c484ba91e77269f5ca4bd6ba"
+    },
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/R003/actual-mechanism-writing-note.md",
+      "bytes": 3101,
+      "sha256": "baef2444c07f2a9d5af6384de02a1a93d0ad56c070a5a8eb17012f027931ff1f"
+    },
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/plot_actual_B_D_QD.py",
+      "bytes": 6997,
+      "sha256": "45f884cee5176bffc75e38f4a9c235f3baba53e65c0834f87c19bbd8ff2c4d05"
+    },
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/freeze_actual_figure.py",
+      "bytes": 1270,
+      "sha256": "b86312413ff73a7a9160fdd2dd22b613fe7af9e391107ad4fd9b8ea7ca7d7331"
+    }
+  ]
+}

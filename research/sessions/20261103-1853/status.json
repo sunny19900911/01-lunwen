@@ -1,0 +1,22 @@
+{
+  "phase": "final-review-and-word-production",
+  "started_at": "2026-11-03T18:52:46+08:00",
+  "recorded_at": "2026-11-03T19:09:53.139391+08:00",
+  "checkpoint_open": false,
+  "source": "papers/damping-output-boundaries/manuscript/p06-actual-main-session026-v003.md",
+  "source_sha256": "2aae66c26effa5c5436cd0b08cb883ead63d5f0ed12ffd88f47a9400a24cc370",
+  "main_author": "root",
+  "agents": [
+    "p06_actual_response",
+    "p06_actual_pairing",
+    "p06_actual_audit"
+  ],
+  "no_solver": true,
+  "no_new_ODE": true,
+  "automation_created": false,
+  "no_new_numeric_experiments": true,
+  "no_new_scientific_dispatch": true,
+  "scientific_manuscript": "papers/damping-output-boundaries/manuscript/p06-actual-timing-session027-v003.md",
+  "scientific_sha256": "61bce79bc063aa05deef28508cdd0189d93341162cca58475d64481402e7fb18",
+  "actual_q_recovery": "CM projection completed; exact actual q and shear reconstruction not closed"
+}

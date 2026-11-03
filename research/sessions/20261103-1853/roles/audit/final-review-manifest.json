@@ -1,0 +1,64 @@
+{
+  "status": "frozen",
+  "at": "2026-11-03T19:33:49.865837+08:00",
+  "must": 0,
+  "optional_should": 2,
+  "final_manuscript_sha256": "2a703d4b763b720f9f6bb5c44eadb442bafae66b5d134b3904ffcbdd07647938",
+  "files": [
+    {
+      "path": "research/sessions/20261103-1853/roles/audit/actual-sametime-audit.json",
+      "bytes": 11714,
+      "sha256": "7c007046cbd179e61ce21152bd98109540f7108e3773589a51f20f1b303d6bee"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/audit/audit_actual_sametime.py",
+      "bytes": 6326,
+      "sha256": "ca4ef1504b0ea67b4457d192e66761379cfb0912b15edfbe5a68bcafaaef77ed"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/audit/check_final_timing_draft.py",
+      "bytes": 3092,
+      "sha256": "a61bb4c89e39b4e03db5b5ffd86c4e3d78e2b1ca904b63deb9ebf4b17589795a"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/audit/final-review.md",
+      "bytes": 3325,
+      "sha256": "1917d681cdee894be01626be1d3625b3fb3845d2619cd8d8e5329edf73af2ca9"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/audit/final-timing-draft-checks.json",
+      "bytes": 1401,
+      "sha256": "2f42425da79f33b702ff783d26e70cec43e49ae360eedae39e8d38eec1a74607"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/audit/independent-peak-accounting-7.csv",
+      "bytes": 3656,
+      "sha256": "f4960a846e01b0ff81ae8aa8ef0679fe3b3b5fad34f6a95ab790f8996fc46b62"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/audit/independent-three-times-21.csv",
+      "bytes": 4868,
+      "sha256": "861a1a179e7f9141b86a87153734538b6a9a2955377b6ee95cf9c69fd169b686"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/audit/modal-projection-review.md",
+      "bytes": 2059,
+      "sha256": "8831498e00f4515278a000ed6309d96073c64c62616097587570fcba0db8e433"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/audit/q-recovery-contract.json",
+      "bytes": 1640,
+      "sha256": "bef4ba5d041983523021d2a4a139d930211c3648931ee25e1d52c0ca37c80b3c"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/audit/q-recovery-contract.md",
+      "bytes": 6970,
+      "sha256": "2bebb30b36854606d9cfca2caac1445873daf44eba946a51c1e21662439c66ac"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/audit/two-time-identity-audit.json",
+      "bytes": 804,
+      "sha256": "f5c8826f4d0841a32ebd1c004a915d5811238bf3131d9768979a457bfa3ba627"
+    }
+  ]
+}

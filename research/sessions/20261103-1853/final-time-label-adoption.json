@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-03T19:30:25.371747+08:00",
+  "output": "papers/damping-output-boundaries/manuscript/p06-actual-timing-session027-v003.md",
+  "bytes": 29311,
+  "sha256": "61bce79bc063aa05deef28508cdd0189d93341162cca58475d64481402e7fb18",
+  "old": "当两时刻降低量之差大于原需求差时，后一时刻在实际方案中更大。",
+  "new": "当两时刻降低量之差大于原需求差时，t₂时刻在实际方案中更大。",
+  "reason": "t2 means actual-scheme peak, which need not occur later than t1 in clock time; appendix headings renumbered A1.1/A1.2/TableA1. No scientific values changed."
+}

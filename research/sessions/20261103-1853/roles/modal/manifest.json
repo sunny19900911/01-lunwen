@@ -1,0 +1,45 @@
+{
+  "status": "frozen",
+  "at": "2026-11-03T19:08:03.708592+08:00",
+  "files": [
+    {
+      "path": "research/sessions/20261103-1853/roles/modal/actual-observation-projection-summary-12.csv",
+      "bytes": 1437,
+      "sha256": "b3879275a0c76c9114cfb882e33a0748251732b3e3da28786ce7f30aa1a4adeb"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/modal/check_observed_projection.py",
+      "bytes": 6378,
+      "sha256": "44a9754b5e152ab25e4408bf7843163c771a243ff83464ff8a2cce74e3e7a9b6"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/modal/known-reference-projection-errors-4.csv",
+      "bytes": 994,
+      "sha256": "0a1a2814c7681cae38d2857e5ec65eb536809c537596cf08b6770bbf1750ce76"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/modal/largest-modal-mixing-20.csv",
+      "bytes": 606,
+      "sha256": "c55c9bf170c548cf94d908307cb756b5d299de658cc7b0c75224960e8a9cb1d0"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/modal/projection-Gram-selected-2.csv",
+      "bytes": 356,
+      "sha256": "47f85830e0eac9e6db080c3adae4df537e7b7d8181e61e4537923146a26affc3"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/modal/projection-results.json",
+      "bytes": 6035,
+      "sha256": "4089ef393b541c84312370c0dd27f14f2b820e54b305aa48703c664c9fe58da3"
+    },
+    {
+      "path": "research/sessions/20261103-1853/roles/modal/实际模态坐标恢复诊断.md",
+      "bytes": 7190,
+      "sha256": "39d9eaf3ef0a62385cfd854ae4720d74eeaff66e8a0492bf850ec21e8280d7e2"
+    }
+  ],
+  "actual_q_recovered": false,
+  "actual_modal_shear_recovered": false,
+  "all_arrays_local_only": true,
+  "new_ODE_or_fit": 0
+}

@@ -1,0 +1,51 @@
+{
+  "status": "numbers-frozen-awaiting-independent-audit",
+  "at": "2026-11-03T19:01:58.233260+08:00",
+  "rows18": 18,
+  "cases6": 6,
+  "all_six_inputs_retained": true,
+  "all_source_hashes_unchanged": true,
+  "six_all_B_D_peak_signs_same": true,
+  "objective_case_selection": {
+    "Story8_max_d_case": "RH4Y",
+    "Story8_max_abs_peak_time_shift_case": "SHW4Y",
+    "no_cross_wave_packet_shift_claim": true
+  },
+  "files": [
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/story8_actual_mechanism.py",
+      "bytes": 9090,
+      "sha256": "2d372f0fff9bf8673a9d933436101c058b928086e8973d7370fdcd8ca6093eb5"
+    },
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/input-freeze.json",
+      "bytes": 2551,
+      "sha256": "7672f873c59eda534ce33eefd057ffe7f45b5274b59757aae50b4e8b1c827b61"
+    },
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/Story8-native-three-times-18.csv",
+      "bytes": 6934,
+      "sha256": "5341a43a0c7cdba308f0dccf1ed93ac6abeff838c50344d99868d4ae107b6205"
+    },
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/Story8-actual-peak-accounting-6.csv",
+      "bytes": 3869,
+      "sha256": "536562d33d7b644c4125d3a004e6120cdb5e6481a47eb6870e36247a4e037d9b"
+    },
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/Story8-mechanism-summary.json",
+      "bytes": 11207,
+      "sha256": "d63cec71931e97f664f9d54885f2dda24aaaf2c6a30fc14d48f9c50f793a4baa"
+    },
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/Story8-actual-mechanism-report.md",
+      "bytes": 2330,
+      "sha256": "d0876fc491efcfb908a1cd916593f55ebd5eb9edebb85562bc6a50bbac58eaf6"
+    },
+    {
+      "relative": "research/sessions/20261103-1853/roles/response/freeze_story8_numbers.py",
+      "bytes": 1768,
+      "sha256": "03886e7ac22702ebc8d04e9fafcbd1b08be462b8f3f5377966f4714afcafa22a"
+    }
+  ]
+}

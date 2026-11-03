@@ -1,0 +1,50 @@
+{
+  "at": "2026-11-03T19:07:31.541235+08:00",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Forces.npz",
+      "bytes": 24737339,
+      "sha256": "fb11e299f62682d0bf3a68644cdae474ca8a6ce96863838e02117431f72caf8d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Forces.npz",
+      "bytes": 10443167,
+      "sha256": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261019-2045\\roles\\data\\local-cache\\R002-native-horizontal\\paired-layer-histories.npz",
+      "bytes": 4894183,
+      "sha256": "dff22ab303c492e4f8943171b2e26abd1e932913c2d4acf7be3f9385f72bf083"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-1853\\roles\\response\\Story8-mechanism-summary.json",
+      "bytes": 11207,
+      "sha256": "d63cec71931e97f664f9d54885f2dda24aaaf2c6a30fc14d48f9c50f793a4baa"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-1853\\roles\\response\\R002\\numeric-summary.json",
+      "bytes": 3899,
+      "sha256": "b912212e3017901b2501b08f080b555d34be468bf7c2f328a38dfe6d3545134c"
+    }
+  ],
+  "displayed_cases": [
+    {
+      "Story": "Story8",
+      "Case": "RH4X"
+    },
+    {
+      "Story": "Story10",
+      "Case": "RH4Y"
+    }
+  ],
+  "selection": "Root retains Story8 RH4X small-shift case and chooses RH4Y Story10 as max absolute peak-time shift among complete native-device-P Story8-11 × six cases; all Story8 six are kept in numerical supplement",
+  "source_numeric_checks_passed": true,
+  "full_original_saved_time_axis_in_both_rows": true,
+  "no_smoothing_or_interpolation": true,
+  "no_new_ODE_or_fit": true,
+  "visual_review_pending": true,
+  "pixels": [
+    1900,
+    1390
+  ]
+}

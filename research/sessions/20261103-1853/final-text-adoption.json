@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-03T19:29:27.504404+08:00",
+  "source_sha256": "2a703d4b763b720f9f6bb5c44eadb442bafae66b5d134b3904ffcbdd07647938",
+  "output": "papers/damping-output-boundaries/manuscript/p06-actual-timing-session027-v002.md",
+  "bytes": 29313,
+  "sha256": "1a16772c55cfc6d3cb66985729ef9c130a34d6e74c817e59a1e93484deee6103",
+  "changes": [
+    {
+      "old": "本节直接比较实际方案D与基准B的原生时程，不再用模态增阻尼参考解释实际方案。",
+      "new": "比较实际方案D与基准B的原生时程，分别检查原控制时段、自身控制峰和装置出力。"
+    },
+    {
+      "old": "该关系直接核对已得到的两状态时程，说明控制时刻为何重新选择。",
+      "new": "该关系直接核对已得到的两状态时程，说明两个时刻的大小关系如何改变。"
+    },
+    {
+      "old": "工程解释应回到实际两状态的竞争时段，并继续核查对应运动与装置出力。",
+      "new": "工程解释应回到实际两状态中两处接近峰所在时段，并继续核查对应运动与装置出力。"
+    }
+  ],
+  "all_tables_equations_figures_unchanged": true,
+  "reason": "Adopted optional final wording and removed draft-revision history from scientific prose."
+}

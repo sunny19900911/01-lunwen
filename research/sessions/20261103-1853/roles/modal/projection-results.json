@@ -1,0 +1,130 @@
+{
+  "at": "2026-11-03T19:03:15.274411+08:00",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261022-1856\\roles\\role4\\R001\\local-cache\\CM-signed-all300-5400.csv",
+      "bytes": 1418506,
+      "sha256": "16d64ca68559dc5158e51ed6a48e76d2453064cdb8d1408326b6c02c90b12908"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R002\\identified-masses-before-old-comparison-36.csv",
+      "bytes": 5821,
+      "sha256": "08afe9bfc929afbeca0fc1d319e232ccdb965ec3de1451866d0a6716c80d7384"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\actual300-frozen-forward-coefficients-300.csv",
+      "bytes": 42396,
+      "sha256": "50016e25111bdd8a0b35091832a383301183451c790603747b09baae7fd5105d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-RH4X-z0.05-factorized-reference.npz",
+      "bytes": 13812241,
+      "sha256": "2354441c71c1bf4e714c26d43af7b103c443419be8578bf775c47466a604cae5"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.05-factorized-reference.npz",
+      "bytes": 16292630,
+      "sha256": "61c7165f08156aaef3af39dab94832b89772c60517d5a4444d74add79cb936d8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "bytes": 193090,
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Diaphragm_CM_Displacements.npz",
+      "bytes": 8749533,
+      "sha256": "586f68d2b6b802979d42e3e83bf6f51d8af0144dde1f499e63929fe47f9dd17a"
+    }
+  ],
+  "single_new_test": "observed-CM mass projection for modes2/13; Gram mixing plus previously solved known-q_ref benchmark and actual observation projections",
+  "formula": "q_obs[r]=mr[r]^-1*sum_18(mX*phiX_r*UX_actual +mY*phiY_r*UY_actual); q_obs=G_observed*q only under the retained span and observed-mass model",
+  "old_static_result_reused_not_recomputed": {
+    "shape": [
+      36,
+      300
+    ],
+    "rank": 36,
+    "null_dimension": 264
+  },
+  "selected_Gram": [
+    {
+      "Mode": 2,
+      "observed_fraction_diagonal": 0.9627481095302205,
+      "cross_coupling_L2": 0.18843540601945238,
+      "largest_abs_cross_coupling": 0.15360036000050803,
+      "largest_coupled_Mode": 3,
+      "scope": "mass observation projection, not full FE Gram or actual q"
+    },
+    {
+      "Mode": 13,
+      "observed_fraction_diagonal": 0.9920533651639797,
+      "cross_coupling_L2": 0.05003323616405273,
+      "largest_abs_cross_coupling": 0.024594322419561394,
+      "largest_coupled_Mode": 15,
+      "scope": "mass observation projection, not full FE Gram or actual q"
+    }
+  ],
+  "known_reference_tests": [
+    {
+      "Case": "RH4X",
+      "reference_zeta": 0.05,
+      "Mode": 2,
+      "NRMSE_observation_projection_vs_known_q_ref": 0.03187733012380568,
+      "known_q_ref_peak_abs": 9347.099689900977,
+      "projection_peak_abs": 9252.223470218743,
+      "projection_peak_relative_difference": -0.010150337840596935,
+      "q_ref_peak_time_s": 21.66,
+      "projection_peak_time_s": 21.64,
+      "mixing_RMS_over_true_q_RMS": 0.034191073536002904,
+      "scope": "known linear-reference benchmark; no actual nonlinear q ground truth"
+    },
+    {
+      "Case": "RH4X",
+      "reference_zeta": 0.05,
+      "Mode": 13,
+      "NRMSE_observation_projection_vs_known_q_ref": 0.07138030014751984,
+      "known_q_ref_peak_abs": 70.40100363253735,
+      "projection_peak_abs": 70.80827666648119,
+      "projection_peak_relative_difference": 0.00578504585061923,
+      "q_ref_peak_time_s": 11.68,
+      "projection_peak_time_s": 11.68,
+      "mixing_RMS_over_true_q_RMS": 0.07084684676030908,
+      "scope": "known linear-reference benchmark; no actual nonlinear q ground truth"
+    },
+    {
+      "Case": "SHW4X",
+      "reference_zeta": 0.05,
+      "Mode": 2,
+      "NRMSE_observation_projection_vs_known_q_ref": 0.031395976020860576,
+      "known_q_ref_peak_abs": 10932.79724687848,
+      "projection_peak_abs": 10905.948448817024,
+      "projection_peak_relative_difference": -0.0024558031631951582,
+      "q_ref_peak_time_s": 29.94,
+      "projection_peak_time_s": 29.92,
+      "mixing_RMS_over_true_q_RMS": 0.043040694254594856,
+      "scope": "known linear-reference benchmark; no actual nonlinear q ground truth"
+    },
+    {
+      "Case": "SHW4X",
+      "reference_zeta": 0.05,
+      "Mode": 13,
+      "NRMSE_observation_projection_vs_known_q_ref": 0.04924746963224638,
+      "known_q_ref_peak_abs": 79.34477023692673,
+      "projection_peak_abs": 78.02207501242994,
+      "projection_peak_relative_difference": -0.016670225656299387,
+      "q_ref_peak_time_s": 27.7,
+      "projection_peak_time_s": 27.7,
+      "mixing_RMS_over_true_q_RMS": 0.04864740937993811,
+      "scope": "known linear-reference benchmark; no actual nonlinear q ground truth"
+    }
+  ],
+  "actual_projection_rows": 12,
+  "actual_q_recovered": false,
+  "actual_modal_shear_recovered": false,
+  "new_ODE_or_output_fits": 0,
+  "new_raw_workbooks_read": 0,
+  "actual_CM_groups_read": 108,
+  "all_arrays_local_only": true,
+  "new_actual_projection_values_not_for_paper_real_q": true
+}

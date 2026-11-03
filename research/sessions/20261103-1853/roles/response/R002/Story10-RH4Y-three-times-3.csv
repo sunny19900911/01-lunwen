@@ -1,0 +1,4 @@
+Case,Axis,Story,anchor,time_s,B_QT_signed_kN,D_QT_signed_kN,QD_signed_J_resisting_kN,QD_abs_over_own_abs_peak_percent,QD_signed_over_own_abs_peak_percent,D_QT_abs_over_own_abs_peak_percent,B_QT_abs_over_own_abs_peak_percent,B_SourceRow,D_SourceRow,QD_combo_matches_D_SourceRow,scope
+RH4Y,Y,Story10,tB,16.62,4277.279823603668,2815.531355145561,-111.2123370434495,26.998924817153206,-26.998924817153206,82.90916280262817,100.0,80408,35928,True,Simultaneous native outputs; no QS or causal component subtraction
+RH4Y,Y,Story10,tD,21.64,4167.678991359884,3395.9230318706223,-258.2222534744777,62.68839764557347,-62.68839764557347,100.0,97.43760434753499,80659,36179,True,Simultaneous native outputs; no QS or causal component subtraction
+RH4Y,Y,Story10,tQD,16.46,2439.2505630771807,2360.1857736338484,-411.9139476724386,100.0,-100.0,69.50056734159122,57.02808008062652,80400,35920,True,Simultaneous native outputs; no QS or causal component subtraction

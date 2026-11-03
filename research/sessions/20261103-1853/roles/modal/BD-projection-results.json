@@ -1,0 +1,168 @@
+{
+  "at": "2026-11-03T19:09:43.146451+08:00",
+  "new_source": {
+    "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Diaphragm_CM_Displacements.npz",
+    "bytes": 20618852,
+    "sha256": "c2c24fc42cd7bc15aaae7bce02c491b4ee5fd629919f132582dc18d49e54bf40",
+    "source_manifest": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\manifest.json",
+    "source_manifest_sha256": "1e78f5a15bff3ebe88d59375f84de36733037fdee5baefdf5b81a95e83e58f58"
+  },
+  "same_basis_and_weights": true,
+  "basis": "actual D signed300 CM shape, modes2/13; actual identified 18-point directional masses",
+  "B_own_modal_basis_not_assumed_equal": true,
+  "base_CM_groups_read": 108,
+  "all_B_D_time_vectors_exact": true,
+  "rows": 12,
+  "anchor_rows": 8,
+  "anchors_are_root_requested_not_new_shear_peak_search": true,
+  "new_ODE_fit_or_raw_workbook": 0,
+  "actual_q_or_modal_shear_claim": false,
+  "selected_peak_rows": [
+    {
+      "Case": "RH4X",
+      "Mode": 2,
+      "n": 2501,
+      "B_projection_abs_peak": 9252.224550013612,
+      "D_projection_abs_peak": 8013.54238824285,
+      "D_over_B_projection_peak": 0.8661206118512397,
+      "projection_peak_reduction_percent": 13.387938814876033,
+      "B_projection_peak_time_s": 21.64,
+      "D_projection_peak_time_s": 21.6,
+      "identity": "Both states projected on same actual-D300 CM basis; neither series is certified actual q or shear"
+    },
+    {
+      "Case": "RH4X",
+      "Mode": 13,
+      "n": 2501,
+      "B_projection_abs_peak": 70.79182724782423,
+      "D_projection_abs_peak": 78.27152233295365,
+      "D_over_B_projection_peak": 1.1056576073244289,
+      "projection_peak_reduction_percent": -10.565760732442886,
+      "B_projection_peak_time_s": 11.68,
+      "D_projection_peak_time_s": 11.66,
+      "identity": "Both states projected on same actual-D300 CM basis; neither series is certified actual q or shear"
+    },
+    {
+      "Case": "RH4Y",
+      "Mode": 2,
+      "n": 2501,
+      "B_projection_abs_peak": 2301.0040124279512,
+      "D_projection_abs_peak": 1784.103643157878,
+      "D_over_B_projection_peak": 0.7753587710068114,
+      "projection_peak_reduction_percent": 22.464122899318863,
+      "B_projection_peak_time_s": 21.68,
+      "D_projection_peak_time_s": 21.6,
+      "identity": "Both states projected on same actual-D300 CM basis; neither series is certified actual q or shear"
+    },
+    {
+      "Case": "RH4Y",
+      "Mode": 13,
+      "n": 2501,
+      "B_projection_abs_peak": 3.460892105870069,
+      "D_projection_abs_peak": 3.0479155857568165,
+      "D_over_B_projection_peak": 0.880673390709639,
+      "projection_peak_reduction_percent": 11.932660929036098,
+      "B_projection_peak_time_s": 16.78,
+      "D_projection_peak_time_s": 12.040000000000001,
+      "identity": "Both states projected on same actual-D300 CM basis; neither series is certified actual q or shear"
+    }
+  ],
+  "anchors": [
+    {
+      "Case": "RH4X",
+      "Story": "Story8",
+      "anchor": "requested_B_shear_peak",
+      "requested_time_s": 21.66,
+      "saved_time_s": 21.66,
+      "Mode": 2,
+      "B_projection_at_time": 9250.184853154044,
+      "D_projection_at_time": 7920.630210931513,
+      "D_minus_B_projection": -1329.5546422225307,
+      "identity": "provided shear-peak anchor; projection value only, not modal shear"
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story8",
+      "anchor": "requested_B_shear_peak",
+      "requested_time_s": 21.66,
+      "saved_time_s": 21.66,
+      "Mode": 13,
+      "B_projection_at_time": -23.606073026505342,
+      "D_projection_at_time": -15.303825136958446,
+      "D_minus_B_projection": 8.302247889546896,
+      "identity": "provided shear-peak anchor; projection value only, not modal shear"
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story8",
+      "anchor": "requested_D_shear_peak",
+      "requested_time_s": 21.6,
+      "saved_time_s": 21.6,
+      "Mode": 2,
+      "B_projection_at_time": 9204.408818327161,
+      "D_projection_at_time": 8013.54238824285,
+      "D_minus_B_projection": -1190.866430084311,
+      "identity": "provided shear-peak anchor; projection value only, not modal shear"
+    },
+    {
+      "Case": "RH4X",
+      "Story": "Story8",
+      "anchor": "requested_D_shear_peak",
+      "requested_time_s": 21.6,
+      "saved_time_s": 21.6,
+      "Mode": 13,
+      "B_projection_at_time": -23.322078147314123,
+      "D_projection_at_time": -24.423234152593828,
+      "D_minus_B_projection": -1.1011560052797051,
+      "identity": "provided shear-peak anchor; projection value only, not modal shear"
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story10",
+      "anchor": "requested_B_shear_peak",
+      "requested_time_s": 16.62,
+      "saved_time_s": 16.62,
+      "Mode": 2,
+      "B_projection_at_time": 1210.5854004166022,
+      "D_projection_at_time": 867.41375217757,
+      "D_minus_B_projection": -343.17164823903215,
+      "identity": "provided shear-peak anchor; projection value only, not modal shear"
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story10",
+      "anchor": "requested_B_shear_peak",
+      "requested_time_s": 16.62,
+      "saved_time_s": 16.62,
+      "Mode": 13,
+      "B_projection_at_time": 0.062085310937227495,
+      "D_projection_at_time": -0.2471750090242438,
+      "D_minus_B_projection": -0.3092603199614713,
+      "identity": "provided shear-peak anchor; projection value only, not modal shear"
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story10",
+      "anchor": "requested_D_shear_peak",
+      "requested_time_s": 21.64,
+      "saved_time_s": 21.64,
+      "Mode": 2,
+      "B_projection_at_time": 2287.2407543981,
+      "D_projection_at_time": 1780.6492031253176,
+      "D_minus_B_projection": -506.5915512727822,
+      "identity": "provided shear-peak anchor; projection value only, not modal shear"
+    },
+    {
+      "Case": "RH4Y",
+      "Story": "Story10",
+      "anchor": "requested_D_shear_peak",
+      "requested_time_s": 21.64,
+      "saved_time_s": 21.64,
+      "Mode": 13,
+      "B_projection_at_time": -0.8785261215353585,
+      "D_projection_at_time": -0.35129583352478855,
+      "D_minus_B_projection": 0.5272302880105699,
+      "identity": "provided shear-peak anchor; projection value only, not modal shear"
+    }
+  ]
+}

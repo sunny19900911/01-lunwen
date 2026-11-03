@@ -1,0 +1,5 @@
+Case,reference_zeta,Mode,NRMSE_observation_projection_vs_known_q_ref,known_q_ref_peak_abs,projection_peak_abs,projection_peak_relative_difference,q_ref_peak_time_s,projection_peak_time_s,mixing_RMS_over_true_q_RMS,scope
+RH4X,0.05,2,0.03187733012380568,9347.099689900977,9252.223470218743,-0.010150337840596935,21.66,21.64,0.034191073536002904,known linear-reference benchmark; no actual nonlinear q ground truth
+RH4X,0.05,13,0.07138030014751984,70.40100363253735,70.80827666648119,0.00578504585061923,11.68,11.68,0.07084684676030908,known linear-reference benchmark; no actual nonlinear q ground truth
+SHW4X,0.05,2,0.031395976020860576,10932.79724687848,10905.948448817024,-0.0024558031631951582,29.94,29.92,0.043040694254594856,known linear-reference benchmark; no actual nonlinear q ground truth
+SHW4X,0.05,13,0.04924746963224638,79.34477023692673,78.02207501242994,-0.016670225656299387,27.7,27.7,0.04864740937993811,known linear-reference benchmark; no actual nonlinear q ground truth
