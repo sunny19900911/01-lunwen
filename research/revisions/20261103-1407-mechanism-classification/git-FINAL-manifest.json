@@ -1,0 +1,135 @@
+{
+  "checkpoint": "FINAL",
+  "frozen_at": "2026-11-03T14:19:03.455679+08:00",
+  "message": "Deliver verified mechanism classification manuscript and Word",
+  "files": [
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/check_final_word.py",
+      "sha256": "6fd17451f7b6d2617478fbed31f7f71e0f5e864a60f129d0df0217b2db757c16"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/final-summary.md",
+      "sha256": "5b2b6ca45e08886fdef3492a1d152380ac4f480efad1c3d1432665f599e9a303"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/final-text-adoption.json",
+      "sha256": "c336d5326834ac4406824d7db15b08cddfe36955123aa8716e2f6f9a543b2108"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/final-visual-review.json",
+      "sha256": "dd6a614eaf5b1777163ae59db54d462fa8f55d0ba251c1d1eac8a110c5b3d136"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/finalize_text.py",
+      "sha256": "af33c30df216387dc53bf64d776f336a38e3e51b17fa5c255068469ad60d9396"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/git-R001-precommit-failure.json",
+      "sha256": "25f4e915b4d8944e2408230b921218747fcd94a12f74acec9b5313b172c5e4f3"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/git-R002-receipt.json",
+      "sha256": "08d3bf71473b8f7904aeb83138028024a5ae0dccda0525bdbcd56d3dd73c97b8"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/make_checkpoint.py",
+      "sha256": "7029cd18b8f26188fd64400e349b28a931855476955674553914fdaf5fd4abec"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/plan.md",
+      "sha256": "d6b39d2f933e2f0a0f6857b19ac1c524f254aaec39823eaa44221637c6aedabe"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/prepare_delivery.py",
+      "sha256": "0313de5cf581586d22462f510ebcc6d4d0ce0033ae6c8f86ac863a70d01f8cc2"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/publish_checkpoint.py",
+      "sha256": "275ca0b7e572d2c719609b558833b7afead773252f50adcbe9a624a213a66c3b"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/recover_own_staging.py",
+      "sha256": "d5c7cb5edae6a59feccee9de3f96ee4d178a32625bf5b562212c1bd74575a944"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/revise_manuscript.py",
+      "sha256": "c888e5933345fa69f444b9ff3819f4de76569cf46c59136248900f272e194303"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/roles/audit/audit.md",
+      "sha256": "6af22c71516fc26c06dc513e71b03431b0c59d12bc20debfe7ce49833bf4de48"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/roles/audit/audit_matched_peaks.py",
+      "sha256": "75a8623b58283966c029c5d357c04b7e7662ff727dc2f233c216b91775779974"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/roles/audit/check_targeted_draft.py",
+      "sha256": "bee4635d94018cd01af52b719171a70bfa990ca7ea7d97b3778d027fd5be4b57"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/roles/audit/matched-time-anchors.csv",
+      "sha256": "b306ecebbe922d1119da88499e6cdcdb4d0bf6eecd1b349a31a5b386356566be"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/roles/audit/matched-time-audit.json",
+      "sha256": "dadb7f27c1c6187ff34b955c5c30ca7e30addd6285293cddc78fcb079776f3b8"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/roles/audit/targeted-final-review.json",
+      "sha256": "0366492ea702de733b6e2d01511fe8fe44a05b5d13e6da86806b53950b3bcbe8"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/roles/audit/targeted-final-review.md",
+      "sha256": "f46b97b01f026af949930be1ac35b1283201a1d58219e007764facf207f3b146"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/roles/engineering/engineering-review.md",
+      "sha256": "21541e35a25d1782482fe9981170d299546207ce0b52aef003cdbe7b6e5b5e3e"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/roles/engineering/final-review.md",
+      "sha256": "5472c4305bf516b441972dbe07352d7031591127e2b55482f8cb5bdffdd763ee"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/source-change-check.json",
+      "sha256": "07abec7fe683762972486daa2c1fd9ded38140c9c480d27614218613610042d3"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/word/author_word.py",
+      "sha256": "c367182a870cd6afe08a83d0bda718374ef201e92350330757a162b0f24a4163"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/word/build_word.py",
+      "sha256": "eb8e0881aedf77fc8c4d39e110981fb7378669178328224e49b7f0523404daa1"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/word/math_omml.py",
+      "sha256": "ad0c091401c059d2676b2c8451d78967f142b5ad4a17944f64ca0885e8c71f44"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/word/render_review.py",
+      "sha256": "fc84cd5f2430eed66bab7d51131ee95a8d578256a85307dbdbadacd9cc5d6baf"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/word-identity-v1.json",
+      "sha256": "dbf19c18331021639e1019a93d8473309a4e850d2144d585300d36e12c0f4616"
+    },
+    {
+      "relative": "research/revisions/20261103-1407-mechanism-classification/机制分类与同刻对照.md",
+      "sha256": "20e58c196194b41cf370ac76332fba4bef3f921148be15cc707f5265b6877dd5"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-v001.md",
+      "sha256": "39cda7f74e8d214ab0cbdc57abf22c98390224b9c2eb912cea919b8ca1f9bcf9"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-v002.md",
+      "sha256": "74fbdcc680c635cf29655939e8eb2ecc5722b6c3280a857e4d0311e7258bc828"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-论文审阅稿-v002.docx",
+      "sha256": "ecd1319dcce9f2c744855279eb284c34b3742abfe0438c3a121ddbd79499a39a"
+    }
+  ]
+}

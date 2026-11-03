@@ -1,0 +1,50 @@
+{
+  "checkpoint": "R002",
+  "time_utc": "2026-11-03T06:17:24.165379+00:00",
+  "HEAD": "b07108b070820f88f5c631ee1062d7238ff79626",
+  "previous_HEAD": "4c2b729468d66c4366fd391f19e9e001382ec339",
+  "staged_files": [
+    "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-v001.md",
+    "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-v002.md",
+    "research/revisions/20261103-1407-mechanism-classification/check_final_word.py",
+    "research/revisions/20261103-1407-mechanism-classification/final-text-adoption.json",
+    "research/revisions/20261103-1407-mechanism-classification/finalize_text.py",
+    "research/revisions/20261103-1407-mechanism-classification/git-R001-precommit-failure.json",
+    "research/revisions/20261103-1407-mechanism-classification/git-R002-manifest.json",
+    "research/revisions/20261103-1407-mechanism-classification/make_checkpoint.py",
+    "research/revisions/20261103-1407-mechanism-classification/plan.md",
+    "research/revisions/20261103-1407-mechanism-classification/prepare_delivery.py",
+    "research/revisions/20261103-1407-mechanism-classification/publish_checkpoint.py",
+    "research/revisions/20261103-1407-mechanism-classification/recover_own_staging.py",
+    "research/revisions/20261103-1407-mechanism-classification/revise_manuscript.py",
+    "research/revisions/20261103-1407-mechanism-classification/roles/audit/audit.md",
+    "research/revisions/20261103-1407-mechanism-classification/roles/audit/audit_matched_peaks.py",
+    "research/revisions/20261103-1407-mechanism-classification/roles/audit/check_targeted_draft.py",
+    "research/revisions/20261103-1407-mechanism-classification/roles/audit/matched-time-anchors.csv",
+    "research/revisions/20261103-1407-mechanism-classification/roles/audit/matched-time-audit.json",
+    "research/revisions/20261103-1407-mechanism-classification/roles/audit/targeted-final-review.json",
+    "research/revisions/20261103-1407-mechanism-classification/roles/audit/targeted-final-review.md",
+    "research/revisions/20261103-1407-mechanism-classification/roles/engineering/engineering-review.md",
+    "research/revisions/20261103-1407-mechanism-classification/roles/engineering/final-review.md",
+    "research/revisions/20261103-1407-mechanism-classification/source-change-check.json",
+    "research/revisions/20261103-1407-mechanism-classification/word/author_word.py",
+    "research/revisions/20261103-1407-mechanism-classification/word/build_word.py",
+    "research/revisions/20261103-1407-mechanism-classification/word/math_omml.py",
+    "research/revisions/20261103-1407-mechanism-classification/word/render_review.py",
+    "research/revisions/20261103-1407-mechanism-classification/机制分类与同刻对照.md"
+  ],
+  "verified_blob_hashes": 28,
+  "identity_fallback": true,
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "code": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/sunny19900911/01-lunwen.git\n   4c2b729..b07108b  main -> main\n"
+    }
+  ],
+  "remote_HEAD": "b07108b070820f88f5c631ee1062d7238ff79626",
+  "remote_equals_local": true,
+  "pending_push": false,
+  "resumed_pending_receipt": null
+}

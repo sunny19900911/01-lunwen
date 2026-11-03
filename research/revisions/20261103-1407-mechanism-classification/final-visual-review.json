@@ -1,0 +1,27 @@
+{
+  "reviewer": "root",
+  "source": "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-v002.md",
+  "source_sha256": "74fbdcc680c635cf29655939e8eb2ecc5722b6c3280a857e4d0311e7258bc828",
+  "docx": "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-论文审阅稿-v002.docx",
+  "docx_sha256": "ecd1319dcce9f2c744855279eb284c34b3742abfe0438c3a121ddbd79499a39a",
+  "render": "word/local-cache/render-v1/render-report.json",
+  "actual_pages_viewed_original_detail": [1,2,3,4,5,6,7,8,9,10],
+  "passed": true,
+  "observations": {
+    "page1": "Chinese and English abstracts correspond; title and text readable without clipping.",
+    "page2": "Three-model boundary and source links preserved; table1 intact.",
+    "page3": "Five original display formula series preserve maximum selectors and denominators; no missing symbols observed.",
+    "page4": "Paired-control table2 and its original numbers readable.",
+    "page5": "Table3 and unchanged figure1 readable; section4.2 heading stays with text.",
+    "page6": "Revised mechanism text and table4 readable; same-time mode13 values and signs complete; no overlap. Lower whitespace precedes next full-width figure.",
+    "page7": "Figure2 and table5 readable; signed damper convention and caption intact.",
+    "page8": "Figure3, native K matrix, modal shear summation and table6 all readable; no raster formula substitution.",
+    "page9": "Section6.1 complete in right column; mechanism classification and engineering steps readable.",
+    "page10": "New conclusion3 and renumbered conclusions complete; references preserved."
+  },
+  "independent_content_gate": "word-identity-v1.json",
+  "authoring_marker_success_count": 1,
+  "renderer": "Canonical renderer attempted with logged missing LibreOffice; own hidden Word COM followed by bundled PDFium used safely.",
+  "scientific_reviews": ["roles/audit/targeted-final-review.md", "roles/engineering/final-review.md"],
+  "remaining_blocking_issues": []
+}
