@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-03T17:18:07.660033+08:00",
+  "output": "papers/damping-output-boundaries/manuscript/p06-actual-main-session026-v003.md",
+  "bytes": 29375,
+  "sha256": "2aae66c26effa5c5436cd0b08cb883ead63d5f0ed12ffd88f47a9400a24cc370",
+  "old": "参照合成与软件绝对峰的相对差分别为0.00245%和0.00806%；项的符号按参照方向保留。",
+  "new": "相对差以软件绝对峰为分母，按参照合成绝对值与软件峰之差的未舍入值计算，分别为0.00245%和0.00806%；项的符号按参照方向保留。",
+  "scientific_values_changed": false,
+  "reason": "Independent numeric final review optional reproducibility clarification; numerator is absolute-value comparison, not signed error."
+}

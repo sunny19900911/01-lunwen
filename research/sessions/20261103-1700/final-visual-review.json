@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "at": "2026-11-03T17:24:33.273269+08:00",
+  "reviewer": "root",
+  "docx": "papers/damping-output-boundaries/manuscript/p06-actual-main-session026-论文审阅稿-v003.docx",
+  "docx_sha256": "a1a935b7f485c656b3e633c349b686fa9795a6d4caadbb47bae087c531cb964f",
+  "source": "papers/damping-output-boundaries/manuscript/p06-actual-main-session026-v003.md",
+  "source_sha256": "2aae66c26effa5c5436cd0b08cb883ead63d5f0ed12ffd88f47a9400a24cc370",
+  "render": "word/local-cache/render-v003",
+  "pages": 11,
+  "actual_pages_viewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "editable_tables": 7,
+  "table_numeric_cells_checked": 210,
+  "native_OMML": 43,
+  "display_equations": 5,
+  "figures": 4,
+  "marker_success_count": 1,
+  "structural_gate": "word-identity-v003.json",
+  "visual_observations": [
+    "11页均original-detail实际查看，标题、双语摘要和分栏阅读顺序可读。",
+    "第3页布置和配置表、第5页实际减幅图表、第6页双控制和装置力表、第7页时程及偏差表、第8页实际偏差散点均与源一致且无裁切重叠。",
+    "式1—4保留PD与PB及AD，选择式的rD/PD、式5的φ和q操作数完整；串联参数单位原生公式可读。",
+    "参考文献9在第10—11页连续排印，文本完整；第11页仅参考文献收尾，未见丢行。"
+  ],
+  "render_method": "Canonical attempted; actual missing LibreOffice log retained, independent hidden Word COM and bundled PDFium completed. Only task-owned objects closed."
+}

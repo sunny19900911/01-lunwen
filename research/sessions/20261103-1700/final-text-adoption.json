@@ -1,0 +1,17 @@
+{
+  "at": "2026-11-03T17:17:18.068020+08:00",
+  "source_sha256": "a11102490ebe100d8bdf91069bd1460364c4a9c5bfd677c0b8b956c7dec7dcdb",
+  "output": "papers/damping-output-boundaries/manuscript/p06-actual-main-session026-v002.md",
+  "bytes": 29312,
+  "sha256": "1ac98674b427c660650a0a80685e6445ee671ef649a5f21a9f036f1cc6bf6835",
+  "must": 0,
+  "adopted_optional": {
+    "old": "不将其中的模态项写成实际非线性方案的逐阶实测分担",
+    "new": "其中的模态项不作为实际非线性方案的原生逐阶剪力"
+  },
+  "all_tables_equations_figures_unchanged": true,
+  "reviews": [
+    "roles/audit/draft-final-checks.json",
+    "roles/method/final-review.md"
+  ]
+}

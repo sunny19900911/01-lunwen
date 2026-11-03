@@ -1,5 +1,5 @@
 {
-  "phase": "actual-mainline-analysis",
+  "phase": "closed-complete",
   "started_at": "2026-11-03T17:02:57.641447+08:00",
   "checkpoint_open": false,
   "source": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v004.md",
@@ -11,5 +11,21 @@
     "p06_actual_audit",
     "p06_actual_pairing"
   ],
-  "automation_created": false
+  "automation_created": false,
+  "no_new_numeric_experiments": true,
+  "no_new_scientific_dispatch": true,
+  "scientific_manuscript": "papers/damping-output-boundaries/manuscript/p06-actual-main-session026-v003.md",
+  "scientific_sha256": "2aae66c26effa5c5436cd0b08cb883ead63d5f0ed12ffd88f47a9400a24cc370",
+  "closed_at": "2026-11-03T17:24:33.273269+08:00",
+  "final_manuscript": "papers/damping-output-boundaries/manuscript/p06-actual-main-session026-v003.md",
+  "final_word": "papers/damping-output-boundaries/manuscript/p06-actual-main-session026-论文审阅稿-v003.docx",
+  "final_word_sha256": "a1a935b7f485c656b3e633c349b686fa9795a6d4caadbb47bae087c531cb964f",
+  "visual_QA": "final-visual-review.json",
+  "final_git_receipt": "git-FINAL-receipt.json",
+  "remaining_work_in_approved_revision": [],
+  "remaining_scientific_scope_limits": [
+    "实际六工况，不是14实际工况",
+    "实际q与剪力恢复未完整闭合",
+    "完整内部模型设置及QT包含口径沿配对范围保留"
+  ]
 }

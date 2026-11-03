@@ -1,0 +1,19 @@
+{
+  "source_manuscript": "papers/damping-output-boundaries/manuscript/p06-actual-main-session026-v001.md",
+  "source_sha256": "a11102490ebe100d8bdf91069bd1460364c4a9c5bfd677c0b8b956c7dec7dcdb",
+  "bytes": 29315,
+  "must": 0,
+  "should": 1,
+  "should_kind": "optional reproduction wording",
+  "should_text": "相对误差以软件剪力绝对峰为分母，并用未舍入数值计算。",
+  "tables": 7,
+  "display_formulae": 5,
+  "prior_cache_fields_independently_checked": 1728,
+  "new_actual_table_fields_checked": 57,
+  "main_actual_scope": "six directional cases and72 records;12/24 control groups",
+  "auxiliary_reference_scope": "fourteen directional cases and168 records;19/24 groups;same-six reference7/24",
+  "actual_d_median_pp": 3.6586462109199207,
+  "actual_d_max_pp": 34.679004791957816,
+  "new_response_or_ODE_runs_in_final_review": 0,
+  "word_visual_QA": "not covered; root must inspect final rendered pages"
+}
