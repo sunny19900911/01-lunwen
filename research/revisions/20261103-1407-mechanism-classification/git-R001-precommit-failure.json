@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-03T14:16:53.413663+08:00",
+  "attempt": "R001",
+  "result": "stopped before commit at ordinary whitespace check",
+  "reason": "Unified diff context blank lines contain their required space prefix; this diagnostic remains local and is excluded from the next publication. Paper text is unchanged.",
+  "HEAD_unchanged": "4c2b729468d66c4366fd391f19e9e001382ec339",
+  "only_own_manifest_paths_unstaged": 27,
+  "next_checkpoint": "R002",
+  "no_commit_or_push_attempted": true
+}

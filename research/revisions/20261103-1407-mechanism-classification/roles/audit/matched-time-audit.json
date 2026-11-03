@@ -1,0 +1,53 @@
+{
+  "at": "2026-11-03T14:10:55.719649+08:00",
+  "sources": [
+    {
+      "path": "research\\sessions\\20261031-1130\\roles\\role4\\R008\\Story5-Story12-top5-other-symmetric-components-72.csv",
+      "bytes": 20481,
+      "sha256": "6ee170e332bc7f899b583d84578ade175e8be8824811972b17a6630bb329195c"
+    },
+    {
+      "path": "research\\sessions\\20261103-0845\\roles\\audit\\R001\\independent-story5-four-states.csv",
+      "bytes": 1359,
+      "sha256": "dab9e152b4af6394b6568f17d7c8ec092a4dc1de6c79aa7335ffa904e11a2f2c"
+    }
+  ],
+  "method": "stdlib CSV and math.fsum of five fixed baseline-ranked modes plus remaining295; no ODE, array reading or regression",
+  "matched_time_anchors": {
+    "native5_abspeak": {
+      "time_s": 22.92,
+      "all300_v5": 8691.808506660655,
+      "all300_v8": 8084.757671176435,
+      "all300_delta_v8_minus_v5": -607.0508354842195,
+      "mode13_v5": -42.61683313938931,
+      "mode13_v8": 37.896333002883495,
+      "mode13_delta": 80.51316614227281,
+      "other299_delta": -687.5640016264928
+    },
+    "native8_abspeak": {
+      "time_s": 22.94,
+      "all300_v5": 8680.631896233279,
+      "all300_v8": 8096.348695497577,
+      "all300_delta_v8_minus_v5": -584.2832007357019,
+      "mode13_v5": -58.65723967485907,
+      "mode13_v8": 28.36055090615144,
+      "mode13_delta": 87.0177905810105,
+      "other299_delta": -671.3009913167128
+    }
+  },
+  "SHW3_reference_peak_identity": {
+    "P5": 8691.808506660655,
+    "P8": 8096.348695497577,
+    "old_time_reduction": 607.0508354842195,
+    "peak_migration": 11.591024321141958,
+    "peak_reduction": 595.4598111630776,
+    "check_residual": 0.0
+  },
+  "comparison": {
+    "mode2_SHW4_minus_SHW3_at_own8_peaks": 990.9191795922106,
+    "mode2_SHW4_own8_minus_own5": -878.636501451062,
+    "SHW4_reference_total_own8_minus_own5": -1146.6951199122304
+  },
+  "must": 0,
+  "scope": "fixed classical-damping linear reference, not unique native FNA story-force decomposition"
+}

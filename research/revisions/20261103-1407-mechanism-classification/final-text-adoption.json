@@ -1,0 +1,29 @@
+{
+  "at": "2026-11-03T14:14:07.951618+08:00",
+  "reviewed_v001_sha256": "39cda7f74e8d214ab0cbdc57abf22c98390224b9c2eb912cea919b8ca1f9bcf9",
+  "final_v002_sha256": "74fbdcc680c635cf29655939e8eb2ecc5722b6c3280a857e4d0311e7258bc828",
+  "final_bytes": 30818,
+  "exact_edit": {
+    "from": "前者帮助解释改善为何受限",
+    "to": "前者说明剪力下降为何会被部分抵消",
+    "count": 1
+  },
+  "all_other_bytes_identical": true,
+  "local_links_exist": [
+    "../../../research/sessions/20261102-1917/roles/role5/R001/descriptive-three-model-comparison.md",
+    "../../../research/sessions/20261102-1917/roles/role5/R002/engineering-data-and-full-tables.md",
+    "../../../research/sessions/20261102-1917/roles/role5/R002/engineering-data-and-full-tables.md",
+    "../../../research/sessions/20261021-2020/roles/role4/R002-story-range-median.png",
+    "../../../research/sessions/20261103-0845/roles/writing/SHW3X-SHW4X-辅助分析资料-v002.md",
+    "../../../research/revisions/20261103-1407-mechanism-classification/机制分类与同刻对照.md",
+    "../../../research/sessions/20261021-2020/roles/role4/R002-peak-evaluation-scatter.png",
+    "../../../research/sessions/20261020-1844/roles/role4/R008-Story8-QT-QD-two-cases.png",
+    "../../../research/sessions/20261021-0737/roles/role5/R001-methods-supplement.md"
+  ],
+  "adopted_reviews": [
+    "roles/audit/targeted-final-review.md",
+    "roles/engineering/final-review.md"
+  ],
+  "scientific_numbers_unchanged_since_review": true,
+  "word_marker_not_yet_run": true
+}
