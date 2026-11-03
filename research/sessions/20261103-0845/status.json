@@ -1,31 +1,30 @@
 {
   "session": "20261103-0845",
-  "phase": "final-delivery-accepted",
+  "phase": "closed-complete",
   "start": "2026-11-03T08:45:53+08:00",
   "deadline": "2026-11-03T11:15:53+08:00",
   "final_writing_start": "2026-11-03T10:30:53+08:00",
-  "checkpoint_open": true,
+  "checkpoint_open": false,
   "no_new_ODE_or_fit": true,
   "no_new_scientific_dispatch": true,
   "automation": {
     "id": "p06-sh3-sh4-150",
-    "state": "ACTIVE",
+    "state": "DELETED",
     "formal_create": true,
     "formal_view": true,
-    "actual_config_readback": true
+    "actual_config_readback": true,
+    "formal_pause_view_readback": true,
+    "formal_delete_absence_verified": true
   },
-  "current_task": "Scientific manuscript and10page Word accepted; final normal sync then pause/readback/delete automation only.",
+  "current_task": "Complete: reviewed final MD, Word and supplement; Word/source R002 synced and verified; automation formally deleted. Administrative CLOSE receipt authoritative.",
   "manuscript_owner": "roles/writing",
   "git": {
-    "last_checkpoint": "R001",
-    "HEAD": "45b2e70166dcbea3357f94ac54669039609d45e2",
+    "last_checkpoint": "R002",
+    "HEAD": "76c0b95aa42c74a00fb958bce2077730df95a657",
     "pending_push": false,
-    "remote_verified": true,
-    "push_reported_success": true,
-    "remote_verification_pending": false,
-    "remote_recovery": "git-R001-remote-recovery.json"
+    "remote_verified": true
   },
-  "checkpoint": "R002",
+  "checkpoint": "CLOSE",
   "checkpoint_started_at": "2026-11-03T09:39:16.858072+08:00",
   "reviewed_result": {
     "numeric_fields": 64,
@@ -48,5 +47,7 @@
     "sha256": "df41034546824b89c1d43eb5fe59eb660a432bbce5d6f8dfb048e99e135e55a8",
     "pages": 10,
     "root_all_pages_actually_viewed": true
-  }
+  },
+  "closed_at": "2026-11-03T09:45:34.208199+08:00",
+  "completed_before_deadline": true
 }

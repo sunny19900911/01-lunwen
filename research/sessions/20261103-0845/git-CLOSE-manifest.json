@@ -1,0 +1,60 @@
+{
+  "checkpoint": "CLOSE",
+  "message": "P06 session023: record verified delivery and formal automation closure",
+  "files": [
+    {
+      "relative": "research/sessions/20261103-0845/status.json",
+      "sha256": "6c1bf1e889a23fdd1ee3122ed8a408b04ced1cacafda609063702bbc21840d24"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/runs.md",
+      "sha256": "c0eab3fba9abcafa64d4564eac101931611850f4ec9745be48260eef2fd21ff8"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/next-task.md",
+      "sha256": "41db9c16f0e6550fd8f7c7b06e561a79d5251ca59be116e8e54db7a53f937ccc"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/final-summary.md",
+      "sha256": "885507e1a367aa0b8ffd1d09a215094f03405aef7bfbc68d111fbcb5d7138242"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/rounds/CLOSE.md",
+      "sha256": "971825bb317a95a571608e5515a3c45a022c58e5bc24534d08455d982c9c4806"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/R002-prestage-TLS-recovery.json",
+      "sha256": "c48a46ab728654a76352b92bf6923ce1f95da3b115da9f92c45ddf2ee651d9a1"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/git-R002-receipt.json",
+      "sha256": "733caec291a4377d220edbabf5024d2657331cca477efb180cef6a5dfd0ffcbe"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/automation-pause-tool-receipt.json",
+      "sha256": "c9e42228938f81fa0d135eefd54637ca8926bcc87e8f09bf4bfef5817814d750"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/automation-paused-actual-readback.json",
+      "sha256": "cc29b5ddb80f57202bd9b5dc1d3e48c770a7e0aa6612277859fcd0e119d89a4c"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/automation-delete-tool-receipt.json",
+      "sha256": "19447661800b00a37d470842fddda9d57a5d7dbe0da81e510e8917e9cd330b92"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/automation-deleted-actual-readback.json",
+      "sha256": "8c7515654d770ad5dc330870bb99698ed7374c3cc4359f6a683369dc9d76e278"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/close_session.py",
+      "sha256": "4602369fea0fa369593a3b0a21b92dedb0c8c7caba40ae68b60fc484c864d316"
+    }
+  ],
+  "checks": [
+    "Final Word and source delivery R002 already verified on origin/main",
+    "Formal pause/view/config readback/delete/absence verified; old3 PAUSED",
+    "Science complete and10pages actually reviewed; early closure within fixed window",
+    "Administrative small-file-only checkpoint; no active/old/raw/cache files"
+  ]
+}

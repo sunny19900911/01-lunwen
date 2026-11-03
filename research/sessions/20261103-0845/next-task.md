@@ -1,3 +1,3 @@
-# 只余关闭
+# 本轮已完成
 
-2026-11-03T09:37:59.809016+08:00 最终MD/Word/补充已验收，科学全部停。先核status/checkpoint_open，完成最后正常白名单Git；正式pause/view/实际TOML读回再delete p06-sh3-sh4-150，旧git/automation3/4保持PAUSED。保存实际关闭时间和回执，不恢复科研。不重跑旧receipt。
+2026-11-03T09:45:34.208199+08:00 closed-complete。固定150分钟为上限，完成后提前关闭。最终科学源/Word/辅助资料已冻结、根10页实际QA通过，R002交付已正常Git同步并核远端。p06-sh3-sh4-150正式删除并核不存在，旧3项PAUSED。仅剩CLOSE行政同步收据，不恢复旧任务、作者或自动化；既有receipt不重复运行。

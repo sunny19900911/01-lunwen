@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-11-03T09:43:35.920702+08:00",
+  "initial_failure": "R002 publisher pre-stage ls-remote TLS handshake failure",
+  "index_untouched": true,
+  "recovery": "Resumed identical immutable R002 manifest via publisher exactly once; no changed source hashes, no repeated scientific work",
+  "receipt": "git-R002-receipt.json",
+  "HEAD": "76c0b95aa42c74a00fb958bce2077730df95a657",
+  "remote_verified": true,
+  "push_attempt_count": 1,
+  "scientific_data_changed": false
+}
