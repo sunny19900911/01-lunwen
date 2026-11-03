@@ -1,0 +1,46 @@
+{
+  "status": "frozen",
+  "time": "2026-11-03T15:18:59.773069+08:00",
+  "actual_original_detail_PNG_viewed": true,
+  "approved_plot_version": "v003",
+  "read_cached_arrays": 2,
+  "all_source_peak_checks_passed": true,
+  "no_new_scientific_model_or_ODE": true,
+  "files": [
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/Story8-RH4X-SHW7X-native-QT-QD-v003.png",
+      "bytes": 137869,
+      "sha256": "16e40bb59c82d154895b15cacc671906a2da94339281b1c7d57c3110b76423e5"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/Story8-RH4X-SHW7X-native-QT-QD-v003.svg",
+      "bytes": 189132,
+      "sha256": "e2613868e9c70c705eab65e891710e4e5af787ac1eeb29995960b0294f98abe1"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/native-peak-anchors-2-v003.csv",
+      "bytes": 458,
+      "sha256": "39f466d4cd5423fcabf9ec641fe6259d73fb9c74fd142cd2e0f271d73f4b7078"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/run-record-v003.json",
+      "bytes": 1938,
+      "sha256": "345de60acf950f564e96a89d1478186e87ccf1a45270d56812b880361e8fca07"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/figure-review.md",
+      "bytes": 1838,
+      "sha256": "9e993b32f7a9242a544308ced1bfd26e074003971c1b5ea19d6c82bf02ea03d0"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/plot_story8_native_controls.py",
+      "bytes": 6082,
+      "sha256": "6a42aaafd1af36c5cedb5e36bb6e7688fb27313aedd4a900ad2cd79e744e1e82"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/freeze_story8_figure.py",
+      "bytes": 1104,
+      "sha256": "eaed0e770df1b3889dfdb173dc4bddb08ac60b95e5f4e90d2eccd15441bc68ef"
+    }
+  ]
+}

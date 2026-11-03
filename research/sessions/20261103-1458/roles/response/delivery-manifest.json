@@ -1,0 +1,85 @@
+{
+  "status": "frozen",
+  "at": "2026-11-03T15:10:12.335827+08:00",
+  "source_files_unchanged": true,
+  "checks": {
+    "baseline_reference_exact_match_to_reviewed168": true,
+    "all_72_unique_keys": true,
+    "24_groups_with_3_inputs": true,
+    "24_layer_cases_8_devices_complete": true,
+    "8_device_sum_vs_frozen_QD_max_abs_residual_kN": 5.684341886080802e-14,
+    "Story8_old48_vs_old384_same_device_QD_max_residual_kN": 0.0,
+    "plot24rows_exact_envelope_check": true,
+    "figure_actual_viewed_at_original_detail": true,
+    "figure_readability": "two panels; labels and complete axes readable; 1800x1110 pixels",
+    "prior_plot_attempt": "First attempt asserted a fixed 12000kN axis limit before producing any output; changed axis to data-dependent 3000kN ceiling, then ran once successfully. No data or calculation changed.",
+    "scope": "Arithmetic and frozen-source consistency, not independent solver rerun or cross-model pairing certificate"
+  },
+  "files": [
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/analyze_existing_response.py",
+      "bytes": 11419,
+      "sha256": "0b9de2f433c9ab01d22a6715979820e654415facebdcc4d336ef9d51972f0198"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/common-six-control-records-24.csv",
+      "bytes": 5458,
+      "sha256": "97331db024dc60d233bb198c9f0ff968de54abb4cd21e3488fda21b6063b9a15"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/common-six-peak-envelope-24.csv",
+      "bytes": 1755,
+      "sha256": "781faa1cdc209c8fdefae4b151f8e2155252f0f9ac49c7191a3abbd78fc2098b"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/common-six-three-model-peak-envelope.png",
+      "bytes": 104415,
+      "sha256": "a447de7d07dafb1dfc86b09ebe4622c1aa28ce20e7d455593df716a3ed911d0a"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/common-six-three-model-peak-envelope.svg",
+      "bytes": 18116,
+      "sha256": "197a632b5865a80b96962b251ca2165d67fdc1186323b460b90129d9efddbc3f"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/freeze_response.py",
+      "bytes": 3545,
+      "sha256": "90e441c18c58c1f4f87ca949cce399f2dac282da83fb2916abcb67e4f1fcb484"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/native-device-layer-timing-24.csv",
+      "bytes": 6622,
+      "sha256": "06c74b24e839dc68ef5b79d433b180350f62ea934df5bcbdb72421f0a5e64519"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/plot_native_envelope.py",
+      "bytes": 3842,
+      "sha256": "41b8b694d1ad230ff46209dacb931df5526a4fe841ecb437691c3b9ca367b901"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/response-checks.json",
+      "bytes": 839,
+      "sha256": "475d98a71fb4167be38d8d05e0005dc4af1f8433934389cc590ac75e9a1316b4"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/response-report.md",
+      "bytes": 3122,
+      "sha256": "eb45aad02925fa75bada4d50fdb5f31380bc60da35c9641a43333eb0ce9d34eb"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/response-summary.json",
+      "bytes": 8688,
+      "sha256": "e2716c8fc314a21ebb00485ff3943cdba4bb0e17c121d5376eb97090c6d2d637"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/Story8-native-device-timing-6.csv",
+      "bytes": 1928,
+      "sha256": "34be693676d7376d689143f78213e185c3010455fff5c5bcbebee1da30d71a6b"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/three-model-common-six-records-72.csv",
+      "bytes": 25078,
+      "sha256": "156b2dc74600177f93012ef30e7cd9485c8f6e3d4a28b0899f75d3957e5e1a79"
+    }
+  ]
+}

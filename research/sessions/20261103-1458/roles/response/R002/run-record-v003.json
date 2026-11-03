@@ -1,0 +1,58 @@
+{
+  "at": "2026-11-03T15:18:01.930974+08:00",
+  "source_cache": "research/sessions/20261019-2045/roles/data/local-cache/R002-native-horizontal/paired-layer-histories.npz",
+  "source_cache_bytes": 4894183,
+  "source_cache_sha256": "dff22ab303c492e4f8943171b2e26abd1e932913c2d4acf7be3f9385f72bf083",
+  "source_table": "research/sessions/20261019-2045/roles/data/R002-native-horizontal/layer-axis-peaks-48.csv",
+  "source_table_sha256": "f29fd0bbb67da5c8143aadac0b0782545ee0ffdd3a41d83da7354b6b8697ce8f",
+  "only_arrays_read": [
+    "Story8__RH4X__X",
+    "Story8__SHW7X__X"
+  ],
+  "columns_read": [
+    "t_s",
+    "QT_kN",
+    "QD_kN",
+    "native_story_source_row"
+  ],
+  "columns_not_used": [
+    "QT-QD algebraic remainder",
+    "QT+QD algebraic remainder"
+  ],
+  "checks": [
+    {
+      "Case": "RH4X",
+      "array_key": "Story8__RH4X__X",
+      "n_points": 2501,
+      "t_start_s": 0.0,
+      "t_end_s": 50.0,
+      "QT_abs_peak_kN": 5776.651278353405,
+      "QT_peak_time_s": 21.6,
+      "QT_signed_at_peak_kN": 5776.651278353405,
+      "QD_abs_peak_kN": 405.8267841820479,
+      "QD_peak_time_s": 11.5,
+      "QD_signed_at_QT_peak_kN": -238.1133110864973,
+      "QT_source_row": 66268,
+      "all_frozen_peak_checks_passed": true
+    },
+    {
+      "Case": "SHW7X",
+      "array_key": "Story8__SHW7X__X",
+      "n_points": 2696,
+      "t_start_s": 0.0,
+      "t_end_s": 53.9,
+      "QT_abs_peak_kN": 7132.292534599823,
+      "QT_peak_time_s": 38.06,
+      "QT_signed_at_peak_kN": -7132.292534599823,
+      "QD_abs_peak_kN": 437.14762787186777,
+      "QD_peak_time_s": 32.04,
+      "QD_signed_at_QT_peak_kN": 277.36482142079376,
+      "QT_source_row": 77995,
+      "all_frozen_peak_checks_passed": true
+    }
+  ],
+  "no_new_P_or_ODE_or_original_workbook_read": true,
+  "all_samples_rendered_without_smoothing": true,
+  "visual_QA_pending": true,
+  "source_unchanged": true
+}

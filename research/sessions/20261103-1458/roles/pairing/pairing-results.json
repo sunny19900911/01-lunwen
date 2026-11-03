@@ -1,0 +1,182 @@
+{
+  "checked_at": "2026-11-03T15:19:19.015116+08:00",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\native0_small_tables.json",
+      "bytes": 10534669,
+      "sha256": "20815b312c71b0c4e8260573752faccbd922c40d84e28bc2549becfca880a972"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\small_tables.json",
+      "bytes": 326749,
+      "sha256": "6645a531ad58d68f38d44991037903852a5a79f727be765cb7efbf674bee48eb"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\controlled_small_tables.json",
+      "bytes": 493076,
+      "sha256": "d8175ddc436ec7edfea1c0c168679f8d3327d9096a0afc7fc7128f3e5045a5fc"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\roles\\experiments\\metadata\\metadata_inventory.json",
+      "bytes": 35030,
+      "sha256": "67176fee744d772ab5241d6d3a2321ec933785a0764560ad225099961b140549"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R002\\identified-versus-old-directional-masses-36.csv",
+      "bytes": 9075,
+      "sha256": "60a9c78c253591bfd633fe7e5b3e7f225af730e274e30a054c9a3cca9e811d0b"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\manifest.json",
+      "bytes": 443242,
+      "sha256": "1e78f5a15bff3ebe88d59375f84de36733037fdee5baefdf5b81a95e83e58f58"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Accelerations.npz",
+      "bytes": 25094142,
+      "sha256": "eaa4c931f79b9b2e27e6e2e3882772d99ac91678e4361c12e3ba47fcd59a7439"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "bytes": 193090,
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Accelerations.npz",
+      "bytes": 10583004,
+      "sha256": "eb33aff5f57a022d3928aaf4fb202393a794f021c38de7900dc8a34a60862786"
+    }
+  ],
+  "actual_export_inventory_non_account_sheet_names": [
+    "Base Reactions",
+    "Diaphragm CM Displacements",
+    "Element Deformations - Links",
+    "Element Forces - Links",
+    "Element Joint Forces - Links",
+    "Element NL Energy By Group",
+    "Joint Accelerations - Absolute",
+    "Joint Velocities - Absolute",
+    "Link Assigns - Link Properties",
+    "Link Assigns - Local Axes",
+    "Link Assigns - Summary",
+    "Link Prop Def - Damper - Exp",
+    "Link Prop Def - Summary",
+    "Modal Direction Factors",
+    "Modal Load Participation Ratios",
+    "Modal Participating Mass Ratios",
+    "Modal Participation Factors",
+    "Modal Periods And Frequencies",
+    "Story Accelerations",
+    "Story Drifts",
+    "Story Forces",
+    "Total Energy Components",
+    "Tributary Area and LLRF"
+  ],
+  "actual_absent_export_tables": [
+    "Functions - TH - User Defined",
+    "Load Cases - TH - Nonlin Modal",
+    "Centers Of Mass And Rigidity"
+  ],
+  "common_cases": [
+    "RH4X",
+    "RH4Y",
+    "SHW4X",
+    "SHW4Y",
+    "SHW7X",
+    "SHW7Y"
+  ],
+  "BM_case_settings_exact_excluding_GUID_notes": true,
+  "BM_CM_table_exact": true,
+  "actual_base_vs_baseline_components_exact": 36,
+  "actual_base_vs_baseline_rows": 16296,
+  "time_grids": [
+    {
+      "Case": "RH4X",
+      "n": 2501,
+      "t0_s": 0.0,
+      "t1_s": 50.0,
+      "grid_exact": true,
+      "baseline_first_source_row": 462412,
+      "actual_first_source_row": 195556
+    },
+    {
+      "Case": "RH4Y",
+      "n": 2501,
+      "t0_s": 0.0,
+      "t1_s": 50.0,
+      "grid_exact": true,
+      "baseline_first_source_row": 464913,
+      "actual_first_source_row": 198057
+    },
+    {
+      "Case": "SHW4X",
+      "n": 2951,
+      "t0_s": 0.0,
+      "t1_s": 59.0,
+      "grid_exact": true,
+      "baseline_first_source_row": 477798,
+      "actual_first_source_row": 200558
+    },
+    {
+      "Case": "SHW4Y",
+      "n": 2951,
+      "t0_s": 0.0,
+      "t1_s": 59.0,
+      "grid_exact": true,
+      "baseline_first_source_row": 480749,
+      "actual_first_source_row": 203509
+    },
+    {
+      "Case": "SHW7X",
+      "n": 2696,
+      "t0_s": 0.0,
+      "t1_s": 53.9,
+      "grid_exact": true,
+      "baseline_first_source_row": 495554,
+      "actual_first_source_row": 206460
+    },
+    {
+      "Case": "SHW7Y",
+      "n": 2696,
+      "t0_s": 0.0,
+      "t1_s": 53.9,
+      "grid_exact": true,
+      "baseline_first_source_row": 498250,
+      "actual_first_source_row": 209156
+    }
+  ],
+  "max_relative_directional_CM_mass_difference": 3.600768931651627e-14,
+  "mass_comparison_scope": "18 CM concentrated directional masses, inherited identification already independently reviewed; this run joins them to B/M CM table, not a new FE mass identification",
+  "modal_period_comparison": {
+    "first3_exact": false,
+    "max_abs_period_difference_BD_s": 0.06888798069840235,
+    "periods_at_2_10_13": {
+      "B": {
+        "2": 2.7321517628791776,
+        "10": 0.5620238376738221,
+        "13": 0.44855481318294865
+      },
+      "M": {
+        "2": 2.732151762879241,
+        "10": 0.5620238376738256,
+        "13": 0.4485548131829482
+      },
+      "D": {
+        "2": 2.732151762879309,
+        "10": 0.5620229806289647,
+        "13": 0.44852736036366697
+      }
+    }
+  },
+  "actual_case_type": "NonModHist from all six Base groups",
+  "actual_background_damping": "not exported in selected inventory; do not assert5% solely by default or model label",
+  "actual_scale_time_initial_solver_settings": "not exported; effective Base samples match at every saved time but internal interpolation/substep and initial-state settings are not thereby shown equal",
+  "verdict": "Allow reported scheme-to-baseline software peak reduction r_D=1-P_D/P_B on the six common saved-input cases, and compare both governing-input selectors within that identical six-case subset. This is a comparison of provided model states, not isolated causal effect of damping alone, not proof of equal per-mode damping, full M/K identity or unique QS.",
+  "new_reads": {
+    "raw_workbooks": 0,
+    "response_ODE_or_fit": 0,
+    "Base_input_npz_groups": 12,
+    "full_node_arrays": 0
+  },
+  "status": "frozen"
+}

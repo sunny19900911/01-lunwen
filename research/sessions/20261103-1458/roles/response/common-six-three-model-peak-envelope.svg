@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1110" viewBox="0 0 1800 1110"><rect width="100%" height="100%" fill="white"/>
+<text x="900" y="62" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="40" text-anchor="middle" dominant-baseline="middle">共有六工况下三模型楼层剪力峰值包络</text>
+<text x="900" y="117" fill="#536174" font-family="Microsoft YaHei, sans-serif" font-size="27" text-anchor="middle" dominant-baseline="middle">每个方向取RH4、SHW4、SHW7三输入中的最大绝对峰</text>
+<polyline points="140.000,177.000 210.000,177.000" fill="none" stroke="#65758A" stroke-width="5"/>
+<circle cx="175.000" cy="177.000" r="6" fill="#65758A"/>
+<text x="225" y="177" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="27" text-anchor="start" dominant-baseline="middle">基准模型</text>
+<polyline points="590.000,177.000 660.000,177.000" fill="none" stroke="#245DC1" stroke-width="5"/>
+<circle cx="625.000" cy="177.000" r="6" fill="#245DC1"/>
+<text x="675" y="177" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="27" text-anchor="start" dominant-baseline="middle">附加3个百分点模态阻尼</text>
+<polyline points="1200.000,177.000 1270.000,177.000" fill="none" stroke="#C26623" stroke-width="5"/>
+<circle cx="1235.000" cy="177.000" r="6" fill="#C26623"/>
+<text x="1285" y="177" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="27" text-anchor="start" dominant-baseline="middle">实际布置阻尼器模型</text>
+<text x="475.0" y="222" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="31" text-anchor="middle" dominant-baseline="middle">X向输入／X向楼层剪力</text>
+<polyline points="125.000,255.000 125.000,945.000" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+<text x="125.0" y="976" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" dominant-baseline="middle">0</text>
+<polyline points="265.000,255.000 265.000,945.000" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+<text x="265.0" y="976" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" dominant-baseline="middle">3000</text>
+<polyline points="405.000,255.000 405.000,945.000" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+<text x="405.0" y="976" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" dominant-baseline="middle">6000</text>
+<polyline points="545.000,255.000 545.000,945.000" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+<text x="545.0" y="976" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" dominant-baseline="middle">9000</text>
+<polyline points="685.000,255.000 685.000,945.000" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+<text x="685.0" y="976" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" dominant-baseline="middle">12000</text>
+<polyline points="825.000,255.000 825.000,945.000" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+<text x="825.0" y="976" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" dominant-baseline="middle">15000</text>
+<polyline points="125.000,945.000 825.000,945.000" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="105" y="945.0" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">1</text>
+<polyline points="125.000,882.273 825.000,882.273" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="105" y="882.2727272727273" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">2</text>
+<polyline points="125.000,819.545 825.000,819.545" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="105" y="819.5454545454545" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">3</text>
+<polyline points="125.000,756.818 825.000,756.818" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="105" y="756.8181818181818" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">4</text>
+<polyline points="125.000,694.091 825.000,694.091" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="105" y="694.0909090909091" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">5</text>
+<polyline points="125.000,631.364 825.000,631.364" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="105" y="631.3636363636364" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">6</text>
+<polyline points="125.000,568.636 825.000,568.636" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="105" y="568.6363636363636" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">7</text>
+<polyline points="125.000,505.909 825.000,505.909" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="105" y="505.90909090909093" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">8</text>
+<polyline points="125.000,443.182 825.000,443.182" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="105" y="443.1818181818182" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">9</text>
+<polyline points="125.000,380.455 825.000,380.455" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="105" y="380.4545454545455" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">10</text>
+<polyline points="125.000,317.727 825.000,317.727" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="105" y="317.72727272727275" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">11</text>
+<polyline points="125.000,255.000 825.000,255.000" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="105" y="255.0" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">12</text>
+<polyline points="125.000,255.000 125.000,945.000 825.000,945.000" fill="none" stroke="#718096" stroke-width="3"/>
+<polyline points="723.597,945.000 703.383,882.273 656.122,819.545 630.135,756.818 599.978,694.091 556.771,631.364 520.819,568.636 518.385,505.909 485.960,443.182 415.939,380.455 274.956,317.727 157.763,255.000" fill="none" stroke="#65758A" stroke-width="5"/>
+<circle cx="723.597" cy="945.000" r="6" fill="#65758A"/>
+<circle cx="703.383" cy="882.273" r="6" fill="#65758A"/>
+<circle cx="656.122" cy="819.545" r="6" fill="#65758A"/>
+<circle cx="630.135" cy="756.818" r="6" fill="#65758A"/>
+<circle cx="599.978" cy="694.091" r="6" fill="#65758A"/>
+<circle cx="556.771" cy="631.364" r="6" fill="#65758A"/>
+<circle cx="520.819" cy="568.636" r="6" fill="#65758A"/>
+<circle cx="518.385" cy="505.909" r="6" fill="#65758A"/>
+<circle cx="485.960" cy="443.182" r="6" fill="#65758A"/>
+<circle cx="415.939" cy="380.455" r="6" fill="#65758A"/>
+<circle cx="274.956" cy="317.727" r="6" fill="#65758A"/>
+<circle cx="157.763" cy="255.000" r="6" fill="#65758A"/>
+<polyline points="599.795,945.000 601.398,882.273 586.738,819.545 570.084,756.818 546.295,694.091 509.270,631.364 471.332,568.636 462.101,505.909 429.245,443.182 366.851,380.455 247.658,317.727 150.543,255.000" fill="none" stroke="#245DC1" stroke-width="5"/>
+<circle cx="599.795" cy="945.000" r="6" fill="#245DC1"/>
+<circle cx="601.398" cy="882.273" r="6" fill="#245DC1"/>
+<circle cx="586.738" cy="819.545" r="6" fill="#245DC1"/>
+<circle cx="570.084" cy="756.818" r="6" fill="#245DC1"/>
+<circle cx="546.295" cy="694.091" r="6" fill="#245DC1"/>
+<circle cx="509.270" cy="631.364" r="6" fill="#245DC1"/>
+<circle cx="471.332" cy="568.636" r="6" fill="#245DC1"/>
+<circle cx="462.101" cy="505.909" r="6" fill="#245DC1"/>
+<circle cx="429.245" cy="443.182" r="6" fill="#245DC1"/>
+<circle cx="366.851" cy="380.455" r="6" fill="#245DC1"/>
+<circle cx="247.658" cy="317.727" r="6" fill="#245DC1"/>
+<circle cx="150.543" cy="255.000" r="6" fill="#245DC1"/>
+<polyline points="640.369,945.000 634.312,882.273 612.894,819.545 587.904,756.818 554.271,694.091 508.467,631.364 470.438,568.636 457.840,505.909 423.864,443.182 359.860,380.455 241.154,317.727 147.794,255.000" fill="none" stroke="#C26623" stroke-width="5"/>
+<circle cx="640.369" cy="945.000" r="6" fill="#C26623"/>
+<circle cx="634.312" cy="882.273" r="6" fill="#C26623"/>
+<circle cx="612.894" cy="819.545" r="6" fill="#C26623"/>
+<circle cx="587.904" cy="756.818" r="6" fill="#C26623"/>
+<circle cx="554.271" cy="694.091" r="6" fill="#C26623"/>
+<circle cx="508.467" cy="631.364" r="6" fill="#C26623"/>
+<circle cx="470.438" cy="568.636" r="6" fill="#C26623"/>
+<circle cx="457.840" cy="505.909" r="6" fill="#C26623"/>
+<circle cx="423.864" cy="443.182" r="6" fill="#C26623"/>
+<circle cx="359.860" cy="380.455" r="6" fill="#C26623"/>
+<circle cx="241.154" cy="317.727" r="6" fill="#C26623"/>
+<circle cx="147.794" cy="255.000" r="6" fill="#C26623"/>
+<text x="475.0" y="1010" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="27" text-anchor="middle" dominant-baseline="middle">剪力绝对峰包络 / kN</text>
+<text x="1360.0" y="222" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="31" text-anchor="middle" dominant-baseline="middle">Y向输入／Y向楼层剪力</text>
+<polyline points="1010.000,255.000 1010.000,945.000" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+<text x="1010.0" y="976" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" dominant-baseline="middle">0</text>
+<polyline points="1150.000,255.000 1150.000,945.000" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+<text x="1150.0" y="976" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" dominant-baseline="middle">3000</text>
+<polyline points="1290.000,255.000 1290.000,945.000" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+<text x="1290.0" y="976" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" dominant-baseline="middle">6000</text>
+<polyline points="1430.000,255.000 1430.000,945.000" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+<text x="1430.0" y="976" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" dominant-baseline="middle">9000</text>
+<polyline points="1570.000,255.000 1570.000,945.000" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+<text x="1570.0" y="976" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" dominant-baseline="middle">12000</text>
+<polyline points="1710.000,255.000 1710.000,945.000" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+<text x="1710.0" y="976" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" dominant-baseline="middle">15000</text>
+<polyline points="1010.000,945.000 1710.000,945.000" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="990" y="945.0" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">1</text>
+<polyline points="1010.000,882.273 1710.000,882.273" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="990" y="882.2727272727273" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">2</text>
+<polyline points="1010.000,819.545 1710.000,819.545" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="990" y="819.5454545454545" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">3</text>
+<polyline points="1010.000,756.818 1710.000,756.818" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="990" y="756.8181818181818" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">4</text>
+<polyline points="1010.000,694.091 1710.000,694.091" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="990" y="694.0909090909091" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">5</text>
+<polyline points="1010.000,631.364 1710.000,631.364" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="990" y="631.3636363636364" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">6</text>
+<polyline points="1010.000,568.636 1710.000,568.636" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="990" y="568.6363636363636" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">7</text>
+<polyline points="1010.000,505.909 1710.000,505.909" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="990" y="505.90909090909093" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">8</text>
+<polyline points="1010.000,443.182 1710.000,443.182" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="990" y="443.1818181818182" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">9</text>
+<polyline points="1010.000,380.455 1710.000,380.455" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="990" y="380.4545454545455" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">10</text>
+<polyline points="1010.000,317.727 1710.000,317.727" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="990" y="317.72727272727275" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">11</text>
+<polyline points="1010.000,255.000 1710.000,255.000" fill="none" stroke="#ECF0F4" stroke-width="1"/>
+<text x="990" y="255.0" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="24" text-anchor="end" dominant-baseline="middle">12</text>
+<polyline points="1010.000,255.000 1010.000,945.000 1710.000,945.000" fill="none" stroke="#718096" stroke-width="3"/>
+<polyline points="1608.507,945.000 1589.451,882.273 1524.612,819.545 1492.484,756.818 1460.802,694.091 1411.064,631.364 1405.726,568.636 1405.161,505.909 1372.847,443.182 1302.503,380.455 1162.508,317.727 1049.305,255.000" fill="none" stroke="#65758A" stroke-width="5"/>
+<circle cx="1608.507" cy="945.000" r="6" fill="#65758A"/>
+<circle cx="1589.451" cy="882.273" r="6" fill="#65758A"/>
+<circle cx="1524.612" cy="819.545" r="6" fill="#65758A"/>
+<circle cx="1492.484" cy="756.818" r="6" fill="#65758A"/>
+<circle cx="1460.802" cy="694.091" r="6" fill="#65758A"/>
+<circle cx="1411.064" cy="631.364" r="6" fill="#65758A"/>
+<circle cx="1405.726" cy="568.636" r="6" fill="#65758A"/>
+<circle cx="1405.161" cy="505.909" r="6" fill="#65758A"/>
+<circle cx="1372.847" cy="443.182" r="6" fill="#65758A"/>
+<circle cx="1302.503" cy="380.455" r="6" fill="#65758A"/>
+<circle cx="1162.508" cy="317.727" r="6" fill="#65758A"/>
+<circle cx="1049.305" cy="255.000" r="6" fill="#65758A"/>
+<polyline points="1460.538,945.000 1466.571,882.273 1456.249,819.545 1438.090,756.818 1413.738,694.091 1375.125,631.364 1345.301,568.636 1338.184,505.909 1306.995,443.182 1246.378,380.455 1130.917,317.727 1040.903,255.000" fill="none" stroke="#245DC1" stroke-width="5"/>
+<circle cx="1460.538" cy="945.000" r="6" fill="#245DC1"/>
+<circle cx="1466.571" cy="882.273" r="6" fill="#245DC1"/>
+<circle cx="1456.249" cy="819.545" r="6" fill="#245DC1"/>
+<circle cx="1438.090" cy="756.818" r="6" fill="#245DC1"/>
+<circle cx="1413.738" cy="694.091" r="6" fill="#245DC1"/>
+<circle cx="1375.125" cy="631.364" r="6" fill="#245DC1"/>
+<circle cx="1345.301" cy="568.636" r="6" fill="#245DC1"/>
+<circle cx="1338.184" cy="505.909" r="6" fill="#245DC1"/>
+<circle cx="1306.995" cy="443.182" r="6" fill="#245DC1"/>
+<circle cx="1246.378" cy="380.455" r="6" fill="#245DC1"/>
+<circle cx="1130.917" cy="317.727" r="6" fill="#245DC1"/>
+<circle cx="1040.903" cy="255.000" r="6" fill="#245DC1"/>
+<polyline points="1493.759,945.000 1488.989,882.273 1470.604,819.545 1446.701,756.818 1415.299,694.091 1372.362,631.364 1333.932,568.636 1323.026,505.909 1290.284,443.182 1230.899,380.455 1120.579,317.727 1034.433,255.000" fill="none" stroke="#C26623" stroke-width="5"/>
+<circle cx="1493.759" cy="945.000" r="6" fill="#C26623"/>
+<circle cx="1488.989" cy="882.273" r="6" fill="#C26623"/>
+<circle cx="1470.604" cy="819.545" r="6" fill="#C26623"/>
+<circle cx="1446.701" cy="756.818" r="6" fill="#C26623"/>
+<circle cx="1415.299" cy="694.091" r="6" fill="#C26623"/>
+<circle cx="1372.362" cy="631.364" r="6" fill="#C26623"/>
+<circle cx="1333.932" cy="568.636" r="6" fill="#C26623"/>
+<circle cx="1323.026" cy="505.909" r="6" fill="#C26623"/>
+<circle cx="1290.284" cy="443.182" r="6" fill="#C26623"/>
+<circle cx="1230.899" cy="380.455" r="6" fill="#C26623"/>
+<circle cx="1120.579" cy="317.727" r="6" fill="#C26623"/>
+<circle cx="1034.433" cy="255.000" r="6" fill="#C26623"/>
+<text x="1360.0" y="1010" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="27" text-anchor="middle" dominant-baseline="middle">剪力绝对峰包络 / kN</text>
+<text x="40" y="590" fill="#243044" font-family="Microsoft YaHei, sans-serif" font-size="25" text-anchor="start" dominant-baseline="middle">楼层</text>
+<text x="900" y="1066" fill="#536174" font-family="Microsoft YaHei, sans-serif" font-size="25" text-anchor="middle" dominant-baseline="middle">各层分别选取控制输入；该包络不表示同一时刻的沿层剪力分布</text>
+</svg>

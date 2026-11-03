@@ -1,0 +1,13 @@
+{
+  "baseline_reference_exact_match_to_reviewed168": true,
+  "all_72_unique_keys": true,
+  "24_groups_with_3_inputs": true,
+  "24_layer_cases_8_devices_complete": true,
+  "8_device_sum_vs_frozen_QD_max_abs_residual_kN": 5.684341886080802e-14,
+  "Story8_old48_vs_old384_same_device_QD_max_residual_kN": 0.0,
+  "plot24rows_exact_envelope_check": true,
+  "figure_actual_viewed_at_original_detail": true,
+  "figure_readability": "two panels; labels and complete axes readable; 1800x1110 pixels",
+  "prior_plot_attempt": "First attempt asserted a fixed 12000kN axis limit before producing any output; changed axis to data-dependent 3000kN ceiling, then ran once successfully. No data or calculation changed.",
+  "scope": "Arithmetic and frozen-source consistency, not independent solver rerun or cross-model pairing certificate"
+}

@@ -1,0 +1,10 @@
+{
+  "phase": "data-and-pairing-check",
+  "started_at": "2026-11-03T14:58:22+08:00",
+  "checkpoint_open": false,
+  "source_manuscript": "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-v003.md",
+  "source_sha256": "afa9ccbef57335084d7bb57a8ed443644b7fd53c57623cf59ea02788212708df",
+  "ownership": {"main": "root", "geometry": "p06_actual_geometry", "response": "p06_actual_response", "pairing": "p06_actual_pairing"},
+  "no_new_ODE_or_solver": true,
+  "git_mode": "explicit frozen whitelist only"
+}

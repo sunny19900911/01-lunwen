@@ -1,0 +1,37 @@
+{
+  "at": "2026-11-03T15:05:29.096692+08:00",
+  "source_csv": "research/sessions/20261019-2045/roles/data/R001-link-geometry-88.csv",
+  "source_csv_sha256": "0c37a449be68bbfe03cc4e3e516fea3c8d4d42e741d9d0e3e23f0aa09a1c5d62",
+  "source_summary_sha256": "fc89c3cf5d954e6d3d3f01651554dd6e57853363aa064942d0c0e118c42e3430",
+  "links": 88,
+  "unique_link_names": 88,
+  "all_endpoints_found": true,
+  "all_span_adjacent_levels": true,
+  "exclusive_horizontal_classes": {
+    "X": 44,
+    "Y": 44
+  },
+  "maximum_difference_from_old_csv": {
+    "length_m": 0.0,
+    "direction_cosine": 0.0,
+    "inclination_deg": 7.105427357601002e-15
+  },
+  "overall_length_m": [
+    6.439909626695091,
+    9.40069279361899
+  ],
+  "overall_inclination_deg": [
+    29.196651633407406,
+    48.366460663429734
+  ],
+  "actual_parameters_user_confirmed": {
+    "kappa_kN_per_m": 500000,
+    "c_kN_s_per_m_power_alpha": 477,
+    "alpha": 0.3,
+    "source_type": "human confirmation from earlier main conversation; not silently populated from an empty property export"
+  },
+  "raw_original_excel_reread": false,
+  "new_ODE": false,
+  "drawn_segment_count_each_view": 88,
+  "unobserved_tower_assignment_inferred": false
+}

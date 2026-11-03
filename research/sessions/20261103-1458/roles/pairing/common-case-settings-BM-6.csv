@@ -1,0 +1,7 @@
+Name,Mass Source,Initial Condition,Load Type,Load Name,Function,Trans Accel SF,Time Factor,Arrival Time,Angle,Modal Case,Motion Type,Number Steps,Step Size,Max Substep,Min Substep
+RH4X,Previous  (MsSrc1),Unstressed,Accel,U1,"ArtWave-RH4TG090,Tg(0.90)-X",3.5,1.0,0.0,0.0,Modal,Transient,2500.0,0.02,0.0,0.0
+RH4Y,Previous  (MsSrc1),Unstressed,Accel,U2,"ArtWave-RH4TG090,Tg(0.90)-X",3.5,1.0,0.0,0.0,Modal,Transient,2500.0,0.02,0.0,0.0
+SHW4X,Previous  (MsSrc1),Unstressed,Accel,U1,"SHW4_NGA_1828HECTOR.0688c,Tg(0.9)-X",0.35,1.0,0.0,0.0,Modal,Transient,2950.0,0.02,0.0,0.0
+SHW4Y,Previous  (MsSrc1),Unstressed,Accel,U2,"SHW4_NGA_1828HECTOR.0688c,Tg(0.9)-X",0.35,1.0,0.0,0.0,Modal,Transient,2950.0,0.02,0.0,0.0
+SHW7X,Previous  (MsSrc1),Unstressed,Accel,U1,"SHW7_NGA_2723CHICHI04.CHY059,Tg(0.9)-X",0.35,1.0,0.0,0.0,Modal,Transient,2695.0,0.02,0.0,0.0
+SHW7Y,Previous  (MsSrc1),Unstressed,Accel,U2,"SHW7_NGA_2723CHICHI04.CHY059,Tg(0.9)-X",0.35,1.0,0.0,0.0,Modal,Transient,2695.0,0.02,0.0,0.0
