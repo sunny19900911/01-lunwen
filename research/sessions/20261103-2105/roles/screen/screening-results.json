@@ -1,0 +1,67 @@
+{
+  "completed": "2026-11-03T21:51:03.609836+08:00",
+  "code_sha256": "0d9af1ea4529e5f2710a02733dccf6e9367c87efe0db7b0d48b204b1437097e9",
+  "rows": 216,
+  "baseline_only_freeze": {
+    "at": "2026-11-03T21:51:03.461468+08:00",
+    "actual_arrays_read_before_freeze": 0,
+    "candidate_csv_sha256": "8a360f896f55fa85001d12db26b499db628d1f757df5e632e46afa1d01880d25",
+    "policy_sha256": "7c2c8eee723f1e3391dcce7968275c746aa0ecebb3389d82f6c935055ccca8e9"
+  },
+  "summary": [
+    {
+      "epsilon_percent": 2.0,
+      "records": 72,
+      "candidate_count_total": 84,
+      "candidate_count_median": 1.0,
+      "candidate_count_max": 4,
+      "exact_capture": 3,
+      "peak_error_le_1_percent": 11,
+      "near_010s": 41,
+      "neighborhood_exact_capture": 41,
+      "neighborhood_error_le_1_percent": 51,
+      "maximum_peak_miss_percent": 37.426442835249794,
+      "maximum_neighborhood_peak_miss_percent": 31.736396992247247
+    },
+    {
+      "epsilon_percent": 5.0,
+      "records": 72,
+      "candidate_count_total": 91,
+      "candidate_count_median": 1.0,
+      "candidate_count_max": 4,
+      "exact_capture": 3,
+      "peak_error_le_1_percent": 11,
+      "near_010s": 41,
+      "neighborhood_exact_capture": 41,
+      "neighborhood_error_le_1_percent": 51,
+      "maximum_peak_miss_percent": 37.426442835249794,
+      "maximum_neighborhood_peak_miss_percent": 31.736396992247247
+    },
+    {
+      "epsilon_percent": 10.0,
+      "records": 72,
+      "candidate_count_total": 120,
+      "candidate_count_median": 1.0,
+      "candidate_count_max": 7,
+      "exact_capture": 3,
+      "peak_error_le_1_percent": 11,
+      "near_010s": 44,
+      "neighborhood_exact_capture": 44,
+      "neighborhood_error_le_1_percent": 53,
+      "maximum_peak_miss_percent": 37.426442835249794,
+      "maximum_neighborhood_peak_miss_percent": 31.736396992247247
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Forces.npz",
+      "sha256": "fb11e299f62682d0bf3a68644cdae474ca8a6ce96863838e02117431f72caf8d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Forces.npz",
+      "sha256": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d"
+    }
+  ],
+  "not_prediction": true,
+  "no_ODE_no_raw_workbook": true
+}

@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-03T22:01:57.484093+08:00",
+  "whole_QD_relative_RMS": 0.4263870594089276,
+  "late_QD_relative_RMS_NOT_holdout": 0.4587706699262785,
+  "anchors": [
+    {
+      "time_s": 16.62,
+      "native_QD_kN": -111.21233704344948,
+      "linear_whole_response_QD_kN": -64.0771433532212,
+      "native_branch_absolute_sum_kN": 111.21233704344948,
+      "linear_branch_absolute_sum_kN": 67.37294273208832
+    },
+    {
+      "time_s": 21.64,
+      "native_QD_kN": -258.2222534744777,
+      "linear_whole_response_QD_kN": -199.971626186077,
+      "native_branch_absolute_sum_kN": 258.2222534744777,
+      "linear_branch_absolute_sum_kN": 199.971626186077
+    }
+  ],
+  "same_abs_order_t2_greater_t1": true,
+  "coefficient_used_entire_actual_record": true,
+  "not_independent_validation": true,
+  "not_new_story_QT": true,
+  "code_sha256": "aee7cc4e9309ba6634b63102df5da9d5c37c21b303ac8880fa814f12428e2d84",
+  "policy_sha256": "a1d1d928b1a3e0cde3fac56cdc4f814e7f4c450305fd177ef06d6ee009cd24e0"
+}

@@ -1,0 +1,144 @@
+{
+  "checkpoint": "R001",
+  "frozen_at": "2026-11-03T22:04:40.417486+08:00",
+  "message": "P06 simultaneous force, local equivalence and near-peak tests",
+  "scope": "root frozen calculations only; manuscript and in-progress role files excluded",
+  "files": [
+    {
+      "relative": "research/sessions/20261103-2105/check_final_word.py",
+      "sha256": "ced62cbc5b72ef42a18a52647123e351a211b165693e3eaf987d7eb937555f4e"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/check_local_equivalent.py",
+      "sha256": "072a471126f7b6e9ecfd42dfc21c267bd2c93cbec3248b235e955cc56731e6f0"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/check_whole_response_equivalent.py",
+      "sha256": "aee7cc4e9309ba6634b63102df5da9d5c37c21b303ac8880fa814f12428e2d84"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/claims.md",
+      "sha256": "24b68ba455191d0bb4fbe464b54588967208429a3e93700e364f21aedfcd4616"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/equivalent-policy-freeze.json",
+      "sha256": "51e7332c1102437c3a9c85128be16b970ae389afbbdd697d0619485055364b13"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/equivalent-response-level-addendum.json",
+      "sha256": "a1d1d928b1a3e0cde3fac56cdc4f814e7f4c450305fd177ef06d6ee009cd24e0"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/make_checkpoint.py",
+      "sha256": "f272817441f004bd34089715781268c074f38ecdc361ae2fea64578690d5e33f"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/near-peak-policy-freeze.json",
+      "sha256": "7c2c8eee723f1e3391dcce7968275c746aa0ecebb3389d82f6c935055ccca8e9"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/plan.md",
+      "sha256": "77226c056da6e4ae486fda2460eb8c09222594a17a0a1bf86789372787385609"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/prepare_tools.py",
+      "sha256": "c645ff34d5497bf7289938d814d476fd52a953635905dcb592791d87d033a978"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/publish_checkpoint.py",
+      "sha256": "d7365661b99df7e4086407510ba35b6bd8d3c7f2243fae6f542d7ca429188051"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/publish_root_checkpoint.py",
+      "sha256": "50fac821da0de3dac21999118129d1b623738d401850159935228c3b5821b51a"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/refine_equivalent_text.py",
+      "sha256": "76fa7055a4e2c92abe76f7c52d6f528751148678e0b1d9b6923b395dc81d54ac"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/rewrite_paper.py",
+      "sha256": "b2b90980fc27a3d4fe2c7f82d88a1922bff29b269aca0294c7cf2957a3a52bb0"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/equivalent/equivalent-device-8.csv",
+      "sha256": "b9f44acca050c1c75f151161da465010d70f7a8f44e7489dc436e5eba427d7cc"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/equivalent/equivalent-QD-two-times.csv",
+      "sha256": "f0d2a48f1c9c12b2bb6c185d243c5c9b87b17d3ce3e7d6ab8ec4d8489a4df711"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/equivalent/equivalent-results.json",
+      "sha256": "7faedeb522c826e8949482d6ff89681ebc2855144d44803679f4b3ca603c19e1"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/equivalent/R002/whole-response-device-8.csv",
+      "sha256": "5b35bb6b01555bfec2a3dbcebd6f56dec91cab146e4f4038cfac4eb97120f402"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/equivalent/R002/whole-response-QD-two-times.csv",
+      "sha256": "c4c39d40d8c4bd898966fa107d066ee1bfd2cb438a804ebde79a4da0983c1c6f"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/equivalent/R002/whole-response-results.json",
+      "sha256": "accf8255d1119b509fd1a4f7ad73ce354158376a8b43343b679ffaf2a18615b4"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/screen/baseline-candidates-frozen.csv",
+      "sha256": "8a360f896f55fa85001d12db26b499db628d1f757df5e632e46afa1d01880d25"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/screen/candidate-freeze.json",
+      "sha256": "fc6ef6dd795563fab5824beb9a99d6b085ba1533a56c5ce10c301c9797fbdc49"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/screen/screening-216.csv",
+      "sha256": "e42ef08152333e2f273e840fc26fd70911532abc03845286741127b2a3a35b47"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/screen/screening-results.json",
+      "sha256": "daf2d87bb8deefb8b99a4b35237d42f39ac162fa896696df2e27fdc51d4c38ab"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/screen/screening-summary-3.csv",
+      "sha256": "11c10f5ec5dfb2da10b8e02709efe261f15684c2764a31a38be1cd2240ba0922"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/root-four-record-check.json",
+      "sha256": "c35bccbb8a92e430556f4f6859b28a48bd6d4a54426fad4f4b6e47e8679a06e5"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/root-four-records.csv",
+      "sha256": "dce198b2dfb636ddddd5aae51c6ba549ea507f1851d52a966e4bfd1bd4b9ccad"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/root_four_record_check.py",
+      "sha256": "cda45eaee0c3927aa7635845de1a1ff755f933d7f00c47047e1a5ed5b5e74b72"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/runs.md",
+      "sha256": "ba0f667b171f25708b7609e7668f76f5bdf1b98a185448324e0ab18aca0d6230"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/screen_near_peaks.py",
+      "sha256": "0d9af1ea4529e5f2710a02733dccf6e9367c87efe0db7b0d48b204b1437097e9"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/source-freeze.json",
+      "sha256": "33e9b11ad286f02b6b14755dd4ae5e2fc65b7f97999d3578bf4a06e7a4602c04"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/stage1-decision.md",
+      "sha256": "6d36370c6fbd4f9ba2724dd4c703ed4ce1b6f2e36eedccbc77fabdc5295b3f90"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/status.json",
+      "sha256": "53e9f909ea787d23876faa097709dd05ce5a99127e22de39571e3a2cc2545861"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/四项补强资料说明.md",
+      "sha256": "d1b6c40fd8a1873f3b735d293f8e5129170d478443b96b2c3761084a4769ed8e"
+    }
+  ]
+}

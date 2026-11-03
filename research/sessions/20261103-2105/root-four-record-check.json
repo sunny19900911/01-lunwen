@@ -1,0 +1,60 @@
+{
+  "source_sha256": "dff22ab303c492e4f8943171b2e26abd1e932913c2d4acf7be3f9385f72bf083",
+  "records": [
+    {
+      "Story": 8,
+      "Case": "RH4X",
+      "time_QT_peak_s": 21.6,
+      "QT_kN": 5776.651278353405,
+      "QD_J_resisting_kN": -238.1133110864973,
+      "QT_minus_QD_kN": 6014.764589439903,
+      "QT_plus_QD_kN": 5538.537967266908,
+      "SourceRow": 66268,
+      "peak_abs_QT_kN": 5776.651278353405,
+      "peak_abs_QT_minus_QD_kN": 6031.908243390913,
+      "peak_abs_QT_plus_QD_kN": 5538.537967266908
+    },
+    {
+      "Story": 8,
+      "Case": "RH4Y",
+      "time_QT_peak_s": 21.580000000000002,
+      "QT_kN": 5205.211211212888,
+      "QD_J_resisting_kN": -279.6257047536688,
+      "QT_minus_QD_kN": 5484.836915966557,
+      "QT_plus_QD_kN": 4925.585506459219,
+      "SourceRow": 68768,
+      "peak_abs_QT_kN": 5205.211211212888,
+      "peak_abs_QT_minus_QD_kN": 5484.836915966557,
+      "peak_abs_QT_plus_QD_kN": 4938.550011987306
+    },
+    {
+      "Story": 10,
+      "Case": "RH4X",
+      "time_QT_peak_s": 21.64,
+      "QT_kN": 3711.8076976724833,
+      "QD_J_resisting_kN": -249.1130120015086,
+      "QT_minus_QD_kN": 3960.920709673992,
+      "QT_plus_QD_kN": 3462.6946856709746,
+      "SourceRow": 33678,
+      "peak_abs_QT_kN": 3711.8076976724833,
+      "peak_abs_QT_minus_QD_kN": 3960.920709673992,
+      "peak_abs_QT_plus_QD_kN": 3470.888548371258
+    },
+    {
+      "Story": 10,
+      "Case": "RH4Y",
+      "time_QT_peak_s": 21.64,
+      "QT_kN": 3395.9230318706223,
+      "QD_J_resisting_kN": -258.2222534744777,
+      "QT_minus_QD_kN": 3654.1452853451,
+      "QT_plus_QD_kN": 3137.7007783961444,
+      "SourceRow": 36179,
+      "peak_abs_QT_kN": 3395.9230318706223,
+      "peak_abs_QT_minus_QD_kN": 3654.1452853451,
+      "peak_abs_QT_plus_QD_kN": 3144.083925084885
+    }
+  ],
+  "arithmetic_confirmed": true,
+  "independent_cut_force_available_in_this_check": false,
+  "QS_identified": false
+}

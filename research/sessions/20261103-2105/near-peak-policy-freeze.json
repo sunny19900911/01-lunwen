@@ -1,0 +1,14 @@
+{
+  "frozen_before_new_screening": true,
+  "main_gap_fraction": 0.05,
+  "sensitivity_gap_fractions": [0.02,0.05,0.10],
+  "candidate_signal": "absolute baseline Bottom story shear only",
+  "candidate_definition": "saved-grid local absolute maxima, plateau first point, endpoints one-sided, value >= (1-epsilon)*baseline absolute maximum",
+  "event_cluster": "none: retain all local maxima; do not merge nearby candidates using actual response",
+  "evaluation": "at frozen baseline candidate times read actual absolute response; compare its maximum with complete actual peak; retain signed values/time/source rows",
+  "local_time_neighborhood_s": 0.10,
+  "neighborhood_scope": "secondary practical diagnostic around baseline candidates, not guarantee or independent prediction",
+  "exact_capture_tolerance_relative": 1e-10,
+  "report": "candidate counts, exact saved-grid capture, practical peak error <=1%, actual peak-time proximity <=0.10s, baseline value at actual control time, misses",
+  "scope": "post-analysis checking and prioritization; actual-scheme histories remain needed; no guaranteed screening from 5% threshold"
+}
