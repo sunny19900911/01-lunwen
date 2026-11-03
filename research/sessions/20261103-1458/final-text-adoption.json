@@ -1,0 +1,44 @@
+{
+  "reviewed_v001_sha256": "52f156a71dff7a9973bfe84811a0fed028d4da141ff97d51e3532f0ca4e6cd4f",
+  "final_md": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v002.md",
+  "final_bytes": 38873,
+  "final_sha256": "f5e12aa1a68cfa5a81473a8f1ef09fc4540cbf1e10207a25ca976834794d0a87",
+  "exact_clarifications": [
+    {
+      "from": "实体模型18个质心方向质量与基准、参考表的逐组数值对应",
+      "to": "实体模型18个质心的X、Y方向质量与基准、参考表的逐组数值对应"
+    },
+    {
+      "from": "几何相同数量并不意味着水平合力相同",
+      "to": "装置数量相同并不意味着水平合力相同"
+    },
+    {
+      "from": "24个楼层—工况的8只装置时程均与楼层输出时间逐点一致",
+      "to": "第8—11层合计24个楼层—工况组中，每组8只装置的时程均与楼层输出时间逐点一致"
+    },
+    {
+      "from": "本文不由QT与QD相减另造主体剪力",
+      "to": "若需分离主体剪力，应先明确软件截面的受力范围及装置作用的包含方式"
+    },
+    {
+      "from": "明确比较的是基准与附加模态阻尼参考模型",
+      "to": "明确比较对象为基准—模态增阻尼参考，或基准—实体阻尼器方案"
+    },
+    {
+      "from": "分别求两模型完整保存时程的绝对峰与峰时，计算r_peak、r_at和d。全部量来自同一记录",
+      "to": "分别求所比较模型完整保存时程的绝对峰与峰时。基准—模态参考计算r_peak、r_at和d；实体方案相对基准另列r_D并保留各自峰时。全部量来自同一记录"
+    },
+    {
+      "from": "按最小减幅选择记录时，共同六方向工况对应SHW4Y第7层",
+      "to": "对模态增阻尼参考按最小减幅选择记录时，共同六方向工况对应SHW4Y第7层"
+    },
+    {
+      "from": "在目标层及相邻层的完整时程中标出t_B和t_M，并结合d查看原峰时读数与该输入下参考剪力峰的差别。",
+      "to": "对基准—模态增阻尼参考，在目标层及相邻层的完整时程中标出t_B和t_M，并结合d查看原峰时读数与该输入下参考剪力峰的差别。实体方案同样保留基准与自身峰时，回到对应时段检查响应。"
+    }
+  ],
+  "all_tables_unchanged_from_review": true,
+  "display_math_unchanged": true,
+  "marker_not_yet_run": true,
+  "native_math_formatting_added": "P_D/r_D and actual parameter units; no scientific value changes"
+}

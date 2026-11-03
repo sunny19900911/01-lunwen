@@ -1,0 +1,27 @@
+{
+  "source_sha256": "afa9ccbef57335084d7bb57a8ed443644b7fd53c57623cf59ea02788212708df",
+  "manuscript": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v001.md",
+  "bytes": 38524,
+  "sha256": "52f156a71dff7a9973bfe84811a0fed028d4da141ff97d51e3532f0ca4e6cd4f",
+  "original_tables2_to4_exact": true,
+  "table1_scope_expanded_intentionally": true,
+  "original_display_equations_exact": true,
+  "references_exact": true,
+  "tables": 8,
+  "figures": 5,
+  "all_source_links_exist": [
+    "../../../research/sessions/20261103-1458/实际方案资料与完整附表.md",
+    "../../../research/sessions/20261102-1917/roles/role5/R002/engineering-data-and-full-tables.md",
+    "../../../research/sessions/20261103-1458/实际方案资料与完整附表.md",
+    "../../../research/sessions/20261102-1917/roles/role5/R002/engineering-data-and-full-tables.md",
+    "../../../research/sessions/20261021-2020/roles/role4/R002-story-range-median.png",
+    "../../../research/sessions/20261103-0845/roles/writing/SHW3X-SHW4X-辅助分析资料-v002.md",
+    "../../../research/revisions/20261103-1407-mechanism-classification/机制分类与同刻对照.md",
+    "../../../research/sessions/20261103-1458/roles/geometry/actual-damper-layout.png",
+    "../../../research/sessions/20261103-1458/roles/response/common-six-three-model-peak-envelope.png",
+    "../../../research/sessions/20261103-1458/roles/response/R002/Story8-RH4X-SHW7X-native-QT-QD-v003.png",
+    "../../../research/sessions/20261021-2020/roles/role4/R002-peak-evaluation-scatter.png",
+    "../../../research/sessions/20261021-0737/roles/role5/R001-methods-supplement.md"
+  ],
+  "initial_validation_note": "Initial generator expected data-scope table1 unchanged, although that table was intentionally expanded. That check stopped after writing draft; corrected scoped verification above passes. No scientific data were changed to pass a check."
+}
