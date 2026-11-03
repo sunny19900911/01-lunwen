@@ -55,6 +55,8 @@ with zipfile.ZipFile(a.docx) as z:
  assert doc.findall('.//m:m',NS),'Native K matrix missing'
  links=[dict(x.attrib) for x in rels if x.attrib.get('Type','').endswith('/hyperlink')]
  assert any('engineering-data-and-full-tables' in x.get('Target','') for x in links),'Engineering supplementary hyperlink missing'
+ if 'SHW3X-SHW4X-辅助分析资料-v002.md' in md:
+  assert any('SHW3X-SHW4X-' in x.get('Target','') and 'v002.md' in x.get('Target','') for x in links),'New auxiliary supplement hyperlink missing'
  core=E.fromstring(z.read('docProps/core.xml'))
  creators=core.findall('{http://purl.org/dc/elements/1.1/}creator')+core.findall('{http://schemas.openxmlformats.org/package/2006/metadata/core-properties}lastModifiedBy')
  assert all(not (x.text or '').strip() for x in creators),'Author metadata must stay blank until supplied by human'

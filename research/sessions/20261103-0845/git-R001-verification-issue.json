@@ -1,0 +1,14 @@
+{
+  "checkpoint": "R001",
+  "HEAD": "45b2e70166dcbea3357f94ac54669039609d45e2",
+  "push_exit_code": 0,
+  "push_reported_main_updated": true,
+  "remote_SHA_verification": "unavailable",
+  "followup_readonly_error": "schannel: failed to receive handshake, SSL/TLS connection failed",
+  "one_alternative_readonly_check": "command-level http.sslBackend=openssl, certificate verification retained",
+  "alternative_error": "TLS connect error: SSL routines unexpected eof while reading",
+  "pending_state": "Remote verification pending; do not assert push failed or remote SHA matched.",
+  "no_second_push_attempt": true,
+  "no_global_config_credential_login_or_force_action": true,
+  "next": "At next normal checkpoint inspect remote once before any new mutation. Keep local commit and immutable initial receipt."
+}

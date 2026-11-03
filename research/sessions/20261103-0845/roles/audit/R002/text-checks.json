@@ -1,0 +1,297 @@
+{
+  "at": "2026-11-03T09:15:14.788486+08:00",
+  "main_sha256": "8906450fd3ad926e13f3a05de332d692944a6a6e50d43e36a127628b49f9d7c0",
+  "supplement_sha256": "b41d6563d5daa991d77644531ca14c3038036cd8e65f6979dcb7a5a011c14268",
+  "old_tables_retained": 5,
+  "new_tables": 6,
+  "old_display_equations_unchanged": 5,
+  "old_figures_unchanged": 3,
+  "abstracts_unchanged": true,
+  "references_unchanged": true,
+  "new_table_numeric_cells_checked": 40,
+  "checks": [
+    {
+      "location": "main-table4",
+      "label": "软件剪力绝对峰/kN",
+      "case": "SHW3X",
+      "shown": "8096.15",
+      "source": 8096.1503411165795
+    },
+    {
+      "location": "main-table4",
+      "label": "软件剪力绝对峰/kN",
+      "case": "SHW4X",
+      "shown": "9027.75",
+      "source": 9027.745083929776
+    },
+    {
+      "location": "main-table4",
+      "label": "软件峰时/s",
+      "case": "SHW3X",
+      "shown": "22.94",
+      "source": 22.94
+    },
+    {
+      "location": "main-table4",
+      "label": "软件峰时/s",
+      "case": "SHW4X",
+      "shown": "29.92",
+      "source": 29.92
+    },
+    {
+      "location": "main-table4",
+      "label": "参照合成/kN",
+      "case": "SHW3X",
+      "shown": "+8096.35",
+      "source": 8096.348695497577
+    },
+    {
+      "location": "main-table4",
+      "label": "参照合成/kN",
+      "case": "SHW4X",
+      "shown": "+9028.47",
+      "source": 9028.472674517714
+    },
+    {
+      "location": "main-table4",
+      "label": "参照第2阶项/kN",
+      "case": "SHW3X",
+      "shown": "+6762.84",
+      "source": 6762.83891216895
+    },
+    {
+      "location": "main-table4",
+      "label": "参照第2阶项/kN",
+      "case": "SHW4X",
+      "shown": "+7753.76",
+      "source": 7753.75809176116
+    },
+    {
+      "location": "main-table4",
+      "label": "参照第10阶项/kN",
+      "case": "SHW3X",
+      "shown": "+506.93",
+      "source": 506.9257359551149
+    },
+    {
+      "location": "main-table4",
+      "label": "参照第10阶项/kN",
+      "case": "SHW4X",
+      "shown": "+309.55",
+      "source": 309.5494703701177
+    },
+    {
+      "location": "main-table4",
+      "label": "参照第13阶项/kN",
+      "case": "SHW3X",
+      "shown": "+28.36",
+      "source": 28.36055090615144
+    },
+    {
+      "location": "main-table4",
+      "label": "参照第13阶项/kN",
+      "case": "SHW4X",
+      "shown": "−1.68",
+      "source": -1.6801126998473868
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "zeta",
+      "case": "SHW3X",
+      "shown": "5",
+      "source": 5.0
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "native_peak_time_s",
+      "case": "SHW3X",
+      "shown": "22.92",
+      "source": 22.92
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "native_peak_abs_kN",
+      "case": "SHW3X",
+      "shown": "8691.6380",
+      "source": 8691.637986375608
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_at_native_peak_signed_kN",
+      "case": "SHW3X",
+      "shown": "+8691.8085",
+      "source": 8691.808506660655
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_mode2_kN",
+      "case": "SHW3X",
+      "shown": "+7175.3989",
+      "source": 7175.398890439123
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_mode10_kN",
+      "case": "SHW3X",
+      "shown": "+695.3230",
+      "source": 695.3230471317162
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_mode13_kN",
+      "case": "SHW3X",
+      "shown": "−42.6168",
+      "source": -42.61683313938931
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "zeta",
+      "case": "SHW3X",
+      "shown": "8",
+      "source": 8.0
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "native_peak_time_s",
+      "case": "SHW3X",
+      "shown": "22.94",
+      "source": 22.94
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "native_peak_abs_kN",
+      "case": "SHW3X",
+      "shown": "8096.1503",
+      "source": 8096.1503411165795
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_at_native_peak_signed_kN",
+      "case": "SHW3X",
+      "shown": "+8096.3487",
+      "source": 8096.348695497577
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_mode2_kN",
+      "case": "SHW3X",
+      "shown": "+6762.8389",
+      "source": 6762.83891216895
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_mode10_kN",
+      "case": "SHW3X",
+      "shown": "+506.9257",
+      "source": 506.9257359551149
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_mode13_kN",
+      "case": "SHW3X",
+      "shown": "+28.3606",
+      "source": 28.36055090615144
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "zeta",
+      "case": "SHW4X",
+      "shown": "5",
+      "source": 5.0
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "native_peak_time_s",
+      "case": "SHW4X",
+      "shown": "29.94",
+      "source": 29.94
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "native_peak_abs_kN",
+      "case": "SHW4X",
+      "shown": "10178.0915",
+      "source": 10178.091451838196
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_at_native_peak_signed_kN",
+      "case": "SHW4X",
+      "shown": "+10175.1678",
+      "source": 10175.167794429944
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_mode2_kN",
+      "case": "SHW4X",
+      "shown": "+8632.3946",
+      "source": 8632.394593212222
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_mode10_kN",
+      "case": "SHW4X",
+      "shown": "+443.4849",
+      "source": 443.48489847562155
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_mode13_kN",
+      "case": "SHW4X",
+      "shown": "+25.1155",
+      "source": 25.115528748531034
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "zeta",
+      "case": "SHW4X",
+      "shown": "8",
+      "source": 8.0
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "native_peak_time_s",
+      "case": "SHW4X",
+      "shown": "29.92",
+      "source": 29.92
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "native_peak_abs_kN",
+      "case": "SHW4X",
+      "shown": "9027.7451",
+      "source": 9027.745083929776
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_at_native_peak_signed_kN",
+      "case": "SHW4X",
+      "shown": "+9028.4727",
+      "source": 9028.472674517714
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_mode2_kN",
+      "case": "SHW4X",
+      "shown": "+7753.7581",
+      "source": 7753.75809176116
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_mode10_kN",
+      "case": "SHW4X",
+      "shown": "+309.5495",
+      "source": 309.5494703701177
+    },
+    {
+      "location": "supplement-four-states",
+      "label": "reference_mode13_kN",
+      "case": "SHW4X",
+      "shown": "−1.6801",
+      "source": -1.6801126998473868
+    }
+  ],
+  "all_local_links_exist": true,
+  "no_arrays_loaded": true,
+  "must_numeric": 0
+}

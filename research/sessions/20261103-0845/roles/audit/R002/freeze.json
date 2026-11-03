@@ -1,0 +1,22 @@
+{
+  "frozen_at": "2026-11-03T09:16:07.306279+08:00",
+  "stage": "R002 final v002 correctness review",
+  "must": 0,
+  "should": 2,
+  "optional": 2,
+  "new_table_numeric_cells_checked": 40,
+  "no_new_array_calculation": true,
+  "script_sha256": "ecd8c7684518677000ef2ef88d45c02c160b5adf92747ef7656bb436cd36a07c",
+  "files": [
+    {
+      "path": "text-checks.json",
+      "bytes": 7708,
+      "sha256": "72921147e943096df09ab556346a5be8e8225c6a9bbf8c813b8247cf8fd9e75c"
+    },
+    {
+      "path": "v002-final-correctness-review.md",
+      "bytes": 4658,
+      "sha256": "0a676bd1e5f79bbbeab93aebc3fab26c44fe78ba0a6679be0dbfed2488bfc927"
+    }
+  ]
+}

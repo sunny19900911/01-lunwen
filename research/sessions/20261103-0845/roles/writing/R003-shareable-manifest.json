@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-0845\\roles\\writing\\apply_final_contract.py",
+      "bytes": 1199,
+      "sha256": "50618de037427ebe7808f826d961dcbea7ab6611ac019a76ef7caf7ce4ec166d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-0845\\roles\\writing\\R003-source-identity.json",
+      "bytes": 815,
+      "sha256": "0fe57b8823f9bfa5cf7b28b5503124b873c241d2d23048977adcedb0f10b56f3"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-0845\\roles\\writing\\prepare_word_tools.py",
+      "bytes": 1632,
+      "sha256": "93f3506c9218b4399c02e31759ca9e06edfbf3bc4b23dc15db20a3def9808726"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-0845\\roles\\writing\\author_word.py",
+      "bytes": 2050,
+      "sha256": "19e752b23140afceec4f83ed57a3745a82ab187d1da2234e0c269c09a1c49ad8"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-0845\\roles\\writing\\build_word.py",
+      "bytes": 17602,
+      "sha256": "eb8e0881aedf77fc8c4d39e110981fb7378669178328224e49b7f0523404daa1"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-0845\\roles\\writing\\math_omml.py",
+      "bytes": 7728,
+      "sha256": "ad0c091401c059d2676b2c8451d78967f142b5ad4a17944f64ca0885e8c71f44"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-0845\\roles\\writing\\render_review.py",
+      "bytes": 2756,
+      "sha256": "fc84cd5f2430eed66bab7d51131ee95a8d578256a85307dbdbadacd9cc5d6baf"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-0845\\roles\\writing\\freeze_word_R003.py",
+      "bytes": 4833,
+      "sha256": "5b6d7f261d801fce53a7b5b68bc8c1e2e0528987fc28447ef46d771ae3ba8781"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-0845\\roles\\writing\\R003-Word-freeze.json",
+      "bytes": 6959,
+      "sha256": "b7563fb719553c78f0a244629d4ffb2a5175939a10f9a5f6d5c8a5fbeb2c65f7"
+    }
+  ],
+  "excluded": [
+    "all local-cache logs/rendered pages/PDF",
+    "R003-main-exact.diff",
+    "R003-supplement-exact.diff"
+  ]
+}

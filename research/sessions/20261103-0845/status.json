@@ -1,6 +1,6 @@
 {
   "session": "20261103-0845",
-  "phase": "R002-v002-final-content-review",
+  "phase": "final-delivery-accepted",
   "start": "2026-11-03T08:45:53+08:00",
   "deadline": "2026-11-03T11:15:53+08:00",
   "final_writing_start": "2026-11-03T10:30:53+08:00",
@@ -14,21 +14,39 @@
     "formal_view": true,
     "actual_config_readback": true
   },
-  "current_task": "v002 and supplemental frozen; audit R002 single final content review active; root full text read complete. Word not started.",
+  "current_task": "Scientific manuscript and10page Word accepted; final normal sync then pause/readback/delete automation only.",
   "manuscript_owner": "roles/writing",
   "git": {
-    "last_checkpoint": "R000",
-    "HEAD": "a265f9f4efde03a5f96732aa79fe948e95e5269e",
+    "last_checkpoint": "R001",
+    "HEAD": "45b2e70166dcbea3357f94ac54669039609d45e2",
     "pending_push": false,
-    "remote_verified": true
+    "remote_verified": true,
+    "push_reported_success": true,
+    "remote_verification_pending": false,
+    "remote_recovery": "git-R001-remote-recovery.json"
   },
-  "checkpoint": "R001",
-  "checkpoint_started_at": "2026-11-03T09:16:37.633776+08:00",
+  "checkpoint": "R002",
+  "checkpoint_started_at": "2026-11-03T09:39:16.858072+08:00",
   "reviewed_result": {
     "numeric_fields": 64,
     "must": 0,
     "high_modes10_13_dominant": "not_supported_in_conditional_reference",
     "baseline_SH4_higher_percent": 17.10210972652848,
     "reference_SH4_higher_percent": 11.50663838444379
+  },
+  "manuscript": {
+    "version": "p06-sh3-sh4-session023-v003.md",
+    "sha256": "a16f4e6893f4f96b94ed5ef312f4b396682db68c254b104345bbadb22b21a310",
+    "bytes": 27706,
+    "root_exact_contract_accepted": true
+  },
+  "delivery_accepted_at": "2026-11-03T09:37:59.809016+08:00",
+  "Word_QA_passed": true,
+  "word": {
+    "path": "papers/damping-output-boundaries/manuscript/p06-sh3-sh4-session023-论文审阅稿-v003.docx",
+    "bytes": 652641,
+    "sha256": "df41034546824b89c1d43eb5fe59eb660a432bbce5d6f8dfb048e99e135e55a8",
+    "pages": 10,
+    "root_all_pages_actually_viewed": true
   }
 }
