@@ -1,0 +1,26 @@
+{
+  "source": "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-v002.md",
+  "source_sha256": "74fbdcc680c635cf29655939e8eb2ecc5722b6c3280a857e4d0311e7258bc828",
+  "output": "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-v003.md",
+  "output_bytes": 31522,
+  "output_sha256": "afa9ccbef57335084d7bb57a8ed443644b7fd53c57623cf59ea02788212708df",
+  "errors_from_unrounded_data": [
+    {
+      "case": "SHW3X",
+      "reference_at_native_peak_kN": "8096.348695497577",
+      "native_peak_abs_kN": "8096.1503411165795",
+      "relative_error_percent": "0.002449983913838042462348700",
+      "table_5_decimal_places": "0.00245"
+    },
+    {
+      "case": "SHW4X",
+      "reference_at_native_peak_kN": "9028.472674517714",
+      "native_peak_abs_kN": "9027.745083929776",
+      "relative_error_percent": "0.008059494161318076703237200",
+      "table_5_decimal_places": "0.00806"
+    }
+  ],
+  "formulae_and_figures_unchanged": true,
+  "new_table_numeric_cells": 2,
+  "no_new_model_or_ODE": true
+}

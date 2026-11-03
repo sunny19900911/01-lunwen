@@ -1,0 +1,62 @@
+{
+  "checkpoint": "FINAL",
+  "message": "Add peak-error comparison and combined modal-mechanism guidance",
+  "files": [
+    {
+      "relative": "research/revisions/20261103-error-coexistence/change-check.json",
+      "sha256": "9ea5114569ad3826f32c6609c2f9eba804c563ead89e51d7349e2dc073a645d2"
+    },
+    {
+      "relative": "research/revisions/20261103-error-coexistence/check_final_word.py",
+      "sha256": "6fd17451f7b6d2617478fbed31f7f71e0f5e864a60f129d0df0217b2db757c16"
+    },
+    {
+      "relative": "research/revisions/20261103-error-coexistence/final-summary.md",
+      "sha256": "7cf1a9d763349b7803fd367e2719b6d2ca96708a65a5066cb827c0e5bad5a81c"
+    },
+    {
+      "relative": "research/revisions/20261103-error-coexistence/final-visual-review.json",
+      "sha256": "23ecfcecfc89465d5deac50148f6dc95ca94df1035918ee785f708bd9b1de93c"
+    },
+    {
+      "relative": "research/revisions/20261103-error-coexistence/freeze.py",
+      "sha256": "810271e19c47d94458aa14101b10b4e4dcdc331f2d996afc790b1ac2a8ccf25d"
+    },
+    {
+      "relative": "research/revisions/20261103-error-coexistence/publish_checkpoint.py",
+      "sha256": "275ca0b7e572d2c719609b558833b7afead773252f50adcbe9a624a213a66c3b"
+    },
+    {
+      "relative": "research/revisions/20261103-error-coexistence/revise.py",
+      "sha256": "89c75f06a1edef1eaf81fd7ab61310ab90bd4592d8495dd2f0e1b20f04be3d71"
+    },
+    {
+      "relative": "research/revisions/20261103-error-coexistence/word/author_word.py",
+      "sha256": "db9b65e258dbea8b5c87e3f6e285eb69713277b185536ac9fe452a45d1881f14"
+    },
+    {
+      "relative": "research/revisions/20261103-error-coexistence/word/build_word.py",
+      "sha256": "eb8e0881aedf77fc8c4d39e110981fb7378669178328224e49b7f0523404daa1"
+    },
+    {
+      "relative": "research/revisions/20261103-error-coexistence/word/math_omml.py",
+      "sha256": "ad0c091401c059d2676b2c8451d78967f142b5ad4a17944f64ca0885e8c71f44"
+    },
+    {
+      "relative": "research/revisions/20261103-error-coexistence/word/render_review.py",
+      "sha256": "fc84cd5f2430eed66bab7d51131ee95a8d578256a85307dbdbadacd9cc5d6baf"
+    },
+    {
+      "relative": "research/revisions/20261103-error-coexistence/word-identity.json",
+      "sha256": "e46ef706adb39369a7218466ddc8959ad74dff97f11fbc00013c8e52686ddc06"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-v003.md",
+      "sha256": "afa9ccbef57335084d7bb57a8ed443644b7fd53c57623cf59ea02788212708df"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-论文审阅稿-v003.docx",
+      "sha256": "6cf59f0d435f7adf5703d6a33b95abc2e20a036b2df0a31f2366bd1047d69e52"
+    }
+  ]
+}
