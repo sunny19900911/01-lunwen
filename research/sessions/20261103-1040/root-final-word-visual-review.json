@@ -1,0 +1,52 @@
+{
+  "reviewed_at": "2026-11-03T11:20:03.605552+08:00",
+  "Word_sha256": "01ba17a6c9734c5c601835198af74919b3697a094ab1aa6e8bc33ceb3c0ba701",
+  "Word_bytes": 653158,
+  "root_pages_actually_viewed_original": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "all_page_hashes_match_author_freeze": true,
+  "root_identity_gate": "root-final-word-identity.json",
+  "native_editable_tables": 6,
+  "numeric_table_cells": 115,
+  "native_OMML": 43,
+  "display_formulas": 5,
+  "original_figures": 3,
+  "new_short_section_CJK": 313,
+  "marker_success_count": 1,
+  "new_section_on_page9_complete": true,
+  "blocking_issues": [],
+  "notes": [
+    "Title balanced; all original scientific content preserved.",
+    "Page6 preexisting whitespace before full-width original figure2 retained for readable labels.",
+    "Page10 remaining conclusions and10references read clearly in two columns."
+  ],
+  "source_checks": [
+    {
+      "path": "papers/damping-output-boundaries/manuscript/p06-sh3-sh4-session023-v003.md",
+      "unchanged": true
+    },
+    {
+      "path": "papers/damping-output-boundaries/manuscript/p06-sh3-sh4-session023-论文审阅稿-v003.docx",
+      "unchanged": true
+    },
+    {
+      "path": "research/handoffs/p06-design-reflection-20261103/工程启示与设计反思-延时任务.md",
+      "unchanged": true
+    },
+    {
+      "path": "research/handoffs/p06-design-reflection-20261103/延时派发设置.json",
+      "unchanged": true
+    }
+  ],
+  "approval": "Scientific review manuscript; no design safety or submission compliance claim."
+}

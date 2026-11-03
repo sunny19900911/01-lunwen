@@ -1,0 +1,22 @@
+{
+  "started": "2026-11-03T11:00:47+08:00",
+  "frozen_at": "2026-11-03T11:03:41.492954+08:00",
+  "status": "frozen",
+  "must": 0,
+  "should": 3,
+  "optional": 0,
+  "scope": "One final content audit; root three positive wording changes accepted",
+  "script_sha256": "ee3ee155ca500138115fe0d2cafe779edfbeedd9f61f6945b32e1ffadcbf63ea",
+  "files": [
+    {
+      "path": "text-checks.json",
+      "bytes": 983,
+      "sha256": "bf9e914909391164d1fbd3d28d004717c0d74630ad6c2bd56f2778f904754ae5"
+    },
+    {
+      "path": "v001-short-section-final-review.md",
+      "bytes": 3239,
+      "sha256": "3d59ef9cadc07b83890764455c18def01c665485f405e20b4c0195e05a7f48c8"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "at": "2026-11-03T11:05:59.888848+08:00",
+  "source": "papers/damping-output-boundaries/manuscript/p06-design-reflection-session024-v001.md",
+  "target": "papers/damping-output-boundaries/manuscript/p06-design-reflection-session024-v002.md",
+  "replacements": [
+    [
+      "而不将调频本身作为设计目标",
+      "以目标响应的综合改善作为比选依据"
+    ],
+    [
+      "装置所在层的位移大小或局部曲率不能代替两端运动；统一增加模态阻尼的结果，也不能直接用于判断实体装置布置是否合适。",
+      "装置配置宜依据真实端点运动与传力路径，并另核相应本构条件；模态增阻尼比较主要提供目标响应的复核线索。"
+    ],
+    [
+      "支撑连接及装置需求",
+      "稳定、支撑连接及装置力和行程"
+    ]
+  ],
+  "expected_bytes": 28776,
+  "expected_sha256": "750b1dcc8fa38014d45307cec124c6ef83058a063b32a5bee7ba7c1bd95f1324",
+  "expected_CJK": 313,
+  "must": 0,
+  "review": "roles/audit/R002/v001-short-section-final-review.md",
+  "no_scientific_or_numeric_change": true,
+  "allow_Word_after_exact_source_match": true
+}
