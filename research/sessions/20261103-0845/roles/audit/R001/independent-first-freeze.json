@@ -1,0 +1,153 @@
+{
+  "started": "2026-11-03T08:51:09.331324+08:00",
+  "at": "2026-11-03T08:51:09.650680+08:00",
+  "script_handoff_table_imported": false,
+  "prior_context_included_handoff_values": true,
+  "audit_is_blind": false,
+  "rows": [
+    {
+      "Case": "SHW3X",
+      "zeta": 0.05,
+      "Story": 5,
+      "native_peak_time_s": 22.92,
+      "native_peak_signed_kN": -8691.637986375608,
+      "native_peak_abs_kN": 8691.637986375608,
+      "reference_at_native_peak_signed_kN": 8691.808506660655,
+      "reference_peak_abs_kN": 8691.808506660644,
+      "reference_peak_time_s": 22.92,
+      "reference_peak_error_percent": 0.001961888947765722,
+      "absolute_curve_NRMSE_percent": 0.028441376421745355,
+      "reference_mode2_kN": 7175.398890439123,
+      "reference_mode10_kN": 695.3230471317162,
+      "reference_mode13_kN": -42.61683313938931,
+      "reference_modes1to3_kN": 8048.328872280214,
+      "reference_modes4to300_kN": 643.4796343804418,
+      "mode2_over_reference_total_percent": 82.55357771562171
+    },
+    {
+      "Case": "SHW3X",
+      "zeta": 0.08,
+      "Story": 5,
+      "native_peak_time_s": 22.94,
+      "native_peak_signed_kN": -8096.1503411165795,
+      "native_peak_abs_kN": 8096.1503411165795,
+      "reference_at_native_peak_signed_kN": 8096.348695497577,
+      "reference_peak_abs_kN": 8096.348695497584,
+      "reference_peak_time_s": 22.94,
+      "reference_peak_error_percent": 0.002449983913921372,
+      "absolute_curve_NRMSE_percent": 0.012328508964495489,
+      "reference_mode2_kN": 6762.83891216895,
+      "reference_mode10_kN": 506.9257359551149,
+      "reference_mode13_kN": 28.36055090615144,
+      "reference_modes1to3_kN": 7583.508445723785,
+      "reference_modes4to300_kN": 512.8402497737919,
+      "mode2_over_reference_total_percent": 83.5294917069197
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.05,
+      "Story": 5,
+      "native_peak_time_s": 29.94,
+      "native_peak_signed_kN": -10178.091451838196,
+      "native_peak_abs_kN": 10178.091451838196,
+      "reference_at_native_peak_signed_kN": 10175.167794429944,
+      "reference_peak_abs_kN": 10175.167794429924,
+      "reference_peak_time_s": 29.94,
+      "reference_peak_error_percent": -0.028725006275542864,
+      "absolute_curve_NRMSE_percent": 0.156386565479434,
+      "reference_mode2_kN": 8632.394593212222,
+      "reference_mode10_kN": 443.48489847562155,
+      "reference_mode13_kN": 25.115528748531034,
+      "reference_modes1to3_kN": 9700.1229011486,
+      "reference_modes4to300_kN": 475.04489328134434,
+      "mode2_over_reference_total_percent": 84.83785985266738
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.08,
+      "Story": 5,
+      "native_peak_time_s": 29.92,
+      "native_peak_signed_kN": -9027.745083929776,
+      "native_peak_abs_kN": 9027.745083929776,
+      "reference_at_native_peak_signed_kN": 9028.472674517714,
+      "reference_peak_abs_kN": 9028.472674517705,
+      "reference_peak_time_s": 29.92,
+      "reference_peak_error_percent": 0.00805949416120555,
+      "absolute_curve_NRMSE_percent": 0.08587265572493614,
+      "reference_mode2_kN": 7753.75809176116,
+      "reference_mode10_kN": 309.5494703701177,
+      "reference_mode13_kN": -1.6801126998473868,
+      "reference_modes1to3_kN": 8706.662195532195,
+      "reference_modes4to300_kN": 321.81047898551986,
+      "mode2_over_reference_total_percent": 85.88117139287186
+    }
+  ],
+  "checks": [
+    {
+      "Case": "SHW3X",
+      "zeta": 0.05,
+      "grid_step_s": 0.02,
+      "point_count": 2691,
+      "first_argmax_rule": "first exact absolute maximum saved sample",
+      "max_curve_vs_saved_reference_kN": 3.092281986027956e-11,
+      "sum_at_native_peak_closure_kN": 1.0913936421275139e-11,
+      "native_and_reference_peak_sign_opposite": true
+    },
+    {
+      "Case": "SHW3X",
+      "zeta": 0.08,
+      "grid_step_s": 0.02,
+      "point_count": 2691,
+      "first_argmax_rule": "first exact absolute maximum saved sample",
+      "max_curve_vs_saved_reference_kN": 1.8189894035458565e-11,
+      "sum_at_native_peak_closure_kN": -7.275957614183426e-12,
+      "native_and_reference_peak_sign_opposite": true
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.05,
+      "grid_step_s": 0.02,
+      "point_count": 2951,
+      "first_argmax_rule": "first exact absolute maximum saved sample",
+      "max_curve_vs_saved_reference_kN": 2.9103830456733704e-11,
+      "sum_at_native_peak_closure_kN": 2.000888343900442e-11,
+      "native_and_reference_peak_sign_opposite": true
+    },
+    {
+      "Case": "SHW4X",
+      "zeta": 0.08,
+      "grid_step_s": 0.02,
+      "point_count": 2951,
+      "first_argmax_rule": "first exact absolute maximum saved sample",
+      "max_curve_vs_saved_reference_kN": 2.000888343900442e-11,
+      "sum_at_native_peak_closure_kN": 9.094947017729282e-12,
+      "native_and_reference_peak_sign_opposite": true
+    }
+  ],
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.05-factorized-reference.npz",
+      "bytes": 14836060,
+      "sha256": "d65da11197eae12c9abbc3a8da1c9b63d0df6c09cf164e7e12ef1cb19cdef0f2",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW3X-z0.08-factorized-reference.npz",
+      "bytes": 14829087,
+      "sha256": "e88b73344432c10d505e351d015d24cb5173f7ddc5a6bca2f6a30076b12fb5fc",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.05-factorized-reference.npz",
+      "bytes": 16292630,
+      "sha256": "61c7165f08156aaef3af39dab94832b89772c60517d5a4444d74add79cb936d8",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261031-1130\\roles\\role4\\R004\\local-cache\\actual300-SHW4X-z0.08-factorized-reference.npz",
+      "bytes": 16280412,
+      "sha256": "4e37b056557552b136cb8bc02f5b22e6a7de3e210c677e939d63c3505a354863",
+      "unchanged": true
+    }
+  ]
+}

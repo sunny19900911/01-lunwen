@@ -1,0 +1,33 @@
+{
+  "task": "R002",
+  "status": "frozen",
+  "actual_start": "2026-11-03T08:55:06+08:00",
+  "frozen_at": "2026-11-03T09:07:34.896229+08:00",
+  "files": [
+    {
+      "path": "research\\sessions\\20261103-0845\\roles\\writing\\integrate_v002.py",
+      "bytes": 9119,
+      "sha256": "7f25183a4d39d53d2e3ade1b744f81ee6a143a4ac727159029ffe944215f980e"
+    },
+    {
+      "path": "research\\sessions\\20261103-0845\\roles\\writing\\R002-manifest.json",
+      "bytes": 2355,
+      "sha256": "44cc204dab33b0869627c930f8d5a079aab4207f4d795eb536d642c1e75a8b51"
+    },
+    {
+      "path": "research\\sessions\\20261103-0845\\roles\\writing\\R002-script-preflight-failure.json",
+      "bytes": 445,
+      "sha256": "7034ef0f2bf826f64ecabdf74fa51df9ca7ed54459be045aef25fa56f41ced64"
+    },
+    {
+      "path": "research\\sessions\\20261103-0845\\roles\\writing\\SHW3X-SHW4X-辅助分析资料.md",
+      "bytes": 3726,
+      "sha256": "b41d6563d5daa991d77644531ca14c3038036cd8e65f6979dcb7a5a011c14268"
+    }
+  ],
+  "word_created": false,
+  "marker_run": false,
+  "precise_diff_local_only": "v001-to-v002.diff",
+  "failed_own_drafts_preserved": "local-cache/failed-R002-table-index",
+  "new_numeric_values_from_root_adopted_audit": true
+}

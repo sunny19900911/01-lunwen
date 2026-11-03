@@ -1,0 +1,67 @@
+{
+  "frozen_at": "2026-11-03T09:07:01.141327+08:00",
+  "stage": "R002 reviewed auxiliary integration",
+  "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\p06-sh3-sh4-session023-v001.md",
+  "target": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\p06-sh3-sh4-session023-v002.md",
+  "target_bytes": 27665,
+  "target_sha256": "8906450fd3ad926e13f3a05de332d692944a6a6e50d43e36a127628b49f9d7c0",
+  "supplement": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261103-0845\\roles\\writing\\SHW3X-SHW4X-辅助分析资料.md",
+  "supplement_bytes": 3726,
+  "supplement_sha256": "b41d6563d5daa991d77644531ca14c3038036cd8e65f6979dcb7a5a011c14268",
+  "new_table_rows": [
+    {
+      "row": "软件剪力绝对峰/kN",
+      "source_field": "native_peak_abs_kN",
+      "values": [
+        "8096.15",
+        "9027.75"
+      ]
+    },
+    {
+      "row": "软件峰时/s",
+      "source_field": "native_peak_time_s",
+      "values": [
+        "22.94",
+        "29.92"
+      ]
+    },
+    {
+      "row": "参照合成/kN",
+      "source_field": "reference_at_native_peak_signed_kN",
+      "values": [
+        "+8096.35",
+        "+9028.47"
+      ]
+    },
+    {
+      "row": "参照第2阶项/kN",
+      "source_field": "reference_mode2_kN",
+      "values": [
+        "+6762.84",
+        "+7753.76"
+      ]
+    },
+    {
+      "row": "参照第10阶项/kN",
+      "source_field": "reference_mode10_kN",
+      "values": [
+        "+506.93",
+        "+309.55"
+      ]
+    },
+    {
+      "row": "参照第13阶项/kN",
+      "source_field": "reference_mode13_kN",
+      "values": [
+        "+28.36",
+        "−1.68"
+      ]
+    }
+  ],
+  "mainline_peak_comparison_sentence": "从两条记录本身看，SHW4X的基准剪力比SHW3X高17.10%；增加模态阻尼后，其减幅虽较大，参考剪力仍高11.51%。改善比例与绝对需求因而需要分别查看。",
+  "old_five_tables_equations_figures_unchanged": true,
+  "abstract_conclusions_references_unchanged": true,
+  "new_display_equations": 0,
+  "Word_created": false,
+  "marker_run": false
+}

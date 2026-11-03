@@ -1,0 +1,7 @@
+{
+  "time": "2026-11-03T09:07:01.083532+08:00",
+  "failure": "New auxiliary table occurs after existing common-six table, so actual insertion index is3 not2; preflight assertion failed after writing unadopted draft files",
+  "repair": "Preserved both unadopted own drafts in local-cache; corrected table numbering and index; moved validation before final writes",
+  "old_source_changed": false,
+  "new_science_or_numeric_change": false
+}

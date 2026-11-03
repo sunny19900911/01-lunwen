@@ -1,0 +1,162 @@
+{
+  "checkpoint": "R001",
+  "message": "P06 session023: integrate reviewed SH3 SH4 auxiliary comparison",
+  "files": [
+    {
+      "relative": "research/sessions/20261103-0845/status.json",
+      "sha256": "5b7e3341aac1ec59ab385b69a98fb997f9f6f2567a0d292fb5f0819b053c73c1"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/claims.md",
+      "sha256": "c93e56c3ac39e3b3e8e7f95dac3dfce627a17f6c10eadf0b2fb8ebea1f76928a"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/runs.md",
+      "sha256": "9076c4c1f2ac29261ff63abb33bcbff2fee2ae92e4fc11308a2e6bbcfc63d1c1"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/threads.json",
+      "sha256": "384fd4ad105b60ad22fa3aaeb1ce5e9eba0634f631bad1b5c319594c667d3598"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/next-task.md",
+      "sha256": "d58fa85c53aa7df4f49b65e3b6f0e6e5239896a67b15117aad952f8985833dfc"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/root-R001-adoption.json",
+      "sha256": "9b019e4123fb0a97e0328d42a5e953a23fa2d41bb44f50e2a8020c506b009f3b"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/root-R001-literature-adoption.json",
+      "sha256": "d29574c70cce1c2589a388c2577e154e3a2dfc71f99c1c91091cc09a59189060"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/adopt_R001.py",
+      "sha256": "4556bd71b2eea25d149b53083ccecfd8cea6ce811b251a87e6ed696fd130ae38"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/check_final_word.py",
+      "sha256": "01c66412c510b654b0fb494cccbdc9004d556146f4c69ecb6add30524fd6e834"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/checkpoint_R001.py",
+      "sha256": "22361e8cb6185239f0a2e74b25e05082a2db7608651f52f4c398d9dc64539679"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/rounds/R001.md",
+      "sha256": "8d0b2b9980fd536af2b99cbbe8429156986daa8542a20c8a1b238fc98beecdd1"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/audit/audit_story5.py",
+      "sha256": "fda6060820377325a321938ef38e860be0e0f85373692ef851d0ce16cd8c0999"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/audit/R001-algebra-addendum.json",
+      "sha256": "0858ab0a0aba2692b3adeab36bc2e983a53403c1f925d8f8e190f372049ac678"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/audit/R001/freeze.json",
+      "sha256": "e652ec0a248ad6fbd15dc333d6562cffacfc01d07feae63f24e7d2ae6979ccd1"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/audit/R001/between-input-at-own-peak-comparison.csv",
+      "sha256": "be99a1215becf057c320ecb8f3e76198a62a292cbf3632c74a353f9323699ed0"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/audit/R001/handoff-numeric-comparison.csv",
+      "sha256": "1a819800f1efbe3ea5495779d9fcedde0c567a0888153257c4612d04a2215044"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/audit/R001/independent-first-freeze.json",
+      "sha256": "940746e410ec4fc9e954dbfafd4e54316dc18ea21cccc518ed448fd702f8e8cc"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/audit/R001/independent-story5-all300-at-native-peaks.csv",
+      "sha256": "4c0793c4cc97311ae199620bffc0f9330a451258185ce4e24a84082fe5c8a954"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/audit/R001/independent-story5-four-states.csv",
+      "sha256": "dab9e152b4af6394b6568f17d7c8ec092a4dc1de6c79aa7335ffa904e11a2f2c"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/audit/R001/results.json",
+      "sha256": "71798759d8026452114bc075518fa80cee22a7218146de15001470b9265e412b"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/audit/R001/正确性与数字独审.md",
+      "sha256": "2130aa97a4d3bd6d5454ae0cd276fa7ac3bc1cb84c75aeecad5d7b7d02d57e4d"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/literature/R001-source-review.md",
+      "sha256": "ea12a0d357c6f9c8ea298beccf6b4d19d17c42dfb068db681d36a8f534cb9097"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/literature/source-read-record.json",
+      "sha256": "0c37e49ef35bf7ec99c8ddfb24fc45d1e4b784a139bbb880acf6d8953b0033f4"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/literature/review_local_sources.py",
+      "sha256": "1d3c2f1e0011ac2f9422dde8e554754bcda1c516bf1b2c535f182ca8873673c6"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/literature/freeze_R001.py",
+      "sha256": "cfeedbb6be70af9c0c4e9628cf56516825cfa96a3f5c3a08ae416c6ff54d347e"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/literature/freeze.json",
+      "sha256": "47f741d99e813a8e5d30f48a8f4cd57ab1bc1cf9460b63be0891885800ea30bf"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/writing/create_v001.py",
+      "sha256": "6d612b84d8b16c5368c5d0fc6c04993fc1ea48a9813534446877704e68b14b09"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/writing/integrate_v002.py",
+      "sha256": "7f25183a4d39d53d2e3ade1b744f81ee6a143a4ac727159029ffe944215f980e"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/writing/R001-change-note.md",
+      "sha256": "6027d17cb30631a9b96e82d8f94434771d726af2364fa4d92352593d60d84a3b"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/writing/R001-freeze.json",
+      "sha256": "995e8c996c97ca835ec20cb61583cea259000e21f6c50b7f95bb47de7d009230"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/writing/v001-manifest.json",
+      "sha256": "ef94e36a4f56b55a414a5dfa74223210399163f7b37c080906b87c1166835370"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/writing/R002-freeze.json",
+      "sha256": "18e90aa73359e11e4e8615d630e7094e04d82fd665e4743f72ef340a9f5638e2"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/writing/R002-manifest.json",
+      "sha256": "44cc204dab33b0869627c930f8d5a079aab4207f4d795eb536d642c1e75a8b51"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/writing/R002-script-preflight-failure.json",
+      "sha256": "7034ef0f2bf826f64ecabdf74fa51df9ca7ed54459be045aef25fa56f41ced64"
+    },
+    {
+      "relative": "research/sessions/20261103-0845/roles/writing/SHW3X-SHW4X-辅助分析资料.md",
+      "sha256": "b41d6563d5daa991d77644531ca14c3038036cd8e65f6979dcb7a5a011c14268"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-sh3-sh4-session023-v001.md",
+      "sha256": "75aaecf467284add1a15709eca6c182cdff750d0e13ced05cf95b21ef60bef43"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-sh3-sh4-session023-v002.md",
+      "sha256": "8906450fd3ad926e13f3a05de332d692944a6a6e50d43e36a127628b49f9d7c0"
+    }
+  ],
+  "checks": [
+    "Independent64numeric fields and algebra checked; root read formal audits/manifests",
+    "Primary literature pages reviewed by designated role, existing theory reused",
+    "Root read complete v002 and supplement; one final correctness review pending, no native causal claim",
+    "Old v003 remains unchanged; original mainline/tables/equations/figures preserved",
+    "Author initial indexing failure and unadopted drafts preserved truthfully; no source mutation",
+    "No active files/cache/diff/rawdata/fulltext/old dirty staged"
+  ]
+}

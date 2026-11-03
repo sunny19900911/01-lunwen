@@ -4,23 +4,29 @@
     {
       "role": "audit",
       "name": "/root/p06_s23_audit",
-      "task": "R001",
-      "actual_status": "running",
-      "dispatched_at": "2026-11-03T08:48:00+08:00"
+      "task": "R001 frozen; no new science dispatched",
+      "actual_status": "completed",
+      "dispatched_at": "2026-11-03T08:48:00+08:00",
+      "last_actual": "2026-11-03T08:55:55.370415+08:00",
+      "initial_dispatched_at_is_approximate": true
     },
     {
       "role": "literature",
       "name": "/root/p06_s23_literature",
-      "task": "R001",
-      "actual_status": "running",
-      "dispatched_at": "2026-11-03T08:48:00+08:00"
+      "task": "R001 frozen; no new science dispatched",
+      "actual_status": "completed",
+      "dispatched_at": "2026-11-03T08:48:00+08:00",
+      "last_actual": "2026-11-03T08:55:55.370415+08:00",
+      "initial_dispatched_at_is_approximate": true
     },
     {
       "role": "writing",
       "name": "/root/p06_s23_author",
-      "task": "R001",
+      "task": "R002 integrate reviewed concise auxiliary section",
       "actual_status": "running",
-      "dispatched_at": "2026-11-03T08:48:00+08:00"
+      "dispatched_at": "2026-11-03T08:48:00+08:00",
+      "last_actual": "2026-11-03T08:55:55.370415+08:00",
+      "initial_dispatched_at_is_approximate": true
     }
   ]
 }

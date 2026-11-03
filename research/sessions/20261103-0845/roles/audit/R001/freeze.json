@@ -1,0 +1,46 @@
+{
+  "frozen_at": "2026-11-03T08:52:15.758095+08:00",
+  "status": "frozen",
+  "task": "R001 independent four-state Story5 check",
+  "must_numeric": 0,
+  "independent_not_blind": true,
+  "script": "../audit_story5.py",
+  "script_sha256": "fda6060820377325a321938ef38e860be0e0f85373692ef851d0ce16cd8c0999",
+  "files": [
+    {
+      "path": "between-input-at-own-peak-comparison.csv",
+      "bytes": 622,
+      "sha256": "be99a1215becf057c320ecb8f3e76198a62a292cbf3632c74a353f9323699ed0"
+    },
+    {
+      "path": "handoff-numeric-comparison.csv",
+      "bytes": 4961,
+      "sha256": "1a819800f1efbe3ea5495779d9fcedde0c567a0888153257c4612d04a2215044"
+    },
+    {
+      "path": "independent-first-freeze.json",
+      "bytes": 6488,
+      "sha256": "940746e410ec4fc9e954dbfafd4e54316dc18ea21cccc518ed448fd702f8e8cc"
+    },
+    {
+      "path": "independent-story5-all300-at-native-peaks.csv",
+      "bytes": 51705,
+      "sha256": "4c0793c4cc97311ae199620bffc0f9330a451258185ce4e24a84082fe5c8a954"
+    },
+    {
+      "path": "independent-story5-four-states.csv",
+      "bytes": 1359,
+      "sha256": "dab9e152b4af6394b6568f17d7c8ec092a4dc1de6c79aa7335ffa904e11a2f2c"
+    },
+    {
+      "path": "results.json",
+      "bytes": 6487,
+      "sha256": "71798759d8026452114bc075518fa80cee22a7218146de15001470b9265e412b"
+    },
+    {
+      "path": "正确性与数字独审.md",
+      "bytes": 4336,
+      "sha256": "2130aa97a4d3bd6d5454ae0cd276fa7ac3bc1cb84c75aeecad5d7b7d02d57e4d"
+    }
+  ]
+}

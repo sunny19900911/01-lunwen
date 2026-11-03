@@ -1,12 +1,12 @@
 {
   "session": "20261103-0845",
-  "phase": "R001-independent-evidence-review",
+  "phase": "R002-v002-final-content-review",
   "start": "2026-11-03T08:45:53+08:00",
   "deadline": "2026-11-03T11:15:53+08:00",
   "final_writing_start": "2026-11-03T10:30:53+08:00",
   "checkpoint_open": true,
   "no_new_ODE_or_fit": true,
-  "no_new_scientific_dispatch": false,
+  "no_new_scientific_dispatch": true,
   "automation": {
     "id": "p06-sh3-sh4-150",
     "state": "ACTIVE",
@@ -14,12 +14,21 @@
     "formal_view": true,
     "actual_config_readback": true
   },
-  "current_task": "Independent numerical and source review; author prepares focused new version; root engineering and scope checks.",
+  "current_task": "v002 and supplemental frozen; audit R002 single final content review active; root full text read complete. Word not started.",
   "manuscript_owner": "roles/writing",
   "git": {
+    "last_checkpoint": "R000",
+    "HEAD": "a265f9f4efde03a5f96732aa79fe948e95e5269e",
     "pending_push": false,
-    "initial_HEAD": "c0d0909fc278eb6bbe5871bf753b5d885fc5562d"
+    "remote_verified": true
   },
-  "checkpoint": "R000",
-  "checkpoint_started_at": "2026-11-03T08:50:59.601355+08:00"
+  "checkpoint": "R001",
+  "checkpoint_started_at": "2026-11-03T09:16:37.633776+08:00",
+  "reviewed_result": {
+    "numeric_fields": 64,
+    "must": 0,
+    "high_modes10_13_dominant": "not_supported_in_conditional_reference",
+    "baseline_SH4_higher_percent": 17.10210972652848,
+    "reference_SH4_higher_percent": 11.50663838444379
+  }
 }
