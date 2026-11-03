@@ -1,27 +1,29 @@
 {
   "session": "20261103-1040",
-  "phase": "final-delivery-accepted",
+  "phase": "closed-complete",
   "start": "2026-11-03T10:40:11+08:00",
   "deadline": "2026-11-03T13:10:11+08:00",
   "final_writing_start": "2026-11-03T12:25:11+08:00",
-  "checkpoint_open": true,
+  "checkpoint_open": false,
   "no_new_numeric_experiments": true,
   "no_new_scientific_dispatch": true,
   "automation": {
     "id": "p06-150",
-    "state": "ACTIVE",
+    "state": "DELETED",
     "formal_create": true,
     "formal_view": true,
-    "actual_config_readback": true
+    "actual_config_readback": true,
+    "formal_pause_view_actual_readback": true,
+    "formal_delete_absence_verified": true
   },
-  "current_task": "Short subsection and10page Word accepted; final normal sync and formal automation closure only.",
+  "current_task": "Complete:313character section and10page Word accepted; delivery R001 synced and verified; current heartbeat deleted, delayed p06-4 remainsPAUSED.",
   "git": {
-    "last_checkpoint": "R000",
-    "HEAD": "4c50df46bfa19e533e41c692ba0aa6b240abf205",
+    "last_checkpoint": "R001",
+    "HEAD": "fbe0fd09294e19c0757c88e50a31e8a7dec7144f",
     "pending_push": false,
     "remote_verified": true
   },
-  "checkpoint": "R001",
+  "checkpoint": "CLOSE",
   "checkpoint_started_at": "2026-11-03T11:21:39.894998+08:00",
   "manuscript": {
     "version": "p06-design-reflection-session024-v002.md",
@@ -37,5 +39,7 @@
     "sha256": "01ba17a6c9734c5c601835198af74919b3697a094ab1aa6e8bc33ceb3c0ba701",
     "pages": 10,
     "root_all_pages_actually_viewed": true
-  }
+  },
+  "closed_at": "2026-11-03T11:26:04.137623+08:00",
+  "completed_before_deadline": true
 }

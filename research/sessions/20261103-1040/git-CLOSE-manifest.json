@@ -1,0 +1,65 @@
+{
+  "checkpoint": "CLOSE",
+  "message": "P06 session024: record verified delivery and close design reflection task",
+  "files": [
+    {
+      "relative": "research/sessions/20261103-1040/status.json",
+      "sha256": "94d136a95211331b8d93929504c5a82a96e169bfbc9978c1ff54bccf6e7f1895"
+    },
+    {
+      "relative": "research/sessions/20261103-1040/claims.md",
+      "sha256": "9f92066c92303af7251ff84c951c4d75f2ca645f7f660b3be1991a14598c402f"
+    },
+    {
+      "relative": "research/sessions/20261103-1040/runs.md",
+      "sha256": "21afb86d0a2419116f428c7cc62da2d2e4c5c231241097d47b3004d8312e6c2d"
+    },
+    {
+      "relative": "research/sessions/20261103-1040/next-task.md",
+      "sha256": "e9557873d65ef24c39d5b63e16e05b54993b036487fcd4073beee346f718b55c"
+    },
+    {
+      "relative": "research/sessions/20261103-1040/final-summary.md",
+      "sha256": "a21e37833376d8fd8ea43be22048e07b34dab420ebe9da245c69a7c1be4f63bc"
+    },
+    {
+      "relative": "research/sessions/20261103-1040/topic-cards/T001.md",
+      "sha256": "ba1854ef8652c03ce8181ddf0a437c8c5b7dc6e4c349b6c52165b273e76abc82"
+    },
+    {
+      "relative": "research/sessions/20261103-1040/rounds/CLOSE.md",
+      "sha256": "f0f702bd9e40d4fcfc45dd91289d3a9c2d2e91272f16d455efd3f066484448b0"
+    },
+    {
+      "relative": "research/sessions/20261103-1040/git-R001-receipt.json",
+      "sha256": "ae01c1c5ebe21e551f3d0ac0307749a6efeade7d498020178ef8266a9fdc6066"
+    },
+    {
+      "relative": "research/sessions/20261103-1040/automation-pause-tool-receipt.json",
+      "sha256": "a6171e5ec902eda13af5b85aaa8df82602953c6d9beccef2c2b6be880230bd8d"
+    },
+    {
+      "relative": "research/sessions/20261103-1040/automation-paused-actual-readback.json",
+      "sha256": "0169abf0d92fdf826268a40ec61c70cb8d24175b7d034c269e23354a2ecfa893"
+    },
+    {
+      "relative": "research/sessions/20261103-1040/automation-delete-tool-receipt.json",
+      "sha256": "8a095e9341cb5ed53854babe54e8b5765bdcd6f788ef4bf4547ee6551d2067b7"
+    },
+    {
+      "relative": "research/sessions/20261103-1040/automation-deleted-actual-readback.json",
+      "sha256": "83f4a1bc0f9051fd71eba15d3f72968afecf5294ddb552cbff58173970e491fa"
+    },
+    {
+      "relative": "research/sessions/20261103-1040/close_session.py",
+      "sha256": "a5cb239e206ac3c2004762a01a7eac6f374e1d9761a6302b192a3f67b6b9b0b4"
+    }
+  ],
+  "checks": [
+    "R001 final Word/source delivery already synced and exact remote SHA verified",
+    "Current heartbeat formally paused/viewed/read back/deleted/absence verified",
+    "Old3 and delayedp06-4 stayPAUSED; latest immediate authorization honored",
+    "Science and10page actualQA complete; early closure within fixed window",
+    "Administrative small-file whitelist only; no raw/cache/old dirty"
+  ]
+}
