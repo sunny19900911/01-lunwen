@@ -12,8 +12,9 @@ paths=[]
 for f in sorted(S.rglob('*')):
     if not f.is_file() or 'local-cache' in f.parts or '__pycache__' in f.parts:continue
     if f.name.startswith('git-') and f.name.endswith('-manifest.json'):continue
+    if f.name=='four-record-QT-QD-difference.png':continue
     if f.suffix in ['.md','.json','.py','.csv','.png','.svg']:paths.append(f)
-paths+=sorted((R/'papers/damping-output-boundaries/manuscript').glob('p06-control-check-session028-v*.md'))
+paths+=[R/'papers/damping-output-boundaries/manuscript/p06-control-check-session028-v004.md']
 if a.checkpoint=='FINAL':
     qa=json.loads((S/'final-visual-review.json').read_text(encoding='utf-8'));assert qa['passed']
     paths.append(R/qa['docx'])

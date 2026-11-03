@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-03T22:11:35.960166+08:00",
+  "root_source_sha256": "dce198b2dfb636ddddd5aae51c6ba549ea507f1851d52a966e4bfd1bd4b9ccad",
+  "own_numbers_computed_and_frozen_before_reading_root_table": true,
+  "rows": 4,
+  "numeric_fields_compared": 36,
+  "max_absolute_difference": 0.0,
+  "must": 0,
+  "no_new_arrays_read": true,
+  "figure_task": "Root owns requested 2x2 figure; this role did not begin or duplicate plotting"
+}

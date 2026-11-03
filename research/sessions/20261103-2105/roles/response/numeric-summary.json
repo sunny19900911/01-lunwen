@@ -1,0 +1,154 @@
+{
+  "status": "numeric-frozen-await-independent-audit",
+  "at": "2026-11-03T22:04:45.718914+08:00",
+  "actual_first_clock": "2026-11-03T21:49:18+08:00",
+  "sources": [
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\manifest.json",
+      "bytes": 443242,
+      "sha256": "1e78f5a15bff3ebe88d59375f84de36733037fdee5baefdf5b81a95e83e58f58"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\manifest.json",
+      "bytes": 193090,
+      "sha256": "03cae034bd5409c6dc6bed06727a58fd85391a6f583a2b38776cf03bf45f26f4"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\02-数据\\增阻尼多目标研究-20261016\\原生0数据缓存\\Story_Forces.npz",
+      "bytes": 24737339,
+      "sha256": "fb11e299f62682d0bf3a68644cdae474ca8a6ce96863838e02117431f72caf8d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\W5-重燃双塔连体\\research\\maxwell-20261017\\experiments\\R001\\core-cache\\Story_Forces.npz",
+      "bytes": 10443167,
+      "sha256": "551275f56d65e90af34c91d486ebfcf9952539cfacffa652ea88e5cddf67f95d"
+    },
+    {
+      "path": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\research\\sessions\\20261019-2045\\roles\\data\\local-cache\\R002-native-horizontal\\paired-layer-histories.npz",
+      "bytes": 4894183,
+      "sha256": "dff22ab303c492e4f8943171b2e26abd1e932913c2d4acf7be3f9385f72bf083"
+    }
+  ],
+  "checks": [
+    {
+      "Story": "Story8",
+      "Case": "RH4X",
+      "n_saved": 2501,
+      "all_three_time_axes_exact": true,
+      "QD_combo_QT_full_column_exact": true,
+      "D_SourceRow_column_exact": true,
+      "both_algebraic_columns_equal_prior_saved_combo_exact": true,
+      "B_cache_key": "g56",
+      "D_cache_key": "g24",
+      "QD_combo_key": "Story8__RH4X__X"
+    },
+    {
+      "Story": "Story8",
+      "Case": "RH4Y",
+      "n_saved": 2501,
+      "all_three_time_axes_exact": true,
+      "QD_combo_QT_full_column_exact": true,
+      "D_SourceRow_column_exact": true,
+      "both_algebraic_columns_equal_prior_saved_combo_exact": true,
+      "B_cache_key": "g57",
+      "D_cache_key": "g25",
+      "QD_combo_key": "Story8__RH4Y__Y"
+    },
+    {
+      "Story": "Story10",
+      "Case": "RH4X",
+      "n_saved": 2501,
+      "all_three_time_axes_exact": true,
+      "QD_combo_QT_full_column_exact": true,
+      "D_SourceRow_column_exact": true,
+      "both_algebraic_columns_equal_prior_saved_combo_exact": true,
+      "B_cache_key": "g28",
+      "D_cache_key": "g12",
+      "QD_combo_key": "Story10__RH4X__X"
+    },
+    {
+      "Story": "Story10",
+      "Case": "RH4Y",
+      "n_saved": 2501,
+      "all_three_time_axes_exact": true,
+      "QD_combo_QT_full_column_exact": true,
+      "D_SourceRow_column_exact": true,
+      "both_algebraic_columns_equal_prior_saved_combo_exact": true,
+      "B_cache_key": "g29",
+      "D_cache_key": "g13",
+      "QD_combo_key": "Story10__RH4Y__Y"
+    }
+  ],
+  "raw_workbook_reads": 0,
+  "new_ODE_fit_solver": 0,
+  "frame_or_sectioncut_independent_reference": "Not present in the supplied paired-layer cache or Story Forces manifests used in this task; no independent frame/sectioncut same-freebody closure established here.",
+  "physical_scope": "QD=sum nP at J upper end is structural internal resisting term; external nodal force opposite; native Story Forces Bottom cut sign/Link inclusion remains unproven by these arithmetic curves.",
+  "no_smoothing": true,
+  "tD_four_rows": [
+    {
+      "Story": "Story8",
+      "Case": "RH4X",
+      "Axis": "X",
+      "anchor": "tD",
+      "time_s": 21.6,
+      "B_QT_signed_kN": 6070.962352958927,
+      "QT_D_signed_kN": 5776.651278353405,
+      "QD_J_resisting_signed_kN": -238.1133110864973,
+      "QT_minus_QD_algebraic_kN": 6014.764589439903,
+      "QT_plus_QD_algebraic_kN": 5538.537967266908,
+      "B_SourceRow": 155228,
+      "D_QT_SourceRow": 66268,
+      "QD_combo_D_SourceRow_exact": true,
+      "scope": "QT-QD and QT+QD are same-time algebraic outputs, not identified main-structure QS"
+    },
+    {
+      "Story": "Story8",
+      "Case": "RH4Y",
+      "Axis": "Y",
+      "anchor": "tD",
+      "time_s": 21.580000000000002,
+      "B_QT_signed_kN": 5583.789168583818,
+      "QT_D_signed_kN": 5205.211211212888,
+      "QD_J_resisting_signed_kN": -279.6257047536688,
+      "QT_minus_QD_algebraic_kN": 5484.836915966557,
+      "QT_plus_QD_algebraic_kN": 4925.585506459219,
+      "B_SourceRow": 157728,
+      "D_QT_SourceRow": 68768,
+      "QD_combo_D_SourceRow_exact": true,
+      "scope": "QT-QD and QT+QD are same-time algebraic outputs, not identified main-structure QS"
+    },
+    {
+      "Story": "Story10",
+      "Case": "RH4X",
+      "Axis": "X",
+      "anchor": "tD",
+      "time_s": 21.64,
+      "B_QT_signed_kN": 4387.461362301451,
+      "QT_D_signed_kN": 3711.8076976724833,
+      "QD_J_resisting_signed_kN": -249.1130120015086,
+      "QT_minus_QD_algebraic_kN": 3960.920709673992,
+      "QT_plus_QD_algebraic_kN": 3462.6946856709746,
+      "B_SourceRow": 78158,
+      "D_QT_SourceRow": 33678,
+      "QD_combo_D_SourceRow_exact": true,
+      "scope": "QT-QD and QT+QD are same-time algebraic outputs, not identified main-structure QS"
+    },
+    {
+      "Story": "Story10",
+      "Case": "RH4Y",
+      "Axis": "Y",
+      "anchor": "tD",
+      "time_s": 21.64,
+      "B_QT_signed_kN": 4167.678991359884,
+      "QT_D_signed_kN": 3395.9230318706223,
+      "QD_J_resisting_signed_kN": -258.2222534744777,
+      "QT_minus_QD_algebraic_kN": 3654.1452853451,
+      "QT_plus_QD_algebraic_kN": 3137.7007783961444,
+      "B_SourceRow": 80659,
+      "D_QT_SourceRow": 36179,
+      "QD_combo_D_SourceRow_exact": true,
+      "scope": "QT-QD and QT+QD are same-time algebraic outputs, not identified main-structure QS"
+    }
+  ],
+  "variation_descriptors_not_a_physical_QS_test": true
+}

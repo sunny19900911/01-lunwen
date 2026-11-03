@@ -1,6 +1,6 @@
-# 本轮主张
+# 本轮主张裁决
 
-- C1：QT−QD平滑不足以证明主体截面内力；独立同切口参照待核。
-- C2：有限Maxwell等效需保留串联刚度和响应幅值，装置局部拟合不等于结构线性化复算。
-- C3：两时刻比较恒等式可形成实际响应后的近峰检查方法；5%阈值不是全部控制峰的保证。
-- C4：论文将控制输入与控制时刻分别识别，模型计算输出不称现场实测。
+- C1 supported / observed-data / reviewed：四组同刻QT/QD/代数差数值可核；独立主体平衡unresolved，不把平滑当证据。
+- C2 supported / numerical-test / reviewed：两种局部有限Maxwell等效均保持所选两时刻绝对QD次序；相对RMS42.64/46%明确。全结构等效QT检验unresolved。
+- C3 supported / analytic-derivation+observed-data / reviewed：两时刻排序不等式正确；5%有限候选保证全部实际峰的主张refuted，反例RH4Y/Story12，31.7364%漏峰。
+- C4 supported / engineering-method / reviewed：控制输入与控制时刻分别列示；实际方案软件数据不是现场实测，近峰检查不是计算前预测。

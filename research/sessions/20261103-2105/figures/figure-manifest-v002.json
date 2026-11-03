@@ -1,0 +1,41 @@
+{
+  "source_sha256": "dff22ab303c492e4f8943171b2e26abd1e932913c2d4acf7be3f9385f72bf083",
+  "png_sha256": "598099fb876d4e063175b3924cd32cbf9d8bbb04626a7c65db1b48b4150909f4",
+  "png_bytes": 144785,
+  "size": [
+    1900,
+    1390
+  ],
+  "panels": [
+    {
+      "Story": 8,
+      "Case": "RH4X",
+      "saved_points": 2501,
+      "y_axis_symmetric_limit_kN": 8000,
+      "QT_peak_time_s": 21.6
+    },
+    {
+      "Story": 8,
+      "Case": "RH4Y",
+      "saved_points": 2501,
+      "y_axis_symmetric_limit_kN": 8000,
+      "QT_peak_time_s": 21.580000000000002
+    },
+    {
+      "Story": 10,
+      "Case": "RH4X",
+      "saved_points": 2501,
+      "y_axis_symmetric_limit_kN": 5000,
+      "QT_peak_time_s": 21.64
+    },
+    {
+      "Story": 10,
+      "Case": "RH4Y",
+      "saved_points": 2501,
+      "y_axis_symmetric_limit_kN": 5000,
+      "QT_peak_time_s": 21.64
+    }
+  ],
+  "all_saved_points_no_smoothing": true,
+  "root_visual_review_required": true
+}

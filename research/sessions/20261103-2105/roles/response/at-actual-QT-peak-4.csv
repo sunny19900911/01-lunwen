@@ -1,0 +1,5 @@
+Story,Case,Axis,anchor,time_s,B_QT_signed_kN,QT_D_signed_kN,QD_J_resisting_signed_kN,QT_minus_QD_algebraic_kN,QT_plus_QD_algebraic_kN,B_SourceRow,D_QT_SourceRow,QD_combo_D_SourceRow_exact,scope
+Story8,RH4X,X,tD,21.6,6070.962352958927,5776.651278353405,-238.1133110864973,6014.764589439903,5538.537967266908,155228,66268,True,"QT-QD and QT+QD are same-time algebraic outputs, not identified main-structure QS"
+Story8,RH4Y,Y,tD,21.580000000000002,5583.789168583818,5205.211211212888,-279.6257047536688,5484.836915966557,4925.585506459219,157728,68768,True,"QT-QD and QT+QD are same-time algebraic outputs, not identified main-structure QS"
+Story10,RH4X,X,tD,21.64,4387.461362301451,3711.8076976724833,-249.1130120015086,3960.920709673992,3462.6946856709746,78158,33678,True,"QT-QD and QT+QD are same-time algebraic outputs, not identified main-structure QS"
+Story10,RH4Y,Y,tD,21.64,4167.678991359884,3395.9230318706223,-258.2222534744777,3654.1452853451,3137.7007783961444,80659,36179,True,"QT-QD and QT+QD are same-time algebraic outputs, not identified main-structure QS"

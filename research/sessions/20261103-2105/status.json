@@ -1,1 +1,21 @@
-{"state":"active","stage":1,"checkpoint_open":true,"source":"p06-actual-timing-session027-v004.md","new_automation":false,"ordered_steps":["cut-balance","equivalent-linear-check","near-peak-screen","two-dimension-paper"],"no_solver":true}
+{
+  "state": "closed-reviewed-with-two-physical-gaps",
+  "closed_local_review_at": "2026-11-03T22:32:44.801540+08:00",
+  "stage": 4,
+  "checkpoint_open": false,
+  "no_new_numeric_experiments": true,
+  "new_automation": false,
+  "manuscript": "papers/damping-output-boundaries/manuscript/p06-control-check-session028-v004.md",
+  "docx": "papers/damping-output-boundaries/manuscript/p06-control-check-session028-论文审阅稿-v004.docx",
+  "docx_sha256": "18a322d4fc54929e6f41b6b8f119a7d3b52cd373b4c13b51ecb0737f52fd5bbc",
+  "independent_numeric_fields": 162,
+  "must": 0,
+  "stages": {
+    "1": "simultaneous comparison done; independent cut balance unavailable",
+    "2": "local equivalent tests done; global QT forward unavailable",
+    "3": "all72 tested; universal 5% coverage refuted",
+    "4": "integrated and 13-page QA complete"
+  },
+  "git_final_receipt": "git-FINAL-receipt.json",
+  "old_dirty_files_preserved": true
+}

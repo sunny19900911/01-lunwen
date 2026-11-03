@@ -1,0 +1,236 @@
+{
+  "at": "2026-11-03T22:13:40.811897+08:00",
+  "fields": 162,
+  "must": 0,
+  "errors": [],
+  "equivalent": {
+    "train": {
+      "QD_relative_RMS": 0.4599940287682999,
+      "anchors": [
+        {
+          "time": 16.62,
+          "native": -111.21233704344948,
+          "linear": -62.443575418687246
+        },
+        {
+          "time": 21.64,
+          "native": -258.2222534744777,
+          "linear": -197.93671331256775
+        }
+      ]
+    },
+    "whole": {
+      "QD_relative_RMS": 0.4263870594089276,
+      "anchors": [
+        {
+          "time": 16.62,
+          "native": -111.21233704344948,
+          "linear": -64.0771433532212
+        },
+        {
+          "time": 21.64,
+          "native": -258.2222534744777,
+          "linear": -199.971626186077
+        }
+      ]
+    }
+  },
+  "screening_summary": [
+    {
+      "epsilon": 2.0,
+      "n": 72,
+      "candidates": 84,
+      "single_1pct": 11,
+      "near_exact": 41,
+      "near_1pct": 51,
+      "max_near_miss": 31.736396992247247
+    },
+    {
+      "epsilon": 5.0,
+      "n": 72,
+      "candidates": 91,
+      "single_1pct": 11,
+      "near_exact": 41,
+      "near_1pct": 51,
+      "max_near_miss": 31.736396992247247
+    },
+    {
+      "epsilon": 10.0,
+      "n": 72,
+      "candidates": 120,
+      "single_1pct": 11,
+      "near_exact": 44,
+      "near_1pct": 53,
+      "max_near_miss": 31.736396992247247
+    }
+  ],
+  "independent_cached_groups": [
+    {
+      "story": 10,
+      "epsilon": 0.02,
+      "candidate_times": [
+        16.62,
+        21.68
+      ],
+      "n_candidates": 2.0,
+      "t_B_s": 16.62,
+      "t_D_s": 21.64,
+      "P_B_kN": 4277.279823603668,
+      "P_D_kN": 3395.9230318706223,
+      "baseline_gap_at_actual_peak_percent": 2.562395652465018,
+      "candidate_actual_peak_kN": 3316.59536090447,
+      "missed_actual_peak_percent": 2.33596787152314,
+      "neighborhood_actual_peak_kN": 3395.9230318706223,
+      "neighborhood_missed_peak_percent": 0.0,
+      "D_SourceRow_at_own_peak": 36179.0
+    },
+    {
+      "story": 10,
+      "epsilon": 0.05,
+      "candidate_times": [
+        16.62,
+        21.68
+      ],
+      "n_candidates": 2.0,
+      "t_B_s": 16.62,
+      "t_D_s": 21.64,
+      "P_B_kN": 4277.279823603668,
+      "P_D_kN": 3395.9230318706223,
+      "baseline_gap_at_actual_peak_percent": 2.562395652465018,
+      "candidate_actual_peak_kN": 3316.59536090447,
+      "missed_actual_peak_percent": 2.33596787152314,
+      "neighborhood_actual_peak_kN": 3395.9230318706223,
+      "neighborhood_missed_peak_percent": 0.0,
+      "D_SourceRow_at_own_peak": 36179.0
+    },
+    {
+      "story": 10,
+      "epsilon": 0.1,
+      "candidate_times": [
+        16.62,
+        21.68
+      ],
+      "n_candidates": 2.0,
+      "t_B_s": 16.62,
+      "t_D_s": 21.64,
+      "P_B_kN": 4277.279823603668,
+      "P_D_kN": 3395.9230318706223,
+      "baseline_gap_at_actual_peak_percent": 2.562395652465018,
+      "candidate_actual_peak_kN": 3316.59536090447,
+      "missed_actual_peak_percent": 2.33596787152314,
+      "neighborhood_actual_peak_kN": 3395.9230318706223,
+      "neighborhood_missed_peak_percent": 0.0,
+      "D_SourceRow_at_own_peak": 36179.0
+    },
+    {
+      "story": 12,
+      "epsilon": 0.02,
+      "candidate_times": [
+        20.22
+      ],
+      "n_candidates": 1.0,
+      "t_B_s": 20.22,
+      "t_D_s": 12.26,
+      "P_B_kN": 565.0420966832248,
+      "P_D_kN": 523.5629168604813,
+      "baseline_gap_at_actual_peak_percent": 23.07269921394678,
+      "candidate_actual_peak_kN": 327.6119410751269,
+      "missed_actual_peak_percent": 37.426442835249794,
+      "neighborhood_actual_peak_kN": 357.4029110614496,
+      "neighborhood_missed_peak_percent": 31.736396992247247,
+      "D_SourceRow_at_own_peak": 3118.0
+    },
+    {
+      "story": 12,
+      "epsilon": 0.05,
+      "candidate_times": [
+        20.22
+      ],
+      "n_candidates": 1.0,
+      "t_B_s": 20.22,
+      "t_D_s": 12.26,
+      "P_B_kN": 565.0420966832248,
+      "P_D_kN": 523.5629168604813,
+      "baseline_gap_at_actual_peak_percent": 23.07269921394678,
+      "candidate_actual_peak_kN": 327.6119410751269,
+      "missed_actual_peak_percent": 37.426442835249794,
+      "neighborhood_actual_peak_kN": 357.4029110614496,
+      "neighborhood_missed_peak_percent": 31.736396992247247,
+      "D_SourceRow_at_own_peak": 3118.0
+    },
+    {
+      "story": 12,
+      "epsilon": 0.1,
+      "candidate_times": [
+        20.22
+      ],
+      "n_candidates": 1.0,
+      "t_B_s": 20.22,
+      "t_D_s": 12.26,
+      "P_B_kN": 565.0420966832248,
+      "P_D_kN": 523.5629168604813,
+      "baseline_gap_at_actual_peak_percent": 23.07269921394678,
+      "candidate_actual_peak_kN": 327.6119410751269,
+      "missed_actual_peak_percent": 37.426442835249794,
+      "neighborhood_actual_peak_kN": 357.4029110614496,
+      "neighborhood_missed_peak_percent": 31.736396992247247,
+      "D_SourceRow_at_own_peak": 3118.0
+    }
+  ],
+  "four_same_time_records": [
+    {
+      "Story": 8,
+      "Case": "RH4X",
+      "time_QT_peak_s": 21.6,
+      "QT_kN": 5776.651278353405,
+      "QD_J_resisting_kN": -238.1133110864973,
+      "QT_minus_QD_kN": 6014.764589439903,
+      "QT_plus_QD_kN": 5538.537967266908,
+      "SourceRow": 66268.0,
+      "peak_abs_QT_kN": 5776.651278353405,
+      "peak_abs_QT_minus_QD_kN": 6031.908243390913,
+      "peak_abs_QT_plus_QD_kN": 5538.537967266908
+    },
+    {
+      "Story": 8,
+      "Case": "RH4Y",
+      "time_QT_peak_s": 21.580000000000002,
+      "QT_kN": 5205.211211212888,
+      "QD_J_resisting_kN": -279.6257047536688,
+      "QT_minus_QD_kN": 5484.836915966557,
+      "QT_plus_QD_kN": 4925.585506459219,
+      "SourceRow": 68768.0,
+      "peak_abs_QT_kN": 5205.211211212888,
+      "peak_abs_QT_minus_QD_kN": 5484.836915966557,
+      "peak_abs_QT_plus_QD_kN": 4938.550011987306
+    },
+    {
+      "Story": 10,
+      "Case": "RH4X",
+      "time_QT_peak_s": 21.64,
+      "QT_kN": 3711.8076976724833,
+      "QD_J_resisting_kN": -249.1130120015086,
+      "QT_minus_QD_kN": 3960.920709673992,
+      "QT_plus_QD_kN": 3462.6946856709746,
+      "SourceRow": 33678.0,
+      "peak_abs_QT_kN": 3711.8076976724833,
+      "peak_abs_QT_minus_QD_kN": 3960.920709673992,
+      "peak_abs_QT_plus_QD_kN": 3470.888548371258
+    },
+    {
+      "Story": 10,
+      "Case": "RH4Y",
+      "time_QT_peak_s": 21.64,
+      "QT_kN": 3395.9230318706223,
+      "QD_J_resisting_kN": -258.2222534744777,
+      "QT_minus_QD_kN": 3654.1452853451,
+      "QT_plus_QD_kN": 3137.7007783961444,
+      "SourceRow": 36179.0,
+      "peak_abs_QT_kN": 3395.9230318706223,
+      "peak_abs_QT_minus_QD_kN": 3654.1452853451,
+      "peak_abs_QT_plus_QD_kN": 3144.083925084885
+    }
+  ],
+  "scope": "prescribed-U local Maxwell only; screening on existing two response groups; four old force-cache groups; no structural solve",
+  "code_sha256": "02d1f1bcb23ecb5ceef8fe6e4d56d7d6bc883e3af479e95e2fba53daf4179a0d"
+}

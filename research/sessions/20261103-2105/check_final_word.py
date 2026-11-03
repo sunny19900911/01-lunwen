@@ -56,6 +56,9 @@ with zipfile.ZipFile(a.docx) as z:
  links=[dict(x.attrib) for x in rels if x.attrib.get('Type','').endswith('/hyperlink')]
  assert any('20261103-1853' in x.get('Target','') for x in links),'Current complete engineering supplementary link missing'
  assert any('20261103-1700' in x.get('Target','') for x in links),'Prior complete engineering tables hyperlink missing'
+ assert any('20261103-2105' in x.get('Target','') for x in links),'New four-step supplement hyperlink missing'
+ assert any('Section_Cuts.htm' in x.get('Target','') for x in links),'Official Section Cuts hyperlink missing or converted into math'
+ assert any('δ1-δ2>b1-b2' in x for x in flat),'Near-peak inequality operands lost'
  if 'SHW3X-SHW4X-辅助分析资料-v002.md' in md:
   assert any('SHW3X-SHW4X-' in x.get('Target','') and 'v002.md' in x.get('Target','') for x in links),'New auxiliary supplement hyperlink missing'
  core=E.fromstring(z.read('docProps/core.xml'))

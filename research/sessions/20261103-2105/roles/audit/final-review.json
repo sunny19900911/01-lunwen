@@ -1,0 +1,36 @@
+{
+  "at": "2026-11-03T22:14:52.904723+08:00",
+  "must": 0,
+  "required_should": 0,
+  "optional_clarifications": 2,
+  "numeric_fields": 162,
+  "numeric_differences": 0,
+  "scope": "new 3.4/4.5/5.3/5.4 and abstracts/conclusions only",
+  "files": [
+    {
+      "path": "papers\\damping-output-boundaries\\manuscript\\p06-control-check-session028-v003.md",
+      "bytes": 36302,
+      "sha256": "cff900949c196b4a734d9766e68e157c444856547782f3d9bf9cdc2c5e5cddce"
+    },
+    {
+      "path": "research\\sessions\\20261103-2105\\roles\\audit\\independent_new_checks.py",
+      "bytes": 8162,
+      "sha256": "02d1f1bcb23ecb5ceef8fe6e4d56d7d6bc883e3af479e95e2fba53daf4179a0d"
+    },
+    {
+      "path": "research\\sessions\\20261103-2105\\roles\\audit\\independent-new-checks.json",
+      "bytes": 7097,
+      "sha256": "9fa29f65c5ddfffdfe7ff7b5714a60d7ff3de3c7d606d74d66f2df4aa4d4af56"
+    },
+    {
+      "path": "research\\sessions\\20261103-2105\\roles\\audit\\stage1-contract.md",
+      "bytes": 1391,
+      "sha256": "de2dc002df18a8f74980cfa1d9fc0a986feeaea93da58b778c40ea6953222195"
+    },
+    {
+      "path": "research\\sessions\\20261103-2105\\roles\\audit\\final-review.md",
+      "bytes": 3464,
+      "sha256": "0e3c06509120cb07a837a912d0e1ca444a8d868c0a294fd70944972deea1ad27"
+    }
+  ]
+}

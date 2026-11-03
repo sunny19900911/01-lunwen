@@ -1,0 +1,28 @@
+{
+  "source_sha256": "cff900949c196b4a734d9766e68e157c444856547782f3d9bf9cdc2c5e5cddce",
+  "final_sha256": "fac80444b78702abd247783fea699b8a3ddd010c83964e6593177679010df5ba",
+  "changes": [
+    {
+      "before": "# 黏滞阻尼器作用下楼层剪力控制输入与控制时刻的识别",
+      "after": "# 阻尼器作用下楼层剪力的控制输入与控制时刻"
+    },
+    {
+      "before": "对基准原峰时刻t₁和任一候选时刻t₂，按第5.2节的绝对值定义比较原需求差与两时刻降低量之差：",
+      "after": "对基准原峰时刻t₁和任一候选时刻t₂，记b_i=|V_B(t_i)|、d_i=|V_D(t_i)|、δ_i=b_i−d_i。比较原需求差与两时刻降低量之差："
+    },
+    {
+      "before": "以原非线性黏滞运动为参照，按耗能等效确定黏滞系数。",
+      "after": "以原非线性黏滞单元的速度历程为参照，用其耗能与速度平方积分之比确定等效黏滞系数。"
+    },
+    {
+      "before": "0—15s定参方案在15—50s的装置合力相对RMS差为46.00%；",
+      "after": "相对RMS差以相同评价时段的原生装置水平合力RMS为分母。0—15s定参方案在15—50s的装置合力相对RMS差为46.00%；"
+    },
+    {
+      "before": "https://docs.csiamerica.com/help-files/etabs/Menus/Define/Section_Cuts.htm.",
+      "after": "[官方页面](https://docs.csiamerica.com/help-files/etabs/Menus/Define/Section_Cuts.htm)。"
+    }
+  ],
+  "scientific_numeric_values_changed": false,
+  "new_experiments": 0
+}

@@ -1,0 +1,307 @@
+{
+  "checkpoint": "FINAL",
+  "frozen_at": "2026-11-03T22:32:44.922723+08:00",
+  "message": "P06 two-dimensional control checks FINAL",
+  "files": [
+    {
+      "relative": "research/sessions/20261103-2105/apply_final_clarifications.py",
+      "sha256": "8a4bc5618507588692f1e03ba740df8f88cc748afa00d5590ecaea3496665ee3"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/check_final_word.py",
+      "sha256": "8aef54c87dc5cb674879327f9c4acf25f330d2769636006040eec29a2f2aa37a"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/check_local_equivalent.py",
+      "sha256": "072a471126f7b6e9ecfd42dfc21c267bd2c93cbec3248b235e955cc56731e6f0"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/check_whole_response_equivalent.py",
+      "sha256": "aee7cc4e9309ba6634b63102df5da9d5c37c21b303ac8880fa814f12428e2d84"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/claims.md",
+      "sha256": "669747fe51cccd9786fc1881fc7994f9235bcb2bb2de65f3e0def3c738562a87"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/draft-build-v001.json",
+      "sha256": "06b3531a7b997c42504c6fd455bd032f7225af8955fdecf02187374aed19fb93"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/equivalent-policy-freeze.json",
+      "sha256": "51e7332c1102437c3a9c85128be16b970ae389afbbdd697d0619485055364b13"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/equivalent-response-level-addendum.json",
+      "sha256": "a1d1d928b1a3e0cde3fac56cdc4f814e7f4c450305fd177ef06d6ee009cd24e0"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/equivalent-text-refinement.json",
+      "sha256": "33de451ac7ba80590aaf5997c64fe65a7e3c9f7b8c07d51bbc45632822cfe0bb"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/figures/figure-manifest-v002.json",
+      "sha256": "0c778c11e02775d4dc2a284d26fe9e67e2b1698be0e887451c4269df98674a44"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/figures/figure-manifest.json",
+      "sha256": "b14c28c399b2da7d7677d389e76c2462ac093593c29f58762e26036e38ab697b"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/figures/four-record-QT-QD-difference-v002.png",
+      "sha256": "598099fb876d4e063175b3924cd32cbf9d8bbb04626a7c65db1b48b4150909f4"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/final-clarification-adoption.json",
+      "sha256": "d34816b2bb84aad890c762e691b35f56dd5bb99f32b48198d1741ba18c2b8268"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/final-link-check-v003.json",
+      "sha256": "9518aaeb72ddd9b1198bd47c0e961587e0c4c4dd894f60ea824c4e24cc49dddc"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/final-summary.md",
+      "sha256": "ce5e14a28504815d960f22a920559fb8c1c000fcdb704c36487478f7a5a90816"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/final-visual-review.json",
+      "sha256": "d5062bec984b3549eab27a56ee1d7e3fb2af78040fa818591bcfd2d31e2c9e1c"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/finalize_links.py",
+      "sha256": "8244fa4562376ae11a13bcae167afbea68e6e84812e0126f4678dfdb6c831fb2"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/finish_local_review.py",
+      "sha256": "31bc8bfd64dd5c24fe16ef3a8b20f158093112f7c6a5a6c1ed3ae8ce0fca3442"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/git-R001-receipt.json",
+      "sha256": "9001e5ac61ea64d78d666b89c5857d3fcc7f494b348b8236ed90951baf1e7721"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/make_checkpoint.py",
+      "sha256": "c2af463e65f241a887c99044efbae826e48c044e5b8e0345c576fd954bd79d86"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/near-peak-policy-freeze.json",
+      "sha256": "7c2c8eee723f1e3391dcce7968275c746aa0ecebb3389d82f6c935055ccca8e9"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/plan.md",
+      "sha256": "77226c056da6e4ae486fda2460eb8c09222594a17a0a1bf86789372787385609"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/plot_four_records.py",
+      "sha256": "e580c8845c5f2a49f6ffeeaa4ad56fe647e09a592c9fddc3c49a26af7b65cfb2"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/prepare_tools.py",
+      "sha256": "c645ff34d5497bf7289938d814d476fd52a953635905dcb592791d87d033a978"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/publish_checkpoint.py",
+      "sha256": "d7365661b99df7e4086407510ba35b6bd8d3c7f2243fae6f542d7ca429188051"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/publish_root_checkpoint.py",
+      "sha256": "50fac821da0de3dac21999118129d1b623738d401850159935228c3b5821b51a"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/refine_equivalent_text.py",
+      "sha256": "76fa7055a4e2c92abe76f7c52d6f528751148678e0b1d9b6923b395dc81d54ac"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/rewrite_paper.py",
+      "sha256": "b2b90980fc27a3d4fe2c7f82d88a1922bff29b269aca0294c7cf2957a3a52bb0"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/audit/final-review.json",
+      "sha256": "c447f3938001f61e90cd01ecd3a1db7165ba912a9f2c0776351b23d8b9419ac1"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/audit/final-review.md",
+      "sha256": "0e3c06509120cb07a837a912d0e1ca444a8d868c0a294fd70944972deea1ad27"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/audit/independent-new-checks.json",
+      "sha256": "9fa29f65c5ddfffdfe7ff7b5714a60d7ff3de3c7d606d74d66f2df4aa4d4af56"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/audit/independent_new_checks.py",
+      "sha256": "02d1f1bcb23ecb5ceef8fe6e4d56d7d6bc883e3af479e95e2fba53daf4179a0d"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/audit/stage1-contract.md",
+      "sha256": "de2dc002df18a8f74980cfa1d9fc0a986feeaea93da58b778c40ea6953222195"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/cut/manifest.json",
+      "sha256": "f6c7dc5f2896e83aad77dc22db0a1a98eb634a044c02688d8ee74a9ba2a56e8a"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/cut/截面口径与最小独立平衡量.md",
+      "sha256": "e3b92e5e1800afe8b4ce9ea0b857e6f4d95616b503fbdc41098b90f03360c164"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/cut/阶段1-即时裁决.md",
+      "sha256": "1b77eed903d355b2b57b3bbbe8c06197bf917c271fe193a9d033085a54d70992"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/equivalent/equivalent-device-8.csv",
+      "sha256": "b9f44acca050c1c75f151161da465010d70f7a8f44e7489dc436e5eba427d7cc"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/equivalent/equivalent-QD-two-times.csv",
+      "sha256": "f0d2a48f1c9c12b2bb6c185d243c5c9b87b17d3ce3e7d6ab8ec4d8489a4df711"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/equivalent/equivalent-results.json",
+      "sha256": "7faedeb522c826e8949482d6ff89681ebc2855144d44803679f4b3ca603c19e1"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/equivalent/R002/whole-response-device-8.csv",
+      "sha256": "5b35bb6b01555bfec2a3dbcebd6f56dec91cab146e4f4038cfac4eb97120f402"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/equivalent/R002/whole-response-QD-two-times.csv",
+      "sha256": "c4c39d40d8c4bd898966fa107d066ee1bfd2cb438a804ebde79a4da0983c1c6f"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/equivalent/R002/whole-response-results.json",
+      "sha256": "accf8255d1119b509fd1a4f7ad73ce354158376a8b43343b679ffaf2a18615b4"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/response/at-actual-QT-peak-4.csv",
+      "sha256": "a1ae41a33ea4c76a96c9c809cc1a3e9177753ce7909936f2103f9b46557a99e2"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/response/check_against_root.py",
+      "sha256": "51f90b2c958e17ee9735a41bc12ade19337937244adbe8a939291a95ed60fa0d"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/response/curve-peak-variation-16.csv",
+      "sha256": "1eb59f8ba1dd4056b7ab66e2f99ad412d8242dd1d1c9121a09e00d44d8e227eb"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/response/delivery-manifest.json",
+      "sha256": "034f3b698d84d246d2329366e39bc6cf0cb8d49ff02c44e916a007e1fd9eb99b"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/response/finalize_response.py",
+      "sha256": "d9124bf63b747aec7fd8a8eb1fce33881ebd2ec15df49d496793bf3bc37758b1"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/response/four_record_arithmetic.py",
+      "sha256": "f32d9886a0d4712efad2c2ac284d58107c3b5504f70c32f6656056dc15e9cdeb"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/response/numeric-delivery-manifest.json",
+      "sha256": "114e69939cd32330bfc31f26c65a51bc923619b34c4b070bcde66094e84ed8ef"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/response/numeric-summary.json",
+      "sha256": "71cc823e0d393ce91ffd2f5b6d252b0ee6104e3d8cc9988e2f591bd44f286689"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/response/plus-minus-direction-sensitivity-4.csv",
+      "sha256": "919baa03d33a999c0070828576ddc70caa6ae86f69d32b8c769f9abf76f01191"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/response/root-cross-check.json",
+      "sha256": "1df198bfb75a8b2b5f2441284f41abf1eef887f1d5b604708722f426daaa2b96"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/response/same-time-QT-QD-algebra-12.csv",
+      "sha256": "5cbb2a0e385e54e446e1a88dbb4502eea9606375ef7372c272d6367b18354dfc"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/screen/baseline-candidates-frozen.csv",
+      "sha256": "8a360f896f55fa85001d12db26b499db628d1f757df5e632e46afa1d01880d25"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/screen/candidate-freeze.json",
+      "sha256": "fc6ef6dd795563fab5824beb9a99d6b085ba1533a56c5ce10c301c9797fbdc49"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/screen/screening-216.csv",
+      "sha256": "e42ef08152333e2f273e840fc26fd70911532abc03845286741127b2a3a35b47"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/screen/screening-results.json",
+      "sha256": "daf2d87bb8deefb8b99a4b35237d42f39ac162fa896696df2e27fdc51d4c38ab"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/roles/screen/screening-summary-3.csv",
+      "sha256": "11c10f5ec5dfb2da10b8e02709efe261f15684c2764a31a38be1cd2240ba0922"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/root-four-record-check.json",
+      "sha256": "c35bccbb8a92e430556f4f6859b28a48bd6d4a54426fad4f4b6e47e8679a06e5"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/root-four-records.csv",
+      "sha256": "dce198b2dfb636ddddd5aae51c6ba549ea507f1851d52a966e4bfd1bd4b9ccad"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/root_four_record_check.py",
+      "sha256": "cda45eaee0c3927aa7635845de1a1ff755f933d7f00c47047e1a5ed5b5e74b72"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/runs.md",
+      "sha256": "94a0b206e34338cc10705ec59fd517375459f29d8fa0b82c93da111a3e0096a0"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/screen_near_peaks.py",
+      "sha256": "0d9af1ea4529e5f2710a02733dccf6e9367c87efe0db7b0d48b204b1437097e9"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/source-freeze.json",
+      "sha256": "33e9b11ad286f02b6b14755dd4ae5e2fc65b7f97999d3578bf4a06e7a4602c04"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/stage1-decision.md",
+      "sha256": "6d36370c6fbd4f9ba2724dd4c703ed4ce1b6f2e36eedccbc77fabdc5295b3f90"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/status.json",
+      "sha256": "88f9474c354e4285e9180901ff73cff1b7712db06c345d8dee9e816ce6fb04f0"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/word/author_word.py",
+      "sha256": "ed4c51027366da2fc104e193cce075690d7af85e9336a9d8357340a59e903595"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/word/build_word.py",
+      "sha256": "812b77bd9da25fdd5ae84cecf1dd051427e86cb946ef90857c88e72b16e0f2af"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/word/math_omml.py",
+      "sha256": "ad0c091401c059d2676b2c8451d78967f142b5ad4a17944f64ca0885e8c71f44"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/word/render_review.py",
+      "sha256": "fc84cd5f2430eed66bab7d51131ee95a8d578256a85307dbdbadacd9cc5d6baf"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/word-identity-v004.json",
+      "sha256": "15f7374ed44d4e2ef711f628d5ee8dadaf4b0f6ddd06ef80da002eab8f2913b7"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/四项补强资料说明.md",
+      "sha256": "687122aae597ab2f780cdd1688ac8bbec22b0171081588f37c71a8312dae6d24"
+    },
+    {
+      "relative": "research/sessions/20261103-2105/普通中文修改说明.md",
+      "sha256": "25408043e4b92fa38fb0296ed65b2ee5391981c3d8d0d3fe0f5d179b7d3f038f"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-control-check-session028-v004.md",
+      "sha256": "fac80444b78702abd247783fea699b8a3ddd010c83964e6593177679010df5ba"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-control-check-session028-论文审阅稿-v004.docx",
+      "sha256": "18a322d4fc54929e6f41b6b8f119a7d3b52cd373b4c13b51ecb0737f52fd5bbc"
+    }
+  ]
+}
