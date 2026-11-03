@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "reviewed_at": "2026-11-03T16:13:17.894808+08:00",
+  "reviewer": "root",
+  "docx": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-论文审阅稿-v004.docx",
+  "docx_sha256": "0a91c78b152baa3472f1f92a00633e914512965d953179abc653bea95e66f88f",
+  "source": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v004.md",
+  "source_sha256": "b66b072aeca3019146e41664ce71ae81475d198410bf505e53afaf054d76ffe3",
+  "final_render_directory": "word/local-cache/render-v3",
+  "actual_pages_viewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "pages": 14,
+  "tables": 8,
+  "numeric_table_cells_checked": 238,
+  "native_OMML": 56,
+  "display_equations": 5,
+  "figures": 5,
+  "observations": [
+    "最终14页均已实际查看。正文、符号、上下标、表格和图中文字可读，未见裁切重叠。",
+    "表5跨第7—8页，重复表头且数据行未拆分；第4.3.2标题已缩短为一行。",
+    "第11页三层模型矩阵及公式、第12页工程步骤、第13页结论、第14页参考文献均已查看。",
+    "旧15页版本的过大留白已通过移动现有图位置修正，未缩小图或字号；旧版本保留。"
+  ],
+  "structural_check": "word-identity-final.json",
+  "render_method": "canonical缺少LibreOffice的真实失败留档后，独立hidden Word COM导PDF并以PDFium渲染；仅关闭自建对象。",
+  "marker_success_count_this_session": 1
+}

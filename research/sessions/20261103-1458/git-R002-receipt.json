@@ -1,0 +1,43 @@
+{
+  "checkpoint": "R002",
+  "time_utc": "2026-11-03T07:44:31.385541+00:00",
+  "HEAD": "0ad52a592b19812fb9827220a51d8bc70f3dd2fb",
+  "previous_HEAD": "26bd3fe41af282234770e6f51468e035e066e6f2",
+  "staged_files": [
+    "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v001.md",
+    "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v002.md",
+    "research/sessions/20261103-1458/check_final_word.py",
+    "research/sessions/20261103-1458/final-text-adoption.json",
+    "research/sessions/20261103-1458/finalize_and_prepare_word.py",
+    "research/sessions/20261103-1458/git-R001-receipt.json",
+    "research/sessions/20261103-1458/git-R002-manifest.json",
+    "research/sessions/20261103-1458/integrate_manuscript.py",
+    "research/sessions/20261103-1458/manuscript-v001-change-check.json",
+    "research/sessions/20261103-1458/roles/audit/check_final_draft.py",
+    "research/sessions/20261103-1458/roles/audit/final-review-checks.json",
+    "research/sessions/20261103-1458/roles/audit/final-review.md",
+    "research/sessions/20261103-1458/roles/pairing/final-review.md",
+    "research/sessions/20261103-1458/rounds/R002.md",
+    "research/sessions/20261103-1458/verify_and_supplement.py",
+    "research/sessions/20261103-1458/word-identity-v1.json",
+    "research/sessions/20261103-1458/word/author_word.py",
+    "research/sessions/20261103-1458/word/build_word.py",
+    "research/sessions/20261103-1458/word/math_omml.py",
+    "research/sessions/20261103-1458/word/render_review.py",
+    "research/sessions/20261103-1458/实际方案资料与完整附表.md"
+  ],
+  "verified_blob_hashes": 21,
+  "identity_fallback": true,
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "code": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/sunny19900911/01-lunwen.git\n   26bd3fe..0ad52a5  main -> main\n"
+    }
+  ],
+  "remote_HEAD": "0ad52a592b19812fb9827220a51d8bc70f3dd2fb",
+  "remote_equals_local": true,
+  "pending_push": false,
+  "resumed_pending_receipt": null
+}

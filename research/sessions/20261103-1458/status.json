@@ -1,10 +1,30 @@
 {
-  "phase": "data-and-pairing-check",
+  "phase": "closed-complete",
   "started_at": "2026-11-03T14:58:22+08:00",
   "checkpoint_open": false,
   "source_manuscript": "papers/damping-output-boundaries/manuscript/p06-mechanism-classification-v003.md",
   "source_sha256": "afa9ccbef57335084d7bb57a8ed443644b7fd53c57623cf59ea02788212708df",
-  "ownership": {"main": "root", "geometry": "p06_actual_geometry", "response": "p06_actual_response", "pairing": "p06_actual_pairing"},
+  "ownership": {
+    "main": "root",
+    "geometry": "p06_actual_geometry",
+    "response": "p06_actual_response",
+    "pairing": "p06_actual_pairing"
+  },
   "no_new_ODE_or_solver": true,
-  "git_mode": "explicit frozen whitelist only"
+  "git_mode": "explicit frozen whitelist only",
+  "closed_at": "2026-11-03T16:13:17.894808+08:00",
+  "no_new_scientific_dispatch": true,
+  "no_new_numeric_experiments": true,
+  "final_manuscript": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v004.md",
+  "final_word": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-论文审阅稿-v004.docx",
+  "final_word_sha256": "0a91c78b152baa3472f1f92a00633e914512965d953179abc653bea95e66f88f",
+  "visual_QA": "final-visual-review.json",
+  "final_git_receipt": "git-FINAL-receipt.json",
+  "remaining_scientific_work": [],
+  "remaining_scope_limits": [
+    "完整内部模型设置未全部导出",
+    "QT截面包含性未认证",
+    "完整原生P仅32只范围"
+  ],
+  "automation_created_this_session": false
 }

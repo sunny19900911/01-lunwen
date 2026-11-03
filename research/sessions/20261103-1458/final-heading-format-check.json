@@ -1,0 +1,19 @@
+{
+  "source": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v004.md",
+  "source_bytes": 38860,
+  "source_sha256": "b66b072aeca3019146e41664ce71ae81475d198410bf505e53afaf054d76ffe3",
+  "docx": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-论文审阅稿-v004.docx",
+  "docx_bytes": 690283,
+  "docx_sha256": "0a91c78b152baa3472f1f92a00633e914512965d953179abc653bea95e66f88f",
+  "edit": {
+    "from": "4.3.2 共有六工况的分层响应与两类控制输入",
+    "to": "4.3.2 分层响应与两类控制输入",
+    "count": 1
+  },
+  "only_package_part_changed": [
+    "word/document.xml"
+  ],
+  "scientific_values_figures_math_unchanged": true,
+  "marker_success_count_still": 1,
+  "reason": "Avoid final single-character line in subsection heading observed on final render page8"
+}

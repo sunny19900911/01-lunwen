@@ -1,0 +1,371 @@
+{
+  "checkpoint": "FINAL",
+  "frozen_at": "2026-11-03T16:13:18.298760+08:00",
+  "message": "P06 actual damper application FINAL",
+  "files": [
+    {
+      "relative": "research/sessions/20261103-1458/check_final_word.py",
+      "sha256": "6fd17451f7b6d2617478fbed31f7f71e0f5e864a60f129d0df0217b2db757c16"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/checkpoint.py",
+      "sha256": "ce21fb319b827a343eebe38c1f43e929b031f15c908b7359eb8fff29f8007b8b"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/claims.md",
+      "sha256": "1d3dab91b59c9cf134297487f6512dbe242bfc14c45f4bffa08a4920f6fd3975"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/close_session.py",
+      "sha256": "50fb9ce784bd99ac7dae0be58e3d7427721dfe6442c8b6176ff8de2ccb7d5aed"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/final-heading-format-check.json",
+      "sha256": "ee27bbdb6158ff1be7946344b4cb70bc1ff4e9e1d92db71f2670f585227fe337"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/final-summary.md",
+      "sha256": "9719c54ae5897e5d889c72972707cb15a3f73a4b11b8d0353a1bdf2d44fc5eed"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/final-text-adoption.json",
+      "sha256": "946bf00aac7b443ec6456bd3aaaabdf1d3734a973af009cf477a2f88be3d7dde"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/final-visual-review.json",
+      "sha256": "beeef9202ced8a419f7c37e2bc91888b8e1cd81d8851fb6181eda54264af84ae"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/finalize_and_prepare_word.py",
+      "sha256": "41e16d7dfb4fdf39cdcc67b057042b32aee4f65dda4d7e92679613d74347598f"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/git-R001-receipt.json",
+      "sha256": "3f49716a3d67d7b3a920663c249845e2bc92cbc9acd58e1684ee97b8da90d59b"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/git-R002-receipt.json",
+      "sha256": "3211c480604afb14c2d5453a8d1d29f782a030f252af171a32c619dd84ea579f"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/integrate_manuscript.py",
+      "sha256": "ceadc6806a57dc642e328cc66adb1661706577c415892bbbdffa7b59360c0292"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/layout-reflow-check.json",
+      "sha256": "7b25b3787a3a7efea1da2e62aaad16e36029d69836c6336f0607e3ad935150cb"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/manuscript-v001-change-check.json",
+      "sha256": "130281ff250cbee3905ee542cfbd288f000b0a3179efb321c6273802c2446098"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/plan.md",
+      "sha256": "f043ad039d55b51e32eafaf4e9cd5d51ace232d3b4973d50b3a41e365b39e79f"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/publish_checkpoint.py",
+      "sha256": "e9984e2f2992225636b6ca6d5ad07644f2c2e46760d05d693bd66661e090ea49"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/reflow_layout.py",
+      "sha256": "b8c380047febdccb4bf907f02a44679dab108cc9d3a02ac699ed10cff911a56b"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/audit/audit-manifest.json",
+      "sha256": "f7ae452b0963189329bc3f03bea042fd0ebf58b3568eed6d2593286f0e16b2f3"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/audit/audit.json",
+      "sha256": "34e10701735a6a6ae37aaff1c5f8ceb769281fa185b4f223bdecb06fedf1c0a3"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/audit/audit.md",
+      "sha256": "e1bd16d35c879cdcfd07e77207306c81598b6e7397a8a3d030e4013267163199"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/audit/check_final_draft.py",
+      "sha256": "6f0814cc2e248afa27823c1530aa32edaebfafa20c7a027db5bb31d837b887c3"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/audit/final-review-checks.json",
+      "sha256": "f1fd5f5da78eb2b64c0b384630ff0820c9048b557ebaf1ae04ce0af253b5de52"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/audit/final-review.md",
+      "sha256": "25d6bc9ab9b41ec547cc62a22175f21d298d96fa9994a7c80fcccdf735c60641"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/audit/independent-controls-24.csv",
+      "sha256": "15a92103247ec1fe9c43f2343515072fe539578ac75b2715e72cee460e1d197a"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/audit/independent_audit.py",
+      "sha256": "0529f3d19ae406bb74d9d58b02342cb9191972bfd4cd5aac48dd64f692c05ad7"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/geometry/actual-damper-layout.png",
+      "sha256": "00d245c6ae1fe6c549beb9732ac441d12a6e8b57aab266eb2def755c4af038d5"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/geometry/actual-damper-layout.svg",
+      "sha256": "17895faccb3271828dc990f867fa7b4d488d616291f045b652b8e5c08f981229"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/geometry/actual-link-geometry-88.csv",
+      "sha256": "af21d0d19e8ee94d1db11b941e8c3b1b2b7501779efe148ef1140915918328d1"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/geometry/build_geometry.py",
+      "sha256": "00793bbfbfd728e7356d8349ad17305bcdc8bdc0491fc2835365cdadc9733906"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/geometry/geometry-check.json",
+      "sha256": "3260a2933026ccc661be8d40654c6322bd0d6c436083c83a84d12ca35fddf2e3"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/geometry/geometry-report.md",
+      "sha256": "cd5b41cb235d53c799737b38e2d6879ed75ba93d42b082864905fdec3ab28fb6"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/geometry/layout-by-story-11.csv",
+      "sha256": "2229b1407efa316baf896299d1bfb18b1ab74ca8bcde37949d0a704d2975e445"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/geometry/manifest-v002.json",
+      "sha256": "f68daf7be20a3ab9c30a9672a56fb28a8966b65d3c0e6b4c0695fdd8c1bed66a"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/geometry/manifest.json",
+      "sha256": "f9418a3276a4cfded25662d0bb7441068cd78a6770723b13fcb10a09ae7e5edd"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/geometry/visual-review.json",
+      "sha256": "03c32049d06142f4dc5a8a14ce2f30f3df63c53f5adf410cfe69ad083614cd73"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/pairing/base-grid-comparison-6.csv",
+      "sha256": "143394fe39d0dfa79dd6bbc32f79b2c6b6924da8a471eae6e940862576421cd8"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/pairing/base-sample-comparison-36.csv",
+      "sha256": "d5315648b2abedaa048b6fa788bd0f0f08837f05254a2d6e05efa53d119b0216"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/pairing/check_existing_pairing.py",
+      "sha256": "32dac6baaff9341449d609a5f453a1d20d695d3b3562596cfc081d83a79a119a"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/pairing/CM-directional-mass-comparison-36.csv",
+      "sha256": "25348659461a19b3109aad507d37d506087e36cac71def050f7b48429dec5fb3"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/pairing/common-case-settings-BM-6.csv",
+      "sha256": "d3e1320b94f43bc60c9b31ff634b82d49bc5758b02158251ad78efb58d3605bc"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/pairing/final-review.md",
+      "sha256": "1e239ce00f1c52ec969b88f971f6372b2907495bc2411457030b2b549a506769"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/pairing/manifest.json",
+      "sha256": "cbd845a21e9443ec2f8cf8befd0f807cca633962c21d4600ccac89e2b64fdbac"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/pairing/pairing-results.json",
+      "sha256": "99117df6e74cc90b21452736984fb64f5184255464ad729e6591867df8f9e80d"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/pairing/三模型比较条件与裁决.md",
+      "sha256": "b082a70170f4d50f9228268bf6124c17e42c4bc9d0d2570136e4aba33cb6127f"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/analyze_existing_response.py",
+      "sha256": "0b9de2f433c9ab01d22a6715979820e654415facebdcc4d336ef9d51972f0198"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/common-six-control-records-24.csv",
+      "sha256": "97331db024dc60d233bb198c9f0ff968de54abb4cd21e3488fda21b6063b9a15"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/common-six-peak-envelope-24.csv",
+      "sha256": "781faa1cdc209c8fdefae4b151f8e2155252f0f9ac49c7191a3abbd78fc2098b"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/common-six-three-model-peak-envelope.png",
+      "sha256": "a447de7d07dafb1dfc86b09ebe4622c1aa28ce20e7d455593df716a3ed911d0a"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/common-six-three-model-peak-envelope.svg",
+      "sha256": "197a632b5865a80b96962b251ca2165d67fdc1186323b460b90129d9efddbc3f"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/delivery-manifest.json",
+      "sha256": "eebf4c81c8bd484aba438e39a47278b633dc90a7c30b8d6af5eb9174989a6528"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/freeze_response.py",
+      "sha256": "90e441c18c58c1f4f87ca949cce399f2dac282da83fb2916abcb67e4f1fcb484"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/freeze_story8_figure.py",
+      "sha256": "eaed0e770df1b3889dfdb173dc4bddb08ac60b95e5f4e90d2eccd15441bc68ef"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/native-device-layer-timing-24.csv",
+      "sha256": "06c74b24e839dc68ef5b79d433b180350f62ea934df5bcbdb72421f0a5e64519"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/plot_native_envelope.py",
+      "sha256": "41b8b694d1ad230ff46209dacb931df5526a4fe841ecb437691c3b9ca367b901"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/plot_story8_native_controls.py",
+      "sha256": "6a42aaafd1af36c5cedb5e36bb6e7688fb27313aedd4a900ad2cd79e744e1e82"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/delivery-manifest.json",
+      "sha256": "b4faea51dc640efe6b53edd322b144204832e3fc2476f4c5c0a13db36a91e10e"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/figure-review.md",
+      "sha256": "9e993b32f7a9242a544308ced1bfd26e074003971c1b5ea19d6c82bf02ea03d0"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/native-peak-anchors-2-v002.csv",
+      "sha256": "39f466d4cd5423fcabf9ec641fe6259d73fb9c74fd142cd2e0f271d73f4b7078"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/native-peak-anchors-2-v003.csv",
+      "sha256": "39f466d4cd5423fcabf9ec641fe6259d73fb9c74fd142cd2e0f271d73f4b7078"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/native-peak-anchors-2.csv",
+      "sha256": "39f466d4cd5423fcabf9ec641fe6259d73fb9c74fd142cd2e0f271d73f4b7078"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/run-record-v002.json",
+      "sha256": "b2eb196e3de4493c77f389b2c14529f0cd8eb6302d300f56c3ea20f308db31bc"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/run-record-v003.json",
+      "sha256": "345de60acf950f564e96a89d1478186e87ccf1a45270d56812b880361e8fca07"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/run-record.json",
+      "sha256": "0381b87aefff9321f95524f33c58693e97cb5654efd4ab82dc744010c263c68d"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/Story8-RH4X-SHW7X-native-QT-QD-v003.png",
+      "sha256": "16e40bb59c82d154895b15cacc671906a2da94339281b1c7d57c3110b76423e5"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/R002/Story8-RH4X-SHW7X-native-QT-QD-v003.svg",
+      "sha256": "e2613868e9c70c705eab65e891710e4e5af787ac1eeb29995960b0294f98abe1"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/response-checks.json",
+      "sha256": "475d98a71fb4167be38d8d05e0005dc4af1f8433934389cc590ac75e9a1316b4"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/response-report.md",
+      "sha256": "eb45aad02925fa75bada4d50fdb5f31380bc60da35c9641a43333eb0ce9d34eb"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/response-summary.json",
+      "sha256": "e2716c8fc314a21ebb00485ff3943cdba4bb0e17c121d5376eb97090c6d2d637"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/Story8-native-device-timing-6.csv",
+      "sha256": "34be693676d7376d689143f78213e185c3010455fff5c5bcbebee1da30d71a6b"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/roles/response/three-model-common-six-records-72.csv",
+      "sha256": "156b2dc74600177f93012ef30e7cd9485c8f6e3d4a28b0899f75d3957e5e1a79"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/rounds/FINAL.md",
+      "sha256": "9719c54ae5897e5d889c72972707cb15a3f73a4b11b8d0353a1bdf2d44fc5eed"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/rounds/R001.md",
+      "sha256": "58da1c08b36f14f4a514d1a1daf7d7a0d04955004371aa5f4b48a1c0c4ac7d7e"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/rounds/R002.md",
+      "sha256": "18e2716cdb4c59222085fedb51e6702b4398d642b627d7c925502b5e2d77a51c"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/runs.md",
+      "sha256": "f031a8265ce5e7e1b857aeb59b71b1386ada8fbd72e5ffc500b43125dbb62721"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/shorten_heading.py",
+      "sha256": "0e6101ce24268af96538ae5e69a568d89d0b0a8287460608b3184a0cf2e94f55"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/status.json",
+      "sha256": "37f4f3a8d967fe573d703f02cfb4eb4bd5692164db91348ad49616333ee2e4b1"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/verify_and_supplement.py",
+      "sha256": "2fde94e8c7e2a1c1d68b23f618656b2b74a905fb390ffc3c6c4e427674bc72e2"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/word/author_word.py",
+      "sha256": "c8a3a3a2ff1f129b79cf0b4bdf7f8e52b0306c3dd141a140f1cf7048451bed07"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/word/build_word.py",
+      "sha256": "c7c7f949dc943059e1be199f6f70b1ed64f07d7a3721403b4a3a5cd4833d7036"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/word/math_omml.py",
+      "sha256": "ad0c091401c059d2676b2c8451d78967f142b5ad4a17944f64ca0885e8c71f44"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/word/render_review.py",
+      "sha256": "fc84cd5f2430eed66bab7d51131ee95a8d578256a85307dbdbadacd9cc5d6baf"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/word-identity-final.json",
+      "sha256": "d0f573e819bf2fa5e0fafef0df386e9b6e490e19ca76e170ede2766483dfcf89"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/word-identity-v1.json",
+      "sha256": "7938d0e68c6cae67b3bdeaea946a333fa314fcd10c1d4fc189a2f6b40aea08f5"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/word-identity-v2.json",
+      "sha256": "d7b3b8ea08cac19605e74b59321a63d1f2891177bee8956c34c64acc6be585d5"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/实际方案资料与完整附表.md",
+      "sha256": "a577c21eddc22f084125ea81da3e007afbff5714ebbdb8801df949f03c7e1453"
+    },
+    {
+      "relative": "research/sessions/20261103-1458/普通中文研究说明.md",
+      "sha256": "3e97aab625efc5dc07aaff93dbca1649cd04751359260f7b9288c731e2a7c028"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v001.md",
+      "sha256": "52f156a71dff7a9973bfe84811a0fed028d4da141ff97d51e3532f0ca4e6cd4f"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v002.md",
+      "sha256": "f5e12aa1a68cfa5a81473a8f1ef09fc4540cbf1e10207a25ca976834794d0a87"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v003.md",
+      "sha256": "925227b559a8241c778d357be6140058cad880a35364b62f00386ba2a5b16de0"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-v004.md",
+      "sha256": "b66b072aeca3019146e41664ce71ae81475d198410bf505e53afaf054d76ffe3"
+    },
+    {
+      "relative": "papers/damping-output-boundaries/manuscript/p06-actual-damper-session025-论文审阅稿-v004.docx",
+      "sha256": "0a91c78b152baa3472f1f92a00633e914512965d953179abc653bea95e66f88f"
+    }
+  ]
+}

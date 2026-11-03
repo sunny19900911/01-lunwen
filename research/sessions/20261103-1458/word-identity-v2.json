@@ -1,0 +1,364 @@
+{
+  "source": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\p06-actual-damper-session025-v003.md",
+  "source_sha256": "925227b559a8241c778d357be6140058cad880a35364b62f00386ba2a5b16de0",
+  "docx": "E:\\11-工作\\001-workbuddy spaceV1\\001-workbuddy space\\109-论文写作\\01-lunwen\\papers\\damping-output-boundaries\\manuscript\\p06-actual-damper-session025-论文审阅稿-v003.docx",
+  "docx_bytes": 690286,
+  "docx_sha256": "2a30d6e817ca388ae2a5559b9c4cbedf2c45c242dd2808168e8b8a04dcf7d9c1",
+  "source_tables_matched": [
+    {
+      "source_header": [
+        "资料",
+        "范围",
+        "本文用途"
+      ],
+      "docx_table_index": 0,
+      "rows_including_header": 5,
+      "cols": 3
+    },
+    {
+      "source_header": [
+        "方向/楼层",
+        "查看用途",
+        "输入",
+        "P_B/kN",
+        "P_M/kN",
+        "本输入减幅/%"
+      ],
+      "docx_table_index": 1,
+      "rows_including_header": 9,
+      "cols": 6
+    },
+    {
+      "source_header": [
+        "工况",
+        "楼层",
+        "P_B/kN",
+        "P_M/kN",
+        "减幅/%",
+        "峰时（基准→参考）/s"
+      ],
+      "docx_table_index": 2,
+      "rows_including_header": 7,
+      "cols": 6
+    },
+    {
+      "source_header": [
+        "量",
+        "SHW3X",
+        "SHW4X"
+      ],
+      "docx_table_index": 3,
+      "rows_including_header": 8,
+      "cols": 3
+    },
+    {
+      "source_header": [
+        "上端所在层",
+        "连接标高/m",
+        "数量",
+        "X向/Y向数量",
+        "轴长/m",
+        "水平倾角/°"
+      ],
+      "docx_table_index": 4,
+      "rows_including_header": 12,
+      "cols": 6
+    },
+    {
+      "source_header": [
+        "方向/楼层",
+        "查看用途",
+        "输入",
+        "P_B/kN",
+        "P_D/kN",
+        "本输入r_D/%"
+      ],
+      "docx_table_index": 5,
+      "rows_including_header": 7,
+      "cols": 6
+    },
+    {
+      "source_header": [
+        "工况",
+        "QT绝对峰/kN（时刻/s）",
+        "QD绝对峰/kN（时刻/s）",
+        "QT峰时QD/kN",
+        "同刻绝对值/自身峰/%",
+        "tQD−tQT/s"
+      ],
+      "docx_table_index": 6,
+      "rows_including_header": 7,
+      "cols": 6
+    },
+    {
+      "source_header": [
+        "阶次",
+        "方向有效质量比/%",
+        "第2层剪力系数（无量纲）"
+      ],
+      "docx_table_index": 7,
+      "rows_including_header": 4,
+      "cols": 3
+    }
+  ],
+  "numeric_table_cells_checked": 238,
+  "native_OMML_count": 56,
+  "native_fractions": 3,
+  "native_matrices": 1,
+  "source_figures_unchanged": [
+    {
+      "label": "图1 X/Y各层多输入减幅范围",
+      "sha256": "2b8a63f15e041a957765c4569c14ca17abc2540d0a51228926dacfff7d57552c"
+    },
+    {
+      "label": "图2 实际88只阻尼器布置",
+      "sha256": "00d245c6ae1fe6c549beb9732ac441d12a6e8b57aab266eb2def755c4af038d5"
+    },
+    {
+      "label": "图3 共有六工况三模型峰值包络",
+      "sha256": "a447de7d07dafb1dfc86b09ebe4622c1aa28ce20e7d455593df716a3ed911d0a"
+    },
+    {
+      "label": "图4 第8层两控制输入的实际出力",
+      "sha256": "16e40bb59c82d154895b15cacc671906a2da94339281b1c7d57c3110b76423e5"
+    },
+    {
+      "label": "图5 原峰时评价与完整峰值减幅对照",
+      "sha256": "0717f775d9c9d055402f9fb43658d7cfe6f980dab57820f2f3ab18d05cb1f3b0"
+    }
+  ],
+  "embedded_media": {
+    "word/media/image1.png": "2b8a63f15e041a957765c4569c14ca17abc2540d0a51228926dacfff7d57552c",
+    "word/media/image2.png": "00d245c6ae1fe6c549beb9732ac441d12a6e8b57aab266eb2def755c4af038d5",
+    "word/media/image3.png": "a447de7d07dafb1dfc86b09ebe4622c1aa28ce20e7d455593df716a3ed911d0a",
+    "word/media/image4.png": "16e40bb59c82d154895b15cacc671906a2da94339281b1c7d57c3110b76423e5",
+    "word/media/image5.png": "0717f775d9c9d055402f9fb43658d7cfe6f980dab57820f2f3ab18d05cb1f3b0"
+  },
+  "hyperlinks": [
+    {
+      "Id": "rId10",
+      "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+      "Target": "file:///E:/11-%E5%B7%A5%E4%BD%9C/001-workbuddy%20spaceV1/001-workbuddy%20space/109-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/01-lunwen/research/sessions/20261103-1458/%E5%AE%9E%E9%99%85%E6%96%B9%E6%A1%88%E8%B5%84%E6%96%99%E4%B8%8E%E5%AE%8C%E6%95%B4%E9%99%84%E8%A1%A8.md",
+      "TargetMode": "External"
+    },
+    {
+      "Id": "rId11",
+      "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+      "Target": "file:///E:/11-%E5%B7%A5%E4%BD%9C/001-workbuddy%20spaceV1/001-workbuddy%20space/109-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/01-lunwen/research/sessions/20261102-1917/roles/role5/R002/engineering-data-and-full-tables.md",
+      "TargetMode": "External"
+    },
+    {
+      "Id": "rId13",
+      "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+      "Target": "file:///E:/11-%E5%B7%A5%E4%BD%9C/001-workbuddy%20spaceV1/001-workbuddy%20space/109-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/01-lunwen/research/sessions/20261103-0845/roles/writing/SHW3X-SHW4X-%E8%BE%85%E5%8A%A9%E5%88%86%E6%9E%90%E8%B5%84%E6%96%99-v002.md",
+      "TargetMode": "External"
+    },
+    {
+      "Id": "rId14",
+      "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+      "Target": "file:///E:/11-%E5%B7%A5%E4%BD%9C/001-workbuddy%20spaceV1/001-workbuddy%20space/109-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/01-lunwen/research/revisions/20261103-1407-mechanism-classification/%E6%9C%BA%E5%88%B6%E5%88%86%E7%B1%BB%E4%B8%8E%E5%90%8C%E5%88%BB%E5%AF%B9%E7%85%A7.md",
+      "TargetMode": "External"
+    },
+    {
+      "Id": "rId19",
+      "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+      "Target": "file:///E:/11-%E5%B7%A5%E4%BD%9C/001-workbuddy%20spaceV1/001-workbuddy%20space/109-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/01-lunwen/research/sessions/20261021-0737/roles/role5/R001-methods-supplement.md",
+      "TargetMode": "External"
+    }
+  ],
+  "author_metadata_empty": true,
+  "A4_and_official_reference_margins": true,
+  "section_layouts": [
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "360"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 1,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    },
+    {
+      "columns": 2,
+      "column_gap_twips": "720",
+      "grid_line_pitch_twips": "315"
+    }
+  ],
+  "visual_QA_separate_required": true
+}
