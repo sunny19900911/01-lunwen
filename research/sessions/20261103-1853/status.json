@@ -1,5 +1,5 @@
 {
-  "phase": "final-review-and-word-production",
+  "phase": "closed-delivered-with-modal-gap",
   "started_at": "2026-11-03T18:52:46+08:00",
   "recorded_at": "2026-11-03T19:09:53.139391+08:00",
   "checkpoint_open": false,
@@ -18,5 +18,21 @@
   "no_new_scientific_dispatch": true,
   "scientific_manuscript": "papers/damping-output-boundaries/manuscript/p06-actual-timing-session027-v003.md",
   "scientific_sha256": "61bce79bc063aa05deef28508cdd0189d93341162cca58475d64481402e7fb18",
-  "actual_q_recovery": "CM projection completed; exact actual q and shear reconstruction not closed"
+  "actual_q_recovery": "CM projection completed; exact actual q and shear reconstruction not closed",
+  "closed_at": "2026-11-03T19:57:22.162886+08:00",
+  "final_manuscript": "papers/damping-output-boundaries/manuscript/p06-actual-timing-session027-v004.md",
+  "final_word": "papers/damping-output-boundaries/manuscript/p06-actual-timing-session027-论文审阅稿-v004.docx",
+  "final_word_sha256": "85350fbecf951a17e39e4e37f0394dc947237351ef6f24be895898b08fa5dc68",
+  "visual_QA": "final-visual-review.json",
+  "final_git_receipt": "git-FINAL-receipt.json",
+  "actual_5_2_completed": true,
+  "actual_q2_q13_recovered": false,
+  "modal_observation_projection_completed": true,
+  "true_modal_shear_reconstruction_verified": false,
+  "remaining_scientific_items": [
+    "直接actual q或完整位移及MΦ质量投影",
+    "若用动力恢复则完整非线性广义力及实际动力设置",
+    "与软件Bottom一致的目标剪力恢复关系"
+  ],
+  "remaining_delivery_work": []
 }
